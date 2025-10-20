@@ -10,7 +10,7 @@ name: get latest Thunderbird desktop questions
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 */4 * * *'
+    - cron:  '0 9,21 * * *'
       
 jobs:
   scheduled:
