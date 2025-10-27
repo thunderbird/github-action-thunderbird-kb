@@ -118634,6 +118634,7 @@ This feature is experimental and is being introduced to the Firefox user base th
 </p>
 </div>
 <p></p>
+<div class=""warning"">This feature is still under experimentation and enabled by default only for Firefox Nightly users.</div>
 <h1 id=""w_why-is-firefox-adding-these-permissions"">Why is Firefox adding these permissions?</h1>
 <p>Websites can attempt to access your personal device — such as your computer or local network — and connected devices —  such as routers, printers and local web servers — without your permission. Malicious sites have used these capabilities to track you or scan for vulnerable devices.
 </p><p>To keep you safe and help you stay in control of your data and devices, Firefox now asks for your permission when a site tries to connect to your device or local network.
@@ -118702,6 +118703,8 @@ This feature is experimental and is being introduced to the Firefox user base th
 </li></ul>",firefox,privacy-and-security;security,"To better protect your privacy and security, Firefox includes permissions that control whether websites can access apps and services on your local network and local device. This change stops websites from exploiting them without your knowledge.
 
 ![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users.
+
+This feature is still under experimentation and enabled by default only for Firefox Nightly users.
 
 # Why is Firefox adding these permissions?
 
@@ -119584,12 +119587,12 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 <h3 id=""w_thunderbird-profiles-with-1-or-more-accounts"">Thunderbird profiles with 1 or more accounts</h3>
 <p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with one or more accounts, you will see the new Thunderbird <strong>Account Hub</strong> flow:
 </p>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span> 
-</li><li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account. <div class=""note"">Note: you do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Here is a screenshot of that panel provided by Microsoft:
-<dl><dt><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>.
+</li><li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.<div class=""note""><strong>Note:</strong> You do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div>Here is a screenshot of that panel provided by Microsoft:
+<dl><dt><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-</li><li> Click the <span class=""button"">Exchange</span> button (not the one labelled <span class=""button"">Exchange  REQUIRES ADD-ON</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange code.<div class=""note"">Note: The <span class=""button"">Exchange</span> button only appears if the email you entered is an Exchange account.</div>
-<dl><dt><img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+</li><li> Click the <span class=""button"">Exchange</span> button (not the one labelled <span class=""button"">Exchange  REQUIRES ADD-ON</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange code.<div class=""note""><strong>Note:</strong> The <span class=""button"">Exchange</span> button only appears if the email you entered is an Exchange account.</div>
+<dl><dt><img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li><li> Follow the prompts to finish adding your Exchange account.
 </li></ol>
@@ -119598,12 +119601,12 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 <h3 id=""w_thunderbird-profile-with-no-accounts"">Thunderbird profile with no accounts</h3>
 <p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with no accounts, you will see the older, <strong>Set Up Your Existing Email Address</strong> flow:
 </p>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span> 
-</li><li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.. <div class=""note"">Note: you do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Here is a screenshot of that panel provided by Microsoft:
-<dl><dt><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>.
+</li><li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.<div class=""note""><strong>Note:</strong> You do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div>Here is a screenshot of that panel provided by Microsoft:
+<dl><dt><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-</li><li> Click the <span class=""button"">Exchange Web Services</span> button (not the one labelled <span class=""button"">Exchange/Office365</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange implementation.<div class=""note"">Note: The <span class=""button"">Exchange Web Services</span> button only appears if the email you entered is an Exchange account.</div>
-<dl><dt><img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+</li><li> Click the <span class=""button"">Exchange Web Services</span> button (not the one labelled <span class=""button"">Exchange/Office365</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange implementation.<div class=""note""><strong>Note:</strong> The <span class=""button"">Exchange Web Services</span> button only appears if the email you entered is an Exchange account.</div>
+<dl><dt><img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li><li> Follow the prompts to finish adding your Exchange account.
 </li></ol>
@@ -119665,16 +119668,16 @@ When creating a new account using classic account creation, choose the ""Exchang
 
 If you have a [Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"") with one or more accounts, you will see the new Thunderbird **Account Hub** flow:
 
-1. Click Thunderbird app menu ☰ \> New Account \> Email
-2. Follow the flow by entering your name, email address, and if required, your [two factor authentication code](https://en.wikipedia.org/wiki/Multi-factor_authentication) for your Exchange email account. 
-Note: you do not need to enter your password in the **Password** field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.
- Here is a screenshot of that panel provided by Microsoft:<dl><dt>
-<img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+1. Click Thunderbird app menu ☰ \> New Account \> Email.
+2. Follow the flow by entering your name, email address, and if required, your [two factor authentication code](https://en.wikipedia.org/wiki/Multi-factor_authentication) for your Exchange email account.
+**Note:** You do not need to enter your password in the **Password** field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.
+Here is a screenshot of that panel provided by Microsoft:<dl><dt>
+<img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 3. Click the Exchange button (not the one labelled Exchange REQUIRES ADD-ON) in the **Choose your email account type** dialogue to use Thunderbird's built-in Exchange code.
-Note: The Exchange button only appears if the email you entered is an Exchange account.
+**Note:** The Exchange button only appears if the email you entered is an Exchange account.
 <dl><dt>
-<img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 4. Follow the prompts to finish adding your Exchange account.
 
@@ -119684,16 +119687,18 @@ Note: The Exchange button only appears if the email you entered is an Exchange a
 <p>If you have a <a href='\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""'>Thunderbird profile</a> with no accounts, you will see the older, <strong>Set Up Your Existing Email Address</strong> flow:
 </p>
 <ol>
-<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span> 
+<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>.
 </li>
-<li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.. <div class=""note"">Note: you do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Here is a screenshot of that panel provided by Microsoft:
+<li> Follow the flow by entering your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.<div class=""note"">
+<strong>Note:</strong> You do not need to enter your password in the <strong>Password</strong> field of the first dialogue. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div>Here is a screenshot of that panel provided by Microsoft:
 <dl><dt>
-<img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li>
-<li> Click the <span class=""button"">Exchange Web Services</span> button (not the one labelled <span class=""button"">Exchange/Office365</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange implementation.<div class=""note"">Note: The <span class=""button"">Exchange Web Services</span> button only appears if the email you entered is an Exchange account.</div>
+<li> Click the <span class=""button"">Exchange Web Services</span> button (not the one labelled <span class=""button"">Exchange/Office365</span>) in the <strong>Choose your email account type</strong> dialogue to use Thunderbird's built-in Exchange implementation.<div class=""note"">
+<strong>Note:</strong> The <span class=""button"">Exchange Web Services</span> button only appears if the email you entered is an Exchange account.</div>
 <dl><dt>
-<img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li>
 <li> Follow the prompts to finish adding your Exchange account.
