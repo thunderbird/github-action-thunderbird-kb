@@ -6492,7 +6492,40 @@ To view your bookmarks in various sort orders, use the Library window:
 </p>
 <dl><dt><span class=""for"" data-for=""win""><img alt=""Enter primary password image for fx80+"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-06-14-23-29-b32b06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
 </dt></dl>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-primary-password""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a Primary Password</span></a></li><li class=""toclevel-1""><a href=""#w_remove-the-primary-password""><span class=""tocnumber"">2</span> <span class=""toctext"">Remove the Primary Password</span></a></li><li class=""toclevel-1""><a href=""#w_change-the-primary-password""><span class=""tocnumber"">3</span> <span class=""toctext"">Change the Primary Password</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-firefox-stores-and-protects-your-saved-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">How Firefox stores and protects your saved passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_password-encryption-in-firefox""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Password encryption in Firefox</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_create-a-primary-password""><span class=""tocnumber"">2</span> <span class=""toctext"">Create a Primary Password</span></a></li><li class=""toclevel-1""><a href=""#w_remove-the-primary-password""><span class=""tocnumber"">3</span> <span class=""toctext"">Remove the Primary Password</span></a></li><li class=""toclevel-1""><a href=""#w_change-the-primary-password""><span class=""tocnumber"">4</span> <span class=""toctext"">Change the Primary Password</span></a></li></ul></div>
+<h1 id=""w_how-firefox-stores-and-protects-your-saved-passwords"">How Firefox stores and protects your saved passwords</h1>
+<div class=""note""><strong>Note</strong>: The information below applies to Firefox and Thunderbird on desktop. Mobile versions already use a shared system called Application Services to store and sync logins.</div>
+<p>Firefox saves your passwords in two small files inside your Firefox profile folder:
+</p>
+<ul><li><strong>logins.json</strong> – contains your encrypted usernames and passwords
+</li><li><strong>key4.db</strong> – stores the encryption key used to protect those logins
+</li></ul>
+<p>Firefox’s built-in cryptography library, Network Security Services (NSS), protects these files. If you set a <strong>Primary Password</strong>, Firefox will use it to encrypt the key in key4.db.
+</p>
+<div class=""note""><strong>Tip</strong>: Without a Primary Password, anyone who copies both files from your profile can read your saved logins. Setting a Primary Password adds strong protection.</div>
+<h2 id=""w_password-encryption-in-firefox"">Password encryption in Firefox</h2>
+<p>Firefox uses the local encryption method for saved logins.
+</p>
+<table>
+<caption> Password encryption
+</caption><tbody><tr>
+<th>Change</th><th>Old</th><th>New
+</th></tr>
+<tr>
+<td>Encryption algorithm</td><td>3DES-CBC</td><td>AES-256-CBC
+</td></tr>
+<tr>
+<td>Key size</td><td>112 bits</td><td>256 bits
+</td></tr>
+<tr>
+<td>Purpose</td><td>Local protection of passwords stored on disk</td><td>Stronger, modern encryption standard
+</td></tr></tbody></table>
+<ul><li><strong>AES (Advanced Encryption Standard)</strong> is faster and much more secure than 3DES.
+</li><li>This change improves the protection of your passwords locally, on disk.
+</li><li><strong>Firefox Sync</strong> uses end-to-end encryption with AES-256-GCM and is unaffected.
+</li></ul>
+<p>This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
+</p>
 <h1 id=""w_create-a-primary-password"">Create a Primary Password</h1>
 <p>By default, Firefox does not use Primary Passwords (formerly known as Master password) to protect stored credentials. To define a Primary Password:
 </p>
@@ -6594,9 +6627,43 @@ If you share a computer with anyone, it is strongly recommended that you use a P
 
 ## Table of Contents
 
-- [1 Create a Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_create-a-primary-password)
-- [2 Remove the Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_remove-the-primary-password)
-- [3 Change the Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_change-the-primary-password)
+- [1 How Firefox stores and protects your saved passwords](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_how-firefox-stores-and-protects-your-saved-passwords)
+  - [1.1 Password encryption in Firefox](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_password-encryption-in-firefox)
+
+- [2 Create a Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_create-a-primary-password)
+- [3 Remove the Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_remove-the-primary-password)
+- [4 Change the Primary Password](https://support.mozilla.org/kb/use-primary-password-protect-stored-logins#w_change-the-primary-password)
+
+# How Firefox stores and protects your saved passwords
+
+**Note** : The information below applies to Firefox and Thunderbird on desktop. Mobile versions already use a shared system called Application Services to store and sync logins.
+
+Firefox saves your passwords in two small files inside your Firefox profile folder:
+
+- **logins.json** – contains your encrypted usernames and passwords
+- **key4.db** – stores the encryption key used to protect those logins
+
+Firefox’s built-in cryptography library, Network Security Services (NSS), protects these files. If you set a **Primary Password** , Firefox will use it to encrypt the key in key4.db.
+
+**Tip** : Without a Primary Password, anyone who copies both files from your profile can read your saved logins. Setting a Primary Password adds strong protection.
+
+## Password encryption in Firefox
+
+Firefox uses the local encryption method for saved logins.
+
+<caption> Password encryption
+</caption>
+| Change | Old | New |
+| --- | --- | --- |
+| Encryption algorithm | 3DES-CBC | AES-256-CBC |
+| Key size | 112 bits | 256 bits |
+| Purpose | Local protection of passwords stored on disk | Stronger, modern encryption standard |
+
+- **AES (Advanced Encryption Standard)** is faster and much more secure than 3DES.
+- This change improves the protection of your passwords locally, on disk.
+- **Firefox Sync** uses end-to-end encryption with AES-256-GCM and is unaffected.
+
+This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
 
 # Create a Primary Password
 
@@ -68596,6 +68663,27 @@ See [Manage the devices linked to your Mozilla account](\""https://support.mozil
 
 "
 44770,How Firefox securely saves passwords,how-firefox-securely-saves-passwords,https://support.mozilla.org/en-US/kb/how-firefox-securely-saves-passwords,en-US,Learn how Firefox securely saves your passwords.,"<p>Your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a> and <a href=""/en-US/kb/sync"">Firefox Sync</a> allow you to save and sync your logins, as well as let you know if any of your passwords are vulnerable. They both also protect your passwords with <a href=""https://wikipedia.org/wiki/Encryption"">encryption</a> so that even Mozilla can’t see them. Meanwhile, Firefox checks your saved websites against a database of breached websites to let you know if your logins are vulnerable. For more information, see <a href=""/en-US/kb/firefox-password-manager-alerts-breached-websites"">Firefox Password Manager - Alerts for breached websites</a>.
+</p><p>Firefox uses the local encryption method for saved logins.
+</p>
+<table>
+<caption> Password encryption
+</caption><tbody><tr>
+<th>Change</th><th>Old</th><th>New
+</th></tr>
+<tr>
+<td>Encryption algorithm</td><td>3DES-CBC</td><td>AES-256-CBC
+</td></tr>
+<tr>
+<td>Key size</td><td>112 bits</td><td>256 bits
+</td></tr>
+<tr>
+<td>Purpose</td><td>Local protection of passwords stored on disk</td><td>Stronger, modern encryption standard
+</td></tr></tbody></table>
+<ul><li><strong>AES (Advanced Encryption Standard)</strong> is faster and much more secure than 3DES.
+</li><li>This change improves the protection of your passwords locally, on disk.
+</li><li><strong>Firefox Sync</strong> uses end-to-end encryption with AES-256-GCM and is unaffected.
+</li></ul>
+<p>This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_firefox-sync""><span class=""tocnumber"">1</span> <span class=""toctext"">Firefox Sync</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-desktop""><span class=""tocnumber"">2</span> <span class=""toctext"">Firefox Desktop</span></a></li></ul></div>
 <h1 id=""w_firefox-sync"">Firefox Sync</h1>
@@ -68610,6 +68698,22 @@ See [Manage the devices linked to your Mozilla account](\""https://support.mozil
 </li><li><a href=""/en-US/kb/where-are-my-logins-stored"">Where are my logins stored?</a>
 </li><li><a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Password Manager - Remember, delete and edit logins and passwords in Firefox</a>
 </li></ul>",firefox;mozilla-account,privacy-and-security;sync-data,"Your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") and [Firefox Sync](\""https://support.mozilla.org/en-US/kb/sync"") allow you to save and sync your logins, as well as let you know if any of your passwords are vulnerable. They both also protect your passwords with [encryption](https://wikipedia.org/wiki/Encryption) so that even Mozilla can’t see them. Meanwhile, Firefox checks your saved websites against a database of breached websites to let you know if your logins are vulnerable. For more information, see [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"").
+
+Firefox uses the local encryption method for saved logins.
+
+<caption> Password encryption
+</caption>
+| Change | Old | New |
+| --- | --- | --- |
+| Encryption algorithm | 3DES-CBC | AES-256-CBC |
+| Key size | 112 bits | 256 bits |
+| Purpose | Local protection of passwords stored on disk | Stronger, modern encryption standard |
+
+- **AES (Advanced Encryption Standard)** is faster and much more secure than 3DES.
+- This change improves the protection of your passwords locally, on disk.
+- **Firefox Sync** uses end-to-end encryption with AES-256-GCM and is unaffected.
+
+This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
 
 ## Table of Contents
 
@@ -114889,6 +114993,1047 @@ This feature is only available in English locales worldwide.
 - [Tab groups in Firefox](\""https://support.mozilla.org/en-US/kb/tab-groups"")
 
 "
+67328,Forum taxonomy guideline,forum-taxonomy-guideline,https://support.mozilla.org/en-US/kb/forum-taxonomy-guideline,en-US,This page provides instructions for forum moderators on how to apply topics and tags to questions in forums using the new moderation tool.,"<p>Unlike in the Knowledge Base system that offer dynamic selection when choosing topic for a KB article, Forum Moderators will see a full list of topics when moderating from the <a href=""/moderate"">new moderation tool</a>. 
+</p><p>This article outlines our new taxonomy structure and provides product-specific taxonomy maps to help Forum Moderators apply appropriate topics across products. As a moderator, you'll gain better understanding into how our taxonomy system functions within our community forums.
+</p>
+<h1 id=""w_taxonomy-structure"">Taxonomy structure</h1>
+<p>Our taxonomy structure consists of Tier 1 (represent the primary topic), Tier 2 (represent a sub-topic), and Tier 3 (represent a deeper and more narrow sub-topic). 
+</p>
+<ol><li> <strong>Tier 1 Topic</strong>: The top most level of the taxonomy. Tier 1 topics should be broad enough to cover multiple user needs, but not so broad that they become a catch-all for unrelated sub-topics.
+</li><li> <strong>Tier 2 Sub-topic</strong>: The second level of the taxonomy. Tier 2 sub-topics break down Tier 1 topics with more specificity, focusing on specific concepts or themes. As a general rule, sub-topics should increase in specificity the deeper down the hierarchy they go. 
+</li><li> <strong>Tier 3 Sub-topic</strong>: The third level of the taxonomy. The creation and use of Tier 3 sub-topics provides the flexibility to use terms that are specific or exclusive to a product feature or functionality.
+</li><li> <strong>Segmentation tags</strong>: a curated list of tags, or segmentation tags as we’ve been calling them, to categorize a piece of content (e.g. forum post, knowledge base article, or support ticket) that either doesn’t fit into a topic-centric taxonomy or would require too many tiers to properly capture in the hierarchical structure of the taxonomy. The dual-purpose coverage that tags provide means specific incidents or product features can be tracked across support channels and the data we collect from those support channels can be filtered by categories like operating system or device type.
+</li></ol>
+<p>Here's how it'll be represented in the taxonomy map: 
+</p>
+<ul><li> <strong>Tier 1 (Primary topic)</strong>
+<ul><li> Tier 2 (Sub-topic)
+<ul><li> Tier 3 (Sub-topic)
+</li></ul>
+</li></ul>
+</li></ul>
+<h1 id=""w_taxonomy-map-per-product"">Taxonomy map per product</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_firefox-desktop-and-mobile"">Firefox (desktop and mobile)</h2>
+<ul><li> <strong>Accessibility</strong>
+<ul><li> Reader view
+</li><li> Text-to-speech
+<ul><li> Listen
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+<ul><li> Edit account details
+</li><li> Location
+</li></ul>
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Backup, recovery, and sync	</strong>
+<ul><li> Backup data
+</li><li> Recover data
+<ul><li> Sync and backup confusion
+</li></ul>
+</li><li> Sync data
+<ul><li> Sync configuration
+</li><li> Sync failure
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+<ul><li> Audio and video
+<ul><li> PiP
+</li></ul>
+</li><li> Bookmarks
+</li><li> History
+<ul><li> Cookies
+</li></ul>
+</li><li> Home screen
+<ul><li> Dashboard
+</li><li> New tab
+</li></ul>
+</li><li> Images and documents
+<ul><li> Images
+</li><li> PDFs
+</li></ul>
+</li><li> Links
+</li><li> Tabs
+</li></ul>
+</li></ul>
+<ul><li> <strong>Download and save	</strong>
+<ul><li> Downloads
+<ul><li> Download failure
+</li><li> Print
+</li></ul>
+</li><li> Save content
+<ul><li> Reading list
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+<ul><li> ESR
+</li><li> Install failure
+</li></ul>
+</li><li> Update
+<ul><li> Update failure
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Primary Password
+</li><li> Save passwords
+<ul><li> Password autofill
+</li><li> Password manager
+</li></ul>
+</li><li> Sign in
+</li><li> Reset passwords
+</li><li> Two-factor authentication
+<ul><li> Two-factor lockout
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+<ul><li> Slow connection
+</li></ul>
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li><li> App responsiveness
+</li><li> Launch failure
+</li><li> Loading speed
+</li></ul>
+</li><li> Error Codes
+<ul><li> Web certificates
+</li></ul>
+</li><li> Site breakages
+<ul><li> Blocked application/service/website
+</li><li> Security software
+</li><li> Web compatibility
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+<ul><li> Browser security
+</li><li> Device permissions
+</li></ul>
+</li><li> Tracking protection
+<ul><li> Cookies
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+<ul><li> Search suggestions
+</li></ul>
+</li><li> Share content
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+<ul><li> Browser appearance
+</li></ul>
+</li><li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li><li> Languages
+</li><li> Notifications
+<ul><li> Push notifications
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-for-enterprise"">Firefox for Enterprise</h2>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li><li> Tracking protection
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-focus"">Firefox Focus</h2>
+<ul><li> <strong>Browse</strong>
+<ul><li> Home screen
+</li><li> Links
+</li><li> Tabs
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li><li> Site breakages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li><li> Tracking protection
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird"">Thunderbird</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul><li> Attachments
+</li><li> Calendar
+<ul><li> Events
+</li></ul>
+</li><li> Contacts
+</li><li> Import and export email
+</li><li> Instant messaging
+</li><li> Junk mail and spam
+</li><li> Send and receive email
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Save passwords
+</li><li> Reset passwords
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li><li> Tags
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird-for-android"">Thunderbird for Android</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul><li> Attachments
+</li><li> Calendar
+<ul><li> Events
+</li></ul>
+</li><li> Contacts
+</li><li> Import and export email
+</li><li> Instant messaging
+</li><li> Junk mail and spam
+</li><li> Send and receive email
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Save passwords
+</li><li> Reset passwords
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li><li> Tags
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p></section>
+<p></p>
+<h1 id=""w_segmentation-tags"">Segmentation tags</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_operating-system"">Operating System</h2>
+<ul><li> googleplay
+</li><li> ios
+</li><li> linux
+</li><li> linux-debian
+</li><li> linux-fedora
+</li><li> mac
+</li><li> win10
+</li><li> win11
+</li></ul>
+<h2 id=""w_products"">Products</h2>
+<ul><li> firefox_accounts
+</li><li> firefox-private-network-vpn
+</li><li> hubs
+</li><li> mdn-plus
+</li><li> monitor
+</li><li> mozilla-account
+</li><li> pocket
+</li><li> relay
+</li></ul>
+<p></p></section>
+<p></p>
+<h1 id=""w_faq-on-applying-the-new-taxonomy"">FAQ on applying the new taxonomy</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-granular-should-i-be-in-applying-topics-or-tags"">How granular should I be in applying topics or tags?</h2>
+<p>When categorizing a piece of content (i.e. - a KB article, forum post, or support request) with a taxonomy topic, it is best to be as specific as possible. Start at Tier 3 and identify if there is an applicable topic. If none are available, move up to Tier 2, and then Tier 1.
+</p><p>With the exception of a few groups of tags (e.g. ones used to identify a type of ticket like spam, feature request, or performance bug), most tags are designed to be granular and applicable to specific features or content. If you are unsure of whether a particular tag should be applied to a piece of content, you can ask in the moderator forum. Questions about the application of tags help us further clarify any confusion, anticipate the need for new tags, and determine if a tag should be deprecated.  
+</p>
+<h2 id=""w_when-a-piece-of-content-fits-multiple-topics-which-taxonomy-topic-should-i-apply"">When a piece of content fits multiple topics, which taxonomy topic should I apply?</h2>
+<p>At the moment, there isn’t a way to apply multiple taxonomy topics to a piece of content, with the exception of a KB article. If there are multiple questions submitted together in a forum post or support ticket, do your best to apply the taxonomy topic that is most relevant to the user’s submitted question.
+</p>
+<h2 id=""w_what-should-i-do-if-none-of-the-topics-or-tags-seem-applicable-or-appropriate"">What should I do if none of the topics or tags seem applicable or appropriate?</h2>
+<p>A product might not have an existing taxonomy topic available to it due to a lack of related content in the Knowledge Base, community forums, or support tickets. Before making a request for a new topic to be created (more info on that below), be sure to check the All Topics taxonomy map to see if the topic you’re looking for, or something similar, already exists. If it does, you can request that topic be made available to the product.
+</p><p>In instances where none of the topics seem specific enough to appropriately match the content, apply the broadest topic with the most relevance. This will likely be a Tier 1 topic. If you’re unable to apply a more specific topic beyond Tier 1 and the lack of specificity is going to be an issue, raise a flag in the moderator forum.
+</p><p>Unlike topics, tags are not required, which means it’s okay if a piece of content doesn’t have a tag applied to it. However, the new list of moderated tags is highly curated, making it unlikely that there will be absolutely no applicable tags. For example, tags from categories such as device, OS, platform, and ticket type are almost always applicable to a piece of content.
+</p>
+<h2 id=""w_do-i-need-to-apply-multiple-tags-or-just-one-whats-the-threshold-for-multiple-tags"">Do I need to apply multiple tags or just one? What’s the threshold for multiple tags?</h2>
+<p>The more tags applied to a piece of content, the more data points associated with it. The more data points associated with a piece of content, the more ways it can be filtered and segmented when viewing collections of data. However, we understand the concern with potentially adding so much signal that it becomes noise. Unless you’re attempting to tag multiple questions within one piece of content, there should be minimal risk of “going overboard” with tags. If you’re confident about their relevance, feel free to apply multiple tags.
+</p><p></p></section>
+<p></p>",contributor,forum,"Unlike in the Knowledge Base system that offer dynamic selection when choosing topic for a KB article, Forum Moderators will see a full list of topics when moderating from the [new moderation tool](\""https://support.mozilla.org/moderate"").
+
+This article outlines our new taxonomy structure and provides product-specific taxonomy maps to help Forum Moderators apply appropriate topics across products. As a moderator, you'll gain better understanding into how our taxonomy system functions within our community forums.
+
+# Taxonomy structure
+
+Our taxonomy structure consists of Tier 1 (represent the primary topic), Tier 2 (represent a sub-topic), and Tier 3 (represent a deeper and more narrow sub-topic).
+
+1. **Tier 1 Topic** : The top most level of the taxonomy. Tier 1 topics should be broad enough to cover multiple user needs, but not so broad that they become a catch-all for unrelated sub-topics.
+2. **Tier 2 Sub-topic** : The second level of the taxonomy. Tier 2 sub-topics break down Tier 1 topics with more specificity, focusing on specific concepts or themes. As a general rule, sub-topics should increase in specificity the deeper down the hierarchy they go. 
+3. **Tier 3 Sub-topic** : The third level of the taxonomy. The creation and use of Tier 3 sub-topics provides the flexibility to use terms that are specific or exclusive to a product feature or functionality.
+4. **Segmentation tags** : a curated list of tags, or segmentation tags as we’ve been calling them, to categorize a piece of content (e.g. forum post, knowledge base article, or support ticket) that either doesn’t fit into a topic-centric taxonomy or would require too many tiers to properly capture in the hierarchical structure of the taxonomy. The dual-purpose coverage that tags provide means specific incidents or product features can be tracked across support channels and the data we collect from those support channels can be filtered by categories like operating system or device type.
+
+Here's how it'll be represented in the taxonomy map:
+
+- **Tier 1 (Primary topic)**
+  - Tier 2 (Sub-topic)
+    - Tier 3 (Sub-topic)
+
+# Taxonomy map per product
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_firefox-desktop-and-mobile"">Firefox (desktop and mobile)</h2>
+<ul><li> <strong>Accessibility</strong>
+<ul>
+<li> Reader view
+</li>
+<li> Text-to-speech
+<ul><li> Listen
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+<ul>
+<li> Edit account details
+</li>
+<li> Location
+</li>
+</ul>
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Backup, recovery, and sync	</strong>
+<ul>
+<li> Backup data
+</li>
+<li> Recover data
+<ul><li> Sync and backup confusion
+</li></ul>
+</li>
+<li> Sync data
+<ul>
+<li> Sync configuration
+</li>
+<li> Sync failure
+</li>
+</ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+<ul>
+<li> Audio and video
+<ul><li> PiP
+</li></ul>
+</li>
+<li> Bookmarks
+</li>
+<li> History
+<ul><li> Cookies
+</li></ul>
+</li>
+<li> Home screen
+<ul>
+<li> Dashboard
+</li>
+<li> New tab
+</li>
+</ul>
+</li>
+<li> Images and documents
+<ul>
+<li> Images
+</li>
+<li> PDFs
+</li>
+</ul>
+</li>
+<li> Links
+</li>
+<li> Tabs
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Download and save	</strong>
+<ul>
+<li> Downloads
+<ul>
+<li> Download failure
+</li>
+<li> Print
+</li>
+</ul>
+</li>
+<li> Save content
+<ul><li> Reading list
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+<ul>
+<li> ESR
+</li>
+<li> Install failure
+</li>
+</ul>
+</li>
+<li> Update
+<ul><li> Update failure
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Primary Password
+</li>
+<li> Save passwords
+<ul>
+<li> Password autofill
+</li>
+<li> Password manager
+</li>
+</ul>
+</li>
+<li> Sign in
+</li>
+<li> Reset passwords
+</li>
+<li> Two-factor authentication
+<ul><li> Two-factor lockout
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+<ul><li> Slow connection
+</li></ul>
+</li>
+<li> Crashing and slow performance
+<ul>
+<li> App crash
+</li>
+<li> App responsiveness
+</li>
+<li> Launch failure
+</li>
+<li> Loading speed
+</li>
+</ul>
+</li>
+<li> Error Codes
+<ul><li> Web certificates
+</li></ul>
+</li>
+<li> Site breakages
+<ul>
+<li> Blocked application/service/website
+</li>
+<li> Security software
+</li>
+<li> Web compatibility
+</li>
+</ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+<ul>
+<li> Browser security
+</li>
+<li> Device permissions
+</li>
+</ul>
+</li>
+<li> Tracking protection
+<ul><li> Cookies
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+<ul><li> Search suggestions
+</li></ul>
+</li>
+<li> Share content
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+<ul><li> Browser appearance
+</li></ul>
+</li>
+<li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li>
+<li> Languages
+</li>
+<li> Notifications
+<ul><li> Push notifications
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-for-enterprise"">Firefox for Enterprise</h2>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+<li> Tracking protection
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-focus"">Firefox Focus</h2>
+<ul><li> <strong>Browse</strong>
+<ul>
+<li> Home screen
+</li>
+<li> Links
+</li>
+<li> Tabs
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Crashing and slow performance
+</li>
+<li> Site breakages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+<li> Tracking protection
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird"">Thunderbird</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul>
+<li> Attachments
+</li>
+<li> Calendar
+<ul><li> Events
+</li></ul>
+</li>
+<li> Contacts
+</li>
+<li> Import and export email
+</li>
+<li> Instant messaging
+</li>
+<li> Junk mail and spam
+</li>
+<li> Send and receive email
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Save passwords
+</li>
+<li> Reset passwords
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+</li>
+<li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+</li>
+<li> Tags
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird-for-android"">Thunderbird for Android</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul>
+<li> Attachments
+</li>
+<li> Calendar
+<ul><li> Events
+</li></ul>
+</li>
+<li> Contacts
+</li>
+<li> Import and export email
+</li>
+<li> Instant messaging
+</li>
+<li> Junk mail and spam
+</li>
+<li> Send and receive email
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Save passwords
+</li>
+<li> Reset passwords
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+</li>
+<li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+</li>
+<li> Tags
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p></section>
+
+# Segmentation tags
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_operating-system"">Operating System</h2>
+<ul>
+<li> googleplay
+</li>
+<li> ios
+</li>
+<li> linux
+</li>
+<li> linux-debian
+</li>
+<li> linux-fedora
+</li>
+<li> mac
+</li>
+<li> win10
+</li>
+<li> win11
+</li>
+</ul>
+<h2 id=""w_products"">Products</h2>
+<ul>
+<li> firefox_accounts
+</li>
+<li> firefox-private-network-vpn
+</li>
+<li> hubs
+</li>
+<li> mdn-plus
+</li>
+<li> monitor
+</li>
+<li> mozilla-account
+</li>
+<li> pocket
+</li>
+<li> relay
+</li>
+</ul>
+<p></p></section>
+
+# FAQ on applying the new taxonomy
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-granular-should-i-be-in-applying-topics-or-tags"">How granular should I be in applying topics or tags?</h2>
+<p>When categorizing a piece of content (i.e. - a KB article, forum post, or support request) with a taxonomy topic, it is best to be as specific as possible. Start at Tier 3 and identify if there is an applicable topic. If none are available, move up to Tier 2, and then Tier 1.
+</p>
+<p>With the exception of a few groups of tags (e.g. ones used to identify a type of ticket like spam, feature request, or performance bug), most tags are designed to be granular and applicable to specific features or content. If you are unsure of whether a particular tag should be applied to a piece of content, you can ask in the moderator forum. Questions about the application of tags help us further clarify any confusion, anticipate the need for new tags, and determine if a tag should be deprecated.  
+</p>
+<h2 id=""w_when-a-piece-of-content-fits-multiple-topics-which-taxonomy-topic-should-i-apply"">When a piece of content fits multiple topics, which taxonomy topic should I apply?</h2>
+<p>At the moment, there isn’t a way to apply multiple taxonomy topics to a piece of content, with the exception of a KB article. If there are multiple questions submitted together in a forum post or support ticket, do your best to apply the taxonomy topic that is most relevant to the user’s submitted question.
+</p>
+<h2 id=""w_what-should-i-do-if-none-of-the-topics-or-tags-seem-applicable-or-appropriate"">What should I do if none of the topics or tags seem applicable or appropriate?</h2>
+<p>A product might not have an existing taxonomy topic available to it due to a lack of related content in the Knowledge Base, community forums, or support tickets. Before making a request for a new topic to be created (more info on that below), be sure to check the All Topics taxonomy map to see if the topic you’re looking for, or something similar, already exists. If it does, you can request that topic be made available to the product.
+</p>
+<p>In instances where none of the topics seem specific enough to appropriately match the content, apply the broadest topic with the most relevance. This will likely be a Tier 1 topic. If you’re unable to apply a more specific topic beyond Tier 1 and the lack of specificity is going to be an issue, raise a flag in the moderator forum.
+</p>
+<p>Unlike topics, tags are not required, which means it’s okay if a piece of content doesn’t have a tag applied to it. However, the new list of moderated tags is highly curated, making it unlikely that there will be absolutely no applicable tags. For example, tags from categories such as device, OS, platform, and ticket type are almost always applicable to a piece of content.
+</p>
+<h2 id=""w_do-i-need-to-apply-multiple-tags-or-just-one-whats-the-threshold-for-multiple-tags"">Do I need to apply multiple tags or just one? What’s the threshold for multiple tags?</h2>
+<p>The more tags applied to a piece of content, the more data points associated with it. The more data points associated with a piece of content, the more ways it can be filtered and segmented when viewing collections of data. However, we understand the concern with potentially adding so much signal that it becomes noise. Unless you’re attempting to tag multiple questions within one piece of content, there should be minimal risk of “going overboard” with tags. If you’re confident about their relevance, feel free to apply multiple tags.
+</p>
+<p></p></section>
+
+"
 67329,What happens when your SUMO profile is inactive or deleted,sumo-profile-inactive-deleted,https://support.mozilla.org/en-US/kb/sumo-profile-inactive-deleted,en-US,Learn what happens to your Mozilla Support profile if your Mozilla account is deleted due to inactivity.,"<p>Mozilla Support (<a href=""https://support.mozilla.org"">SUpport.MOzilla.org</a> or <em>SUMO</em>) periodically deletes inactive SUMO profiles to protect privacy and maintain content integrity. This can happen in two different ways – through Mozilla account (MA) deletion or through SUMO-specific inactivity.
 </p><p>This article explains the difference between the two, what happens to your content, and how to keep your contributor profile active.
 </p>
@@ -120685,15 +121830,20 @@ If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](h
 68874,New in Thunderbird for Android,new-thunderbird-android,https://support.mozilla.org/en-US/kb/new-thunderbird-android,en-US,"Detailed introduction to interesting new features, improvements, and changes visible to users in Thunderbird for Android monthly releases.","<p></p><div class=""warning"">More for Thunderbird for Android: <strong>o</strong> Vote on &amp; suggest improvements at <a href=""https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android"">Connect</a> <strong>o</strong> <a href=""https://www.thunderbird.net/participate/"">Participate/Contribute</a> <strong>o</strong> <a href=""https://support.mozilla.org/questions/new/thunderbird-android/form"">Get Support</a></div>
 This article introduces the most interesting new features, improvements, and changes visible to users which are available in Thunderbird for Android. For full details, please refer to <a href=""/en-US/kb/thunderbird-release-notes-whats-new-and-known-issu"">Thunderbird release notes - What's new and known issues</a>.
 <p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_thunderbird-12""><span class=""tocnumber"">1</span> <span class=""toctext"">Thunderbird 12</span></a></li><li class=""toclevel-1""><a href=""#w_older-releases""><span class=""tocnumber"">2</span> <span class=""toctext"">Older Releases</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbird-11""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Thunderbird 11</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-10""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Thunderbird 10</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-9""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Thunderbird 9</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-8""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Thunderbird 8</span></a></li></ul></li></ul></div>
-<h1 id=""w_thunderbird-12"">Thunderbird 12</h1>
-<p>
-</p>
-<ul><li> If you use a password manager, Android will now use it to automatically fill in your password when you add a new account.
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_thunderbird-13""><span class=""tocnumber"">1</span> <span class=""toctext"">Thunderbird 13</span></a></li><li class=""toclevel-1""><a href=""#w_older-releases""><span class=""tocnumber"">2</span> <span class=""toctext"">Older Releases</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbird-12""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Thunderbird 12</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-11""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Thunderbird 11</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-10""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Thunderbird 10</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-9""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Thunderbird 9</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-8""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Thunderbird 8</span></a></li></ul></li></ul></div>
+<h1 id=""w_thunderbird-13"">Thunderbird 13</h1>
+<ul><li> The notification in status bar re-appearing multiple times a day issue (github issue <a href=""https://github.com/thunderbird/thunderbird-android/issues/8049"">#8049</a>) has been fixed.
+</li><li> Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9771"">#9771</a>) was fixed.
+</li><li> The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9160"">#9160</a>).
 </li></ul>
 <h1 id=""w_older-releases"">Older Releases</h1>
 <p></p><section class=""mzp-c-details"">
 <p></p>
+<h2 id=""w_thunderbird-12"">Thunderbird 12</h2>
+<p>
+</p>
+<ul><li> If you use a password manager, Android will now use it to automatically fill in your password when you add a new account.
+</li></ul>
 <h2 id=""w_thunderbird-11"">Thunderbird 11</h2>
 <ul><li> Mail folders are easier to navigate.
 </li><li> Algorithmic darkening makes reading emails easier in dark mode.
@@ -120729,21 +121879,29 @@ This article introduces the most interesting new features, improvements, and cha
 
 ## Table of Contents
 
-- [1 Thunderbird 12](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-12)
+- [1 Thunderbird 13](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-13)
 - [2 Older Releases](https://support.mozilla.org/kb/new-thunderbird-android#w_older-releases)
-  - [2.1 Thunderbird 11](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-11)
-  - [2.2 Thunderbird 10](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-10)
-  - [2.3 Thunderbird 9](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-9)
-  - [2.4 Thunderbird 8](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-8)
+  - [2.1 Thunderbird 12](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-12)
+  - [2.2 Thunderbird 11](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-11)
+  - [2.3 Thunderbird 10](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-10)
+  - [2.4 Thunderbird 9](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-9)
+  - [2.5 Thunderbird 8](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-8)
 
-# Thunderbird 12
+# Thunderbird 13
 
-- If you use a password manager, Android will now use it to automatically fill in your password when you add a new account.
+- The notification in status bar re-appearing multiple times a day issue (github issue [#8049](https://github.com/thunderbird/thunderbird-android/issues/8049)) has been fixed.
+- Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: [#9771](https://github.com/thunderbird/thunderbird-android/issues/9771)) was fixed.
+- The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: [#9160](https://github.com/thunderbird/thunderbird-android/issues/9160)).
 
 # Older Releases
 
 <section class=""mzp-c-details"">
 <p></p>
+<h2 id=""w_thunderbird-12"">Thunderbird 12</h2>
+<p>
+</p>
+<ul><li> If you use a password manager, Android will now use it to automatically fill in your password when you add a new account.
+</li></ul>
 <h2 id=""w_thunderbird-11"">Thunderbird 11</h2>
 <ul>
 <li> Mail folders are easier to navigate.
