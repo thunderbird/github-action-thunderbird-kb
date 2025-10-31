@@ -11378,7 +11378,7 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 </li></ul>
 <div class=""for"" data-for=""fx127""><p></p><div class=""note""><strong>Note:</strong> On macOS and Windows, OS authentication may be required when accessing stored passwords using <span class=""menu""><img alt=""edit_fx71aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-03-17-35-25-6deac5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> Edit</span>, <span class=""menu"">Copy</span> or <img alt=""IG eye"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> (the reveal button, represented by an eye icon). This is <strong>not</strong> your Mozilla account credentials. See <a href=""/en-US/kb/firefox-password-authentification-prompt"">Secure Firefox passwords with device sign-in</a> for more information.</div>
 <p></p></div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_make-firefox-remember-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Make Firefox remember usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_managing-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Managing multiple accounts for a site</span></a></li><li class=""toclevel-1""><a href=""#w_managing-usernames-and-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing usernames and passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_remove-all-saved-logins""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Remove all saved logins</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_exporting-login-and-password-data""><span class=""tocnumber"">4</span> <span class=""toctext"">Exporting login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_importing-login-and-password-data""><span class=""tocnumber"">5</span> <span class=""toctext"">Importing login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-your-passwords""><span class=""tocnumber"">6</span> <span class=""toctext"">Protecting your passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">7</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_make-firefox-remember-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Make Firefox remember usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_managing-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Managing multiple accounts for a site</span></a></li><li class=""toclevel-1""><a href=""#w_managing-usernames-and-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing usernames and passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-menu-panel""><span class=""tocnumber"">3.1</span> <span class=""toctext"">From the Menu panel</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-firefox-sidebar""><span class=""tocnumber"">3.2</span> <span class=""toctext"">From the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-logins""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Remove all saved logins</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_exporting-login-and-password-data""><span class=""tocnumber"">4</span> <span class=""toctext"">Exporting login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_importing-login-and-password-data""><span class=""tocnumber"">5</span> <span class=""toctext"">Importing login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-your-passwords""><span class=""tocnumber"">6</span> <span class=""toctext"">Protecting your passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">7</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_make-firefox-remember-usernames-and-passwords"">Make Firefox remember usernames and passwords</h1>
 <p>When you enter a username and password that you haven't already saved for a website, Firefox will ask if you want to save it.
 </p><p><img alt=""FF70 Password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-06-21-03-14-92afab.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -11396,8 +11396,23 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 </li><li> <strong>To skip saving your username and password this time</strong>, click <span class=""button"">Don't Save</span>. You'll be prompted to save your username and password the next time you visit the site.
 </li></ul>
 <div class=""note""><strong>Note:</strong> Some websites offer to keep you logged in by clicking a checkbox on the site. This is a feature of the website and will work whether or not you have saved your username and password in Firefox.</div>
-<p>You can also <a href=""/en-US/kb/add-login-firefox-password-manager"">manually add website logins</a>. Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button, select <span class=""menu"">Passwords</span>, click the <span class=""button"">+</span> next to the <span class=""for"" data-for=""not fx122""><em>Search Logins</em></span><span class=""for"" data-for=""fx122""><em>Search Passwords</em></span> box at the top left, add a website address, username and password, and click <span class=""button"">Save</span>.
+<div class=""for"" data-for=""fx145""><p>You can also <a href=""/en-US/kb/add-login-firefox-password-manager"">manually add website logins</a>. 
 </p>
+<ul><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button.
+<ul><li>Select <span class=""menu"">Passwords</span>.
+</li><li>Click the <span class=""button"">+</span> next to the <span class=""for"" data-for=""not fx122""><em>Search Logins</em></span><span class=""for"" data-for=""fx122""><em>Search Passwords</em></span> box at the top left.
+</li><li>Add a website address, username and password.
+</li><li>Click <span class=""button"">Save</span>.
+</li></ul>
+</li><li>Click on the Customize sidebar icon. 
+<ul><li>In the Firefox tools menu, enable Passwords in the sidebar. The key <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon will now be showing in the Firefox sidebar. 
+</li><li>Click it to open the password manager. 
+</li><li>Click the  next to the Search Passwords box at the top right. 
+</li><li>Add a website, your credentials, and your password.
+</li><li>Click Save.
+</li></ul>
+</li></ul>
+</div>
 <h1 id=""w_managing-multiple-accounts-for-a-site"">Managing multiple accounts for a site</h1>
 <p>If you have more than one account for a site, Firefox can save all your logins. Each time you log in to a site, you can choose the login information you would like Firefox to use.
 </p><p><strong>Add another login account:</strong> To save an additional login for a site, enter the login credentials and click <strong>Save</strong> when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.<br><img alt=""Fx81AddLogins"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-48-15-ad973c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -11409,6 +11424,7 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <h1 id=""w_managing-usernames-and-passwords"">Managing usernames and passwords</h1>
 <p>
 </p>
+<h2 id=""w_from-the-menu-panel"">From the Menu panel</h2>
 <ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> to open the menu panel.
 
 </li><li>Click <span class=""for"" data-for=""not fx89""><span class=""menu"">Logins and Passwords</span></span><span class=""for"" data-for=""fx89""><span class=""menu"">Passwords</span></span>.
@@ -11427,7 +11443,25 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 </li><li>Click <span class=""button"">Remove</span> to remove the login from Firefox.
 </li></ul>
 <p>See <a href=""/en-US/kb/edit-or-delete-login-firefox-password-manager"">Edit or delete a login with the Firefox Password Manager</a> for more information.
-</p><div class=""for"" data-for=""not fx122"">
+</p><div class=""for"" data-for=""fx145"">
+<h2 id=""w_from-the-firefox-sidebar"">From the Firefox sidebar</h2>
+<ol><li>Click on the Customize sidebar icon.
+</li><li>In the Firefox tools menu, enable <span class=""button"">Passwords</span> in the sidebar.
+</li></ol>
+<dl><dt><img alt=""passwordsidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-25-03-21ad0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<p>Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+</p><p>You can now:
+</p>
+<ul><li>View and search saved passwords
+</li><li>Add new login credentials
+</li><li>Import passwords from another browser or a file
+</li><li>Export saved passwords
+</li><li>Remove all saved passwords
+</li></ul>
+<dl><dt><img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</div><div class=""for"" data-for=""not fx122"">
 <h2 id=""w_remove-all-saved-logins"">Remove all saved logins</h2>
 <ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> to open the menu panel.
 
@@ -11510,8 +11544,10 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 - [1 Make Firefox remember usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_make-firefox-remember-usernames-and-passwords)
 - [2 Managing multiple accounts for a site](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-multiple-accounts-for-a-site)
 - [3 Managing usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-usernames-and-passwords)
-  - [3.1 Remove all saved logins](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-logins)
-  - [3.2 Remove all saved passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-passwords)
+  - [3.1 From the Menu panel](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-menu-panel)
+  - [3.2 From the Firefox sidebar](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-firefox-sidebar)
+  - [3.3 Remove all saved logins](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-logins)
+  - [3.4 Remove all saved passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-passwords)
 
 - [4 Exporting login and password data](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_exporting-login-and-password-data)
 - [5 Importing login and password data](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_importing-login-and-password-data)
@@ -11539,7 +11575,20 @@ In the prompt:
 
 **Note:** Some websites offer to keep you logged in by clicking a checkbox on the site. This is a feature of the website and will work whether or not you have saved your username and password in Firefox.
 
-You can also [manually add website logins](\""https://support.mozilla.org/en-US/kb/add-login-firefox-password-manager""). Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button, select Passwords, click the + next to the _Search Logins__Search Passwords_ box at the top left, add a website address, username and password, and click Save.
+You can also [manually add website logins](\""https://support.mozilla.org/en-US/kb/add-login-firefox-password-manager"").
+
+- Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+  - Select Passwords.
+  - Click the + next to the _Search Logins__Search Passwords_ box at the top left.
+  - Add a website address, username and password.
+  - Click Save.
+
+- Click on the Customize sidebar icon. 
+  - In the Firefox tools menu, enable Passwords in the sidebar. The key ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will now be showing in the Firefox sidebar. 
+  - Click it to open the password manager. 
+  - Click the next to the Search Passwords box at the top right. 
+  - Add a website, your credentials, and your password.
+  - Click Save.
 
 # Managing multiple accounts for a site
 
@@ -11556,6 +11605,8 @@ If more than one login is stored for a website, the list of usernames will appea
 **To view passwords for a specific site** , click the username field for that site, then click View Saved Logins (see above).
 
 # Managing usernames and passwords
+
+## From the Menu panel
 
 1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
 2. Click Logins and PasswordsPasswords. The Firefox _about:logins_ page will open in a new tab.<dl><dt>
@@ -11574,6 +11625,29 @@ After you select an entry from the list of logins, you can perform these actions
 - Click Remove to remove the login from Firefox.
 
 See [Edit or delete a login with the Firefox Password Manager](\""https://support.mozilla.org/en-US/kb/edit-or-delete-login-firefox-password-manager"") for more information.
+
+## From the Firefox sidebar
+
+1. Click on the Customize sidebar icon.
+2. In the Firefox tools menu, enable Passwords in the sidebar.
+
+<dl><dt>
+<img alt=""passwordsidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-25-03-21ad0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+
+You can now:
+
+- View and search saved passwords
+- Add new login credentials
+- Import passwords from another browser or a file
+- Export saved passwords
+- Remove all saved passwords
+
+<dl><dt>
+<img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
 
 ## Remove all saved logins
 
@@ -46780,7 +46854,7 @@ Even when proper codec support is not available, though, Firefox can still enabl
 </p><p>Search hijacking, or browser hijacking, occurs when a third party sneaks files into your computer and alters your browser's settings without your permission. These changes help the hijackers make money by forcing you to look at ads, click on paid links, or give up your private information.
 </p><p>If you are unable to change your home page, remove a toolbar, or change your search settings, it's likely that your browser has been hijacked.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_types-of-search-hijacking""><span class=""tocnumber"">1</span> <span class=""toctext"">Types of search hijacking</span></a><ul><li class=""toclevel-2""><a href=""#w_toolbar-hijacking""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Toolbar hijacking</span></a></li><li class=""toclevel-2""><a href=""#w_unwanted-redirects""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Unwanted redirects</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-does-search-hijacking-happen""><span class=""tocnumber"">2</span> <span class=""toctext"">How does search hijacking happen?</span></a><ul><li class=""toclevel-2""><a href=""#w_add-ons-and-extensions""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add-ons and extensions</span></a></li><li class=""toclevel-2""><a href=""#w_advertising-networks""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Advertising networks</span></a></li><li class=""toclevel-2""><a href=""#w_installers""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Installers</span></a></li><li class=""toclevel-2""><a href=""#w_fake-anti-virus-software""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Fake anti-virus software</span></a></li><li class=""toclevel-2""><a href=""#w_free-internet-downloads""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Free Internet downloads</span></a></li><li class=""toclevel-2""><a href=""#w_infected-messages""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Infected messages</span></a></li><li class=""toclevel-2""><a href=""#w_meta-installers-and-download-managers""><span class=""tocnumber"">2.7</span> <span class=""toctext"">Meta installers and download managers</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_firefox-anti-hijacking""><span class=""tocnumber"">3</span> <span class=""toctext"">Firefox Anti-hijacking</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-automatic-search-reset""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Firefox Automatic Search Reset</span></a></li><li class=""toclevel-2""><a href=""#w_user-opt-in-reset""><span class=""tocnumber"">3.2</span> <span class=""toctext"">User Opt-in Reset</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_regain-control-of-your-browser""><span class=""tocnumber"">4</span> <span class=""toctext"">Regain control of your browser</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_types-of-search-hijacking""><span class=""tocnumber"">1</span> <span class=""toctext"">Types of search hijacking</span></a><ul><li class=""toclevel-2""><a href=""#w_toolbar-hijacking""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Toolbar hijacking</span></a></li><li class=""toclevel-2""><a href=""#w_unwanted-redirects""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Unwanted redirects</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-does-search-hijacking-happen""><span class=""tocnumber"">2</span> <span class=""toctext"">How does search hijacking happen?</span></a><ul><li class=""toclevel-2""><a href=""#w_add-ons-and-extensions""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add-ons and extensions</span></a></li><li class=""toclevel-2""><a href=""#w_advertising-networks""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Advertising networks</span></a></li><li class=""toclevel-2""><a href=""#w_installers""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Installers</span></a></li><li class=""toclevel-2""><a href=""#w_fake-antivirus-software""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Fake antivirus software</span></a></li><li class=""toclevel-2""><a href=""#w_free-internet-downloads""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Free Internet downloads</span></a></li><li class=""toclevel-2""><a href=""#w_infected-messages""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Infected messages</span></a></li><li class=""toclevel-2""><a href=""#w_meta-installers-and-download-managers""><span class=""tocnumber"">2.7</span> <span class=""toctext"">Meta installers and download managers</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_firefox-anti-hijacking""><span class=""tocnumber"">3</span> <span class=""toctext"">Firefox Anti-hijacking</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-automatic-search-reset""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Firefox Automatic Search Reset</span></a></li><li class=""toclevel-2""><a href=""#w_user-opt-in-reset""><span class=""tocnumber"">3.2</span> <span class=""toctext"">User Opt-in Reset</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_regain-control-of-your-browser""><span class=""tocnumber"">4</span> <span class=""toctext"">Regain control of your browser</span></a></li></ul></div>
 <h1 id=""w_types-of-search-hijacking"">Types of search hijacking</h1>
 <h2 id=""w_toolbar-hijacking"">Toolbar hijacking</h2>
 <p>Some hijackers install toolbars that display ads, add unwanted bookmarks, load their page when you open a new tab, or insert ads in your search results, or collect information about your searches. These toolbars may force you to use their search by making it very difficult to change your search engine.
@@ -46800,16 +46874,16 @@ Even when proper codec support is not available, though, Firefox can still enabl
 </p><p></p><div class=""note"">Please reach out to the add-on developer directly, if you need help with a specific add-on.</div>
 <p></p>
 <h2 id=""w_installers"">Installers</h2>
-<p>Some companies bundle custom toolbars with their software updates. When you install or update any software, be sure to pay attention to all the check boxes to make sure you're not downloading additional software.
+<p>Some companies bundle custom toolbars with their software updates. When you install or update any software, be sure to pay attention to all the checkboxes to make sure you're not downloading additional software.
 </p>
-<h2 id=""w_fake-anti-virus-software"">Fake anti-virus software</h2>
-<p>Some companies disguise their hijackers as anti-virus software. They may claim to make your browser run faster or remove malicious files from your computer, but alter your search settings instead.
+<h2 id=""w_fake-antivirus-software"">Fake antivirus software</h2>
+<p>Some companies disguise their hijackers as antivirus software. They may claim to make your browser run faster or remove malicious files from your computer, but alter your search settings instead.
 </p>
 <h2 id=""w_free-internet-downloads"">Free Internet downloads</h2>
 <p>Some search hijackers are bundled with free software downloaded from unreliable sites. Be sure to download only from sources that you trust.
 </p>
 <h2 id=""w_infected-messages"">Infected messages</h2>
-<p>Spam emails or links on your Facebook or Twitter feed may contain links to download malware, so avoid clicking on unfamiliar messages or links.
+<p>Spam emails or links on your Facebook or X feed may contain links to download malware, so avoid clicking on unfamiliar messages or links.
 </p>
 <h2 id=""w_meta-installers-and-download-managers"">Meta installers and download managers</h2>
 <p>Meta installers or download managers are software that let you download files from multiple sources. These download managers may take over your toolbar or download manager.
@@ -46827,7 +46901,7 @@ Even when proper codec support is not available, though, Firefox can still enabl
 </li><li>To reject the offer, click <span class=""button"">Don’t change</span>.
 </li><li>To choose another search default, click the <strong>Settings page</strong> link.
 </li></ul>
-<dl><dt><img alt=""restore search 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-29-12-27-20-b1ac2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<dl><dt><img alt=""restore search 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-29-12-27-20-b1ac2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 <h1 id=""w_regain-control-of-your-browser"">Regain control of your browser</h1>
 <p>If Firefox's automatic reset does not fix the problem, see the following articles for additional solutions:
@@ -46851,7 +46925,7 @@ If you are unable to change your home page, remove a toolbar, or change your sea
   - [2.1 Add-ons and extensions](https://support.mozilla.org/kb/what-search-hijacking#w_add-ons-and-extensions)
   - [2.2 Advertising networks](https://support.mozilla.org/kb/what-search-hijacking#w_advertising-networks)
   - [2.3 Installers](https://support.mozilla.org/kb/what-search-hijacking#w_installers)
-  - [2.4 Fake anti-virus software](https://support.mozilla.org/kb/what-search-hijacking#w_fake-anti-virus-software)
+  - [2.4 Fake antivirus software](https://support.mozilla.org/kb/what-search-hijacking#w_fake-antivirus-software)
   - [2.5 Free Internet downloads](https://support.mozilla.org/kb/what-search-hijacking#w_free-internet-downloads)
   - [2.6 Infected messages](https://support.mozilla.org/kb/what-search-hijacking#w_infected-messages)
   - [2.7 Meta installers and download managers](https://support.mozilla.org/kb/what-search-hijacking#w_meta-installers-and-download-managers)
@@ -46890,11 +46964,11 @@ Please reach out to the add-on developer directly, if you need help with a speci
 
 ## Installers
 
-Some companies bundle custom toolbars with their software updates. When you install or update any software, be sure to pay attention to all the check boxes to make sure you're not downloading additional software.
+Some companies bundle custom toolbars with their software updates. When you install or update any software, be sure to pay attention to all the checkboxes to make sure you're not downloading additional software.
 
-## Fake anti-virus software
+## Fake antivirus software
 
-Some companies disguise their hijackers as anti-virus software. They may claim to make your browser run faster or remove malicious files from your computer, but alter your search settings instead.
+Some companies disguise their hijackers as antivirus software. They may claim to make your browser run faster or remove malicious files from your computer, but alter your search settings instead.
 
 ## Free Internet downloads
 
@@ -46902,7 +46976,7 @@ Some search hijackers are bundled with free software downloaded from unreliable 
 
 ## Infected messages
 
-Spam emails or links on your Facebook or Twitter feed may contain links to download malware, so avoid clicking on unfamiliar messages or links.
+Spam emails or links on your Facebook or X feed may contain links to download malware, so avoid clicking on unfamiliar messages or links.
 
 ## Meta installers and download managers
 
@@ -46925,7 +46999,7 @@ In circumstances where Firefox detects that you may be hijacked, you will see a 
 - To choose another search default, click the **Settings page** link.
 
 <dl><dt>
-<img alt=""restore search 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-29-12-27-20-b1ac2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<img alt=""restore search 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-29-12-27-20-b1ac2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 # Regain control of your browser
 
@@ -68829,8 +68903,9 @@ For the best security, use a [Primary Password](\""https://support.mozilla.org/e
 "
 44778,How to perform Sync on Firefox desktop,sync-firefox-desktop,https://support.mozilla.org/en-US/kb/sync-firefox-desktop,en-US,How to enable and perform a Sync on Firefox desktop,"<p>If you're signed in with your Mozilla account but Sync isn’t turned on yet, this article will help you activate it. Sync allows you to securely back up your bookmarks, passwords, browsing history and more across your devices.
 </p><p>Follow these quick steps to turn on and manage Sync in Firefox.
-</p><p><img alt=""Image:Sync1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-15-15-45-53-aab9bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </p>
+<dl><dt><img alt=""Image:Sync1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-15-15-45-53-aab9bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
 <div class=""note""><strong>Before you begin:</strong> Sign up for a free <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a> if you don't already have one.</div>
 <h1 id=""w_sign-in-to-sync"">Sign in to Sync</h1>
 <ol><li> Click your <em>profile icon</em> <img alt=""IG profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-31-56-880c12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the top-right corner of the Firefox toolbar.
@@ -68873,8 +68948,9 @@ For the best security, use a [Primary Password](\""https://support.mozilla.org/e
 
 Follow these quick steps to turn on and manage Sync in Firefox.
 
-![Image:Sync1](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
+<dl><dt>
+<img alt=""Image:Sync1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-15-15-45-53-aab9bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
 **Before you begin:** Sign up for a free [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") if you don't already have one.
 
 # Sign in to Sync
@@ -82772,7 +82848,7 @@ While free VPNs seem attractive, they often do not make the same commitments to 
 "
 54543,Customize Firefox Suggest settings,firefox-suggest,https://support.mozilla.org/en-US/kb/firefox-suggest,en-US,Firefox Suggest provides website suggestions as you type into the address bar. Learn about this feature and how to customize your settings.,"<p>
 </p>
-<div class=""note""><strong>Note:</strong> The contents of this post are currently being updated to reflect an upcoming refresh of this feature, please check back in a few weeks for more details.</div>
+
 <p>Firefox Suggest helps you quickly find what you need as you type in the address bar. It can show results from your bookmarks, open tabs, browsing history, or even suggest useful sites from the web. 
 </p><p>This article explains how Firefox Suggest works, the types of suggestions you may see, and how to control what appears.
 </p>
@@ -82784,12 +82860,11 @@ While free VPNs seem attractive, they often do not make the same commitments to 
 <ul><li><strong>Browsing history</strong> – Page titles and web addresses from your history, using local data stored on your own computer
 </li><li><strong>Bookmarks</strong> – Page titles, web addresses and tags from your bookmarks
 </li><li><strong>Open tabs</strong> – Pages you currently have open in other tabs
-</li><li><strong>Search engines</strong> – Relevant search terms or solution buttons related to the task or answer you may be looking for
-</li><li><strong>Suggestions from Firefox</strong> – Contextual suggestions from the web related to your search
-</li><li><strong>Suggestions from sponsors</strong> – Occasional sponsored suggestions related to your search
+</li><li><strong>Search engines to use</strong> – Relevant search terms or solution buttons related to the task or answer you may be looking for
+</li><li><strong>Suggestions from Firefox</strong> – Contextual suggestions from the web related to your search, including some sponsored suggestions.
+<ul><li><strong>Retrieve suggestions from Mozilla as you type</strong>: In some versions and regions, Firefox can display suggestions with real-time information using <a href=""/en-US/kb/ohttp-explained"">Oblivious HTTP (OHTTP)</a> to protect your privacy. <a href=""https://blog.mozilla.org/en/firefox/better-search-suggestions/"">Learn more</a>.
 </li></ul>
-<p>These settings are on by default. You can turn them on or off at any time. 
-</p>
+</li></ul>
 <h1 id=""w_manage-your-firefox-suggest-settings"">Manage your Firefox Suggest settings</h1>
 <p>To customize your settings for the types of suggestions displayed in the address bar results, follow the steps below:
 </p>
@@ -82799,7 +82874,7 @@ While free VPNs seem attractive, they often do not make the same commitments to 
 <dl><dt><span class=""for"" data-for=""fx123""><img alt=""Search"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-18-08-42-06-133484.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
 </dt></dl>
 </li><li>Scroll down to the section  <span class=""menu"">Address bar</span> and click the checkbox next to the settings you want to enable or disable.
-<dl><dt><img alt=""Address bar checkbox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-18-08-44-45-798543.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+<dl><dt><img alt=""firefoxsuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-07-07-06-08fe7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li></ol>
 <p>
@@ -82842,11 +82917,8 @@ While free VPNs seem attractive, they often do not make the same commitments to 
 </p><p><span class=""for"" data-for=""fx143"">You can also access stock market information directly from the address bar. Polygon API provides these suggestions, and you’ll need to opt in to Firefox Suggest to get the most accurate data. See <a href=""/en-US/kb/custom-suggestions-firefox-address-bar"">Get custom suggestions in the Firefox address bar</a> for more information.</span>
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>
-</li><li><a href=""/en-US/kb/get-your-local-weather-forecast-firefox-address-bar"">Get your local weather forecast from the Firefox address bar</a>
-</li></ul>",firefox,search;search-tag-and-share," **Note:** The contents of this post are currently being updated to reflect an upcoming refresh of this feature, please check back in a few weeks for more details.
-
-Firefox Suggest helps you quickly find what you need as you type in the address bar. It can show results from your bookmarks, open tabs, browsing history, or even suggest useful sites from the web.
+<ul><li><a href=""/en-US/kb/get-your-local-weather-forecast-firefox-address-bar"">Get your local weather forecast from the Firefox address bar</a>
+</li></ul>",firefox,search;search-tag-and-share,"Firefox Suggest helps you quickly find what you need as you type in the address bar. It can show results from your bookmarks, open tabs, browsing history, or even suggest useful sites from the web.
 
 This article explains how Firefox Suggest works, the types of suggestions you may see, and how to control what appears.
 
@@ -82867,11 +82939,9 @@ Firefox Suggest is a built-in feature that enhances the address bar. It shows re
 - **Browsing history** – Page titles and web addresses from your history, using local data stored on your own computer
 - **Bookmarks** – Page titles, web addresses and tags from your bookmarks
 - **Open tabs** – Pages you currently have open in other tabs
-- **Search engines** – Relevant search terms or solution buttons related to the task or answer you may be looking for
-- **Suggestions from Firefox** – Contextual suggestions from the web related to your search
-- **Suggestions from sponsors** – Occasional sponsored suggestions related to your search
-
-These settings are on by default. You can turn them on or off at any time.
+- **Search engines to use** – Relevant search terms or solution buttons related to the task or answer you may be looking for
+- **Suggestions from Firefox** – Contextual suggestions from the web related to your search, including some sponsored suggestions.
+  - **Retrieve suggestions from Mozilla as you type** : In some versions and regions, Firefox can display suggestions with real-time information using [Oblivious HTTP (OHTTP)](\""https://support.mozilla.org/en-US/kb/ohttp-explained"") to protect your privacy. [Learn more](https://blog.mozilla.org/en/firefox/better-search-suggestions/).
 
 # Manage your Firefox Suggest settings
 
@@ -82882,7 +82952,7 @@ To customize your settings for the types of suggestions displayed in the address
 <span class=""for"" data-for=""fx123""><img alt=""Search"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-18-08-42-06-133484.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
 </dt></dl>
 3. Scroll down to the section Address bar and click the checkbox next to the settings you want to enable or disable.<dl><dt>
-<img alt=""Address bar checkbox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-18-08-44-45-798543.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+<img alt=""firefoxsuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-07-07-06-08fe7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 
 # Manage your address bar suggestions
@@ -82925,7 +82995,6 @@ You can also access stock market information directly from the address bar. Poly
 
 # Related articles
 
-- [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"")
 - [Get your local weather forecast from the Firefox address bar](\""https://support.mozilla.org/en-US/kb/get-your-local-weather-forecast-firefox-address-bar"")
 
 "
@@ -99456,13 +99525,12 @@ Shortcut now appearing on android home screen.
 </li><li>Select the option that best describes your feedback:
 <ul><li>Report inaccurate location
 </li><li>Shows less frequently
-</li><li>Don’t show this
+</li><li>Don’t show weather suggestions
 </li></ul>
 </li></ol>
-<div class=""note""><strong>Note:</strong> Clicking <strong>Don’t show this</strong> will turn off weather suggestions in the address bar.</div>
+<div class=""note""><strong>Note:</strong> Clicking <strong>Don’t show weather suggestions</strong> will turn off weather suggestions in the address bar.</div>
 <h1 id=""w_learn-more"">Learn more</h1>
 <ul><li><a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>
-</li><li><a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>
 </li></ul>",firefox,browse,"Get real-time weather updates conveniently displayed within the Firefox [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar""). This feature can help you stay up-to-date on the latest weather conditions without visiting a particular website or app. Simply type **weather** in the address bar, and you'll see weather suggestions for your location. ![Accuweather](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
 **Note:** Weather updates are at the moment only available to users in the following countries:
@@ -99513,13 +99581,12 @@ If you are experiencing issues with Firefox's weather suggestions or have any fe
 2. Select the option that best describes your feedback:
   - Report inaccurate location
   - Shows less frequently
-  - Don’t show this
+  - Don’t show weather suggestions
 
-**Note:** Clicking **Don’t show this** will turn off weather suggestions in the address bar.
+**Note:** Clicking **Don’t show weather suggestions** will turn off weather suggestions in the address bar.
 
 # Learn more
 
-- [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"")
 - [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"")
 
 "
@@ -108181,7 +108248,7 @@ Since these are experimental features, please share your feedback through the re
 <h2 id=""w_create-a-new-profile"">Create a new profile</h2>
 <ol><li>In the toolbar, click the account icon <img alt=""IG profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-31-56-880c12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">.
 </li><li>Click the <em>profiles</em> menu item (for example, <em>Original profile</em>).
-</li><li> Click <span class=""menu"">+ New profile</span>.
+</li><li>Click <span class=""menu"">+ New profile</span>.
 <dl><dt><img alt=""Fx144betaNewProfile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-25-21-31-53-eacc9d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 <ul><li>Firefox will launch a new instance to create your new profile, meaning you will see two Firefox icons in your <span class=""for"" data-for=""not mac"">taskbar</span><span class=""for"" data-for=""mac"">dock</span>.
@@ -108202,7 +108269,7 @@ Since these are experimental features, please share your feedback through the re
 </p>
 <ol><li>In the toolbar, click the account icon <img alt=""IG profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-31-56-880c12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">.
 </li><li>Click the name of your current profile.
-</li><li>Click the edit icon <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the top-right corner to edit your current profile. To edit a different profile, click <span class=""button"">Manage Profiles</span>.
+</li><li>Click the edit icon <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the top-right corner to edit your current profile. To edit a different profile, click <span class=""menu"">Manage Profiles</span>.
 </li><li>Changes made to a profile’s customization are saved automatically. When you’re finished, close the tab or click <span class=""button"">Done editing</span>.
 <dl><dt><img alt=""Edit you profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-14-05-51-16-5f9d3d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
@@ -108219,10 +108286,10 @@ Since these are experimental features, please share your feedback through the re
 </p>
 <ol><li>In the toolbar, click the account icon <img alt=""IG profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-31-56-880c12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">.
 </li><li>Click the name of your current profile.
-</li><li>Click the edit icon <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the top-right corner to proceed with deleting your current profile. To delete a different profile, click <span class=""button"">Manage Profiles</span>.
+</li><li>Click the edit icon <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the top-right corner to proceed with deleting your current profile. To delete a different profile, click <span class=""menu"">Manage Profiles</span>.
 </li><li>At the bottom-right, click <span class=""button"">Delete</span>.
 </li><li>Review the data that will be deleted, and then confirm by clicking <span class=""button"">Delete</span>.
-<ul><li>If you delete your last remaining profile, Firefox will re-open with a fresh profile.
+<ul><li>If you delete your last remaining profile, Firefox will reopen with a fresh profile.
 </li></ul>
 <dl><dt><img alt=""Delete a profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-14-05-57-45-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
@@ -108241,7 +108308,7 @@ Since these are experimental features, please share your feedback through the re
 <p>You can make Firefox ask which profile to use when it starts:
 </p>
 <ol><li>In the toolbar, click the account icon <img alt=""IG profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-31-56-880c12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">.
-</li><li>Click <span class=""button"">Manage Profiles</span> at the bottom.
+</li><li>Click <span class=""menu"">Manage Profiles</span> at the bottom.
 </li><li>Select <strong>Choose a profile when Firefox opens</strong>.
 <ul><li>If the box is unchecked, Firefox will open to the most recently used profile.
 </li></ul>
@@ -108249,7 +108316,7 @@ Since these are experimental features, please share your feedback through the re
 </dt></dl>
 </li></ol>
 <h1 id=""w_alternative-solutions-multi-account-containers"">Alternative solutions: Multi-Account containers</h1>
-<p>If you want separate work vs. personal browsing contexts but don’t want to switch profiles, you can install the <a href=""https://addons.mozilla.org/firefox/addon/multi-account-containers/"">Multi-Account Containers extension</a>.
+<p>If you want separate work vs. personal browsing contexts but don’t want to switch profiles, you can install the <a href=""https://addons.mozilla.org/firefox/addon/multi-account-containers/""><em>Firefox Multi-Account Containers</em> extension</a>.
 </p>
 <ul><li>Profiles separate all data (bookmarks, settings, add-ons).
 </li><li>Containers separate only cookies, logins and site data inside one profile.
@@ -108275,7 +108342,7 @@ Since these are experimental features, please share your feedback through the re
 <p>The best way to protect your profile data is by creating a Mozilla account for each profile. <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Sync</a> automatically protects your data across devices, ensuring easy access whenever you need it.
 </p>
 <h2 id=""w_whats-the-difference-between-profiles-and-multi-account-containers"">What's the difference between profiles and Multi-Account Containers?</h2>
-<ul><li>Profiles allow for complete separation of all data between profiles — including bookmarks, passwords, settings, add-ons, browsing history and browsing data (such as cookies and logins).
+<ul><li>Profiles allow for complete separation of all data between profiles—including bookmarks, passwords, settings, add-ons, browsing history and browsing data (such as cookies and logins).
 </li><li>In contrast, <a href=""/en-US/kb/containers"">Multi-Account Containers</a> only separate browsing data like cookies and logins between different containers. The Multi-Account Containers add-on can be used in a single profile, but this add-on and its containers won't be shared across profiles.
 </li></ul>
 <h1 id=""w_related-articles"">Related articles</h1>
@@ -108316,7 +108383,7 @@ Not all users will see the new Profiles menu in the toolbar, since this feature 
 
 1. In the toolbar, click the account icon ![IG profile](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
 2. Click the _profiles_ menu item (for example, _Original profile_).
-3. Click + New profile.<dl><dt>
+3. Click +&nbsp;New profile.<dl><dt>
 <img alt=""Fx144betaNewProfile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-25-21-31-53-eacc9d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
   - Firefox will launch a new instance to create your new profile, meaning you will see two Firefox icons in your taskbardock.
@@ -108360,7 +108427,7 @@ If you no longer need a profile, you can delete it easily by following these ste
 3. Click the edit icon ![IG edit 2](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the top-right corner to proceed with deleting your current profile. To delete a different profile, click Manage Profiles.
 4. At the bottom-right, click Delete.
 5. Review the data that will be deleted, and then confirm by clicking Delete.
-  - If you delete your last remaining profile, Firefox will re-open with a fresh profile.
+  - If you delete your last remaining profile, Firefox will reopen with a fresh profile.
 
 <dl><dt>
 <img alt=""Delete a profile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-14-05-57-45-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
@@ -108395,7 +108462,7 @@ You can make Firefox ask which profile to use when it starts:
 
 # Alternative solutions: Multi-Account containers
 
-If you want separate work vs. personal browsing contexts but don’t want to switch profiles, you can install the [Multi-Account Containers extension](https://addons.mozilla.org/firefox/addon/multi-account-containers/).
+If you want separate work vs. personal browsing contexts but don’t want to switch profiles, you can install the [_Firefox Multi-Account Containers_ extension](https://addons.mozilla.org/firefox/addon/multi-account-containers/).
 
 - Profiles separate all data (bookmarks, settings, add-ons).
 - Containers separate only cookies, logins and site data inside one profile.
@@ -108430,7 +108497,7 @@ The best way to protect your profile data is by creating a Mozilla account for e
 
 ## What's the difference between profiles and Multi-Account Containers?
 
-- Profiles allow for complete separation of all data between profiles — including bookmarks, passwords, settings, add-ons, browsing history and browsing data (such as cookies and logins).
+- Profiles allow for complete separation of all data between profiles—including bookmarks, passwords, settings, add-ons, browsing history and browsing data (such as cookies and logins).
 - In contrast, [Multi-Account Containers](\""https://support.mozilla.org/en-US/kb/containers"") only separate browsing data like cookies and logins between different containers. The Multi-Account Containers add-on can be used in a single profile, but this add-on and its containers won't be shared across profiles.
 
 # Related articles
@@ -114010,9 +114077,8 @@ Firefox balances privacy with performance by collecting limited data, such as us
 </li></ul>
 </li><li><strong>Send daily usage ping to Mozilla</strong> – Helps Mozilla estimate the number of active users. For details, see <a href=""/en-US/kb/usage-ping-settings"">Manage daily usage ping data collection settings in Firefox</a>.
 </li><li><strong>Automatically send crash reports</strong> – Sends crash data to help diagnose and fix browser issues. For details, see <a href=""/en-US/kb/crash-report"">Crash reports in Firefox for Desktop</a>.
-</li><li><strong>Improve the Firefox Suggest experience</strong> – Allows Mozilla to process your search query data to develop the Firefox Suggest feature. To learn more, see <a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a> and <a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>.
 </li></ul>
-<dl><dt><img alt=""Fx136DataCollectionSettings-FirefoxSuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-08-03-57-21-ff54f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+<dl><dt><img alt=""firefoxdata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-06-43-16-00de16.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 </li><li>Your changes are saved automatically. Close the Settings tab when done.
 </li></ol>
@@ -114057,13 +114123,8 @@ Firefox balances privacy with performance by collecting limited data, such as us
 <dl><dt><img alt=""shortcuts ff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-03-14-02-21-038fa6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
 </dt></dl>
 </li></ol>
-<h2 id=""w_manage-suggest"">Manage Suggest</h2>
-<ol><li>Open Firefox Settings: <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (select <span class=""menu"">Preferences</span> on older macOS versions).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the left-hand menu, select <strong>Search</strong>.
-</li><li>Uncheck or check the options for <strong>Suggestions from Firefox</strong> and <strong>Suggestions from sponsors</strong>, based on your preference.
-</li><li>Toggle on or off the <strong>Improve the Firefox Suggest experience</strong>, based on your preference. 
-</li></ol>
+<p>
+</p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/mobile-manage-firefox-data-collection-and-privacy"">Mobile - Manage Firefox data collection and privacy settings</a>
 </li><li><a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>
@@ -114092,10 +114153,9 @@ Firefox balances privacy with performance by collecting limited data, such as us
 
   - **Send daily usage ping to Mozilla** – Helps Mozilla estimate the number of active users. For details, see [Manage daily usage ping data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/usage-ping-settings"").
   - **Automatically send crash reports** – Sends crash data to help diagnose and fix browser issues. For details, see [Crash reports in Firefox for Desktop](\""https://support.mozilla.org/en-US/kb/crash-report"").
-  - **Improve the Firefox Suggest experience** – Allows Mozilla to process your search query data to develop the Firefox Suggest feature. To learn more, see [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"") and [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"").
 
 <dl><dt>
-<img alt=""Fx136DataCollectionSettings-FirefoxSuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-08-03-57-21-ff54f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+<img alt=""firefoxdata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-06-43-16-00de16.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 5. Your changes are saved automatically. Close the Settings tab when done.
 
@@ -114142,13 +114202,6 @@ Your changes are saved automatically. Close the Settings tab when done.
 <dl><dt>
 <img alt=""shortcuts ff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-03-14-02-21-038fa6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
 </dt></dl>
-
-## Manage Suggest
-
-1. Open Firefox Settings: In the Menu bar at the top of the screen, click Firefox and select Settings (select Preferences on older macOS versions).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the left-hand menu, select **Search**.
-3. Uncheck or check the options for **Suggestions from Firefox** and **Suggestions from sponsors** , based on your preference.
-4. Toggle on or off the **Improve the Firefox Suggest experience** , based on your preference. 
 
 # Related articles
 
@@ -119881,7 +119934,7 @@ No. All your data — bookmarks, saved sites, history, and logins — will remai
 
 "
 68363,Control personal device and local network permissions in Firefox,control-personal-device-local-network-permissions-firefox,https://support.mozilla.org/en-US/kb/control-personal-device-local-network-permissions-firefox,en-US,Learn why Firefox now asks permission before allowing sites to access your personal device or local network.,"<p>To better protect your privacy and security, Firefox includes permissions that control whether websites can access apps and services on your local network and local device. This change stops websites from exploiting them without your knowledge.
-</p><p></p><div class=""note""> 
+</p><div class=""note""> 
 <p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
 This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
 </p>
@@ -119920,7 +119973,7 @@ This feature is experimental and is being introduced to the Firefox user base th
 <p>When a site tries to access other apps and services on your device or your local network, Firefox will show a permission prompt near the address bar, asking you to allow access.
 </p><p>For <span class=""menu"">Device apps and services</span>, the prompt looks like this:
 </p>
-<dl><dt><img alt=""devicepermissionschanged"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-28-05-23-40-9b08d4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<dl><dt><img alt=""devicepermissionschanged"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-28-05-23-40-9b08d4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 <p>For <span class=""menu"">Local network devices</span>, the prompt looks like this:
 </p>
@@ -119947,8 +120000,6 @@ This feature is experimental and is being introduced to the Firefox user base th
 </p>
 <dl><dt><img alt=""localnetwork"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-01-11-13-10-a9fe7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
-<p><br>
-</p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/site-permissions-panel"">Site Permissions panel</a>
 </li><li><a href=""/en-US/kb/manage-optional-permissions-extensions"">Manage optional permissions for Firefox extensions</a>
@@ -120000,7 +120051,7 @@ When a site tries to access other apps and services on your device or your local
 For Device apps and services, the prompt looks like this:
 
 <dl><dt>
-<img alt=""devicepermissionschanged"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-28-05-23-40-9b08d4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+<img alt=""devicepermissionschanged"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-28-05-23-40-9b08d4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 
 For Local network devices, the prompt looks like this:
@@ -120035,7 +120086,6 @@ For Local network devices, the prompt looks like this:
 <dl><dt>
 <img alt=""localnetwork"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-01-11-13-10-a9fe7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
-
 # Related articles
 
 - [Site Permissions panel](\""https://support.mozilla.org/en-US/kb/site-permissions-panel"")
@@ -121770,7 +121820,7 @@ Currently, web apps are only supported in Firefox for Windows. Mozilla is consid
 
 "
 68745,Get custom suggestions in the Firefox address bar,custom-suggestions-firefox-address-bar,https://support.mozilla.org/en-US/kb/custom-suggestions-firefox-address-bar,en-US,See real-time stock info in Firefox Suggest using keywords like “stock AAPL.”,"<p>You can access stock market information in real-time directly from the address bar with Firefox Suggest through specific keywords. Polygon, an <a href=""https://wikipedia.org/wiki/API"">API</a> provider, powers these suggestions, and you’ll need to opt in to Firefox Suggest to get accurate information.
-</p><p>This feature is available to users who opt in to Firefox Suggest in specific regions and versions:
+</p><p>This feature is available to users in specific regions and versions:
 </p>
 <ul><li><strong>United States</strong> starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 143.
 </li></ul>
@@ -121791,7 +121841,7 @@ Currently, web apps are only supported in Firefox for Windows. Mozilla is consid
 </li><li><a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>
 </li></ul>",firefox,browse;search;search-tag-and-share,"You can access stock market information in real-time directly from the address bar with Firefox Suggest through specific keywords. Polygon, an [API](https://wikipedia.org/wiki/API) provider, powers these suggestions, and you’ll need to opt in to Firefox Suggest to get accurate information.
 
-This feature is available to users who opt in to Firefox Suggest in specific regions and versions:
+This feature is available to users in specific regions and versions:
 
 - **United States** starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 143.
 
