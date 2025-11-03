@@ -13891,12 +13891,6 @@ You can also try the instructions in the resources below:
 <p>See <a href=""/en-US/kb/pdf-alt-text"">Add alt text to images in your PDFs using Firefox</a> to learn everything about Alt Text.
 </p></div><div class=""for"" data-for=""fx137"">
 <h2 id=""w_add-a-signature-to-a-pdf"">Add a signature to a PDF</h2>
-<p></p><div class=""note""> 
-<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
-This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
-</p>
-</div>
-<p></p>
 <div class=""warning""><strong>Warning:</strong> Signatures added using the Firefox PDF viewer are not legally binding e-signatures. They are simple annotations and do not provide authentication or verification.</div>
 <p>Firefox allows you to add your signature to a PDF document.
 </p>
@@ -14141,8 +14135,6 @@ In many PDF-related tasks, incorporating images can provide supplementary inform
 See [Add alt text to images in your PDFs using Firefox](\""https://support.mozilla.org/en-US/kb/pdf-alt-text"") to learn everything about Alt Text.
 
 ## Add a signature to a PDF
-
-![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users.
 
 **Warning:** Signatures added using the Firefox PDF viewer are not legally binding e-signatures. They are simple annotations and do not provide authentication or verification.
 
@@ -20948,9 +20940,16 @@ Sometimes tracking down the source of these kinds of problems is difficult. We h
 </p><p><strong>Do not post direct links to <a href=""http://www.fileinfo.com/filetypes/executable"">executable files</a>.</strong> Moderators may remove these links to protect users from potentially harmful downloads. (You can post a link to the webpage that contains the file download, but it may also be removed if a Moderator finds that the web page content could be harmful or if the web page link is spam.)
 </p>
 <h2 id=""w_artificial-intelligence"">Artificial Intelligence</h2>
-<p>Do not use any artificially generated text (such as ChatGPT) unless you have the right to do so under the tool's terms of service.
-</p><p>Do not copy-paste AI responses. Use these programs as tools to support your answer, and provide attribution if artificially generated text makes up most of your response.
-</p><p>Be authentic and honest when using these tools. For more specific guidelines, please see <a href=""/en-US/kb/contributor-policy-generative-ai-usage"">Contributor Policy - Usage of Generative AI (e.g., ChatGPT)</a>.
+<p>You may not use AI-generated content (e.g., ChatgGPT) in the Community Forums unless you're authorized to do so under the tool's terms of service.
+</p><p>We're not anti-AI, but we do expect it to be used responsibly. If you choose to use generative AI tools to help formulate a response:
+</p>
+<ul><li> Do not copy-paste AI-generated text as-is
+</li><li> Verify that the information is accurate and up to date
+</li><li> Remove any hallucinated or irrelevant content
+</li><li> Customize the response to reflect your own voice and Mozilla's values
+</li></ul>
+<p>AI tools can be helpful for drafting or inspiration, but you are responsible for the content you share with users.
+</p><p>For more detailed guidelines, see: <a href=""/en-US/kb/contributor-policy-generative-ai-usage"">Contributor Policy - Usage of Generative AI (e.g., ChatGPT)</a>.
 </p>
 <h2 id=""w_language-and-conduct"">Language and conduct</h2>
 <p>Do not use obscene, lewd, lascivious, filthy or excessively violent language.
@@ -21030,11 +21029,18 @@ Link to content rather than posting it in its entirety, unless you are the copyr
 
 ## Artificial Intelligence
 
-Do not use any artificially generated text (such as ChatGPT) unless you have the right to do so under the tool's terms of service.
+You may not use AI-generated content (e.g., ChatgGPT) in the Community Forums unless you're authorized to do so under the tool's terms of service.
 
-Do not copy-paste AI responses. Use these programs as tools to support your answer, and provide attribution if artificially generated text makes up most of your response.
+We're not anti-AI, but we do expect it to be used responsibly. If you choose to use generative AI tools to help formulate a response:
 
-Be authentic and honest when using these tools. For more specific guidelines, please see [Contributor Policy - Usage of Generative AI (e.g., ChatGPT)](\""https://support.mozilla.org/en-US/kb/contributor-policy-generative-ai-usage"").
+- Do not copy-paste AI-generated text as-is
+- Verify that the information is accurate and up to date
+- Remove any hallucinated or irrelevant content
+- Customize the response to reflect your own voice and Mozilla's values
+
+AI tools can be helpful for drafting or inspiration, but you are responsible for the content you share with users.
+
+For more detailed guidelines, see: [Contributor Policy - Usage of Generative AI (e.g., ChatGPT)](\""https://support.mozilla.org/en-US/kb/contributor-policy-generative-ai-usage"").
 
 ## Language and conduct
 
@@ -59753,7 +59759,12 @@ As we sunset the Firefox Translations add-on, we invite users to embrace the bui
 </li><li>Certain types of image or video effects may not behave as expected, including greenscreen effects and progressive drawing videos (where the image accumulates the results of multiple animations or effects over time).
 </li><li>For languages with extended character sets, certain glyphs may not render and instead display a square “character not found” icon.
 </li></ul>
-<p>On rare occasions, these fingerprinting protections can completely break a site in an unexpected way; however disabling Enhanced Tracking Protection as <a href=""#w_how-do-i-disable-this-protection-for-a-website"">described above</a> will resolve the issue if fingerprinting protections were the cause of breakage.
+<div class=""for"" data-for=""fx143"">
+<ul><li>A website that uses touch events from multiple input devices at once may not process these correctly.
+</li><li>A website that attempts to control its window size and maximize it may overlap your taskbar or dock or be slightly smaller than expected.
+</li><li>Websites that perform complex calculations or operations may perform slower.
+</li></ul>
+</div><p>On rare occasions, these fingerprinting protections can completely break a site in an unexpected way; however disabling Enhanced Tracking Protection as <a href=""#w_how-do-i-disable-this-protection-for-a-website"">described above</a> will resolve the issue if fingerprinting protections were the cause of breakage.
 </p>
 <h2 id=""w_report-a-broken-site"">Report a broken site</h2>
 <p>If a broken site starts working properly again after turning off the Enhanced Tracking Protection, you can click the shield icon and select <strong>Send report</strong>. This will show the <em>Report a Broken Site</em> panel.
@@ -59771,9 +59782,14 @@ As we sunset the Firefox Translations add-on, we invite users to embrace the bui
 </p><p>The specific attributes that Firefox alters are:
 </p>
 <ul><li>Random data is introduced to background images when the website reads back the image. If a website merely renders data to the background, it will render without alteration. Although typically this does not happen, if the website reads the image data in the background (and potentially displays it to you again), it will have subtle noise that may affect how the image is displayed.
-</li><li>Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page.
+</li><li>Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page. <span class=""for"" data-for=""fx144""><span class=""for"" data-for=""win"">Certain language-specific fonts will only be available if you have the corresponding locale, currently encompassing either the Japanese, Thai, Arabic, Chinese, Korean, or Hebrew locale.</span></span> 
 </li></ul>
-<p><br>
+<div class=""for"" data-for=""fx143"">
+<ul><li>The number of simultaneous touches your hardware supports is reported as either 0, 1, and for all other values, 5.
+</li><li>The Available Screen Resolution (your Screen Resolution subtracting any dock or taskbar) is reported as your Screen Resolution<span class=""for"" data-for=""mac,win""> minus a height of <span class=""for"" data-for=""win"">48</span><span class=""for"" data-for=""mac"">76</span> pixels</span>.
+</li><li>The number of processor cores is reported as 2.
+</li></ul>
+</div><p><br>
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/resist-fingerprinting"">Resist Fingerprinting</a>
@@ -59838,6 +59854,10 @@ Presently, the types of breakage we see most commonly are:
 - Certain types of image or video effects may not behave as expected, including greenscreen effects and progressive drawing videos (where the image accumulates the results of multiple animations or effects over time).
 - For languages with extended character sets, certain glyphs may not render and instead display a square “character not found” icon.
 
+- A website that uses touch events from multiple input devices at once may not process these correctly.
+- A website that attempts to control its window size and maximize it may overlap your taskbar or dock or be slightly smaller than expected.
+- Websites that perform complex calculations or operations may perform slower.
+
 On rare occasions, these fingerprinting protections can completely break a site in an unexpected way; however disabling Enhanced Tracking Protection as [described above](https://support.mozilla.org/kb/firefox-protection-against-fingerprinting#w_how-do-i-disable-this-protection-for-a-website) will resolve the issue if fingerprinting protections were the cause of breakage.
 
 ## Report a broken site
@@ -59863,7 +59883,11 @@ To combat fingerprinting attempts that Firefox cannot block (because we are unaw
 The specific attributes that Firefox alters are:
 
 - Random data is introduced to background images when the website reads back the image. If a website merely renders data to the background, it will render without alteration. Although typically this does not happen, if the website reads the image data in the background (and potentially displays it to you again), it will have subtle noise that may affect how the image is displayed.
-- Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page.
+- Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page. Certain language-specific fonts will only be available if you have the corresponding locale, currently encompassing either the Japanese, Thai, Arabic, Chinese, Korean, or Hebrew locale.
+
+- The number of simultaneous touches your hardware supports is reported as either 0, 1, and for all other values, 5.
+- The Available Screen Resolution (your Screen Resolution subtracting any dock or taskbar) is reported as your Screen Resolution minus a height of 4876 pixels.
+- The number of processor cores is reported as 2.
 
 # Related articles
 
@@ -87911,14 +87935,14 @@ Once you’ve confirmed that Total Cookie Protection causes the issue, you can r
 Opening a bug on Bugzilla using our [bug template](https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&blocked=1602922&bug_ignored=0&bug_severity=--&bug_status=NEW&bug_type=defect&cf_a11y_review_project_flag=---&cf_fission_milestone=---&cf_fx_iteration=---&cf_fx_points=---&cf_root_cause=---&cf_status_firefox96=---&cf_status_firefox97=---&cf_status_firefox98=---&cf_status_firefox_esr91=---&cf_status_thunderbird_esr91=---&cf_tracking_firefox96=---&cf_tracking_firefox97=---&cf_tracking_firefox98=---&cf_tracking_firefox_esr91=---&cf_tracking_firefox_relnote=---&cf_tracking_firefox_sumo=---&cf_tracking_thunderbird_esr91=---&cf_webcompat_priority=---&comment=Environment%3A%0D%0ABrowser%20%2F%20Version%3A%20%5Be.g.%20Firefox%20Nightly%2097.0a1%20%282021-12-29%29%5D%0D%0AOperating%20System%3A%20%5Be.g.%20Windows%2010%20Pro%5D%0D%0A%0D%0APrerequisites%3A%0D%0A%5BAnything%20we%20need%20to%20set%20up%20before%20reproducing%20the%20issue%5D%0D%0A%0D%0ASteps%20to%20Reproduce%3A%0D%0A%0D%0AExpected%20Behavior%3A%0D%0A%0D%0AActual%20Behavior%3A%0D%0A%0D%0ANotes%3A&component=Privacy%3A%20Anti-Tracking&contenttypemethod=list&contenttypeselection=text%2Fplain&defined_groups=1&filed_via=standard_form&flag_type-203=X&flag_type-37=X&flag_type-41=X&flag_type-607=X&flag_type-721=X&flag_type-737=X&flag_type-787=X&flag_type-799=X&flag_type-800=X&flag_type-803=X&flag_type-846=X&flag_type-855=X&flag_type-863=X&flag_type-864=X&flag_type-930=X&flag_type-936=X&flag_type-937=X&flag_type-947=X&form_name=enter_bug&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Unspecified&priority=--&product=Core&rep_platform=Unspecified&short_desc=%5BDescribe%20the%20breakage%20component%5D%20on%20%5BThe%20broken%20site%5D%20with%20ETP%20-%20Standard%20Enabled%20&target_milestone=---&version=unspecified) helps us diagnose the issue more quickly. Please provide detailed information regarding the breakage, such as a screenshot of the breakage or clear steps to reproduce the issue. You can also provide troubleshooting information from the _about:support_ page. This helps us to reproduce the problem locally.
 
 "
-57213,Clear cookies and website data for a single domain in Firefox for Android,clear-cookies-and-website-data-single-domain-android,https://support.mozilla.org/en-US/kb/clear-cookies-and-website-data-single-domain-android,en-US,"You can delete your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.","<p>You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.
+57213,Clear cookies and website data for a single domain in Firefox for Android,clear-cookies-and-website-data-single-domain-android,https://support.mozilla.org/en-US/kb/clear-cookies-and-website-data-single-domain-android,en-US,"You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.","<p>You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.
 </p>
 <div class=""note""><strong>Note:</strong> Removing cookies and site data may log you out of the website and clear your shopping carts.</div>
 <h1 id=""w_to-clear-your-cookies-and-website-data-for-a-single-domain"">To clear your cookies and website data for a single domain:</h1>
 <ol><li>Go to a website for which you want to clear cookies and data.
 </li><li>Tap the <span class=""for"" data-for=""m142""><em>Shield</em> <img alt=""Firefox_Android_144_Shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-10-02-57-b8700c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""></span><span class=""for"" data-for=""not m142""><em>Lock</em> <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span> icon in the address bar.
 </li><li>Tap <span class=""menu"">Clear cookies and site data</span>.
-</li><li>Tap <strong>Clear</strong>.
+</li><li>A warning message will appear. Tap <strong>Clear</strong> to confirm and proceed with deleting your cookies.
 </li><li>Reload the website. Done!
 </li></ol>",mobile,privacy-and-security;tracking-protection,"You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.
 
@@ -87929,7 +87953,7 @@ Opening a bug on Bugzilla using our [bug template](https://bugzilla.mozilla.org/
 1. Go to a website for which you want to clear cookies and data.
 2. Tap the _Shield_ ![Firefox_Android_144_Shield](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)_Lock_ ![Fx89Padlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the address bar.
 3. Tap Clear cookies and site data.
-4. Tap **Clear**.
+4. A warning message will appear. Tap **Clear** to confirm and proceed with deleting your cookies.
 5. Reload the website. Done!
 
 "
