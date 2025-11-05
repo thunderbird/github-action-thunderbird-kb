@@ -11386,8 +11386,8 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <div class=""note""><strong>Tip:</strong> Clicking outside of the Save prompt will hide it. To bring it back, just click the key icon on the left side of the address bar. If Firefox does not prompt you to save passwords, see <a href=""/en-US/kb/usernames-and-passwords-are-not-saved"">Usernames and passwords are not saved</a>.</div>
 <p>In the prompt:
 </p>
-<ul><li> <strong>To have Firefox remember your username and password</strong>, click on <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
-<ul><li> If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click on <span class=""button"">Update</span>.
+<ul><li> <strong>To have Firefox remember your username and password</strong>, click <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
+<ul><li> If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click <span class=""button"">Update</span>.
 </li></ul>
 </li><li> <strong>To tell Firefox to never remember usernames and passwords for the current website</strong>, click the drop-down menu and select <span class=""menu"">Never Save</span>. In the future, when you log in to the website, you won't be prompted to save the username and password.
 <ul><li> If you later change your mind and would like Firefox to ask you to save usernames and passwords for this site, you'll need to go into your Firefox Settings
@@ -11399,18 +11399,18 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <div class=""for"" data-for=""fx145""><p>You can also <a href=""/en-US/kb/add-login-firefox-password-manager"">manually add website logins</a>. 
 </p>
 <ul><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button.
-<ul><li>Select <span class=""menu"">Passwords</span>.
+<ol><li>Select <span class=""menu"">Passwords</span>.
 </li><li>Click the <span class=""button"">+</span> next to the <span class=""for"" data-for=""not fx122""><em>Search Logins</em></span><span class=""for"" data-for=""fx122""><em>Search Passwords</em></span> box at the top left.
 </li><li>Add a website address, username and password.
 </li><li>Click <span class=""button"">Save</span>.
-</li></ul>
-</li><li>Click on the Customize sidebar icon. 
-<ul><li>In the Firefox tools menu, enable Passwords in the sidebar. The key <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon will now be showing in the Firefox sidebar. 
+</li></ol>
+</li><li>Click on the <em>Customize sidebar</em> <img alt=""Sidebar Settings 15112024"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-13-18-34-888f21.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""40""> icon. 
+<ol><li>In the <span class=""menu"">Firefox tools</span> menu, enable <strong>Passwords</strong> in the sidebar. The key <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon will now be showing in the Firefox sidebar. 
 </li><li>Click it to open the password manager. 
-</li><li>Click the  next to the Search Passwords box at the top right. 
+</li><li>Click the <span class=""button"">+</span> next to the <em>Search Passwords</em> box at the top right. 
 </li><li>Add a website, your credentials, and your password.
-</li><li>Click Save.
-</li></ul>
+</li><li>Click <span class=""button"">Save</span>.
+</li></ol>
 </li></ul>
 </div>
 <h1 id=""w_managing-multiple-accounts-for-a-site"">Managing multiple accounts for a site</h1>
@@ -11445,12 +11445,12 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <p>See <a href=""/en-US/kb/edit-or-delete-login-firefox-password-manager"">Edit or delete a login with the Firefox Password Manager</a> for more information.
 </p><div class=""for"" data-for=""fx145"">
 <h2 id=""w_from-the-firefox-sidebar"">From the Firefox sidebar</h2>
-<ol><li>Click on the Customize sidebar icon.
+<ol><li>Click on the <em>Customize sidebar</em> icon <img alt=""Sidebar Settings 15112024"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-13-18-34-888f21.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""40"">.
 </li><li>In the Firefox tools menu, enable <span class=""button"">Passwords</span> in the sidebar.
 </li></ol>
 <dl><dt><img alt=""passwordsidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-25-03-21ad0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
-<p>Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+<p>Once enabled, a new <em>Passwords</em> icon <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> appears in the sidebar. Click the icon to open the password manager.
 </p><p>You can now:
 </p>
 <ul><li>View and search saved passwords
@@ -11565,8 +11565,8 @@ When you enter a username and password that you haven't already saved for a webs
 
 In the prompt:
 
-- **To have Firefox remember your username and password** , click on Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
-  - If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click on Update.
+- **To have Firefox remember your username and password** , click Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
+  - If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click Update.
 
 - **To tell Firefox to never remember usernames and passwords for the current website** , click the drop-down menu and select Never Save. In the future, when you log in to the website, you won't be prompted to save the username and password.
   - If you later change your mind and would like Firefox to ask you to save usernames and passwords for this site, you'll need to go into your Firefox Settings and remove the site's entry from the Privacy & Security panel _Exceptions_ list.
@@ -11578,17 +11578,17 @@ In the prompt:
 You can also [manually add website logins](\""https://support.mozilla.org/en-US/kb/add-login-firefox-password-manager"").
 
 - Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-  - Select Passwords.
-  - Click the + next to the _Search Logins__Search Passwords_ box at the top left.
-  - Add a website address, username and password.
-  - Click Save.
+  1. Select Passwords.
+  2. Click the + next to the _Search Logins__Search Passwords_ box at the top left.
+  3. Add a website address, username and password.
+  4. Click Save.
 
-- Click on the Customize sidebar icon. 
-  - In the Firefox tools menu, enable Passwords in the sidebar. The key ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will now be showing in the Firefox sidebar. 
-  - Click it to open the password manager. 
-  - Click the next to the Search Passwords box at the top right. 
-  - Add a website, your credentials, and your password.
-  - Click Save.
+- Click on the _Customize sidebar_ ![Sidebar Settings 15112024](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon. 
+  1. In the Firefox tools menu, enable **Passwords** in the sidebar. The key ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will now be showing in the Firefox sidebar. 
+  2. Click it to open the password manager. 
+  3. Click the + next to the _Search Passwords_ box at the top right. 
+  4. Add a website, your credentials, and your password.
+  5. Click Save.
 
 # Managing multiple accounts for a site
 
@@ -11628,14 +11628,14 @@ See [Edit or delete a login with the Firefox Password Manager](\""https://suppor
 
 ## From the Firefox sidebar
 
-1. Click on the Customize sidebar icon.
+1. Click on the _Customize sidebar_ icon ![Sidebar Settings 15112024](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
 2. In the Firefox tools menu, enable Passwords in the sidebar.
 
 <dl><dt>
 <img alt=""passwordsidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-25-03-21ad0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 
-Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+Once enabled, a new _Passwords_ icon ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) appears in the sidebar. Click the icon to open the password manager.
 
 You can now:
 
@@ -27122,8 +27122,7 @@ You can edit an existing Shortcut to show a new title and URL.
 </p>
 <dl><dt><img alt=""pocket menu 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-12-06-32-b9aa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-<ul><li>Click <span class=""menu"">Bookmark</span> in the menu and a prompt will ask you to give your bookmark a name and tags.
-</li></ul>
+</li><li>Click <span class=""menu"">Bookmark</span> in the menu and a prompt will ask you to give your bookmark a name and tags.
 </li><li>Click <span class=""button"">Done</span> when you're finished.
 </li></ol>
 <h2 id=""w_remove-a-recommended-story"">Remove a recommended story</h2>
@@ -27131,8 +27130,7 @@ You can edit an existing Shortcut to show a new title and URL.
 </p>
 <dl><dt><img alt=""pocket menu 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-12-06-32-b9aa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-<ul><li>Click the menu and then click <strong>Dismiss</strong> to remove it from your recommended stories.
-</li></ul>
+</li><li>Click the menu and then click <strong>Dismiss</strong> to remove it from your recommended stories.
 </li></ol>
 <p>More questions? See <a href=""/en-US/kb/about-new-tab-page"">New Tab page in Firefox</a>.
 </p></section>
@@ -27144,11 +27142,11 @@ You can edit an existing Shortcut to show a new title and URL.
 <dl><dt><img alt=""Fx113NewTabRecentActivity"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-11-35-31-008279.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 <h2 id=""w_open-a-file-or-its-folder-bookmark-a-site-from-the-recent-activity-section"">Open a file or its folder, bookmark a site from the Recent Activity section</h2>
-<ol><li>Hover over the top right corner of a tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
+<ol><li>Hover over the tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
 </li><li>Click the menu, and choose the action you wish to take.
 </li></ol>
 <h2 id=""w_open-a-site-from-the-recent-activity-section-in-a-new-window"">Open a site from the Recent Activity section in a new window</h2>
-<ol><li>Hover over the top right corner of a tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
+<ol><li>Hover over the tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
 </li><li>Click <span class=""menu"">Open in a New Window</span> or <span class=""menu"">Open in a New Private Window</span> if you don't want it to be saved in your browsing history.
 </li></ol>
 <div class=""note""><strong>Tip:</strong> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">Control</span> key while you click</span>
@@ -27472,22 +27470,24 @@ You can edit an existing Shortcut to show a new title and URL.
 <dl><dt>
 <img alt=""pocket menu 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-12-06-32-b9aa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-<ul><li>Click <span class=""menu"">Bookmark</span> in the menu and a prompt will ask you to give your bookmark a name and tags.
-</li></ul>
+</li>
+<li>Click <span class=""menu"">Bookmark</span> in the menu and a prompt will ask you to give your bookmark a name and tags.
 </li>
 <li>Click <span class=""button"">Done</span> when you're finished.
 </li>
 </ol>
 <h2 id=""w_remove-a-recommended-story"">Remove a recommended story</h2>
-<ol><li>
+<ol>
+<li>
 <p>Hover over the article until the menu (three dots) appears.
 </p>
 <dl><dt>
 <img alt=""pocket menu 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-12-06-32-b9aa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-<ul><li>Click the menu and then click <strong>Dismiss</strong> to remove it from your recommended stories.
-</li></ul>
-</li></ol>
+</li>
+<li>Click the menu and then click <strong>Dismiss</strong> to remove it from your recommended stories.
+</li>
+</ol>
 <p>More questions? See <a href='\""https://support.mozilla.org/en-US/kb/about-new-tab-page""'>New Tab page in Firefox</a>.
 </p></section>
 
@@ -27501,14 +27501,14 @@ You can edit an existing Shortcut to show a new title and URL.
 </dt></dl>
 <h2 id=""w_open-a-file-or-its-folder-bookmark-a-site-from-the-recent-activity-section"">Open a file or its folder, bookmark a site from the Recent Activity section</h2>
 <ol>
-<li>Hover over the top right corner of a tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
+<li>Hover over the tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
 </li>
 <li>Click the menu, and choose the action you wish to take.
 </li>
 </ol>
 <h2 id=""w_open-a-site-from-the-recent-activity-section-in-a-new-window"">Open a site from the Recent Activity section in a new window</h2>
 <ol>
-<li>Hover over the top right corner of a tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
+<li>Hover over the tile until the menu <img alt=""3-dotMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-23-42-f7c6d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> appears.
 </li>
 <li>Click <span class=""menu"">Open in a New Window</span> or <span class=""menu"">Open in a New Private Window</span> if you don't want it to be saved in your browsing history.
 </li>
@@ -65369,7 +65369,7 @@ The exact steps may vary according to your iOS version. For more information see
 </p><p>Additionally, files you download and bookmarks you save while in Private Browsing stay on your device. Firefox does not remove these when you close the window (see <a href=""#w_myth-2-private-browsing-removes-all-traces-of-your-browsing-activity-from-your-computer"">Myth 2</a>). Only temporary browsing data, like history and cookies, is deleted.
 </p>
 <h1 id=""w_myth-4-private-browsing-will-protect-you-from-malware"">Myth 4: Private Browsing will protect you from malware</h1>
-<p><strong>Reality:</strong> Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">Firefox security settings</a> are enabled. If you suspect you have malware, <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">take steps to remove it</a> to prevent it from happening again.
+<p><strong>Reality:</strong> Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">Firefox security settings</a> are enabled. If you suspect you have malware, <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">take steps to remove it</a>.
 </p>
 <h1 id=""w_myth-5-private-browsing-blocks-ads-and-trackers"">Myth 5: Private Browsing blocks ads and trackers</h1>
 <p><strong>Reality:</strong> Private Browsing mode doesn’t automatically block all trackers. However, Firefox’s built-in <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> is active even in regular browsing and offers protection against many types of tracking.
@@ -65411,7 +65411,7 @@ Additionally, files you download and bookmarks you save while in Private Browsin
 
 # Myth 4: Private Browsing will protect you from malware
 
-**Reality:** Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure [Firefox security settings](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") are enabled. If you suspect you have malware, [take steps to remove it](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") to prevent it from happening again.
+**Reality:** Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure [Firefox security settings](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") are enabled. If you suspect you have malware, [take steps to remove it](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
 
 # Myth 5: Private Browsing blocks ads and trackers
 
@@ -82886,7 +82886,7 @@ While free VPNs seem attractive, they often do not make the same commitments to 
 </li><li><strong>Open tabs</strong> – Pages you currently have open in other tabs
 </li><li><strong>Search engines to use</strong> – Relevant search terms or solution buttons related to the task or answer you may be looking for
 </li><li><strong>Suggestions from Firefox</strong> – Contextual suggestions from the web related to your search, including some sponsored suggestions.
-<ul><li><strong>Retrieve suggestions from Mozilla as you type</strong>: In some versions and regions, Firefox can display suggestions with real-time information using <a href=""/en-US/kb/ohttp-explained"">Oblivious HTTP (OHTTP)</a> to protect your privacy. <a href=""https://blog.mozilla.org/en/firefox/better-search-suggestions/"">Learn more</a>.
+<ul><li><strong>Retrieve suggestions from Mozilla as you type</strong> – In some versions and regions, Firefox can display suggestions with real-time information using <a href=""/en-US/kb/ohttp-explained"">Oblivious HTTP (OHTTP)</a> to protect your privacy. <a href=""https://blog.mozilla.org/firefox/better-search-suggestions/"">Learn more</a>.
 </li></ul>
 </li></ul>
 <h1 id=""w_manage-your-firefox-suggest-settings"">Manage your Firefox Suggest settings</h1>
@@ -82965,7 +82965,7 @@ Firefox Suggest is a built-in feature that enhances the address bar. It shows re
 - **Open tabs** – Pages you currently have open in other tabs
 - **Search engines to use** – Relevant search terms or solution buttons related to the task or answer you may be looking for
 - **Suggestions from Firefox** – Contextual suggestions from the web related to your search, including some sponsored suggestions.
-  - **Retrieve suggestions from Mozilla as you type** : In some versions and regions, Firefox can display suggestions with real-time information using [Oblivious HTTP (OHTTP)](\""https://support.mozilla.org/en-US/kb/ohttp-explained"") to protect your privacy. [Learn more](https://blog.mozilla.org/en/firefox/better-search-suggestions/).
+  - **Retrieve suggestions from Mozilla as you type** – In some versions and regions, Firefox can display suggestions with real-time information using [Oblivious HTTP (OHTTP)](\""https://support.mozilla.org/en-US/kb/ohttp-explained"") to protect your privacy. [Learn more](https://blog.mozilla.org/firefox/better-search-suggestions/).
 
 # Manage your Firefox Suggest settings
 
