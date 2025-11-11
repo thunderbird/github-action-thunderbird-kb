@@ -5669,8 +5669,8 @@ _**Based on information from [Firefox hangs (mozillaZine KB)](http://kb.mozillaz
 </li></ul>
 <div class=""note""><strong>Blocking pop-ups may interfere with some websites:</strong> Some websites, including some banking sites, use pop-ups for important features. Blocking all pop-ups disables such features. To allow specific websites to use pop-ups, while still blocking all others, you can add those specific websites to the list of allowed sites.
 <strong>Blocking pop-ups doesn't always work:</strong> Although Firefox blocks most pop-ups, some websites may show pop-ups using uncovered methods, even when they are blocked.</div>
-<p><span class=""for"" data-for=""fx142"">Additionally, to better protect you, Firefox also includes <strong>third-party redirect blocking</strong>, which stops websites from forcibly opening themselves as top pages outside of trusted browsing frames or windows, protecting you from content hijacking or clickjacking tactics</span> 
-</p><p><span class=""for"" data-for=""fx142"">Both features work together to improve your browsing safety while keeping essential site functions intact.</span>
+<p><span class=""for"" data-for=""fx144"">Additionally, to better protect you, Firefox also includes <strong>third-party redirect blocking</strong>, which stops websites from forcibly opening themselves as top pages outside of trusted browsing frames or windows, protecting you from content hijacking or clickjacking tactics</span> 
+</p><p><span class=""for"" data-for=""fx144"">Both features work together to improve your browsing safety while keeping essential site functions intact.</span>
 </p>
 <h1 id=""w_pop-up-blocker-settings"">Pop-up blocker settings</h1>
 <p>To access the pop-up blocker settings:
@@ -5693,8 +5693,8 @@ _**Based on information from [Firefox hangs (mozillaZine KB)](http://kb.mozillaz
 </li></ul>
 <p>Click the <span class=""button"">Save Changes</span> button to apply your changes.
 </p>
-<div class=""for"" data-for=""fx142""><div class=""note""><strong>Note</strong>: Allowing pop-ups for a trusted site also permits third-party redirect blocking; these settings are linked and must be toggled together. You can think of the third-party redirect blocking as an extension of the pop-up blocker, and it protects you by ensuring that pop-ups only open within a secure browser context.</div></div>
-<div class=""for"" data-for=""fx142"">
+<div class=""for"" data-for=""fx144""><div class=""note""><strong>Note</strong>: Allowing pop-ups for a trusted site also permits third-party redirect blocking; these settings are linked and must be toggled together. You can think of the third-party redirect blocking as an extension of the pop-up blocker, and it protects you by ensuring that pop-ups only open within a secure browser context.</div></div>
+<div class=""for"" data-for=""fx144"">
 <h1 id=""w_understand-firefoxs-third-party-redirect-blocking"">Understand Firefox’s third-party redirect blocking</h1>
 <p>Third-party redirect blocking protects against deceptive websites that attempt to load their pages outside of approved browser environments, often overriding your tabs or opening content in full-screen or external windows.
 </p><p>This safeguard works alongside pop-up blocking, catching methods that bypass standard window behavior. 
@@ -7873,6 +7873,10 @@ If you don't want to try the first solution or if it didn't work, the Firefox [r
 <span class=""for"" data-for=""mac""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/mac/en-US/Firefox%20143.0.4.dmg"">Firefox 143.0.4</a> (US English)</span>
 <span class=""for"" data-for=""linux""><span class=""for"" data-for=""fx135""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-i686/en-US/firefox-143.0.4.tar.xz"">Firefox 143.0.4</a> <strong>32-bit</strong> (US English)<br><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-x86_64/en-US/firefox-143.0.4.tar.xz"">Firefox 143.0.4</a> <strong>64-bit</strong> (US English)</span><span class=""for"" data-for=""not fx135""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-i686/en-US/firefox-143.0.4.tar.bz2"">Firefox 143.0.4</a> <strong>32-bit</strong> (US English)<br><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-x86_64/en-US/firefox-143.0.4.tar.bz2"">Firefox 143.0.4</a> <strong>64-bit</strong> (US English)</span></span>
 </p></div>
+<div class=""for"" data-for=""=fx145""><p><span class=""for"" data-for=""win""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/win32/en-US/Firefox%20Setup%20144.0.2.exe"">Firefox 144.0.2</a> <strong>32-bit</strong> (US English)<br><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/win64/en-US/Firefox%20Setup%20144.0.2.exe"">Firefox 144.0.2</a> <strong>64-bit</strong> (US English)</span>
+<span class=""for"" data-for=""mac""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/mac/en-US/Firefox%20144.0.2.dmg"">Firefox 144.0.2</a> (US English)</span>
+<span class=""for"" data-for=""linux""><span class=""for"" data-for=""fx135""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-i686/en-US/firefox-144.0.2.tar.xz"">Firefox 144.0.2</a> <strong>32-bit</strong> (US English)<br><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-x86_64/en-US/firefox-144.0.2.tar.xz"">Firefox 144.0.2</a> <strong>64-bit</strong> (US English)</span><span class=""for"" data-for=""not fx135""><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-i686/en-US/firefox-144.0.2.tar.bz2"">Firefox 144.0.2</a> <strong>32-bit</strong> (US English)<br><a href=""https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-x86_64/en-US/firefox-144.0.2.tar.bz2"">Firefox 144.0.2</a> <strong>64-bit</strong> (US English)</span></span>
+</p></div>
 <p></p><p><a href=""https://ftp.mozilla.org/pub/firefox/releases/"">Directory of other versions and languages</a>
 </p>
 <div class=""note""><strong>Important:</strong> By default, Firefox is set for automatic updates. To prevent Firefox from automatically updating itself after you install an older version, you'll need to change your Firefox update settings: <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (select <span class=""menu"">Preferences</span> on older macOS versions).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> and select <span class=""menu"">Settings</span>.</span>
@@ -8082,6 +8086,11 @@ If you still want to downgrade, you can visit Mozilla's directory of older Firef
 [Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/win64/en-US/Firefox%20Setup%20143.0.4.exe) **64-bit** (US English)[Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/mac/en-US/Firefox%20143.0.4.dmg) (US English)[Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-i686/en-US/firefox-143.0.4.tar.xz) **32-bit** (US English)  
 [Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-x86_64/en-US/firefox-143.0.4.tar.xz) **64-bit** (US English)[Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-i686/en-US/firefox-143.0.4.tar.bz2) **32-bit** (US English)  
 [Firefox 143.0.4](https://download-installer.cdn.mozilla.net/pub/firefox/releases/143.0.4/linux-x86_64/en-US/firefox-143.0.4.tar.bz2) **64-bit** (US English)
+
+[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/win32/en-US/Firefox%20Setup%20144.0.2.exe) **32-bit** (US English)  
+[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/win64/en-US/Firefox%20Setup%20144.0.2.exe) **64-bit** (US English)[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/mac/en-US/Firefox%20144.0.2.dmg) (US English)[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-i686/en-US/firefox-144.0.2.tar.xz) **32-bit** (US English)  
+[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-x86_64/en-US/firefox-144.0.2.tar.xz) **64-bit** (US English)[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-i686/en-US/firefox-144.0.2.tar.bz2) **32-bit** (US English)  
+[Firefox 144.0.2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/144.0.2/linux-x86_64/en-US/firefox-144.0.2.tar.bz2) **64-bit** (US English)
 
 [Directory of other versions and languages](https://ftp.mozilla.org/pub/firefox/releases/)
 
@@ -13859,10 +13868,9 @@ You can also try the instructions in the resources below:
 <ol><li>Click <img alt=""pdfcommenticon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-05-28-16-bba80e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> to open comment editing, then click the <span class=""button"">Remove comment</span> button.
 <dl><dt><img alt=""removecomment"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-05-47-18-015350.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-</li><li>You can click the <span class=""button"">Undo</span> button right after you delete a comment to bring it back.
-<dl><dt><img alt=""removecommentpdf"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-05-51-06-573bc8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
-</dt></dl>
 </li></ol>
+<p>
+</p>
 <h3 id=""w_useful-tips"">Useful tips</h3>
 <ol><li>You can drag and drop the comment to a new location.
 <dl><dt><img alt=""draganddrop"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-06-02-16-f34052.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
@@ -14098,9 +14106,6 @@ Editing a PDF allows you to add notes, highlights and other markings directly on
 
 1. Click ![pdfcommenticon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open comment editing, then click the Remove comment button.<dl><dt>
 <img alt=""removecomment"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-05-47-18-015350.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
-</dt></dl>
-2. You can click the Undo button right after you delete a comment to bring it back.<dl><dt>
-<img alt=""removecommentpdf"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-06-05-51-06-573bc8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 
 ### Useful tips
@@ -44083,8 +44088,8 @@ Moderators should report in the [Forum Moderators forum](\""https://support.mozi
 Situations where users or fellow contributors are misbehaving/making bad suggestions should also be reported in the moderators forum or to Admin depending on how delicate/severe the situation is.
 
 "
-20747,"Use the Firefox Sidebar to access bookmarks, history and synced tabs",use-firefox-sidebar-access-bookmarks-history-synced,https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced,en-US,"The Firefox Sidebar feature lets you access your bookmarks, history and synced tabs conveniently at the click of a button.","<div class=""note""><strong>Note:</strong> For information on the updated sidebar and vertical tabs introduced in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 136, please see <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>.</div>
-<p>Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history and synced tabs in one click. This article shows you how to use this feature.
+20747,"Use the Firefox Sidebar to access bookmarks, history, passwords and synced tabs",use-firefox-sidebar-access-bookmarks-history-synced,https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced,en-US,"The Firefox Sidebar feature lets you access your bookmarks, history and synced tabs conveniently at the click of a button.","<div class=""note""><strong>Note:</strong> For information on the updated sidebar and vertical tabs introduced in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 136, please see <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>.</div>
+<p>Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history, <span class=""for"" data-for=""fx145"">passwords</span> and synced tabs in one click. This article shows you how to use this feature.
 </p>
 <dl><dt><img alt=""sidebar button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-22-36-0838fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
@@ -44106,11 +44111,11 @@ Situations where users or fellow contributors are misbehaving/making bad suggest
 </p>
 <ol><li>Click the arrow next to <em>Bookmarks</em> to expand the menu.
 </li><li>Select <span class=""menu"">Move Sidebar to Right</span>.
-<dl><dt><br><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+<dl><dt><br><span class=""for"" data-for=""not fx145""><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx145""><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
 </dt></dl>
 </li></ol>",firefox,settings," **Note:** For information on the updated sidebar and vertical tabs introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136, please see [Use the sidebar to access tools and vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"").
 
-Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history and synced tabs in one click. This article shows you how to use this feature.
+Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history, passwords and synced tabs in one click. This article shows you how to use this feature.
 
 <dl><dt>
 <img alt=""sidebar button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-22-36-0838fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
@@ -44136,7 +44141,7 @@ The Sidebar shows up on the left by default, but you can also move it to the rig
 
 1. Click the arrow next to _Bookmarks_ to expand the menu.
 2. Select Move Sidebar to Right.<dl><dt>
-<br><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+<br><span class=""for"" data-for=""not fx145""><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx145""><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
 </dt></dl>
 
 "
@@ -113870,9 +113875,12 @@ Once an account is deleted, it cannot be restored. Make sure to sign in or use t
 </li><li> history
 </li><li> tabs from devices you sync with your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>
 </li></ul>
-<p>Starting in Firefox 136, you can also try out a new feature in the sidebar: vertical tabs. If you turn on vertical tabs, your pinned and open tabs will appear in the sidebar instead of along the top of the browser. Early testers report feeling more organized after using vertical tabs for a few days.
+<div class=""for"" data-for=""fx145"">
+<ul><li> passwords
+</li></ul>
+</div><p>Starting in Firefox 136, you can also try out a new feature in the sidebar: vertical tabs. If you turn on vertical tabs, your pinned and open tabs will appear in the sidebar instead of along the top of the browser. Early testers report feeling more organized after using vertical tabs for a few days.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-the-updated-sidebar""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable the updated sidebar</span></a></li><li class=""toclevel-1""><a href=""#w_turn-on-vertical-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn on vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_customize-sidebar-and-vertical-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize sidebar and vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_set-up-sidebar-tools""><span class=""tocnumber"">4</span> <span class=""toctext"">Set up sidebar tools</span></a><ul><li class=""toclevel-2""><a href=""#w_set-up-your-preferred-chatbot-in-the-sidebar""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Set up your preferred chatbot in the sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_manage-tabs-from-devices-you-sync-with-your-mozilla-account""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Manage tabs from devices you sync with your Mozilla account</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-search-browsing-history""><span class=""tocnumber"">4.3</span> <span class=""toctext"">View and search browsing history</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-manage-bookmarks""><span class=""tocnumber"">4.4</span> <span class=""toctext"">View and manage bookmarks</span></a></li></ul></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-the-updated-sidebar""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable the updated sidebar</span></a></li><li class=""toclevel-1""><a href=""#w_turn-on-vertical-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn on vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_customize-sidebar-and-vertical-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize sidebar and vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_set-up-sidebar-tools""><span class=""tocnumber"">4</span> <span class=""toctext"">Set up sidebar tools</span></a><ul><li class=""toclevel-2""><a href=""#w_set-up-your-preferred-chatbot-in-the-sidebar""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Set up your preferred chatbot in the sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_manage-tabs-from-devices-you-sync-with-your-mozilla-account""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Manage tabs from devices you sync with your Mozilla account</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-search-browsing-history""><span class=""tocnumber"">4.3</span> <span class=""toctext"">View and search browsing history</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-manage-bookmarks""><span class=""tocnumber"">4.4</span> <span class=""toctext"">View and manage bookmarks</span></a></li><li class=""toclevel-2""><a href=""#w_manage-passwords-from-the-sidebar-in-firefox""><span class=""tocnumber"">4.5</span> <span class=""toctext"">Manage passwords from the sidebar in Firefox</span></a></li><li class=""toclevel-2""><a href=""#w_enable-passwords-in-the-firefox-sidebar""><span class=""tocnumber"">4.6</span> <span class=""toctext"">Enable passwords in the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_use-the-sidebar-password-manager""><span class=""tocnumber"">4.7</span> <span class=""toctext"">Use the sidebar password manager</span></a></li></ul></li></ul></div>
 <h1 id=""w_enable-the-updated-sidebar"">Enable the updated sidebar</h1>
 <ol><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button, and select the <span class=""menu"">Settings</span> option.
 </li><li>Firefox <em>Settings</em> tab will open. Scroll down to the <em>Browser Layout</em> section and select <strong>Show sidebar</strong>.
@@ -113931,7 +113939,31 @@ Once an account is deleted, it cannot be restored. Make sure to sign in or use t
 <h2 id=""w_view-and-manage-bookmarks"">View and manage bookmarks</h2>
 <p>Select the star button <img alt=""61 bookmarks icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-14-09-05-56-fa4ce4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> in the sidebar or use <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">B</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">B</span></span> shortcut to view your bookmarks in the sidebar.
 </p><p>Bookmark any tab by dragging it from your tab strip (vertical or horizontal) to the open bookmarks panel.
-</p>",firefox,settings," **Note:** This article describes the updated sidebar introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136. For information about the original sidebar, see [Use the Firefox Sidebar to access bookmarks, history and synced tabs](\""https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"").
+</p><div class=""for"" data-for=""fx145"">
+<h2 id=""w_manage-passwords-from-the-sidebar-in-firefox"">Manage passwords from the sidebar in Firefox</h2>
+<p>You can access your passwords from the Firefox sidebar, making it easier to manage your stored logins without opening the Firefox about: logins page.
+</p>
+<dl><dt><img alt=""contextualsimplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-19-06-e34141.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
+<h2 id=""w_enable-passwords-in-the-firefox-sidebar"">Enable passwords in the Firefox sidebar</h2>
+<ol><li>Click on the Customize sidebar icon.
+</li><li>In the Firefox tools menu, enable <span class=""button"">Passwords</span> in the sidebar.
+</li></ol>
+<dl><dt><img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<h2 id=""w_use-the-sidebar-password-manager"">Use the sidebar password manager</h2>
+<p>Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+</p><p>You can now:
+</p>
+<ul><li>View and search saved passwords
+</li><li>Add new login credentials
+</li><li>Import passwords from another browser or a file
+</li><li>Export saved passwords
+</li><li>Remove all saved passwords
+</li></ul>
+<dl><dt><img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</div>",firefox,settings," **Note:** This article describes the updated sidebar introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136. For information about the original sidebar, see [Use the Firefox Sidebar to access bookmarks, history and synced tabs](\""https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"").
 
 The Firefox sidebar lets you quickly access multiple tools in one click, without leaving your main view, including:
 
@@ -113939,6 +113971,8 @@ The Firefox sidebar lets you quickly access multiple tools in one click, without
 - bookmarks
 - history
 - tabs from devices you sync with your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"")
+
+- passwords
 
 Starting in Firefox 136, you can also try out a new feature in the sidebar: vertical tabs. If you turn on vertical tabs, your pinned and open tabs will appear in the sidebar instead of along the top of the browser. Early testers report feeling more organized after using vertical tabs for a few days.
 
@@ -113952,6 +113986,9 @@ Starting in Firefox 136, you can also try out a new feature in the sidebar: vert
   - [4.2 Manage tabs from devices you sync with your Mozilla account](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_manage-tabs-from-devices-you-sync-with-your-mozilla-account)
   - [4.3 View and search browsing history](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_view-and-search-browsing-history)
   - [4.4 View and manage bookmarks](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_view-and-manage-bookmarks)
+  - [4.5 Manage passwords from the sidebar in Firefox](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_manage-passwords-from-the-sidebar-in-firefox)
+  - [4.6 Enable passwords in the Firefox sidebar](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_enable-passwords-in-the-firefox-sidebar)
+  - [4.7 Use the sidebar password manager](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_use-the-sidebar-password-manager)
 
 # Enable the updated sidebar
 
@@ -114042,6 +114079,36 @@ Select the star button ![61 bookmarks icon](https://assets-prod.sumo.prod.webser
 
 Bookmark any tab by dragging it from your tab strip (vertical or horizontal) to the open bookmarks panel.
 
+## Manage passwords from the sidebar in Firefox
+
+You can access your passwords from the Firefox sidebar, making it easier to manage your stored logins without opening the Firefox about: logins page.
+
+<dl><dt>
+<img alt=""contextualsimplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-19-06-e34141.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
+## Enable passwords in the Firefox sidebar
+
+1. Click on the Customize sidebar icon.
+2. In the Firefox tools menu, enable Passwords in the sidebar.
+
+<dl><dt>
+<img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+## Use the sidebar password manager
+
+Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+
+You can now:
+
+- View and search saved passwords
+- Add new login credentials
+- Import passwords from another browser or a file
+- Export saved passwords
+- Remove all saved passwords
+
+<dl><dt>
+<img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
 "
 67001,Firefox for Enterprise 136 - Release notes,firefox-enterprise-136-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-136-release-notes,en-US,See what's coming out with Firefox for Enterprise 136.,"<p>Except where noted, everything here applies to both Firefox 136 and the Firefox 128.8 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
 </p>
@@ -114247,6 +114314,1984 @@ Your changes are saved automatically. Close the Settings tab when done.
 - [Crash reports in Firefox for Desktop](\""https://support.mozilla.org/en-US/kb/crash-report"")
 - [Manage marketing data settings in Firefox for Desktop](\""https://support.mozilla.org/en-US/kb/marketing-data"")
 - [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page"")
+
+"
+67018,Mobile - Manage Firefox data collection and privacy settings,mobile-manage-firefox-data-collection-and-privacy,https://support.mozilla.org/en-US/kb/mobile-manage-firefox-data-collection-and-privacy,en-US,"Manage Firefox’s data collection settings on iOS and Android, including technical and interaction data, the DAU ping, crash reports, sponsored content and others.","<p></p><div class=""note""> 
+<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.
+</p>
+</div>
+Firefox balances privacy with performance by collecting limited data, such as usage trends, crash reports, and system details, to improve stability and functionality. This article provides an overview of what’s included in your system settings, where you can control data collection and usage across Android or iOS.
+<p></p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_manage-data-collection-settings-on-firefox-for-ios""><span class=""tocnumber"">1</span> <span class=""toctext"">Manage data collection settings on Firefox for iOS</span></a><ul><li class=""toclevel-2""><a href=""#w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-and-the-automatic-sending-of-crash-reports""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Manage technical and interaction data, studies, the daily usage ping and the automatic sending of crash reports</span></a></li><li class=""toclevel-2""><a href=""#w_manage-sponsored-content-data-and-recent-activity""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Manage sponsored content data and recent activity</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_manage-data-collection-settings-on-firefox-for-android""><span class=""tocnumber"">2</span> <span class=""toctext"">Manage data collection settings on Firefox for Android</span></a><ul><li class=""toclevel-2""><a href=""#w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-the-automatic-sending-of-crash-reports-and-campaign-data""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Manage technical and interaction data, studies, the daily usage ping, the automatic sending of crash reports and campaign data</span></a></li><li class=""toclevel-2""><a href=""#w_manage-sponsored-content-data-and-recent-activity_2""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Manage sponsored content data and recent activity</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_manage-data-collection-settings-on-firefox-for-ios"">Manage data collection settings on Firefox for iOS</h1>
+<h2 id=""w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-and-the-automatic-sending-of-crash-reports"">Manage technical and interaction data, studies, the daily usage ping and the automatic sending of crash reports</h2>
+<ol><li>Open Firefox on your iPhone or iPad.
+</li><li>Tap the menu button ☰ at the bottom-right corner.
+</li><li>Select <span class=""menu"">Settings</span>.
+</li><li>Scroll down to <em>Support</em>.
+</li><li>Toggle the following options on or off:
+<ul><li><strong>Send technical and interaction data</strong> – Shares device, hardware, and usage data with Mozilla to help improve Firefox features, performance and stability. For details, see <a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>.
+</li><li><strong>Install and run studies</strong> – Allows Mozilla to test experimental features before public release. For details, see <a href=""/en-US/kb/shield"">About Studies</a>.
+</li><li><strong>Daily usage ping</strong> – Helps Mozilla estimate the number of active users. For details, see the <a href=""/en-US/kb/usage-ping-settings"">Manage daily usage ping data collection settings in Firefox</a>.
+</li><li><strong>Automatically send crash reports</strong> – Sends crash data to help diagnose and fix browser issues. For details, see <a href=""/en-US/kb/ios-crash-reports-pref"">Crash reports in Firefox for iOS</a>.
+</li></ul>
+<dl><dt><img alt=""Data collection ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-05-06-46-36-97746d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Close the settings when done – your changes are saved automatically.
+</li></ol>
+<h2 id=""w_manage-sponsored-content-data-and-recent-activity"">Manage sponsored content data and recent activity</h2>
+<ol><li>Open Firefox and tap the menu button ≡ at the bottom of the screen.
+</li><li>Select Settings, navigate to the following to adjust your preferences:
+<ul><li>For <strong>Search Suggestions</strong>, go to <strong>General &gt; Search</strong> and scroll down to <strong>Address bar &gt; Firefox Suggest &gt; Suggestions from Sponsors</strong> – Provides the ability to turn on or off sponsored search suggestions.
+</li><li>For <strong>Sponsored Stories</strong>, go to <strong>General &gt; Homepage</strong> and scroll down to <strong>Include on Homepage &gt; Thought-Provoking Stories</strong> – Provides the ability to turn on or off sponsored stories on New Tab.
+</li><li>For <strong>Sponsored Shortcuts</strong>, go to <strong>Homepage &gt; Shortcuts &gt; Sponsored Shortcuts</strong> – Provides the ability to turn on or off sponsored shortcuts on a New Tab.
+</li><li>For <strong>Shortcuts</strong>, go to <strong>Homepage &gt; Shortcuts &gt; Shortcuts</strong> – Provides the ability to turn on or off icons displaying recent downloads, sites or bookmarks.
+</li></ul>
+</li></ol>
+<p>For details, see <a href=""/en-US/kb/customize-firefox-home-ios"">Customize Firefox Home on iOS</a>.
+</p>
+<dl><dt><img alt=""Suggestions ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-05-07-01-16-e4a839.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+<h1 id=""w_manage-data-collection-settings-on-firefox-for-android"">Manage data collection settings on Firefox for Android</h1>
+<h2 id=""w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-the-automatic-sending-of-crash-reports-and-campaign-data"">Manage technical and interaction data, studies, the daily usage ping, the automatic sending of crash reports and campaign data</h2>
+<ol><li>Open Firefox on your Android device.
+</li><li>Tap the 3-dot menu button on the right of your toolbar.
+</li><li>Select <span class=""menu"">Settings</span>.
+</li><li>Scroll down to <em>Privacy &amp; security</em>.
+</li><li>Tap <strong>Data collection</strong>, adjust the following options:
+<ul><li><strong>Send technical and interaction data</strong> – Shares device, hardware and usage data with Mozilla to help improve features, performance and stability. For details, see <a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>.
+</li><li><strong>Install and run studies</strong> – Allows Mozilla to test experimental features before public release. For details, see <a href=""/en-US/kb/shield"">About Studies</a>.
+</li><li><strong>Daily usage ping</strong> – Helps Mozilla estimate the number of active users. For details, see <a href=""/en-US/kb/usage-ping-settings"">Manage daily usage ping data collection settings in Firefox</a>.
+</li><li><strong>Automatically send crash reports</strong> – Sends crash data to help diagnose and fix browser issues. For details, see <a href=""/en-US/kb/how-send-crash-report-firefox-android"">Crash reports in Firefox for Android</a>.
+</li><li><strong>Campaign measurement data</strong> – Shares information on how you discovered Firefox with Mozilla’s marketing partners. For details, see <a href=""/en-US/kb/mobile-marketing-data"">Manage marketing data settings in Firefox for Android</a>.
+</li></ul>
+</li><li>Changes are saved automatically – simply exit the settings.
+<dl><dt><img alt=""campaing measurement android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-03-14-11-57-54a9a3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<h2 id=""w_manage-sponsored-content-data-and-recent-activity_2"">Manage sponsored content data and recent activity</h2>
+<ol><li>Open Firefox and tap the 3-dot menu button on the right of your toolbar.
+</li><li>Select <span class=""menu"">Settings</span>, navigate to the following to adjust your preferences:
+<ul><li>For <strong>Search Suggestions</strong>, go to <em>General</em> &gt; <span class=""menu"">Search</span> and scroll down to <em>Address bar – Firefox Suggest</em> &gt; <strong>Suggestions from Sponsors</strong> – Provides the ability to turn on or off sponsored search suggestions.
+</li><li>For <strong>Sponsored Stories</strong>, go to <em>General</em> &gt; <span class=""menu"">Homepage</span> and scroll down to <em>Include on Homepage</em> &gt; <strong>Thought-Provoking Stories</strong> – Provides the ability to turn on or off sponsored stories on a New Tab.
+</li><li>For <strong>Shortcuts</strong>, go to <em>General</em> &gt; <span class=""menu"">Homepage</span> &gt; <strong>Shortcuts</strong> – Provides the ability to turn on or off tiles displaying recent downloads, sites or bookmarks.
+</li><li>For <strong>Sponsored Shortcuts</strong>, go to <em>General</em> &gt; <span class=""menu"">Homepage</span> &gt; <em>Shortcuts</em> &gt; <strong>Sponsored Shortcuts</strong> – Provides the ability to turn on or off sponsored shortcuts on a New Tab.
+</li></ul>
+</li></ol>
+<p>For details, see <a href=""/en-US/kb/customize-firefox-home-screen"">Customize the Firefox home screen</a>.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>
+</li><li><a href=""/en-US/kb/shield"">About Studies</a>
+</li><li><a href=""/en-US/kb/usage-ping-settings"">Manage daily usage ping data collection settings in Firefox</a>
+</li><li><a href=""/en-US/kb/how-send-crash-report-firefox-android"">Crash reports in Firefox for Android</a>
+</li><li><a href=""/en-US/kb/ios-crash-reports-pref"">Crash reports in Firefox for iOS</a>
+</li><li><a href=""/en-US/kb/mobile-marketing-data"">Manage marketing data settings in Firefox for Android</a>
+</li><li><a href=""/en-US/kb/marketing-data-ios"">Marketing data settings in Firefox for iOS</a>
+</li><li><a href=""/en-US/kb/customize-firefox-home-ios"">Customize Firefox Home on iOS</a>
+</li></ul>",mobile;ios,backup-recovery-and-sync;privacy-and-security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Firefox handles data with transparency—learn more about what that means for you. [Read the Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
+
+Firefox balances privacy with performance by collecting limited data, such as usage trends, crash reports, and system details, to improve stability and functionality. This article provides an overview of what’s included in your system settings, where you can control data collection and usage across Android or iOS.
+
+## Table of Contents
+
+- [1 Manage data collection settings on Firefox for iOS](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-data-collection-settings-on-firefox-for-ios)
+  - [1.1 Manage technical and interaction data, studies, the daily usage ping and the automatic sending of crash reports](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-and-the-automatic-sending-of-crash-reports)
+  - [1.2 Manage sponsored content data and recent activity](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-sponsored-content-data-and-recent-activity)
+
+- [2 Manage data collection settings on Firefox for Android](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-data-collection-settings-on-firefox-for-android)
+  - [2.1 Manage technical and interaction data, studies, the daily usage ping, the automatic sending of crash reports and campaign data](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-technical-and-interaction-data-studies-the-daily-usage-ping-the-automatic-sending-of-crash-reports-and-campaign-data)
+  - [2.2 Manage sponsored content data and recent activity](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_manage-sponsored-content-data-and-recent-activity_2)
+
+- [3 Related articles](https://support.mozilla.org/kb/mobile-manage-firefox-data-collection-and-privacy#w_related-articles)
+
+# Manage data collection settings on Firefox for iOS
+
+## Manage technical and interaction data, studies, the daily usage ping and the automatic sending of crash reports
+
+1. Open Firefox on your iPhone or iPad.
+2. Tap the menu button ☰ at the bottom-right corner.
+3. Select Settings.
+4. Scroll down to _Support_.
+5. Toggle the following options on or off:
+  - **Send technical and interaction data** – Shares device, hardware, and usage data with Mozilla to help improve Firefox features, performance and stability. For details, see [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"").
+  - **Install and run studies** – Allows Mozilla to test experimental features before public release. For details, see [About Studies](\""https://support.mozilla.org/en-US/kb/shield"").
+  - **Daily usage ping** – Helps Mozilla estimate the number of active users. For details, see the [Manage daily usage ping data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/usage-ping-settings"").
+  - **Automatically send crash reports** – Sends crash data to help diagnose and fix browser issues. For details, see [Crash reports in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/ios-crash-reports-pref"").
+
+<dl><dt>
+<img alt=""Data collection ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-05-06-46-36-97746d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+6. Close the settings when done – your changes are saved automatically.
+
+## Manage sponsored content data and recent activity
+
+1. Open Firefox and tap the menu button ≡ at the bottom of the screen.
+2. Select Settings, navigate to the following to adjust your preferences:
+  - For **Search Suggestions** , go to **General \> Search** and scroll down to **Address bar \> Firefox Suggest \> Suggestions from Sponsors** – Provides the ability to turn on or off sponsored search suggestions.
+  - For **Sponsored Stories** , go to **General \> Homepage** and scroll down to **Include on Homepage \> Thought-Provoking Stories** – Provides the ability to turn on or off sponsored stories on New Tab.
+  - For **Sponsored Shortcuts** , go to **Homepage \> Shortcuts \> Sponsored Shortcuts** – Provides the ability to turn on or off sponsored shortcuts on a New Tab.
+  - For **Shortcuts** , go to **Homepage \> Shortcuts \> Shortcuts** – Provides the ability to turn on or off icons displaying recent downloads, sites or bookmarks.
+
+For details, see [Customize Firefox Home on iOS](\""https://support.mozilla.org/en-US/kb/customize-firefox-home-ios"").
+
+<dl><dt>
+<img alt=""Suggestions ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-05-07-01-16-e4a839.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+# Manage data collection settings on Firefox for Android
+
+## Manage technical and interaction data, studies, the daily usage ping, the automatic sending of crash reports and campaign data
+
+1. Open Firefox on your Android device.
+2. Tap the 3-dot menu button on the right of your toolbar.
+3. Select Settings.
+4. Scroll down to _Privacy & security_.
+5. Tap **Data collection** , adjust the following options:
+  - **Send technical and interaction data** – Shares device, hardware and usage data with Mozilla to help improve features, performance and stability. For details, see [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"").
+  - **Install and run studies** – Allows Mozilla to test experimental features before public release. For details, see [About Studies](\""https://support.mozilla.org/en-US/kb/shield"").
+  - **Daily usage ping** – Helps Mozilla estimate the number of active users. For details, see [Manage daily usage ping data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/usage-ping-settings"").
+  - **Automatically send crash reports** – Sends crash data to help diagnose and fix browser issues. For details, see [Crash reports in Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-send-crash-report-firefox-android"").
+  - **Campaign measurement data** – Shares information on how you discovered Firefox with Mozilla’s marketing partners. For details, see [Manage marketing data settings in Firefox for Android](\""https://support.mozilla.org/en-US/kb/mobile-marketing-data"").
+
+6. Changes are saved automatically – simply exit the settings.<dl><dt>
+<img alt=""campaing measurement android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-03-14-11-57-54a9a3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+## Manage sponsored content data and recent activity
+
+1. Open Firefox and tap the 3-dot menu button on the right of your toolbar.
+2. Select Settings, navigate to the following to adjust your preferences:
+  - For **Search Suggestions** , go to _General_ \> Search and scroll down to _Address bar – Firefox Suggest_ \> **Suggestions from Sponsors** – Provides the ability to turn on or off sponsored search suggestions.
+  - For **Sponsored Stories** , go to _General_ \> Homepage and scroll down to _Include on Homepage_ \> **Thought-Provoking Stories** – Provides the ability to turn on or off sponsored stories on a New Tab.
+  - For **Shortcuts** , go to _General_ \> Homepage \> **Shortcuts** – Provides the ability to turn on or off tiles displaying recent downloads, sites or bookmarks.
+  - For **Sponsored Shortcuts** , go to _General_ \> Homepage \> _Shortcuts_ \> **Sponsored Shortcuts** – Provides the ability to turn on or off sponsored shortcuts on a New Tab.
+
+For details, see [Customize the Firefox home screen](\""https://support.mozilla.org/en-US/kb/customize-firefox-home-screen"").
+
+# Related articles
+
+- [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"")
+- [About Studies](\""https://support.mozilla.org/en-US/kb/shield"")
+- [Manage daily usage ping data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/usage-ping-settings"")
+- [Crash reports in Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-send-crash-report-firefox-android"")
+- [Crash reports in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/ios-crash-reports-pref"")
+- [Manage marketing data settings in Firefox for Android](\""https://support.mozilla.org/en-US/kb/mobile-marketing-data"")
+- [Marketing data settings in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/marketing-data-ios"")
+- [Customize Firefox Home on iOS](\""https://support.mozilla.org/en-US/kb/customize-firefox-home-ios"")
+
+"
+67103,Firefox for Android’s protection against fingerprinters,firefox-androids-protection-against-fingerprinters,https://support.mozilla.org/en-US/kb/firefox-androids-protection-against-fingerprinters,en-US,Fingerprinting Protection in Firefox for Android protects you from websites that try to identify you based on a set of unique characteristics.,"<p>Like other browsers, Firefox for Android’s functionality is influenced by your device. In some instances, details of your mobile phone or tablet are accessible to websites to (for example) help render content in higher resolution or provide instructions for your specific device.
+</p><p>However, when all the different aspects a browser exposes are combined, the unique combination can act like a “fingerprint” and makes you identifiable across the web. This “fingerprint” is potentially used to profile you for targeted content without the use of cookies. Firefox for Android’s <a href=""/en-US/kb/enhanced-tracking-protection-firefox-android"">Enhanced Tracking Protection</a> blocks a list of “Known Fingerprinters” and limits the information your browser exposes at all times to combat “Suspected Fingerprinters”.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_default-settings""><span class=""tocnumber"">1</span> <span class=""toctext"">Default Settings</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-disable-this-protection-for-a-website""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I disable this protection for a website?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-enable-or-disable-this-protection-for-all-sites""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I enable or disable this protection for all sites?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-tell-if-this-protection-broke-something""><span class=""tocnumber"">4</span> <span class=""toctext"">How can I tell if this protection broke something?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-each-protection-work""><span class=""tocnumber"">5</span> <span class=""toctext"">How does each protection work?</span></a><ul><li class=""toclevel-2""><a href=""#w_known-fingerprinters""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Known Fingerprinters</span></a></li><li class=""toclevel-2""><a href=""#w_suspected-fingerprinters""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Suspected Fingerprinters</span></a></li></ul></li></ul></div>
+<h1 id=""w_default-settings"">Default Settings</h1>
+<p>Known Fingerprinters Protection is enabled in normal browsing and when Enhanced Tracking Protection is set to Strict.
+</p><p>Both Known Fingerprinters Protection and Suspected Fingerprinters Protection are enabled in Private Browsing and when Enhanced Tracking Protection is set to Strict.
+</p><p>Both features can be controlled more granularly when the Custom level of Enhanced Tracking Protection is selected.
+</p>
+<h1 id=""w_how-do-i-disable-this-protection-for-a-website"">How do I disable this protection for a website?</h1>
+<p>If a site seems broken, try turning off Enhanced Tracking Protection. It disables the protection on that site only. Enhanced Tracking Protection will continue to block trackers on other sites.
+</p>
+<div class=""note""><strong>Note:</strong> Turning <em>Enhanced Tracking Protection</em> off for a specific website will add that website to your <em>Exceptions</em> list. If you wish to turn it back on for that site, tap the <strong>Enhanced Tracking Protection</strong> toggle again or <a href=""/en-US/kb/enhanced-tracking-protection-firefox-android#w_manage-your-exceptions-list"">remove the website from your Exceptions list</a>.</div>
+<ol><li>Tap the <span class=""for"" data-for=""m142""><em>Shield</em> <img alt=""Firefox_Android_144_Shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-10-02-57-b8700c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""></span><span class=""for"" data-for=""not m142""><em>Lock</em> <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span> icon in the address bar while you're on the website that you want to manage.
+</li><li>Tap the <strong>Enhanced Tracking Protection</strong> toggle to turn it on or off for that site.
+</li></ol>
+<h1 id=""w_how-do-i-enable-or-disable-this-protection-for-all-sites"">How do I enable or disable this protection for all sites?</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <em>Privacy and Security</em>, tap <span class=""menu"">Enhanced Tracking Protection</span>.
+</li><li>To control Fingerprinting Protection, select the <strong>Custom</strong> option from the Enhanced Tracking Protection settings.
+</li><li><strong>Adjust Fingerprinting Protection Settings:</strong> Once you've selected Custom, you will see options to block <strong>Known fingerprinters</strong> and <strong>Suspected fingerprinters</strong>. Check the boxes next to these options to enable or disable  them.
+</li></ol>
+<dl><dt><img alt=""EnhancedTrackingProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-04-08-28-14-88478d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<h1 id=""w_how-can-i-tell-if-this-protection-broke-something"">How can I tell if this protection broke something?</h1>
+<p>First, try disabling the protections by exempting the page from Enhanced Tracking Protection as described <a href=""#w_how-do-i-disable-this-protection-for-a-website"">above</a>, and see if that resolves your issue.
+</p><p>Presently, the types of breakage we see most commonly are:
+</p>
+<ul><li>Scripts that detect support for emojis may incorrectly fail to detect support when Firefox does actually support them. This would typically result in these emojis being rendered using Unicode text instead of images.
+</li><li>Certain types of image or video effects may not behave as expected, including greenscreen effects and progressive drawing videos (where the image accumulates the results of multiple animations or effects over time).
+</li><li>For languages with extended character sets, certain glyphs may not render and instead display a square “character not found” icon.
+</li></ul>
+<p>On rare occasions, these fingerprinting protections can completely break a site in an unexpected way; however disabling Enhanced Tracking Protection as <a href=""#w_how-do-i-disable-this-protection-for-a-website"">described above</a> will resolve the issue if fingerprinting protections were the cause of breakage.
+</p>
+<h1 id=""w_how-does-each-protection-work"">How does each protection work?</h1>
+<h2 id=""w_known-fingerprinters"">Known Fingerprinters</h2>
+<p>The “Known Fingerprinters” protection feature works by blocking scripts listed in <a href=""https://disconnect.me/trackerprotection#categories_of_trackers"">Disconnect’s fingerprinting list</a>. This prevents companies specializing in fingerprinting from examining your device and obtaining details about their hardware, software or IP address. While this serves as an initial defense, it does not safeguard you against companies that are not included in the list. Additionally, we sometimes have to create exceptions for this list to ensure that websites continue to work as intended.
+</p>
+<h2 id=""w_suspected-fingerprinters"">Suspected Fingerprinters</h2>
+<p>To combat fingerprinting attempts that Firefox cannot block (because we are unaware of the script, or because it is integrated with the site in a way such that it cannot be blocked), Firefox will limit the information it exposes to the web at all times, for every webpage. (Potentially limited to Private Browsing only, per the settings above.)
+</p><p>The specific attributes that Firefox alters are:
+</p>
+<ul><li>Random data is introduced to background images when the website reads back the image. If a website merely renders data to the background, it will render without alteration. Although typically this does not happen, if the website reads the image data in the background (and potentially displays it to you again), it will have subtle noise that may affect how the image is displayed.
+</li><li>Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page.
+</li></ul>",mobile,privacy-and-security;tracking-protection,"Like other browsers, Firefox for Android’s functionality is influenced by your device. In some instances, details of your mobile phone or tablet are accessible to websites to (for example) help render content in higher resolution or provide instructions for your specific device.
+
+However, when all the different aspects a browser exposes are combined, the unique combination can act like a “fingerprint” and makes you identifiable across the web. This “fingerprint” is potentially used to profile you for targeted content without the use of cookies. Firefox for Android’s [Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-android"") blocks a list of “Known Fingerprinters” and limits the information your browser exposes at all times to combat “Suspected Fingerprinters”.
+
+## Table of Contents
+
+- [1 Default Settings](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_default-settings)
+- [2 How do I disable this protection for a website?](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-do-i-disable-this-protection-for-a-website)
+- [3 How do I enable or disable this protection for all sites?](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-do-i-enable-or-disable-this-protection-for-all-sites)
+- [4 How can I tell if this protection broke something?](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-can-i-tell-if-this-protection-broke-something)
+- [5 How does each protection work?](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-does-each-protection-work)
+  - [5.1 Known Fingerprinters](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_known-fingerprinters)
+  - [5.2 Suspected Fingerprinters](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_suspected-fingerprinters)
+
+# Default Settings
+
+Known Fingerprinters Protection is enabled in normal browsing and when Enhanced Tracking Protection is set to Strict.
+
+Both Known Fingerprinters Protection and Suspected Fingerprinters Protection are enabled in Private Browsing and when Enhanced Tracking Protection is set to Strict.
+
+Both features can be controlled more granularly when the Custom level of Enhanced Tracking Protection is selected.
+
+# How do I disable this protection for a website?
+
+If a site seems broken, try turning off Enhanced Tracking Protection. It disables the protection on that site only. Enhanced Tracking Protection will continue to block trackers on other sites.
+
+**Note:** Turning _Enhanced Tracking Protection_ off for a specific website will add that website to your _Exceptions_ list. If you wish to turn it back on for that site, tap the **Enhanced Tracking Protection** toggle again or [remove the website from your Exceptions list](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-android#w_manage-your-exceptions-list"").
+
+1. Tap the _Shield_ ![Firefox_Android_144_Shield](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)_Lock_ ![Fx89Padlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the address bar while you're on the website that you want to manage.
+2. Tap the **Enhanced Tracking Protection** toggle to turn it on or off for that site.
+
+# How do I enable or disable this protection for all sites?
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Under _Privacy and Security_, tap Enhanced Tracking Protection.
+4. To control Fingerprinting Protection, select the **Custom** option from the Enhanced Tracking Protection settings.
+5. **Adjust Fingerprinting Protection Settings:** Once you've selected Custom, you will see options to block **Known fingerprinters** and **Suspected fingerprinters**. Check the boxes next to these options to enable or disable them.
+
+<dl><dt>
+<img alt=""EnhancedTrackingProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-04-08-28-14-88478d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+# How can I tell if this protection broke something?
+
+First, try disabling the protections by exempting the page from Enhanced Tracking Protection as described [above](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-do-i-disable-this-protection-for-a-website), and see if that resolves your issue.
+
+Presently, the types of breakage we see most commonly are:
+
+- Scripts that detect support for emojis may incorrectly fail to detect support when Firefox does actually support them. This would typically result in these emojis being rendered using Unicode text instead of images.
+- Certain types of image or video effects may not behave as expected, including greenscreen effects and progressive drawing videos (where the image accumulates the results of multiple animations or effects over time).
+- For languages with extended character sets, certain glyphs may not render and instead display a square “character not found” icon.
+
+On rare occasions, these fingerprinting protections can completely break a site in an unexpected way; however disabling Enhanced Tracking Protection as [described above](https://support.mozilla.org/kb/firefox-androids-protection-against-fingerprinters#w_how-do-i-disable-this-protection-for-a-website) will resolve the issue if fingerprinting protections were the cause of breakage.
+
+# How does each protection work?
+
+## Known Fingerprinters
+
+The “Known Fingerprinters” protection feature works by blocking scripts listed in [Disconnect’s fingerprinting list](https://disconnect.me/trackerprotection#categories_of_trackers). This prevents companies specializing in fingerprinting from examining your device and obtaining details about their hardware, software or IP address. While this serves as an initial defense, it does not safeguard you against companies that are not included in the list. Additionally, we sometimes have to create exceptions for this list to ensure that websites continue to work as intended.
+
+## Suspected Fingerprinters
+
+To combat fingerprinting attempts that Firefox cannot block (because we are unaware of the script, or because it is integrated with the site in a way such that it cannot be blocked), Firefox will limit the information it exposes to the web at all times, for every webpage. (Potentially limited to Private Browsing only, per the settings above.)
+
+The specific attributes that Firefox alters are:
+
+- Random data is introduced to background images when the website reads back the image. If a website merely renders data to the background, it will render without alteration. Although typically this does not happen, if the website reads the image data in the background (and potentially displays it to you again), it will have subtle noise that may affect how the image is displayed.
+- Locally installed fonts (specifically, fonts that are not in the list of standard fonts shipped by your operating system) will not be used to render text on a page.
+
+"
+67110,Thunderbird Daily,thunderbird-daily,https://support.mozilla.org/en-US/kb/thunderbird-daily,en-US,"Test new features and fixes in the least stable channel of Thunderbird.  This is where development and testing begin, and new features are developed.","<p>This reference will help you have the best possible experience using <strong>Thunderbird Daily</strong> (which we will refer to as <strong>Daily</strong>), where new features are developed and testing begins. This is the least stable channel of Thunderbird code. Make sure you back up important data regularly.
+</p><p>You can help by testing, and reporting bugs before they reach release. Thank you for your interest in using <strong>Daily</strong>!
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_readme-before-using-daily""><span class=""tocnumber"">1</span> <span class=""toctext"">README BEFORE using Daily</span></a></li><li class=""toclevel-1""><a href=""#w_resources-assistance-and-references""><span class=""tocnumber"">2</span> <span class=""toctext"">Resources, assistance and references</span></a></li><li class=""toclevel-1""><a href=""#w_add-ons""><span class=""tocnumber"">3</span> <span class=""toctext"">Add-ons</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-install-and-run-daily""><span class=""tocnumber"">4</span> <span class=""toctext"">How to install and run Daily</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-change-from-a-daily-version-back-to-a-beta-version""><span class=""tocnumber"">5</span> <span class=""toctext"">How do I change from a Daily version back to a beta version?</span></a></li><li class=""toclevel-1""><a href=""#w_daily-isnt-for-me-how-can-i-help""><span class=""tocnumber"">6</span> <span class=""toctext"">Daily isn't for me. How can I help?</span></a></li></ul></div>
+<h1 id=""w_readme-before-using-daily"">README BEFORE using Daily</h1>
+<ul><li> Protect your Thunderbird data by doing regular <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data#w_backing-up-a-profile"">backups of your Thunderbird profile</a>.
+</li><li> High-impact flaws such as data loss may occur. Protect yourself with backups. 
+</li><li> New features require new code, so flaws are possible. Flaws may not be fixed quickly because of competing priorities, but do report them. Do remember that patience is required when using test versions.
+</li><li> Subscribe and contribute to the <a href=""https://thunderbird.topicbox.com/groups/daily/"">Thunderbird Daily topicbox community mailing list</a> to share your thoughts, learn about new features and user experience.
+</li><li> <strong>Thunderbird Daily</strong> is updated daily.
+</li><li> Make sure your installer does not install <strong>Daily</strong> in a non-Daily program directory - official Mozilla downloads should do this correctly. See <a href=""#w_how-to-install-and-run-daily"">How to install and run Daily</a> for more information.
+</li><li> If you use Thunderbird mail filters and you have more than one Thunderbird data profile, decide where you want to run your filters - in your <strong>Daily</strong> profile or your other profile. Do not use filters in both. 
+</li><li> Add-on authors are not obligated to make their add-ons work in <strong>Daily</strong>, so many of your add-ons may not work. Please submit your issues to the add-on author, and consult the <a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"">Add-ons FAQ</a> if you have difficulties.
+</li><li> Are you using POP accounts? Unlike IMAP accounts, your only copy of POP mail is in your local Thunderbird data profile and not on a server (unless you changed the default settings). To use a POP account with <strong>Daily</strong> you must choose between these options:
+<ul><li><strong>Don't use a POP account with your Daily install:</strong> Using POP is not recommended, because you risk losing your email if you do not configure ALL of your email clients correctly with your POP accounts.
+</li><li><strong>If you have to use POP:</strong>
+<ol><li> Set all of your email clients, including Thunderbird for Android and Thunderbird Desktop, Outlook, etc., to <strong>Leave messages on server</strong> in <span class=""menu"">≡</span> &gt; <span class=""menu"">Account Settings</span> &gt; <span class=""menu"">Server Settings</span> (or equivalent in your email clients).
+</li><li> Uncheck <strong>For at most [X] days</strong>. 
+</li><li> Manually delete messages from the POP server. We recommend you do not use <strong>Fetch headers only</strong> or equivalent in your non Thunderbird email clients.
+</li></ol>
+</li></ul>
+</li></ul>
+<h1 id=""w_resources-assistance-and-references"">Resources, assistance and references</h1>
+<p>How you can help improve Thunderbird, find help, and give help:
+</p>
+<ul><li> <a href=""#w_readme-before-using-daily"">Review the README above</a>.
+</li><li> Post questions about normal Thunderbird usage in <a href=""https://support.mozilla.org/questions/new/thunderbird/form"">Thunderbird support</a> aka SUMO.
+</li><li> Answer questions about Thunderbird usage in <a href=""https://support.mozilla.org/questions/thunderbird?filter=recently-unanswered&amp;show=all"">SUMO</a>.
+</li><li> Ask and help with <strong>Daily</strong>-specific questions in the <a href=""https://thunderbird.topicbox.com/groups/daily"">Thunderbird Daily topicbox community mailing list</a>.
+</li><li> <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird"">Report bugs</a> that you find. Report performance issues by <a href=""/en-US/kb/profiling-thunderbird-performance"">creating a performance profile</a> and adding it to your bug report or support posting.
+</li><li> <strong>Daily</strong> does not have Release Notes. But you can get a sense, after the fact, by looking at  <a href=""https://www.thunderbird.net/notes/beta"">Beta release notes</a>. You can also follow <a href=""https://hg.mozilla.org/comm-central/"">comm-central checkings via the web page</a> or subscribe to the <a href=""https://hg.mozilla.org/comm-central/rss-log"">comm-central RSS feed</a>.
+</li><li> <a href=""/en-US/kb/mozilla-crash-reporter-tb"">Please submit <strong>all</strong> crash reports</a>.
+</li><li> Backup your profile with <span class=""menu"">≡</span> &gt; <span class=""menu"">Tools</span> &gt; <span class=""menu"">Export</span>.
+</li><li> Review the <strong>Daily</strong> Start Page which has handy information, accessed in Thunderbird with <span class=""for"" data-for=""win,linux""> <span class=""key"">Alt</span> &gt; </span><span class=""menu"">Go</span> &gt; <span class=""menu"">Mail Start Page</span> (<a href=""/en-US/kb/keyboard-shortcuts-thunderbird#w_moving-around-thunderbird"">keyboard shortcuts</a>), or <a href=""https://start.thunderbird.net/en-US/daily/"">in your browser</a>.  
+</li><li> Join us in <a href=""https://www.thunderbird.net/participate/"">other ways to contribute to the project.</a>
+</li></ul>
+<h1 id=""w_add-ons"">Add-ons</h1>
+<p>
+Add-on authors are not obligated to have their add-ons work in <strong>Daily</strong>. Some might not work. Consult the <a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"">add-ons FAQ</a> if you have difficulty. 
+</p>
+<h1 id=""w_how-to-install-and-run-daily"">How to install and run Daily</h1>
+<p>Install Thunderbird Daily into its own program directory. If you download <strong>Daily</strong> from official sources, then installation should happen correctly. Do check that it installs to its own program directory, for example <code>C:\Program Files\Mozilla Thunderbird Daily</code>. If you need more help, please refer to installation instructions for <a href=""/en-US/kb/installing-thunderbird-windows"">Windows</a>, <a href=""/en-US/kb/installing-thunderbird-on-mac"">macOS</a>, <a href=""/en-US/kb/installing-thunderbird-linux"">Linux</a>, and <a href=""/en-US/kb/well-known-sources-for-downloading-thunderbird"">official sources</a> for additional details.
+</p><p>Quick links to official Daily sources:
+</p>
+<ul><li> <a href=""https://www.thunderbird.net/thunderbird/all/?release=daily"">Windows, macOS and Linux via Thunderbird download page</a> - choose the <strong>Daily</strong> channel.
+</li></ul>
+<p>
+
+</p><h1 id=""w_how-do-i-change-from-a-daily-version-back-to-a-beta-version"">How do I change from a Daily version back to a beta version?</h1>
+<ul><li> Please do not change from <strong>Daily</strong> to beta by installing beta into the <strong>Daily</strong> program folder.
+</li><li> Please do not point a beta install to a <strong>Daily</strong> data profile.
+</li></ul>
+<p>Why? Because accessing data with an older version number of the program risks instability and corrupt data.
+</p><p>Instead, make a separate profile for beta, and transfer any data you need from the <strong>Daily</strong> profile using standard tools, for example <strong>Address Book</strong> (<span class=""for"" data-for=""win,linux""><span class=""key"">Alt</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span></span> + <span class=""key"">2</span>) &gt; <span class=""menu"">Export</span>/<span class=""menu"">Import</span>, or <span class=""menu"">≡</span> &gt; <span class=""menu"">Tools</span> &gt; <span class=""menu"">Export</span>. Exceptions:
+</p>
+<ul><li> For POP and local mail: In the <strong>Mail</strong> directory of your Thunderbird profile you will find both the <strong>Local Folders</strong> directory and POP account directories. You can copy the contents of these from one profile to another, but take care to NOT overwrite any <strong>msgFilters.dat</strong> files, as they contain your filter rules.<strong> <div class=""warning""> WARNING: Files from a newer version are not guaranteed to work in an older version.</div>
+</strong>
+</li><li> For IMAP accounts, there should be no need to copy any IMAP data files from a <strong>Daily</strong> profile to your other profile.
+</li></ul>
+<h1 id=""w_daily-isnt-for-me-how-can-i-help"">Daily isn't for me. How can I help?</h1>
+<p><a href=""https://www.thunderbird.net/participate/"">Participate</a> lists many ways for you to help in the community, and places to learn more about Thunderbird.
+</p>",thunderbird,installation-and-updates,"This reference will help you have the best possible experience using **Thunderbird Daily** (which we will refer to as **Daily** ), where new features are developed and testing begins. This is the least stable channel of Thunderbird code. Make sure you back up important data regularly.
+
+You can help by testing, and reporting bugs before they reach release. Thank you for your interest in using **Daily**!
+
+## Table of Contents
+
+- [1 README BEFORE using Daily](https://support.mozilla.org/kb/thunderbird-daily#w_readme-before-using-daily)
+- [2 Resources, assistance and references](https://support.mozilla.org/kb/thunderbird-daily#w_resources-assistance-and-references)
+- [3 Add-ons](https://support.mozilla.org/kb/thunderbird-daily#w_add-ons)
+- [4 How to install and run Daily](https://support.mozilla.org/kb/thunderbird-daily#w_how-to-install-and-run-daily)
+- [5 How do I change from a Daily version back to a beta version?](https://support.mozilla.org/kb/thunderbird-daily#w_how-do-i-change-from-a-daily-version-back-to-a-beta-version)
+- [6 Daily isn't for me. How can I help?](https://support.mozilla.org/kb/thunderbird-daily#w_daily-isnt-for-me-how-can-i-help)
+
+# README BEFORE using Daily
+
+- Protect your Thunderbird data by doing regular [backups of your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data#w_backing-up-a-profile"").
+- High-impact flaws such as data loss may occur. Protect yourself with backups. 
+- New features require new code, so flaws are possible. Flaws may not be fixed quickly because of competing priorities, but do report them. Do remember that patience is required when using test versions.
+- Subscribe and contribute to the [Thunderbird Daily topicbox community mailing list](https://thunderbird.topicbox.com/groups/daily/) to share your thoughts, learn about new features and user experience.
+- **Thunderbird Daily** is updated daily.
+- Make sure your installer does not install **Daily** in a non-Daily program directory - official Mozilla downloads should do this correctly. See [How to install and run Daily](https://support.mozilla.org/kb/thunderbird-daily#w_how-to-install-and-run-daily) for more information.
+- If you use Thunderbird mail filters and you have more than one Thunderbird data profile, decide where you want to run your filters - in your **Daily** profile or your other profile. Do not use filters in both. 
+- Add-on authors are not obligated to make their add-ons work in **Daily** , so many of your add-ons may not work. Please submit your issues to the add-on author, and consult the [Add-ons FAQ](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"") if you have difficulties.
+- Are you using POP accounts? Unlike IMAP accounts, your only copy of POP mail is in your local Thunderbird data profile and not on a server (unless you changed the default settings). To use a POP account with **Daily** you must choose between these options:
+  - **Don't use a POP account with your Daily install:** Using POP is not recommended, because you risk losing your email if you do not configure ALL of your email clients correctly with your POP accounts.
+  - **If you have to use POP:**
+    1. Set all of your email clients, including Thunderbird for Android and Thunderbird Desktop, Outlook, etc., to **Leave messages on server** in ≡ \> Account Settings \> Server Settings (or equivalent in your email clients).
+    2. Uncheck **For at most [X] days**. 
+    3. Manually delete messages from the POP server. We recommend you do not use **Fetch headers only** or equivalent in your non Thunderbird email clients.
+
+# Resources, assistance and references
+
+How you can help improve Thunderbird, find help, and give help:
+
+- [Review the README above](https://support.mozilla.org/kb/thunderbird-daily#w_readme-before-using-daily).
+- Post questions about normal Thunderbird usage in [Thunderbird support](https://support.mozilla.org/questions/new/thunderbird/form) aka SUMO.
+- Answer questions about Thunderbird usage in [SUMO](https://support.mozilla.org/questions/thunderbird?filter=recently-unanswered&show=all).
+- Ask and help with **Daily** -specific questions in the [Thunderbird Daily topicbox community mailing list](https://thunderbird.topicbox.com/groups/daily).
+- [Report bugs](https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird) that you find. Report performance issues by [creating a performance profile](\""https://support.mozilla.org/en-US/kb/profiling-thunderbird-performance"") and adding it to your bug report or support posting.
+- **Daily** does not have Release Notes. But you can get a sense, after the fact, by looking at [Beta release notes](https://www.thunderbird.net/notes/beta). You can also follow [comm-central checkings via the web page](https://hg.mozilla.org/comm-central/) or subscribe to the [comm-central RSS feed](https://hg.mozilla.org/comm-central/rss-log).
+- [Please submit **all** crash reports](\""https://support.mozilla.org/en-US/kb/mozilla-crash-reporter-tb"").
+- Backup your profile with ≡ \> Tools \> Export.
+- Review the **Daily** Start Page which has handy information, accessed in Thunderbird with Alt \> Go \> Mail Start Page ([keyboard shortcuts](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird#w_moving-around-thunderbird"")), or [in your browser](https://start.thunderbird.net/en-US/daily/). 
+- Join us in [other ways to contribute to the project.](https://www.thunderbird.net/participate/)
+
+# Add-ons
+
+Add-on authors are not obligated to have their add-ons work in **Daily**. Some might not work. Consult the [add-ons FAQ](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"") if you have difficulty.
+
+# How to install and run Daily
+
+Install Thunderbird Daily into its own program directory. If you download **Daily** from official sources, then installation should happen correctly. Do check that it installs to its own program directory, for example `C:\Program Files\Mozilla Thunderbird Daily`. If you need more help, please refer to installation instructions for [Windows](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-windows""), [macOS](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac""), [Linux](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-linux""), and [official sources](\""https://support.mozilla.org/en-US/kb/well-known-sources-for-downloading-thunderbird"") for additional details.
+
+Quick links to official Daily sources:
+
+- [Windows, macOS and Linux via Thunderbird download page](https://www.thunderbird.net/thunderbird/all/?release=daily) - choose the **Daily** channel.
+
+# How do I change from a Daily version back to a beta version?
+
+- Please do not change from **Daily** to beta by installing beta into the **Daily** program folder.
+- Please do not point a beta install to a **Daily** data profile.
+
+Why? Because accessing data with an older version number of the program risks instability and corrupt data.
+
+Instead, make a separate profile for beta, and transfer any data you need from the **Daily** profile using standard tools, for example **Address Book** (AltCtrl + 2) \> Export/Import, or ≡ \> Tools \> Export. Exceptions:
+
+- For POP and local mail: In the **Mail** directory of your Thunderbird profile you will find both the **Local Folders** directory and POP account directories. You can copy the contents of these from one profile to another, but take care to NOT overwrite any **msgFilters.dat** files, as they contain your filter rules. 
+ **WARNING: Files from a newer version are not guaranteed to work in an older version.** 
+- For IMAP accounts, there should be no need to copy any IMAP data files from a **Daily** profile to your other profile.
+
+# Daily isn't for me. How can I help?
+
+[Participate](https://www.thunderbird.net/participate/) lists many ways for you to help in the community, and places to learn more about Thunderbird.
+
+"
+67128,Add or edit your Monitor information,add-edit-your-monitor-information,https://support.mozilla.org/en-US/kb/add-edit-your-monitor-information,en-US,"Monitor allows you to add and update your information like your address, phone number, email and more to accurately find any exposures. Learn how here.","<p>Monitor tracks potential data exposures by scanning for key details like your full name, address, or date of birth. If your information changes or you missed adding important details, you can easily update your account to ensure more accurate results.
+</p><p>Updating your details allows Monitor to track data breaches and the data broker sites selling your information more effectively.
+</p>
+<h1 id=""w_how-to-add-or-update-your-information"">How to add or update your information</h1>
+<ol><li>Go to the Mozilla <a href=""https://monitor.mozilla.org"">Monitor</a> website and sign in to your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>.
+</li><li>At the Mozilla Monitor dashboard, on the left-hand side, click the <strong>Update scan info</strong> option.
+<dl><dt><img alt=""Update scan info"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-30-08-55-29-789d75.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+</li><li>Under <em>Details about you</em>, click the <span class=""button"">Add details</span> button.
+<dl><dt><img alt=""Add details button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-27-14-10-22-b99a38.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>All your current information will display allowing you to change or add any information that you need.
+<dl><dt><img alt=""Edit information"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-27-14-11-12-f0f90c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt><dt><div class=""note""><strong>Note:</strong> Due to legal reasons, you can’t update your birth date on your own; however, you can update or add information like your name, address, phone number and more.</div>
+</dt></dl>
+</li><li>Once you’ve added or edited your information, click the <span class=""button"">Save</span> button to apply changes to your future scans.
+</li></ol>
+<p>All done! A confirmation message will appear on your screen to confirm that your details have been saved.
+</p><p>
+</p>
+<h2 id=""w_why-can-i-not-edit-my-birth-date"">Why can I not edit my birth date?</h2>
+<p>Your birth date helps prevent identity fraud and unauthorized data manipulation since it could compromise the integrity of the data removal process. This restriction is in place for several important reasons:
+</p>
+<ul><li><strong>Verification and identification:</strong> Data brokers rely on birthdates as a key identifier to distinguish individuals with similar names. Changing this information could make it difficult to locate and remove exposures accurately.
+</li><li><strong>Data source limitations:</strong> Monitor’s scan retrieves information from public records, consumer databases, and other sources where birthdates are typically stored as fixed identifiers. Since these records originate from official sources, they cannot be altered through the scan itself.
+</li><li><strong>Fraud prevention measures:</strong> Restricting changes to birth dates helps prevent identity fraud and unauthorized data manipulation.
+</li></ul>
+<h2 id=""w_how-to-correct-an-incorrect-birth-date"">How to correct an incorrect birth date?</h2>
+<p>If your birthdate is incorrect you will need to contact our support team to correct it. This is a one-time correction and you will need to be sure the date provided is accurate.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-do-i-monitor-multiple-email-addresses"">How do I monitor multiple email addresses?</a>
+</li><li><a href=""/en-US/kb/monthly-monitor-report-email"">Monthly Monitor Report Email</a>
+</li></ul>",monitor,getting-started,"Monitor tracks potential data exposures by scanning for key details like your full name, address, or date of birth. If your information changes or you missed adding important details, you can easily update your account to ensure more accurate results.
+
+Updating your details allows Monitor to track data breaches and the data broker sites selling your information more effectively.
+
+# How to add or update your information
+
+1. Go to the Mozilla [Monitor](https://monitor.mozilla.org) website and sign in to your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+2. At the Mozilla Monitor dashboard, on the left-hand side, click the **Update scan info** option.<dl><dt>
+<img alt=""Update scan info"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-30-08-55-29-789d75.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+3. Under _Details about you_, click the Add details button.<dl><dt>
+<img alt=""Add details button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-27-14-10-22-b99a38.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+4. All your current information will display allowing you to change or add any information that you need.<dl>
+<dt>
+<img alt=""Edit information"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-27-14-11-12-f0f90c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt>
+<dt>
+<div class=""note"">
+<strong>Note:</strong> Due to legal reasons, you can’t update your birth date on your own; however, you can update or add information like your name, address, phone number and more.</div>
+</dt>
+</dl>
+5. Once you’ve added or edited your information, click the Save button to apply changes to your future scans.
+
+All done! A confirmation message will appear on your screen to confirm that your details have been saved.
+
+## Why can I not edit my birth date?
+
+Your birth date helps prevent identity fraud and unauthorized data manipulation since it could compromise the integrity of the data removal process. This restriction is in place for several important reasons:
+
+- **Verification and identification:** Data brokers rely on birthdates as a key identifier to distinguish individuals with similar names. Changing this information could make it difficult to locate and remove exposures accurately.
+- **Data source limitations:** Monitor’s scan retrieves information from public records, consumer databases, and other sources where birthdates are typically stored as fixed identifiers. Since these records originate from official sources, they cannot be altered through the scan itself.
+- **Fraud prevention measures:** Restricting changes to birth dates helps prevent identity fraud and unauthorized data manipulation.
+
+## How to correct an incorrect birth date?
+
+If your birthdate is incorrect you will need to contact our support team to correct it. This is a one-time correction and you will need to be sure the date provided is accurate.
+
+# Related articles
+
+- [How do I monitor multiple email addresses?](\""https://support.mozilla.org/en-US/kb/how-do-i-monitor-multiple-email-addresses"")
+- [Monthly Monitor Report Email](\""https://support.mozilla.org/en-US/kb/monthly-monitor-report-email"")
+
+"
+67129,Generate strong passwords in Firefox for iOS,generate-strong-passwords-firefox-ios,https://support.mozilla.org/en-US/kb/generate-strong-passwords-firefox-ios,en-US,"Learn how to use the built-in password generator in Firefox for iOS to create strong, secure passwords automatically.","<p>Firefox for iOS includes a built-in password generator that helps you create strong, unique passwords for your online accounts.
+</p><p>When signing up for a new account or updating a password, Firefox can suggest a secure password and save it automatically.
+</p>
+<h1 id=""w_generate-a-password"">Generate a password</h1>
+<p>The first time you enter a password on any sign-up form or site, Firefox for iOS will prompt you to use a strong, randomly generated password. You can either:
+</p>
+<ul><li>Tap <strong>Use strong password</strong> to accept the suggested strong password.
+</li><li>Ignore the prompt to use a strong password and proceed to write your own.
+</li></ul>
+<h2 id=""w_use-the-suggested-password"">Use the suggested password</h2>
+<p>When you choose to use the suggested password, Firefox automatically fills the password field with a strong, randomly generated password.
+</p>
+<ul><li>This saves you the effort of creating a secure password yourself. If you ask Firefox to suggest a password again in the same session, it will offer the same one for consistency.
+</li></ul>
+<h2 id=""w_save-password"">Save password</h2>
+<p>After accepting the generated password, Firefox will automatically save it to your account.
+</p>
+<ul><li>A confirmation message will appear, notifying you that the password has been saved successfully.
+</li></ul>
+<h2 id=""w_update-password"">Update password</h2>
+<p>As you proceed with changes to your account details, Firefox will prompt you to save the updated login information.
+</p>
+<h1 id=""w_benefits-of-using-the-firefox-password-generator"">Benefits of using the Firefox password generator</h1>
+<ul><li><strong>Strong and unique passwords:</strong> The generated passwords are complex and difficult to guess, enhancing your online security.
+</li><li><strong>Convenience:</strong> Save time and effort by letting Firefox create and store secure passwords for you.
+</li><li><strong>Sync across devices:</strong> Your saved passwords are available on any device where you sign in to your Mozilla account, making it easy to log in wherever you are.
+</li></ul>
+<h1 id=""w_manage-your-passwords"">Manage your passwords</h1>
+<p>To view or manage your saved passwords:
+</p>
+<ol><li>In the bottom-right corner, tap the menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button.
+</li><li>Select <strong>Settings</strong>.
+</li><li>Select <strong>Passwords</strong> in the <em>General</em> section.
+</li><li>Tap <strong>Saved passwords</strong> to view, edit or delete your saved passwords.
+</li></ol>
+<p>For details on how to manage your passwords on Firefox for iOS, check out <a href=""/en-US/kb/manage-saved-passwords-firefox-ios"">Manage saved passwords in Firefox for iOS</a>.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-generate-secure-password-firefox"">Generate a secure password in Firefox</a>
+</li><li><a href=""/en-US/kb/generate-strong-passwords-firefox-android"">Generate strong passwords in Firefox for Android</a>
+</li></ul>",ios,passwords-and-sign-in;sign-in,"Firefox for iOS includes a built-in password generator that helps you create strong, unique passwords for your online accounts.
+
+When signing up for a new account or updating a password, Firefox can suggest a secure password and save it automatically.
+
+# Generate a password
+
+The first time you enter a password on any sign-up form or site, Firefox for iOS will prompt you to use a strong, randomly generated password. You can either:
+
+- Tap **Use strong password** to accept the suggested strong password.
+- Ignore the prompt to use a strong password and proceed to write your own.
+
+## Use the suggested password
+
+When you choose to use the suggested password, Firefox automatically fills the password field with a strong, randomly generated password.
+
+- This saves you the effort of creating a secure password yourself. If you ask Firefox to suggest a password again in the same session, it will offer the same one for consistency.
+
+## Save password
+
+After accepting the generated password, Firefox will automatically save it to your account.
+
+- A confirmation message will appear, notifying you that the password has been saved successfully.
+
+## Update password
+
+As you proceed with changes to your account details, Firefox will prompt you to save the updated login information.
+
+# Benefits of using the Firefox password generator
+
+- **Strong and unique passwords:** The generated passwords are complex and difficult to guess, enhancing your online security.
+- **Convenience:** Save time and effort by letting Firefox create and store secure passwords for you.
+- **Sync across devices:** Your saved passwords are available on any device where you sign in to your Mozilla account, making it easy to log in wherever you are.
+
+# Manage your passwords
+
+To view or manage your saved passwords:
+
+1. In the bottom-right corner, tap the menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+2. Select **Settings**.
+3. Select **Passwords** in the _General_ section.
+4. Tap **Saved passwords** to view, edit or delete your saved passwords.
+
+For details on how to manage your passwords on Firefox for iOS, check out [Manage saved passwords in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/manage-saved-passwords-firefox-ios"").
+
+# Related articles
+
+- [Generate a secure password in Firefox](\""https://support.mozilla.org/en-US/kb/how-generate-secure-password-firefox"")
+- [Generate strong passwords in Firefox for Android](\""https://support.mozilla.org/en-US/kb/generate-strong-passwords-firefox-android"")
+
+"
+67160,Tab groups in Firefox,tab-groups,https://support.mozilla.org/en-US/kb/tab-groups,en-US,How to use tab groups to organize your tabs in Firefox version 137 and above.,"<p>Tab groups in Firefox let you organize your tabs into separate, labeled groups. This makes it easy to keep work, personal, or research browsing organized without opening extra windows. You don’t need an add-on as the feature is built in for all users, starting with Firefox 141 on desktop.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-tab-group""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a tab group</span></a></li><li class=""toclevel-1""><a href=""#w_add-a-tab-to-a-tab-group""><span class=""tocnumber"">2</span> <span class=""toctext"">Add a tab to a tab group</span></a></li><li class=""toclevel-1""><a href=""#w_remove-a-tab-from-a-group""><span class=""tocnumber"">3</span> <span class=""toctext"">Remove a tab from a group</span></a></li><li class=""toclevel-1""><a href=""#w_move-a-tab-from-one-group-to-another""><span class=""tocnumber"">4</span> <span class=""toctext"">Move a tab from one group to another</span></a></li><li class=""toclevel-1""><a href=""#w_manage-a-tab-group""><span class=""tocnumber"">5</span> <span class=""toctext"">Manage a tab group</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshooting-tab-issues""><span class=""tocnumber"">6</span> <span class=""toctext"">Troubleshooting tab issues</span></a></li></ul></div>
+<h1 id=""w_create-a-tab-group"">Create a tab group</h1>
+<dl><dt><img alt=""Tab group example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-30-10-28-51-0920f2.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+</dt></dl>
+<ol><li>Select a tab from your tab bar (either vertical or horizontal).
+</li><li>Drag the tab onto another tab, wait until you see a highlighted area and then release the tab.
+</li><li>You will then have the option to name the group and choose a color. These can be changed at any time.
+</li></ol>
+<p><img alt=""Tab group colors"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-30-10-36-04-197d0d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+</p><p>The tab bar will show the group with its label and tabs together, underlined by the group color, or edged with a color line if you use <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">vertical tabs</a>. You can select the group label to collapse the tabs into the tab group, or select it again to expand the group to see the tabs within it.
+</p>
+<h1 id=""w_add-a-tab-to-a-tab-group"">Add a tab to a tab group</h1>
+<p><strong>If you have no tab groups yet:</strong> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ a tab and select <span class=""menu"">Add Tab to New Group</span>. You will see a panel where you can name the group and choose a color. For now, the group will have that tab only.
+</p><p><strong>If you already have groups:</strong> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ a tab and select <span class=""menu"">Add Tab to Group</span> to see the options. Select either <span class=""menu"">New Group</span> to create a new group or choose an existing group. You can also just drag a tab into an expanded group on the tab bar.
+</p>
+<h1 id=""w_remove-a-tab-from-a-group"">Remove a tab from a group</h1>
+<p><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ a tab in a group and select <span class=""menu"">Remove from Group</span>. You can also select the tab you want to remove from the group and drag it out from the group to a different position on the tab bar.
+</p><p>When you remove all tabs from a group, the tab group is deleted. 
+</p>
+<h1 id=""w_move-a-tab-from-one-group-to-another"">Move a tab from one group to another</h1>
+<p><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ a tab, select <span class=""menu"">Add Tab to Group</span> and select another existing group. You can also just drag a tab into another expanded group on the tab bar.
+</p>
+<h1 id=""w_manage-a-tab-group"">Manage a tab group</h1>
+<p><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ a group label to see the options for that tab group:
+</p>
+<ul><li>You can change the name and the color for the tab group.
+</li><li><span class=""menu"">New tab in group</span> will add a new tab to the selected group.
+</li><li><span class=""menu"">Move group to new window</span> will open that group in a new Firefox window.
+</li><li>You can <span class=""menu"">Save and close group</span>, which will save and close the group for you to be able to re-open from the <em>List all tabs</em> <img alt=""tab icon 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-25-13-37-26-16c7e5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> icon on the tab bar (or the <img alt=""Fx137ListAllTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-16-07-06-30-fdad7d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> toolbar icon, if you use vertical tabs).
+<dl><dt>This icon can be removed if you wish; <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">this support article</a> will help.
+</dt></dl>
+</li><li><span class=""menu"">Ungroup tabs</span> will keep the tabs open, but no longer grouped.
+</li><li><span class=""menu"">Delete group</span> will delete the group. All tabs from the group will be closed.
+</li></ul>
+<h1 id=""w_troubleshooting-tab-issues"">Troubleshooting tab issues</h1>
+<ul><li>Tab groups created when using <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">Private Browsing</a> will be deleted when you close the Private Browsing window.
+</li><li>If your tabs become unexpectedly grouped or ungrouped, it may be due to a compatibility issue with a tab <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extension</a>.
+</li><li>Don’t see tab groups? Make sure you’re using Firefox version 141 or later. <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Find what version of Firefox you are using</a>  and update if needed.
+</li><li>Tab groups are local only and don’t sync with Firefox Sync.
+</li><li>If you close a tab group, all tabs in that group will close, but you can reopen them from your browsing history.
+</li></ul>",firefox,browse;tabs,"Tab groups in Firefox let you organize your tabs into separate, labeled groups. This makes it easy to keep work, personal, or research browsing organized without opening extra windows. You don’t need an add-on as the feature is built in for all users, starting with Firefox 141 on desktop.
+
+## Table of Contents
+
+- [1 Create a tab group](https://support.mozilla.org/kb/tab-groups#w_create-a-tab-group)
+- [2 Add a tab to a tab group](https://support.mozilla.org/kb/tab-groups#w_add-a-tab-to-a-tab-group)
+- [3 Remove a tab from a group](https://support.mozilla.org/kb/tab-groups#w_remove-a-tab-from-a-group)
+- [4 Move a tab from one group to another](https://support.mozilla.org/kb/tab-groups#w_move-a-tab-from-one-group-to-another)
+- [5 Manage a tab group](https://support.mozilla.org/kb/tab-groups#w_manage-a-tab-group)
+- [6 Troubleshooting tab issues](https://support.mozilla.org/kb/tab-groups#w_troubleshooting-tab-issues)
+
+# Create a tab group
+<dl><dt>
+<img alt=""Tab group example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-30-10-28-51-0920f2.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> 
+</dt></dl>
+1. Select a tab from your tab bar (either vertical or horizontal).
+2. Drag the tab onto another tab, wait until you see a highlighted area and then release the tab.
+3. You will then have the option to name the group and choose a color. These can be changed at any time.
+
+![Tab group colors](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+The tab bar will show the group with its label and tabs together, underlined by the group color, or edged with a color line if you use [vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs""). You can select the group label to collapse the tabs into the tab group, or select it again to expand the group to see the tabs within it.
+
+# Add a tab to a tab group
+
+**If you have no tab groups yet:** Right-clickRight-click (or hold down the Control key while you click) a tab and select Add Tab to New Group. You will see a panel where you can name the group and choose a color. For now, the group will have that tab only.
+
+**If you already have groups:** Right-clickRight-click (or hold down the Control key while you click) a tab and select Add Tab to Group to see the options. Select either New Group to create a new group or choose an existing group. You can also just drag a tab into an expanded group on the tab bar.
+
+# Remove a tab from a group
+
+Right-clickRight-click (or hold down the Control key while you click) a tab in a group and select Remove from Group. You can also select the tab you want to remove from the group and drag it out from the group to a different position on the tab bar.
+
+When you remove all tabs from a group, the tab group is deleted.
+
+# Move a tab from one group to another
+
+Right-clickRight-click (or hold down the Control key while you click) a tab, select Add Tab to Group and select another existing group. You can also just drag a tab into another expanded group on the tab bar.
+
+# Manage a tab group
+
+Right-clickRight-click (or hold down the Control key while you click) a group label to see the options for that tab group:
+
+- You can change the name and the color for the tab group.
+- New tab in group will add a new tab to the selected group.
+- Move group to new window will open that group in a new Firefox window.
+- You can Save and close group, which will save and close the group for you to be able to re-open from the _List all tabs_ ![tab icon 2](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon on the tab bar (or the ![Fx137ListAllTabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) toolbar icon, if you use vertical tabs).<dl><dt>This icon can be removed if you wish; <a href='\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars""'>this support article</a> will help.
+</dt></dl>
+- Ungroup tabs will keep the tabs open, but no longer grouped.
+- Delete group will delete the group. All tabs from the group will be closed.
+
+# Troubleshooting tab issues
+
+- Tab groups created when using [Private Browsing](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") will be deleted when you close the Private Browsing window.
+- If your tabs become unexpectedly grouped or ungrouped, it may be due to a compatibility issue with a tab [extension](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"").
+- Don’t see tab groups? Make sure you’re using Firefox version 141 or later. [Find what version of Firefox you are using](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") and update if needed.
+- Tab groups are local only and don’t sync with Firefox Sync.
+- If you close a tab group, all tabs in that group will close, but you can reopen them from your browsing history.
+
+"
+67202,How it works - Firefox Weather,how-it-works-firefox-weather,https://support.mozilla.org/en-US/kb/how-it-works-firefox-weather,en-US,Explains how the weather features in the address bar and New Tab page work.,"<div class=""note""><strong>Note:</strong> At the moment, weather updates are only available to users in Brazil, Argentina, Chile, Colombia, Ecuador, Mexico, Australia, New Zealand, South Africa, India, Bangladesh, Pakistan, Turkey, Indonesia, Philippines, Malaysia, Vietnam, Thailand, Japan, Taiwan, Egypt, Canada and the U.S. We are working to bring it to more countries soon.</div>
+<p>Weather features in the Firefox address bar and <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a> show the current weather of the closest city or town.
+</p><p>Firefox uses your IP address to determine the closest city or town. Firefox then separately fetches current weather conditions for that location. Weather conditions are sourced from <a href=""https://accuweather.com/"">AccuWeather</a> (a 3rd party partner) without sharing your device’s IP address or other identifiable information with AccuWeather. If you click on the weather results to see more information, you will navigate directly to the AccuWeather website and your information will be processed according to <a href=""https://www.accuweather.com/en/privacy"">AccuWeather's Privacy Policy</a>.
+</p><p>If you change your location manually by searching for a city, Firefox uses your IP address to detect your country and suggest cities matching your search query from AccuWeather. Your search query and country are shared with AccuWeather, but your device’s IP address and other identifiable information are not. Once selected, Firefox will remember your preferred location.
+</p><p>These features can be disabled or customized by following these instructions:
+</p>
+<ul><li> <a href=""/en-US/kb/customize-items-on-firefox-new-tab-page#w_weather"">New Tab page</a>
+</li><li> <a href=""/en-US/kb/get-your-local-weather-forecast-firefox-address-bar"">Firefox address bar</a>
+</li></ul>",firefox,browse," **Note:** At the moment, weather updates are only available to users in Brazil, Argentina, Chile, Colombia, Ecuador, Mexico, Australia, New Zealand, South Africa, India, Bangladesh, Pakistan, Turkey, Indonesia, Philippines, Malaysia, Vietnam, Thailand, Japan, Taiwan, Egypt, Canada and the U.S. We are working to bring it to more countries soon.
+
+Weather features in the Firefox address bar and [New Tab page](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"") show the current weather of the closest city or town.
+
+Firefox uses your IP address to determine the closest city or town. Firefox then separately fetches current weather conditions for that location. Weather conditions are sourced from [AccuWeather](https://accuweather.com/) (a 3rd party partner) without sharing your device’s IP address or other identifiable information with AccuWeather. If you click on the weather results to see more information, you will navigate directly to the AccuWeather website and your information will be processed according to [AccuWeather's Privacy Policy](https://www.accuweather.com/en/privacy).
+
+If you change your location manually by searching for a city, Firefox uses your IP address to detect your country and suggest cities matching your search query from AccuWeather. Your search query and country are shared with AccuWeather, but your device’s IP address and other identifiable information are not. Once selected, Firefox will remember your preferred location.
+
+These features can be disabled or customized by following these instructions:
+
+- [New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page#w_weather"")
+- [Firefox address bar](\""https://support.mozilla.org/en-US/kb/get-your-local-weather-forecast-firefox-address-bar"")
+
+"
+67256,Firefox for Enterprise 137 - Release notes,firefox-enterprise-137-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-137-release-notes,en-US,See what's coming out with Firefox for Enterprise 137.,"<p>Except where noted, everything here applies to both Firefox 137 and the Firefox 128.9 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_other-changes""><span class=""tocnumber"">1</span> <span class=""toctext"">Other Changes</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">2</span> <span class=""toctext"">Special Notes</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-esr-140""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Firefox ESR 140</span></a></li></ul></li></ul></div>
+<h1 id=""w_other-changes"">Other Changes</h1>
+<ul><li>An internal change has been made to Firefox that removes <code>XPCOMUtils.defineLazyGetter</code>. For most people, this shouldn't matter, but if you encounter problems with AutoConfig or third party software like PolicyPak, this might be the cause. You'll need to reach out to your provider. This does not apply to the ESR.
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<h2 id=""w_firefox-esr-140"">Firefox ESR 140</h2>
+<p>Firefox 140 is the next ESR and will be released on June 24, 2025.
+</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 137 and the Firefox 128.9 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
+
+## Table of Contents
+
+- [1 Other Changes](https://support.mozilla.org/kb/firefox-enterprise-137-release-notes#w_other-changes)
+- [2 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-137-release-notes#w_special-notes)
+  - [2.1 Firefox ESR 140](https://support.mozilla.org/kb/firefox-enterprise-137-release-notes#w_firefox-esr-140)
+
+# Other Changes
+
+- An internal change has been made to Firefox that removes `XPCOMUtils.defineLazyGetter`. For most people, this shouldn't matter, but if you encounter problems with AutoConfig or third party software like PolicyPak, this might be the cause. You'll need to reach out to your provider. This does not apply to the ESR.
+
+# Special Notes
+
+## Firefox ESR 140
+
+Firefox 140 is the next ESR and will be released on June 24, 2025.
+
+"
+67270,Orbit Frequently Asked Questions,orbit-frequently-asked-questions,https://support.mozilla.org/en-US/kb/orbit-frequently-asked-questions,en-US,This article addresses frequently asked questions about Orbit.,"<div class=""warning""><strong>Important Update:</strong> Orbit is shutting down and will no longer be available after June 26, 2025.</div>
+<p>Orbit is a free Firefox add on that allows you to quickly summarize emails, docs, articles, and video transcripts across the web without sacrificing your privacy. Orbit also lets you interact with the content, meaning you can pose specific questions and get quick responses based on the page’s information.
+</p><p>Orbit works directly on websites including Google Docs, Gmail, Wikipedia, NY Times, YouTube, and more, so you don’t have to copy and paste text into another tool or switch between tabs.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-does-orbit-work""><span class=""tocnumber"">1</span> <span class=""toctext"">How does Orbit work?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-install-orbit""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I install Orbit?</span></a></li><li class=""toclevel-1""><a href=""#w_what-languages-does-orbit-support""><span class=""tocnumber"">3</span> <span class=""toctext"">What languages does Orbit support?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-orbit-maintain-my-privacy""><span class=""tocnumber"">4</span> <span class=""toctext"">How does Orbit maintain my privacy?</span></a></li><li class=""toclevel-1""><a href=""#w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated""><span class=""tocnumber"">5</span> <span class=""toctext"">Does Orbit save the content of the pages I visit or content summaries generated?</span></a></li><li class=""toclevel-1""><a href=""#w_do-i-need-to-create-an-account-to-use-orbit""><span class=""tocnumber"">6</span> <span class=""toctext"">Do I need to create an account to use Orbit?</span></a></li><li class=""toclevel-1""><a href=""#w_is-my-personal-information-used-to-train-the-ai-models""><span class=""tocnumber"">7</span> <span class=""toctext"">Is my personal information used to train the AI models?</span></a></li><li class=""toclevel-1""><a href=""#w_if-you-dont-train-the-models-how-will-the-service-improve""><span class=""tocnumber"">8</span> <span class=""toctext"">If you don't train the models, how will the service improve?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-orbit-make-money""><span class=""tocnumber"">9</span> <span class=""toctext"">How does Orbit make money?</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-mozilla-building-an-ai-content-summarizer""><span class=""tocnumber"">10</span> <span class=""toctext"">Why is Mozilla building an AI content summarizer?</span></a></li></ul></div>
+<h1 id=""w_how-does-orbit-work"">How does Orbit work?</h1>
+<p>Orbit uses AI to summarize and answer queries about web content, such as articles and video transcripts. When a user asks Orbit to summarize or query content, Orbit gathers the context (for example text, images, videos, etc.) of the page the user is viewing and provides a summary or answer.
+</p><p>The current version of Orbit uses a Mistral LLM (Mistral 7B) hosted within Mozilla’s GCP instance.
+</p>
+<h1 id=""w_how-do-i-install-orbit"">How do I install Orbit?</h1>
+<p>You can install Orbit from <a href=""https://addons.mozilla.org/firefox/addon/orbit-summarizer/"">the Firefox Add-on store</a> – it's free!
+</p>
+<h1 id=""w_what-languages-does-orbit-support"">What languages does Orbit support?</h1>
+<p>The beta version of Orbit currently only supports English, though we’re working on adding support for more languages.
+</p>
+<h1 id=""w_how-does-orbit-maintain-my-privacy"">How does Orbit maintain my privacy?</h1>
+<p>Orbit maintains your privacy in several ways:
+</p>
+<ul><li> It does not require account creation to use.
+</li><li> No personal information is tied to your sessions.
+</li><li> The context of the data we capture when you summarize a page is always encrypted.
+</li><li> The moment you move away from the page, that data is destroyed/purged.
+</li><li> Your data is not used to tune/train the AI models that power Orbit.
+</li><li> Even the feedback provided while using the extension is shared anonymously.
+</li></ul>
+<h1 id=""w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated"">Does Orbit save the content of the pages I visit or content summaries generated?</h1>
+<p>No, it does not.
+</p><p>When you use Orbit, we receive a payload back that contains the contents of your query; information about the model queried (such as the name and version number); information about technical problems with processing the query, if any; the number of tokens required to process the query; and the model outputs in response to the query. We do not store this data beyond temporarily caching it to process your query and return the outputs to you.
+</p><p>Orbit summaries are only available on the page that you are actually on. As soon as you navigate away from that page, Orbit erases the session.
+</p>
+<h1 id=""w_do-i-need-to-create-an-account-to-use-orbit"">Do I need to create an account to use Orbit?</h1>
+<p>No, you can use Orbit without creating an account.
+</p>
+<h1 id=""w_is-my-personal-information-used-to-train-the-ai-models"">Is my personal information used to train the AI models?</h1>
+<p>No, it is not. The Mistral 7B LLM used to support Orbit is hosted by Mozilla, and the queries are never shared with Mistral or any other services.
+</p>
+<h1 id=""w_if-you-dont-train-the-models-how-will-the-service-improve"">If you don't train the models, how will the service improve?</h1>
+<p>We have built Orbit to remain agnostic about which model we use, and we are constantly benchmarking the most recent open source models available. This allows us to easily swap out models as technology improves.
+</p>
+<h1 id=""w_how-does-orbit-make-money"">How does Orbit make money?</h1>
+<p>The beta version of Orbit does not currently drive revenue for Mozilla. We are presently focused on building, testing and improving the free product to make it as helpful as possible to users. In the future, we may provide a Premium version of Orbit in addition to the free version to recuperate our operating expenses.
+</p>
+<h1 id=""w_why-is-mozilla-building-an-ai-content-summarizer"">Why is Mozilla building an AI content summarizer?</h1>
+<p>The internet is an incredible resource, but it can also be overwhelming. Every day, we’re bombarded with long-winded articles, endless email threads, dense research papers and video transcripts that feel like they go on forever.
+</p><p>We built Orbit as a way to help filter the noise so that our users can focus on what is most important to them. There are very technical AI models and solutions available in the market today for a wide range of use cases.
+</p><p>Orbit’s focus is limited because we wanted to build an AI tool that was simple, safe, and most importantly, private.
+</p>",firefox,add-ons-extensions-and-themes;settings," **Important Update:** Orbit is shutting down and will no longer be available after June 26, 2025.
+
+Orbit is a free Firefox add on that allows you to quickly summarize emails, docs, articles, and video transcripts across the web without sacrificing your privacy. Orbit also lets you interact with the content, meaning you can pose specific questions and get quick responses based on the page’s information.
+
+Orbit works directly on websites including Google Docs, Gmail, Wikipedia, NY Times, YouTube, and more, so you don’t have to copy and paste text into another tool or switch between tabs.
+
+## Table of Contents
+
+- [1 How does Orbit work?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-work)
+- [2 How do I install Orbit?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-do-i-install-orbit)
+- [3 What languages does Orbit support?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_what-languages-does-orbit-support)
+- [4 How does Orbit maintain my privacy?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-maintain-my-privacy)
+- [5 Does Orbit save the content of the pages I visit or content summaries generated?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated)
+- [6 Do I need to create an account to use Orbit?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_do-i-need-to-create-an-account-to-use-orbit)
+- [7 Is my personal information used to train the AI models?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_is-my-personal-information-used-to-train-the-ai-models)
+- [8 If you don't train the models, how will the service improve?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_if-you-dont-train-the-models-how-will-the-service-improve)
+- [9 How does Orbit make money?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-make-money)
+- [10 Why is Mozilla building an AI content summarizer?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_why-is-mozilla-building-an-ai-content-summarizer)
+
+# How does Orbit work?
+
+Orbit uses AI to summarize and answer queries about web content, such as articles and video transcripts. When a user asks Orbit to summarize or query content, Orbit gathers the context (for example text, images, videos, etc.) of the page the user is viewing and provides a summary or answer.
+
+The current version of Orbit uses a Mistral LLM (Mistral 7B) hosted within Mozilla’s GCP instance.
+
+# How do I install Orbit?
+
+You can install Orbit from [the Firefox Add-on store](https://addons.mozilla.org/firefox/addon/orbit-summarizer/) – it's free!
+
+# What languages does Orbit support?
+
+The beta version of Orbit currently only supports English, though we’re working on adding support for more languages.
+
+# How does Orbit maintain my privacy?
+
+Orbit maintains your privacy in several ways:
+
+- It does not require account creation to use.
+- No personal information is tied to your sessions.
+- The context of the data we capture when you summarize a page is always encrypted.
+- The moment you move away from the page, that data is destroyed/purged.
+- Your data is not used to tune/train the AI models that power Orbit.
+- Even the feedback provided while using the extension is shared anonymously.
+
+# Does Orbit save the content of the pages I visit or content summaries generated?
+
+No, it does not.
+
+When you use Orbit, we receive a payload back that contains the contents of your query; information about the model queried (such as the name and version number); information about technical problems with processing the query, if any; the number of tokens required to process the query; and the model outputs in response to the query. We do not store this data beyond temporarily caching it to process your query and return the outputs to you.
+
+Orbit summaries are only available on the page that you are actually on. As soon as you navigate away from that page, Orbit erases the session.
+
+# Do I need to create an account to use Orbit?
+
+No, you can use Orbit without creating an account.
+
+# Is my personal information used to train the AI models?
+
+No, it is not. The Mistral 7B LLM used to support Orbit is hosted by Mozilla, and the queries are never shared with Mistral or any other services.
+
+# If you don't train the models, how will the service improve?
+
+We have built Orbit to remain agnostic about which model we use, and we are constantly benchmarking the most recent open source models available. This allows us to easily swap out models as technology improves.
+
+# How does Orbit make money?
+
+The beta version of Orbit does not currently drive revenue for Mozilla. We are presently focused on building, testing and improving the free product to make it as helpful as possible to users. In the future, we may provide a Premium version of Orbit in addition to the free version to recuperate our operating expenses.
+
+# Why is Mozilla building an AI content summarizer?
+
+The internet is an incredible resource, but it can also be overwhelming. Every day, we’re bombarded with long-winded articles, endless email threads, dense research papers and video transcripts that feel like they go on forever.
+
+We built Orbit as a way to help filter the noise so that our users can focus on what is most important to them. There are very technical AI models and solutions available in the market today for a wide range of use cases.
+
+Orbit’s focus is limited because we wanted to build an AI tool that was simple, safe, and most importantly, private.
+
+"
+67315,How to use AI-enhanced tab groups,how-use-ai-enhanced-tab-groups,https://support.mozilla.org/en-US/kb/how-use-ai-enhanced-tab-groups,en-US,Firefox allows you to create tab groups,"<p></p><div class=""note"">
+<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+This feature is only available in English locales worldwide.
+</p>
+</div>
+<p></p><p><img alt=""Smart tab groups updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-23-11-16-48-dd5b83.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</p>
+<h1 id=""w_finding-group-name-and-tab-suggestions"">Finding group name and tab suggestions</h1>
+<ol><li>To create a tab group:
+<ul><li>Drag and drop a tab on top of another, or
+</li><li>Right-click a tab and select <span class=""menu"">Add Tab to New Group</span>.
+</li></ul>
+</li><li>Open more tabs, similar to the group you just created.
+</li><li>Right-click the tab group name to open the <em>Manage tab group</em> panel.
+</li><li>If there are tabs that we can suggest for this group based on similarity, you’ll see a <span class=""button"">Suggest more of my tabs</span> button. Select it to view suggestions.
+<ul><li>If you’re using AI-enhanced tab groups for the first time, it may take a moment to find suggestions for a group name and tabs.
+</li><li>AI will suggest names and tabs based on similar open tabs in a single window.
+</li></ul>
+</li><li>You’ll see a suggested name and tabs that could be added to the group you just created. Keep the name or tabs that work best for your group.
+</li><li>You can turn suggested tabs on or off in settings.
+<ul><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (select <span class=""menu"">Preferences</span> on older macOS versions).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">General</span> panel and go to the <strong>Tabs</strong> section.
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+</dt></dl>
+</li><li>Select or deselect the option <strong>Use AI to suggest tabs and a name for tab groups:</strong>
+</li></ul>
+</li></ol>
+<div class=""warning"">
+<h2 id=""w_things-to-keep-in-mind"">Things to keep in mind</h2>
+<ul><li>Firefox uses a local AI model to read your open tabs’ titles and descriptions to suggest more tabs and group names. Everything happens on your device.
+</li><li>Tab groups enhanced by AI operate entirely within your browser, keeping everything on your device. AI on your device respects your privacy and makes it quicker to provide suggested tab groups and names. Specific URLs you visit are not shared with Firefox.
+</li><li>AI can sometimes make mistakes, so it’s best to review the suggested group name and tabs.
+</li></ul>
+</div>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/tab-groups"">Tab groups in Firefox</a>
+</li></ul>",firefox,browse;tabs,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is only available in English locales worldwide.
+
+![Smart tab groups updated](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Finding group name and tab suggestions
+
+1. To create a tab group:
+  - Drag and drop a tab on top of another, or
+  - Right-click a tab and select Add Tab to New Group.
+
+2. Open more tabs, similar to the group you just created.
+3. Right-click the tab group name to open the _Manage tab group_ panel.
+4. If there are tabs that we can suggest for this group based on similarity, you’ll see a Suggest more of my tabs button. Select it to view suggestions.
+  - If you’re using AI-enhanced tab groups for the first time, it may take a moment to find suggestions for a group name and tabs.
+  - AI will suggest names and tabs based on similar open tabs in a single window.
+
+5. You’ll see a suggested name and tabs that could be added to the group you just created. Keep the name or tabs that work best for your group.
+6. You can turn suggested tabs on or off in settings.
+  - In the Menu bar at the top of the screen, click Firefox and select Settings (select Preferences on older macOS versions).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+  - Select the General panel and go to the **Tabs** section.<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+</dt></dl>
+  - Select or deselect the option **Use AI to suggest tabs and a name for tab groups:**
+
+## Things to keep in mind
+
+- Firefox uses a local AI model to read your open tabs’ titles and descriptions to suggest more tabs and group names. Everything happens on your device.
+- Tab groups enhanced by AI operate entirely within your browser, keeping everything on your device. AI on your device respects your privacy and makes it quicker to provide suggested tab groups and names. Specific URLs you visit are not shared with Firefox.
+- AI can sometimes make mistakes, so it’s best to review the suggested group name and tabs.
+
+# Related articles
+
+- [Tab groups in Firefox](\""https://support.mozilla.org/en-US/kb/tab-groups"")
+
+"
+67328,Forum taxonomy guideline,forum-taxonomy-guideline,https://support.mozilla.org/en-US/kb/forum-taxonomy-guideline,en-US,This page provides instructions for forum moderators on how to apply topics and tags to questions in forums using the new moderation tool.,"<p>Unlike in the Knowledge Base system that offer dynamic selection when choosing topic for a KB article, Forum Moderators will see a full list of topics when moderating from the <a href=""/moderate"">new moderation tool</a>. 
+</p><p>This article outlines our new taxonomy structure and provides product-specific taxonomy maps to help Forum Moderators apply appropriate topics across products. As a moderator, you'll gain better understanding into how our taxonomy system functions within our community forums.
+</p>
+<h1 id=""w_taxonomy-structure"">Taxonomy structure</h1>
+<p>Our taxonomy structure consists of Tier 1 (represent the primary topic), Tier 2 (represent a sub-topic), and Tier 3 (represent a deeper and more narrow sub-topic). 
+</p>
+<ol><li> <strong>Tier 1 Topic</strong>: The top most level of the taxonomy. Tier 1 topics should be broad enough to cover multiple user needs, but not so broad that they become a catch-all for unrelated sub-topics.
+</li><li> <strong>Tier 2 Sub-topic</strong>: The second level of the taxonomy. Tier 2 sub-topics break down Tier 1 topics with more specificity, focusing on specific concepts or themes. As a general rule, sub-topics should increase in specificity the deeper down the hierarchy they go. 
+</li><li> <strong>Tier 3 Sub-topic</strong>: The third level of the taxonomy. The creation and use of Tier 3 sub-topics provides the flexibility to use terms that are specific or exclusive to a product feature or functionality.
+</li><li> <strong>Segmentation tags</strong>: a curated list of tags, or segmentation tags as we’ve been calling them, to categorize a piece of content (e.g. forum post, knowledge base article, or support ticket) that either doesn’t fit into a topic-centric taxonomy or would require too many tiers to properly capture in the hierarchical structure of the taxonomy. The dual-purpose coverage that tags provide means specific incidents or product features can be tracked across support channels and the data we collect from those support channels can be filtered by categories like operating system or device type.
+</li></ol>
+<p>Here's how it'll be represented in the taxonomy map: 
+</p>
+<ul><li> <strong>Tier 1 (Primary topic)</strong>
+<ul><li> Tier 2 (Sub-topic)
+<ul><li> Tier 3 (Sub-topic)
+</li></ul>
+</li></ul>
+</li></ul>
+<h1 id=""w_taxonomy-map-per-product"">Taxonomy map per product</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_firefox-desktop-and-mobile"">Firefox (desktop and mobile)</h2>
+<ul><li> <strong>Accessibility</strong>
+<ul><li> Reader view
+</li><li> Text-to-speech
+<ul><li> Listen
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+<ul><li> Edit account details
+</li><li> Location
+</li></ul>
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Backup, recovery, and sync	</strong>
+<ul><li> Backup data
+</li><li> Recover data
+<ul><li> Sync and backup confusion
+</li></ul>
+</li><li> Sync data
+<ul><li> Sync configuration
+</li><li> Sync failure
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+<ul><li> Audio and video
+<ul><li> PiP
+</li></ul>
+</li><li> Bookmarks
+</li><li> History
+<ul><li> Cookies
+</li></ul>
+</li><li> Home screen
+<ul><li> Dashboard
+</li><li> New tab
+</li></ul>
+</li><li> Images and documents
+<ul><li> Images
+</li><li> PDFs
+</li></ul>
+</li><li> Links
+</li><li> Tabs
+</li></ul>
+</li></ul>
+<ul><li> <strong>Download and save	</strong>
+<ul><li> Downloads
+<ul><li> Download failure
+</li><li> Print
+</li></ul>
+</li><li> Save content
+<ul><li> Reading list
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+<ul><li> ESR
+</li><li> Install failure
+</li></ul>
+</li><li> Update
+<ul><li> Update failure
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Primary Password
+</li><li> Save passwords
+<ul><li> Password autofill
+</li><li> Password manager
+</li></ul>
+</li><li> Sign in
+</li><li> Reset passwords
+</li><li> Two-factor authentication
+<ul><li> Two-factor lockout
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+<ul><li> Slow connection
+</li></ul>
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li><li> App responsiveness
+</li><li> Launch failure
+</li><li> Loading speed
+</li></ul>
+</li><li> Error Codes
+<ul><li> Web certificates
+</li></ul>
+</li><li> Site breakages
+<ul><li> Blocked application/service/website
+</li><li> Security software
+</li><li> Web compatibility
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+<ul><li> Browser security
+</li><li> Device permissions
+</li></ul>
+</li><li> Tracking protection
+<ul><li> Cookies
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+<ul><li> Search suggestions
+</li></ul>
+</li><li> Share content
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+<ul><li> Browser appearance
+</li></ul>
+</li><li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li><li> Languages
+</li><li> Notifications
+<ul><li> Push notifications
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-for-enterprise"">Firefox for Enterprise</h2>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li><li> Tracking protection
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-focus"">Firefox Focus</h2>
+<ul><li> <strong>Browse</strong>
+<ul><li> Home screen
+</li><li> Links
+</li><li> Tabs
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li><li> Site breakages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li><li> Tracking protection
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird"">Thunderbird</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul><li> Attachments
+</li><li> Calendar
+<ul><li> Events
+</li></ul>
+</li><li> Contacts
+</li><li> Import and export email
+</li><li> Instant messaging
+</li><li> Junk mail and spam
+</li><li> Send and receive email
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Save passwords
+</li><li> Reset passwords
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li><li> Tags
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Add-ons, extensions, and themes
+<ul><li> Extensions
+</li><li> Themes
+</li></ul>
+</li><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird-for-android"">Thunderbird for Android</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Account management
+</li><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul><li> Attachments
+</li><li> Calendar
+<ul><li> Events
+</li></ul>
+</li><li> Contacts
+</li><li> Import and export email
+</li><li> Instant messaging
+</li><li> Junk mail and spam
+</li><li> Send and receive email
+</li></ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul><li> Install
+</li><li> Update
+</li></ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul><li> Save passwords
+</li><li> Reset passwords
+</li></ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Connectivity
+</li><li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul><li> Encryption
+</li><li> Security
+</li></ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li><li> Tags
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul><li> Autofill
+</li><li> Customization
+</li><li> Import and export settings
+</li><li> Languages
+</li></ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p></section>
+<p></p>
+<h1 id=""w_segmentation-tags"">Segmentation tags</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_operating-system"">Operating System</h2>
+<ul><li> googleplay
+</li><li> ios
+</li><li> linux
+</li><li> linux-debian
+</li><li> linux-fedora
+</li><li> mac
+</li><li> win10
+</li><li> win11
+</li></ul>
+<h2 id=""w_products"">Products</h2>
+<ul><li> firefox_accounts
+</li><li> firefox-private-network-vpn
+</li><li> hubs
+</li><li> mdn-plus
+</li><li> monitor
+</li><li> mozilla-account
+</li><li> pocket
+</li><li> relay
+</li></ul>
+<p></p></section>
+<p></p>
+<h1 id=""w_faq-on-applying-the-new-taxonomy"">FAQ on applying the new taxonomy</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-granular-should-i-be-in-applying-topics-or-tags"">How granular should I be in applying topics or tags?</h2>
+<p>When categorizing a piece of content (i.e. - a KB article, forum post, or support request) with a taxonomy topic, it is best to be as specific as possible. Start at Tier 3 and identify if there is an applicable topic. If none are available, move up to Tier 2, and then Tier 1.
+</p><p>With the exception of a few groups of tags (e.g. ones used to identify a type of ticket like spam, feature request, or performance bug), most tags are designed to be granular and applicable to specific features or content. If you are unsure of whether a particular tag should be applied to a piece of content, you can ask in the moderator forum. Questions about the application of tags help us further clarify any confusion, anticipate the need for new tags, and determine if a tag should be deprecated.  
+</p>
+<h2 id=""w_when-a-piece-of-content-fits-multiple-topics-which-taxonomy-topic-should-i-apply"">When a piece of content fits multiple topics, which taxonomy topic should I apply?</h2>
+<p>At the moment, there isn’t a way to apply multiple taxonomy topics to a piece of content, with the exception of a KB article. If there are multiple questions submitted together in a forum post or support ticket, do your best to apply the taxonomy topic that is most relevant to the user’s submitted question.
+</p>
+<h2 id=""w_what-should-i-do-if-none-of-the-topics-or-tags-seem-applicable-or-appropriate"">What should I do if none of the topics or tags seem applicable or appropriate?</h2>
+<p>A product might not have an existing taxonomy topic available to it due to a lack of related content in the Knowledge Base, community forums, or support tickets. Before making a request for a new topic to be created (more info on that below), be sure to check the All Topics taxonomy map to see if the topic you’re looking for, or something similar, already exists. If it does, you can request that topic be made available to the product.
+</p><p>In instances where none of the topics seem specific enough to appropriately match the content, apply the broadest topic with the most relevance. This will likely be a Tier 1 topic. If you’re unable to apply a more specific topic beyond Tier 1 and the lack of specificity is going to be an issue, raise a flag in the moderator forum.
+</p><p>Unlike topics, tags are not required, which means it’s okay if a piece of content doesn’t have a tag applied to it. However, the new list of moderated tags is highly curated, making it unlikely that there will be absolutely no applicable tags. For example, tags from categories such as device, OS, platform, and ticket type are almost always applicable to a piece of content.
+</p>
+<h2 id=""w_do-i-need-to-apply-multiple-tags-or-just-one-whats-the-threshold-for-multiple-tags"">Do I need to apply multiple tags or just one? What’s the threshold for multiple tags?</h2>
+<p>The more tags applied to a piece of content, the more data points associated with it. The more data points associated with a piece of content, the more ways it can be filtered and segmented when viewing collections of data. However, we understand the concern with potentially adding so much signal that it becomes noise. Unless you’re attempting to tag multiple questions within one piece of content, there should be minimal risk of “going overboard” with tags. If you’re confident about their relevance, feel free to apply multiple tags.
+</p><p></p></section>
+<p></p>",contributor,forum,"Unlike in the Knowledge Base system that offer dynamic selection when choosing topic for a KB article, Forum Moderators will see a full list of topics when moderating from the [new moderation tool](\""https://support.mozilla.org/moderate"").
+
+This article outlines our new taxonomy structure and provides product-specific taxonomy maps to help Forum Moderators apply appropriate topics across products. As a moderator, you'll gain better understanding into how our taxonomy system functions within our community forums.
+
+# Taxonomy structure
+
+Our taxonomy structure consists of Tier 1 (represent the primary topic), Tier 2 (represent a sub-topic), and Tier 3 (represent a deeper and more narrow sub-topic).
+
+1. **Tier 1 Topic** : The top most level of the taxonomy. Tier 1 topics should be broad enough to cover multiple user needs, but not so broad that they become a catch-all for unrelated sub-topics.
+2. **Tier 2 Sub-topic** : The second level of the taxonomy. Tier 2 sub-topics break down Tier 1 topics with more specificity, focusing on specific concepts or themes. As a general rule, sub-topics should increase in specificity the deeper down the hierarchy they go. 
+3. **Tier 3 Sub-topic** : The third level of the taxonomy. The creation and use of Tier 3 sub-topics provides the flexibility to use terms that are specific or exclusive to a product feature or functionality.
+4. **Segmentation tags** : a curated list of tags, or segmentation tags as we’ve been calling them, to categorize a piece of content (e.g. forum post, knowledge base article, or support ticket) that either doesn’t fit into a topic-centric taxonomy or would require too many tiers to properly capture in the hierarchical structure of the taxonomy. The dual-purpose coverage that tags provide means specific incidents or product features can be tracked across support channels and the data we collect from those support channels can be filtered by categories like operating system or device type.
+
+Here's how it'll be represented in the taxonomy map:
+
+- **Tier 1 (Primary topic)**
+  - Tier 2 (Sub-topic)
+    - Tier 3 (Sub-topic)
+
+# Taxonomy map per product
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_firefox-desktop-and-mobile"">Firefox (desktop and mobile)</h2>
+<ul><li> <strong>Accessibility</strong>
+<ul>
+<li> Reader view
+</li>
+<li> Text-to-speech
+<ul><li> Listen
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+<ul>
+<li> Edit account details
+</li>
+<li> Location
+</li>
+</ul>
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Backup, recovery, and sync	</strong>
+<ul>
+<li> Backup data
+</li>
+<li> Recover data
+<ul><li> Sync and backup confusion
+</li></ul>
+</li>
+<li> Sync data
+<ul>
+<li> Sync configuration
+</li>
+<li> Sync failure
+</li>
+</ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+<ul>
+<li> Audio and video
+<ul><li> PiP
+</li></ul>
+</li>
+<li> Bookmarks
+</li>
+<li> History
+<ul><li> Cookies
+</li></ul>
+</li>
+<li> Home screen
+<ul>
+<li> Dashboard
+</li>
+<li> New tab
+</li>
+</ul>
+</li>
+<li> Images and documents
+<ul>
+<li> Images
+</li>
+<li> PDFs
+</li>
+</ul>
+</li>
+<li> Links
+</li>
+<li> Tabs
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Download and save	</strong>
+<ul>
+<li> Downloads
+<ul>
+<li> Download failure
+</li>
+<li> Print
+</li>
+</ul>
+</li>
+<li> Save content
+<ul><li> Reading list
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+<ul>
+<li> ESR
+</li>
+<li> Install failure
+</li>
+</ul>
+</li>
+<li> Update
+<ul><li> Update failure
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Primary Password
+</li>
+<li> Save passwords
+<ul>
+<li> Password autofill
+</li>
+<li> Password manager
+</li>
+</ul>
+</li>
+<li> Sign in
+</li>
+<li> Reset passwords
+</li>
+<li> Two-factor authentication
+<ul><li> Two-factor lockout
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+<ul><li> Slow connection
+</li></ul>
+</li>
+<li> Crashing and slow performance
+<ul>
+<li> App crash
+</li>
+<li> App responsiveness
+</li>
+<li> Launch failure
+</li>
+<li> Loading speed
+</li>
+</ul>
+</li>
+<li> Error Codes
+<ul><li> Web certificates
+</li></ul>
+</li>
+<li> Site breakages
+<ul>
+<li> Blocked application/service/website
+</li>
+<li> Security software
+</li>
+<li> Web compatibility
+</li>
+</ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+<ul>
+<li> Browser security
+</li>
+<li> Device permissions
+</li>
+</ul>
+</li>
+<li> Tracking protection
+<ul><li> Cookies
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+<ul><li> Search suggestions
+</li></ul>
+</li>
+<li> Share content
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+<ul><li> Browser appearance
+</li></ul>
+</li>
+<li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li>
+<li> Languages
+</li>
+<li> Notifications
+<ul><li> Push notifications
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-for-enterprise"">Firefox for Enterprise</h2>
+<ul><li> <strong>Accounts</strong>
+<ul><li> Profiles
+</li></ul>
+</li></ul>
+<ul><li> <strong>Browse</strong>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul><li> Crashing and slow performance
+</li></ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+<li> Tracking protection
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_firefox-focus"">Firefox Focus</h2>
+<ul><li> <strong>Browse</strong>
+<ul>
+<li> Home screen
+</li>
+<li> Links
+</li>
+<li> Tabs
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Crashing and slow performance
+</li>
+<li> Site breakages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+<li> Tracking protection
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul><li> Search
+</li></ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+<ul><li> Add device
+</li></ul>
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird"">Thunderbird</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul>
+<li> Attachments
+</li>
+<li> Calendar
+<ul><li> Events
+</li></ul>
+</li>
+<li> Contacts
+</li>
+<li> Import and export email
+</li>
+<li> Instant messaging
+</li>
+<li> Junk mail and spam
+</li>
+<li> Send and receive email
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Save passwords
+</li>
+<li> Reset passwords
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+</li>
+<li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+</li>
+<li> Tags
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Add-ons, extensions, and themes
+<ul>
+<li> Extensions
+</li>
+<li> Themes
+</li>
+</ul>
+</li>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p>
+<h2 id=""w_thunderbird-for-android"">Thunderbird for Android</h2>
+<ul><li> <strong>Accessibility</strong>
+</li></ul>
+<ul><li> <strong>Accounts</strong>
+<ul>
+<li> Account management
+</li>
+<li> Profiles
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Email and messaging</strong>
+<ul>
+<li> Attachments
+</li>
+<li> Calendar
+<ul><li> Events
+</li></ul>
+</li>
+<li> Contacts
+</li>
+<li> Import and export email
+</li>
+<li> Instant messaging
+</li>
+<li> Junk mail and spam
+</li>
+<li> Send and receive email
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Installation and updates</strong>
+<ul>
+<li> Install
+</li>
+<li> Update
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Passwords and sign in</strong>
+<ul>
+<li> Save passwords
+</li>
+<li> Reset passwords
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Performance and connectivity</strong>
+<ul>
+<li> Connectivity
+</li>
+<li> Crashing and slow performance
+<ul><li> App crash
+</li></ul>
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Privacy and security</strong>
+<ul>
+<li> Encryption
+</li>
+<li> Security
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Search, tag, and share</strong>
+<ul>
+<li> Search
+</li>
+<li> Tags
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Settings</strong>
+<ul>
+<li> Autofill
+</li>
+<li> Customization
+</li>
+<li> Import and export settings
+</li>
+<li> Languages
+</li>
+</ul>
+</li></ul>
+<ul><li> <strong>Undefined<sup>*</sup>
+</strong>
+</li></ul>
+<p><sup>*</sup> <em>This topic is used for content that would otherwise be considered spam or non-actionable.</em>
+</p></section>
+
+# Segmentation tags
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_operating-system"">Operating System</h2>
+<ul>
+<li> googleplay
+</li>
+<li> ios
+</li>
+<li> linux
+</li>
+<li> linux-debian
+</li>
+<li> linux-fedora
+</li>
+<li> mac
+</li>
+<li> win10
+</li>
+<li> win11
+</li>
+</ul>
+<h2 id=""w_products"">Products</h2>
+<ul>
+<li> firefox_accounts
+</li>
+<li> firefox-private-network-vpn
+</li>
+<li> hubs
+</li>
+<li> mdn-plus
+</li>
+<li> monitor
+</li>
+<li> mozilla-account
+</li>
+<li> pocket
+</li>
+<li> relay
+</li>
+</ul>
+<p></p></section>
+
+# FAQ on applying the new taxonomy
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-granular-should-i-be-in-applying-topics-or-tags"">How granular should I be in applying topics or tags?</h2>
+<p>When categorizing a piece of content (i.e. - a KB article, forum post, or support request) with a taxonomy topic, it is best to be as specific as possible. Start at Tier 3 and identify if there is an applicable topic. If none are available, move up to Tier 2, and then Tier 1.
+</p>
+<p>With the exception of a few groups of tags (e.g. ones used to identify a type of ticket like spam, feature request, or performance bug), most tags are designed to be granular and applicable to specific features or content. If you are unsure of whether a particular tag should be applied to a piece of content, you can ask in the moderator forum. Questions about the application of tags help us further clarify any confusion, anticipate the need for new tags, and determine if a tag should be deprecated.  
+</p>
+<h2 id=""w_when-a-piece-of-content-fits-multiple-topics-which-taxonomy-topic-should-i-apply"">When a piece of content fits multiple topics, which taxonomy topic should I apply?</h2>
+<p>At the moment, there isn’t a way to apply multiple taxonomy topics to a piece of content, with the exception of a KB article. If there are multiple questions submitted together in a forum post or support ticket, do your best to apply the taxonomy topic that is most relevant to the user’s submitted question.
+</p>
+<h2 id=""w_what-should-i-do-if-none-of-the-topics-or-tags-seem-applicable-or-appropriate"">What should I do if none of the topics or tags seem applicable or appropriate?</h2>
+<p>A product might not have an existing taxonomy topic available to it due to a lack of related content in the Knowledge Base, community forums, or support tickets. Before making a request for a new topic to be created (more info on that below), be sure to check the All Topics taxonomy map to see if the topic you’re looking for, or something similar, already exists. If it does, you can request that topic be made available to the product.
+</p>
+<p>In instances where none of the topics seem specific enough to appropriately match the content, apply the broadest topic with the most relevance. This will likely be a Tier 1 topic. If you’re unable to apply a more specific topic beyond Tier 1 and the lack of specificity is going to be an issue, raise a flag in the moderator forum.
+</p>
+<p>Unlike topics, tags are not required, which means it’s okay if a piece of content doesn’t have a tag applied to it. However, the new list of moderated tags is highly curated, making it unlikely that there will be absolutely no applicable tags. For example, tags from categories such as device, OS, platform, and ticket type are almost always applicable to a piece of content.
+</p>
+<h2 id=""w_do-i-need-to-apply-multiple-tags-or-just-one-whats-the-threshold-for-multiple-tags"">Do I need to apply multiple tags or just one? What’s the threshold for multiple tags?</h2>
+<p>The more tags applied to a piece of content, the more data points associated with it. The more data points associated with a piece of content, the more ways it can be filtered and segmented when viewing collections of data. However, we understand the concern with potentially adding so much signal that it becomes noise. Unless you’re attempting to tag multiple questions within one piece of content, there should be minimal risk of “going overboard” with tags. If you’re confident about their relevance, feel free to apply multiple tags.
+</p>
+<p></p></section>
 
 "
 67329,What happens when your SUMO profile is inactive or deleted,sumo-profile-inactive-deleted,https://support.mozilla.org/en-US/kb/sumo-profile-inactive-deleted,en-US,Learn what happens to your Mozilla Support profile if your Mozilla account is deleted due to inactivity.,"<p>Mozilla Support (<a href=""https://support.mozilla.org"">SUpport.MOzilla.org</a> or <em>SUMO</em>) periodically deletes inactive SUMO profiles to protect privacy and maintain content integrity. This can happen in two different ways – through Mozilla account (MA) deletion or through SUMO-specific inactivity.
@@ -118404,6 +120449,7 @@ Firefox takes a privacy-preserving approach to summarizing web pages. For iPhone
 <ul><li><strong>Upgrade to Windows 11</strong> if your computer is eligible.
 </li><li>If you want to stay on Windows 10, consider <strong>Microsoft’s Extended Security Updates (ESU)</strong> to receive critical patches. <strong>Simply turning Windows Backup on will get you one year of free security updates for Windows 10</strong>. Learn more on Microsoft’s <a href=""https://support.microsoft.com/windows/windows-10-consumer-extended-security-updates-esu-program-33e17de9-36b3-43bb-874d-6c53d2e4bf42"">ESU Program page</a>.
 </li><li>Follow the steps listed under <a href=""#w_plan-for-a-new-windows-11-pc"">Plan for a new Windows PC</a> so you’re prepared in case you need to replace your device unexpectedly.
+</li><li>Or, if your current hardware doesn't support Windows 11, You can switch to a <strong>Linux-based</strong> operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
 </li></ul>
 <h1 id=""w_what-happens-if-i-upgrade-to-windows-11"">What happens if I upgrade to Windows 11?</h1>
 <p>If you upgrade from Windows 10 to Windows 11 <strong>on the same computer</strong>, Firefox will continue to work normally.
@@ -118498,6 +120544,7 @@ While Firefox will be supported on Windows 10 long after the operating system’
 - **Upgrade to Windows 11** if your computer is eligible.
 - If you want to stay on Windows 10, consider **Microsoft’s Extended Security Updates (ESU)** to receive critical patches. **Simply turning Windows Backup on will get you one year of free security updates for Windows 10**. Learn more on Microsoft’s [ESU Program page](https://support.microsoft.com/windows/windows-10-consumer-extended-security-updates-esu-program-33e17de9-36b3-43bb-874d-6c53d2e4bf42).
 - Follow the steps listed under [Plan for a new Windows PC](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_plan-for-a-new-windows-11-pc) so you’re prepared in case you need to replace your device unexpectedly.
+- Or, if your current hardware doesn't support Windows 11, You can switch to a **Linux-based** operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
 
 # What happens if I upgrade to Windows 11?
 
@@ -120696,6 +122743,88 @@ A small, predictable set of signals enables us to show ads that are relevant eno
 # Our commitment
 
 The ad ecosystem has long assumed that more data is better. We disagree. **We do not sell or share your personal data** , and you’re always in control—turn ads off, dismiss, or report them. We use only minimal, privacy-protected signals so ads are relevant enough to be worth your attention, not your data. This is an uphill shift against established industry practices, but independence is part of who we are. We’re doing this to sustain Firefox and keep Mozilla’s mission—championing a healthy, open internet—alive. **This approach funds Firefox and supports an open, accessible internet without compromising our promise to you.**
+
+"
+68984,"Why Firefox says ""Your browser is being managed by your organization.""",managed-browser-firefox,https://support.mozilla.org/en-US/kb/managed-browser-firefox,en-US,"Learn why Firefox shows ""Your browser is being managed by your organization"" and what you can do about it.","<p>You may see a message at the top of Firefox Settings that says “Your browser is being managed by your organization”. 
+</p><p>This usually means that Firefox settings are being controlled by rules applied to your device by a network administrator, security software, or local policy. Some features may be locked or unavailable due to these rules, called enterprise policies.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-this-message-means""><span class=""tocnumber"">1</span> <span class=""toctext"">What this message means</span></a></li><li class=""toclevel-1""><a href=""#w_why-some-features-may-be-disabled""><span class=""tocnumber"">2</span> <span class=""toctext"">Why some features may be disabled</span></a></li><li class=""toclevel-1""><a href=""#w_see-which-policies-are-active""><span class=""tocnumber"">3</span> <span class=""toctext"">See which policies are active</span></a></li><li class=""toclevel-1""><a href=""#w_what-you-can-do-about-it""><span class=""tocnumber"">4</span> <span class=""toctext"">What you can do about it</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related Articles</span></a></li></ul></div>
+<h1 id=""w_what-this-message-means"">What this message means</h1>
+<p>Firefox shows this message when it detects that one or more policies are affecting your browser settings.
+</p><p>This message <strong>does not mean Firefox is broken</strong> — it simply means it is being managed by software or system settings outside of the Firefox environment. 
+</p>
+<h1 id=""w_why-some-features-may-be-disabled"">Why some features may be disabled</h1>
+<p>You might see this if:
+</p>
+<ul><li>You’re using a work or school device, where IT manages settings for consistency and security
+</li><li>You have antivirus, parental control, or security software that sets policies
+</li><li>You or another user manually configured local policies
+</li></ul>
+<h1 id=""w_see-which-policies-are-active"">See which policies are active</h1>
+<ol><li>Open the Firefox menu (≡) and choose Settings.
+</li><li>Click the Your browser is being managed by your organization link at the top of the Settings page.
+</li><li>The Policy Details page will show all active policies and what they do.
+</li></ol>
+<h1 id=""w_what-you-can-do-about-it"">What you can do about it</h1>
+<p>If you're on a work or school computer, contact your IT administrator with any questions.
+</p><p>If you're on a personal device:
+</p>
+<ul><li>Review the list of active policies
+</li><li>Check for recently installed software (like antivirus or parental controls)
+<ul><li>Uninstall or adjust that software if you don’t want Firefox to be managed
+</li></ul>
+</li></ul>
+<h1 id=""w_related-articles"">Related Articles</h1>
+<ul><li><a href=""/en-US/kb/enforcing-policies-firefox-enterprise"">Enforce policies on Firefox for Enterprise</a>
+</li><li><a href=""/en-US/kb/will-policies-work-if-users-already-installed-firefox"">Will policies I set work if users already installed Firefox?</a>
+</li><li><a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">Customize Firefox using Group Policy (Windows)</a>
+</li></ul>",firefox,account-management;accounts,"You may see a message at the top of Firefox Settings that says “Your browser is being managed by your organization”.
+
+This usually means that Firefox settings are being controlled by rules applied to your device by a network administrator, security software, or local policy. Some features may be locked or unavailable due to these rules, called enterprise policies.
+
+## Table of Contents
+
+- [1 What this message means](https://support.mozilla.org/kb/managed-browser-firefox#w_what-this-message-means)
+- [2 Why some features may be disabled](https://support.mozilla.org/kb/managed-browser-firefox#w_why-some-features-may-be-disabled)
+- [3 See which policies are active](https://support.mozilla.org/kb/managed-browser-firefox#w_see-which-policies-are-active)
+- [4 What you can do about it](https://support.mozilla.org/kb/managed-browser-firefox#w_what-you-can-do-about-it)
+- [5 Related Articles](https://support.mozilla.org/kb/managed-browser-firefox#w_related-articles)
+
+# What this message means
+
+Firefox shows this message when it detects that one or more policies are affecting your browser settings.
+
+This message **does not mean Firefox is broken** — it simply means it is being managed by software or system settings outside of the Firefox environment.
+
+# Why some features may be disabled
+
+You might see this if:
+
+- You’re using a work or school device, where IT manages settings for consistency and security
+- You have antivirus, parental control, or security software that sets policies
+- You or another user manually configured local policies
+
+# See which policies are active
+
+1. Open the Firefox menu (≡) and choose Settings.
+2. Click the Your browser is being managed by your organization link at the top of the Settings page.
+3. The Policy Details page will show all active policies and what they do.
+
+# What you can do about it
+
+If you're on a work or school computer, contact your IT administrator with any questions.
+
+If you're on a personal device:
+
+- Review the list of active policies
+- Check for recently installed software (like antivirus or parental controls)
+  - Uninstall or adjust that software if you don’t want Firefox to be managed
+
+# Related Articles
+
+- [Enforce policies on Firefox for Enterprise](\""https://support.mozilla.org/en-US/kb/enforcing-policies-firefox-enterprise"")
+- [Will policies I set work if users already installed Firefox?](\""https://support.mozilla.org/en-US/kb/will-policies-work-if-users-already-installed-firefox"")
+- [Customize Firefox using Group Policy (Windows)](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"")
 
 "
 68995,Unsent crash reports in Firefox,unsent-crash-reports-in-firefox,https://support.mozilla.org/en-US/kb/unsent-crash-reports-in-firefox,en-US,Learn how Firefox requests unsent crash reports.,"<h1 id=""w_why-am-i-seeing-this-notification"">Why am I seeing this notification?</h1>
