@@ -11387,7 +11387,7 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 </li></ul>
 <div class=""for"" data-for=""fx127""><p></p><div class=""note""><strong>Note:</strong> On macOS and Windows, OS authentication may be required when accessing stored passwords using <span class=""menu""><img alt=""edit_fx71aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-03-17-35-25-6deac5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> Edit</span>, <span class=""menu"">Copy</span> or <img alt=""IG eye"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> (the reveal button, represented by an eye icon). This is <strong>not</strong> your Mozilla account credentials. See <a href=""/en-US/kb/firefox-password-authentification-prompt"">Secure Firefox passwords with device sign-in</a> for more information.</div>
 <p></p></div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_make-firefox-remember-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Make Firefox remember usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_managing-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Managing multiple accounts for a site</span></a></li><li class=""toclevel-1""><a href=""#w_managing-usernames-and-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing usernames and passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-menu-panel""><span class=""tocnumber"">3.1</span> <span class=""toctext"">From the Menu panel</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-firefox-sidebar""><span class=""tocnumber"">3.2</span> <span class=""toctext"">From the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-logins""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Remove all saved logins</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_exporting-login-and-password-data""><span class=""tocnumber"">4</span> <span class=""toctext"">Exporting login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_importing-login-and-password-data""><span class=""tocnumber"">5</span> <span class=""toctext"">Importing login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-your-passwords""><span class=""tocnumber"">6</span> <span class=""toctext"">Protecting your passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">7</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_make-firefox-remember-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Make Firefox remember usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_managing-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Managing multiple accounts for a site</span></a><ul><li class=""toclevel-2""><a href=""#w_add-another-login-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add another login account</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_managing-usernames-and-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing usernames and passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-menu-panel""><span class=""tocnumber"">3.1</span> <span class=""toctext"">From the Menu panel</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-firefox-sidebar""><span class=""tocnumber"">3.2</span> <span class=""toctext"">From the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-logins""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Remove all saved logins</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_exporting-login-and-password-data""><span class=""tocnumber"">4</span> <span class=""toctext"">Exporting login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_importing-login-and-password-data""><span class=""tocnumber"">5</span> <span class=""toctext"">Importing login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-your-passwords""><span class=""tocnumber"">6</span> <span class=""toctext"">Protecting your passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">7</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_make-firefox-remember-usernames-and-passwords"">Make Firefox remember usernames and passwords</h1>
 <p>When you enter a username and password that you haven't already saved for a website, Firefox will ask if you want to save it.
 </p><p><img alt=""FF70 Password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-06-21-03-14-92afab.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -11395,8 +11395,8 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 <div class=""note""><strong>Tip:</strong> Clicking outside of the Save prompt will hide it. To bring it back, just click the key icon on the left side of the address bar. If Firefox does not prompt you to save passwords, see <a href=""/en-US/kb/usernames-and-passwords-are-not-saved"">Usernames and passwords are not saved</a>.</div>
 <p>In the prompt:
 </p>
-<ul><li> <strong>To have Firefox remember your username and password</strong>, click on <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
-<ul><li> If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click on <span class=""button"">Update</span>.
+<ul><li> <strong>To have Firefox remember your username and password</strong>, click <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
+<ul><li> If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click <span class=""button"">Update</span>.
 </li></ul>
 </li><li> <strong>To tell Firefox to never remember usernames and passwords for the current website</strong>, click the drop-down menu and select <span class=""menu"">Never Save</span>. In the future, when you log in to the website, you won't be prompted to save the username and password.
 <ul><li> If you later change your mind and would like Firefox to ask you to save usernames and passwords for this site, you'll need to go into your Firefox Settings
@@ -11409,16 +11409,16 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 </p>
 <ul><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button.
 <ul><li>Select <span class=""menu"">Passwords</span>.
-</li><li>Click the <span class=""button"">+</span> next to the <span class=""for"" data-for=""not fx122""><em>Search Logins</em></span><span class=""for"" data-for=""fx122""><em>Search Passwords</em></span> box at the top left.
+</li><li>Click the <span class=""button"">+</span> next to the <em>Search Passwords</em> box at the top left.
 </li><li>Add a website address, username and password.
 </li><li>Click <span class=""button"">Save</span>.
 </li></ul>
-</li><li>Click on the Customize sidebar icon. 
-<ul><li>In the Firefox tools menu, enable Passwords in the sidebar. The key <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon will now be showing in the Firefox sidebar. 
+</li><li>Click on the <em>Customize sidebar</em> icon. 
+<ul><li>In the <span class=""menu"">Firefox tools</span> menu, enable <strong>Passwords</strong> in the sidebar. The key <img alt=""contextualkeyicon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-23-05-28-11-cede58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon will now be showing in the Firefox sidebar. 
 </li><li>Click it to open the password manager. 
-</li><li>Click the  next to the Search Passwords box at the top right. 
-</li><li>Add a website, your credentials, and your password.
-</li><li>Click Save.
+</li><li>Click the <span class=""button"">+</span> next to the <strong>Search Passwords</strong> box at the top right. 
+</li><li>Add a website address, username and password.
+</li><li>Click <span class=""button"">Save</span>.
 </li></ul>
 </li></ul>
 <dl><dt><img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
@@ -11426,7 +11426,9 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 </div>
 <h1 id=""w_managing-multiple-accounts-for-a-site"">Managing multiple accounts for a site</h1>
 <p>If you have more than one account for a site, Firefox can save all your logins. Each time you log in to a site, you can choose the login information you would like Firefox to use.
-</p><p><strong>Add another login account:</strong> To save an additional login for a site, enter the login credentials and click <strong>Save</strong> when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.<br><img alt=""Fx81AddLogins"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-48-15-ad973c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</p>
+<h2 id=""w_add-another-login-account"">Add another login account</h2>
+<p>To save an additional login for a site, enter the login credentials and click <strong>Save</strong> when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.<br><img alt=""Fx81AddLogins"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-48-15-ad973c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </p><p>If more than one login is stored for a website, the list of usernames will appear when you click the login field. Select the username you want to log in with. 
 </p>
 <dl><dt><img alt=""SavedLoginsFx81"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-31-30-ffa911.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
@@ -11538,7 +11540,7 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 </li><li><a href=""/en-US/kb/reset-your-primary-password-if-youve-forgotten-it"">Reset your Primary Password if you've forgotten it</a>
 </li><li><a href=""/en-US/kb/firefox-password-manager-alerts-breached-websites"">Firefox Password Manager - Alerts for breached websites</a>
 </li><li><a href=""/en-US/kb/how-generate-secure-password-firefox"">Generate a secure password in Firefox</a>
-</li><li><a href=""/en-US/kb/manage-your-logins-firefox-password-manager"">Manage your logins with the Firefox Password Manager</a> 
+</li><li><a href=""/en-US/kb/manage-your-logins-firefox-password-manager"">Manage your logins with the Firefox Password Manager</a>
 </li><li><a href=""/en-US/kb/relay-integration"">Add Firefox Relay to the Firefox password manager</a>
 </li></ul>
 <div class=""for"" data-for=""win10,win11"">
@@ -11554,6 +11556,8 @@ On some Linux distributions, you could see a notification that _some of Firefoxâ
 
 - [1 Make Firefox remember usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_make-firefox-remember-usernames-and-passwords)
 - [2 Managing multiple accounts for a site](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-multiple-accounts-for-a-site)
+  - [2.1 Add another login account](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_add-another-login-account)
+
 - [3 Managing usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-usernames-and-passwords)
   - [3.1 From the Menu panel](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-menu-panel)
   - [3.2 From the Firefox sidebar](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-firefox-sidebar)
@@ -11576,8 +11580,8 @@ When you enter a username and password that you haven't already saved for a webs
 
 In the prompt:
 
-- **To have Firefox remember your username and password** , click on Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
-  - If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click on Update.
+- **To have Firefox remember your username and password** , click Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
+  - If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click Update.
 
 - **To tell Firefox to never remember usernames and passwords for the current website** , click the drop-down menu and select Never Save. In the future, when you log in to the website, you won't be prompted to save the username and password.
   - If you later change your mind and would like Firefox to ask you to save usernames and passwords for this site, you'll need to go into your Firefox Settings and remove the site's entry from the Privacy & Security panel _Exceptions_ list.
@@ -11590,15 +11594,15 @@ You can also [manually add website logins](\""https://support.mozilla.org/en-US/
 
 - Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
   - Select Passwords.
-  - Click the + next to the _Search Logins__Search Passwords_ box at the top left.
+  - Click the + next to the _Search Passwords_ box at the top left.
   - Add a website address, username and password.
   - Click Save.
 
-- Click on the Customize sidebar icon. 
-  - In the Firefox tools menu, enable Passwords in the sidebar. The key ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will now be showing in the Firefox sidebar. 
+- Click on the _Customize sidebar_ icon. 
+  - In the Firefox tools menu, enable **Passwords** in the sidebar. The key ![contextualkeyicon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will now be showing in the Firefox sidebar. 
   - Click it to open the password manager. 
-  - Click the next to the Search Passwords box at the top right. 
-  - Add a website, your credentials, and your password.
+  - Click the + next to the **Search Passwords** box at the top right. 
+  - Add a website address, username and password.
   - Click Save.
 
 <dl><dt>
@@ -11609,7 +11613,9 @@ You can also [manually add website logins](\""https://support.mozilla.org/en-US/
 
 If you have more than one account for a site, Firefox can save all your logins. Each time you log in to a site, you can choose the login information you would like Firefox to use.
 
-**Add another login account:** To save an additional login for a site, enter the login credentials and click **Save** when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.  
+## Add another login account
+
+To save an additional login for a site, enter the login credentials and click **Save** when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.  
  ![Fx81AddLogins](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
 If more than one login is stored for a website, the list of usernames will appear when you click the login field. Select the username you want to log in with.
@@ -43042,11 +43048,10 @@ If you are willing to accept the privacy implications of displaying remote conte
 </li><li> Search for <strong>useragent</strong> by typing it into the <em>Search preference name</em> field.
 </li><li> Click the <em>Reset</em> <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> or <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button on each of these preferences, if they exist:
 </li></ol>
-<ul><li> <span class=""pref"">general.useragent.extra.firefox</span>
-</li><li> <span class=""pref"">general.useragent.extra.<em>productName</em></span> â€“ where <em>productName</em> can be the name of some third party software (e.g., <em>microsoftdotnet</em>)
+<ul><li> <span class=""pref"">general.useragent.extra.firefox</span> or <span class=""pref"">general.useragent.extra.<em>productName</em></span> - ignored since <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=581008"">bug 581008</a> (2010).
 </li><li> <span class=""pref"">general.useragent.locale</span>
 </li><li> <span class=""pref"">general.useragent.override</span>
-</li><li> <span class=""pref"">general.useragent.security</span>
+</li><li> <span class=""pref"">general.useragent.security</span> - ignored since <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=572668"">bug 572668</a> (2010).
 </li></ul>
 <p>See <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor for Firefox</a> for more information about using the <em>about:config</em> page to reset or delete preferences.
 </p>
@@ -43109,11 +43114,10 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 2. Search for **useragent** by typing it into the _Search preference name_ field.
 3. Click the _Reset_ ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) or _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button on each of these preferences, if they exist:
 
-- general.useragent.extra.firefox
-- general.useragent.extra._productName_ â€“ where _productName_ can be the name of some third party software (e.g., _microsoftdotnet_)
+- general.useragent.extra.firefox or general.useragent.extra._productName_ - ignored since [bug 581008](https://bugzilla.mozilla.org/show_bug.cgi?id=581008) (2010).
 - general.useragent.locale
 - general.useragent.override
-- general.useragent.security
+- general.useragent.security - ignored since [bug 572668](https://bugzilla.mozilla.org/show_bug.cgi?id=572668) (2010).
 
 See [Configuration Editor for Firefox](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") for more information about using the _about:config_ page to reset or delete preferences.
 
@@ -44113,9 +44117,9 @@ Moderators should report in the [Forum Moderators forum](\""https://support.mozi
 Situations where users or fellow contributors are misbehaving/making bad suggestions should also be reported in the moderators forum or to Admin depending on how delicate/severe the situation is.
 
 "
-20747,"Use the Firefox Sidebar to access bookmarks, history, passwords and synced tabs",use-firefox-sidebar-access-bookmarks-history-synced,https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced,en-US,"The Firefox Sidebar feature lets you access your bookmarks, history and synced tabs conveniently at the click of a button.","<div class=""note""><strong>Note:</strong> For information on the updated sidebar and vertical tabs introduced in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 136, please see <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>.</div>
-<p>Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history, <span class=""for"" data-for=""fx145"">passwords</span> and synced tabs in one click. This article shows you how to use this feature.
-</p>
+20747,"Use the Firefox Sidebar to access bookmarks, history, passwords and synced tabs",use-firefox-sidebar-access-bookmarks-history-synced,https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced,en-US,"The Firefox Sidebar feature lets you access your bookmarks, history and synced tabs conveniently at the click of a button.","<div class=""note""><strong>Note:</strong> For more information on the updated sidebar and vertical tabs introduced in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 136, please see <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>.</div>
+<p>Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history<span class=""for"" data-for=""fx145"">, passwords</span> and synced tabs in one click. This article shows you how to use this feature.
+</p><div class=""for"" data-for=""not fx136"">
 <dl><dt><img alt=""sidebar button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-22-36-0838fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 <h1 id=""w_add-the-sidebar-button-to-your-controls"">Add the Sidebar button to your controls</h1>
@@ -44136,9 +44140,29 @@ Situations where users or fellow contributors are misbehaving/making bad suggest
 </p>
 <ol><li>Click the arrow next to <em>Bookmarks</em> to expand the menu.
 </li><li>Select <span class=""menu"">Move Sidebar to Right</span>.
-<dl><dt><br><span class=""for"" data-for=""not fx145""><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx145""><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+<dl><dt><br><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
-</li></ol>",firefox,settings," **Note:** For information on the updated sidebar and vertical tabs introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136, please see [Use the sidebar to access tools and vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"").
+</li></ol>
+</div><div class=""for"" data-for=""fx136"">
+<h1 id=""w_toggle-the-sidebar-on-and-off_2"">Toggle the Sidebar on and off</h1>
+<ol><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> button, and select the <span class=""menu"">Settings</span> option.
+</li><li>Firefox <em>Settings</em> tab will open. Scroll down to the <em>Browser Layout</em> section and select <strong>Show sidebar</strong>.
+</li></ol>
+<dl><dt><span class=""for"" data-for=""not fx139""><img alt=""Browser Layout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-13-26-34-a0cd36.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx139""><img alt=""Fx139SettingsBrowserLayout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-12-15-52-28-9bcb59.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+</dt></dl>
+<p>After you enable the Firefox sidebar, a sidebar button <img alt=""Fx136SidebarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-32-47-3f167d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> is added to your toolbar. The sidebar with shortcuts to tools is shown on the left; you can move it to the right.
+</p><p>To hide and bring the sidebar back into view, click the sidebar button in the toolbar <img alt=""Fx136SidebarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-32-47-3f167d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20"">.
+</p>
+<h1 id=""w_move-the-sidebar-to-the-left-or-right_2"">Move the Sidebar to the left or right</h1>
+<p>The Sidebar shows up on the left by default, but you can also move it to the right.
+</p>
+<ol><li>Right-click the Sidebar <img alt=""Fx136SidebarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-32-47-3f167d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> button.
+</li><li>Select <span class=""menu"">Customize Sidebar</span> from the menu.
+</li><li>In the Sidebar setting menu, enable <span class=""menu"">Move Sidebar to the right</span>.
+<dl><dt><br><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
+</li></ol>
+</div>",firefox,settings," **Note:** For more information on the updated sidebar and vertical tabs introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136, please see [Use the sidebar to access tools and vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"").
 
 Firefox comes with a convenient Sidebar button which lets you access your bookmarks, history, passwords and synced tabs in one click. This article shows you how to use this feature.
 
@@ -44166,7 +44190,30 @@ The Sidebar shows up on the left by default, but you can also move it to the rig
 
 1. Click the arrow next to _Bookmarks_ to expand the menu.
 2. Select Move Sidebar to Right.<dl><dt>
-<br><span class=""for"" data-for=""not fx145""><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx145""><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+<br><img alt=""move sidebar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-00-34-17-d11024.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
+</dt></dl>
+
+# Toggle the Sidebar on and off
+
+1. Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button, and select the Settings option.
+2. Firefox _Settings_ tab will open. Scroll down to the _Browser Layout_ section and select **Show sidebar**.
+
+<dl><dt>
+<span class=""for"" data-for=""not fx139""><img alt=""Browser Layout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-13-26-34-a0cd36.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span><span class=""for"" data-for=""fx139""><img alt=""Fx139SettingsBrowserLayout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-12-15-52-28-9bcb59.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""></span>
+</dt></dl>
+
+After you enable the Firefox sidebar, a sidebar button ![Fx136SidebarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) is added to your toolbar. The sidebar with shortcuts to tools is shown on the left; you can move it to the right.
+
+To hide and bring the sidebar back into view, click the sidebar button in the toolbar ![Fx136SidebarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+
+# Move the Sidebar to the left or right
+
+The Sidebar shows up on the left by default, but you can also move it to the right.
+
+1. Right-click the Sidebar ![Fx136SidebarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+2. Select Customize Sidebar from the menu.
+3. In the Sidebar setting menu, enable Move Sidebar to the right.<dl><dt>
+<br><img alt=""sidebarfx145"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-11-10-40-01-d67dda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dt></dl>
 
 "
@@ -99336,6 +99383,7 @@ To keep your Firefox up to date with all the latest features and updates, you ne
 </p>
 <h1 id=""w_how-can-i-get-the-newest-features-of-firefox"">How can I get the newest features of Firefox?</h1>
 <p>If you want to keep your Firefox up to date, with all the latest features and security updates, you need to upgrade your operating system to Windows 10 or higher. In some cases, Microsoft may require newer hardware in order to support the newer operating system. After upgrading, you can easily reinstall Firefox and <a href=""/en-US/kb/switching-devices"">keep all of your settings</a>.
+</p><p>Or, if your current hardware can't handle Windows 10 or higher for some reason, you can switch to a <strong>Linux-based</strong> operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/firefox-support-windows-10-end-support"">What Windows 10 end of support means for Firefox users</a>
@@ -99370,6 +99418,8 @@ Mozilla is providing critical security updates through the [Firefox ESR](https:/
 # How can I get the newest features of Firefox?
 
 If you want to keep your Firefox up to date, with all the latest features and security updates, you need to upgrade your operating system to Windows 10 or higher. In some cases, Microsoft may require newer hardware in order to support the newer operating system. After upgrading, you can easily reinstall Firefox and [keep all of your settings](\""https://support.mozilla.org/en-US/kb/switching-devices"").
+
+Or, if your current hardware can't handle Windows 10 or higher for some reason, you can switch to a **Linux-based** operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
 
 # Related articles
 
@@ -116227,23 +116277,23 @@ The feature supports the following unit conversions:
 
 "
 67631,Pocket has shut down - What you need to know,future-of-pocket,https://support.mozilla.org/en-US/kb/future-of-pocket,en-US,More information about the end of support for Pocket.,"<p>We made the difficult decision to shut down Pocket on July 8, 2025. Thank you for being part of our journey over the yearsâ€”we're proud of the impact Pocket had for our users and communities.
-</p><p>Read more about the decision <a href=""https://blog.mozilla.org/en/mozilla/building-whats-next/"">here</a>.
+</p><p>Read more about the decision in <a href=""https://blog.mozilla.org/en/mozilla/building-whats-next/"">this Mozilla blog post</a>.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-happened-to-my-account-and-saved-articles""><span class=""tocnumber"">1</span> <span class=""toctext"">What happened to my account and saved articles?</span></a></li><li class=""toclevel-1""><a href=""#w_how-were-refunds-handled-for-pocket-premium-subscriptions""><span class=""tocnumber"">2</span> <span class=""toctext"">How were refunds handled for Pocket Premium Subscriptions?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happened-to-the-pocket-browser-extensions-and-app""><span class=""tocnumber"">3</span> <span class=""toctext"">What happened to the Pocket browser extensions and app?</span></a></li><li class=""toclevel-1""><a href=""#w_what-about-the-pocket-api""><span class=""tocnumber"">4</span> <span class=""toctext"">What about the Pocket API?</span></a></li><li class=""toclevel-1""><a href=""#w_what-about-the-pocket-apps""><span class=""tocnumber"">5</span> <span class=""toctext"">What about the Pocket apps?</span></a></li><li class=""toclevel-1""><a href=""#w_key-dates""><span class=""tocnumber"">6</span> <span class=""toctext"">Key dates</span></a></li><li class=""toclevel-1""><a href=""#w_need-help""><span class=""tocnumber"">7</span> <span class=""toctext"">Need help?</span></a></li></ul></div>
 <h1 id=""w_what-happened-to-my-account-and-saved-articles"">What happened to my account and saved articles?</h1>
-<p>As of November 12, 2025, user data export has been disabled, and all user data has been queued for permanent deletion. 
+<p>As of November 12, 2025, user data export has been disabled, and all user data has been queued for permanent deletion.
 </p>
 <h1 id=""w_how-were-refunds-handled-for-pocket-premium-subscriptions"">How were refunds handled for Pocket Premium Subscriptions?</h1>
 <p>Pocket Premium refunds were completed on July 8, 2025. We arranged refunds to your original payment method based on your subscription type.
 </p>
 <h1 id=""w_what-happened-to-the-pocket-browser-extensions-and-app"">What happened to the Pocket browser extensions and app?</h1>
-<p>The Pocket app and extensions are no longer available. If you had either of these installed, you will need to delete them manually. 
+<p>The Pocket app and extensions are no longer available. If you had either of these installed, you will need to delete them manually.
 </p>
 <h1 id=""w_what-about-the-pocket-api"">What about the Pocket API?</h1>
-<p>The Pocket API was disabled on November 12, 2025, concurrent with the end of the user export window and the beginning of data deletion. 
+<p>The Pocket API was disabled on November 12, 2025, concurrent with the end of the user export window and the beginning of data deletion.
 </p>
 <h1 id=""w_what-about-the-pocket-apps"">What about the Pocket apps?</h1>
-<p>The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocketâ€™s servers, and users should delete the apps to prevent future confusion. Any continued use beyond Jul 8, 2025 is not supported by Pocket or Mozilla. 
+<p>The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocketâ€™s servers, and users should delete the apps to prevent future confusion. Any continued use beyond July 8, 2025 is not supported by Pocket or Mozilla.
 </p>
 <h1 id=""w_key-dates"">Key dates</h1>
 <p>Thank you for your support, feedback and enthusiasm over the years. Weâ€™re grateful to have been part of your reading and discovery experience online.
@@ -116280,7 +116330,7 @@ All deletion of accounts and user data began
 <p>Need help or have questions? Our <a href=""https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fpocket%2Fform"">support team</a> is here for you.
 </p>",pocket,accounts,"We made the difficult decision to shut down Pocket on July 8, 2025. Thank you for being part of our journey over the yearsâ€”we're proud of the impact Pocket had for our users and communities.
 
-Read more about the decision [here](https://blog.mozilla.org/en/mozilla/building-whats-next/).
+Read more about the decision in [this Mozilla blog post](https://blog.mozilla.org/en/mozilla/building-whats-next/).
 
 ## Table of Contents
 
@@ -116310,7 +116360,7 @@ The Pocket API was disabled on November 12, 2025, concurrent with the end of the
 
 # What about the Pocket apps?
 
-The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocketâ€™s servers, and users should delete the apps to prevent future confusion. Any continued use beyond Jul 8, 2025 is not supported by Pocket or Mozilla.
+The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocketâ€™s servers, and users should delete the apps to prevent future confusion. Any continued use beyond July 8, 2025 is not supported by Pocket or Mozilla.
 
 # Key dates
 
