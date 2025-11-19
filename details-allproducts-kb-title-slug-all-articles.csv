@@ -89022,7 +89022,7 @@ If you're still unable to sign in, [contact us through this link](mailto:fxasupp
 <ol><li>Access your account at <a href=""https://accounts.firefox.com/signin"">https://accounts.firefox.com/signin</a>.
 </li><li>Click <strong>Paid Subscriptions</strong> on the left panel to open the subscriptions page.
 </li><li>Click (or tap) <strong>Cancel Subscription</strong>.
-</li></ol>",mdn-plus;mozilla-account,cancellation;manage-billing;manage-subscriptions,"You can cancel your paid subscription at any time. Canceling your MDN Plus subscription will turn off auto-renew, and you will no longer have access to MDN Plus features when your subscription period ends.
+</li></ol>",mdn-plus;mozilla-account,manage-billing;manage-subscriptions,"You can cancel your paid subscription at any time. Canceling your MDN Plus subscription will turn off auto-renew, and you will no longer have access to MDN Plus features when your subscription period ends.
 
 Canceling your paid MDN Plus subscription will not delete your Mozilla account. We will keep your five most recent bookmarks and the three most recent pages you watched. You’ll lose access to [MDN offline](\""https://support.mozilla.org/en-US/kb/use-mdn-offline-your-mdn-plus-subscription"") completely.
 
@@ -105013,15 +105013,16 @@ You can enable or disable local network access in the Mozilla VPN app settings. 
 - [Is Mozilla VPN compatible with my device?](\""https://support.mozilla.org/en-US/kb/mozilla-vpn-compatible-my-device"")
 
 "
-64725,Privacy-Preserving Attribution,privacy-preserving-attribution,https://support.mozilla.org/en-US/kb/privacy-preserving-attribution,en-US,"Firefox 128 introduces privacy-preserving attribution, allowing advertisers to measure campaign performance while protecting user privacy.","<p>Privacy-preserving attribution (PPA) is an experimental feature shipping in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 128.
+64725,Privacy-Preserving Attribution,privacy-preserving-attribution,https://support.mozilla.org/en-US/kb/privacy-preserving-attribution,en-US,"Firefox 128 introduces privacy-preserving attribution, allowing advertisers to measure campaign performance while protecting user privacy.","<div class=""warning""><strong>This page is a historical reference about a feature that no longer exists in Firefox.</strong></div>
+<p>Privacy-preserving attribution (PPA) was an experimental feature in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 128 which was never activated and was later removed.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-attribution""><span class=""tocnumber"">1</span> <span class=""toctext"">What is attribution?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-privacy-preserving-attribution-protect-my-data""><span class=""tocnumber"">2</span> <span class=""toctext"">How does privacy-preserving attribution protect my data?</span></a></li><li class=""toclevel-1""><a href=""#w_in-what-conditions-is-privacy-preserving-attribution-used""><span class=""tocnumber"">3</span> <span class=""toctext"">In what conditions is privacy-preserving attribution used?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-disable-ppa""><span class=""tocnumber"">4</span> <span class=""toctext"">How can I disable PPA?</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<p>Mozilla is prototyping this feature in order to inform an emerging Web standard designed to help sites understand how their ads perform without collecting data about individual people. By offering sites a non-invasive alternative to cross-site tracking, we hope to achieve a significant reduction in this harmful practice across the web. To opt out, you can disable PPA by following <a href=""#w_how-can-i-disable-ppa"">these steps</a>.
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-attribution""><span class=""tocnumber"">1</span> <span class=""toctext"">What is attribution?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-privacy-preserving-attribution-protect-my-data""><span class=""tocnumber"">2</span> <span class=""toctext"">How does privacy-preserving attribution protect my data?</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<p>Mozilla prototyped this feature in order to inform an emerging Web standard designed to help sites understand how their ads perform without collecting data about individual people. By offering sites a non-invasive alternative to cross-site tracking, we would hope to achieve a significant reduction in this harmful practice across the web.
+</p><p>The experiment was intended to run only on two Mozilla-operated websites. The experiment was delayed past the point at which the results would have been useful to inform the W3C work, so it no longer served a purpose and was subsequently removed.
 </p>
 <h1 id=""w_what-is-attribution"">What is attribution?</h1>
 <p>Attribution is how advertisers learn whether their advertising works. Attribution measures how many people saw an ad on a website and then later visited the advertiser’s website to do something the advertiser cared about. For example, maybe someone sees an ad for a sale on a product, then buys that product. Attribution counts how many people do that.
-</p><p>Attribution is very important to advertisers. Sadly, <a href=""https://wiki.mozilla.org/Security/Anti_tracking_policy"">tracking</a> is the only way to perform attribution without help from the browser. Tracking is terrible for privacy, because it gives companies detailed information about what you do online. While Firefox includes many privacy protections that make it more difficult for sites to track you online (<a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a>, <a href=""/en-US/kb/introducing-total-cookie-protection-standard-mode"">Total Cookie Protection</a>, <a href=""https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/query-stripping/index.html"">Query Parameter Stripping</a> and <a href=""https://www.mozilla.org/firefox/features/private/"">many other measures</a>), there’s a huge incentive for sites to find ways around these in order to perform attribution.
-</p><p>Our hope is that if we develop a good attribution solution, it will offer a real alternative to more objectionable practices like tracking. We are currently testing this approach to see if it can provide advertisers with the information they're looking for.
+</p><p>Attribution is very important to advertisers. Sadly, <a href=""https://wiki.mozilla.org/Security/Anti_tracking_policy"">tracking</a> is the only way to perform attribution without help from the browser. Tracking is terrible for privacy, because it gives companies detailed information about what you do online. While Firefox includes many privacy protections that make it more difficult for sites to track you online (<a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a>, <a href=""/en-US/kb/introducing-total-cookie-protection-standard-mode"">Total Cookie Protection</a>, <a href=""https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/query-stripping/index.html"">Query Parameter Stripping</a> and <a href=""https://www.mozilla.org/firefox/features/private/"">many other measures</a>), there’s a huge incentive for sites to find ways around these in order to perform attribution.  A privacy-preserving attribution solution would give sites a real alternative to objectionable practices like tracking.
 </p>
 <h1 id=""w_how-does-privacy-preserving-attribution-protect-my-data"">How does privacy-preserving attribution protect my data?</h1>
 <p>PPA does not involve websites tracking you. Instead, your browser is in control. This means strong privacy safeguards, including the option to not participate.
@@ -105034,44 +105035,30 @@ You can enable or disable local network access in the Mozilla VPN app settings. 
 </li></ol>
 <p>This approach has a lot of advantages over legacy attribution methods, which involve many companies learning a lot about what you do online.
 </p><p>PPA does not involve sending information about your browsing activities to anyone. This includes Mozilla and our DAP partner (<a href=""https://www.isrg.org/"">ISRG</a>). Advertisers only receive aggregate information that answers basic questions about the effectiveness of their advertising.
-</p><p>If you want to understand the specifics of how this feature protects your privacy, you can dive into the technical details in our <a href=""https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/"">February 2022 announcement</a>, this <a href=""https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/"">August 2024 blog post</a> and this <a href=""https://github.com/mozilla/explainers/tree/main/ppa-experiment"">technical explaination</a>.
+</p><p>If you want to understand the specifics of how this feature protects your privacy, you can dive into the technical details in our <a href=""https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/"">February 2022 announcement</a>, this <a href=""https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/"">August 2024 blog post</a> and this <a href=""https://github.com/mozilla/explainers/tree/main/ppa-experiment"">technical explanation</a>.
 </p>
-<h1 id=""w_in-what-conditions-is-privacy-preserving-attribution-used"">In what conditions is privacy-preserving attribution used?</h1>
-<p>PPA is enabled in Firefox starting in version 128. A small number of sites are going to test this and provide feedback to inform our standardization plans, and help us understand if this is likely to gain traction.
-</p>
-<h1 id=""w_how-can-i-disable-ppa"">How can I disable PPA?</h1>
-<p>You can easily disable the privacy-preserving attribution feature in Firefox if you prefer not to participate. When you opt out, websites won’t be informed of your decision.
-</p><p>To opt out, follow these steps:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (select <span class=""menu"">Preferences</span> on older macOS versions).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title=""""> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <span class=""menu"">Privacy &amp; Security</span> panel, find the <em>Website Advertising Preferences</em> section.
-</li><li>Uncheck the box labeled <strong>Allow websites to perform privacy-preserving ad measurement</strong>.
-</li></ol>
-<dl><dt><img alt=""Website advertising preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-05-46-57-25f80a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
-</dt></dl>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/firefox-privacy-and-security-features"">Firefox privacy and security features</a>
 </li><li><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection in Firefox for desktop</a>
-</li></ul>",firefox,privacy-and-security,"Privacy-preserving attribution (PPA) is an experimental feature shipping in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 128.
+</li></ul>",firefox,privacy-and-security," **This page is a historical reference about a feature that no longer exists in Firefox.**
+
+Privacy-preserving attribution (PPA) was an experimental feature in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 128 which was never activated and was later removed.
 
 ## Table of Contents
 
 - [1 What is attribution?](https://support.mozilla.org/kb/privacy-preserving-attribution#w_what-is-attribution)
 - [2 How does privacy-preserving attribution protect my data?](https://support.mozilla.org/kb/privacy-preserving-attribution#w_how-does-privacy-preserving-attribution-protect-my-data)
-- [3 In what conditions is privacy-preserving attribution used?](https://support.mozilla.org/kb/privacy-preserving-attribution#w_in-what-conditions-is-privacy-preserving-attribution-used)
-- [4 How can I disable PPA?](https://support.mozilla.org/kb/privacy-preserving-attribution#w_how-can-i-disable-ppa)
-- [5 Related articles](https://support.mozilla.org/kb/privacy-preserving-attribution#w_related-articles)
+- [3 Related articles](https://support.mozilla.org/kb/privacy-preserving-attribution#w_related-articles)
 
-Mozilla is prototyping this feature in order to inform an emerging Web standard designed to help sites understand how their ads perform without collecting data about individual people. By offering sites a non-invasive alternative to cross-site tracking, we hope to achieve a significant reduction in this harmful practice across the web. To opt out, you can disable PPA by following [these steps](https://support.mozilla.org/kb/privacy-preserving-attribution#w_how-can-i-disable-ppa).
+Mozilla prototyped this feature in order to inform an emerging Web standard designed to help sites understand how their ads perform without collecting data about individual people. By offering sites a non-invasive alternative to cross-site tracking, we would hope to achieve a significant reduction in this harmful practice across the web.
+
+The experiment was intended to run only on two Mozilla-operated websites. The experiment was delayed past the point at which the results would have been useful to inform the W3C work, so it no longer served a purpose and was subsequently removed.
 
 # What is attribution?
 
 Attribution is how advertisers learn whether their advertising works. Attribution measures how many people saw an ad on a website and then later visited the advertiser’s website to do something the advertiser cared about. For example, maybe someone sees an ad for a sale on a product, then buys that product. Attribution counts how many people do that.
 
-Attribution is very important to advertisers. Sadly, [tracking](https://wiki.mozilla.org/Security/Anti_tracking_policy) is the only way to perform attribution without help from the browser. Tracking is terrible for privacy, because it gives companies detailed information about what you do online. While Firefox includes many privacy protections that make it more difficult for sites to track you online ([Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop""), [Total Cookie Protection](\""https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode""), [Query Parameter Stripping](https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/query-stripping/index.html) and [many other measures](https://www.mozilla.org/firefox/features/private/)), there’s a huge incentive for sites to find ways around these in order to perform attribution.
-
-Our hope is that if we develop a good attribution solution, it will offer a real alternative to more objectionable practices like tracking. We are currently testing this approach to see if it can provide advertisers with the information they're looking for.
+Attribution is very important to advertisers. Sadly, [tracking](https://wiki.mozilla.org/Security/Anti_tracking_policy) is the only way to perform attribution without help from the browser. Tracking is terrible for privacy, because it gives companies detailed information about what you do online. While Firefox includes many privacy protections that make it more difficult for sites to track you online ([Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop""), [Total Cookie Protection](\""https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode""), [Query Parameter Stripping](https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/query-stripping/index.html) and [many other measures](https://www.mozilla.org/firefox/features/private/)), there’s a huge incentive for sites to find ways around these in order to perform attribution. A privacy-preserving attribution solution would give sites a real alternative to objectionable practices like tracking.
 
 # How does privacy-preserving attribution protect my data?
 
@@ -105088,25 +105075,8 @@ This approach has a lot of advantages over legacy attribution methods, which inv
 
 PPA does not involve sending information about your browsing activities to anyone. This includes Mozilla and our DAP partner ([ISRG](https://www.isrg.org/)). Advertisers only receive aggregate information that answers basic questions about the effectiveness of their advertising.
 
-If you want to understand the specifics of how this feature protects your privacy, you can dive into the technical details in our [February 2022 announcement](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/), this [August 2024 blog post](https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/) and this [technical explaination](https://github.com/mozilla/explainers/tree/main/ppa-experiment).
+If you want to understand the specifics of how this feature protects your privacy, you can dive into the technical details in our [February 2022 announcement](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/), this [August 2024 blog post](https://blog.mozilla.org/netpolicy/2024/08/22/ppa-update/) and this [technical explanation](https://github.com/mozilla/explainers/tree/main/ppa-experiment).
 
-# In what conditions is privacy-preserving attribution used?
-
-PPA is enabled in Firefox starting in version 128. A small number of sites are going to test this and provide feedback to inform our standardization plans, and help us understand if this is likely to gain traction.
-
-# How can I disable PPA?
-
-You can easily disable the privacy-preserving attribution feature in Firefox if you prefer not to participate. When you opt out, websites won’t be informed of your decision.
-
-To opt out, follow these steps:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (select Preferences on older macOS versions).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the Privacy & Security panel, find the _Website Advertising Preferences_ section.
-3. Uncheck the box labeled **Allow websites to perform privacy-preserving ad measurement**.
-
-<dl><dt>
-<img alt=""Website advertising preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-05-46-57-25f80a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
-</dt></dl>
 # Related articles
 
 - [Firefox privacy and security features](\""https://support.mozilla.org/en-US/kb/firefox-privacy-and-security-features"")
@@ -119594,17 +119564,17 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 </p>
 <h2 id=""w_configure-your-exchange-account"">Configure your Exchange account</h2>
 <p>Again, for the best experience, we recommend Thunderbird 145 or newer.
-</p><section class=""mzp-c-details"">
+</p><p></p><section class=""mzp-c-details"">
 <p></p>
 <h3 id=""w_thunderbird-profiles-with-1-or-more-accounts"">Thunderbird profiles with 1 or more accounts</h3>
 <p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with one or more accounts, you will see the new Thunderbird <strong>Account Hub</strong>.
 </p>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <strong>Account Hub</strong> window will appear.
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Hub</em> dialog will appear.
 </li><li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
-</li><li> Click the <span class=""button"">Continue</span> button. The password entry window will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
+</li><li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
-</li><li> Enter your password and click <span class=""button"">Sign in</span>. The account type selection window will appear.
+</li><li> Enter your password and click <span class=""button"">Sign in</span>. The account type selection dialog will appear.
 <dl><dd><img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li><li> Select the <span class=""button"">Exchange</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
@@ -119618,18 +119588,15 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 </li><li> Under <strong>Protocol</strong>, select <span class=""menu"">EWS</span>.
 </li><li> Follow the prompts and fill in the settings from your Exchange administrator.
 </li></ol>
-<p></p></section>
-<p></p><p></p><section class=""mzp-c-details"">
-<p></p>
 <h3 id=""w_thunderbird-profile-with-no-accounts"">Thunderbird profile with no accounts</h3>
-<p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with no accounts, you will see the older add account wizard.
+<p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with no accounts, you will see the older <em>Add account</em> wizard.
 </p>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <strong>Account Setup</strong> window will appear.
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Setup</em> dialog will appear.
 </li><li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
-</li><li> Click the <span class=""button"">Continue</span> button. The password entry window will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
+</li><li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
-</li><li> Enter your password and click <span class=""button"">Sign in</span>. The account settings window will appear.
+</li><li> Enter your password and click <span class=""button"">Sign in</span>. The account settings dialog will appear.
 <dl><dd><img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dd></dl>
 </li><li> Select the <span class=""button"">Exchange Web Services</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
@@ -119700,17 +119667,17 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 <p>If you have a <a href='\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""'>Thunderbird profile</a> with one or more accounts, you will see the new Thunderbird <strong>Account Hub</strong>.
 </p>
 <ol>
-<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <strong>Account Hub</strong> window will appear.
+<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Hub</em> dialog will appear.
 </li>
 <li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
 </li>
-<li> Click the <span class=""button"">Continue</span> button. The password entry window will appear.<br><br><div class=""note"">
+<li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
 <strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd>
 <img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li>
-<li> Enter your password and click <span class=""button"">Sign in</span>. The account type selection window will appear.
+<li> Enter your password and click <span class=""button"">Sign in</span>. The account type selection dialog will appear.
 <dl><dd>
 <img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
@@ -119733,25 +119700,21 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 <li> Follow the prompts and fill in the settings from your Exchange administrator.
 </li>
 </ol>
-<p></p></section>
-
-<section class=""mzp-c-details"">
-<p></p>
 <h3 id=""w_thunderbird-profile-with-no-accounts"">Thunderbird profile with no accounts</h3>
-<p>If you have a <a href='\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""'>Thunderbird profile</a> with no accounts, you will see the older add account wizard.
+<p>If you have a <a href='\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""'>Thunderbird profile</a> with no accounts, you will see the older <em>Add account</em> wizard.
 </p>
 <ol>
-<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <strong>Account Setup</strong> window will appear.
+<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Setup</em> dialog will appear.
 </li>
 <li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
 </li>
-<li> Click the <span class=""button"">Continue</span> button. The password entry window will appear.<br><br><div class=""note"">
+<li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
 <strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd>
 <img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li>
-<li> Enter your password and click <span class=""button"">Sign in</span>. The account settings window will appear.
+<li> Enter your password and click <span class=""button"">Sign in</span>. The account settings dialog will appear.
 <dl><dd>
 <img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dd></dl>
@@ -121733,6 +121696,159 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 **Open and accessible** : Firefox Support for Organizations is entirely additive to Mozilla's existing open software and support model, which means continued access for all users to public documentation, knowledge base, forum, and mailing lists. Support Plans add optional dedicated and confidential channels for organizations that rely on Firefox and Firefox ESR at scale for enterprise purposes.
 
 Interested in learning more? Contact us through our [support inquiry form](https://qsurvey.mozilla.com/s3/firefox-support-plan?src=sumo-announcement).
+
+"
+70030,Monitor Plus is shutting down – what you need to know,monitor-plus-shutting-down,https://support.mozilla.org/en-US/kb/monitor-plus-shutting-down,en-US,"Learn what happens when Mozilla Monitor Plus shuts down, how refunds work, and what data will be deleted.","<p>Mozilla Monitor Plus will shut down on <strong>December 17</strong>. This means the <strong>data broker scan and automated removal service</strong> will no longer be available.
+Mozilla Monitor’s free monitoring service will continue to provide real-time alerts and step-by-step guides to mitigate the risks of a data breach. We’ve also added the ability for all users to monitor up to <strong>20 email addresses</strong>. 
+We know this change may cause concern, and we’re committed to keeping you informed and ensuring your data remains secure.
+</p>
+<h1 id=""w_why-is-monitor-plus-shutting-down"">Why is Monitor Plus shutting down?</h1>
+<p>As part of our ongoing efforts to advance <a href=""https://www.mozilla.org/en-US/mission/"">Mozilla’s mission</a> of ensuring people are empowered, safe, and independent online, we’re refocusing our resources on other privacy and security initiatives. This shift will allow us to better serve our users and continue developing tools that have the greatest impact in helping people protect their digital lives.
+</p>
+<h1 id=""w_what-this-means-for-you"">What this means for you</h1>
+<p><strong>If you’re a free user</strong>:
+</p>
+<ul><li>If you have <strong>not run a data broker scan</strong>, you can no longer start one.
+</li><li>If you <strong>have already run a scan</strong>, you will continue to see your results until <strong>December 17</strong>.
+</li></ul>
+<p><strong>If you’re a Monitor Plus subscriber</strong>:
+</p>
+<ul><li>You will continue to receive <strong>data broker removal protections</strong> until <strong>December 17</strong>.
+</li><li>After that date, all information related to Monitor Plus scans and removals will be <strong>permanently deleted</strong>.
+</li></ul>
+<h1 id=""w_refunds-and-subscription-changes"">Refunds and subscription changes</h1>
+<ul><li>All <strong>Monitor Plus subscribers</strong> will automatically receive a <strong>prorated refund</strong> for the unused portion of their subscription. Refunds will be issued to the <strong>original payment method</strong> shortly after the shutdown date.
+</li><li><strong>PayPal subscribers</strong> whose payment was processed more than 180 days before the shutdown may receive their refund through a different method; you’ll receive an email with details.
+</li><li><strong>Privacy Protection Plan bundle users</strong> (Mozilla VPN, Monitor Plus, and Firefox Relay) will automatically move to a <strong>new plan</strong> that includes <strong>Mozilla VPN</strong> and <strong>Firefox Relay email masking</strong> at a lower price.
+<ul><li>These users will also receive a prorated refund for the unused portion of their Monitor Plus subscription.
+</li><li>If you prefer not to continue with the new plan, contact <a href=""https://support.mozilla.org/en-US/questions/new/monitor/form"">Contact Support</a> to cancel and receive a full prorated refund.
+</li></ul>
+</li></ul>
+<h1 id=""w_what-happens-to-your-data"">What happens to your data</h1>
+<ul><li>All <strong>Monitor Plus data</strong> related to data broker scans and removals, along with any information that you provided to help perform the scans, will be permanently deleted after the shutdown date.
+</li><li><strong>Mozilla Monitor’s data breach alerts</strong> will remain active, and all users can monitor up to <strong>20 email addresses</strong> for potential breaches.
+</li></ul>
+<p>Mozilla remains committed to protecting your privacy and keeping your data safe.
+</p>
+<h1 id=""w_frequently-asked-questions"">Frequently Asked Questions</h1>
+<h2 id=""w_do-i-need-to-cancel-my-subscription-to-get-a-refund"">Do I need to cancel my subscription to get a refund?</h2>
+<p><strong>No</strong>. Refunds will be processed automatically to your original payment method. You do not need to take any action.
+</p>
+<ul><li><strong>Privacy Protection Plan bundle users</strong> will receive a prorated refund for the unused portion of their Monitor Plus subscription.
+</li></ul>
+<h2 id=""w_what-happens-to-my-scan-results-after-shutdown"">What happens to my scan results after shutdown?</h2>
+<p>Your scan results will remain available until the shutdown date. After that, they’ll be permanently deleted.
+</p>
+<h2 id=""w_will-breach-monitoring-still-be-available"">Will breach monitoring still be available?</h2>
+<p><strong>Yes</strong>. Mozilla Monitor’s free breach monitoring will continue, and you’ll be able to track up to <strong>20 email addresses</strong>. The monitoring is automatic and requires no further action from you. 
+</p>
+<h2 id=""w_what-happens-to-my-personal-data"">What happens to my personal data?</h2>
+<p>All Monitor Plus scans and removal data will be permanently deleted after the shutdown date. 
+</p><p>Only the breach monitoring service and related data (email addresses being monitored for data breaches, potential data breaches, and steps a user has taken to resolve a breach) will be retained. 
+</p>
+<ul><li>Additionally, users have the option to <a href=""https://monitor.mozilla.org/user/settings/manage-account"">cancel their Monitor free account in their Monitor Settings</a>, which will delete all of their Monitor data, or to <a href=""https://accounts.firefox.com/settings"">cancel their Mozilla Account</a>. 
+</li><li>Users can delete their <a href=""https://monitor.mozilla.org/user/settings/manage-account"">Monitor free account from the Monitor Settings page</a>. This will remove all data stored by Monitor.
+</li><li>If they prefer, they can also <a href=""https://accounts.firefox.com/settings"">delete their entire Mozilla account</a>, which will remove access to all Mozilla services and erase all associated data. 
+</li></ul>
+<h2 id=""w_what-happens-to-removals-that-were-in-progress-and-never-completed-at-shutdown"">What happens to removals that were in progress and never completed at shutdown?</h2>
+<p>Removal requests have been sent to the data brokers on sites where we found your data exposed. You can either wait for the data brokers to comply with our initial request or send them a follow-up data deletion request. 
+</p><p>To send a data deletion request yourself, most data brokers have a link at the bottom of their website that says, <span class=""button"">Do Not Sell My Personal Info</span> or <span class=""button"">Exercise my data privacy rights</span>. Click on one of these options and follow the steps to request that your data be deleted or suppressed. 
+</p>
+<h2 id=""w_when-will-i-get-my-refund"">When will I get my refund?</h2>
+<p>Refunds will be issued automatically shortly after the shutdown date. 
+</p>
+<h2 id=""w_am-i-eligible-for-a-refund"">Am I eligible for a refund?</h2>
+<p>If you have unused time on Monitor Plus at the shutdown date, you will receive a refund for that time.
+</p>
+<h2 id=""w_who-can-i-contact-if-i-have-more-questions"">Who can I contact if I have more questions?</h2>
+<p>Our support team is here to help. Visit <a href=""https://support.mozilla.org/en-US/questions/new/monitor/form"">Contact Support</a> for assistance.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""https://www.mozilla.org/en-US/privacy/principles/"">Mozilla’s privacy principles</a>
+</li><li><a href=""/en-US/kb/subscribe-firefox-relay-premium"">Subscribe to Firefox Relay Premium</a>
+</li><li><a href=""/en-US/kb/how-log-mozilla-vpn"">How to sign in to Mozilla VPN</a>
+</li></ul>",monitor,billing-and-subscriptions,"Mozilla Monitor Plus will shut down on **December 17**. This means the **data broker scan and automated removal service** will no longer be available. Mozilla Monitor’s free monitoring service will continue to provide real-time alerts and step-by-step guides to mitigate the risks of a data breach. We’ve also added the ability for all users to monitor up to **20 email addresses**. We know this change may cause concern, and we’re committed to keeping you informed and ensuring your data remains secure.
+
+# Why is Monitor Plus shutting down?
+
+As part of our ongoing efforts to advance [Mozilla’s mission](https://www.mozilla.org/en-US/mission/) of ensuring people are empowered, safe, and independent online, we’re refocusing our resources on other privacy and security initiatives. This shift will allow us to better serve our users and continue developing tools that have the greatest impact in helping people protect their digital lives.
+
+# What this means for you
+
+**If you’re a free user** :
+
+- If you have **not run a data broker scan** , you can no longer start one.
+- If you **have already run a scan** , you will continue to see your results until **December 17**.
+
+**If you’re a Monitor Plus subscriber** :
+
+- You will continue to receive **data broker removal protections** until **December 17**.
+- After that date, all information related to Monitor Plus scans and removals will be **permanently deleted**.
+
+# Refunds and subscription changes
+
+- All **Monitor Plus subscribers** will automatically receive a **prorated refund** for the unused portion of their subscription. Refunds will be issued to the **original payment method** shortly after the shutdown date.
+- **PayPal subscribers** whose payment was processed more than 180 days before the shutdown may receive their refund through a different method; you’ll receive an email with details.
+- **Privacy Protection Plan bundle users** (Mozilla VPN, Monitor Plus, and Firefox Relay) will automatically move to a **new plan** that includes **Mozilla VPN** and **Firefox Relay email masking** at a lower price.
+  - These users will also receive a prorated refund for the unused portion of their Monitor Plus subscription.
+  - If you prefer not to continue with the new plan, contact [Contact Support](https://support.mozilla.org/en-US/questions/new/monitor/form) to cancel and receive a full prorated refund.
+
+# What happens to your data
+
+- All **Monitor Plus data** related to data broker scans and removals, along with any information that you provided to help perform the scans, will be permanently deleted after the shutdown date.
+- **Mozilla Monitor’s data breach alerts** will remain active, and all users can monitor up to **20 email addresses** for potential breaches.
+
+Mozilla remains committed to protecting your privacy and keeping your data safe.
+
+# Frequently Asked Questions
+
+## Do I need to cancel my subscription to get a refund?
+
+**No**. Refunds will be processed automatically to your original payment method. You do not need to take any action.
+
+- **Privacy Protection Plan bundle users** will receive a prorated refund for the unused portion of their Monitor Plus subscription.
+
+## What happens to my scan results after shutdown?
+
+Your scan results will remain available until the shutdown date. After that, they’ll be permanently deleted.
+
+## Will breach monitoring still be available?
+
+**Yes**. Mozilla Monitor’s free breach monitoring will continue, and you’ll be able to track up to **20 email addresses**. The monitoring is automatic and requires no further action from you.
+
+## What happens to my personal data?
+
+All Monitor Plus scans and removal data will be permanently deleted after the shutdown date.
+
+Only the breach monitoring service and related data (email addresses being monitored for data breaches, potential data breaches, and steps a user has taken to resolve a breach) will be retained.
+
+- Additionally, users have the option to [cancel their Monitor free account in their Monitor Settings](https://monitor.mozilla.org/user/settings/manage-account), which will delete all of their Monitor data, or to [cancel their Mozilla Account](https://accounts.firefox.com/settings). 
+- Users can delete their [Monitor free account from the Monitor Settings page](https://monitor.mozilla.org/user/settings/manage-account). This will remove all data stored by Monitor.
+- If they prefer, they can also [delete their entire Mozilla account](https://accounts.firefox.com/settings), which will remove access to all Mozilla services and erase all associated data. 
+
+## What happens to removals that were in progress and never completed at shutdown?
+
+Removal requests have been sent to the data brokers on sites where we found your data exposed. You can either wait for the data brokers to comply with our initial request or send them a follow-up data deletion request.
+
+To send a data deletion request yourself, most data brokers have a link at the bottom of their website that says, Do Not Sell My Personal Info or Exercise my data privacy rights. Click on one of these options and follow the steps to request that your data be deleted or suppressed.
+
+## When will I get my refund?
+
+Refunds will be issued automatically shortly after the shutdown date.
+
+## Am I eligible for a refund?
+
+If you have unused time on Monitor Plus at the shutdown date, you will receive a refund for that time.
+
+## Who can I contact if I have more questions?
+
+Our support team is here to help. Visit [Contact Support](https://support.mozilla.org/en-US/questions/new/monitor/form) for assistance.
+
+# Related articles
+
+- [Mozilla’s privacy principles](https://www.mozilla.org/en-US/privacy/principles/)
+- [Subscribe to Firefox Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"")
+- [How to sign in to Mozilla VPN](\""https://support.mozilla.org/en-US/kb/how-log-mozilla-vpn"")
 
 "
 70154,Firefox for Enterprise 145 - Release notes,firefox-enterprise-145-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-145-release-notes,en-US,See what's coming out with Firefox for Enterprise 145.,"<p>Except where noted, everything here applies only to Firefox 145 and the Firefox 140.5 ESR. Firefox 140 is the current <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
