@@ -119571,13 +119571,13 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 </p>
 <ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Hub</em> dialog will appear.
 </li><li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
-</li><li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
+</li><li> Click <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li><li> Enter your password and click <span class=""button"">Sign in</span>. The account type selection dialog will appear.
 <dl><dd><img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
-</li><li> Select the <span class=""button"">Exchange</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
+</li><li> Select the <img alt=""radio_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-19-10-27-42-00d9fc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> <em>Exchange</em> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
 </li><li> Follow the prompts to finish adding your Exchange account.
 </li></ol>
 <div class=""note""><strong>Note:</strong> The <span class=""button"">Exchange</span> button only appears if the email you entered is an Exchange account.</div>
@@ -119588,18 +119588,21 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 </li><li> Under <strong>Protocol</strong>, select <span class=""menu"">EWS</span>.
 </li><li> Follow the prompts and fill in the settings from your Exchange administrator.
 </li></ol>
+<p></p></section>
+<p></p><p></p><section class=""mzp-c-details"">
+<p></p>
 <h3 id=""w_thunderbird-profile-with-no-accounts"">Thunderbird profile with no accounts</h3>
 <p>If you have a <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile</a> with no accounts, you will see the older <em>Add account</em> wizard.
 </p>
 <ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""button"">New Account</span> &gt; <span class=""menu"">Email</span>. The <em>Account Setup</em> dialog will appear.
 </li><li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
-</li><li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
+</li><li> Click <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note""><strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd><img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li><li> Enter your password and click <span class=""button"">Sign in</span>. The account settings dialog will appear.
 <dl><dd><img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dd></dl>
-</li><li> Select the <span class=""button"">Exchange Web Services</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
+</li><li> Select the <img alt=""radio_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-19-10-27-42-00d9fc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> <em>Exchange Web Services</em> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
 </li><li> Follow the prompts to finish adding your Exchange account.
 </li></ol>
 <div class=""note""><strong>Note:</strong> The <span class=""button"">Exchange Web Services</span> button only appears if the email you entered is an Exchange account.</div>
@@ -119627,7 +119630,7 @@ Exchange is new, so we very much welcome your <a href=""#w_feedback-and-bug-repo
 <p>""Phase 5"" items are on the near term road map, expected to by available/resolved by 1Q2026. The full list of phase 5 is <a href=""https://bugzilla.mozilla.org/showdependencytree.cgi?id=1995377&amp;hide_resolved=1"">this bug list</a>.
 </p>
 <h1 id=""w_feedback-and-bug-reports"">Feedback and Bug Reports</h1>
-<p>To report a problem when using version 145 or newer, please <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=MailNews%20Core&amp;component=Networking:%20Exchange&amp;short_desc=%5BEWS%5D%20xxxxxxxxx&amp;blocked=1847846&amp;bug_type=defect"">file a bug report</a>. 
+<p>To report a problem when using version 145 or newer, please <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=MailNews%20Core&amp;component=Networking:%20Exchange&amp;short_desc=%5BEWS%5D%20xxxxxxxxx&amp;blocked=1847846&amp;bug_type=defect"">file a bug report</a>.
 </p><p>To see open bug reports and more technical detail about bug reporting, tracking bug activity, plus things to test and look for, see the <a href=""https://wiki.mozilla.org/Thunderbird:Exchange"">Thunderbird:Exchange wiki page</a>.
 </p><p>You may use Topicbox to discuss or ask questions about Exchange, either the <a href=""https://thunderbird.topicbox.com/groups/beta"">beta group</a> or the <a href=""https://thunderbird.topicbox.com/groups/enterprise"">enterprise group</a>.
 </p>
@@ -119671,7 +119674,7 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 </li>
 <li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
 </li>
-<li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
+<li> Click <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
 <strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd>
 <img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
@@ -119682,7 +119685,7 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 <img alt=""tb142-beta-exchange-support-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-03-20-2802fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dd></dl>
 </li>
-<li> Select the <span class=""button"">Exchange</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
+<li> Select the <img alt=""radio_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-19-10-27-42-00d9fc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> <em>Exchange</em> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
 </li>
 <li> Follow the prompts to finish adding your Exchange account.
 </li>
@@ -119700,6 +119703,10 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 <li> Follow the prompts and fill in the settings from your Exchange administrator.
 </li>
 </ol>
+<p></p></section>
+
+<section class=""mzp-c-details"">
+<p></p>
 <h3 id=""w_thunderbird-profile-with-no-accounts"">Thunderbird profile with no accounts</h3>
 <p>If you have a <a href='\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""'>Thunderbird profile</a> with no accounts, you will see the older <em>Add account</em> wizard.
 </p>
@@ -119708,7 +119715,7 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 </li>
 <li> Enter your name, email address, and if required, your <a href=""https://en.wikipedia.org/wiki/Multi-factor_authentication"">two factor authentication code</a> for your Exchange email account.
 </li>
-<li> Click the <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
+<li> Click <span class=""button"">Continue</span> button. The password entry dialog will appear.<br><br><div class=""note"">
 <strong>Note:</strong> In the first dialog box, you do not enter your account password. You will enter your password in a separate, branded panel provided by Microsoft (not Mozilla) as part of their OAuth implementation.</div> Screenshot of that panel provided by Microsoft:
 <dl><dd>
 <img alt=""tb-141-oauth-microsoft-enter-password-win11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-21-26-20-034f89.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
@@ -119719,7 +119726,7 @@ Again, for the best experience, we recommend Thunderbird 145 or newer.
 <img alt=""tb142-beta-old-pre-account-hub-flow-exchange-webservices-button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-19-21-23-12-9340ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title="""">
 </dd></dl>
 </li>
-<li> Select the <span class=""button"">Exchange Web Services</span> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
+<li> Select the <img alt=""radio_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-19-10-27-42-00d9fc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> <em>Exchange Web Services</em> radio button and click <span class=""button"">Continue</span> to use Thunderbird's built-in Exchange code.
 </li>
 <li> Follow the prompts to finish adding your Exchange account.
 </li>
@@ -120709,15 +120716,18 @@ If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](h
 68874,New in Thunderbird for Android,new-thunderbird-android,https://support.mozilla.org/en-US/kb/new-thunderbird-android,en-US,"Detailed introduction to interesting new features, improvements, and changes visible to users in Thunderbird for Android monthly releases.","<p></p><div class=""warning"">More for Thunderbird for Android: <strong>o</strong> Vote on &amp; suggest improvements at <a href=""https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android"">Connect</a> <strong>o</strong> <a href=""https://www.thunderbird.net/participate/"">Participate/Contribute</a> <strong>o</strong> <a href=""https://support.mozilla.org/questions/new/thunderbird-android/form"">Get Support</a></div>
 This article introduces the most interesting new features, improvements, and changes visible to users which are available in Thunderbird for Android. For full details, please refer to <a href=""/en-US/kb/thunderbird-release-notes-whats-new-and-known-issu"">Thunderbird release notes - What's new and known issues</a>.
 <p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_thunderbird-13""><span class=""tocnumber"">1</span> <span class=""toctext"">Thunderbird 13</span></a></li><li class=""toclevel-1""><a href=""#w_older-releases""><span class=""tocnumber"">2</span> <span class=""toctext"">Older Releases</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbird-12""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Thunderbird 12</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-11""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Thunderbird 11</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-10""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Thunderbird 10</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-9""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Thunderbird 9</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-8""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Thunderbird 8</span></a></li></ul></li></ul></div>
-<h1 id=""w_thunderbird-13"">Thunderbird 13</h1>
-<ul><li> The notification in status bar re-appearing multiple times a day issue (github issue <a href=""https://github.com/thunderbird/thunderbird-android/issues/8049"">#8049</a>) has been fixed.
-</li><li> Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9771"">#9771</a>) was fixed.
-</li><li> The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9160"">#9160</a>).
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_thunderbird-14""><span class=""tocnumber"">1</span> <span class=""toctext"">Thunderbird 14</span></a></li><li class=""toclevel-1""><a href=""#w_older-releases""><span class=""tocnumber"">2</span> <span class=""toctext"">Older Releases</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbird-13""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Thunderbird 13</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-12""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Thunderbird 12</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-11""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Thunderbird 11</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-10""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Thunderbird 10</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-9""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Thunderbird 9</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-8""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Thunderbird 8</span></a></li></ul></li></ul></div>
+<h1 id=""w_thunderbird-14"">Thunderbird 14</h1>
+<ul><li> SMTP issues with enterprise and educational accounts on <a href=""http://outlook.com"">outlook.com</a> have been fixed.
 </li></ul>
 <h1 id=""w_older-releases"">Older Releases</h1>
 <p></p><section class=""mzp-c-details"">
 <p></p>
+<h2 id=""w_thunderbird-13"">Thunderbird 13</h2>
+<ul><li> The notification in status bar re-appearing multiple times a day issue (github issue <a href=""https://github.com/thunderbird/thunderbird-android/issues/8049"">#8049</a>) has been fixed.
+</li><li> Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9771"">#9771</a>) was fixed.
+</li><li> The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9160"">#9160</a>).
+</li></ul>
 <h2 id=""w_thunderbird-12"">Thunderbird 12</h2>
 <p>
 </p>
@@ -120758,24 +120768,32 @@ This article introduces the most interesting new features, improvements, and cha
 
 ## Table of Contents
 
-- [1 Thunderbird 13](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-13)
+- [1 Thunderbird 14](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-14)
 - [2 Older Releases](https://support.mozilla.org/kb/new-thunderbird-android#w_older-releases)
-  - [2.1 Thunderbird 12](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-12)
-  - [2.2 Thunderbird 11](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-11)
-  - [2.3 Thunderbird 10](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-10)
-  - [2.4 Thunderbird 9](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-9)
-  - [2.5 Thunderbird 8](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-8)
+  - [2.1 Thunderbird 13](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-13)
+  - [2.2 Thunderbird 12](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-12)
+  - [2.3 Thunderbird 11](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-11)
+  - [2.4 Thunderbird 10](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-10)
+  - [2.5 Thunderbird 9](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-9)
+  - [2.6 Thunderbird 8](https://support.mozilla.org/kb/new-thunderbird-android#w_thunderbird-8)
 
-# Thunderbird 13
+# Thunderbird 14
 
-- The notification in status bar re-appearing multiple times a day issue (github issue [#8049](https://github.com/thunderbird/thunderbird-android/issues/8049)) has been fixed.
-- Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: [#9771](https://github.com/thunderbird/thunderbird-android/issues/9771)) was fixed.
-- The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: [#9160](https://github.com/thunderbird/thunderbird-android/issues/9160)).
+- SMTP issues with enterprise and educational accounts on [outlook.com](http://outlook.com) have been fixed.
 
 # Older Releases
 
 <section class=""mzp-c-details"">
 <p></p>
+<h2 id=""w_thunderbird-13"">Thunderbird 13</h2>
+<ul>
+<li> The notification in status bar re-appearing multiple times a day issue (github issue <a href=""https://github.com/thunderbird/thunderbird-android/issues/8049"">#8049</a>) has been fixed.
+</li>
+<li> Special folders (Trash, Sent, Drafts, Archives, etc) not appearing after updating from TB11 to TB12 (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9771"">#9771</a>) was fixed.
+</li>
+<li> The bug with outgoing email not working for certain educational and enterprise accounts is scheduled to be fixed in the next release, Thunderbird 14 for Android (github issue: <a href=""https://github.com/thunderbird/thunderbird-android/issues/9160"">#9160</a>).
+</li>
+</ul>
 <h2 id=""w_thunderbird-12"">Thunderbird 12</h2>
 <p>
 </p>
