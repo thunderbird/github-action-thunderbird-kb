@@ -11491,21 +11491,21 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 - [Make Firefox your default browser](\""https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser"")
 
 "
-734,"Password Manager - Remember, delete and edit logins and passwords in Firefox",password-manager-remember-delete-edit-logins,https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins,en-US,"Firefox's password management feature securely stores your usernames and passwords. Learn how to save, view, manage and protect your logins.","<p>Firefox securely stores your usernames and passwords for accessing websites, automatically fills them in for you the next time you visit a website, and lets you manage your stored logins with its built-in password management feature. This article will show you how to remember, view, edit, manage, remove and protect your logins in Firefox and also how to disable this feature.
+734,"Password Manager - Remember, delete and edit logins and passwords in Firefox",password-manager-remember-delete-edit-logins,https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins,en-US,"Firefox's password management feature securely stores your usernames and passwords. Learn how to save, view, manage and protect your logins.","<p>Firefox includes a built-in password manager that securely stores your usernames and passwords, fills them in automatically, and lets you manage them in one place. You can view, edit, remove, or export saved logins, and add extra protection if you share your device. This article will show you how to remember, view, edit, manage, remove and protect your logins in Firefox and also how to disable this feature.
 </p>
 <ul><li>To get your passwords everywhere you use Firefox, <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">turn on Sync</a>.
 </li></ul>
 <p></p><div class=""note""><strong>Note:</strong> On macOS and Windows, OS authentication may be required when accessing stored passwords using <span class=""menu""><img alt=""edit_fx71aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-03-17-35-25-6deac5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> Edit</span>, <span class=""menu"">Copy</span> or <img alt=""IG eye"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""18""> (the reveal button, represented by an eye icon). This is <strong>not</strong> your Mozilla account credentials. See <a href=""/en-US/kb/firefox-password-authentification-prompt"">Secure Firefox passwords with device sign-in</a> for more information.</div>
 <p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_make-firefox-remember-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Make Firefox remember usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_managing-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Managing multiple accounts for a site</span></a><ul><li class=""toclevel-2""><a href=""#w_add-another-login-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add another login account</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_managing-usernames-and-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing usernames and passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-menu-panel""><span class=""tocnumber"">3.1</span> <span class=""toctext"">From the Menu panel</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-firefox-sidebar""><span class=""tocnumber"">3.2</span> <span class=""toctext"">From the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_exporting-login-and-password-data""><span class=""tocnumber"">4</span> <span class=""toctext"">Exporting login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_importing-login-and-password-data""><span class=""tocnumber"">5</span> <span class=""toctext"">Importing login and password data</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-your-passwords""><span class=""tocnumber"">6</span> <span class=""toctext"">Protecting your passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">7</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_make-firefox-remember-usernames-and-passwords"">Make Firefox remember usernames and passwords</h1>
-<p>When you enter a username and password that you haven't already saved for a website, Firefox will ask if you want to save it.
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_save-usernames-and-passwords""><span class=""tocnumber"">1</span> <span class=""toctext"">Save usernames and passwords</span></a></li><li class=""toclevel-1""><a href=""#w_add-or-manage-multiple-accounts-for-a-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Add or manage multiple accounts for a site</span></a><ul><li class=""toclevel-2""><a href=""#w_add-another-login-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add another login account</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_view-edit-or-delete-saved-passwords""><span class=""tocnumber"">3</span> <span class=""toctext"">View, edit, or delete saved passwords</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-menu-panel""><span class=""tocnumber"">3.1</span> <span class=""toctext"">From the Menu panel</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-firefox-sidebar""><span class=""tocnumber"">3.2</span> <span class=""toctext"">From the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_remove-all-saved-passwords""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Remove all saved passwords</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_export-or-import-password""><span class=""tocnumber"">4</span> <span class=""toctext"">Export or import password</span></a></li><li class=""toclevel-1""><a href=""#w_protect-your-saved-passwords""><span class=""tocnumber"">5</span> <span class=""toctext"">Protect your saved passwords</span></a></li><li class=""toclevel-1""><a href=""#w_disable-the-firefox-password-management-feature""><span class=""tocnumber"">6</span> <span class=""toctext"">Disable the Firefox password management feature</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshoot-lost-or-missing-passwords""><span class=""tocnumber"">7</span> <span class=""toctext"">Troubleshoot: lost or missing passwords</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-passwords-vs-google-passwords""><span class=""tocnumber"">8</span> <span class=""toctext"">Firefox passwords vs. Google passwords</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">9</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_save-usernames-and-passwords"">Save usernames and passwords</h1>
+<p>When you log in to a website, Firefox will ask if you want to save your username and password.
 </p><p><img alt=""FF70 Password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-06-21-03-14-92afab.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </p>
 <div class=""note""><strong>Tip:</strong> Clicking outside of the Save prompt will hide it. To bring it back, just click the key icon on the left side of the address bar. If Firefox does not prompt you to save passwords, see <a href=""/en-US/kb/usernames-and-passwords-are-not-saved"">Usernames and passwords are not saved</a>.</div>
 <p>In the prompt:
 </p>
-<ul><li> <strong>To have Firefox remember your username and password</strong>, click <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
+<ul><li> <strong>To have Firefox remember your username and password</strong>, click on <span class=""button"">Save</span>. The next time you visit the website, Firefox will automatically enter your username and password for you.
 <ul><li> If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click <span class=""button"">Update</span>.
 </li></ul>
 </li><li> <strong>To tell Firefox to never remember usernames and passwords for the current website</strong>, click the drop-down menu and select <span class=""menu"">Never Save</span>. In the future, when you log in to the website, you won't be prompted to save the username and password.
@@ -11534,8 +11534,8 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <dl><dt><img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 </div>
-<h1 id=""w_managing-multiple-accounts-for-a-site"">Managing multiple accounts for a site</h1>
-<p>If you have more than one account for a site, Firefox can save all your logins. Each time you log in to a site, you can choose the login information you would like Firefox to use.
+<h1 id=""w_add-or-manage-multiple-accounts-for-a-site"">Add or manage multiple accounts for a site</h1>
+<p>Firefox can store more than one login for the same website.
 </p>
 <h2 id=""w_add-another-login-account"">Add another login account</h2>
 <p>To save an additional login for a site, enter the login credentials and click <strong>Save</strong> when prompted. Use the drop-down arrow to see a list of saved usernames for that site. You can also start typing to narrow the results.<br><img alt=""Fx81AddLogins"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-48-15-ad973c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -11544,7 +11544,7 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <dl><dt><img alt=""SavedLoginsFx81"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-16-15-31-30-ffa911.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <div class=""note""><strong>To view passwords for a specific site</strong>, click the username field for that site, then click <span class=""button"">View Saved Logins</span> (see above).</div>
-<h1 id=""w_managing-usernames-and-passwords"">Managing usernames and passwords</h1>
+<h1 id=""w_view-edit-or-delete-saved-passwords"">View, edit, or delete saved passwords</h1>
 <p>
 </p>
 <h2 id=""w_from-the-menu-panel"">From the Menu panel</h2>
@@ -11595,18 +11595,19 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <dl><dt><img alt=""Remove all passwords option"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-12-58-44-a9d147.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
 </li></ol>
-<h1 id=""w_exporting-login-and-password-data"">Exporting login and password data</h1>
-<p>If you want to back up your saved usernames and passwords or move them to a different application, you can export this data to a <code>.csv</code> (comma separated values) file. See <a href=""/en-US/kb/export-login-data-firefox"">Export login data from Firefox</a> for more information.
+<h1 id=""w_export-or-import-password"">Export or import password</h1>
+<ul><li><strong>Export logins</strong>: Save your usernames and passwords as a .csv file to back them up or move them to another app. See <a href=""/en-US/kb/export-login-data-firefox"">Export login data from Firefox</a> for more information.
+</li><li><strong>Import password</strong>: Bring passwords into Firefox from another app or file. See <a href=""/en-US/kb/import-login-data-file"">Import login and password data from a file</a> for more information.
+</li></ul>
+<h1 id=""w_protect-your-saved-passwords"">Protect your saved passwords</h1>
+<p>If you use the same simple password for everything, you will be more susceptible to <a href=""http://wikipedia.org/wiki/Identity_theft"">identity theft</a>. Firefox stores your logins securely on your computer. You can add extra protection:
 </p>
-<h1 id=""w_importing-login-and-password-data"">Importing login and password data</h1>
-<p>You can also import login data from a <code>.csv</code> (comma separated values) file. See <a href=""/en-US/kb/import-login-data-file"">Import login and password data from a file</a> for more information.
-</p>
-<h1 id=""w_protecting-your-passwords"">Protecting your passwords</h1>
-<p>If you use the same simple password for everything, you will be more susceptible to <a href=""http://wikipedia.org/wiki/Identity_theft"">identity theft</a>. The <a href=""/en-US/kb/password-strength"">Choose a strong password</a> article shows you an easy method for creating secure passwords and managing your passwords, as described above, to help you remember them all.
-</p><p>Even though Firefox stores your usernames and passwords on your computer in an <a href=""http://wikipedia.org/wiki/Encrypted"">encrypted</a> format, someone with access to your computer user profile can still see or use them. The <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Use a Primary Password to protect stored logins and passwords</a> article shows you how to prevent this and keep you protected in the event your computer is lost or stolen.
-</p>
+<ul><li><strong>Primary Password</strong>: Set a password to unlock your saved logins. See <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Use a Primary Password to protect stored logins and passwords</a>.
+</li><li><strong>Device login prompts</strong>: On Windows and macOS, your computer password is required before viewing or copying saved logins. 
+</li><li><strong>Strong password generation</strong>: Firefox can suggest strong passwords automatically when you create new accounts. See <a href=""/en-US/kb/password-strength"">Choose a strong password</a>.
+</li></ul>
 <h1 id=""w_disable-the-firefox-password-management-feature"">Disable the Firefox password management feature</h1>
-<p>Firefox offers to remember usernames and passwords by default. To change your settings:
+<p>By default, Firefox offers to save logins. To turn this off:
 </p>
 <ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
@@ -11620,18 +11621,30 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 
 </li></ol>
 <div class=""note""><strong>Note:</strong> If the <strong>Ask to save passwords</strong> setting is grayed out, Firefox may be set to never remember history or to always use <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">private browsing mode</a>. To restore normal browsing, go to your <span class=""menu"">Privacy &amp; Security</span> settings under <em>History</em> and remove the check mark next to <strong>Always use private browsing mode</strong>, or select <strong>Remember history</strong> from the drop-down menu, and then restart Firefox.</div>
+<h1 id=""w_troubleshoot-lost-or-missing-passwords"">Troubleshoot: lost or missing passwords</h1>
+<p>If your saved passwords are missing after an update or restart:
+</p>
+<ul><li><strong>Check Firefox Sync</strong>: Sign in with your Firefox Account and ensure Logins and Passwords is selected under Sync settings.
+</li><li><strong>Check your profile</strong>: Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See <a class=""new"" href=""/en-US/kb/new?title=Recover+lost+or+missing+Firefox+data"" title=""Page does not exist."">Recover lost or missing Firefox data</a>.
+</li><li><strong>Backups</strong>: If you exported your passwords, import the .csv file.
+</li></ul>
+<div class=""note""><strong>Note</strong>: Lost credentials can be stressful. If you’ve tried the above and still can’t recover your logins, contact the website directly to reset your password.</div>
+<h1 id=""w_firefox-passwords-vs-google-passwords"">Firefox passwords vs. Google passwords</h1>
+<p>Firefox Password Manager is separate from Google’s password manager.
+</p>
+<ul><li>Passwords saved in Firefox are available only inside Firefox (or across your devices if you use Sync).
+</li><li>Passwords saved in your Google Account are available when you sign in to Chrome or use Google services.
+</li><li>If you switched from Chrome to Firefox, import your Google passwords into Firefox for convenience.
+</li></ul>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/autofill-logins-firefox"">Autofill logins on Firefox</a>
 </li><li><a href=""/en-US/kb/reset-your-primary-password-if-youve-forgotten-it"">Reset your Primary Password if you've forgotten it</a>
 </li><li><a href=""/en-US/kb/firefox-password-manager-alerts-breached-websites"">Firefox Password Manager - Alerts for breached websites</a>
 </li><li><a href=""/en-US/kb/how-generate-secure-password-firefox"">Generate a secure password in Firefox</a>
-</li><li><a href=""/en-US/kb/manage-your-logins-firefox-password-manager"">Manage your logins with the Firefox Password Manager</a>
-</li><li><a href=""/en-US/kb/relay-integration"">Add Firefox Relay to the Firefox password manager</a>
 </li></ul>
-<div class=""for"" data-for=""win10,win11"">
-<ul><li><a href=""/en-US/kb/windows-sso"">How to enable Windows SSO login in Firefox</a>
-</li></ul>
-</div>",firefox,passwords-and-sign-in;save-passwords,"Firefox securely stores your usernames and passwords for accessing websites, automatically fills them in for you the next time you visit a website, and lets you manage your stored logins with its built-in password management feature. This article will show you how to remember, view, edit, manage, remove and protect your logins in Firefox and also how to disable this feature.
+<p>
+
+</p>",firefox,passwords-and-sign-in;save-passwords,"Firefox includes a built-in password manager that securely stores your usernames and passwords, fills them in automatically, and lets you manage them in one place. You can view, edit, remove, or export saved logins, and add extra protection if you share your device. This article will show you how to remember, view, edit, manage, remove and protect your logins in Firefox and also how to disable this feature.
 
 - To get your passwords everywhere you use Firefox, [turn on Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"").
 
@@ -11639,24 +11652,25 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 
 ## Table of Contents
 
-- [1 Make Firefox remember usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_make-firefox-remember-usernames-and-passwords)
-- [2 Managing multiple accounts for a site](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-multiple-accounts-for-a-site)
+- [1 Save usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_save-usernames-and-passwords)
+- [2 Add or manage multiple accounts for a site](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_add-or-manage-multiple-accounts-for-a-site)
   - [2.1 Add another login account](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_add-another-login-account)
 
-- [3 Managing usernames and passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_managing-usernames-and-passwords)
+- [3 View, edit, or delete saved passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_view-edit-or-delete-saved-passwords)
   - [3.1 From the Menu panel](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-menu-panel)
   - [3.2 From the Firefox sidebar](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_from-the-firefox-sidebar)
   - [3.3 Remove all saved passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-passwords)
 
-- [4 Exporting login and password data](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_exporting-login-and-password-data)
-- [5 Importing login and password data](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_importing-login-and-password-data)
-- [6 Protecting your passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_protecting-your-passwords)
-- [7 Disable the Firefox password management feature](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_disable-the-firefox-password-management-feature)
-- [8 Related articles](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_related-articles)
+- [4 Export or import password](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_export-or-import-password)
+- [5 Protect your saved passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_protect-your-saved-passwords)
+- [6 Disable the Firefox password management feature](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_disable-the-firefox-password-management-feature)
+- [7 Troubleshoot: lost or missing passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_troubleshoot-lost-or-missing-passwords)
+- [8 Firefox passwords vs. Google passwords](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_firefox-passwords-vs-google-passwords)
+- [9 Related articles](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_related-articles)
 
-# Make Firefox remember usernames and passwords
+# Save usernames and passwords
 
-When you enter a username and password that you haven't already saved for a website, Firefox will ask if you want to save it.
+When you log in to a website, Firefox will ask if you want to save your username and password.
 
 ![FF70 Password](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
@@ -11664,7 +11678,7 @@ When you enter a username and password that you haven't already saved for a webs
 
 In the prompt:
 
-- **To have Firefox remember your username and password** , click Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
+- **To have Firefox remember your username and password** , click on Save. The next time you visit the website, Firefox will automatically enter your username and password for you.
   - If you've stored the wrong username or password, just type the right one into the website and Firefox will prompt you to save it. To save the new username and password, click Update.
 
 - **To tell Firefox to never remember usernames and passwords for the current website** , click the drop-down menu and select Never Save. In the future, when you log in to the website, you won't be prompted to save the username and password.
@@ -11693,9 +11707,9 @@ You can also [manually add website logins](\""https://support.mozilla.org/en-US/
 <img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 
-# Managing multiple accounts for a site
+# Add or manage multiple accounts for a site
 
-If you have more than one account for a site, Firefox can save all your logins. Each time you log in to a site, you can choose the login information you would like Firefox to use.
+Firefox can store more than one login for the same website.
 
 ## Add another login account
 
@@ -11709,7 +11723,7 @@ If more than one login is stored for a website, the list of usernames will appea
 </dt></dl>
 **To view passwords for a specific site** , click the username field for that site, then click View Saved Logins (see above).
 
-# Managing usernames and passwords
+# View, edit, or delete saved passwords
 
 ## From the Menu panel
 
@@ -11763,23 +11777,22 @@ You can now:
 <img alt=""Remove all passwords option"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-12-58-44-a9d147.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
 
-# Exporting login and password data
+# Export or import password
 
-If you want to back up your saved usernames and passwords or move them to a different application, you can export this data to a `.csv` (comma separated values) file. See [Export login data from Firefox](\""https://support.mozilla.org/en-US/kb/export-login-data-firefox"") for more information.
+- **Export logins** : Save your usernames and passwords as a .csv file to back them up or move them to another app. See [Export login data from Firefox](\""https://support.mozilla.org/en-US/kb/export-login-data-firefox"") for more information.
+- **Import password** : Bring passwords into Firefox from another app or file. See [Import login and password data from a file](\""https://support.mozilla.org/en-US/kb/import-login-data-file"") for more information.
 
-# Importing login and password data
+# Protect your saved passwords
 
-You can also import login data from a `.csv` (comma separated values) file. See [Import login and password data from a file](\""https://support.mozilla.org/en-US/kb/import-login-data-file"") for more information.
+If you use the same simple password for everything, you will be more susceptible to [identity theft](http://wikipedia.org/wiki/Identity_theft). Firefox stores your logins securely on your computer. You can add extra protection:
 
-# Protecting your passwords
-
-If you use the same simple password for everything, you will be more susceptible to [identity theft](http://wikipedia.org/wiki/Identity_theft). The [Choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"") article shows you an easy method for creating secure passwords and managing your passwords, as described above, to help you remember them all.
-
-Even though Firefox stores your usernames and passwords on your computer in an [encrypted](http://wikipedia.org/wiki/Encrypted) format, someone with access to your computer user profile can still see or use them. The [Use a Primary Password to protect stored logins and passwords](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") article shows you how to prevent this and keep you protected in the event your computer is lost or stolen.
+- **Primary Password** : Set a password to unlock your saved logins. See [Use a Primary Password to protect stored logins and passwords](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"").
+- **Device login prompts** : On Windows and macOS, your computer password is required before viewing or copying saved logins. 
+- **Strong password generation** : Firefox can suggest strong passwords automatically when you create new accounts. See [Choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"").
 
 # Disable the Firefox password management feature
 
-Firefox offers to remember usernames and passwords by default. To change your settings:
+By default, Firefox offers to save logins. To turn this off:
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
 2. Select the Privacy & Security panel and go to the _Passwords_ section.<dl><dt>
@@ -11792,16 +11805,30 @@ Firefox offers to remember usernames and passwords by default. To change your se
 
 **Note:** If the **Ask to save passwords** setting is grayed out, Firefox may be set to never remember history or to always use [private browsing mode](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history""). To restore normal browsing, go to your Privacy & Security settings under _History_ and remove the check mark next to **Always use private browsing mode** , or select **Remember history** from the drop-down menu, and then restart Firefox.
 
+# Troubleshoot: lost or missing passwords
+
+If your saved passwords are missing after an update or restart:
+
+- **Check Firefox Sync** : Sign in with your Firefox Account and ensure Logins and Passwords is selected under Sync settings.
+- **Check your profile** : Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See [Recover lost or missing Firefox data](\""https://support.mozilla.org/en-US/kb/new?title=Recover+lost+or+missing+Firefox+data"" ""Page does not exist."").
+- **Backups** : If you exported your passwords, import the .csv file.
+
+**Note** : Lost credentials can be stressful. If you’ve tried the above and still can’t recover your logins, contact the website directly to reset your password.
+
+# Firefox passwords vs. Google passwords
+
+Firefox Password Manager is separate from Google’s password manager.
+
+- Passwords saved in Firefox are available only inside Firefox (or across your devices if you use Sync).
+- Passwords saved in your Google Account are available when you sign in to Chrome or use Google services.
+- If you switched from Chrome to Firefox, import your Google passwords into Firefox for convenience.
+
 # Related articles
 
 - [Autofill logins on Firefox](\""https://support.mozilla.org/en-US/kb/autofill-logins-firefox"")
 - [Reset your Primary Password if you've forgotten it](\""https://support.mozilla.org/en-US/kb/reset-your-primary-password-if-youve-forgotten-it"")
 - [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"")
 - [Generate a secure password in Firefox](\""https://support.mozilla.org/en-US/kb/how-generate-secure-password-firefox"")
-- [Manage your logins with the Firefox Password Manager](\""https://support.mozilla.org/en-US/kb/manage-your-logins-firefox-password-manager"")
-- [Add Firefox Relay to the Firefox password manager](\""https://support.mozilla.org/en-US/kb/relay-integration"")
-
-- [How to enable Windows SSO login in Firefox](\""https://support.mozilla.org/en-US/kb/windows-sso"")
 
 "
 735,Update Firefox to the latest release,update-firefox-latest-release,https://support.mozilla.org/en-US/kb/update-firefox-latest-release,en-US,"Firefox automatically updates itself by default, but you can always do a manual update. Learn how to update Firefox on Windows, Mac, or Linux.","<div class=""for"" data-for=""linux"">
@@ -65420,62 +65447,184 @@ Note that this will invalidate the MSI file's signature; if you need the file to
 
 All private parameters (FIREFOX specific, present in CAPS can be used in the command line + the msiexec public parameters like /i and /quiet in the above example)
 "
-42674,Choose display languages for multilingual web pages,choose-display-languages-multilingual-web-pages,https://support.mozilla.org/en-US/kb/choose-display-languages-multilingual-web-pages,en-US,How to choose your preferred languages for multilingual web pages.,"<p>Some web pages are offered in multiple languages. Firefox will choose a language based on your preferred languages list. If a page is not available in your top language, Firefox checks to see if it's available in the next language on your preferred list. 
+42674,Choose display languages for multilingual web pages,choose-display-languages-multilingual-web-pages,https://support.mozilla.org/en-US/kb/choose-display-languages-multilingual-web-pages,en-US,How to choose your preferred languages for multilingual web pages.,"<p>Firefox gives you control over two different types of language settings:
+</p>
+<ul><li><strong>Display language</strong> — the language used for Firefox’s menus, settings, and interface
+</li><li><strong>Website translation</strong> — automatic or optional translation prompts for websites in other languages
+</li><li><strong>Preferred content languages</strong> — used to choose the language of multilingual websites (when available)
+</li></ul>
+<p>These are managed in <strong>separate parts of Firefox Settings</strong>, and they can be used together or independently.
+</p><p><strong>Version note</strong>: This article applies to Firefox <strong>version 110 and later</strong>. Some options may look different in older versions.
 </p>
 <div class=""note"">To change the language for Firefox's menus, notifications and interfaces, see <a href=""/en-US/kb/use-firefox-another-language"">Use Firefox in another language</a>.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_view-language-list""><span class=""tocnumber"">1</span> <span class=""toctext"">View language list</span></a></li><li class=""toclevel-1""><a href=""#w_add-remove-and-reorder-languages""><span class=""tocnumber"">2</span> <span class=""toctext"">Add, remove and reorder languages</span></a><ul><li class=""toclevel-2""><a href=""#w_add-a-language""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Add a language</span></a></li><li class=""toclevel-2""><a href=""#w_remove-a-language""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Remove a language</span></a></li><li class=""toclevel-2""><a href=""#w_reorder-languages""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Reorder languages</span></a></li></ul></li></ul></div>
-<h1 id=""w_view-language-list"">View language list</h1>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_change-firefoxs-display-language-menus-and-ui""><span class=""tocnumber"">1</span> <span class=""toctext"">Change Firefox’s display language (menus and UI)</span></a><ul><li class=""toclevel-2""><a href=""#w_on-windows-and-linux""><span class=""tocnumber"">1.1</span> <span class=""toctext"">On Windows and Linux</span></a></li><li class=""toclevel-2""><a href=""#w_on-macos""><span class=""tocnumber"">1.2</span> <span class=""toctext"">On macOS</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_set-preferred-website-content-languages""><span class=""tocnumber"">2</span> <span class=""toctext"">Set preferred website content languages</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshooting-common-issues""><span class=""tocnumber"">3</span> <span class=""toctext"">Troubleshooting common issues</span></a><ul><li class=""toclevel-2""><a href=""#w_i-still-see-websites-in-the-wrong-language""><span class=""tocnumber"">3.1</span> <span class=""toctext"">I still see websites in the wrong language</span></a></li><li class=""toclevel-2""><a href=""#w_firefox-says-it-cant-update-languages""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Firefox says it can’t update languages</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_change-firefoxs-display-language-menus-and-ui"">Change Firefox’s display language (menus and UI)</h1>
+<p>You can use Firefox in another language by installing a <strong>language pack</strong> or by using your operating system’s language setting (macOS and Linux).
+</p>
+<h2 id=""w_on-windows-and-linux"">On Windows and Linux</h2>
+<ol><li>Click the menu button (☰) and select <span class=""menu"">Settings</span>.
+</li><li>In the <span class=""menu"">General</span> panel, scroll to <span class=""menu"">Language</span>.
+</li><li>Under <span class=""menu"">Language</span>, click <span class=""button"">Set Alternatives</span>.
+</li><li>Choose your preferred language from the list.
+</li><li>Click <span class=""button"">OK</span>, then <span class=""button"">Restart Firefox</span> to apply the change.
+</li></ol>
+<div class=""note""><strong>Tip</strong>: If your language isn't listed, click <span class=""button"">Search for more languages</span> to download and install a language pack.</div>
+<dl><dt><img alt=""firefoxlanguagedisplay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-16-12-29-03-443fe6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h2 id=""w_on-macos"">On macOS</h2>
+<p>Firefox uses the system language by default.
+To change it:
+</p>
+<ol><li>Open <span class=""menu"">System Settings</span>.
+</li><li>Go to <span class=""menu"">General</span> &gt; <span class=""menu"">Language &amp; Region</span>.
+</li><li>Add or drag your preferred language to the top of the list.
+</li><li>Restart Firefox.
+</li></ol>
+<div class=""note""><strong>Note</strong>: Language packs are not used on macOS. Firefox follows the system language.</div>
+<h1 id=""w_set-preferred-website-content-languages"">Set preferred website content languages</h1>
+<p>Some websites support multiple languages. Firefox can request your preferred languages when sites offer localized content.
+To manage this list:
+</p>
+<ol><li>Open Firefox Settings.
+</li><li>Go to <span class=""menu"">General</span> &gt; <span class=""menu"">Language</span>
+</li><li>Click <span class=""button"">Choose</span> next to <span class=""menu"">Choose your preferred language for displaying pages</span>
+</li><li>In the popup:
+<ul><li>Use <span class=""button"">Add</span> to select more languages
+</li><li>Use <span class=""button"">Remove</span> to delete unwanted entries
+</li><li>Use <span class=""button"">Move Up / Move Down</span> to change priority
+</li></ul>
+</li><li>Click <span class=""button"">OK</span>
+<dl><dt><img alt=""firefoxlanguagedisplaysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-16-12-36-26-14f4a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""note""><strong>Note</strong>: Firefox will use the top-listed language when available. If not, it checks the next in the list.</div>
+<h1 id=""w_troubleshooting-common-issues"">Troubleshooting common issues</h1>
+<h2 id=""w_i-still-see-websites-in-the-wrong-language"">I still see websites in the wrong language</h2>
+<ul><li>Check your preferred content language list
+</li><li>Clear site-specific cookies that may be remembering language settings:
+<ul><li>Go to the site
+</li><li>Click the <strong>lock icon</strong> &gt; <span class=""menu"">Clear cookies and site data</span>
+</li></ul>
+</li></ul>
+<h2 id=""w_firefox-says-it-cant-update-languages"">Firefox says it can’t update languages</h2>
+<p>This may be caused by:
+</p>
+<ul><li>Network restrictions (firewall or proxy)
+</li><li>Corrupted language pack
+</li><li>Permission issues on your system
+</li></ul>
+<p>Try these fixes:
+</p>
+<ul><li>Disable your firewall or proxy temporarily
+</li><li>Restart Firefox as administrator (Windows)
+</li><li>Remove and re-add the language pack
+</li></ul>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/use-firefox-another-language"">Use Firefox in another language</a>
+</li><li><a href=""/en-US/kb/clear-cookies-and-site-data-firefox"">Clear cookies and site data in Firefox</a>
+</li><li><a href=""/en-US/kb/troubleshoot-and-diagnose-firefox-problems"">Troubleshoot and diagnose Firefox problems</a>
+</li></ul>
+<p><br>
+</p><p><br>
+</p><p>
+</p>",firefox,settings,"Firefox gives you control over two different types of language settings:
 
-</li><li>In the <em>General</em> panel, scroll down to <strong>Language</strong> under <em>Language and appearance</em>.
-</li><li>Click the <span class=""button"">Choose</span> button next to <em>Choose your preferred language for displaying pages</em> to see your list of languages.
-</li></ol>
-<h1 id=""w_add-remove-and-reorder-languages"">Add, remove and reorder languages</h1>
-<h2 id=""w_add-a-language"">Add a language</h2>
-<ol><li>From the language list above, choose a language in the <em>Select a language to add</em> menu.
-</li><li>Click the <span class=""button"">Add</span> button.
-</li></ol>
-<h2 id=""w_remove-a-language"">Remove a language</h2>
-<ol><li>Select the language you want to remove in the list of active languages.
-</li><li>Click the <span class=""button"">Remove</span> button. 
-</li></ol>
-<h2 id=""w_reorder-languages"">Reorder languages</h2>
-<ol><li>From the language list, select the language you want to move.
-</li><li>Click the <span class=""button"">Move Up</span> and <span class=""button"">Move Down</span> buttons to set languages to your preferred order.
-</li></ol>",firefox,settings,"Some web pages are offered in multiple languages. Firefox will choose a language based on your preferred languages list. If a page is not available in your top language, Firefox checks to see if it's available in the next language on your preferred list.
+- **Display language** — the language used for Firefox’s menus, settings, and interface
+- **Website translation** — automatic or optional translation prompts for websites in other languages
+- **Preferred content languages** — used to choose the language of multilingual websites (when available)
+
+These are managed in **separate parts of Firefox Settings** , and they can be used together or independently.
+
+**Version note** : This article applies to Firefox **version 110 and later**. Some options may look different in older versions.
 
 To change the language for Firefox's menus, notifications and interfaces, see [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"").
 
 ## Table of Contents
 
-- [1 View language list](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_view-language-list)
-- [2 Add, remove and reorder languages](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_add-remove-and-reorder-languages)
-  - [2.1 Add a language](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_add-a-language)
-  - [2.2 Remove a language](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_remove-a-language)
-  - [2.3 Reorder languages](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_reorder-languages)
+- [1 Change Firefox’s display language (menus and UI)](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_change-firefoxs-display-language-menus-and-ui)
+  - [1.1 On Windows and Linux](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_on-windows-and-linux)
+  - [1.2 On macOS](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_on-macos)
 
-# View language list
+- [2 Set preferred website content languages](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_set-preferred-website-content-languages)
+- [3 Troubleshooting common issues](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_troubleshooting-common-issues)
+  - [3.1 I still see websites in the wrong language](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_i-still-see-websites-in-the-wrong-language)
+  - [3.2 Firefox says it can’t update languages](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_firefox-says-it-cant-update-languages)
 
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the _General_ panel, scroll down to **Language** under _Language and appearance_.
-3. Click the Choose button next to _Choose your preferred language for displaying pages_ to see your list of languages.
+- [4 Related articles](https://support.mozilla.org/kb/choose-display-languages-multilingual-web-pages#w_related-articles)
 
-# Add, remove and reorder languages
+# Change Firefox’s display language (menus and UI)
 
-## Add a language
+You can use Firefox in another language by installing a **language pack** or by using your operating system’s language setting (macOS and Linux).
 
-1. From the language list above, choose a language in the _Select a language to add_ menu.
-2. Click the Add button.
+## On Windows and Linux
 
-## Remove a language
+1. Click the menu button (☰) and select Settings.
+2. In the General panel, scroll to Language.
+3. Under Language, click Set Alternatives.
+4. Choose your preferred language from the list.
+5. Click OK, then Restart Firefox to apply the change.
 
-1. Select the language you want to remove in the list of active languages.
-2. Click the Remove button. 
+**Tip** : If your language isn't listed, click Search for more languages to download and install a language pack.
+<dl><dt>
+<img alt=""firefoxlanguagedisplay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-16-12-29-03-443fe6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+## On macOS
 
-## Reorder languages
+Firefox uses the system language by default. To change it:
 
-1. From the language list, select the language you want to move.
-2. Click the Move Up and Move Down buttons to set languages to your preferred order.
+1. Open System Settings.
+2. Go to General \> Language & Region.
+3. Add or drag your preferred language to the top of the list.
+4. Restart Firefox.
+
+**Note** : Language packs are not used on macOS. Firefox follows the system language.
+
+# Set preferred website content languages
+
+Some websites support multiple languages. Firefox can request your preferred languages when sites offer localized content. To manage this list:
+
+1. Open Firefox Settings.
+2. Go to General \> Language
+3. Click Choose next to Choose your preferred language for displaying pages
+4. In the popup:
+  - Use Add to select more languages
+  - Use Remove to delete unwanted entries
+  - Use Move Up / Move Down to change priority
+
+5. Click OK<dl><dt>
+<img alt=""firefoxlanguagedisplaysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-16-12-36-26-14f4a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Note** : Firefox will use the top-listed language when available. If not, it checks the next in the list.
+
+# Troubleshooting common issues
+
+## I still see websites in the wrong language
+
+- Check your preferred content language list
+- Clear site-specific cookies that may be remembering language settings:
+  - Go to the site
+  - Click the **lock icon** \> Clear cookies and site data
+
+## Firefox says it can’t update languages
+
+This may be caused by:
+
+- Network restrictions (firewall or proxy)
+- Corrupted language pack
+- Permission issues on your system
+
+Try these fixes:
+
+- Disable your firewall or proxy temporarily
+- Restart Firefox as administrator (Windows)
+- Remove and re-add the language pack
+
+# Related articles
+
+- [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"")
+- [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"")
+- [Troubleshoot and diagnose Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-and-diagnose-firefox-problems"")
 
 "
 42744,How is Firefox for Enterprise different from normal Firefox?,firefox-enterprise-vs-normal-firefox,https://support.mozilla.org/en-US/kb/firefox-enterprise-vs-normal-firefox,en-US,Firefox for Enterprise is a version of Firefox designed specifically for enterprise needs. Learn more.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
