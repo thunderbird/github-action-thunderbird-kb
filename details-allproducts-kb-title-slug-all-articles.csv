@@ -30284,6 +30284,425 @@ A Guest Session lets someone else use Firefox on your Android device without giv
 Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button. If you can see Exit Guest Session you are in Guest Session mode.
 
 "
+15789,Add images and screenshots to Knowledge Base articles,how-place-images-article,https://support.mozilla.org/en-US/kb/how-place-images-article,en-US,Elevate your Knowledge Base contributions with the power of visuals. Learn how to effectively integrate images into your articles.,"<p>Boost your Knowledge Base articles with visuals. Adding screenshots clarifies complex concepts and simplifies instructions, offering users a straightforward view of interface elements. This guide shows you how to incorporate images cleanly and effectively, enhancing content clarity and reader engagement.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-screenshots-on-a-computer-or-mobile-device""><span class=""tocnumber"">1</span> <span class=""toctext"">Create screenshots on a computer or mobile device</span></a></li><li class=""toclevel-1""><a href=""#w_add-screenshots-and-other-images-to-knowledge-base-articles""><span class=""tocnumber"">2</span> <span class=""toctext"">Add screenshots and other images to Knowledge Base articles</span></a><ul><li class=""toclevel-2""><a href=""#w_upload-an-image-to-the-media-gallery""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Upload an image to the Media Gallery</span></a></li><li class=""toclevel-2""><a href=""#w_upload-an-image-directly-from-the-article-editor""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Upload an image directly from the article editor</span></a></li><li class=""toclevel-2""><a href=""#w_add-an-image-to-an-article""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Add an image to an article</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_effective-use-of-inline-images""><span class=""tocnumber"">3</span> <span class=""toctext"">Effective use of inline images</span></a></li><li class=""toclevel-1""><a href=""#w_effective-use-of-images-for-step-by-step-instructions""><span class=""tocnumber"">4</span> <span class=""toctext"">Effective use of images for step-by-step instructions</span></a></li><li class=""toclevel-1""><a href=""#w_examples""><span class=""tocnumber"">5</span> <span class=""toctext"">Examples</span></a><ul><li class=""toclevel-2""><a href=""#w_markup-for-an-inline-image""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Markup for an inline image</span></a></li><li class=""toclevel-2""><a href=""#w_inline-image-example""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Inline image example</span></a></li><li class=""toclevel-2""><a href=""#w_markup-for-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Markup for an image in a set of steps</span></a></li><li class=""toclevel-2""><a href=""#w_example-of-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Example of an image in a set of steps</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_knowledge-base-guidelines""><span class=""tocnumber"">6</span> <span class=""toctext"">Knowledge Base guidelines</span></a></li></ul></div>
+<h1 id=""w_create-screenshots-on-a-computer-or-mobile-device"">Create screenshots on a computer or mobile device</h1>
+<p>To learn how to create screenshots for the Knowledge Base and what editing tools you can use, see <a href=""/en-US/kb/how-to-make-screenshots"">How to make screenshots</a>.
+</p>
+<h1 id=""w_add-screenshots-and-other-images-to-knowledge-base-articles"">Add screenshots and other images to Knowledge Base articles</h1>
+<div class=""note""><strong>Note:</strong> You can search the <a href=""/gallery/images"">Media Gallery</a> and <a href=""/en-US/kb/icon-gallery-firefox-desktop"">Icon Gallery article</a> for images that are already available or you can upload a new image.</div>
+<h2 id=""w_upload-an-image-to-the-media-gallery"">Upload an image to the Media Gallery</h2>
+<ol><li> Navigate to the <a href=""/gallery/images"">Media Gallery</a>.
+</li><li>On the bottom right, click the <span class=""button"">Upload</span> button.
+</li><li>The Upload dialog box will open. Click the <span class=""button"">Browse…</span> button to navigate through your computer's files and select the image you wish to upload.
+</li><li> After selecting your image, a dialog box will prompt you to provide a title and description for your image. Fill in these details and then click the <span class=""button"">Upload</span> button to finalize the upload process.
+</li></ol>
+<div class=""note"">Remember, the description you provide for your image will serve as alternative text (alt text) for users who rely on screen readers, enhancing accessibility and understanding of the content.</div>
+<h2 id=""w_upload-an-image-directly-from-the-article-editor"">Upload an image directly from the article editor</h2>
+<p>If you're actively editing an article and need to add an image, you can also upload right from the toolbar:
+</p>
+<ol><li> Start by either creating a new article or editing an existing one.
+</li><li> In the article editor, click the Insert Media <img alt=""Insert media toolbar button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-12-10-46-c15d06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> button found on the toolbar.
+<dl><dt><img alt=""KBEditorToolbar-InsertMedia"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-28-07-03-31-cb4f83.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<ul><li> This action brings up the Insert Media dialog. 
+</li></ul>
+</li><li> At the bottom of the dialog that appears, select the <span class=""button"">Upload Media</span> button to proceed.
+</li><li> In the Upload dialog box, click the <span class=""button"">Browse…</span> button to navigate through your computer's files and select the image you wish to upload.
+</li><li> After selecting your image, a dialog box will prompt you to provide a title and description for your image. Fill in these details and then click the <span class=""button"">Upload</span> button to finalize the upload process.
+</li></ol>
+<h2 id=""w_add-an-image-to-an-article"">Add an image to an article</h2>
+<ol><li> You can start by either creating a new article or by editing an existing one.
+</li><li> Locate and click the Insert Media <img alt=""Insert media toolbar button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-12-10-46-c15d06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> button on the toolbar.
+</li><li> From the gallery, choose the image you wish to add, then click <span class=""button"">Insert Media</span> to embed it into the article.
+</li></ol>
+<dl><dt><img alt=""Insert media E"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-11-11-42-56-e4da3b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_effective-use-of-inline-images"">Effective use of inline images</h1>
+<p>Incorporating inline screenshots directly into KB articles enhances clarity and navigation by visually demonstrating interface elements like buttons and menus. This approach streamlines articles, making them easier to follow by reducing image and text volume, and directly guiding users through the interface with concise, relevant visuals.
+Guidelines for optimizing inline image integration:
+</p>
+<ul><li><strong>Prioritize clarity:</strong> Employ inline images to substitute textual cues with precise, visual representations. Focus on showcasing interactable elements such as menus and buttons, ensuring these images are directly relevant and facilitate quick user recognition and interaction.
+</li><li><strong>Strategic placement:</strong> Integrate screenshots next to relevant text to seamlessly blend instructions with visual guides, making it easier for users to follow along without getting lost in lengthy descriptions.
+</li><li><strong>Size matters:</strong> When selecting inline images, aim for a maximum height of 16 pixels. This ensures visuals are informative yet unobtrusive, contributing to a cleaner, more accessible layout for users navigating the content.
+</li></ul>
+<h1 id=""w_effective-use-of-images-for-step-by-step-instructions"">Effective use of images for step-by-step instructions</h1>
+<p>Embedding screenshots between sentences in KB articles visually demonstrates actions or tasks, bridging the gap between text instructions and their practical application. This approach enhances user comprehension and engagement by illustrating critical steps of a process, making articles more interactive and straightforward for readers to follow.
+Guidelines for optimizing image use on step-by-step instructions include:
+</p>
+<ul><li><strong>Selective use:</strong> Incorporate screenshots only for concepts that genuinely benefit from visual aid. Avoid overusing them to prevent clutter.
+</li><li><strong>Direct correlation:</strong> Select screenshots that are directly tied to the accompanying text, ensuring each image clearly illustrates the action or task being described.
+</li><li><strong>Logical sequence:</strong> Arrange screenshots to follow the natural progression of steps, mirroring the user’s actual experience. This chronological order supports a logical flow, facilitating a step-by-step guide that readers can easily follow.
+</li><li><strong>Accuracy is key:</strong> Ensure that the screenshots accurately depict what users will encounter on their screens. Given that appearances can vary across different operating systems, adjust your screenshots accordingly. For guidance on tailoring screenshots for Windows, macOS and Linux users, see the <a href=""/en-US/kb/how-to-use-for"">How to use ""For"" tags</a> guide.
+</li></ul>
+<h1 id=""w_examples"">Examples</h1>
+<p><strong>Let's keep it simple!</strong>
+</p>
+<ul><li>If you are placing an image in a line of text (inline image), it should be no taller than 16 pixels.
+</li><li>If you are placing an image between two sentences in a set of steps or list (ordered or unordered), it should be set off with a semicolon. There's no need to add line breaks around images.
+</li></ul>
+<h2 id=""w_markup-for-an-inline-image"">Markup for an inline image</h2>
+<p>This is what the <a href=""/en-US/kb/markup-chart"">wiki markup</a> for an inline image looks like:<br><br>
+<code>
+This is the text, followed by [[Image:The Image]], and this is the continuation of the text.
+</code>
+</p>
+<h2 id=""w_inline-image-example"">Inline image example</h2>
+<p>Here's a snippet of text. Right in the middle, we've inserted an inline image <img alt=""Menu hamburguer button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-04-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> of the Firefox menu button. Following that, we've added additional text.
+</p>
+<h2 id=""w_markup-for-an-image-in-a-set-of-steps"">Markup for an image in a set of steps</h2>
+<p>This is what the <a href=""/en-US/kb/markup-chart"">wiki markup</a> for <strong>setting an image off with a semicolon</strong> looks like:<br><br>
+<code>
+# This is a step.<br>
+#;[[Image:The Image]]<br>
+# This is the next step.<br>
+</code>
+</p>
+<h2 id=""w_example-of-an-image-in-a-set-of-steps"">Example of an image in a set of steps</h2>
+<p>This is an example with longer text and a longer image:
+</p>
+<ol><li> This is a step. And here are some additional words so you can see what they look like running above the image.
+<dl><dt><img alt=""Protection panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-06-58-36-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li> This is the next step, again, with extra words so you can see what they look like running below the image.
+</li></ol>
+<h1 id=""w_knowledge-base-guidelines"">Knowledge Base guidelines</h1>
+<p>If you're interested in learning more about writing and editing Knowledge Base articles, find <a href=""https://support.mozilla.org/products/contributor/kb"">guidelines here</a>.
+</p>",contributor,kb;screenshots-and-icons,"Boost your Knowledge Base articles with visuals. Adding screenshots clarifies complex concepts and simplifies instructions, offering users a straightforward view of interface elements. This guide shows you how to incorporate images cleanly and effectively, enhancing content clarity and reader engagement.
+
+## Table of Contents
+
+- [1 Create screenshots on a computer or mobile device](https://support.mozilla.org/kb/how-place-images-article#w_create-screenshots-on-a-computer-or-mobile-device)
+- [2 Add screenshots and other images to Knowledge Base articles](https://support.mozilla.org/kb/how-place-images-article#w_add-screenshots-and-other-images-to-knowledge-base-articles)
+  - [2.1 Upload an image to the Media Gallery](https://support.mozilla.org/kb/how-place-images-article#w_upload-an-image-to-the-media-gallery)
+  - [2.2 Upload an image directly from the article editor](https://support.mozilla.org/kb/how-place-images-article#w_upload-an-image-directly-from-the-article-editor)
+  - [2.3 Add an image to an article](https://support.mozilla.org/kb/how-place-images-article#w_add-an-image-to-an-article)
+
+- [3 Effective use of inline images](https://support.mozilla.org/kb/how-place-images-article#w_effective-use-of-inline-images)
+- [4 Effective use of images for step-by-step instructions](https://support.mozilla.org/kb/how-place-images-article#w_effective-use-of-images-for-step-by-step-instructions)
+- [5 Examples](https://support.mozilla.org/kb/how-place-images-article#w_examples)
+  - [5.1 Markup for an inline image](https://support.mozilla.org/kb/how-place-images-article#w_markup-for-an-inline-image)
+  - [5.2 Inline image example](https://support.mozilla.org/kb/how-place-images-article#w_inline-image-example)
+  - [5.3 Markup for an image in a set of steps](https://support.mozilla.org/kb/how-place-images-article#w_markup-for-an-image-in-a-set-of-steps)
+  - [5.4 Example of an image in a set of steps](https://support.mozilla.org/kb/how-place-images-article#w_example-of-an-image-in-a-set-of-steps)
+
+- [6 Knowledge Base guidelines](https://support.mozilla.org/kb/how-place-images-article#w_knowledge-base-guidelines)
+
+# Create screenshots on a computer or mobile device
+
+To learn how to create screenshots for the Knowledge Base and what editing tools you can use, see [How to make screenshots](\""https://support.mozilla.org/en-US/kb/how-to-make-screenshots"").
+
+# Add screenshots and other images to Knowledge Base articles
+
+**Note:** You can search the [Media Gallery](\""https://support.mozilla.org/gallery/images"") and [Icon Gallery article](\""https://support.mozilla.org/en-US/kb/icon-gallery-firefox-desktop"") for images that are already available or you can upload a new image.
+
+## Upload an image to the Media Gallery
+
+1. Navigate to the [Media Gallery](\""https://support.mozilla.org/gallery/images"").
+2. On the bottom right, click the Upload button.
+3. The Upload dialog box will open. Click the Browse… button to navigate through your computer's files and select the image you wish to upload.
+4. After selecting your image, a dialog box will prompt you to provide a title and description for your image. Fill in these details and then click the Upload button to finalize the upload process.
+
+Remember, the description you provide for your image will serve as alternative text (alt text) for users who rely on screen readers, enhancing accessibility and understanding of the content.
+
+## Upload an image directly from the article editor
+
+If you're actively editing an article and need to add an image, you can also upload right from the toolbar:
+
+1. Start by either creating a new article or editing an existing one.
+2. In the article editor, click the Insert Media ![Insert media toolbar button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button found on the toolbar.<dl><dt>
+<img alt=""KBEditorToolbar-InsertMedia"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-28-07-03-31-cb4f83.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+  - This action brings up the Insert Media dialog. 
+
+3. At the bottom of the dialog that appears, select the Upload Media button to proceed.
+4. In the Upload dialog box, click the Browse… button to navigate through your computer's files and select the image you wish to upload.
+5. After selecting your image, a dialog box will prompt you to provide a title and description for your image. Fill in these details and then click the Upload button to finalize the upload process.
+
+## Add an image to an article
+
+1. You can start by either creating a new article or by editing an existing one.
+2. Locate and click the Insert Media ![Insert media toolbar button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button on the toolbar.
+3. From the gallery, choose the image you wish to add, then click Insert Media to embed it into the article.
+
+<dl><dt>
+<img alt=""Insert media E"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-11-11-42-56-e4da3b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# Effective use of inline images
+
+Incorporating inline screenshots directly into KB articles enhances clarity and navigation by visually demonstrating interface elements like buttons and menus. This approach streamlines articles, making them easier to follow by reducing image and text volume, and directly guiding users through the interface with concise, relevant visuals. Guidelines for optimizing inline image integration:
+
+- **Prioritize clarity:** Employ inline images to substitute textual cues with precise, visual representations. Focus on showcasing interactable elements such as menus and buttons, ensuring these images are directly relevant and facilitate quick user recognition and interaction.
+- **Strategic placement:** Integrate screenshots next to relevant text to seamlessly blend instructions with visual guides, making it easier for users to follow along without getting lost in lengthy descriptions.
+- **Size matters:** When selecting inline images, aim for a maximum height of 16 pixels. This ensures visuals are informative yet unobtrusive, contributing to a cleaner, more accessible layout for users navigating the content.
+
+# Effective use of images for step-by-step instructions
+
+Embedding screenshots between sentences in KB articles visually demonstrates actions or tasks, bridging the gap between text instructions and their practical application. This approach enhances user comprehension and engagement by illustrating critical steps of a process, making articles more interactive and straightforward for readers to follow. Guidelines for optimizing image use on step-by-step instructions include:
+
+- **Selective use:** Incorporate screenshots only for concepts that genuinely benefit from visual aid. Avoid overusing them to prevent clutter.
+- **Direct correlation:** Select screenshots that are directly tied to the accompanying text, ensuring each image clearly illustrates the action or task being described.
+- **Logical sequence:** Arrange screenshots to follow the natural progression of steps, mirroring the user’s actual experience. This chronological order supports a logical flow, facilitating a step-by-step guide that readers can easily follow.
+- **Accuracy is key:** Ensure that the screenshots accurately depict what users will encounter on their screens. Given that appearances can vary across different operating systems, adjust your screenshots accordingly. For guidance on tailoring screenshots for Windows, macOS and Linux users, see the [How to use ""For"" tags](\""https://support.mozilla.org/en-US/kb/how-to-use-for"") guide.
+
+# Examples
+
+**Let's keep it simple!**
+
+- If you are placing an image in a line of text (inline image), it should be no taller than 16 pixels.
+- If you are placing an image between two sentences in a set of steps or list (ordered or unordered), it should be set off with a semicolon. There's no need to add line breaks around images.
+
+## Markup for an inline image
+
+This is what the [wiki markup](\""https://support.mozilla.org/en-US/kb/markup-chart"") for an inline image looks like:  
+  
+`
+This is the text, followed by [[Image:The Image]], and this is the continuation of the text.
+`
+
+## Inline image example
+
+Here's a snippet of text. Right in the middle, we've inserted an inline image ![Menu hamburguer button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) of the Firefox menu button. Following that, we've added additional text.
+
+## Markup for an image in a set of steps
+
+This is what the [wiki markup](\""https://support.mozilla.org/en-US/kb/markup-chart"") for **setting an image off with a semicolon** looks like:  
+  
+`
+# This is a step.
+#;[[Image:The Image]]
+# This is the next step.
+`
+
+## Example of an image in a set of steps
+
+This is an example with longer text and a longer image:
+
+1. This is a step. And here are some additional words so you can see what they look like running above the image.<dl><dt>
+<img alt=""Protection panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-06-58-36-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+2. This is the next step, again, with extra words so you can see what they look like running below the image.
+
+# Knowledge Base guidelines
+
+If you're interested in learning more about writing and editing Knowledge Base articles, find [guidelines here](https://support.mozilla.org/products/contributor/kb).
+
+"
+16578,Secure website certificate,secure-website-certificate,https://support.mozilla.org/en-US/kb/secure-website-certificate,en-US,Websites can present Firefox with a certificate to identify themselves. Find out how Firefox checks the authenticity of the sites you visit.,"<p><a href=""https://developer.mozilla.org/docs/Web/Security/Transport_Layer_Security"">Transport Layer Security</a> (TLS) secure website certificates verify the ownership and the integrity of the information of websites you visit. This article explains how it works.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-websites-use-certificates""><span class=""tocnumber"">1</span> <span class=""toctext"">What websites use certificates?</span></a></li><li class=""toclevel-1""><a href=""#w_chain-of-trust""><span class=""tocnumber"">2</span> <span class=""toctext"">Chain of trust</span></a><ul><li class=""toclevel-2""><a href=""#w_how-does-firefox-verify-certificate-integrity""><span class=""tocnumber"">2.1</span> <span class=""toctext"">How does Firefox verify certificate integrity?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_viewing-a-certificate""><span class=""tocnumber"">3</span> <span class=""toctext"">Viewing a certificate</span></a></li><li class=""toclevel-1""><a href=""#w_certificate-content""><span class=""tocnumber"">4</span> <span class=""toctext"">Certificate content</span></a></li><li class=""toclevel-1""><a href=""#w_problematic-certificates""><span class=""tocnumber"">5</span> <span class=""toctext"">Problematic certificates</span></a></li></ul></div>
+<h1 id=""w_what-websites-use-certificates"">What websites use certificates?</h1>
+<p>Websites whose addresses start with <strong>https</strong> use TLS server certificates. Websites using TLS server certificates provide assurance of two things:
+</p>
+<ul><li> The website administrator owns or has control over the domain name, ensuring users connect to the legitimate site and not a spoofed or malicious copy the website.
+</li><li> Encrypted data exchange over TLS between the browser and the website is protected against eavesdropping or from being tampered with by unauthorized parties.
+</li></ul>
+<h1 id=""w_chain-of-trust"">Chain of trust</h1>
+<p>Browsers such as Firefox verify certificates through a hierarchy called a <strong>chain of trust</strong>, which typically consists of at least three certificates:
+</p>
+<ul><li> The root <strong>(trust anchor)</strong> certificate
+</li><li> One or more intermediate certificates
+</li><li> The TLS server <strong>(end entity)</strong> certificate
+</li></ul>
+<dl><dt><img alt=""Chain of trust diagram"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-10-11-02-32-3cb87c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>  
+</dt></dl>
+<p>The root certificate belongs to a <a href=""https://wikipedia.org/wiki/Certificate_authority"">Certificate Authority</a> (CA) that is trusted by the browser to issue other certificates. Typically, a root certificate issues one or more intermediate certificates that are then used to issue TLS server certificates to organizations that can demonstrate control over website domains specified by those certificates.
+</p><p>Certificates rely on public key cryptography, in which an asymmetric key pair has two mathematically related keys:
+</p>
+<ul><li> <strong>Private Key:</strong> This key is kept secret by its owner and is used for cryptographic operations such as signing data (including certificates) or decrypting information encrypted with the public key
+</li><li> <strong>Public Key:</strong> This key is shared publicly and is used to verify signatures created by the private key or to encrypt information that only the private key can decrypt
+</li></ul>
+<p>Public key certificates contain the following information:
+</p>
+<ul><li> Details about the Certificate Authority (CA) that issued the certificate
+</li><li> A public key belonging to the organization that received the certificate
+</li><li> Identifying details about the organization that holds the private key (see <a href=""#w_certificate-content"">Certificate content</a> below. For TLS server certificates, this is primarily the domain name of the website)
+</li></ul>
+<p>Now, we can describe how Firefox determines whether a website is secure. 
+</p>
+<h2 id=""w_how-does-firefox-verify-certificate-integrity"">How does Firefox verify certificate integrity?</h2>
+<p>This is how Firefox uses the chain of trust to verify TLS server certificates:
+</p>
+<ol><li> Firefox downloads the certificate of the website you visited.
+</li><li> Firefox checks the certificate against its internal database of trusted Certificate Authorities (CAs).
+<ul><li> It uses the public key of the root CA certificate to ensure that the root certificate and intermediate certificates have been properly signed down the chain to the TLS server certificate that the website has provided.
+</li></ul>
+</li><li> Firefox checks the information in the certificate to ensure that the website you're connected to matches the website listed in the certificate.
+</li><li> Firefox generates a symmetric key for encrypting HTTP traffic for the connection.
+</li><li> Firefox encrypts the symmetric key with the public key of the server, which is found in the server certificate.
+</li><li> The private key, which is on the web server, decrypts the necessary connection data to complete what is known as the <em>TLS handshake</em>.
+</li></ol>
+<p>Secure communication can then occur between Firefox and the website. 
+</p>
+<h1 id=""w_viewing-a-certificate"">Viewing a certificate</h1>
+<p>To view a certificate, follow these steps:
+</p>
+<ol><li> Click the <span class=""for"" data-for=""not fx149"">padlock icon <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149"">shield icon <img alt=""Fx149UnifiedTrustIcon-Secure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-16-02-8c168d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> </span>to the left of the address bar.
+</li><li> In the <span class=""for"" data-for=""not fx149""><a href=""/en-US/kb/site-information-panel"">Site Information panel</a></span><span class=""for"" data-for=""fx149"">Unified Trust panel</span> that opens, click <span class=""button"">Connection secure</span>.
+<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SiteInfo-ConnectionSecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-00-26-fbfa09.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> In the next panel, click <span class=""for"" data-for=""not fx149""><span class=""button"">More information</span></span><span class=""for"" data-for=""fx149""><span class=""button"">More site information</span></span>.
+<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SiteInfo-MoreInfo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-01-39-01bbf4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149ConnectionProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-51-17-1f4447.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> In the <a href=""/en-US/kb/firefox-page-info-window"">Page Info window</a> that opens, click <span class=""button"">View Certificate</span>.
+<dl><dt> <img alt=""Fx134SiteInfo-ViewCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-02-57-5b4ad2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<p>Firefox will now open the <em>about:certificate</em> page to display information about the certificate for the website you're on:
+</p>
+<dl><dt><img alt=""Fx134SiteInfo-AboutCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-06-58-47-7271a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>The three tabs show, from left to right, the TLS server certificate, the intermediate certificate and the root certificate.
+</p>
+<h1 id=""w_certificate-content"">Certificate content</h1>
+<p>TLS server certificates contain the following information:
+</p>
+<ul><li> <strong>Subject:</strong> Contains optional attributes, such as the website name and other information about the organization owning the certificate.
+</li><li> <strong>Issuer:</strong> Identifies the CA entity that issued the certificate.
+</li><li> <strong>Validity:</strong> Shows how long the certificate is valid for.
+</li><li> <strong>Subject Alt Name Extension:</strong> Lists the website addresses that the certificate is valid for.
+</li><li> <strong>Public Key Info:</strong> Lists attributes of the public key of the certificate.
+</li><li> <strong>Serial Number:</strong> Uniquely identifies the certificate.
+</li><li> <strong>Signature Algorithm:</strong> Algorithm used to create the Signature.
+</li><li> <strong>Fingerprints:</strong> Hash of the certificate file in <a href=""https://wiki.openssl.org/index.php/DER"">DER</a> binary format.
+</li><li> <strong>Key-Usage</strong> and <strong>Extended Key Usage</strong>: Specify how people can use the certificate, such as for performing TLS web server authentication.
+</li><li> <strong>Subject Key ID:</strong> An identifier generated from the TLS certificate's public key as a way to identify the certificate.
+</li><li> <strong>Authority Key ID:</strong> An identifier generated from the CA's public key as a way to identify the public key corresponding to the private key used to sign the certificate.
+</li><li> <strong>CRL Endpoints:</strong> The locations of the <a href=""https://csrc.nist.gov/glossary/term/certificate_revocation_list"">Certificate Revocation List</a> (CRL) of the issuing CA.
+</li><li> <strong>Authority Info:</strong> Contains the validation method for the certificate authority and the intermediate certificate file.
+</li><li> <strong>Certificate Policies:</strong> Contains pointers to the type of TLS certificate it is (e.g. information verified when the certificate was issued).
+</li><li> <strong>Embedded SCTs:</strong> Lists the <a href=""https://www.globalsign.com/en/blog/what-is-certificate-transparency"">Signed Certificate Timestamps</a> (SCTs).
+</li></ul>
+<h1 id=""w_problematic-certificates"">Problematic certificates</h1>
+<p>When you visit a website whose address starts with <strong>https</strong> and a problem with the TLS certificate is detected, the browser will display an error page. The <a href=""/en-US/kb/what-does-your-connection-is-not-secure-mean"">What do the security warning codes mean?</a> article describes common certificate errors.
+</p><p>To view the problematic certificate, follow these steps:
+</p>
+<ol><li> On the warning page, click <span class=""button"">Advanced…</span>.
+<dl><dt><span class=""for"" data-for=""not fx149""><img alt=""Fx134SecurityWarning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-42-51-0bd8b8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149WarningSecurityRisk-ClickAdvanced"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-41-56-4beff0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> Click <span class=""for"" data-for=""not fx149""><em>View Certificate</em></span><span class=""for"" data-for=""fx149""><em>View the site's certificate</em></span>.
+<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SecurityWarning-ViewCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-44-14-2f508e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149WarningSecurityRisk-ViewCertificate"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-12-09-14-4d9f18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<p>The bad certificate will now display.
+</p><p>
+</p>",firefox,privacy-and-security,"[Transport Layer Security](https://developer.mozilla.org/docs/Web/Security/Transport_Layer_Security) (TLS) secure website certificates verify the ownership and the integrity of the information of websites you visit. This article explains how it works.
+
+## Table of Contents
+
+- [1 What websites use certificates?](https://support.mozilla.org/kb/secure-website-certificate#w_what-websites-use-certificates)
+- [2 Chain of trust](https://support.mozilla.org/kb/secure-website-certificate#w_chain-of-trust)
+  - [2.1 How does Firefox verify certificate integrity?](https://support.mozilla.org/kb/secure-website-certificate#w_how-does-firefox-verify-certificate-integrity)
+
+- [3 Viewing a certificate](https://support.mozilla.org/kb/secure-website-certificate#w_viewing-a-certificate)
+- [4 Certificate content](https://support.mozilla.org/kb/secure-website-certificate#w_certificate-content)
+- [5 Problematic certificates](https://support.mozilla.org/kb/secure-website-certificate#w_problematic-certificates)
+
+# What websites use certificates?
+
+Websites whose addresses start with **https** use TLS server certificates. Websites using TLS server certificates provide assurance of two things:
+
+- The website administrator owns or has control over the domain name, ensuring users connect to the legitimate site and not a spoofed or malicious copy the website.
+- Encrypted data exchange over TLS between the browser and the website is protected against eavesdropping or from being tampered with by unauthorized parties.
+
+# Chain of trust
+
+Browsers such as Firefox verify certificates through a hierarchy called a **chain of trust** , which typically consists of at least three certificates:
+
+- The root **(trust anchor)** certificate
+- One or more intermediate certificates
+- The TLS server **(end entity)** certificate
+
+<dl><dt>
+<img alt=""Chain of trust diagram"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-10-11-02-32-3cb87c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>  
+</dt></dl>
+
+The root certificate belongs to a [Certificate Authority](https://wikipedia.org/wiki/Certificate_authority) (CA) that is trusted by the browser to issue other certificates. Typically, a root certificate issues one or more intermediate certificates that are then used to issue TLS server certificates to organizations that can demonstrate control over website domains specified by those certificates.
+
+Certificates rely on public key cryptography, in which an asymmetric key pair has two mathematically related keys:
+
+- **Private Key:** This key is kept secret by its owner and is used for cryptographic operations such as signing data (including certificates) or decrypting information encrypted with the public key
+- **Public Key:** This key is shared publicly and is used to verify signatures created by the private key or to encrypt information that only the private key can decrypt
+
+Public key certificates contain the following information:
+
+- Details about the Certificate Authority (CA) that issued the certificate
+- A public key belonging to the organization that received the certificate
+- Identifying details about the organization that holds the private key (see [Certificate content](https://support.mozilla.org/kb/secure-website-certificate#w_certificate-content) below. For TLS server certificates, this is primarily the domain name of the website)
+
+Now, we can describe how Firefox determines whether a website is secure.
+
+## How does Firefox verify certificate integrity?
+
+This is how Firefox uses the chain of trust to verify TLS server certificates:
+
+1. Firefox downloads the certificate of the website you visited.
+2. Firefox checks the certificate against its internal database of trusted Certificate Authorities (CAs).
+  - It uses the public key of the root CA certificate to ensure that the root certificate and intermediate certificates have been properly signed down the chain to the TLS server certificate that the website has provided.
+
+3. Firefox checks the information in the certificate to ensure that the website you're connected to matches the website listed in the certificate.
+4. Firefox generates a symmetric key for encrypting HTTP traffic for the connection.
+5. Firefox encrypts the symmetric key with the public key of the server, which is found in the server certificate.
+6. The private key, which is on the web server, decrypts the necessary connection data to complete what is known as the _TLS handshake_.
+
+Secure communication can then occur between Firefox and the website.
+
+# Viewing a certificate
+
+To view a certificate, follow these steps:
+
+1. Click the padlock icon ![Fx89Padlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)shield icon ![Fx149UnifiedTrustIcon-Secure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to the left of the address bar.
+2. In the [Site Information panel](\""https://support.mozilla.org/en-US/kb/site-information-panel"")Unified Trust panel that opens, click Connection secure.<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SiteInfo-ConnectionSecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-00-26-fbfa09.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. In the next panel, click More informationMore site information.<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SiteInfo-MoreInfo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-01-39-01bbf4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149ConnectionProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-51-17-1f4447.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+4. In the [Page Info window](\""https://support.mozilla.org/en-US/kb/firefox-page-info-window"") that opens, click View Certificate.<dl><dt> <img alt=""Fx134SiteInfo-ViewCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-02-57-5b4ad2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+Firefox will now open the _about:certificate_ page to display information about the certificate for the website you're on:
+
+<dl><dt>
+<img alt=""Fx134SiteInfo-AboutCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-06-58-47-7271a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+The three tabs show, from left to right, the TLS server certificate, the intermediate certificate and the root certificate.
+
+# Certificate content
+
+TLS server certificates contain the following information:
+
+- **Subject:** Contains optional attributes, such as the website name and other information about the organization owning the certificate.
+- **Issuer:** Identifies the CA entity that issued the certificate.
+- **Validity:** Shows how long the certificate is valid for.
+- **Subject Alt Name Extension:** Lists the website addresses that the certificate is valid for.
+- **Public Key Info:** Lists attributes of the public key of the certificate.
+- **Serial Number:** Uniquely identifies the certificate.
+- **Signature Algorithm:** Algorithm used to create the Signature.
+- **Fingerprints:** Hash of the certificate file in [DER](https://wiki.openssl.org/index.php/DER) binary format.
+- **Key-Usage** and **Extended Key Usage** : Specify how people can use the certificate, such as for performing TLS web server authentication.
+- **Subject Key ID:** An identifier generated from the TLS certificate's public key as a way to identify the certificate.
+- **Authority Key ID:** An identifier generated from the CA's public key as a way to identify the public key corresponding to the private key used to sign the certificate.
+- **CRL Endpoints:** The locations of the [Certificate Revocation List](https://csrc.nist.gov/glossary/term/certificate_revocation_list) (CRL) of the issuing CA.
+- **Authority Info:** Contains the validation method for the certificate authority and the intermediate certificate file.
+- **Certificate Policies:** Contains pointers to the type of TLS certificate it is (e.g. information verified when the certificate was issued).
+- **Embedded SCTs:** Lists the [Signed Certificate Timestamps](https://www.globalsign.com/en/blog/what-is-certificate-transparency) (SCTs).
+
+# Problematic certificates
+
+When you visit a website whose address starts with **https** and a problem with the TLS certificate is detected, the browser will display an error page. The [What do the security warning codes mean?](\""https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean"") article describes common certificate errors.
+
+To view the problematic certificate, follow these steps:
+
+1. On the warning page, click Advanced….<dl><dt>
+<span class=""for"" data-for=""not fx149""><img alt=""Fx134SecurityWarning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-42-51-0bd8b8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149WarningSecurityRisk-ClickAdvanced"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-41-56-4beff0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+2. Click _View Certificate__View the site's certificate_.<dl><dt> <span class=""for"" data-for=""not fx149""><img alt=""Fx134SecurityWarning-ViewCert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-22-07-44-14-2f508e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149WarningSecurityRisk-ViewCertificate"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-12-09-14-4d9f18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+The bad certificate will now display.
+
+"
 16601,How to translate SUMO KB articles in Bengali,how-translate-sumo-kb-articles-bengali,https://support.mozilla.org/en-US/kb/how-translate-sumo-kb-articles-bengali,en-US,Translating SUMO KB articles in Bengali,"<div class=""note"">This article will help you to translate KB articles in Bengali. If you want to translate SUMO interface look at the article <a href=""/en-US/kb/localize-sumo-interface"">How to localize the SUMO interface</a>  . </div>
 <p>Steps to Translate Articles:
 </p>
@@ -60408,6 +60827,99 @@ In this example, we are setting the `BlockAboutConfig` policy to `true`, which m
 
 **NOTE:** The above method will not work if Firefox is already being managed using Group Policy.
 "
+40056,Deploy Firefox customizations on macOS,deploying-firefox-customizations-macos,https://support.mozilla.org/en-US/kb/deploying-firefox-customizations-macos,en-US,How to run customizations on Mac.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>To deploy Firefox customizations on macOS:
+</p>
+<h1 id=""w_step-1-install-firefox"">Step 1: Install Firefox</h1>
+<ol><li>Download Firefox and then open the disk image.
+</li><li>Drag the Firefox application onto your desktop or some other location so that you can modify it.
+</li></ol>
+<h1 id=""w_step-2-remove-quarantine-set-by-macos"">Step 2: Remove quarantine set by macOS</h1>
+<p>Before you modify any files in the Firefox application, you must remove the quarantine that macOS sets by default for applications downloaded from the Internet. To do this, run the following command from a Terminal:
+</p><pre>xattr -r -d com.apple.quarantine Firefox.app
+</pre>
+<p>If you see an error on startup that says:
+</p><p>Firefox is damaged and can’t be opened. You should move it to the Trash.
+</p><p>This means that you did not run this command.
+</p>
+<h1 id=""w_step-3-deploy-customizations"">Step 3: Deploy customizations</h1>
+<h2 id=""w_deploy-customizations-made-with-policies-json"">Deploy customizations made with policies.json</h2>
+<p>If you want to deploy customizations that were made with policies.json, create a directory called <em>distribution</em> in the Contents/Resources directory and place the <em>policies.json</em> file into that directory.
+</p>
+<h2 id=""w_deploy-customizations-made-with-autoconfig"">Deploy customizations made with Autoconfig</h2>
+<p>If you want to deploy customizations that were made with AutoConfig, place the <em>autoconfig.js</em> file into the Contents/Resources/defaults/pref directory and the <em>firefox.cfg</em> file into the Contents/Resources directory.
+</p><p>Once you have made the changes that you need, you can deploy the customized Firefox.app file.
+</p>",firefox-enterprise,installation-and-updates,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+To deploy Firefox customizations on macOS:
+
+# Step 1: Install Firefox
+
+1. Download Firefox and then open the disk image.
+2. Drag the Firefox application onto your desktop or some other location so that you can modify it.
+
+# Step 2: Remove quarantine set by macOS
+
+Before you modify any files in the Firefox application, you must remove the quarantine that macOS sets by default for applications downloaded from the Internet. To do this, run the following command from a Terminal:
+
+    xattr -r -d com.apple.quarantine Firefox.app
+
+If you see an error on startup that says:
+
+Firefox is damaged and can’t be opened. You should move it to the Trash.
+
+This means that you did not run this command.
+
+# Step 3: Deploy customizations
+
+## Deploy customizations made with policies.json
+
+If you want to deploy customizations that were made with policies.json, create a directory called _distribution_ in the Contents/Resources directory and place the _policies.json_ file into that directory.
+
+## Deploy customizations made with Autoconfig
+
+If you want to deploy customizations that were made with AutoConfig, place the _autoconfig.js_ file into the Contents/Resources/defaults/pref directory and the _firefox.cfg_ file into the Contents/Resources directory.
+
+Once you have made the changes that you need, you can deploy the customized Firefox.app file.
+
+"
+40071,Access hidden tabs in Firefox,access-hidden-tabs-firefox,https://support.mozilla.org/en-US/kb/access-hidden-tabs-firefox,en-US,Firefox lets you know when there are tabs hidden in the background so you can access them easily.,"<div class=""for"" data-for=""not fx61""><div class=""warning"">Please <a href=""/en-US/kb/update-firefox-latest-release"">update your version of Firefox</a> for the latest features and security updates.</div></div>
+<p></p>
+<h1 id=""w_how-do-i-know-if-i-have-hidden-tabs"">How do I know if I have hidden tabs?</h1>
+<p>When you hide a tab for the first time using an extension, Firefox will alert you. From here, you can keep the tab hidden or unhide it and disable the extension.
+</p><p>Clicking <img alt=""hidden tabs icon 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-07-29-47-40a658.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> will also show you what tabs you have hidden.
+</p>
+<h1 id=""w_how-do-i-access-my-hidden-tabs"">How do I access my hidden tabs?</h1>
+<p>Access your hidden tabs by clicking the <img alt=""hidden tabs icon 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-07-29-47-40a658.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon on the toolbar. 
+</p>
+<dl><dt><img alt=""hidden tabs 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-52-50-7ec254.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_how-do-i-find-a-hidden-tab-that-is-playing-audio"">How do I find a hidden tab that is playing audio?</h1>
+<p>When a hidden tab is playing sound, the speaker icon will show up on the hidden tab icon <img alt=""hidden tab audio 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-49-40-908077.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>. If you click on the icon, the audio indicator will also show which hidden tab from the list is playing audio.
+</p>
+<dl><dt><img alt=""hidden tab audio list 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-51-11-56ab49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>",firefox,settings,"Please [update your version of Firefox](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"") for the latest features and security updates.
+
+# How do I know if I have hidden tabs?
+
+When you hide a tab for the first time using an extension, Firefox will alert you. From here, you can keep the tab hidden or unhide it and disable the extension.
+
+Clicking ![hidden tabs icon 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) will also show you what tabs you have hidden.
+
+# How do I access my hidden tabs?
+
+Access your hidden tabs by clicking the ![hidden tabs icon 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon on the toolbar.
+
+<dl><dt>
+<img alt=""hidden tabs 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-52-50-7ec254.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# How do I find a hidden tab that is playing audio?
+
+When a hidden tab is playing sound, the speaker icon will show up on the hidden tab icon ![hidden tab audio 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). If you click on the icon, the audio indicator will also show which hidden tab from the list is playing audio.
+
+<dl><dt>
+<img alt=""hidden tab audio list 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-51-11-56ab49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>"
 40203,Download photos and files on Firefox for iOS,download-photos-and-files-firefox-ios,https://support.mozilla.org/en-US/kb/download-photos-and-files-firefox-ios,en-US,Save the photos and files you want from the web to your iOS device.,"<p>Firefox makes it easy to download photos and PDF files on your iPhone or iPad. The downloads panel on the Firefox home screen makes it easy to find the files you downloaded.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_download-files""><span class=""tocnumber"">1</span> <span class=""toctext"">Download files</span></a></li><li class=""toclevel-1""><a href=""#w_access-downloaded-files""><span class=""tocnumber"">2</span> <span class=""toctext"">Access downloaded files</span></a></li><li class=""toclevel-1""><a href=""#w_share-or-delete-a-downloaded-file""><span class=""tocnumber"">3</span> <span class=""toctext"">Share or delete a downloaded file</span></a></li></ul></div>
@@ -73888,220 +74400,6 @@ To view and edit your passwords, see [Manage your logins with the Firefox Passwo
 
 **Tip:** If coming up with your own password, remember not to reuse passwords between sites or have a password that is easy to guess. See [Choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"").
 "
-47945,How to pin and unpin Firefox from the taskbar on Windows 10 and Windows 11,how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11,https://support.mozilla.org/en-US/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11,en-US,Learn how to pin and unpin Firefox from the taskbar in Windows 10 and Windows 11.,"<p>This article describes how to pin Firefox to the taskbar on Windows for easy access. To learn how to set Firefox as your default browser, see <a href=""/en-US/kb/how-change-your-default-browser-firefox-windows"">Make Firefox your default browser on Windows</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_pin-firefox-from-the-taskbar""><span class=""tocnumber"">1</span> <span class=""toctext"">Pin Firefox from the taskbar</span></a></li><li class=""toclevel-1""><a href=""#w_pin-firefox-from-the-start-menu""><span class=""tocnumber"">2</span> <span class=""toctext"">Pin Firefox from the start menu</span></a><ul><li class=""toclevel-2""><a href=""#w_windows-10""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Windows 10</span></a></li><li class=""toclevel-2""><a href=""#w_windows-11""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Windows 11</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_unpin-firefox-from-the-taskbar""><span class=""tocnumber"">3</span> <span class=""toctext"">Unpin Firefox from the taskbar</span></a></li><li class=""toclevel-1""><a href=""#w_unpin-firefox-from-the-start-menu""><span class=""tocnumber"">4</span> <span class=""toctext"">Unpin Firefox from the start menu</span></a></li></ul></div>
-<h1 id=""w_pin-firefox-from-the-taskbar"">Pin Firefox from the taskbar</h1>
-<ol><li>Open Firefox on your computer. The Firefox icon will appear in the taskbar.  
-</li><li>Right-click on the icon and select <span class=""menu"">Pin to taskbar</span>.
-<dl><dt><img alt=""pin firefox to task bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-23-26-4cbc93.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h1 id=""w_pin-firefox-from-the-start-menu"">Pin Firefox from the start menu</h1>
-<h2 id=""w_windows-10"">Windows 10</h2>
-<ol><li>Click the Windows menu button in the taskbar.
-</li><li>Find the Firefox browser. Right-click on it and select <span class=""menu"">Pin to taskbar</span>.
-</li></ol>
-<h2 id=""w_windows-11"">Windows 11</h2>
-<ol><li>Click the Windows menu button in the taskbar.
-</li><li>Click the <span class=""button"">ALL</span> button at the top right side of the apps panel.
-<dl><dt><img alt=""ALL start menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-19-51-82fa79.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Hover over the Firefox browser and right-click on it and select <span class=""menu"">Pin to taskbar</span>.
-</li></ol>
-<p>Alternatively, you can drag the Firefox icon directly from your desktop onto the taskbar.
-</p>
-<h1 id=""w_unpin-firefox-from-the-taskbar"">Unpin Firefox from the taskbar</h1>
-<ol><li> Right-click the Firefox icon in the taskbar.
-</li><li> Select <span class=""menu"">Unpin from taskbar</span>.
-<dl><dt><img alt=""Unpin from taskbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-32-12-08caaa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h1 id=""w_unpin-firefox-from-the-start-menu"">Unpin Firefox from the start menu</h1>
-<ol><li>Click the Windows menu button in the taskbar.
-<dl><dt><img alt=""start"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-18-55-ea2b26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Hover over the Firefox browser and right-click it.
-</li><li>Select <span class=""menu"">Unpin from Start</span>.
-<dl><dt><img alt=""Unpin from start"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-20-48-bb7926.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>",firefox,customization;settings,"This article describes how to pin Firefox to the taskbar on Windows for easy access. To learn how to set Firefox as your default browser, see [Make Firefox your default browser on Windows](\""https://support.mozilla.org/en-US/kb/how-change-your-default-browser-firefox-windows"").
-
-## Table of Contents
-
-- [1 Pin Firefox from the taskbar](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_pin-firefox-from-the-taskbar)
-- [2 Pin Firefox from the start menu](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_pin-firefox-from-the-start-menu)
-  - [2.1 Windows 10](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_windows-10)
-  - [2.2 Windows 11](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_windows-11)
-
-- [3 Unpin Firefox from the taskbar](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_unpin-firefox-from-the-taskbar)
-- [4 Unpin Firefox from the start menu](https://support.mozilla.org/kb/how-pin-and-unpin-firefox-taskbar-windows-10-and-windows-11#w_unpin-firefox-from-the-start-menu)
-
-# Pin Firefox from the taskbar
-
-1. Open Firefox on your computer. The Firefox icon will appear in the taskbar. 
-2. Right-click on the icon and select Pin to taskbar.<dl><dt>
-<img alt=""pin firefox to task bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-23-26-4cbc93.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Pin Firefox from the start menu
-
-## Windows 10
-
-1. Click the Windows menu button in the taskbar.
-2. Find the Firefox browser. Right-click on it and select Pin to taskbar.
-
-## Windows 11
-
-1. Click the Windows menu button in the taskbar.
-2. Click the ALL button at the top right side of the apps panel.<dl><dt>
-<img alt=""ALL start menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-19-51-82fa79.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. Hover over the Firefox browser and right-click on it and select Pin to taskbar.
-
-Alternatively, you can drag the Firefox icon directly from your desktop onto the taskbar.
-
-# Unpin Firefox from the taskbar
-
-1. Right-click the Firefox icon in the taskbar.
-2. Select Unpin from taskbar.<dl><dt>
-<img alt=""Unpin from taskbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-32-12-08caaa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Unpin Firefox from the start menu
-
-1. Click the Windows menu button in the taskbar.<dl><dt>
-<img alt=""start"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-18-55-ea2b26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Hover over the Firefox browser and right-click it.
-3. Select Unpin from Start.<dl><dt>
-<img alt=""Unpin from start"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-13-20-48-bb7926.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-"
-48460,Transfer information from the old to new Firefox for Android (Nightly or Beta),sync-delist,https://support.mozilla.org/en-US/kb/sync-delist,en-US,"You can move your bookmarks, saved logins and browsing history by enabling Sync on your current Nightly browser, then on the new Nightly.","<p>
-</p><p>Firefox Nightly for Android and Firefox Preview Nightly are no longer being supported, but you can transfer your browsing information from these old versions to the new <a href=""https://play.google.com/store/apps/details?id=org.mozilla.fenix"">Firefox Nightly</a>. We'll walk you through the steps here.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-sync-on-firefox-nightly""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable Sync on Firefox Nightly</span></a><ul><li class=""toclevel-2""><a href=""#w_step-one-sign-up-for-a-mozilla-account""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Step One: Sign up for a Mozilla account</span></a></li><li class=""toclevel-2""><a href=""#w_step-two-choose-the-information-you-want-to-sync""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Step Two: Choose the information you want to sync</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_enable-sync-on-firefox-preview-nightly""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable Sync on Firefox Preview Nightly</span></a><ul><li class=""toclevel-2""><a href=""#w_step-one-sign-in-to-mozilla-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Step One: Sign in to Mozilla account</span></a></li><li class=""toclevel-2""><a href=""#w_step-two-choose-what-to-sync""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Step Two: Choose what to sync</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_final-step-download-firefox-nightly-and-turn-on-sync""><span class=""tocnumber"">3</span> <span class=""toctext"">Final Step: Download Firefox Nightly and turn on Sync</span></a></li></ul></div>
-<p>You can move your bookmarks, saved logins and browsing history by enabling Sync on your current Nightly browser, then on the new Nightly.
-</p>
-<h1 id=""w_enable-sync-on-firefox-nightly"">Enable Sync on Firefox Nightly</h1>
-<h2 id=""w_step-one-sign-up-for-a-mozilla-account"">Step One: Sign up for a Mozilla account</h2>
-<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button and select <span class=""menu"">Settings</span> (you may need to tap <span class=""menu"">More</span> first)
-.
-</li><li>Tap <span class=""menu"">Turn on Sync</span> (this might say <span class=""menu"">Sign in</span> on some versions of Nightly.) The Mozilla account page will open in a new tab.
-</li><li>Sign in if you already have an account. Otherwise, continue with the following steps to create an account.
-</li><li>Tap the <em>Create an account</em> link at the bottom of the page or sign in if you already have an account.
-<dl><dt><ul><li>Fill out the form to create an account and tap on <span class=""button"">Create account</span>. Take note of the email address and password you used, you'll need it later to log in.
-</li></ul>
-</dt></dl>
-</li><li>Check your emails for the verification link and tap on it to confirm your account.
-</li></ol>
-<h2 id=""w_step-two-choose-the-information-you-want-to-sync"">Step Two: Choose the information you want to sync</h2>
-<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button.
-</li><li>Tap <span class=""menu"">Settings</span> (you may need to tap <span class=""menu"">More</span> first)
-.
-</li><li>Tap your email address that displays at the top.
-</li><li>By default, your bookmarks, history and logins are set up to sync. Uncheck the boxes next to anything you don’t want to sync between devices.
-<dl><dt>Your changes will save automatically when you exit.
-</dt></dl>
-</li></ol>
-<p>Download the new Nightly and enable sync there. (see final step for more instructions).
-</p>
-<h1 id=""w_enable-sync-on-firefox-preview-nightly"">Enable Sync on Firefox Preview Nightly</h1>
-<h2 id=""w_step-one-sign-in-to-mozilla-account"">Step One: Sign in to Mozilla account</h2>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">Turn on Sync</span>.
-</li><li>Sign in using the QR code pairing or email login. If you don't have a Mozilla account, tap the <span class=""button"">Use email instead</span> and enter your email address. Firefox will walk you through the steps to create an account.
-</li></ol>
-<h2 id=""w_step-two-choose-what-to-sync"">Step Two: Choose what to sync</h2>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap your email address.
-</li><li>The following are set up to sync by default. Uncheck the items you don’t want to sync.
-<ul><li>Bookmarks
-</li><li>History
-</li><li>Logins
-</li></ul>
-</li></ol>
-<p>Download the <a href=""https://play.google.com/store/apps/details?id=org.mozilla.fenix"">new Nightly</a>  and enable sync there. (see final step for more instructions).
-</p>
-<h1 id=""w_final-step-download-firefox-nightly-and-turn-on-sync"">Final Step: Download Firefox Nightly and turn on Sync</h1>
-<ol><li>Find Firefox Preview in the Google Play store or tap <a href=""https://play.google.com/store/apps/details?id=org.mozilla.fenix"">here</a>.
-</li><li>Enable sync on Firefox Nightly by tapping the menu button, then <span class=""menu"">Settings</span>, then <span class=""button"">Turn on Sync</span> or by following the steps in <a href=""/en-US/kb/how-set-firefox-sync-firefox-android-beta"">How to set up Firefox Sync in Firefox for Android Beta</a>. 
-</li><li>The information you chose to sync will be synced to your new installation of Firefox Nightly.
-</li></ol>",firefox-preview,sync-data,"Firefox Nightly for Android and Firefox Preview Nightly are no longer being supported, but you can transfer your browsing information from these old versions to the new [Firefox Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix). We'll walk you through the steps here.
-
-## Table of Contents
-
-- [1 Enable Sync on Firefox Nightly](https://support.mozilla.org/kb/sync-delist#w_enable-sync-on-firefox-nightly)
-  - [1.1 Step One: Sign up for a Mozilla account](https://support.mozilla.org/kb/sync-delist#w_step-one-sign-up-for-a-mozilla-account)
-  - [1.2 Step Two: Choose the information you want to sync](https://support.mozilla.org/kb/sync-delist#w_step-two-choose-the-information-you-want-to-sync)
-
-- [2 Enable Sync on Firefox Preview Nightly](https://support.mozilla.org/kb/sync-delist#w_enable-sync-on-firefox-preview-nightly)
-  - [2.1 Step One: Sign in to Mozilla account](https://support.mozilla.org/kb/sync-delist#w_step-one-sign-in-to-mozilla-account)
-  - [2.2 Step Two: Choose what to sync](https://support.mozilla.org/kb/sync-delist#w_step-two-choose-what-to-sync)
-
-- [3 Final Step: Download Firefox Nightly and turn on Sync](https://support.mozilla.org/kb/sync-delist#w_final-step-download-firefox-nightly-and-turn-on-sync)
-
-You can move your bookmarks, saved logins and browsing history by enabling Sync on your current Nightly browser, then on the new Nightly.
-
-# Enable Sync on Firefox Nightly
-
-## Step One: Sign up for a Mozilla account
-
-1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button and select Settings (you may need to tap More first) .
-2. Tap Turn on Sync (this might say Sign in on some versions of Nightly.) The Mozilla account page will open in a new tab.
-3. Sign in if you already have an account. Otherwise, continue with the following steps to create an account.
-4. Tap the _Create an account_ link at the bottom of the page or sign in if you already have an account.<dl><dt>
-<ul><li>Fill out the form to create an account and tap on <span class=""button"">Create account</span>. Take note of the email address and password you used, you'll need it later to log in.
-</li></ul>
-</dt></dl>
-5. Check your emails for the verification link and tap on it to confirm your account.
-
-## Step Two: Choose the information you want to sync
-
-1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button.
-2. Tap Settings (you may need to tap More first) .
-3. Tap your email address that displays at the top.
-4. By default, your bookmarks, history and logins are set up to sync. Uncheck the boxes next to anything you don’t want to sync between devices.<dl><dt>Your changes will save automatically when you exit.
-</dt></dl>
-
-Download the new Nightly and enable sync there. (see final step for more instructions).
-
-# Enable Sync on Firefox Preview Nightly
-
-## Step One: Sign in to Mozilla account
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Turn on Sync.
-4. Sign in using the QR code pairing or email login. If you don't have a Mozilla account, tap the Use email instead and enter your email address. Firefox will walk you through the steps to create an account.
-
-## Step Two: Choose what to sync
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap your email address.
-4. The following are set up to sync by default. Uncheck the items you don’t want to sync.
-  - Bookmarks
-  - History
-  - Logins
-
-Download the [new Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix) and enable sync there. (see final step for more instructions).
-
-# Final Step: Download Firefox Nightly and turn on Sync
-
-1. Find Firefox Preview in the Google Play store or tap [here](https://play.google.com/store/apps/details?id=org.mozilla.fenix).
-2. Enable sync on Firefox Nightly by tapping the menu button, then Settings, then Turn on Sync or by following the steps in [How to set up Firefox Sync in Firefox for Android Beta](\""https://support.mozilla.org/en-US/kb/how-set-firefox-sync-firefox-android-beta""). 
-3. The information you chose to sync will be synced to your new installation of Firefox Nightly.
-
-"
 48473,Profile Manager - Create and remove Thunderbird profiles,profile-manager-create-and-remove-thunderbird-profiles,https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-thunderbird-profiles,en-US,Thunderbird stores your personal information and settings in a profile folder. Learn to work with different profiles on Thunderbird.,"<p>Thunderbird saves your personal information such as messages, passwords and user preferences in a set of files called your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">profile</a>, which is stored in a separate location from the Thunderbird program files. You can have multiple Thunderbird profiles, each containing a separate set of user information. The Profile Manager allows you to create, remove, rename, and switch profiles.
 </p>
 <ul><li>If you have (or plan to have) multiple installations of Thunderbird on one computer, see <a href=""/en-US/kb/dedicated-profile-thunderbird-installation"">Dedicated profile per Thunderbird installation</a>.
@@ -83717,96 +84015,6 @@ To set Firefox Focus as the default browser on your iOS device, you must must ha
 3. Choose Firefox Focus from the list.
 
 "
-55251,Set Firefox Klar as the default browser for iOS,set-firefox-klar-default-browser-ios,https://support.mozilla.org/en-US/kb/set-firefox-klar-default-browser-ios,en-US,Learn how to set Firefox Klar as your default browser on iOS.,"<p>
-If you're on an iOS 14+, you can set Firefox Klar as your default browser. By making Firefox Klar your default, any links you click on in other apps will automatically open in Firefox Klar, a browser that respects your privacy.
-</p>
-<h1 id=""w_set-firefox-klar-as-default-browser-requires-ios-14"">Set Firefox Klar as default browser (requires iOS 14)</h1>
-<div class=""note"">To set Firefox Klar as the default browser on your iOS device, you must must have iOS 14 (or higher).</div>
-<ol><li>Go to <strong>Settings</strong> on your  iPhone, then scroll down and tap <span class=""menu"">Firefox Klar</span>.
-</li><li>Tap <span class=""menu"">Default Browser App</span>.
-<dl><dt><img alt=""set default ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-16-14-13-35-24264e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-</li><li>Choose <span class=""menu"">Firefox Klar</span> from the list.
-</li></ol>",klar,firefox-klar-ios,"If you're on an iOS 14+, you can set Firefox Klar as your default browser. By making Firefox Klar your default, any links you click on in other apps will automatically open in Firefox Klar, a browser that respects your privacy.
-
-# Set Firefox Klar as default browser (requires iOS 14)
-
-To set Firefox Klar as the default browser on your iOS device, you must must have iOS 14 (or higher).
-
-1. Go to **Settings** on your iPhone, then scroll down and tap Firefox Klar.
-2. Tap Default Browser App.<dl><dt>
-<img alt=""set default ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-16-14-13-35-24264e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-3. Choose Firefox Klar from the list.
-
-"
-55275,What's new in Firefox for iOS (version 38),whats-new-firefox-ios-version-38,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-38,en-US,See what's new in the latest release.,"<p>Welcome to a new Firefox for iOS release. This update comes with the new pull to refresh feature that allows users to quickly reload a webpage by pulling down from the top of a page.
-</p>
-<ul><li>Bug fix: the address bar is selected and the keyboard doesn't disappear when users interact with the home page.
-</li></ul>
-<p>We hope you enjoy this version.
-</p><p>Thank you for helping us improve Firefox, and stay tuned for more improvements with each upcoming release.
-</p>",ios,installation-and-updates;update,"Welcome to a new Firefox for iOS release. This update comes with the new pull to refresh feature that allows users to quickly reload a webpage by pulling down from the top of a page.
-
-- Bug fix: the address bar is selected and the keyboard doesn't disappear when users interact with the home page.
-
-We hope you enjoy this version.
-
-Thank you for helping us improve Firefox, and stay tuned for more improvements with each upcoming release.
-
-"
-55291,Firefox for Enterprise 93 - Release notes,firefox-enterprise-93-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-93-release-notes,en-US,See what's coming out with Firefox for Enterprise 93.,"<p>Except where noted, everything here applies to both Firefox 93 and the Firefox 91.2 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">3</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_general"">General</h1>
-<ul><li>Firefox now protects against insecure downloads by blocking downloads relying on insecure connections. For more information, see <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1685479"">bug 1685479</a>. If you need to change this behavior, you can modify the preference dom.block_download_insecure via policy. This only applies to Firefox 93.
-</li></ul>
-<ul><li>TLS ciphersuites that use 3DES have been disabled. Such ciphersuites can only be enabled when deprecated versions of TLS are also enabled. For more information, see <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1724072"">bug 1724072</a>. This only applies to Firefox 93.
-</li></ul>
-<h1 id=""w_bug-fixes"">Bug fixes</h1>
-<ul><li>The Mozilla VPN offer no longer shows on the private browsing page when policies are enabled.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#sanitizeonshutdown-all"">SanitizeOnShutdown (All)</a> policy was not properly honoring a false value.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#preferences"">Preferences</a> policy has been updated to allow setting the preference <code>security.tls.enable_0rtt_data</code>. This change was also made to the Firefox 78 ESR.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-</li></ul>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports macOS versions &lt; 10.12.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 93 and the Firefox 91.2 ESR.
-
-## Table of Contents
-
-- [1 General](https://support.mozilla.org/kb/firefox-enterprise-93-release-notes#w_general)
-- [2 Bug fixes](https://support.mozilla.org/kb/firefox-enterprise-93-release-notes#w_bug-fixes)
-- [3 Policies](https://support.mozilla.org/kb/firefox-enterprise-93-release-notes#w_policies)
-- [4 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-93-release-notes#w_special-notes)
-
-# General
-
-- Firefox now protects against insecure downloads by blocking downloads relying on insecure connections. For more information, see [bug 1685479](https://bugzilla.mozilla.org/show_bug.cgi?id=1685479). If you need to change this behavior, you can modify the preference dom.block\_download\_insecure via policy. This only applies to Firefox 93.
-
-- TLS ciphersuites that use 3DES have been disabled. Such ciphersuites can only be enabled when deprecated versions of TLS are also enabled. For more information, see [bug 1724072](https://bugzilla.mozilla.org/show_bug.cgi?id=1724072). This only applies to Firefox 93.
-
-# Bug fixes
-
-- The Mozilla VPN offer no longer shows on the private browsing page when policies are enabled.
-
-# Policies
-
-- The [SanitizeOnShutdown (All)](https://github.com/mozilla/policy-templates/blob/master/README.md#sanitizeonshutdown-all) policy was not properly honoring a false value.
-
-- The [Preferences](https://github.com/mozilla/policy-templates/blob/master/README.md#preferences) policy has been updated to allow setting the preference `security.tls.enable_0rtt_data`. This change was also made to the Firefox 78 ESR.
-
-# Special Notes
-
-- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-
-- The Firefox 78 ESR is the last version of Firefox that supports macOS versions \< 10.12.
-
-"
 55386,How do I reset Mozilla VPN?,how-remove-mozilla-vpn-app-data-your-device,https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data-your-device,en-US,This article explains how to clear Mozilla VPN app data from your device.,"<p>The VPN reset functionality is a feature that lets you clear all Mozilla VPN data and settings and returns it to the state it was when you first installed it.
 </p>
 <h1 id=""w_when-should-a-reset-be-considered"">When should a reset be considered?</h1>
@@ -84758,7 +84966,7 @@ As a workaround, try selecting a territory that uses English as its primary lang
 - [How to remove Mozilla VPN App Data](https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data?utm_source=-vpn-related)
 
 "
-55871,Firefox Relay Premium FAQ,firefox-relay-premium-faq,https://support.mozilla.org/en-US/kb/firefox-relay-premium-faq,en-US,"In this article, you will find answers to frequently asked questions about Relay premium.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-a-regular-email-mask-and-a-custom-domain-email-mask""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between a regular email mask and a custom domain email mask?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-edit-a-random-email-mask-that-i-have-automatically-generated""><span class=""tocnumber"">2</span> <span class=""toctext"">Can I edit a random email mask that I have automatically generated?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-use-symbols-when-i-create-a-mask-with-my-unique-relay-domain""><span class=""tocnumber"">3</span> <span class=""toctext"">Can I use symbols when I create a mask with my unique Relay domain?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-the-name-of-my-relay-unique-email-domain-after-it-was-created""><span class=""tocnumber"">4</span> <span class=""toctext"">Can I change the name of my Relay unique email domain after it was created?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-that-i-already-created""><span class=""tocnumber"">5</span> <span class=""toctext"">Can I reuse a mask that I already created?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-that-i-have-disabled""><span class=""tocnumber"">6</span> <span class=""toctext"">Can I reuse a mask that I have disabled?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-i-deleted""><span class=""tocnumber"">7</span> <span class=""toctext"">Can I reuse a mask I deleted?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-or-generate-a-mask-for-any-website""><span class=""tocnumber"">8</span> <span class=""toctext"">Can I reuse or generate a mask for any website?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-filter-which-emails-i-receive-through-my-masks""><span class=""tocnumber"">9</span> <span class=""toctext"">Can I filter which emails I receive through my masks?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-if-i-mark-an-email-as-spam""><span class=""tocnumber"">10</span> <span class=""toctext"">What happens if I mark an email as spam?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-save-a-login-with-an-automatically-generated-mask""><span class=""tocnumber"">11</span> <span class=""toctext"">Can I save a login with an automatically generated mask?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-attach-files-to-my-messages""><span class=""tocnumber"">12</span> <span class=""toctext"">Can I attach files to my messages?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reply-to-an-email-from-my-dashboard""><span class=""tocnumber"">13</span> <span class=""toctext"">Can I reply to an email from my dashboard?</span></a></li><li class=""toclevel-1""><a href=""#w_is-there-a-limitation-on-replies-i-can-send""><span class=""tocnumber"">14</span> <span class=""toctext"">Is there a limitation on Replies I can send?</span></a></li><li class=""toclevel-1""><a href=""#w_is-there-a-character-limit-for-my-relay-domain-name""><span class=""tocnumber"">15</span> <span class=""toctext"">Is there a character limit for my Relay domain name?</span></a></li><li class=""toclevel-1""><a href=""#w_i-dont-see-the-icon-to-generate-a-new-mask-in-the-text-field-what-can-i-do""><span class=""tocnumber"">16</span> <span class=""toctext"">I don't see the icon to generate a new mask in the text field, what can I do?</span></a></li><li class=""toclevel-1""><a href=""#w_which-data-do-you-collect-and-how-do-i-disable-data-collection""><span class=""tocnumber"">17</span> <span class=""toctext"">Which data do you collect and how do I disable data collection?</span></a></li><li class=""toclevel-1""><a href=""#w_do-you-store-my-emails""><span class=""tocnumber"">18</span> <span class=""toctext"">Do you store my emails?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-if-i-decide-to-cancel-my-subscription-and-switch-to-the-free-version-of-relay""><span class=""tocnumber"">19</span> <span class=""toctext"">What happens if I decide to cancel my subscription and switch to the free version of Relay?</span></a></li><li class=""toclevel-1""><a href=""#w_where-is-relay-available""><span class=""tocnumber"">20</span> <span class=""toctext"">Where is ⁨Relay available?</span></a></li></ul></div>
+55871,Firefox Relay Premium FAQ,firefox-relay-premium-faq,https://support.mozilla.org/en-US/kb/firefox-relay-premium-faq,en-US,"In this article, you will find answers to frequently asked questions about Relay premium.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-a-regular-email-mask-and-a-custom-domain-email-mask""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between a regular email mask and a custom domain email mask?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-edit-a-random-email-mask-that-i-have-automatically-generated""><span class=""tocnumber"">2</span> <span class=""toctext"">Can I edit a random email mask that I have automatically generated?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-use-symbols-when-i-create-a-mask-with-my-unique-relay-domain""><span class=""tocnumber"">3</span> <span class=""toctext"">Can I use symbols when I create a mask with my unique Relay domain?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-the-name-of-my-relay-unique-email-domain-after-it-was-created""><span class=""tocnumber"">4</span> <span class=""toctext"">Can I change the name of my Relay unique email domain after it was created?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-that-i-already-created""><span class=""tocnumber"">5</span> <span class=""toctext"">Can I reuse a mask that I already created?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-that-i-have-disabled""><span class=""tocnumber"">6</span> <span class=""toctext"">Can I reuse a mask that I have disabled?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-a-mask-i-deleted""><span class=""tocnumber"">7</span> <span class=""toctext"">Can I reuse a mask I deleted?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reuse-or-generate-a-mask-for-any-website""><span class=""tocnumber"">8</span> <span class=""toctext"">Can I reuse or generate a mask for any website?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-filter-which-emails-i-receive-through-my-masks""><span class=""tocnumber"">9</span> <span class=""toctext"">Can I filter which emails I receive through my masks?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-if-i-mark-an-email-as-spam""><span class=""tocnumber"">10</span> <span class=""toctext"">What happens if I mark an email as spam?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-save-a-login-with-an-automatically-generated-mask""><span class=""tocnumber"">11</span> <span class=""toctext"">Can I save a login with an automatically generated mask?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-attach-files-to-my-messages""><span class=""tocnumber"">12</span> <span class=""toctext"">Can I attach files to my messages?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-reply-to-an-email-from-my-dashboard""><span class=""tocnumber"">13</span> <span class=""toctext"">Can I reply to an email from my dashboard?</span></a></li><li class=""toclevel-1""><a href=""#w_is-there-a-limitation-on-replies-i-can-send""><span class=""tocnumber"">14</span> <span class=""toctext"">Is there a limitation on Replies I can send?</span></a></li><li class=""toclevel-1""><a href=""#w_is-there-a-character-limit-for-my-relay-domain-name""><span class=""tocnumber"">15</span> <span class=""toctext"">Is there a character limit for my Relay domain name?</span></a></li><li class=""toclevel-1""><a href=""#w_i-dont-see-the-icon-to-generate-a-new-mask-in-the-text-field-what-can-i-do""><span class=""tocnumber"">16</span> <span class=""toctext"">I don't see the icon to generate a new mask in the text field, what can I do?</span></a></li><li class=""toclevel-1""><a href=""#w_which-data-do-you-collect-and-how-do-i-disable-data-collection""><span class=""tocnumber"">17</span> <span class=""toctext"">Which data do you collect and how do I disable data collection?</span></a></li><li class=""toclevel-1""><a href=""#w_do-you-store-my-emails""><span class=""tocnumber"">18</span> <span class=""toctext"">Do you store my emails?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-if-i-decide-to-cancel-my-subscription-and-switch-to-the-free-version-of-relay""><span class=""tocnumber"">19</span> <span class=""toctext"">What happens if I decide to cancel my subscription and switch to the free version of Relay?</span></a></li><li class=""toclevel-1""><a href=""#w_where-is-relay-available""><span class=""tocnumber"">20</span> <span class=""toctext"">Where is Relay available?</span></a></li></ul></div>
 <h1 id=""w_what-is-the-difference-between-a-regular-email-mask-and-a-custom-domain-email-mask"">What is the difference between a regular email mask and a custom domain email mask?</h1>
 <p>Custom domain email masks work a little differently than regular email masks, as they let you create unique email masks on the fly, without having to generate them on your Relay dashboard first. This will even work when you are away from your computer, out shopping for instance. You can verbally provide something like <em><a href=""mailto:shopping@exampledomain.mozmail.com"">shopping@exampledomain.mozmail.com</a></em> and it will be instantly created, when an email is sent to it. For details on how to start using this feature, check <a href=""/en-US/kb/register-your-own-domain-firefox-relay-premium"">Register your own domain with Firefox Relay Premium</a>.
 </p>
@@ -84816,7 +85024,7 @@ As a workaround, try selecting a territory that uses English as its primary lang
 <p>To prevent mask information like the label name, where the mask was created, and where the mask has been used from being collected to enhance your user experience:
 </p>
 <ol><li>Visit <strong>Settings</strong> in the <a href=""https://relay.firefox.com"">Firefox Relay website</a>.
-</li><li>Uncheck <strong>Allow ⁨Relay to collect data showing the sites on which your masks are created and used</strong> then click <strong>Save</strong>. If unchecked, this information will be stored locally in the add-on only.
+</li><li>Uncheck <strong>Allow Relay to collect data showing the sites on which your masks are created and used</strong> then click <strong>Save</strong>. If unchecked, this information will be stored locally in the add-on only.
 </li></ol>
 <h1 id=""w_do-you-store-my-emails"">Do you store my emails?</h1>
 <p>We do not read or store any of your messages. In the event that an email cannot be delivered to you, we will keep it on our servers and delete it after it has been delivered (in no event will we hold onto it for more than three days).
@@ -84826,8 +85034,8 @@ As a workaround, try selecting a territory that uses English as its primary lang
 </p><p><strong>Custom email masks:</strong> You can only create custom email masks if you have a premium subscription. If you cancel your subscription, you will lose this feature. The custom email masks you have created while premium will still work and receive emails.
 </p><p><strong>Replies:</strong> You won't be able to send replies after canceling your subscription.
 </p>
-<h1 id=""w_where-is-relay-available"">Where is ⁨Relay available?</h1>
-<p>Free ⁨Relay is available in most countries. ⁨Relay Premium is available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK.
+<h1 id=""w_where-is-relay-available"">Where is Relay available?</h1>
+<p>Free Relay is available in most countries. Relay Premium is available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK.
 </p>",relay,billing-and-subscriptions,"## Table of Contents
 
 - [1 What is the difference between a regular email mask and a custom domain email mask?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_what-is-the-difference-between-a-regular-email-mask-and-a-custom-domain-email-mask)
@@ -84849,7 +85057,7 @@ As a workaround, try selecting a territory that uses English as its primary lang
 - [17 Which data do you collect and how do I disable data collection?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_which-data-do-you-collect-and-how-do-i-disable-data-collection)
 - [18 Do you store my emails?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_do-you-store-my-emails)
 - [19 What happens if I decide to cancel my subscription and switch to the free version of Relay?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_what-happens-if-i-decide-to-cancel-my-subscription-and-switch-to-the-free-version-of-relay)
-- [20 Where is ⁨Relay available?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_where-is-relay-available)
+- [20 Where is Relay available?](https://support.mozilla.org/kb/firefox-relay-premium-faq#w_where-is-relay-available)
 
 # What is the difference between a regular email mask and a custom domain email mask?
 
@@ -84925,7 +85133,7 @@ To learn more about the data we collect, visit [this page](https://www.mozilla.o
 To prevent mask information like the label name, where the mask was created, and where the mask has been used from being collected to enhance your user experience:
 
 1. Visit **Settings** in the [Firefox Relay website](https://relay.firefox.com).
-2. Uncheck **Allow ⁨Relay to collect data showing the sites on which your masks are created and used** then click **Save**. If unchecked, this information will be stored locally in the add-on only.
+2. Uncheck **Allow Relay to collect data showing the sites on which your masks are created and used** then click **Save**. If unchecked, this information will be stored locally in the add-on only.
 
 # Do you store my emails?
 
@@ -84939,9 +85147,9 @@ We do not read or store any of your messages. In the event that an email cannot 
 
 **Replies:** You won't be able to send replies after canceling your subscription.
 
-# Where is ⁨Relay available?
+# Where is Relay available?
 
-Free ⁨Relay is available in most countries. ⁨Relay Premium is available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK.
+Free Relay is available in most countries. Relay Premium is available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK.
 
 "
 55877,Register your own domain with Firefox Relay Premium,register-your-own-domain-firefox-relay-premium,https://support.mozilla.org/en-US/kb/register-your-own-domain-firefox-relay-premium,en-US,You can register your own domain to create masks on the go with Firefox Relay Premium.,"<p>Firefox Relay Premium allows you to register your unique Relay email domain so that you can create custom email masks on the fly without a phone or computer. This is especially convenient if you need to provide an email address when checking out at an establishment, and you don't want them to keep your personal email address.
@@ -87200,10 +87408,10 @@ Tap the ![back arrow](https://assets-prod.sumo.prod.webservices.mozgcp.net/stati
 </p>
 <div class=""warning""><strong>Warning:</strong>If you mark an email forwarded through Relay as spam, all forwarding from that mask will be automatically disabled to protect you from further unwanted messages. You will be notified via email about the mask being disabled, and you can re-enable it at any time via your Relay dashboard. Be aware that this action will block all emails from the mask, including non-spam ones.</div>
 <h1 id=""w_what-is-promotional-email-blocking"">What is promotional email blocking?</h1>
-<p>⁨Relay Premium⁩ subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages.
+<p>Relay Premium subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages.
 </p>
 <div class=""warning"">We don’t recommend using masks when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your true email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.</div>
-<h1 id=""w_how-does-firefox-relay-detect-if-an-email-is-promotional-or-not"">How does Firefox ⁨Relay⁩ detect if an email is Promotional or not?</h1>
+<h1 id=""w_how-does-firefox-relay-detect-if-an-email-is-promotional-or-not"">How does Firefox Relay detect if an email is Promotional or not?</h1>
 <p>Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. Relay Premium detects this header data, so it can block these emails.
 </p><p>To activate this filter, follow the steps below:
 </p>
@@ -87236,11 +87444,11 @@ Tap the ![back arrow](https://assets-prod.sumo.prod.webservices.mozgcp.net/stati
 
 # What is promotional email blocking?
 
-⁨Relay Premium⁩ subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages.
+Relay Premium subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages.
 
 We don’t recommend using masks when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your true email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
 
-# How does Firefox ⁨Relay⁩ detect if an email is Promotional or not?
+# How does Firefox Relay detect if an email is Promotional or not?
 
 Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. Relay Premium detects this header data, so it can block these emails.
 
@@ -95894,7 +96102,7 @@ You can make the container panel appear when you click the _New Tab_ button, ins
 "
 60882,Add Firefox Relay to the Firefox password manager,relay-integration,https://support.mozilla.org/en-US/kb/relay-integration,en-US,Integrate Firefox Relay into the password manager to conveniently generate or reuse email masks from within email fields. Learn how.,"<p>The <a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Firefox password manager</a> allows you to securely store your usernames and passwords. This is a useful tool for keeping your information safe and generating secure passwords for website logins. Additionally, if you're using <a href=""/en-US/kb/activate-firefox-relay-mask-your-email-address"">Firefox Relay</a> to mask your email address, you can create new masks or reuse an existing mask right from the Firefox password manager. This article describes the steps you need to follow to integrate Firefox Relay into the Firefox password manager.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-your-mozilla-account-to-the-password-manager""><span class=""tocnumber"">1</span> <span class=""toctext"">Add your Mozilla account to the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_generate-new-firefox-relay-masks-with-the-password-manager""><span class=""tocnumber"">2</span> <span class=""toctext"">Generate New Firefox Relay Masks with the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">3</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-is-firefox-relay-and-how-does-it-work""><span class=""tocnumber"">3.1</span> <span class=""toctext"">What is Firefox Relay and how does it work?</span></a></li><li class=""toclevel-2""><a href=""#w_why-is-firefox-relay-shown-in-my-password-manager""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Why is Firefox Relay shown in my password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_do-i-have-to-pay-for-relay""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Do I have to pay for Relay?</span></a></li><li class=""toclevel-2""><a href=""#w_how-many-masks-do-i-get-can-i-reuse-my-masks""><span class=""tocnumber"">3.4</span> <span class=""toctext"">How many masks do I get? Can I reuse my masks?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-manage-my-masks-how-do-i-delete-a-mask""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Where can I manage my masks? How do I delete a mask?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-use-relay-email-masks""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Where can I use Relay email masks?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager""><span class=""tocnumber"">3.7</span> <span class=""toctext"">How can I remove Firefox Relay from the Firefox password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do""><span class=""tocnumber"">3.8</span> <span class=""toctext"">The password manager only displays email autofill and not the Firefox Relay option ⁠— What can I do?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-your-mozilla-account-to-the-password-manager""><span class=""tocnumber"">1</span> <span class=""toctext"">Add your Mozilla account to the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_generate-new-firefox-relay-masks-with-the-password-manager""><span class=""tocnumber"">2</span> <span class=""toctext"">Generate New Firefox Relay Masks with the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">3</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-is-firefox-relay-and-how-does-it-work""><span class=""tocnumber"">3.1</span> <span class=""toctext"">What is Firefox Relay and how does it work?</span></a></li><li class=""toclevel-2""><a href=""#w_why-is-firefox-relay-shown-in-my-password-manager""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Why is Firefox Relay shown in my password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_do-i-have-to-pay-for-relay""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Do I have to pay for Relay?</span></a></li><li class=""toclevel-2""><a href=""#w_how-many-masks-do-i-get-can-i-reuse-my-masks""><span class=""tocnumber"">3.4</span> <span class=""toctext"">How many masks do I get? Can I reuse my masks?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-manage-my-masks-how-do-i-delete-a-mask""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Where can I manage my masks? How do I delete a mask?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-use-relay-email-masks""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Where can I use Relay email masks?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager""><span class=""tocnumber"">3.7</span> <span class=""toctext"">How can I remove Firefox Relay from the Firefox password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do""><span class=""tocnumber"">3.8</span> <span class=""toctext"">The password manager only displays email autofill and not the Firefox Relay option — What can I do?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_add-your-mozilla-account-to-the-password-manager"">Add your Mozilla account to the password manager</h1>
 <p>To create new masks using the password manager, you need a Mozilla account. If you don't have one, Firefox will help you create it when you sign up for a new website. After that, just log in to your Mozilla account following the steps below, and your Mozilla account will be automatically added to the password manager.
 </p>
@@ -95934,7 +96142,7 @@ To use Relay, simply use a Relay email mask in place of your real email. All ema
 </p><p><strong>There are two options for Relay Premium:</strong>
 </p>
 <ol><li><strong>Premium email masking</strong> includes unlimited email masks, a unique Relay email domain that you can use to create masks on the go, and greater inbox controls with the ability to block only promotional emails. Relay Premium email masking is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
-</li><li><strong>Premium email masking plus phone masking</strong> gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. ⁨Relay Premium phone masking is only available in the US and Canada.
+</li><li><strong>Premium email masking plus phone masking</strong> gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. Relay Premium phone masking is only available in the US and Canada.
 </li></ol>
 <h2 id=""w_how-many-masks-do-i-get-can-i-reuse-my-masks"">How many masks do I get? Can I reuse my masks?</h2>
 <p>Your free account includes 5 email masks. You can reuse them as many times as you like. However, using a unique mask for each account is the most secure option. You can upgrade to <a href=""/en-US/kb/subscribe-firefox-relay-premium"">Relay Premium</a> for unlimited email masks.
@@ -95956,7 +96164,7 @@ To use Relay, simply use a Relay email mask in place of your real email. All ema
 </dt></dl>
 </li><li>Uncheck the box next to <strong>Suggest Firefox Relay email masks to protect your email address</strong>.
 </li></ol>
-<h2 id=""w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do"">The password manager only displays email autofill and not the Firefox Relay option ⁠— What can I do?</h2>
+<h2 id=""w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do"">The password manager only displays email autofill and not the Firefox Relay option — What can I do?</h2>
 <p>We are actively working to improve the experience for our users and to make Firefox Relay available on more websites. In the meantime, you can generate or reuse a mask from the right-click menu with the <a href=""https://addons.mozilla.org/firefox/addon/private-relay"">Firefox Relay add-on from Add-ons Mozilla</a>.
 </p>
 <ol><li>Follow the installation prompts and log in to Firefox Relay with your Mozilla account.
@@ -95981,7 +96189,7 @@ To use Relay, simply use a Relay email mask in place of your real email. All ema
   - [3.5 Where can I manage my masks? How do I delete a mask?](https://support.mozilla.org/kb/relay-integration#w_where-can-i-manage-my-masks-how-do-i-delete-a-mask)
   - [3.6 Where can I use Relay email masks?](https://support.mozilla.org/kb/relay-integration#w_where-can-i-use-relay-email-masks)
   - [3.7 How can I remove Firefox Relay from the Firefox password manager?](https://support.mozilla.org/kb/relay-integration#w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager)
-  - [3.8 The password manager only displays email autofill and not the Firefox Relay option ⁠— What can I do?](https://support.mozilla.org/kb/relay-integration#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do)
+  - [3.8 The password manager only displays email autofill and not the Firefox Relay option — What can I do?](https://support.mozilla.org/kb/relay-integration#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do)
 
 - [4 Related articles](https://support.mozilla.org/kb/relay-integration#w_related-articles)
 
@@ -96035,7 +96243,7 @@ By using Firefox Relay in your password manager, you’ll be automatically signe
 **There are two options for Relay Premium:**
 
 1. **Premium email masking** includes unlimited email masks, a unique Relay email domain that you can use to create masks on the go, and greater inbox controls with the ability to block only promotional emails. Relay Premium email masking is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
-2. **Premium email masking plus phone masking** gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. ⁨Relay Premium phone masking is only available in the US and Canada.
+2. **Premium email masking plus phone masking** gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. Relay Premium phone masking is only available in the US and Canada.
 
 ## How many masks do I get? Can I reuse my masks?
 
@@ -96060,7 +96268,7 @@ To stop seeing Firefox Relay in the password manager suggestions:
 </dt></dl>
 5. Uncheck the box next to **Suggest Firefox Relay email masks to protect your email address**.
 
-## The password manager only displays email autofill and not the Firefox Relay option ⁠— What can I do?
+## The password manager only displays email autofill and not the Firefox Relay option — What can I do?
 
 We are actively working to improve the experience for our users and to make Firefox Relay available on more websites. In the meantime, you can generate or reuse a mask from the right-click menu with the [Firefox Relay add-on from Add-ons Mozilla](https://addons.mozilla.org/firefox/addon/private-relay).
 
@@ -100867,14 +101075,14 @@ Didn’t receive the prompt? Follow these steps to manually set up auto-launch:
 4. Once done, exit the _Settings_ page. Your adjustments are saved automatically.
 
 "
-62316,Relay Phone Masking FAQ,relay-phone-masking-faq,https://support.mozilla.org/en-US/kb/relay-phone-masking-faq,en-US,Frequently asked questions about Relay Phone Masking.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_do-i-need-to-install-an-app-to-use-relay-phone-masking""><span class=""tocnumber"">1</span> <span class=""toctext"">Do I need to install an app to use ⁨Relay Phone Masking?</span></a></li><li class=""toclevel-1""><a href=""#w_how-many-phone-masks-do-i-get""><span class=""tocnumber"">2</span> <span class=""toctext"">How many phone masks do I get?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-save-the-relay-contact-card""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I save the ⁨Relay⁩ contact card?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-text-forwarding""><span class=""tocnumber"">4</span> <span class=""toctext"">What is text forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-text-repliesconversations""><span class=""tocnumber"">5</span> <span class=""toctext"">What are text replies/conversations?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-texts-will-be-forwarded""><span class=""tocnumber"">6</span> <span class=""toctext"">What kinds of texts will be forwarded?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-call-forwarding""><span class=""tocnumber"">7</span> <span class=""toctext"">What is call forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-make-calls-from-my-relay-number""><span class=""tocnumber"">8</span> <span class=""toctext"">Can I make calls from my Relay number?</span></a></li><li class=""toclevel-1""><a href=""#w_does-a-relay-premium-subscription-include-phone-masking-or-is-it-a-separate-service""><span class=""tocnumber"">9</span> <span class=""toctext"">Does a Relay Premium subscription include phone masking or is it a separate service?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-my-true-phone-number-after-registering-it""><span class=""tocnumber"">10</span> <span class=""toctext"">Can I change my true phone number after registering it?</span></a></li><li class=""toclevel-1""><a href=""#w_should-i-add-my-relay-phone-number-to-my-contacts""><span class=""tocnumber"">11</span> <span class=""toctext"">Should I add my Relay Phone number to my contacts?</span></a></li></ul></div>
-<h1 id=""w_do-i-need-to-install-an-app-to-use-relay-phone-masking"">Do I need to install an app to use ⁨Relay Phone Masking?</h1>
+62316,Relay Phone Masking FAQ,relay-phone-masking-faq,https://support.mozilla.org/en-US/kb/relay-phone-masking-faq,en-US,Frequently asked questions about Relay Phone Masking.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_do-i-need-to-install-an-app-to-use-relay-phone-masking""><span class=""tocnumber"">1</span> <span class=""toctext"">Do I need to install an app to use Relay Phone Masking?</span></a></li><li class=""toclevel-1""><a href=""#w_how-many-phone-masks-do-i-get""><span class=""tocnumber"">2</span> <span class=""toctext"">How many phone masks do I get?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-save-the-relay-contact-card""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I save the Relay contact card?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-text-forwarding""><span class=""tocnumber"">4</span> <span class=""toctext"">What is text forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-text-repliesconversations""><span class=""tocnumber"">5</span> <span class=""toctext"">What are text replies/conversations?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-texts-will-be-forwarded""><span class=""tocnumber"">6</span> <span class=""toctext"">What kinds of texts will be forwarded?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-call-forwarding""><span class=""tocnumber"">7</span> <span class=""toctext"">What is call forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-make-calls-from-my-relay-number""><span class=""tocnumber"">8</span> <span class=""toctext"">Can I make calls from my Relay number?</span></a></li><li class=""toclevel-1""><a href=""#w_does-a-relay-premium-subscription-include-phone-masking-or-is-it-a-separate-service""><span class=""tocnumber"">9</span> <span class=""toctext"">Does a Relay Premium subscription include phone masking or is it a separate service?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-my-true-phone-number-after-registering-it""><span class=""tocnumber"">10</span> <span class=""toctext"">Can I change my true phone number after registering it?</span></a></li><li class=""toclevel-1""><a href=""#w_should-i-add-my-relay-phone-number-to-my-contacts""><span class=""tocnumber"">11</span> <span class=""toctext"">Should I add my Relay Phone number to my contacts?</span></a></li></ul></div>
+<h1 id=""w_do-i-need-to-install-an-app-to-use-relay-phone-masking"">Do I need to install an app to use Relay Phone Masking?</h1>
 <p>No, Relay Phone Masking works using your device’s standard text messaging and calling apps.
 </p>
 <h1 id=""w_how-many-phone-masks-do-i-get"">How many phone masks do I get?</h1>
 <p>You only get one phone number mask at this time. Once you choose your phone number mask, you cannot change it later.
 </p>
-<h1 id=""w_how-do-i-save-the-relay-contact-card"">How do I save the ⁨Relay⁩ contact card?</h1>
+<h1 id=""w_how-do-i-save-the-relay-contact-card"">How do I save the Relay contact card?</h1>
 <p>Once you upgrade to Relay Phone Masking, we will text you a contact card that contains the number from which you will receive forwarded texts, similar to any contact card that stores the phone number of people who contact you. On most devices, you can select that contact card and save it like any other contact on your phone.
 </p>
 <h1 id=""w_what-is-text-forwarding"">What is text forwarding?</h1>
@@ -100903,9 +101111,9 @@ Didn’t receive the prompt? Follow these steps to manually set up auto-launch:
 </p><p>Importing contacts can be different depending on your mobile device and contacts application; however, tapping on the contact card attachment in the welcome text message should begin the process. For additional information on importing contacts, please refer to your device's manual.
 </p>",relay,masking;privacy-and-security,"## Table of Contents
 
-- [1 Do I need to install an app to use ⁨Relay Phone Masking?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_do-i-need-to-install-an-app-to-use-relay-phone-masking)
+- [1 Do I need to install an app to use Relay Phone Masking?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_do-i-need-to-install-an-app-to-use-relay-phone-masking)
 - [2 How many phone masks do I get?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_how-many-phone-masks-do-i-get)
-- [3 How do I save the ⁨Relay⁩ contact card?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_how-do-i-save-the-relay-contact-card)
+- [3 How do I save the Relay contact card?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_how-do-i-save-the-relay-contact-card)
 - [4 What is text forwarding?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-is-text-forwarding)
 - [5 What are text replies/conversations?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-are-text-repliesconversations)
 - [6 What kinds of texts will be forwarded?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-kinds-of-texts-will-be-forwarded)
@@ -100915,7 +101123,7 @@ Didn’t receive the prompt? Follow these steps to manually set up auto-launch:
 - [10 Can I change my true phone number after registering it?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_can-i-change-my-true-phone-number-after-registering-it)
 - [11 Should I add my Relay Phone number to my contacts?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_should-i-add-my-relay-phone-number-to-my-contacts)
 
-# Do I need to install an app to use ⁨Relay Phone Masking?
+# Do I need to install an app to use Relay Phone Masking?
 
 No, Relay Phone Masking works using your device’s standard text messaging and calling apps.
 
@@ -100923,7 +101131,7 @@ No, Relay Phone Masking works using your device’s standard text messaging and 
 
 You only get one phone number mask at this time. Once you choose your phone number mask, you cannot change it later.
 
-# How do I save the ⁨Relay⁩ contact card?
+# How do I save the Relay contact card?
 
 Once you upgrade to Relay Phone Masking, we will text you a contact card that contains the number from which you will receive forwarded texts, similar to any contact card that stores the phone number of people who contact you. On most devices, you can select that contact card and save it like any other contact on your phone.
 
@@ -102060,7 +102268,7 @@ Your file will now be open in Firefox, ready for you to view.
 "
 64021,How to delete an email mask,delete-email-mask,https://support.mozilla.org/en-US/kb/delete-email-mask,en-US,Learn how to delete a mask from Firefox Relay. Once you delete a mask you can no longer use it or reactivate it.,"<p>With Firefox Relay you can create up to 5 masks and use them whenever you need. You can also delete a mask if you no longer want to use it.
 </p>
-<div class=""warning""><strong>Warning:</strong> After deleting a mask, emails sent to it will no longer be forwarded to your real mail. This mask cannot be recovered and ⁨Firefox Relay will no longer forward messages sent to it. If you use a mask to sign in to sites you care about, you should update your login with a different email address before deleting it.</div>
+<div class=""warning""><strong>Warning:</strong> After deleting a mask, emails sent to it will no longer be forwarded to your real mail. This mask cannot be recovered and Firefox Relay will no longer forward messages sent to it. If you use a mask to sign in to sites you care about, you should update your login with a different email address before deleting it.</div>
 <h1 id=""w_to-permanently-delete-a-mask"">To permanently delete a mask</h1>
 <ol><li>Sign in to the Relay Dashboard at <a href=""http://relay.firefox.com"">relay.firefox.com</a>.
 <dl><dt><img alt=""Sign up Relay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-10-19-e1bc79.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
@@ -102083,7 +102291,7 @@ Your file will now be open in Firefox, ready for you to view.
 </li><li><a href=""/en-US/kb/firefox-relay-what-email-mask"">Firefox Relay - Email and Phone masks</a>
 </li></ul>",relay,email-and-messaging;settings,"With Firefox Relay you can create up to 5 masks and use them whenever you need. You can also delete a mask if you no longer want to use it.
 
-**Warning:** After deleting a mask, emails sent to it will no longer be forwarded to your real mail. This mask cannot be recovered and ⁨Firefox Relay will no longer forward messages sent to it. If you use a mask to sign in to sites you care about, you should update your login with a different email address before deleting it.
+**Warning:** After deleting a mask, emails sent to it will no longer be forwarded to your real mail. This mask cannot be recovered and Firefox Relay will no longer forward messages sent to it. If you use a mask to sign in to sites you care about, you should update your login with a different email address before deleting it.
 
 # To permanently delete a mask
 
