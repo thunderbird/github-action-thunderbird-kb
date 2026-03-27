@@ -6704,8 +6704,9 @@ _**Based on information from [Master password (mozillaZine KB)](http://kb.mozill
 <div class=""note"">Clicking the <span class=""for"" data-for=""fx149"">shield</span><span class=""for"" data-for=""not fx149"">padlock</span> to the left of the address bar brings up the <a href=""/en-US/kb/site-information-panel"">Site Information panel</a>, which allows you to view more detailed information about the security status of the connection.</div>
 <div class=""warning""><strong>Warning:</strong> You should never send any sensitive information (such as bank information, credit card data or social security numbers) to a website if the address bar shows a <span class=""for"" data-for=""not fx149"">padlock with a <img alt=""Fx89Padlock-Triangle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-55-22-88c82d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> warning triangle or <img alt=""Fx89Padlock-RedLine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-53-30-fe088c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> </span><span class=""for"" data-for=""fx149"">shield <img alt=""Fx149UnifiedTrustIcon-NotSecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-23-07-34f753.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> with a</span> red strike over it. In such cases, you may not be communicating with the intended website and your data isn't safe against eavesdropping!</div>
 <p>
-</p><div class=""for"" data-for=""not fx149"">
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_padlock""><span class=""tocnumber"">1</span> <span class=""toctext"">Padlock</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-warning-triangle""><span class=""tocnumber"">2</span> <span class=""toctext"">Padlock with a warning triangle</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-red-strike-over-it""><span class=""tocnumber"">3</span> <span class=""toctext"">Padlock with a red strike over it</span></a></li></ul></div>
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_padlock""><span class=""tocnumber"">1</span> <span class=""toctext"">Padlock</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-warning-triangle""><span class=""tocnumber"">2</span> <span class=""toctext"">Padlock with a warning triangle</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-red-strike-over-it""><span class=""tocnumber"">3</span> <span class=""toctext"">Padlock with a red strike over it</span></a></li><li class=""toclevel-1""><a href=""#w_shield-with-a-check-mark""><span class=""tocnumber"">4</span> <span class=""toctext"">Shield with a check mark</span></a></li><li class=""toclevel-1""><a href=""#w_shield-with-a-red-strike-over-it""><span class=""tocnumber"">5</span> <span class=""toctext"">Shield with a red strike over it</span></a></li></ul></div>
+<div class=""for"" data-for=""not fx149"">
 <h1 id=""w_padlock"">Padlock</h1>
 <p>A padlock <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> with no red strike over it indicates that:
 </p>
@@ -6720,9 +6721,25 @@ _**Based on information from [Master password (mozillaZine KB)](http://kb.mozill
 </p>
 <div class=""note"">Do not send any sensitive information to sites where the Site Identity button is a padlock with a warning triangle.</div>
 <h1 id=""w_padlock-with-a-red-strike-over-it"">Padlock with a red strike over it</h1>
-<p>A padlock with a red strike over it <img alt=""Fx89Padlock-RedLine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-53-30-fe088c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> indicates that the connection between Firefox and the website is delivered using an insecure protocol (HTTP)<span class=""for"" data-for=""not fx139""> or that it is only partially encrypted because you've manually deactivated <a href=""/en-US/kb/mixed-content-blocking-firefox"">mixed content blocking</a></span>. The site doesn't prevent against eavesdropping or <a href=""http://en.wikipedia.org/wiki/Man-in-the-middle_attack"">man-in-the-middle attacks</a>.
+<p>A padlock with a red strike over it <img alt=""Fx89Padlock-RedLine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-53-30-fe088c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> indicates that the connection between Firefox and the website is delivered using an insecure protocol (HTTP)<span class=""for"" data-for=""not fx139""> or that it is only partially encrypted because you've manually deactivated <a href=""/en-US/kb/mixed-content-blocking-firefox"">mixed content blocking</a></span>. The site doesn't prevent against eavesdropping or <a href=""https://wikipedia.org/wiki/Man-in-the-middle_attack"">man-in-the-middle attacks</a>.
 </p>
 <div class=""note"">Do not send any sensitive information to sites where the Site Identity button is a padlock with a red strike over it.</div>
+</div><div class=""for"" data-for=""fx149"">
+<h1 id=""w_shield-with-a-check-mark"">Shield with a check mark</h1>
+<p>A shield <img alt=""Fx149UnifiedTrustIcon-Secure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-16-02-8c168d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> with a check mark indicates that:
+</p>
+<ul><li>You’re definitely connected to the website whose address is shown in the address bar and the connection hasn’t been intercepted.
+</li><li>The connection between Firefox and the website is encrypted to prevent eavesdropping.
+</li></ul>
+<p>Click the shield icon and then click on <span class=""button"">Connection secure</span> at the top of the panel that opens, to find out if the website is using an <a href=""https://wikipedia.org/wiki/Extended_Validation_Certificate"">Extended Validation (EV) certificate</a>.  An EV certificate is a special type of site certificate that requires a significantly more rigorous identity verification process than other types of certificates.
+</p><p>For sites using EV certificates, the <em>Connection</em> panel will display the legal company or organization name and location of the website owner.
+</p><p>
+</p>
+<h1 id=""w_shield-with-a-red-strike-over-it"">Shield with a red strike over it</h1>
+<p>A shield with a red strike over it <img alt=""Fx149UnifiedTrustIcon-NotSecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-23-07-34f753.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> indicates that the connection between Firefox and the website is delivered using an insecure protocol. The site doesn't prevent against eavesdropping or 
+<a href=""https://wikipedia.org/wiki/Man-in-the-middle_attack"">man-in-the-middle attacks</a>.
+</p>
+<div class=""note"">Do not send any sensitive information to sites where the Unified Trust Panel icon is a shield with a red strike over it.</div>
 </div>",firefox,privacy-and-security,"When you visit a website, the Site Identity button (a padlock)Unified Trust Panel icon (a shield) appears in the address bar to the left of the web address. You can quickly find out if the connection to the website you are viewing is encrypted, and in some cases who owns the website. This should help you avoid malicious websites that are trying to obtain your personal information.
 
 ![Fx149UnifiedTrustAddressbar-Secure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx138AddressBarPadlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
@@ -6738,6 +6755,8 @@ Clicking the shieldpadlock to the left of the address bar brings up the [Site In
 - [1 Padlock](https://support.mozilla.org/kb/how-do-i-tell-if-my-connection-is-secure#w_padlock)
 - [2 Padlock with a warning triangle](https://support.mozilla.org/kb/how-do-i-tell-if-my-connection-is-secure#w_padlock-with-a-warning-triangle)
 - [3 Padlock with a red strike over it](https://support.mozilla.org/kb/how-do-i-tell-if-my-connection-is-secure#w_padlock-with-a-red-strike-over-it)
+- [4 Shield with a check mark](https://support.mozilla.org/kb/how-do-i-tell-if-my-connection-is-secure#w_shield-with-a-check-mark)
+- [5 Shield with a red strike over it](https://support.mozilla.org/kb/how-do-i-tell-if-my-connection-is-secure#w_shield-with-a-red-strike-over-it)
 
 # Padlock
 
@@ -6758,9 +6777,26 @@ Do not send any sensitive information to sites where the Site Identity button is
 
 # Padlock with a red strike over it
 
-A padlock with a red strike over it ![Fx89Padlock-RedLine](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) indicates that the connection between Firefox and the website is delivered using an insecure protocol (HTTP) or that it is only partially encrypted because you've manually deactivated [mixed content blocking](\""https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox""). The site doesn't prevent against eavesdropping or [man-in-the-middle attacks](http://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+A padlock with a red strike over it ![Fx89Padlock-RedLine](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) indicates that the connection between Firefox and the website is delivered using an insecure protocol (HTTP) or that it is only partially encrypted because you've manually deactivated [mixed content blocking](\""https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox""). The site doesn't prevent against eavesdropping or [man-in-the-middle attacks](https://wikipedia.org/wiki/Man-in-the-middle_attack).
 
 Do not send any sensitive information to sites where the Site Identity button is a padlock with a red strike over it.
+
+# Shield with a check mark
+
+A shield ![Fx149UnifiedTrustIcon-Secure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) with a check mark indicates that:
+
+- You’re definitely connected to the website whose address is shown in the address bar and the connection hasn’t been intercepted.
+- The connection between Firefox and the website is encrypted to prevent eavesdropping.
+
+Click the shield icon and then click on Connection secure at the top of the panel that opens, to find out if the website is using an [Extended Validation (EV) certificate](https://wikipedia.org/wiki/Extended_Validation_Certificate). An EV certificate is a special type of site certificate that requires a significantly more rigorous identity verification process than other types of certificates.
+
+For sites using EV certificates, the _Connection_ panel will display the legal company or organization name and location of the website owner.
+
+# Shield with a red strike over it
+
+A shield with a red strike over it ![Fx149UnifiedTrustIcon-NotSecure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) indicates that the connection between Firefox and the website is delivered using an insecure protocol. The site doesn't prevent against eavesdropping or [man-in-the-middle attacks](https://wikipedia.org/wiki/Man-in-the-middle_attack).
+
+Do not send any sensitive information to sites where the Unified Trust Panel icon is a shield with a red strike over it.
 
 "
 668,"Change Firefox options, preferences and settings",firefox-options-preferences-and-settings,https://support.mozilla.org/en-US/kb/firefox-options-preferences-and-settings,en-US,"Learn how to access and adjust Firefox settings, including privacy, startup behavior, downloads and more.","<p>Firefox Settings let you customize how your browser works, from restoring sessions and blocking ads to syncing data and managing privacy. This article explains each settings panel and includes links to common tasks.
@@ -21288,6 +21324,135 @@ In certain cases, multiple accounts are acceptable for use on Mozilla Support, f
 It's recommended that you indicate any alternate profiles in your primary user profile.
 
 Multiple accounts cannot be used for trolling, spamming, phishing for private information, gaming the helpful votes in the forum, or for any other behavior that violates our rules and guidelines. See also [Consequences of Unacceptable Behavior](https://www.mozilla.org/about/governance/policies/participation/#consequences).
+
+"
+877,Install Firefox on an Android device using Google Play,install-firefox-android-device-using-google-play,https://support.mozilla.org/en-US/kb/install-firefox-android-device-using-google-play,en-US,This article shows you how to download and install Firefox for Android on your Android device.,"<div class=""note"">To see if your device is supported, read <a href=""/en-US/kb/will-firefox-work-my-mobile-device"">Will Firefox work on my mobile device?</a></div>
+<div class=""note""><strong>Before you begin:</strong>
+If you have installed and set up Sync for any version of Firefox Beta or Nightly, you must uninstall that version before setting up Sync on Firefox for Android.</div>
+<h1 id=""w_download-and-install-firefox-for-android"">Download and install Firefox for Android</h1>
+<ol><li>To download and install Firefox on your device visit <a href=""http://www.mozilla.org/firefox/android"">Firefox download page</a> and tap <img alt=""GetItOnGooglePlayLowResolution"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-23-15-22-05-93f930.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li><li>The Firefox page on Google Play will open. Tap the <span class=""button"">Install</span> button.
+<dl><dd><img alt=""FirefoxOnGooglePlayLightModeFeb2026LowResolution"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-23-15-30-15-03a965.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dd></dl>
+</li><li>When the download is complete, tap the <span class=""button"">Open</span> button.
+</li></ol>
+<p>
+</p>",mobile,install;installation-and-updates,"To see if your device is supported, read [Will Firefox work on my mobile device?](\""https://support.mozilla.org/en-US/kb/will-firefox-work-my-mobile-device"")
+
+**Before you begin:** If you have installed and set up Sync for any version of Firefox Beta or Nightly, you must uninstall that version before setting up Sync on Firefox for Android.
+
+# Download and install Firefox for Android
+
+1. To download and install Firefox on your device visit [Firefox download page](http://www.mozilla.org/firefox/android) and tap ![GetItOnGooglePlayLowResolution](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+2. The Firefox page on Google Play will open. Tap the Install button.<dl><dd>
+<img alt=""FirefoxOnGooglePlayLightModeFeb2026LowResolution"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-23-15-30-15-03a965.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dd></dl>
+3. When the download is complete, tap the Open button.
+
+"
+885,Find and install extensions on Firefox for Android,find-and-install-add-ons-firefox-android,https://support.mozilla.org/en-US/kb/find-and-install-add-ons-firefox-android,en-US,"There are several extensions that you can install to add features to Firefox. Learn how to find, install and manage these add-ons to Firefox for Android.","<p>This article explains how you can install <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> on Firefox for Android from <a href=""https://addons.mozilla.org/android"">addons.mozilla.org/android</a> or from within the <span class=""for"" data-for=""not m126"">Add-ons</span><span class=""for"" data-for=""m126"">Extensions</span> Manager in Firefox for Android.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-find-and-install-4add-onssf5extensionssf""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I find and install <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span>?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-update-change-options-or-remove-26add-onssf27extensionssf""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I update, change options or remove <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span>?</span></a><ul><li class=""toclevel-2""><a href=""#w_update-your-28add-onssf29extensionssf""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Update your <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span></span></a></li><li class=""toclevel-2""><a href=""#w_temporary-disable-or-remove-an-32add-onsf33extensionsf""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Temporary disable or remove an <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span></span></a></li><li class=""toclevel-2""><a href=""#w_enable-46add-onssf47extensionssf-in-private-browsing""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Enable <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> in private browsing</span></a></li></ul></li></ul></div>
+<h1 id=""w_how-do-i-find-and-install-4add-onssf5extensionssf"">How do I find and install <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span>?</h1>
+<p>To browse all available Firefox for Android <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span>, visit <a href=""https://addons.mozilla.org/android"">addons.mozilla.org/android</a>. You can also discover <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> within the browser’s <span class=""for"" data-for=""not m126"">Add-ons</span><span class=""for"" data-for=""m126"">Extensions</span> Manager.
+</p><p>Here are the instructions for installing from the <span class=""for"" data-for=""not m126"">Add-ons</span><span class=""for"" data-for=""m126"">Extensions</span> Manager:
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap the <span class=""for"" data-for=""not m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Add-ons</span></span><span class=""for"" data-for=""m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Extensions</span></span> menu item.
+</li><li>Tap on an <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span> to learn more. To install it, tap on the <span class=""button"">+</span> button.
+</li><li>This will then show you the access that <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span> requires.<br>Tap <span class=""button"">Add</span> to install the <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span>.
+<dl><dt><img alt=""Extension permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-23-07-41-28-9f7ca1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>After installing the <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span>, Firefox will give you the opportunity to enable it in private browsing. You can check mark <strong>Allow in private browsing</strong> now or enable it later (see below).
+<dl><dt><img alt=""FenixInstallAddOnFinish"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-27-20-10-29-473f2c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Tap <span class=""button"">OK</span> to finish.
+</li></ol>
+<div class=""warning"">Some <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> may <strong>not be compatible</strong> with Firefox for Android.</div>
+<h1 id=""w_how-do-i-update-change-options-or-remove-26add-onssf27extensionssf"">How do I update, change options or remove <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span>?</h1>
+<h2 id=""w_update-your-28add-onssf29extensionssf"">Update your <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span></h2>
+<p>When you update Firefox for Android, it will automatically update your <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> to compatible versions if they are available.
+</p>
+<h2 id=""w_temporary-disable-or-remove-an-32add-onsf33extensionsf"">Temporary disable or remove an <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span></h2>
+<p>You can disable or remove <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> from the <span class=""for"" data-for=""not m126"">Add-ons</span><span class=""for"" data-for=""m126"">Extensions</span> Manager in Firefox for Android:
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap the <span class=""for"" data-for=""not m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Add-ons</span></span><span class=""for"" data-for=""m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Extensions</span></span> menu item.
+</li><li>Under <em>Enabled</em> is a list of what <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> are currently active.
+</li><li>Tap on the <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span> you want to change.<br><strong>To disable</strong>: Toggle the <strong>Enabled</strong> slider to off.<br><strong>To uninstall</strong>: Tap the <span class=""button"">Remove</span> button.
+</li></ol>
+<p>Here you can also view/edit <span class=""menu"">Settings</span>, <span class=""menu"">Details</span> and <span class=""menu"">Permissions</span> for the <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span>.
+</p>
+<h2 id=""w_enable-46add-onssf47extensionssf-in-private-browsing"">Enable <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> in private browsing</h2>
+<p><span class=""for"" data-for=""not m126"">Add-ons</span><span class=""for"" data-for=""m126"">Extensions</span> (migrated and installed) are disabled by default in private browsing. To change this setting:
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap the <span class=""for"" data-for=""not m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Add-ons</span></span><span class=""for"" data-for=""m126""><span class=""menu""><img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Extensions</span></span> menu item.
+</li><li>Tap the <span class=""for"" data-for=""not m126"">add-on</span><span class=""for"" data-for=""m126"">extension</span> you want to change.
+</li><li>Tap the slider next to <strong>Run in private browsing</strong> to turn it on or off.
+</li></ol>",mobile,settings,"This article explains how you can install add-onsextensions on Firefox for Android from [addons.mozilla.org/android](https://addons.mozilla.org/android) or from within the Add-onsExtensions Manager in Firefox for Android.
+
+## Table of Contents
+
+- [1 How do I find and install add-onsextensions?](https://support.mozilla.org/kb/find-and-install-add-ons-firefox-android#w_how-do-i-find-and-install-4add-onssf5extensionssf)
+- [2 How do I update, change options or remove add-onsextensions?](https://support.mozilla.org/kb/find-and-install-add-ons-firefox-android#w_how-do-i-update-change-options-or-remove-26add-onssf27extensionssf)
+  - [2.1 Update your add-onsextensions](https://support.mozilla.org/kb/find-and-install-add-ons-firefox-android#w_update-your-28add-onssf29extensionssf)
+  - [2.2 Temporary disable or remove an add-onextension](https://support.mozilla.org/kb/find-and-install-add-ons-firefox-android#w_temporary-disable-or-remove-an-32add-onsf33extensionsf)
+  - [2.3 Enable add-onsextensions in private browsing](https://support.mozilla.org/kb/find-and-install-add-ons-firefox-android#w_enable-46add-onssf47extensionssf-in-private-browsing)
+
+# How do I find and install add-onsextensions?
+
+To browse all available Firefox for Android add-onsextensions, visit [addons.mozilla.org/android](https://addons.mozilla.org/android). You can also discover add-onsextensions within the browser’s Add-onsExtensions Manager.
+
+Here are the instructions for installing from the Add-onsExtensions Manager:
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap the ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Add-ons ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Extensions menu item.
+3. Tap on an add-onextension to learn more. To install it, tap on the + button.
+4. This will then show you the access that add-onextension requires.  
+Tap Add to install the add-onextension.<dl><dt>
+<img alt=""Extension permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-23-07-41-28-9f7ca1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+5. After installing the add-onextension, Firefox will give you the opportunity to enable it in private browsing. You can check mark **Allow in private browsing** now or enable it later (see below).<dl><dt>
+<img alt=""FenixInstallAddOnFinish"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-27-20-10-29-473f2c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+6. Tap OK to finish.
+
+Some add-onsextensions may **not be compatible** with Firefox for Android.
+
+# How do I update, change options or remove add-onsextensions?
+
+## Update your add-onsextensions
+
+When you update Firefox for Android, it will automatically update your add-onsextensions to compatible versions if they are available.
+
+## Temporary disable or remove an add-onextension
+
+You can disable or remove add-onsextensions from the Add-onsExtensions Manager in Firefox for Android:
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap the ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Add-ons ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Extensions menu item.
+3. Under _Enabled_ is a list of what add-onsextensions are currently active.
+4. Tap on the add-onextension you want to change.  
+**To disable** : Toggle the **Enabled** slider to off.  
+**To uninstall** : Tap the Remove button.
+
+Here you can also view/edit Settings, Details and Permissions for the add-onextension.
+
+## Enable add-onsextensions in private browsing
+
+Add-onsExtensions (migrated and installed) are disabled by default in private browsing. To change this setting:
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap the ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Add-ons ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Extensions menu item.
+3. Tap the add-onextension you want to change.
+4. Tap the slider next to **Run in private browsing** to turn it on or off.
 
 "
 889,"Fix ""The bookmarks and history system will not be functional"" error message",fix-bookmarks-and-history-will-not-be-functional,https://support.mozilla.org/en-US/kb/fix-bookmarks-and-history-will-not-be-functional,en-US,This article explains what to do if you see the error message “The bookmarks and history system will not be functional” when you start Firefox.,"<p><strong>Do you see this error message when you start Firefox?</strong>
@@ -57939,6 +58104,115 @@ Learn more about [tracking and the standards Disconnect uses to create its list]
 9. Tap the back arrow to save your settings and go back to the previous screen.
 
 "
+38820,Add a search engine to Firefox Focus for Android,add-search-engine-firefox-focus-android,https://support.mozilla.org/en-US/kb/add-search-engine-firefox-focus-android,en-US,Add a search engine or search results page to Firefox Focus for Android.,"<p>Firefox Focus comes with built-in search engines, but you can also add new ones:
+</p>
+<ol><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Go to <span class=""menu"">Search</span>.
+</li><li>Tap <span class=""menu"">Search engine</span>.
+</li><li>Tap <span class=""menu"">Add another search engine</span>.
+</li><li>Give your search engine a name in the <em>Search engine name</em> field.
+</li><li>In the <em>Search string to use</em> field, enter the link to your search query.
+<dl><dt><img alt=""AddSEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-30-15-06-09-cfe159.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+<ul><li>Here are examples of popular search queries you can copy and paste into this field.
+<ul><li><strong>YouTube:</strong> <a href=""https://www.youtube.com/results?search_query=%s"">https://www.youtube.com/results?search_query=%s</a>
+</li><li><strong>IMDB:</strong> <a href=""http://www.imdb.com/find?q=%s"">http://www.imdb.com/find?q=%s</a>
+</li><li><strong>Bing:</strong> <a href=""https://www.bing.com/search?q=%s"">https://www.bing.com/search?q=%s</a>
+</li><li><strong>Wikipedia:</strong> <a href=""https://en.wikipedia.org/wiki/%s"">https://en.wikipedia.org/wiki/%s</a>
+</li><li><strong>Bugzilla:</strong> <a href=""https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%s"">https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%s</a>
+</li><li><strong>Reddit:</strong> <a href=""https://www.reddit.com/search?q=%s"">https://www.reddit.com/search?q=%s</a>
+</li></ul>
+</li></ul>
+</li><li>Tap <strong>Save</strong> to keep your changes.
+</li><li>Tap the back arrow to return to the previous screen.
+</li></ol>
+<div class=""note"">You can also <a href=""/en-US/kb/remove-search-engine-firefox-focus-android"">Remove a search engine in Firefox Focus for Android</a>.</div>",focus-firefox,search;search-tag-and-share;settings,"Firefox Focus comes with built-in search engines, but you can also add new ones:
+
+1. Tap the menu button next to the address bar:
+
+2. Tap Settings.
+3. Go to Search.
+4. Tap Search engine.
+5. Tap Add another search engine.
+6. Give your search engine a name in the _Search engine name_ field.
+7. In the _Search string to use_ field, enter the link to your search query.<dl><dt>
+<img alt=""AddSEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-30-15-06-09-cfe159.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+  - Here are examples of popular search queries you can copy and paste into this field.
+    - **YouTube:** [https://www.youtube.com/results?search\_query=%s](https://www.youtube.com/results?search_query=%s)
+    - **IMDB:** [http://www.imdb.com/find?q=%s](http://www.imdb.com/find?q=%s)
+    - **Bing:** [https://www.bing.com/search?q=%s](https://www.bing.com/search?q=%s)
+    - **Wikipedia:** [https://en.wikipedia.org/wiki/%s](https://en.wikipedia.org/wiki/%s)
+    - **Bugzilla:** [https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%s](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%s)
+    - **Reddit:** [https://www.reddit.com/search?q=%s](https://www.reddit.com/search?q=%s)
+
+8. Tap **Save** to keep your changes.
+9. Tap the back arrow to return to the previous screen.
+
+You can also [Remove a search engine in Firefox Focus for Android](\""https://support.mozilla.org/en-US/kb/remove-search-engine-firefox-focus-android"").
+"
+38821,Autocomplete settings in the Firefox Focus address bar,autocomplete-settings-firefox-focus-address-bar,https://support.mozilla.org/en-US/kb/autocomplete-settings-firefox-focus-address-bar,en-US,Get to websites faster with URL autocomplete.,"<p>Firefox Focus for Android helps you get to websites faster with URL autocomplete. This feature is on by default, but you can turn it off and manage your custom URLs.
+</p>
+<h1 id=""w_turn-autocomplete-on-or-off"">Turn Autocomplete on or off</h1>
+<ol><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Go to <span class=""menu"">Search</span>.
+</li><li>Tap <span class=""menu"">URL Autocomplete</span>.
+<ul><li><strong>For Top sites</strong>: autocompletes popular sites around the Web.
+</li><li><strong>For Sites You Add</strong>: Lets you add your own sites to autocomplete.
+</li></ul>
+</li><li>Tap <strong>Manage sites</strong> to add a custom URL.
+</li><li>Tap <em>SAVE</em> when you're done.
+</li></ol>",focus-firefox,autofill;settings,"Firefox Focus for Android helps you get to websites faster with URL autocomplete. This feature is on by default, but you can turn it off and manage your custom URLs.
+
+# Turn Autocomplete on or off
+
+1. Tap the menu button next to the address bar:
+
+2. Tap Settings.
+3. Go to Search.
+4. Tap URL Autocomplete.
+  - **For Top sites** : autocompletes popular sites around the Web.
+  - **For Sites You Add** : Lets you add your own sites to autocomplete.
+
+5. Tap **Manage sites** to add a custom URL.
+6. Tap _SAVE_ when you're done.
+
+"
+38857,Autocomplete web addresses in the URL bar in Firefox Focus for iOS,autocomplete-url-bar-firefox-focus-ios,https://support.mozilla.org/en-US/kb/autocomplete-url-bar-firefox-focus-ios,en-US,Turn URL autocomplete on or off.,"<p></p><div class=""note"">This page describes some new features in Firefox Focus. If your Firefox Focus looks different, don't fret, you'll be able to get the new version soon.</div>
+Firefox Focus for iOS helps you get to websites faster with URL Autocomplete. This feature is on by default, but you can turn it off and manage your custom URLs.
+<p></p>
+<h1 id=""w_turn-autocomplete-on-or-off"">Turn Autocomplete on or off</h1>
+<ol><li><p>Tap the <span class=""menu"">Menu</span> button in the toolbar: 
+</p><p><img alt=""iOS_focusMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-14-11-05-25ddc0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</p>
+</li><li>Tap <span class=""menu"">Settings</span>
+</li><li>Tap the <span class=""menu"">URL Autocomplete</span> option under <em>Search</em>.
+</li><li>Tap the switch next to the option you want to turn on or off:
+<ul><li><strong>Top Sites:</strong> Enables autocomplete in the address bar for the most popular websites.
+</li><li><strong>My sites:</strong> Enables autocomplete for web addresses that you enter yourself.
+</li></ul>
+</li></ol>",focus-firefox,search;search-tag-and-share;settings,"This page describes some new features in Firefox Focus. If your Firefox Focus looks different, don't fret, you'll be able to get the new version soon.
+Firefox Focus for iOS helps you get to websites faster with URL Autocomplete. This feature is on by default, but you can turn it off and manage your custom URLs.
+
+# Turn Autocomplete on or off
+
+1. Tap the Menu button in the toolbar: 
+
+2. Tap Settings
+3. Tap the URL Autocomplete option under _Search_.
+4. Tap the switch next to the option you want to turn on or off:
+  - **Top Sites:** Enables autocomplete in the address bar for the most popular websites.
+  - **My sites:** Enables autocomplete for web addresses that you enter yourself.
+
+"
 38860,Add search engines in Firefox Focus for iOS,add-search-engines-firefox-focus-ios,https://support.mozilla.org/en-US/kb/add-search-engines-firefox-focus-ios,en-US,Add your favorite search engines.,"<p></p><div class=""note"">This page describes some new features in Firefox Focus. If your Firefox Focus looks different, don't fret, you'll be able to get the new version soon.</div>
 <p></p><p>Firefox Focus comes with built-in search engines, but you can also add new ones:
 </p>
@@ -66811,6 +67085,155 @@ The following features can be disabled via Policy Engine to minimize information
 - OverrideFirstRunPage (overrides the page that is displayed when Firefox is run for the first time)
 - OverridePostUpdatePage
 - EnableTrackingProtection (enables tracking protection to block trackers)
+
+"
+43346,Enforce policies on Firefox for Enterprise,enforcing-policies-firefox-enterprise,https://support.mozilla.org/en-US/kb/enforcing-policies-firefox-enterprise,en-US,Types of policy engines for Firefox for Enterprise.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>You can configure Firefox either by deploying a policies.json file or using the Group Policy.
+</p>
+<h1 id=""w_group-policy-objects-windows"">Group Policy Objects (Windows)</h1>
+<p>Group Policy Objects offer strong enforcement of policy settings, and are recommended for settings in your environment that are not optional and should not be changed by users. For more information, see the article <a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">Customize Firefox using Group Policy (Windows)</a>.
+</p>
+<h1 id=""w_policies-json-mac-linux-and-windows"">policies.json (Mac, Linux and Windows)</h1>
+<p>Allows policies to be set, but such that they can be overridden by users. You can enforce settings with policies.json by disabling write access or through a configuration management solution, but Group Policies are the ideal way to ensure compliance. For more information, see the article <a href=""/en-US/kb/customizing-firefox-using-policiesjson"">Customize Firefox using policies.json</a>.
+</p>",firefox-enterprise,settings,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+You can configure Firefox either by deploying a policies.json file or using the Group Policy.
+
+# Group Policy Objects (Windows)
+
+Group Policy Objects offer strong enforcement of policy settings, and are recommended for settings in your environment that are not optional and should not be changed by users. For more information, see the article [Customize Firefox using Group Policy (Windows)](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"").
+
+# policies.json (Mac, Linux and Windows)
+
+Allows policies to be set, but such that they can be overridden by users. You can enforce settings with policies.json by disabling write access or through a configuration management solution, but Group Policies are the ideal way to ensure compliance. For more information, see the article [Customize Firefox using policies.json](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-policiesjson"").
+
+"
+43348,Deploy Firefox on Windows,deploying-firefox-windows,https://support.mozilla.org/en-US/kb/deploying-firefox-windows,en-US,How to deploy Firefox for Enterprise on Windows devices.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>Firefox will automatically attempt to install at the system level if the account used to install Firefox has admin rights.
+</p><p>Firefox is installed via a setup executable that accepts the following <a href=""https://wiki.mozilla.org/Installer:Command_Line_Arguments"">arguments</a>. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_considerations""><span class=""tocnumber"">1</span> <span class=""toctext"">Considerations</span></a></li><li class=""toclevel-1""><a href=""#w_create-a-distribution-point""><span class=""tocnumber"">2</span> <span class=""toctext"">Create a Distribution Point</span></a></li><li class=""toclevel-1""><a href=""#w_prepare-your-installation-package""><span class=""tocnumber"">3</span> <span class=""toctext"">Prepare your installation package</span></a></li><li class=""toclevel-1""><a href=""#w_deploy-package-via-sccm""><span class=""tocnumber"">4</span> <span class=""toctext"">Deploy Package via SCCM</span></a></li></ul></div>
+<h1 id=""w_considerations"">Considerations</h1>
+<ul><li>If a user had previously installed Firefox and had insufficient privileges to install at the system level, Firefox may already be installed on the target system at the user level.
+</li><li>If a system level installation is run on a system with a user level installation already in place, and the installation paths are the same, shortcuts to the Firefox application generated at installation time may be duplicated and a duplicate uninstallation entry in the Programs and Features / Apps menus may exist.
+</li></ul>
+<p>If you believe that users may have already installed Firefox, and you’re worried about duplicate shortcuts and uninstallation entries in Windows, your environment can be remediated by:
+</p>
+<ul><li>asking affected users to uninstall
+</li><li>forcing an uninstall running the Firefox uninstaller on the affected systems via your configuration management tools. 
+</li></ul>
+<h1 id=""w_create-a-distribution-point"">Create a Distribution Point</h1>
+<p>Place the Firefox installer in a location that is available to your endpoint workstations and SCCM.
+</p><p>In this example, we will assume that our installer is located at the following path: 
+</p><p>\\DP01\SWSTORE\Software\Firefox\V60\setup.exe
+</p>
+<h1 id=""w_prepare-your-installation-package"">Prepare your installation package</h1>
+<p>Because Firefox is provided as an executable, any configuration management tool that deploys Firefox must either support executable-based installations, or must accept an installation batch script. Microsoft SCCM and certain versions of InTune support script-based installers. An example installer batch script for SCCM would look like this: ""%~dp0setup.exe"" -ms.
+</p>
+<div class=""note"">Note: because the batch script needs to reference the name of the setup executable, the script example uses the generic setup.exe as the name of the executable installer. While renaming the Firefox installer to setup.exe makes the installation script re-usable, we suggest you consider using the original binary name and changing the path in the installation script to avoid confusion if multiple versions of Firefox are stored in the same distribution point.</div>
+<h1 id=""w_deploy-package-via-sccm"">Deploy Package via SCCM</h1>
+<ol><li>In the SCCM Console, expand <strong>Application Management</strong> and click on the <strong>Applications</strong> applet.
+</li><li>Choose the <span class=""menu"">Script Installer</span> type and select <span class=""menu"">Manually specify the application information</span>.
+</li><li>Fill out the application details for the Firefox version you’re deploying.
+</li><li>Choose the path to the distribution point you made previously that houses the installer exe and installation script
+</li><li>For the Installation Program, select the installation script (“install.bat” in this example)
+</li><li>Create a detection rule with the following attributes:
+<ul><li><strong>Setting Type:</strong> File System
+</li><li><strong>Type:</strong> Folder
+</li><li><strong>Path:</strong> C:\Program Files\
+</li><li><strong>File or Folder Name:</strong> Mozilla Firefox
+</li><li><strong>Check:</strong> The file system setting must exist…
+</li></ul>
+<dl><dt>Note: If you plan on using an alternate installation path, change the detection rules to specify the alternate installation path. 
+</dt></dl>
+</li><li>Configure the user experience as follows: 
+<ul><li><strong>Installation behavior:</strong> Install for System
+</li><li><strong>Logon requirement:</strong> Whether or not a user is logged on
+</li><li><strong>Installation program visibility:</strong> Hidden
+</li></ul>
+</li><li>Deploy the new application to a collection by right clicking on it and selecting <span class=""menu"">Deploy</span> and defining the deployment.
+</li></ol>",firefox-enterprise,installation-and-updates,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+Firefox will automatically attempt to install at the system level if the account used to install Firefox has admin rights.
+
+Firefox is installed via a setup executable that accepts the following [arguments](https://wiki.mozilla.org/Installer:Command_Line_Arguments).
+
+## Table of Contents
+
+- [1 Considerations](https://support.mozilla.org/kb/deploying-firefox-windows#w_considerations)
+- [2 Create a Distribution Point](https://support.mozilla.org/kb/deploying-firefox-windows#w_create-a-distribution-point)
+- [3 Prepare your installation package](https://support.mozilla.org/kb/deploying-firefox-windows#w_prepare-your-installation-package)
+- [4 Deploy Package via SCCM](https://support.mozilla.org/kb/deploying-firefox-windows#w_deploy-package-via-sccm)
+
+# Considerations
+
+- If a user had previously installed Firefox and had insufficient privileges to install at the system level, Firefox may already be installed on the target system at the user level.
+- If a system level installation is run on a system with a user level installation already in place, and the installation paths are the same, shortcuts to the Firefox application generated at installation time may be duplicated and a duplicate uninstallation entry in the Programs and Features / Apps menus may exist.
+
+If you believe that users may have already installed Firefox, and you’re worried about duplicate shortcuts and uninstallation entries in Windows, your environment can be remediated by:
+
+- asking affected users to uninstall
+- forcing an uninstall running the Firefox uninstaller on the affected systems via your configuration management tools. 
+
+# Create a Distribution Point
+
+Place the Firefox installer in a location that is available to your endpoint workstations and SCCM.
+
+In this example, we will assume that our installer is located at the following path:
+
+\\DP01\SWSTORE\Software\Firefox\V60\setup.exe
+
+# Prepare your installation package
+
+Because Firefox is provided as an executable, any configuration management tool that deploys Firefox must either support executable-based installations, or must accept an installation batch script. Microsoft SCCM and certain versions of InTune support script-based installers. An example installer batch script for SCCM would look like this: ""%~dp0setup.exe"" -ms.
+
+Note: because the batch script needs to reference the name of the setup executable, the script example uses the generic setup.exe as the name of the executable installer. While renaming the Firefox installer to setup.exe makes the installation script re-usable, we suggest you consider using the original binary name and changing the path in the installation script to avoid confusion if multiple versions of Firefox are stored in the same distribution point.
+
+# Deploy Package via SCCM
+
+1. In the SCCM Console, expand **Application Management** and click on the **Applications** applet.
+2. Choose the Script Installer type and select Manually specify the application information.
+3. Fill out the application details for the Firefox version you’re deploying.
+4. Choose the path to the distribution point you made previously that houses the installer exe and installation script
+5. For the Installation Program, select the installation script (“install.bat” in this example)
+6. Create a detection rule with the following attributes:
+  - **Setting Type:** File System
+  - **Type:** Folder
+  - **Path:** C:\Program Files\
+  - **File or Folder Name:** Mozilla Firefox
+  - **Check:** The file system setting must exist…
+
+<dl><dt>Note: If you plan on using an alternate installation path, change the detection rules to specify the alternate installation path. 
+</dt></dl>
+7. Configure the user experience as follows: 
+  - **Installation behavior:** Install for System
+  - **Logon requirement:** Whether or not a user is logged on
+  - **Installation program visibility:** Hidden
+
+8. Deploy the new application to a collection by right clicking on it and selecting Deploy and defining the deployment.
+
+"
+43383,Install system add-ons on Firefox for Enterprise,install-system-add-ons-firefox-enterprise,https://support.mozilla.org/en-US/kb/install-system-add-ons-firefox-enterprise,en-US,How to configure your add-on to run on Firefox for Enterprise without having to sign it.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>If you have created an add-on or extension for your organization, you can configure Firefox ESR to run it without having to sign the extension:
+</p>
+<ol><li>Enter <strong>about:config</strong> in your address bar, and continue to the list of preferences.
+</li><li>Find the <em>xpinstall.signatures.required</em> preference and set it to <strong>false</strong>.
+</li></ol>
+<h1 id=""w_other-installations-of-firefox-non-esr"">Other installations of Firefox (non-ESR)</h1>
+<p>If your add-on needs to be used on non-ESR Firefox, you must sign it on <a href=""https://addons.mozilla.org"">Add-ons at Mozilla</a>. See <a href=""https://developer.mozilla.org/docs/Mozilla/Add-ons/Distribution"">Mozilla Developer Network</a> for more information.. 
+</p><p>Mozilla also offers an alternative signing method using the <a href=""https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/web-ext_command_reference#web-ext_sign"">web-ext command</a> if you plan to self-host an add-on.
+</p>",firefox-enterprise,add-ons-extensions-and-themes,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+If you have created an add-on or extension for your organization, you can configure Firefox ESR to run it without having to sign the extension:
+
+1. Enter **about:config** in your address bar, and continue to the list of preferences.
+2. Find the _xpinstall.signatures.required_ preference and set it to **false**.
+
+# Other installations of Firefox (non-ESR)
+
+If your add-on needs to be used on non-ESR Firefox, you must sign it on [Add-ons at Mozilla](https://addons.mozilla.org). See [Mozilla Developer Network](https://developer.mozilla.org/docs/Mozilla/Add-ons/Distribution) for more information..
+
+Mozilla also offers an alternative signing method using the [web-ext command](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/web-ext_command_reference#web-ext_sign) if you plan to self-host an add-on.
 
 "
 43392,See active policies on Firefox for Enterprise,see-active-policies-firefox-enterprise,https://support.mozilla.org/en-US/kb/see-active-policies-firefox-enterprise,en-US,How to see what policies you have active on a desktop computer.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
@@ -83416,6 +83839,190 @@ If you're sharing a link by email, Firefox will use your system's default email 
 To learn more, visit [Manage saved passwords in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/manage-saved-passwords-firefox-ios"").
 
 "
+55150,How to restore a browsing session from backup,how-restore-browsing-session-backup,https://support.mozilla.org/en-US/kb/how-restore-browsing-session-backup,en-US,There are special situations where a browsing session may be lost. This article will show you how to recover your lost session.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_check-aboutsessionrestore""><span class=""tocnumber"">1</span> <span class=""toctext"">Check about:sessionrestore</span></a></li><li class=""toclevel-1""><a href=""#w_restoring-from-a-backup-file""><span class=""tocnumber"">2</span> <span class=""toctext"">Restoring from a backup file</span></a></li><li class=""toclevel-1""><a href=""#w_conclusion""><span class=""tocnumber"">3</span> <span class=""toctext"">Conclusion</span></a></li></ul></div>
+<h1 id=""w_check-aboutsessionrestore"">Check about:sessionrestore</h1>
+<p>If a session is lost, hopefully the restore pages open automatically, but, if not, go to <strong>about:sessionrestore</strong> in the location bar. Your page should look similar to this:
+</p>
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Fx97RestoreSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-25-15-42-48-a0f513.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-13-02-dae058.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>If this page is empty or the <span class=""button"">Restore Session</span> is disabled, continue reading.
+</p>
+<h1 id=""w_restoring-from-a-backup-file"">Restoring from a backup file</h1>
+<p>
+</p><div class=""for"" data-for=""win10,win11"">
+<ol><li> Open the <a href=""/en-US/kb/use-troubleshooting-information-page-fix-firefox"">Troubleshooting Information page</a> by entering <strong>about:support</strong> in the Firefox address bar.
+</li><li> In the <em>Application Basics</em> section, check the <em>Distribution ID</em> line.
+<ul><li> If it contains <em>mozilla-MSIX</em>, this means you are using the MSIX (Microsoft Store) Firefox version.<br><img alt=""Firefox_about:support_Profile folder name"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-33-28-dab626.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>In this case:
+<ol><li> Press <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> + <span class=""key"">R</span> on the keyboard. A Run dialog will open.
+</li><li> Type in:<br><strong>%LOCALAPPDATA%\Packages\Mozilla.Firefox</strong><br>without pressing <span class=""key"">Enter</span>. A list of an only folder will appear.
+</li><li> Click on the suggested folder. Then add:<br><strong>\LocalCache\Roaming\Mozilla\Firefox\Profiles\</strong>
+</li><li> Click <span class=""button"">OK</span>. A window will open containing profile folders.
+</li><li> Open the folder which name matches the ending of the <em>Profile Folder</em> line of the <em>Application Basics</em> section.
+</li></ol>
+</li><li> Otherwise, click the <span class=""button"">Open Folder</span> button in the <em>Profile Folder</em> line of the <em>Application Basics</em> section.
+<dl><dt><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ul>
+</li><li> A file system view of your profile folder will show up.
+</li><li> In the profile folder (for example, <span class=""filepath"">xxxxxxxx.default-release</span>), if you scroll down a bit, you should see the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Make a copy of the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+</li><li> Move the file called <span class=""filepath"">sessionstore.jsonlz4</span> to another location (like your desktop). Moving rather than deleting is a precautionary step.
+<dl><dt><div class=""note""><strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+</li><li> Navigate to the <span class=""filepath"">sessionstore-backups</span> backup folder you made.
+</li><li> Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+</li><li> Copy your chosen file into the main profile folder. (Not the original <span class=""filepath"">sessionstore-backups</span> folder, but the one above it.)
+</li><li> Rename the file to <span class=""filepath"">sessionstore.jsonlz4</span>.
+</li><li> Start up Firefox.
+</li></ol>
+<div class=""warning""><strong>Warning:</strong> You may need to ensure that your file system viewer is <a href=""https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml"">not hiding</a> the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.</div>
+</div><div class=""for"" data-for=""winxp,win7,win8,not win"">
+<ol><li> Open the <a href=""/en-US/kb/use-troubleshooting-information-page-fix-firefox"">Troubleshooting Information page</a> by entering <strong>about:support</strong> in the Firefox address bar.
+</li><li>In the <em>Application Basics</em> section, click the <span class=""for"" data-for=""mac""><span class=""button"">Show in Finder</span></span><span class=""for"" data-for=""win""><span class=""button"">Open Folder</span></span><span class=""for"" data-for=""linux""><span class=""button"">Open Directory</span></span> button in the <span class=""for"" data-for=""win,mac""><em>Profile Folder</em></span><span class=""for"" data-for=""linux""><em>Profile Directory</em></span> line<span class=""for"" data-for=""not win""> (shown below on macOS)</span>.
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-29-17-f76d43.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> A file system view of your profile folder will show up.
+</li><li> In the profile folder (for example, <span class=""filepath"">xxxxxxxx.default-release</span>), if you scroll down a bit, you should see the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Make a copy of the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+</li><li> Move the file called <span class=""filepath"">sessionstore.jsonlz4</span> to another location (like your desktop). Moving rather than deleting is a precautionary step.
+<dl><dt><div class=""note""><strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+</li><li> Navigate to the <span class=""filepath"">sessionstore-backups</span> backup folder you made.
+</li><li> Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+</li><li> Copy your chosen file into the main profile folder. (Not the original <span class=""filepath"">sessionstore-backups</span> folder, but the one above it.)
+</li><li> Rename the file to <span class=""filepath"">sessionstore.jsonlz4</span>.
+</li><li> Start up Firefox.
+</li></ol>
+<div class=""warning""><strong>Warning:</strong> You may need to ensure that your file system viewer is <a href=""https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml"">not hiding</a> the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.</div>
+</div>
+<h1 id=""w_conclusion"">Conclusion</h1>
+<p>If you feel that you are more prone to losing your session – sessions with lots of tabs may fall into this category – or would just like insurance, the <a href=""/en-US/kb/recommended-extensions-program"">recommended</a> extension <a href=""https://addons.mozilla.org/firefox/addon/tab-session-manager/"">Tabs Session Manager</a> helps keep sessions safe.
+</p><p><br>
+</p><p>
+<strong>Based on information from <a href=""https://www.reddit.com/r/firefox/comments/56sevb/how_to_restore_a_browsing_session_from_backup/"">How to Restore a Browsing Session from Backup (reddit.com/r/firefox)</a></strong>
+</p>",firefox,settings,"## Table of Contents
+
+- [1 Check about:sessionrestore](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_check-aboutsessionrestore)
+- [2 Restoring from a backup file](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_restoring-from-a-backup-file)
+- [3 Conclusion](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_conclusion)
+
+# Check about:sessionrestore
+
+If a session is lost, hopefully the restore pages open automatically, but, if not, go to **about:sessionrestore** in the location bar. Your page should look similar to this:
+
+<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Fx97RestoreSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-25-15-42-48-a0f513.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-13-02-dae058.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+If this page is empty or the Restore Session is disabled, continue reading.
+
+# Restoring from a backup file
+
+1. Open the [Troubleshooting Information page](\""https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox"") by entering **about:support** in the Firefox address bar.
+2. In the _Application Basics_ section, check the _Distribution ID_ line.
+  - If it contains _mozilla-MSIX_, this means you are using the MSIX (Microsoft Store) Firefox version.  
+ ![Firefox_about:support_Profile folder name](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+In this case:
+    1. Press ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) + R on the keyboard. A Run dialog will open.
+    2. Type in:  
+**%LOCALAPPDATA%\Packages\Mozilla.Firefox**  
+without pressing Enter. A list of an only folder will appear.
+    3. Click on the suggested folder. Then add:  
+**\LocalCache\Roaming\Mozilla\Firefox\Profiles\**
+    4. Click OK. A window will open containing profile folders.
+    5. Open the folder which name matches the ending of the _Profile Folder_ line of the _Application Basics_ section.
+
+  - Otherwise, click the Open Folder button in the _Profile Folder_ line of the _Application Basics_ section.<dl><dt>
+<img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+3. A file system view of your profile folder will show up.
+4. In the profile folder (for example, xxxxxxxx.default-release), if you scroll down a bit, you should see the sessionstore-backups folder.
+5. Make a copy of the sessionstore-backups folder.
+6. Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+7. Move the file called sessionstore.jsonlz4 to another location (like your desktop). Moving rather than deleting is a precautionary step.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+8. Navigate to the sessionstore-backups backup folder you made.
+9. Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+10. Copy your chosen file into the main profile folder. (Not the original sessionstore-backups folder, but the one above it.)
+11. Rename the file to sessionstore.jsonlz4.
+12. Start up Firefox.
+
+**Warning:** You may need to ensure that your file system viewer is [not hiding](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml) the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.
+
+1. Open the [Troubleshooting Information page](\""https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox"") by entering **about:support** in the Firefox address bar.
+2. In the _Application Basics_ section, click the Show in FinderOpen FolderOpen Directory button in the _Profile Folder__Profile Directory_ line (shown below on macOS).<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-29-17-f76d43.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. A file system view of your profile folder will show up.
+4. In the profile folder (for example, xxxxxxxx.default-release), if you scroll down a bit, you should see the sessionstore-backups folder.
+5. Make a copy of the sessionstore-backups folder.
+6. Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+7. Move the file called sessionstore.jsonlz4 to another location (like your desktop). Moving rather than deleting is a precautionary step.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+8. Navigate to the sessionstore-backups backup folder you made.
+9. Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+10. Copy your chosen file into the main profile folder. (Not the original sessionstore-backups folder, but the one above it.)
+11. Rename the file to sessionstore.jsonlz4.
+12. Start up Firefox.
+
+**Warning:** You may need to ensure that your file system viewer is [not hiding](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml) the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.
+
+# Conclusion
+
+If you feel that you are more prone to losing your session – sessions with lots of tabs may fall into this category – or would just like insurance, the [recommended](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program"") extension [Tabs Session Manager](https://addons.mozilla.org/firefox/addon/tab-session-manager/) helps keep sessions safe.
+
+**Based on information from [How to Restore a Browsing Session from Backup (reddit.com/r/firefox)](https://www.reddit.com/r/firefox/comments/56sevb/how_to_restore_a_browsing_session_from_backup/)**
+
+"
+55175,How can I contact support if I can’t sign in to Mozilla VPN,how-can-i-contact-support-if-i-cant-log-mozilla-vp,https://support.mozilla.org/en-US/kb/how-can-i-contact-support-if-i-cant-log-mozilla-vp,en-US,This article explains how to contact support if you can't sign in to Mozilla VPN.,"<p><strong>If you are unable to sign in:</strong>
+</p>
+<ol><li>Open Mozilla VPN and click <span class=""menu"">Help</span> on the top right-hand side of the screen.
+<dl><dt><img alt=""mozillavpnhelp"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-20-53-675cc1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>Click <span class=""menu"">Contact support</span>.
+<dl><dt><img alt=""mozillavpnsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-21-44-7485f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Complete the <strong>Contact support</strong> form, where you'll be asked to provide your email address and additional information about your problem.
+<dl><dt><img alt=""Contact support form"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-58-27-bfe41a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click <span class=""button"">Submit</span> to complete your request.
+<dl><dt><img alt=""Contact support form VPN 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-59-03-149550.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<p><br>
+
+<strong>Related articles</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn?utm_source=-vpn-related"">I forgot my Mozilla account password and I can't sign in to Mozilla VPN</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
+</li></ul>",mozilla-vpn,accounts," **If you are unable to sign in:**
+
+1. Open Mozilla VPN and click Help on the top right-hand side of the screen.<dl><dt>
+<img alt=""mozillavpnhelp"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-20-53-675cc1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+2. Click Contact support.<dl><dt>
+<img alt=""mozillavpnsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-21-44-7485f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Complete the **Contact support** form, where you'll be asked to provide your email address and additional information about your problem.<dl><dt>
+<img alt=""Contact support form"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-58-27-bfe41a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Click Submit to complete your request.<dl><dt>
+<img alt=""Contact support form VPN 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-59-03-149550.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Related articles**
+
+- [I forgot my Mozilla account password and I can't sign in to Mozilla VPN](https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn?utm_source=-vpn-related)
+- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
+
+"
 55187,Contributors guide on Firefox advanced customization with CSS,contributors-guide-firefox-advanced-customization,https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization,en-US,What you need to know about Firefox customization with the userChrome.css file and how to help users get more help or revert their changes.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-does-userchrome-css-do""><span class=""tocnumber"">1</span> <span class=""toctext"">What does userChrome.css do?</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-userchrome-css-disabled-by-default""><span class=""tocnumber"">2</span> <span class=""toctext"">Why is userChrome.css disabled by default?</span></a></li><li class=""toclevel-1""><a href=""#w_what-do-users-need-to-know-before-they-use-userchrome-css-customization""><span class=""tocnumber"">3</span> <span class=""toctext"">What do users need to know before they use userChrome.css customization?</span></a></li><li class=""toclevel-1""><a href=""#w_where-can-users-get-help-with-custom-rules-and-userchrome-css""><span class=""tocnumber"">4</span> <span class=""toctext"">Where can users get help with custom rules and userChrome.css?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-revert-firefox-back-to-its-default-state""><span class=""tocnumber"">5</span> <span class=""toctext"">How to revert Firefox back to its default state?</span></a><ul><li class=""toclevel-2""><a href=""#w_reset-firefox-to-its-default-state""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Reset Firefox to its default state</span></a></li><li class=""toclevel-2""><a href=""#w_disable-and-remove-userchrome-css""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Disable and remove userChrome.css</span></a></li></ul></li></ul></div>
 <div class=""warning""><strong>Warning</strong>: CSS customization is intended for developers, not end users.</div>
 <p>In addition to the built-in customization feature (see <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox controls, buttons and toolbars</a>), Firefox themes (see <a href=""/en-US/kb/use-themes-change-look-of-firefox"">Use themes to change the look of Firefox</a> and other types of add-ons (see <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Find and install add-ons to add features to Firefox</a>), advanced Firefox users can also make changes to their browser user interface (UI) by applying style rules with an optional file named <span class=""filepath"">userChrome.css</span>. 
@@ -85385,153 +85992,6 @@ To learn more about how to use Relay, see [Create an email mask through Firefox 
 
 - [Quickly access previously generated masks](\""https://support.mozilla.org/en-US/kb/firefox-relay-how-reuse-email-masks"")
 - [Mask your phone number with Relay Phone Masking](\""https://support.mozilla.org/en-US/kb/mask-your-phone-number-relay-phone-masking"")
-
-"
-55961,Firefox Relay - Email and Phone masks,firefox-relay-what-email-mask,https://support.mozilla.org/en-US/kb/firefox-relay-what-email-mask,en-US,"Learn what is an email mask, what is a phone mask, and how a mask can protect your real information on the internet and its benefits.","<h1 id=""w_what-is-an-email-mask"">What is an email mask?</h1>
-<p>An email mask is a forwarding address that keeps your real email address private. All emails sent to your email mask are forwarded to your real email without revealing it.
-</p><p>With Firefox Relay, you can create up to 5 email masks for use on various websites. These masks can be managed via the <a href=""https://relay.firefox.com/?utm_source=fx-relay-addon&amp;utm_medium=popup&amp;utm_content=manage-all-addresses"">Relay dashboard</a>, where you can choose which ones to receive forwarded emails from. This feature helps you maintain privacy, reduce spam, and keep your personal email secure.
-</p>
-<h2 id=""w_benefits-of-using-an-email-mask"">Benefits of using an email mask</h2>
-<table>
-<caption>
-</caption><tbody><tr>
-<th>Free features</th><th>Premium features
-</th></tr>
-<tr>
-<td>Create up to five email masks</td><td><a href=""/en-US/kb/activate-firefox-relay-mask-your-email-address"">Create an unlimited number of masks</a>
-</td></tr>
-<tr>
-<td>Disable email forwarding to stop receiving forwarded messages</td><td><a href=""/en-US/kb/receive-only-important-emails-sent-through-your-ma"">Block promotional emails</a> and receive most important emails only
-</td></tr>
-<tr>
-<td></td><td><a href=""/en-US/kb/register-your-own-domain-firefox-relay-premium"">Register your own domain</a> to conveniently create email masks on the go and use them without having a phone or a computer with you
-</td></tr>
-</tbody></table>
-<div class=""note"">A subscription to Firefox Relay Premium lets you create an unlimited number of masks to use. You will also be able to reply from your real email to emails that have been forwarded to you. To learn more about the benefits of Relay Premium, see <a href=""/en-US/kb/subscribe-firefox-relay-premium"">Subscribe to Firefox Relay Premium</a>.</div>
-<h1 id=""w_what-is-a-phone-mask"">What is a phone mask?</h1>
-<p>A phone mask is a premium feature that allows users to generate a unique phone number to use instead of their real number. This helps protect your privacy when you need to share a phone number online or with services you don't fully trust. All texts or calls will be forwarded to your real phone number without revealing it.
-</p>
-<h2 id=""w_benefits-of-using-a-phone-mask"">Benefits of using a phone mask</h2>
-<table>
-<tbody><tr>
-<th>Feature</th><th>Description
-</th></tr>
-<tr>
-<td>Text forwarding</td><td>When a text message is sent to your Relay phone mask, it will forward to your true phone
-</td></tr>
-<tr>
-<td>Text replies/conversations</td><td>When you reply to a forwarded message from your Relay phone mask, Relay will forward your reply to the last number that texted you
-</td></tr>
-<tr>
-<td>Call forwarding</td><td>When a call is made to your Relay phone mask, it will forward to your true phone
-</td></tr>
-<tr>
-<td>Text &amp; Call blocking</td><td>You can use your Relay phone dashboard to enable/disable your Relay phone mask
-</td></tr></tbody></table>
-<h1 id=""w_related-content"">Related content</h1>
-<ul><li><a href=""/en-US/kb/subscribe-firefox-relay-premium"">Subscribe to Firefox Relay Premium</a>
-</li><li><a href=""/en-US/kb/firefox-relay-premium-faq"">Firefox Relay Premium FAQ</a>
-</li><li><a href=""/en-US/kb/mask-your-phone-number-relay-phone-masking"">Mask your phone number with Relay Phone Masking</a>
-</li></ul>",relay,masking;privacy-and-security,"# What is an email mask?
-
-An email mask is a forwarding address that keeps your real email address private. All emails sent to your email mask are forwarded to your real email without revealing it.
-
-With Firefox Relay, you can create up to 5 email masks for use on various websites. These masks can be managed via the [Relay dashboard](https://relay.firefox.com/?utm_source=fx-relay-addon&utm_medium=popup&utm_content=manage-all-addresses), where you can choose which ones to receive forwarded emails from. This feature helps you maintain privacy, reduce spam, and keep your personal email secure.
-
-## Benefits of using an email mask
-
-<caption>
-</caption>
-| Free features | Premium features |
-| --- | --- |
-| Create up to five email masks | [Create an unlimited number of masks](\""https://support.mozilla.org/en-US/kb/activate-firefox-relay-mask-your-email-address"") |
-| Disable email forwarding to stop receiving forwarded messages | [Block promotional emails](\""https://support.mozilla.org/en-US/kb/receive-only-important-emails-sent-through-your-ma"") and receive most important emails only |
-| | [Register your own domain](\""https://support.mozilla.org/en-US/kb/register-your-own-domain-firefox-relay-premium"") to conveniently create email masks on the go and use them without having a phone or a computer with you |
-
-A subscription to Firefox Relay Premium lets you create an unlimited number of masks to use. You will also be able to reply from your real email to emails that have been forwarded to you. To learn more about the benefits of Relay Premium, see [Subscribe to Firefox Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"").
-
-# What is a phone mask?
-
-A phone mask is a premium feature that allows users to generate a unique phone number to use instead of their real number. This helps protect your privacy when you need to share a phone number online or with services you don't fully trust. All texts or calls will be forwarded to your real phone number without revealing it.
-
-## Benefits of using a phone mask
-
-| Feature | Description |
-| --- | --- |
-| Text forwarding | When a text message is sent to your Relay phone mask, it will forward to your true phone |
-| Text replies/conversations | When you reply to a forwarded message from your Relay phone mask, Relay will forward your reply to the last number that texted you |
-| Call forwarding | When a call is made to your Relay phone mask, it will forward to your true phone |
-| Text & Call blocking | You can use your Relay phone dashboard to enable/disable your Relay phone mask |
-
-# Related content
-
-- [Subscribe to Firefox Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"")
-- [Firefox Relay Premium FAQ](\""https://support.mozilla.org/en-US/kb/firefox-relay-premium-faq"")
-- [Mask your phone number with Relay Phone Masking](\""https://support.mozilla.org/en-US/kb/mask-your-phone-number-relay-phone-masking"")
-
-"
-56103,Download the Beta and Nightly versions of Firefox Focus for Android,download-beta-and-nightly-focus-android,https://support.mozilla.org/en-US/kb/download-beta-and-nightly-focus-android,en-US,You can download the Beta and Nightly versions of Firefox Focus for Android to your mobile device.,"<p>You can download the Beta and Nightly versions of Firefox Focus for Android to your mobile device. 
-</p><p>Once you've downloaded the apps and begin testing, you can <a href=""https://github.com/mozilla-mobile/focus-android/issues"">report any issues you encounter</a>. 
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_download-firefox-focus-for-android-beta""><span class=""tocnumber"">1</span> <span class=""toctext"">Download Firefox Focus for Android Beta</span></a></li><li class=""toclevel-1""><a href=""#w_download-firefox-focus-for-android-nightly""><span class=""tocnumber"">2</span> <span class=""toctext"">Download Firefox Focus for Android Nightly</span></a></li></ul></div> 
-<h2 id=""w_download-firefox-focus-for-android-beta"">Download Firefox Focus for Android Beta</h2>
-<p>Download Firefox Focus Beta to experience new functionality and bug fixes prior to these being released to production. This version is most suitable for testers. 
-</p><p>To download Firefox Focus Beta:
-</p>
-<ol><li><a href=""https://groups.google.com/g/firefox-focus-pre-release"">Join this Google Group</a> with the same Google account you use on your device to download apps from the Google Play Store.
-</li><li>After you’ve joined the Google Group, <a href=""https://play.google.com/apps/testing/org.mozilla.focus.beta"">opt in to receive Beta builds</a> with the same Google account. 
-</li><li><a href=""https://play.google.com/store/apps/details?id=org.mozilla.focus.beta"">Download Firefox Focus (Beta) from Google Play</a>.
-</li></ol>
-<h2 id=""w_download-firefox-focus-for-android-nightly"">Download Firefox Focus for Android Nightly</h2>
-<p>Download Firefox Focus Nightly to experience and test daily updates to the app. This version is most suitable for developers and testers.
-</p><p>The Nightly version allows you to experience the newest Focus innovations in an unstable environment and provide feedback on features and performance to help determine what makes the final release. 
-</p><p>The Nightly version of Focus:
-</p>
-<ul><li>Updates every 24 hours
-</li><li>Contains the latest development state
-</li><li>Can be unstable and contain incomplete or defect features
-</li></ul>
-<p>To download Firefox Focus Nightly:
-</p>
-<ol><li><a href=""https://groups.google.com/g/firefox-focus-pre-release"">Join this Google Group</a> with the same Google account you use on your device to download apps from the Google Play Store.
-</li><li>After you have joined the group, <a href=""https://play.google.com/apps/testing/org.mozilla.focus.nightly"">opt in to receive Nightly builds</a> with the same Google account.
-</li><li><a href=""https://play.google.com/store/apps/details?id=org.mozilla.focus.nightly"">Download Firefox Focus (Nightly) </a>from Google Play.
-</li></ol>",focus-firefox,install;installation-and-updates,"You can download the Beta and Nightly versions of Firefox Focus for Android to your mobile device.
-
-Once you've downloaded the apps and begin testing, you can [report any issues you encounter](https://github.com/mozilla-mobile/focus-android/issues).
-
-## Table of Contents
-
-- [1 Download Firefox Focus for Android Beta](https://support.mozilla.org/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-beta)
-- [2 Download Firefox Focus for Android Nightly](https://support.mozilla.org/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-nightly)
-
-## Download Firefox Focus for Android Beta
-
-Download Firefox Focus Beta to experience new functionality and bug fixes prior to these being released to production. This version is most suitable for testers.
-
-To download Firefox Focus Beta:
-
-1. [Join this Google Group](https://groups.google.com/g/firefox-focus-pre-release) with the same Google account you use on your device to download apps from the Google Play Store.
-2. After you’ve joined the Google Group, [opt in to receive Beta builds](https://play.google.com/apps/testing/org.mozilla.focus.beta) with the same Google account. 
-3. [Download Firefox Focus (Beta) from Google Play](https://play.google.com/store/apps/details?id=org.mozilla.focus.beta).
-
-## Download Firefox Focus for Android Nightly
-
-Download Firefox Focus Nightly to experience and test daily updates to the app. This version is most suitable for developers and testers.
-
-The Nightly version allows you to experience the newest Focus innovations in an unstable environment and provide feedback on features and performance to help determine what makes the final release.
-
-The Nightly version of Focus:
-
-- Updates every 24 hours
-- Contains the latest development state
-- Can be unstable and contain incomplete or defect features
-
-To download Firefox Focus Nightly:
-
-1. [Join this Google Group](https://groups.google.com/g/firefox-focus-pre-release) with the same Google account you use on your device to download apps from the Google Play Store.
-2. After you have joined the group, [opt in to receive Nightly builds](https://play.google.com/apps/testing/org.mozilla.focus.nightly) with the same Google account.
-3. [Download Firefox Focus (Nightly)](https://play.google.com/store/apps/details?id=org.mozilla.focus.nightly)from Google Play.
 
 "
 56108,Firefox for Enterprise 95 - Release notes,firefox-enterprise-95-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-95-release-notes,en-US,See what's coming out with Firefox for Enterprise 95.,"<p>Except where noted, everything here applies to both Firefox 95 and the Firefox 91.4 ESR.
@@ -89981,6 +90441,349 @@ _Learn more about this feature: [Safari Integration in Firefox Focus for iOS](\"
 # Latest features
 
 Check out the latest release notes for [Firefox Focus for Android](https://support.mozilla.org/en-US/kb/whats-new-firefox-focus-android) to get to know the latest features for Firefox Focus for Android.
+
+"
+58635,Participate in early testing (foxfooding),participate-early-testing-foxfooding,https://support.mozilla.org/en-US/kb/participate-early-testing-foxfooding,en-US,Do you enjoy testing new products? Then you might be interested in our foxfooding program.,"<p>Do you enjoy testing new products? Then you might be interested in our foxfooding program. 
+</p><p>Foxfooding is our internal testing or ""dogfooding"" program. The goal is to encourage all Mozillians to give early feedback about the products that we are shipping.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_install-beta-or-nightly-version""><span class=""tocnumber"">1</span> <span class=""toctext"">Install Beta or Nightly version</span></a></li><li class=""toclevel-1""><a href=""#w_other-foxfooding-program""><span class=""tocnumber"">2</span> <span class=""toctext"">Other foxfooding program</span></a></li></ul></div>
+<h1 id=""w_install-beta-or-nightly-version"">Install Beta or Nightly version</h1>
+<p>You can participate in testing new features early by using the Beta or Nightly version. Here's where you can find more information about the beta and nightly version per product. 
+</p>
+<table>
+<tbody><tr>
+<td><strong>Product name</strong>
+</td><td><strong>Beta version</strong>
+</td><td><strong>Nightly version</strong>
+</td></tr>
+<tr>
+<td>Firefox desktop
+</td><td><a href=""https://wiki.mozilla.org/Beta"">https://wiki.mozilla.org/Beta</a>
+</td><td><a href=""https://wiki.mozilla.org/Nightly"">https://wiki.mozilla.org/Nightly</a>
+</td></tr>
+<tr>
+<td>Firefox for Android
+</td><td><a href=""https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta"">Firefox for Android Beta</a>
+</td><td><a href=""https://play.google.com/store/apps/details?id=org.mozilla.fenix"">Firefox for Android Nightly</a>
+</td></tr>
+<tr>
+<td>Firefox for iOS
+</td><td><a href=""https://testflight.apple.com/join/6DxisC7k"">Firefox for iOS Beta</a>
+</td><td> -
+</td></tr>
+<tr>
+<td>Firefox Focus for Android
+</td><td><a href=""https://play.google.com/store/apps/details?id=org.mozilla.focus.beta"">Firefox Focus for Android Beta</a>
+</td><td><a href=""https://play.google.com/store/apps/details?id=org.mozilla.focus.nightly"">Firefox Focus for Android Nightly</a>
+</td></tr>
+<tr>
+<td>Firefox Focus for iOS
+</td><td><a href=""https://testflight.apple.com/join/dH8lkFZi"">Firefox Focus for iOS Beta</a>
+</td><td> -
+</td></tr>
+</tbody></table>
+<h1 id=""w_other-foxfooding-program"">Other foxfooding program</h1>
+<p>Check out the <a href=""https://community.mozilla.org/en/campaigns/"">Community Portal</a> to get to know the latest campaign, including foxfooding program for contributors. If you have access to Slack, you can also join the <strong>#foxfooding</strong> channel to participate. Otherwise, you can also join the <a href=""https://matrix.to/#/#foxfooding:mozilla.org""><strong>Matrix channel</strong></a>.
+</p>",contributor,general,"Do you enjoy testing new products? Then you might be interested in our foxfooding program.
+
+Foxfooding is our internal testing or ""dogfooding"" program. The goal is to encourage all Mozillians to give early feedback about the products that we are shipping.
+
+## Table of Contents
+
+- [1 Install Beta or Nightly version](https://support.mozilla.org/kb/participate-early-testing-foxfooding#w_install-beta-or-nightly-version)
+- [2 Other foxfooding program](https://support.mozilla.org/kb/participate-early-testing-foxfooding#w_other-foxfooding-program)
+
+# Install Beta or Nightly version
+
+You can participate in testing new features early by using the Beta or Nightly version. Here's where you can find more information about the beta and nightly version per product.
+
+| **Product name** | **Beta version** | **Nightly version** |
+| Firefox desktop | [https://wiki.mozilla.org/Beta](https://wiki.mozilla.org/Beta) | [https://wiki.mozilla.org/Nightly](https://wiki.mozilla.org/Nightly) |
+| Firefox for Android | [Firefox for Android Beta](https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta) | [Firefox for Android Nightly](https://play.google.com/store/apps/details?id=org.mozilla.fenix) |
+| Firefox for iOS | [Firefox for iOS Beta](https://testflight.apple.com/join/6DxisC7k) | - |
+| Firefox Focus for Android | [Firefox Focus for Android Beta](https://play.google.com/store/apps/details?id=org.mozilla.focus.beta) | [Firefox Focus for Android Nightly](https://play.google.com/store/apps/details?id=org.mozilla.focus.nightly) |
+| Firefox Focus for iOS | [Firefox Focus for iOS Beta](https://testflight.apple.com/join/dH8lkFZi) | - |
+
+# Other foxfooding program
+
+Check out the [Community Portal](https://community.mozilla.org/en/campaigns/) to get to know the latest campaign, including foxfooding program for contributors. If you have access to Slack, you can also join the **#foxfooding** channel to participate. Otherwise, you can also join the [**Matrix channel**](https://matrix.to/#/#foxfooding:mozilla.org).
+
+"
+58636,Get to know Mozilla,get-know-mozilla,https://support.mozilla.org/en-US/kb/get-know-mozilla,en-US,Get to know Mozilla. Learn more about its mission for the internet and our practices as an organization.,"<p>Mozilla is a unique organization in the global tech scene. Unlike other big tech, Mozilla Corporation is owned by the <a href=""https://foundation.mozilla.org/"">Mozilla Foundation</a>. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_introduction-to-mozilla""><span class=""tocnumber"">1</span> <span class=""toctext"">Introduction to Mozilla</span></a></li><li class=""toclevel-1""><a href=""#w_our-mission""><span class=""tocnumber"">2</span> <span class=""toctext"">Our mission</span></a></li><li class=""toclevel-1""><a href=""#w_mozilla-manifesto""><span class=""tocnumber"">3</span> <span class=""toctext"">Mozilla manifesto</span></a></li><li class=""toclevel-1""><a href=""#w_our-history""><span class=""tocnumber"">4</span> <span class=""toctext"">Our history</span></a></li><li class=""toclevel-1""><a href=""#w_leadership""><span class=""tocnumber"">5</span> <span class=""toctext"">Leadership</span></a></li><li class=""toclevel-1""><a href=""#w_mozilla-privacy-policy""><span class=""tocnumber"">6</span> <span class=""toctext"">Mozilla Privacy Policy</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-privacy-notice""><span class=""tocnumber"">7</span> <span class=""toctext"">Firefox Privacy Notice</span></a></li><li class=""toclevel-1""><a href=""#w_community-participation-guideline""><span class=""tocnumber"">8</span> <span class=""toctext"">Community Participation Guideline</span></a></li><li class=""toclevel-1""><a href=""#w_lean-data-practices""><span class=""tocnumber"">9</span> <span class=""toctext"">Lean data practices</span></a></li></ul></div>
+<h1 id=""w_introduction-to-mozilla"">Introduction to Mozilla</h1>
+<p></p><div class=""youtube-embed"">
+  <iframe src=""//www.youtube.com/embed/_obdx3VUzuQ?wmode=transparent&amp;rel=0"" frameborder=""0"" allowfullscreen></iframe>
+</div>
+<p></p>
+<h1 id=""w_our-mission"">Our mission</h1>
+<p>Our mission is to ensure the Internet is a global public resource, open and accessible to all. An Internet that truly puts people first, where individuals can shape their own experience and are empowered, safe and independent.
+</p><p>At Mozilla, we’re a global community of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.
+</p>
+<div class=""note"">
+<em>More about that: <a href=""https://www.mozilla.org/mission/"">https://www.mozilla.org/mission/</a></em></div>
+<h1 id=""w_mozilla-manifesto"">Mozilla manifesto</h1>
+<p>The Mozilla project uses a community-based approach to create world-class open source software and to develop new types of collaborative activities. We create communities of people involved in making the internet experience better for all of us.
+</p><p>As a result of these efforts, we have distilled a set of principles that we believe are critical for the internet to continue to benefit the public good as well as commercial aspects of life.
+</p>
+<div class=""note"">
+<em>To learn more about our manifesto, please see: <a href=""https://www.mozilla.org/about/manifesto/"">https://www.mozilla.org/about/manifesto/</a> </em></div>
+<h1 id=""w_our-history"">Our history</h1>
+<p>The Mozilla project was created in 1998 with the release of the Netscape browser suite source code. It was intended to harness the creative power of thousands of programmers on the internet and fuel unprecedented levels of innovation in the browser market. Within the first year, new community members from around the world had already contributed new functionality, enhanced existing features and became engaged in the management and planning of the project itself. 
+</p>
+<div class=""note"">
+<em>For more information about Mozilla's history, see: <a href=""https://www.mozilla.org/about/history/"">https://www.mozilla.org/about/history/</a></em></div>
+<h1 id=""w_leadership"">Leadership</h1>
+<p>Our leadership team is made up of both paid staff and volunteers with expertise building products and empowering communities that further our non-profit mission.
+</p>
+<div class=""note"">
+<em>For more information about Mozilla's leadership, see: <a href=""https://www.mozilla.org/about/leadership/"">https://www.mozilla.org/about/leadership/</a></em></div>
+<h1 id=""w_mozilla-privacy-policy"">Mozilla Privacy Policy</h1>
+<p>Learn more about <a href=""https://www.mozilla.org/privacy/"">Mozilla Privacy Policy</a>.
+</p>
+<h1 id=""w_firefox-privacy-notice"">Firefox Privacy Notice</h1>
+<p>Learn more about <a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>.
+</p>
+<h1 id=""w_community-participation-guideline"">Community Participation Guideline</h1>
+<p>Learn more about our <a href=""https://www.mozilla.org/about/governance/policies/participation/"">Community Participation Guidelines</a>. As a contributor, we also highly recommend you to take <a href=""https://mozilla.teachable.com/p/cpg-training-contributors"">this short training course</a>.
+</p>
+<h1 id=""w_lean-data-practices"">Lean data practices</h1>
+<p>Learn more about our <a href=""https://www.mozilla.org/about/policy/lean-data/"">Lean data practices</a>.
+</p>",contributor,general,"Mozilla is a unique organization in the global tech scene. Unlike other big tech, Mozilla Corporation is owned by the [Mozilla Foundation](https://foundation.mozilla.org/).
+
+## Table of Contents
+
+- [1 Introduction to Mozilla](https://support.mozilla.org/kb/get-know-mozilla#w_introduction-to-mozilla)
+- [2 Our mission](https://support.mozilla.org/kb/get-know-mozilla#w_our-mission)
+- [3 Mozilla manifesto](https://support.mozilla.org/kb/get-know-mozilla#w_mozilla-manifesto)
+- [4 Our history](https://support.mozilla.org/kb/get-know-mozilla#w_our-history)
+- [5 Leadership](https://support.mozilla.org/kb/get-know-mozilla#w_leadership)
+- [6 Mozilla Privacy Policy](https://support.mozilla.org/kb/get-know-mozilla#w_mozilla-privacy-policy)
+- [7 Firefox Privacy Notice](https://support.mozilla.org/kb/get-know-mozilla#w_firefox-privacy-notice)
+- [8 Community Participation Guideline](https://support.mozilla.org/kb/get-know-mozilla#w_community-participation-guideline)
+- [9 Lean data practices](https://support.mozilla.org/kb/get-know-mozilla#w_lean-data-practices)
+
+# Introduction to Mozilla
+
+//www.youtube.com/embed/_obdx3VUzuQ?wmode=transparent&rel=0
+
+# Our mission
+
+Our mission is to ensure the Internet is a global public resource, open and accessible to all. An Internet that truly puts people first, where individuals can shape their own experience and are empowered, safe and independent.
+
+At Mozilla, we’re a global community of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.
+
+_More about that: [https://www.mozilla.org/mission/](https://www.mozilla.org/mission/)_
+
+# Mozilla manifesto
+
+The Mozilla project uses a community-based approach to create world-class open source software and to develop new types of collaborative activities. We create communities of people involved in making the internet experience better for all of us.
+
+As a result of these efforts, we have distilled a set of principles that we believe are critical for the internet to continue to benefit the public good as well as commercial aspects of life.
+
+_To learn more about our manifesto, please see: [https://www.mozilla.org/about/manifesto/](https://www.mozilla.org/about/manifesto/)_ 
+
+# Our history
+
+The Mozilla project was created in 1998 with the release of the Netscape browser suite source code. It was intended to harness the creative power of thousands of programmers on the internet and fuel unprecedented levels of innovation in the browser market. Within the first year, new community members from around the world had already contributed new functionality, enhanced existing features and became engaged in the management and planning of the project itself.
+
+_For more information about Mozilla's history, see: [https://www.mozilla.org/about/history/](https://www.mozilla.org/about/history/)_
+
+# Leadership
+
+Our leadership team is made up of both paid staff and volunteers with expertise building products and empowering communities that further our non-profit mission.
+
+_For more information about Mozilla's leadership, see: [https://www.mozilla.org/about/leadership/](https://www.mozilla.org/about/leadership/)_
+
+# Mozilla Privacy Policy
+
+Learn more about [Mozilla Privacy Policy](https://www.mozilla.org/privacy/).
+
+# Firefox Privacy Notice
+
+Learn more about [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
+
+# Community Participation Guideline
+
+Learn more about our [Community Participation Guidelines](https://www.mozilla.org/about/governance/policies/participation/). As a contributor, we also highly recommend you to take [this short training course](https://mozilla.teachable.com/p/cpg-training-contributors).
+
+# Lean data practices
+
+Learn more about our [Lean data practices](https://www.mozilla.org/about/policy/lean-data/).
+
+"
+58647,Mozilla official support channels,mozilla-official-support-channels,https://support.mozilla.org/en-US/kb/mozilla-official-support-channels,en-US,Learn about official support channels for Mozilla products.,"<p>In this article, you will learn about official support channels for Mozilla products and how you can contribute to Mozilla Support.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_official-channels""><span class=""tocnumber"">1</span> <span class=""toctext"">Official channels</span></a><ul><li class=""toclevel-2""><a href=""#w_how-you-can-help""><span class=""tocnumber"">1.1</span> <span class=""toctext"">How you can help</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_unofficial-channels""><span class=""tocnumber"">2</span> <span class=""toctext"">Unofficial channels</span></a></li></ul></div>
+<h1 id=""w_official-channels"">Official channels</h1>
+<p>Mozilla Support is optimized for self-service. However, when users are not able to find answers from the Knowledge Base articles, they can reach out to the following official support channels:
+</p>
+<table>
+<tbody><tr>
+<td><strong>Product name</strong>
+</td><td><strong>Forum support</strong>
+</td><td><strong>Direct support</strong>
+</td><td><strong>Twitter support</strong>
+</td><td><strong>App Store support</strong>
+</td><td>
+</td></tr>
+<tr>
+<td>Firefox desktop
+</td><td><a href=""https://support.mozilla.org/questions/new/desktop/form"">✓</a>
+</td><td>No
+</td><td>Yes. Via <a href=""https://twitter.com/FirefoxSupport"">@FirefoxSupport</a>
+</td><td>Microsoft store (partial support)
+</td></tr>
+<tr>
+<td>Firefox enterprise
+</td><td><a href=""https://support.mozilla.org/questions/new/firefox-enterprise/form"">✓</a>
+</td><td>No
+</td><td>No
+</td><td>No
+</td></tr>
+<tr>
+<td>Firefox for Android
+</td><td><a href=""https://support.mozilla.org/questions/new/mobile/form"">✓</a>
+</td><td>No
+</td><td>Yes. Via <a href=""https://twitter.com/FirefoxSupport"">@FirefoxSupport</a>
+</td><td>Google Play Store support
+</td></tr>
+<tr>
+<td>Firefox for iOS
+</td><td><a href=""https://support.mozilla.org/questions/new/ios/form"">✓</a>
+</td><td>No
+</td><td>Yes. Via <a href=""https://twitter.com/FirefoxSupport"">@FirefoxSupport</a>
+</td><td>Apple AppStore (staff support)
+</td></tr>
+<tr>
+<td>Firefox Focus
+</td><td><a href=""https://support.mozilla.org/questions/new/focus/form"">✓</a>
+</td><td>No
+</td><td>Yes. Via <a href=""https://twitter.com/FirefoxSupport"">@FirefoxSupport</a>
+</td><td>Google Play Store
+</td></tr>
+<tr>
+<td>Mozilla VPN
+</td><td>No
+</td><td><a href=""https://support.mozilla.org/questions/new/firefox-private-network-vpn/form"">✓</a>
+</td><td>Yes. Via <a href=""https://twitter.com/mozillavpn"">@mozillavpn</a>
+</td><td>Google Play Store and Apple AppStore (staff support)
+</td></tr>
+<tr>
+<td>Firefox Relay
+</td><td>No
+</td><td><a href=""https://support.mozilla.org/questions/new/relay/formm"">✓</a>
+</td><td>No
+</td><td>No
+</td></tr>
+<tr>
+<td>MDN Plus
+</td><td>No
+</td><td><a href=""https://support.mozilla.org/questions/new/mdn-plus/form"">✓</a>
+</td><td>No
+</td><td>No
+</td></tr>
+<tr>
+<td>Hubs
+</td><td><a href=""https://support.mozilla.org/questions/new/hubs/form"">✓</a>
+</td><td>No
+</td><td>No
+</td><td>No
+</td></tr>
+<tr>
+<td>Thunderbird
+</td><td><a href=""https://support.mozilla.org/en-US/questions/new/thunderbird/form"">✓</a>
+</td><td>No
+</td><td>Yes. Via <a href=""https://twitter.com/mozthunderbird"">@mozthunderbird</a>
+</td><td>No
+</td></tr>
+<tr>
+<td>Pocket
+</td><td>No
+</td><td><a href=""https://support.mozilla.org/en-US/questions/new/pocket/form"">✓</a>
+</td><td>No
+</td><td>No
+</td></tr>
+<tr>
+<td>Mozilla account
+</td><td>No
+</td><td><a href=""https://support.mozilla.org/en-US/questions/new/mozilla-account/form"">✓</a>
+</td><td>No
+</td><td>No
+</td></tr>
+</tbody></table>
+<h2 id=""w_how-you-can-help"">How you can help</h2>
+<ul><li> To help with the support forum, you can contribute to → <a href=""https://support.mozilla.org/contribute/forum"">forum support</a>
+</li><li> To help with Twitter support, you can contribute to → <a href=""https://support.mozilla.org/contribute/social"">social support</a>
+</li><li> To help with app store support, you can contribute to → <a href=""https://support.mozilla.org/contribute/store"">mobile support</a>
+</li></ul>
+<h1 id=""w_unofficial-channels"">Unofficial channels</h1>
+<p>In addition to the above official channels, the following unofficial channels are alternatives where users can request support for Mozilla products:
+</p>
+<table>
+<tbody><tr>
+<td><strong>Channel name</strong>
+</td><td><strong>Link</strong>
+</td></tr>
+<tr>
+<td>Reddit
+</td><td><a href=""https://www.reddit.com/r/firefox/"">https://www.reddit.com/r/firefox/</a><br><a href=""https://www.reddit.com/r/Thunderbird/"">https://www.reddit.com/r/Thunderbird/</a>
+</td></tr>
+<tr>
+<td>mozillaZine
+</td><td><a href=""https://forums.mozillazine.org/"">https://forums.mozillazine.org/</a>
+</td></tr>
+<tr>
+<td>German local forum
+</td><td><a href=""https://www.camp-firefox.de/forum/"">https://www.camp-firefox.de/forum/</a>
+</td></tr>
+<tr>
+<td>Community forum in French
+</td><td><a href=""https://forums.mozfr.org/"">https://forums.mozfr.org/</a>
+</td></tr></tbody></table>",contributor,general,"In this article, you will learn about official support channels for Mozilla products and how you can contribute to Mozilla Support.
+
+## Table of Contents
+
+- [1 Official channels](https://support.mozilla.org/kb/mozilla-official-support-channels#w_official-channels)
+  - [1.1 How you can help](https://support.mozilla.org/kb/mozilla-official-support-channels#w_how-you-can-help)
+
+- [2 Unofficial channels](https://support.mozilla.org/kb/mozilla-official-support-channels#w_unofficial-channels)
+
+# Official channels
+
+Mozilla Support is optimized for self-service. However, when users are not able to find answers from the Knowledge Base articles, they can reach out to the following official support channels:
+
+| **Product name** | **Forum support** | **Direct support** | **Twitter support** | **App Store support** | |
+| Firefox desktop | [✓](https://support.mozilla.org/questions/new/desktop/form) | No | Yes. Via [@FirefoxSupport](https://twitter.com/FirefoxSupport) | Microsoft store (partial support) |
+| Firefox enterprise | [✓](https://support.mozilla.org/questions/new/firefox-enterprise/form) | No | No | No |
+| Firefox for Android | [✓](https://support.mozilla.org/questions/new/mobile/form) | No | Yes. Via [@FirefoxSupport](https://twitter.com/FirefoxSupport) | Google Play Store support |
+| Firefox for iOS | [✓](https://support.mozilla.org/questions/new/ios/form) | No | Yes. Via [@FirefoxSupport](https://twitter.com/FirefoxSupport) | Apple AppStore (staff support) |
+| Firefox Focus | [✓](https://support.mozilla.org/questions/new/focus/form) | No | Yes. Via [@FirefoxSupport](https://twitter.com/FirefoxSupport) | Google Play Store |
+| Mozilla VPN | No | [✓](https://support.mozilla.org/questions/new/firefox-private-network-vpn/form) | Yes. Via [@mozillavpn](https://twitter.com/mozillavpn) | Google Play Store and Apple AppStore (staff support) |
+| Firefox Relay | No | [✓](https://support.mozilla.org/questions/new/relay/formm) | No | No |
+| MDN Plus | No | [✓](https://support.mozilla.org/questions/new/mdn-plus/form) | No | No |
+| Hubs | [✓](https://support.mozilla.org/questions/new/hubs/form) | No | No | No |
+| Thunderbird | [✓](https://support.mozilla.org/en-US/questions/new/thunderbird/form) | No | Yes. Via [@mozthunderbird](https://twitter.com/mozthunderbird) | No |
+| Pocket | No | [✓](https://support.mozilla.org/en-US/questions/new/pocket/form) | No | No |
+| Mozilla account | No | [✓](https://support.mozilla.org/en-US/questions/new/mozilla-account/form) | No | No |
+
+## How you can help
+
+- To help with the support forum, you can contribute to → [forum support](https://support.mozilla.org/contribute/forum)
+- To help with Twitter support, you can contribute to → [social support](https://support.mozilla.org/contribute/social)
+- To help with app store support, you can contribute to → [mobile support](https://support.mozilla.org/contribute/store)
+
+# Unofficial channels
+
+In addition to the above official channels, the following unofficial channels are alternatives where users can request support for Mozilla products:
+
+| **Channel name** | **Link** |
+| Reddit | [https://www.reddit.com/r/firefox/](https://www.reddit.com/r/firefox/)  
+[https://www.reddit.com/r/Thunderbird/](https://www.reddit.com/r/Thunderbird/) |
+| mozillaZine | [https://forums.mozillazine.org/](https://forums.mozillazine.org/) |
+| German local forum | [https://www.camp-firefox.de/forum/](https://www.camp-firefox.de/forum/) |
+| Community forum in French | [https://forums.mozfr.org/](https://forums.mozfr.org/) |
 
 "
 58694,How to stay updated with Firefox release,stay-updated-firefox-releases,https://support.mozilla.org/en-US/kb/stay-updated-firefox-releases,en-US,Stay on top of release updates and trending issues,"<p>In the spirit of being open and ensure contributors stay up to date on Firefox udpates, here are a few key resources you can use to find information about Firefox releases (both desktop and mobile):
@@ -113638,6 +114441,252 @@ Choosing this option forces on high contrast mode and allows you to choose the c
 - [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"")
 
 "
+67551,On-device AI models in Firefox,on-device-models,https://support.mozilla.org/en-US/kb/on-device-models,en-US,Learn what on-device AI models are and how you can manage them.,"<p>Some features and extensions in Firefox are powered by AI models that are stored and run locally on your device. This approach helps preserve your privacy while enhancing your experience.
+</p><p>This article explains:
+</p>
+<ul><li>What on-device AI models are and how they’re different from AI models stored remotely.
+</li><li>How Firefox uses on-device AI models.
+</li><li>Where you can view and remove on-device AI models.
+</li></ul>
+<h1 id=""w_what-are-on-device-ai-models"">What are on-device AI models?</h1>
+<p>The programs that make AI work are called models. Just like computer files, AI models can be stored locally, on your device. Or, they can be stored on remote servers – often called “the cloud”.
+</p><p>Storing AI models locally means your data and activity are processed on your computer, to preserve your privacy. When models are stored in the cloud, your data is sent to remote servers for processing.
+</p>
+<h2 id=""w_benefits-of-on-device-ai-models"">Benefits of on-device AI models</h2>
+<p>Storing and running AI models locally on your device has these advantages:
+</p>
+<ul><li><strong>Preserves your privacy:</strong> Your data is processed on your computer.
+</li><li><strong>Works faster:</strong> Since processing happens on your device, results often appear more quickly.
+</li><li><strong>Works offline:</strong> Features continue to work even without an internet connection.
+</li></ul>
+<h2 id=""w_how-on-device-ai-is-different-from-cloud-ai"">How on-device AI is different from cloud AI</h2>
+<table>
+<caption>
+</caption><tbody><tr>
+<th></th><th>On-device AI</th><th>Cloud AI
+</th></tr>
+<tr>
+<td><strong>Where processing happens</strong></td><td>On your device</td><td>On remote servers
+</td></tr>
+<tr>
+<td><strong>Privacy</strong></td><td>No data is sent to the servers</td><td>Data is sent to a central location for processing
+</td></tr>
+<tr>
+<td><strong>Speed</strong></td><td>No network delays</td><td>Depends on the internet speed
+</td></tr>
+<tr>
+<td><strong>Internet required</strong></td><td>No</td><td>Yes
+</td></tr></tbody></table>
+<h1 id=""w_how-firefox-uses-on-device-ai-models"">How Firefox uses on-device AI models</h1>
+<p>Firefox uses on-device AI models to enhance certain features. Here are some examples:
+</p>
+<ul><li>When you edit PDFs in Firefox, AI can <a href=""/en-US/kb/pdf-alt-text"">create alt text for images you add to PDFs</a>. This helps make your PDFs more accessible for those using screen readers.
+</li><li><a href=""/en-US/kb/how-use-ai-enhanced-tab-groups"">Help organize your tabs</a>. AI can read the titles of your open tabs and find similar ones to group together. This can help you stay organized while you browse.
+</li></ul>
+<p>Extensions you add to Firefox may also use on-device AI models.
+</p>
+<h1 id=""w_manage-on-device-ai-models-in-firefox"">Manage on-device AI models in Firefox</h1>
+<p>In the address bar of Firefox, type <strong>about:addons</strong>. Select <span class=""menu"">On-Device AI</span> from the menu. If you don’t see this item in the menu, it means Firefox and the extensions you’ve downloaded aren’t using any optional AI models on your device.
+</p><p>On this page, you can:
+</p>
+<ul><li><strong>Review models:</strong> See which models have been downloaded, what size the models are, and what they’re used for.
+</li><li><strong>Remove models:</strong> Helpful if you need to manage space on your device, or if you simply don’t use the associated feature or extensions anymore.
+</li></ul>
+<p><img alt=""Manage on-device AI models"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-23-11-57-41-e9021e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h2 id=""w_remove-an-ai-model"">Remove an AI model</h2>
+<ol><li>On the <em>On-Device AI</em> page, find the model you want to remove.
+</li><li>Select the trashcan icon.
+</li><li>Confirm you want to remove the model.
+<dl><dt><img alt=""Remove AI model"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-23-12-00-37-b42ac1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h2 id=""w_what-happens-after-i-remove-a-model"">What happens after I remove a model?</h2>
+<p>The model is removed from your device.
+</p><p>The related Firefox feature or extension will not be removed. If the feature or extension requires the model to work, it will be re-added if you use the feature or extension.
+</p>
+<h1 id=""w_frequently-asked-questions-faqs"">Frequently Asked Questions (FAQs)</h1>
+<h2 id=""w_will-a-feature-still-work-if-i-remove-the-ai-model"">Will a feature still work if I remove the AI model?</h2>
+<p>It depends. Some features may still work, just differently. Other features require the model to work. If you remove a model and then try to use a feature or extension that requires it, the model will be re-added automatically.
+</p>
+<h2 id=""w_why-dont-i-see-the-on-device-ai-page"">Why don’t I see the <em>On-Device AI</em> page?</h2>
+<p>If you aren’t using any features or extensions powered by on-device AI models that you can manage, you won’t see this page.
+</p>
+<h2 id=""w_how-do-i-know-what-an-ai-model-is-used-for"">How do I know what an AI model is used for?</h2>
+<p>For each model on the <em>On-Device AI</em> page, we include information about how Firefox uses the model or what extension uses the model. Select a model to view its details and find a link to the model’s card. “Model cards” provide detailed information about a model.
+</p>",firefox,add-ons-extensions-and-themes;settings,"Some features and extensions in Firefox are powered by AI models that are stored and run locally on your device. This approach helps preserve your privacy while enhancing your experience.
+
+This article explains:
+
+- What on-device AI models are and how they’re different from AI models stored remotely.
+- How Firefox uses on-device AI models.
+- Where you can view and remove on-device AI models.
+
+# What are on-device AI models?
+
+The programs that make AI work are called models. Just like computer files, AI models can be stored locally, on your device. Or, they can be stored on remote servers – often called “the cloud”.
+
+Storing AI models locally means your data and activity are processed on your computer, to preserve your privacy. When models are stored in the cloud, your data is sent to remote servers for processing.
+
+## Benefits of on-device AI models
+
+Storing and running AI models locally on your device has these advantages:
+
+- **Preserves your privacy:** Your data is processed on your computer.
+- **Works faster:** Since processing happens on your device, results often appear more quickly.
+- **Works offline:** Features continue to work even without an internet connection.
+
+## How on-device AI is different from cloud AI
+
+<caption>
+</caption>
+| | On-device AI | Cloud AI |
+| --- | --- | --- |
+| **Where processing happens** | On your device | On remote servers |
+| **Privacy** | No data is sent to the servers | Data is sent to a central location for processing |
+| **Speed** | No network delays | Depends on the internet speed |
+| **Internet required** | No | Yes |
+
+# How Firefox uses on-device AI models
+
+Firefox uses on-device AI models to enhance certain features. Here are some examples:
+
+- When you edit PDFs in Firefox, AI can [create alt text for images you add to PDFs](\""https://support.mozilla.org/en-US/kb/pdf-alt-text""). This helps make your PDFs more accessible for those using screen readers.
+- [Help organize your tabs](\""https://support.mozilla.org/en-US/kb/how-use-ai-enhanced-tab-groups""). AI can read the titles of your open tabs and find similar ones to group together. This can help you stay organized while you browse.
+
+Extensions you add to Firefox may also use on-device AI models.
+
+# Manage on-device AI models in Firefox
+
+In the address bar of Firefox, type **about:addons**. Select On-Device AI from the menu. If you don’t see this item in the menu, it means Firefox and the extensions you’ve downloaded aren’t using any optional AI models on your device.
+
+On this page, you can:
+
+- **Review models:** See which models have been downloaded, what size the models are, and what they’re used for.
+- **Remove models:** Helpful if you need to manage space on your device, or if you simply don’t use the associated feature or extensions anymore.
+
+![Manage on-device AI models](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+## Remove an AI model
+
+1. On the _On-Device AI_ page, find the model you want to remove.
+2. Select the trashcan icon.
+3. Confirm you want to remove the model.<dl><dt>
+<img alt=""Remove AI model"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-23-12-00-37-b42ac1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+## What happens after I remove a model?
+
+The model is removed from your device.
+
+The related Firefox feature or extension will not be removed. If the feature or extension requires the model to work, it will be re-added if you use the feature or extension.
+
+# Frequently Asked Questions (FAQs)
+
+## Will a feature still work if I remove the AI model?
+
+It depends. Some features may still work, just differently. Other features require the model to work. If you remove a model and then try to use a feature or extension that requires it, the model will be re-added automatically.
+
+## Why don’t I see the _On-Device AI_ page?
+
+If you aren’t using any features or extensions powered by on-device AI models that you can manage, you won’t see this page.
+
+## How do I know what an AI model is used for?
+
+For each model on the _On-Device AI_ page, we include information about how Firefox uses the model or what extension uses the model. Select a model to view its details and find a link to the model’s card. “Model cards” provide detailed information about a model.
+
+"
+67562,Thunderbird Release,thunderbird-release,https://support.mozilla.org/en-US/kb/thunderbird-release,en-US,"Stable Thunderbird release that gets frequent new features, improvements, bug fixes and security patches.","<p>
+<strong>If you are currently using the ESR (Extended Support Release) version of Thunderbird, you may have recently seen a notice titled ""Upgrade to Thunderbird Release."" We strongly recommend switching from the ESR channel to the Release channel for the best overall experience. To switch from ESR to Release, follow the instructions below.</strong>
+</p><p>The new Release channel receives new features and improvements more quickly, every four weeks instead of annually, including bug fixes and security patches. It offers a good balance between new functionality and stability, making it the best choice for most users. For more details about all available Thunderbird channels, see <a href=""/en-US/kb/choosing-thunderbird-release-channel"">How to select a Thunderbird release channel</a>. 
+</p>
+<div class=""note"">Note: Release channel is not yet available for Microsoft Store (for Windows), Snap and Flatpak (Linux).</div>
+<h1 id=""w_how-do-i-change-from-esr-to-release"">How do I change from ESR to Release?</h1>
+<ul><li> Bookmark this page, so you can refer to it later if you have difficulty.
+</li><li> If you do not already do backups that save your Thunderbird profile data, then we strongly recommend that you <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">backup the Thunderbird profile</a>.
+</li></ul>
+<div class=""for"" data-for=""win,mac"">
+<ul><li> Visit the <a href=""https://thunderbird.net/download/release?utm_campaign=kb_release_channel&amp;utm_medium=web&amp;utm_source=sumo&amp;utm_content=link_release"">download page</a> which should show <em>Thunderbird Release</em> under <em>Release Channel</em>, and click the <span class=""button"">Download</span> button.
+</li><li> Run the downloaded file to install Thunderbird Release <strong>into the same directory where Thunderbird ESR is currently installed</strong>.<div class=""note""><strong>Note:</strong> If you previously installed Thunderbird ESR into a directory that is different from the default location, then you must do a custom installation to that directory.</div>
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li> For Linux, consult the <a href=""/en-US/kb/installing-thunderbird-linux#w_changing-channels"">Linux installation article</a> for the remaining installation steps.
+</li></ul>
+</div><p>If you have any difficulty, please <a href=""https://support.mozilla.org/questions/new/thunderbird"">ask a question in support</a>.
+</p><p>To learn what has changed since ESR 128, <a href=""https://www.thunderbird.net/thunderbird/releases/"">check the release notes since version 128 (136.0…)</a>. To learn more about channels, see <a href=""/en-US/kb/choosing-thunderbird-release-channel"">How to select a Thunderbird release channel</a>.
+</p><p>If you were <strong>not</strong> directed here by a notice in Thunderbird “Upgrade to Thunderbird Release"", check whether you have WebExtension Experiment add-ons by installing and running the <a href=""https://addons.thunderbird.net/thunderbird/addon/addon-compatibility-check/"">Compatibility Checker add-on</a>.
+</p>
+<h1 id=""w_how-do-i-change-from-release-back-to-esr"">How do I change from Release back to ESR?</h1>
+<p>If you switched to Release but want to switch back to ESR, for example because of <a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"">add-ons</a>, follow the steps below. Before you begin, review all steps to be certain you understand them and will be comfortable doing them. If you are uncertain, <a href=""https://support.mozilla.org/questions/new/thunderbird"">ask a question in support</a> before proceeding.
+</p>
+<ul><li> <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Backup the Thunderbird profile</a>, as you should always do before making major changes.
+</li><li> <a href=""https://thunderbird.net/download/esr?utm_campaign=kb_choose_channel&amp;utm_medium=web&amp;utm_source=sumo&amp;utm_content=link_esr"">Download ESR</a> and run the installer such that it installs into the application directory where the Thunderbird Release is installed. It will do this by default for Windows and Mac. (The application directory is shown in <span class=""menu"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Troubleshooting Information</span> &gt; <strong>Application Basics</strong> &gt; Application Binary – on a Windows system the default directory is “Mozilla Thunderbird”.)
+</li><li> If the ESR version number you are changing to is <strong>lower</strong> (older) than the release version number you have been using, then you must use <strong>--allow-downgrade</strong> parameter for the first startup, to override downgrade protection. <span class=""for"" data-for=""win"">Open a command line in Windows in the application binary directory and run<br><code>.\thunderbird.exe --allow-downgrade</code></span><span class=""for"" data-for=""mac"">Open a terminal window in the application binary directory and run<br><code>./thunderbird --allow-downgrade</code></span><span class=""for"" data-for=""linux"">Open a terminal window in the application binary directory and run<br><code>./thunderbird --allow-downgrade</code></span><br>(More details at <a href=""/en-US/kb/dedicated-profile-thunderbird-installation#w_what-happens-to-my-profile-if-i-downgrade-to-a-previous-version-of-thunderbird"">Dedicated profile per Thunderbird installation</a>. If you do not use the command line, then you will see a warning dialog, <em>You are using an old version</em>.)
+</li></ul>
+<p>If you have any difficulty, please <a href=""https://support.mozilla.org/questions/new/thunderbird"">ask a question in support</a>.
+</p>
+<h1 id=""w_how-to-install-and-run-release"">How to install and run Release</h1>
+<ul><li> Visit the <a href=""https://www.thunderbird.net/download/release"">download page</a>, and click the <span class=""button"">Download</span> button.
+</li><li> Run the downloaded installation file, which will install Thunderbird Release into its own program directory.
+</li><li> If you need more help or want to install using other sources, see <a href=""/en-US/kb/installing-thunderbird-windows"">Windows</a>, <a href=""/en-US/kb/installing-thunderbird-on-mac"">macOS</a>, <a href=""/en-US/kb/installing-thunderbird-linux"">Linux</a> and <a href=""/en-US/kb/well-known-sources-for-downloading-thunderbird"">official sources</a> for additional details.
+</li></ul>
+<h1 id=""w_add-ons"">Add-ons</h1>
+<p>Most Thunderbird add-ons will work with the Release channel. Consult the <a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"">add-ons FAQ</a> if you have any difficulty.
+</p>
+<h1 id=""w_what-if-i-want-to-help-the-thunderbird-project"">What if I want to help the Thunderbird project?</h1>
+<p>The <a href=""https://www.thunderbird.net/participate/"">Participate page</a> lists many ways for you to help in the community, and places to learn more about Thunderbird. Some examples are <a href=""/en-US/kb/thunderbird-beta"">using the Beta channel of Thunderbird</a> and <a href=""https://www.thunderbird.net/donate/"">donating</a>.
+</p>",thunderbird,install;installation-and-updates,"**If you are currently using the ESR (Extended Support Release) version of Thunderbird, you may have recently seen a notice titled ""Upgrade to Thunderbird Release."" We strongly recommend switching from the ESR channel to the Release channel for the best overall experience. To switch from ESR to Release, follow the instructions below.**
+
+The new Release channel receives new features and improvements more quickly, every four weeks instead of annually, including bug fixes and security patches. It offers a good balance between new functionality and stability, making it the best choice for most users. For more details about all available Thunderbird channels, see [How to select a Thunderbird release channel](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"").
+
+Note: Release channel is not yet available for Microsoft Store (for Windows), Snap and Flatpak (Linux).
+
+# How do I change from ESR to Release?
+
+- Bookmark this page, so you can refer to it later if you have difficulty.
+- If you do not already do backups that save your Thunderbird profile data, then we strongly recommend that you [backup the Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"").
+
+- Visit the [download page](https://thunderbird.net/download/release?utm_campaign=kb_release_channel&utm_medium=web&utm_source=sumo&utm_content=link_release) which should show _Thunderbird Release_ under _Release Channel_, and click the Download button.
+- Run the downloaded file to install Thunderbird Release **into the same directory where Thunderbird ESR is currently installed**.
+**Note:** If you previously installed Thunderbird ESR into a directory that is different from the default location, then you must do a custom installation to that directory.
+
+- For Linux, consult the [Linux installation article](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-linux#w_changing-channels"") for the remaining installation steps.
+
+If you have any difficulty, please [ask a question in support](https://support.mozilla.org/questions/new/thunderbird).
+
+To learn what has changed since ESR 128, [check the release notes since version 128 (136.0…)](https://www.thunderbird.net/thunderbird/releases/). To learn more about channels, see [How to select a Thunderbird release channel](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"").
+
+If you were **not** directed here by a notice in Thunderbird “Upgrade to Thunderbird Release"", check whether you have WebExtension Experiment add-ons by installing and running the [Compatibility Checker add-on](https://addons.thunderbird.net/thunderbird/addon/addon-compatibility-check/).
+
+# How do I change from Release back to ESR?
+
+If you switched to Release but want to switch back to ESR, for example because of [add-ons](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken""), follow the steps below. Before you begin, review all steps to be certain you understand them and will be comfortable doing them. If you are uncertain, [ask a question in support](https://support.mozilla.org/questions/new/thunderbird) before proceeding.
+
+- [Backup the Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), as you should always do before making major changes.
+- [Download ESR](https://thunderbird.net/download/esr?utm_campaign=kb_choose_channel&utm_medium=web&utm_source=sumo&utm_content=link_esr) and run the installer such that it installs into the application directory where the Thunderbird Release is installed. It will do this by default for Windows and Mac. (The application directory is shown in ≡ \> Help \> Troubleshooting Information \> **Application Basics** \> Application Binary – on a Windows system the default directory is “Mozilla Thunderbird”.)
+- If the ESR version number you are changing to is **lower** (older) than the release version number you have been using, then you must use **--allow-downgrade** parameter for the first startup, to override downgrade protection. Open a command line in Windows in the application binary directory and run  
+`.\thunderbird.exe --allow-downgrade`Open a terminal window in the application binary directory and run  
+`./thunderbird --allow-downgrade`Open a terminal window in the application binary directory and run  
+`./thunderbird --allow-downgrade`  
+(More details at [Dedicated profile per Thunderbird installation](\""https://support.mozilla.org/en-US/kb/dedicated-profile-thunderbird-installation#w_what-happens-to-my-profile-if-i-downgrade-to-a-previous-version-of-thunderbird""). If you do not use the command line, then you will see a warning dialog, _You are using an old version_.)
+
+If you have any difficulty, please [ask a question in support](https://support.mozilla.org/questions/new/thunderbird).
+
+# How to install and run Release
+
+- Visit the [download page](https://www.thunderbird.net/download/release), and click the Download button.
+- Run the downloaded installation file, which will install Thunderbird Release into its own program directory.
+- If you need more help or want to install using other sources, see [Windows](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-windows""), [macOS](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac""), [Linux](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-linux"") and [official sources](\""https://support.mozilla.org/en-US/kb/well-known-sources-for-downloading-thunderbird"") for additional details.
+
+# Add-ons
+
+Most Thunderbird add-ons will work with the Release channel. Consult the [add-ons FAQ](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_what-if-my-add-on-is-broken"") if you have any difficulty.
+
+# What if I want to help the Thunderbird project?
+
+The [Participate page](https://www.thunderbird.net/participate/) lists many ways for you to help in the community, and places to learn more about Thunderbird. Some examples are [using the Beta channel of Thunderbird](\""https://support.mozilla.org/en-US/kb/thunderbird-beta"") and [donating](https://www.thunderbird.net/donate/).
+
+"
 67578,Solve math calculations directly in your Firefox address bar,solve-math-calculations-directly-your-firefox-addr,https://support.mozilla.org/en-US/kb/solve-math-calculations-directly-your-firefox-addr,en-US,Learn about engaging in math calculations and unit conversions directly in the Firefox address bar,"<p></p><div class=""note""> 
 <p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
@@ -120093,16 +121142,21 @@ We are introducing Firefox Support for Organizations. For more information, see 
 We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/?version=esr) for Windows 7/8 and macOS 10.12/10.13/10.14 users until March 2026.
 
 "
-70534,Mask your email when browsing in Firefox for iOS,relay-masks-ios,https://support.mozilla.org/en-US/kb/relay-masks-ios,en-US,Learn how to enable and use Firefox Relay to mask your email when signing up on websites in Firefox for iOS.,"<p>Firefox for iOS now includes built-in email masking powered by Firefox Relay. You can hide your real email address when signing up on websites you don’t fully trust by using a generated mask. Email masking helps protect your identity and inbox from spam or tracking. 
+70534,Mask your email when browsing in Firefox for iOS,relay-masks-ios,https://support.mozilla.org/en-US/kb/relay-masks-ios,en-US,Learn how to enable and use Firefox Relay to mask your email when signing up on websites in Firefox for iOS.,"<p></p><div class=""note""> 
+<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
+</p>
+</div>
+<p></p><p>Firefox for iOS now includes built-in email masking powered by Firefox Relay. You can hide your real email address when signing up on websites you don’t fully trust by using a generated mask. Email masking helps protect your identity and inbox from spam or tracking.
 </p><p>Previously, this feature was only available through an extension. Now, it’s built into Firefox for iOS. In this initial phase, it is available to users who are signed in to Firefox with a Mozilla account that already has Firefox Relay enabled.
-</p><p>If you have not used Relay before, sign in to Firefox on iOS from <span class=""menu"">Settings</span>, then visit  	<a href=""https://relay.firefox.com/accounts/profile/"">relay.firefox.com</a> <a href=""http://relay.firefox.com"">relay.firefox.com</a> and sign in with the same Mozilla account to activate Relay. Once enabled, you can use email masking directly in the browser.
+</p><p>If you have not used Relay before, sign in to Firefox for iOS from <span class=""menu"">Settings</span>, then visit <a href=""https://relay.firefox.com/accounts/profile/"">relay.firefox.com</a> and sign in with the same Mozilla account to activate Relay. Once enabled, you can use email masking directly in the browser.
 </p><p><img alt=""firefoxrelayios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-05-54-b7d4a9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-email-masking-suggestions-on-your-ios-device""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable email masking suggestions on your iOS device</span></a></li><li class=""toclevel-1""><a href=""#w_use-email-masking-when-signing-up""><span class=""tocnumber"">2</span> <span class=""toctext"">Use email masking when signing up</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-related-questions""><span class=""tocnumber"">3</span> <span class=""toctext"">Frequently related questions</span></a><ul><li class=""toclevel-2""><a href=""#w_who-can-use-email-masking-in-firefox-for-ios""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Who can use email masking in Firefox for iOS?</span></a></li><li class=""toclevel-2""><a href=""#w_how-many-email-masks-do-i-get-for-free""><span class=""tocnumber"">3.2</span> <span class=""toctext"">How many email masks do I get for free?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-delete-or-edit-my-email-masks""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Can I delete or edit my email masks?</span></a></li><li class=""toclevel-2""><a href=""#w_is-a-mozilla-account-required""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Is a Mozilla account required?</span></a></li><li class=""toclevel-2""><a href=""#w_does-it-work-in-private-browsing""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Does it work in private browsing?</span></a></li><li class=""toclevel-2""><a href=""#w_why-dont-i-see-the-suggestion-to-use-a-mask""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Why don’t I see the suggestion to use a mask?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related Articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-email-masking-suggestions-on-your-ios-device""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable email masking suggestions on your iOS device</span></a></li><li class=""toclevel-1""><a href=""#w_use-email-masking-when-signing-up""><span class=""tocnumber"">2</span> <span class=""toctext"">Use email masking when signing up</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-related-questions""><span class=""tocnumber"">3</span> <span class=""toctext"">Frequently related questions</span></a><ul><li class=""toclevel-2""><a href=""#w_who-can-use-email-masking-in-firefox-for-ios""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Who can use email masking in Firefox for iOS?</span></a></li><li class=""toclevel-2""><a href=""#w_how-many-email-masks-do-i-get-for-free""><span class=""tocnumber"">3.2</span> <span class=""toctext"">How many email masks do I get for free?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-delete-or-edit-my-email-masks""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Can I delete or edit my email masks?</span></a></li><li class=""toclevel-2""><a href=""#w_is-a-mozilla-account-required""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Is a Mozilla account required?</span></a></li><li class=""toclevel-2""><a href=""#w_does-it-work-in-private-browsing""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Does it work in private browsing?</span></a></li><li class=""toclevel-2""><a href=""#w_why-dont-i-see-the-suggestion-to-use-a-mask""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Why don’t I see the suggestion to use a mask?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_enable-email-masking-suggestions-on-your-ios-device"">Enable email masking suggestions on your iOS device</h1>
 <ol><li>Tap the menu icon (three lines) in Firefox.
 </li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Go to <span class=""menu"">Autofil &amp; Passwords</span>.
+</li><li>Go to <span class=""menu"">Autofill &amp; Passwords</span>.
 <dl><dt><img alt=""firefoxautofillios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-06-38-314f63.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 </li><li>Select <span class=""menu"">Email masks</span>.
@@ -120110,26 +121164,26 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 <dl><dt><img alt=""firefoxrelaysuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-14-26-67aab3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 </li></ol>
-<div class=""note""><strong>Note</strong>: The Suggest email masks option is turned on by default, but you can turn it off by following the same instructions shown above.</div> 
+<div class=""note""><strong>Note:</strong> The Suggest email masks option is turned on by default, but you can turn it off by following the same instructions shown above.</div> 
 <h1 id=""w_use-email-masking-when-signing-up"">Use email masking when signing up</h1>
 <p>After enabling the feature, Firefox will suggest using an email mask whenever you tap an email field on a sign‑up form.
 </p>
 <ol><li>Tap the email field on a website’s sign‑up form.
-</li><li>Select Use email mask from the suggestion.
+</li><li>Select <span class=""button"">Use email mask</span> from the suggestion.
 </li><li>Firefox will insert a unique masked email address to keep your real email hidden.
 <dl><dt><img alt=""firefoxrelayemailmask"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-15-44-dd83a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 </li></ol>
-<div class=""note""><strong>Note</strong>: You can use up to <strong>5 free email masks</strong>. If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Email masks</span> &gt; <span class=""button"">Manage email masks</span>.</div>
+<div class=""note""><strong>Note:</strong>  You can use up to <strong>5 free email masks</strong>. If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Email masks</span> &gt; <span class=""button"">Manage email masks</span>.</div>
 <h1 id=""w_frequently-related-questions"">Frequently related questions</h1>
 <h2 id=""w_who-can-use-email-masking-in-firefox-for-ios"">Who can use email masking in Firefox for iOS?</h2>
 <p>In the initial phase, email masking is available to users who are signed in to Firefox for iOS with a Mozilla account that already has Firefox Relay enabled. Make sure you are using Firefox for iOS version 150 or later and are signed in to your account to access this feature.
 </p>
 <h2 id=""w_how-many-email-masks-do-i-get-for-free"">How many email masks do I get for free?</h2>
-<p>You can use up to <strong>five free email masks</strong>.  If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Email masks</span> &gt; <span class=""button"">Manage email masks</span>.
+<p>You can use up to <strong>five free email masks</strong>. If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Email masks</span> &gt; <span class=""button"">Manage email masks</span>.
 </p>
 <h2 id=""w_can-i-delete-or-edit-my-email-masks"">Can I delete or edit my email masks?</h2>
-<p>Yes. To manage or delete your existing masks, go to Settings &gt; Email masks, then select Manage email masks. This opens your Firefox Relay dashboard in a new tab, where you can view and manage your masks.
+<p>Yes. To manage or delete your existing masks, go to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Email masks</span>, then select <span class=""button"">Manage email masks</span>. This opens your Firefox Relay dashboard in a new tab, where you can view and manage your masks.
 </p>
 <h2 id=""w_is-a-mozilla-account-required"">Is a Mozilla account required?</h2>
 <p>Yes, you need to be signed in with a Mozilla account to use email masking.
@@ -120138,16 +121192,18 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 <p>Yes, email masking works in private browsing mode.
 </p>
 <h2 id=""w_why-dont-i-see-the-suggestion-to-use-a-mask"">Why don’t I see the suggestion to use a mask?</h2>
-<p>Make sure the Suggest email masks setting is enabled. Email masking is only available on supported websites. Firefox checks an approved list of domains before showing the mask option, so if a website is not on that list, the option will not appear. Some custom or non-standard sign-up fields may also not be recognized.
+<p>Make sure the <strong>Suggest email masks</strong> setting is enabled. Email masking is only available on supported websites. Firefox checks an approved list of domains before showing the mask option, so if a website is not on that list, the option will not appear. Some custom or non-standard sign-up fields may also not be recognized.
 </p>
-<h1 id=""w_related-articles"">Related Articles</h1>
+<h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/toolbar-firefox-ios"">Explore the toolbar in Firefox for iOS</a>
 </li><li><a href=""/en-US/kb/menu-firefox-ios"">Explore the Firefox for iOS menu</a>
-</li></ul>",relay,undefined,"Firefox for iOS now includes built-in email masking powered by Firefox Relay. You can hide your real email address when signing up on websites you don’t fully trust by using a generated mask. Email masking helps protect your identity and inbox from spam or tracking.
+</li></ul>",relay,undefined,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users.
+
+Firefox for iOS now includes built-in email masking powered by Firefox Relay. You can hide your real email address when signing up on websites you don’t fully trust by using a generated mask. Email masking helps protect your identity and inbox from spam or tracking.
 
 Previously, this feature was only available through an extension. Now, it’s built into Firefox for iOS. In this initial phase, it is available to users who are signed in to Firefox with a Mozilla account that already has Firefox Relay enabled.
 
-If you have not used Relay before, sign in to Firefox on iOS from Settings, then visit [relay.firefox.com](https://relay.firefox.com/accounts/profile/) [relay.firefox.com](http://relay.firefox.com) and sign in with the same Mozilla account to activate Relay. Once enabled, you can use email masking directly in the browser.
+If you have not used Relay before, sign in to Firefox for iOS from Settings, then visit [relay.firefox.com](https://relay.firefox.com/accounts/profile/) and sign in with the same Mozilla account to activate Relay. Once enabled, you can use email masking directly in the browser.
 
 ![firefoxrelayios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
@@ -120163,13 +121219,13 @@ If you have not used Relay before, sign in to Firefox on iOS from Settings, then
   - [3.5 Does it work in private browsing?](https://support.mozilla.org/kb/relay-masks-ios#w_does-it-work-in-private-browsing)
   - [3.6 Why don’t I see the suggestion to use a mask?](https://support.mozilla.org/kb/relay-masks-ios#w_why-dont-i-see-the-suggestion-to-use-a-mask)
 
-- [4 Related Articles](https://support.mozilla.org/kb/relay-masks-ios#w_related-articles)
+- [4 Related articles](https://support.mozilla.org/kb/relay-masks-ios#w_related-articles)
 
 # Enable email masking suggestions on your iOS device
 
 1. Tap the menu icon (three lines) in Firefox.
 2. Tap Settings.
-3. Go to Autofil & Passwords.<dl><dt>
+3. Go to Autofill & Passwords.<dl><dt>
 <img alt=""firefoxautofillios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-06-38-314f63.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 4. Select Email masks.
@@ -120177,7 +121233,7 @@ If you have not used Relay before, sign in to Firefox on iOS from Settings, then
 <img alt=""firefoxrelaysuggest"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-14-26-67aab3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 
-**Note** : The Suggest email masks option is turned on by default, but you can turn it off by following the same instructions shown above.
+**Note:** The Suggest email masks option is turned on by default, but you can turn it off by following the same instructions shown above.
 
 # Use email masking when signing up
 
@@ -120189,7 +121245,7 @@ After enabling the feature, Firefox will suggest using an email mask whenever yo
 <img alt=""firefoxrelayemailmask"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-26-11-15-44-dd83a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
 </dt></dl>
 
-**Note** : You can use up to **5 free email masks**. If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to Settings \> Email masks \> Manage email masks.
+**Note:** You can use up to **5 free email masks**. If you reach the limit, Firefox automatically selects one of your existing masks for you and shows a message to let you know. You can manage your masks at any time by going to Settings \> Email masks \> Manage email masks.
 
 # Frequently related questions
 
@@ -120215,9 +121271,9 @@ Yes, email masking works in private browsing mode.
 
 ## Why don’t I see the suggestion to use a mask?
 
-Make sure the Suggest email masks setting is enabled. Email masking is only available on supported websites. Firefox checks an approved list of domains before showing the mask option, so if a website is not on that list, the option will not appear. Some custom or non-standard sign-up fields may also not be recognized.
+Make sure the **Suggest email masks** setting is enabled. Email masking is only available on supported websites. Firefox checks an approved list of domains before showing the mask option, so if a website is not on that list, the option will not appear. Some custom or non-standard sign-up fields may also not be recognized.
 
-# Related Articles
+# Related articles
 
 - [Explore the toolbar in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/toolbar-firefox-ios"")
 - [Explore the Firefox for iOS menu](\""https://support.mozilla.org/en-US/kb/menu-firefox-ios"")
