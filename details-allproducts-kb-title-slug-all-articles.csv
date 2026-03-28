@@ -11750,7 +11750,7 @@ On some Linux distributions, you could see a notification that _some of Firefox�
 <h1 id=""w_firefox-passwords-vs-google-passwords"">Firefox passwords vs. Google passwords</h1>
 <p>Firefox Password Manager is separate from Google’s password manager.
 </p>
-<ul><li>Passwords saved in Firefox are available only inside Firefox (or across your devices if you use Sync).
+<ul><li>Passwords saved in Firefox are available only inside Firefox on your computer (and inside Firefox on your other devices, if you use Sync).
 </li><li>Passwords saved in your Google Account are available when you sign in to Chrome or use Google services.
 </li><li>If you switched from Chrome to Firefox, import your Google passwords into Firefox for convenience.
 </li></ul>
@@ -11938,7 +11938,7 @@ If your saved passwords are missing after an update or restart:
 
 Firefox Password Manager is separate from Google’s password manager.
 
-- Passwords saved in Firefox are available only inside Firefox (or across your devices if you use Sync).
+- Passwords saved in Firefox are available only inside Firefox on your computer (and inside Firefox on your other devices, if you use Sync).
 - Passwords saved in your Google Account are available when you sign in to Chrome or use Google services.
 - If you switched from Chrome to Firefox, import your Google passwords into Firefox for convenience.
 
@@ -25213,6 +25213,272 @@ Please see [Tips to protect your online privacy](\""https://support.mozilla.org/
 The Do Not Track feature was removed in Firefox version 135. Please refer to the above content highlighted in yellow for more information.
 
 To learn more about how Firefox protects you from trackers in [Private Windows](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history""), see [SmartBlock for Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/smartblock-enhanced-tracking-protection"").
+
+"
+7142,Upgrade your graphics drivers to use hardware acceleration and WebGL,upgrade-graphics-drivers-use-hardware-acceleration,https://support.mozilla.org/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration,en-US,"Firefox and plugins can use your graphics card to speed things up. To enable this or to fix problems, you may need to update the graphics card drivers.","<p>Firefox and some plugins use your graphics card to help speed up the display of web content. Graphic cards are also used by advanced web features like WebGL. To fix problems with these features or to take advantage of them, you may need to update your graphics card drivers. This article describes how to do that.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_search-for-and-install-new-graphics-drivers""><span class=""tocnumber"">1</span> <span class=""toctext"">Search for and install new graphics drivers</span></a><ul><li class=""toclevel-2""><a href=""#w_using-windows-update""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Using Windows Update</span></a></li><li class=""toclevel-2""><a href=""#w_using-your-computer-manufacturers-system-update-tool""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Using your computer manufacturer's system update tool</span></a></li><li class=""toclevel-2""><a href=""#w_use-your-distributions-standard-update-process""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Use your distribution's standard update process</span></a></li><li class=""toclevel-2""><a href=""#w_using-the-latest-generic-graphics-drivers""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Using the latest generic graphics drivers</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_after-upgrading-your-graphics-driver""><span class=""tocnumber"">2</span> <span class=""toctext"">After upgrading your graphics driver</span></a></li><li class=""toclevel-1""><a href=""#w_i-still-have-problems-with-my-graphics-card-in-firefox""><span class=""tocnumber"">3</span> <span class=""toctext"">I still have problems with my graphics card in Firefox</span></a><ul><li class=""toclevel-2""><a href=""#w_turning-off-hardware-acceleration""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Turning off hardware acceleration</span></a></li><li class=""toclevel-2""><a href=""#w_disabling-webgl""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Disabling WebGL</span></a></li></ul></li></ul></div>
+<h1 id=""w_search-for-and-install-new-graphics-drivers"">Search for and install new graphics drivers</h1>
+<div class=""for"" data-for=""win"">
+<h2 id=""w_using-windows-update"">Using Windows Update</h2>
+<p>Some recent graphics driver versions are made available<span class=""for"" data-for=""not win10""> as an optional update</span> from the Windows Update feature.<span class=""for"" data-for=""not win10""> If you haven't set Windows to automatically install recommended updates, follow these steps:</span>
+</p></div><div class=""for"" data-for=""winxp"">
+<ol><li> Click <img alt=""XP Start button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-11-16-00-11-41-b9f0dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, select <span class=""menu"">All programs</span>, then select <span class=""menu"">Windows Update</span> to open the Windows Update website.
+</li><li> Update ActiveX controls if prompted.
+</li><li> Click <span class=""button"">Custom</span> and wait until it is done searching.
+</li><li> Select ""Hardware, Optional"" on the left pane.
+</li><li> Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+</li><li> If you find some, check the latest one and click ""Review and install updates"".
+</li><li> Click <span class=""button"">Install Updates</span>.
+</li><li> Wait until update is installed. When prompted, restart your computer.
+</li><li> Start Firefox.
+</li></ol>
+</div><div class=""for"" data-for=""win7"">
+<ol><li> Click <img alt=""Small Vista Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-11-06-47-48-e19495.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, select <span class=""menu"">All programs</span>, then select <span class=""menu"">Windows Update</span> to open the Windows Update window.
+</li><li> Click the ""Check for updates"" link on the left pane and wait until it is done searching.
+</li><li> If there are optional updates available, click ""optional updates are available"".
+</li></ol>
+<p><strong>Windows Vista:</strong>
+The View available updates panel will open. Click ""Optional"".
+</p><p><strong>Windows 7:</strong>
+The Select updates you want to install panel will open.
+</p>
+<ol><li>Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+</li><li> If you find some, check the latest one and click <span class=""button"">OK</span> to close the View available updates panel.
+</li><li> Click <span class=""button"">Install updates</span>.
+</li><li> Wait until update is installed. When prompted, restart your computer.
+</li><li> Start Firefox.
+</li></ol>
+</div><div class=""for"" data-for=""win8"">
+<ol><li> From the Start Screen, click the Desktop tile. The Desktop view will open.
+</li><li> From the Desktop, hover in the lower right-hand corner to access the Charms.
+</li><li> Select <span class=""menu"">Control Panel</span> from the <span class=""menu"">Settings</span> charm. The Control Panel window will open.
+</li><li> In the Control Panel window, select System and Security.
+</li><li> Select Windows Update to open the Windows Update window.
+</li><li> Click the ""Check for updates"" link on the left pane and wait until it is done searching.
+</li><li> If there are optional updates available, click ""optional updates are available"". The Select updates you want to install panel will open.
+</li><li>Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+</li><li> If you find some, check the latest one and click <span class=""button"">Install</span> to close the View available updates panel.
+</li><li> Wait until update is installed. When prompted, restart your computer.
+</li><li> Start Firefox.
+</li></ol>
+</div><div class=""for"" data-for=""win10""><p>In Windows 10, all drivers are automatically downloaded and installed through Windows Update but you can manually search for an updated graphics driver.  See Microsoft's support article, <a href=""https://support.microsoft.com/en-us/help/4028443/windows-update-drivers-in-windows-10"">Update drivers in Windows 10</a> for details.
+If there are no updates available or if the updates don't solve your problems, continue to the next section.
+</p></div><div class=""for"" data-for=""win"">
+<h2 id=""w_using-your-computer-manufacturers-system-update-tool"">Using your computer manufacturer's system update tool</h2>
+<p>Some computer manufacturers include a system update tool that updates drivers<span class=""for"" data-for=""win7,win8""> and bypasses the Windows ones</span>. You may be required to use this tool to update graphics drivers.
+</p><p>Just search for this tool from the <span class=""menu"">Start</span> menu. Some possible search terms are the name of your computer manufacturer (such as Dell or HP) or generic terms like ""update"", ""maintenance"" or ""driver"". Open the tool and apply all available updates.
+</p><p>If there is no update tool, no updates available, or if the updates don't solve your problems, continue to the next section.
+</p></div><div class=""for"" data-for=""linux"">
+<h2 id=""w_use-your-distributions-standard-update-process"">Use your distribution's standard update process</h2>
+<p>If your distribution's standard update process doesn't give you the latest drivers, you may need to look for other package repositories for your distribution. For example, to upgrade closed-source drivers on Ubuntu, you may need to go to System Settings &gt; Hardware &gt; Additional Drivers.
+</p></div><div class=""for"" data-for=""win,linux"">
+<h2 id=""w_using-the-latest-generic-graphics-drivers"">Using the latest generic graphics drivers</h2>
+<p>You can also install a generic graphics driver from your graphics card manufacturer's website. These are usually kept up-to-date and are designed to work on a variety of systems:
+</p>
+<ul><li> <a href=""http://www.intel.com/p/en_US/support/detect/graphics"">Intel</a>
+</li><li> <a href=""http://support.amd.com/en-us/download"">AMD/ATI</a>
+</li><li> <a href=""http://www.nvidia.com/Download/index.aspx"">NVIDIA</a>
+</li></ul>
+<div class=""for"" data-for=""win"">
+<ul><li> <a href=""https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver"">Qualcomm (for Snapdragon X series SoCs only)</a>
+</li></ul>
+<p>If you don't know which graphics card you have, look in the graphics section of Firefox's <em>about:support</em> <a href=""/en-US/kb/use-troubleshooting-information-page-fix-firefox"">Troubleshooting Information page</a>.
+</p><div class=""for"" data-for=""win"">
+<div class=""note""><strong>Note:</strong> Hardware acceleration is not available for graphics cards from other manufacturers.</div>
+<div class=""note""><strong>Note:</strong> After downloading the graphics driver, the installation wizard may prevent you from installing it because your current driver is customized by your computer manufacturer.</div>
+<div class=""warning""><strong>Warning:</strong> With some combinations of computer and graphics card, you may experience problems with generic versions of software drivers.</div>
+</div></div><div class=""for"" data-for=""mac"">
+<ol><li> Click the Apple.
+</li><li> On the ""Apple"" menu, click ""Software Update.""
+</li><li> If there is a Mac OS X update available, you can install it. If there is a graphics driver update, it will be included in the Mac OS X update.
+</li></ol>
+</div>
+<h1 id=""w_after-upgrading-your-graphics-driver"">After upgrading your graphics driver</h1>
+<p>Reboot your computer to use the new graphics driver.
+</p>
+<h1 id=""w_i-still-have-problems-with-my-graphics-card-in-firefox"">I still have problems with my graphics card in Firefox</h1>
+<p>Unfortunately, due to the wide range of possible driver, video card and operating system combinations, hardware acceleration or 3D web graphics (WebGL) may still not work for you in Firefox. In these instances you fix the problems by disabling hardware acceleration and WebGL.
+</p>
+<h2 id=""w_turning-off-hardware-acceleration"">Turning off hardware acceleration</h2>
+<p></p><ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Select the <span class=""menu"">General</span> panel.
+</li><li> Under <strong>Performance</strong>, uncheck <span class=""menu"">Use recommended performance settings</span>.<br>Additional settings will be displayed. 
+<dl><dt><img alt=""Fx115Performance-disableHWA"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-04-09-58-02-c34ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Uncheck <span class=""menu"">Use hardware acceleration when available</span>.
+</li><li> <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
+
+</li><li> Start Firefox the way you normally do.
+</li></ol>
+<p></p>
+<h2 id=""w_disabling-webgl"">Disabling WebGL</h2>
+<p></p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
+<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
+<p></p>
+<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+</li><li> Enter <strong>webgl.disabled</strong> in the search box.
+</li><li> Click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to the <span class=""pref"">webgl.disabled</span> preference to switch it to <span class=""pref"">true</span>.
+</li><li> <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
+
+</li><li> Start Firefox normally.
+</li></ol></div>",firefox,add-ons-extensions-and-themes,"Firefox and some plugins use your graphics card to help speed up the display of web content. Graphic cards are also used by advanced web features like WebGL. To fix problems with these features or to take advantage of them, you may need to update your graphics card drivers. This article describes how to do that.
+
+## Table of Contents
+
+- [1 Search for and install new graphics drivers](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_search-for-and-install-new-graphics-drivers)
+  - [1.1 Using Windows Update](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_using-windows-update)
+  - [1.2 Using your computer manufacturer's system update tool](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_using-your-computer-manufacturers-system-update-tool)
+  - [1.3 Use your distribution's standard update process](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_use-your-distributions-standard-update-process)
+  - [1.4 Using the latest generic graphics drivers](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_using-the-latest-generic-graphics-drivers)
+
+- [2 After upgrading your graphics driver](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_after-upgrading-your-graphics-driver)
+- [3 I still have problems with my graphics card in Firefox](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_i-still-have-problems-with-my-graphics-card-in-firefox)
+  - [3.1 Turning off hardware acceleration](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_turning-off-hardware-acceleration)
+  - [3.2 Disabling WebGL](https://support.mozilla.org/kb/upgrade-graphics-drivers-use-hardware-acceleration#w_disabling-webgl)
+
+# Search for and install new graphics drivers
+
+## Using Windows Update
+
+Some recent graphics driver versions are made available as an optional update from the Windows Update feature. If you haven't set Windows to automatically install recommended updates, follow these steps:
+
+1. Click ![XP Start button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), select All programs, then select Windows Update to open the Windows Update website.
+2. Update ActiveX controls if prompted.
+3. Click Custom and wait until it is done searching.
+4. Select ""Hardware, Optional"" on the left pane.
+5. Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+6. If you find some, check the latest one and click ""Review and install updates"".
+7. Click Install Updates.
+8. Wait until update is installed. When prompted, restart your computer.
+9. Start Firefox.
+
+1. Click ![Small Vista Logo](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), select All programs, then select Windows Update to open the Windows Update window.
+2. Click the ""Check for updates"" link on the left pane and wait until it is done searching.
+3. If there are optional updates available, click ""optional updates are available"".
+
+**Windows Vista:** The View available updates panel will open. Click ""Optional"".
+
+**Windows 7:** The Select updates you want to install panel will open.
+
+1. Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+2. If you find some, check the latest one and click OK to close the View available updates panel.
+3. Click Install updates.
+4. Wait until update is installed. When prompted, restart your computer.
+5. Start Firefox.
+
+1. From the Start Screen, click the Desktop tile. The Desktop view will open.
+2. From the Desktop, hover in the lower right-hand corner to access the Charms.
+3. Select Control Panel from the Settings charm. The Control Panel window will open.
+4. In the Control Panel window, select System and Security.
+5. Select Windows Update to open the Windows Update window.
+6. Click the ""Check for updates"" link on the left pane and wait until it is done searching.
+7. If there are optional updates available, click ""optional updates are available"". The Select updates you want to install panel will open.
+8. Search updates with your graphics card manufacturer name (probably Intel, AMD/ATI or NVIDIA) in the title.
+9. If you find some, check the latest one and click Install to close the View available updates panel.
+10. Wait until update is installed. When prompted, restart your computer.
+11. Start Firefox.
+
+In Windows 10, all drivers are automatically downloaded and installed through Windows Update but you can manually search for an updated graphics driver. See Microsoft's support article, [Update drivers in Windows 10](https://support.microsoft.com/en-us/help/4028443/windows-update-drivers-in-windows-10) for details. If there are no updates available or if the updates don't solve your problems, continue to the next section.
+
+## Using your computer manufacturer's system update tool
+
+Some computer manufacturers include a system update tool that updates drivers and bypasses the Windows ones. You may be required to use this tool to update graphics drivers.
+
+Just search for this tool from the Start menu. Some possible search terms are the name of your computer manufacturer (such as Dell or HP) or generic terms like ""update"", ""maintenance"" or ""driver"". Open the tool and apply all available updates.
+
+If there is no update tool, no updates available, or if the updates don't solve your problems, continue to the next section.
+
+## Use your distribution's standard update process
+
+If your distribution's standard update process doesn't give you the latest drivers, you may need to look for other package repositories for your distribution. For example, to upgrade closed-source drivers on Ubuntu, you may need to go to System Settings \> Hardware \> Additional Drivers.
+
+## Using the latest generic graphics drivers
+
+You can also install a generic graphics driver from your graphics card manufacturer's website. These are usually kept up-to-date and are designed to work on a variety of systems:
+
+- [Intel](http://www.intel.com/p/en_US/support/detect/graphics)
+- [AMD/ATI](http://support.amd.com/en-us/download)
+- [NVIDIA](http://www.nvidia.com/Download/index.aspx)
+
+- [Qualcomm (for Snapdragon X series SoCs only)](https://softwarecenter.qualcomm.com/catalog/item/Windows_Graphics_Driver)
+
+If you don't know which graphics card you have, look in the graphics section of Firefox's _about:support_ [Troubleshooting Information page](\""https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox"").
+
+**Note:** Hardware acceleration is not available for graphics cards from other manufacturers.
+
+**Note:** After downloading the graphics driver, the installation wizard may prevent you from installing it because your current driver is customized by your computer manufacturer.
+
+**Warning:** With some combinations of computer and graphics card, you may experience problems with generic versions of software drivers.
+
+1. Click the Apple.
+2. On the ""Apple"" menu, click ""Software Update.""
+3. If there is a Mac OS X update available, you can install it. If there is a graphics driver update, it will be included in the Mac OS X update.
+
+# After upgrading your graphics driver
+
+Reboot your computer to use the new graphics driver.
+
+# I still have problems with my graphics card in Firefox
+
+Unfortunately, due to the wide range of possible driver, video card and operating system combinations, hardware acceleration or 3D web graphics (WebGL) may still not work for you in Firefox. In these instances you fix the problems by disabling hardware acceleration and WebGL.
+
+## Turning off hardware acceleration
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the General panel.
+3. Under **Performance** , uncheck Use recommended performance settings.  
+Additional settings will be displayed. <dl><dt>
+<img alt=""Fx115Performance-disableHWA"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-04-09-58-02-c34ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Uncheck Use hardware acceleration when available.
+5. Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
+6. Start Firefox the way you normally do.
+
+## Disabling WebGL
+
+**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
+**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
+
+1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
+2. Enter **webgl.disabled** in the search box.
+3. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to the webgl.disabled preference to switch it to true.
+4. Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
+5. Start Firefox normally.
+
+"
+7449,Disable Firefox Sync on a lost phone or tablet,disable-firefox-sync-lost-phone-or-tablet,https://support.mozilla.org/en-US/kb/disable-firefox-sync-lost-phone-or-tablet,en-US,This article describes what you should do to prevent someone from accessing your passwords on a lost device with Firefox Sync.,"<p>If you've lost your device and it's signed into your Mozilla account and using Firefox Sync, you can take action to prevent someone from accessing your personal information and passwords.
+</p>
+<h1 id=""w_change-your-password-and-disable-sync-on-a-lost-device"">Change your password and disable Sync on a lost device</h1>
+<ol><li>Go to your <a href=""https://accounts.firefox.com/settings"">Mozilla account settings</a> (you may need to sign in).
+</li><li><a href=""/en-US/kb/change-your-firefox-accounts-password"">Change your Mozilla account password</a> from a synced computer. This will prevent your lost phone from connecting to Sync and gaining access to old and new passwords for synced devices and services.
+</li><li><a href=""/en-US/kb/remove-synced-device-firefox-accounts"">Remove the lost device</a> from your Mozilla account's <a href=""https://accounts.firefox.com/settings#connected-services""><strong>Connected Services</strong></a>.
+</li><li>Change the passwords for any accounts you have associated with your Mozilla account. If you don't change your passwords, it could still be possible for someone else to sign into your accounts on your lost device. 
+</li></ol>
+<div class=""warning"">It's important that you change your Mozilla account password before changing your any other account passwords to ensure your lost device doesn't sync your new passwords.</div>
+<h1 id=""w_related-articles"">Related articles</h1>
+<p>
+</p>
+<ul><li><a href=""/en-US/kb/fxa-managing-devices"">Manage the devices linked to your Mozilla account</a>
+</li><li><a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Set up two-factor authentication on your Mozilla account</a>
+</li></ul>",firefox;mobile;ios;mozilla-account,passwords-and-sign-in;privacy-and-security;sync-data,"If you've lost your device and it's signed into your Mozilla account and using Firefox Sync, you can take action to prevent someone from accessing your personal information and passwords.
+
+# Change your password and disable Sync on a lost device
+
+1. Go to your [Mozilla account settings](https://accounts.firefox.com/settings) (you may need to sign in).
+2. [Change your Mozilla account password](\""https://support.mozilla.org/en-US/kb/change-your-firefox-accounts-password"") from a synced computer. This will prevent your lost phone from connecting to Sync and gaining access to old and new passwords for synced devices and services.
+3. [Remove the lost device](\""https://support.mozilla.org/en-US/kb/remove-synced-device-firefox-accounts"") from your Mozilla account's [**Connected Services**](https://accounts.firefox.com/settings#connected-services).
+4. Change the passwords for any accounts you have associated with your Mozilla account. If you don't change your passwords, it could still be possible for someone else to sign into your accounts on your lost device. 
+
+It's important that you change your Mozilla account password before changing your any other account passwords to ensure your lost device doesn't sync your new passwords.
+
+# Related articles
+
+- [Manage the devices linked to your Mozilla account](\""https://support.mozilla.org/en-US/kb/fxa-managing-devices"")
+- [Set up two-factor authentication on your Mozilla account](\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication"")
 
 "
 8075,How do I choose what information to sync on Firefox?,how-do-i-choose-what-information-sync-firefox,https://support.mozilla.org/en-US/kb/how-do-i-choose-what-information-sync-firefox,en-US,"Learn how to select what information (bookmarks, add-ons, browsing history and other data) to share across your devices with Firefox Sync.","<p>Mozilla's <a href=""/en-US/kb/sync"">Sync</a> feature lets you synchronize bookmarks, add-ons, browsing history and other information across multiple devices. This article shows you how to choose these settings. For information on starting a Sync account or managing your devices, see <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a>
@@ -52318,10 +52584,10 @@ Quickly access websites using your previously saved credentials:
 31325,Troubleshoot security error codes on secure websites,error-codes-secure-websites,https://support.mozilla.org/en-US/kb/error-codes-secure-websites,en-US,"Learn what Firefox security error codes mean and how to resolve them safely, including antivirus, network and certificate issues.","<p>Firefox checks a website’s security certificate to ensure the site is legitimate and that your connection is <a href=""/en-US/kb/how-do-i-tell-if-my-connection-is-secure"">encrypted</a>. If the certificate can’t be validated, Firefox will stop the connection and display a <span class=""for"" data-for=""not fx149""><strong>“Warning: Potential Security Risk Ahead”</strong> page</span><span class=""for"" data-for=""fx149"">security error page with the message, <em>Be careful. Something doesn't look right.</em></span>.
 </p><p>This article explains what the most common related error codes mean – SEC_ERROR_UNKNOWN_ISSUER, MOZILLA_PKIX_ERROR_MITM_DETECTED and ERROR_SELF_SIGNED_CERT – and how to troubleshoot them. See <a href=""/en-US/kb/what-does-your-connection-is-not-secure-mean"">What do the security warning codes mean?</a> for other <span class=""for"" data-for=""not fx149"">“Warning: Potential Security Risk Ahead”</span><span class=""for"" data-for=""fx149"">security risk</span> error codes.
 </p>
-<div class=""note""><strong>Note:</strong> In recent <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox versions</a>, some certificate errors can no longer be bypassed for security reasons. If you don’t see <span class=""for"" data-for=""not fx149""><span class=""button"">Accept the Risk and Continue</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Proceed to &lt;url&gt; (Risky)</span></span> when you click the <span class=""button"">Advanced</span> button, see the section <a href=""#w_when-you-cant-bypass-the-warning"">When you can’t bypass the warning</a>.</div>
+<div class=""note""><strong>Note:</strong> In recent <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox versions</a>, some certificate errors can no longer be bypassed for security reasons. If you don’t see <span class=""for"" data-for=""not fx149""><span class=""button"">Accept the Risk and Continue</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Proceed to &lt;url&gt; (Risky)</span></span> when you click the <span class=""for"" data-for=""not fx149""><span class=""button"">Advanced…</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Advanced</span></span> button, see the section <a href=""#w_when-you-cant-bypass-the-warning"">When you can’t bypass the warning</a>.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_understand-the-error-code""><span class=""tocnumber"">1</span> <span class=""toctext"">Understand the error code</span></a></li><li class=""toclevel-1""><a href=""#w_if-the-error-occurs-on-multiple-secure-sites""><span class=""tocnumber"">2</span> <span class=""toctext"">If the error occurs on multiple secure sites</span></a><ul><li class=""toclevel-2""><a href=""#w_check-your-antivirus-settings""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Check your antivirus settings</span></a><ul><li class=""toclevel-3""><a href=""#w_avastavg""><span class=""tocnumber"">2.1.1</span> <span class=""toctext"">Avast/AVG</span></a></li><li class=""toclevel-3""><a href=""#w_bitdefender""><span class=""tocnumber"">2.1.2</span> <span class=""toctext"">Bitdefender</span></a></li><li class=""toclevel-3""><a href=""#w_bullguard""><span class=""tocnumber"">2.1.3</span> <span class=""toctext"">Bullguard</span></a></li><li class=""toclevel-3""><a href=""#w_eset""><span class=""tocnumber"">2.1.4</span> <span class=""toctext"">ESET</span></a></li><li class=""toclevel-3""><a href=""#w_kaspersky""><span class=""tocnumber"">2.1.5</span> <span class=""toctext"">Kaspersky</span></a></li><li class=""toclevel-3""><a href=""#w_check-for-corporate-network-interception""><span class=""tocnumber"">2.1.6</span> <span class=""toctext"">Check for corporate network interception</span></a></li><li class=""toclevel-3""><a href=""#w_scan-for-malware""><span class=""tocnumber"">2.1.7</span> <span class=""toctext"">Scan for malware</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_if-the-error-occurs-on-one-site-only""><span class=""tocnumber"">3</span> <span class=""toctext"">If the error occurs on one site only</span></a></li><li class=""toclevel-1""><a href=""#w_when-you-cant-bypass-the-warning""><span class=""tocnumber"">4</span> <span class=""toctext"">When you can’t bypass the warning</span></a></li><li class=""toclevel-1""><a href=""#w_about-permanent-exceptions""><span class=""tocnumber"">5</span> <span class=""toctext"">About permanent exceptions</span></a></li><li class=""toclevel-1""><a href=""#w_bypass-the-warning-when-available""><span class=""tocnumber"">6</span> <span class=""toctext"">Bypass the warning (when available)</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">7</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_understand-the-error-code"">Understand the error code</h1>
-<ol><li>On the warning page, click <span class=""button"">Advanced…</span>
+<ol><li>On the warning page, click the <span class=""for"" data-for=""not fx149""><span class=""button"">Advanced…</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Advanced</span></span> button.
 <dl><dt><span class=""for"" data-for=""not fx149""><img alt=""Fx148WarningPotentialSecurityRiskAhead-untrustedroot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-08-14-42-16-fbd69a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149BetaWarning-SecurityRiskUntrustedRoot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-10-28-42-45a3f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </span></dt></dl>
 </li><li>Check the error code displayed.
@@ -52408,7 +52674,7 @@ Quickly access websites using your previously saved credentials:
 <h1 id=""w_bypass-the-warning-when-available"">Bypass the warning (when available)</h1>
 <p>If Firefox allows it:
 </p>
-<ol><li>On the warning page, click <span class=""button"">Advanced…</span>
+<ol><li>On the warning page, click <span class=""for"" data-for=""not fx149""><span class=""button"">Advanced…</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Advanced</span>.</span>
 </li><li>Click <span class=""for"" data-for=""not fx149""><span class=""button"">Accept the Risk and Continue</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Proceed to &lt;website&gt; (Risky)</span></span>.
 </li></ol>
 <h1 id=""w_related-articles"">Related articles</h1>
@@ -52420,7 +52686,7 @@ Quickly access websites using your previously saved credentials:
 
 This article explains what the most common related error codes mean – SEC\_ERROR\_UNKNOWN\_ISSUER, MOZILLA\_PKIX\_ERROR\_MITM\_DETECTED and ERROR\_SELF\_SIGNED\_CERT – and how to troubleshoot them. See [What do the security warning codes mean?](\""https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean"") for other “Warning: Potential Security Risk Ahead”security risk error codes.
 
-**Note:** In recent [Firefox versions](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""), some certificate errors can no longer be bypassed for security reasons. If you don’t see Accept the Risk and ContinueProceed to \<url\> (Risky) when you click the Advanced button, see the section [When you can’t bypass the warning](https://support.mozilla.org/kb/error-codes-secure-websites#w_when-you-cant-bypass-the-warning).
+**Note:** In recent [Firefox versions](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""), some certificate errors can no longer be bypassed for security reasons. If you don’t see Accept the Risk and ContinueProceed to \<url\> (Risky) when you click the Advanced…Advanced button, see the section [When you can’t bypass the warning](https://support.mozilla.org/kb/error-codes-secure-websites#w_when-you-cant-bypass-the-warning).
 
 ## Table of Contents
 
@@ -52443,7 +52709,7 @@ This article explains what the most common related error codes mean – SEC\_ERR
 
 # Understand the error code
 
-1. On the warning page, click Advanced…<dl><dt>
+1. On the warning page, click the Advanced…Advanced button.<dl><dt>
 <span class=""for"" data-for=""not fx149""><img alt=""Fx148WarningPotentialSecurityRiskAhead-untrustedroot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-08-14-42-16-fbd69a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149BetaWarning-SecurityRiskUntrustedRoot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-10-28-42-45a3f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </span>
 </dt></dl>
@@ -52545,7 +52811,7 @@ Firefox does not allow permanent certificate exceptions for most sites, especial
 
 If Firefox allows it:
 
-1. On the warning page, click Advanced…
+1. On the warning page, click Advanced…Advanced.
 2. Click Accept the Risk and ContinueProceed to \<website\> (Risky).
 
 # Related articles
@@ -60740,6 +61006,120 @@ When a hidden tab is playing sound, the speaker icon will show up on the hidden 
 <dl><dt>
 <img alt=""hidden tab audio list 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-51-11-56ab49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>"
+40203,Download photos and files on Firefox for iOS,download-photos-and-files-firefox-ios,https://support.mozilla.org/en-US/kb/download-photos-and-files-firefox-ios,en-US,Save the photos and files you want from the web to your iOS device.,"<p>Firefox makes it easy to download photos and PDF files on your iPhone or iPad. The downloads panel on the Firefox home screen makes it easy to find the files you downloaded.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_download-files""><span class=""tocnumber"">1</span> <span class=""toctext"">Download files</span></a></li><li class=""toclevel-1""><a href=""#w_access-downloaded-files""><span class=""tocnumber"">2</span> <span class=""toctext"">Access downloaded files</span></a></li><li class=""toclevel-1""><a href=""#w_share-or-delete-a-downloaded-file""><span class=""tocnumber"">3</span> <span class=""toctext"">Share or delete a downloaded file</span></a></li></ul></div>
+<h1 id=""w_download-files"">Download files</h1>
+<ol><li>Tap and hold on a download link on a web page to bring up a menu of actions for that link.
+</li><li>Select <span class=""menu"">Download Link</span>.
+</li><li>Tap <span class=""menu"">Download Now</span> in the prompt that appears at the bottom of the screen.
+<dl><dt><img alt=""Firefox iOS Download Prompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-05-08-21-40-106744.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>A progress bar will appear to show you the status of your download. To cancel the download, tap the <strong>X</strong> to the right of the progress bar.
+</li><li>When your download is complete, a <span class=""button"">Downloads</span> button will appear at the bottom of the screen.
+<dl><dt><img alt=""Firefox iOS Download Complete"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-05-08-23-45-7da738.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_access-downloaded-files"">Access downloaded files</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+<br> <img alt=""Firefox iOS menu bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-29-05-40-57-486dd1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</p>
+</li><li>Tap <span class=""menu"">Downloads</span> <img alt=""download icon 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-27-10-52-24-fd4564.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to view a list of your downloaded files.
+</li></ol>
+<h1 id=""w_share-or-delete-a-downloaded-file"">Share or delete a downloaded file</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+<br> <img alt=""Firefox iOS menu bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-29-05-40-57-486dd1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</p>
+</li><li>Tap <span class=""menu"">Downloads</span> <img alt=""download icon 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-27-10-52-24-fd4564.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li><li>Swipe left on a file. The <span class=""button"">Share</span> and <span class=""button"">Delete</span> buttons will appear.
+</li></ol>",ios,browse,"Firefox makes it easy to download photos and PDF files on your iPhone or iPad. The downloads panel on the Firefox home screen makes it easy to find the files you downloaded.
+
+## Table of Contents
+
+- [1 Download files](https://support.mozilla.org/kb/download-photos-and-files-firefox-ios#w_download-files)
+- [2 Access downloaded files](https://support.mozilla.org/kb/download-photos-and-files-firefox-ios#w_access-downloaded-files)
+- [3 Share or delete a downloaded file](https://support.mozilla.org/kb/download-photos-and-files-firefox-ios#w_share-or-delete-a-downloaded-file)
+
+# Download files
+
+1. Tap and hold on a download link on a web page to bring up a menu of actions for that link.
+2. Select Download Link.
+3. Tap Download Now in the prompt that appears at the bottom of the screen.<dl><dt>
+<img alt=""Firefox iOS Download Prompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-05-08-21-40-106744.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. A progress bar will appear to show you the status of your download. To cancel the download, tap the **X** to the right of the progress bar.
+5. When your download is complete, a Downloads button will appear at the bottom of the screen.<dl><dt>
+<img alt=""Firefox iOS Download Complete"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-05-08-23-45-7da738.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Access downloaded files
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad):   
+  ![Firefox iOS menu bar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+2. Tap Downloads ![download icon 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to view a list of your downloaded files.
+
+# Share or delete a downloaded file
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad):   
+  ![Firefox iOS menu bar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+2. Tap Downloads ![download icon 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+3. Swipe left on a file. The Share and Delete buttons will appear.
+
+"
+40238,"Information for EU, EEA, Swiss, California, Connecticut, Virginia and Utah users",information-eu-eea-swiss-and-california-users,https://support.mozilla.org/en-US/kb/information-eu-eea-swiss-and-california-users,en-US,"Data protection laws for EU, EEA, Swiss, California, Connecticut, Virginia and Utah users.","<p>
+</p><p>These regions have data protection laws that require us to specify the following:
+</p><p>Our <a href=""https://www.mozilla.org/privacy/"">Mozilla Privacy Policy</a> and product specific privacy notices describe the purposes for which we process information about you and the categories of information we process. Mozilla does not sell personal data.
+</p><p>Our lawful bases for collecting and processing personal information include:
+</p>
+<ul><li><u><strong>Performing our contract with you</strong></u>: Registration for a Mozilla account requires your agreement to the <a href=""https://www.mozilla.org/about/legal/terms/services/"">Mozilla account Terms of Service</a>. To provide the services described, such as syncing your browser history or providing email verification, we need to receive your email address.
+</li><li><u><strong>Legitimate interests</strong></u>: We receive technical and interaction data of users, which may include IP addresses, to customize and offer location specific features and to improve the security and reliability of our services and prevent abuse. The specific reasons for which we collect and use personal data can be found in the relevant products Privacy Notice.
+</li><li><u><strong>Consent</strong></u>: Where we ask for your consent to process your information, you can always withdraw this consent.
+</li></ul>
+<p>The following rights are granted by certain laws such as the General Data Protection Regulation in the EU and California Consumer Privacy Act (“CCPA”). Mozilla applies these rights to all users of our products, regardless of your location:
+</p>
+<ul><li>The right to know what personal data is collected
+</li><li>The right to know if personal data is being shared, and to whom
+</li><li>The right to access your personal data
+</li><li>The right to exercise your privacy rights without being discriminated against
+</li></ul>
+<p>In many cases, you can access, update, or delete your personal information directly from our product settings.
+</p><p>You can learn more about <a href=""/en-US/kb/firefox-accounts-managing-account-data"">managing your data</a>. To make requests regarding your personal data, please contact us through our <a href=""https://privacyportal.onetrust.com/webform/1350748f-7139-405c-8188-22740b3b5587/4ba08202-2ede-4934-a89e-f0b0870f95f0"">Data Subject Access Request Portal</a>. If you have any other questions regarding personal data or our privacy practices, please contact us at <a href=""mailto:dpo@mozilla.com"">dpo@mozilla.com</a>, or you can contact our DPO by mail at:
+</p><p>Bird &amp; Bird DPO Services SRL
+<br>Avenue Louise 235 b 1
+<br>1050 Brussels
+<br>Belgium
+</p><p>We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. You also have the right to lodge a complaint with your local data protection authority.
+</p>",privacy-and-security,privacy-and-security,"These regions have data protection laws that require us to specify the following:
+
+Our [Mozilla Privacy Policy](https://www.mozilla.org/privacy/) and product specific privacy notices describe the purposes for which we process information about you and the categories of information we process. Mozilla does not sell personal data.
+
+Our lawful bases for collecting and processing personal information include:
+
+- <u><strong>Performing our contract with you</strong></u>: Registration for a Mozilla account requires your agreement to the [Mozilla account Terms of Service](https://www.mozilla.org/about/legal/terms/services/). To provide the services described, such as syncing your browser history or providing email verification, we need to receive your email address.
+- <u><strong>Legitimate interests</strong></u>: We receive technical and interaction data of users, which may include IP addresses, to customize and offer location specific features and to improve the security and reliability of our services and prevent abuse. The specific reasons for which we collect and use personal data can be found in the relevant products Privacy Notice.
+- <u><strong>Consent</strong></u>: Where we ask for your consent to process your information, you can always withdraw this consent.
+
+The following rights are granted by certain laws such as the General Data Protection Regulation in the EU and California Consumer Privacy Act (“CCPA”). Mozilla applies these rights to all users of our products, regardless of your location:
+
+- The right to know what personal data is collected
+- The right to know if personal data is being shared, and to whom
+- The right to access your personal data
+- The right to exercise your privacy rights without being discriminated against
+
+In many cases, you can access, update, or delete your personal information directly from our product settings.
+
+You can learn more about [managing your data](\""https://support.mozilla.org/en-US/kb/firefox-accounts-managing-account-data""). To make requests regarding your personal data, please contact us through our [Data Subject Access Request Portal](https://privacyportal.onetrust.com/webform/1350748f-7139-405c-8188-22740b3b5587/4ba08202-2ede-4934-a89e-f0b0870f95f0). If you have any other questions regarding personal data or our privacy practices, please contact us at [dpo@mozilla.com](mailto:dpo@mozilla.com), or you can contact our DPO by mail at:
+
+Bird & Bird DPO Services SRL  
+Avenue Louise 235 b 1  
+1050 Brussels  
+Belgium
+
+We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. You also have the right to lodge a complaint with your local data protection authority.
+
+"
 40404,Deploy Firefox with extensions,deploying-firefox-with-extensions,https://support.mozilla.org/en-US/kb/deploying-firefox-with-extensions,en-US,Deploy Firefox in your environment with preinstalled add-ons.,"<p>In an enterprise environment, it may be necessary to deploy Firefox with a set of predefined extensions. This can be done easily on the Firefox ESR build from the Firefox installation directory. These steps also work if you are <a href=""/en-US/kb/repackaging-windows-installer"">customizing the Windows installer</a>.
 </p>
 <h1 id=""w_step-1-create-directories"">Step 1: Create directories</h1>
@@ -88974,134 +89354,6 @@ Other OpenPGP software might already reject a key based on these unsafe properti
 The next ESR is Firefox 102.
 
 If you use the ESR, we strongly recommend that you start testing with Firefox Nightly to see if there are any issues you have with the new ESR.
-
-"
-58140,Search your browsing history in Firefox for iOS,search-your-browsing-history-firefox-ios,https://support.mozilla.org/en-US/kb/search-your-browsing-history-firefox-ios,en-US,You can search your browsing history within the History panel in Firefox for iOS.,"<p>You can search your browsing history within the History panel in Firefox for iOS to find websites you've previously visited.
-</p>
-<h1 id=""w_search-your-browsing-history"">Search your browsing history</h1>
-<ol><li>Tap the <img alt=""mobile menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-02-12-20-58-28-917dff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu icon and select <span class=""menu"">History</span>.
-</li><li>Tap the <img alt=""fx icon Open the file's folder Mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-24-09-21-34-a9df8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
-</li><li>Your search results will automatically update as you enter text.
-</li><li>Tap a result to navigate to the page.
-</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
-</li></ol>
-<p>Learn more about <a href=""/en-US/kb/clear-browsing-history-firefox-ios"">deleting your browsing history in Firefox for iOS</a>.
-</p>",ios,browse;history;search;search-tag-and-share,"You can search your browsing history within the History panel in Firefox for iOS to find websites you've previously visited.
-
-# Search your browsing history
-
-1. Tap the ![mobile menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select History.
-2. Tap the ![fx icon Open the file's folder Mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
-3. Your search results will automatically update as you enter text.
-4. Tap a result to navigate to the page.
-5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
-
-Learn more about [deleting your browsing history in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/clear-browsing-history-firefox-ios"").
-
-"
-58141,Search your browsing history and bookmarks in Firefox for Android,search-your-browsing-history-and-bookmarks-firefox,https://support.mozilla.org/en-US/kb/search-your-browsing-history-and-bookmarks-firefox,en-US,You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.,"<p>You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_search-your-browsing-history""><span class=""tocnumber"">1</span> <span class=""toctext"">Search your browsing history</span></a></li><li class=""toclevel-1""><a href=""#w_search-your-bookmarks""><span class=""tocnumber"">2</span> <span class=""toctext"">Search your bookmarks</span></a></li></ul></div>
-<h1 id=""w_search-your-browsing-history"">Search your browsing history</h1>
-<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">History</span>.
-</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
-</li><li>Your search results will automatically update as you enter text.
-</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
-</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
-</li></ol>
-<p>Learn more about <a href=""/en-US/kb/clear-your-browsing-history-firefox-android"">deleting your browsing history in Firefox for Android</a>.
-</p>
-<h1 id=""w_search-your-bookmarks"">Search your bookmarks</h1>
-<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">Bookmarks</span>.
-</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
-</li><li>Your search results will automatically update as you enter text.
-</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
-</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
-</li></ol>",mobile,bookmarks;browse;history;search;search-tag-and-share,"You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
-
-## Table of Contents
-
-- [1 Search your browsing history](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-browsing-history)
-- [2 Search your bookmarks](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-bookmarks)
-
-# Search your browsing history
-
-1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select History.
-2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
-3. Your search results will automatically update as you enter text.
-4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
-5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
-
-Learn more about [deleting your browsing history in Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-firefox-android"").
-
-# Search your bookmarks
-
-1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select Bookmarks.
-2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
-3. Your search results will automatically update as you enter text.
-4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
-5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
-
-"
-58142,HTTPS-Only Mode in Firefox for Android,https-only-mode-firefox-android,https://support.mozilla.org/en-US/kb/https-only-mode-firefox-android,en-US,HTTPS-Only Mode is available for Firefox for Android. You can turn this setting on or off.,"<p>HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-http-and-https""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between HTTP and HTTPS?</span></a></li><li class=""toclevel-1""><a href=""#w_enable-or-disable-https-only-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable or disable HTTPS-Only Mode</span></a></li><li class=""toclevel-1""><a href=""#w_secure-site-not-available""><span class=""tocnumber"">3</span> <span class=""toctext"">Secure site not available</span></a></li></ul></div>
-<h1 id=""w_what-is-the-difference-between-http-and-https"">What is the difference between HTTP and HTTPS?</h1>
-<p><a href=""https://wikipedia.org/wiki/Hypertext_Transfer_Protocol"">HTTP</a> stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
-</p><p><a href=""https://wikipedia.org/wiki/HTTPS"">HTTPS</a> protocols fix this by using <a href=""https://en.wikipedia.org/wiki/Transport_Layer_Security"">TLS</a> (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
-</p><p>For example, when HTTPS-Only Mode is active and you visit a site with the <code><strong>http</strong>://example.com</code> URL, Firefox will silently upgrade to <code><strong>https</strong>://example.com</code>.
-</p>
-<h1 id=""w_enable-or-disable-https-only-mode"">Enable or disable HTTPS-Only Mode</h1>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">HTTPS-Only Mode</span>.
-</li><li>Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
-</li><li>If you turn HTTPS-Only mode on, select <span class=""menu"">Enable in all tabs</span> or <span class=""menu"">Enable only in private tabs</span>.
-</li></ol>
-<h1 id=""w_secure-site-not-available"">Secure site not available</h1>
-<p>Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
-</p>
-<dl><dt><img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-<p>If you tap <span class=""button"">Continue to HTTP Site</span>, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
-</p><p>Tap <span class=""button"">Go Back (Recommended)</span>, or your device's back button, if you want to avoid an unencrypted connection.
-</p>",mobile,privacy-and-security,"HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
-
-## Table of Contents
-
-- [1 What is the difference between HTTP and HTTPS?](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_what-is-the-difference-between-http-and-https)
-- [2 Enable or disable HTTPS-Only Mode](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_enable-or-disable-https-only-mode)
-- [3 Secure site not available](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_secure-site-not-available)
-
-# What is the difference between HTTP and HTTPS?
-
-[HTTP](https://wikipedia.org/wiki/Hypertext_Transfer_Protocol) stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
-
-[HTTPS](https://wikipedia.org/wiki/HTTPS) protocols fix this by using [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
-
-For example, when HTTPS-Only Mode is active and you visit a site with the `http://example.com` URL, Firefox will silently upgrade to `https://example.com`.
-
-# Enable or disable HTTPS-Only Mode
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap HTTPS-Only Mode.
-4. Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
-5. If you turn HTTPS-Only mode on, select Enable in all tabs or Enable only in private tabs.
-
-# Secure site not available
-
-Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
-
-<dl><dt>
-<img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-
-If you tap Continue to HTTP Site, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
-
-Tap Go Back (Recommended), or your device's back button, if you want to avoid an unencrypted connection.
 
 "
 58208,New in Thunderbird 102,new-thunderbird-102,https://support.mozilla.org/en-US/kb/new-thunderbird-102,en-US,"Detailed introduction to the most interesting new features, improvements, and changes visible to users in Thunderbird 102.0.","<p>This article offers a detailed introduction to the most interesting new features, improvements, and changes visible to users which are available in Thunderbird 102.0, to be downloaded from the <a href=""https://www.thunderbird.net/"">official website</a>. Existing installations of Thunderbird will be updated automatically in due time. A more comprehensive, but less descriptive list of changes can be found in the <a href=""https://www.thunderbird.net/thunderbird/102.0/releasenotes/"">Thunderbird 102 Release Notes</a>.
