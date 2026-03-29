@@ -78369,203 +78369,6 @@ As soon as you have started Thunderbird 78 with a profile, you cannot easily go 
 This is not yet supported. The addition of the feature is tracked here:[https://github.com/rnpgp/rnp/issues/1275](https://github.com/rnpgp/rnp/issues/1275)
 
 "
-50406,Use Web Apps with Firefox for Android,use-web-apps-firefox-android,https://support.mozilla.org/en-US/kb/use-web-apps-firefox-android,en-US,Learn more about Web apps and how to use them with Firefox for Android.,"<p>Web apps work almost like native apps except you can open a web app in your browser. While native apps can pass your information on to each other, running a web app through Firefox lets you use the browser's privacy features and extensions to gain more control over how the app is using your data. (For more information about apps, see our <a href=""https://blog.mozilla.org/firefox/no-judgment-digital-definitions-app-vs-web-app/"">blog post</a>.)
-</p><p>We'll show you how to install and use web apps on Firefox for Android.
-</p>
-<ol><li>Open Firefox on your Android phone or tablet.
-</li><li>Visit webpage for the app you want to install (example: <a href=""http://instagram.com"">instagram.com</a>, mastodon.social, <a href=""http://facebook.com"">facebook.com</a>, etc.)
-</li><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Install</span>. The <em>Add to Home Screen</em> panel will appear.
-</li><li>Drag the icon to your preferred spot on your home screen or tap <strong>Add automatically</strong>.
-</li></ol>",mobile,browse;privacy-and-security;settings,"Web apps work almost like native apps except you can open a web app in your browser. While native apps can pass your information on to each other, running a web app through Firefox lets you use the browser's privacy features and extensions to gain more control over how the app is using your data. (For more information about apps, see our [blog post](https://blog.mozilla.org/firefox/no-judgment-digital-definitions-app-vs-web-app/).)
-
-We'll show you how to install and use web apps on Firefox for Android.
-
-1. Open Firefox on your Android phone or tablet.
-2. Visit webpage for the app you want to install (example: [instagram.com](http://instagram.com), mastodon.social, [facebook.com](http://facebook.com), etc.)
-3. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-4. Tap Install. The _Add to Home Screen_ panel will appear.
-5. Drag the icon to your preferred spot on your home screen or tap **Add automatically**.
-
-"
-50557,Delete sync data from Firefox by signing out of your Mozilla account,delete-sync-data-firefox-signing-out-firefox-account,https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-account,en-US,How to sign out of your Mozilla account and remove your synced data from a device.,"<p>If you're no longer using your Mozilla account on a particular device (especially when you're giving access to your computer to someone else), you should sign out of your Mozilla account to help ensure that no one can access your synced bookmarks, passwords, add-ons and browsing history.
-</p><p>You can also delete your synced data from that device when you sign out.
-</p>
-<h1 id=""w_sign-out-of-your-mozilla-account-on-a-device"">Sign out of your Mozilla account on a device</h1>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
-
-</li><li>Click on your Mozilla account (email address).
-<dl><dt><img alt=""FxA Login panel Fx88"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-26-15-04-20-204532.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li><li>Click <span class=""menu"">Sign Out</span>.
-</li><li>To delete your synced information from Firefox on that device, put a checkbox next to <strong>Delete data from this device (logins, passwords, history, bookmarks, etc.)</strong> 
-</li></ol>
-<h1 id=""w_what-does-delete-data-from-this-device-do"">What does “Delete data from this device” do?</h1>
-<div class=""note""><strong>Note:</strong> This will not delete your information from other synced devices – only the device you're using to sign out. To delete your Mozilla account altogether, see <a href=""/en-US/kb/how-do-i-delete-my-firefox-account"">How do I delete my Mozilla account?</a></div>
-<p><strong>If you select this checkbox when signing out, you will delete your Firefox data on the device, including:</strong>
-</p>
-<ul><li>Synced data from the computer:
-<ul><li>Logins 
-</li><li>Bookmarks
-</li><li>Passwords
-</li><li>History
-</li><li>Add-ons
-</li></ul>
-</li><li>Cookies and Cache
-</li><li>Browsing and download history
-</li></ul>
-<p>This button will <strong>not delete</strong> the following information from the device:
-</p>
-<ul><li>Website permissions
-</li><li>Modified preferences 
-</li><li>Download actions
-</li><li>Toolbar customization
-</li><li>Security certificates
-</li></ul>
-<p>If you’d also like to remove this information, see <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a>.
-</p>",firefox;mozilla-account,sync-data,"If you're no longer using your Mozilla account on a particular device (especially when you're giving access to your computer to someone else), you should sign out of your Mozilla account to help ensure that no one can access your synced bookmarks, passwords, add-ons and browsing history.
-
-You can also delete your synced data from that device when you sign out.
-
-# Sign out of your Mozilla account on a device
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
-2. Click on your Mozilla account (email address).<dl><dt>
-<img alt=""FxA Login panel Fx88"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-26-15-04-20-204532.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-3. Click Sign Out.
-4. To delete your synced information from Firefox on that device, put a checkbox next to **Delete data from this device (logins, passwords, history, bookmarks, etc.)**
-
-# What does “Delete data from this device” do?
-
-**Note:** This will not delete your information from other synced devices – only the device you're using to sign out. To delete your Mozilla account altogether, see [How do I delete my Mozilla account?](\""https://support.mozilla.org/en-US/kb/how-do-i-delete-my-firefox-account"")
-
-**If you select this checkbox when signing out, you will delete your Firefox data on the device, including:**
-
-- Synced data from the computer:
-  - Logins 
-  - Bookmarks
-  - Passwords
-  - History
-  - Add-ons
-
-- Cookies and Cache
-- Browsing and download history
-
-This button will **not delete** the following information from the device:
-
-- Website permissions
-- Modified preferences 
-- Download actions
-- Toolbar customization
-- Security certificates
-
-If you’d also like to remove this information, see [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"").
-
-"
-50558,Control audio or video playback with your keyboard,control-audio-or-video-playback-your-keyboard,https://support.mozilla.org/en-US/kb/control-audio-or-video-playback-your-keyboard,en-US,This page explains the technical documentation on how to control media in Firefox by using the Media Session API.,"<p>This article describes the media control feature for audio or video playback in Firefox.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-media-control-feature""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the media control feature?</span></a></li><li class=""toclevel-1""><a href=""#w_what-platform-supports-this-feature""><span class=""tocnumber"">2</span> <span class=""toctext"">What platform supports this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_how-is-media-control-supported""><span class=""tocnumber"">3</span> <span class=""toctext"">How is media control supported?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-media-can-be-controlled-by-this-feature""><span class=""tocnumber"">4</span> <span class=""toctext"">What kinds of media can be controlled by this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-media-can-not-be-controlled-by-this-feature""><span class=""tocnumber"">5</span> <span class=""toctext"">What kinds of media can NOT be controlled by this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_if-i-have-multiple-tabs-playing-media-which-tab-would-be-controlled""><span class=""tocnumber"">6</span> <span class=""toctext"">If I have multiple tabs playing media, which tab would be controlled?</span></a></li><li class=""toclevel-1""><a href=""#w_why-sometimes-when-i-press-media-control-keys-it-controls-other-apps-but-not-firefox-or-other-apps-are-also-being-controlled-at-the-same-time""><span class=""tocnumber"">7</span> <span class=""toctext"">Why sometimes when I press media control keys, it controls other apps but not Firefox? Or, other apps are also being controlled at the same time?</span></a></li></ul></div>
-<h1 id=""w_what-is-the-media-control-feature"">What is the media control feature?</h1>
-<p>You control media (audio or video) playback inside Firefox without clicking on the video or audio itself. You can now control it by pressing the hardware control buttons on a keyboard or headset, pressing the button on the virtual control interface or by sending commands via specific protocol, such as <a href=""https://specifications.freedesktop.org/mpris-spec/latest/"">MPRIS</a>.
-</p>
-<div class=""note"">This depends on website developers using the <a href=""https://w3c.github.io/mediasession/"">MediaSession API</a>.</div>
-<h1 id=""w_what-platform-supports-this-feature"">What platform supports this feature?</h1>
-<p>You can use this feature on:
-</p>
-<ul><li> macOS (version 10.12.1 or above)
-</li><li> Windows (Windows 8.1 or above)
-</li><li> Linux (GTK-based distributions)
-</li></ul>
-<h1 id=""w_how-is-media-control-supported"">How is media control supported?</h1>
-<ul><li>Physical hardware media control keys.
-</li><li>Virtual media control keys, each platform has different virtual controller interfaces, which are implemented by different platform frameworks:
-<ul><li><a href=""https://bug1615665.bmoattachments.org/attachment.cgi?id=9129321"">Interface on Windows</a> (using <a href=""https://docs.microsoft.com/en-us/uwp/api/windows.media.systemmediatransportcontrols"">SMTC</a>)
-</li><li><a href=""https://web.archive.org/web/20220602181144/https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2020-10-27-11-53-36-8ebdd3.png"">Interface on Linux</a> (using <a href=""https://specifications.freedesktop.org/mpris-spec/2.2/"">MPRIS</a>)
-</li><li><a href=""https://media.idownloadblog.com/wp-content/uploads/2016/10/MacBook-Pro-Touch-Bar-Control-Strip-005.jpg"">Interface on macOS touch bar</a> (using <a href=""https://developer.apple.com/documentation/mediaplayer"">MediaPlayer</a>)
-</li></ul>
-</li><li>Using an app which uses platform specific API to involve controlling media.
-</li></ul>
-<h1 id=""w_what-kinds-of-media-can-be-controlled-by-this-feature"">What kinds of media can be controlled by this feature?</h1>
-<p>Currently, we only support controlling media playing from <strong>audio</strong> and <strong>video</strong>, so it <strong>cannot</strong> control media from web-audio and web-speech:
-</p>
-<ul><li>If an audible media is playing from audio and video, then it’s controllable.
-</li><li>If a playable media enters fullscreen.
-</li><li>If a playable media enters picture-in-picture mode.
-</li></ul>
-<h1 id=""w_what-kinds-of-media-can-not-be-controlled-by-this-feature"">What kinds of media can NOT be controlled by this feature?</h1>
-<p>Media from <strong>web-audio</strong> and <strong>web-speech</strong> cannot be controlled. Also:
-</p>
-<ul><li>Inaudible media (silent videos that don't have an audio track, such as GIF-like images)
-</li><li>Notification sounds
-</li></ul>
-<h1 id=""w_if-i-have-multiple-tabs-playing-media-which-tab-would-be-controlled"">If I have multiple tabs playing media, which tab would be controlled?</h1>
-<p>If there are multiple tabs playing at the same time, you could control the last tab playing media, unless you are playing in <a href=""/en-US/kb/about-picture-picture-firefox"">Picture-in-Picture mode</a>. In this case, the tab the picture-in-picture video belongs to would always be the tab that is being controlled.
-</p>
-<h1 id=""w_why-sometimes-when-i-press-media-control-keys-it-controls-other-apps-but-not-firefox-or-other-apps-are-also-being-controlled-at-the-same-time"">Why sometimes when I press media control keys, it controls other apps but not Firefox? Or, other apps are also being controlled at the same time?</h1>
-<p>Each platform has its own mechanism for which applications control audio. In some cases, multiple applications might try to control the media keys at the same time. If this happens, try to close any other apps that are trying to control your media control keys.
-</p>",firefox,audio-and-video;browse;settings,"This article describes the media control feature for audio or video playback in Firefox.
-
-## Table of Contents
-
-- [1 What is the media control feature?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_what-is-the-media-control-feature)
-- [2 What platform supports this feature?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_what-platform-supports-this-feature)
-- [3 How is media control supported?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_how-is-media-control-supported)
-- [4 What kinds of media can be controlled by this feature?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_what-kinds-of-media-can-be-controlled-by-this-feature)
-- [5 What kinds of media can NOT be controlled by this feature?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_what-kinds-of-media-can-not-be-controlled-by-this-feature)
-- [6 If I have multiple tabs playing media, which tab would be controlled?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_if-i-have-multiple-tabs-playing-media-which-tab-would-be-controlled)
-- [7 Why sometimes when I press media control keys, it controls other apps but not Firefox? Or, other apps are also being controlled at the same time?](https://support.mozilla.org/kb/control-audio-or-video-playback-your-keyboard#w_why-sometimes-when-i-press-media-control-keys-it-controls-other-apps-but-not-firefox-or-other-apps-are-also-being-controlled-at-the-same-time)
-
-# What is the media control feature?
-
-You control media (audio or video) playback inside Firefox without clicking on the video or audio itself. You can now control it by pressing the hardware control buttons on a keyboard or headset, pressing the button on the virtual control interface or by sending commands via specific protocol, such as [MPRIS](https://specifications.freedesktop.org/mpris-spec/latest/).
-
-This depends on website developers using the [MediaSession API](https://w3c.github.io/mediasession/).
-
-# What platform supports this feature?
-
-You can use this feature on:
-
-- macOS (version 10.12.1 or above)
-- Windows (Windows 8.1 or above)
-- Linux (GTK-based distributions)
-
-# How is media control supported?
-
-- Physical hardware media control keys.
-- Virtual media control keys, each platform has different virtual controller interfaces, which are implemented by different platform frameworks:
-  - [Interface on Windows](https://bug1615665.bmoattachments.org/attachment.cgi?id=9129321) (using [SMTC](https://docs.microsoft.com/en-us/uwp/api/windows.media.systemmediatransportcontrols))
-  - [Interface on Linux](https://web.archive.org/web/20220602181144/https://user-media-prod-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2020-10-27-11-53-36-8ebdd3.png) (using [MPRIS](https://specifications.freedesktop.org/mpris-spec/2.2/))
-  - [Interface on macOS touch bar](https://media.idownloadblog.com/wp-content/uploads/2016/10/MacBook-Pro-Touch-Bar-Control-Strip-005.jpg) (using [MediaPlayer](https://developer.apple.com/documentation/mediaplayer))
-
-- Using an app which uses platform specific API to involve controlling media.
-
-# What kinds of media can be controlled by this feature?
-
-Currently, we only support controlling media playing from **audio** and **video** , so it **cannot** control media from web-audio and web-speech:
-
-- If an audible media is playing from audio and video, then it’s controllable.
-- If a playable media enters fullscreen.
-- If a playable media enters picture-in-picture mode.
-
-# What kinds of media can NOT be controlled by this feature?
-
-Media from **web-audio** and **web-speech** cannot be controlled. Also:
-
-- Inaudible media (silent videos that don't have an audio track, such as GIF-like images)
-- Notification sounds
-
-# If I have multiple tabs playing media, which tab would be controlled?
-
-If there are multiple tabs playing at the same time, you could control the last tab playing media, unless you are playing in [Picture-in-Picture mode](\""https://support.mozilla.org/en-US/kb/about-picture-picture-firefox""). In this case, the tab the picture-in-picture video belongs to would always be the tab that is being controlled.
-
-# Why sometimes when I press media control keys, it controls other apps but not Firefox? Or, other apps are also being controlled at the same time?
-
-Each platform has its own mechanism for which applications control audio. In some cases, multiple applications might try to control the media keys at the same time. If this happens, try to close any other apps that are trying to control your media control keys.
-
-"
 50582,Firefox for Enterprise 81 - Release notes,firefox-enterprise-81-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-81-release-notes,en-US,See what's coming out with Firefox for Enterprise 81.,"<p>Except where noted, everything here applies to both Firefox 81 and the Firefox 78.3 ESR.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
@@ -81307,229 +81110,6 @@ You can view what text encoding in used on the page in the General tab of [Page 
 
 2. Drag the Repair Text Encoding button to the toolbar.
 3. Click Done.
-
-"
-53604,Compacting folders - Potential complications,compacting-folders-potential-complications,https://support.mozilla.org/en-US/kb/compacting-folders-potential-complications,en-US,Help the user understand some of the things that may go wrong when compacting.,"<p>Occasionally, when a folder is <a href=""/en-US/kb/compacting-folders"">compacted</a>, the mail messages in the folder seem to disappear. In some cases, there is an interruption or failure to display messages or message lists, which is typically recoverable. In some cases, there may be real data loss, which is not recoverable. Some of the observed behaviours are described and explained below. Please review these items, and if you are still having difficulty, please <a href=""https://support.mozilla.org/en-US/questions/new/thunderbird/form"">post your issue in support</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_selecting-a-folder-while-compact-is-in-progress""><span class=""tocnumber"">1</span> <span class=""toctext"">Selecting a folder while compact is in progress</span></a></li><li class=""toclevel-1""><a href=""#w_software-interruption-to-the-process""><span class=""tocnumber"">2</span> <span class=""toctext"">Software interruption to the process</span></a></li><li class=""toclevel-1""><a href=""#w_mail-file-has-previously-been-deleted""><span class=""tocnumber"">3</span> <span class=""toctext"">Mail file has previously been deleted</span></a></li><li class=""toclevel-1""><a href=""#w_thunderbird-using-too-much-disk-space""><span class=""tocnumber"">4</span> <span class=""toctext"">Thunderbird using too much disk space</span></a></li><li class=""toclevel-1""><a href=""#w_nstmp-files-in-the-thunderbird-profile""><span class=""tocnumber"">5</span> <span class=""toctext"">nstmp files in the Thunderbird profile</span></a></li><li class=""toclevel-1""><a href=""#w_mail-file-corruption""><span class=""tocnumber"">6</span> <span class=""toctext"">Mail file corruption</span></a><ul><li class=""toclevel-2""><a href=""#w_other-symptoms-of-mail-file-corruption""><span class=""tocnumber"">6.1</span> <span class=""toctext"">Other symptoms of mail file corruption</span></a></li></ul></li></ul></div>
-<h1 id=""w_selecting-a-folder-while-compact-is-in-progress"">Selecting a folder while compact is in progress</h1>
-<p>Thunderbird can not read the index for the file while compacting is in progress, so when you select a folder, the mail in the folder will simply not be displayed until compact completes. When it does complete, the mail will reappear.
-</p>
-<h1 id=""w_software-interruption-to-the-process"">Software interruption to the process</h1>
-<p>Sometimes after the compact, no messages display in the folder due to an interruption of the compact process. This causes an empty index file (.msf) to be created. Some possible causes of interruption are:
-</p>
-<ul><li> Controlling or not allowing access to the Thunderbird profile folder for backup scans
-</li><li> Cloud syncing (which is not recommended)
-</li><li> <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues"">Antivirus software scans</a> (which is not recommended).
-</li></ul>
-<p>Here's how you can cure the problem of an empty index file:
-</p>
-<ul><li> Right click the folder
-</li><li> Select <span class=""menu"">Properties...</span> from folder context menu
-</li><li> Use the <span class=""button"">Repair folder</span> button
-</li></ul>
-<p>This will force a new index to be built and should recover from this situation without data loss.
-</p>
-<h1 id=""w_mail-file-has-previously-been-deleted"">Mail file has previously been deleted</h1>
-<p>Compact occurs and displays mail since the deletion, so the missing mail is all before a certain point in time. Whilst there have not been any known instances in the recent past, historically, antivirus products regularly scanned the mail storage file and if malware was found, deleted or quarantined the file. Due to Thunderbird using an index to fill the user interface, these types of deletions really only become obvious if an old mail is selected or a complete reindex occurs as in a compact process.
-</p>
-<h1 id=""w_thunderbird-using-too-much-disk-space"">Thunderbird using too much disk space</h1>
-<p>See the next heading. 
-</p>
-<h1 id=""w_nstmp-files-in-the-thunderbird-profile"">nstmp files in the Thunderbird profile</h1>
-<p>The compact process in version 115 and older may leave nstmp files in your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile directory</a>, which can be large. You may delete these nstmp files.
-</p>
-<h1 id=""w_mail-file-corruption"">Mail file corruption</h1>
-<p>If the underlying MBOX file is corrupt, then compact will write a new MBOX file that can at best be described as truncated.  In this case, the mail list often retains the earliest entries, but later ones are lost from the point where the MBOX file became corrupt. Some of the more common causes are:
-</p>
-<ul><li> Hard disk failure
-</li><li> Memory failure
-</li><li> Software or malware corrupting memory where the data to be written to file is stored
-</li></ul>
-<h2 id=""w_other-symptoms-of-mail-file-corruption"">Other symptoms of mail file corruption</h2>
-<p>One or more of these events may occur when the MBOX file is corrupt: 
-</p>
-<ul><li> Previously deleted messages reappearing
-</li><li> Messages with a date of 1969
-</li><li> Message bodies containing bits of other messages
-</li><li> Messages in the message list not matching what is displayed when clicked
-</li><li> Thunderbird may stop responding before messages in a folder are displayed
-</li></ul>",thunderbird,performance-and-connectivity,"Occasionally, when a folder is [compacted](\""https://support.mozilla.org/en-US/kb/compacting-folders""), the mail messages in the folder seem to disappear. In some cases, there is an interruption or failure to display messages or message lists, which is typically recoverable. In some cases, there may be real data loss, which is not recoverable. Some of the observed behaviours are described and explained below. Please review these items, and if you are still having difficulty, please [post your issue in support](https://support.mozilla.org/en-US/questions/new/thunderbird/form).
-
-## Table of Contents
-
-- [1 Selecting a folder while compact is in progress](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_selecting-a-folder-while-compact-is-in-progress)
-- [2 Software interruption to the process](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_software-interruption-to-the-process)
-- [3 Mail file has previously been deleted](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_mail-file-has-previously-been-deleted)
-- [4 Thunderbird using too much disk space](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_thunderbird-using-too-much-disk-space)
-- [5 nstmp files in the Thunderbird profile](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_nstmp-files-in-the-thunderbird-profile)
-- [6 Mail file corruption](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_mail-file-corruption)
-  - [6.1 Other symptoms of mail file corruption](https://support.mozilla.org/kb/compacting-folders-potential-complications#w_other-symptoms-of-mail-file-corruption)
-
-# Selecting a folder while compact is in progress
-
-Thunderbird can not read the index for the file while compacting is in progress, so when you select a folder, the mail in the folder will simply not be displayed until compact completes. When it does complete, the mail will reappear.
-
-# Software interruption to the process
-
-Sometimes after the compact, no messages display in the folder due to an interruption of the compact process. This causes an empty index file (.msf) to be created. Some possible causes of interruption are:
-
-- Controlling or not allowing access to the Thunderbird profile folder for backup scans
-- Cloud syncing (which is not recommended)
-- [Antivirus software scans](https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues) (which is not recommended).
-
-Here's how you can cure the problem of an empty index file:
-
-- Right click the folder
-- Select Properties... from folder context menu
-- Use the Repair folder button
-
-This will force a new index to be built and should recover from this situation without data loss.
-
-# Mail file has previously been deleted
-
-Compact occurs and displays mail since the deletion, so the missing mail is all before a certain point in time. Whilst there have not been any known instances in the recent past, historically, antivirus products regularly scanned the mail storage file and if malware was found, deleted or quarantined the file. Due to Thunderbird using an index to fill the user interface, these types of deletions really only become obvious if an old mail is selected or a complete reindex occurs as in a compact process.
-
-# Thunderbird using too much disk space
-
-See the next heading.
-
-# nstmp files in the Thunderbird profile
-
-The compact process in version 115 and older may leave nstmp files in your [Thunderbird profile directory](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), which can be large. You may delete these nstmp files.
-
-# Mail file corruption
-
-If the underlying MBOX file is corrupt, then compact will write a new MBOX file that can at best be described as truncated. In this case, the mail list often retains the earliest entries, but later ones are lost from the point where the MBOX file became corrupt. Some of the more common causes are:
-
-- Hard disk failure
-- Memory failure
-- Software or malware corrupting memory where the data to be written to file is stored
-
-## Other symptoms of mail file corruption
-
-One or more of these events may occur when the MBOX file is corrupt:
-
-- Previously deleted messages reappearing
-- Messages with a date of 1969
-- Message bodies containing bits of other messages
-- Messages in the message list not matching what is displayed when clicked
-- Thunderbird may stop responding before messages in a folder are displayed
-
-"
-53609,How do I view synced tabs on Firefox for Android?,how-do-i-view-synced-tabs-firefox-android,https://support.mozilla.org/en-US/kb/how-do-i-view-synced-tabs-firefox-android,en-US,"When you sign in to your Mozilla account, you can access your open tabs across all your synced devices.","<div class=""for"" data-for=""not m89""><div class=""warning"">This article applies to the latest version of Firefox for Android. Please <a href=""/en-US/kb/update-latest-version-firefox-android"">update your version</a> first to enjoy these features.</div></div>
-<p></p><p>When you're signed in to Mozilla account, Firefox syncs your open tabs so you can access them on all your synced devices. Here's how to access your synced tabs on Firefox for Android:
-</p>
-<ol><li><p>Tap the <img alt=""tab icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-21-10-28-10-817434.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> tab icon next to the address bar to visit the tabs tray. The number indicates how many open tabs you have. 
-</p>
-<dl><dt><img alt=""Tab's icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-21-10-23-58-88b61f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-</li><li>Tap the sync tabs panel to the very right:
-<dl><dt><img alt=""sync tabs 89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-05-17-52-34-b026e9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-</li></ol>",mobile,browse,"This article applies to the latest version of Firefox for Android. Please [update your version](\""https://support.mozilla.org/en-US/kb/update-latest-version-firefox-android"") first to enjoy these features.
-
-When you're signed in to Mozilla account, Firefox syncs your open tabs so you can access them on all your synced devices. Here's how to access your synced tabs on Firefox for Android:
-
-1. Tap the ![tab icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) tab icon next to the address bar to visit the tabs tray. The number indicates how many open tabs you have. 
-
-2. Tap the sync tabs panel to the very right:<dl><dt>
-<img alt=""sync tabs 89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-05-17-52-34-b026e9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-
-"
-53610,How do I share a tab from Firefox for Android?,how-do-i-share-tab-firefox-android,https://support.mozilla.org/en-US/kb/how-do-i-share-tab-firefox-android,en-US,Share tabs with your synced devices or with other apps.,"<p>Firefox makes it easy to send or share tabs to other synced devices and with other apps.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_share-current-open-tab""><span class=""tocnumber"">1</span> <span class=""toctext"">Share current open tab</span></a></li><li class=""toclevel-1""><a href=""#w_share-all-open-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Share all open tabs</span></a></li><li class=""toclevel-1""><a href=""#w_share-selected-open-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Share selected open tabs</span></a></li></ul></div>
-<h1 id=""w_share-current-open-tab"">Share current open tab</h1>
-<ol><li>Tap on the three-dot menu button next to the address bar.
-<dl><dt><img alt=""Fenix79Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-29-06-36-04-a094f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li><li>Tap on the share icon: <img alt=""FxPreview-share-icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-02-28-14-03-19-2099dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""24"">
-</li></ol>
-<ul><li><strong>Send to another device with Sync</strong>: Under <em>SEND TO DEVICE</em> your synced devices will appear, select one to share your tab.
-</li><li><strong>Send via an action</strong>: Select an action such as Gmail, Messages and more, to send the tab with that action.
-</li></ul>
-<div class=""for"" data-for=""not m147"">
-<h1 id=""w_share-all-open-tabs"">Share all open tabs</h1>
-<ol><li>Visit the tabs tray by tapping the number next to the address bar, this number shows how many open tabs you have.
-<dl><dt><img alt=""FenixViewTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-28-13-16-50-9d127a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li><li>Tap the three-dot menu button in the tabs tray.
-<dl><dt><img alt=""FxA92-TabsTrayMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-36-21-dcbf60.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Share all tabs</span>.
-</li><li>A list of all your open tabs will appear.
-</li></ol>
-<ul><li><strong>Send to another device with Sync</strong>: Under <em>SEND TO DEVICE</em> your synced devices will appear, select one to share the tabs.
-</li><li><strong>Send via an action</strong>: Select an action such as Gmail, Messages and more, to send the tabs with that action.
-</li></ul>
-</div>
-<h1 id=""w_share-selected-open-tabs"">Share selected open tabs</h1>
-<ol><li>Visit the tabs tray by tapping the number next to the address bar.
-<dl><dt><img alt=""FenixViewTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-28-13-16-50-9d127a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li><li>Tap the three-dot menu button in the tabs tray.
-<dl><dt><img alt=""FxA92-TabsTrayMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-36-21-dcbf60.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Select tabs</span>.
-</li><li>Tap on each tab you want to share.
-<dl><dt><img alt=""FxA92-SelectTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-22-23-1b960c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-</li><li>Tap on the share icon: <img alt=""FxPreview-share-icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-02-28-14-03-19-2099dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""24"">
-</li><li>A list of the selected tabs will appear.
-</li></ol>
-<ul><li><strong>Send to another device with Sync</strong>: Under <em>SEND TO DEVICE</em> your synced devices will appear, select one to share the tabs.
-</li><li><strong>Send via an action</strong>: Select an action such as Gmail, Messages and more, to send the tabs with that action.
-</li></ul>",mobile,browse;sync-data,"Firefox makes it easy to send or share tabs to other synced devices and with other apps.
-
-## Table of Contents
-
-- [1 Share current open tab](https://support.mozilla.org/kb/how-do-i-share-tab-firefox-android#w_share-current-open-tab)
-- [2 Share all open tabs](https://support.mozilla.org/kb/how-do-i-share-tab-firefox-android#w_share-all-open-tabs)
-- [3 Share selected open tabs](https://support.mozilla.org/kb/how-do-i-share-tab-firefox-android#w_share-selected-open-tabs)
-
-# Share current open tab
-
-1. Tap on the three-dot menu button next to the address bar.<dl><dt>
-<img alt=""Fenix79Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-29-06-36-04-a094f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-2. Tap on the share icon: ![FxPreview-share-icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Send to another device with Sync** : Under _SEND TO DEVICE_ your synced devices will appear, select one to share your tab.
-- **Send via an action** : Select an action such as Gmail, Messages and more, to send the tab with that action.
-
-# Share all open tabs
-
-1. Visit the tabs tray by tapping the number next to the address bar, this number shows how many open tabs you have.<dl><dt>
-<img alt=""FenixViewTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-28-13-16-50-9d127a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-2. Tap the three-dot menu button in the tabs tray.<dl><dt>
-<img alt=""FxA92-TabsTrayMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-36-21-dcbf60.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-3. Tap Share all tabs.
-4. A list of all your open tabs will appear.
-
-- **Send to another device with Sync** : Under _SEND TO DEVICE_ your synced devices will appear, select one to share the tabs.
-- **Send via an action** : Select an action such as Gmail, Messages and more, to send the tabs with that action.
-
-# Share selected open tabs
-
-1. Visit the tabs tray by tapping the number next to the address bar.<dl><dt>
-<img alt=""FenixViewTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-06-28-13-16-50-9d127a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-2. Tap the three-dot menu button in the tabs tray.<dl><dt>
-<img alt=""FxA92-TabsTrayMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-36-21-dcbf60.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-3. Tap Select tabs.
-4. Tap on each tab you want to share.<dl><dt>
-<img alt=""FxA92-SelectTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-13-15-22-23-1b960c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""220"">
-</dt></dl>
-5. Tap on the share icon: ![FxPreview-share-icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-6. A list of the selected tabs will appear.
-
-- **Send to another device with Sync** : Under _SEND TO DEVICE_ your synced devices will appear, select one to share the tabs.
-- **Send via an action** : Select an action such as Gmail, Messages and more, to send the tabs with that action.
 
 "
 53693,Site Permissions panel,site-permissions-panel,https://support.mozilla.org/en-US/kb/site-permissions-panel,en-US,"If you allow or block permissions for a website, the address bar will show a Permissions icon that opens the Permissions panel.  Learn more.","<p>If you have granted any special permissions to a website, you will see a Permissions icon <img alt=""Fx89PermissionsIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-05-34-30-47c30e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the address bar. Click this icon to open the Permissions panel, where you can view and adjust permissions for the website.
@@ -89354,6 +88934,134 @@ Other OpenPGP software might already reject a key based on these unsafe properti
 The next ESR is Firefox 102.
 
 If you use the ESR, we strongly recommend that you start testing with Firefox Nightly to see if there are any issues you have with the new ESR.
+
+"
+58140,Search your browsing history in Firefox for iOS,search-your-browsing-history-firefox-ios,https://support.mozilla.org/en-US/kb/search-your-browsing-history-firefox-ios,en-US,You can search your browsing history within the History panel in Firefox for iOS.,"<p>You can search your browsing history within the History panel in Firefox for iOS to find websites you've previously visited.
+</p>
+<h1 id=""w_search-your-browsing-history"">Search your browsing history</h1>
+<ol><li>Tap the <img alt=""mobile menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-02-12-20-58-28-917dff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu icon and select <span class=""menu"">History</span>.
+</li><li>Tap the <img alt=""fx icon Open the file's folder Mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-24-09-21-34-a9df8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
+</li><li>Your search results will automatically update as you enter text.
+</li><li>Tap a result to navigate to the page.
+</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
+</li></ol>
+<p>Learn more about <a href=""/en-US/kb/clear-browsing-history-firefox-ios"">deleting your browsing history in Firefox for iOS</a>.
+</p>",ios,browse;history;search;search-tag-and-share,"You can search your browsing history within the History panel in Firefox for iOS to find websites you've previously visited.
+
+# Search your browsing history
+
+1. Tap the ![mobile menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select History.
+2. Tap the ![fx icon Open the file's folder Mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
+3. Your search results will automatically update as you enter text.
+4. Tap a result to navigate to the page.
+5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
+
+Learn more about [deleting your browsing history in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/clear-browsing-history-firefox-ios"").
+
+"
+58141,Search your browsing history and bookmarks in Firefox for Android,search-your-browsing-history-and-bookmarks-firefox,https://support.mozilla.org/en-US/kb/search-your-browsing-history-and-bookmarks-firefox,en-US,You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.,"<p>You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_search-your-browsing-history""><span class=""tocnumber"">1</span> <span class=""toctext"">Search your browsing history</span></a></li><li class=""toclevel-1""><a href=""#w_search-your-bookmarks""><span class=""tocnumber"">2</span> <span class=""toctext"">Search your bookmarks</span></a></li></ul></div>
+<h1 id=""w_search-your-browsing-history"">Search your browsing history</h1>
+<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">History</span>.
+</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
+</li><li>Your search results will automatically update as you enter text.
+</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
+</li></ol>
+<p>Learn more about <a href=""/en-US/kb/clear-your-browsing-history-firefox-android"">deleting your browsing history in Firefox for Android</a>.
+</p>
+<h1 id=""w_search-your-bookmarks"">Search your bookmarks</h1>
+<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">Bookmarks</span>.
+</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
+</li><li>Your search results will automatically update as you enter text.
+</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
+</li></ol>",mobile,bookmarks;browse;history;search;search-tag-and-share,"You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
+
+## Table of Contents
+
+- [1 Search your browsing history](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-browsing-history)
+- [2 Search your bookmarks](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-bookmarks)
+
+# Search your browsing history
+
+1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select History.
+2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
+3. Your search results will automatically update as you enter text.
+4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
+
+Learn more about [deleting your browsing history in Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-firefox-android"").
+
+# Search your bookmarks
+
+1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select Bookmarks.
+2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
+3. Your search results will automatically update as you enter text.
+4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
+
+"
+58142,HTTPS-Only Mode in Firefox for Android,https-only-mode-firefox-android,https://support.mozilla.org/en-US/kb/https-only-mode-firefox-android,en-US,HTTPS-Only Mode is available for Firefox for Android. You can turn this setting on or off.,"<p>HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-http-and-https""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between HTTP and HTTPS?</span></a></li><li class=""toclevel-1""><a href=""#w_enable-or-disable-https-only-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable or disable HTTPS-Only Mode</span></a></li><li class=""toclevel-1""><a href=""#w_secure-site-not-available""><span class=""tocnumber"">3</span> <span class=""toctext"">Secure site not available</span></a></li></ul></div>
+<h1 id=""w_what-is-the-difference-between-http-and-https"">What is the difference between HTTP and HTTPS?</h1>
+<p><a href=""https://wikipedia.org/wiki/Hypertext_Transfer_Protocol"">HTTP</a> stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
+</p><p><a href=""https://wikipedia.org/wiki/HTTPS"">HTTPS</a> protocols fix this by using <a href=""https://en.wikipedia.org/wiki/Transport_Layer_Security"">TLS</a> (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
+</p><p>For example, when HTTPS-Only Mode is active and you visit a site with the <code><strong>http</strong>://example.com</code> URL, Firefox will silently upgrade to <code><strong>https</strong>://example.com</code>.
+</p>
+<h1 id=""w_enable-or-disable-https-only-mode"">Enable or disable HTTPS-Only Mode</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">HTTPS-Only Mode</span>.
+</li><li>Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
+</li><li>If you turn HTTPS-Only mode on, select <span class=""menu"">Enable in all tabs</span> or <span class=""menu"">Enable only in private tabs</span>.
+</li></ol>
+<h1 id=""w_secure-site-not-available"">Secure site not available</h1>
+<p>Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
+</p>
+<dl><dt><img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+<p>If you tap <span class=""button"">Continue to HTTP Site</span>, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+</p><p>Tap <span class=""button"">Go Back (Recommended)</span>, or your device's back button, if you want to avoid an unencrypted connection.
+</p>",mobile,privacy-and-security,"HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
+
+## Table of Contents
+
+- [1 What is the difference between HTTP and HTTPS?](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_what-is-the-difference-between-http-and-https)
+- [2 Enable or disable HTTPS-Only Mode](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_enable-or-disable-https-only-mode)
+- [3 Secure site not available](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_secure-site-not-available)
+
+# What is the difference between HTTP and HTTPS?
+
+[HTTP](https://wikipedia.org/wiki/Hypertext_Transfer_Protocol) stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
+
+[HTTPS](https://wikipedia.org/wiki/HTTPS) protocols fix this by using [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
+
+For example, when HTTPS-Only Mode is active and you visit a site with the `http://example.com` URL, Firefox will silently upgrade to `https://example.com`.
+
+# Enable or disable HTTPS-Only Mode
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap HTTPS-Only Mode.
+4. Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
+5. If you turn HTTPS-Only mode on, select Enable in all tabs or Enable only in private tabs.
+
+# Secure site not available
+
+Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
+
+<dl><dt>
+<img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+
+If you tap Continue to HTTP Site, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+
+Tap Go Back (Recommended), or your device's back button, if you want to avoid an unencrypted connection.
 
 "
 58208,New in Thunderbird 102,new-thunderbird-102,https://support.mozilla.org/en-US/kb/new-thunderbird-102,en-US,"Detailed introduction to the most interesting new features, improvements, and changes visible to users in Thunderbird 102.0.","<p>This article offers a detailed introduction to the most interesting new features, improvements, and changes visible to users which are available in Thunderbird 102.0, to be downloaded from the <a href=""https://www.thunderbird.net/"">official website</a>. Existing installations of Thunderbird will be updated automatically in due time. A more comprehensive, but less descriptive list of changes can be found in the <a href=""https://www.thunderbird.net/thunderbird/102.0/releasenotes/"">Thunderbird 102 Release Notes</a>.
