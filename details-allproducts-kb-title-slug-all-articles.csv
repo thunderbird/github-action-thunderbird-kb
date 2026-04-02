@@ -10393,256 +10393,6 @@ You may be able to diagnose your download problem by following the steps given i
 _**Based on information from [Unable to save or download files (mozillaZine KB)](http://kb.mozillazine.org/Unable_to_save_or_download_files)**_
 
 "
-712,Firefox and other browsers can't load websites,firefox-and-other-browsers-cant-load-websites,https://support.mozilla.org/en-US/kb/firefox-and-other-browsers-cant-load-websites,en-US,"If no web browsers on your computer can load websites, it indicates a problem with your Internet connection. The article describes some troubleshooting methods.","<p>If you're having the same problems loading websites on every browser, these are some possible causes and ways to fix them.
-</p>
-<div class=""note""><strong>Note:</strong> Before you proceed, check if your problem also occurs in another browser, such as <span class=""for"" data-for=""win"">Microsoft Edge</span><span class=""for"" data-for=""mac"">Safari</span><span class=""for"" data-for=""linux"">Epiphany</span>. If it doesn't, see <a href=""/en-US/kb/firefox-cant-load-websites-other-browsers-can"">Firefox can't load websites but other browsers can</a>.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_security-software-is-blocking-the-connection""><span class=""tocnumber"">1</span> <span class=""toctext"">Security software is blocking the connection</span></a></li><li class=""toclevel-1""><a href=""#w_system-time-is-incorrect""><span class=""tocnumber"">2</span> <span class=""toctext"">System time is incorrect</span></a></li><li class=""toclevel-1""><a href=""#w_dns-cache""><span class=""tocnumber"">3</span> <span class=""toctext"">DNS cache</span></a></li><li class=""toclevel-1""><a href=""#w_wireless-connection""><span class=""tocnumber"">4</span> <span class=""toctext"">Wireless connection</span></a></li><li class=""toclevel-1""><a href=""#w_internet-service-provider-problem""><span class=""tocnumber"">5</span> <span class=""toctext"">Internet Service Provider problem</span></a></li><li class=""toclevel-1""><a href=""#w_dns-server-problem""><span class=""tocnumber"">6</span> <span class=""toctext"">DNS server problem</span></a></li><li class=""toclevel-1""><a href=""#w_other-resources""><span class=""tocnumber"">7</span> <span class=""toctext"">Other resources</span></a></li></ul></div>
-<h1 id=""w_security-software-is-blocking-the-connection"">Security software is blocking the connection</h1>
-<p>Check if your Internet security software (including firewalls, antivirus programs, anti-spyware programs and more) is blocking the connection to the Internet. For instructions on how to configure some programs, read <a href=""/en-US/kb/configure-firewalls-so-firefox-can-access-internet"">Configure firewalls so that Firefox can access the Internet</a>.
-</p>
-<h1 id=""w_system-time-is-incorrect"">System time is incorrect</h1>
-<p>Make sure your system's date, time and timezone settings are configured correctly. Firefox may have issues validating the website's security certificate if the date/time is incorrect.
-</p>
-<h1 id=""w_dns-cache"">DNS cache</h1>
-<p>Every web server connected to the Internet is assigned a number known as its IP address. Domain names are assigned to IP addresses through a <a href=""http://wikipedia.org/wiki/Domain_Name_System"">Domain Name System</a> (DNS) server. Your computer stores recent IP address assignments so it can connect to sites more quickly, but if there is a discrepancy between the DNS server and the IP address assignments on your computer, it will cause every browser on your computer to have problems finding some websites. To remove the recently stored IP address assignments, flush your DNS cache.
-</p><div class=""for"" data-for=""win"">
-<ol><li> Hold down the Windows key <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> and press <span class=""key"">R</span>.
-</li><li> Type <strong>cmd</strong> and press <span class=""key"">Enter</span>.
-</li><li> In the command prompt, type <strong>ipconfig /flushdns</strong> and press <span class=""key"">Enter</span>.
-</li></ol>
-</div><div class=""for"" data-for=""mac""><p>Restart MacOS to flush your DNS cache.
-</p></div><div class=""for"" data-for=""linux"">
-<ol><li> Open the <strong>command terminal</strong>.
-</li><li> Run the command <strong>/etc/init.d/nscd restart</strong>
-</li></ol>
-</div>
-<h1 id=""w_wireless-connection"">Wireless connection</h1>
-<p>If you are using a wireless connection, make sure that you are using the correct access point.
-</p>
-<h1 id=""w_internet-service-provider-problem"">Internet Service Provider problem</h1>
-<p>Even if your modem and/or router are both on and are not indicating errors, there may be a problem with your Internet Service Provider (ISP). Contact your ISP for more information. 
-</p>
-<h1 id=""w_dns-server-problem"">DNS server problem</h1>
-<p>Your <a href=""http://en.wikipedia.org/wiki/Domain_Name_System"">Domain Name System</a> (DNS) server translates web addresses (URLs) into IP addresses and is usually provided by your ISP. If the DNS server is overloaded, you may be unable to view some or all websites. For example, if <a href=""http://74.125.53.99"">http://74.125.53.99</a> or <a href=""http://74.125.159.105"">http://74.125.159.105</a> work but <a href=""http://www.google.com"">http://www.google.com</a> doesn't, you may have a DNS problem. You can use an alternative service such as <a href=""http://www.opendns.com/"">OpenDNS</a> or <a href=""http://code.google.com/speed/public-dns/"">Google Public DNS</a>.
-</p>
-<h1 id=""w_other-resources"">Other resources</h1>
-<p>If neither Firefox nor another browser can load any websites, your problem is external to Firefox and you should seek support elsewhere.
-</p><div class=""for"" data-for=""win"">
-<ul><li> See <a href=""http://windows.microsoft.com/windows/network-connection-problem-help"">Wired and wireless network problems</a> at microsoft.com.
-</li></ul>
-</div><div class=""for"" data-for=""mac"">
-<ul><li> See <a href=""http://support.apple.com/kb/PH21640"">OS X El Capitan: If you can’t connect to the Internet</a> at apple.com.
-</li></ul>
-</div>",firefox,site-breakages,"If you're having the same problems loading websites on every browser, these are some possible causes and ways to fix them.
-
-**Note:** Before you proceed, check if your problem also occurs in another browser, such as Microsoft EdgeSafariEpiphany. If it doesn't, see [Firefox can't load websites but other browsers can](\""https://support.mozilla.org/en-US/kb/firefox-cant-load-websites-other-browsers-can"").
-
-## Table of Contents
-
-- [1 Security software is blocking the connection](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_security-software-is-blocking-the-connection)
-- [2 System time is incorrect](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_system-time-is-incorrect)
-- [3 DNS cache](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_dns-cache)
-- [4 Wireless connection](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_wireless-connection)
-- [5 Internet Service Provider problem](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_internet-service-provider-problem)
-- [6 DNS server problem](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_dns-server-problem)
-- [7 Other resources](https://support.mozilla.org/kb/firefox-and-other-browsers-cant-load-websites#w_other-resources)
-
-# Security software is blocking the connection
-
-Check if your Internet security software (including firewalls, antivirus programs, anti-spyware programs and more) is blocking the connection to the Internet. For instructions on how to configure some programs, read [Configure firewalls so that Firefox can access the Internet](\""https://support.mozilla.org/en-US/kb/configure-firewalls-so-firefox-can-access-internet"").
-
-# System time is incorrect
-
-Make sure your system's date, time and timezone settings are configured correctly. Firefox may have issues validating the website's security certificate if the date/time is incorrect.
-
-# DNS cache
-
-Every web server connected to the Internet is assigned a number known as its IP address. Domain names are assigned to IP addresses through a [Domain Name System](http://wikipedia.org/wiki/Domain_Name_System) (DNS) server. Your computer stores recent IP address assignments so it can connect to sites more quickly, but if there is a discrepancy between the DNS server and the IP address assignments on your computer, it will cause every browser on your computer to have problems finding some websites. To remove the recently stored IP address assignments, flush your DNS cache.
-
-1. Hold down the Windows key ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and press R.
-2. Type **cmd** and press Enter.
-3. In the command prompt, type **ipconfig /flushdns** and press Enter.
-
-Restart MacOS to flush your DNS cache.
-
-1. Open the **command terminal**.
-2. Run the command **/etc/init.d/nscd restart**
-
-# Wireless connection
-
-If you are using a wireless connection, make sure that you are using the correct access point.
-
-# Internet Service Provider problem
-
-Even if your modem and/or router are both on and are not indicating errors, there may be a problem with your Internet Service Provider (ISP). Contact your ISP for more information.
-
-# DNS server problem
-
-Your [Domain Name System](http://en.wikipedia.org/wiki/Domain_Name_System) (DNS) server translates web addresses (URLs) into IP addresses and is usually provided by your ISP. If the DNS server is overloaded, you may be unable to view some or all websites. For example, if [http://74.125.53.99](http://74.125.53.99) or [http://74.125.159.105](http://74.125.159.105) work but [http://www.google.com](http://www.google.com) doesn't, you may have a DNS problem. You can use an alternative service such as [OpenDNS](http://www.opendns.com/) or [Google Public DNS](http://code.google.com/speed/public-dns/).
-
-# Other resources
-
-If neither Firefox nor another browser can load any websites, your problem is external to Firefox and you should seek support elsewhere.
-
-- See [Wired and wireless network problems](http://windows.microsoft.com/windows/network-connection-problem-help) at microsoft.com.
-
-- See [OS X El Capitan: If you can’t connect to the Internet](http://support.apple.com/kb/PH21640) at apple.com.
-
-"
-720,Back up and restore information in Firefox profiles,back-and-restore-information-firefox-profiles,https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles,en-US,Firefox stores your personal data and settings in a profile folder. Learn how to back up and restore this important information.,"<p>Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a> folder on your computer, in a location separate from the Firefox program. This article explains how to back up your profile, restore it, or move your profile to a new location or computer.
-</p><p>This article only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> to learn about Firefox Sync and connecting your mobile devices.
-</p>
-<div class=""note""><strong>Note:</strong> <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">The Refresh Firefox feature</a> creates an <strong>Old Firefox Data</strong> folder on your desktop, which contains a backup of your old profile folder and its contents. If you recently refreshed Firefox and still have this folder, you already have a complete profile backup.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_locate-your-profile-folder""><span class=""tocnumber"">1</span> <span class=""toctext"">Locate your profile folder</span></a></li><li class=""toclevel-1""><a href=""#w_back-up-your-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Back up your profile</span></a></li><li class=""toclevel-1""><a href=""#w_restore-a-profile-backup""><span class=""tocnumber"">3</span> <span class=""toctext"">Restore a profile backup</span></a><ul><li class=""toclevel-2""><a href=""#w_restore-to-a-different-location""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Restore to a different location</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_locate-your-profile-folder"">Locate your profile folder</h1>
-<p></p><ul><li><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span> and select <span class=""menu"">More Troubleshooting Information</span>.</span><span class=""for"" data-for=""mac"">From the <span class=""menu"">Help</span> menu, select <span class=""menu"">More Troubleshooting Information</span>.</span> The <strong>Troubleshooting Information</strong> tab will open.
-</li><li>Under the <strong>Application Basics</strong> section next to <em><span class=""for"" data-for=""not linux"">Profile Folder</span><span class=""for"" data-for=""linux"">Profile Directory</span></em>, click <span class=""button""><span class=""for"" data-for=""win"">Open Folder</span><span class=""for"" data-for=""mac"">Show in Finder</span><span class=""for"" data-for=""linux"">Open Directory</span></span>. <span class=""for"" data-for=""mac"">A window will open that contains your profile folder.</span><span class=""for"" data-for=""win"">Your profile folder will open.</span><span class=""for"" data-for=""linux"">Your profile directory will open.</span>
-</li></ul>
-<div class=""note""><strong>Note:</strong>  If<span class=""for"" data-for=""win10,win11""> Firefox displays an error after clicking <span class=""button"">Open Folder</span> or if</span> you are unable to open or use Firefox, follow the instructions in <a href=""/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"">Finding your profile without opening Firefox</a>.</div>
-<p></p>
-<h1 id=""w_back-up-your-profile"">Back up your profile</h1>
-<p>To back up your profile, first close Firefox if it is open and then copy the profile folder to another location.
-</p>
-<ol><li> Locate your profile folder, as explained above.
-</li><li> Close Firefox (if open): <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
-
-</li><li> Go to one level above your profile's folder (in other words, to <span class=""filepath""><span class=""for"" data-for=""win"">%APPDATA%\Mozilla\Firefox\Profiles\</span><span class=""for"" data-for=""mac"">~/Library/Application Support/Firefox/Profiles/</span><span class=""for"" data-for=""linux"">~/.mozilla/firefox/</span></span>).
-</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- on your profile folder (for example, on the <span class=""filepath"">xxxxxxxx.default</span> folder) and select <span class=""menu"">Copy</span>. If you see a file locked or in use, make sure Firefox is completely closed (check Task Manager on Windows, Force Quit on macOS). If you get an error that indicates the path file is too long, copy the contents in smaller batches or use Windows’ long-path support.
-</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- the backup location (such as a USB-stick) and select <span class=""menu"">Paste<span class=""for"" data-for=""mac""> item</span></span>.
-</li></ol>
-<div class=""warning""> <strong>Warning:</strong> Profiles are not always portable across different operating systems because of file path and version differences. If you’re moving from Linux to Windows, you may only be able to copy bookmarks/password files, not the whole profile.</div>
-<h1 id=""w_restore-a-profile-backup"">Restore a profile backup</h1>
-<ol><li> <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
-
-</li><li> If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Firefox. <div class=""note""><strong>Important:</strong> The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.</div>
-</li></ol>
-<p>You can repeat these steps to restore as many profile backups as you need if you have more than one.
-</p>
-<h2 id=""w_restore-to-a-different-location"">Restore to a different location</h2>
-<p>If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
-</p>
-<ol><li> Completely close Firefox: <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
-
-</li><li><a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">Use the Firefox Profile Manager to create a new profile</a> in your desired location, then exit the Profile Manager. <div class=""note""><strong>Note:</strong> If you just installed Firefox on a new computer, you can use the default profile that is automatically created when you first run Firefox, instead of creating a new profile.</div>
-</li><li>Locate the backed-up profile folder on your hard drive or backup medium (such as your USB stick).
-</li><li>Open the profile folder backup (for example, the <span class=""filepath"">xxxxxxxx.default</span> backup).
-</li><li>Copy the entire <em>contents</em> of the profile folder backup, such as the <span class=""filepath"">handlers.json</span> file, <span class=""filepath"">prefs.js</span> file, <span class=""filepath"">bookmarkbackups</span> folder, etc.
-</li><li>Locate and open the new profile folder as explained above and then close Firefox (if open).
-</li><li>Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
-</li><li>Start Firefox.
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li>To back up and transfer your data using Firefox Sync when you install Firefox on a new device, see <a href=""/en-US/kb/switching-devices"">Back up and transfer your Firefox data to a new device</a>.
-</li><li>To restore or move selected information instead of the entire profile, see <a href=""/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"">Restore bookmarks, passwords and data from an old Firefox profile</a>.
-</li><li>To back up, restore or move just your bookmarks (not other data), see <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.
-</li></ul>",firefox,backup-data;backup-recovery-and-sync;installation-and-updates;recover-data;settings,"Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a [profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") folder on your computer, in a location separate from the Firefox program. This article explains how to back up your profile, restore it, or move your profile to a new location or computer.
-
-This article only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to learn about Firefox Sync and connecting your mobile devices.
-
-**Note:** [The Refresh Firefox feature](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") creates an **Old Firefox Data** folder on your desktop, which contains a backup of your old profile folder and its contents. If you recently refreshed Firefox and still have this folder, you already have a complete profile backup.
-
-## Table of Contents
-
-- [1 Locate your profile folder](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_locate-your-profile-folder)
-- [2 Back up your profile](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_back-up-your-profile)
-- [3 Restore a profile backup](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_restore-a-profile-backup)
-  - [3.1 Restore to a different location](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_restore-to-a-different-location)
-
-- [4 Related articles](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_related-articles)
-
-# Locate your profile folder
-
-- Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Help and select More Troubleshooting Information.From the Help menu, select More Troubleshooting Information. The **Troubleshooting Information** tab will open.
-- Under the **Application Basics** section next to _Profile FolderProfile Directory_, click Open FolderShow in FinderOpen Directory. A window will open that contains your profile folder.Your profile folder will open.Your profile directory will open.
-
-**Note:** If Firefox displays an error after clicking Open Folder or if you are unable to open or use Firefox, follow the instructions in [Finding your profile without opening Firefox](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"").
-
-# Back up your profile
-
-To back up your profile, first close Firefox if it is open and then copy the profile folder to another location.
-
-1. Locate your profile folder, as explained above.
-2. Close Firefox (if open): Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
-3. Go to one level above your profile's folder (in other words, to %APPDATA%\Mozilla\Firefox\Profiles\~/Library/Application Support/Firefox/Profiles/~/.mozilla/firefox/).
-4. Right-clickRight-click (or hold down the Control key while you click) on your profile folder (for example, on the xxxxxxxx.default folder) and select Copy. If you see a file locked or in use, make sure Firefox is completely closed (check Task Manager on Windows, Force Quit on macOS). If you get an error that indicates the path file is too long, copy the contents in smaller batches or use Windows’ long-path support.
-5. Right-clickRight-click (or hold down the Control key while you click) the backup location (such as a USB-stick) and select Paste item.
-
- **Warning:** Profiles are not always portable across different operating systems because of file path and version differences. If you’re moving from Linux to Windows, you may only be able to copy bookmarks/password files, not the whole profile.
-
-# Restore a profile backup
-
-1. Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
-2. If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Firefox. 
-**Important:** The profile folder names must match exactly for this to work, including the random string of 8&nbsp;characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.
-
-You can repeat these steps to restore as many profile backups as you need if you have more than one.
-
-## Restore to a different location
-
-If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
-
-1. Completely close Firefox: Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
-2. [Use the Firefox Profile Manager to create a new profile](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") in your desired location, then exit the Profile Manager. 
-**Note:** If you just installed Firefox on a new computer, you can use the default profile that is automatically created when you first run Firefox, instead of creating a new profile.
-3. Locate the backed-up profile folder on your hard drive or backup medium (such as your USB stick).
-4. Open the profile folder backup (for example, the xxxxxxxx.default backup).
-5. Copy the entire _contents_ of the profile folder backup, such as the handlers.json file, prefs.js file, bookmarkbackups folder, etc.
-6. Locate and open the new profile folder as explained above and then close Firefox (if open).
-7. Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
-8. Start Firefox.
-
-# Related articles
-
-- To back up and transfer your data using Firefox Sync when you install Firefox on a new device, see [Back up and transfer your Firefox data to a new device](\""https://support.mozilla.org/en-US/kb/switching-devices"").
-- To restore or move selected information instead of the entire profile, see [Restore bookmarks, passwords and data from an old Firefox profile](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"").
-- To back up, restore or move just your bookmarks (not other data), see [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them"").
-
-"
-721,Websites show a spinning wheel and never finish loading,websites-show-spinning-wheel-never-finish-load,https://support.mozilla.org/en-US/kb/websites-show-spinning-wheel-never-finish-load,en-US,"Sometimes a website will start to load, but never finish. This article covers possible solutions.","<p>This article explains what to do when specific websites (not all) start to load, but never finish (i.e. the tab displays a spinning wheel and ""Connecting..."" for several minutes).
-</p>
-<ul><li> If Firefox cannot load websites but displays an error message at the end, see <a href=""/en-US/kb/firefox-cant-load-websites-other-browsers-can"">Firefox can't load websites but other browsers can</a> and <a href=""/en-US/kb/websites-dont-load-troubleshoot-and-fix-errors"">Websites don't load - troubleshoot and fix error messages</a>.
-</li><li> If none of the web browsers on your computer can load websites, see <a href=""/en-US/kb/firefox-and-other-browsers-cant-load-websites"">Firefox and other browsers can't load websites</a>. 
-</li></ul>
-<p>If none of the below solutions work, try the methods described in the <a class=""new"" href=""/en-US/kb/new?title=Basic+troubleshooting"" title=""Page does not exist."">Basic troubleshooting</a> article to see if they will address your problem.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_search-for-malware""><span class=""tocnumber"">1</span> <span class=""toctext"">Search for malware</span></a></li><li class=""toclevel-1""><a href=""#w_disable-javascript""><span class=""tocnumber"">2</span> <span class=""toctext"">Disable JavaScript</span></a></li></ul></div>
-<h1 id=""w_search-for-malware"">Search for malware</h1>
-<p>A variant of the <a href=""http://en.wikipedia.org/wiki/Vundo"">Vundo trojan</a> is known to cause Firefox to have problems loading certain high-traffic sites, including Google, Yahoo, MySpace, Facebook, and more. Not all variants of the Vundo trojan can be detected or removed by malware scanners.
-</p><p>However, you should scan your computer for infections first. For detailed instructions, see <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a>.
-</p>
-<h1 id=""w_disable-javascript"">Disable JavaScript</h1>
-<p>In rare cases, a web page may be using an external JavaScript file which is in the wrong format.  Try disabling JavaScript - see <a href=""/en-US/kb/javascript-settings-for-interactive-web-pages"">JavaScript settings and preferences for interactive web pages</a>.  If the page now finishes loading the bad Javascript file may be coming from:
-</p>
-<ul><li> a proxy filter that is incorrectly filtering that website's files.  If you are running a proxy filter such as Privoxy, try disabling it.
-</li><li> the server.  Contact the site administrator for that website.
-</li></ul>",firefox,site-breakages,"This article explains what to do when specific websites (not all) start to load, but never finish (i.e. the tab displays a spinning wheel and ""Connecting..."" for several minutes).
-
-- If Firefox cannot load websites but displays an error message at the end, see [Firefox can't load websites but other browsers can](\""https://support.mozilla.org/en-US/kb/firefox-cant-load-websites-other-browsers-can"") and [Websites don't load - troubleshoot and fix error messages](\""https://support.mozilla.org/en-US/kb/websites-dont-load-troubleshoot-and-fix-errors"").
-- If none of the web browsers on your computer can load websites, see [Firefox and other browsers can't load websites](\""https://support.mozilla.org/en-US/kb/firefox-and-other-browsers-cant-load-websites""). 
-
-If none of the below solutions work, try the methods described in the [Basic troubleshooting](\""https://support.mozilla.org/en-US/kb/new?title=Basic+troubleshooting"" ""Page does not exist."") article to see if they will address your problem.
-
-## Table of Contents
-
-- [1 Search for malware](https://support.mozilla.org/kb/websites-show-spinning-wheel-never-finish-load#w_search-for-malware)
-- [2 Disable JavaScript](https://support.mozilla.org/kb/websites-show-spinning-wheel-never-finish-load#w_disable-javascript)
-
-# Search for malware
-
-A variant of the [Vundo trojan](http://en.wikipedia.org/wiki/Vundo) is known to cause Firefox to have problems loading certain high-traffic sites, including Google, Yahoo, MySpace, Facebook, and more. Not all variants of the Vundo trojan can be detected or removed by malware scanners.
-
-However, you should scan your computer for infections first. For detailed instructions, see [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
-
-# Disable JavaScript
-
-In rare cases, a web page may be using an external JavaScript file which is in the wrong format. Try disabling JavaScript - see [JavaScript settings and preferences for interactive web pages](\""https://support.mozilla.org/en-US/kb/javascript-settings-for-interactive-web-pages""). If the page now finishes loading the bad Javascript file may be coming from:
-
-- a proxy filter that is incorrectly filtering that website's files. If you are running a proxy filter such as Privoxy, try disabling it.
-- the server. Contact the site administrator for that website.
-
-"
 724,Restore previous session - Configure when Firefox shows your most recent tabs and windows,restore-previous-session,https://support.mozilla.org/en-US/kb/restore-previous-session,en-US,Firefox can restore windows and tabs that were open the last time you used it. Learn how to use and configure it.,"<p>Firefox can restore your open tabs and windows from your last session—even after a crash or restart. You can choose whether Firefox restores your session automatically when it starts or only when you request it. 
 </p><p>If your session doesn’t restore as expected, this article includes troubleshooting tips for pinned tabs, private windows and update-related changes.
 </p>
@@ -28415,13 +28165,13 @@ This example from the [How to set the home page](\""https://support.mozilla.org/
 For more guidelines on Knowledge Base contribution, see [this page](https://support.mozilla.org/en-US/products/contributor/kb).
 
 "
-11730,Create a new Knowledge Base article,create-new-knowledge-base-article,https://support.mozilla.org/en-US/kb/create-new-knowledge-base-article,en-US,Guidelines and a template for creating a new article.,"<p>To create a new article, right-click and open <strong><a href=""https://support.mozilla.org/en-US/kb/new"">this link</a></strong> in a new tab.  The <em>Create a New Knowledge Base Article</em> page will open. Here's what the top part of that page looks like:
+11730,Create a new Knowledge Base article,create-new-knowledge-base-article,https://support.mozilla.org/en-US/kb/create-new-knowledge-base-article,en-US,Guidelines and a template for creating a new article.,"<p>To create a new article, right-click and open <strong><a href=""https://support.mozilla.org/en-US/kb/new"">this link</a></strong> in a new tab. The <em>Create a New Knowledge Base Article</em> page will open. Here's what the top part of that page looks like:
 </p>
 <dl><dt><img alt=""CreateNewKBArticle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-21-17-06-01-de890e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <p>Don't be intimidated by all of the fields and checkboxes that you see when you first create a new article. Most everything can be handled later. This is all you really have to do:
 </p>
-<ol><li>Enter a <strong>title</strong> (can be changed later). More on article titles <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_title"">here</a>.
+<ol><li>Enter a <strong>title</strong> (can be changed later). Learn more on <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_title"">article titles</a>.
 </li><li>Choose the <strong>product</strong> this article is relevant to (can be changed later).
 </li><li>Choose at least one <strong>topic</strong> (can be changed later).
 </li><li>Enter a <strong>search result summary</strong> (short description of the article).
@@ -28430,12 +28180,12 @@ For more guidelines on Knowledge Base contribution, see [this page](https://supp
 </dt></dl>
 </li><li>Click <span class=""button"">Preview Content</span> to see what your article will look like when it’s been published.
 </li><li>When you’re satisfied with your article's content and appearance, click <span class=""button"">Submit for Review</span>.
-</li><li><strong>Briefly describe your changes</strong> in the Submit your Changes box that appears. If you have more work to do, you can type in ""Work in progress"". If you're ready for feedback and review, you can type in ""Ready for review"".
+</li><li><strong>Briefly describe your changes</strong> in the <em>Submit your Changes</em> box that appears. If you have more work to do, you can type in “Work in progress”. If you're ready for feedback and review, you can type in “Ready for review”.
 <dl><dt><img alt=""Submit article"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-23-13-10-18-96a5d1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-</li><li>Press <span class=""button"">Submit</span>. 
+</li><li>Press <span class=""button"">Submit</span>.
 </li></ol>
-<p>The code below is an example of how text might appear in in the <strong>content</strong> section of an article, using the most common wiki markup. For an explanation of common markup used in KB articles, see the <a href=""/en-US/kb/markup-cheat-sheet"">Markup cheat sheet</a>. For lots more markup, see the <a href=""/en-US/kb/markup-chart"">Markup chart</a>.  
+<p>The code below is an example of how text might appear in the <strong>content</strong> section of an article, using the most common wiki markup. For an explanation of common markup used in KB articles, see the <a href=""/en-US/kb/markup-cheat-sheet"">Markup cheat sheet</a>. For lots more markup, see the <a href=""/en-US/kb/markup-chart"">Markup chart</a>.
 </p><p><code>
 Introduction goes here.
 <br><br>
@@ -28470,9 +28220,9 @@ A numbered list only ""for"" Linux users:<br>
 <h1 id=""w_article-writing-documentation"">Article writing documentation</h1>
 <p>If you're interested in writing articles for Mozilla Support, here are some resources that should help explain how we do things:
 </p>
-<ul><li><strong><a href=""/en-US/kb/about-knowledge-base"">About the Knowledge Base</a> </strong>— is an overview of the mechanics of our Knowledge Base (for example, prioritization and scheduling).
-</li><li><strong><a href=""/en-US/kb/writing-guide-knowledge-base-articles"">Writing guide for Knowledge Base articles</a></strong> — is a guide to writing techniques that make articles more engaging and effective. This article includes our <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_style-guide-and-copy-rules"">style guide and copy rules</a>. 
-</li><li><strong><a href=""/en-US/kb/improve-knowledge-base"">Improve the Knowledge Base</a></strong> — is our guide for new contributors.
+<ul><li><strong><a href=""/en-US/kb/about-knowledge-base"">About the Knowledge Base</a> </strong> is an overview of the mechanics of our Knowledge Base (for example, prioritization and scheduling).
+</li><li><strong><a href=""/en-US/kb/writing-guide-knowledge-base-articles"">Writing guide for Knowledge Base articles</a></strong> is a guide to writing techniques that make articles more engaging and effective. This article includes our <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_style-guide-and-copy-rules"">style guide and copy rules</a>.
+</li><li><strong><a href=""/en-US/kb/improve-knowledge-base"">Improve the Knowledge Base</a></strong> is our guide for new contributors.
 </li><li><strong><a href=""https://support.mozilla.org/en-US/products/contributor/kb"">This page</a></strong> has links to more guidelines for Knowledge Base contribution.
 </li></ul>",contributor,create-and-edit-articles;kb,"To create a new article, right-click and open **[this link](https://support.mozilla.org/en-US/kb/new)** in a new tab. The _Create a New Knowledge Base Article_ page will open. Here's what the top part of that page looks like:
 
@@ -28482,7 +28232,7 @@ A numbered list only ""for"" Linux users:<br>
 
 Don't be intimidated by all of the fields and checkboxes that you see when you first create a new article. Most everything can be handled later. This is all you really have to do:
 
-1. Enter a **title** (can be changed later). More on article titles [here](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_title"").
+1. Enter a **title** (can be changed later). Learn more on [article titles](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_title"").
 2. Choose the **product** this article is relevant to (can be changed later).
 3. Choose at least one **topic** (can be changed later).
 4. Enter a **search result summary** (short description of the article).
@@ -28491,12 +28241,12 @@ Don't be intimidated by all of the fields and checkboxes that you see when you f
 </dt></dl>
 6. Click Preview Content to see what your article will look like when it’s been published.
 7. When you’re satisfied with your article's content and appearance, click Submit for Review.
-8. **Briefly describe your changes** in the Submit your Changes box that appears. If you have more work to do, you can type in ""Work in progress"". If you're ready for feedback and review, you can type in ""Ready for review"".<dl><dt>
+8. **Briefly describe your changes** in the _Submit your Changes_ box that appears. If you have more work to do, you can type in “Work in progress”. If you're ready for feedback and review, you can type in “Ready for review”.<dl><dt>
 <img alt=""Submit article"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-23-13-10-18-96a5d1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-9. Press Submit. 
+9. Press Submit.
 
-The code below is an example of how text might appear in in the **content** section of an article, using the most common wiki markup. For an explanation of common markup used in KB articles, see the [Markup cheat sheet](\""https://support.mozilla.org/en-US/kb/markup-cheat-sheet""). For lots more markup, see the [Markup chart](\""https://support.mozilla.org/en-US/kb/markup-chart"").
+The code below is an example of how text might appear in the **content** section of an article, using the most common wiki markup. For an explanation of common markup used in KB articles, see the [Markup cheat sheet](\""https://support.mozilla.org/en-US/kb/markup-cheat-sheet""). For lots more markup, see the [Markup chart](\""https://support.mozilla.org/en-US/kb/markup-chart"").
 
 `
 Introduction goes here.
@@ -28533,9 +28283,9 @@ A numbered list only ""for"" Linux users:
 
 If you're interested in writing articles for Mozilla Support, here are some resources that should help explain how we do things:
 
-- **[About the Knowledge Base](\""https://support.mozilla.org/en-US/kb/about-knowledge-base"")** — is an overview of the mechanics of our Knowledge Base (for example, prioritization and scheduling).
-- **[Writing guide for Knowledge Base articles](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles"")** — is a guide to writing techniques that make articles more engaging and effective. This article includes our [style guide and copy rules](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_style-guide-and-copy-rules""). 
-- **[Improve the Knowledge Base](\""https://support.mozilla.org/en-US/kb/improve-knowledge-base"")** — is our guide for new contributors.
+- **[About the Knowledge Base](\""https://support.mozilla.org/en-US/kb/about-knowledge-base"")** is an overview of the mechanics of our Knowledge Base (for example, prioritization and scheduling).
+- **[Writing guide for Knowledge Base articles](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles"")** is a guide to writing techniques that make articles more engaging and effective. This article includes our [style guide and copy rules](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_style-guide-and-copy-rules"").
+- **[Improve the Knowledge Base](\""https://support.mozilla.org/en-US/kb/improve-knowledge-base"")** is our guide for new contributors.
 - **[This page](https://support.mozilla.org/en-US/products/contributor/kb)** has links to more guidelines for Knowledge Base contribution.
 
 "
@@ -36622,6 +36372,208 @@ You can switch between these modes using the View | Today Pane submenu.
 3. then go to Current View
 4. Tasks in View and select show completed Tasks 
 
+"
+17073,Using Thunderbird with Google Calendar,using-lightning-google-calendar,https://support.mozilla.org/en-US/kb/using-lightning-google-calendar,en-US,This article describes how to use Google calendars together with Thunderbird.,"<p>This article describes how to use Google calendars together with Thunderbird. You can use Google calendars in two ways, as a read/write calendar (with both read and write access) or as read only calendar (also known as view only access) to <strong>public</strong> calendars. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-add-readwrite-google-calendars""><span class=""tocnumber"">1</span> <span class=""toctext"">How to add read/write Google calendars</span></a><ul><li class=""toclevel-2""><a href=""#w_first-select-the-google-calendars-you-want-to-synchronize-with-thunderbird""><span class=""tocnumber"">1.1</span> <span class=""toctext"">First, select the Google calendars you want to synchronize with Thunderbird</span></a></li><li class=""toclevel-2""><a href=""#w_second-add-your-readwrite-calendars""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Second, add your read/write calendars</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-add-read-only-google-calendars""><span class=""tocnumber"">2</span> <span class=""toctext"">How to add read only Google calendars</span></a></li></ul></div>
+<h1 id=""w_how-to-add-readwrite-google-calendars"">How to add read/write Google calendars</h1>
+<h2 id=""w_first-select-the-google-calendars-you-want-to-synchronize-with-thunderbird"">First, select the Google calendars you want to synchronize with Thunderbird</h2>
+<p>Before you start the steps below, go to <a href=""https://calendar.google.com/calendar/syncselect"">https://calendar.google.com/calendar/syncselect</a> and select the calendars you want to synchronize. If you do not select them in this step, they will not appear in Thunderbird in the next step.
+</p>
+<h2 id=""w_second-add-your-readwrite-calendars"">Second, add your read/write calendars</h2>
+<ol><li> Click <span class=""button"">≡</span> &gt; <span class=""menu"">New Account</span> &gt; <span class=""menu"">Calendar</span> &gt; <span class=""menu"">On the Network</span> &gt; <span class=""button"">Next</span>.
+</li><li> Enter your Google account address in the <strong>Username</strong> field and then click <span class=""button"">Find Calendars</span>. This should start the Google sign-in flow and then present you with a list of calendars you can subcribe to.
+</li><li> Tick the calendars you would like to synchronize and then click <span class=""button"">Subscribe</span>.
+</li></ol>
+<p>In case of errors, please retry at least once. You should be able to select any of the calendars you enabled in the previous step and add them to Thunderbird.
+</p>
+<h1 id=""w_how-to-add-read-only-google-calendars"">How to add read only Google calendars</h1>
+<p>If you only need read-access  to a Google calendar, you can use the link of the public ICS file which is provided by Google, as indicated on this Google Help article: <a href=""http://www.google.com/support/calendar/bin/answer.py?hl=en&amp;answer=37648"">View from other applications</a>.
+</p>",thunderbird,calendar;email-and-messaging,"This article describes how to use Google calendars together with Thunderbird. You can use Google calendars in two ways, as a read/write calendar (with both read and write access) or as read only calendar (also known as view only access) to **public** calendars.
+
+## Table of Contents
+
+- [1 How to add read/write Google calendars](https://support.mozilla.org/kb/using-lightning-google-calendar#w_how-to-add-readwrite-google-calendars)
+  - [1.1 First, select the Google calendars you want to synchronize with Thunderbird](https://support.mozilla.org/kb/using-lightning-google-calendar#w_first-select-the-google-calendars-you-want-to-synchronize-with-thunderbird)
+  - [1.2 Second, add your read/write calendars](https://support.mozilla.org/kb/using-lightning-google-calendar#w_second-add-your-readwrite-calendars)
+
+- [2 How to add read only Google calendars](https://support.mozilla.org/kb/using-lightning-google-calendar#w_how-to-add-read-only-google-calendars)
+
+# How to add read/write Google calendars
+
+## First, select the Google calendars you want to synchronize with Thunderbird
+
+Before you start the steps below, go to [https://calendar.google.com/calendar/syncselect](https://calendar.google.com/calendar/syncselect) and select the calendars you want to synchronize. If you do not select them in this step, they will not appear in Thunderbird in the next step.
+
+## Second, add your read/write calendars
+
+1. Click ≡ \> New Account \> Calendar \> On the Network \> Next.
+2. Enter your Google account address in the **Username** field and then click Find Calendars. This should start the Google sign-in flow and then present you with a list of calendars you can subcribe to.
+3. Tick the calendars you would like to synchronize and then click Subscribe.
+
+In case of errors, please retry at least once. You should be able to select any of the calendars you enabled in the previous step and add them to Thunderbird.
+
+# How to add read only Google calendars
+
+If you only need read-access to a Google calendar, you can use the link of the public ICS file which is provided by Google, as indicated on this Google Help article: [View from other applications](http://www.google.com/support/calendar/bin/answer.py?hl=en&answer=37648).
+
+"
+17074,Configuring Lightning,configuring-lightning,https://support.mozilla.org/en-US/kb/configuring-lightning,en-US,This article describes how to configure the Lightning add-on for Thunderbird.,"<p>This article describes how to change Lightning settings. Most of the general Lightning settings can be set via the Options window. Other settings have to be changed via the Config Editor.
+</p>
+<h1 id=""w_options-window"">Options window</h1>
+<p>There are 2 ways of getting to the Options window.
+</p>
+<ul><li>Click the <span class=""menu"">Tools</span> menu at the top of the Thunderbird window and click the <span class=""menu"">Add-ons</span> item. Select the <em>Lightning</em> Extension and click the <span class=""button"">Options</span> button.
+</li></ul>
+<p>Or
+</p>
+<ul><li>Click the <span class=""menu""><span class=""for"" data-for=""mac"">Thunderbird</span><span class=""for"" data-for=""win"">Tools</span><span class=""for"" data-for=""linux"">Edit</span></span> menu at the top of the Thunderbird window and select <span class=""menu""><span class=""for"" data-for=""mac,linux"">Preferences</span><span class=""for"" data-for=""win"">Options</span></span>. Select the <span class=""menu"">Lightning</span> panel.
+</li></ul>
+<dl><dt><img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-2.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-165f0c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_config-editor"">Config Editor</h1>
+<p>The Config Editor can be accessed via the same Options window, but in a different panel. Instead of the <span class=""menu"">Lightning</span> panel, you need to select the <span class=""menu"">Advanced</span> panel, followed by the <span class=""menu"">General</span> tab.
+</p>
+<dl><dt><img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-1.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-49bd54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>Click the <span class=""button"">Config Editor</span> button.
+</p>
+<dl><dt><img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-3.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-914315.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>All settings, even the ones that are represented in the Options dialogue, can be changed in this Config Editor. The following settings can only be changed in the Config Editor:
+</p>
+<ul><li><span class=""pref"">calendar.itip.sendemail</span> (default: true) Outdated. Pre 20080819 build
+</li><li><span class=""pref"">calendar.itip.notify</span> (default: true) As from 20080819 build
+</li><li><span class=""pref"">calendar.itip.compatSendMode</span> (default: 0)
+</li></ul>
+<p>The following setting is only available if the Google Provider plugin is installed:
+</p>
+<ul><li><span class=""pref"">calendar.google.enableEmailInvitations</span> (default: false)
+</li></ul>
+<p>This setting needs to be set to <em>true</em> in order for Google Calendars to show up in the selection list when accepting an invitation.
+</p>
+<h1 id=""w_calendar-properties"">Calendar Properties</h1>
+<p>Each calendar has a set of properties that can be changed or set as well. For further information about setting Calendar properties, please refer to the <a href=""/en-US/kb/changing-calendar-preferences"">Changing calendar preferences</a> article.
+</p><p>Following is only applicable in combination with the Google Provider extension 0.5.1.
+</p><p>The Properties Window of a Google Calendar only shows an E-mail selection option if the calendar.google.enableEmailInvitations setting is set to TRUE (see above).
+</p>",thunderbird,calendar,"This article describes how to change Lightning settings. Most of the general Lightning settings can be set via the Options window. Other settings have to be changed via the Config Editor.
+
+# Options window
+
+There are 2 ways of getting to the Options window.
+
+- Click the Tools menu at the top of the Thunderbird window and click the Add-ons item. Select the _Lightning_ Extension and click the Options button.
+
+Or
+
+- Click the ThunderbirdToolsEdit menu at the top of the Thunderbird window and select PreferencesOptions. Select the Lightning panel.
+
+<dl><dt>
+<img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-2.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-165f0c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# Config Editor
+
+The Config Editor can be accessed via the same Options window, but in a different panel. Instead of the Lightning panel, you need to select the Advanced panel, followed by the General tab.
+
+<dl><dt>
+<img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-1.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-49bd54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+Click the Config Editor button.
+
+<dl><dt>
+<img alt=""940e0e75ba428edc80db17301e145f53-1298311282-461-3.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-16-914315.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+All settings, even the ones that are represented in the Options dialogue, can be changed in this Config Editor. The following settings can only be changed in the Config Editor:
+
+- calendar.itip.sendemail (default: true) Outdated. Pre 20080819 build
+- calendar.itip.notify (default: true) As from 20080819 build
+- calendar.itip.compatSendMode (default: 0)
+
+The following setting is only available if the Google Provider plugin is installed:
+
+- calendar.google.enableEmailInvitations (default: false)
+
+This setting needs to be set to _true_ in order for Google Calendars to show up in the selection list when accepting an invitation.
+
+# Calendar Properties
+
+Each calendar has a set of properties that can be changed or set as well. For further information about setting Calendar properties, please refer to the [Changing calendar preferences](\""https://support.mozilla.org/en-US/kb/changing-calendar-preferences"") article.
+
+Following is only applicable in combination with the Google Provider extension 0.5.1.
+
+The Properties Window of a Google Calendar only shows an E-mail selection option if the calendar.google.enableEmailInvitations setting is set to TRUE (see above).
+
+"
+17075,Work with events,working-events,https://support.mozilla.org/en-US/kb/working-events,en-US,This article describes how to manage and work with events in the Lightning extension.,"<p>This article describes how to manage and work with events in the Lightning extension. 
+</p>
+<h2 id=""w_creating-events"">Creating events</h2>
+<p>To create an event, please read the <a href=""/en-US/kb/creating-a-new-event-or-task"">Create a new event or task</a> article.
+If you'd like to create a recurring event instead, please see <a href=""/en-US/kb/creating-a-recurring-event"">Create a recurring event</a> instead.
+</p>
+<h2 id=""w_addinvite-attendees"">Add/Invite Attendees</h2>
+<p>You can add attendees when creating a new event or when editing an event. There are 2 ways you can add attendees when in the <span class=""menu"">Edit/New Event</span> windows:
+</p>
+<ul><li> Using the menu item <span class=""menu"">Options -&gt; Invite Attendees...</span>
+</li><li> Using the <span class=""menu"">Invite Attendees</span> menu item in the <span class=""menu"">Events</span> Window
+</li></ul>
+<p>After using one of the methods above, you will see the ""Invite Attendee"" window:
+</p><p><img alt=""e40a9d32a24306dc9cb1dd50465c5961-1298312592-390-1.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-15-09-56-15-440982.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>You can add attendees by adding their email address or name. Your Address book is linked to these fields so auto-complete is working in the same way when composing emails.
+</p>
+<h3 id=""w_attendees-states"">Attendees States</h3>
+<p>You can switch the status of attendees by clicking on the icons in front of their name/email address. The various states are:
+</p><p>CONFIRMED: <img src=""https://wiki.mozilla.org/images/1/13/Attendee_State1.jpg"">
+</p><p>DECLINED: <img src=""https://wiki.mozilla.org/images/3/3a/Attendee_State2.jpg"">
+</p><p>TENTATIVE: <img src=""https://wiki.mozilla.org/images/6/61/Attendee_State3.jpg"">
+</p>
+<h3 id=""w_attendees-roles"">Attendees Roles</h3>
+<p>You can switch the role of attendees by clicking on the icons in front of their name/email address. The various roles are:
+</p><p>PARTICIPANT: <img src=""https://wiki.mozilla.org/images/b/bb/Attendee_Role1.jpg"">
+</p><p>OPT-PARTICIPANT: <img src=""https://wiki.mozilla.org/images/9/99/Attendee_Role2.jpg"">
+</p><p>CHAIR: <img src=""https://wiki.mozilla.org/images/4/4e/Attendee_Role3.jpg"">
+</p>
+<div class=""note""><strong>The default email personality for the calendar the event belongs to will be seen as the default CHAIR. You can not un-invite this person or change this person's role.</strong></div>",thunderbird,calendar;email-and-messaging,"This article describes how to manage and work with events in the Lightning extension.
+
+## Creating events
+
+To create an event, please read the [Create a new event or task](\""https://support.mozilla.org/en-US/kb/creating-a-new-event-or-task"") article. If you'd like to create a recurring event instead, please see [Create a recurring event](\""https://support.mozilla.org/en-US/kb/creating-a-recurring-event"") instead.
+
+## Add/Invite Attendees
+
+You can add attendees when creating a new event or when editing an event. There are 2 ways you can add attendees when in the Edit/New Event windows:
+
+- Using the menu item Options -\> Invite Attendees...
+- Using the Invite Attendees menu item in the Events Window
+
+After using one of the methods above, you will see the ""Invite Attendee"" window:
+
+![e40a9d32a24306dc9cb1dd50465c5961-1298312592-390-1.png](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+You can add attendees by adding their email address or name. Your Address book is linked to these fields so auto-complete is working in the same way when composing emails.
+
+### Attendees States
+
+You can switch the status of attendees by clicking on the icons in front of their name/email address. The various states are:
+
+CONFIRMED: ![](https://wiki.mozilla.org/images/1/13/Attendee_State1.jpg)
+
+DECLINED: ![](https://wiki.mozilla.org/images/3/3a/Attendee_State2.jpg)
+
+TENTATIVE: ![](https://wiki.mozilla.org/images/6/61/Attendee_State3.jpg)
+
+### Attendees Roles
+
+You can switch the role of attendees by clicking on the icons in front of their name/email address. The various roles are:
+
+PARTICIPANT: ![](https://wiki.mozilla.org/images/b/bb/Attendee_Role1.jpg)
+
+OPT-PARTICIPANT: ![](https://wiki.mozilla.org/images/9/99/Attendee_Role2.jpg)
+
+CHAIR: ![](https://wiki.mozilla.org/images/4/4e/Attendee_Role3.jpg)
+
+**The default email personality for the calendar the event belongs to will be seen as the default CHAIR. You can not un-invite this person or change this person's role.**
 "
 17076,Create a new event or task,creating-a-new-event-or-task,https://support.mozilla.org/en-US/kb/creating-a-new-event-or-task,en-US,This article describes how to create a new event or task in the Lightning calendar add-on for Thunderbird.,"<p>This article describes how to create a new event or task in Lightning on Thunderbird.
 </p><p><strong>Event</strong> - A calendar entry that represents something that will happen whether you take action or not. For example, meetings and birthdays are events.
@@ -49302,7 +49254,7 @@ To close all inactive tabs:
 <ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
 <br> <img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </p>
-</li><li>Tap <span class=""menu"">Sync and Save Data</span> to open the <em>Turn on Sync</em> page.
+</li><li>Tap <span class=""menu"">Sign In</span> to open the <em>Sync and Save Data</em> page.
 <ul><li>To sign in using QR code pairing:
 <ul><li>Visit <em><a href=""http://Firefox.com/pair"">Firefox.com/pair</a></em> on your desktop to show the QR code (you might need to sign in to your Mozilla account first).
 </li><li>When the QR code displays, tap <span class=""button"">Ready to Scan</span> on your phone.
@@ -49347,7 +49299,7 @@ To close all inactive tabs:
 1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad):   
   ![firefoxiosnewmenu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
-2. Tap Sync and Save Data to open the _Turn on Sync_ page.
+2. Tap Sign In to open the _Sync and Save Data_ page.
   - To sign in using QR code pairing:
     - Visit _[Firefox.com/pair](http://Firefox.com/pair)_ on your desktop to show the QR code (you might need to sign in to your Mozilla account first).
     - When the QR code displays, tap Ready to Scan on your phone.
@@ -51412,6 +51364,351 @@ For help setting up and using Mozilla accounts and Sync, see:
 - [Sync on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/sync-bookmarks-logins-and-browsing-history-firefox"")
 
 "
+29640,Web Push notifications in Firefox,push-notifications-firefox,https://support.mozilla.org/en-US/kb/push-notifications-firefox,en-US,Web Push allows websites to notify users of new messages or updated content while Firefox is open.,"<p>
+<em>Web Push</em> allows websites to notify you of new messages or updated content. While Firefox is open, websites which have been granted permission can send notifications to your browser, which displays them on the screen. Notifications only display when you press a key on your keyboard or tap/click anywhere on the website that you are accessing. If you have not interacted with the website, then the <strong>Notification</strong> permission <img alt=""Notifications icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-28-22-48-28-d1b914.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon will only display in the address bar; the actual notification will not display. You can easily allow or disable notifications and control how they appear.
+</p>
+<dl><dt><img alt=""Push_notifications"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-14-08-10-16-b009c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_upgraded-notifications""><span class=""tocnumber"">1</span> <span class=""toctext"">Upgraded Notifications</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-web-push""><span class=""tocnumber"">2</span> <span class=""toctext"">What is Web Push?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-it-work""><span class=""tocnumber"">3</span> <span class=""toctext"">How does it work?</span></a></li><li class=""toclevel-1""><a href=""#w_what-information-do-i-share-with-a-website""><span class=""tocnumber"">4</span> <span class=""toctext"">What information do I share with a website?</span></a></li><li class=""toclevel-1""><a href=""#w_what-information-does-firefox-use-to-provide-web-push""><span class=""tocnumber"">5</span> <span class=""toctext"">What information does Firefox use to provide Web Push?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-revoke-web-push-permissions-for-a-specific-site""><span class=""tocnumber"">6</span> <span class=""toctext"">How do I revoke Web Push permissions for a specific site?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-add-web-push-to-my-website""><span class=""tocnumber"">7</span> <span class=""toctext"">How do I add Web Push to my website?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-stop-firefox-asking-me-to-allow-notifications""><span class=""tocnumber"">8</span> <span class=""toctext"">How do I stop Firefox asking me to allow notifications?</span></a></li></ul></div>
+<h1 id=""w_upgraded-notifications"">Upgraded Notifications</h1>
+<p>Firefox can deliver on-screen notifications even when that site is not loaded. Using the Push API, a <a href=""https://www.w3.org/TR/push-api/"">W3C standard</a>, Firefox receives a push message and can show notifications (if permitted by the user) at any time. Sites can also use Push to update data in the background, even without showing you a notification. If you already gave permission to a site to send notifications, the site will also be able to use the Push API. You can choose whether or not to give permission for a specific website by following these instructions:
+</p>
+<ol><li> Click the padlock <img alt=""Padlock Fx89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-14-08-11-15-d618d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the address bar.
+</li><li> Click the arrow in the <strong>Site Information</strong> drop-down panel.
+</li><li> Click <span class=""button"">More information</span> in the next panel to bring up the <a href=""/en-US/kb/firefox-page-info-window"">Page Info window</a>.
+</li><li> Click the <strong>Permissions</strong> tab.
+</li><li> Under <em>Send Notifications</em>, choose a notification option: <span class=""menu"">Always Ask</span>, <span class=""menu"">Allow</span> or <span class=""menu"">Block</span>. If your choices are grayed out, deselect the <strong>Use Default</strong> checkbox.
+</li></ol>
+<p>Alternatively, you can:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Click <span class=""menu"">Privacy &amp; Security</span> from the left panel.
+</li><li> Scroll to the <em>Permissions</em> section.
+</li><li> Click the <span class=""button"">Settings…</span> button to the right of <strong>Notifications</strong>.
+</li><li> Select <strong>Allow</strong> or <strong>Block</strong> from the <strong>Status</strong> drop-down for any of the websites.
+</li><li> Click the <span class=""button"">Save Changes</span> button.
+</li></ol>
+<h1 id=""w_what-is-web-push"">What is Web Push?</h1>
+<p>Web Push is an optional feature that allows websites to send you messages even when the site is not loaded. Sites can use this feature to provide you with notifications or update data in the background.
+</p><p>For example, you can subscribe to notifications from your favorite shopping websites that can notify you of new promotions or offers. You can subscribe to notifications from different websites. A concert site may offer you notifications for shows of your favorite band. You decide to allow that site to notify you, and a week later you get a notification that your band is on tour.
+</p><p>You will only receive messages from sites that you have granted permission.
+</p>
+<h1 id=""w_how-does-it-work"">How does it work?</h1>
+<p>Websites can install a <a href=""https://developer.mozilla.org/docs/Web/API/Service_Worker_API"">Service Worker</a>, a background web page with a limited set of functionality, that can subscribe to the push service. The website can then send a push message through Mozilla’s Web Push service to your browser, which can process that message and display a notification on your screen.
+</p>
+<dl><dt><img alt=""push notification 44"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-22-13-08-43-059641.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""420"">
+</dt></dl>
+<p>Clicking the notification can open a website or switch to that site’s tab if loaded.
+</p>
+<h1 id=""w_what-information-do-i-share-with-a-website"">What information do I share with a website?</h1>
+<p>A website that has been granted permissions can send you push messages when the site is not loaded. A quota limits the number of push messages without an on-screen notification that websites can send you. Websites that exceed the quota will have its push messaging disabled and the user must revisit the website again to resubscribe. Web Push does not directly allow websites to determine your IP address.
+</p>
+<h1 id=""w_what-information-does-firefox-use-to-provide-web-push"">What information does Firefox use to provide Web Push?</h1>
+<p>Firefox maintains an active connection to a push service in order to receive push messages as long as it is open. The connection ends when Firefox is closed. We store a randomized identifier (User Agent IDentifier or UAID) on our server for your browser, along with a random client-generated identifier for each push subscription.  When you have any subscriptions, the UAID is required to allow our push service to route incoming messages to Firefox. If you don't have any active push notification subscriptions, Firefox rotates the UAID on each new connection.
+</p><p>On Firefox for desktop, the push service is operated by Mozilla. Firefox for Android uses a combination of the Mozilla Web Push service and Google’s Cloud Messaging platform to deliver notifications to Firefox for Android. Only Mozilla's applications are enabled to use WebPush on iOS (third-parties are prohibited from using WebPush to send notifications to iOS per the iOS usage agreement).
+</p><p>In all three cases, push messages are encrypted per the <a href=""https://tools.ietf.org/html/rfc8030"">IETF spec</a>, and only your copy of Firefox can decipher them. The encrypted messages are stored on the server until they are delivered or expired.
+</p><p>We store your IP address for 90 days as part of this service. The stored information is invalidated when either the IP Address or UAID is changed. We do <strong>not</strong> store information about:
+</p>
+<ul><li>the servers and/or services that have sent messages
+</li><li>when a particular user agent was online/active
+</li></ul>
+<h1 id=""w_how-do-i-revoke-web-push-permissions-for-a-specific-site"">How do I revoke Web Push permissions for a specific site?</h1>
+<p>Web Push is always opt-in in Firefox. A site cannot send you push messages without your permission. To stop a specific site from sending you push messages:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Click <span class=""menu"">Privacy &amp; Security</span> from the left panel.
+</li><li> Scroll to the <em>Permissions</em> section.
+</li><li> Click the <span class=""button"">Settings…</span> button next to <strong>Notifications</strong>.
+</li><li> Select the website.
+</li><li> Click the <span class=""button"">Remove Website</span> button.
+</li></ol>
+<p>To stop all sites from sending you push messages, follow the steps above but instead of selecting a specific site, click the <span class=""button"">Remove All Websites</span> button. Websites will not be able to send you messages and will need to ask your permission to send them in the future.
+</p>
+<div class=""note""><strong>To stop notifications on a specific webpage (requires a page reload):</strong> Click the Permissions icon <img alt=""Fx89PermissionsIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-05-34-30-47c30e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to bring up the <a href=""/en-US/kb/site-permissions-panel"">Site Permissions panel</a> for the website, find the <em>Send Notifications</em> permission and click the <strong>✕</strong> next to <em>Allowed</em> to remove the permission.</div>
+<h1 id=""w_how-do-i-add-web-push-to-my-website"">How do I add Web Push to my website?</h1>
+<p>The <a href=""https://developer.mozilla.org/docs/Web/API/Push_API"">Push API specification</a> explains how to create a Service Worker and send push messages.
+</p>
+<h1 id=""w_how-do-i-stop-firefox-asking-me-to-allow-notifications"">How do I stop Firefox asking me to allow notifications?</h1>
+<p>If a site indicates to Firefox that it wants to show notifications, by default, Firefox asks whether you want to grant permission. You can set Firefox to automatically deny permission without asking. Even after the change, you can make exceptions for sites <strong>you want</strong> to show notifications or use push features.
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Click <span class=""menu"">Privacy &amp; Security</span> from the left panel.
+</li><li> Scroll to the <em>Permissions</em> section.
+</li><li> Click the <span class=""button"">Settings…</span> button to the right of <strong>Notifications</strong>.
+<dl><dt><img alt=""Fx59Permissions-NotificationSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-04-09-09-06-49-fc7acb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Select the <strong>Block new requests asking to allow notifications</strong> checkbox. 
+</li><li> Click the <span class=""button"">Save Changes</span> button.
+</li></ol>",firefox,browse;notifications;settings,"_Web Push_ allows websites to notify you of new messages or updated content. While Firefox is open, websites which have been granted permission can send notifications to your browser, which displays them on the screen. Notifications only display when you press a key on your keyboard or tap/click anywhere on the website that you are accessing. If you have not interacted with the website, then the **Notification** permission ![Notifications icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon will only display in the address bar; the actual notification will not display. You can easily allow or disable notifications and control how they appear.
+
+<dl><dt>
+<img alt=""Push_notifications"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-14-08-10-16-b009c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+## Table of Contents
+
+- [1 Upgraded Notifications](https://support.mozilla.org/kb/push-notifications-firefox#w_upgraded-notifications)
+- [2 What is Web Push?](https://support.mozilla.org/kb/push-notifications-firefox#w_what-is-web-push)
+- [3 How does it work?](https://support.mozilla.org/kb/push-notifications-firefox#w_how-does-it-work)
+- [4 What information do I share with a website?](https://support.mozilla.org/kb/push-notifications-firefox#w_what-information-do-i-share-with-a-website)
+- [5 What information does Firefox use to provide Web Push?](https://support.mozilla.org/kb/push-notifications-firefox#w_what-information-does-firefox-use-to-provide-web-push)
+- [6 How do I revoke Web Push permissions for a specific site?](https://support.mozilla.org/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site)
+- [7 How do I add Web Push to my website?](https://support.mozilla.org/kb/push-notifications-firefox#w_how-do-i-add-web-push-to-my-website)
+- [8 How do I stop Firefox asking me to allow notifications?](https://support.mozilla.org/kb/push-notifications-firefox#w_how-do-i-stop-firefox-asking-me-to-allow-notifications)
+
+# Upgraded Notifications
+
+Firefox can deliver on-screen notifications even when that site is not loaded. Using the Push API, a [W3C standard](https://www.w3.org/TR/push-api/), Firefox receives a push message and can show notifications (if permitted by the user) at any time. Sites can also use Push to update data in the background, even without showing you a notification. If you already gave permission to a site to send notifications, the site will also be able to use the Push API. You can choose whether or not to give permission for a specific website by following these instructions:
+
+1. Click the padlock ![Padlock Fx89](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the address bar.
+2. Click the arrow in the **Site Information** drop-down panel.
+3. Click More information in the next panel to bring up the [Page Info window](\""https://support.mozilla.org/en-US/kb/firefox-page-info-window"").
+4. Click the **Permissions** tab.
+5. Under _Send Notifications_, choose a notification option: Always Ask, Allow or Block. If your choices are grayed out, deselect the **Use Default** checkbox.
+
+Alternatively, you can:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security from the left panel.
+3. Scroll to the _Permissions_ section.
+4. Click the Settings… button to the right of **Notifications**.
+5. Select **Allow** or **Block** from the **Status** drop-down for any of the websites.
+6. Click the Save Changes button.
+
+# What is Web Push?
+
+Web Push is an optional feature that allows websites to send you messages even when the site is not loaded. Sites can use this feature to provide you with notifications or update data in the background.
+
+For example, you can subscribe to notifications from your favorite shopping websites that can notify you of new promotions or offers. You can subscribe to notifications from different websites. A concert site may offer you notifications for shows of your favorite band. You decide to allow that site to notify you, and a week later you get a notification that your band is on tour.
+
+You will only receive messages from sites that you have granted permission.
+
+# How does it work?
+
+Websites can install a [Service Worker](https://developer.mozilla.org/docs/Web/API/Service_Worker_API), a background web page with a limited set of functionality, that can subscribe to the push service. The website can then send a push message through Mozilla’s Web Push service to your browser, which can process that message and display a notification on your screen.
+
+<dl><dt>
+<img alt=""push notification 44"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-22-13-08-43-059641.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""420"">
+</dt></dl>
+
+Clicking the notification can open a website or switch to that site’s tab if loaded.
+
+# What information do I share with a website?
+
+A website that has been granted permissions can send you push messages when the site is not loaded. A quota limits the number of push messages without an on-screen notification that websites can send you. Websites that exceed the quota will have its push messaging disabled and the user must revisit the website again to resubscribe. Web Push does not directly allow websites to determine your IP address.
+
+# What information does Firefox use to provide Web Push?
+
+Firefox maintains an active connection to a push service in order to receive push messages as long as it is open. The connection ends when Firefox is closed. We store a randomized identifier (User Agent IDentifier or UAID) on our server for your browser, along with a random client-generated identifier for each push subscription. When you have any subscriptions, the UAID is required to allow our push service to route incoming messages to Firefox. If you don't have any active push notification subscriptions, Firefox rotates the UAID on each new connection.
+
+On Firefox for desktop, the push service is operated by Mozilla. Firefox for Android uses a combination of the Mozilla Web Push service and Google’s Cloud Messaging platform to deliver notifications to Firefox for Android. Only Mozilla's applications are enabled to use WebPush on iOS (third-parties are prohibited from using WebPush to send notifications to iOS per the iOS usage agreement).
+
+In all three cases, push messages are encrypted per the [IETF spec](https://tools.ietf.org/html/rfc8030), and only your copy of Firefox can decipher them. The encrypted messages are stored on the server until they are delivered or expired.
+
+We store your IP address for 90 days as part of this service. The stored information is invalidated when either the IP Address or UAID is changed. We do **not** store information about:
+
+- the servers and/or services that have sent messages
+- when a particular user agent was online/active
+
+# How do I revoke Web Push permissions for a specific site?
+
+Web Push is always opt-in in Firefox. A site cannot send you push messages without your permission. To stop a specific site from sending you push messages:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security from the left panel.
+3. Scroll to the _Permissions_ section.
+4. Click the Settings… button next to **Notifications**.
+5. Select the website.
+6. Click the Remove Website button.
+
+To stop all sites from sending you push messages, follow the steps above but instead of selecting a specific site, click the Remove All Websites button. Websites will not be able to send you messages and will need to ask your permission to send them in the future.
+
+**To stop notifications on a specific webpage (requires a page reload):** Click the Permissions icon ![Fx89PermissionsIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to bring up the [Site Permissions panel](\""https://support.mozilla.org/en-US/kb/site-permissions-panel"") for the website, find the _Send Notifications_ permission and click the **✕** next to _Allowed_ to remove the permission.
+
+# How do I add Web Push to my website?
+
+The [Push API specification](https://developer.mozilla.org/docs/Web/API/Push_API) explains how to create a Service Worker and send push messages.
+
+# How do I stop Firefox asking me to allow notifications?
+
+If a site indicates to Firefox that it wants to show notifications, by default, Firefox asks whether you want to grant permission. You can set Firefox to automatically deny permission without asking. Even after the change, you can make exceptions for sites **you want** to show notifications or use push features.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security from the left panel.
+3. Scroll to the _Permissions_ section.
+4. Click the Settings… button to the right of **Notifications**.<dl><dt>
+<img alt=""Fx59Permissions-NotificationSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-04-09-09-06-49-fc7acb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+5. Select the **Block new requests asking to allow notifications** checkbox. 
+6. Click the Save Changes button.
+
+"
+29692,What is Firefox Focus for iOS?,firefox-focus-ios,https://support.mozilla.org/en-US/kb/firefox-focus-ios,en-US,Firefox Focus for iOS devices is a privacy browser with tracking protection and content blocking. It comes with Safari integration as well.,"<p></p><div class=""note"">This page describes some new features in Firefox Focus. If your Firefox Focus looks different, don't fret, you'll be able to get the new version soon.</div>
+<p></p><p></p><div class=""note""><strong>Living in Germany, Austria or Switzerland?</strong> <a href=""https://support.mozilla.org/de/products/klar"">Firefox Klar</a> is the German language version of Firefox Focus. See <a href=""/en-US/kb/difference-between-firefox-focus-and-firefox-klar"">I can't find Firefox Focus in Germany, Austria or Switzerland</a>.</div>
+<p></p><p>
+</p><p>Take private browsing to the next level. Firefox Focus gives you a dedicated privacy browser with tracking protection and content blocking. You can use Firefox Focus as a standalone browser or as content blocker for Safari on supported iPhone, iPad and iPod touch devices.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_install-firefox-focus""><span class=""tocnumber"">1</span> <span class=""toctext"">Install Firefox Focus</span></a></li><li class=""toclevel-1""><a href=""#w_use-firefox-focus-as-a-browser""><span class=""tocnumber"">2</span> <span class=""toctext"">Use Firefox Focus as a browser</span></a></li><li class=""toclevel-1""><a href=""#w_use-firefox-focus-with-safari""><span class=""tocnumber"">3</span> <span class=""toctext"">Use Firefox Focus with Safari</span></a><ul><li class=""toclevel-2""><a href=""#w_step-one-allow-safari-to-use-content-blockers-you-only-need-to-do-this-once""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Step one: allow Safari to use content blockers (you only need to do this once)</span></a></li><li class=""toclevel-2""><a href=""#w_step-two-enable-firefox-focus-for-safari""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Step two: enable Firefox Focus for Safari</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_customize-your-firefox-focus-protection-settings""><span class=""tocnumber"">4</span> <span class=""toctext"">Customize your Firefox Focus protection settings</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-firefox-focus-work""><span class=""tocnumber"">5</span> <span class=""toctext"">How does Firefox Focus work?</span></a><ul><li class=""toclevel-2""><a href=""#w_privacy""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Privacy</span></a></li><li class=""toclevel-2""><a href=""#w_performance""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Performance</span></a></li></ul></li></ul></div>
+<h1 id=""w_install-firefox-focus"">Install Firefox Focus</h1>
+<p>Firefox Focus is available in the <a href=""https://itunes.apple.com/app/id1055677337"">App Store</a> for free. When it’s finished downloading, look for the icon on your home screen.
+</p>
+<h1 id=""w_use-firefox-focus-as-a-browser"">Use Firefox Focus as a browser</h1>
+<p>Use Firefox Focus as a browser dedicated to your privacy and security. Easily erase your browsing history, passwords, bookmarks and cookies and prevent unwanted ads from following you.
+</p><p>Whenever you want a private tracker-free experience, fire up Firefox Focus. Firefox Focus is easy to use. Just enter your search or website address in the field.
+</p><p><img alt=""Focus130Homepage"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-12-02-32-12-76e397.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</p><p>To view a page in regular Firefox, in your default browser, or to share it using another app, tap the menu button in the bottom right corner, and select the appropriate option, <span class=""menu"">Open in Default Browser</span>, <span class=""menu"">Open in Firefox</span>, or <span class=""menu"">Share Page With…</span>.
+</p><p><img alt=""Focus130MenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-12-02-33-55-a23d49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</p><p>To erase all information about your session at any time, tap the delete icon in the toolbar.
+</p><p><img alt=""FocusTrashIconToolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-43-48-7ef5c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</p>
+<h1 id=""w_use-firefox-focus-with-safari"">Use Firefox Focus with Safari</h1>
+<p>Enjoy protection against ad, social, content or analytics trackers without switching from Safari. Follow these steps to enable Firefox Focus for Safari:
+</p>
+<h2 id=""w_step-one-allow-safari-to-use-content-blockers-you-only-need-to-do-this-once"">Step one: allow Safari to use content blockers (you only need to do this once)</h2>
+<ol><li>Open the <strong>Settings</strong> app in your iPhone or iPad.
+</li><li>Scroll down to <span class=""menu"">Safari</span> and tap it.
+</li><li>In the <em>General</em> section, tap <strong>Extensions</strong>.
+</li><li>Under <em>Allow these content blockers</em>, check the switch next to <strong>Firefox Focus</strong>. If it is not enabled, tap it <img alt=""iosGreenSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-30-34-ff3d44.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
+</li><li>Close the <strong>Settings</strong> app.
+</li></ol>
+<h2 id=""w_step-two-enable-firefox-focus-for-safari"">Step two: enable Firefox Focus for Safari</h2>
+<ol><li>Open Firefox Focus.
+</li><li>On the top right corner of the screen, tap the menu button <span class=""menu"">☰</span>.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <em>Safari Integration</em>, tap the switch next to <strong>Safari</strong> to enable it <img alt=""focusIosPinkSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-31-28-baed17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
+</li><li><a href=""/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"">Tweak the <em>Privacy</em> settings</a> to fit your needs.
+</li><li>Close Firefox Focus.
+</li></ol>
+<p>You are ready to browse on Safari with the protection of Firefox Focus!
+</p>
+<h1 id=""w_customize-your-firefox-focus-protection-settings"">Customize your Firefox Focus protection settings</h1>
+<p>Customize the level of content blocking and tracking protection that you need.
+</p>
+<div class=""note""><strong>Default search engine:</strong> To change your default search, see <a href=""/en-US/kb/change-default-search-firefox-focus-ios"">Change the default search in Firefox Focus on iOS</a>.</div>
+<ol><li>Open Firefox Focus.
+</li><li>Tap the menu button.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <em>Privacy</em>, tap <span class=""menu"">Tracking Protection</span>.
+</li><li>Tap the switch next to <span class=""menu"">Enhanced Tracking Protection</span> to turn it on or off.
+</li><li>Tap the switch next to each feature to turn it on or off.
+<dl><dt><div class=""note""><strong>Send anonymous usage data:</strong> We use general usage data to help us improve Firefox Focus. You can opt out of this at any time.</div>
+</dt></dl>
+</li><li>Tap the back button or close Firefox Focus. Firefox Focus will save your changes automatically.
+</li></ol>
+<h1 id=""w_how-does-firefox-focus-work"">How does Firefox Focus work?</h1>
+<h2 id=""w_privacy"">Privacy</h2>
+<p>Firefox Focus brings added privacy by allowing you to block known website trackers by category:
+</p>
+<ul><li>Ads, analytics and social trackers.
+</li><li>Other content trackers – this category includes embedded videos, photo slideshows and news article embeds that could track you. Blocking other content trackers may cause many sites to stop functioning properly.
+</li></ul>
+<div class=""note"">For Tracking Protection, Firefox Focus uses a list provided by Disconnect to identify and block trackers. You can read more about <a href=""https://disconnect.me/trackerprotection"">tracking and the standards Disconnect uses to create its list here</a>.</div>
+<h2 id=""w_performance"">Performance</h2>
+<p>Firefox Focus works by blocking some parts of web pages from loading. With less to download, web pages often load faster with Firefox Focus. Your mobile data usage may also be lower.
+</p>
+<ul><li>Web fonts – fonts that are downloaded from the server (may slow down web pages). Web fonts are typefaces used to style the text on some web pages. Blocking Web fonts will alter the appearance of text on any pages where Web fonts are used, but all text will still display legibly.
+</li></ul>
+<p>
+</p>",focus-firefox,focus-ios;firefox-klar-ios;get-started-klar,"This page describes some new features in Firefox Focus. If your Firefox Focus looks different, don't fret, you'll be able to get the new version soon.
+
+**Living in Germany, Austria or Switzerland?** [Firefox Klar](https://support.mozilla.org/de/products/klar) is the German language version of Firefox Focus. See [I can't find Firefox Focus in Germany, Austria or Switzerland](\""https://support.mozilla.org/en-US/kb/difference-between-firefox-focus-and-firefox-klar"").
+
+Take private browsing to the next level. Firefox Focus gives you a dedicated privacy browser with tracking protection and content blocking. You can use Firefox Focus as a standalone browser or as content blocker for Safari on supported iPhone, iPad and iPod touch devices.
+
+## Table of Contents
+
+- [1 Install Firefox Focus](https://support.mozilla.org/kb/firefox-focus-ios#w_install-firefox-focus)
+- [2 Use Firefox Focus as a browser](https://support.mozilla.org/kb/firefox-focus-ios#w_use-firefox-focus-as-a-browser)
+- [3 Use Firefox Focus with Safari](https://support.mozilla.org/kb/firefox-focus-ios#w_use-firefox-focus-with-safari)
+  - [3.1 Step one: allow Safari to use content blockers (you only need to do this once)](https://support.mozilla.org/kb/firefox-focus-ios#w_step-one-allow-safari-to-use-content-blockers-you-only-need-to-do-this-once)
+  - [3.2 Step two: enable Firefox Focus for Safari](https://support.mozilla.org/kb/firefox-focus-ios#w_step-two-enable-firefox-focus-for-safari)
+
+- [4 Customize your Firefox Focus protection settings](https://support.mozilla.org/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings)
+- [5 How does Firefox Focus work?](https://support.mozilla.org/kb/firefox-focus-ios#w_how-does-firefox-focus-work)
+  - [5.1 Privacy](https://support.mozilla.org/kb/firefox-focus-ios#w_privacy)
+  - [5.2 Performance](https://support.mozilla.org/kb/firefox-focus-ios#w_performance)
+
+# Install Firefox Focus
+
+Firefox Focus is available in the [App Store](https://itunes.apple.com/app/id1055677337) for free. When it’s finished downloading, look for the icon on your home screen.
+
+# Use Firefox Focus as a browser
+
+Use Firefox Focus as a browser dedicated to your privacy and security. Easily erase your browsing history, passwords, bookmarks and cookies and prevent unwanted ads from following you.
+
+Whenever you want a private tracker-free experience, fire up Firefox Focus. Firefox Focus is easy to use. Just enter your search or website address in the field.
+
+![Focus130Homepage](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+To view a page in regular Firefox, in your default browser, or to share it using another app, tap the menu button in the bottom right corner, and select the appropriate option, Open in Default Browser, Open in Firefox, or Share Page With….
+
+![Focus130MenuOptions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+To erase all information about your session at any time, tap the delete icon in the toolbar.
+
+![FocusTrashIconToolbar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Use Firefox Focus with Safari
+
+Enjoy protection against ad, social, content or analytics trackers without switching from Safari. Follow these steps to enable Firefox Focus for Safari:
+
+## Step one: allow Safari to use content blockers (you only need to do this once)
+
+1. Open the **Settings** app in your iPhone or iPad.
+2. Scroll down to Safari and tap it.
+3. In the _General_ section, tap **Extensions**.
+4. Under _Allow these content blockers_, check the switch next to **Firefox Focus**. If it is not enabled, tap it&nbsp; ![iosGreenSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+5. Close the **Settings** app.
+
+## Step two: enable Firefox Focus for Safari
+
+1. Open Firefox Focus.
+2. On the top right corner of the screen, tap the menu button&nbsp;☰.
+3. Tap Settings.
+4. Under _Safari Integration_, tap the switch next to **Safari** to enable it ![focusIosPinkSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+5. [Tweak the _Privacy_ settings](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"") to fit your needs.
+6. Close Firefox Focus.
+
+You are ready to browse on Safari with the protection of Firefox Focus!
+
+# Customize your Firefox Focus protection settings
+
+Customize the level of content blocking and tracking protection that you need.
+
+**Default search engine:** To change your default search, see [Change the default search in Firefox Focus on iOS](\""https://support.mozilla.org/en-US/kb/change-default-search-firefox-focus-ios"").
+
+1. Open Firefox Focus.
+2. Tap the menu button.
+3. Tap Settings.
+4. Under _Privacy_, tap Tracking Protection.
+5. Tap the switch next to Enhanced Tracking Protection to turn it on or off.
+6. Tap the switch next to each feature to turn it on or off.<dl><dt>
+<div class=""note"">
+<strong>Send anonymous usage data:</strong> We use general usage data to help us improve Firefox Focus. You can opt out of this at any time.</div>
+</dt></dl>
+7. Tap the back button or close Firefox Focus. Firefox Focus will save your changes automatically.
+
+# How does Firefox Focus work?
+
+## Privacy
+
+Firefox Focus brings added privacy by allowing you to block known website trackers by category:
+
+- Ads, analytics and social trackers.
+- Other content trackers – this category includes embedded videos, photo slideshows and news article embeds that could track you. Blocking other content trackers may cause many sites to stop functioning properly.
+
+For Tracking Protection, Firefox Focus uses a list provided by Disconnect to identify and block trackers. You can read more about [tracking and the standards Disconnect uses to create its list here](https://disconnect.me/trackerprotection).
+
+## Performance
+
+Firefox Focus works by blocking some parts of web pages from loading. With less to download, web pages often load faster with Firefox Focus. Your mobile data usage may also be lower.
+
+- Web fonts – fonts that are downloaded from the server (may slow down web pages). Web fonts are typefaces used to style the text on some web pages. Blocking Web fonts will alter the appearance of text on any pages where Web fonts are used, but all text will still display legibly.
+
+"
 29745,Firefox is no longer available for download in the T-Store,firefox-no-longer-available-download-t-store,https://support.mozilla.org/en-US/kb/firefox-no-longer-available-download-t-store,en-US,Firefox for Android is no longer available for download in the T-Store in South Korea. You can still download it and receive updates from Google Play.,"<p>Firefox for Android is no longer available for download in the T-Store in South Korea. You can still download it for free and receive updates from <a href=""https://play.google.com/store/apps/details?id=org.mozilla.firefox"">Google Play</a>.
 </p>
 <h1 id=""w_where-can-i-download-firefox-in-south-korea"">Where can I download Firefox in South Korea?</h1>
@@ -51864,38 +52161,6 @@ The current device will be listed first, followed by the most recent Sync device
 2. Tap Request Mobile Site.
 
 When you request a site in desktop view one time, Firefox will always show that site in desktop view every time you visit until you switch back to mobile.
-"
-31025,Accessibility not available during multi-process support,accessibility-and-ppt,https://support.mozilla.org/en-US/kb/accessibility-and-ppt,en-US,Accessibility features are not yet fully supported in multiprocess Firefox. Restart Firefox to change it back to single process mode.,"<p>Accessibility features are not yet fully supported in multiprocess Firefox. If third-party software (screen readers, Windows touchscreen software or anti-spyware) requests access to Firefox's accessibility features, Firefox limits this access to web content to prevent stability issues. Restarting Firefox will change it back to single process mode and re-enable accessibility features automatically.
-</p>
-<h1 id=""w_how-to-re-enable-firefoxs-accessibility-features"">How to re-enable Firefox's accessibility features</h1>
-<ol><li>To fully enable accessibility features after having received a notification, restart Firefox. It will restart in single process mode.
-</li><li>To force enable electrolysis for testing purposes, go to the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em> page) and set the <span class=""pref"">browser.tabs.remote.force-enable</span> preference to <span class=""pref""><strong>true</strong></span>. <div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-</li><li>Avoid running third-party software that request accessibility features within Firefox.
-</li></ol>",firefox,accessibility,"Accessibility features are not yet fully supported in multiprocess Firefox. If third-party software (screen readers, Windows touchscreen software or anti-spyware) requests access to Firefox's accessibility features, Firefox limits this access to web content to prevent stability issues. Restarting Firefox will change it back to single process mode and re-enable accessibility features automatically.
-
-# How to re-enable Firefox's accessibility features
-
-1. To fully enable accessibility features after having received a notification, restart Firefox. It will restart in single process mode.
-2. To force enable electrolysis for testing purposes, go to the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_ page) and set the browser.tabs.remote.force-enable preference to **true**. 
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-3. Avoid running third-party software that request accessibility features within Firefox.
-
-"
-31153,Send text or multimedia messages from Firefox for Android,send-text-or-multimedia-messages-firefox-android,https://support.mozilla.org/en-US/kb/send-text-or-multimedia-messages-firefox-android,en-US,Send text or multimedia messages from Firefox for Android.,"<p>Firefox for Android supports sending text (SMS) or multimedia (MMS) messages directly from the web pages that offer it.
-</p>
-<ol><li>Tap on the SMS or MMS link (usually a phone number) on the web page to launch the messaging app.
-</li><li>If you're using this feature for the first time, a prompt will ask you to choose an app. Choose your phone's messaging app, which for most devices is Messenger or Hangouts.
-</li><li>Your messaging app will open and automatically fill in the number and message that was on the web page.
-</li><li>Edit as needed and tap Send.
-</li></ol>",mobile,browse,"Firefox for Android supports sending text (SMS) or multimedia (MMS) messages directly from the web pages that offer it.
-
-1. Tap on the SMS or MMS link (usually a phone number) on the web page to launch the messaging app.
-2. If you're using this feature for the first time, a prompt will ask you to choose an app. Choose your phone's messaging app, which for most devices is Messenger or Hangouts.
-3. Your messaging app will open and automatically fill in the number and message that was on the web page.
-4. Edit as needed and tap Send.
-
 "
 31228,How can I get the latest version of Thunderbird on Windows XP or Vista?,get-latest-version-thunderbird-windows-xp-vista,https://support.mozilla.org/en-US/kb/get-latest-version-thunderbird-windows-xp-vista,en-US,How to update to the latest version of Thunderbird on Windows XP and Vista.,"<p>
 Although Thunderbird will run on Windows XP Service Pack 2 (SP2) or above, the latest installers for Thunderbird require Windows XP with Service Pack 3 (SP3) or Windows Vista with update <a href=""https://support.microsoft.com/en-us/kb/2763674"">KB2763674</a>. To  work around this issue, a two-step process is necessary to install the latest version of Thunderbird. Windows XP and Vista users should follow these steps:
@@ -64777,6 +65042,370 @@ To see and manage your allowed websites:
 3. Tap Exceptions. (_Exceptions_ will be greyed out if you haven't added any allowed sites.)
 
 "
+42399,Search suggestions in Firefox Klar for iOS,search-suggestions-firefox-klar-ios,https://support.mozilla.org/en-US/kb/search-suggestions-firefox-klar-ios,en-US,How to turn search suggestions on/off for Firefox Klar.,"<p>Some search engines provide search suggestions based on popular searches related to what you type into search. If you enable search suggestions, Firefox Klar will show the popular searches provided by your default search engine.
+</p>
+<h1 id=""w_enable-or-disable-search-suggestions"">Enable or disable search suggestions</h1>
+<p>When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
+</p>
+<ol><li>Tap the menu button in the bottom right corner.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <span class=""menu"">Search</span>, tap the switch next to <span class=""menu"">Get Search Suggestions</span> to turn it on <img alt=""switchonios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-01-22-03-04-3327d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> or off <img alt=""switchoffios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2015-08-07-18-34-36-7e3f4a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li></ol>
+<div class=""note"">Enabling search suggestions will send the words you type to the default search engine, which collections information according to the terms of their privacy policy.</div>",klar,firefox-klar-ios,"Some search engines provide search suggestions based on popular searches related to what you type into search. If you enable search suggestions, Firefox Klar will show the popular searches provided by your default search engine.
+
+# Enable or disable search suggestions
+
+When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
+
+1. Tap the menu button in the bottom right corner.
+2. Tap Settings.
+3. Under Search, tap the switch next to Get Search Suggestions to turn it on ![switchonios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) or off ![switchoffios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+
+Enabling search suggestions will send the words you type to the default search engine, which collections information according to the terms of their privacy policy.
+"
+42564,How to Use Find in Page for Firefox for Android,how-use-find-page-firefox-android,https://support.mozilla.org/en-US/kb/how-use-find-page-firefox-android,en-US,Learn how to quickly search web pages for specific terms or phrases using Firefox for Android's Find in page feature.,"<p>
+</p><p>Firefox for Android can save you time by allowing you to search for specific terms or phrases on web pages with the Find in page feature. Learn how to access and use this handy feature!
+</p>
+<ol><li>Open the page you want to search.
+</li><li>Tap the menu button.
+<dl><dt><img alt=""Android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-07-28-57-e9ee78.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li><li>Tap <span class=""menu"">Find in page</span>.
+<dl><dt><img alt=""Find in page"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-11-17-709016.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li><li>Enter your search term or phrase in the search bar.
+<ul><li>Matching results appear as highlighted text on the web page.
+</li><li>Navigate through search results using the up or down arrows next to the search bar.
+</li></ul>
+<dl><dt><img alt=""Find in page example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-15-11-1d2a9c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li><li>Close Find in page by tapping the close button <span class=""button"">X</span>.
+<dl><dt><img alt=""Close find in page bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-16-10-e4807d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ol>",mobile,browse;search;search-tag-and-share,"Firefox for Android can save you time by allowing you to search for specific terms or phrases on web pages with the Find in page feature. Learn how to access and use this handy feature!
+
+1. Open the page you want to search.
+2. Tap the menu button.<dl><dt>
+<img alt=""Android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-07-28-57-e9ee78.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+3. Tap Find in page.<dl><dt>
+<img alt=""Find in page"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-11-17-709016.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+4. Enter your search term or phrase in the search bar.
+  - Matching results appear as highlighted text on the web page.
+  - Navigate through search results using the up or down arrows next to the search bar.
+
+<dl><dt>
+<img alt=""Find in page example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-15-11-1d2a9c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+5. Close Find in page by tapping the close button X.<dl><dt>
+<img alt=""Close find in page bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-26-11-16-10-e4807d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+"
+42589,Assign shortcuts to search engines,assign-shortcuts-search-engines,https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines,en-US,How to search faster with search shortcuts.,"<p>In addition to performing general web searches using your default search engine, you can also easily search specific websites directly from the Firefox address bar. You can assign a keyword shortcut to your favorite search engines to make it easier to perform a search.
+</p><p>For example, you might assign <strong>@shopping</strong> to your built-in Amazon search or an abbreviated search engine name:
+</p>
+<dl><dt><img alt=""search shortcut populate"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-16-11-31-41e2c7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""note"">Popular search engine shortcuts will appear on your new tab page as a tile with a magnifying glass. Clicking on these tiles has the same effect as typing the search shortcut keyword and a space into your address bar.</div>
+<h1 id=""w_assign-search-shortcuts"">Assign search shortcuts</h1>
+<p>You can assign search shortcuts to your favorite search engines:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Search</span> on the left panel.
+</li><li>Scroll down to <em>Search Shortcuts</em>.
+</li><li>Double-click on the <strong>Keyword</strong> column for the search engine you want to assign a shortcut to.
+</li><li>Enter your search shortcut keyword; for example, <em>youtube</em> (it does not have to begin with <em>@</em>).
+</li><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.
+<dl><dt><img alt=""Fx102AddSearchShortcutKeyword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-28-12-22-30-806f21.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""note""><strong>Note:</strong> Some of the search engines featured above are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.</div>
+<p>Search shortcut keywords are already included for default search engines, but you can add additional keywords, or you can assign search shortcut keywords to <a href=""/en-US/kb/add-or-remove-search-engine-firefox"">search engines added to Firefox</a>.
+</p>",firefox,settings,"In addition to performing general web searches using your default search engine, you can also easily search specific websites directly from the Firefox address bar. You can assign a keyword shortcut to your favorite search engines to make it easier to perform a search.
+
+For example, you might assign **@shopping** to your built-in Amazon search or an abbreviated search engine name:
+
+<dl><dt>
+<img alt=""search shortcut populate"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-16-11-31-41e2c7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+Popular search engine shortcuts will appear on your new tab page as a tile with a magnifying glass. Clicking on these tiles has the same effect as typing the search shortcut keyword and a space into your address bar.
+
+# Assign search shortcuts
+
+You can assign search shortcuts to your favorite search engines:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Search on the left panel.
+3. Scroll down to _Search Shortcuts_.
+4. Double-click on the **Keyword** column for the search engine you want to assign a shortcut to.
+5. Enter your search shortcut keyword; for example, _youtube_ (it does not have to begin with _@_).
+6. Press EnterReturn.<dl><dt>
+<img alt=""Fx102AddSearchShortcutKeyword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-28-12-22-30-806f21.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Note:** Some of the search engines featured above are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.
+
+Search shortcut keywords are already included for default search engines, but you can add additional keywords, or you can assign search shortcut keywords to [search engines added to Firefox](\""https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox"").
+
+"
+42606,Deploy Firefox with MSI installers,deploy-firefox-msi-installers,https://support.mozilla.org/en-US/kb/deploy-firefox-msi-installers,en-US,Firefox Enterprise offers MSI installers to help system administrators customize and deploy Firefox in their environments.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>Firefox Enterprise offers MSI installers per locale, per cpu architecture (32 and 64 bit) and per channel to help system administrators customize and deploy Firefox in their environments.
+The MSI installer (supported on Windows 7 and later versions) is a wrapper of the exe full installer that allows customizations through the use of a MST file prior to deploying through standard Windows deployment tools such as Active Directory or Microsoft System Center Configuration Manager.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_msi-installers""><span class=""tocnumber"">1</span> <span class=""toctext"">MSI Installers</span></a></li><li class=""toclevel-1""><a href=""#w_configuration-options""><span class=""tocnumber"">2</span> <span class=""toctext"">Configuration options</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-custom-msi-options""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Firefox custom MSI options</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_msiexec-options""><span class=""tocnumber"">3</span> <span class=""toctext"">MSIEXEC options</span></a><ul><li class=""toclevel-2""><a href=""#w_supported-msiexec-options""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Supported MSIEXEC Options</span></a></li><li class=""toclevel-2""><a href=""#w_unsupported-msiexec-options""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Unsupported MSIEXEC Options</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_example-configuration""><span class=""tocnumber"">4</span> <span class=""toctext"">Example configuration</span></a><ul><li class=""toclevel-2""><a href=""#w_by-using-an-external-msi-editor-e-g-orca""><span class=""tocnumber"">4.1</span> <span class=""toctext"">By using an external MSI editor (e.g. ORCA)</span></a></li><li class=""toclevel-2""><a href=""#w_by-using-a-transform-mst-configuration""><span class=""tocnumber"">4.2</span> <span class=""toctext"">By using a transform (.mst) configuration</span></a></li><li class=""toclevel-2""><a href=""#w_by-using-command-line-parameters""><span class=""tocnumber"">4.3</span> <span class=""toctext"">By using command line parameters</span></a></li></ul></li></ul></div>
+<h1 id=""w_msi-installers"">MSI Installers</h1>
+<p>Visit <a href=""https://www.mozilla.org/firefox/all/"">https://www.mozilla.org/firefox/all/</a> and use the drop-down options to select a MSI installer for Firefox Nightly, Developer Edition, Firefox Beta, Firefox Release or Firefox Extended Support Release.
+</p>
+<dl><dt><img alt=""Fx68esrMSIdownload"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-07-11-10-55-39-729b6a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""note"">Use the <strong>Select your preferred language</strong> drop-down to install a Firefox MSI installer in your preferred language.</div>
+<h1 id=""w_configuration-options"">Configuration options</h1>
+<p>MSI transforms (MSTs) for the Firefox MSI installers can be created or edited using the tool of your choice (<a href=""https://docs.microsoft.com/en-us/windows/desktop/msi/orca-exe"">MS Orca</a> or other) to customize the installation. This section details the options available.
+</p>
+<h2 id=""w_firefox-custom-msi-options"">Firefox custom MSI options</h2>
+<p>Set a directory path - INSTALL_DIRECTORY_PATH=[path]
+Absolute path specifying the complete install location. This directory does not need to exist already (but it can).
+If INSTALL_DIRECTORY_NAME is set, then this setting will be ignored.
+</p><p>Set a directory name - INSTALL_DIRECTORY_NAME=[name]
+Name of the installation directory to create within Program Files. For example, if INSTALL_DIRECTORY_NAME is set to Firefox Release, then the installation path will be something like C:\Program Files\Firefox Release. The Program Files path used will be the correct one for the architecture of the application being installed and the locale/configuration of the machine; this setting is mainly useful to keep you from having to worry about those differences.
+If this is set, then INSTALL_DIRECTORY_PATH will be ignored.
+</p><p>Install a taskbar shortcut - TASKBAR_SHORTCUT={true,false}
+Set to false to disable pinning a shortcut to the taskbar. true by default. This feature only works on Windows 7 and 8; it isn’t possible to create taskbar pins from the installer on later Windows versions.
+</p><p>Install a desktop shortcut - DESKTOP_SHORTCUT={true,false}
+Set to false to disable creating a shortcut on the desktop. true by default.
+</p><p>Install a start menu shortcut - START_MENU_SHORTCUT={true,false}
+Set to false to disable creating a Start menu shortcut. true by default.
+</p><p>Disable the maintenance service - INSTALL_MAINTENANCE_SERVICE={true,false}
+Set to false to disable installing the Mozilla Maintenance Service. This will effectively prevent users from installing Firefox updates if they do not have write permissions to the installation directory. true by default.
+</p><p>Disable removing distribution directory - REMOVE_DISTRIBUTION_DIR={true,false}
+Set to false to disable removing the distribution directory from an existing installation that’s being paved over. By default this is true and the directory is removed.
+
+</p><p>Prevent rebooting - PREVENT_REBOOT_REQUIRED={true,false}
+Set to true to keep the installer from taking actions that would require rebooting the machine to complete, normally because files are in use. This should not be needed under normal circumstances unless you’re paving over a copy of Firefox that was running while the installer was trying to run, and setting this option in that case may result in an incomplete installation. false by default.
+</p><p>Bundle extensions - OPTIONAL_EXTENSIONS={true,false}
+Set to false to disable installing any bundled extensions that are present. true by default.
+</p><p>Application files extraction directory - EXTRACT_DIR=[directory]
+Extract the application files to the given directory and exit without actually running the installer. Of course, this means all other options will be ignored.
+</p>
+<h1 id=""w_msiexec-options"">MSIEXEC options</h1>
+<p>The command line parameters for msiexec.exe (the Windows component responsible for installing, uninstalling, and otherwise working with MSI files) are documented <a href=""https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options"">here</a> and also by the output of the /? option. Our MSI packages, because they wrap a .exe installer and don't really use the MSI framework, do not support many of the command line parameters available to msiexec. This document lists the msiexec parameters that are supported and unsupported for use with our MSI packages.
+</p>
+<h2 id=""w_supported-msiexec-options"">Supported MSIEXEC Options</h2>
+<ul><li><strong>/i</strong> or <strong>/package</strong>
+<ul><li>Installs the product.
+</li></ul>
+</li><li><strong>/L</strong> or <strong>/log</strong>
+<ul><li>Generates an MSI log file. All of this option's configuration parameters are supported.
+</li></ul>
+</li><li><strong>/m</strong>
+<ul><li>Generates an SMS status .mif file.
+</li><li>Without having a copy of Systems Management Server I've been unable to test this, but it should work.
+</li></ul>
+</li><li><strong>/q</strong>, <strong>/quiet</strong>, and <strong>/passive</strong>
+<ul><li>Sets the UI mode. The full UI option (/qf) is accepted but ignored, because we have no full UI.
+</li></ul>
+</li><li><strong>/norestart</strong>, <strong>/forcerestart</strong>, and <strong>/promptrestart</strong>
+<ul><li>The default behavior is always /norestart, but the other options behave as expected.
+</li></ul>
+</li><li>PROPERTY=VALUE
+<ul><li>Command line property configuration is supported for all public properties we provide (meaning the ones with UPPERCASE_NAMES).
+</li></ul>
+</li></ul>
+<p>Options that do not operate on a package file (<strong>/?</strong>, <strong>/h</strong>, <strong>/help</strong>, <strong>/y</strong>, <strong>/z</strong>)
+</p>
+<h2 id=""w_unsupported-msiexec-options"">Unsupported MSIEXEC Options</h2>
+<ul><li><strong>/f</strong>
+<ul><li>Repairs the product.
+</li></ul>
+</li><li><strong>/a</strong>
+<ul><li>Administrative installation.
+</li></ul>
+</li><li><strong>/x</strong> or <strong>/uninstall</strong>
+<ul><li>Uninstalls the product.
+</li></ul>
+</li><li><strong>/j</strong> along with <strong>/t</strong>, <strong>/g</strong>, and <strong>/c</strong>
+<ul><li>Advertises the product.
+</li></ul>
+</li><li><strong>/n</strong>
+<ul><li>Specifies a particular instance of the product.
+</li></ul>
+</li><li><strong>/p</strong> or <strong>/update</strong>
+<ul><li>Applies a patch (.msp) file.
+</li></ul>
+</li></ul>
+<h1 id=""w_example-configuration"">Example configuration</h1>
+<p>Here’s an example of a valid .mst file to help understand how options can be changed along with the MSI directory for mozilla central: 
+</p>
+<ul><li><a href=""https://drive.google.com/file/d/1QiV9zDcpd42_xTOhjs4bOuHvYyg_hlyS/view"">MST file example</a>
+</li><li><a href=""https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/"">MSI installer nightly builds</a>
+</li><li><a href=""https://download.mozilla.org/?product=firefox-msi-latest-ssl&amp;os=win64&amp;lang=en-US"">MSI installer current release build</a>
+</li></ul>
+<div class=""note"">Logging can be <a href=""https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options"">configured</a> on the MSI to help troubleshoot installation issues.</div>
+<p>There are several ways to use the MSI file with configurable parameters exposed in Firefox MSI:
+</p>
+<h2 id=""w_by-using-an-external-msi-editor-e-g-orca"">By using an external MSI editor (e.g. <a href=""https://docs.microsoft.com/en-us/windows/desktop/msi/orca-exe"">ORCA</a>)</h2>
+<ol><li><span class=""menu"">File/Open</span> and select the MSI to be edited.
+</li><li>Find the Property table and select it.
+</li><li>Change the values for the PROPERTIES you need to.
+</li><li>From ORCA, select <span class=""menu"">File/Save as</span> and save the custom modified MSI installer.
+</li></ol>
+<div class=""note"">Note that this will invalidate the MSI file's signature; if you need the file to be signed, you'll have to sign it again using your organization's certificate.</div>
+<h2 id=""w_by-using-a-transform-mst-configuration"">By using a transform (.mst) configuration</h2>
+<ol><li>Use Orca to open the MSI.
+</li><li>Select <strong>Transform &gt; New Transform</strong> from the menu bar.
+</li><li>Change the values for the PROPERTIES you need to.
+</li><li>Select <strong>Transform &gt; Generate Transform</strong> to save your changes as a transform (.mst) file.
+</li><li>Run: msiexec /i “Firefox.msi” TRANSFORMS=”custom.mst”
+</li></ol>
+<h2 id=""w_by-using-command-line-parameters"">By using command line parameters</h2>
+<ol><li>Rename the Firefox MSI file as default.msi
+</li><li>Move the file in a C:\MSI directory
+</li><li>Run:  
+<dl><dt>msiexec.exe /i ""c:\MSi\default.msi"" INSTALL_DIRECTORY_PATH=""C:\Firefox\"" TASKBAR_SHORTCUT=false  DESKTOP_SHORTCUT=false  INSTALL_MAINTENANCE_SERVICE=false /quiet
+</dt></dl>
+</li></ol>
+<div class=""note"">All private parameters (FIREFOX specific, present in CAPS can be used in the command line + the msiexec public parameters like /i and /quiet in the above example)</div>",firefox-enterprise,installation-and-updates,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+Firefox Enterprise offers MSI installers per locale, per cpu architecture (32 and 64 bit) and per channel to help system administrators customize and deploy Firefox in their environments. The MSI installer (supported on Windows 7 and later versions) is a wrapper of the exe full installer that allows customizations through the use of a MST file prior to deploying through standard Windows deployment tools such as Active Directory or Microsoft System Center Configuration Manager.
+
+## Table of Contents
+
+- [1 MSI Installers](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_msi-installers)
+- [2 Configuration options](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_configuration-options)
+  - [2.1 Firefox custom MSI options](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_firefox-custom-msi-options)
+
+- [3 MSIEXEC options](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_msiexec-options)
+  - [3.1 Supported MSIEXEC Options](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_supported-msiexec-options)
+  - [3.2 Unsupported MSIEXEC Options](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_unsupported-msiexec-options)
+
+- [4 Example configuration](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_example-configuration)
+  - [4.1 By using an external MSI editor (e.g. ORCA)](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_by-using-an-external-msi-editor-e-g-orca)
+  - [4.2 By using a transform (.mst) configuration](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_by-using-a-transform-mst-configuration)
+  - [4.3 By using command line parameters](https://support.mozilla.org/kb/deploy-firefox-msi-installers#w_by-using-command-line-parameters)
+
+# MSI Installers
+
+Visit [https://www.mozilla.org/firefox/all/](https://www.mozilla.org/firefox/all/) and use the drop-down options to select a MSI installer for Firefox Nightly, Developer Edition, Firefox Beta, Firefox Release or Firefox Extended Support Release.
+
+<dl><dt>
+<img alt=""Fx68esrMSIdownload"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-07-11-10-55-39-729b6a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+Use the **Select your preferred language** drop-down to install a Firefox MSI installer in your preferred language.
+
+# Configuration options
+
+MSI transforms (MSTs) for the Firefox MSI installers can be created or edited using the tool of your choice ([MS Orca](https://docs.microsoft.com/en-us/windows/desktop/msi/orca-exe) or other) to customize the installation. This section details the options available.
+
+## Firefox custom MSI options
+
+Set a directory path - INSTALL\_DIRECTORY\_PATH=[path] Absolute path specifying the complete install location. This directory does not need to exist already (but it can). If INSTALL\_DIRECTORY\_NAME is set, then this setting will be ignored.
+
+Set a directory name - INSTALL\_DIRECTORY\_NAME=[name] Name of the installation directory to create within Program Files. For example, if INSTALL\_DIRECTORY\_NAME is set to Firefox Release, then the installation path will be something like C:\Program Files\Firefox Release. The Program Files path used will be the correct one for the architecture of the application being installed and the locale/configuration of the machine; this setting is mainly useful to keep you from having to worry about those differences. If this is set, then INSTALL\_DIRECTORY\_PATH will be ignored.
+
+Install a taskbar shortcut - TASKBAR\_SHORTCUT={true,false} Set to false to disable pinning a shortcut to the taskbar. true by default. This feature only works on Windows 7 and 8; it isn’t possible to create taskbar pins from the installer on later Windows versions.
+
+Install a desktop shortcut - DESKTOP\_SHORTCUT={true,false} Set to false to disable creating a shortcut on the desktop. true by default.
+
+Install a start menu shortcut - START\_MENU\_SHORTCUT={true,false} Set to false to disable creating a Start menu shortcut. true by default.
+
+Disable the maintenance service - INSTALL\_MAINTENANCE\_SERVICE={true,false} Set to false to disable installing the Mozilla Maintenance Service. This will effectively prevent users from installing Firefox updates if they do not have write permissions to the installation directory. true by default.
+
+Disable removing distribution directory - REMOVE\_DISTRIBUTION\_DIR={true,false} Set to false to disable removing the distribution directory from an existing installation that’s being paved over. By default this is true and the directory is removed.
+
+Prevent rebooting - PREVENT\_REBOOT\_REQUIRED={true,false} Set to true to keep the installer from taking actions that would require rebooting the machine to complete, normally because files are in use. This should not be needed under normal circumstances unless you’re paving over a copy of Firefox that was running while the installer was trying to run, and setting this option in that case may result in an incomplete installation. false by default.
+
+Bundle extensions - OPTIONAL\_EXTENSIONS={true,false} Set to false to disable installing any bundled extensions that are present. true by default.
+
+Application files extraction directory - EXTRACT\_DIR=[directory] Extract the application files to the given directory and exit without actually running the installer. Of course, this means all other options will be ignored.
+
+# MSIEXEC options
+
+The command line parameters for msiexec.exe (the Windows component responsible for installing, uninstalling, and otherwise working with MSI files) are documented [here](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options) and also by the output of the /? option. Our MSI packages, because they wrap a .exe installer and don't really use the MSI framework, do not support many of the command line parameters available to msiexec. This document lists the msiexec parameters that are supported and unsupported for use with our MSI packages.
+
+## Supported MSIEXEC Options
+
+- **/i** or **/package**
+  - Installs the product.
+
+- **/L** or **/log**
+  - Generates an MSI log file. All of this option's configuration parameters are supported.
+
+- **/m**
+  - Generates an SMS status .mif file.
+  - Without having a copy of Systems Management Server I've been unable to test this, but it should work.
+
+- **/q** , **/quiet** , and **/passive**
+  - Sets the UI mode. The full UI option (/qf) is accepted but ignored, because we have no full UI.
+
+- **/norestart** , **/forcerestart** , and **/promptrestart**
+  - The default behavior is always /norestart, but the other options behave as expected.
+
+- PROPERTY=VALUE
+  - Command line property configuration is supported for all public properties we provide (meaning the ones with UPPERCASE\_NAMES).
+
+Options that do not operate on a package file ( **/?** , **/h** , **/help** , **/y** , **/z** )
+
+## Unsupported MSIEXEC Options
+
+- **/f**
+  - Repairs the product.
+
+- **/a**
+  - Administrative installation.
+
+- **/x** or **/uninstall**
+  - Uninstalls the product.
+
+- **/j** along with **/t** , **/g** , and **/c**
+  - Advertises the product.
+
+- **/n**
+  - Specifies a particular instance of the product.
+
+- **/p** or **/update**
+  - Applies a patch (.msp) file.
+
+# Example configuration
+
+Here’s an example of a valid .mst file to help understand how options can be changed along with the MSI directory for mozilla central:
+
+- [MST file example](https://drive.google.com/file/d/1QiV9zDcpd42_xTOhjs4bOuHvYyg_hlyS/view)
+- [MSI installer nightly builds](https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/)
+- [MSI installer current release build](https://download.mozilla.org/?product=firefox-msi-latest-ssl&os=win64&lang=en-US)
+
+Logging can be [configured](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options) on the MSI to help troubleshoot installation issues.
+
+There are several ways to use the MSI file with configurable parameters exposed in Firefox MSI:
+
+## By using an external MSI editor (e.g. [ORCA](https://docs.microsoft.com/en-us/windows/desktop/msi/orca-exe))
+
+1. File/Open and select the MSI to be edited.
+2. Find the Property table and select it.
+3. Change the values for the PROPERTIES you need to.
+4. From ORCA, select File/Save as and save the custom modified MSI installer.
+
+Note that this will invalidate the MSI file's signature; if you need the file to be signed, you'll have to sign it again using your organization's certificate.
+
+## By using a transform (.mst) configuration
+
+1. Use Orca to open the MSI.
+2. Select **Transform \> New Transform** from the menu bar.
+3. Change the values for the PROPERTIES you need to.
+4. Select **Transform \> Generate Transform** to save your changes as a transform (.mst) file.
+5. Run: msiexec /i “Firefox.msi” TRANSFORMS=”custom.mst”
+
+## By using command line parameters
+
+1. Rename the Firefox MSI file as default.msi
+2. Move the file in a C:\MSI directory
+3. Run: <dl><dt>msiexec.exe /i ""c:\MSi\default.msi"" INSTALL_DIRECTORY_PATH=""C:\Firefox\"" TASKBAR_SHORTCUT=false DESKTOP_SHORTCUT=false INSTALL_MAINTENANCE_SERVICE=false /quiet
+</dt></dl>
+
+All private parameters (FIREFOX specific, present in CAPS can be used in the command line + the msiexec public parameters like /i and /quiet in the above example)
+"
 42674,Choose display languages for multilingual web pages,choose-display-languages-multilingual-web-pages,https://support.mozilla.org/en-US/kb/choose-display-languages-multilingual-web-pages,en-US,How to choose your preferred languages for multilingual web pages.,"<p>Firefox gives you control over two different types of language settings:
 </p>
 <ul><li><strong>Display language</strong> — the language used for Firefox’s menus, settings, and interface
@@ -68422,7 +69051,7 @@ To prevent CAs that have been added to the operating system from being automatic
 </p>
 </li><li>Tap the Sync button (you might need to sign in first).
 </li></ol>
-<dl><dt><img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+<dl><dt><img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/where-are-my-synced-tabs-firefox-ios"">Where are my synced tabs in Firefox for iOS?</a>
@@ -68454,7 +69083,7 @@ Firefox for iOS will sync automatically at regular intervals but you can also fo
 2. Tap the Sync button (you might need to sign in first).
 
 <dl><dt>
-<img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+<img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 # Related articles
 
@@ -81464,6 +82093,111 @@ To see if you have any accounts configured, enter **accounts** in the Windows ta
 If you have accounts in the **Accounts used by other apps** section, Firefox will use that information to log you in to Microsoft sites including Outlook and Office 365, as well as any work or school accounts that use Microsoft authentication.
 
 "
+54439,What's new in Firefox for iOS (version 35),whats-new-ios-35,https://support.mozilla.org/en-US/kb/whats-new-ios-35,en-US,See what's new in the latest release.,"<p>Welcome to a new version of Firefox for iOS. This release comes with improvements to bookmarks and fixes to how the new iPad tabs behave. Also, we have updated the look of our New Tab page.
+</p>
+<h1 id=""w_folders-for-your-bookmarks"">Folders for your bookmarks</h1>
+<p>When you bookmark a site, you’ll have the option to save it in a folder so you can keep your bookmarks organized.
+</p><p><img alt=""Mobile_Bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-09-13-03-42-4686c1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <img alt=""bookmark_folders"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-09-13-06-55-bad1b5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p><br>
+See <a href=""/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"">How to add, remove, edit and move bookmarks in Firefox for iOS</a> to learn more about bookmarking.
+</p>
+<h1 id=""w_opt-in-or-out-of-experiments"">Opt in or out of experiments</h1>
+<p>We’ve added a new system to help us test changes in Firefox to make sure you’re getting the best experience. You can opt out of these tests at any time. See <a href=""/en-US/kb/how-opt-out-studies-firefox-ios"">How to opt out of studies on Firefox for iOS</a>  for more information.
+</p><p><br>
+Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+</p>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS. This release comes with improvements to bookmarks and fixes to how the new iPad tabs behave. Also, we have updated the look of our New Tab page.
+
+# Folders for your bookmarks
+
+When you bookmark a site, you’ll have the option to save it in a folder so you can keep your bookmarks organized.
+
+![Mobile_Bookmarks](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![bookmark_folders](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+See [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"") to learn more about bookmarking.
+
+# Opt in or out of experiments
+
+We’ve added a new system to help us test changes in Firefox to make sure you’re getting the best experience. You can opt out of these tests at any time. See [How to opt out of studies on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-opt-out-studies-firefox-ios"") for more information.
+
+Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+
+"
+54499,Choose the Mozilla VPN plan that is right for you,choose-mozilla-vpn-plan-right-you,https://support.mozilla.org/en-US/kb/choose-mozilla-vpn-plan-right-you,en-US,Subscribe to a monthly or yearly Mozilla VPN plan.,"<p>With a <a href=""/en-US/kb/what-mozilla-vpn-and-how-does-it-work"">Mozilla VPN</a> subscription, you can install the application on up to five devices and browse the Internet securely and privately. Choose the plan that fits your needs from our <a href=""https://www.mozilla.org/products/vpn/#pricing"">monthly or yearly plans</a>.
+</p>
+<h1 id=""w_subscribe-to-a-plan-from-your-preferred-platform"">Subscribe to a plan from your preferred platform</h1>
+<h2 id=""w_website"">Website</h2>
+<ul><li>Visit the <a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN website</a> and choose a plan from the available options.
+</li><li>After you have completed the checkout, you will be prompted to sign in with your Mozilla account and to download the Mozilla VPN client. If you don’t have an account, you’ll be asked to create one.
+</li></ul>
+<h2 id=""w_apple-store"">Apple Store</h2>
+<ul><li>Download Mozilla VPN from the App Store and follow the steps in the application to sign in with your Mozilla account. If you don’t have an account, you’ll be asked to create one.
+</li><li>After signing in, you’ll be prompted to choose a subscription plan from the options available.
+</li></ul>
+<h2 id=""w_google-play-store"">Google Play Store</h2>
+<ul><li>Download Mozilla VPN from Google Play Store and follow the steps in the app to sign in with your Mozilla account. If you don’t have an account, you’ll be asked to create one.
+</li><li>After signing in, you’ll be prompted to choose a subscription plan from the options available.
+</li></ul>
+<h1 id=""w_what-payment-options-are-available"">What payment options are available?</h1>
+<p>Enter your credit card details, or select another supported method such as <a href=""https://www.apple.com/apple-pay/"">Apple Pay</a>, <a href=""https://pay.google.com/about/"">Google Pay</a>, <a href=""https://link.com/"">Link</a>, or <a href=""https://www.paypal.com/"">PayPal</a> during checkout. All plans come with a 30-day money-back guarantee.
+</p>
+<h1 id=""w_why-is-mozilla-trying-to-sell-productsservices-when-its-a-non-profit"">Why is Mozilla trying to sell products/services when it’s a non-profit?</h1>
+<p>The Mozilla VPN is developed by the <a href=""https://www.mozilla.org/foundation/moco/"">Mozilla Corporation</a>, a for-profit entity that is committed to the Mozilla mission and backed by the non-profit Mozilla Foundation. The Mozilla Corporation develops products that help users protect their privacy online. We charge a low fee to develop and maintain the Mozilla VPN, which ultimately helps us build a product that benefits its users and makes the internet a safer place. If you are interested in learning about how Mozilla handles its financials, check out <a href=""https://www.mozilla.org/foundation/annualreport/"">the annual report</a>.
+</p>
+<h1 id=""w_how-does-mozilla-vpn-compare-to-free-vpns"">How does Mozilla VPN compare to free VPNs?</h1>
+<p>While free VPNs seem attractive, they often do not make the same commitments to privacy as Mozilla VPN and may sell or store your data. Many other paid VPNs don’t have Mozilla’s over 20-year <a href=""https://www.mozilla.org/about/history/"">track record</a> of building products that put people and privacy first.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<p>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/how-download-mozilla-vpn-your-desktop-or-mobile?utm_source=-vpn-related"">How to download Mozilla VPN on your desktop or mobile device</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/what-do-after-you-have-subscribed-mozilla-vpn?utm_source=-vpn-related"">What to do after you have subscribed to Mozilla VPN</a>
+</li></ul>
+<p><strong>Learn more:</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related"">Where can I see my Mozilla VPN subscription information?</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related"">How do I cancel my subscription to Mozilla VPN?</a>
+</li></ul>",mozilla-vpn,billing-and-subscriptions,"With a [Mozilla VPN](\""https://support.mozilla.org/en-US/kb/what-mozilla-vpn-and-how-does-it-work"") subscription, you can install the application on up to five devices and browse the Internet securely and privately. Choose the plan that fits your needs from our [monthly or yearly plans](https://www.mozilla.org/products/vpn/#pricing).
+
+# Subscribe to a plan from your preferred platform
+
+## Website
+
+- Visit the [Mozilla VPN website](https://www.mozilla.org/products/vpn/) and choose a plan from the available options.
+- After you have completed the checkout, you will be prompted to sign in with your Mozilla account and to download the Mozilla VPN client. If you don’t have an account, you’ll be asked to create one.
+
+## Apple Store
+
+- Download Mozilla VPN from the App Store and follow the steps in the application to sign in with your Mozilla account. If you don’t have an account, you’ll be asked to create one.
+- After signing in, you’ll be prompted to choose a subscription plan from the options available.
+
+## Google Play Store
+
+- Download Mozilla VPN from Google Play Store and follow the steps in the app to sign in with your Mozilla account. If you don’t have an account, you’ll be asked to create one.
+- After signing in, you’ll be prompted to choose a subscription plan from the options available.
+
+# What payment options are available?
+
+Enter your credit card details, or select another supported method such as [Apple Pay](https://www.apple.com/apple-pay/), [Google Pay](https://pay.google.com/about/), [Link](https://link.com/), or [PayPal](https://www.paypal.com/) during checkout. All plans come with a 30-day money-back guarantee.
+
+# Why is Mozilla trying to sell products/services when it’s a non-profit?
+
+The Mozilla VPN is developed by the [Mozilla Corporation](https://www.mozilla.org/foundation/moco/), a for-profit entity that is committed to the Mozilla mission and backed by the non-profit Mozilla Foundation. The Mozilla Corporation develops products that help users protect their privacy online. We charge a low fee to develop and maintain the Mozilla VPN, which ultimately helps us build a product that benefits its users and makes the internet a safer place. If you are interested in learning about how Mozilla handles its financials, check out [the annual report](https://www.mozilla.org/foundation/annualreport/).
+
+# How does Mozilla VPN compare to free VPNs?
+
+While free VPNs seem attractive, they often do not make the same commitments to privacy as Mozilla VPN and may sell or store your data. Many other paid VPNs don’t have Mozilla’s over 20-year [track record](https://www.mozilla.org/about/history/) of building products that put people and privacy first.
+
+# Related articles
+
+- [How to download Mozilla VPN on your desktop or mobile device](https://support.mozilla.org/en-US/kb/how-download-mozilla-vpn-your-desktop-or-mobile?utm_source=-vpn-related)
+- [What to do after you have subscribed to Mozilla VPN](https://support.mozilla.org/en-US/kb/what-do-after-you-have-subscribed-mozilla-vpn?utm_source=-vpn-related)
+
+**Learn more:**
+
+- [Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related)
+- [How do I cancel my subscription to Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related)
+
+"
 54543,Customize Firefox Suggest settings,firefox-suggest,https://support.mozilla.org/en-US/kb/firefox-suggest,en-US,Firefox Suggest provides website suggestions as you type into the address bar. Learn about this feature and how to customize your settings.,"<p>
 </p>
 
@@ -94182,6 +94916,39 @@ Making sure the domains listed in this article are allowed by your firewall or o
 # Firefox Suggest
 
 - [https://merino.services.mozilla.com](https://merino.services.mozilla.com)
+
+"
+60431,What's new in Firefox for iOS (version 109),whats-new-firefox-ios-version-109,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-109,en-US,See what's new in the latest release of Firefox for iOS (version 109).,"<p>Welcome to a new version of Firefox for iOS (version 109). Here are some highlights of bug fixes and enhancements in this version:
+</p>
+<h1 id=""w_features"">Features</h1>
+<ul><li>Firefox now supports taking full-page screenshots to save them as PDFs. See <a href=""/en-US/kb/save-web-pages-pdfs-firefox-ios"">Save web pages as PDFs in Firefox for iOS</a> and learn how to use this feature.
+</li></ul>
+<h1 id=""w_fixed"">Fixed</h1>
+<ul><li>Deleting an inactive tab scrolled back to the beginning of the Inactive Tabs list.
+</li><li>Users couldn't remove the homepage shortcut.
+</li><li>Recently closed panel wasn't accessible after closing a tab.
+</li><li>Pinned Tabs didn't show on the new tab page.
+</li></ul>
+<p>We hope you enjoy this new version. Thank you for using Firefox and supporting Mozilla’s mission for privacy, safety and inclusion on the Web.
+</p>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 109). Here are some highlights of bug fixes and enhancements in this version:
+
+# Features
+
+- Firefox now supports taking full-page screenshots to save them as PDFs. See [Save web pages as PDFs in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/save-web-pages-pdfs-firefox-ios"") and learn how to use this feature.
+
+# Fixed
+
+- Deleting an inactive tab scrolled back to the beginning of the Inactive Tabs list.
+- Users couldn't remove the homepage shortcut.
+- Recently closed panel wasn't accessible after closing a tab.
+- Pinned Tabs didn't show on the new tab page.
+
+We hope you enjoy this new version. Thank you for using Firefox and supporting Mozilla’s mission for privacy, safety and inclusion on the Web.
+
+"
+60457,What's new in Firefox Klar for iOS (version 107),whats-new-firefox-klar-ios-version-107,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-107,en-US,Welcome to version 107 of Firefox Klar for iOS.,"<p>
+</p><p>Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
+</p>",klar,firefox-klar-ios,"Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
 
 "
 60493,Mozilla People Directory - Managing account data,mozilla-people-directory-managing-account-data,https://support.mozilla.org/en-US/kb/mozilla-people-directory-managing-account-data,en-US,Manage your account data in the Mozilla People Directory.,"<h1 id=""w_what-data-do-you-receive-from-my-account"">What data do you receive from my account?</h1>
@@ -122711,8 +123478,8 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 </p>",thunderbird,add-ons-extensions-and-themes;settings,"Work in progress. More later.
 
 "
-72668,Tab Notes in Firefox,tab-notes-firefox,https://support.mozilla.org/en-US/kb/tab-notes-firefox,en-US,"Learn how to add, view, edit, and delete tab notes in Firefox to keep track of important web pages.","<p>Tab Notes let you attach a short note to a web page. You can use them to remember why you opened a page, what you planned to do next, or any details you want to revisit later. 
-</p><p>Notes stay connected to the page’s URL.  When you return to that page, your note reappears automatically.
+72668,Tab Notes in Firefox,tab-notes-firefox,https://support.mozilla.org/en-US/kb/tab-notes-firefox,en-US,"Learn how to add, view, edit and delete tab notes in Firefox to keep track of important web pages.","<p>Tab Notes let you attach a short note to a web page. You can use them to remember why you opened a page, what you planned to do next, or any details you want to revisit later.
+</p><p>Notes stay connected to the page’s URL. When you return to that page, your note reappears automatically.
 </p>
 <div class=""note""><strong>Note:</strong> Tab Notes is an experimental feature available in <a href=""/en-US/kb/firefox-labs-explore-experimental-features-firefox"">Firefox Labs</a>, starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 149.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-on-tab-notes""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn on tab notes</span></a></li><li class=""toclevel-1""><a href=""#w_add-a-note-to-a-page""><span class=""tocnumber"">2</span> <span class=""toctext"">Add a note to a page</span></a><ul><li class=""toclevel-2""><a href=""#w_option-1-from-the-tab-context-menu""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Option 1: From the tab context menu</span></a></li><li class=""toclevel-2""><a href=""#w_option-2-from-the-tab-hover-preview""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Option 2: From the tab hover preview</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_tell-whether-a-page-has-a-note""><span class=""tocnumber"">3</span> <span class=""toctext"">Tell whether a page has a note</span></a></li><li class=""toclevel-1""><a href=""#w_view-a-note""><span class=""tocnumber"">4</span> <span class=""toctext"">View a note</span></a></li><li class=""toclevel-1""><a href=""#w_edit-a-note""><span class=""tocnumber"">5</span> <span class=""toctext"">Edit a note</span></a></li><li class=""toclevel-1""><a href=""#w_delete-a-note""><span class=""tocnumber"">6</span> <span class=""toctext"">Delete a note</span></a></li><li class=""toclevel-1""><a href=""#w_how-notes-behave""><span class=""tocnumber"">7</span> <span class=""toctext"">How notes behave</span></a></li><li class=""toclevel-1""><a href=""#w_known-limitations""><span class=""tocnumber"">8</span> <span class=""toctext"">Known limitations</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">9</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
@@ -122732,7 +123499,7 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 <h2 id=""w_option-1-from-the-tab-context-menu"">Option 1: From the tab context menu</h2>
 <ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
  a tab.
-</li><li>Select <span class=""button"">Add Note</span>.
+</li><li>Select <span class=""menu"">Add Note</span>.
 </li><li>Enter your note.
 </li><li>Click <span class=""button"">Save</span>.
 </li></ol>
@@ -122740,7 +123507,7 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 </dt></dl>
 <h2 id=""w_option-2-from-the-tab-hover-preview"">Option 2: From the tab hover preview</h2>
 <ol><li>Hover over a tab.
-</li><li>Click <span class=""button"">Add Note</span> in the preview panel.
+</li><li>Click <span class=""menu"">Add Note</span> in the preview panel.
 </li><li>Enter your note.
 </li><li>Click <span class=""button"">Save</span>.
 </li></ol>
@@ -122764,7 +123531,7 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 </p>
 <ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
  the tab.
-</li><li>Select <span class=""button"">Update Note</span> and then <span class=""button"">Edit Note</span>.
+</li><li>Select <span class=""menu"">Update Note</span> and then <span class=""menu"">Edit Note</span>.
 </li><li>Make your changes.
 </li><li>Click <span class=""button"">Save</span>.
 </li></ol>
@@ -122775,7 +123542,7 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 </p>
 <ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
  the tab.
-</li><li>Select <span class=""button"">Update Note</span> &gt; <span class=""button"">Delete Note</span>. 
+</li><li>Select <span class=""menu"">Update Note</span> and then <span class=""menu"">Delete Note</span>.
 </li></ol>
 <dl><dt><img alt=""deletenoteoption"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-09-08-50-38-49e5ad.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
@@ -122791,7 +123558,7 @@ The list of malicious websites is maintained by Mozilla to protect users of Fire
 </li></ul>
 </li></ul>
 <h1 id=""w_known-limitations"">Known limitations</h1>
-<ul><li>Notes work only on pages that start with http:// or https://.
+<ul><li>Notes work only on pages that start with <code>http://</code> or <code>https://</code>.
 </li><li>Notes are limited to 1,000 characters.
 </li><li>Notes created in a private window will be visible in a normal window (and vice versa).
 </li><li>Notes are not searchable from the address bar.
@@ -122890,7 +123657,7 @@ You can edit a note from the tab context menu:
 From the tab context menu:
 
 1. Right-clickRight-click (or hold down the Control key while you click) the tab.
-2. Select Update Note \> Delete Note. 
+2. Select Update Note and then Delete Note.
 
 <dl><dt>
 <img alt=""deletenoteoption"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-09-08-50-38-49e5ad.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -122908,7 +123675,7 @@ Tab Notes are connected to a page’s URL and maintain this association until yo
 
 # Known limitations
 
-- Notes work only on pages that start with http:// or https://.
+- Notes work only on pages that start with `http://` or `https://`.
 - Notes are limited to 1,000 characters.
 - Notes created in a private window will be visible in a normal window (and vice versa).
 - Notes are not searchable from the address bar.
