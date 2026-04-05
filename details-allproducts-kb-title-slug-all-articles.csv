@@ -85033,60 +85033,6 @@ Visit [https://relay.firefox.com/accounts/settings/](https://relay.firefox.com/a
 </dt></dl>
 
 "
-55581,What's New in Firefox Klar for iOS (version 39),whats-new-klar-ios-39,https://support.mozilla.org/en-US/kb/whats-new-klar-ios-39,en-US,Welcome to version 39 of Firefox Klar for iOS.,"<p>Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
-</p><p>To learn more about Firefox Focus, see <a href=""/en-US/kb/what-firefox-klar-ios"">What is Firefox Klar for iOS?</a> 
-</p><p>We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
-</p>",klar,firefox-klar-ios,"Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
-
-To learn more about Firefox Focus, see [What is Firefox Klar for iOS?](\""https://support.mozilla.org/en-US/kb/what-firefox-klar-ios"")
-
-We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
-
-"
-55628,Firefox for Enterprise 94 - Release notes,firefox-enterprise-94-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-94-release-notes,en-US,See what's coming out with Firefox for Enterprise 94.,"<p>Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_general"">General</h1>
-<ul><li>We now provide an MSIX for Firefox. It can be download via <a href=""https://download.mozilla.org/?product=firefox-msix-latest-ssl&amp;os=win64&amp;lang=en-US"">this link</a>. We do not provide an MSIX for the ESR (yet).
-</li></ul>
-<ul><li>In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps"">DNSOverHTTPS</a> policy was not properly working for setting a DoH URL. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1732961"">bug 1732961</a>.
-</li></ul>
-<ul><li>The Pocket option in the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome"">FirefoxHome</a> policy was not disabling the checkbox in preferences. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1729001"">bug 1729001</a>..
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-</li></ul>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports macOS versions &lt; 10.12.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
-
-## Table of Contents
-
-- [1 General](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_general)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_special-notes)
-
-# General
-
-- We now provide an MSIX for Firefox. It can be download via [this link](https://download.mozilla.org/?product=firefox-msix-latest-ssl&os=win64&lang=en-US). We do not provide an MSIX for the ESR (yet).
-
-- In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
-
-# Policies
-
-- The [DNSOverHTTPS](https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps) policy was not properly working for setting a DoH URL. This was fixed in [bug 1732961](https://bugzilla.mozilla.org/show_bug.cgi?id=1732961).
-
-- The Pocket option in the [FirefoxHome](https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome) policy was not disabling the checkbox in preferences. This was fixed in [bug 1729001](https://bugzilla.mozilla.org/show_bug.cgi?id=1729001)..
-
-# Special Notes
-
-- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-
-- The Firefox 78 ESR is the last version of Firefox that supports macOS versions \< 10.12.
-
-"
 55632,Change your theme in Firefox Focus for iOS,change-your-theme-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-focus-ios,en-US,Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
 </p>
 <h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
@@ -91784,6 +91730,97 @@ If your profile folder is larger than 2 GB, you need to use your file manager an
 
 **Note:** You can also use a third-party file compressor that has the ability to create multiple volumes to split the archive into smaller files, such as [7zip](https://7-zip.org/) (available for Windows, Mac, and Linux).
 "
+58863,Import settings and data into Thunderbird,thunderbird-import,https://support.mozilla.org/en-US/kb/thunderbird-import,en-US,"With Thunderbird's import tool, you can import settings and data from a variety of sources including Thunderbird profiles, other applications or files.","<p>With Thunderbird's <strong>Import Tool</strong>, you can import settings and data from a variety of sources including <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profiles</a>, other applications or certain files. For example, you can use this tool to migrate accounts, messages, address books, calendars and settings into your current Thunderbird application. The Import Tool also works hand in hand with Thunderbird's <a href=""/en-US/kb/thunderbird-export"">Export Tool</a>.
+</p>
+<h1 id=""w_how-to-import-settings-and-data-with-the-import-tool"">How to import settings and data with the Import Tool</h1>
+<p><img alt=""TB102-tools-import-step1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-30-07-57-09-d912ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>Here's how to get going with your import:
+</p>
+<ol><li> Select <span class=""button"">≡</span> &gt; <span class=""menu"">Tools</span> &gt; <span class=""menu"">Import</span>.
+</li><li> Select an import source from the list, either one of the applications <em>or</em> <span class=""menu"">Import from a file</span>.
+</li><li> Click the <span class=""button"">Continue</span> button.
+</li><li> In step 2 of the import, you will be offered more choices to specify your source. After making your choice, click the <span class=""button"">Continue</span> button.
+</li><li> In step 3, choose what parts of the source data you want to import, then click the <span class=""button"">Continue</span> button.
+</li><li> In the final confirmation step, you'll see a summary of your choices. Click the <span class=""button"">Start Import</span> button to perform the import, or the <span class=""button"">&lt; Back</span> button to make changes.
+</li></ol>
+<div class=""warning""><strong>Please note that the Import Tool will currently not support ZIP files larger than 2 GB.</strong><br>
+If you are importing from another Thunderbird profile, and your source folder is larger than 2 GB, please use <span class=""menu"">Import from another Thunderbird installation</span> in step 1 and then select <span class=""menu"">Choose a profile folder</span> in step 2 of the import.</div>
+<div class=""warning""><strong>Outlook import requires Outlook to be installed.</strong><br>
+Thunderbird leverages Outlook to import Outlook data. It is not sufficient to have a .pst file, but Outlook must be installed on your device.</div>",thunderbird,email-and-messaging;import-and-export-email;import-and-export-settings;settings,"With Thunderbird's **Import Tool** , you can import settings and data from a variety of sources including [Thunderbird profiles](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), other applications or certain files. For example, you can use this tool to migrate accounts, messages, address books, calendars and settings into your current Thunderbird application. The Import Tool also works hand in hand with Thunderbird's [Export Tool](\""https://support.mozilla.org/en-US/kb/thunderbird-export"").
+
+# How to import settings and data with the Import Tool
+
+![TB102-tools-import-step1](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Here's how to get going with your import:
+
+1. Select ≡ \> Tools \> Import.
+2. Select an import source from the list, either one of the applications _or_ Import from a file.
+3. Click the Continue button.
+4. In step 2 of the import, you will be offered more choices to specify your source. After making your choice, click the Continue button.
+5. In step 3, choose what parts of the source data you want to import, then click the Continue button.
+6. In the final confirmation step, you'll see a summary of your choices. Click the Start Import button to perform the import, or the \< Back button to make changes.
+
+**Please note that the Import Tool will currently not support ZIP files larger than 2 GB.**  
+If you are importing from another Thunderbird profile, and your source folder is larger than 2 GB, please use Import from another Thunderbird installation in step 1 and then select Choose a profile folder in step 2 of the import.
+
+**Outlook import requires Outlook to be installed.**  
+Thunderbird leverages Outlook to import Outlook data. It is not sufficient to have a .pst file, but Outlook must be installed on your device.
+"
+58869,In which countries is MDN Plus available to subscribe?,which-countries-mdn-plus-available-subscribe,https://support.mozilla.org/en-US/kb/which-countries-mdn-plus-available-subscribe,en-US,Check this article to see if MDN Plus is available in your country.,"<p><a href=""/en-US/kb/whats-difference-between-mdn-and-mdn-plus"">MDN Plus</a> is available in American Samoa, Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Guam, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Northern Mariana Islands, Portugal, Puerto Rico, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, U.S. Virgin Islands, United Kingdom, United States.
+</p>
+<h1 id=""w_i-subscribed-to-mdn-plus-what-happens-if-i-move-to-a-country-where-mdn-plus-is-not-available"">I subscribed to MDN Plus - What happens if I move to a country where MDN Plus is not available?</h1>
+<p>If you move to a country where MDN Plus is not available after purchasing a subscription in a supported country, your subscription will remain active and you’ll continue to have access to MDN Plus as long as your billing information doesn’t change.
+</p>
+<h1 id=""w_what-languages-is-mdn-plus-available-in"">What languages is MDN Plus available in?</h1>
+<p>MDN Plus is currently available in the following languages:
+</p>
+<ul><li>Brazilian Portuguese
+</li><li>Chinese (Simplified)
+</li><li>Chinese (Traditional)
+</li><li>French
+</li><li>Japanese
+</li><li>Korean
+</li><li>Russian
+</li><li>Spanish
+</li></ul>",mdn-plus,accounts;billing-and-subscriptions,"[MDN Plus](\""https://support.mozilla.org/en-US/kb/whats-difference-between-mdn-and-mdn-plus"") is available in American Samoa, Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Guam, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Northern Mariana Islands, Portugal, Puerto Rico, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, U.S. Virgin Islands, United Kingdom, United States.
+
+# I subscribed to MDN Plus - What happens if I move to a country where MDN Plus is not available?
+
+If you move to a country where MDN Plus is not available after purchasing a subscription in a supported country, your subscription will remain active and you’ll continue to have access to MDN Plus as long as your billing information doesn’t change.
+
+# What languages is MDN Plus available in?
+
+MDN Plus is currently available in the following languages:
+
+- Brazilian Portuguese
+- Chinese (Simplified)
+- Chinese (Traditional)
+- French
+- Japanese
+- Korean
+- Russian
+- Spanish
+
+"
+58871,In which countries is Firefox Relay Premium available to subscribe?,which-countries-firefox-relay-premium-available-subscribe,https://support.mozilla.org/en-US/kb/which-countries-firefox-relay-premium-available-subscribe,en-US,Relay Premium is available in 17 countries. Check this article to learn if your country is on the list or join the waitlist to be notified when it becomes available to you.,"<p><a href=""/en-US/kb/subscribe-firefox-relay-premium"">Relay Premium</a>  is currently available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK. If Firefox Relay is not available in your country, join the <a href=""https://relay.firefox.com/premium/waitlist"">waitlist</a> to be first to know when it becomes available in your region.
+</p>
+<h1 id=""w_i-subscribed-to-relay-premium-what-happens-if-i-move-to-a-country-where-firefox-relay-premium-is-not-available"">I subscribed to Relay Premium - What happens if I move to a country where Firefox Relay Premium is not available?</h1>
+<p>Your subscription to Relay Premium will remain active and you’ll still be able to use all premium features as long as your billing information doesn’t change.
+</p><p><strong>Related content:</strong>
+</p>
+<ul><li><a href=""/en-US/kb/in-what-languages-is-firefox-relay-available-in"">In what languages is Firefox Relay available in?</a>
+</li></ul>",relay,billing-and-subscriptions;manage-subscriptions,"[Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"") is currently available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Finland, France, Estonia, Greece, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, the Netherlands, New Zealand, Poland, Portugal, Romania, Spain, Singapore, Slovakia, Slovenia, Sweden, Switzerland, the US and the UK. If Firefox Relay is not available in your country, join the [waitlist](https://relay.firefox.com/premium/waitlist) to be first to know when it becomes available in your region.
+
+# I subscribed to Relay Premium - What happens if I move to a country where Firefox Relay Premium is not available?
+
+Your subscription to Relay Premium will remain active and you’ll still be able to use all premium features as long as your billing information doesn’t change.
+
+**Related content:**
+
+- [In what languages is Firefox Relay available in?](\""https://support.mozilla.org/en-US/kb/in-what-languages-is-firefox-relay-available-in"")
+
+"
 58946,Troubleshoot Mozilla VPN connection problems,troubleshoot-mozilla-vpn-connection-problems,https://support.mozilla.org/en-US/kb/troubleshoot-mozilla-vpn-connection-problems,en-US,"What to do if Mozilla VPN disconnects or turns off after being activated, or if websites fail to load even though Mozilla VPN is connected.","<p>If you find that Mozilla VPN is disconnecting or turning off after being activated, you can try the below steps to resolve this issue. These steps are also helpful if Mozilla VPN is connected, but websites fail to load.
 </p><p></p><section class=""mzp-c-details"">
 <p></p>
@@ -95134,6 +95171,86 @@ Making sure the domains listed in this article are allowed by your firewall or o
 - Pinned Tabs didn't show on the new tab page.
 
 We hope you enjoy this new version. Thank you for using Firefox and supporting Mozilla’s mission for privacy, safety and inclusion on the Web.
+
+"
+60457,What's new in Firefox Klar for iOS (version 107),whats-new-firefox-klar-ios-version-107,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-107,en-US,Welcome to version 107 of Firefox Klar for iOS.,"<p>
+</p><p>Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
+</p>",klar,firefox-klar-ios,"Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
+
+"
+60493,Mozilla People Directory - Managing account data,mozilla-people-directory-managing-account-data,https://support.mozilla.org/en-US/kb/mozilla-people-directory-managing-account-data,en-US,Manage your account data in the Mozilla People Directory.,"<h1 id=""w_what-data-do-you-receive-from-my-account"">What data do you receive from my account?</h1>
+<h2 id=""w_required-account-data"">Required Account Data</h2>
+<ul><li>Username
+</li><li>Email address
+</li></ul>
+<p>We will authenticate your account using <a href=""https://wikipedia.org/wiki/OAuth"">OAuth</a>.
+</p>
+<h2 id=""w_optional-account-data"">Optional Account Data</h2>
+<ul><li>First Name
+</li><li>Last Name
+</li><li>Location, time zone
+</li><li>Secondary email address
+</li><li>Telephone number
+</li><li>Biography (blank text box)
+</li><li>Access Groups
+</li><li>Tags
+</li><li>Languages
+</li><li>GitHub and Bugzilla identities
+</li><li>Links to other accounts (for example Discourse, Vouches, Matrix, Slack, Zoom and IRC)
+</li></ul>
+<h1 id=""w_how-do-i-access-my-account-data"">How do I access my account data?</h1>
+<p>This is easily accessible by logging in to your account at <a href=""https://people.mozilla.org"">https://people.mozilla.org</a>.
+</p>
+<h1 id=""w_how-do-i-update-my-account-data"">How do I update my account data?</h1>
+<p>Once you're logged in to your Mozilla account at <a href=""https://people.mozilla.org/"">https://people.mozilla.org/</a>, you can update or edit your personal data. A pencil icon in the top right corner of each editable section allows you to modify your information.
+</p>
+<h1 id=""w_how-do-i-delete-my-account-data"">How do I delete my account data?</h1>
+<p>To delete your account, email Mozilla at <a href=""mailto:people-mozilla-org-support@mozilla.com"">people-mozilla-org-support@mozilla.com</a>.
+</p>
+<h1 id=""w_how-long-do-you-keep-my-account-data"">How long do you keep my account data?</h1>
+<p>We keep it for as long as your account is open, unless you choose to delete it.
+</p>",privacy-and-security,privacy-and-security,"# What data do you receive from my account?
+
+## Required Account Data
+
+- Username
+- Email address
+
+We will authenticate your account using [OAuth](https://wikipedia.org/wiki/OAuth).
+
+## Optional Account Data
+
+- First Name
+- Last Name
+- Location, time zone
+- Secondary email address
+- Telephone number
+- Biography (blank text box)
+- Access Groups
+- Tags
+- Languages
+- GitHub and Bugzilla identities
+- Links to other accounts (for example Discourse, Vouches, Matrix, Slack, Zoom and IRC)
+
+# How do I access my account data?
+
+This is easily accessible by logging in to your account at [https://people.mozilla.org](https://people.mozilla.org).
+
+# How do I update my account data?
+
+Once you're logged in to your Mozilla account at [https://people.mozilla.org/](https://people.mozilla.org/), you can update or edit your personal data. A pencil icon in the top right corner of each editable section allows you to modify your information.
+
+# How do I delete my account data?
+
+To delete your account, email Mozilla at [people-mozilla-org-support@mozilla.com](mailto:people-mozilla-org-support@mozilla.com).
+
+# How long do you keep my account data?
+
+We keep it for as long as your account is open, unless you choose to delete it.
+
+"
+60503,What's New in Firefox Focus for iOS,whats-new-firefox-focus-ios,https://support.mozilla.org/en-US/kb/whats-new-firefox-focus-ios,en-US,See what's new in the latest release of Firefox Focus for iOS.,"<p>Welcome to a new version of Firefox Focus for iOS. This release comes with bug fixes and technical improvements.
+</p>",focus-firefox,installation-and-updates;update,"Welcome to a new version of Firefox Focus for iOS. This release comes with bug fixes and technical improvements.
 
 "
 60509,Save web pages as PDFs in Firefox for iOS,save-web-pages-pdfs-firefox-ios,https://support.mozilla.org/en-US/kb/save-web-pages-pdfs-firefox-ios,en-US,Learn how to take full-page screenshots that you can share or save as PDFs on your iOS device.,"<p>Firefox lets you take full-page screenshots that you can share or save as PDFs on your device.
@@ -119108,188 +119225,6 @@ You may use Topicbox to discuss or ask questions about Exchange, either the [bet
 # Microsoft hosted vs. self hosted exchange servers
 
 Administrators and others interested in the details of EWS instances (Microsoft hosted, Microsoft hosted as tenant-specific, and self hosted) will want to refer to the [Thunderbird:Exchange wiki page](https://wiki.mozilla.org/Thunderbird:Exchange).
-
-"
-68494,Use widgets on your Firefox New Tab page,firefox-new-tab-widgets,https://support.mozilla.org/en-US/kb/firefox-new-tab-widgets,en-US,"Learn how to manage tasks, focus time, and check the weather using Firefox’s experimental productivity widgets.","<p>Firefox's widgets let you manage task lists, stay focused with a timer and check the weather – all from your <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a>. You can use and customize multiple widgets at once to match your daily routine and particular needs.
-</p>
-<div class=""note""><strong>Note:</strong> The <em>Lists</em> and <em>Timer</em> widgets are <strong>experimental</strong> features and may not be available to all users.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_widgets-gathering-feedback""><span class=""tocnumber"">1</span> <span class=""toctext"">Widgets gathering feedback</span></a></li><li class=""toclevel-1""><a href=""#w_get-started-with-firefox-widgets""><span class=""tocnumber"">2</span> <span class=""toctext"">Get started with Firefox widgets</span></a></li><li class=""toclevel-1""><a href=""#w_customize-your-new-tab-widgets""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize your New Tab widgets</span></a><ul><li class=""toclevel-2""><a href=""#w_organize-your-tasks-with-the-task-lists-widget""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Organize your tasks with the Task Lists widget</span></a></li><li class=""toclevel-2""><a href=""#w_stay-focused-with-the-timer-widget""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Stay focused with the Timer widget</span></a></li><li class=""toclevel-2""><a href=""#w_get-accurate-weather-for-your-location-with-the-weather-widget""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Get accurate weather for your location with the weather widget</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_widgets-gathering-feedback"">Widgets gathering feedback</h1>
-<ul><li>Lists
-</li><li>Timer
-</li></ul>
-<p>
-As of <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 143, we are experimenting with small segments of Firefox desktop and gradually releasing these widgets in certain markets.
-</p>
-<div class=""note""><strong>Feedback is welcome and is being gathered in <a href=""https://connect.mozilla.org/t5/firefox-labs/new-in-firefox-labs-nightly-and-beta-to-start-productivity/td-p/103581"">this post</a> on <a href=""/en-US/kb/what-mozilla-connect"">Mozilla Connect</a>.</strong></div>
-<p>There are certain limitations to be aware of due to the early nature of the features:
-</p>
-<ul><li> Up to 10 lists can be created.
-</li><li> Each list may have up to 100 items.
-</li><li> There is no sync or backup of the lists – we do offer a “Copy to clipboard” for each to provide easy backup and sharing.
-</li><li> Display and handling of long URLs or shortened URLs may not be supported.
-</li></ul>
-<h1 id=""w_get-started-with-firefox-widgets"">Get started with Firefox widgets</h1>
-<p>There are three widgets available for now:
-</p>
-<ul><li>Lists
-</li><li>Timer
-</li><li>Weather
-</li></ul>
-<p>You’ll find the Lists and Timer widgets in the center of the New Tab page, between Shortcuts and Recommended Stories (where Stories are available). The Weather widget appears in the top-right corner, in countries where it is available.
-<img alt=""widgetskb"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-01-30-f86d46.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_customize-your-new-tab-widgets"">Customize your New Tab widgets</h1>
-<p>You can use one or all of the widgets together to improve your workflow. For example, combine lists and the timer to focus on specific tasks or check the weather before you plan your day.
-</p>
-<h2 id=""w_organize-your-tasks-with-the-task-lists-widget"">Organize your tasks with the Task Lists widget</h2>
-<ol><li>Click on the three-dot icon <img alt=""IG page actions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-26-42-077193.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> that appears hovering the widget.
-
-</li><li>Select <span class=""menu"">Edit list name</span> to rename your list.
-<dl><dt><img alt=""tasklist"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-16-57-4e0835.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li>Click <span class=""button"">+ Add an item</span> and add tasks to your list.
-<dl><dt><img alt=""additem"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-27-53-c60d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Click the checkbox next to any task to mark it complete.
-</li></ol>
-<p>You can add, edit, re-order and delete items, as needed. These lists are flexible, and they fit a variety of activities, such as:
-</p>
-<ul><li>To-do lists
-</li><li>Checklists
-</li><li>Shopping lists
-</li><li>Meeting agenda items
-</li></ul>
-<div class=""note""><strong>Tip:</strong> You can add as many as 10 separate lists, each supporting up to 100 items.</div>
-<h2 id=""w_stay-focused-with-the-timer-widget"">Stay focused with the Timer widget</h2>
-<ol><li>Go to the timer area, and type your time (for example, 25:00).
-</li><li>Click the <em>Play</em> button to start the timer.
-</li><li>Use the <em>Pause</em> or <em>Reset</em> buttons to control it.
-<dl><dt><img alt=""timerwidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-37-03-3afc40.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<p>The timer widget allows you to set timers for focus sessions, breaks or any timed activity.
-</p>
-<dl><dt><img alt=""timerwidget2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-40-49-29a9e1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<div class=""note""><strong>Tip:</strong> Try the <strong>25-minute work / 5-minute break</strong> method for productivity.</div>
-<h2 id=""w_get-accurate-weather-for-your-location-with-the-weather-widget"">Get accurate weather for your location with the weather widget</h2>
-<ol><li>Click on the three-dot icon <img alt=""IG page actions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-26-42-077193.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> that appears hovering the widget.
-
-</li><li>Select <span class=""menu"">Change location</span>.
-</li><li>Enter your city/region and select it.
-</li><li>Choose your preferred temperature unit (Celsius or Fahrenheit).
-<dl><dt><img alt=""changelocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-46-00-d6edb7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li></ol>
-<p>You’ll see current conditions and daily temperature details for your selected location.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/customize-items-on-firefox-new-tab-page"">Customize items on your Firefox New Tab page</a>
-</li><li><a href=""/en-US/kb/add-firefox-widget-your-home-screen"">Add a Firefox widget to your Home screen</a> (Firefox for iOS)
-</li><li><a href=""/en-US/kb/add-firefox-search-widget-your-home-screen"">Add the Firefox Search widget to your home screen</a> (Firefox for Android)
-</li><li><a href=""/en-US/kb/how-add-shortcut-website-android"">Create a shortcut to a website on Firefox for Android</a>
-</li></ul>",firefox,browse;home-screen;tabs,"Firefox's widgets let you manage task lists, stay focused with a timer and check the weather – all from your [New Tab page](\""https://support.mozilla.org/en-US/kb/about-new-tab-page""). You can use and customize multiple widgets at once to match your daily routine and particular needs.
-
-**Note:** The _Lists_ and _Timer_ widgets are **experimental** features and may not be available to all users.
-
-## Table of Contents
-
-- [1 Widgets gathering feedback](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_widgets-gathering-feedback)
-- [2 Get started with Firefox widgets](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_get-started-with-firefox-widgets)
-- [3 Customize your New Tab widgets](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_customize-your-new-tab-widgets)
-  - [3.1 Organize your tasks with the Task Lists widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_organize-your-tasks-with-the-task-lists-widget)
-  - [3.2 Stay focused with the Timer widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_stay-focused-with-the-timer-widget)
-  - [3.3 Get accurate weather for your location with the weather widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_get-accurate-weather-for-your-location-with-the-weather-widget)
-
-- [4 Related articles](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_related-articles)
-
-# Widgets gathering feedback
-
-- Lists
-- Timer
-
-As of [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 143, we are experimenting with small segments of Firefox desktop and gradually releasing these widgets in certain markets.
-
-**Feedback is welcome and is being gathered in [this post](https://connect.mozilla.org/t5/firefox-labs/new-in-firefox-labs-nightly-and-beta-to-start-productivity/td-p/103581) on [Mozilla Connect](\""https://support.mozilla.org/en-US/kb/what-mozilla-connect"").**
-
-There are certain limitations to be aware of due to the early nature of the features:
-
-- Up to 10 lists can be created.
-- Each list may have up to 100 items.
-- There is no sync or backup of the lists – we do offer a “Copy to clipboard” for each to provide easy backup and sharing.
-- Display and handling of long URLs or shortened URLs may not be supported.
-
-# Get started with Firefox widgets
-
-There are three widgets available for now:
-
-- Lists
-- Timer
-- Weather
-
-You’ll find the Lists and Timer widgets in the center of the New Tab page, between Shortcuts and Recommended Stories (where Stories are available). The Weather widget appears in the top-right corner, in countries where it is available. ![widgetskb](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Customize your New Tab widgets
-
-You can use one or all of the widgets together to improve your workflow. For example, combine lists and the timer to focus on specific tasks or check the weather before you plan your day.
-
-## Organize your tasks with the Task Lists widget
-
-1. Click on the three-dot icon ![IG page actions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) that appears hovering the widget.
-2. Select Edit list name to rename your list.<dl><dt>
-<img alt=""tasklist"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-16-57-4e0835.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-3. Click + Add an item and add tasks to your list.<dl><dt>
-<img alt=""additem"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-27-53-c60d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-4. Click the checkbox next to any task to mark it complete.
-
-You can add, edit, re-order and delete items, as needed. These lists are flexible, and they fit a variety of activities, such as:
-
-- To-do lists
-- Checklists
-- Shopping lists
-- Meeting agenda items
-
-**Tip:** You can add as many as 10 separate lists, each supporting up to 100 items.
-
-## Stay focused with the Timer widget
-
-1. Go to the timer area, and type your time (for example, 25:00).
-2. Click the _Play_ button to start the timer.
-3. Use the _Pause_ or _Reset_ buttons to control it.<dl><dt>
-<img alt=""timerwidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-37-03-3afc40.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-The timer widget allows you to set timers for focus sessions, breaks or any timed activity.
-
-<dl><dt>
-<img alt=""timerwidget2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-40-49-29a9e1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-**Tip:** Try the **25-minute work / 5-minute break** method for productivity.
-
-## Get accurate weather for your location with the weather widget
-
-1. Click on the three-dot icon ![IG page actions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) that appears hovering the widget.
-2. Select Change location.
-3. Enter your city/region and select it.
-4. Choose your preferred temperature unit (Celsius or Fahrenheit).<dl><dt>
-<img alt=""changelocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-46-00-d6edb7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-
-You’ll see current conditions and daily temperature details for your selected location.
-
-# Related articles
-
-- [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page"")
-- [Add a Firefox widget to your Home screen](\""https://support.mozilla.org/en-US/kb/add-firefox-widget-your-home-screen"") (Firefox for iOS)
-- [Add the Firefox Search widget to your home screen](\""https://support.mozilla.org/en-US/kb/add-firefox-search-widget-your-home-screen"") (Firefox for Android)
-- [Create a shortcut to a website on Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-add-shortcut-website-android"")
-
-"
-68496,Website will not allow Firefox to display the page if another site has embedded it,xframe-neterror-page-redirect-1,https://support.mozilla.org/en-US/kb/xframe-neterror-page-redirect-1,en-US,"","<p>REDIRECT [[Fix error:“Website will not allow Firefox to display the page.”]]
-</p>","","","REDIRECT [[Fix error:“Website will not allow Firefox to display the page.”]]
 
 "
 68513,Control Firefox New Tab personalization,firefox-new-tab-personalization,https://support.mozilla.org/en-US/kb/firefox-new-tab-personalization,en-US,"The Firefox New Tab page now offers improved personalization controls for search, shortcuts, articles, and more while keeping your privacy protected.","<div class=""note"">Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.</div>
