@@ -85033,6 +85033,60 @@ Visit [https://relay.firefox.com/accounts/settings/](https://relay.firefox.com/a
 </dt></dl>
 
 "
+55581,What's New in Firefox Klar for iOS (version 39),whats-new-klar-ios-39,https://support.mozilla.org/en-US/kb/whats-new-klar-ios-39,en-US,Welcome to version 39 of Firefox Klar for iOS.,"<p>Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
+</p><p>To learn more about Firefox Focus, see <a href=""/en-US/kb/what-firefox-klar-ios"">What is Firefox Klar for iOS?</a> 
+</p><p>We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+</p>",klar,firefox-klar-ios,"Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
+
+To learn more about Firefox Focus, see [What is Firefox Klar for iOS?](\""https://support.mozilla.org/en-US/kb/what-firefox-klar-ios"")
+
+We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+
+"
+55628,Firefox for Enterprise 94 - Release notes,firefox-enterprise-94-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-94-release-notes,en-US,See what's coming out with Firefox for Enterprise 94.,"<p>Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
+<h1 id=""w_general"">General</h1>
+<ul><li>We now provide an MSIX for Firefox. It can be download via <a href=""https://download.mozilla.org/?product=firefox-msix-latest-ssl&amp;os=win64&amp;lang=en-US"">this link</a>. We do not provide an MSIX for the ESR (yet).
+</li></ul>
+<ul><li>In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
+</li></ul>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps"">DNSOverHTTPS</a> policy was not properly working for setting a DoH URL. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1732961"">bug 1732961</a>.
+</li></ul>
+<ul><li>The Pocket option in the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome"">FirefoxHome</a> policy was not disabling the checkbox in preferences. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1729001"">bug 1729001</a>..
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
+</li></ul>
+<ul><li>The Firefox 78 ESR is the last version of Firefox that supports macOS versions &lt; 10.12.
+</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
+
+## Table of Contents
+
+- [1 General](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_general)
+- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_policies)
+- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_special-notes)
+
+# General
+
+- We now provide an MSIX for Firefox. It can be download via [this link](https://download.mozilla.org/?product=firefox-msix-latest-ssl&os=win64&lang=en-US). We do not provide an MSIX for the ESR (yet).
+
+- In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
+
+# Policies
+
+- The [DNSOverHTTPS](https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps) policy was not properly working for setting a DoH URL. This was fixed in [bug 1732961](https://bugzilla.mozilla.org/show_bug.cgi?id=1732961).
+
+- The Pocket option in the [FirefoxHome](https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome) policy was not disabling the checkbox in preferences. This was fixed in [bug 1729001](https://bugzilla.mozilla.org/show_bug.cgi?id=1729001)..
+
+# Special Notes
+
+- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
+
+- The Firefox 78 ESR is the last version of Firefox that supports macOS versions \< 10.12.
+
+"
 55632,Change your theme in Firefox Focus for iOS,change-your-theme-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-focus-ios,en-US,Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
 </p>
 <h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
@@ -87362,230 +87416,6 @@ To move your search bar:
 
 **Note** : The Address Bar cannot be relocated on iPads.
 "
-57208,Total Cookie Protection and website breakage FAQ,total-cookie-protection-and-website-breakage-faq,https://support.mozilla.org/en-US/kb/total-cookie-protection-and-website-breakage-faq,en-US,"Learn about Enhanced Tracking Protection and Total Cookie Protection in Firefox, and how to troubleshoot and report possible site breakage.","<p><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> in Firefox automatically protects your privacy while you browse. It blocks cookies and trackers that follow you around online to collect information about your browsing habits and interests. With <a href=""/en-US/kb/introducing-total-cookie-protection-standard-mode"">Total Cookie Protection</a> within Enhanced Tracking Protection enabled, Firefox will block third-party cookies to prevent tracking companies from tracking your browsing from site to site. However, this may cause some websites not to work correctly, which is referred to as site breakage.
-</p><p>The following FAQs can help you understand how cookies work, how Mozilla helps protect your privacy, and how to identify if a website isn’t working correctly due to Total Cookie Protection.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-a-cookie""><span class=""tocnumber"">1</span> <span class=""toctext"">What is a cookie?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-third-party-cookies""><span class=""tocnumber"">2</span> <span class=""toctext"">What are third-party cookies?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-enhanced-tracking-protection""><span class=""tocnumber"">3</span> <span class=""toctext"">What is Enhanced Tracking Protection?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-total-cookie-protection""><span class=""tocnumber"">4</span> <span class=""toctext"">What is Total Cookie Protection?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-enhanced-tracking-protection-and-total-cookie-protection""><span class=""tocnumber"">5</span> <span class=""toctext"">What is the difference between Enhanced Tracking Protection and Total Cookie Protection?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-access-the-enhanced-tracking-protection-settings""><span class=""tocnumber"">6</span> <span class=""toctext"">How do I access the Enhanced Tracking Protection settings?</span></a></li><li class=""toclevel-1""><a href=""#w_why-does-total-cookie-protection-cause-site-breakage""><span class=""tocnumber"">7</span> <span class=""toctext"">Why does Total Cookie Protection cause site breakage?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kind-of-breakages-does-total-cookie-protection-cause""><span class=""tocnumber"">8</span> <span class=""toctext"">What kind of breakages does Total Cookie Protection cause?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-know-if-the-site-breakage-is-caused-by-total-cookie-protection""><span class=""tocnumber"">9</span> <span class=""toctext"">How do I know if the site breakage is caused by Total Cookie Protection?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-disable-total-cookie-protection-without-disabling-enhanced-tracking-protection""><span class=""tocnumber"">10</span> <span class=""toctext"">Can I disable Total Cookie Protection without disabling Enhanced Tracking Protection?</span></a></li><li class=""toclevel-1""><a href=""#w_if-i-disable-total-cookie-protection-to-fix-the-breakage-will-third-party-cookies-be-able-to-track-me""><span class=""tocnumber"">11</span> <span class=""toctext"">If I disable Total Cookie Protection to fix the breakage, will third-party cookies be able to track me?</span></a></li><li class=""toclevel-1""><a href=""#w_a-website-asked-me-to-disable-cookie-protections-to-work-correctly-is-this-safe""><span class=""tocnumber"">12</span> <span class=""toctext"">A website asked me to disable cookie protections to work correctly. Is this safe?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-report-site-breakage-caused-by-total-cookie-protection""><span class=""tocnumber"">13</span> <span class=""toctext"">How do I report site breakage caused by Total Cookie Protection?</span></a></li></ul></div>
-<h1 id=""w_what-is-a-cookie"">What is a cookie?</h1>
-<p>Cookies are small files that collect information about your activity on websites you visit. They often store your login information and your preferred language or location. When you return to a website you’ve previously visited, cookies store your login information and preferences. Cookies also store other information that can be used to identify you and track your online activity.
-</p>
-<h1 id=""w_what-are-third-party-cookies"">What are third-party cookies?</h1>
-<p>Third-party cookies are cookies set by a website other than the one you are currently on and that are stored on your computer. Third-party cookies can track you across websites to learn from your online activity to personalize your content based on preferences.
-</p>
-<h1 id=""w_what-is-enhanced-tracking-protection"">What is Enhanced Tracking Protection?</h1>
-<p>Enhanced Tracking Protection is a Firefox feature that blocks trackers that follow you around online to collect information about your browsing habits and interests.
-</p>
-<h1 id=""w_what-is-total-cookie-protection"">What is Total Cookie Protection?</h1>
-<p>Total Cookie Protection is an advancement built into Enhanced Tracking Protection that works by maintaining a separate “cookie jar” for each website you visit. Any time a website, or third-party content embedded in a website, deposits a cookie in your browser, that cookie is confined to the cookie jar assigned to that website, such that it is not allowed to be shared with any other website.
-</p><p><img alt=""TCPFx86"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-08-26-38-f668bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</p><p>Total Cookie Protection is enabled by default in Firefox to all users worldwide. To learn more, see <a href=""https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"">this Mozilla Blog post</a>.
-</p>
-<h1 id=""w_what-is-the-difference-between-enhanced-tracking-protection-and-total-cookie-protection"">What is the difference between Enhanced Tracking Protection and Total Cookie Protection?</h1>
-<p>Enhanced Tracking Protection blocks cookies from companies that have been identified as trackers. Total Cookie Protection is an additional privacy protection built into Enhanced Tracking Protection. Total Cookie Protection provides more comprehensive protections against cookie-based tracking to ensure that no cookies can be used to track you from site to site as you browse the web.
-</p><p><img alt=""ETPsettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-08-35-53-3a6444.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</p>
-<h1 id=""w_how-do-i-access-the-enhanced-tracking-protection-settings"">How do I access the Enhanced Tracking Protection settings?</h1>
-<p>To access the Enhanced Tracking Protection settings, follow the steps below:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click on the <span class=""menu"">Privacy &amp; Security</span> panel to the left side of the screen.
-</li></ol>
-<h1 id=""w_why-does-total-cookie-protection-cause-site-breakage"">Why does Total Cookie Protection cause site breakage?</h1>
-<p>Total Cookie Protection divides a website's third-party storage into different partitions in order to isolate cookies, so they can't track you across websites. When this happens, sites can break because website developers don't expect third-party storage to be split in this way. The breakage occurs when the first-party website tries to retrieve information from the third-party storage that has been partitioned.
-</p>
-<h1 id=""w_what-kind-of-breakages-does-total-cookie-protection-cause"">What kind of breakages does Total Cookie Protection cause?</h1>
-<p>Breakage caused by Total Cookie Protection appears in three forms:
-</p>
-<ul><li><strong>An error message:</strong> When a website identifies a problem with a third-party iframe, an error message is frequently displayed to warn the user of the problem.
-</li><li><strong>Site breakage after login:</strong> Even if the site login works, certain website functionality may be broken.
-</li><li><strong>Unsuccessful login:</strong> The site's login process is never completed. It will return to the logged-out status and prompt users to log in again.
-</li></ul>
-<h1 id=""w_how-do-i-know-if-the-site-breakage-is-caused-by-total-cookie-protection"">How do I know if the site breakage is caused by Total Cookie Protection?</h1>
-<p>Total Cookie Protection is not the only feature of Firefox that can break a website. Frequently, the website's failure has nothing to do with Total Cookie Protection. Therefore, we need to make sure that Total Cookie Protection is actually breaking the site before reporting the problem to the support staff.
-</p>
-<ul><li>Disable Enhanced Tracking Protection by clicking the toggle in the shield panel next to the address bar, and then test the breakage. If this fixes the problem, it’s a Total Cookie Protection-related issue.
-</li><li>Advanced users can visit the <em>about:config</em> page and check if the preference <span class=""pref"">network.cookie.cookieBehavior</span> is set to <span class=""pref"">4</span> or <span class=""pref"">5</span>. Changing the preference value to <span class=""pref"">4</span> will disable Total Cookie Protection while still blocking Cross-Site Tracking Cookies (third party cookies from known tracking servers). If this fixes the breakage, it’s a Total Cookie Protection-related issue. <div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-</li></ul>
-<h1 id=""w_can-i-disable-total-cookie-protection-without-disabling-enhanced-tracking-protection"">Can I disable Total Cookie Protection without disabling Enhanced Tracking Protection?</h1>
-<p>Yes. To disable Total Cookie Protection, follow these steps:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select the <span class=""menu"">Privacy &amp; Security</span> panel on the left side of the screen.
-</li><li>Under <em>Enhanced Tracking Protection</em>, select the <strong>Custom</strong> setting.
-</li><li>Set the drop-down menu next to <em>Cookies</em> to <strong>Cross-Site Tracking Cookies</strong>.
-</li></ol>
-<p>This will disable Total Cookie Protection but keep Enhanced Tracking Protection enabled.
-</p>
-<h1 id=""w_if-i-disable-total-cookie-protection-to-fix-the-breakage-will-third-party-cookies-be-able-to-track-me"">If I disable Total Cookie Protection to fix the breakage, will third-party cookies be able to track me?</h1>
-<p>Disabling Total Cookie Protection will make it easier for sites to track you. But Enhanced Tracking Protection will still provide some baseline protection in standard mode.
-</p>
-<h1 id=""w_a-website-asked-me-to-disable-cookie-protections-to-work-correctly-is-this-safe"">A website asked me to disable cookie protections to work correctly. Is this safe?</h1>
-<p>If users disable the protections, they will effectively allow sites to track them. Therefore, if you still want to visit the site, you should disable Enhanced Tracking Protection for that specific site only.
-</p>
-<h1 id=""w_how-do-i-report-site-breakage-caused-by-total-cookie-protection"">How do I report site breakage caused by Total Cookie Protection?</h1>
-<p>Once you’ve confirmed that Total Cookie Protection causes the issue, you can report it to the AntiTracking Engineering team.
-</p><p><strong>Open an AntiTracking Bugzilla Bug</strong><br>
-Opening a bug on Bugzilla using our <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&amp;blocked=1602922&amp;bug_ignored=0&amp;bug_severity=--&amp;bug_status=NEW&amp;bug_type=defect&amp;cf_a11y_review_project_flag=---&amp;cf_fission_milestone=---&amp;cf_fx_iteration=---&amp;cf_fx_points=---&amp;cf_root_cause=---&amp;cf_status_firefox96=---&amp;cf_status_firefox97=---&amp;cf_status_firefox98=---&amp;cf_status_firefox_esr91=---&amp;cf_status_thunderbird_esr91=---&amp;cf_tracking_firefox96=---&amp;cf_tracking_firefox97=---&amp;cf_tracking_firefox98=---&amp;cf_tracking_firefox_esr91=---&amp;cf_tracking_firefox_relnote=---&amp;cf_tracking_firefox_sumo=---&amp;cf_tracking_thunderbird_esr91=---&amp;cf_webcompat_priority=---&amp;comment=Environment%3A%0D%0ABrowser%20%2F%20Version%3A%20%5Be.g.%20Firefox%20Nightly%2097.0a1%20%282021-12-29%29%5D%0D%0AOperating%20System%3A%20%5Be.g.%20Windows%2010%20Pro%5D%0D%0A%0D%0APrerequisites%3A%0D%0A%5BAnything%20we%20need%20to%20set%20up%20before%20reproducing%20the%20issue%5D%0D%0A%0D%0ASteps%20to%20Reproduce%3A%0D%0A%0D%0AExpected%20Behavior%3A%0D%0A%0D%0AActual%20Behavior%3A%0D%0A%0D%0ANotes%3A&amp;component=Privacy%3A%20Anti-Tracking&amp;contenttypemethod=list&amp;contenttypeselection=text%2Fplain&amp;defined_groups=1&amp;filed_via=standard_form&amp;flag_type-203=X&amp;flag_type-37=X&amp;flag_type-41=X&amp;flag_type-607=X&amp;flag_type-721=X&amp;flag_type-737=X&amp;flag_type-787=X&amp;flag_type-799=X&amp;flag_type-800=X&amp;flag_type-803=X&amp;flag_type-846=X&amp;flag_type-855=X&amp;flag_type-863=X&amp;flag_type-864=X&amp;flag_type-930=X&amp;flag_type-936=X&amp;flag_type-937=X&amp;flag_type-947=X&amp;form_name=enter_bug&amp;maketemplate=Remember%20values%20as%20bookmarkable%20template&amp;op_sys=Unspecified&amp;priority=--&amp;product=Core&amp;rep_platform=Unspecified&amp;short_desc=%5BDescribe%20the%20breakage%20component%5D%20on%20%5BThe%20broken%20site%5D%20with%20ETP%20-%20Standard%20Enabled%20&amp;target_milestone=---&amp;version=unspecified"">bug template</a> helps us diagnose the issue more quickly. Please provide detailed information regarding the breakage, such as a screenshot of the breakage or clear steps to reproduce the issue. You can also provide troubleshooting information from the <em>about:support</em> page. This helps us to reproduce the problem locally.
-</p>",firefox,privacy-and-security;tracking-protection,"[Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"") in Firefox automatically protects your privacy while you browse. It blocks cookies and trackers that follow you around online to collect information about your browsing habits and interests. With [Total Cookie Protection](\""https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode"") within Enhanced Tracking Protection enabled, Firefox will block third-party cookies to prevent tracking companies from tracking your browsing from site to site. However, this may cause some websites not to work correctly, which is referred to as site breakage.
-
-The following FAQs can help you understand how cookies work, how Mozilla helps protect your privacy, and how to identify if a website isn’t working correctly due to Total Cookie Protection.
-
-## Table of Contents
-
-- [1 What is a cookie?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-is-a-cookie)
-- [2 What are third-party cookies?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-are-third-party-cookies)
-- [3 What is Enhanced Tracking Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-is-enhanced-tracking-protection)
-- [4 What is Total Cookie Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-is-total-cookie-protection)
-- [5 What is the difference between Enhanced Tracking Protection and Total Cookie Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-is-the-difference-between-enhanced-tracking-protection-and-total-cookie-protection)
-- [6 How do I access the Enhanced Tracking Protection settings?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_how-do-i-access-the-enhanced-tracking-protection-settings)
-- [7 Why does Total Cookie Protection cause site breakage?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_why-does-total-cookie-protection-cause-site-breakage)
-- [8 What kind of breakages does Total Cookie Protection cause?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_what-kind-of-breakages-does-total-cookie-protection-cause)
-- [9 How do I know if the site breakage is caused by Total Cookie Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_how-do-i-know-if-the-site-breakage-is-caused-by-total-cookie-protection)
-- [10 Can I disable Total Cookie Protection without disabling Enhanced Tracking Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_can-i-disable-total-cookie-protection-without-disabling-enhanced-tracking-protection)
-- [11 If I disable Total Cookie Protection to fix the breakage, will third-party cookies be able to track me?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_if-i-disable-total-cookie-protection-to-fix-the-breakage-will-third-party-cookies-be-able-to-track-me)
-- [12 A website asked me to disable cookie protections to work correctly. Is this safe?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_a-website-asked-me-to-disable-cookie-protections-to-work-correctly-is-this-safe)
-- [13 How do I report site breakage caused by Total Cookie Protection?](https://support.mozilla.org/kb/total-cookie-protection-and-website-breakage-faq#w_how-do-i-report-site-breakage-caused-by-total-cookie-protection)
-
-# What is a cookie?
-
-Cookies are small files that collect information about your activity on websites you visit. They often store your login information and your preferred language or location. When you return to a website you’ve previously visited, cookies store your login information and preferences. Cookies also store other information that can be used to identify you and track your online activity.
-
-# What are third-party cookies?
-
-Third-party cookies are cookies set by a website other than the one you are currently on and that are stored on your computer. Third-party cookies can track you across websites to learn from your online activity to personalize your content based on preferences.
-
-# What is Enhanced Tracking Protection?
-
-Enhanced Tracking Protection is a Firefox feature that blocks trackers that follow you around online to collect information about your browsing habits and interests.
-
-# What is Total Cookie Protection?
-
-Total Cookie Protection is an advancement built into Enhanced Tracking Protection that works by maintaining a separate “cookie jar” for each website you visit. Any time a website, or third-party content embedded in a website, deposits a cookie in your browser, that cookie is confined to the cookie jar assigned to that website, such that it is not allowed to be shared with any other website.
-
-![TCPFx86](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Total Cookie Protection is enabled by default in Firefox to all users worldwide. To learn more, see [this Mozilla Blog post](https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/).
-
-# What is the difference between Enhanced Tracking Protection and Total Cookie Protection?
-
-Enhanced Tracking Protection blocks cookies from companies that have been identified as trackers. Total Cookie Protection is an additional privacy protection built into Enhanced Tracking Protection. Total Cookie Protection provides more comprehensive protections against cookie-based tracking to ensure that no cookies can be used to track you from site to site as you browse the web.
-
-![ETPsettings](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# How do I access the Enhanced Tracking Protection settings?
-
-To access the Enhanced Tracking Protection settings, follow the steps below:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click on the Privacy & Security panel to the left side of the screen.
-
-# Why does Total Cookie Protection cause site breakage?
-
-Total Cookie Protection divides a website's third-party storage into different partitions in order to isolate cookies, so they can't track you across websites. When this happens, sites can break because website developers don't expect third-party storage to be split in this way. The breakage occurs when the first-party website tries to retrieve information from the third-party storage that has been partitioned.
-
-# What kind of breakages does Total Cookie Protection cause?
-
-Breakage caused by Total Cookie Protection appears in three forms:
-
-- **An error message:** When a website identifies a problem with a third-party iframe, an error message is frequently displayed to warn the user of the problem.
-- **Site breakage after login:** Even if the site login works, certain website functionality may be broken.
-- **Unsuccessful login:** The site's login process is never completed. It will return to the logged-out status and prompt users to log in again.
-
-# How do I know if the site breakage is caused by Total Cookie Protection?
-
-Total Cookie Protection is not the only feature of Firefox that can break a website. Frequently, the website's failure has nothing to do with Total Cookie Protection. Therefore, we need to make sure that Total Cookie Protection is actually breaking the site before reporting the problem to the support staff.
-
-- Disable Enhanced Tracking Protection by clicking the toggle in the shield panel next to the address bar, and then test the breakage. If this fixes the problem, it’s a Total Cookie Protection-related issue.
-- Advanced users can visit the _about:config_ page and check if the preference network.cookie.cookieBehavior is set to 4 or 5. Changing the preference value to 4 will disable Total Cookie Protection while still blocking Cross-Site Tracking Cookies (third party cookies from known tracking servers). If this fixes the breakage, it’s a Total Cookie Protection-related issue. 
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-# Can I disable Total Cookie Protection without disabling Enhanced Tracking Protection?
-
-Yes. To disable Total Cookie Protection, follow these steps:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select the Privacy & Security panel on the left side of the screen.
-3. Under _Enhanced Tracking Protection_, select the **Custom** setting.
-4. Set the drop-down menu next to _Cookies_ to **Cross-Site Tracking Cookies**.
-
-This will disable Total Cookie Protection but keep Enhanced Tracking Protection enabled.
-
-# If I disable Total Cookie Protection to fix the breakage, will third-party cookies be able to track me?
-
-Disabling Total Cookie Protection will make it easier for sites to track you. But Enhanced Tracking Protection will still provide some baseline protection in standard mode.
-
-# A website asked me to disable cookie protections to work correctly. Is this safe?
-
-If users disable the protections, they will effectively allow sites to track them. Therefore, if you still want to visit the site, you should disable Enhanced Tracking Protection for that specific site only.
-
-# How do I report site breakage caused by Total Cookie Protection?
-
-Once you’ve confirmed that Total Cookie Protection causes the issue, you can report it to the AntiTracking Engineering team.
-
-**Open an AntiTracking Bugzilla Bug**  
-Opening a bug on Bugzilla using our [bug template](https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&blocked=1602922&bug_ignored=0&bug_severity=--&bug_status=NEW&bug_type=defect&cf_a11y_review_project_flag=---&cf_fission_milestone=---&cf_fx_iteration=---&cf_fx_points=---&cf_root_cause=---&cf_status_firefox96=---&cf_status_firefox97=---&cf_status_firefox98=---&cf_status_firefox_esr91=---&cf_status_thunderbird_esr91=---&cf_tracking_firefox96=---&cf_tracking_firefox97=---&cf_tracking_firefox98=---&cf_tracking_firefox_esr91=---&cf_tracking_firefox_relnote=---&cf_tracking_firefox_sumo=---&cf_tracking_thunderbird_esr91=---&cf_webcompat_priority=---&comment=Environment%3A%0D%0ABrowser%20%2F%20Version%3A%20%5Be.g.%20Firefox%20Nightly%2097.0a1%20%282021-12-29%29%5D%0D%0AOperating%20System%3A%20%5Be.g.%20Windows%2010%20Pro%5D%0D%0A%0D%0APrerequisites%3A%0D%0A%5BAnything%20we%20need%20to%20set%20up%20before%20reproducing%20the%20issue%5D%0D%0A%0D%0ASteps%20to%20Reproduce%3A%0D%0A%0D%0AExpected%20Behavior%3A%0D%0A%0D%0AActual%20Behavior%3A%0D%0A%0D%0ANotes%3A&component=Privacy%3A%20Anti-Tracking&contenttypemethod=list&contenttypeselection=text%2Fplain&defined_groups=1&filed_via=standard_form&flag_type-203=X&flag_type-37=X&flag_type-41=X&flag_type-607=X&flag_type-721=X&flag_type-737=X&flag_type-787=X&flag_type-799=X&flag_type-800=X&flag_type-803=X&flag_type-846=X&flag_type-855=X&flag_type-863=X&flag_type-864=X&flag_type-930=X&flag_type-936=X&flag_type-937=X&flag_type-947=X&form_name=enter_bug&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Unspecified&priority=--&product=Core&rep_platform=Unspecified&short_desc=%5BDescribe%20the%20breakage%20component%5D%20on%20%5BThe%20broken%20site%5D%20with%20ETP%20-%20Standard%20Enabled%20&target_milestone=---&version=unspecified) helps us diagnose the issue more quickly. Please provide detailed information regarding the breakage, such as a screenshot of the breakage or clear steps to reproduce the issue. You can also provide troubleshooting information from the _about:support_ page. This helps us to reproduce the problem locally.
-
-"
-57213,Clear cookies and website data for a single domain in Firefox for Android,clear-cookies-and-website-data-single-domain-android,https://support.mozilla.org/en-US/kb/clear-cookies-and-website-data-single-domain-android,en-US,"You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.","<p>You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.
-</p>
-<div class=""note""><strong>Note:</strong> Removing cookies and site data may log you out of the website and clear your shopping carts.</div>
-<h1 id=""w_clear-your-cookies-and-website-data-for-a-single-domain"">Clear your cookies and website data for a single domain</h1>
-<ol><li>Go to a website for which you want to clear cookies and data.
-</li><li>Tap the <span class=""for"" data-for=""m142""><em>Shield</em> <img alt=""Firefox_Android_144_Shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-10-02-57-b8700c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""></span><span class=""for"" data-for=""not m142""><em>Lock</em> <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> icon in the address bar.
-</li><li>Tap <span class=""menu"">Clear cookies and site data</span>.
-<dl><dt><span class=""for"" data-for=""m149""><img alt=""enhancedandroid149"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-06-29-06-a36224.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-</li><li>A warning message will appear. Tap <strong>Clear</strong> to confirm and proceed with deleting your cookies.
-</li><li>Reload the website. Done!
-</li></ol>",mobile,privacy-and-security;tracking-protection,"You can clear your cookies and website data for a single domain in Firefox for Android, without losing your logins for other domains.
-
-**Note:** Removing cookies and site data may log you out of the website and clear your shopping carts.
-
-# Clear your cookies and website data for a single domain
-
-1. Go to a website for which you want to clear cookies and data.
-2. Tap the _Shield_ ![Firefox_Android_144_Shield](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)_Lock_ ![Fx89Padlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the address bar.
-3. Tap Clear cookies and site data.<dl><dt>
-<span class=""for"" data-for=""m149""><img alt=""enhancedandroid149"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-06-29-06-a36224.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-4. A warning message will appear. Tap **Clear** to confirm and proceed with deleting your cookies.
-5. Reload the website. Done!
-
-"
-57256,Change your wallpaper in Firefox for iOS,change-your-wallpaper-firefox-ios,https://support.mozilla.org/en-US/kb/change-your-wallpaper-firefox-ios,en-US,You can change the wallpaper to customize your homepage in Firefox for iOS.,"<p>You can change the wallpaper to customize your homepage in Firefox for iOS.
-<img alt=""FX iOS homepage with wallpaper"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-08-07-39-39-3890f9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</p>
-<div class=""note""><strong>Note:</strong> Some wallpapers may only be available for a limited time. If a wallpaper you're currently using has expired, you can continue to use it. If you switch to a different wallpaper, you'll be unable to switch back to an expired wallpaper.</div>
-<h1 id=""w_change-your-wallpaper-from-the-menu"">Change your wallpaper from the menu</h1>
-<p>You can view all available wallpapers at once from the <strong>Customize Homepage</strong> settings.
-</p>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>If you are on the homepage, tap <span class=""menu"">Customize Homepage</span>.<br>If you are in a tab, tap <span class=""menu"">Settings</span> and then <span class=""menu"">Homepage</span>.
-</li><li>Tap <span class=""menu"">Wallpaper</span> under <strong>Firefox Homepage</strong>.
-</li><li>Tap the image you want to set as your opening screen wallpaper. You'll see a confirmation banner appear temporarily at the bottom of the screen. Tap the <span class=""button"">View</span> button to return to your homepage from the banner.
-</li></ol>",ios,customization;settings,"You can change the wallpaper to customize your homepage in Firefox for iOS. ![FX iOS homepage with wallpaper](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-**Note:** Some wallpapers may only be available for a limited time. If a wallpaper you're currently using has expired, you can continue to use it. If you switch to a different wallpaper, you'll be unable to switch back to an expired wallpaper.
-
-# Change your wallpaper from the menu
-
-You can view all available wallpapers at once from the **Customize Homepage** settings.
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. If you are on the homepage, tap Customize Homepage.  
-If you are in a tab, tap Settings and then Homepage.
-3. Tap Wallpaper under **Firefox Homepage**.
-4. Tap the image you want to set as your opening screen wallpaper. You'll see a confirmation banner appear temporarily at the bottom of the screen. Tap the View button to return to your homepage from the banner.
-
-"
 57257,Change your wallpaper in Firefox for Android,change-your-wallpaper-firefox-android,https://support.mozilla.org/en-US/kb/change-your-wallpaper-firefox-android,en-US,You can change the wallpaper to customize your homepage in Firefox for Android.,"<p>You can change the wallpaper to customize your homepage in Firefox for Android.
 </p>
 <div class=""note""><strong>Note:</strong> Some wallpapers may only be available for a limited time. If a wallpaper you're currently using has expired, you can continue to use it. If you switch to a different wallpaper, you'll be unable to switch back to an expired wallpaper.</div>
@@ -89580,178 +89410,6 @@ Thunderbird always helps you to do more with less effort. **Improved:** When rea
 
 </p><p>Welcome to version 99 of Firefox Klar for iOS. There were no major updates or enhancements released in version 99, only bug fixes. Check back in May for what's new in version 100.
 </p>",klar,firefox-klar-ios,"Welcome to version 99 of Firefox Klar for iOS. There were no major updates or enhancements released in version 99, only bug fixes. Check back in May for what's new in version 100.
-
-"
-58342,Safari Integration in Firefox Focus for iOS,safari-integration-firefox-ios,https://support.mozilla.org/en-US/kb/safari-integration-firefox-ios,en-US,Firefox Focus for iOS allows users to integrate Firefox Focus features to Safari. Some users may have to take extra steps to enable Safari integration.,"<p>Enjoy protection against ad, social, content or analytics trackers provided by Firefox Focus without switching from Safari and keep Safari your preferred browser. Follow these steps to enable Firefox Focus for Safari.
-</p>
-<h1 id=""w_step-1-allow-safari-to-use-content-blockers"">Step 1: allow Safari to use content blockers</h1>
-<ol><li>Open the <strong>Settings</strong> app in your iPhone or iPad.
-</li><li>Scroll down to <span class=""menu"">Safari</span> and tap it.
-</li><li>In the <em>General</em> section, tap <strong>Extensions</strong>.
-</li><li>Under <em>Allow these content blockers</em>, check the switch next to <strong>Firefox Focus</strong>. If it is not enabled, tap it <img alt=""iosGreenSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-30-34-ff3d44.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
-</li><li>Close the <strong>Settings</strong> app.
-</li></ol>
-<h1 id=""w_step-2-enable-firefox-focus-for-safari"">Step 2: enable Firefox Focus for Safari</h1>
-<ol><li>Open Firefox Focus.
-</li><li>On the top right corner of the screen, tap the menu button <span class=""menu"">☰</span>.
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Under <em>Safari Integration</em>, tap the switch next to <strong>Safari</strong> to enable it <img alt=""focusIosPinkSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-31-28-baed17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
-</li><li><a href=""/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"">Tweak the <em>Privacy</em> settings</a> to fit your needs.
-</li><li>Close Firefox Focus.
-</li></ol>
-<p>You are ready to browse on Safari with the protection of Firefox Focus! 
-</p>
-<h1 id=""w_related-content"">Related content</h1>
-<p>To learn more about Firefox Focus, its abilities and settings, see:
-</p>
-<ul><li><a href=""/en-US/kb/firefox-focus-ios"">What is Firefox Focus for iOS?</a>
-</li><li><a href=""/en-US/kb/how-does-firefox-focus-ios-use-permissions-it-requests"">How does Firefox Focus for iOS use the permissions it requests?</a>
-</li></ul>",focus-firefox,focus-ios;privacy-and-security,"Enjoy protection against ad, social, content or analytics trackers provided by Firefox Focus without switching from Safari and keep Safari your preferred browser. Follow these steps to enable Firefox Focus for Safari.
-
-# Step 1: allow Safari to use content blockers
-
-1. Open the **Settings** app in your iPhone or iPad.
-2. Scroll down to Safari and tap it.
-3. In the _General_ section, tap **Extensions**.
-4. Under _Allow these content blockers_, check the switch next to **Firefox Focus**. If it is not enabled, tap it&nbsp; ![iosGreenSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-5. Close the **Settings** app.
-
-# Step 2: enable Firefox Focus for Safari
-
-1. Open Firefox Focus.
-2. On the top right corner of the screen, tap the menu button&nbsp;☰.
-3. Tap Settings.
-4. Under _Safari Integration_, tap the switch next to **Safari** to enable it ![focusIosPinkSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-5. [Tweak the _Privacy_ settings](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"") to fit your needs.
-6. Close Firefox Focus.
-
-You are ready to browse on Safari with the protection of Firefox Focus!
-
-# Related content
-
-To learn more about Firefox Focus, its abilities and settings, see:
-
-- [What is Firefox Focus for iOS?](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios"")
-- [How does Firefox Focus for iOS use the permissions it requests?](\""https://support.mozilla.org/en-US/kb/how-does-firefox-focus-ios-use-permissions-it-requests"")
-
-"
-58358,Automatically launch Mozilla VPN when your device starts,automatically-launch-mozilla-vpn-when-your-device,https://support.mozilla.org/en-US/kb/automatically-launch-mozilla-vpn-when-your-device,en-US,Follow the steps in this article to automatically launch Mozilla VPN every time you start your device.,"<p>Mozilla VPN allows you to connect automatically on startup as a way to ensure that your internet connection is always protected when starting your device. To enable this feature, follow the steps below.
-</p>
-<div class=""warning""><strong>Warning:</strong> The <em>Connect on startup</em> feature is <strong>only available for Windows, macOS and Linux</strong>. To manually enable the <em>Connect on startup</em> feature on Android devices, follow the steps under the Android section of this article.</div>
-<h1 id=""w_how-to-automatically-launch-your-mozilla-vpn-on-windows-macos-and-linux"">How to automatically launch your Mozilla VPN on Windows, macOS and Linux</h1>
-<ol><li>Open Mozilla VPN.
-</li><li>Click the settings icon <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20"">.
-<dl><dt><img alt=""VPN SETTINGS Button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-02-09-46-17-ae7881.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Click <span class=""menu"">Preferences</span>.
-<dl><dt><img alt=""VPN Preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-08-16-53-31-d0834f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Select <strong>Connect VPN on startup</strong>.
-<dl><dt><img alt=""Start Up VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-33-18-9177b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>The next time that you start your device, Mozilla VPN will automatically connect to the last server location you used.
-</li></ol>
-<h1 id=""w_how-to-automatically-launch-your-mozilla-vpn-on-your-android-device"">How to automatically launch your Mozilla VPN on your Android device</h1>
-<ol><li>Open the Settings app (typically a cogwheel icon) on your Android device.
-</li><li>In the settings search bar, type <strong>VPN</strong>.
-</li><li>Select the <strong>VPN</strong> result.
-</li><li>Select the gear icon next to <strong>Mozilla VPN</strong>.
-</li><li>Toggle on <strong>Always-on VPN</strong>.
-<dl><dt><img alt=""Always on VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-34-34-82de1c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Mozilla VPN will automatically connect to the server location you last connected to.
-</li></ol>
-<h1 id=""w_related-content"">Related content</h1>
-<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a>
-</li><li><a href=""/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"">How can I tell if Mozilla VPN is connected?</a>
-</li><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
-</li></ul>",mozilla-vpn,installation-and-updates,"Mozilla VPN allows you to connect automatically on startup as a way to ensure that your internet connection is always protected when starting your device. To enable this feature, follow the steps below.
-
-**Warning:** The _Connect on startup_ feature is **only available for Windows, macOS and Linux**. To manually enable the _Connect on startup_ feature on Android devices, follow the steps under the Android section of this article.
-
-# How to automatically launch your Mozilla VPN on Windows, macOS and Linux
-
-1. Open Mozilla VPN.
-2. Click the settings icon ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).<dl><dt>
-<img alt=""VPN SETTINGS Button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-02-09-46-17-ae7881.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-3. Click Preferences.<dl><dt>
-<img alt=""VPN Preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-08-16-53-31-d0834f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-4. Select **Connect VPN on startup**.<dl><dt>
-<img alt=""Start Up VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-33-18-9177b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-5. The next time that you start your device, Mozilla VPN will automatically connect to the last server location you used.
-
-# How to automatically launch your Mozilla VPN on your Android device
-
-1. Open the Settings app (typically a cogwheel icon) on your Android device.
-2. In the settings search bar, type **VPN**.
-3. Select the **VPN** result.
-4. Select the gear icon next to **Mozilla VPN**.
-5. Toggle on **Always-on VPN**.<dl><dt>
-<img alt=""Always on VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-34-34-82de1c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-6. Mozilla VPN will automatically connect to the server location you last connected to.
-
-# Related content
-
-- [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
-- [How can I tell if Mozilla VPN is connected?](\""https://support.mozilla.org/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"")
-- [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
-
-"
-58394,What is Mozilla Connect?,what-mozilla-connect,https://support.mozilla.org/en-US/kb/what-mozilla-connect,en-US,"Mozilla Connect is a space to give product feedback, share ideas for new features, and participate in conversations about Mozilla products.","
-<p>Mozilla launched the platform <a href=""https://connect.mozilla.org/"">Mozilla Connect</a>, in collaboration with <a href=""https://khoros.com/"">Khoros</a>, as a space for users to give product feedback, share ideas for new features, and participate in meaningful conversations that help shape future releases. You can leave feedback and share ideas for Firefox desktop, mobile, Mozilla VPN, Thunderbird and more.
-</p>
-<dl><dt><img alt=""Mozilla_Connect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-16-11-01-57-2e5c28.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-<h1 id=""w_features"">Features</h1>
-<ul><li>You can sign in to Mozilla Connect using your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>.
-</li><li>The platform is user-friendly. You can easily find the sections where you can contribute ideas, provide feedback and engage in discussions.
-</li><li>There is a labeling and search system, so other community members and product managers can easily find and engage with contributed posts.
-</li><li>In partnership with Khoros, Mozilla Connect allows you to rank your ideas and earn badges for your contributions.
-</li><li>The members of the community will be able to participate and host interesting events.
-</li></ul>
-<h2 id=""w_a-better-way-to-give-and-receive-feedback"">A better way to give and receive feedback</h2>
-<p>Mozilla employees will participate by responding directly to ideas, leading discussions, and sharing product demos. Contributors can expect to receive feedback on their ideas from other community members almost immediately. Ideas can be commented and voted on by the community. All top ideas will be shared with the staff for review. The evaluation process can take up to two weeks, and, if an idea needs to be evaluated further, we’ll make sure to keep the community informed.
-</p>
-<h2 id=""w_ideas-acceptance-criteria"">Ideas Acceptance Criteria</h2>
-<p>We are in the process of creating a rubric that details with what we consider for adopting ideas. This rubric will also be shared with the community. Some of the things we’ll consider are:
-</p>
-<ul><li>Does the idea align with the Mozilla vision?
-</li><li>Does the idea provide user value? Will the idea be impactful?
-</li></ul>
-<h2 id=""w_how-is-mozilla-connect-different-from-mozilla-support"">How is Mozilla Connect different from Mozilla Support?</h2>
-<p><a href=""https://support.mozilla.org/"">Mozilla Support</a> is a platform where users can find help articles and an active community of contributors ready to answer questions about Mozilla products in the <a href=""https://support.mozilla.org/en-US/questions/new"">support forums</a>. On the other hand, <a href=""https://connect.mozilla.org/"">Mozilla Connect</a> brings the community and the employees closer together to collaborate in developing new features or improving existing ones by sharing ideas or providing feedback about our products.
-</p><p>
-</p>",firefox,browse,"Mozilla launched the platform [Mozilla Connect](https://connect.mozilla.org/), in collaboration with [Khoros](https://khoros.com/), as a space for users to give product feedback, share ideas for new features, and participate in meaningful conversations that help shape future releases. You can leave feedback and share ideas for Firefox desktop, mobile, Mozilla VPN, Thunderbird and more.
-
-<dl><dt>
-<img alt=""Mozilla_Connect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-16-11-01-57-2e5c28.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-# Features
-
-- You can sign in to Mozilla Connect using your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
-- The platform is user-friendly. You can easily find the sections where you can contribute ideas, provide feedback and engage in discussions.
-- There is a labeling and search system, so other community members and product managers can easily find and engage with contributed posts.
-- In partnership with Khoros, Mozilla Connect allows you to rank your ideas and earn badges for your contributions.
-- The members of the community will be able to participate and host interesting events.
-
-## A better way to give and receive feedback
-
-Mozilla employees will participate by responding directly to ideas, leading discussions, and sharing product demos. Contributors can expect to receive feedback on their ideas from other community members almost immediately. Ideas can be commented and voted on by the community. All top ideas will be shared with the staff for review. The evaluation process can take up to two weeks, and, if an idea needs to be evaluated further, we’ll make sure to keep the community informed.
-
-## Ideas Acceptance Criteria
-
-We are in the process of creating a rubric that details with what we consider for adopting ideas. This rubric will also be shared with the community. Some of the things we’ll consider are:
-
-- Does the idea align with the Mozilla vision?
-- Does the idea provide user value? Will the idea be impactful?
-
-## How is Mozilla Connect different from Mozilla Support?
-
-[Mozilla Support](https://support.mozilla.org/) is a platform where users can find help articles and an active community of contributors ready to answer questions about Mozilla products in the [support forums](https://support.mozilla.org/en-US/questions/new). On the other hand, [Mozilla Connect](https://connect.mozilla.org/) brings the community and the employees closer together to collaborate in developing new features or improving existing ones by sharing ideas or providing feedback about our products.
 
 "
 58418,Custom installation of Thunderbird on Windows,custom-installation-thunderbird-windows,https://support.mozilla.org/en-US/kb/custom-installation-thunderbird-windows,en-US,"The custom setup option in the Thunderbird full, offline installer lets you choose the Windows program folder location and shortcuts. Learn more.","<p>This article explains how to customize your Thunderbird installation on Windows with the full, offline installer (versus the simplified online Thunderbird installer described in the <a href=""/en-US/kb/installing-thunderbird-windows"">Install Thunderbird on Windows</a> article, where you can't make any changes to the installation options, such as the program folder where Thunderbird is installed).
@@ -119225,6 +118883,188 @@ You may use Topicbox to discuss or ask questions about Exchange, either the [bet
 # Microsoft hosted vs. self hosted exchange servers
 
 Administrators and others interested in the details of EWS instances (Microsoft hosted, Microsoft hosted as tenant-specific, and self hosted) will want to refer to the [Thunderbird:Exchange wiki page](https://wiki.mozilla.org/Thunderbird:Exchange).
+
+"
+68494,Use widgets on your Firefox New Tab page,firefox-new-tab-widgets,https://support.mozilla.org/en-US/kb/firefox-new-tab-widgets,en-US,"Learn how to manage tasks, focus time, and check the weather using Firefox’s experimental productivity widgets.","<p>Firefox's widgets let you manage task lists, stay focused with a timer and check the weather – all from your <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a>. You can use and customize multiple widgets at once to match your daily routine and particular needs.
+</p>
+<div class=""note""><strong>Note:</strong> The <em>Lists</em> and <em>Timer</em> widgets are <strong>experimental</strong> features and may not be available to all users.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_widgets-gathering-feedback""><span class=""tocnumber"">1</span> <span class=""toctext"">Widgets gathering feedback</span></a></li><li class=""toclevel-1""><a href=""#w_get-started-with-firefox-widgets""><span class=""tocnumber"">2</span> <span class=""toctext"">Get started with Firefox widgets</span></a></li><li class=""toclevel-1""><a href=""#w_customize-your-new-tab-widgets""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize your New Tab widgets</span></a><ul><li class=""toclevel-2""><a href=""#w_organize-your-tasks-with-the-task-lists-widget""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Organize your tasks with the Task Lists widget</span></a></li><li class=""toclevel-2""><a href=""#w_stay-focused-with-the-timer-widget""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Stay focused with the Timer widget</span></a></li><li class=""toclevel-2""><a href=""#w_get-accurate-weather-for-your-location-with-the-weather-widget""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Get accurate weather for your location with the weather widget</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_widgets-gathering-feedback"">Widgets gathering feedback</h1>
+<ul><li>Lists
+</li><li>Timer
+</li></ul>
+<p>
+As of <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 143, we are experimenting with small segments of Firefox desktop and gradually releasing these widgets in certain markets.
+</p>
+<div class=""note""><strong>Feedback is welcome and is being gathered in <a href=""https://connect.mozilla.org/t5/firefox-labs/new-in-firefox-labs-nightly-and-beta-to-start-productivity/td-p/103581"">this post</a> on <a href=""/en-US/kb/what-mozilla-connect"">Mozilla Connect</a>.</strong></div>
+<p>There are certain limitations to be aware of due to the early nature of the features:
+</p>
+<ul><li> Up to 10 lists can be created.
+</li><li> Each list may have up to 100 items.
+</li><li> There is no sync or backup of the lists – we do offer a “Copy to clipboard” for each to provide easy backup and sharing.
+</li><li> Display and handling of long URLs or shortened URLs may not be supported.
+</li></ul>
+<h1 id=""w_get-started-with-firefox-widgets"">Get started with Firefox widgets</h1>
+<p>There are three widgets available for now:
+</p>
+<ul><li>Lists
+</li><li>Timer
+</li><li>Weather
+</li></ul>
+<p>You’ll find the Lists and Timer widgets in the center of the New Tab page, between Shortcuts and Recommended Stories (where Stories are available). The Weather widget appears in the top-right corner, in countries where it is available.
+<img alt=""widgetskb"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-01-30-f86d46.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h1 id=""w_customize-your-new-tab-widgets"">Customize your New Tab widgets</h1>
+<p>You can use one or all of the widgets together to improve your workflow. For example, combine lists and the timer to focus on specific tasks or check the weather before you plan your day.
+</p>
+<h2 id=""w_organize-your-tasks-with-the-task-lists-widget"">Organize your tasks with the Task Lists widget</h2>
+<ol><li>Click on the three-dot icon <img alt=""IG page actions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-26-42-077193.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> that appears hovering the widget.
+
+</li><li>Select <span class=""menu"">Edit list name</span> to rename your list.
+<dl><dt><img alt=""tasklist"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-16-57-4e0835.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li><li>Click <span class=""button"">+ Add an item</span> and add tasks to your list.
+<dl><dt><img alt=""additem"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-27-53-c60d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Click the checkbox next to any task to mark it complete.
+</li></ol>
+<p>You can add, edit, re-order and delete items, as needed. These lists are flexible, and they fit a variety of activities, such as:
+</p>
+<ul><li>To-do lists
+</li><li>Checklists
+</li><li>Shopping lists
+</li><li>Meeting agenda items
+</li></ul>
+<div class=""note""><strong>Tip:</strong> You can add as many as 10 separate lists, each supporting up to 100 items.</div>
+<h2 id=""w_stay-focused-with-the-timer-widget"">Stay focused with the Timer widget</h2>
+<ol><li>Go to the timer area, and type your time (for example, 25:00).
+</li><li>Click the <em>Play</em> button to start the timer.
+</li><li>Use the <em>Pause</em> or <em>Reset</em> buttons to control it.
+<dl><dt><img alt=""timerwidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-37-03-3afc40.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<p>The timer widget allows you to set timers for focus sessions, breaks or any timed activity.
+</p>
+<dl><dt><img alt=""timerwidget2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-40-49-29a9e1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+<div class=""note""><strong>Tip:</strong> Try the <strong>25-minute work / 5-minute break</strong> method for productivity.</div>
+<h2 id=""w_get-accurate-weather-for-your-location-with-the-weather-widget"">Get accurate weather for your location with the weather widget</h2>
+<ol><li>Click on the three-dot icon <img alt=""IG page actions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-26-42-077193.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> that appears hovering the widget.
+
+</li><li>Select <span class=""menu"">Change location</span>.
+</li><li>Enter your city/region and select it.
+</li><li>Choose your preferred temperature unit (Celsius or Fahrenheit).
+<dl><dt><img alt=""changelocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-46-00-d6edb7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li></ol>
+<p>You’ll see current conditions and daily temperature details for your selected location.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/customize-items-on-firefox-new-tab-page"">Customize items on your Firefox New Tab page</a>
+</li><li><a href=""/en-US/kb/add-firefox-widget-your-home-screen"">Add a Firefox widget to your Home screen</a> (Firefox for iOS)
+</li><li><a href=""/en-US/kb/add-firefox-search-widget-your-home-screen"">Add the Firefox Search widget to your home screen</a> (Firefox for Android)
+</li><li><a href=""/en-US/kb/how-add-shortcut-website-android"">Create a shortcut to a website on Firefox for Android</a>
+</li></ul>",firefox,browse;home-screen;tabs,"Firefox's widgets let you manage task lists, stay focused with a timer and check the weather – all from your [New Tab page](\""https://support.mozilla.org/en-US/kb/about-new-tab-page""). You can use and customize multiple widgets at once to match your daily routine and particular needs.
+
+**Note:** The _Lists_ and _Timer_ widgets are **experimental** features and may not be available to all users.
+
+## Table of Contents
+
+- [1 Widgets gathering feedback](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_widgets-gathering-feedback)
+- [2 Get started with Firefox widgets](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_get-started-with-firefox-widgets)
+- [3 Customize your New Tab widgets](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_customize-your-new-tab-widgets)
+  - [3.1 Organize your tasks with the Task Lists widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_organize-your-tasks-with-the-task-lists-widget)
+  - [3.2 Stay focused with the Timer widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_stay-focused-with-the-timer-widget)
+  - [3.3 Get accurate weather for your location with the weather widget](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_get-accurate-weather-for-your-location-with-the-weather-widget)
+
+- [4 Related articles](https://support.mozilla.org/kb/firefox-new-tab-widgets#w_related-articles)
+
+# Widgets gathering feedback
+
+- Lists
+- Timer
+
+As of [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 143, we are experimenting with small segments of Firefox desktop and gradually releasing these widgets in certain markets.
+
+**Feedback is welcome and is being gathered in [this post](https://connect.mozilla.org/t5/firefox-labs/new-in-firefox-labs-nightly-and-beta-to-start-productivity/td-p/103581) on [Mozilla Connect](\""https://support.mozilla.org/en-US/kb/what-mozilla-connect"").**
+
+There are certain limitations to be aware of due to the early nature of the features:
+
+- Up to 10 lists can be created.
+- Each list may have up to 100 items.
+- There is no sync or backup of the lists – we do offer a “Copy to clipboard” for each to provide easy backup and sharing.
+- Display and handling of long URLs or shortened URLs may not be supported.
+
+# Get started with Firefox widgets
+
+There are three widgets available for now:
+
+- Lists
+- Timer
+- Weather
+
+You’ll find the Lists and Timer widgets in the center of the New Tab page, between Shortcuts and Recommended Stories (where Stories are available). The Weather widget appears in the top-right corner, in countries where it is available. ![widgetskb](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Customize your New Tab widgets
+
+You can use one or all of the widgets together to improve your workflow. For example, combine lists and the timer to focus on specific tasks or check the weather before you plan your day.
+
+## Organize your tasks with the Task Lists widget
+
+1. Click on the three-dot icon ![IG page actions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) that appears hovering the widget.
+2. Select Edit list name to rename your list.<dl><dt>
+<img alt=""tasklist"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-16-57-4e0835.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+3. Click + Add an item and add tasks to your list.<dl><dt>
+<img alt=""additem"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-27-53-c60d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+4. Click the checkbox next to any task to mark it complete.
+
+You can add, edit, re-order and delete items, as needed. These lists are flexible, and they fit a variety of activities, such as:
+
+- To-do lists
+- Checklists
+- Shopping lists
+- Meeting agenda items
+
+**Tip:** You can add as many as 10 separate lists, each supporting up to 100 items.
+
+## Stay focused with the Timer widget
+
+1. Go to the timer area, and type your time (for example, 25:00).
+2. Click the _Play_ button to start the timer.
+3. Use the _Pause_ or _Reset_ buttons to control it.<dl><dt>
+<img alt=""timerwidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-37-03-3afc40.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+The timer widget allows you to set timers for focus sessions, breaks or any timed activity.
+
+<dl><dt>
+<img alt=""timerwidget2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-40-49-29a9e1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+**Tip:** Try the **25-minute work / 5-minute break** method for productivity.
+
+## Get accurate weather for your location with the weather widget
+
+1. Click on the three-dot icon ![IG page actions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) that appears hovering the widget.
+2. Select Change location.
+3. Enter your city/region and select it.
+4. Choose your preferred temperature unit (Celsius or Fahrenheit).<dl><dt>
+<img alt=""changelocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-20-08-46-00-d6edb7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+
+You’ll see current conditions and daily temperature details for your selected location.
+
+# Related articles
+
+- [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page"")
+- [Add a Firefox widget to your Home screen](\""https://support.mozilla.org/en-US/kb/add-firefox-widget-your-home-screen"") (Firefox for iOS)
+- [Add the Firefox Search widget to your home screen](\""https://support.mozilla.org/en-US/kb/add-firefox-search-widget-your-home-screen"") (Firefox for Android)
+- [Create a shortcut to a website on Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-add-shortcut-website-android"")
+
+"
+68496,Website will not allow Firefox to display the page if another site has embedded it,xframe-neterror-page-redirect-1,https://support.mozilla.org/en-US/kb/xframe-neterror-page-redirect-1,en-US,"","<p>REDIRECT [[Fix error:“Website will not allow Firefox to display the page.”]]
+</p>","","","REDIRECT [[Fix error:“Website will not allow Firefox to display the page.”]]
 
 "
 68513,Control Firefox New Tab personalization,firefox-new-tab-personalization,https://support.mozilla.org/en-US/kb/firefox-new-tab-personalization,en-US,"The Firefox New Tab page now offers improved personalization controls for search, shortcuts, articles, and more while keeping your privacy protected.","<div class=""note"">Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.</div>
