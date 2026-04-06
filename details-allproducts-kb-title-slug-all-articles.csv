@@ -38650,64 +38650,6 @@ To manipulate all the attachments associated with a message, go to Message \> At
 - [Yahoo Attachments Help](http://help.yahoo.com/l/us/yahoo/mail/classic/context/context-02.html)
 
 "
-17152,Rebuilding the Global Database,rebuilding-global-database,https://support.mozilla.org/en-US/kb/rebuilding-global-database,en-US,Rebuilding the Global Database will initiate a re-indexing of emails and address book cards (newsgroup messages are not indexed).,"<p>The Global Database (""Gloda"" for short) is an indexing system that enables Thunderbird to search messages. Rebuilding the Global Database re-indexes messages and address book cards. (Newsgroup messages are not indexed.)
-</p><p>Reasons for rebuilding the Global Database include:
-</p>
-<ul><li> The database may have been corrupted.
-</li><li> The search index may not be functioning correctly (such as displaying blank results, performing poorly).
-</li><li> The database is too big and needs to be reduced in size. <br> <div class=""note"">Rebuilding the database will not automatically reduce the size of the index. The database will only shrink if there are fewer messages to index since the index was last updated - which can be accomplished by deleting messages, or disabling message sync for an account or folder.</div>
-</li><li> The Global Database file becomes fragmented, which reduces index performance.
-</li></ul>
-<p><br>
-</p>
-<h1 id=""w_steps-to-rebuild-the-global-database"">Steps to Rebuild the Global Database</h1>
-<ol><li> Quit Thunderbird.
-</li><li> Locate the <span class=""filepath"">global-messages-db.sqlite</span> file in your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird Profile</a>.
-</li><li> Delete the <span class=""filepath"">global-messages-db.sqlite</span> file.
-</li><li> Start Thunderbird. The re-indexing process will start automatically. Depending on the number of messages, it might take some time for the indexing to complete. You can continue to use Thunderbird, but performance might be affected and search will return only partial results or even no results until the indexing is complete. The indexing progress can be monitored through the <span class=""menu"">Tools &gt; Activity Manager</span> menu.
-</li></ol>
-<h1 id=""w_see-also"">See Also</h1>
-<ul><li> <a href=""/en-US/kb/global-search"">Global Search Article</a>
-</li></ul>",thunderbird,email-and-messaging;import-and-export-email;performance-and-connectivity,"The Global Database (""Gloda"" for short) is an indexing system that enables Thunderbird to search messages. Rebuilding the Global Database re-indexes messages and address book cards. (Newsgroup messages are not indexed.)
-
-Reasons for rebuilding the Global Database include:
-
-- The database may have been corrupted.
-- The search index may not be functioning correctly (such as displaying blank results, performing poorly).
-- The database is too big and needs to be reduced in size.   
- 
-Rebuilding the database will not automatically reduce the size of the index. The database will only shrink if there are fewer messages to index since the index was last updated - which can be accomplished by deleting messages, or disabling message sync for an account or folder.
-- The Global Database file becomes fragmented, which reduces index performance.
-
-# Steps to Rebuild the Global Database
-
-1. Quit Thunderbird.
-2. Locate the global-messages-db.sqlite file in your [Thunderbird Profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"").
-3. Delete the global-messages-db.sqlite file.
-4. Start Thunderbird. The re-indexing process will start automatically. Depending on the number of messages, it might take some time for the indexing to complete. You can continue to use Thunderbird, but performance might be affected and search will return only partial results or even no results until the indexing is complete. The indexing progress can be monitored through the Tools \> Activity Manager menu.
-
-# See Also
-
-- [Global Search Article](\""https://support.mozilla.org/en-US/kb/global-search"")
-
-"
-17158,What is the winmail.dat attachment?,what-winmaildat-attachment,https://support.mozilla.org/en-US/kb/what-winmaildat-attachment,en-US,"When sending messages from email clients that use the Microsoft Exchange server, a file attachment called winmail.dat may be added. Learn how to prevent this.","<p>Messages sent from incorrectly configured Microsoft Outlook/Exchange email clients may contain a file attachment called <span class=""filepath"">winmail.dat</span>. This attached file contains formatting information for messages that use Microsoft's proprietary TNEF standard, plus any attachments sent with the original message. The TNEF file is not recognized by other email clients, so any attachments sent with the original message are not displayed in Thunderbird's message pane. 
-</p><p>If you try to open <span class=""filepath"">winmail.dat</span>, you will probably be prompted to specify the application that should be used to open the file, unless you have an application installed that can decode this file and display it. Even if your system is capable of displaying the file, it does not contain any useful information.
-</p><p>To prevent this file from being attached to messages, the sender of the message (or their system administrator) can configure various options as described in this <a href=""https://learn.microsoft.com/troubleshoot/outlook/message-body/how-tnef-affects-email-messages"">Microsoft Support article</a>.
-</p>
-<div class=""note""><strong>Note:</strong> There is also a Thunderbird add-on called <a href=""https://addons.thunderbird.net/thunderbird/addon/lookout-fix-version/"">LookOut (fix version)</a> which decodes the TNEF attachment (<span class=""filepath"">winmail.dat</span>) and displays the original attachments in Thunderbird's message pane.  This add-on is not provided by or supported by Thunderbird and its compatibility with future versions of Thunderbird is not assured.</div>
-<p><strong>The best solution</strong> is to contact the message sender and inform them that their copy of Outlook is incorrectly configured as suggested in the Microsoft Support article.
-</p>",thunderbird,email-and-messaging;send-and-receive-email,"Messages sent from incorrectly configured Microsoft Outlook/Exchange email clients may contain a file attachment called winmail.dat. This attached file contains formatting information for messages that use Microsoft's proprietary TNEF standard, plus any attachments sent with the original message. The TNEF file is not recognized by other email clients, so any attachments sent with the original message are not displayed in Thunderbird's message pane.
-
-If you try to open winmail.dat, you will probably be prompted to specify the application that should be used to open the file, unless you have an application installed that can decode this file and display it. Even if your system is capable of displaying the file, it does not contain any useful information.
-
-To prevent this file from being attached to messages, the sender of the message (or their system administrator) can configure various options as described in this [Microsoft Support article](https://learn.microsoft.com/troubleshoot/outlook/message-body/how-tnef-affects-email-messages).
-
-**Note:** There is also a Thunderbird add-on called [LookOut (fix version)](https://addons.thunderbird.net/thunderbird/addon/lookout-fix-version/) which decodes the TNEF attachment (winmail.dat) and displays the original attachments in Thunderbird's message pane. This add-on is not provided by or supported by Thunderbird and its compatibility with future versions of Thunderbird is not assured.
-
-**The best solution** is to contact the message sender and inform them that their copy of Outlook is incorrectly configured as suggested in the Microsoft Support article.
-
-"
 17163,Switching the folder pane view,switching-folder-pane-view,https://support.mozilla.org/en-US/kb/switching-folder-pane-view,en-US,"This article describes the ""views"" that can be assigned to the folder pane.","<p>The folder pane is displayed on the left side of the Thunderbird window. It shows a list of your email accounts, the folders that are created by default (such as ""Sent"", ""Trash"", etc) and the folders that you have manually created to organize your messages.
 </p><p><img alt=""default folder pane"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-11-10-10-55-46-8912a0.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
 </p><p>There are several ""views"" that can be used to display in the folder pane. The view you select will determine how the folders are organized and displayed (while not affecting the actual folders or messages themselves.) Select <span class=""menu"">View &gt; Folders</span> from the menu bar, or select <span class=""menu"">Folders</span> from the application menu, to choose the view you want to use. The following options are available:
@@ -45480,6 +45422,278 @@ To learn more, click the link that best matches the information you're looking f
   - Check to see if the crash happens in safe modeTroubleshoot Mode
   - Check your hardware
   - Get help fixing this crash
+
+"
+23113,Forget button - quickly delete your browsing history on Firefox,forget-button-quickly-delete-your-browsing-history,https://support.mozilla.org/en-US/kb/forget-button-quickly-delete-your-browsing-history,en-US,"Make Firefox ""Forget"" your recent browsing history for a specified time period while leaving the rest alone. All it takes is a few clicks.","<p>Firefox offers a quick solution for maintaining privacy with its <em>Forget</em> feature, allowing you to instantly erase your recent cookies and browsing history. This function is especially useful for shared computers, accidental non-private browsing sessions, or simply when you prefer to keep recent online activities private. Here's how to do it in just a few clicks:
+</p>
+<ol><li>First, add the <em>Forget</em> button to your toolbar. You'll only need to do this step once!
+<ul><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, then click <span class=""menu"">More tools</span> and select <span class=""menu"">Customize Toolbar…</span>
+
+</li><li>Drag the <em>Forget</em> button <img alt=""forget button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-02-21-22-10-d62ef5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> from the <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox panel</a> to your toolbar, then, at the bottom right, click <span class=""button"">Done</span>.
+</li></ul>
+<dl><dt><img alt=""FX Desktop Drag forget button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-05-07-41-18-4dcc5f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>When you're ready to clear your recent history, click the <em>Forget</em> button <img alt=""forget button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-02-21-22-10-d62ef5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> on your toolbar.
+</li><li>Choose the time frame that you'd like to <em>forget</em> (five minutes, two hours or 24 hours) and click the red <span class=""button"">Forget!</span> button.
+<dl><dt><img alt=""Fx desktop Forget feature details card"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-05-07-37-41-d54ef1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li></ol>
+<div class=""warning""><strong>Important:</strong> When you click this button, the information is permanently deleted and cannot be recovered.</div>
+<p>Firefox will then clear the history and cookies from the specified time frame, close your open tabs and relaunch a new, clean window.
+</p>
+<div class=""note"">To learn how you can clear even more information from Firefox, see <a href=""/en-US/kb/delete-browsing-search-download-history-firefox"">Delete browsing, search and download history on Firefox</a>.</div>",firefox,tracking-protection,"Firefox offers a quick solution for maintaining privacy with its _Forget_ feature, allowing you to instantly erase your recent cookies and browsing history. This function is especially useful for shared computers, accidental non-private browsing sessions, or simply when you prefer to keep recent online activities private. Here's how to do it in just a few clicks:
+
+1. First, add the _Forget_ button to your toolbar. You'll only need to do this step once!
+  - Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), then click More tools and select Customize Toolbar…
+  - Drag the _Forget_ button ![forget button 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) from the [Customize Firefox panel](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"") to your toolbar, then, at the bottom right, click Done.
+
+<dl><dt>
+<img alt=""FX Desktop Drag forget button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-05-07-41-18-4dcc5f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+2. When you're ready to clear your recent history, click the _Forget_ button ![forget button 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) on your toolbar.
+3. Choose the time frame that you'd like to _forget_ (five minutes, two hours or 24 hours) and click the red Forget! button.<dl><dt>
+<img alt=""Fx desktop Forget feature details card"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-05-07-37-41-d54ef1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+
+**Important:** When you click this button, the information is permanently deleted and cannot be recovered.
+
+Firefox will then clear the history and cookies from the specified time frame, close your open tabs and relaunch a new, clean window.
+
+To learn how you can clear even more information from Firefox, see [Delete browsing, search and download history on Firefox](\""https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox"").
+"
+23135,Firefox crashes - asking for support,firefox-crashes-asking-support,https://support.mozilla.org/en-US/kb/firefox-crashes-asking-support,en-US,"If nothing in the documentation seems to resolve issues with a Firefox crash, our community support forum volunteers may be able to help.","<p>If Firefox is still crashing after you have already attempted the steps in <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Troubleshoot Firefox crashes (closing or quitting unexpectedly)</a>, our Mozilla Support Community volunteers may be able to help.
+</p><p>To best assist you with unresolved issues related to Firefox crashing, please have the following information ready:
+</p>
+<ol><li> Get the Report ID of your latest crash report:
+<ul><li> Open Firefox, either normally or in <span class=""for"" data-for=""not fx88""><a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Firefox Safe Mode</a></span><span class=""for"" data-for=""fx88""><a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Troubleshoot Mode</a></span> and enter <em>about:crashes</em> in the address bar to get a list of Submitted Crash Reports:<br><img alt=""aboutcrashes_fx66"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-04-08-09-50-28-2553a7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</li><li> Click <span class=""button"">View</span> on the latest crash report. The <em><a href=""http://crash-stats.mozilla.com"">crash-stats.mozilla.com</a></em> page will open with technical details about the crash. When the report is finished processing, close the report tab.<br><div class=""note""><strong>Note:</strong> If there is a newer crash report in the <em>Unsubmitted Crash Reports</em> section, you will need to click <span class=""button"">Submit</span> before anyone can view the report.</div>
+</li></ul>
+</li><li> <a href=""https://support.mozilla.org/questions/new/desktop/fix-problems/form?search=Firefox+crashes&amp;step=aaq-question"">Click on this link</a> to begin a help request for your crash issue from our Mozilla Support Community volunteers.
+</li><li> Provide as much information as you have about your crash, including which steps you've already tried from <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Troubleshoot Firefox crashes (closing or quitting unexpectedly)</a>.
+</li><li> Copy and paste the Report ID for the latest Submitted Crash Report into the <em>Details</em> section and submit your question. (A Report ID is the string of characters that begin with the letters <em>bp-</em> as shown in the <em>Submitted Crash Reports</em> section in the example screenshot above.)
+</li></ol>
+<div class=""for"" data-for=""not fx88""><p><strong>If you cannot open Firefox at all (even in Safe Mode):</strong>
+</p><p>Find the text file for your latest Submitted Crash Report using these steps:
+</p></div><div class=""for"" data-for=""fx88""><p><strong>If you can't open Firefox at all (even in Troubleshoot Mode):</strong>
+</p><p>Find the text file for your latest Submitted Crash Report using these steps:
+</p></div><div class=""for"" data-for=""win"">
+<ol><li><span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> + <span class=""key"">R</span> to open the Run dialog.
+</li><li>In the textbox, type <span class=""filepath"">%APPDATA%\Mozilla\Firefox\Crash Reports\submitted</span>
+</li><li>Press <span class=""button"">Ok</span>.
+</li></ol>
+</div><div class=""for"" data-for=""linux""><p>Crash reports are stored in <span class=""filepath"">~/.mozilla/firefox/Crash Reports/submitted/</span>
+</p></div><div class=""for"" data-for=""mac""><p>Submitted crash reports are stored in <span class=""filepath"">~/Library/Application Support/Firefox/Crash Reports/submitted/</span>
+</p><p>Click the Finder icon in the dock. On the menu bar, click the Go menu. Hold down the <span class=""key"">option</span> or <span class=""key"">alt</span> key to unhide the <em>Library</em> folder. When the <em>Library</em> folder appears, click it to open the folder. Open the <em>Application Support</em> folder, and the <em>Firefox</em> folder, followed by <em>Crash Reports</em> and finally the <em>submitted</em> folder.
+</p></div><p>Use the <em>View</em> menu to arrange the files by date, then open the newest file.
+</p>",firefox,crashing-and-slow-performance,"If Firefox is still crashing after you have already attempted the steps in [Troubleshoot Firefox crashes (closing or quitting unexpectedly)](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting""), our Mozilla Support Community volunteers may be able to help.
+
+To best assist you with unresolved issues related to Firefox crashing, please have the following information ready:
+
+1. Get the Report ID of your latest crash report:
+  - Open Firefox, either normally or in [Firefox Safe Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"")[Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"") and enter _about:crashes_ in the address bar to get a list of Submitted Crash Reports:  
+ ![aboutcrashes_fx66](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+  - Click View on the latest crash report. The _[crash-stats.mozilla.com](http://crash-stats.mozilla.com)_ page will open with technical details about the crash. When the report is finished processing, close the report tab.  
+
+**Note:** If there is a newer crash report in the _Unsubmitted Crash Reports_ section, you will need to click Submit before anyone can view the report.
+
+2. [Click on this link](https://support.mozilla.org/questions/new/desktop/fix-problems/form?search=Firefox+crashes&step=aaq-question) to begin a help request for your crash issue from our Mozilla Support Community volunteers.
+3. Provide as much information as you have about your crash, including which steps you've already tried from [Troubleshoot Firefox crashes (closing or quitting unexpectedly)](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"").
+4. Copy and paste the Report ID for the latest Submitted Crash Report into the _Details_ section and submit your question. (A Report ID is the string of characters that begin with the letters _bp-_ as shown in the _Submitted Crash Reports_ section in the example screenshot above.)
+
+**If you cannot open Firefox at all (even in Safe Mode):**
+
+Find the text file for your latest Submitted Crash Report using these steps:
+
+**If you can't open Firefox at all (even in Troubleshoot Mode):**
+
+Find the text file for your latest Submitted Crash Report using these steps:
+
+1. ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) + R to open the Run dialog.
+2. In the textbox, type %APPDATA%\Mozilla\Firefox\Crash Reports\submitted
+3. Press Ok.
+
+Crash reports are stored in ~/.mozilla/firefox/Crash Reports/submitted/
+
+Submitted crash reports are stored in ~/Library/Application Support/Firefox/Crash Reports/submitted/
+
+Click the Finder icon in the dock. On the menu bar, click the Go menu. Hold down the option or alt key to unhide the _Library_ folder. When the _Library_ folder appears, click it to open the folder. Open the _Application Support_ folder, and the _Firefox_ folder, followed by _Crash Reports_ and finally the _submitted_ folder.
+
+Use the _View_ menu to arrange the files by date, then open the newest file.
+
+"
+23154,How to navigate and use the support forum platform,navigate-support-forum-platform,https://support.mozilla.org/en-US/kb/navigate-support-forum-platform,en-US,How to use the support forum as a contributor,"<p><img alt=""Navigate SUMO"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-07-09-15-47-6d080e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<h1 id=""w_how-to-navigate-mozilla-support-platform"">How to navigate Mozilla Support platform?</h1>
+<p>In this article, we will go over the navigation fundamentals of answering a question, filtering and being notified from the support forum. This may take around 20 mins.
+</p>
+<h2 id=""w_step-1-find-the-community-forums-and-choose-a-producttopic"">Step 1: Find the Community Forums and choose a product/topic</h2>
+<p><img alt=""Community Forums"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-07-09-31-15-68daf8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>When you hover at the <em>Community Forums</em> menu, you can choose to browse by product or by topic. Our recommendation is to choose <em>View all forums</em> that'll take you to <a href=""/questions/"">/questions/</a> where you can see all the products that we support in the Community Forums. Select one to get started.
+</p><p><br>
+</p>
+<h2 id=""w_step-2-learn-more-about-how-questions-are-displayed"">Step 2: Learn more about how questions are displayed</h2>
+<p><img alt=""List of questions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-07-09-33-25-025984.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>Above is the page that has all questions posted in the Community Forums whether it's from a particular product or all the questions if you chose all. From this page, there are multiple tabs you can choose from: 
+</p>
+<ul><li> ""All"": This will show you all questions that are posted or updated for the last 2 weeks 
+</li><li> ""Attention needed"": This will show you all questions whose last response is from the question owner (this is the default state)
+</li><li> ""Responded"": This will show you all questions that have been responded
+</li><li> ""Done"": This will show you questions that have been marked as solved
+</li></ul>
+<p>Additionally, you may see sidebar located on the right side of the page. In there, you will see multiple options to sort and filter questions based on your preference. 
+</p><p>By default this page will display questions based on the last updated date (no matter if they've been answered or not). However, there are other sort options too, including: 
+</p>
+<ul><li> ""Updated"": sort by the most updated question (this is the default sort)
+</li><li> ""Views"": sort by the number of people who have viewed the question (from the highest to lowest)
+</li><li> ""Votes"": sort by the number of votes people have voted ""me too"" (from the highest to lowest)
+</li><li> ""Replies"": sort by the number of replies are in the thread (from the highest to lowest)
+</li></ul>
+<p><img alt=""Forum sidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-07-09-59-05-22b1e0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>Below the Sort dropdown, you can choose to filter by: 
+</p>
+<ul><li> ""All"": View all questions posted in the Community Forum in the past 2 weeks (To be confirmed)
+</li><li> ""New"": View all new questions
+</li><li> ""Answers didn't help"": View all questions with answers that have been voted unhelpful
+</li></ul>
+<p><strong>Topic</strong> options include all topics that are available within the product.  
+</p><p><strong>Show Me</strong> options include: 
+</p>
+<ul><li> ""Posts From Everyone"": includes all of the posts from all contributors
+</li><li> ""My Contributions"": includes only the questions that you have contributed to
+</li></ul>
+<p><br>
+</p>
+<h2 id=""w_step-3-navigating-a-thread"">Step 3: Navigating a thread</h2>
+<h3 id=""w_question-tools-section"">Question Tools section</h3>
+<p><img alt=""Question sidebar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-07-23-24-34-304854.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>Above is the screenshot of the question tools that are located on the right sidebar of every question/thread posted by a user. They include Question Tools, Tags, Question Details, and See also. 
+</p><p><strong>Question Tools</strong> include: 
+</p>
+<ul><li> ""Get Email Updates"": this will turn email updates on or off for this question. 
+</li><li> ""Subscribe to Feed"": this will subscribe or unsubscribe you from the question, even if you have not added content to the question. 
+</li></ul>
+<p><strong>Tags </strong>include: 
+These are tags that include additional detail about the question. These are also used for tracking topic trends for questions.
+</p><p><strong>Question Details</strong> include: 
+</p>
+<ul><li> ""Product"": lists the product the question is about
+</li><li> ""Topic"": Lists a sub topic of the product. 
+</li><li> ""System Details"": this information is gathered at the beginning of the question and includes the version of the operating system and the product version number. Note the ""More System Details"" link. When clicked, a pop up with more troubleshooting information will be included. 
+</li></ul>
+<p><img alt=""Question details"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-08-02-21-55-b339c7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>The troubleshooting information will not always include as much detail as this if the user did not include the troubleshooting information in the original question. User can share this information by copying the information (as raw data/text) from the [about:support] page. 
+</p><p><strong>See also</strong> include: 
+A list of questions that are related to the content in the question and Knowledge Base articles related to the topic. They provide additional information and discussion on the current question. 
+</p>
+<h2 id=""w_post-a-reply-section"">Post a Reply section</h2>
+<p>In the ""Post a Reply"" section, there are some icons that will help format the response to the question. 
+From left to right: bold, italic, add a link, insert a numbered list, insert a bullet list, and common responses. 
+</p><p>There are two important thing to note from this section: adding a link and using a common response. 
+</p><p>In the add a link, you can highlight text and add a link to the text, or can search for an existing article to link to from the knowledge base. 
+</p><p>If you click on the Common responses menu, you will find that there are a bunch of responses that have already been written for the most common issues that come up in the forum. We highly encourage you to use one. 
+</p>
+<div class=""note"">Note: If you are interested in creating more common responses, this will get you started: <a href=""/en-US/kb/create-or-improve-common-forum-responses"">Create or improve common forum responses</a></div>
+<p>The <em>Needs more information from the user</em> check box on the bottom is used for requesting more information from the question owner. Once flagged for more information, the user will be able to check in whether or not they are providing this information. 
+</p>
+<h2 id=""w_step-4-enable-e-mail-notification-to-get-updates-on-new-responses"">Step 4: Enable e-mail notification to get updates on new responses</h2>
+<p>By default, you will not get an email notification about a thread (even if you've commented on it) unless you choose the <em>Get email updates</em> menu from the sidebar.
+</p><p><img alt=""Notification preference"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-08-02-17-28-6a2ee8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>However, to make things easier, you can update your notification preference from <a href=""/users/settings"">/users/settings</a>, by putting a check list on the ""Watch question threads I comment in"" so you'll automatically get notified of all threads you've commented in.
+</p>",contributor,forum,"![Navigate SUMO](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# How to navigate Mozilla Support platform?
+
+In this article, we will go over the navigation fundamentals of answering a question, filtering and being notified from the support forum. This may take around 20 mins.
+
+## Step 1: Find the Community Forums and choose a product/topic
+
+![Community Forums](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+When you hover at the _Community Forums_ menu, you can choose to browse by product or by topic. Our recommendation is to choose _View all forums_ that'll take you to [/questions/](\""https://support.mozilla.org/questions/"") where you can see all the products that we support in the Community Forums. Select one to get started.
+
+## Step 2: Learn more about how questions are displayed
+
+![List of questions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Above is the page that has all questions posted in the Community Forums whether it's from a particular product or all the questions if you chose all. From this page, there are multiple tabs you can choose from:
+
+- ""All"": This will show you all questions that are posted or updated for the last 2 weeks 
+- ""Attention needed"": This will show you all questions whose last response is from the question owner (this is the default state)
+- ""Responded"": This will show you all questions that have been responded
+- ""Done"": This will show you questions that have been marked as solved
+
+Additionally, you may see sidebar located on the right side of the page. In there, you will see multiple options to sort and filter questions based on your preference.
+
+By default this page will display questions based on the last updated date (no matter if they've been answered or not). However, there are other sort options too, including:
+
+- ""Updated"": sort by the most updated question (this is the default sort)
+- ""Views"": sort by the number of people who have viewed the question (from the highest to lowest)
+- ""Votes"": sort by the number of votes people have voted ""me too"" (from the highest to lowest)
+- ""Replies"": sort by the number of replies are in the thread (from the highest to lowest)
+
+![Forum sidebar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Below the Sort dropdown, you can choose to filter by:
+
+- ""All"": View all questions posted in the Community Forum in the past 2 weeks (To be confirmed)
+- ""New"": View all new questions
+- ""Answers didn't help"": View all questions with answers that have been voted unhelpful
+
+**Topic** options include all topics that are available within the product.
+
+**Show Me** options include:
+
+- ""Posts From Everyone"": includes all of the posts from all contributors
+- ""My Contributions"": includes only the questions that you have contributed to
+
+## Step 3: Navigating a thread
+
+### Question Tools section
+
+![Question sidebar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Above is the screenshot of the question tools that are located on the right sidebar of every question/thread posted by a user. They include Question Tools, Tags, Question Details, and See also.
+
+**Question Tools** include:
+
+- ""Get Email Updates"": this will turn email updates on or off for this question. 
+- ""Subscribe to Feed"": this will subscribe or unsubscribe you from the question, even if you have not added content to the question. 
+
+**Tags** include: These are tags that include additional detail about the question. These are also used for tracking topic trends for questions.
+
+**Question Details** include:
+
+- ""Product"": lists the product the question is about
+- ""Topic"": Lists a sub topic of the product. 
+- ""System Details"": this information is gathered at the beginning of the question and includes the version of the operating system and the product version number. Note the ""More System Details"" link. When clicked, a pop up with more troubleshooting information will be included. 
+
+![Question details](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+The troubleshooting information will not always include as much detail as this if the user did not include the troubleshooting information in the original question. User can share this information by copying the information (as raw data/text) from the [about:support] page.
+
+**See also** include: A list of questions that are related to the content in the question and Knowledge Base articles related to the topic. They provide additional information and discussion on the current question.
+
+## Post a Reply section
+
+In the ""Post a Reply"" section, there are some icons that will help format the response to the question. From left to right: bold, italic, add a link, insert a numbered list, insert a bullet list, and common responses.
+
+There are two important thing to note from this section: adding a link and using a common response.
+
+In the add a link, you can highlight text and add a link to the text, or can search for an existing article to link to from the knowledge base.
+
+If you click on the Common responses menu, you will find that there are a bunch of responses that have already been written for the most common issues that come up in the forum. We highly encourage you to use one.
+
+Note: If you are interested in creating more common responses, this will get you started: [Create or improve common forum responses](\""https://support.mozilla.org/en-US/kb/create-or-improve-common-forum-responses"")
+
+The _Needs more information from the user_ check box on the bottom is used for requesting more information from the question owner. Once flagged for more information, the user will be able to check in whether or not they are providing this information.
+
+## Step 4: Enable e-mail notification to get updates on new responses
+
+By default, you will not get an email notification about a thread (even if you've commented on it) unless you choose the _Get email updates_ menu from the sidebar.
+
+![Notification preference](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+However, to make things easier, you can update your notification preference from [/users/settings](\""https://support.mozilla.org/users/settings""), by putting a check list on the ""Watch question threads I comment in"" so you'll automatically get notified of all threads you've commented in.
 
 "
 23321,Customer Service Contributor Forum Skills,customer-service-contributor-forum-skills,https://support.mozilla.org/en-US/kb/customer-service-contributor-forum-skills,en-US,Customer Service Take aways,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_life-of-a-thread-general-overview""><span class=""tocnumber"">1</span> <span class=""toctext"">Life of a Thread General Overview</span></a></li><li class=""toclevel-1""><a href=""#w_anatomy-of-a-response""><span class=""tocnumber"">2</span> <span class=""toctext"">Anatomy of a Response:</span></a></li><li class=""toclevel-1""><a href=""#w_tips-for-a-support-conversation""><span class=""tocnumber"">3</span> <span class=""toctext"">Tips for a Support Conversation</span></a></li><li class=""toclevel-1""><a href=""#w_de-escalation""><span class=""tocnumber"">4</span> <span class=""toctext"">De-escalation</span></a></li><li class=""toclevel-1""><a href=""#w_some-interview-questions-for-the-job-seekers""><span class=""tocnumber"">5</span> <span class=""toctext"">Some interview questions for the job seekers</span></a></li></ul></div>
@@ -61488,314 +61702,6 @@ We’ve tried to include all of our services below, but are always experimenting
 - [Thimble (thimble.mozilla.org)](\""https://support.mozilla.org/en-US/kb/thimble-managing-account-data"")
 
 "
-40695,Report extensions and themes for abuse,reporting-extensions-and-themes-abuse,https://support.mozilla.org/en-US/kb/reporting-extensions-and-themes-abuse,en-US,"Discover what constitutes inappropriate content or behavior in an extension or theme, and see how to report any abuse you find.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-constitutes-abuse-for-an-extension-or-theme""><span class=""tocnumber"">1</span> <span class=""toctext"">What constitutes abuse for an extension or theme?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-report-an-extension-or-theme""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I report an extension or theme?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-next""><span class=""tocnumber"">3</span> <span class=""toctext"">What happens next?</span></a></li></ul></div>
-<h1 id=""w_what-constitutes-abuse-for-an-extension-or-theme"">What constitutes abuse for an extension or theme?</h1>
-<p>Every extension and theme distributed for use in Firefox is subject to <a href=""https://extensionworkshop.com/documentation/publish/add-on-policies/"">Mozilla’s add-on policies</a>, which also require compliance with the <a href=""https://www.mozilla.org/about/legal/acceptable-use/"">acceptable use policy</a> for Mozilla services. These policies and conditions have been created to protect you from inappropriate content or behavior in extensions and themes for Firefox. The types of content and behavior that are considered inappropriate, and therefore constitute abuse, generally fall into these categories:
-</p><p><strong>Damages your computer or data</strong>
-</p>
-<ul><li>Injects a virus, worm or other type of malware
-</li><li>Steals identifying or sensitive information
-<ul><li>For example: logins and passwords, credit card and bank information, authentication tokens, social media profile information, bookmarks and cookies
-</li></ul>
-</li><li>Sends spam links to people in your contact list
-</li><li>Steals bandwidth
-</li><li>Is difficult or impossible to uninstall
-</li><li>Requests or uses your data in ways that don’t match the extension’s description or privacy policy
-<ul><li>For example, it collects pages you visit without your knowledge or permission, or when it isn’t necessary for the extension to function
-</li></ul>
-</li><li>Mimics warnings and functionality from Firefox or your operating system
-</li></ul>
-<p><strong>Creates spam or advertising</strong>
-</p>
-<ul><li>Inserts advertisements on webpages, especially pages that didn’t previously have ads on them
-</li><li>For themes: Inserts irrelevant advertisements in the theme’s background image, or includes unrelated advertisements in the description
-<ul><li>For example: Includes something like, “Download free movies at <a href=""http://www.website"">www.website</a>.com”
-</li></ul>
-</li></ul>
-<p><strong>Changed search engine, homepage, or new tab without informing or asking you</strong>
-</p>
-<ul><li>For example: You may have Google as your default search engine, and the extension changed it to something else without informing you or asking for your permission
-</li></ul>
-<div class=""note""><strong>Note:</strong> If the extension <em>did</em> inform you of this change, or ask for your permission to do it, this likely isn’t a case of abuse. You can adjust the settings on your own:
-<ul><li><a href=""/en-US/kb/change-your-default-search-settings-firefox"">Change your default search settings</a>
-</li><li><a href=""/en-US/kb/how-to-set-the-home-page"">Change your homepage</a>
-</li></ul>
-</div>
-<p><strong>Pretends to be something it’s not</strong>
-</p>
-<ul><li>The description and imagery are false or misleading<br><em>Examples:</em><br>
-<ul><li>The description contains random, clickbaity keywords
-</li><li>The description didn’t specify the need for payment, and now you are being asked for money
-</li></ul>
-</li><li>Includes features that aren’t necessary for the extension’s purpose, or uses your data in ways that don’t match the extension’s description or privacy policy<br><em>Examples:</em><br>
-<ul><li>An extension that collects pages you visit when it isn’t necessary, or without your knowledge and permission
-</li><li>A YouTube extension that collects your visited URLs or redirects your searches through an ad network
-</li></ul>
-</li></ul>
-<p><strong>Doesn’t work, breaks websites, or slows Firefox down</strong>
-</p>
-<ul><li>Doesn’t perform the function described in its description
-</li><li>Doesn’t work well
-</li><li>Features are slow or hard to use
-</li><li>Websites look broken or unusual; parts of websites don’t load, such as forms, comments or widgets
-</li><li>Can’t log in or complete a form or transaction
-</li><li>Can’t view a video, for example a Facebook Live or YouTube video
-</li><li>Social media sharing or buttons don’t work
-</li><li>Customer support chats don’t load
-</li><li>Text and browser features disappear
-</li><li>Negatively impacts Firefox’s performance
-</li></ul>
-<div class=""note""><strong>Note:</strong> These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.</div>
-<p><strong>Hateful, violent, sexual or illegal content</strong>
-</p>
-<ul><li>Includes graphic depictions of sexuality or violence
-</li><li>Contains abusive or threatening content that targets people based upon race, ethnicity, gender, sexual orientation, religion, disability, age, etc.
-</li><li>Contains content that threatens or bullies other people
-</li><li>Promotes illegal activities, such as gambling or pornography
-</li></ul>
-<div class=""note""><strong>Note:</strong> Copyright and trademark issues must be reported in a separate process. <a href=""https://www.mozilla.org/about/legal/report-infringement/"">Use these instructions</a> to report a problem. </div>
-<p><strong>Never wanted this extension and can’t get rid of it</strong>
-</p>
-<ul><li>You don’t remember installing the extension, or you were tricked or forced into installing it from a website
-<ul><li>For example: The extension trapped you in full-screen mode, or an application installed it without your permission
-</li></ul>
-</li><li>It’s difficult or impossible to uninstall
-</li></ul>
-<p><strong>Some things that don’t constitute abuse include</strong>
-</p>
-<ul><li>A lack of functionality compared to the extension’s description
-</li><li>Poorly working or difficult-to-use features
-</li><li>Slow functioning features, as long as these don’t affect the overall performance of Firefox
-</li></ul>
-<div class=""note""><strong>Note:</strong> These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.</div>
-<h1 id=""w_how-do-i-report-an-extension-or-theme"">How do I report an extension or theme?</h1>
-<p>You can report an extension or theme directly in Firefox or on the <a href=""https://addons.mozilla.org/firefox/"">AMO product page</a> for the extension or theme.
-</p><p><strong>To submit a report in Firefox:</strong>
-</p>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions or Themes</span>.
-
-</li><li>Select the extension or theme you would like to report.
-</li><li>Click the ellipsis (3-dot) icon and select <strong>Report</strong>.<br><img alt=""fx72 report extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-17-07-24-fd9c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""><br>
-</li><li>Select a reason for reporting the extension and click <strong>Next</strong>.
-<dl><dt><img alt=""Report add-on abuse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-27-13-40-51-2d084d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""900"">
-</dt></dl>
-</li><li>Provide more information about your report (optional).
-</li><li>Click <strong>Submit</strong>.
-</li></ol>
-<p><strong>To submit a report on the extension or theme’s <a href=""https://addons.mozilla.org/firefox/"">AMO product page</a>:</strong>
-</p>
-<ol><li>Go to the <a href=""https://addons.mozilla.org/firefox/"">Firefox Add-ons</a> page for the extension or theme and click <span class=""button"">Report this add-on for abuse</span>.
-<dl><dt><img alt=""report addon button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-17-07-55-14-5ed7c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Select a reason for reporting the extension and click <strong>Next</strong>.
-</li><li>Provide more information about your report (optional).
-</li><li>Click <strong>Submit</strong>.
-</li></ol>
-<h1 id=""w_what-happens-next"">What happens next?</h1>
-<p>Your abuse report is sent to the Firefox add-ons team for review. If they confirm that the extension or theme is abusing the Mozilla add-on policies or conditions of use, the extension or theme is removed from <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> until the developer fixes the issues. Depending on the history and severity of the abuse, the add-ons team may issue a block that prevents the extension or theme from loading in Firefox. For more information, see <a href=""/en-US/kb/add-ons-cause-issues-are-on-blocklist"">Why does Mozilla disable some add-ons from running in Firefox?</a>
-</p>",firefox,add-ons-extensions-and-themes,"## Table of Contents
-
-- [1 What constitutes abuse for an extension or theme?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_what-constitutes-abuse-for-an-extension-or-theme)
-- [2 How do I report an extension or theme?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_how-do-i-report-an-extension-or-theme)
-- [3 What happens next?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_what-happens-next)
-
-# What constitutes abuse for an extension or theme?
-
-Every extension and theme distributed for use in Firefox is subject to [Mozilla’s add-on policies](https://extensionworkshop.com/documentation/publish/add-on-policies/), which also require compliance with the [acceptable use policy](https://www.mozilla.org/about/legal/acceptable-use/) for Mozilla services. These policies and conditions have been created to protect you from inappropriate content or behavior in extensions and themes for Firefox. The types of content and behavior that are considered inappropriate, and therefore constitute abuse, generally fall into these categories:
-
-**Damages your computer or data**
-
-- Injects a virus, worm or other type of malware
-- Steals identifying or sensitive information
-  - For example: logins and passwords, credit card and bank information, authentication tokens, social media profile information, bookmarks and cookies
-
-- Sends spam links to people in your contact list
-- Steals bandwidth
-- Is difficult or impossible to uninstall
-- Requests or uses your data in ways that don’t match the extension’s description or privacy policy
-  - For example, it collects pages you visit without your knowledge or permission, or when it isn’t necessary for the extension to function
-
-- Mimics warnings and functionality from Firefox or your operating system
-
-**Creates spam or advertising**
-
-- Inserts advertisements on webpages, especially pages that didn’t previously have ads on them
-- For themes: Inserts irrelevant advertisements in the theme’s background image, or includes unrelated advertisements in the description
-  - For example: Includes something like, “Download free movies at [www.website](http://www.website).com”
-
-**Changed search engine, homepage, or new tab without informing or asking you**
-
-- For example: You may have Google as your default search engine, and the extension changed it to something else without informing you or asking for your permission
-
-**Note:** If the extension _did_ inform you of this change, or ask for your permission to do it, this likely isn’t a case of abuse. You can adjust the settings on your own:
-- [Change your default search settings](\""https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox"")
-- [Change your homepage](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"")
-
-**Pretends to be something it’s not**
-
-- The description and imagery are false or misleading  
-_Examples:_  
-
-  - The description contains random, clickbaity keywords
-  - The description didn’t specify the need for payment, and now you are being asked for money
-
-- Includes features that aren’t necessary for the extension’s purpose, or uses your data in ways that don’t match the extension’s description or privacy policy  
-_Examples:_  
-
-  - An extension that collects pages you visit when it isn’t necessary, or without your knowledge and permission
-  - A YouTube extension that collects your visited URLs or redirects your searches through an ad network
-
-**Doesn’t work, breaks websites, or slows Firefox down**
-
-- Doesn’t perform the function described in its description
-- Doesn’t work well
-- Features are slow or hard to use
-- Websites look broken or unusual; parts of websites don’t load, such as forms, comments or widgets
-- Can’t log in or complete a form or transaction
-- Can’t view a video, for example a Facebook Live or YouTube video
-- Social media sharing or buttons don’t work
-- Customer support chats don’t load
-- Text and browser features disappear
-- Negatively impacts Firefox’s performance
-
-**Note:** These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via [addons.mozilla.org](https://addons.mozilla.org) (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.
-
-**Hateful, violent, sexual or illegal content**
-
-- Includes graphic depictions of sexuality or violence
-- Contains abusive or threatening content that targets people based upon race, ethnicity, gender, sexual orientation, religion, disability, age, etc.
-- Contains content that threatens or bullies other people
-- Promotes illegal activities, such as gambling or pornography
-
-**Note:** Copyright and trademark issues must be reported in a separate process. [Use these instructions](https://www.mozilla.org/about/legal/report-infringement/) to report a problem. 
-
-**Never wanted this extension and can’t get rid of it**
-
-- You don’t remember installing the extension, or you were tricked or forced into installing it from a website
-  - For example: The extension trapped you in full-screen mode, or an application installed it without your permission
-
-- It’s difficult or impossible to uninstall
-
-**Some things that don’t constitute abuse include**
-
-- A lack of functionality compared to the extension’s description
-- Poorly working or difficult-to-use features
-- Slow functioning features, as long as these don’t affect the overall performance of Firefox
-
-**Note:** These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via [addons.mozilla.org](https://addons.mozilla.org) (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.
-
-# How do I report an extension or theme?
-
-You can report an extension or theme directly in Firefox or on the [AMO product page](https://addons.mozilla.org/firefox/) for the extension or theme.
-
-**To submit a report in Firefox:**
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions or Themes.
-2. Select the extension or theme you would like to report.
-3. Click the ellipsis (3-dot) icon and select **Report**.  
- ![fx72 report extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
-4. Select a reason for reporting the extension and click **Next**.<dl><dt>
-<img alt=""Report add-on abuse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-27-13-40-51-2d084d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""900"">
-</dt></dl>
-5. Provide more information about your report (optional).
-6. Click **Submit**.
-
-**To submit a report on the extension or theme’s [AMO product page](https://addons.mozilla.org/firefox/):**
-
-1. Go to the [Firefox Add-ons](https://addons.mozilla.org/firefox/) page for the extension or theme and click Report this add-on for abuse.<dl><dt>
-<img alt=""report addon button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-17-07-55-14-5ed7c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Select a reason for reporting the extension and click **Next**.
-3. Provide more information about your report (optional).
-4. Click **Submit**.
-
-# What happens next?
-
-Your abuse report is sent to the Firefox add-ons team for review. If they confirm that the extension or theme is abusing the Mozilla add-on policies or conditions of use, the extension or theme is removed from [addons.mozilla.org](https://addons.mozilla.org) until the developer fixes the issues. Depending on the history and severity of the abuse, the add-ons team may issue a block that prevents the extension or theme from loading in Firefox. For more information, see [Why does Mozilla disable some add-ons from running in Firefox?](\""https://support.mozilla.org/en-US/kb/add-ons-cause-issues-are-on-blocklist"")
-
-"
-40709,The difference between IMAP and POP3,difference-between-imap-and-pop3,https://support.mozilla.org/en-US/kb/difference-between-imap-and-pop3,en-US,Thunderbird gives users the choice between using IMAP or POP3. This documentation will explain the major differences between these protocols.,"<p>When adding an email account to Thunderbird, you can decide between <em>IMAP (remote folders)</em> and <em>POP3 (keep mail on your computer)</em>. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
-</p>
-<ul><li> <strong>IMAP:</strong> Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
-</li><li> <strong>POP3:</strong> New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the <a href=""/en-US/kb/configuration-options-accounts#w_server-settings-panel"">Thunderbird Server Settings panel</a> for your account. 
-</li></ul>
-<p><strong>We recommend using IMAP.</strong>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-to-consider""><span class=""tocnumber"">1</span> <span class=""toctext"">What to consider</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-imap-and-pop3""><span class=""tocnumber"">2</span> <span class=""toctext"">What is IMAP and POP3?</span></a><ul><li class=""toclevel-2""><a href=""#w_imap""><span class=""tocnumber"">2.1</span> <span class=""toctext"">IMAP</span></a></li><li class=""toclevel-2""><a href=""#w_pop3""><span class=""tocnumber"">2.2</span> <span class=""toctext"">POP3</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_changing-your-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Changing your account</span></a></li></ul></div>
-<h1 id=""w_what-to-consider"">What to consider</h1>
-<p>To help you decide for yourself, here are some things to consider:
-</p>
-<ul><li> <strong>Do you want to access the account from more than one device?</strong> Choose IMAP.
-</li><li> <strong>Do you want to access the account from a web browser?</strong> Choose IMAP.
-</li><li> <strong>Does your email provider support IMAP or POP3?</strong> Most of them support both, but you should verify first.
-</li><li> <strong>What is the size limit of your mailbox?</strong> Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
-</li><li> <strong>Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?</strong> Choose POP3.
-</li></ul>
-<h1 id=""w_what-is-imap-and-pop3"">What is IMAP and POP3?</h1>
-<h2 id=""w_imap"">IMAP</h2>
-<p>IMAP stands for <strong>I</strong>nternet <strong>M</strong>ail <strong>A</strong>ccess <strong>P</strong>rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
-</p><p>Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
-</p><p>Changes made in Thunderbird are replicated to all imap connected devices.
-</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, even though your mail is stored on a remote server.
-</p>
-<h2 id=""w_pop3"">POP3</h2>
-<p>POP3 stands for <strong>P</strong>ost <strong>O</strong>ffice <strong>P</strong>rotocol (version <strong>3</strong>). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
-</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, especially because your mail is <strong>not</strong> stored on a remote server.
-</p>
-<h1 id=""w_changing-your-account"">Changing your account</h1>
-<p>Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
-</p><p>See <a href=""/en-US/kb/automatic-account-configuration"">Automatic Account Configuration</a> to add a new mail account automatically or <a href=""/en-US/kb/manual-account-configuration"">Manual Account Configuration</a> to manually configure a new mail account.
-</p>",thunderbird,email-and-messaging;import-and-export-email;settings,"When adding an email account to Thunderbird, you can decide between _IMAP (remote folders)_ and _POP3 (keep mail on your computer)_. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
-
-- **IMAP:** Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
-- **POP3:** New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the [Thunderbird Server Settings panel](\""https://support.mozilla.org/en-US/kb/configuration-options-accounts#w_server-settings-panel"") for your account. 
-
-**We recommend using IMAP.**
-
-## Table of Contents
-
-- [1 What to consider](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-to-consider)
-- [2 What is IMAP and POP3?](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-is-imap-and-pop3)
-  - [2.1 IMAP](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_imap)
-  - [2.2 POP3](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_pop3)
-
-- [3 Changing your account](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_changing-your-account)
-
-# What to consider
-
-To help you decide for yourself, here are some things to consider:
-
-- **Do you want to access the account from more than one device?** Choose IMAP.
-- **Do you want to access the account from a web browser?** Choose IMAP.
-- **Does your email provider support IMAP or POP3?** Most of them support both, but you should verify first.
-- **What is the size limit of your mailbox?** Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
-- **Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?** Choose POP3.
-
-# What is IMAP and POP3?
-
-## IMAP
-
-IMAP stands for **I** nternet **M** ail **A** ccess **P** rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
-
-Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
-
-Changes made in Thunderbird are replicated to all imap connected devices.
-
-To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), even though your mail is stored on a remote server.
-
-## POP3
-
-POP3 stands for **P** ost **O** ffice **P** rotocol (version **3** ). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
-
-To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), especially because your mail is **not** stored on a remote server.
-
-# Changing your account
-
-Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
-
-See [Automatic Account Configuration](\""https://support.mozilla.org/en-US/kb/automatic-account-configuration"") to add a new mail account automatically or [Manual Account Configuration](\""https://support.mozilla.org/en-US/kb/manual-account-configuration"") to manually configure a new mail account.
-
-"
 40755,Change themes in Firefox for iOS,change-themes-firefox-ios,https://support.mozilla.org/en-US/kb/change-themes-firefox-ios,en-US,Learn how to switch between light and dark themes on Firefox for iOS.,"<p>Firefox for iOS has built in dark and light themes as well as Night Mode, so you can customize its appearance. Learn more about changing your theme.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_set-theme-to-light-or-dark""><span class=""tocnumber"">1</span> <span class=""toctext"">Set theme to light or dark</span></a></li><li class=""toclevel-1""><a href=""#w_enable-night-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable Night Mode</span></a></li></ul></div>
@@ -68039,6 +67945,83 @@ On the same page, you can also navigate to view the extension’s reviews by cli
 **Note:** ratings and reviews are left by other Firefox users – keep in mind that the reviews are simply users expressing their opinion.
 
 For further guidance, see [Tips for assessing the safety of an extension](\""https://support.mozilla.org/en-US/kb/tips-assessing-safety-extension"").
+
+"
+44203,Understanding the risks of installing self-hosted extensions,understanding-risks-unlisted-extensions,https://support.mozilla.org/en-US/kb/understanding-risks-unlisted-extensions,en-US,Learn about the risks of installing extensions from third-parties and how to assess the trustworthiness of the source.,"<p><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Extensions</a> enable you to add features to Firefox for a personalized browsing experience. 
+</p><p>Extensions that are distributed by the developers themselves, rather than by Mozilla on <a href=""http://addons.mozilla.org"">addons.mozilla.org</a> (AMO), are referred to as “self-hosted.” While users should exercise caution when installing extensions from any source—AMO included—users should take special care determining the trustworthiness of a self-hosted extension. Although most extensions are created by developers with the honest intent of providing great new browser features, some bad actors may use extensions to compromise your personal browsing data.
+</p>
+<h1 id=""w_assess-the-trustworthiness-of-any-website-or-source-of-a-self-hosted-extension"">Assess the trustworthiness of any website or source of a self-hosted extension</h1>
+<p>There’s inherent risk associated with installing any third party software. Extensions are no different. When evaluating the trustworthiness of a self-hosted extension, consider the following questions:
+</p>
+<ul><li> <strong>Were you prompted by a website to install the extension?</strong> This isn’t necessarily a red flag, because there may be a legitimate reason for a website to promote an extension, but this is an indication that you should proceed carefully. 
+</li><li> <strong>Are you familiar with the website or source of the self-hosted extension?</strong> If you’re unfamiliar and can’t establish trust, avoid installing the extension. (Keep in mind some malicious sites may mimic the look and feel of known, trustworthy brands.)
+</li><li> <strong>What can you learn about the extension and its developer from a quick internet search?</strong> Try searching the extension and developer’s name. What do you find? Do any concerning issues arise? 
+</li><li> <strong>Does the extension provide a privacy policy?</strong> It’s not necessary for every extension to provide a privacy policy, but if the extension asks for powerful <a href=""/en-US/kb/permission-request-messages-firefox-extensions"">permission requests</a>, it should provide a clear policy explaining how your data is treated. Make certain you’re comfortable with the privileges and permissions you grant. 
+</li><li> <strong>Are you sure you need the extension?</strong> This may seem obvious, but it bears reinforcing—if you don’t really need or want the extension, consider avoiding it. Carefully review its features and services. Does the extension offer you a clear benefit? 
+</li></ul>
+<p>These are just a few tips to help you assess the trustworthiness of a self-hosted extension, but it is by no means a comprehensive guide. Please use your best judgement when considering any third party software.
+</p>",firefox,add-ons-extensions-and-themes,"[Extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"") enable you to add features to Firefox for a personalized browsing experience.
+
+Extensions that are distributed by the developers themselves, rather than by Mozilla on [addons.mozilla.org](http://addons.mozilla.org) (AMO), are referred to as “self-hosted.” While users should exercise caution when installing extensions from any source—AMO included—users should take special care determining the trustworthiness of a self-hosted extension. Although most extensions are created by developers with the honest intent of providing great new browser features, some bad actors may use extensions to compromise your personal browsing data.
+
+# Assess the trustworthiness of any website or source of a self-hosted extension
+
+There’s inherent risk associated with installing any third party software. Extensions are no different. When evaluating the trustworthiness of a self-hosted extension, consider the following questions:
+
+- **Were you prompted by a website to install the extension?** This isn’t necessarily a red flag, because there may be a legitimate reason for a website to promote an extension, but this is an indication that you should proceed carefully. 
+- **Are you familiar with the website or source of the self-hosted extension?** If you’re unfamiliar and can’t establish trust, avoid installing the extension. (Keep in mind some malicious sites may mimic the look and feel of known, trustworthy brands.)
+- **What can you learn about the extension and its developer from a quick internet search?** Try searching the extension and developer’s name. What do you find? Do any concerning issues arise? 
+- **Does the extension provide a privacy policy?** It’s not necessary for every extension to provide a privacy policy, but if the extension asks for powerful [permission requests](\""https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions""), it should provide a clear policy explaining how your data is treated. Make certain you’re comfortable with the privileges and permissions you grant. 
+- **Are you sure you need the extension?** This may seem obvious, but it bears reinforcing—if you don’t really need or want the extension, consider avoiding it. Carefully review its features and services. Does the extension offer you a clear benefit? 
+
+These are just a few tips to help you assess the trustworthiness of a self-hosted extension, but it is by no means a comprehensive guide. Please use your best judgement when considering any third party software.
+
+"
+44283,Best practices for creating new video tutorials,best-practices-creating-new-video-tutorials,https://support.mozilla.org/en-US/kb/best-practices-creating-new-video-tutorials,en-US,This article provides a series of best practices so that you can create high-quality video tutorials to better serve users using Mozilla's products.,"<p>Video tutorials are a great way to help users solve complex issues quickly. With video tutorials becoming a common medium for presenting step-by-step procedures, it’s vital that the creators of this medium understand how to create high-quality content for the audiences that they would like to engage. This article provides a series of tips that you should follow when creating new video tutorials for Mozilla’s users.
+</p>
+<h1 id=""w_ensure-that-your-topic-is-suitable-for-a-video-tutorial"">Ensure that your topic is suitable for a video tutorial</h1>
+<p>When creating new videos, you should always ask yourself: Does this subject matter require a video tutorial?
+</p><p>Sometimes a simple “how to” article is sufficient enough. However, if the content is complex or you want to showcase a new feature, then a new video tutorial would be considered valuable to most users.
+</p>
+<h1 id=""w_create-a-solid-plan-prior-to-recording-your-video-tutorial"">Create a solid plan prior to recording your video tutorial</h1>
+<p>It’s extremely important that you think about the content that you want to include in your video tutorial. The best way to do this is by creating a storyboard. A storyboard is a working document that helps video creators conceptualize and visualize the content that they want to include in their video. A storyboard will help you do the following:
+</p>
+<ul><li> Determine which content is relevant and how it should be organized in your video tutorial
+</li><li> Determine the length of each segment, which will help you plan the entire length of your video tutorial
+</li><li> Determine which areas of your video tutorial will require captions or effects so that you can focus on that area for a longer period of time when recording
+</li></ul>
+<p>You can create a custom storyboard or go to <a href=""https://theplot.io/free-storyboard-templates/"">https://theplot.io/free-storyboard-templates/</a> and download an existing template.
+</p>
+<h1 id=""w_keep-it-short-and-focused"">Keep it short and focused</h1>
+<p>Try to keep all videos under five minutes as a general rule. You may not be able to keep the attention of your audience if your videos are over five minutes. Lastly, be sure to focus on key areas that you are trying to demonstrate, which will require that you remain on a particular window or hover on an icon for a longer period of time.
+</p>
+<h1 id=""w_ensure-that-the-resolution-and-audio-quality-is-top-notch"">Ensure that the resolution and audio quality is top notch</h1>
+<p>A video tutorial that contains poor resolution and/or audio quality is useless to any user. It’s easier to fix these issues prior to submitting your video for final editing since Camtasia doesn’t offer many options for enhancing original video files.
+</p>",contributor,kb,"Video tutorials are a great way to help users solve complex issues quickly. With video tutorials becoming a common medium for presenting step-by-step procedures, it’s vital that the creators of this medium understand how to create high-quality content for the audiences that they would like to engage. This article provides a series of tips that you should follow when creating new video tutorials for Mozilla’s users.
+
+# Ensure that your topic is suitable for a video tutorial
+
+When creating new videos, you should always ask yourself: Does this subject matter require a video tutorial?
+
+Sometimes a simple “how to” article is sufficient enough. However, if the content is complex or you want to showcase a new feature, then a new video tutorial would be considered valuable to most users.
+
+# Create a solid plan prior to recording your video tutorial
+
+It’s extremely important that you think about the content that you want to include in your video tutorial. The best way to do this is by creating a storyboard. A storyboard is a working document that helps video creators conceptualize and visualize the content that they want to include in their video. A storyboard will help you do the following:
+
+- Determine which content is relevant and how it should be organized in your video tutorial
+- Determine the length of each segment, which will help you plan the entire length of your video tutorial
+- Determine which areas of your video tutorial will require captions or effects so that you can focus on that area for a longer period of time when recording
+
+You can create a custom storyboard or go to [https://theplot.io/free-storyboard-templates/](https://theplot.io/free-storyboard-templates/) and download an existing template.
+
+# Keep it short and focused
+
+Try to keep all videos under five minutes as a general rule. You may not be able to keep the attention of your audience if your videos are over five minutes. Lastly, be sure to focus on key areas that you are trying to demonstrate, which will require that you remain on a particular window or hover on an icon for a longer period of time.
+
+# Ensure that the resolution and audio quality is top notch
+
+A video tutorial that contains poor resolution and/or audio quality is useless to any user. It’s easier to fix these issues prior to submitting your video for final editing since Camtasia doesn’t offer many options for enhancing original video files.
 
 "
 44296,Access toolbar functions using the keyboard,access-toolbar-functions-using-keyboard,https://support.mozilla.org/en-US/kb/access-toolbar-functions-using-keyboard,en-US,"Use your keyboard to access add-on buttons on the toolbar, as well as perform other toolbar functions not previously available via the keyboard.","<p>In Firefox, you can use the keyboard to access your add-on buttons on the toolbar, as well as perform other toolbar functions that were not previously available via your keyboard.
@@ -75163,239 +75146,6 @@ All of the OMA-URIs and values for Firefox policies are listed at:
 [https://mozilla.github.io/policy-templates/](https://mozilla.github.io/policy-templates/)
 
 **Note:** When you are entering arrays or key-value pair lists, you have to use **&#xF000;** as a separator. See the examples in the [_Windows (Intune)_ section](https://mozilla.github.io/policy-templates/#windows-intune-5) of the [policy-templates page](https://mozilla.github.io/policy-templates/).
-"
-49117,Compatibility with Exploit protection on Windows,compatibility-exploit-protection-windows,https://support.mozilla.org/en-US/kb/compatibility-exploit-protection-windows,en-US,Firefox Compatibility with Windows Exploit protection.,"<p>Windows 10 (version 1709+), Windows Server (version 1803+) and Windows 11 come with a security feature named <a href=""https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/exploit-protection"">Exploit protection</a>. Exploit protection includes a number of mitigations from the Enhanced Mitigation Experience Toolkit (EMET) which reached end of support on July 31st, 2018.
-</p><p>While you can apply those mitigations to Firefox (i.e. firefox.exe), <strong>Mozilla recommends keeping the default settings of Exploit protection for firefox.exe.</strong> Since Microsoft can change the mitigation techniques at anytime, you may experience compatibility issues such as startup or sudden crashes or loss of functionality if you were to update from a working version.
-</p>
-<div class=""note"">Windows 10 Version 1709 Security Baseline from Microsoft contained an error which will make Firefox 100 unable to load any pages.  Updated versions of Windows Security Baseline can be found <a href=""https://www.microsoft.com/en-us/download/details.aspx?id=55319"">here</a>.</div>
-<h1 id=""w_known-issues-in-older-versions"">Known issues in older versions</h1>
-<ul><li>Firefox had a startup crash due to the compatibility issues with EAF (Export Address Filtering) until version 73.
-<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1587642"">Bug 1587642</a> (fixed in 72)
-</li><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1592486"">Bug 1592486</a> (fixed in 74)
-</li></ul>
-</li><li>Firefox had a startup crash due to the compatibility issue with EAF+ until version 77.
-<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1509748"">Bug 1509748</a> (fixed in 78)
-</li></ul>
-</li><li>Firefox fails to load any pages with outdated Exploit Protection settings.
-<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1770098"">Bug 1770098</a> (Fixed in 102)
-</li></ul>
-</li></ul>",firefox,privacy-and-security;security,"Windows 10 (version 1709+), Windows Server (version 1803+) and Windows 11 come with a security feature named [Exploit protection](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/exploit-protection). Exploit protection includes a number of mitigations from the Enhanced Mitigation Experience Toolkit (EMET) which reached end of support on July 31st, 2018.
-
-While you can apply those mitigations to Firefox (i.e. firefox.exe), **Mozilla recommends keeping the default settings of Exploit protection for firefox.exe.** Since Microsoft can change the mitigation techniques at anytime, you may experience compatibility issues such as startup or sudden crashes or loss of functionality if you were to update from a working version.
-
-Windows 10 Version 1709 Security Baseline from Microsoft contained an error which will make Firefox 100 unable to load any pages. Updated versions of Windows Security Baseline can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=55319).
-
-# Known issues in older versions
-
-- Firefox had a startup crash due to the compatibility issues with EAF (Export Address Filtering) until version 73.
-  - [Bug 1587642](https://bugzilla.mozilla.org/show_bug.cgi?id=1587642) (fixed in 72)
-  - [Bug 1592486](https://bugzilla.mozilla.org/show_bug.cgi?id=1592486) (fixed in 74)
-
-- Firefox had a startup crash due to the compatibility issue with EAF+ until version 77.
-  - [Bug 1509748](https://bugzilla.mozilla.org/show_bug.cgi?id=1509748) (fixed in 78)
-
-- Firefox fails to load any pages with outdated Exploit Protection settings.
-  - [Bug 1770098](https://bugzilla.mozilla.org/show_bug.cgi?id=1770098) (Fixed in 102)
-
-"
-49133,Run Firefox on ChromeOS,run-firefox-chromeos,https://support.mozilla.org/en-US/kb/run-firefox-chromeos,en-US,This page explains how to install Firefox on Chromebooks and other devices running ChromeOS.,"<p>Firefox can now be installed on Chromebooks and other devices running ChromeOS. This article will explain the system requirements needed in order to run Firefox on ChromeOS and how to set this up.
-</p>
-<h1 id=""w_how-to-run-firefox-on-chromeos"">How to run Firefox on ChromeOS</h1>
-<p>To run Firefox on ChromeOS, you first need to ensure that your system meets the following requirements:
-</p>
-<h2 id=""w_system-requirements"">System Requirements</h2>
-<ul><li><strong>x86 based Chromebook running ChromeOS 80 or later</strong>
-</li></ul>
-<p>You can check this by going to <code>chrome://version</code> in the Chrome browser address bar. <a href=""https://support.google.com/chromebook/answer/177889"">Follow these instructions from Google</a> if you need to upgrade your OS.
-</p>
-<h2 id=""w_enable-linux-support-for-chromeos"">Enable Linux support for ChromeOS</h2>
-<ul><li><strong>Visit <a href=""https://support.google.com/chromebook/answer/9145439"">this Google Support page</a> to learn more about how to set up Linux (Beta) on your Chromebook.</strong>
-</li><li><strong>Once you've enabled Linux, check the Terminal to see if you have the correct version:</strong>
-<dl><dt><code>cat /etc/os-release</code>
-</dt></dl>
-</li><li><strong>If the version is not 10 (buster) or above, you'll need to run the update script:</strong>
-<dl><dt><code>sudo bash /opt/google/cros-containers/bin/upgrade_container</code>
-</dt></dl>
-</li></ul>
-<p>This script will take some time depending on how fast your Chromebook and internet speeds are. Once it's done, you'll need to restart your Linux container. You can either right-click the <em>Terminal</em> icon and select <strong>Shut down Linux (Beta)</strong> or just restart your Chromebook.
-</p>
-<h2 id=""w_install-firefox-from-mozilla-repository-recommended"">Install Firefox from Mozilla Repository (Recommended)</h2>
-<ol><li>Create a directory to store APT repository keys if it doesn't exist:
-<dl><dt><code><strong>sudo install -d -m 0755 /etc/apt/keyrings</strong></code>
-</dt></dl>
-</li><li>Import the Mozilla APT repository signing key:
-<dl><dt><code><strong>wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &gt; /dev/null</strong></code>
-</dt><dt>If you do not have <code><strong>wget</strong></code> installed, you can install it with: <code><strong>sudo apt-get install wget</strong></code>
-</dt></dl>
-</li><li>The fingerprint should be <strong>35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3</strong>. You may check it with the following command:
-<dl><dt><code><strong>gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""""); if($0 == ""35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"") print ""\nThe key fingerprint matches (""$0"").\n""; else print ""\nVerification failed: the fingerprint (""$0"") does not match the expected one.\n""}'</strong></code>
-</dt></dl>
-</li><li>Next, add the Mozilla APT repository to your sources.list:
-<dl><dt><code><strong>cat &lt;&lt;EOF &gt; /etc/apt/sources.list.d/mozilla.sources</strong></code>
-</dt><dt><code><strong>Types: deb</strong></code>
-</dt><dt><code><strong>URIs: https://packages.mozilla.org/apt</strong></code>
-</dt><dt><code><strong>Suites: mozilla</strong></code>
-</dt><dt><code><strong>Components: main</strong></code>
-</dt><dt><code><strong>Signed-By: /etc/apt/keyrings/packages.mozilla.org.asc</strong></code>
-</dt><dt><code><strong>EOF</strong></code>
-</dt></dl>
-</li><li>Configure APT to prioritize packages from the Mozilla repository:
-<dl><dt><code><strong>echo '</strong></code>
-</dt><dt><code><strong>Package: *</strong></code>
-</dt><dt><code><strong>Pin: origin packages.mozilla.org</strong></code>
-</dt><dt><code><strong>Pin-Priority: 1000</strong></code>
-</dt><dt><code>'<strong> | sudo tee /etc/apt/preferences.d/mozilla</strong></code>
-</dt></dl>
-</li><li>Update your package list, and install <em>firefox</em> (or one of <em>firefox-esr</em>, <em>-beta</em>, <em>-nightly</em>, <em>-devedition</em>):
-<dl><dt><code><strong>sudo apt-get update &amp;&amp; sudo apt-get install firefox</strong></code>
-</dt></dl>
-</li></ol>
-<h2 id=""w_set-up-different-languages-in-firefox"">Set up different languages in Firefox</h2>
-<p>For those of you who would like to use Firefox in a different language than American English, we have also created <code><strong>.deb</strong></code> packages containing the Firefox language packs. To install a specific language pack, replace <em>fr</em> in the example below with the desired language code. In this example, we will be installing the French language version of Firefox.
-</p>
-<dl><dt><code><strong>sudo apt-get install firefox-l10n-fr</strong></code>
-</dt></dl>
-<p>To list all the available language packs, after adding the Mozilla APT repository and running <code>sudo apt-get update</code>, you can use this command:
-</p>
-<dl><dt><code><strong>apt-cache search firefox-l10n</strong></code>
-</dt></dl>
-<h2 id=""w_install-from-flatpak"">Install from Flatpak</h2>
-<p>To install Firefox from Flatpak, <a href=""https://flatpak.org/setup/"">install and configure Flatpak</a> on your computer. Once Flatpak is installed, go to the <a href=""https://flathub.org/apps/details/org.mozilla.firefox"">Firefox Flathub's page</a>, and click the <span class=""button"">Install</span> button. Alternatively, you can type the following command in a terminal:
-</p>
-<dl><dt><code><strong>flatpak install flathub org.mozilla.firefox</strong></code>
-</dt></dl>
-<p>By default, Flatpak installs Firefox in the same locale as your operating system. To use a different language, please follow the instructions on <a href=""/en-US/kb/use-firefox-another-language"">how to use Firefox in another language</a>.
-</p>",firefox,install;installation-and-updates,"Firefox can now be installed on Chromebooks and other devices running ChromeOS. This article will explain the system requirements needed in order to run Firefox on ChromeOS and how to set this up.
-
-# How to run Firefox on ChromeOS
-
-To run Firefox on ChromeOS, you first need to ensure that your system meets the following requirements:
-
-## System Requirements
-
-- **x86 based Chromebook running ChromeOS 80 or later**
-
-You can check this by going to `chrome://version` in the Chrome browser address bar. [Follow these instructions from Google](https://support.google.com/chromebook/answer/177889) if you need to upgrade your OS.
-
-## Enable Linux support for ChromeOS
-
-- **Visit [this Google Support page](https://support.google.com/chromebook/answer/9145439) to learn more about how to set up Linux (Beta) on your Chromebook.**
-- **Once you've enabled Linux, check the Terminal to see if you have the correct version:** <dl><dt>
-<code>cat /etc/os-release</code>
-</dt></dl>
-- **If the version is not 10 (buster) or above, you'll need to run the update script:**<dl><dt>
-<code>sudo bash /opt/google/cros-containers/bin/upgrade_container</code>
-</dt></dl>
-
-This script will take some time depending on how fast your Chromebook and internet speeds are. Once it's done, you'll need to restart your Linux container. You can either right-click the _Terminal_ icon and select **Shut down Linux (Beta)** or just restart your Chromebook.
-
-## Install Firefox from Mozilla Repository (Recommended)
-
-1. Create a directory to store APT repository keys if it doesn't exist:<dl><dt>
-<code><strong>sudo install -d -m 0755 /etc/apt/keyrings</strong></code>
-</dt></dl>
-2. Import the Mozilla APT repository signing key:<dl>
-<dt>
-<code><strong>wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &gt; /dev/null</strong></code>
-</dt>
-<dt>If you do not have <code><strong>wget</strong></code> installed, you can install it with: <code><strong>sudo apt-get install wget</strong></code>
-</dt>
-</dl>
-3. The fingerprint should be **35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3**. You may check it with the following command:<dl><dt>
-<code><strong>gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""""); if($0 == ""35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"") print ""\nThe key fingerprint matches (""$0"").\n""; else print ""\nVerification failed: the fingerprint (""$0"") does not match the expected one.\n""}'</strong></code>
-</dt></dl>
-4. Next, add the Mozilla APT repository to your sources.list:<dl>
-<dt>
-<code><strong>cat &lt;&lt;EOF &gt; /etc/apt/sources.list.d/mozilla.sources</strong></code>
-</dt>
-<dt>
-<code><strong>Types: deb</strong></code>
-</dt>
-<dt>
-<code><strong>URIs: https://packages.mozilla.org/apt</strong></code>
-</dt>
-<dt>
-<code><strong>Suites: mozilla</strong></code>
-</dt>
-<dt>
-<code><strong>Components: main</strong></code>
-</dt>
-<dt>
-<code><strong>Signed-By: /etc/apt/keyrings/packages.mozilla.org.asc</strong></code>
-</dt>
-<dt>
-<code><strong>EOF</strong></code>
-</dt>
-</dl>
-5. Configure APT to prioritize packages from the Mozilla repository:<dl>
-<dt>
-<code><strong>echo '</strong></code>
-</dt>
-<dt>
-<code><strong>Package: *</strong></code>
-</dt>
-<dt>
-<code><strong>Pin: origin packages.mozilla.org</strong></code>
-</dt>
-<dt>
-<code><strong>Pin-Priority: 1000</strong></code>
-</dt>
-<dt>
-<code>'<strong> | sudo tee /etc/apt/preferences.d/mozilla</strong></code>
-</dt>
-</dl>
-6. Update your package list, and install _firefox_ (or one of _firefox-esr_, _-beta_, _-nightly_, _-devedition_):<dl><dt>
-<code><strong>sudo apt-get update &amp;&amp; sudo apt-get install firefox</strong></code>
-</dt></dl>
-
-## Set up different languages in Firefox
-
-For those of you who would like to use Firefox in a different language than American English, we have also created `.deb` packages containing the Firefox language packs. To install a specific language pack, replace _fr_ in the example below with the desired language code. In this example, we will be installing the French language version of Firefox.
-
-<dl><dt>
-<code><strong>sudo apt-get install firefox-l10n-fr</strong></code>
-</dt></dl>
-
-To list all the available language packs, after adding the Mozilla APT repository and running `sudo apt-get update`, you can use this command:
-
-<dl><dt>
-<code><strong>apt-cache search firefox-l10n</strong></code>
-</dt></dl>
-## Install from Flatpak
-
-To install Firefox from Flatpak, [install and configure Flatpak](https://flatpak.org/setup/) on your computer. Once Flatpak is installed, go to the [Firefox Flathub's page](https://flathub.org/apps/details/org.mozilla.firefox), and click the Install button. Alternatively, you can type the following command in a terminal:
-
-<dl><dt>
-<code><strong>flatpak install flathub org.mozilla.firefox</strong></code>
-</dt></dl>
-
-By default, Flatpak installs Firefox in the same locale as your operating system. To use a different language, please follow the instructions on [how to use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"").
-
-"
-49197,"Firefox Mac OS X 10.9, 10.10 and 10.11 users move to Extended Support Release",firefox-mac-osx-users-esr,https://support.mozilla.org/en-US/kb/firefox-mac-osx-users-esr,en-US,"Firefox 78 was the last supported version for Mac OS X 10.9, 10.10 and 10.11.  Users were moved to Firefox Extended Support Release (ESR).","<p><a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 78 was the last supported Firefox version for Mac users of OS X 10.9 Mavericks, OS X 10.10 Yosemite and OS X 10.11 El Capitan. These users were moved to the Firefox <a href=""https://www.mozilla.org/firefox/enterprise"">Extended Support Release</a> (ESR) channel by an application update. This was done to provide security updates until the final Firefox 78 ESR update (version 78.15.0esr) was released on October 5, 2021. Affected users will not receive any further security updates.
-</p>
-<h1 id=""w_why-has-firefox-ended-support-for-os-x-10-9-10-10-and-10-11-users"">Why has Firefox ended support for OS X 10.9, 10.10 and 10.11 users?</h1>
-<p>Although Apple does not have a public policy governing security updates for older OS X releases, its practice is to support the most recent three releases. Apple made the last security update applicable to OS X 10.11 available in July 2018. Unsupported operating systems do not receive security updates, have known exploits and can be dangerous to use, which makes it difficult to maintain Firefox on those versions.
-</p>
-<h1 id=""w_can-i-still-browse-safely-with-firefox-on-os-x-10-9-10-10-or-10-11"">Can I still browse safely with Firefox on OS X 10.9, 10.10 or 10.11?</h1>
-<p>Up until October 2021, we were updating affected users with critical security updates through the <a href=""https://www.mozilla.org/firefox/enterprise"">Firefox ESR</a> channel, to help retain the best possible security. After this, no security updates will be provided.
-</p>
-<h1 id=""w_how-can-i-get-the-newest-features-of-firefox"">How can I get the newest features of Firefox?</h1>
-<p>If you want to keep your Firefox version up to date, you need to upgrade your operating system to macOS 10.15 or higher. Apple does not support older versions. They are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions. <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 115 was the last supported version for users of macOS 10.12 (Sierra), macOS 10.13 (High Sierra) and macOS 10.14 (Mojave), as explained in <a href=""/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"">this article</a>.
-</p>",firefox;firefox-enterprise,installation-and-updates,"[Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 78 was the last supported Firefox version for Mac users of OS X 10.9 Mavericks, OS X 10.10 Yosemite and OS X 10.11 El Capitan. These users were moved to the Firefox [Extended Support Release](https://www.mozilla.org/firefox/enterprise) (ESR) channel by an application update. This was done to provide security updates until the final Firefox 78 ESR update (version 78.15.0esr) was released on October 5, 2021. Affected users will not receive any further security updates.
-
-# Why has Firefox ended support for OS X 10.9, 10.10 and 10.11 users?
-
-Although Apple does not have a public policy governing security updates for older OS X releases, its practice is to support the most recent three releases. Apple made the last security update applicable to OS X 10.11 available in July 2018. Unsupported operating systems do not receive security updates, have known exploits and can be dangerous to use, which makes it difficult to maintain Firefox on those versions.
-
-# Can I still browse safely with Firefox on OS X 10.9, 10.10 or 10.11?
-
-Up until October 2021, we were updating affected users with critical security updates through the [Firefox ESR](https://www.mozilla.org/firefox/enterprise) channel, to help retain the best possible security. After this, no security updates will be provided.
-
-# How can I get the newest features of Firefox?
-
-If you want to keep your Firefox version up to date, you need to upgrade your operating system to macOS 10.15 or higher. Apple does not support older versions. They are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions. [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 115 was the last supported version for users of macOS 10.12 (Sierra), macOS 10.13 (High Sierra) and macOS 10.14 (Mojave), as explained in [this article](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"").
-
 "
 49217,Automatically fill in credit card and payment method data on Web forms,credit-card-autofill,https://support.mozilla.org/en-US/kb/credit-card-autofill,en-US,Manage credit card autofill settings in Firefox version 81 and above.,"<p>Firefox lets you automatically fill in saved credit and debit card information on web forms, making online checkouts faster and more convenient. Starting with Firefox version 135, this feature is available globally. Your <a href=""https://en.wikipedia.org/wiki/Card_security_code"">CVV number</a> is never saved, and you can require a password or biometric authentication before using autofill for extra security. 
 </p><p>Use the steps below to turn autofill on or off, edit saved cards, and set authentication preferences.
@@ -86002,7 +85752,7 @@ Pocket article recommendations will appear under **Recommended by Pocket**. The 
 2. Tap the switch next to **Recommended by Pocket** to turn it on or off.
 
 "
-56122,Choose your opening screen for Firefox for iOS,choose-your-opening-screen-firefox-ios,https://support.mozilla.org/en-US/kb/choose-your-opening-screen-firefox-ios,en-US,Choose what you see when you return to the Firefox for iOS app.,"<p>You can choose what you see when you return to the Firefox for iOS app. By default, when you open Firefox for iOS after 4 or more hours of inactivity, the app will start on your homepage. If you open the app after less than 4 hours of inactivity, the app will open the last active tab.
+56122,Choose your opening screen for Firefox for iOS,choose-your-opening-screen-firefox-ios,https://support.mozilla.org/en-US/kb/choose-your-opening-screen-firefox-ios,en-US,Choose what you see when you return to the Firefox for iOS app.,"<p>You can choose what you see when you return to the Firefox for iOS app. By default, when you open Firefox for iOS after a period of inactivity, the app opens to your Last tab.
 </p><p>You can customize your settings to always open your homepage or always open your last tab.
 </p>
 <h1 id=""w_update-your-opening-screen-settings"">Update your opening screen settings</h1>
@@ -86013,7 +85763,7 @@ Pocket article recommendations will appear under **Recommended by Pocket**. The 
 </li><li>Homepage after four hours of inactivity
 </li></ul>
 </li><li>Tap <span class=""menu"">Done</span>.
-</li></ol>",ios,browse;settings,"You can choose what you see when you return to the Firefox for iOS app. By default, when you open Firefox for iOS after 4 or more hours of inactivity, the app will start on your homepage. If you open the app after less than 4 hours of inactivity, the app will open the last active tab.
+</li></ol>",ios,browse;settings,"You can choose what you see when you return to the Firefox for iOS app. By default, when you open Firefox for iOS after a period of inactivity, the app opens to your Last tab.
 
 You can customize your settings to always open your homepage or always open your last tab.
 
