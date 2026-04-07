@@ -5474,12 +5474,12 @@ _**Based on information from [Unable to install themes or extensions - Firefox (
 <p></p><p>If the problem is no longer happening, then hardware acceleration was likely the cause.  You can try <a href=""/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"">updating your graphics drivers</a> to see if that fixes it or simply run without hardware acceleration.
 </p>
 <h2 id=""w_change-the-pac-implementation"">Change the PAC implementation</h2>
-<p>If you're using a proxy auto-config file (PAC), Firefox may hang when you attempt to load sites that don't exist or that you haven't opened recently. To determine if you use an automatic proxy configuration file:
+<p>If you're using a proxy auto-config file (PAC), Firefox may hang when you attempt to load sites that don't exist or that you haven't opened recently. To determine if you use an automatic proxy configuration file, check your <a href=""/en-US/kb/connection-settings-firefox"">connection settings in Firefox</a>:
 </p>
 <ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
-</li><li> In the <span class=""menu"">General</span> panel, go down to the <strong>Network Settings</strong> section. 
-</li><li> Click <span class=""button"">Settings…</span>. The Connection Settings dialog appears.
+</li><li> In the <span class=""menu"">General</span> panel, go down to the <span class=""for"" data-for=""not fx149""><strong>Network Settings</strong></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section. 
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span>.</span> The <em>Connection Settings</em> dialog will open.
 </li><li> If <strong>Automatic proxy configuration URL</strong> is selected, you are using an automatic proxy configuration file. Do not disable this setting, which will prevent you from accessing the Internet. Instead, provide <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=235853#c216"">this workaround</a> to your network administrator.
 </li><li> Click <span class=""button"">Cancel</span>. 
 </li></ol>
@@ -5591,11 +5591,11 @@ If the problem is no longer happening, then hardware acceleration was likely the
 
 ## Change the PAC implementation
 
-If you're using a proxy auto-config file (PAC), Firefox may hang when you attempt to load sites that don't exist or that you haven't opened recently. To determine if you use an automatic proxy configuration file:
+If you're using a proxy auto-config file (PAC), Firefox may hang when you attempt to load sites that don't exist or that you haven't opened recently. To determine if you use an automatic proxy configuration file, check your [connection settings in Firefox](\""https://support.mozilla.org/en-US/kb/connection-settings-firefox""):
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, go down to the **Network Settings** section. 
-3. Click Settings…. The Connection Settings dialog appears.
+2. In the General panel, go down to the **Network Settings**** Proxy settings** section. 
+3. Click Settings…Configure proxy. The _Connection Settings_ dialog will open.
 4. If **Automatic proxy configuration URL** is selected, you are using an automatic proxy configuration file. Do not disable this setting, which will prevent you from accessing the Internet. Instead, provide [this workaround](https://bugzilla.mozilla.org/show_bug.cgi?id=235853#c216) to your network administrator.
 5. Click Cancel. 
 
@@ -9625,7 +9625,7 @@ For information on troubleshooting problems with extensions or themes, see the a
 </p><p><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span> and select <span class=""menu"">About Firefox</span>.</span><span class=""for"" data-for=""mac"">On the menu bar, click the <span class=""menu"">Firefox</span> menu and select <span class=""menu"">About Firefox</span>.</span> The About Firefox window will appear. The version number is listed underneath the Firefox name.
 </p><p><em>Here is an example of what the About Firefox window will look like:</em>
 </p>
-<dl><dt><span class=""for"" data-for=""mac""><img alt=""Fx86aboutFirefox-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-21-05-13-18-73e962.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx91AboutFirefoxWindow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-27-10-18-32-5f88e7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx86aboutFirefox-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-23-02-23-23-10e748.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+<dl><dt><span class=""for"" data-for=""mac""><img alt=""Fx149AboutFirefox-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-13-32-25-861e2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx149AboutFirefox-Windows"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-05-04-20-57-89d050.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx86aboutFirefox-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-23-02-23-23-10e748.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </dt></dl>
 <p>Opening the About Firefox window will, by default, start an update check. If an updated version of Firefox is available, it will be automatically downloaded. <span class=""for"" data-for=""linux"">On Linux, this will happen only if you use a build downloaded from Mozilla's website; otherwise, updates will come through your Package Manager. </span>For more information, see <a href=""/en-US/kb/update-firefox-latest-release"">Update Firefox to the latest release</a>.
 </p>
@@ -9636,7 +9636,7 @@ Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservice
 _Here is an example of what the About Firefox window will look like:_
 
 <dl><dt>
-<span class=""for"" data-for=""mac""><img alt=""Fx86aboutFirefox-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-21-05-13-18-73e962.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx91AboutFirefoxWindow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-27-10-18-32-5f88e7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx86aboutFirefox-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-23-02-23-23-10e748.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+<span class=""for"" data-for=""mac""><img alt=""Fx149AboutFirefox-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-13-32-25-861e2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx149AboutFirefox-Windows"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-05-04-20-57-89d050.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx86aboutFirefox-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-23-02-23-23-10e748.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </dt></dl>
 
 Opening the About Firefox window will, by default, start an update check. If an updated version of Firefox is available, it will be automatically downloaded. On Linux, this will happen only if you use a build downloaded from Mozilla's website; otherwise, updates will come through your Package Manager. For more information, see [Update Firefox to the latest release](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"").
@@ -13719,7 +13719,7 @@ If clearing Firefox's cookies and cache didn't work, it's probably a sign that t
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
 </li><li>In the <span class=""menu"">General</span> panel, go down to the <span class=""for"" data-for=""not fx149""><strong>Network Settings</strong></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
-</li><li>Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span>.</span> The <em>Connection Settings</em> dialog will open.
+</li><li>Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
 </li><li>Change your proxy settings:
 <ul><li>If you don't connect to the Internet through a proxy (or don't know whether you connect through a proxy), select <strong>No Proxy</strong>.
 </li></ul>
@@ -19393,13 +19393,15 @@ If you can't log in to websites after removing the cookies associated with it, c
 _**Includes information from [Websites report cookies are disabled (mozillaZine KB)](http://kb.mozillazine.org/Websites_report_cookies_are_disabled)**_
 
 "
-864,How to search the contents of the current page for text or links,search-contents-current-page-text-or-links,https://support.mozilla.org/en-US/kb/search-contents-current-page-text-or-links,en-US,"When you are viewing a website in Firefox, you can search for words, phrases or links on the page. This article explains how it works.","<p>When you are viewing a website in Firefox you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page, and lets you highlight all of the places where it appears.
+864,How to search the contents of the current page for text or links,search-contents-current-page-text-or-links,https://support.mozilla.org/en-US/kb/search-contents-current-page-text-or-links,en-US,"When you are viewing a web page in Firefox, you can search for words, phrases or links on the page. This article explains how it works.","<p>When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-the-find-bar""><span class=""tocnumber"">1</span> <span class=""toctext"">Using the Find bar</span></a></li><li class=""toclevel-1""><a href=""#w_quick-find""><span class=""tocnumber"">2</span> <span class=""toctext"">Quick Find</span></a><ul><li class=""toclevel-2""><a href=""#w_search-links-only""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Search links only</span></a></li><li class=""toclevel-2""><a href=""#w_find-automatically-while-typing-on-a-page""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Find automatically while typing on a page</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_keyboard-shortcuts""><span class=""tocnumber"">3</span> <span class=""toctext"">Keyboard shortcuts</span></a></li></ul></div>
 <h1 id=""w_using-the-find-bar"">Using the Find bar</h1>
 <p>To search for text on a page:
 </p>
-<ol><li>Click the menu button <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> then click <span class=""menu"">Find in page…</span>, or use the keyboard shortcut by pressing <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span>. A Find bar will appear at the bottom of the window.
+<ol><li>Click the menu button <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then click <span class=""menu"">Find in page…</span>. Alternatively, <span class=""for"" data-for=""not mac""><a href=""/en-US/kb/restore-menu-bar-firefox"">when the Menu bar is enabled</a> </span>you can click <span class=""menu"">Edit</span> and then click <span class=""menu"">Find in Page…</span> in the Menu bar, or you can press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span> on the keyboard.
+<ul><li> A Find bar will appear at the bottom of the window.
+</li></ul>
 <dl><dt><img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 </li><li>Type a search into the <em>Find in page</em> field. Firefox will automatically highlight the first matching result on the page as you type.
@@ -19420,8 +19422,8 @@ _**Includes information from [Websites report cookies are disabled (mozillaZine 
 </div>
 <h1 id=""w_quick-find"">Quick Find</h1>
 <p>The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
-</p><p>Press the <span class=""key"">/</span> key (forward slash character) while not into a text field to open the Quick Find bar. Then type what you would like to search for.
-</p><p>The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button (✕), but the search follows the options selected on the full find bar. Selected options will be indicated next to the find field.
+</p><p>Press the <span class=""key"">/</span> key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
+</p><p>The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button (✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
 </p><p>To close the Quick Find bar, wait a few moments for it to disappear, or press the <span class=""key"">Esc</span> key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
 </p>
 <h2 id=""w_search-links-only"">Search links only</h2>
@@ -19449,7 +19451,7 @@ _**Includes information from [Websites report cookies are disabled (mozillaZine 
 </li><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">F3</span> to highlight the next instance of your search phrase or link, even if no Find bar is visible.
 </li><li>Press <span class=""key"">Shift</span>+<span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">Shift</span>+<span class=""key"">F3</span> to highlight the previous one.
 </li><li>Press <span class=""key"">Esc</span> to close the current visible Find bar while the focus is on it, and cancel highlighting.
-</li></ul>",firefox,browse;search;search-tag-and-share,"When you are viewing a website in Firefox you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page, and lets you highlight all of the places where it appears.
+</li></ul>",firefox,browse;search;search-tag-and-share,"When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
 
 ## Table of Contents
 
@@ -19464,7 +19466,10 @@ _**Includes information from [Websites report cookies are disabled (mozillaZine 
 
 To search for text on a page:
 
-1. Click the menu button ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) then click Find in page…, or use the keyboard shortcut by pressing CtrlCommand+F. A Find bar will appear at the bottom of the window.<dl><dt>
+1. Click the menu button ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then click Find in page…. Alternatively, [when the Menu bar is enabled](\""https://support.mozilla.org/en-US/kb/restore-menu-bar-firefox"") you can click Edit and then click Find in Page… in the Menu bar, or you can press CtrlCommand+F on the keyboard.
+  - A Find bar will appear at the bottom of the window.
+
+<dl><dt>
 <img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 2. Type a search into the _Find in page_ field. Firefox will automatically highlight the first matching result on the page as you type.
@@ -19485,9 +19490,9 @@ You can enable or disable any of the following options to change the search resu
 
 The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
 
-Press the / key (forward slash character) while not into a text field to open the Quick Find bar. Then type what you would like to search for.
+Press the / key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
 
-The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button&nbsp;(✕), but the search follows the options selected on the full find bar. Selected options will be indicated next to the find field.
+The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button&nbsp;(✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
 
 To close the Quick Find bar, wait a few moments for it to disappear, or press the Esc key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
 
@@ -38650,6 +38655,64 @@ To manipulate all the attachments associated with a message, go to Message \> At
 - [Yahoo Attachments Help](http://help.yahoo.com/l/us/yahoo/mail/classic/context/context-02.html)
 
 "
+17152,Rebuilding the Global Database,rebuilding-global-database,https://support.mozilla.org/en-US/kb/rebuilding-global-database,en-US,Rebuilding the Global Database will initiate a re-indexing of emails and address book cards (newsgroup messages are not indexed).,"<p>The Global Database (""Gloda"" for short) is an indexing system that enables Thunderbird to search messages. Rebuilding the Global Database re-indexes messages and address book cards. (Newsgroup messages are not indexed.)
+</p><p>Reasons for rebuilding the Global Database include:
+</p>
+<ul><li> The database may have been corrupted.
+</li><li> The search index may not be functioning correctly (such as displaying blank results, performing poorly).
+</li><li> The database is too big and needs to be reduced in size. <br> <div class=""note"">Rebuilding the database will not automatically reduce the size of the index. The database will only shrink if there are fewer messages to index since the index was last updated - which can be accomplished by deleting messages, or disabling message sync for an account or folder.</div>
+</li><li> The Global Database file becomes fragmented, which reduces index performance.
+</li></ul>
+<p><br>
+</p>
+<h1 id=""w_steps-to-rebuild-the-global-database"">Steps to Rebuild the Global Database</h1>
+<ol><li> Quit Thunderbird.
+</li><li> Locate the <span class=""filepath"">global-messages-db.sqlite</span> file in your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird Profile</a>.
+</li><li> Delete the <span class=""filepath"">global-messages-db.sqlite</span> file.
+</li><li> Start Thunderbird. The re-indexing process will start automatically. Depending on the number of messages, it might take some time for the indexing to complete. You can continue to use Thunderbird, but performance might be affected and search will return only partial results or even no results until the indexing is complete. The indexing progress can be monitored through the <span class=""menu"">Tools &gt; Activity Manager</span> menu.
+</li></ol>
+<h1 id=""w_see-also"">See Also</h1>
+<ul><li> <a href=""/en-US/kb/global-search"">Global Search Article</a>
+</li></ul>",thunderbird,email-and-messaging;import-and-export-email;performance-and-connectivity,"The Global Database (""Gloda"" for short) is an indexing system that enables Thunderbird to search messages. Rebuilding the Global Database re-indexes messages and address book cards. (Newsgroup messages are not indexed.)
+
+Reasons for rebuilding the Global Database include:
+
+- The database may have been corrupted.
+- The search index may not be functioning correctly (such as displaying blank results, performing poorly).
+- The database is too big and needs to be reduced in size.   
+ 
+Rebuilding the database will not automatically reduce the size of the index. The database will only shrink if there are fewer messages to index since the index was last updated - which can be accomplished by deleting messages, or disabling message sync for an account or folder.
+- The Global Database file becomes fragmented, which reduces index performance.
+
+# Steps to Rebuild the Global Database
+
+1. Quit Thunderbird.
+2. Locate the global-messages-db.sqlite file in your [Thunderbird Profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"").
+3. Delete the global-messages-db.sqlite file.
+4. Start Thunderbird. The re-indexing process will start automatically. Depending on the number of messages, it might take some time for the indexing to complete. You can continue to use Thunderbird, but performance might be affected and search will return only partial results or even no results until the indexing is complete. The indexing progress can be monitored through the Tools \> Activity Manager menu.
+
+# See Also
+
+- [Global Search Article](\""https://support.mozilla.org/en-US/kb/global-search"")
+
+"
+17158,What is the winmail.dat attachment?,what-winmaildat-attachment,https://support.mozilla.org/en-US/kb/what-winmaildat-attachment,en-US,"When sending messages from email clients that use the Microsoft Exchange server, a file attachment called winmail.dat may be added. Learn how to prevent this.","<p>Messages sent from incorrectly configured Microsoft Outlook/Exchange email clients may contain a file attachment called <span class=""filepath"">winmail.dat</span>. This attached file contains formatting information for messages that use Microsoft's proprietary TNEF standard, plus any attachments sent with the original message. The TNEF file is not recognized by other email clients, so any attachments sent with the original message are not displayed in Thunderbird's message pane. 
+</p><p>If you try to open <span class=""filepath"">winmail.dat</span>, you will probably be prompted to specify the application that should be used to open the file, unless you have an application installed that can decode this file and display it. Even if your system is capable of displaying the file, it does not contain any useful information.
+</p><p>To prevent this file from being attached to messages, the sender of the message (or their system administrator) can configure various options as described in this <a href=""https://learn.microsoft.com/troubleshoot/outlook/message-body/how-tnef-affects-email-messages"">Microsoft Support article</a>.
+</p>
+<div class=""note""><strong>Note:</strong> There is also a Thunderbird add-on called <a href=""https://addons.thunderbird.net/thunderbird/addon/lookout-fix-version/"">LookOut (fix version)</a> which decodes the TNEF attachment (<span class=""filepath"">winmail.dat</span>) and displays the original attachments in Thunderbird's message pane.  This add-on is not provided by or supported by Thunderbird and its compatibility with future versions of Thunderbird is not assured.</div>
+<p><strong>The best solution</strong> is to contact the message sender and inform them that their copy of Outlook is incorrectly configured as suggested in the Microsoft Support article.
+</p>",thunderbird,email-and-messaging;send-and-receive-email,"Messages sent from incorrectly configured Microsoft Outlook/Exchange email clients may contain a file attachment called winmail.dat. This attached file contains formatting information for messages that use Microsoft's proprietary TNEF standard, plus any attachments sent with the original message. The TNEF file is not recognized by other email clients, so any attachments sent with the original message are not displayed in Thunderbird's message pane.
+
+If you try to open winmail.dat, you will probably be prompted to specify the application that should be used to open the file, unless you have an application installed that can decode this file and display it. Even if your system is capable of displaying the file, it does not contain any useful information.
+
+To prevent this file from being attached to messages, the sender of the message (or their system administrator) can configure various options as described in this [Microsoft Support article](https://learn.microsoft.com/troubleshoot/outlook/message-body/how-tnef-affects-email-messages).
+
+**Note:** There is also a Thunderbird add-on called [LookOut (fix version)](https://addons.thunderbird.net/thunderbird/addon/lookout-fix-version/) which decodes the TNEF attachment (winmail.dat) and displays the original attachments in Thunderbird's message pane. This add-on is not provided by or supported by Thunderbird and its compatibility with future versions of Thunderbird is not assured.
+
+**The best solution** is to contact the message sender and inform them that their copy of Outlook is incorrectly configured as suggested in the Microsoft Support article.
+
+"
 17163,Switching the folder pane view,switching-folder-pane-view,https://support.mozilla.org/en-US/kb/switching-folder-pane-view,en-US,"This article describes the ""views"" that can be assigned to the folder pane.","<p>The folder pane is displayed on the left side of the Thunderbird window. It shows a list of your email accounts, the folders that are created by default (such as ""Sent"", ""Trash"", etc) and the folders that you have manually created to organize your messages.
 </p><p><img alt=""default folder pane"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-11-10-10-55-46-8912a0.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
 </p><p>There are several ""views"" that can be used to display in the folder pane. The view you select will determine how the folders are organized and displayed (while not affecting the actual folders or messages themselves.) Select <span class=""menu"">View &gt; Folders</span> from the menu bar, or select <span class=""menu"">Folders</span> from the application menu, to choose the view you want to use. The following options are available:
@@ -50602,10 +50665,14 @@ When sound starts playing while you're browing, Firefox lets you know where it's
 </p>
 <h2 id=""w_connection-security"">Connection security</h2>
 <p>A <span class=""for"" data-for=""not fx149"">padlock icon <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149"">shield icon <img alt=""Fx149UnifiedTrustIcon-Secure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-16-02-8c168d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> in the address bar will indicate whether the connection to the website is fully secure. For more information, click the <span class=""for"" data-for=""not fx149"">padlock</span><span class=""for"" data-for=""fx149"">shield</span> to open the <em>Site Information</em> panel. This panel shows you whether the current connection is classified as secure.
-</p><p><span class=""for"" data-for=""not fx149""><img alt=""Fx140SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-02-46-57-de3bc0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-27-16-47-26-f3c51e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p>Click the right arrow <span class=""for"" data-for=""not fx149"">in</span><span class=""for"" data-for=""fx149"">at the top of</span> the <em>Site Information</em> panel to view the <span class=""for"" data-for=""not fx149""><em>Connection Security</em></span><span class=""for"" data-for=""fx149""><em>Connection protections</em></span> panel. This is where you can learn more about connection security, such as the issuer of a certificate for a secure connection and – if it is made available – the website's owner, or disable the blocking of insecure content on a site. This panel also includes a <span class=""for"" data-for=""not fx149""><span class=""button"">More information</span></span><span class=""for"" data-for=""fx149""><span class=""button"">More site information</span></span> button that will open the <a href=""/en-US/kb/firefox-page-info-window"">Page Info window</a> <span class=""menu"">Security</span> tab for the website.
-</p><p><span class=""for"" data-for=""fx149""><img alt=""Fx149ConnectionProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-51-17-1f4447.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p>See <a href=""/en-US/kb/how-do-i-tell-if-my-connection-is-secure"">How do I tell if my connection to a website is secure?</a> to learn more about connection security. The <a href=""/en-US/kb/mixed-content-blocking-firefox"">Mixed content blocking in Firefox</a> article tells you about Firefox's mixed content blocking security feature.
+</p>
+<dl><dt><span class=""for"" data-for=""not fx149""><img alt=""Fx140SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-02-46-57-de3bc0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-27-16-47-26-f3c51e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>Click the right arrow <span class=""for"" data-for=""not fx149"">in</span><span class=""for"" data-for=""fx149"">at the top of</span> the <em>Site Information</em> panel to view the <span class=""for"" data-for=""not fx149""><em>Connection Security</em></span><span class=""for"" data-for=""fx149""><em>Connection protections</em></span> panel. This is where you can learn more about connection security, such as the issuer of a certificate for a secure connection and – if it is made available – the website's owner, or disable the blocking of insecure content on a site. This panel also includes a <span class=""for"" data-for=""not fx149""><span class=""button"">More information</span></span><span class=""for"" data-for=""fx149""><span class=""button"">More site information</span></span> button that will open the <a href=""/en-US/kb/firefox-page-info-window"">Page Info window</a> <span class=""menu"">Security</span> tab for the website.
+</p>
+<dl><dt><span class=""for"" data-for=""fx149""><img alt=""Fx149ConnectionProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-51-17-1f4447.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>See <a href=""/en-US/kb/how-do-i-tell-if-my-connection-is-secure"">How do I tell if my connection to a website is secure?</a> to learn more about connection security. The <a href=""/en-US/kb/mixed-content-blocking-firefox"">Mixed content blocking in Firefox</a> article tells you about Firefox's mixed content blocking security feature.
 </p>
 <div class=""note""><strong>Note:</strong> If you have set any special permissions for the website, you will also see a Permissions icon <img alt=""Fx89PermissionsIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-05-34-30-47c30e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the address bar. Click this icon to view or adjust those permissions. If you don't see a Permissions icon or to edit other permissions, the <a href=""/en-US/kb/firefox-page-info-window"">Page Info window</a> includes a <span class=""menu"">Permissions</span> tab with a list of available permission settings for the website. To learn more, see <a href=""/en-US/kb/site-permissions-panel"">Site Permissions panel</a>.</div>",firefox,privacy-and-security,"The **Site Information** panel is where you can view information about a website's connection security and identity.
 
@@ -50613,11 +50680,15 @@ When sound starts playing while you're browing, Firefox lets you know where it's
 
 A padlock icon ![Fx89Padlock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)shield icon ![Fx149UnifiedTrustIcon-Secure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the address bar will indicate whether the connection to the website is fully secure. For more information, click the padlockshield to open the _Site Information_ panel. This panel shows you whether the current connection is classified as secure.
 
-![Fx140SiteInfoPanel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx149SiteInfoPanel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+<dl><dt>
+<span class=""for"" data-for=""not fx149""><img alt=""Fx140SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-02-46-57-de3bc0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149SiteInfoPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-27-16-47-26-f3c51e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
 
 Click the right arrow inat the top of the _Site Information_ panel to view the _Connection Security__Connection protections_ panel. This is where you can learn more about connection security, such as the issuer of a certificate for a secure connection and – if it is made available – the website's owner, or disable the blocking of insecure content on a site. This panel also includes a More informationMore site information button that will open the [Page Info window](\""https://support.mozilla.org/en-US/kb/firefox-page-info-window"") Security tab for the website.
 
-![Fx149ConnectionProtection](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+<dl><dt>
+<span class=""for"" data-for=""fx149""><img alt=""Fx149ConnectionProtection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-13-11-51-17-1f4447.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
 
 See [How do I tell if my connection to a website is secure?](\""https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure"") to learn more about connection security. The [Mixed content blocking in Firefox](\""https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox"") article tells you about Firefox's mixed content blocking security feature.
 
@@ -51924,8 +51995,10 @@ To continue receiving the latest updates, uninstall Firefox then reinstall it th
 
 "
 29861,What do the security warning codes mean?,what-does-your-connection-is-not-secure-mean,https://support.mozilla.org/en-US/kb/what-does-your-connection-is-not-secure-mean,en-US,Firefox shows you a warning page about a potential security risk when you try to connect to a secure site but your connection is not secure.,"<p>When Firefox connects to a secure website (the URL begins with <a href=""https://developer.mozilla.org/docs/Glossary/https"">HTTPS</a>), it must verify that the <a href=""/en-US/kb/secure-website-certificate"">certificate</a> presented by the website is valid and that the encryption is strong enough to adequately protect your privacy. If it is unable to verify this, Firefox stops connecting to the site and will show you <span class=""for"" data-for=""not fx149"">an error page with the message, <em>Warning: Potential Security Risk Ahead</em></span><span class=""for"" data-for=""fx149"">a <strong>Warning: Security Risk</strong> error page with the message, <em>Be careful. Something doesn't look right</em></span>.
-</p><p><span class=""for"" data-for=""not fx149""><img alt=""Fx148WarningPotentialSecurityRiskAhead-selfsigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-09-02-39-56-6b70e2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149BetaWarning-SecurityRiskSelfSigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-10-49-47-a9d8a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p>Click the <span class=""for"" data-for=""not fx149""><span class=""button"">Advanced…</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Advanced</span></span> button to view the error code and other information about the error. Common errors are described in this article.
+</p>
+<dl><dt><span class=""for"" data-for=""not fx149""><img alt=""Fx148WarningPotentialSecurityRiskAhead-selfsigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-09-02-39-56-6b70e2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149BetaWarning-SecurityRiskSelfSigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-10-49-47-a9d8a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>Click the <span class=""for"" data-for=""not fx149""><span class=""button"">Advanced…</span></span><span class=""for"" data-for=""fx149""><span class=""button"">Advanced</span></span> button to view the error code and other information about the error. Common errors are described in this article.
 </p>
 <div class=""note""><strong>Note:</strong> If Firefox shows you a <em>Secure Connection Failed</em> <span class=""for"" data-for=""fx149"">error or if the error page contains information about a connection issue</span><span class=""for"" data-for=""not fx149"">or <em>Did Not Connect: Potential Security Issue</em> error page instead</span>, see the article <a href=""/en-US/kb/secure-connection-failed-firefox-did-not-connect"">Secure connection and security warning error pages in Firefox</a>.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-to-do-if-you-see-these-errors""><span class=""tocnumber"">1</span> <span class=""toctext"">What to do if you see these errors?</span></a></li><li class=""toclevel-1""><a href=""#w_mozilla-pkix-error-additional-policy-constraint-failed""><span class=""tocnumber"">2</span> <span class=""toctext"">MOZILLA_PKIX_ERROR _ADDITIONAL_POLICY_CONSTRAINT_FAILED</span></a></li><li class=""toclevel-1""><a href=""#w_sec-error-expired-issuer-certificate""><span class=""tocnumber"">3</span> <span class=""toctext"">SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE</span></a></li><li class=""toclevel-1""><a href=""#w_sec-error-expired-certificate""><span class=""tocnumber"">4</span> <span class=""toctext"">SEC_ERROR_EXPIRED_CERTIFICATE</span></a></li><li class=""toclevel-1""><a href=""#w_sec-error-unknown-issuer""><span class=""tocnumber"">5</span> <span class=""toctext"">SEC_ERROR_UNKNOWN_ISSUER</span></a></li><li class=""toclevel-1""><a href=""#w_mozilla-pkix-error-mitm-detected""><span class=""tocnumber"">6</span> <span class=""toctext"">MOZILLA_PKIX_ERROR_MITM_DETECTED</span></a></li><li class=""toclevel-1""><a href=""#w_error-self-signed-cert""><span class=""tocnumber"">7</span> <span class=""toctext"">ERROR_SELF_SIGNED_CERT</span></a></li><li class=""toclevel-1""><a href=""#w_ssl-error-bad-cert-domain""><span class=""tocnumber"">8</span> <span class=""toctext"">SSL_ERROR_BAD_CERT_DOMAIN</span></a></li><li class=""toclevel-1""><a href=""#w_sec-error-ocsp-invalid-signing-cert""><span class=""tocnumber"">9</span> <span class=""toctext"">SEC_ERROR_OCSP_INVALID_SIGNING_CERT</span></a></li><li class=""toclevel-1""><a href=""#w_corrupted-certificate-store""><span class=""tocnumber"">10</span> <span class=""toctext"">Corrupted certificate store</span></a></li><li class=""toclevel-1""><a href=""#w_bypassing-the-warning""><span class=""tocnumber"">11</span> <span class=""toctext"">Bypassing the warning</span></a></li></ul></div>
@@ -52001,7 +52074,9 @@ To continue receiving the latest updates, uninstall Firefox then reinstall it th
 </li></ul>
 <div class=""warning"">Legitimate public sites will <strong>not</strong> ask you to add an exception for their certificate – in this case an invalid certificate can be an indication of a web page that will defraud you or steal your identity.</div>",firefox,error-codes;performance-and-connectivity,"When Firefox connects to a secure website (the URL begins with [HTTPS](https://developer.mozilla.org/docs/Glossary/https)), it must verify that the [certificate](\""https://support.mozilla.org/en-US/kb/secure-website-certificate"") presented by the website is valid and that the encryption is strong enough to adequately protect your privacy. If it is unable to verify this, Firefox stops connecting to the site and will show you an error page with the message, _Warning: Potential Security Risk Ahead_a **Warning: Security Risk** error page with the message, _Be careful. Something doesn't look right_.
 
-![Fx148WarningPotentialSecurityRiskAhead-selfsigned](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx149BetaWarning-SecurityRiskSelfSigned](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+<dl><dt>
+<span class=""for"" data-for=""not fx149""><img alt=""Fx148WarningPotentialSecurityRiskAhead-selfsigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-09-02-39-56-6b70e2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149""><img alt=""Fx149BetaWarning-SecurityRiskSelfSigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-04-10-49-47-a9d8a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
 
 Click the Advanced…Advanced button to view the error code and other information about the error. Common errors are described in this article.
 
@@ -53787,7 +53862,7 @@ If you can sign in to your Mozilla account, you can change your password by foll
 
 <h1 id=""w_second-change-all-of-your-website-passwords-from-a-synced-computer"">Second, change all of your website passwords from a synced computer</h1>
 <div class=""warning"">Change your Mozilla account password (see previous section) before changing your other account passwords to prevent your new passwords from syncing with devices.</div>
-<p>This part is more time consuming but important. If you don't change the passwords for things like your bank account, it would still be possible for someone else to log in to your account using the existing already synced password. 
+<p>This part is more time consuming but important. If you don't change the passwords for websites that store sensitive or personal information, such as bank accounts, email accounts and social media accounts, it would still be possible for someone else to log in to your account using the existing already synced password. 
 </p><p>See <a href=""/en-US/kb/password-strength"">Choose a strong password</a> for an easy way to create better passwords.
 </p>
 <div class=""note""><strong>Note</strong>: Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>",firefox;mobile;mozilla-account,passwords-and-sign-in;privacy-and-security;security,"Your Mozila account syncs your passwords, bookmarks and history across multiple devices. If you notice suspicious activity on your Mozilla account (like someone signing in from an unknown device), there are steps you can take to prevent further access to your information.
@@ -53812,7 +53887,7 @@ When you open Firefox on another connected device, it will prompt you to enter y
 
 Change your Mozilla account password (see previous section) before changing your other account passwords to prevent your new passwords from syncing with devices.
 
-This part is more time consuming but important. If you don't change the passwords for things like your bank account, it would still be possible for someone else to log in to your account using the existing already synced password.
+This part is more time consuming but important. If you don't change the passwords for websites that store sensitive or personal information, such as bank accounts, email accounts and social media accounts, it would still be possible for someone else to log in to your account using the existing already synced password.
 
 See [Choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"") for an easy way to create better passwords.
 
@@ -57683,7 +57758,7 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 <ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
 </li><li> In the <span class=""menu"">General</span> panel, go to the <span class=""for"" data-for=""not fx149""><em>Network Settings</em></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
-</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span>.</span> The <em>Connection Settings</em> dialog will open.
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
 <dl><dt><span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </dt></dl>
 </li></ol>
@@ -61700,6 +61775,314 @@ We’ve tried to include all of our services below, but are always experimenting
 - [Splash (splashthat.com)](\""https://support.mozilla.org/en-US/kb/splash-accounts-managing-account-data"")
 - [SUMO (support.mozilla.org)](\""https://support.mozilla.org/en-US/kb/sumo-managing-account-data"")
 - [Thimble (thimble.mozilla.org)](\""https://support.mozilla.org/en-US/kb/thimble-managing-account-data"")
+
+"
+40695,Report extensions and themes for abuse,reporting-extensions-and-themes-abuse,https://support.mozilla.org/en-US/kb/reporting-extensions-and-themes-abuse,en-US,"Discover what constitutes inappropriate content or behavior in an extension or theme, and see how to report any abuse you find.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-constitutes-abuse-for-an-extension-or-theme""><span class=""tocnumber"">1</span> <span class=""toctext"">What constitutes abuse for an extension or theme?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-report-an-extension-or-theme""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I report an extension or theme?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-next""><span class=""tocnumber"">3</span> <span class=""toctext"">What happens next?</span></a></li></ul></div>
+<h1 id=""w_what-constitutes-abuse-for-an-extension-or-theme"">What constitutes abuse for an extension or theme?</h1>
+<p>Every extension and theme distributed for use in Firefox is subject to <a href=""https://extensionworkshop.com/documentation/publish/add-on-policies/"">Mozilla’s add-on policies</a>, which also require compliance with the <a href=""https://www.mozilla.org/about/legal/acceptable-use/"">acceptable use policy</a> for Mozilla services. These policies and conditions have been created to protect you from inappropriate content or behavior in extensions and themes for Firefox. The types of content and behavior that are considered inappropriate, and therefore constitute abuse, generally fall into these categories:
+</p><p><strong>Damages your computer or data</strong>
+</p>
+<ul><li>Injects a virus, worm or other type of malware
+</li><li>Steals identifying or sensitive information
+<ul><li>For example: logins and passwords, credit card and bank information, authentication tokens, social media profile information, bookmarks and cookies
+</li></ul>
+</li><li>Sends spam links to people in your contact list
+</li><li>Steals bandwidth
+</li><li>Is difficult or impossible to uninstall
+</li><li>Requests or uses your data in ways that don’t match the extension’s description or privacy policy
+<ul><li>For example, it collects pages you visit without your knowledge or permission, or when it isn’t necessary for the extension to function
+</li></ul>
+</li><li>Mimics warnings and functionality from Firefox or your operating system
+</li></ul>
+<p><strong>Creates spam or advertising</strong>
+</p>
+<ul><li>Inserts advertisements on webpages, especially pages that didn’t previously have ads on them
+</li><li>For themes: Inserts irrelevant advertisements in the theme’s background image, or includes unrelated advertisements in the description
+<ul><li>For example: Includes something like, “Download free movies at <a href=""http://www.website"">www.website</a>.com”
+</li></ul>
+</li></ul>
+<p><strong>Changed search engine, homepage, or new tab without informing or asking you</strong>
+</p>
+<ul><li>For example: You may have Google as your default search engine, and the extension changed it to something else without informing you or asking for your permission
+</li></ul>
+<div class=""note""><strong>Note:</strong> If the extension <em>did</em> inform you of this change, or ask for your permission to do it, this likely isn’t a case of abuse. You can adjust the settings on your own:
+<ul><li><a href=""/en-US/kb/change-your-default-search-settings-firefox"">Change your default search settings</a>
+</li><li><a href=""/en-US/kb/how-to-set-the-home-page"">Change your homepage</a>
+</li></ul>
+</div>
+<p><strong>Pretends to be something it’s not</strong>
+</p>
+<ul><li>The description and imagery are false or misleading<br><em>Examples:</em><br>
+<ul><li>The description contains random, clickbaity keywords
+</li><li>The description didn’t specify the need for payment, and now you are being asked for money
+</li></ul>
+</li><li>Includes features that aren’t necessary for the extension’s purpose, or uses your data in ways that don’t match the extension’s description or privacy policy<br><em>Examples:</em><br>
+<ul><li>An extension that collects pages you visit when it isn’t necessary, or without your knowledge and permission
+</li><li>A YouTube extension that collects your visited URLs or redirects your searches through an ad network
+</li></ul>
+</li></ul>
+<p><strong>Doesn’t work, breaks websites, or slows Firefox down</strong>
+</p>
+<ul><li>Doesn’t perform the function described in its description
+</li><li>Doesn’t work well
+</li><li>Features are slow or hard to use
+</li><li>Websites look broken or unusual; parts of websites don’t load, such as forms, comments or widgets
+</li><li>Can’t log in or complete a form or transaction
+</li><li>Can’t view a video, for example a Facebook Live or YouTube video
+</li><li>Social media sharing or buttons don’t work
+</li><li>Customer support chats don’t load
+</li><li>Text and browser features disappear
+</li><li>Negatively impacts Firefox’s performance
+</li></ul>
+<div class=""note""><strong>Note:</strong> These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.</div>
+<p><strong>Hateful, violent, sexual or illegal content</strong>
+</p>
+<ul><li>Includes graphic depictions of sexuality or violence
+</li><li>Contains abusive or threatening content that targets people based upon race, ethnicity, gender, sexual orientation, religion, disability, age, etc.
+</li><li>Contains content that threatens or bullies other people
+</li><li>Promotes illegal activities, such as gambling or pornography
+</li></ul>
+<div class=""note""><strong>Note:</strong> Copyright and trademark issues must be reported in a separate process. <a href=""https://www.mozilla.org/about/legal/report-infringement/"">Use these instructions</a> to report a problem. </div>
+<p><strong>Never wanted this extension and can’t get rid of it</strong>
+</p>
+<ul><li>You don’t remember installing the extension, or you were tricked or forced into installing it from a website
+<ul><li>For example: The extension trapped you in full-screen mode, or an application installed it without your permission
+</li></ul>
+</li><li>It’s difficult or impossible to uninstall
+</li></ul>
+<p><strong>Some things that don’t constitute abuse include</strong>
+</p>
+<ul><li>A lack of functionality compared to the extension’s description
+</li><li>Poorly working or difficult-to-use features
+</li><li>Slow functioning features, as long as these don’t affect the overall performance of Firefox
+</li></ul>
+<div class=""note""><strong>Note:</strong> These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.</div>
+<h1 id=""w_how-do-i-report-an-extension-or-theme"">How do I report an extension or theme?</h1>
+<p>You can report an extension or theme directly in Firefox or on the <a href=""https://addons.mozilla.org/firefox/"">AMO product page</a> for the extension or theme.
+</p><p><strong>To submit a report in Firefox:</strong>
+</p>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions or Themes</span>.
+
+</li><li>Select the extension or theme you would like to report.
+</li><li>Click the ellipsis (3-dot) icon and select <strong>Report</strong>.<br><img alt=""fx72 report extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-17-07-24-fd9c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""><br>
+</li><li>Select a reason for reporting the extension and click <strong>Next</strong>.
+<dl><dt><img alt=""Report add-on abuse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-27-13-40-51-2d084d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""900"">
+</dt></dl>
+</li><li>Provide more information about your report (optional).
+</li><li>Click <strong>Submit</strong>.
+</li></ol>
+<p><strong>To submit a report on the extension or theme’s <a href=""https://addons.mozilla.org/firefox/"">AMO product page</a>:</strong>
+</p>
+<ol><li>Go to the <a href=""https://addons.mozilla.org/firefox/"">Firefox Add-ons</a> page for the extension or theme and click <span class=""button"">Report this add-on for abuse</span>.
+<dl><dt><img alt=""report addon button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-17-07-55-14-5ed7c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Select a reason for reporting the extension and click <strong>Next</strong>.
+</li><li>Provide more information about your report (optional).
+</li><li>Click <strong>Submit</strong>.
+</li></ol>
+<h1 id=""w_what-happens-next"">What happens next?</h1>
+<p>Your abuse report is sent to the Firefox add-ons team for review. If they confirm that the extension or theme is abusing the Mozilla add-on policies or conditions of use, the extension or theme is removed from <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> until the developer fixes the issues. Depending on the history and severity of the abuse, the add-ons team may issue a block that prevents the extension or theme from loading in Firefox. For more information, see <a href=""/en-US/kb/add-ons-cause-issues-are-on-blocklist"">Why does Mozilla disable some add-ons from running in Firefox?</a>
+</p>",firefox,add-ons-extensions-and-themes,"## Table of Contents
+
+- [1 What constitutes abuse for an extension or theme?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_what-constitutes-abuse-for-an-extension-or-theme)
+- [2 How do I report an extension or theme?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_how-do-i-report-an-extension-or-theme)
+- [3 What happens next?](https://support.mozilla.org/kb/reporting-extensions-and-themes-abuse#w_what-happens-next)
+
+# What constitutes abuse for an extension or theme?
+
+Every extension and theme distributed for use in Firefox is subject to [Mozilla’s add-on policies](https://extensionworkshop.com/documentation/publish/add-on-policies/), which also require compliance with the [acceptable use policy](https://www.mozilla.org/about/legal/acceptable-use/) for Mozilla services. These policies and conditions have been created to protect you from inappropriate content or behavior in extensions and themes for Firefox. The types of content and behavior that are considered inappropriate, and therefore constitute abuse, generally fall into these categories:
+
+**Damages your computer or data**
+
+- Injects a virus, worm or other type of malware
+- Steals identifying or sensitive information
+  - For example: logins and passwords, credit card and bank information, authentication tokens, social media profile information, bookmarks and cookies
+
+- Sends spam links to people in your contact list
+- Steals bandwidth
+- Is difficult or impossible to uninstall
+- Requests or uses your data in ways that don’t match the extension’s description or privacy policy
+  - For example, it collects pages you visit without your knowledge or permission, or when it isn’t necessary for the extension to function
+
+- Mimics warnings and functionality from Firefox or your operating system
+
+**Creates spam or advertising**
+
+- Inserts advertisements on webpages, especially pages that didn’t previously have ads on them
+- For themes: Inserts irrelevant advertisements in the theme’s background image, or includes unrelated advertisements in the description
+  - For example: Includes something like, “Download free movies at [www.website](http://www.website).com”
+
+**Changed search engine, homepage, or new tab without informing or asking you**
+
+- For example: You may have Google as your default search engine, and the extension changed it to something else without informing you or asking for your permission
+
+**Note:** If the extension _did_ inform you of this change, or ask for your permission to do it, this likely isn’t a case of abuse. You can adjust the settings on your own:
+- [Change your default search settings](\""https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox"")
+- [Change your homepage](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"")
+
+**Pretends to be something it’s not**
+
+- The description and imagery are false or misleading  
+_Examples:_  
+
+  - The description contains random, clickbaity keywords
+  - The description didn’t specify the need for payment, and now you are being asked for money
+
+- Includes features that aren’t necessary for the extension’s purpose, or uses your data in ways that don’t match the extension’s description or privacy policy  
+_Examples:_  
+
+  - An extension that collects pages you visit when it isn’t necessary, or without your knowledge and permission
+  - A YouTube extension that collects your visited URLs or redirects your searches through an ad network
+
+**Doesn’t work, breaks websites, or slows Firefox down**
+
+- Doesn’t perform the function described in its description
+- Doesn’t work well
+- Features are slow or hard to use
+- Websites look broken or unusual; parts of websites don’t load, such as forms, comments or widgets
+- Can’t log in or complete a form or transaction
+- Can’t view a video, for example a Facebook Live or YouTube video
+- Social media sharing or buttons don’t work
+- Customer support chats don’t load
+- Text and browser features disappear
+- Negatively impacts Firefox’s performance
+
+**Note:** These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via [addons.mozilla.org](https://addons.mozilla.org) (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.
+
+**Hateful, violent, sexual or illegal content**
+
+- Includes graphic depictions of sexuality or violence
+- Contains abusive or threatening content that targets people based upon race, ethnicity, gender, sexual orientation, religion, disability, age, etc.
+- Contains content that threatens or bullies other people
+- Promotes illegal activities, such as gambling or pornography
+
+**Note:** Copyright and trademark issues must be reported in a separate process. [Use these instructions](https://www.mozilla.org/about/legal/report-infringement/) to report a problem. 
+
+**Never wanted this extension and can’t get rid of it**
+
+- You don’t remember installing the extension, or you were tricked or forced into installing it from a website
+  - For example: The extension trapped you in full-screen mode, or an application installed it without your permission
+
+- It’s difficult or impossible to uninstall
+
+**Some things that don’t constitute abuse include**
+
+- A lack of functionality compared to the extension’s description
+- Poorly working or difficult-to-use features
+- Slow functioning features, as long as these don’t affect the overall performance of Firefox
+
+**Note:** These kinds of issues might be bugs, rather than instances of abuse. The best way to get a functionality issue resolved is to contact the extension developer. If the extension was installed via [addons.mozilla.org](https://addons.mozilla.org) (AMO), return to extension’s product page on AMO to get the developer’s contact information. Otherwise, try searching the web for the developer’s contact information.
+
+# How do I report an extension or theme?
+
+You can report an extension or theme directly in Firefox or on the [AMO product page](https://addons.mozilla.org/firefox/) for the extension or theme.
+
+**To submit a report in Firefox:**
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions or Themes.
+2. Select the extension or theme you would like to report.
+3. Click the ellipsis (3-dot) icon and select **Report**.  
+ ![fx72 report extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+4. Select a reason for reporting the extension and click **Next**.<dl><dt>
+<img alt=""Report add-on abuse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-27-13-40-51-2d084d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""900"">
+</dt></dl>
+5. Provide more information about your report (optional).
+6. Click **Submit**.
+
+**To submit a report on the extension or theme’s [AMO product page](https://addons.mozilla.org/firefox/):**
+
+1. Go to the [Firefox Add-ons](https://addons.mozilla.org/firefox/) page for the extension or theme and click Report this add-on for abuse.<dl><dt>
+<img alt=""report addon button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-17-07-55-14-5ed7c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+2. Select a reason for reporting the extension and click **Next**.
+3. Provide more information about your report (optional).
+4. Click **Submit**.
+
+# What happens next?
+
+Your abuse report is sent to the Firefox add-ons team for review. If they confirm that the extension or theme is abusing the Mozilla add-on policies or conditions of use, the extension or theme is removed from [addons.mozilla.org](https://addons.mozilla.org) until the developer fixes the issues. Depending on the history and severity of the abuse, the add-ons team may issue a block that prevents the extension or theme from loading in Firefox. For more information, see [Why does Mozilla disable some add-ons from running in Firefox?](\""https://support.mozilla.org/en-US/kb/add-ons-cause-issues-are-on-blocklist"")
+
+"
+40709,The difference between IMAP and POP3,difference-between-imap-and-pop3,https://support.mozilla.org/en-US/kb/difference-between-imap-and-pop3,en-US,Thunderbird gives users the choice between using IMAP or POP3. This documentation will explain the major differences between these protocols.,"<p>When adding an email account to Thunderbird, you can decide between <em>IMAP (remote folders)</em> and <em>POP3 (keep mail on your computer)</em>. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
+</p>
+<ul><li> <strong>IMAP:</strong> Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
+</li><li> <strong>POP3:</strong> New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the <a href=""/en-US/kb/configuration-options-accounts#w_server-settings-panel"">Thunderbird Server Settings panel</a> for your account. 
+</li></ul>
+<p><strong>We recommend using IMAP.</strong>
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-to-consider""><span class=""tocnumber"">1</span> <span class=""toctext"">What to consider</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-imap-and-pop3""><span class=""tocnumber"">2</span> <span class=""toctext"">What is IMAP and POP3?</span></a><ul><li class=""toclevel-2""><a href=""#w_imap""><span class=""tocnumber"">2.1</span> <span class=""toctext"">IMAP</span></a></li><li class=""toclevel-2""><a href=""#w_pop3""><span class=""tocnumber"">2.2</span> <span class=""toctext"">POP3</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_changing-your-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Changing your account</span></a></li></ul></div>
+<h1 id=""w_what-to-consider"">What to consider</h1>
+<p>To help you decide for yourself, here are some things to consider:
+</p>
+<ul><li> <strong>Do you want to access the account from more than one device?</strong> Choose IMAP.
+</li><li> <strong>Do you want to access the account from a web browser?</strong> Choose IMAP.
+</li><li> <strong>Does your email provider support IMAP or POP3?</strong> Most of them support both, but you should verify first.
+</li><li> <strong>What is the size limit of your mailbox?</strong> Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
+</li><li> <strong>Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?</strong> Choose POP3.
+</li></ul>
+<h1 id=""w_what-is-imap-and-pop3"">What is IMAP and POP3?</h1>
+<h2 id=""w_imap"">IMAP</h2>
+<p>IMAP stands for <strong>I</strong>nternet <strong>M</strong>ail <strong>A</strong>ccess <strong>P</strong>rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
+</p><p>Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
+</p><p>Changes made in Thunderbird are replicated to all imap connected devices.
+</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, even though your mail is stored on a remote server.
+</p>
+<h2 id=""w_pop3"">POP3</h2>
+<p>POP3 stands for <strong>P</strong>ost <strong>O</strong>ffice <strong>P</strong>rotocol (version <strong>3</strong>). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
+</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, especially because your mail is <strong>not</strong> stored on a remote server.
+</p>
+<h1 id=""w_changing-your-account"">Changing your account</h1>
+<p>Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
+</p><p>See <a href=""/en-US/kb/automatic-account-configuration"">Automatic Account Configuration</a> to add a new mail account automatically or <a href=""/en-US/kb/manual-account-configuration"">Manual Account Configuration</a> to manually configure a new mail account.
+</p>",thunderbird,email-and-messaging;import-and-export-email;settings,"When adding an email account to Thunderbird, you can decide between _IMAP (remote folders)_ and _POP3 (keep mail on your computer)_. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
+
+- **IMAP:** Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
+- **POP3:** New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the [Thunderbird Server Settings panel](\""https://support.mozilla.org/en-US/kb/configuration-options-accounts#w_server-settings-panel"") for your account. 
+
+**We recommend using IMAP.**
+
+## Table of Contents
+
+- [1 What to consider](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-to-consider)
+- [2 What is IMAP and POP3?](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-is-imap-and-pop3)
+  - [2.1 IMAP](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_imap)
+  - [2.2 POP3](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_pop3)
+
+- [3 Changing your account](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_changing-your-account)
+
+# What to consider
+
+To help you decide for yourself, here are some things to consider:
+
+- **Do you want to access the account from more than one device?** Choose IMAP.
+- **Do you want to access the account from a web browser?** Choose IMAP.
+- **Does your email provider support IMAP or POP3?** Most of them support both, but you should verify first.
+- **What is the size limit of your mailbox?** Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
+- **Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?** Choose POP3.
+
+# What is IMAP and POP3?
+
+## IMAP
+
+IMAP stands for **I** nternet **M** ail **A** ccess **P** rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
+
+Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
+
+Changes made in Thunderbird are replicated to all imap connected devices.
+
+To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), even though your mail is stored on a remote server.
+
+## POP3
+
+POP3 stands for **P** ost **O** ffice **P** rotocol (version **3** ). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
+
+To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), especially because your mail is **not** stored on a remote server.
+
+# Changing your account
+
+Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
+
+See [Automatic Account Configuration](\""https://support.mozilla.org/en-US/kb/automatic-account-configuration"") to add a new mail account automatically or [Manual Account Configuration](\""https://support.mozilla.org/en-US/kb/manual-account-configuration"") to manually configure a new mail account.
 
 "
 40755,Change themes in Firefox for iOS,change-themes-firefox-ios,https://support.mozilla.org/en-US/kb/change-themes-firefox-ios,en-US,Learn how to switch between light and dark themes on Firefox for iOS.,"<p>Firefox for iOS has built in dark and light themes as well as Night Mode, so you can customize its appearance. Learn more about changing your theme.
@@ -75147,6 +75530,239 @@ All of the OMA-URIs and values for Firefox policies are listed at:
 
 **Note:** When you are entering arrays or key-value pair lists, you have to use **&#xF000;** as a separator. See the examples in the [_Windows (Intune)_ section](https://mozilla.github.io/policy-templates/#windows-intune-5) of the [policy-templates page](https://mozilla.github.io/policy-templates/).
 "
+49117,Compatibility with Exploit protection on Windows,compatibility-exploit-protection-windows,https://support.mozilla.org/en-US/kb/compatibility-exploit-protection-windows,en-US,Firefox Compatibility with Windows Exploit protection.,"<p>Windows 10 (version 1709+), Windows Server (version 1803+) and Windows 11 come with a security feature named <a href=""https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/exploit-protection"">Exploit protection</a>. Exploit protection includes a number of mitigations from the Enhanced Mitigation Experience Toolkit (EMET) which reached end of support on July 31st, 2018.
+</p><p>While you can apply those mitigations to Firefox (i.e. firefox.exe), <strong>Mozilla recommends keeping the default settings of Exploit protection for firefox.exe.</strong> Since Microsoft can change the mitigation techniques at anytime, you may experience compatibility issues such as startup or sudden crashes or loss of functionality if you were to update from a working version.
+</p>
+<div class=""note"">Windows 10 Version 1709 Security Baseline from Microsoft contained an error which will make Firefox 100 unable to load any pages.  Updated versions of Windows Security Baseline can be found <a href=""https://www.microsoft.com/en-us/download/details.aspx?id=55319"">here</a>.</div>
+<h1 id=""w_known-issues-in-older-versions"">Known issues in older versions</h1>
+<ul><li>Firefox had a startup crash due to the compatibility issues with EAF (Export Address Filtering) until version 73.
+<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1587642"">Bug 1587642</a> (fixed in 72)
+</li><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1592486"">Bug 1592486</a> (fixed in 74)
+</li></ul>
+</li><li>Firefox had a startup crash due to the compatibility issue with EAF+ until version 77.
+<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1509748"">Bug 1509748</a> (fixed in 78)
+</li></ul>
+</li><li>Firefox fails to load any pages with outdated Exploit Protection settings.
+<ul><li><a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1770098"">Bug 1770098</a> (Fixed in 102)
+</li></ul>
+</li></ul>",firefox,privacy-and-security;security,"Windows 10 (version 1709+), Windows Server (version 1803+) and Windows 11 come with a security feature named [Exploit protection](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/exploit-protection). Exploit protection includes a number of mitigations from the Enhanced Mitigation Experience Toolkit (EMET) which reached end of support on July 31st, 2018.
+
+While you can apply those mitigations to Firefox (i.e. firefox.exe), **Mozilla recommends keeping the default settings of Exploit protection for firefox.exe.** Since Microsoft can change the mitigation techniques at anytime, you may experience compatibility issues such as startup or sudden crashes or loss of functionality if you were to update from a working version.
+
+Windows 10 Version 1709 Security Baseline from Microsoft contained an error which will make Firefox 100 unable to load any pages. Updated versions of Windows Security Baseline can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=55319).
+
+# Known issues in older versions
+
+- Firefox had a startup crash due to the compatibility issues with EAF (Export Address Filtering) until version 73.
+  - [Bug 1587642](https://bugzilla.mozilla.org/show_bug.cgi?id=1587642) (fixed in 72)
+  - [Bug 1592486](https://bugzilla.mozilla.org/show_bug.cgi?id=1592486) (fixed in 74)
+
+- Firefox had a startup crash due to the compatibility issue with EAF+ until version 77.
+  - [Bug 1509748](https://bugzilla.mozilla.org/show_bug.cgi?id=1509748) (fixed in 78)
+
+- Firefox fails to load any pages with outdated Exploit Protection settings.
+  - [Bug 1770098](https://bugzilla.mozilla.org/show_bug.cgi?id=1770098) (Fixed in 102)
+
+"
+49133,Run Firefox on ChromeOS,run-firefox-chromeos,https://support.mozilla.org/en-US/kb/run-firefox-chromeos,en-US,This page explains how to install Firefox on Chromebooks and other devices running ChromeOS.,"<p>Firefox can now be installed on Chromebooks and other devices running ChromeOS. This article will explain the system requirements needed in order to run Firefox on ChromeOS and how to set this up.
+</p>
+<h1 id=""w_how-to-run-firefox-on-chromeos"">How to run Firefox on ChromeOS</h1>
+<p>To run Firefox on ChromeOS, you first need to ensure that your system meets the following requirements:
+</p>
+<h2 id=""w_system-requirements"">System Requirements</h2>
+<ul><li><strong>x86 based Chromebook running ChromeOS 80 or later</strong>
+</li></ul>
+<p>You can check this by going to <code>chrome://version</code> in the Chrome browser address bar. <a href=""https://support.google.com/chromebook/answer/177889"">Follow these instructions from Google</a> if you need to upgrade your OS.
+</p>
+<h2 id=""w_enable-linux-support-for-chromeos"">Enable Linux support for ChromeOS</h2>
+<ul><li><strong>Visit <a href=""https://support.google.com/chromebook/answer/9145439"">this Google Support page</a> to learn more about how to set up Linux (Beta) on your Chromebook.</strong>
+</li><li><strong>Once you've enabled Linux, check the Terminal to see if you have the correct version:</strong>
+<dl><dt><code>cat /etc/os-release</code>
+</dt></dl>
+</li><li><strong>If the version is not 10 (buster) or above, you'll need to run the update script:</strong>
+<dl><dt><code>sudo bash /opt/google/cros-containers/bin/upgrade_container</code>
+</dt></dl>
+</li></ul>
+<p>This script will take some time depending on how fast your Chromebook and internet speeds are. Once it's done, you'll need to restart your Linux container. You can either right-click the <em>Terminal</em> icon and select <strong>Shut down Linux (Beta)</strong> or just restart your Chromebook.
+</p>
+<h2 id=""w_install-firefox-from-mozilla-repository-recommended"">Install Firefox from Mozilla Repository (Recommended)</h2>
+<ol><li>Create a directory to store APT repository keys if it doesn't exist:
+<dl><dt><code><strong>sudo install -d -m 0755 /etc/apt/keyrings</strong></code>
+</dt></dl>
+</li><li>Import the Mozilla APT repository signing key:
+<dl><dt><code><strong>wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &gt; /dev/null</strong></code>
+</dt><dt>If you do not have <code><strong>wget</strong></code> installed, you can install it with: <code><strong>sudo apt-get install wget</strong></code>
+</dt></dl>
+</li><li>The fingerprint should be <strong>35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3</strong>. You may check it with the following command:
+<dl><dt><code><strong>gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""""); if($0 == ""35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"") print ""\nThe key fingerprint matches (""$0"").\n""; else print ""\nVerification failed: the fingerprint (""$0"") does not match the expected one.\n""}'</strong></code>
+</dt></dl>
+</li><li>Next, add the Mozilla APT repository to your sources.list:
+<dl><dt><code><strong>cat &lt;&lt;EOF &gt; /etc/apt/sources.list.d/mozilla.sources</strong></code>
+</dt><dt><code><strong>Types: deb</strong></code>
+</dt><dt><code><strong>URIs: https://packages.mozilla.org/apt</strong></code>
+</dt><dt><code><strong>Suites: mozilla</strong></code>
+</dt><dt><code><strong>Components: main</strong></code>
+</dt><dt><code><strong>Signed-By: /etc/apt/keyrings/packages.mozilla.org.asc</strong></code>
+</dt><dt><code><strong>EOF</strong></code>
+</dt></dl>
+</li><li>Configure APT to prioritize packages from the Mozilla repository:
+<dl><dt><code><strong>echo '</strong></code>
+</dt><dt><code><strong>Package: *</strong></code>
+</dt><dt><code><strong>Pin: origin packages.mozilla.org</strong></code>
+</dt><dt><code><strong>Pin-Priority: 1000</strong></code>
+</dt><dt><code>'<strong> | sudo tee /etc/apt/preferences.d/mozilla</strong></code>
+</dt></dl>
+</li><li>Update your package list, and install <em>firefox</em> (or one of <em>firefox-esr</em>, <em>-beta</em>, <em>-nightly</em>, <em>-devedition</em>):
+<dl><dt><code><strong>sudo apt-get update &amp;&amp; sudo apt-get install firefox</strong></code>
+</dt></dl>
+</li></ol>
+<h2 id=""w_set-up-different-languages-in-firefox"">Set up different languages in Firefox</h2>
+<p>For those of you who would like to use Firefox in a different language than American English, we have also created <code><strong>.deb</strong></code> packages containing the Firefox language packs. To install a specific language pack, replace <em>fr</em> in the example below with the desired language code. In this example, we will be installing the French language version of Firefox.
+</p>
+<dl><dt><code><strong>sudo apt-get install firefox-l10n-fr</strong></code>
+</dt></dl>
+<p>To list all the available language packs, after adding the Mozilla APT repository and running <code>sudo apt-get update</code>, you can use this command:
+</p>
+<dl><dt><code><strong>apt-cache search firefox-l10n</strong></code>
+</dt></dl>
+<h2 id=""w_install-from-flatpak"">Install from Flatpak</h2>
+<p>To install Firefox from Flatpak, <a href=""https://flatpak.org/setup/"">install and configure Flatpak</a> on your computer. Once Flatpak is installed, go to the <a href=""https://flathub.org/apps/details/org.mozilla.firefox"">Firefox Flathub's page</a>, and click the <span class=""button"">Install</span> button. Alternatively, you can type the following command in a terminal:
+</p>
+<dl><dt><code><strong>flatpak install flathub org.mozilla.firefox</strong></code>
+</dt></dl>
+<p>By default, Flatpak installs Firefox in the same locale as your operating system. To use a different language, please follow the instructions on <a href=""/en-US/kb/use-firefox-another-language"">how to use Firefox in another language</a>.
+</p>",firefox,install;installation-and-updates,"Firefox can now be installed on Chromebooks and other devices running ChromeOS. This article will explain the system requirements needed in order to run Firefox on ChromeOS and how to set this up.
+
+# How to run Firefox on ChromeOS
+
+To run Firefox on ChromeOS, you first need to ensure that your system meets the following requirements:
+
+## System Requirements
+
+- **x86 based Chromebook running ChromeOS 80 or later**
+
+You can check this by going to `chrome://version` in the Chrome browser address bar. [Follow these instructions from Google](https://support.google.com/chromebook/answer/177889) if you need to upgrade your OS.
+
+## Enable Linux support for ChromeOS
+
+- **Visit [this Google Support page](https://support.google.com/chromebook/answer/9145439) to learn more about how to set up Linux (Beta) on your Chromebook.**
+- **Once you've enabled Linux, check the Terminal to see if you have the correct version:** <dl><dt>
+<code>cat /etc/os-release</code>
+</dt></dl>
+- **If the version is not 10 (buster) or above, you'll need to run the update script:**<dl><dt>
+<code>sudo bash /opt/google/cros-containers/bin/upgrade_container</code>
+</dt></dl>
+
+This script will take some time depending on how fast your Chromebook and internet speeds are. Once it's done, you'll need to restart your Linux container. You can either right-click the _Terminal_ icon and select **Shut down Linux (Beta)** or just restart your Chromebook.
+
+## Install Firefox from Mozilla Repository (Recommended)
+
+1. Create a directory to store APT repository keys if it doesn't exist:<dl><dt>
+<code><strong>sudo install -d -m 0755 /etc/apt/keyrings</strong></code>
+</dt></dl>
+2. Import the Mozilla APT repository signing key:<dl>
+<dt>
+<code><strong>wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &gt; /dev/null</strong></code>
+</dt>
+<dt>If you do not have <code><strong>wget</strong></code> installed, you can install it with: <code><strong>sudo apt-get install wget</strong></code>
+</dt>
+</dl>
+3. The fingerprint should be **35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3**. You may check it with the following command:<dl><dt>
+<code><strong>gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""""); if($0 == ""35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3"") print ""\nThe key fingerprint matches (""$0"").\n""; else print ""\nVerification failed: the fingerprint (""$0"") does not match the expected one.\n""}'</strong></code>
+</dt></dl>
+4. Next, add the Mozilla APT repository to your sources.list:<dl>
+<dt>
+<code><strong>cat &lt;&lt;EOF &gt; /etc/apt/sources.list.d/mozilla.sources</strong></code>
+</dt>
+<dt>
+<code><strong>Types: deb</strong></code>
+</dt>
+<dt>
+<code><strong>URIs: https://packages.mozilla.org/apt</strong></code>
+</dt>
+<dt>
+<code><strong>Suites: mozilla</strong></code>
+</dt>
+<dt>
+<code><strong>Components: main</strong></code>
+</dt>
+<dt>
+<code><strong>Signed-By: /etc/apt/keyrings/packages.mozilla.org.asc</strong></code>
+</dt>
+<dt>
+<code><strong>EOF</strong></code>
+</dt>
+</dl>
+5. Configure APT to prioritize packages from the Mozilla repository:<dl>
+<dt>
+<code><strong>echo '</strong></code>
+</dt>
+<dt>
+<code><strong>Package: *</strong></code>
+</dt>
+<dt>
+<code><strong>Pin: origin packages.mozilla.org</strong></code>
+</dt>
+<dt>
+<code><strong>Pin-Priority: 1000</strong></code>
+</dt>
+<dt>
+<code>'<strong> | sudo tee /etc/apt/preferences.d/mozilla</strong></code>
+</dt>
+</dl>
+6. Update your package list, and install _firefox_ (or one of _firefox-esr_, _-beta_, _-nightly_, _-devedition_):<dl><dt>
+<code><strong>sudo apt-get update &amp;&amp; sudo apt-get install firefox</strong></code>
+</dt></dl>
+
+## Set up different languages in Firefox
+
+For those of you who would like to use Firefox in a different language than American English, we have also created `.deb` packages containing the Firefox language packs. To install a specific language pack, replace _fr_ in the example below with the desired language code. In this example, we will be installing the French language version of Firefox.
+
+<dl><dt>
+<code><strong>sudo apt-get install firefox-l10n-fr</strong></code>
+</dt></dl>
+
+To list all the available language packs, after adding the Mozilla APT repository and running `sudo apt-get update`, you can use this command:
+
+<dl><dt>
+<code><strong>apt-cache search firefox-l10n</strong></code>
+</dt></dl>
+## Install from Flatpak
+
+To install Firefox from Flatpak, [install and configure Flatpak](https://flatpak.org/setup/) on your computer. Once Flatpak is installed, go to the [Firefox Flathub's page](https://flathub.org/apps/details/org.mozilla.firefox), and click the Install button. Alternatively, you can type the following command in a terminal:
+
+<dl><dt>
+<code><strong>flatpak install flathub org.mozilla.firefox</strong></code>
+</dt></dl>
+
+By default, Flatpak installs Firefox in the same locale as your operating system. To use a different language, please follow the instructions on [how to use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"").
+
+"
+49197,"Firefox Mac OS X 10.9, 10.10 and 10.11 users move to Extended Support Release",firefox-mac-osx-users-esr,https://support.mozilla.org/en-US/kb/firefox-mac-osx-users-esr,en-US,"Firefox 78 was the last supported version for Mac OS X 10.9, 10.10 and 10.11.  Users were moved to Firefox Extended Support Release (ESR).","<p><a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 78 was the last supported Firefox version for Mac users of OS X 10.9 Mavericks, OS X 10.10 Yosemite and OS X 10.11 El Capitan. These users were moved to the Firefox <a href=""https://www.mozilla.org/firefox/enterprise"">Extended Support Release</a> (ESR) channel by an application update. This was done to provide security updates until the final Firefox 78 ESR update (version 78.15.0esr) was released on October 5, 2021. Affected users will not receive any further security updates.
+</p>
+<h1 id=""w_why-has-firefox-ended-support-for-os-x-10-9-10-10-and-10-11-users"">Why has Firefox ended support for OS X 10.9, 10.10 and 10.11 users?</h1>
+<p>Although Apple does not have a public policy governing security updates for older OS X releases, its practice is to support the most recent three releases. Apple made the last security update applicable to OS X 10.11 available in July 2018. Unsupported operating systems do not receive security updates, have known exploits and can be dangerous to use, which makes it difficult to maintain Firefox on those versions.
+</p>
+<h1 id=""w_can-i-still-browse-safely-with-firefox-on-os-x-10-9-10-10-or-10-11"">Can I still browse safely with Firefox on OS X 10.9, 10.10 or 10.11?</h1>
+<p>Up until October 2021, we were updating affected users with critical security updates through the <a href=""https://www.mozilla.org/firefox/enterprise"">Firefox ESR</a> channel, to help retain the best possible security. After this, no security updates will be provided.
+</p>
+<h1 id=""w_how-can-i-get-the-newest-features-of-firefox"">How can I get the newest features of Firefox?</h1>
+<p>If you want to keep your Firefox version up to date, you need to upgrade your operating system to macOS 10.15 or higher. Apple does not support older versions. They are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions. <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 115 was the last supported version for users of macOS 10.12 (Sierra), macOS 10.13 (High Sierra) and macOS 10.14 (Mojave), as explained in <a href=""/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"">this article</a>.
+</p>",firefox;firefox-enterprise,installation-and-updates,"[Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 78 was the last supported Firefox version for Mac users of OS X 10.9 Mavericks, OS X 10.10 Yosemite and OS X 10.11 El Capitan. These users were moved to the Firefox [Extended Support Release](https://www.mozilla.org/firefox/enterprise) (ESR) channel by an application update. This was done to provide security updates until the final Firefox 78 ESR update (version 78.15.0esr) was released on October 5, 2021. Affected users will not receive any further security updates.
+
+# Why has Firefox ended support for OS X 10.9, 10.10 and 10.11 users?
+
+Although Apple does not have a public policy governing security updates for older OS X releases, its practice is to support the most recent three releases. Apple made the last security update applicable to OS X 10.11 available in July 2018. Unsupported operating systems do not receive security updates, have known exploits and can be dangerous to use, which makes it difficult to maintain Firefox on those versions.
+
+# Can I still browse safely with Firefox on OS X 10.9, 10.10 or 10.11?
+
+Up until October 2021, we were updating affected users with critical security updates through the [Firefox ESR](https://www.mozilla.org/firefox/enterprise) channel, to help retain the best possible security. After this, no security updates will be provided.
+
+# How can I get the newest features of Firefox?
+
+If you want to keep your Firefox version up to date, you need to upgrade your operating system to macOS 10.15 or higher. Apple does not support older versions. They are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions. [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 115 was the last supported version for users of macOS 10.12 (Sierra), macOS 10.13 (High Sierra) and macOS 10.14 (Mojave), as explained in [this article](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"").
+
+"
 49217,Automatically fill in credit card and payment method data on Web forms,credit-card-autofill,https://support.mozilla.org/en-US/kb/credit-card-autofill,en-US,Manage credit card autofill settings in Firefox version 81 and above.,"<p>Firefox lets you automatically fill in saved credit and debit card information on web forms, making online checkouts faster and more convenient. Starting with Firefox version 135, this feature is available globally. Your <a href=""https://en.wikipedia.org/wiki/Card_security_code"">CVV number</a> is never saved, and you can require a password or biometric authentication before using autofill for extra security. 
 </p><p>Use the steps below to turn autofill on or off, edit saved cards, and set authentication preferences.
 </p>
@@ -84528,67 +85144,6 @@ We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and
 3. Under General, tap Theme.
 
 "
-55636,Usage Data Changes for Firefox for iOS and Android,usage-data-changes-firefox-ios-and-android,https://support.mozilla.org/en-US/kb/usage-data-changes-firefox-ios-and-android,en-US,Firefox began collecting new usage data to support the Firefox for iOS 39 and Android 94 releases to support personalization.,"<p>Firefox began collecting new usage data to support the Firefox for <a href=""/en-US/kb/whats-new-firefox-ios-version-39"">iOS 39</a> and <a href=""/en-US/kb/whats-new-firefox-android"">Android 94</a> releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database. 
-</p><p>Note that we are not collecting any personal information as part of this change. 
-</p>
-<h1 id=""w_usage-data-being-collected-and-used-to-support-our-new-features"">Usage data being collected and used to support our new features</h1>
-<h2 id=""w_new"">New</h2>
-<ul><li>Total view time of the page
-</li><li>Search terms if the page was loaded from a search result page
-</li><li>Referrer URL if the page was loaded from another page
-</li><li>Referring application and/or category (for example, the application Twitter and its category Social that referred to open the page.
-</li><li>Document type (regular or media) 
-</li></ul>
-<h2 id=""w_existing"">Existing</h2>
-<ul><li>First and last visit times
-</li></ul>",mobile;ios,privacy-and-security,"Firefox began collecting new usage data to support the Firefox for [iOS 39](\""https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-39"") and [Android 94](\""https://support.mozilla.org/en-US/kb/whats-new-firefox-android"") releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database.
-
-Note that we are not collecting any personal information as part of this change.
-
-# Usage data being collected and used to support our new features
-
-## New
-
-- Total view time of the page
-- Search terms if the page was loaded from a search result page
-- Referrer URL if the page was loaded from another page
-- Referring application and/or category (for example, the application Twitter and its category Social that referred to open the page.
-- Document type (regular or media) 
-
-## Existing
-
-- First and last visit times
-
-"
-55680,Personalize Firefox with colorways,personalize-firefox-colorways,https://support.mozilla.org/en-US/kb/personalize-firefox-colorways,en-US,"Personalize your browsing experience with Colorways themes for Firefox, created in partnership with an industry color specialist.","<p>Colorways are a set of dynamic themes designed in collaboration with color specialists to enhance your Firefox browsing experience. They offer a unique way to personalize your browser, reflecting your style and mood with bespoke color schemes. Whether you're looking to boost your productivity with calming hues or brighten your day with vibrant colors, colorways provides a wide range of options to suit your preferences.
-</p><p><img alt=""Colorways homepage"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-11-08-52-40-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>You can access your saved and active colorways in the Themes panel (simply click on <span class=""menu"">Add-ons and themes</span> from the Firefox menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> at the top right corner of your screen). 
-</p>
-<div class=""note""><strong>Note:</strong> direct access to colorways via <a href=""/en-US/kb/how-set-tab-pickup-firefox-view"">Firefox View</a> ended on January 16, 2023.</div>
-<h1 id=""w_cant-find-your-previously-installed-colorway"">Can’t find your previously installed colorway?</h1>
-<p>Firefox recently made some backend updates to colorways to streamline maintenance. Most users were automatically migrated to the updated themes. In case you notice your favorite theme is missing, don't worry. Simply head over to the <a href=""https://addons.mozilla.org/en-US/firefox/collections/4757633/colorways/"">add-ons website</a>, where you can reinstall your colorway by following the installation steps from there.
-</p>
-<h1 id=""w_related-content"">Related content</h1>
-<ul><li><a href=""/en-US/kb/use-themes-change-look-of-firefox"">Use themes to change the look of Firefox</a>
-</li><li><a href=""/en-US/kb/customize-items-on-firefox-new-tab-page#w_wallpapers"">Customize items on your Firefox New Tab page</a>
-</li></ul>",firefox,settings,"Colorways are a set of dynamic themes designed in collaboration with color specialists to enhance your Firefox browsing experience. They offer a unique way to personalize your browser, reflecting your style and mood with bespoke color schemes. Whether you're looking to boost your productivity with calming hues or brighten your day with vibrant colors, colorways provides a wide range of options to suit your preferences.
-
-![Colorways homepage](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-You can access your saved and active colorways in the Themes panel (simply click on Add-ons and themes from the Firefox menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) at the top right corner of your screen).
-
-**Note:** direct access to colorways via [Firefox View](\""https://support.mozilla.org/en-US/kb/how-set-tab-pickup-firefox-view"") ended on January 16, 2023.
-
-# Can’t find your previously installed colorway?
-
-Firefox recently made some backend updates to colorways to streamline maintenance. Most users were automatically migrated to the updated themes. In case you notice your favorite theme is missing, don't worry. Simply head over to the [add-ons website](https://addons.mozilla.org/en-US/firefox/collections/4757633/colorways/), where you can reinstall your colorway by following the installation steps from there.
-
-# Related content
-
-- [Use themes to change the look of Firefox](\""https://support.mozilla.org/en-US/kb/use-themes-change-look-of-firefox"")
-- [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page#w_wallpapers"")
-
-"
 55781,Download Firefox on Windows from the Microsoft Store,download-firefox-windows-microsoft-store,https://support.mozilla.org/en-US/kb/download-firefox-windows-microsoft-store,en-US,"The ""Mozilla Firefox"" app is available from the Microsoft Store for Windows 10 and Windows 11. Learn how to install it.","<div class=""for"" data-for=""linux,mac,winxp,win7,win8""><div class=""note"">Installing Firefox from the Microsoft store requires Windows 10 or Windows 11.</div></div>
 <p>In this article, you'll learn the steps to install Firefox for Windows from the Microsoft Store.
 </p>
@@ -90398,6 +90953,10 @@ Learn more about our [Lean data practices](https://www.mozilla.org/about/policy/
 <tr>
 <td>Community forum in French
 </td><td><a href=""https://forums.mozfr.org/"">https://forums.mozfr.org/</a>
+</td></tr>
+<tr>
+<td>Community forum in Italian
+</td><td><a href=""https://forum.mozillaitalia.org/"">https://forum.mozillaitalia.org/</a>
 </td></tr></tbody></table>",contributor,general,"In this article, you will learn about official support channels for Mozilla products and how you can contribute to Mozilla Support.
 
 ## Table of Contents
@@ -90440,6 +90999,7 @@ In addition to the above official channels, the following unofficial channels ar
 | mozillaZine | [https://forums.mozillazine.org/](https://forums.mozillazine.org/) |
 | German local forum | [https://www.camp-firefox.de/forum/](https://www.camp-firefox.de/forum/) |
 | Community forum in French | [https://forums.mozfr.org/](https://forums.mozfr.org/) |
+| Community forum in Italian | [https://forum.mozillaitalia.org/](https://forum.mozillaitalia.org/) |
 
 "
 58694,How to stay updated with Firefox release,stay-updated-firefox-releases,https://support.mozilla.org/en-US/kb/stay-updated-firefox-releases,en-US,Stay on top of release updates and trending issues,"<p>In the spirit of openness and to ensure contributors stay up to date on Firefox updates, here are a few key resources you can use to find information about Firefox releases (both desktop and mobile).
@@ -103244,6 +103804,20 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </td><td> Open new tab
 </td></tr>
 <tr>
+<td> <img alt=""IG split view left"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-08-99304a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Split view left
+</td><td> [[Image:IG split view left]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57550"">https://support.mozilla.org/en-US/gallery/image/57550</a>
+</td><td> Split view left
+</td></tr>
+<tr>
+<td> <img alt=""IG split view right"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-40-ccb13d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Split view left
+</td><td> [[Image:IG split view right]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57551"">https://support.mozilla.org/en-US/gallery/image/57551</a>
+</td><td> Split view right
+</td></tr>
+<tr>
 <td> <img alt=""IG permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-20-03-06-49-41275a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </td><td> Permissions
 </td><td> [[Image:IG permissions]]
@@ -103270,6 +103844,48 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </td><td> [[Image:IG translations]]
 </td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57094"">https://support.mozilla.org/en-US/gallery/image/57094</a>
 </td><td> Translations
+</td></tr>
+<tr>
+<td> <img alt=""IG trust icon active"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-26-46-ff0861.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Trust icon Active
+</td><td> [[Image:IG trust icon active]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57229"">https://support.mozilla.org/en-US/gallery/image/57229</a>
+</td><td> Trust icon Active
+</td></tr>
+<tr>
+<td> <img alt=""IG trust icon disabled"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-27-51-4bffdf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Trust icon Disabled
+</td><td> [[Image:IG trust icon disabled]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57230"">https://support.mozilla.org/en-US/gallery/image/57230</a>
+</td><td> Trust icon Disabled
+</td></tr>
+<tr>
+<td> <img alt=""IG trust icon insecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-28-29-c93823.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Trust icon Insecure
+</td><td> [[Image:IG trust icon insecure]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57231"">https://support.mozilla.org/en-US/gallery/image/57231</a>
+</td><td> Trust icon Insecure
+</td></tr>
+<tr>
+<td> <img alt=""IG trust icon warning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-42-40-9f815c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Trust icon Warning
+</td><td> [[Image:IG trust icon warning]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57234"">https://support.mozilla.org/en-US/gallery/image/57234</a>
+</td><td> Trust icon Warning
+</td></tr>
+<tr>
+<td> <img alt=""IG window"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-38-34-05b8c7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Window
+</td><td> [[Image:IG window]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57232"">https://support.mozilla.org/en-US/gallery/image/57232</a>
+</td><td> Window
+</td></tr>
+<tr>
+<td> <img alt=""IG window firefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-39-06-42a986.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Window Firefox
+</td><td> [[Image:IG window firefox]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57233"">https://support.mozilla.org/en-US/gallery/image/57233</a>
+</td><td> Window Firefox
 </td></tr></tbody></table>",contributor,screenshots-and-icons,"Designed for quick access, this icon gallery is part of our strategy to [reduce cognitive load](https://blog.mozilla.org/sumo/2024/04/09/keeping-you-in-the-loop-whats-new-in-our-knowledge-base/) in KB content. These icons help clearly depict interface elements in Firefox Desktop articles, making it easier for readers to follow along without overwhelming visual information. Use this resource to enhance clarity and navigability of your documentation. For tips on effective inline icon usage, refer to [Add images and screenshots to Knowledge Base articles](\""https://support.mozilla.org/en-US/kb/how-place-images-article#w_effective-use-of-inline-images"").
 
 # How to use this Icon Gallery
@@ -103312,10 +103928,18 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 | ![IG notification](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification | [[Image:IG notification]] | [https://support.mozilla.org/en-US/gallery/image/51909](https://support.mozilla.org/en-US/gallery/image/51909) | Notification |
 | ![IG notification blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification blocked | [[Image:IG notification blocked]] | [https://support.mozilla.org/en-US/gallery/image/51910](https://support.mozilla.org/en-US/gallery/image/51910) | Notification blocked |
 | ![IG open new tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Open new tab | [[Image:IG open new tab]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Open new tab |
+| ![IG split view left](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view left]] | [https://support.mozilla.org/en-US/gallery/image/57550](https://support.mozilla.org/en-US/gallery/image/57550) | Split view left |
+| ![IG split view right](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view right]] | [https://support.mozilla.org/en-US/gallery/image/57551](https://support.mozilla.org/en-US/gallery/image/57551) | Split view right |
 | ![IG permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Permissions | [[Image:IG permissions]] | [https://support.mozilla.org/en-US/gallery/image/57277](https://support.mozilla.org/en-US/gallery/image/57277) | Permissions |
 | ![IG taskbar tabs add tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs add tab | [[Image:IG taskbar tabs add tab]] | [https://support.mozilla.org/en-US/gallery/image/56861](https://support.mozilla.org/en-US/gallery/image/56861) | Taskbar tabs add tab |
 | ![IG taskbar tabs move tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs move tab | [[Image:IG taskbar tabs move tab]] | [https://support.mozilla.org/en-US/gallery/image/56860](https://support.mozilla.org/en-US/gallery/image/56860) | Taskbar tabs move tab |
 | ![IG translations](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Translations | [[Image:IG translations]] | [https://support.mozilla.org/en-US/gallery/image/57094](https://support.mozilla.org/en-US/gallery/image/57094) | Translations |
+| ![IG trust icon active](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Active | [[Image:IG trust icon active]] | [https://support.mozilla.org/en-US/gallery/image/57229](https://support.mozilla.org/en-US/gallery/image/57229) | Trust icon Active |
+| ![IG trust icon disabled](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Disabled | [[Image:IG trust icon disabled]] | [https://support.mozilla.org/en-US/gallery/image/57230](https://support.mozilla.org/en-US/gallery/image/57230) | Trust icon Disabled |
+| ![IG trust icon insecure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Insecure | [[Image:IG trust icon insecure]] | [https://support.mozilla.org/en-US/gallery/image/57231](https://support.mozilla.org/en-US/gallery/image/57231) | Trust icon Insecure |
+| ![IG trust icon warning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Warning | [[Image:IG trust icon warning]] | [https://support.mozilla.org/en-US/gallery/image/57234](https://support.mozilla.org/en-US/gallery/image/57234) | Trust icon Warning |
+| ![IG window](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Window | [[Image:IG window]] | [https://support.mozilla.org/en-US/gallery/image/57232](https://support.mozilla.org/en-US/gallery/image/57232) | Window |
+| ![IG window firefox](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Window Firefox | [[Image:IG window firefox]] | [https://support.mozilla.org/en-US/gallery/image/57233](https://support.mozilla.org/en-US/gallery/image/57233) | Window Firefox |
 
 "
 64703,Firefox for Enterprise 126 - Release notes,firefox-enterprise-126-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-126-release-notes,en-US,See what's coming out with Firefox for Enterprise 126.,"<p>Except where noted, everything here applies to both Firefox 126 and the Firefox 115.11 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
@@ -116707,153 +117331,6 @@ Language support is expanding. Firefox will display the menu in your system lang
 - [Choose your opening screen for Firefox for Android](\""https://support.mozilla.org/en-US/kb/set-opening-screen-firefox-android"")
 - [Get familiar with Firefox for Android](\""https://support.mozilla.org/en-US/kb/get-familiar-firefox-android"")
 - [How to Use Find in Page for Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-use-find-page-firefox-android"")
-
-"
-68228,Thunderbird ESR,thunderbird-esr,https://support.mozilla.org/en-US/kb/thunderbird-esr,en-US,"Stable Thunderbird Extended Support Release (ESR) for desktop for use by organizations, that gets regular release of major bug fixes and security patches, but infrequent new features and improvements.","<p>
-</p>
-<h1 id=""w_overview"">Overview</h1>
-<p>Thunderbird offers an Extended Support Release (ESR) for organizations, including schools, universities, businesses and others who need extended support for mass deployments. Thunderbird ESR can be <a href=""https://thunderbird.net/download/esr"">downloaded here</a>. The ESR release is based on the regular release cycle of Thunderbird for desktop, which follows the <a href=""https://whattrainisitnow.com/calendar/"">Firefox release cycle</a>.
-</p><p>Thunderbird ESR receives enhancements (new features and capabilitities) annually. Users who need enhancements more frequently may want to try <a href=""/en-US/kb/thunderbird-release"">Thunderbird Release</a> or <a href=""/en-US/kb/choosing-thunderbird-release-channel"">other Thunderbird channels</a>.
-</p>
-<h1 id=""w_release-cycle-details"">Release cycle details</h1>
-<p>ESR releases are maintained for more than a year, with point releases that coincide with regular Thunderbird releases. These point releases contain security upgrades and stability fixes.
-</p><p>The ESR version will also have a three cycle (at least 12 weeks) overlap between the time of a new release and the end-of-life of the previous release to permit testing and certification before you deploy the new version to your organization.
-</p><p>We rely on Thunderbird ESR users to provide feedback for each new ESR release. Please report any bugs such as  compatibility regressions and stability issues. <strong>Enterprise managers are encouraged to join the <a href=""https://thunderbird.topicbox.com/groups/enterprise"">Enterprise topicbox discussion group</a> to stay informed of changes and activity, and learn about managing Thunderbird.</strong>
-</p><p>Maintenance of each ESR through point releases is limited to high-risk/high-impact security vulnerabilities, major stability fixes, and in rare cases may also include off-schedule releases that address live security vulnerabilities. Backports of any functional enhancements are not in scope.
-</p><p>At the end of the support period for an ESR version:
-</p>
-<ul><li> the release will reach its end-of-life
-</li><li> no further updates will be offered for that version
-</li><li> an update to the next version will be offered through the application update service
-</li></ul>
-<p>
-</p>
-<h1 id=""w_upgrade-path-between-two-esr-versions"">Upgrade path between two ESR versions</h1>
-<p>An ESR version will be automatically upgraded to the subsequent ESR version. System administrators can disable automatic updates by managing ESR through their deployment system or by using <a href=""https://enterprise.thunderbird.net/manage-updates-policies-and-customization/managing-thunderbird-policies"">policies</a>. 
-</p><p>
-</p>",thunderbird,install;installation-and-updates,"# Overview
-
-Thunderbird offers an Extended Support Release (ESR) for organizations, including schools, universities, businesses and others who need extended support for mass deployments. Thunderbird ESR can be [downloaded here](https://thunderbird.net/download/esr). The ESR release is based on the regular release cycle of Thunderbird for desktop, which follows the [Firefox release cycle](https://whattrainisitnow.com/calendar/).
-
-Thunderbird ESR receives enhancements (new features and capabilitities) annually. Users who need enhancements more frequently may want to try [Thunderbird Release](\""https://support.mozilla.org/en-US/kb/thunderbird-release"") or [other Thunderbird channels](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"").
-
-# Release cycle details
-
-ESR releases are maintained for more than a year, with point releases that coincide with regular Thunderbird releases. These point releases contain security upgrades and stability fixes.
-
-The ESR version will also have a three cycle (at least 12 weeks) overlap between the time of a new release and the end-of-life of the previous release to permit testing and certification before you deploy the new version to your organization.
-
-We rely on Thunderbird ESR users to provide feedback for each new ESR release. Please report any bugs such as compatibility regressions and stability issues. **Enterprise managers are encouraged to join the [Enterprise topicbox discussion group](https://thunderbird.topicbox.com/groups/enterprise) to stay informed of changes and activity, and learn about managing Thunderbird.**
-
-Maintenance of each ESR through point releases is limited to high-risk/high-impact security vulnerabilities, major stability fixes, and in rare cases may also include off-schedule releases that address live security vulnerabilities. Backports of any functional enhancements are not in scope.
-
-At the end of the support period for an ESR version:
-
-- the release will reach its end-of-life
-- no further updates will be offered for that version
-- an update to the next version will be offered through the application update service
-
-# Upgrade path between two ESR versions
-
-An ESR version will be automatically upgraded to the subsequent ESR version. System administrators can disable automatic updates by managing ESR through their deployment system or by using [policies](https://enterprise.thunderbird.net/manage-updates-policies-and-customization/managing-thunderbird-policies).
-
-"
-68231,Get started with Firefox 141 for iOS,get-started-firefox-141-ios,https://support.mozilla.org/en-US/kb/get-started-firefox-141-ios,en-US,"Learn about new features in Firefox for iOS version 141, including setup tips, personalization and default browser settings.","<div class=""note""><strong>Note:</strong> This feature is currently part of an experiment available to users on Firefox version 141.</div>
-<p>Firefox is available for any iOS device. Starting version 141 Firefox will have some new additions. After updating or installing the app, Firefox will guide you through a quick walkthrough to help you explore everything it has to offer.
-</p>
-<ol><li>Open your Firefox browser after installing or updating.
-</li><li>Select <span class=""button"">Continue</span> on the onboarding screen.
-<dl><dt><img alt=""Upgrade onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-14-28-87d0cc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Select <span class=""button"">Set as default browser</span> to set Firefox as your main browser.
-<dl><dt><img alt=""Set as default onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-15-24-8537d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<ul><li>Follow the instructions that appear: tap <span class=""button"">Go to Settings</span>, select <span class=""menu"">Default browser app</span> and choose <strong>Firefox</strong>.
-</li></ul>
-<dl><dt><img alt=""Set FF as default"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-03-f88851.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>With this new version, you’ll be able to choose the position of your address bar and other options to personalize your browsing experience. Pick the desired position and select <span class=""button"">Continue</span>.
-<dl><dt><img alt=""address bar location"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-44-834c61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Finally, accept the Firefox sync by selecting <span class=""button"">Start syncing</span>.
-<dl><dt><img alt=""Start syncing FFV141"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-17-29-ca7fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<p>All done! Enjoy your new browsing experience.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/firefox-available-iphone-or-ipad-my-language"">Is Firefox available for iPhone or iPad in my language?</a>
-</li><li><a href=""/en-US/kb/add-ons-firefox-ios"">Add-ons in Firefox for iOS</a>
-</li><li><a href=""/en-US/kb/private-browsing-firefox-ios"">About private browsing in Firefox for iOS</a>
-</li></ul>",ios,installation-and-updates," **Note:** This feature is currently part of an experiment available to users on Firefox version 141.
-
-Firefox is available for any iOS device. Starting version 141 Firefox will have some new additions. After updating or installing the app, Firefox will guide you through a quick walkthrough to help you explore everything it has to offer.
-
-1. Open your Firefox browser after installing or updating.
-2. Select Continue on the onboarding screen.<dl><dt>
-<img alt=""Upgrade onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-14-28-87d0cc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-3. Select Set as default browser to set Firefox as your main browser.<dl><dt>
-<img alt=""Set as default onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-15-24-8537d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-  - Follow the instructions that appear: tap Go to Settings, select Default browser app and choose **Firefox**.
-
-<dl><dt>
-<img alt=""Set FF as default"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-03-f88851.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-4. With this new version, you’ll be able to choose the position of your address bar and other options to personalize your browsing experience. Pick the desired position and select Continue.<dl><dt>
-<img alt=""address bar location"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-44-834c61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-5. Finally, accept the Firefox sync by selecting Start syncing.<dl><dt>
-<img alt=""Start syncing FFV141"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-17-29-ca7fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-All done! Enjoy your new browsing experience.
-
-# Related articles
-
-- [Is Firefox available for iPhone or iPad in my language?](\""https://support.mozilla.org/en-US/kb/firefox-available-iphone-or-ipad-my-language"")
-- [Add-ons in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/add-ons-firefox-ios"")
-- [About private browsing in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/private-browsing-firefox-ios"")
-
-"
-68233,Firefox for Enterprise 141 - Release notes,firefox-enterprise-141-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-141-release-notes,en-US,See what's coming out with Firefox for Enterprise 141.,"<p>Except where noted, everything here applies only to Firefox 141 and the Firefox 140.1 ESR. Firefox 140 is the next <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_bug-fixes"">Bug Fixes</h1>
-<ul><li>The new sidebar was shown when using kiosk mode. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1948934"">bug 1948934</a>.
-</li><li>When support was added for extensions installed via policy to manage other extensions, extensions installed via the legacy <a href=""https://mozilla.github.io/policy-templates/#extensions"">Extensions</a> policy were accidentally left out. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1972314"">bug 1972314</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The Pocket policies in <a href=""https://mozilla.github.io/policy-templates/#firefoxhome"">FirefoxHome</a> have been restored for compatibility. We've added policies that use the word <strong>Stories</strong> instead of <strong>Pocket</strong> for future use. There are no plans to remove the Pocket policies.
-</li><li>The <a href=""https://mozilla.github.io/policy-templates/#preferences"">Preferences</a> policy has been updated to allow setting the preferences <span class=""pref"">mathml.disabled</span>, <span class=""pref"">svg.context-properties.content.enabled</span>, <span class=""pref"">svg.disabled</span>, <span class=""pref"">webgl.disabled</span>, <span class=""pref"">webgl.force-enabled</span>, <span class=""pref"">xpinstall.enabled</span>, and <span class=""pref"">security.csp.reporting.enabled</span> as well as prefs beginning with <span class=""pref"">privacy.baselineFingerprintingProtection</span> or <span class=""pref"">privacy.fingerprintingProtection</span>.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<p>There is one more planned release of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
-</p><p>If you need to prevent upgrades for any reason, you can use the <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies only to Firefox 141 and the Firefox 140.1 ESR. Firefox 140 is the next [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"") so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
-
-## Table of Contents
-
-- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_bug-fixes)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_special-notes)
-
-# Bug Fixes
-
-- The new sidebar was shown when using kiosk mode. This was fixed in [bug 1948934](https://bugzilla.mozilla.org/show_bug.cgi?id=1948934).
-- When support was added for extensions installed via policy to manage other extensions, extensions installed via the legacy [Extensions](https://mozilla.github.io/policy-templates/#extensions) policy were accidentally left out. This was fixed in [bug 1972314](https://bugzilla.mozilla.org/show_bug.cgi?id=1972314).
-
-# Policies
-
-- The Pocket policies in [FirefoxHome](https://mozilla.github.io/policy-templates/#firefoxhome) have been restored for compatibility. We've added policies that use the word **Stories** instead of **Pocket** for future use. There are no plans to remove the Pocket policies.
-- The [Preferences](https://mozilla.github.io/policy-templates/#preferences) policy has been updated to allow setting the preferences mathml.disabled, svg.context-properties.content.enabled, svg.disabled, webgl.disabled, webgl.force-enabled, xpinstall.enabled, and security.csp.reporting.enabled as well as prefs beginning with privacy.baselineFingerprintingProtection or privacy.fingerprintingProtection.
-
-# Special Notes
-
-There is one more planned release of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
-
-If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
 
 "
 68234,Explore the toolbar in Firefox for iOS,toolbar-firefox-ios,https://support.mozilla.org/en-US/kb/toolbar-firefox-ios,en-US,"Learn about the updated toolbar in Firefox for iOS, including new icons, microphone access, and customization options.","<p>You can browse the Internet faster and easier with the toolbar in Firefox for iOS. Version 141 introduces a redesigned toolbar that supports features and UI changes for an easier and faster browsing experience.
