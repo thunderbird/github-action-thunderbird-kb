@@ -5478,14 +5478,14 @@ _**Based on information from [Unable to install themes or extensions - Firefox (
 </p>
 <ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
-</li><li> In the <span class=""menu"">General</span> panel, go down to the <span class=""for"" data-for=""not fx149""><strong>Network Settings</strong></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section. 
-</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span>.</span> The <em>Connection Settings</em> dialog will open.
+</li><li> In the <span class=""menu"">General</span> panel, go down to the <span class=""for"" data-for=""not fx149""><strong>Network Settings</strong></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
 </li><li> If <strong>Automatic proxy configuration URL</strong> is selected, you are using an automatic proxy configuration file. Do not disable this setting, which will prevent you from accessing the Internet. Instead, provide <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=235853#c216"">this workaround</a> to your network administrator.
-</li><li> Click <span class=""button"">Cancel</span>. 
+</li><li> Click <span class=""button"">Cancel</span>.
 </li></ol>
 <h1 id=""w_firefox-hangs-after-using-it-for-a-long-time"">Firefox hangs after using it for a long time</h1>
 <p>Firefox may hang if left open for long periods of time. To fix the issue, restart Firefox.
-</p><p>If you regularly leave Firefox open so that you return to where you left off, you may want to use Firefox's Session Restore feature. For more information, see <a href=""/en-US/kb/restore-previous-session#w_configuring-session-restore"">Configuring session restore</a>. 
+</p><p>If you regularly leave Firefox open so that you return to where you left off, you may want to use Firefox's Session Restore feature. For more information, see <a href=""/en-US/kb/restore-previous-session#w_configuring-session-restore"">Configuring session restore</a>.
 </p>
 <h1 id=""w_firefox-hangs-when-downloading-files-or-saving-images"">Firefox hangs when downloading files or saving images</h1>
 <p>If Firefox hangs when you attempt to download a file or save an image, try these solutions:
@@ -5513,7 +5513,7 @@ _**Based on information from [Unable to install themes or extensions - Firefox (
 </li><li> Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
 
 </li></ol>
-<p>See if you are now able to download files or save images.  If this works, you can go back to your Firefox settings, if you wish, and select <span class=""menu"">Always ask me where to save my files</span>.  
+<p>See if you are now able to download files or save images.  If this works, you can go back to your Firefox settings, if you wish, and select <span class=""menu"">Always ask me where to save my files</span>.
 </p>
 <h1 id=""w_firefox-hangs-when-you-quit-it"">Firefox hangs when you quit it</h1>
 <p>Sometimes when you close Firefox, it may stop responding and remain in memory, even though no Firefox windows are open. This can prevent Firefox from working properly the next time you open it or you may see a ""Close Firefox"" dialog box with an error message, <span class=""for"" data-for=""win,linux""><em>Firefox is already running, but is not responding.</em></span><span class=""for"" data-for=""mac""><em>A copy of Firefox is already open.</em></span>  You must then end all Firefox processes or restart the computer before you can reopen Firefox (see <a href=""/en-US/kb/firefox-already-running-not-responding"">""Firefox is already running but is not responding"" error - How to fix</a> for other causes and solutions).
@@ -5594,10 +5594,10 @@ If the problem is no longer happening, then hardware acceleration was likely the
 If you're using a proxy auto-config file (PAC), Firefox may hang when you attempt to load sites that don't exist or that you haven't opened recently. To determine if you use an automatic proxy configuration file, check your [connection settings in Firefox](\""https://support.mozilla.org/en-US/kb/connection-settings-firefox""):
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, go down to the **Network Settings**** Proxy settings** section. 
+2. In the General panel, go down to the **Network Settings**** Proxy settings** section.
 3. Click Settings…Configure proxy. The _Connection Settings_ dialog will open.
 4. If **Automatic proxy configuration URL** is selected, you are using an automatic proxy configuration file. Do not disable this setting, which will prevent you from accessing the Internet. Instead, provide [this workaround](https://bugzilla.mozilla.org/show_bug.cgi?id=235853#c216) to your network administrator.
-5. Click Cancel. 
+5. Click Cancel.
 
 # Firefox hangs after using it for a long time
 
@@ -39167,654 +39167,6 @@ The example below shows how to add Google to the website list. (Note that there 
 6. Open Thunderbird. The Google icon should now be displayed in the website list on the Open Search page.
 
 "
-17184,Thunderbird and Junk / Spam Messages,thunderbird-and-junk-spam-messages,https://support.mozilla.org/en-US/kb/thunderbird-and-junk-spam-messages,en-US,"This article explains how Thunderbird's adaptive filter learns to identify junk mail (""spam"").","<p>To deal with large amounts of unsolicited email (""spam"" or ""junk mail""), Thunderbird uses an adaptive filter that learns from your actions which types of messages are legitimate and which are junk.
-</p>
-<div class=""note"">Note: Starting with version 145, all references to Junk have changed to Spam.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_overview""><span class=""tocnumber"">1</span> <span class=""toctext"">Overview</span></a></li><li class=""toclevel-1""><a href=""#w_junk-filter-settings""><span class=""tocnumber"">2</span> <span class=""toctext"">Junk filter settings</span></a><ul><li class=""toclevel-2""><a href=""#w_global-junk-settings""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Global junk settings</span></a></li><li class=""toclevel-2""><a href=""#w_per-account-settings""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Per account settings</span></a><ul><li class=""toclevel-3""><a href=""#w_how-to-turn-off-thunderbirds-adaptive-filtering""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">How to turn off Thunderbird's adaptive filtering</span></a></li><li class=""toclevel-3""><a href=""#w_whitelisting""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">Whitelisting</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_training-the-junk-filter""><span class=""tocnumber"">3</span> <span class=""toctext"">Training the junk filter</span></a><ul><li class=""toclevel-2""><a href=""#w_tell-thunderbird-what-is-junk""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Tell Thunderbird what is JUNK</span></a></li><li class=""toclevel-2""><a href=""#w_tell-thunderbird-what-is-not-junk""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Tell Thunderbird what is NOT Junk</span></a></li><li class=""toclevel-2""><a href=""#w_repeated-training""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Repeated training</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_other-ways-of-blocking-unwanted-messages""><span class=""tocnumber"">4</span> <span class=""toctext"">Other ways of blocking unwanted messages</span></a><ul><li class=""toclevel-2""><a href=""#w_create-filters-manually""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Create filters manually</span></a></li><li class=""toclevel-2""><a href=""#w_use-an-external-filter-service""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Use an external filter service</span></a></li></ul></li></ul></div>
-<h1 id=""w_overview"">Overview</h1>
-<p>Thunderbird's adaptive filter uses a Bayes algorithm plus training data you have collected to determine which messages it will automatically set as junk. But using an algorithm means a message previously marked as junk is not guaranteed to be automatically marked as junk in the future. If you want a guarantee, see <a href=""#w_create-filters-manually"">Create filters manually</a>.
-</p><p>To guarantee that important messages will NOT be marked as junk, use <a href=""#w_whitelisting"">Whitelisting</a>.
-</p><p>Also, because junk mail constantly changes, it is recommended to regularly train Thunderbird. Without frequent training, Thunderbird may not deliver good results.
-</p>
-<h1 id=""w_junk-filter-settings"">Junk filter settings</h1>
-<h2 id=""w_global-junk-settings"">Global junk settings</h2>
-<p>Junk filtering is enabled by default. And you can set global junk settings to tune what should happen to messages marked as junk. These settings will be used for all email accounts (although some settings can be overridden in the <a href=""#w_per-account-settings"">Per account settings</a>, as shown below).
-</p>
-<ol><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Privacy &amp; Security</span> 
-</li><li> Scroll down to <strong>Junk</strong>. Adjust the settings as you see fit.
-<dl><dt><img alt=""TB115-account-settings-junk-settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-10-08-52-0daa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h2 id=""w_per-account-settings"">Per account settings</h2>
-<p>The junk settings in the account settings for each of your email accounts will override similar settings in the <a href=""#w_global-junk-settings"">Global settings</a> described above. 
-</p>
-<ul><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Account Settings</span> &gt; <strong>Your email address</strong> &gt; <span class=""menu"">Junk Settings</span>
-<dl><dt><img alt=""tb115-email-account-settings-junk-settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-10-31-13-f80029.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li></ul>
-<h3 id=""w_how-to-turn-off-thunderbirds-adaptive-filtering"">How to turn off Thunderbird's adaptive filtering</h3>
-<ul><li> Untick <em>Enable adaptive junk mail controls for this account</em>
-</li></ul>
-<h3 id=""w_whitelisting"">Whitelisting</h3>
-<p>Under <em>Do not automatically mark mail as junk if the sender is in</em> you can select address books which will be used as a whitelist. Senders whose email address is in a whitelisted address book are exempt and will not be automatically marked as junk by Thunderbird. But you can still manually marking a message containing a whitelisted address as junk. 
-</p><p><strong>It is recommended that you enable whitelisting to help ensure that messages from people you most care about will not be marked as junk.</strong>
-</p>
-<h1 id=""w_training-the-junk-filter"">Training the junk filter</h1>
-<p>In order for Thunderbird's junk filter to be effective, you must train it to recognize messages that you consider to be junk <strong>and</strong> messages that you consider to be <strong>not</strong> junk. If you do not do both, then the filter will not be very effective. 
-</p><p>Note also, it is important to mark messages as junk before deleting them. Just deleting a message doesn't train the filter. 
-</p>
-<h2 id=""w_tell-thunderbird-what-is-junk"">Tell Thunderbird what is JUNK</h2>
-<p>There are several ways of marking messages as junk:
-</p>
-<ul><li> You can click on the little icon in the <em>Junk</em> column of the <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"">Message List Pane</a>:
-<dl><dt><img alt=""TB115-thread-pane-junk-column"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-17-24-23-92cccd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-</li><li> You can also click the <span class=""button"">Junk</span> button on the <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_8-message-header-pane"">Message Header Pane</a>:
-<dl><dt><img alt=""TB115-message-pane-header-buttons-junk"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-17-26-24-0cdffa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li> Or you can press <span class=""key"">J</span> on your keyboard to mark one or more selected messages as junk.
-</li></ul>
-<div class=""note"">Once you mark a message as junk, if you have configured your <a href=""#w_global-junk-settings"">Global junk settings</a> or <a href=""#w_per-account-settings"">Per account settings</a> to move junk email to a different folder, the email will disappear from the <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"">Message List Pane</a> for the current folder. Don't worry, the email has moved to the folder you have configured for junk mail.</div>
-<div class=""note"">Thunderbird's junk filter has been designed to learn from the training data which you provide. Marking more messages as <strong>Junk</strong> or <strong>Not Junk</strong> (see below) will improve the accuracy of your junk filter by adding more training data.</div>
-<h2 id=""w_tell-thunderbird-what-is-not-junk"">Tell Thunderbird what is NOT Junk</h2>
-<p>Sometimes Thunderbird's junk filter might get it wrong and mark <em>good</em> messages as junk. Therefore, it is just as important to tell the filter which messages are <em>not</em> junk, especially on a new installation of Thunderbird.
-</p>
-<div class=""note""><strong>Note:</strong> You should frequently (daily or weekly) check your Junk folder for <em>good</em> messages wrongly marked as Junk by Thunderbird and mark them as <strong>Not Junk</strong>. This will recover the good messages and improve the correctness of the filter for the future.</div>
-<p>There are several ways of marking messages as <strong>Not Junk</strong>.
-</p>
-<ul><li> Click on the <span class=""button"">Not Junk</span> button in the yellow junk notification below the message header in the <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"">Message List Pane</a>:
-<dl><dt><img alt=""TB115-message-pane-junk-notification-not-junk"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-19-08-15-4c5f90.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Click on the red junk icon in the <strong>Junk</strong> column of the <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"">Message List Pane</a> to toggle the junk status of a message:
-<dl><dt><img alt=""TB115-thread-pane-unmark-junk-column"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-19-10-56-026297.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-</li><li> Or press <span class=""key"">Shift</span>+<span class=""key"">J</span> on your keyboard to mark one or more messages as <strong>Not Junk</strong>.
-</li></ul>
-<div class=""note"">Once you un-mark a message as junk, the email will disappear from the current folder. Don't worry the email is still there! It will be in its original folder; the folder it was in before it was marked as junk.</div>
-<h2 id=""w_repeated-training"">Repeated training</h2>
-<p>You should <strong>regularly</strong> train the filter by marking a number of <strong>good</strong> messages as not junk - messages in your Inbox <em>and</em> messages that have been filtered into other folders. In this case, you can only use the keyboard shortcut <span class=""key"">Shift</span>+<span class=""key"">J</span>, because the <span class=""button"">Not Junk</span> button appears only for messages that have already been marked as junk. Marking several messages per week will be sufficient, and you can select many messages and mark all of them at the same time. 
-</p><p>Unfortunately the user interface does not help you see whether a message has already been marked as ""not junk"".
-</p>
-<h1 id=""w_other-ways-of-blocking-unwanted-messages"">Other ways of blocking unwanted messages</h1>
-<p>Thunderbird's adaptive junk filter is not an absolute barrier against messages from a specific address or specific types of messages. You can have stronger mechanisms to stop unwanted messages by using the following methods.
-</p>
-<h2 id=""w_create-filters-manually"">Create filters manually</h2>
-<p>You can manually:
-</p>
-<ul><li> <a href=""/en-US/kb/blocking-sender"">Block some senders</a>.
-</li><li> <a href=""/en-US/kb/organize-your-messages-using-filters#w_create-a-new-filter"">Create filters</a> to block messages based on subject or other criteria.
-</li></ul>
-<h2 id=""w_use-an-external-filter-service"">Use an external filter service</h2>
-<p>You can also use an external filter service to help classify email and block junk.
-</p>
-<ol><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Account Settings</span> &gt; <strong>Your Account</strong> &gt; <span class=""menu"">Junk Settings</span>
-</li><li> Enable the <span class=""pref"">Trust junk mail headers set by</span> option.
-</li><li> Choose an external filter service in the drop-down menu.
-<dl><dt><img alt=""TB115-Trust_junk_mail_headers_set_by"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-22-11-51-53-53a742.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>
-<p>
-</p>",thunderbird,email-and-messaging;junk-mail-and-spam;settings,"To deal with large amounts of unsolicited email (""spam"" or ""junk mail""), Thunderbird uses an adaptive filter that learns from your actions which types of messages are legitimate and which are junk.
-
-Note: Starting with version 145, all references to Junk have changed to Spam.
-
-## Table of Contents
-
-- [1 Overview](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_overview)
-- [2 Junk filter settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_junk-filter-settings)
-  - [2.1 Global junk settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_global-junk-settings)
-  - [2.2 Per account settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_per-account-settings)
-    - [2.2.1 How to turn off Thunderbird's adaptive filtering](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_how-to-turn-off-thunderbirds-adaptive-filtering)
-    - [2.2.2 Whitelisting](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_whitelisting)
-
-- [3 Training the junk filter](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_training-the-junk-filter)
-  - [3.1 Tell Thunderbird what is JUNK](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_tell-thunderbird-what-is-junk)
-  - [3.2 Tell Thunderbird what is NOT Junk](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_tell-thunderbird-what-is-not-junk)
-  - [3.3 Repeated training](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_repeated-training)
-
-- [4 Other ways of blocking unwanted messages](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_other-ways-of-blocking-unwanted-messages)
-  - [4.1 Create filters manually](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_create-filters-manually)
-  - [4.2 Use an external filter service](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_use-an-external-filter-service)
-
-# Overview
-
-Thunderbird's adaptive filter uses a Bayes algorithm plus training data you have collected to determine which messages it will automatically set as junk. But using an algorithm means a message previously marked as junk is not guaranteed to be automatically marked as junk in the future. If you want a guarantee, see [Create filters manually](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_create-filters-manually).
-
-To guarantee that important messages will NOT be marked as junk, use [Whitelisting](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_whitelisting).
-
-Also, because junk mail constantly changes, it is recommended to regularly train Thunderbird. Without frequent training, Thunderbird may not deliver good results.
-
-# Junk filter settings
-
-## Global junk settings
-
-Junk filtering is enabled by default. And you can set global junk settings to tune what should happen to messages marked as junk. These settings will be used for all email accounts (although some settings can be overridden in the [Per account settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_per-account-settings), as shown below).
-
-1. Click ≡ \> Settings \> Privacy & Security
-2. Scroll down to **Junk**. Adjust the settings as you see fit.<dl><dt>
-<img alt=""TB115-account-settings-junk-settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-10-08-52-0daa6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-## Per account settings
-
-The junk settings in the account settings for each of your email accounts will override similar settings in the [Global settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_global-junk-settings) described above.
-
-- Click ≡ \> Account Settings \> **Your email address** \> Junk Settings<dl><dt>
-<img alt=""tb115-email-account-settings-junk-settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-10-31-13-f80029.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-
-### How to turn off Thunderbird's adaptive filtering
-
-- Untick _Enable adaptive junk mail controls for this account_
-
-### Whitelisting
-
-Under _Do not automatically mark mail as junk if the sender is in_ you can select address books which will be used as a whitelist. Senders whose email address is in a whitelisted address book are exempt and will not be automatically marked as junk by Thunderbird. But you can still manually marking a message containing a whitelisted address as junk.
-
-**It is recommended that you enable whitelisting to help ensure that messages from people you most care about will not be marked as junk.**
-
-# Training the junk filter
-
-In order for Thunderbird's junk filter to be effective, you must train it to recognize messages that you consider to be junk **and** messages that you consider to be **not** junk. If you do not do both, then the filter will not be very effective.
-
-Note also, it is important to mark messages as junk before deleting them. Just deleting a message doesn't train the filter.
-
-## Tell Thunderbird what is JUNK
-
-There are several ways of marking messages as junk:
-
-- You can click on the little icon in the _Junk_ column of the [Message List Pane](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane""):<dl><dt>
-<img alt=""TB115-thread-pane-junk-column"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-17-24-23-92cccd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-- You can also click the Junk button on the [Message Header Pane](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_8-message-header-pane""):<dl><dt>
-<img alt=""TB115-message-pane-header-buttons-junk"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-17-26-24-0cdffa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-- Or you can press J on your keyboard to mark one or more selected messages as junk.
-
-Once you mark a message as junk, if you have configured your [Global junk settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_global-junk-settings) or [Per account settings](https://support.mozilla.org/kb/thunderbird-and-junk-spam-messages#w_per-account-settings) to move junk email to a different folder, the email will disappear from the [Message List Pane](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"") for the current folder. Don't worry, the email has moved to the folder you have configured for junk mail.
-
-Thunderbird's junk filter has been designed to learn from the training data which you provide. Marking more messages as **Junk** or **Not Junk** (see below) will improve the accuracy of your junk filter by adding more training data.
-
-## Tell Thunderbird what is NOT Junk
-
-Sometimes Thunderbird's junk filter might get it wrong and mark _good_ messages as junk. Therefore, it is just as important to tell the filter which messages are _not_ junk, especially on a new installation of Thunderbird.
-
-**Note:** You should frequently (daily or weekly) check your Junk folder for _good_ messages wrongly marked as Junk by Thunderbird and mark them as **Not Junk**. This will recover the good messages and improve the correctness of the filter for the future.
-
-There are several ways of marking messages as **Not Junk**.
-
-- Click on the Not Junk button in the yellow junk notification below the message header in the [Message List Pane](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane""):<dl><dt>
-<img alt=""TB115-message-pane-junk-notification-not-junk"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-19-08-15-4c5f90.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- Click on the red junk icon in the **Junk** column of the [Message List Pane](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_7-message-list-pane"") to toggle the junk status of a message:<dl><dt>
-<img alt=""TB115-thread-pane-unmark-junk-column"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-20-19-10-56-026297.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-- Or press Shift+J on your keyboard to mark one or more messages as **Not Junk**.
-
-Once you un-mark a message as junk, the email will disappear from the current folder. Don't worry the email is still there! It will be in its original folder; the folder it was in before it was marked as junk.
-
-## Repeated training
-
-You should **regularly** train the filter by marking a number of **good** messages as not junk - messages in your Inbox _and_ messages that have been filtered into other folders. In this case, you can only use the keyboard shortcut Shift+J, because the Not Junk button appears only for messages that have already been marked as junk. Marking several messages per week will be sufficient, and you can select many messages and mark all of them at the same time.
-
-Unfortunately the user interface does not help you see whether a message has already been marked as ""not junk"".
-
-# Other ways of blocking unwanted messages
-
-Thunderbird's adaptive junk filter is not an absolute barrier against messages from a specific address or specific types of messages. You can have stronger mechanisms to stop unwanted messages by using the following methods.
-
-## Create filters manually
-
-You can manually:
-
-- [Block some senders](\""https://support.mozilla.org/en-US/kb/blocking-sender"").
-- [Create filters](\""https://support.mozilla.org/en-US/kb/organize-your-messages-using-filters#w_create-a-new-filter"") to block messages based on subject or other criteria.
-
-## Use an external filter service
-
-You can also use an external filter service to help classify email and block junk.
-
-1. Click ≡ \> Account Settings \> **Your Account** \> Junk Settings
-2. Enable the Trust junk mail headers set by option.
-3. Choose an external filter service in the drop-down menu.<dl><dt>
-<img alt=""TB115-Trust_junk_mail_headers_set_by"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-22-11-51-53-53a742.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-"
-17185,Filelink for Large Attachments,filelink-large-attachments,https://support.mozilla.org/en-US/kb/filelink-large-attachments,en-US,Messages with large attachments are often rejected by mail servers. Thunderbird can use web-based storage services to send large file attachments.,"<p></p><div class=""warning"">NOTE: Thunderbird Pro is currently in its Early Bird release and available  by invitation only. To learn more and join the waitlist, visit <a href=""https://tb.pro/"">our website</a>. We’ll be opening Thunderbird
-Pro to the public once the Early Bird release concludes. </div>
-<p></p>
-<div class=""note"">If you have a Thunderbird Pro invite, you can use Send as a Filelink provider. Please refer to the following for more details: <a href=""/en-US/kb/getting-started-thunderbird-pro"">Getting Started with Thunderbird Pro</a> and <a href=""https://support.tb.pro/hc/sections/43937747865235"">our Thunderbird Send Articles</a>.
-</div>
-<p>With Thunderbird's FileLink feature, you can upload large attachments to the cloud and send a link instead of attaching them directly to your email message. This feature is provided by <a href=""https://addons.thunderbird.net/thunderbird/tag/filelink"">Filelink provider add-ons</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_thunderbirds-filelink-feature""><span class=""tocnumber"">1</span> <span class=""toctext"">Thunderbird's Filelink feature</span></a></li><li class=""toclevel-1""><a href=""#w_adding-filelink""><span class=""tocnumber"">2</span> <span class=""toctext"">Adding Filelink</span></a></li><li class=""toclevel-1""><a href=""#w_using-filelink""><span class=""tocnumber"">3</span> <span class=""toctext"">Using Filelink</span></a></li><li class=""toclevel-1""><a href=""#w_filelink-faq""><span class=""tocnumber"">4</span> <span class=""toctext"">Filelink FAQ</span></a><ul><li class=""toclevel-2""><a href=""#w_does-thunderbird-know-which-provider-the-user-has-picked""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Does Thunderbird know which provider the user has picked?</span></a></li><li class=""toclevel-2""><a href=""#w_what-storage-services-are-currently-supported""><span class=""tocnumber"">4.2</span> <span class=""toctext"">What storage services are currently supported?</span></a></li><li class=""toclevel-2""><a href=""#w_can-the-storage-service-view-my-attachments""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Can the storage service view my attachments?</span></a></li><li class=""toclevel-2""><a href=""#w_how-long-will-my-file-be-available-on-the-storage-service-providers-site""><span class=""tocnumber"">4.4</span> <span class=""toctext"">How long will my file be available on the storage service provider's site?</span></a></li><li class=""toclevel-2""><a href=""#w_can-you-support-service-provider-x-or-protocol-y""><span class=""tocnumber"">4.5</span> <span class=""toctext"">Can you support service provider X or protocol Y?</span></a></li><li class=""toclevel-2""><a href=""#w_i-dont-like-the-idea-of-storing-my-files-with-third-parties-like-this-do-regular-attachments-still-work""><span class=""tocnumber"">4.6</span> <span class=""toctext"">I don't like the idea of storing my files with third-parties like this. Do regular attachments still work?</span></a></li></ul></li></ul></div>
-<h1 id=""w_thunderbirds-filelink-feature"">Thunderbird's Filelink feature</h1>
-<p>Many email servers do not accept messages with large file attachments. The file size restriction varies depending on the mail server configuration. While you might be able to send a message with a large attachment, the receiving mail server might refuse to accept a message with a large attachment. This is all beyond the control of Thunderbird.
-</p><p>Thunderbird’s Filelink feature eliminates this problem by providing support for online storage services. It allows you to upload attachments to an online storage service, and then replaces the attachment in the message with a link to that online storage. The message recipient clicks the link to download the attachment. As additional benefits, sending and receiving large files is much faster and both you and the recipient will save disk space.
-</p><p>Note that you can use Thunderbird Filelink in addition to <a href=""/en-US/kb/how-use-attachments"">regular attachments</a>. For example, you can attach small files directly to a message and use Filelink for large attachments in the same message.
-</p><p>The Thunderbird community has made available a number of <a href=""https://addons.thunderbird.net/thunderbird/tag/filelink"">Filelink provider add-ons</a> for various providers (<a href=""#w_what-storage-services-are-currently-supported"">more details below</a>).
-</p>
-<div class=""note""><strong>Note:</strong> The previously inbuilt support for the <em>WeTransfer</em> FileLink provider has been removed.</div>
-<h1 id=""w_adding-filelink"">Adding Filelink</h1>
-<p>To use this feature, you need to install one of the <a href=""https://addons.thunderbird.net/thunderbird/tag/filelink"">Filelink provider add-ons</a> first, as described below. For some online storage service providers, you may have to first create a new account or configure an existing account with them.
-</p>
-<ul><li> Click <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Composition</span> &gt; <span class=""menu"">Attachments</span> &gt; <span class=""menu"">Find more providers...</span>
-</li><li> Choose a Filelink Provider add-on, and click <span class=""button"">＋ Add to Thunderbird</span>.
-</li><li> Confirm add-on permissions from the popup panel with <span class=""button"">Add</span>.
-</li><li> In the <span class=""menu"">Attachments</span> section of the <em>Settings</em> (see above), click on the button <span class=""button"">Add [Your Filelink provider]</span>.
-</li><li> Add information as requested by the addon.
-</li><li> Thunderbird will suggest using Filelink for attachments larger than 5 MB (you can change the threshold in the same section), or you can right-click on a regular attachment to convert it.
-</li></ul>
-<div class=""note"">
-<ul><li> If you want to be prompted to use Filelink when a message attachment exceeds a certain size, tick the following option:
-</li></ul>
-<p><strong>[✓] Offer to share for files larger than [5] MB</strong>
-</p>
-<ul><li> You may also change the threshold file size as required.</li></ul></div>
-
-<h1 id=""w_using-filelink"">Using Filelink</h1>
-<p>When you attach a file to a message, and the file size exceeds the size you have specified above, Thunderbird will automatically offer to use Filelink:
-</p><p><img alt=""Proton-FileLink-LargeFileNotification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-14-54-16-912351.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<ul><li> Click the <span class=""button"">Link</span> button to upload the file to the online storage service provider.
-</li><li> If you prefer to attach the file as a <a href=""/en-US/kb/how-use-attachments"">regular attachment</a>, choose <span class=""button"">Ignore</span>.
-</li></ul>
-<p>After choosing <span class=""button"">Link</span>, your file will be uploaded in the background and the displayed message will update to:
-</p><p><img alt=""Proton-FileLink-UploadingFileNotification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-14-51-18-5d2e96.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div class=""note""> Regardless of the file size and the Filelink notification, you can always force a file to be attached using Filelink:
-<ul><li> Choose the down arrow of the <span class=""button"">Attach | v</span> button on the composition toolbar to access the <span class=""menu"">Filelink</span> submenu.
-</li><li> Right-click on a regular attachment and from the context menu, choose <span class=""menu"">Convert to...</span> &gt; <span class=""menu"">[Your FileLink provider]</span>. You can choose from a list of your enabled providers.</li></ul></div>
-
-<p>When the linking is complete – that is, your attachment has been uploaded to the service provider – Thunderbird will automatically add a section in the message with a link to the online copy of your file  as shown below:
-</p><p><img alt=""TB78-filelink-linked-anonymous"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-29-10-09-54-3855ee.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div class=""note""><strong>Note:</strong> The link section will appear in plain text, if <strong>Compose messages in HTML format</strong> is turned off in Account Settings.</div>
-<p>When your recipients receive the message, they will see the same information and clicking the link in the message will take them to a page where they can download the attachment.
-</p>
-<hr>
-<h1 id=""w_filelink-faq"">Filelink FAQ</h1>
-<p>Attachments that you send via Filelink are not stored on Thunderbird servers. Each file storage service provider has its own privacy policy and terms of service. The file storage service provider has reviewed the Filelink feature to ensure that it is consistent with their policies.
-</p>
-<h2 id=""w_does-thunderbird-know-which-provider-the-user-has-picked"">Does Thunderbird know which provider the user has picked?</h2>
-<p>No. Thunderbird is unaware of which provider has been selected by a user. Provider configuration is stored on the local machine.
-</p>
-<h2 id=""w_what-storage-services-are-currently-supported"">What storage services are currently supported?</h2>
-<ul><li> A number of popular file storage providers are supported through <a href=""https://addons.thunderbird.net/thunderbird/tag/filelink"">Filelink provider add-ons</a>.
-</li><li> You can also use Filelink with your preferred WebDAV server with the <a href=""https://addons.thunderbird.net/thunderbird/addon/filelink-provider-for-webdav/"">Filelink provider for WebDAV</a> add-on.
-</li></ul>
-<p>
-</p>
-<h2 id=""w_can-the-storage-service-view-my-attachments"">Can the storage service view my attachments?</h2>
-<p>Unless you encrypt the file before uploading, the storage services will be able to view the file, as will anyone who obtains the link to the attachment. Users must decide on their own which service provider they trust with that responsibility. Service providers will generally explain your privacy rights in their terms of service. 
-</p><p>Note that standard attachment functionality is also not encrypted. When you send an attachment the ""normal"" way, without using Thunderbird’s OpenPGP or SMIME features, the file can be accessed by anyone that can access the message between your system and the recipients system (such as your email service provider). Filelink adds some security as file uploads to the storage service provider are sent via HTTPS, a secure protocol. We recommend using Thunderbird's OpenPGP or SMIME features for maximum security of your communications.
-</p>
-<h2 id=""w_how-long-will-my-file-be-available-on-the-storage-service-providers-site"">How long will my file be available on the storage service provider's site?</h2>
-<p>Depending on the terms and conditions of your third-party storage service provider and your service agreement with them, the file may remain available on the provider’s site for a limited period, a certain number of downloads, or until you explicitly delete it. You will need to log in to the provider’s website to view and delete the files in your personal storage space.
-</p>
-<h2 id=""w_can-you-support-service-provider-x-or-protocol-y"">Can you support service provider X or protocol Y?</h2>
-<p>Please check if the Thunderbird community has provided a <a href=""https://addons.thunderbird.net/thunderbird/tag/filelink"">Filelink provider add-on</a> for the service provider you are looking for.
-<a href=""https://webextension-api.thunderbird.net/en/stable/cloudFile.html"">Developer documentation for the Filelink API</a> is available.
-</p>
-<h2 id=""w_i-dont-like-the-idea-of-storing-my-files-with-third-parties-like-this-do-regular-attachments-still-work"">I don't like the idea of storing my files with third-parties like this. Do regular attachments still work?</h2>
-<p>Regular email attachments still work the same as they always have. We are just offering you an option to upload large attachments somewhere else if you wish. Thunderbird's notion of a large file defaults to 5 MB, but can be customized in Thunderbird’s Settings:
-</p>
-<ol><li> Click <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Composition</span> &gt; <span class=""menu"">Attachments</span>
-</li><li> <strong>[✓] Offer to share for files larger than [5] MB</strong>
-</li></ol>
-<p>Removing the checkmark will prevent the automatical Filelink notification when you attach big files, but the Filelink feature will still be available from the <span class=""button"">Attach | v</span> button dropdown as well as other attachment menus and context menus.
-</p>",thunderbird,add-ons-extensions-and-themes;attachments;email-and-messaging;settings,"NOTE: Thunderbird Pro is currently in its Early Bird release and available by invitation only. To learn more and join the waitlist, visit [our website](https://tb.pro/). We’ll be opening Thunderbird Pro to the public once the Early Bird release concludes. 
-
-If you have a Thunderbird Pro invite, you can use Send as a Filelink provider. Please refer to the following for more details: [Getting Started with Thunderbird Pro](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro"") and [our Thunderbird Send Articles](https://support.tb.pro/hc/sections/43937747865235).
-
-With Thunderbird's FileLink feature, you can upload large attachments to the cloud and send a link instead of attaching them directly to your email message. This feature is provided by [Filelink provider add-ons](https://addons.thunderbird.net/thunderbird/tag/filelink).
-
-## Table of Contents
-
-- [1 Thunderbird's Filelink feature](https://support.mozilla.org/kb/filelink-large-attachments#w_thunderbirds-filelink-feature)
-- [2 Adding Filelink](https://support.mozilla.org/kb/filelink-large-attachments#w_adding-filelink)
-- [3 Using Filelink](https://support.mozilla.org/kb/filelink-large-attachments#w_using-filelink)
-- [4 Filelink FAQ](https://support.mozilla.org/kb/filelink-large-attachments#w_filelink-faq)
-  - [4.1 Does Thunderbird know which provider the user has picked?](https://support.mozilla.org/kb/filelink-large-attachments#w_does-thunderbird-know-which-provider-the-user-has-picked)
-  - [4.2 What storage services are currently supported?](https://support.mozilla.org/kb/filelink-large-attachments#w_what-storage-services-are-currently-supported)
-  - [4.3 Can the storage service view my attachments?](https://support.mozilla.org/kb/filelink-large-attachments#w_can-the-storage-service-view-my-attachments)
-  - [4.4 How long will my file be available on the storage service provider's site?](https://support.mozilla.org/kb/filelink-large-attachments#w_how-long-will-my-file-be-available-on-the-storage-service-providers-site)
-  - [4.5 Can you support service provider X or protocol Y?](https://support.mozilla.org/kb/filelink-large-attachments#w_can-you-support-service-provider-x-or-protocol-y)
-  - [4.6 I don't like the idea of storing my files with third-parties like this. Do regular attachments still work?](https://support.mozilla.org/kb/filelink-large-attachments#w_i-dont-like-the-idea-of-storing-my-files-with-third-parties-like-this-do-regular-attachments-still-work)
-
-# Thunderbird's Filelink feature
-
-Many email servers do not accept messages with large file attachments. The file size restriction varies depending on the mail server configuration. While you might be able to send a message with a large attachment, the receiving mail server might refuse to accept a message with a large attachment. This is all beyond the control of Thunderbird.
-
-Thunderbird’s Filelink feature eliminates this problem by providing support for online storage services. It allows you to upload attachments to an online storage service, and then replaces the attachment in the message with a link to that online storage. The message recipient clicks the link to download the attachment. As additional benefits, sending and receiving large files is much faster and both you and the recipient will save disk space.
-
-Note that you can use Thunderbird Filelink in addition to [regular attachments](\""https://support.mozilla.org/en-US/kb/how-use-attachments""). For example, you can attach small files directly to a message and use Filelink for large attachments in the same message.
-
-The Thunderbird community has made available a number of [Filelink provider add-ons](https://addons.thunderbird.net/thunderbird/tag/filelink) for various providers ([more details below](https://support.mozilla.org/kb/filelink-large-attachments#w_what-storage-services-are-currently-supported)).
-
-**Note:** The previously inbuilt support for the _WeTransfer_ FileLink provider has been removed.
-
-# Adding Filelink
-
-To use this feature, you need to install one of the [Filelink provider add-ons](https://addons.thunderbird.net/thunderbird/tag/filelink) first, as described below. For some online storage service providers, you may have to first create a new account or configure an existing account with them.
-
-- Click ≡ \> Settings \> Composition \> Attachments \> Find more providers...
-- Choose a Filelink Provider add-on, and click ＋ Add to Thunderbird.
-- Confirm add-on permissions from the popup panel with Add.
-- In the Attachments section of the _Settings_ (see above), click on the button Add [Your Filelink provider].
-- Add information as requested by the addon.
-- Thunderbird will suggest using Filelink for attachments larger than 5 MB (you can change the threshold in the same section), or you can right-click on a regular attachment to convert it.
-
-- If you want to be prompted to use Filelink when a message attachment exceeds a certain size, tick the following option:
-
-**[✓] Offer to share for files larger than [5] MB**
-
-- You may also change the threshold file size as required.
-
-# Using Filelink
-
-When you attach a file to a message, and the file size exceeds the size you have specified above, Thunderbird will automatically offer to use Filelink:
-
-![Proton-FileLink-LargeFileNotification](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- Click the Link button to upload the file to the online storage service provider.
-- If you prefer to attach the file as a [regular attachment](\""https://support.mozilla.org/en-US/kb/how-use-attachments""), choose Ignore.
-
-After choosing Link, your file will be uploaded in the background and the displayed message will update to:
-
-![Proton-FileLink-UploadingFileNotification](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
- Regardless of the file size and the Filelink notification, you can always force a file to be attached using Filelink:
-- Choose the down arrow of the Attach | v button on the composition toolbar to access the Filelink submenu.
-- Right-click on a regular attachment and from the context menu, choose Convert to... \> [Your FileLink provider]. You can choose from a list of your enabled providers.
-
-When the linking is complete – that is, your attachment has been uploaded to the service provider – Thunderbird will automatically add a section in the message with a link to the online copy of your file as shown below:
-
-![TB78-filelink-linked-anonymous](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-**Note:** The link section will appear in plain text, if **Compose messages in HTML format** is turned off in Account Settings.
-
-When your recipients receive the message, they will see the same information and clicking the link in the message will take them to a page where they can download the attachment.
-
-* * *
-
-# Filelink FAQ
-
-Attachments that you send via Filelink are not stored on Thunderbird servers. Each file storage service provider has its own privacy policy and terms of service. The file storage service provider has reviewed the Filelink feature to ensure that it is consistent with their policies.
-
-## Does Thunderbird know which provider the user has picked?
-
-No. Thunderbird is unaware of which provider has been selected by a user. Provider configuration is stored on the local machine.
-
-## What storage services are currently supported?
-
-- A number of popular file storage providers are supported through [Filelink provider add-ons](https://addons.thunderbird.net/thunderbird/tag/filelink).
-- You can also use Filelink with your preferred WebDAV server with the [Filelink provider for WebDAV](https://addons.thunderbird.net/thunderbird/addon/filelink-provider-for-webdav/) add-on.
-
-## Can the storage service view my attachments?
-
-Unless you encrypt the file before uploading, the storage services will be able to view the file, as will anyone who obtains the link to the attachment. Users must decide on their own which service provider they trust with that responsibility. Service providers will generally explain your privacy rights in their terms of service.
-
-Note that standard attachment functionality is also not encrypted. When you send an attachment the ""normal"" way, without using Thunderbird’s OpenPGP or SMIME features, the file can be accessed by anyone that can access the message between your system and the recipients system (such as your email service provider). Filelink adds some security as file uploads to the storage service provider are sent via HTTPS, a secure protocol. We recommend using Thunderbird's OpenPGP or SMIME features for maximum security of your communications.
-
-## How long will my file be available on the storage service provider's site?
-
-Depending on the terms and conditions of your third-party storage service provider and your service agreement with them, the file may remain available on the provider’s site for a limited period, a certain number of downloads, or until you explicitly delete it. You will need to log in to the provider’s website to view and delete the files in your personal storage space.
-
-## Can you support service provider X or protocol Y?
-
-Please check if the Thunderbird community has provided a [Filelink provider add-on](https://addons.thunderbird.net/thunderbird/tag/filelink) for the service provider you are looking for.[Developer documentation for the Filelink API](https://webextension-api.thunderbird.net/en/stable/cloudFile.html) is available.
-
-## I don't like the idea of storing my files with third-parties like this. Do regular attachments still work?
-
-Regular email attachments still work the same as they always have. We are just offering you an option to upload large attachments somewhere else if you wish. Thunderbird's notion of a large file defaults to 5 MB, but can be customized in Thunderbird’s Settings:
-
-1. Click ≡ \> Settings \> Composition \> Attachments
-2. **[✓] Offer to share for files larger than [5] MB**
-
-Removing the checkmark will prevent the automatical Filelink notification when you attach big files, but the Filelink feature will still be available from the Attach | v button dropdown as well as other attachment menus and context menus.
-
-"
-17191,Digitally Signing and Encrypting Messages,digitally-signing-and-encrypting-messages,https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages,en-US,"This tutorial explains how to set up Thunderbird to digitally sign, encrypt and decrypt messages in order to make them secure.","<div class=""warning""><strong>Note:</strong> This article applies to <strong>Thunderbird 68 and earlier versions</strong>. Starting from <a href=""https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/"">version 78</a>, Thunderbird features inbuilt OpenPGP encryption technology, so the Enigmail add-on has been discontinued. For more information, please refer to <a href=""/en-US/kb/openpgp-thunderbird-howto-and-faq"">OpenPGP in Thunderbird - HOWTO and FAQ</a>.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_introduction""><span class=""tocnumber"">1</span> <span class=""toctext"">Introduction</span></a></li><li class=""toclevel-1""><a href=""#w_installing-gpg-and-enigmail""><span class=""tocnumber"">2</span> <span class=""toctext"">Installing GPG and Enigmail</span></a></li><li class=""toclevel-1""><a href=""#w_creating-pgp-keys""><span class=""tocnumber"">3</span> <span class=""toctext"">Creating PGP keys</span></a></li><li class=""toclevel-1""><a href=""#w_sending-and-receiving-public-keys""><span class=""tocnumber"">4</span> <span class=""toctext"">Sending and receiving public keys</span></a><ul><li class=""toclevel-2""><a href=""#w_sending-your-public-key-via-email""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Sending your public key via email</span></a></li><li class=""toclevel-2""><a href=""#w_receiving-a-public-key-via-email""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Receiving a public key via email</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_sending-a-digitally-signed-and-or-encrypted-email""><span class=""tocnumber"">5</span> <span class=""toctext"">Sending a digitally signed and / or encrypted email</span></a></li><li class=""toclevel-1""><a href=""#w_reading-a-digitally-signed-and-or-encrypted-email""><span class=""tocnumber"">6</span> <span class=""toctext"">Reading a digitally signed and / or encrypted email</span></a></li><li class=""toclevel-1""><a href=""#w_revoking-your-key""><span class=""tocnumber"">7</span> <span class=""toctext"">Revoking your key</span></a></li></ul></div>
-<p>This tutorial explains how to set up Thunderbird to digitally sign, encrypt and decrypt messages in order to make them secure.
-</p>
-<h1 id=""w_introduction"">Introduction</h1>
-<p>The email infrastructure that everyone uses is, by design, not secure. While most people connect to their email servers using a secure (""SSL"") connection, some servers allow unsecured access. Furthermore, as the message moves through its transmission path from sender to recipient, the connections between each server are not necessarily secure. It is possible for third parties to intercept, read and alter email messages as they are transmitted.
-</p><p>When you <a href=""http://en.wikipedia.org/wiki/Digital_signature"">digitally sign</a> a message, you embed information in the message that validates your identity. When you encrypt a message, it appears to be ""scrambled"" and can only by read by a person who has the key to decrypting the message. Digitally signing a message ensures that the message originated from the stated sender. Encrypting ensures that the message has not been read or altered during transmission.
-</p><p>To encrypt messages, you can use the <a href=""http://en.wikipedia.org/wiki/Public-key_cryptography"">public-key cryptographic system</a>. In this system, each participant has two separate keys: <strong>a public encryption key</strong> and <strong>a private decryption key</strong>. When someone wants send you an encrypted message, he or she uses your public key to generate the encryption algorithm. When you receive the message, you must use your private key to decrypt it.
-</p>
-<div class=""note""> Note: Never share your private key with anyone. </div>
-<p>The protocol used to encrypt emails is called <a href=""https://en.wikipedia.org/wiki/Pretty_Good_Privacy"">PGP</a> (Pretty Good Privacy). To use PGP within Thunderbird, you must first install:
-</p>
-<ul><li> <a href=""http://www.gnupg.org/"">GnuPG</a>: (GNU Privacy Guard): a free software implementation of PGP
-</li><li> <a href=""https://addons.thunderbird.net/thunderbird/addon/enigmail/"">Enigmail</a>: a Thunderbird add-on
-</li></ul>
-<p>These two applications also provide the capability to digitally sign messages.
-</p>
-<h1 id=""w_installing-gpg-and-enigmail"">Installing GPG and Enigmail</h1>
-<p>To install GnuPG, download appropriate package from the <a href=""http://www.gnupg.org/download/index.en.html#auto-ref-3"">GnuPG binaries page</a>. Follow the installation instructions provided for your particular package. For more information on installing PGP on specific operating systems, refer to:
-</p>
-<ul><li> <a href=""http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-windows/"">Installing PGP on Windows</a>
-</li><li> <a href=""http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-ubuntu/"">Installing PGP on Ubuntu</a>
-</li><li> <a href=""http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-osx/"">Installing PGP on Mac OS X</a>
-</li></ul>
-<p>To install Enigmail:
-</p>
-<ol><li> In Thunderbird, select <span class=""menu"">Tools &gt; Add-ons</span>.
-</li><li> Use the search bar in the top right corner to search for Enigmail.
-</li><li> Select Enigmail from the search results and follow the instructions to install the add-on.
-</li></ol>
-<h1 id=""w_creating-pgp-keys"">Creating PGP keys</h1>
-<p>Create your public/private keys as follows:
-</p>
-<ol><li> On the Thunderbird menu bar, click <span class=""menu"">OpenPGP</span> and select <span class=""menu"">Setup Wizard</span>. 	
-</li><li> Select <span class=""pref"">Yes, I would like the wizard to get me started</span> as shown in the image below. Click <span class=""button"">Next</span> to proceed.
-<dl><dt><img alt=""OpenPGP-1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-14-19-3b457b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> The wizard asks whether you want to sign all outgoing messages or whether you want to configure different rules for different recipients. It is usually a good idea to sign all emails so that people can confirm that the email is indeed from you. Message recipients do not need to use digital signatures or PGP to read a digitally signed message. Select <span class=""pref"">Yes, I want to sign all of my email</span> and click <span class=""button"">Next</span> to proceed.
-</li><li> Next, the wizard asks if you want to encrypt all your emails. You should not select this option unless you have the public keys for all the people that you expect to send messages to. Select <span class=""pref"">No, I will create per-recipient rules for those who send me their public keys</span> and click <span class=""button"">Next</span> to proceed.
-</li><li> The wizard asks if it can change some of your mail formatting settings to better work with PGP. It is a good choice to answer <span class=""pref"">Yes</span> here. Click <span class=""button"">Next</span> to proceed.
-</li><li> Select the email account for which you want to create the keys. You need to enter a password in the ‘Passphrase’ text box which is used to protect your private key. This password is used to decrypt messages, so don't forget it. The password should be at least 8 characters long and not use any dictionary words. (See <a href=""http://en.wikipedia.org/wiki/Password_strength#Guidelines_for_strong_passwords"">this Wikipedia article</a> for information on creating strong passwords.) Enter this password twice and click <span class=""button"">Next</span> to proceed.
-</li><li> The next screen displays the preferences you configured. If you are satisfied, click <span class=""button"">Next</span> to proceed.
-</li><li> When the process of creating your keys is completed, click <span class=""button"">Next</span> to proceed.
-</li><li> The wizard will ask if you want to create a ‘Revocation certificate’ which you would use if the security of your key pair was compromised and you needed to inform others that it is no longer valid. If you want to create the file click on <span class=""button"">Generate Certificate</span> and follow the steps on the subsequent screens. Otherwise, click <span class=""button"">Skip</span>.
-</li><li> The wizard finally informs you that it has completed the process. Click <span class=""button"">Finish</span> to exit the wizard.
-</li></ol>
-<h1 id=""w_sending-and-receiving-public-keys"">Sending and receiving public keys</h1>
-<h2 id=""w_sending-your-public-key-via-email"">Sending your public key via email</h2>
-<p>To receive encrypted messages from other people, you must first send them your public key:
-</p>
-<ol><li> Compose the message.
-</li><li> Select <span class=""menu"">OpenPGP</span> from the Thunderbird menu bar and select <span class=""menu"">Attach My Public Key</span>.
-<dl><dt><img alt=""AttachPublicKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-29-40-53488e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Send the email as usual.
-</li></ol>
-<h2 id=""w_receiving-a-public-key-via-email"">Receiving a public key via email</h2>
-<p>To send encrypted messages to other people, you must receive and store their public key:
-</p>
-<ol><li> Open the message that contains the public key.
-</li><li> At the bottom of the window, double click on the attachment that ends in '.asc'. (This file contains the public key.)
-</li><li> Thunderbird automatically recognizes that this is a PGP key. A dialog box appears, prompting you to ‘Import’ or ‘View’ the key. Click <span class=""button"">Import</span> to import the key.
-<dl><dt><img alt=""ImportPublicKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-07-56-40-7168a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> You will see a confirmation that the key has been successfully imported. Click <span class=""button"">OK</span> to complete the process.
-</li></ol>
-<h1 id=""w_sending-a-digitally-signed-and-or-encrypted-email"">Sending a digitally signed and / or encrypted email</h1>
-<ol><li> Compose the message as usual.
-</li><li> To digitally sign a message, select <span class=""menu"">OpenPGP</span> from the Thunderbird menu and enable the <span class=""menu"">Sign Message</span> option. To encrypt a message, enable the <span class=""menu"">Encrypt Message</span> option. The system may ask you to enter your Passphrase before encrypting the message.
-<dl><dt><img alt=""SignEncryptedEmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-31-17-b8f004.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> If your email address is associated with a PGP key, the message will be encrypted with that key. If the email address is not associated with a PGP key, you will be prompted to select a key from a list.
-</li><li> Send the message as usual.
-</li></ol>
-<div class=""note""> Note: The subject line of the message will not be encrypted. </div>
-<h1 id=""w_reading-a-digitally-signed-and-or-encrypted-email"">Reading a digitally signed and / or encrypted email</h1>
-<p>When you receive an encrypted message, Thunderbird will ask you to enter your secret passphrase to decrypt the message. To determine whether or not the incoming message has been signed or digitally encrypted you need to look at the information bar above the message body.
-</p><p>If Thunderbird recognizes the signature, a green bar (as shown below) appears above the message.
-</p>
-<dl><dt><img alt=""GoodSignature"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-40-33-675e26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>If the message has been encrypted and signed, the green bar also displays the text ""Decrypted message"".
-</p>
-<dl><dt><img alt=""Signature&amp;Encrypted"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-50-18-1e7279.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>If the message has been encrypted but not signed the bar would appear as shown below.
-</p>
-<dl><dt><img alt=""EncryptedNotSigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-53-01-cff9cd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div class=""note""> Note: A message which has not been signed could be from someone trying to impersonate someone else. </div>
-<h1 id=""w_revoking-your-key"">Revoking your key</h1>
-<p>If you believe that your private key has been ""compromised"" (that is, someone else has had access to the file that contains your private key), you should revoke your current set of keys as soon as possible and create a new pair. To revoke your current set of keys:
-</p>
-<ol><li> On the Thunderbird menu, click <span class=""menu"">OpenPGP</span> and select <span class=""menu"">Key Management</span>.
-<dl><dt><img alt=""RevokeKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-09-23-1fd225.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> A dialog box appears as shown below. Check <span class=""pref"">Display All Keys by Default</span> to show all the keys.
-</li><li> Right-click on the key you want to revoke and select <span class=""pref"">Revoke Key</span>.
-</li><li> A dialog box appears asking if you really want to revoke the key. Click <span class=""button"">Revoke Key</span> to proceed.
-</li><li> Another dialog box appears asking you to enter your secret passphrase. Enter the passphrase and click <span class=""button"">OK</span> to revoke the key.
-</li></ol>
-<p>Send the revocation certificate to the people you correspond with so that they know that your current key is no longer valid. This ensures that if someone tries to use your current key to impersonate you, the recipients will know that the key pair is not valid.
-</p>",thunderbird,privacy-and-security;send-and-receive-email," **Note:** This article applies to **Thunderbird 68 and earlier versions**. Starting from [version 78](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/), Thunderbird features inbuilt OpenPGP encryption technology, so the Enigmail add-on has been discontinued. For more information, please refer to [OpenPGP in Thunderbird - HOWTO and FAQ](\""https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq"").
-
-## Table of Contents
-
-- [1 Introduction](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_introduction)
-- [2 Installing GPG and Enigmail](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_installing-gpg-and-enigmail)
-- [3 Creating PGP keys](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_creating-pgp-keys)
-- [4 Sending and receiving public keys](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_sending-and-receiving-public-keys)
-  - [4.1 Sending your public key via email](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_sending-your-public-key-via-email)
-  - [4.2 Receiving a public key via email](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_receiving-a-public-key-via-email)
-
-- [5 Sending a digitally signed and / or encrypted email](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_sending-a-digitally-signed-and-or-encrypted-email)
-- [6 Reading a digitally signed and / or encrypted email](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_reading-a-digitally-signed-and-or-encrypted-email)
-- [7 Revoking your key](https://support.mozilla.org/kb/digitally-signing-and-encrypting-messages#w_revoking-your-key)
-
-This tutorial explains how to set up Thunderbird to digitally sign, encrypt and decrypt messages in order to make them secure.
-
-# Introduction
-
-The email infrastructure that everyone uses is, by design, not secure. While most people connect to their email servers using a secure (""SSL"") connection, some servers allow unsecured access. Furthermore, as the message moves through its transmission path from sender to recipient, the connections between each server are not necessarily secure. It is possible for third parties to intercept, read and alter email messages as they are transmitted.
-
-When you [digitally sign](http://en.wikipedia.org/wiki/Digital_signature) a message, you embed information in the message that validates your identity. When you encrypt a message, it appears to be ""scrambled"" and can only by read by a person who has the key to decrypting the message. Digitally signing a message ensures that the message originated from the stated sender. Encrypting ensures that the message has not been read or altered during transmission.
-
-To encrypt messages, you can use the [public-key cryptographic system](http://en.wikipedia.org/wiki/Public-key_cryptography). In this system, each participant has two separate keys: **a public encryption key** and **a private decryption key**. When someone wants send you an encrypted message, he or she uses your public key to generate the encryption algorithm. When you receive the message, you must use your private key to decrypt it.
-
- Note: Never share your private key with anyone. 
-
-The protocol used to encrypt emails is called [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) (Pretty Good Privacy). To use PGP within Thunderbird, you must first install:
-
-- [GnuPG](http://www.gnupg.org/): (GNU Privacy Guard): a free software implementation of PGP
-- [Enigmail](https://addons.thunderbird.net/thunderbird/addon/enigmail/): a Thunderbird add-on
-
-These two applications also provide the capability to digitally sign messages.
-
-# Installing GPG and Enigmail
-
-To install GnuPG, download appropriate package from the [GnuPG binaries page](http://www.gnupg.org/download/index.en.html#auto-ref-3). Follow the installation instructions provided for your particular package. For more information on installing PGP on specific operating systems, refer to:
-
-- [Installing PGP on Windows](http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-windows/)
-- [Installing PGP on Ubuntu](http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-ubuntu/)
-- [Installing PGP on Mac OS X](http://write.flossmanuals.net/thunderbird-workbook/installing-pgp-in-osx/)
-
-To install Enigmail:
-
-1. In Thunderbird, select Tools \> Add-ons.
-2. Use the search bar in the top right corner to search for Enigmail.
-3. Select Enigmail from the search results and follow the instructions to install the add-on.
-
-# Creating PGP keys
-
-Create your public/private keys as follows:
-
-1. On the Thunderbird menu bar, click OpenPGP and select Setup Wizard. 
-2. Select Yes, I would like the wizard to get me started as shown in the image below. Click Next to proceed.<dl><dt>
-<img alt=""OpenPGP-1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-14-19-3b457b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. The wizard asks whether you want to sign all outgoing messages or whether you want to configure different rules for different recipients. It is usually a good idea to sign all emails so that people can confirm that the email is indeed from you. Message recipients do not need to use digital signatures or PGP to read a digitally signed message. Select Yes, I want to sign all of my email and click Next to proceed.
-4. Next, the wizard asks if you want to encrypt all your emails. You should not select this option unless you have the public keys for all the people that you expect to send messages to. Select No, I will create per-recipient rules for those who send me their public keys and click Next to proceed.
-5. The wizard asks if it can change some of your mail formatting settings to better work with PGP. It is a good choice to answer Yes here. Click Next to proceed.
-6. Select the email account for which you want to create the keys. You need to enter a password in the ‘Passphrase’ text box which is used to protect your private key. This password is used to decrypt messages, so don't forget it. The password should be at least 8 characters long and not use any dictionary words. (See [this Wikipedia article](http://en.wikipedia.org/wiki/Password_strength#Guidelines_for_strong_passwords) for information on creating strong passwords.) Enter this password twice and click Next to proceed.
-7. The next screen displays the preferences you configured. If you are satisfied, click Next to proceed.
-8. When the process of creating your keys is completed, click Next to proceed.
-9. The wizard will ask if you want to create a ‘Revocation certificate’ which you would use if the security of your key pair was compromised and you needed to inform others that it is no longer valid. If you want to create the file click on Generate Certificate and follow the steps on the subsequent screens. Otherwise, click Skip.
-10. The wizard finally informs you that it has completed the process. Click Finish to exit the wizard.
-
-# Sending and receiving public keys
-
-## Sending your public key via email
-
-To receive encrypted messages from other people, you must first send them your public key:
-
-1. Compose the message.
-2. Select OpenPGP from the Thunderbird menu bar and select Attach My Public Key.<dl><dt>
-<img alt=""AttachPublicKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-29-40-53488e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. Send the email as usual.
-
-## Receiving a public key via email
-
-To send encrypted messages to other people, you must receive and store their public key:
-
-1. Open the message that contains the public key.
-2. At the bottom of the window, double click on the attachment that ends in '.asc'. (This file contains the public key.)
-3. Thunderbird automatically recognizes that this is a PGP key. A dialog box appears, prompting you to ‘Import’ or ‘View’ the key. Click Import to import the key.<dl><dt>
-<img alt=""ImportPublicKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-07-56-40-7168a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. You will see a confirmation that the key has been successfully imported. Click OK to complete the process.
-
-# Sending a digitally signed and / or encrypted email
-
-1. Compose the message as usual.
-2. To digitally sign a message, select OpenPGP from the Thunderbird menu and enable the Sign Message option. To encrypt a message, enable the Encrypt Message option. The system may ask you to enter your Passphrase before encrypting the message.<dl><dt>
-<img alt=""SignEncryptedEmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-08-31-17-b8f004.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. If your email address is associated with a PGP key, the message will be encrypted with that key. If the email address is not associated with a PGP key, you will be prompted to select a key from a list.
-4. Send the message as usual.
-
- Note: The subject line of the message will not be encrypted. 
-
-# Reading a digitally signed and / or encrypted email
-
-When you receive an encrypted message, Thunderbird will ask you to enter your secret passphrase to decrypt the message. To determine whether or not the incoming message has been signed or digitally encrypted you need to look at the information bar above the message body.
-
-If Thunderbird recognizes the signature, a green bar (as shown below) appears above the message.
-
-<dl><dt>
-<img alt=""GoodSignature"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-40-33-675e26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-If the message has been encrypted and signed, the green bar also displays the text ""Decrypted message"".
-
-<dl><dt>
-<img alt=""Signature&amp;Encrypted"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-50-18-1e7279.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-If the message has been encrypted but not signed the bar would appear as shown below.
-
-<dl><dt>
-<img alt=""EncryptedNotSigned"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-53-01-cff9cd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
- Note: A message which has not been signed could be from someone trying to impersonate someone else. 
-
-# Revoking your key
-
-If you believe that your private key has been ""compromised"" (that is, someone else has had access to the file that contains your private key), you should revoke your current set of keys as soon as possible and create a new pair. To revoke your current set of keys:
-
-1. On the Thunderbird menu, click OpenPGP and select Key Management.<dl><dt>
-<img alt=""RevokeKey"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-05-29-09-09-23-1fd225.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. A dialog box appears as shown below. Check Display All Keys by Default to show all the keys.
-3. Right-click on the key you want to revoke and select Revoke Key.
-4. A dialog box appears asking if you really want to revoke the key. Click Revoke Key to proceed.
-5. Another dialog box appears asking you to enter your secret passphrase. Enter the passphrase and click OK to revoke the key.
-
-Send the revocation certificate to the people you correspond with so that they know that your current key is no longer valid. This ensures that if someone tries to use your current key to impersonate you, the recipients will know that the key pair is not valid.
-
-"
 17192,New Email Address,new-email-address,https://support.mozilla.org/en-US/kb/new-email-address,en-US,This article explains how you can subscribe to a personalized email address with Thunderbird.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_introduction""><span class=""tocnumber"">1</span> <span class=""toctext"">Introduction</span></a><ul><li class=""toclevel-2""><a href=""#w_why-would-i-need-my-own-email-address""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Why would I need my own email address?</span></a></li><li class=""toclevel-2""><a href=""#w_what-does-thunderbird-provide""><span class=""tocnumber"">1.2</span> <span class=""toctext"">What does Thunderbird provide ?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-do-i-set-up-a-new-mail-account""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I set up a new mail account?</span></a><ul><li class=""toclevel-2""><a href=""#w_creating-a-new-email-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Creating a new email account</span></a></li><li class=""toclevel-2""><a href=""#w_configuring-an-existing-email-account""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Configuring an existing email account</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-the-new-email-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Using the new email account</span></a></li></ul></div>
 <h1 id=""w_introduction"">Introduction</h1>
 <h2 id=""w_why-would-i-need-my-own-email-address"">Why would I need my own email address?</h2>
@@ -48363,6 +47715,425 @@ Your feedback is aggregated and reported back to the teams responsible for devel
 - Report issues through [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox).
 
 "
+27569,Add or remove a search engine in Firefox,add-or-remove-search-engine-firefox,https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox,en-US,This article explains how to add or remove the search engines that Firefox uses.,"<p>Firefox comes with a set of default search engines, and you can add more from websites, add-ons, or partner pages. Some users want to add fully custom search engines, but Firefox only supports this in limited cases without an add-on. 
+</p><p>This article explains what you can and can’t do, and shows the easiest ways to manage your search engines.
+</p>
+<div class=""note""><strong>Note:</strong> Some search engines may only be available in certain regions.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-firefox-supports-and-what-it-doesnt""><span class=""tocnumber"">1</span> <span class=""toctext"">What Firefox supports (and what it doesn’t)</span></a></li><li class=""toclevel-1""><a href=""#w_add-search-engines""><span class=""tocnumber"">2</span> <span class=""toctext"">Add search engines</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-search-bar""><span class=""tocnumber"">2.1</span> <span class=""toctext"">From the Search bar</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-address-bar""><span class=""tocnumber"">2.2</span> <span class=""toctext"">From the address bar</span></a></li><li class=""toclevel-2""><a href=""#w_add-a-search-engine-from-the-search-field-of-a-supported-website""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Add a search engine from the search field of a supported website</span></a></li><li class=""toclevel-2""><a href=""#w_mycroft-project-search-engine-plugins""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Mycroft Project search engine plugins</span></a></li><li class=""toclevel-2""><a href=""#w_search-engine-add-ons""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Search engine add-ons</span></a></li><li class=""toclevel-2""><a href=""#w_add-a-custom-search-engine-in-settings""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Add a custom search engine in Settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_hide-search-engines""><span class=""tocnumber"">3</span> <span class=""toctext"">Hide search engines</span></a></li><li class=""toclevel-1""><a href=""#w_remove-search-engines""><span class=""tocnumber"">4</span> <span class=""toctext"">Remove search engines</span></a><ul><li class=""toclevel-2""><a href=""#w_restore-default-search-engines""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Restore default search engines</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_what-firefox-supports-and-what-it-doesnt"">What Firefox supports (and what it doesn’t)</h1>
+<ul><li>Built-in default search engines (like Google, Bing, DuckDuckGo).
+</li><li>Adding search engines from websites that support it.
+</li><li>Adding search engine add-ons from <a href=""https://addons.mozilla.org/en-US/firefox/"">addons.mozilla.org</a>.
+</li><li>Limited support for custom engines: Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version 140</a>, you are able to add custom unsupported search engines in Firefox Settings. In earlier versions, Firefox does not allow you to create custom engines from scratch in Settings. You would need an extension such as <a href=""https://addons.mozilla.org/firefox/addon/add-custom-search-engine/"">Add custom search engine</a>.
+</li></ul>
+<h1 id=""w_add-search-engines"">Add search engines</h1>
+<h2 id=""w_from-the-search-bar"">From the Search bar</h2>
+<p>Firefox offers an optional Search bar. If you’ve added it to your toolbar, you can also add search engines. If you haven’t yet, see <a href=""/en-US/kb/add-search-bar-firefox-toolbar"">Add the Search bar to your Firefox toolbar</a> to add it to Firefox.
+</p>
+<ol><li>Visit a website that offers an <a href=""https://developer.mozilla.org/docs/Web/OpenSearch"">OpenSearch</a> search engine (we'll use <a href=""https://www.youtube.com"">YouTube</a> as an example).
+</li><li>Click the magnifying glass <img alt=""addsearch 40"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2015-08-04-10-25-59-77093e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the Search bar.
+</li><li>Click the YouTube <img alt=""AddYouTubeSearchBarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-03-40-25-7be19c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the Search bar drop-down.
+<dl><dt><img alt=""Add engine from search bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-23-40-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<p>The search engine will appear in your available search options.
+</p>
+<h2 id=""w_from-the-address-bar"">From the address bar</h2>
+<p>Visit a website that has a built-in search field (for example, <a href=""https://www.youtube.com"">YouTube</a>).
+</p>
+<ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ inside the search field.
+</li><li>Select <span class=""menu""><img alt=""AddYouTubeSearchBarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-03-40-25-7be19c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Add “YouTube”</span> from the context menu.
+<dl><dt><img alt=""Add engine from address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-24-51-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""for"" data-for=""fx140"">
+<h2 id=""w_add-a-search-engine-from-the-search-field-of-a-supported-website"">Add a search engine from the search field of a supported website</h2>
+<p><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the search field of a supported website and select <span class=""menu"">Add Search Engine</span> from the context menu.
+</p>
+<dl><dt><img alt=""Fx140WebsiteSearchContextMenu-AddSearchEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-15-25-57-9ba5d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>To learn more, see the <a href=""/en-US/kb/add-custom-search-engine-firefox"">Add custom search engines in Firefox</a> article.
+</p></div>
+<h2 id=""w_mycroft-project-search-engine-plugins"">Mycroft Project search engine plugins</h2>
+<p>The <a href=""https://mycroftproject.com/"">Mycroft Project</a> website offers search engine plugins. When you click an available search plugin, you can add it to Firefox from the Search bar or from the address bar context menu, on the <em>Install plugin</em> page.
+</p>
+<dl><dt><img alt=""Fx115Mycroft-InstallPlugin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-12-23-47-b25277.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h2 id=""w_search-engine-add-ons"">Search engine add-ons</h2>
+<p>Many providers offer search engine add-ons. To find these search engines and add them to Firefox:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select <span class=""menu"">Search</span> in the left panel.
+</li><li>At the bottom, click the <strong>Find more search engines</strong> link. The <em>Firefox Add-ons</em> website will open.
+</li><li>Select the search engine add-on you want to install and click <span class=""button"">Add to Firefox</span>.
+</li></ol>
+<div class=""note""><strong>Tip:</strong> If you added the optional Search bar, another way to open the Search panel is to click the magnifying glass <img alt=""MagnifyingGlass"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-09-07-15-46-20-c45e06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> on the Search bar and then click the <img alt=""Fx89Personalize-GearIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-13-16-54-32-4742a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <em>Change search settings</em> icon.</div>
+<div class=""for"" data-for=""fx140"">
+<h2 id=""w_add-a-custom-search-engine-in-settings"">Add a custom search engine in Settings</h2>
+<p>You can add custom search engines from websites in Firefox, even if they’re not supported.
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Go to <span class=""menu"">Search</span>.
+<dl><dt><img alt=""searchshortcut"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-12-53-11-64cc62.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li><li>Scroll down to <strong>Search Shortcuts</strong>.
+</li><li>Click <span class=""button"">Add</span>.
+</li><li>Fill in the <strong>Search engine name</strong> with a name for your custom search engine.
+<dl><dt><img alt=""searchenginemenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-13-05-34-bbdae3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li><li>In the <strong>URL</strong> box, copy &amp; paste the URL of the custom search engine.
+<ul><li>For example: <a href=""https://example.com/"">https://example.com/</a>
+</li></ul>
+</li><li>Replace the URL’s search tag with <strong>%s</strong>.
+<ul><li>For example: <a href=""https://example.com/search?q=%s"">https://example.com/search?q=%s</a>
+</li></ul>
+</li><li>Add a keyword (this is optional).
+</li><li>Click <strong>Add Engine</strong> to save.
+</li></ol>
+<div class=""note""><strong>Note:</strong> You can find the URL’s search tag by performing a unique search with an easy-to-spot word, such as “ZZZZZZ”. The “ZZZZZZ” in the URL is that URL’s search tag.</div>
+</div>
+<h1 id=""w_hide-search-engines"">Hide search engines</h1>
+<p>Follow these steps to remove alternative search engines you don't want to use.
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the Settings
+ tab that opens, click <span class=""menu"">Search</span> in the left pane.
+</li><li>Under <em>Search Shortcuts</em>, remove the check mark next to each search engine you don't want to use.
+<dl><dt><img alt=""Search shortcuts - Hide engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-37-32-e0a5af.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_remove-search-engines"">Remove search engines</h1>
+<p>To remove a search engine, follow these steps:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Go to <span class=""menu"">Search</span> in the left panel.
+</li><li>Under <em>Search Shortcuts</em>, click the search engine you want to remove.
+</li><li>Click the <span class=""button"">Remove</span> button to take it off your list.
+<dl><dt><img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""note""><strong>Note:</strong> If a search engine is added back after you restart Firefox, it may be a Firefox <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extension</a>. Those can be removed using the <strong>Add-ons manager</strong> (see <a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a> for details).</div>
+<h2 id=""w_restore-default-search-engines"">Restore default search engines</h2>
+<p>If you removed one of Firefox’s built-in search engines (like Google or Bing):
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Go to <span class=""menu"">Search</span> in the left panel.
+</li><li>In the <em>Search shortcuts</em> section, click <span class=""button"">Restore Default Search Engines</span>.
+</li></ol>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/change-your-default-search-settings-firefox"">Manage Firefox search settings</a>
+</li><li><a href=""/en-US/kb/assign-shortcuts-search-engines"">Assign shortcuts to search engines</a>
+</li><li><a href=""/en-US/kb/add-search-bar-firefox-toolbar"">Add the Search bar to your Firefox toolbar</a>
+</li><li><a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a>
+</li></ul>",firefox,settings,"Firefox comes with a set of default search engines, and you can add more from websites, add-ons, or partner pages. Some users want to add fully custom search engines, but Firefox only supports this in limited cases without an add-on.
+
+This article explains what you can and can’t do, and shows the easiest ways to manage your search engines.
+
+**Note:** Some search engines may only be available in certain regions.
+
+## Table of Contents
+
+- [1 What Firefox supports (and what it doesn’t)](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_what-firefox-supports-and-what-it-doesnt)
+- [2 Add search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-search-engines)
+  - [2.1 From the Search bar](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_from-the-search-bar)
+  - [2.2 From the address bar](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_from-the-address-bar)
+  - [2.3 Add a search engine from the search field of a supported website](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-a-search-engine-from-the-search-field-of-a-supported-website)
+  - [2.4 Mycroft Project search engine plugins](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_mycroft-project-search-engine-plugins)
+  - [2.5 Search engine add-ons](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_search-engine-add-ons)
+  - [2.6 Add a custom search engine in Settings](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-a-custom-search-engine-in-settings)
+
+- [3 Hide search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_hide-search-engines)
+- [4 Remove search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_remove-search-engines)
+  - [4.1 Restore default search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_restore-default-search-engines)
+
+- [5 Related articles](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_related-articles)
+
+# What Firefox supports (and what it doesn’t)
+
+- Built-in default search engines (like Google, Bing, DuckDuckGo).
+- Adding search engines from websites that support it.
+- Adding search engine add-ons from [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/).
+- Limited support for custom engines: Starting in [Firefox version 140](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""), you are able to add custom unsupported search engines in Firefox Settings. In earlier versions, Firefox does not allow you to create custom engines from scratch in Settings. You would need an extension such as [Add custom search engine](https://addons.mozilla.org/firefox/addon/add-custom-search-engine/).
+
+# Add search engines
+
+## From the Search bar
+
+Firefox offers an optional Search bar. If you’ve added it to your toolbar, you can also add search engines. If you haven’t yet, see [Add the Search bar to your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"") to add it to Firefox.
+
+1. Visit a website that offers an [OpenSearch](https://developer.mozilla.org/docs/Web/OpenSearch) search engine (we'll use [YouTube](https://www.youtube.com) as an example).
+2. Click the magnifying glass ![addsearch 40](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the Search bar.
+3. Click the YouTube ![AddYouTubeSearchBarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the Search bar drop-down.<dl><dt>
+<img alt=""Add engine from search bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-23-40-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+The search engine will appear in your available search options.
+
+## From the address bar
+
+Visit a website that has a built-in search field (for example, [YouTube](https://www.youtube.com)).
+
+1. Right-clickRight-click (or hold down the Control key while you click) inside the search field.
+2. Select ![AddYouTubeSearchBarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Add “YouTube” from the context menu.<dl><dt>
+<img alt=""Add engine from address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-24-51-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+## Add a search engine from the search field of a supported website
+
+Right-clickRight-click (or hold down the Control key while you click) the search field of a supported website and select Add Search Engine from the context menu.
+
+<dl><dt>
+<img alt=""Fx140WebsiteSearchContextMenu-AddSearchEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-15-25-57-9ba5d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+To learn more, see the [Add custom search engines in Firefox](\""https://support.mozilla.org/en-US/kb/add-custom-search-engine-firefox"") article.
+
+## Mycroft Project search engine plugins
+
+The [Mycroft Project](https://mycroftproject.com/) website offers search engine plugins. When you click an available search plugin, you can add it to Firefox from the Search bar or from the address bar context menu, on the _Install plugin_ page.
+
+<dl><dt>
+<img alt=""Fx115Mycroft-InstallPlugin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-12-23-47-b25277.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+## Search engine add-ons
+
+Many providers offer search engine add-ons. To find these search engines and add them to Firefox:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select Search in the left panel.
+3. At the bottom, click the **Find more search engines** link. The _Firefox Add-ons_ website will open.
+4. Select the search engine add-on you want to install and click Add to Firefox.
+
+**Tip:** If you added the optional Search bar, another way to open the Search panel is to click the magnifying glass ![MagnifyingGlass](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) on the Search bar and then click the ![Fx89Personalize-GearIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) _Change search settings_ icon.
+
+## Add a custom search engine in Settings
+
+You can add custom search engines from websites in Firefox, even if they’re not supported.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Go to Search.<dl><dt>
+<img alt=""searchshortcut"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-12-53-11-64cc62.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+3. Scroll down to **Search Shortcuts**.
+4. Click Add.
+5. Fill in the **Search engine name** with a name for your custom search engine.<dl><dt>
+<img alt=""searchenginemenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-13-05-34-bbdae3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+6. In the **URL** box, copy & paste the URL of the custom search engine.
+  - For example: [https://example.com/](https://example.com/)
+
+7. Replace the URL’s search tag with **%s**.
+  - For example: [https://example.com/search?q=%s](https://example.com/search?q=%s)
+
+8. Add a keyword (this is optional).
+9. Click **Add Engine** to save.
+
+**Note:** You can find the URL’s search tag by performing a unique search with an easy-to-spot word, such as “ZZZZZZ”. The “ZZZZZZ” in the URL is that URL’s search tag.
+
+# Hide search engines
+
+Follow these steps to remove alternative search engines you don't want to use.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the Settings tab that opens, click Search in the left pane.
+3. Under _Search Shortcuts_, remove the check mark next to each search engine you don't want to use.<dl><dt>
+<img alt=""Search shortcuts - Hide engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-37-32-e0a5af.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Remove search engines
+
+To remove a search engine, follow these steps:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Go to Search in the left panel.
+3. Under _Search Shortcuts_, click the search engine you want to remove.
+4. Click the Remove button to take it off your list.<dl><dt>
+<img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Note:** If a search engine is added back after you restart Firefox, it may be a Firefox [extension](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install""). Those can be removed using the **Add-ons manager** (see [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"") for details).
+
+## Restore default search engines
+
+If you removed one of Firefox’s built-in search engines (like Google or Bing):
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Go to Search in the left panel.
+3. In the _Search shortcuts_ section, click Restore Default Search Engines.
+
+# Related articles
+
+- [Manage Firefox search settings](\""https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox"")
+- [Assign shortcuts to search engines](\""https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines"")
+- [Add the Search bar to your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"")
+- [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"")
+
+"
+27613,Install Firefox on your phone or tablet,install-firefox-your-phone-or-tablet,https://support.mozilla.org/en-US/kb/install-firefox-your-phone-or-tablet,en-US,Firefox is available on iOS and Android devices. Learn how to install it on your phone or tablet.,"<p>Firefox brings your favorite features and security to your Android and iOS devices. Learn how to install the mobile app on your phone or tablet, so you can browse the web quickly and privately.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_install-through-your-devices-marketplace""><span class=""tocnumber"">1</span> <span class=""toctext"">Install through your device's marketplace</span></a></li><li class=""toclevel-1""><a href=""#w_install-from-mozillas-download-server""><span class=""tocnumber"">2</span> <span class=""toctext"">Install from Mozilla's download server</span></a></li></ul></div>
+<h1 id=""w_install-through-your-devices-marketplace"">Install through your device's marketplace</h1>
+<p>Install Firefox through your device's official marketplace to ensure that you get the best version of Firefox for your device. Most marketplaces will also automatically keep Firefox up to date.
+</p>
+<ul><li> <a href=""/en-US/kb/install-firefox-android-device-using-google-play"">Google Play</a> (<a href=""https://play.google.com/store/apps/details?id=org.mozilla.firefox"">Firefox app page</a>)
+</li><li> <a href=""/en-US/kb/install-firefox-your-ipad-iphone-or-ipod"">Apple App Store</a> (<a href=""https://apps.apple.com/app/apple-store/id989804926"">Firefox app page</a>)
+</li><li> Samsung Galaxy Store (<a href=""http://apps.samsung.com/appquery/appDetail.as?appId=org.mozilla.firefox"">Firefox app page</a>)
+</li><li> Huawei AppGallery (<a href=""https://appgallery.huawei.com/app/C115133357"">Firefox app page</a>, only available via the standalone Huawei AppGallery on Android or the built-in Huawei AppGallery on HarmonyOS 4.3/EMUI 15 and earlier, it not be offered on the Huawei AppGallery for devices running HarmonyOS 5.0 and later.)
+<ul><li> <strong>Attention: Firefox in Huawei AppGallery is currently not available in some regions. </strong> Mozilla is working on expanding its availability. This build has also some known issues to be addressed.
+</li></ul>
+</li></ul>
+<p>
+</p>
+<div class=""note""><strong>Tip:</strong> Use <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Sync</a> to share your bookmarks, passwords, and site preferences on all your devices.</div>
+<h1 id=""w_install-from-mozillas-download-server"">Install from Mozilla's download server</h1>
+<p>The latest Firefox for Android version from Mozilla's download server is not currently available on the <a href=""https://www.mozilla.org/firefox/all/"">Firefox download page</a> but may be offered in the future (<a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1663735"">bug 1663735</a>).
+</p><p><strong>Advanced users</strong>: Firefox for Android APK downloads are available at <a href=""https://ftp.mozilla.org/pub/fenix/"">https://ftp.mozilla.org/pub/fenix/</a>.
+</p>",mobile;ios,install;installation-and-updates,"Firefox brings your favorite features and security to your Android and iOS devices. Learn how to install the mobile app on your phone or tablet, so you can browse the web quickly and privately.
+
+## Table of Contents
+
+- [1 Install through your device's marketplace](https://support.mozilla.org/kb/install-firefox-your-phone-or-tablet#w_install-through-your-devices-marketplace)
+- [2 Install from Mozilla's download server](https://support.mozilla.org/kb/install-firefox-your-phone-or-tablet#w_install-from-mozillas-download-server)
+
+# Install through your device's marketplace
+
+Install Firefox through your device's official marketplace to ensure that you get the best version of Firefox for your device. Most marketplaces will also automatically keep Firefox up to date.
+
+- [Google Play](\""https://support.mozilla.org/en-US/kb/install-firefox-android-device-using-google-play"") ([Firefox app page](https://play.google.com/store/apps/details?id=org.mozilla.firefox))
+- [Apple App Store](\""https://support.mozilla.org/en-US/kb/install-firefox-your-ipad-iphone-or-ipod"") ([Firefox app page](https://apps.apple.com/app/apple-store/id989804926))
+- Samsung Galaxy Store ([Firefox app page](http://apps.samsung.com/appquery/appDetail.as?appId=org.mozilla.firefox))
+- Huawei AppGallery ([Firefox app page](https://appgallery.huawei.com/app/C115133357), only available via the standalone Huawei AppGallery on Android or the built-in Huawei AppGallery on HarmonyOS 4.3/EMUI 15 and earlier, it not be offered on the Huawei AppGallery for devices running HarmonyOS 5.0 and later.)
+  - **Attention: Firefox in Huawei AppGallery is currently not available in some regions.** Mozilla is working on expanding its availability. This build has also some known issues to be addressed.
+
+**Tip:** Use [Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to share your bookmarks, passwords, and site preferences on all your devices.
+
+# Install from Mozilla's download server
+
+The latest Firefox for Android version from Mozilla's download server is not currently available on the [Firefox download page](https://www.mozilla.org/firefox/all/) but may be offered in the future ([bug 1663735](https://bugzilla.mozilla.org/show_bug.cgi?id=1663735)).
+
+**Advanced users** : Firefox for Android APK downloads are available at [https://ftp.mozilla.org/pub/fenix/](https://ftp.mozilla.org/pub/fenix/).
+
+"
+27868,Configuration Editor for Firefox,about-config-editor-firefox,https://support.mozilla.org/en-US/kb/about-config-editor-firefox,en-US,"The Configuration Editor (about:config page) lets you view, change, or reset advanced preference settings in Firefox. Learn more.","<p>The Configuration Editor (<em>about:config</em> Advanced Preferences page) lists Firefox preference settings that are read from the <span class=""filepath"">prefs.js</span> and <span class=""filepath"">user.js</span> files in the <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Firefox profile</a> and from application defaults. Many of these preferences are advanced settings that are not present in the <a href=""/en-US/kb/firefox-options-preferences-and-settings"">Settings</a> panels. This article describes how to use the about:config page to view, change, or reset Firefox preference settings, if you need to do so.
+</p><p></p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
+<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
+<p></p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_opening-the-aboutconfig-page""><span class=""tocnumber"">1</span> <span class=""toctext"">Opening the about:config page</span></a></li><li class=""toclevel-1""><a href=""#w_searching-for-preferences""><span class=""tocnumber"">2</span> <span class=""toctext"">Searching for preferences</span></a></li><li class=""toclevel-1""><a href=""#w_modifying-preferences""><span class=""tocnumber"">3</span> <span class=""toctext"">Modifying preferences</span></a></li><li class=""toclevel-1""><a href=""#w_resetting-or-deleting-preferences""><span class=""tocnumber"">4</span> <span class=""toctext"">Resetting or deleting preferences</span></a></li><li class=""toclevel-1""><a href=""#w_adding-preferences""><span class=""tocnumber"">5</span> <span class=""toctext"">Adding preferences</span></a></li></ul></div>
+<h1 id=""w_opening-the-aboutconfig-page"">Opening the about:config page</h1>
+<p>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+<img alt=""Fx145aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-11-49-4dd6bf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+Click <span class=""button"">Show All</span> to view all preferences currently set in the profile or use the <em>Search preference name</em> box to filter the list.
+</p>
+<h1 id=""w_searching-for-preferences"">Searching for preferences</h1>
+You can use the <em>Search preference name</em> box at the top of the <em>about:config</em> page to quickly find specific preferences. For example, if you enter <em>ocsp</em> in the Search box, it will bring up the <span class=""pref"">security.OCSP.enabled</span> preference. <div class=""note""><strong>Note:</strong> Preference names are case-sensitive. Search terms are not.</div>
+<p>If you enter a search term and a preference does not exist, you will have the option to add a new preference (<a href=""#w_adding-preferences"">see below</a>).
+</p>
+<h1 id=""w_modifying-preferences"">Modifying preferences</h1>
+<p><img alt=""Fx145aboutconfig-showall"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-14-24-31cfe5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>To change a <strong>boolean (true-false)</strong> preference's value, double-click on the preference.
+</p>
+<ul><li>Alternatively, you can click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
+</li></ul>
+<p>To change a <strong>string (text)</strong> or a <strong>number</strong> preference's value:
+</p>
+<ol><li>Double-click on the preference.
+<ul><li>Alternatively, you can click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
+</li></ul>
+</li><li>Enter a new value.<br><img alt=""Fx145aboutconfig-editpref"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-15-20-b903ba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</li><li>Click on the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to save the change. 
+</li></ol>
+<h1 id=""w_resetting-or-deleting-preferences"">Resetting or deleting preferences</h1>
+<div class=""note""><strong>Note:</strong> You can only reset or remove <strong>modified</strong> preferences, which are listed in bold type. To reset all preferences, see <a href=""/en-US/kb/reset-preferences-fix-problems"">Reset Firefox preferences to troubleshoot and fix problems</a>.</div>
+<p>To reset a preference to its default value, click the <em>Reset</em> <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
+</p>
+To remove an added preference, click the <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button. If you added the preference entry yourself, it will no longer be listed after restarting Firefox. <div class=""note""><strong>Note:</strong> A <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button may be shown for some preferences that appear in bold type that you did not modify or add, such as preferences whose values are system-specific. Those preferences will be added back, as appropriate, if deleted.</div>
+<h1 id=""w_adding-preferences"">Adding preferences</h1>
+<p>To add a new preference, enter its name into the <em>Search preference name</em> box at the top of the about:config page. At the bottom of the search results (if any), there will be the option to create a new preference. To do so, specify the type of value that preference will store:
+</p>
+<ul><li><strong>Boolean</strong> is true or false.
+</li><li><strong>Number</strong> is an integer.
+</li><li><strong>String</strong> is any sequence of text.
+</li></ul>
+<p><img alt=""Fx145aboutconfig-newpref"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-15-41-bcf698.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>Click the <em>Add</em> <img alt=""Fx71aboutconfig-AddButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-37-13-6f14d8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to create the new preference and set its value. Boolean preferences are set to <span class=""pref"">true</span> by default, use the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button for them to change the value. For string or number preferences, enter a value and click the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
+</p><p>Click the <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to discard the new preference (see <a href=""#w_resetting-or-deleting-preferences"">above</a>).
+</p><p> <br><br> 
+<em><strong>Based on information from <a href=""http://kb.mozillazine.org/About:config"">About:config (mozillaZine KB)</a></strong></em>
+</p>",firefox,advanced-and-experimental-features,"The Configuration Editor (_about:config_ Advanced Preferences page) lists Firefox preference settings that are read from the prefs.js and user.js files in the [Firefox profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") and from application defaults. Many of these preferences are advanced settings that are not present in the [Settings](\""https://support.mozilla.org/en-US/kb/firefox-options-preferences-and-settings"") panels. This article describes how to use the about:config page to view, change, or reset Firefox preference settings, if you need to do so.
+
+**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
+**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
+
+## Table of Contents
+
+- [1 Opening the about:config page](https://support.mozilla.org/kb/about-config-editor-firefox#w_opening-the-aboutconfig-page)
+- [2 Searching for preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_searching-for-preferences)
+- [3 Modifying preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_modifying-preferences)
+- [4 Resetting or deleting preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_resetting-or-deleting-preferences)
+- [5 Adding preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_adding-preferences)
+
+# Opening the about:config page
+
+Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page. ![Fx145aboutconfig](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Click Show All to view all preferences currently set in the profile or use the _Search preference name_ box to filter the list.
+
+# Searching for preferences
+You can use the _Search preference name_ box at the top of the _about:config_ page to quickly find specific preferences. For example, if you enter _ocsp_ in the Search box, it will bring up the security.OCSP.enabled preference. 
+**Note:** Preference names are case-sensitive. Search terms are not.
+
+If you enter a search term and a preference does not exist, you will have the option to add a new preference ([see below](https://support.mozilla.org/kb/about-config-editor-firefox#w_adding-preferences)).
+
+# Modifying preferences
+
+![Fx145aboutconfig-showall](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+To change a **boolean (true-false)** preference's value, double-click on the preference.
+
+- Alternatively, you can click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+
+To change a **string (text)** or a **number** preference's value:
+
+1. Double-click on the preference.
+  - Alternatively, you can click the _Edit_ ![Fx71aboutconfig-EditButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+
+2. Enter a new value.  
+ ![Fx145aboutconfig-editpref](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+3. Click on the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save the change. 
+
+# Resetting or deleting preferences
+
+**Note:** You can only reset or remove **modified** preferences, which are listed in bold type. To reset all preferences, see [Reset Firefox preferences to troubleshoot and fix problems](\""https://support.mozilla.org/en-US/kb/reset-preferences-fix-problems"").
+
+To reset a preference to its default value, click the _Reset_ ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+
+To remove an added preference, click the _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button. If you added the preference entry yourself, it will no longer be listed after restarting Firefox. 
+**Note:** A _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button may be shown for some preferences that appear in bold type that you did not modify or add, such as preferences whose values are system-specific. Those preferences will be added back, as appropriate, if deleted.
+
+# Adding preferences
+
+To add a new preference, enter its name into the _Search preference name_ box at the top of the about:config page. At the bottom of the search results (if any), there will be the option to create a new preference. To do so, specify the type of value that preference will store:
+
+- **Boolean** is true or false.
+- **Number** is an integer.
+- **String** is any sequence of text.
+
+![Fx145aboutconfig-newpref](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Click the _Add_ ![Fx71aboutconfig-AddButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to create the new preference and set its value. Boolean preferences are set to true by default, use the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button for them to change the value. For string or number preferences, enter a value and click the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+
+Click the _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to discard the new preference (see [above](https://support.mozilla.org/kb/about-config-editor-firefox#w_resetting-or-deleting-preferences)).
+
+_**Based on information from [About:config (mozillaZine KB)](http://kb.mozillazine.org/About:config)**_
+
+"
 27897,Make Firefox your default browser on Windows,how-change-your-default-browser-firefox-windows,https://support.mozilla.org/en-US/kb/how-change-your-default-browser-firefox-windows,en-US,Learn how to make Firefox your default Web browser on Windows 10 and Windows 11.,"<p>Whether you're using Windows 10 or the latest Windows 11, this guide will help you set Firefox as your default browser with minimal fuss. Setting Firefox as your default browser on Windows has become a bit more involved due to changes in how Windows manages default applications. We introduced a new guidance notification feature to help you easily navigate these changes.
 </p>
 <div class=""note""><strong>Note:</strong> <span class=""for"" data-for=""win7,win8,winxp,linux,mac"">This article applies to Windows 10 or Windows 11. For previous versions of Windows, see <a href=""/en-US/kb/make-firefox-your-default-browser"">Make Firefox your default browser</a>. </span>If you don’t currently have Firefox installed on your computer, first <a href=""/en-US/kb/how-install-firefox-windows"">download and install Firefox</a>.</div> 
@@ -53443,10 +53214,10 @@ If you can sign in to your Mozilla account, you can change your password by foll
 
 <h1 id=""w_second-change-all-of-your-website-passwords-from-a-synced-computer"">Second, change all of your website passwords from a synced computer</h1>
 <div class=""warning"">Change your Mozilla account password (see previous section) before changing your other account passwords to prevent your new passwords from syncing with devices.</div>
-<p>This part is more time consuming but important. If you don't change the passwords for websites that store sensitive or personal information, such as bank accounts, email accounts and social media accounts, it would still be possible for someone else to log in to your account using the existing already synced password. 
+<p>This part is more time consuming but important. If you don't change the passwords for websites that store sensitive or personal information, such as bank accounts, email accounts and social media accounts, it would still be possible for someone else to log in to your account using the existing already synced password.
 </p><p>See <a href=""/en-US/kb/password-strength"">Choose a strong password</a> for an easy way to create better passwords.
 </p>
-<div class=""note""><strong>Note</strong>: Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>",firefox;mobile;mozilla-account,passwords-and-sign-in;privacy-and-security;security,"Your Mozila account syncs your passwords, bookmarks and history across multiple devices. If you notice suspicious activity on your Mozilla account (like someone signing in from an unknown device), there are steps you can take to prevent further access to your information.
+<div class=""note""><strong>Note:</strong> Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>",firefox;mobile;mozilla-account,passwords-and-sign-in;privacy-and-security;security,"Your Mozila account syncs your passwords, bookmarks and history across multiple devices. If you notice suspicious activity on your Mozilla account (like someone signing in from an unknown device), there are steps you can take to prevent further access to your information.
 
 # First, change your Sync password from a synced computer
 
@@ -53472,7 +53243,7 @@ This part is more time consuming but important. If you don't change the password
 
 See [Choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"") for an easy way to create better passwords.
 
-**Note** : Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
+**Note:** Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
 "
 33175,Troubleshoot time-related errors on secure websites,troubleshoot-time-errors-secure-websites,https://support.mozilla.org/en-US/kb/troubleshoot-time-errors-secure-websites,en-US,Learn why you might see time-related errors on HTTPS websites and how you can troubleshoot these errors by correcting your system clock.,"<p>Firefox checks the <a href=""/en-US/kb/secure-website-certificate"">security certificate</a> for <a href=""/en-US/kb/how-do-i-tell-if-my-connection-is-secure"">secure websites</a> (those with <span class=""for"" data-for=""not fx149"">a padlock <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx149"">a shield <img alt=""Fx149UnifiedTrustIcon-Secure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-16-02-8c168d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> in the address bar) to make sure it’s valid and hasn’t expired. If your computer’s date, time or time zone is incorrect, Firefox may show a security warning instead of loading the page.
 </p><p>This article helps you:
@@ -56400,41 +56171,6 @@ Important things to keep in mind:
 </dt></dl>
   - After scanning, if the QR code is a web address, the page will open.
   - If words instead of a web address show up after scanning, Firefox for iOS will search for those words using your default search engine.
-
-"
-37089,Website Dark Mode in Firefox for iOS,night-mode-firefox-ios,https://support.mozilla.org/en-US/kb/night-mode-firefox-ios,en-US,A night mode to reduce webpage brightness while browsing.,"<p>Firefox for iOS includes a <em>Website Dark Mode</em> feature to invert webpage colors to a dark theme, reducing eye strain in low-light conditions and potentially saving battery life. Follow these steps to enable or disable this mode:
-</p>
-<ol><li>At the bottom of the screen, tap the menu button <img alt=""Menu hamburguer button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-04-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""40""> (the menu will be at the top right if you're using an iPad).
-</li><li>Tap <span class=""menu"">Turn on Website Dark Mode</span> to invert the webpage to a dark theme.
-<dl><dt><img alt=""Website Dark Mode ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-11-09-55-58-92e20d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<p>To revert the display back to its original theme, simply follow the steps above once more.
-</p>",ios,browse,"Firefox for iOS includes a _Website Dark Mode_ feature to invert webpage colors to a dark theme, reducing eye strain in low-light conditions and potentially saving battery life. Follow these steps to enable or disable this mode:
-
-1. At the bottom of the screen, tap the menu button ![Menu hamburguer button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) (the menu will be at the top right if you're using an iPad).
-2. Tap Turn on Website Dark Mode to invert the webpage to a dark theme.<dl><dt>
-<img alt=""Website Dark Mode ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-11-09-55-58-92e20d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-To revert the display back to its original theme, simply follow the steps above once more.
-
-"
-37090,Hide Images in Firefox for iOS,hide-images-firefox-ios,https://support.mozilla.org/en-US/kb/hide-images-firefox-ios,en-US,A block image mode to help you save bandwidth. Continue to browse the web without loading images,"<p>You can hide or block images from showing on a page in Firefox for iOS if you have a slow connection or want to avoid using larger amounts of data. 
-</p>
-<h1 id=""w_how-to-block-or-show-images"">How to Block or Show Images</h1>
-<ol><li> At the top or bottom of the screen, tap the Menu button <img alt=""Menu hamburguer button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-04-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
-</li><li> Tap <img alt=""FX iOS Settings menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-05-06-01-21-32cc9b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""100"">. 
-</li><li> Tap the <img alt=""FX iOS Block images toggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-05-06-00-51-3d3bd8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140""> toggle to blue to block and hide images while loading a page. Tap the toggle again to turn this feature off and show images when loading a page.
-</li><li> Tap <img alt=""FX iOS Done button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-05-06-01-38-57de65.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""60"">  at the top of the screen.
-</li></ol>",ios,browse,"You can hide or block images from showing on a page in Firefox for iOS if you have a slow connection or want to avoid using larger amounts of data.
-
-# How to Block or Show Images
-
-1. At the top or bottom of the screen, tap the Menu button ![Menu hamburguer button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-2. Tap ![FX iOS Settings menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). 
-3. Tap the ![FX iOS Block images toggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) toggle to blue to block and hide images while loading a page. Tap the toggle again to turn this feature off and show images when loading a page.
-4. Tap ![FX iOS Done button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) at the top of the screen.
 
 "
 37118,Send a tab from Firefox for iOS to another device,send-tab-firefox-ios-another-device,https://support.mozilla.org/en-US/kb/send-tab-firefox-ios-another-device,en-US,Send a tab from Firefox for iOS so you can read it on another device.,"<p>Firefox for iOS lets you send tabs from your phone to another device so you can view them later. 
@@ -60957,6 +60693,46 @@ For more information on Apple's drag and drop feature, see [Drag and Drop on the
 3. Release the link and the other app will open and load that link.
 
 For more information on Apple's drag and drop feature, see [Drag and Drop on the Apple website](https://developer.apple.com/ios/drag-and-drop/).
+"
+40425,Use Face ID or Touch ID on Firefox Klar,use-face-id-or-touch-id-firefox-klar,https://support.mozilla.org/en-US/kb/use-face-id-or-touch-id-firefox-klar,en-US,Add an extra layer of privacy by setting up Face ID (iPhone X) or Touch ID on Firefox Klar.,"<p>
+</p><p>Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
+</p>
+<ol><li>Tap the menu button in the bottom right corner.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <span class=""menu"">Privacy</span>, turn the switch on <img alt=""FocusToggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-05-12-53-39-fef3a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> next to <span class=""menu"">Use Face ID/Touch ID to unlock app</span>.
+</li><li>Tap <span class=""menu"">Back</span> at the top left to return to the home screen.
+</li></ol>",klar,firefox-klar-ios,"Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
+
+1. Tap the menu button in the bottom right corner.
+2. Tap Settings.
+3. Under Privacy, turn the switch on ![FocusToggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to Use Face ID/Touch ID to unlock app.
+4. Tap Back at the top left to return to the home screen.
+
+"
+40426,Find words on a page in Firefox Klar for iOS,find-words-page-firefox-klar-ios,https://support.mozilla.org/en-US/kb/find-words-page-firefox-klar-ios,en-US,Use the Find in Page feature to search for specific words on a web page.,"<p>
+</p><p>Use the <em>Find in Page</em> feature to search for specific words on a web page in a few taps.
+</p>
+<ol><li>Open the page you want to search.
+</li><li>Tap the menu button in the bottom right corner.
+</li><li>Tap <span class=""menu"">Find in Page</span> in the menu that pops up.
+<dl><dt><img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+</li><li>Enter the word or phrase that you want to find.
+</li><li>Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
+</li><li>Use the up or down arrows to see each instance of that word or phrase on the page.
+</li><li>Tap the <strong>X</strong> to return to regular view.
+</li></ol>",klar,firefox-klar-ios,"Use the _Find in Page_ feature to search for specific words on a web page in a few taps.
+
+1. Open the page you want to search.
+2. Tap the menu button in the bottom right corner.
+3. Tap Find in Page in the menu that pops up.<dl><dt>
+<img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+4. Enter the word or phrase that you want to find.
+5. Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
+6. Use the up or down arrows to see each instance of that word or phrase on the page.
+7. Tap the **X** to return to regular view.
+
 "
 40427,Change to desktop view on Firefox Klar for iOS,change-desktop-view-firefox-klar-ios,https://support.mozilla.org/en-US/kb/change-desktop-view-firefox-klar-ios,en-US,"If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps.","<p>
 </p><p>If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps:
@@ -96001,309 +95777,6 @@ For [outlook.com](http://outlook.com), [hotmail.com](http://hotmail.com), Micros
 - A new policy, [DisableThirdPartyModuleBlocking](https://github.com/mozilla/policy-templates/blob/master/README.md#disablethirdpartymoduleblockingr), was introduced to prevent users from being able to disable injected modules from the about:third-party page. This does not apply to the ESR.
 
 "
-60870,How to use Firefox containers,how-use-firefox-containers,https://support.mozilla.org/en-US/kb/how-use-firefox-containers,en-US,"This article explains how to use Firefox containers with the Multi-Account Containers extension, to organize your online activities.","<p>Firefox containers let you separate your browsing activities into color-coded tabs for <em>banking</em>, <em>work</em> and <em>personal </em> browsing. This allows you to always open new tabs in containers of your choosing for a more private browsing experience. Each container is isolated from the others, so you can access sites logged into different accounts. This article explains how to enable and use the Firefox containers manager to open containers from the main browser interface quickly.
-</p>
-<div class=""note""><strong>Note:</strong> Installing the <a href=""https://addons.mozilla.org/firefox/addon/multi-account-containers/"">Multi-Account Containers</a> extension developed by Mozilla provides a few benefits on top of the native container functionality like site specific container assignments, syncing across devices, and integration with Mozilla VPN or your own proxy. For more information, see the <a href=""/en-US/kb/containers"">Multi-Account Containers</a> article.</div>
-<p><img alt=""containerTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-02-24-11-30-09-bb7a42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-firefox-containers""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable Firefox containers</span></a></li><li class=""toclevel-1""><a href=""#w_open-a-new-tab-in-a-container""><span class=""tocnumber"">2</span> <span class=""toctext"">Open a new tab in a container</span></a></li><li class=""toclevel-1""><a href=""#w_open-a-link-in-a-new-container-tab""><span class=""tocnumber"">3</span> <span class=""toctext"">Open a link in a new container tab</span></a></li><li class=""toclevel-1""><a href=""#w_manage-your-containers""><span class=""tocnumber"">4</span> <span class=""toctext"">Manage your containers</span></a></li><li class=""toclevel-1""><a href=""#w_always-show-the-container-selection-panel""><span class=""tocnumber"">5</span> <span class=""toctext"">Always show the container selection panel</span></a></li></ul></div>
-<h1 id=""w_enable-firefox-containers"">Enable Firefox containers</h1>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <span class=""menu"">General</span> panel, scroll down to the <em>Tabs</em> section.
-</li><li>Make sure the box next to <strong>Enable Container Tabs</strong> is checked.
-</li></ol>
-<div class=""note""><strong>Note:</strong> Containers are disabled in <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">Private Browsing</a> windows and when <strong>Never Remember History</strong> is selected in your privacy settings.</div>
-<h1 id=""w_open-a-new-tab-in-a-container"">Open a new tab in a container</h1>
-<p>You can open a tab in a container from the containers panel.
-</p>
-<ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- or long-click the <strong>New Tab</strong> button.
-</li><li>Select a container in the list.
-<dl><dt><img alt=""containersNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-02-24-12-09-51-0f9dff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h1 id=""w_open-a-link-in-a-new-container-tab"">Open a link in a new container tab</h1>
-<p>You can open a link in a new tab on the same or a different container.
-</p>
-<ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- any link to open the context menu.
-</li><li>Select <span class=""menu"">Open Link in New Container Tab</span>.
-</li><li>Select the desired container.
-<dl><dt><img alt=""container right-click menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-10-05-04-07-ffb68a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h1 id=""w_manage-your-containers"">Manage your containers</h1>
-<p>There are two ways to get to the containers manager.
-</p>
-<ul><li>Open the containers manager from the Settings:
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <span class=""menu"">General</span> panel, scroll down to the <em>Tabs</em> section.
-</li><li>Click the <span class=""button"">Settings</span> button next to <em>Enable Container Tabs</em>.
-</li></ol>
-</li><li>Open the containers manager from the New Tab button:
-<ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- or long-click the <strong>New Tab</strong> button.
-</li><li>Select <span class=""menu"">Manage containers</span> in the containers panel.
-</li></ol>
-</li></ul>
-<h1 id=""w_always-show-the-container-selection-panel"">Always show the container selection panel</h1>
-<p>You can make the container panel appear when you click the <em>New Tab</em> button, instead of just opening a <em>No Container</em> new tab.
-</p>
-<ol><li>Open the containers manager (<a href=""#w_manage-your-containers"">see above</a>).
-</li><li>Check the box next to <strong>Select a container for each new tab</strong>.
-<dl><dt><img alt=""selectContainerNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-01-11-17-21-68af12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li></ol>
-<p>
-</p>",firefox,privacy-and-security,"Firefox containers let you separate your browsing activities into color-coded tabs for _banking_, _work_ and _personal_ browsing. This allows you to always open new tabs in containers of your choosing for a more private browsing experience. Each container is isolated from the others, so you can access sites logged into different accounts. This article explains how to enable and use the Firefox containers manager to open containers from the main browser interface quickly.
-
-**Note:** Installing the [Multi-Account Containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/) extension developed by Mozilla provides a few benefits on top of the native container functionality like site specific container assignments, syncing across devices, and integration with Mozilla VPN or your own proxy. For more information, see the [Multi-Account Containers](\""https://support.mozilla.org/en-US/kb/containers"") article.
-
-![containerTabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Table of Contents
-
-- [1 Enable Firefox containers](https://support.mozilla.org/kb/how-use-firefox-containers#w_enable-firefox-containers)
-- [2 Open a new tab in a container](https://support.mozilla.org/kb/how-use-firefox-containers#w_open-a-new-tab-in-a-container)
-- [3 Open a link in a new container tab](https://support.mozilla.org/kb/how-use-firefox-containers#w_open-a-link-in-a-new-container-tab)
-- [4 Manage your containers](https://support.mozilla.org/kb/how-use-firefox-containers#w_manage-your-containers)
-- [5 Always show the container selection panel](https://support.mozilla.org/kb/how-use-firefox-containers#w_always-show-the-container-selection-panel)
-
-# Enable Firefox containers
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, scroll down to the _Tabs_ section.
-3. Make sure the box next to **Enable Container Tabs** is checked.
-
-**Note:** Containers are disabled in [Private Browsing](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") windows and when **Never Remember History** is selected in your privacy settings.
-
-# Open a new tab in a container
-
-You can open a tab in a container from the containers panel.
-
-1. Right-clickRight-click (or hold down the Control key while you click) or long-click the **New Tab** button.
-2. Select a container in the list.<dl><dt>
-<img alt=""containersNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-02-24-12-09-51-0f9dff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Open a link in a new container tab
-
-You can open a link in a new tab on the same or a different container.
-
-1. Right-clickRight-click (or hold down the Control key while you click) any link to open the context menu.
-2. Select Open Link in New Container Tab.
-3. Select the desired container.<dl><dt>
-<img alt=""container right-click menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-10-05-04-07-ffb68a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Manage your containers
-
-There are two ways to get to the containers manager.
-
-- Open the containers manager from the Settings:
-  1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-  2. In the General panel, scroll down to the _Tabs_ section.
-  3. Click the Settings button next to _Enable Container Tabs_.
-
-- Open the containers manager from the New Tab button:
-  1. Right-clickRight-click (or hold down the Control key while you click) or long-click the **New Tab** button.
-  2. Select Manage containers in the containers panel.
-
-# Always show the container selection panel
-
-You can make the container panel appear when you click the _New Tab_ button, instead of just opening a _No Container_ new tab.
-
-1. Open the containers manager ([see above](https://support.mozilla.org/kb/how-use-firefox-containers#w_manage-your-containers)).
-2. Check the box next to **Select a container for each new tab**.<dl><dt>
-<img alt=""selectContainerNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-01-11-17-21-68af12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-
-"
-60882,Add Firefox Relay to the Firefox password manager,relay-integration,https://support.mozilla.org/en-US/kb/relay-integration,en-US,Integrate Firefox Relay into the password manager to conveniently generate or reuse email masks from within email fields. Learn how.,"<p>The <a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Firefox password manager</a> allows you to securely store your usernames and passwords. This is a useful tool for keeping your information safe and generating secure passwords for website logins. Additionally, if you're using <a href=""/en-US/kb/activate-firefox-relay-mask-your-email-address"">Firefox Relay</a> to mask your email address, you can create new masks or reuse an existing mask right from the Firefox password manager. This article describes the steps you need to follow to integrate Firefox Relay into the Firefox password manager.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-your-mozilla-account-to-the-password-manager""><span class=""tocnumber"">1</span> <span class=""toctext"">Add your Mozilla account to the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_generate-new-firefox-relay-masks-with-the-password-manager""><span class=""tocnumber"">2</span> <span class=""toctext"">Generate New Firefox Relay Masks with the password manager</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">3</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-is-firefox-relay-and-how-does-it-work""><span class=""tocnumber"">3.1</span> <span class=""toctext"">What is Firefox Relay and how does it work?</span></a></li><li class=""toclevel-2""><a href=""#w_why-is-firefox-relay-shown-in-my-password-manager""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Why is Firefox Relay shown in my password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_do-i-have-to-pay-for-relay""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Do I have to pay for Relay?</span></a></li><li class=""toclevel-2""><a href=""#w_how-many-masks-do-i-get-can-i-reuse-my-masks""><span class=""tocnumber"">3.4</span> <span class=""toctext"">How many masks do I get? Can I reuse my masks?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-manage-my-masks-how-do-i-delete-a-mask""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Where can I manage my masks? How do I delete a mask?</span></a></li><li class=""toclevel-2""><a href=""#w_where-can-i-use-relay-email-masks""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Where can I use Relay email masks?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager""><span class=""tocnumber"">3.7</span> <span class=""toctext"">How can I remove Firefox Relay from the Firefox password manager?</span></a></li><li class=""toclevel-2""><a href=""#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do""><span class=""tocnumber"">3.8</span> <span class=""toctext"">The password manager only displays email autofill and not the Firefox Relay option — What can I do?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_add-your-mozilla-account-to-the-password-manager"">Add your Mozilla account to the password manager</h1>
-<p>To create new masks using the password manager, you need a Mozilla account. If you don't have one, Firefox will help you create it when you sign up for a new website. After that, just log in to your Mozilla account following the steps below, and your Mozilla account will be automatically added to the password manager.
-</p>
-<ol><li>Open Firefox and log in with your Mozilla account.
-</li><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the top right corner of the Firefox window.
-</li><li>Click <span class=""button"">Log in</span> next to <em>Sync and save data</em>.
-</li><li>Enter your Mozilla account email and password.
-</li></ol>
-<h1 id=""w_generate-new-firefox-relay-masks-with-the-password-manager"">Generate New Firefox Relay Masks with the password manager</h1>
-<p>When you fill out an email field, the password manager will suggest emails from your saved logins, and it will also give you the option to generate or reuse a Firefox Relay mask.
-</p>
-<ol><li>Visit a website that requires you to log in or create an account.
-</li><li>Click the <strong>Protect your email address: Use Firefox Relay email mask</strong> option in the dropdown that appears on the email field.
-<dl><dt><img alt=""Password manager 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-23-50-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</dt><dt><div class=""note""><strong>Note:</strong> Please note that while the password manager does its best to detect email fields on websites, it may not always detect them all. If you're having trouble generating or reusing masks from the password manager, you can visit your <a href=""https://relay.firefox.com/accounts/profile/"">Firefox Relay dashboard</a> to generate or reuse a mask.</div>
-</dt></dl>
-</li><li>To create a new mask, click <span class=""button"">Use email mask</span> on the confirmation pop-up that appears next.
-<dl><dt><img alt=""Password manager 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-26-06-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
-</dt></dl>
-<ul><li>With a free subscription, you can generate up to five Firefox Relay masks to protect your online identity. Using different masks can help to reduce the chances of your activity being tracked and your identity being exposed. <a href=""/en-US/kb/subscribe-firefox-relay-premium"">Upgrade to a premium account</a> for unlimited masks.
-</li></ul>
-</li><li>When you reach your mask limit, the password manager lets you choose from your available masks.
-<dl><dt><img alt=""Password manager 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-27-23-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""> 
-</dt></dl>
-</li><li>Click <span class=""button"">Manage masks</span> at the bottom of the panel to visit your Firefox Relay dashboard and access additional settings such as deleting masks, blocking promotional emails, <a href=""/en-US/kb/subscribe-firefox-relay-premium"">subscribing to Firefox Relay Premium</a> and more.
-</li></ol>
-<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
-<h2 id=""w_what-is-firefox-relay-and-how-does-it-work"">What is Firefox Relay and how does it work?</h2>
-<p>Firefox Relay offers secure email masking to hide your real email address and protect your identity. Your email address can be used to track you online, so using an email mask allows you to sign up for accounts without providing your real email. Email masks also make it easier to stop spam from reaching your inbox.
-To use Relay, simply use a Relay email mask in place of your real email. All emails sent to your email mask will be forwarded to your real email address unless you decide to block them. You can block senders, delete masks that get too much spam, and label your masks from your <a href=""https://relay.firefox.com/"">Relay dashboard</a>.
-</p>
-<h2 id=""w_why-is-firefox-relay-shown-in-my-password-manager"">Why is Firefox Relay shown in my password manager?</h2>
-<p>As a current Relay user, we’ve added Relay to your password manager to make it easier to use a Relay mask whenever a website asks for your email address.
-</p>
-<h2 id=""w_do-i-have-to-pay-for-relay"">Do I have to pay for Relay?</h2>
-<p>By using Firefox Relay in your password manager, you’ll be automatically signed up for a free account that includes 5 email masks. This is not a free trial; it is always free, and you’ll never be charged, unless you decide to sign up for Relay Premium.
-</p><p><strong>There are two options for Relay Premium:</strong>
-</p>
-<ol><li><strong>Premium email masking</strong> includes unlimited email masks, a unique Relay email domain that you can use to create masks on the go, and greater inbox controls with the ability to block only promotional emails. Relay Premium email masking is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
-</li><li><strong>Premium email masking plus phone masking</strong> gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. Relay Premium phone masking is only available in the US and Canada.
-</li></ol>
-<h2 id=""w_how-many-masks-do-i-get-can-i-reuse-my-masks"">How many masks do I get? Can I reuse my masks?</h2>
-<p>Your free account includes 5 email masks. You can reuse them as many times as you like. However, using a unique mask for each account is the most secure option. You can upgrade to <a href=""/en-US/kb/subscribe-firefox-relay-premium"">Relay Premium</a> for unlimited email masks.
-</p>
-<h2 id=""w_where-can-i-manage-my-masks-how-do-i-delete-a-mask"">Where can I manage my masks? How do I delete a mask?</h2>
-<p>Sign in to your <a href=""https://relay.firefox.com/"">Relay dashboard</a> to block senders, delete masks that get too much spam, and label your masks.
-</p>
-<h2 id=""w_where-can-i-use-relay-email-masks"">Where can I use Relay email masks?</h2>
-<p>You can use Relay on any site that you don’t want to share your real email address with. For example, when restaurants ask for your email to order online. Or when retailers ask for your email address, so you can get a promo code. We don’t recommend using it on sites that you trust, such as your bank or credit card website. Occasionally, a website may not accept a Relay email mask, in which case you’d need to use your real email address.
-</p>
-<h2 id=""w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager"">How can I remove Firefox Relay from the Firefox password manager?</h2>
-<p>To stop seeing Firefox Relay in the password manager suggestions:
-</p>
-<ol><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the top right corner of the Firefox window.
-</li><li>Click <span class=""menu"">Settings</span>.
-</li><li>Select <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
-</li><li>Scroll down to the <span class=""for"" data-for=""not fx122""><strong>Logins and Passwords</strong></span><span class=""for"" data-for=""fx122""><strong>Passwords</strong></span> section.
-<dl><dt> <span class=""for"" data-for=""not fx122""><img alt=""Uncheck Relay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-27-11-51-10-e58b1a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span><span class=""for"" data-for=""fx122""><img alt=""Suggest relay password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-16-15-48-27-f76304.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
-</dt></dl>
-</li><li>Uncheck the box next to <strong>Suggest Firefox Relay email masks to protect your email address</strong>.
-</li></ol>
-<h2 id=""w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do"">The password manager only displays email autofill and not the Firefox Relay option — What can I do?</h2>
-<p>We are actively working to improve the experience for our users and to make Firefox Relay available on more websites. In the meantime, you can generate or reuse a mask from the right-click menu with the <a href=""https://addons.mozilla.org/firefox/addon/private-relay"">Firefox Relay add-on from Add-ons Mozilla</a>.
-</p>
-<ol><li>Follow the installation prompts and log in to Firefox Relay with your Mozilla account.
-</li><li>Visit the website where you would like to register.
-</li><li>Right-click on the email field where you want to use Firefox Relay.
-</li><li>Select <span class=""menu"">Generate new mask</span> or <span class=""menu"">Recent mask</span> from the right-click menu.
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/integrate-firefox-relay-firefox-password-manager"">Integrate Firefox Relay into the Firefox Password Manager</a>
-</li><li><a href=""/en-US/kb/create-email-mask-through-firefox-relay"">Create an email mask through Firefox Relay</a>
-</li></ul>",firefox;relay,passwords-and-sign-in;privacy-and-security,"The [Firefox password manager](\""https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins"") allows you to securely store your usernames and passwords. This is a useful tool for keeping your information safe and generating secure passwords for website logins. Additionally, if you're using [Firefox Relay](\""https://support.mozilla.org/en-US/kb/activate-firefox-relay-mask-your-email-address"") to mask your email address, you can create new masks or reuse an existing mask right from the Firefox password manager. This article describes the steps you need to follow to integrate Firefox Relay into the Firefox password manager.
-
-## Table of Contents
-
-- [1 Add your Mozilla account to the password manager](https://support.mozilla.org/kb/relay-integration#w_add-your-mozilla-account-to-the-password-manager)
-- [2 Generate New Firefox Relay Masks with the password manager](https://support.mozilla.org/kb/relay-integration#w_generate-new-firefox-relay-masks-with-the-password-manager)
-- [3 Frequently asked questions](https://support.mozilla.org/kb/relay-integration#w_frequently-asked-questions)
-  - [3.1 What is Firefox Relay and how does it work?](https://support.mozilla.org/kb/relay-integration#w_what-is-firefox-relay-and-how-does-it-work)
-  - [3.2 Why is Firefox Relay shown in my password manager?](https://support.mozilla.org/kb/relay-integration#w_why-is-firefox-relay-shown-in-my-password-manager)
-  - [3.3 Do I have to pay for Relay?](https://support.mozilla.org/kb/relay-integration#w_do-i-have-to-pay-for-relay)
-  - [3.4 How many masks do I get? Can I reuse my masks?](https://support.mozilla.org/kb/relay-integration#w_how-many-masks-do-i-get-can-i-reuse-my-masks)
-  - [3.5 Where can I manage my masks? How do I delete a mask?](https://support.mozilla.org/kb/relay-integration#w_where-can-i-manage-my-masks-how-do-i-delete-a-mask)
-  - [3.6 Where can I use Relay email masks?](https://support.mozilla.org/kb/relay-integration#w_where-can-i-use-relay-email-masks)
-  - [3.7 How can I remove Firefox Relay from the Firefox password manager?](https://support.mozilla.org/kb/relay-integration#w_how-can-i-remove-firefox-relay-from-the-firefox-password-manager)
-  - [3.8 The password manager only displays email autofill and not the Firefox Relay option — What can I do?](https://support.mozilla.org/kb/relay-integration#w_the-password-manager-only-displays-email-autofill-and-not-the-firefox-relay-option-what-can-i-do)
-
-- [4 Related articles](https://support.mozilla.org/kb/relay-integration#w_related-articles)
-
-# Add your Mozilla account to the password manager
-
-To create new masks using the password manager, you need a Mozilla account. If you don't have one, Firefox will help you create it when you sign up for a new website. After that, just log in to your Mozilla account following the steps below, and your Mozilla account will be automatically added to the password manager.
-
-1. Open Firefox and log in with your Mozilla account.
-2. Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button in the top right corner of the Firefox window.
-3. Click Log in next to _Sync and save data_.
-4. Enter your Mozilla account email and password.
-
-# Generate New Firefox Relay Masks with the password manager
-
-When you fill out an email field, the password manager will suggest emails from your saved logins, and it will also give you the option to generate or reuse a Firefox Relay mask.
-
-1. Visit a website that requires you to log in or create an account.
-2. Click the **Protect your email address: Use Firefox Relay email mask** option in the dropdown that appears on the email field.<dl>
-<dt>
-<img alt=""Password manager 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-23-50-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</dt>
-<dt>
-<div class=""note"">
-<strong>Note:</strong> Please note that while the password manager does its best to detect email fields on websites, it may not always detect them all. If you're having trouble generating or reusing masks from the password manager, you can visit your <a href=""https://relay.firefox.com/accounts/profile/"">Firefox Relay dashboard</a> to generate or reuse a mask.</div>
-</dt>
-</dl>
-3. To create a new mask, click Use email mask on the confirmation pop-up that appears next.<dl><dt>
-<img alt=""Password manager 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-26-06-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
-</dt></dl>
-  - With a free subscription, you can generate up to five Firefox Relay masks to protect your online identity. Using different masks can help to reduce the chances of your activity being tracked and your identity being exposed. [Upgrade to a premium account](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"") for unlimited masks.
-
-4. When you reach your mask limit, the password manager lets you choose from your available masks.<dl><dt>
-<img alt=""Password manager 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-11-10-27-23-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""> 
-</dt></dl>
-5. Click Manage masks at the bottom of the panel to visit your Firefox Relay dashboard and access additional settings such as deleting masks, blocking promotional emails, [subscribing to Firefox Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"") and more.
-
-# Frequently asked questions
-
-## What is Firefox Relay and how does it work?
-
-Firefox Relay offers secure email masking to hide your real email address and protect your identity. Your email address can be used to track you online, so using an email mask allows you to sign up for accounts without providing your real email. Email masks also make it easier to stop spam from reaching your inbox. To use Relay, simply use a Relay email mask in place of your real email. All emails sent to your email mask will be forwarded to your real email address unless you decide to block them. You can block senders, delete masks that get too much spam, and label your masks from your [Relay dashboard](https://relay.firefox.com/).
-
-## Why is Firefox Relay shown in my password manager?
-
-As a current Relay user, we’ve added Relay to your password manager to make it easier to use a Relay mask whenever a website asks for your email address.
-
-## Do I have to pay for Relay?
-
-By using Firefox Relay in your password manager, you’ll be automatically signed up for a free account that includes 5 email masks. This is not a free trial; it is always free, and you’ll never be charged, unless you decide to sign up for Relay Premium.
-
-**There are two options for Relay Premium:**
-
-1. **Premium email masking** includes unlimited email masks, a unique Relay email domain that you can use to create masks on the go, and greater inbox controls with the ability to block only promotional emails. Relay Premium email masking is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
-2. **Premium email masking plus phone masking** gives you the same Premium features, plus a phone number mask that protects your real phone number. All calls and text messages sent to your phone number mask will be forwarded to your real phone number. Relay Premium phone masking is only available in the US and Canada.
-
-## How many masks do I get? Can I reuse my masks?
-
-Your free account includes 5 email masks. You can reuse them as many times as you like. However, using a unique mask for each account is the most secure option. You can upgrade to [Relay Premium](\""https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium"") for unlimited email masks.
-
-## Where can I manage my masks? How do I delete a mask?
-
-Sign in to your [Relay dashboard](https://relay.firefox.com/) to block senders, delete masks that get too much spam, and label your masks.
-
-## Where can I use Relay email masks?
-
-You can use Relay on any site that you don’t want to share your real email address with. For example, when restaurants ask for your email to order online. Or when retailers ask for your email address, so you can get a promo code. We don’t recommend using it on sites that you trust, such as your bank or credit card website. Occasionally, a website may not accept a Relay email mask, in which case you’d need to use your real email address.
-
-## How can I remove Firefox Relay from the Firefox password manager?
-
-To stop seeing Firefox Relay in the password manager suggestions:
-
-1. Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button in the top right corner of the Firefox window.
-2. Click Settings.
-3. Select Privacy & Security in the panel to the left.
-4. Scroll down to the **Logins and Passwords**** Passwords** section.<dl><dt> <span class=""for"" data-for=""not fx122""><img alt=""Uncheck Relay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-27-11-51-10-e58b1a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span><span class=""for"" data-for=""fx122""><img alt=""Suggest relay password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-16-15-48-27-f76304.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
-</dt></dl>
-5. Uncheck the box next to **Suggest Firefox Relay email masks to protect your email address**.
-
-## The password manager only displays email autofill and not the Firefox Relay option — What can I do?
-
-We are actively working to improve the experience for our users and to make Firefox Relay available on more websites. In the meantime, you can generate or reuse a mask from the right-click menu with the [Firefox Relay add-on from Add-ons Mozilla](https://addons.mozilla.org/firefox/addon/private-relay).
-
-1. Follow the installation prompts and log in to Firefox Relay with your Mozilla account.
-2. Visit the website where you would like to register.
-3. Right-click on the email field where you want to use Firefox Relay.
-4. Select Generate new mask or Recent mask from the right-click menu.
-
-# Related articles
-
-- [Integrate Firefox Relay into the Firefox Password Manager](\""https://support.mozilla.org/en-US/kb/integrate-firefox-relay-firefox-password-manager"")
-- [Create an email mask through Firefox Relay](\""https://support.mozilla.org/en-US/kb/create-email-mask-through-firefox-relay"")
-
-"
 60883,What's new in Firefox for iOS (version 111),whats-new-firefox-ios-version-111,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-111,en-US,See what's new in the latest release of Firefox for iOS (version 111).,"<p>Welcome to a new version of Firefox for iOS (version 111). This release comes with bug fixes and technical improvements.
 </p>
 <h1 id=""w_fixed"">Fixed</h1>
@@ -103414,7 +102887,7 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </td></tr>
 <tr>
 <td> <img alt=""IG split view right"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-40-ccb13d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Split view left
+</td><td> Split view right
 </td><td> [[Image:IG split view right]]
 </td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57551"">https://support.mozilla.org/en-US/gallery/image/57551</a>
 </td><td> Split view right
@@ -103531,7 +103004,7 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 | ![IG notification blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification blocked | [[Image:IG notification blocked]] | [https://support.mozilla.org/en-US/gallery/image/51910](https://support.mozilla.org/en-US/gallery/image/51910) | Notification blocked |
 | ![IG open new tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Open new tab | [[Image:IG open new tab]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Open new tab |
 | ![IG split view left](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view left]] | [https://support.mozilla.org/en-US/gallery/image/57550](https://support.mozilla.org/en-US/gallery/image/57550) | Split view left |
-| ![IG split view right](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view right]] | [https://support.mozilla.org/en-US/gallery/image/57551](https://support.mozilla.org/en-US/gallery/image/57551) | Split view right |
+| ![IG split view right](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view right | [[Image:IG split view right]] | [https://support.mozilla.org/en-US/gallery/image/57551](https://support.mozilla.org/en-US/gallery/image/57551) | Split view right |
 | ![IG permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Permissions | [[Image:IG permissions]] | [https://support.mozilla.org/en-US/gallery/image/57277](https://support.mozilla.org/en-US/gallery/image/57277) | Permissions |
 | ![IG taskbar tabs add tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs add tab | [[Image:IG taskbar tabs add tab]] | [https://support.mozilla.org/en-US/gallery/image/56861](https://support.mozilla.org/en-US/gallery/image/56861) | Taskbar tabs add tab |
 | ![IG taskbar tabs move tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs move tab | [[Image:IG taskbar tabs move tab]] | [https://support.mozilla.org/en-US/gallery/image/56860](https://support.mozilla.org/en-US/gallery/image/56860) | Taskbar tabs move tab |
