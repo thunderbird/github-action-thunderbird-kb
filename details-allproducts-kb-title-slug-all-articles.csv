@@ -48363,425 +48363,6 @@ Your feedback is aggregated and reported back to the teams responsible for devel
 - Report issues through [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox).
 
 "
-27569,Add or remove a search engine in Firefox,add-or-remove-search-engine-firefox,https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox,en-US,This article explains how to add or remove the search engines that Firefox uses.,"<p>Firefox comes with a set of default search engines, and you can add more from websites, add-ons, or partner pages. Some users want to add fully custom search engines, but Firefox only supports this in limited cases without an add-on. 
-</p><p>This article explains what you can and can’t do, and shows the easiest ways to manage your search engines.
-</p>
-<div class=""note""><strong>Note:</strong> Some search engines may only be available in certain regions.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-firefox-supports-and-what-it-doesnt""><span class=""tocnumber"">1</span> <span class=""toctext"">What Firefox supports (and what it doesn’t)</span></a></li><li class=""toclevel-1""><a href=""#w_add-search-engines""><span class=""tocnumber"">2</span> <span class=""toctext"">Add search engines</span></a><ul><li class=""toclevel-2""><a href=""#w_from-the-search-bar""><span class=""tocnumber"">2.1</span> <span class=""toctext"">From the Search bar</span></a></li><li class=""toclevel-2""><a href=""#w_from-the-address-bar""><span class=""tocnumber"">2.2</span> <span class=""toctext"">From the address bar</span></a></li><li class=""toclevel-2""><a href=""#w_add-a-search-engine-from-the-search-field-of-a-supported-website""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Add a search engine from the search field of a supported website</span></a></li><li class=""toclevel-2""><a href=""#w_mycroft-project-search-engine-plugins""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Mycroft Project search engine plugins</span></a></li><li class=""toclevel-2""><a href=""#w_search-engine-add-ons""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Search engine add-ons</span></a></li><li class=""toclevel-2""><a href=""#w_add-a-custom-search-engine-in-settings""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Add a custom search engine in Settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_hide-search-engines""><span class=""tocnumber"">3</span> <span class=""toctext"">Hide search engines</span></a></li><li class=""toclevel-1""><a href=""#w_remove-search-engines""><span class=""tocnumber"">4</span> <span class=""toctext"">Remove search engines</span></a><ul><li class=""toclevel-2""><a href=""#w_restore-default-search-engines""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Restore default search engines</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_what-firefox-supports-and-what-it-doesnt"">What Firefox supports (and what it doesn’t)</h1>
-<ul><li>Built-in default search engines (like Google, Bing, DuckDuckGo).
-</li><li>Adding search engines from websites that support it.
-</li><li>Adding search engine add-ons from <a href=""https://addons.mozilla.org/en-US/firefox/"">addons.mozilla.org</a>.
-</li><li>Limited support for custom engines: Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version 140</a>, you are able to add custom unsupported search engines in Firefox Settings. In earlier versions, Firefox does not allow you to create custom engines from scratch in Settings. You would need an extension such as <a href=""https://addons.mozilla.org/firefox/addon/add-custom-search-engine/"">Add custom search engine</a>.
-</li></ul>
-<h1 id=""w_add-search-engines"">Add search engines</h1>
-<h2 id=""w_from-the-search-bar"">From the Search bar</h2>
-<p>Firefox offers an optional Search bar. If you’ve added it to your toolbar, you can also add search engines. If you haven’t yet, see <a href=""/en-US/kb/add-search-bar-firefox-toolbar"">Add the Search bar to your Firefox toolbar</a> to add it to Firefox.
-</p>
-<ol><li>Visit a website that offers an <a href=""https://developer.mozilla.org/docs/Web/OpenSearch"">OpenSearch</a> search engine (we'll use <a href=""https://www.youtube.com"">YouTube</a> as an example).
-</li><li>Click the magnifying glass <img alt=""addsearch 40"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2015-08-04-10-25-59-77093e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the Search bar.
-</li><li>Click the YouTube <img alt=""AddYouTubeSearchBarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-03-40-25-7be19c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the Search bar drop-down.
-<dl><dt><img alt=""Add engine from search bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-23-40-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<p>The search engine will appear in your available search options.
-</p>
-<h2 id=""w_from-the-address-bar"">From the address bar</h2>
-<p>Visit a website that has a built-in search field (for example, <a href=""https://www.youtube.com"">YouTube</a>).
-</p>
-<ol><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- inside the search field.
-</li><li>Select <span class=""menu""><img alt=""AddYouTubeSearchBarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-22-03-40-25-7be19c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Add “YouTube”</span> from the context menu.
-<dl><dt><img alt=""Add engine from address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-24-51-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<div class=""for"" data-for=""fx140"">
-<h2 id=""w_add-a-search-engine-from-the-search-field-of-a-supported-website"">Add a search engine from the search field of a supported website</h2>
-<p><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- the search field of a supported website and select <span class=""menu"">Add Search Engine</span> from the context menu.
-</p>
-<dl><dt><img alt=""Fx140WebsiteSearchContextMenu-AddSearchEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-15-25-57-9ba5d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>To learn more, see the <a href=""/en-US/kb/add-custom-search-engine-firefox"">Add custom search engines in Firefox</a> article.
-</p></div>
-<h2 id=""w_mycroft-project-search-engine-plugins"">Mycroft Project search engine plugins</h2>
-<p>The <a href=""https://mycroftproject.com/"">Mycroft Project</a> website offers search engine plugins. When you click an available search plugin, you can add it to Firefox from the Search bar or from the address bar context menu, on the <em>Install plugin</em> page.
-</p>
-<dl><dt><img alt=""Fx115Mycroft-InstallPlugin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-12-23-47-b25277.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h2 id=""w_search-engine-add-ons"">Search engine add-ons</h2>
-<p>Many providers offer search engine add-ons. To find these search engines and add them to Firefox:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select <span class=""menu"">Search</span> in the left panel.
-</li><li>At the bottom, click the <strong>Find more search engines</strong> link. The <em>Firefox Add-ons</em> website will open.
-</li><li>Select the search engine add-on you want to install and click <span class=""button"">Add to Firefox</span>.
-</li></ol>
-<div class=""note""><strong>Tip:</strong> If you added the optional Search bar, another way to open the Search panel is to click the magnifying glass <img alt=""MagnifyingGlass"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-09-07-15-46-20-c45e06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> on the Search bar and then click the <img alt=""Fx89Personalize-GearIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-13-16-54-32-4742a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <em>Change search settings</em> icon.</div>
-<div class=""for"" data-for=""fx140"">
-<h2 id=""w_add-a-custom-search-engine-in-settings"">Add a custom search engine in Settings</h2>
-<p>You can add custom search engines from websites in Firefox, even if they’re not supported.
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Go to <span class=""menu"">Search</span>.
-<dl><dt><img alt=""searchshortcut"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-12-53-11-64cc62.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li>Scroll down to <strong>Search Shortcuts</strong>.
-</li><li>Click <span class=""button"">Add</span>.
-</li><li>Fill in the <strong>Search engine name</strong> with a name for your custom search engine.
-<dl><dt><img alt=""searchenginemenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-13-05-34-bbdae3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li>In the <strong>URL</strong> box, copy &amp; paste the URL of the custom search engine.
-<ul><li>For example: <a href=""https://example.com/"">https://example.com/</a>
-</li></ul>
-</li><li>Replace the URL’s search tag with <strong>%s</strong>.
-<ul><li>For example: <a href=""https://example.com/search?q=%s"">https://example.com/search?q=%s</a>
-</li></ul>
-</li><li>Add a keyword (this is optional).
-</li><li>Click <strong>Add Engine</strong> to save.
-</li></ol>
-<div class=""note""><strong>Note:</strong> You can find the URL’s search tag by performing a unique search with an easy-to-spot word, such as “ZZZZZZ”. The “ZZZZZZ” in the URL is that URL’s search tag.</div>
-</div>
-<h1 id=""w_hide-search-engines"">Hide search engines</h1>
-<p>Follow these steps to remove alternative search engines you don't want to use.
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the Settings
- tab that opens, click <span class=""menu"">Search</span> in the left pane.
-</li><li>Under <em>Search Shortcuts</em>, remove the check mark next to each search engine you don't want to use.
-<dl><dt><img alt=""Search shortcuts - Hide engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-37-32-e0a5af.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<h1 id=""w_remove-search-engines"">Remove search engines</h1>
-<p>To remove a search engine, follow these steps:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Go to <span class=""menu"">Search</span> in the left panel.
-</li><li>Under <em>Search Shortcuts</em>, click the search engine you want to remove.
-</li><li>Click the <span class=""button"">Remove</span> button to take it off your list.
-<dl><dt><img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<div class=""note""><strong>Note:</strong> If a search engine is added back after you restart Firefox, it may be a Firefox <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extension</a>. Those can be removed using the <strong>Add-ons manager</strong> (see <a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a> for details).</div>
-<h2 id=""w_restore-default-search-engines"">Restore default search engines</h2>
-<p>If you removed one of Firefox’s built-in search engines (like Google or Bing):
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Go to <span class=""menu"">Search</span> in the left panel.
-</li><li>In the <em>Search shortcuts</em> section, click <span class=""button"">Restore Default Search Engines</span>.
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/change-your-default-search-settings-firefox"">Manage Firefox search settings</a>
-</li><li><a href=""/en-US/kb/assign-shortcuts-search-engines"">Assign shortcuts to search engines</a>
-</li><li><a href=""/en-US/kb/add-search-bar-firefox-toolbar"">Add the Search bar to your Firefox toolbar</a>
-</li><li><a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a>
-</li></ul>",firefox,settings,"Firefox comes with a set of default search engines, and you can add more from websites, add-ons, or partner pages. Some users want to add fully custom search engines, but Firefox only supports this in limited cases without an add-on.
-
-This article explains what you can and can’t do, and shows the easiest ways to manage your search engines.
-
-**Note:** Some search engines may only be available in certain regions.
-
-## Table of Contents
-
-- [1 What Firefox supports (and what it doesn’t)](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_what-firefox-supports-and-what-it-doesnt)
-- [2 Add search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-search-engines)
-  - [2.1 From the Search bar](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_from-the-search-bar)
-  - [2.2 From the address bar](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_from-the-address-bar)
-  - [2.3 Add a search engine from the search field of a supported website](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-a-search-engine-from-the-search-field-of-a-supported-website)
-  - [2.4 Mycroft Project search engine plugins](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_mycroft-project-search-engine-plugins)
-  - [2.5 Search engine add-ons](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_search-engine-add-ons)
-  - [2.6 Add a custom search engine in Settings](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_add-a-custom-search-engine-in-settings)
-
-- [3 Hide search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_hide-search-engines)
-- [4 Remove search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_remove-search-engines)
-  - [4.1 Restore default search engines](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_restore-default-search-engines)
-
-- [5 Related articles](https://support.mozilla.org/kb/add-or-remove-search-engine-firefox#w_related-articles)
-
-# What Firefox supports (and what it doesn’t)
-
-- Built-in default search engines (like Google, Bing, DuckDuckGo).
-- Adding search engines from websites that support it.
-- Adding search engine add-ons from [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/).
-- Limited support for custom engines: Starting in [Firefox version 140](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""), you are able to add custom unsupported search engines in Firefox Settings. In earlier versions, Firefox does not allow you to create custom engines from scratch in Settings. You would need an extension such as [Add custom search engine](https://addons.mozilla.org/firefox/addon/add-custom-search-engine/).
-
-# Add search engines
-
-## From the Search bar
-
-Firefox offers an optional Search bar. If you’ve added it to your toolbar, you can also add search engines. If you haven’t yet, see [Add the Search bar to your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"") to add it to Firefox.
-
-1. Visit a website that offers an [OpenSearch](https://developer.mozilla.org/docs/Web/OpenSearch) search engine (we'll use [YouTube](https://www.youtube.com) as an example).
-2. Click the magnifying glass ![addsearch 40](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the Search bar.
-3. Click the YouTube ![AddYouTubeSearchBarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the Search bar drop-down.<dl><dt>
-<img alt=""Add engine from search bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-23-40-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-The search engine will appear in your available search options.
-
-## From the address bar
-
-Visit a website that has a built-in search field (for example, [YouTube](https://www.youtube.com)).
-
-1. Right-clickRight-click (or hold down the Control key while you click) inside the search field.
-2. Select ![AddYouTubeSearchBarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Add “YouTube” from the context menu.<dl><dt>
-<img alt=""Add engine from address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-24-51-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-## Add a search engine from the search field of a supported website
-
-Right-clickRight-click (or hold down the Control key while you click) the search field of a supported website and select Add Search Engine from the context menu.
-
-<dl><dt>
-<img alt=""Fx140WebsiteSearchContextMenu-AddSearchEngine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-15-25-57-9ba5d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-To learn more, see the [Add custom search engines in Firefox](\""https://support.mozilla.org/en-US/kb/add-custom-search-engine-firefox"") article.
-
-## Mycroft Project search engine plugins
-
-The [Mycroft Project](https://mycroftproject.com/) website offers search engine plugins. When you click an available search plugin, you can add it to Firefox from the Search bar or from the address bar context menu, on the _Install plugin_ page.
-
-<dl><dt>
-<img alt=""Fx115Mycroft-InstallPlugin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-12-23-47-b25277.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-## Search engine add-ons
-
-Many providers offer search engine add-ons. To find these search engines and add them to Firefox:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select Search in the left panel.
-3. At the bottom, click the **Find more search engines** link. The _Firefox Add-ons_ website will open.
-4. Select the search engine add-on you want to install and click Add to Firefox.
-
-**Tip:** If you added the optional Search bar, another way to open the Search panel is to click the magnifying glass ![MagnifyingGlass](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) on the Search bar and then click the ![Fx89Personalize-GearIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) _Change search settings_ icon.
-
-## Add a custom search engine in Settings
-
-You can add custom search engines from websites in Firefox, even if they’re not supported.
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to Search.<dl><dt>
-<img alt=""searchshortcut"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-12-53-11-64cc62.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-3. Scroll down to **Search Shortcuts**.
-4. Click Add.
-5. Fill in the **Search engine name** with a name for your custom search engine.<dl><dt>
-<img alt=""searchenginemenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-13-05-34-bbdae3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-6. In the **URL** box, copy & paste the URL of the custom search engine.
-  - For example: [https://example.com/](https://example.com/)
-
-7. Replace the URL’s search tag with **%s**.
-  - For example: [https://example.com/search?q=%s](https://example.com/search?q=%s)
-
-8. Add a keyword (this is optional).
-9. Click **Add Engine** to save.
-
-**Note:** You can find the URL’s search tag by performing a unique search with an easy-to-spot word, such as “ZZZZZZ”. The “ZZZZZZ” in the URL is that URL’s search tag.
-
-# Hide search engines
-
-Follow these steps to remove alternative search engines you don't want to use.
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the Settings tab that opens, click Search in the left pane.
-3. Under _Search Shortcuts_, remove the check mark next to each search engine you don't want to use.<dl><dt>
-<img alt=""Search shortcuts - Hide engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-37-32-e0a5af.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Remove search engines
-
-To remove a search engine, follow these steps:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to Search in the left panel.
-3. Under _Search Shortcuts_, click the search engine you want to remove.
-4. Click the Remove button to take it off your list.<dl><dt>
-<img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-**Note:** If a search engine is added back after you restart Firefox, it may be a Firefox [extension](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install""). Those can be removed using the **Add-ons manager** (see [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"") for details).
-
-## Restore default search engines
-
-If you removed one of Firefox’s built-in search engines (like Google or Bing):
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to Search in the left panel.
-3. In the _Search shortcuts_ section, click Restore Default Search Engines.
-
-# Related articles
-
-- [Manage Firefox search settings](\""https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox"")
-- [Assign shortcuts to search engines](\""https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines"")
-- [Add the Search bar to your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"")
-- [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"")
-
-"
-27613,Install Firefox on your phone or tablet,install-firefox-your-phone-or-tablet,https://support.mozilla.org/en-US/kb/install-firefox-your-phone-or-tablet,en-US,Firefox is available on iOS and Android devices. Learn how to install it on your phone or tablet.,"<p>Firefox brings your favorite features and security to your Android and iOS devices. Learn how to install the mobile app on your phone or tablet, so you can browse the web quickly and privately.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_install-through-your-devices-marketplace""><span class=""tocnumber"">1</span> <span class=""toctext"">Install through your device's marketplace</span></a></li><li class=""toclevel-1""><a href=""#w_install-from-mozillas-download-server""><span class=""tocnumber"">2</span> <span class=""toctext"">Install from Mozilla's download server</span></a></li></ul></div>
-<h1 id=""w_install-through-your-devices-marketplace"">Install through your device's marketplace</h1>
-<p>Install Firefox through your device's official marketplace to ensure that you get the best version of Firefox for your device. Most marketplaces will also automatically keep Firefox up to date.
-</p>
-<ul><li> <a href=""/en-US/kb/install-firefox-android-device-using-google-play"">Google Play</a> (<a href=""https://play.google.com/store/apps/details?id=org.mozilla.firefox"">Firefox app page</a>)
-</li><li> <a href=""/en-US/kb/install-firefox-your-ipad-iphone-or-ipod"">Apple App Store</a> (<a href=""https://apps.apple.com/app/apple-store/id989804926"">Firefox app page</a>)
-</li><li> Samsung Galaxy Store (<a href=""http://apps.samsung.com/appquery/appDetail.as?appId=org.mozilla.firefox"">Firefox app page</a>)
-</li><li> Huawei AppGallery (<a href=""https://appgallery.huawei.com/app/C115133357"">Firefox app page</a>, only available via the standalone Huawei AppGallery on Android or the built-in Huawei AppGallery on HarmonyOS 4.3/EMUI 15 and earlier, it not be offered on the Huawei AppGallery for devices running HarmonyOS 5.0 and later.)
-<ul><li> <strong>Attention: Firefox in Huawei AppGallery is currently not available in some regions. </strong> Mozilla is working on expanding its availability. This build has also some known issues to be addressed.
-</li></ul>
-</li></ul>
-<p>
-</p>
-<div class=""note""><strong>Tip:</strong> Use <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Sync</a> to share your bookmarks, passwords, and site preferences on all your devices.</div>
-<h1 id=""w_install-from-mozillas-download-server"">Install from Mozilla's download server</h1>
-<p>The latest Firefox for Android version from Mozilla's download server is not currently available on the <a href=""https://www.mozilla.org/firefox/all/"">Firefox download page</a> but may be offered in the future (<a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1663735"">bug 1663735</a>).
-</p><p><strong>Advanced users</strong>: Firefox for Android APK downloads are available at <a href=""https://ftp.mozilla.org/pub/fenix/"">https://ftp.mozilla.org/pub/fenix/</a>.
-</p>",mobile;ios,install;installation-and-updates,"Firefox brings your favorite features and security to your Android and iOS devices. Learn how to install the mobile app on your phone or tablet, so you can browse the web quickly and privately.
-
-## Table of Contents
-
-- [1 Install through your device's marketplace](https://support.mozilla.org/kb/install-firefox-your-phone-or-tablet#w_install-through-your-devices-marketplace)
-- [2 Install from Mozilla's download server](https://support.mozilla.org/kb/install-firefox-your-phone-or-tablet#w_install-from-mozillas-download-server)
-
-# Install through your device's marketplace
-
-Install Firefox through your device's official marketplace to ensure that you get the best version of Firefox for your device. Most marketplaces will also automatically keep Firefox up to date.
-
-- [Google Play](\""https://support.mozilla.org/en-US/kb/install-firefox-android-device-using-google-play"") ([Firefox app page](https://play.google.com/store/apps/details?id=org.mozilla.firefox))
-- [Apple App Store](\""https://support.mozilla.org/en-US/kb/install-firefox-your-ipad-iphone-or-ipod"") ([Firefox app page](https://apps.apple.com/app/apple-store/id989804926))
-- Samsung Galaxy Store ([Firefox app page](http://apps.samsung.com/appquery/appDetail.as?appId=org.mozilla.firefox))
-- Huawei AppGallery ([Firefox app page](https://appgallery.huawei.com/app/C115133357), only available via the standalone Huawei AppGallery on Android or the built-in Huawei AppGallery on HarmonyOS 4.3/EMUI 15 and earlier, it not be offered on the Huawei AppGallery for devices running HarmonyOS 5.0 and later.)
-  - **Attention: Firefox in Huawei AppGallery is currently not available in some regions.** Mozilla is working on expanding its availability. This build has also some known issues to be addressed.
-
-**Tip:** Use [Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to share your bookmarks, passwords, and site preferences on all your devices.
-
-# Install from Mozilla's download server
-
-The latest Firefox for Android version from Mozilla's download server is not currently available on the [Firefox download page](https://www.mozilla.org/firefox/all/) but may be offered in the future ([bug 1663735](https://bugzilla.mozilla.org/show_bug.cgi?id=1663735)).
-
-**Advanced users** : Firefox for Android APK downloads are available at [https://ftp.mozilla.org/pub/fenix/](https://ftp.mozilla.org/pub/fenix/).
-
-"
-27868,Configuration Editor for Firefox,about-config-editor-firefox,https://support.mozilla.org/en-US/kb/about-config-editor-firefox,en-US,"The Configuration Editor (about:config page) lets you view, change, or reset advanced preference settings in Firefox. Learn more.","<p>The Configuration Editor (<em>about:config</em> Advanced Preferences page) lists Firefox preference settings that are read from the <span class=""filepath"">prefs.js</span> and <span class=""filepath"">user.js</span> files in the <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Firefox profile</a> and from application defaults. Many of these preferences are advanced settings that are not present in the <a href=""/en-US/kb/firefox-options-preferences-and-settings"">Settings</a> panels. This article describes how to use the about:config page to view, change, or reset Firefox preference settings, if you need to do so.
-</p><p></p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-<p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_opening-the-aboutconfig-page""><span class=""tocnumber"">1</span> <span class=""toctext"">Opening the about:config page</span></a></li><li class=""toclevel-1""><a href=""#w_searching-for-preferences""><span class=""tocnumber"">2</span> <span class=""toctext"">Searching for preferences</span></a></li><li class=""toclevel-1""><a href=""#w_modifying-preferences""><span class=""tocnumber"">3</span> <span class=""toctext"">Modifying preferences</span></a></li><li class=""toclevel-1""><a href=""#w_resetting-or-deleting-preferences""><span class=""tocnumber"">4</span> <span class=""toctext"">Resetting or deleting preferences</span></a></li><li class=""toclevel-1""><a href=""#w_adding-preferences""><span class=""tocnumber"">5</span> <span class=""toctext"">Adding preferences</span></a></li></ul></div>
-<h1 id=""w_opening-the-aboutconfig-page"">Opening the about:config page</h1>
-<p>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-<img alt=""Fx145aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-11-49-4dd6bf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-Click <span class=""button"">Show All</span> to view all preferences currently set in the profile or use the <em>Search preference name</em> box to filter the list.
-</p>
-<h1 id=""w_searching-for-preferences"">Searching for preferences</h1>
-You can use the <em>Search preference name</em> box at the top of the <em>about:config</em> page to quickly find specific preferences. For example, if you enter <em>ocsp</em> in the Search box, it will bring up the <span class=""pref"">security.OCSP.enabled</span> preference. <div class=""note""><strong>Note:</strong> Preference names are case-sensitive. Search terms are not.</div>
-<p>If you enter a search term and a preference does not exist, you will have the option to add a new preference (<a href=""#w_adding-preferences"">see below</a>).
-</p>
-<h1 id=""w_modifying-preferences"">Modifying preferences</h1>
-<p><img alt=""Fx145aboutconfig-showall"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-14-24-31cfe5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>To change a <strong>boolean (true-false)</strong> preference's value, double-click on the preference.
-</p>
-<ul><li>Alternatively, you can click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
-</li></ul>
-<p>To change a <strong>string (text)</strong> or a <strong>number</strong> preference's value:
-</p>
-<ol><li>Double-click on the preference.
-<ul><li>Alternatively, you can click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
-</li></ul>
-</li><li>Enter a new value.<br><img alt=""Fx145aboutconfig-editpref"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-15-20-b903ba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</li><li>Click on the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to save the change. 
-</li></ol>
-<h1 id=""w_resetting-or-deleting-preferences"">Resetting or deleting preferences</h1>
-<div class=""note""><strong>Note:</strong> You can only reset or remove <strong>modified</strong> preferences, which are listed in bold type. To reset all preferences, see <a href=""/en-US/kb/reset-preferences-fix-problems"">Reset Firefox preferences to troubleshoot and fix problems</a>.</div>
-<p>To reset a preference to its default value, click the <em>Reset</em> <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
-</p>
-To remove an added preference, click the <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button. If you added the preference entry yourself, it will no longer be listed after restarting Firefox. <div class=""note""><strong>Note:</strong> A <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button may be shown for some preferences that appear in bold type that you did not modify or add, such as preferences whose values are system-specific. Those preferences will be added back, as appropriate, if deleted.</div>
-<h1 id=""w_adding-preferences"">Adding preferences</h1>
-<p>To add a new preference, enter its name into the <em>Search preference name</em> box at the top of the about:config page. At the bottom of the search results (if any), there will be the option to create a new preference. To do so, specify the type of value that preference will store:
-</p>
-<ul><li><strong>Boolean</strong> is true or false.
-</li><li><strong>Number</strong> is an integer.
-</li><li><strong>String</strong> is any sequence of text.
-</li></ul>
-<p><img alt=""Fx145aboutconfig-newpref"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-15-41-bcf698.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Click the <em>Add</em> <img alt=""Fx71aboutconfig-AddButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-37-13-6f14d8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to create the new preference and set its value. Boolean preferences are set to <span class=""pref"">true</span> by default, use the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button for them to change the value. For string or number preferences, enter a value and click the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
-</p><p>Click the <em>Delete</em> <img alt=""Fx71aboutconfig-DeleteButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-53-36-604f20.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to discard the new preference (see <a href=""#w_resetting-or-deleting-preferences"">above</a>).
-</p><p> <br><br> 
-<em><strong>Based on information from <a href=""http://kb.mozillazine.org/About:config"">About:config (mozillaZine KB)</a></strong></em>
-</p>",firefox,advanced-and-experimental-features,"The Configuration Editor (_about:config_ Advanced Preferences page) lists Firefox preference settings that are read from the prefs.js and user.js files in the [Firefox profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") and from application defaults. Many of these preferences are advanced settings that are not present in the [Settings](\""https://support.mozilla.org/en-US/kb/firefox-options-preferences-and-settings"") panels. This article describes how to use the about:config page to view, change, or reset Firefox preference settings, if you need to do so.
-
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-## Table of Contents
-
-- [1 Opening the about:config page](https://support.mozilla.org/kb/about-config-editor-firefox#w_opening-the-aboutconfig-page)
-- [2 Searching for preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_searching-for-preferences)
-- [3 Modifying preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_modifying-preferences)
-- [4 Resetting or deleting preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_resetting-or-deleting-preferences)
-- [5 Adding preferences](https://support.mozilla.org/kb/about-config-editor-firefox#w_adding-preferences)
-
-# Opening the about:config page
-
-Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page. ![Fx145aboutconfig](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Click Show All to view all preferences currently set in the profile or use the _Search preference name_ box to filter the list.
-
-# Searching for preferences
-You can use the _Search preference name_ box at the top of the _about:config_ page to quickly find specific preferences. For example, if you enter _ocsp_ in the Search box, it will bring up the security.OCSP.enabled preference. 
-**Note:** Preference names are case-sensitive. Search terms are not.
-
-If you enter a search term and a preference does not exist, you will have the option to add a new preference ([see below](https://support.mozilla.org/kb/about-config-editor-firefox#w_adding-preferences)).
-
-# Modifying preferences
-
-![Fx145aboutconfig-showall](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-To change a **boolean (true-false)** preference's value, double-click on the preference.
-
-- Alternatively, you can click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-
-To change a **string (text)** or a **number** preference's value:
-
-1. Double-click on the preference.
-  - Alternatively, you can click the _Edit_ ![Fx71aboutconfig-EditButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-
-2. Enter a new value.  
- ![Fx145aboutconfig-editpref](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-3. Click on the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save the change. 
-
-# Resetting or deleting preferences
-
-**Note:** You can only reset or remove **modified** preferences, which are listed in bold type. To reset all preferences, see [Reset Firefox preferences to troubleshoot and fix problems](\""https://support.mozilla.org/en-US/kb/reset-preferences-fix-problems"").
-
-To reset a preference to its default value, click the _Reset_ ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-
-To remove an added preference, click the _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button. If you added the preference entry yourself, it will no longer be listed after restarting Firefox. 
-**Note:** A _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button may be shown for some preferences that appear in bold type that you did not modify or add, such as preferences whose values are system-specific. Those preferences will be added back, as appropriate, if deleted.
-
-# Adding preferences
-
-To add a new preference, enter its name into the _Search preference name_ box at the top of the about:config page. At the bottom of the search results (if any), there will be the option to create a new preference. To do so, specify the type of value that preference will store:
-
-- **Boolean** is true or false.
-- **Number** is an integer.
-- **String** is any sequence of text.
-
-![Fx145aboutconfig-newpref](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Click the _Add_ ![Fx71aboutconfig-AddButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to create the new preference and set its value. Boolean preferences are set to true by default, use the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button for them to change the value. For string or number preferences, enter a value and click the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-
-Click the _Delete_ ![Fx71aboutconfig-DeleteButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to discard the new preference (see [above](https://support.mozilla.org/kb/about-config-editor-firefox#w_resetting-or-deleting-preferences)).
-
-_**Based on information from [About:config (mozillaZine KB)](http://kb.mozillazine.org/About:config)**_
-
-"
 27897,Make Firefox your default browser on Windows,how-change-your-default-browser-firefox-windows,https://support.mozilla.org/en-US/kb/how-change-your-default-browser-firefox-windows,en-US,Learn how to make Firefox your default Web browser on Windows 10 and Windows 11.,"<p>Whether you're using Windows 10 or the latest Windows 11, this guide will help you set Firefox as your default browser with minimal fuss. Setting Firefox as your default browser on Windows has become a bit more involved due to changes in how Windows manages default applications. We introduced a new guidance notification feature to help you easily navigate these changes.
 </p>
 <div class=""note""><strong>Note:</strong> <span class=""for"" data-for=""win7,win8,winxp,linux,mac"">This article applies to Windows 10 or Windows 11. For previous versions of Windows, see <a href=""/en-US/kb/make-firefox-your-default-browser"">Make Firefox your default browser</a>. </span>If you don’t currently have Firefox installed on your computer, first <a href=""/en-US/kb/how-install-firefox-windows"">download and install Firefox</a>.</div> 
@@ -61376,46 +60957,6 @@ For more information on Apple's drag and drop feature, see [Drag and Drop on the
 3. Release the link and the other app will open and load that link.
 
 For more information on Apple's drag and drop feature, see [Drag and Drop on the Apple website](https://developer.apple.com/ios/drag-and-drop/).
-"
-40425,Use Face ID or Touch ID on Firefox Klar,use-face-id-or-touch-id-firefox-klar,https://support.mozilla.org/en-US/kb/use-face-id-or-touch-id-firefox-klar,en-US,Add an extra layer of privacy by setting up Face ID (iPhone X) or Touch ID on Firefox Klar.,"<p>
-</p><p>Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
-</p>
-<ol><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Under <span class=""menu"">Privacy</span>, turn the switch on <img alt=""FocusToggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-05-12-53-39-fef3a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> next to <span class=""menu"">Use Face ID/Touch ID to unlock app</span>.
-</li><li>Tap <span class=""menu"">Back</span> at the top left to return to the home screen.
-</li></ol>",klar,firefox-klar-ios,"Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
-
-1. Tap the menu button in the bottom right corner.
-2. Tap Settings.
-3. Under Privacy, turn the switch on ![FocusToggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to Use Face ID/Touch ID to unlock app.
-4. Tap Back at the top left to return to the home screen.
-
-"
-40426,Find words on a page in Firefox Klar for iOS,find-words-page-firefox-klar-ios,https://support.mozilla.org/en-US/kb/find-words-page-firefox-klar-ios,en-US,Use the Find in Page feature to search for specific words on a web page.,"<p>
-</p><p>Use the <em>Find in Page</em> feature to search for specific words on a web page in a few taps.
-</p>
-<ol><li>Open the page you want to search.
-</li><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Find in Page</span> in the menu that pops up.
-<dl><dt><img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
-</dt></dl>
-</li><li>Enter the word or phrase that you want to find.
-</li><li>Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
-</li><li>Use the up or down arrows to see each instance of that word or phrase on the page.
-</li><li>Tap the <strong>X</strong> to return to regular view.
-</li></ol>",klar,firefox-klar-ios,"Use the _Find in Page_ feature to search for specific words on a web page in a few taps.
-
-1. Open the page you want to search.
-2. Tap the menu button in the bottom right corner.
-3. Tap Find in Page in the menu that pops up.<dl><dt>
-<img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
-</dt></dl>
-4. Enter the word or phrase that you want to find.
-5. Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
-6. Use the up or down arrows to see each instance of that word or phrase on the page.
-7. Tap the **X** to return to regular view.
-
 "
 40427,Change to desktop view on Firefox Klar for iOS,change-desktop-view-firefox-klar-ios,https://support.mozilla.org/en-US/kb/change-desktop-view-firefox-klar-ios,en-US,"If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps.","<p>
 </p><p>If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps:
@@ -85142,6 +84683,67 @@ We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and
 
 2. Tap Settings in the menu panel.
 3. Under General, tap Theme.
+
+"
+55636,Usage Data Changes for Firefox for iOS and Android,usage-data-changes-firefox-ios-and-android,https://support.mozilla.org/en-US/kb/usage-data-changes-firefox-ios-and-android,en-US,Firefox began collecting new usage data to support the Firefox for iOS 39 and Android 94 releases to support personalization.,"<p>Firefox began collecting new usage data to support the Firefox for <a href=""/en-US/kb/whats-new-firefox-ios-version-39"">iOS 39</a> and <a href=""/en-US/kb/whats-new-firefox-android"">Android 94</a> releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database. 
+</p><p>Note that we are not collecting any personal information as part of this change. 
+</p>
+<h1 id=""w_usage-data-being-collected-and-used-to-support-our-new-features"">Usage data being collected and used to support our new features</h1>
+<h2 id=""w_new"">New</h2>
+<ul><li>Total view time of the page
+</li><li>Search terms if the page was loaded from a search result page
+</li><li>Referrer URL if the page was loaded from another page
+</li><li>Referring application and/or category (for example, the application Twitter and its category Social that referred to open the page.
+</li><li>Document type (regular or media) 
+</li></ul>
+<h2 id=""w_existing"">Existing</h2>
+<ul><li>First and last visit times
+</li></ul>",mobile;ios,privacy-and-security,"Firefox began collecting new usage data to support the Firefox for [iOS 39](\""https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-39"") and [Android 94](\""https://support.mozilla.org/en-US/kb/whats-new-firefox-android"") releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database.
+
+Note that we are not collecting any personal information as part of this change.
+
+# Usage data being collected and used to support our new features
+
+## New
+
+- Total view time of the page
+- Search terms if the page was loaded from a search result page
+- Referrer URL if the page was loaded from another page
+- Referring application and/or category (for example, the application Twitter and its category Social that referred to open the page.
+- Document type (regular or media) 
+
+## Existing
+
+- First and last visit times
+
+"
+55680,Personalize Firefox with colorways,personalize-firefox-colorways,https://support.mozilla.org/en-US/kb/personalize-firefox-colorways,en-US,"Personalize your browsing experience with Colorways themes for Firefox, created in partnership with an industry color specialist.","<p>Colorways are a set of dynamic themes designed in collaboration with color specialists to enhance your Firefox browsing experience. They offer a unique way to personalize your browser, reflecting your style and mood with bespoke color schemes. Whether you're looking to boost your productivity with calming hues or brighten your day with vibrant colors, colorways provides a wide range of options to suit your preferences.
+</p><p><img alt=""Colorways homepage"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-11-08-52-40-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>You can access your saved and active colorways in the Themes panel (simply click on <span class=""menu"">Add-ons and themes</span> from the Firefox menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> at the top right corner of your screen). 
+</p>
+<div class=""note""><strong>Note:</strong> direct access to colorways via <a href=""/en-US/kb/how-set-tab-pickup-firefox-view"">Firefox View</a> ended on January 16, 2023.</div>
+<h1 id=""w_cant-find-your-previously-installed-colorway"">Can’t find your previously installed colorway?</h1>
+<p>Firefox recently made some backend updates to colorways to streamline maintenance. Most users were automatically migrated to the updated themes. In case you notice your favorite theme is missing, don't worry. Simply head over to the <a href=""https://addons.mozilla.org/en-US/firefox/collections/4757633/colorways/"">add-ons website</a>, where you can reinstall your colorway by following the installation steps from there.
+</p>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li><a href=""/en-US/kb/use-themes-change-look-of-firefox"">Use themes to change the look of Firefox</a>
+</li><li><a href=""/en-US/kb/customize-items-on-firefox-new-tab-page#w_wallpapers"">Customize items on your Firefox New Tab page</a>
+</li></ul>",firefox,settings,"Colorways are a set of dynamic themes designed in collaboration with color specialists to enhance your Firefox browsing experience. They offer a unique way to personalize your browser, reflecting your style and mood with bespoke color schemes. Whether you're looking to boost your productivity with calming hues or brighten your day with vibrant colors, colorways provides a wide range of options to suit your preferences.
+
+![Colorways homepage](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+You can access your saved and active colorways in the Themes panel (simply click on Add-ons and themes from the Firefox menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) at the top right corner of your screen).
+
+**Note:** direct access to colorways via [Firefox View](\""https://support.mozilla.org/en-US/kb/how-set-tab-pickup-firefox-view"") ended on January 16, 2023.
+
+# Can’t find your previously installed colorway?
+
+Firefox recently made some backend updates to colorways to streamline maintenance. Most users were automatically migrated to the updated themes. In case you notice your favorite theme is missing, don't worry. Simply head over to the [add-ons website](https://addons.mozilla.org/en-US/firefox/collections/4757633/colorways/), where you can reinstall your colorway by following the installation steps from there.
+
+# Related content
+
+- [Use themes to change the look of Firefox](\""https://support.mozilla.org/en-US/kb/use-themes-change-look-of-firefox"")
+- [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page#w_wallpapers"")
 
 "
 55781,Download Firefox on Windows from the Microsoft Store,download-firefox-windows-microsoft-store,https://support.mozilla.org/en-US/kb/download-firefox-windows-microsoft-store,en-US,"The ""Mozilla Firefox"" app is available from the Microsoft Store for Windows 10 and Windows 11. Learn how to install it.","<div class=""for"" data-for=""linux,mac,winxp,win7,win8""><div class=""note"">Installing Firefox from the Microsoft store requires Windows 10 or Windows 11.</div></div>
@@ -117331,6 +116933,153 @@ Language support is expanding. Firefox will display the menu in your system lang
 - [Choose your opening screen for Firefox for Android](\""https://support.mozilla.org/en-US/kb/set-opening-screen-firefox-android"")
 - [Get familiar with Firefox for Android](\""https://support.mozilla.org/en-US/kb/get-familiar-firefox-android"")
 - [How to Use Find in Page for Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-use-find-page-firefox-android"")
+
+"
+68228,Thunderbird ESR,thunderbird-esr,https://support.mozilla.org/en-US/kb/thunderbird-esr,en-US,"Stable Thunderbird Extended Support Release (ESR) for desktop for use by organizations, that gets regular release of major bug fixes and security patches, but infrequent new features and improvements.","<p>
+</p>
+<h1 id=""w_overview"">Overview</h1>
+<p>Thunderbird offers an Extended Support Release (ESR) for organizations, including schools, universities, businesses and others who need extended support for mass deployments. Thunderbird ESR can be <a href=""https://thunderbird.net/download/esr"">downloaded here</a>. The ESR release is based on the regular release cycle of Thunderbird for desktop, which follows the <a href=""https://whattrainisitnow.com/calendar/"">Firefox release cycle</a>.
+</p><p>Thunderbird ESR receives enhancements (new features and capabilitities) annually. Users who need enhancements more frequently may want to try <a href=""/en-US/kb/thunderbird-release"">Thunderbird Release</a> or <a href=""/en-US/kb/choosing-thunderbird-release-channel"">other Thunderbird channels</a>.
+</p>
+<h1 id=""w_release-cycle-details"">Release cycle details</h1>
+<p>ESR releases are maintained for more than a year, with point releases that coincide with regular Thunderbird releases. These point releases contain security upgrades and stability fixes.
+</p><p>The ESR version will also have a three cycle (at least 12 weeks) overlap between the time of a new release and the end-of-life of the previous release to permit testing and certification before you deploy the new version to your organization.
+</p><p>We rely on Thunderbird ESR users to provide feedback for each new ESR release. Please report any bugs such as  compatibility regressions and stability issues. <strong>Enterprise managers are encouraged to join the <a href=""https://thunderbird.topicbox.com/groups/enterprise"">Enterprise topicbox discussion group</a> to stay informed of changes and activity, and learn about managing Thunderbird.</strong>
+</p><p>Maintenance of each ESR through point releases is limited to high-risk/high-impact security vulnerabilities, major stability fixes, and in rare cases may also include off-schedule releases that address live security vulnerabilities. Backports of any functional enhancements are not in scope.
+</p><p>At the end of the support period for an ESR version:
+</p>
+<ul><li> the release will reach its end-of-life
+</li><li> no further updates will be offered for that version
+</li><li> an update to the next version will be offered through the application update service
+</li></ul>
+<p>
+</p>
+<h1 id=""w_upgrade-path-between-two-esr-versions"">Upgrade path between two ESR versions</h1>
+<p>An ESR version will be automatically upgraded to the subsequent ESR version. System administrators can disable automatic updates by managing ESR through their deployment system or by using <a href=""https://enterprise.thunderbird.net/manage-updates-policies-and-customization/managing-thunderbird-policies"">policies</a>. 
+</p><p>
+</p>",thunderbird,install;installation-and-updates,"# Overview
+
+Thunderbird offers an Extended Support Release (ESR) for organizations, including schools, universities, businesses and others who need extended support for mass deployments. Thunderbird ESR can be [downloaded here](https://thunderbird.net/download/esr). The ESR release is based on the regular release cycle of Thunderbird for desktop, which follows the [Firefox release cycle](https://whattrainisitnow.com/calendar/).
+
+Thunderbird ESR receives enhancements (new features and capabilitities) annually. Users who need enhancements more frequently may want to try [Thunderbird Release](\""https://support.mozilla.org/en-US/kb/thunderbird-release"") or [other Thunderbird channels](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"").
+
+# Release cycle details
+
+ESR releases are maintained for more than a year, with point releases that coincide with regular Thunderbird releases. These point releases contain security upgrades and stability fixes.
+
+The ESR version will also have a three cycle (at least 12 weeks) overlap between the time of a new release and the end-of-life of the previous release to permit testing and certification before you deploy the new version to your organization.
+
+We rely on Thunderbird ESR users to provide feedback for each new ESR release. Please report any bugs such as compatibility regressions and stability issues. **Enterprise managers are encouraged to join the [Enterprise topicbox discussion group](https://thunderbird.topicbox.com/groups/enterprise) to stay informed of changes and activity, and learn about managing Thunderbird.**
+
+Maintenance of each ESR through point releases is limited to high-risk/high-impact security vulnerabilities, major stability fixes, and in rare cases may also include off-schedule releases that address live security vulnerabilities. Backports of any functional enhancements are not in scope.
+
+At the end of the support period for an ESR version:
+
+- the release will reach its end-of-life
+- no further updates will be offered for that version
+- an update to the next version will be offered through the application update service
+
+# Upgrade path between two ESR versions
+
+An ESR version will be automatically upgraded to the subsequent ESR version. System administrators can disable automatic updates by managing ESR through their deployment system or by using [policies](https://enterprise.thunderbird.net/manage-updates-policies-and-customization/managing-thunderbird-policies).
+
+"
+68231,Get started with Firefox 141 for iOS,get-started-firefox-141-ios,https://support.mozilla.org/en-US/kb/get-started-firefox-141-ios,en-US,"Learn about new features in Firefox for iOS version 141, including setup tips, personalization and default browser settings.","<div class=""note""><strong>Note:</strong> This feature is currently part of an experiment available to users on Firefox version 141.</div>
+<p>Firefox is available for any iOS device. Starting version 141 Firefox will have some new additions. After updating or installing the app, Firefox will guide you through a quick walkthrough to help you explore everything it has to offer.
+</p>
+<ol><li>Open your Firefox browser after installing or updating.
+</li><li>Select <span class=""button"">Continue</span> on the onboarding screen.
+<dl><dt><img alt=""Upgrade onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-14-28-87d0cc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Select <span class=""button"">Set as default browser</span> to set Firefox as your main browser.
+<dl><dt><img alt=""Set as default onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-15-24-8537d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+<ul><li>Follow the instructions that appear: tap <span class=""button"">Go to Settings</span>, select <span class=""menu"">Default browser app</span> and choose <strong>Firefox</strong>.
+</li></ul>
+<dl><dt><img alt=""Set FF as default"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-03-f88851.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>With this new version, you’ll be able to choose the position of your address bar and other options to personalize your browsing experience. Pick the desired position and select <span class=""button"">Continue</span>.
+<dl><dt><img alt=""address bar location"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-44-834c61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Finally, accept the Firefox sync by selecting <span class=""button"">Start syncing</span>.
+<dl><dt><img alt=""Start syncing FFV141"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-17-29-ca7fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<p>All done! Enjoy your new browsing experience.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/firefox-available-iphone-or-ipad-my-language"">Is Firefox available for iPhone or iPad in my language?</a>
+</li><li><a href=""/en-US/kb/add-ons-firefox-ios"">Add-ons in Firefox for iOS</a>
+</li><li><a href=""/en-US/kb/private-browsing-firefox-ios"">About private browsing in Firefox for iOS</a>
+</li></ul>",ios,installation-and-updates," **Note:** This feature is currently part of an experiment available to users on Firefox version 141.
+
+Firefox is available for any iOS device. Starting version 141 Firefox will have some new additions. After updating or installing the app, Firefox will guide you through a quick walkthrough to help you explore everything it has to offer.
+
+1. Open your Firefox browser after installing or updating.
+2. Select Continue on the onboarding screen.<dl><dt>
+<img alt=""Upgrade onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-14-28-87d0cc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+3. Select Set as default browser to set Firefox as your main browser.<dl><dt>
+<img alt=""Set as default onboarding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-15-24-8537d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+  - Follow the instructions that appear: tap Go to Settings, select Default browser app and choose **Firefox**.
+
+<dl><dt>
+<img alt=""Set FF as default"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-03-f88851.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+4. With this new version, you’ll be able to choose the position of your address bar and other options to personalize your browsing experience. Pick the desired position and select Continue.<dl><dt>
+<img alt=""address bar location"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-16-44-834c61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+5. Finally, accept the Firefox sync by selecting Start syncing.<dl><dt>
+<img alt=""Start syncing FFV141"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-21-08-17-29-ca7fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+All done! Enjoy your new browsing experience.
+
+# Related articles
+
+- [Is Firefox available for iPhone or iPad in my language?](\""https://support.mozilla.org/en-US/kb/firefox-available-iphone-or-ipad-my-language"")
+- [Add-ons in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/add-ons-firefox-ios"")
+- [About private browsing in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/private-browsing-firefox-ios"")
+
+"
+68233,Firefox for Enterprise 141 - Release notes,firefox-enterprise-141-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-141-release-notes,en-US,See what's coming out with Firefox for Enterprise 141.,"<p>Except where noted, everything here applies only to Firefox 141 and the Firefox 140.1 ESR. Firefox 140 is the next <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
+<h1 id=""w_bug-fixes"">Bug Fixes</h1>
+<ul><li>The new sidebar was shown when using kiosk mode. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1948934"">bug 1948934</a>.
+</li><li>When support was added for extensions installed via policy to manage other extensions, extensions installed via the legacy <a href=""https://mozilla.github.io/policy-templates/#extensions"">Extensions</a> policy were accidentally left out. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1972314"">bug 1972314</a>.
+</li></ul>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The Pocket policies in <a href=""https://mozilla.github.io/policy-templates/#firefoxhome"">FirefoxHome</a> have been restored for compatibility. We've added policies that use the word <strong>Stories</strong> instead of <strong>Pocket</strong> for future use. There are no plans to remove the Pocket policies.
+</li><li>The <a href=""https://mozilla.github.io/policy-templates/#preferences"">Preferences</a> policy has been updated to allow setting the preferences <span class=""pref"">mathml.disabled</span>, <span class=""pref"">svg.context-properties.content.enabled</span>, <span class=""pref"">svg.disabled</span>, <span class=""pref"">webgl.disabled</span>, <span class=""pref"">webgl.force-enabled</span>, <span class=""pref"">xpinstall.enabled</span>, and <span class=""pref"">security.csp.reporting.enabled</span> as well as prefs beginning with <span class=""pref"">privacy.baselineFingerprintingProtection</span> or <span class=""pref"">privacy.fingerprintingProtection</span>.
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<p>There is one more planned release of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
+</p><p>If you need to prevent upgrades for any reason, you can use the <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
+</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies only to Firefox 141 and the Firefox 140.1 ESR. Firefox 140 is the next [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"") so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
+
+## Table of Contents
+
+- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_bug-fixes)
+- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_policies)
+- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-141-release-notes#w_special-notes)
+
+# Bug Fixes
+
+- The new sidebar was shown when using kiosk mode. This was fixed in [bug 1948934](https://bugzilla.mozilla.org/show_bug.cgi?id=1948934).
+- When support was added for extensions installed via policy to manage other extensions, extensions installed via the legacy [Extensions](https://mozilla.github.io/policy-templates/#extensions) policy were accidentally left out. This was fixed in [bug 1972314](https://bugzilla.mozilla.org/show_bug.cgi?id=1972314).
+
+# Policies
+
+- The Pocket policies in [FirefoxHome](https://mozilla.github.io/policy-templates/#firefoxhome) have been restored for compatibility. We've added policies that use the word **Stories** instead of **Pocket** for future use. There are no plans to remove the Pocket policies.
+- The [Preferences](https://mozilla.github.io/policy-templates/#preferences) policy has been updated to allow setting the preferences mathml.disabled, svg.context-properties.content.enabled, svg.disabled, webgl.disabled, webgl.force-enabled, xpinstall.enabled, and security.csp.reporting.enabled as well as prefs beginning with privacy.baselineFingerprintingProtection or privacy.fingerprintingProtection.
+
+# Special Notes
+
+There is one more planned release of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
+
+If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
 
 "
 68234,Explore the toolbar in Firefox for iOS,toolbar-firefox-ios,https://support.mozilla.org/en-US/kb/toolbar-firefox-ios,en-US,"Learn about the updated toolbar in Firefox for iOS, including new icons, microphone access, and customization options.","<p>You can browse the Internet faster and easier with the toolbar in Firefox for iOS. Version 141 introduces a redesigned toolbar that supports features and UI changes for an easier and faster browsing experience.
