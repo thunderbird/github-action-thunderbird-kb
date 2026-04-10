@@ -19327,376 +19327,6 @@ A: Firefox uses the OpenH264 plugin to support WebRTC-based video calls, and the
 - [Watch DRM content on Firefox](\""https://support.mozilla.org/en-US/kb/enable-drm"")
 
 "
-862,Tab preferences and settings,tab-preferences-and-settings,https://support.mozilla.org/en-US/kb/tab-preferences-and-settings,en-US,Learn how to customize tab settings in Firefox to enhance your browsing experience.,"<p>Tabs are an essential part of your browsing experience in Firefox, allowing you to keep multiple websites open in a single window. Firefox provides several options to customize how tabs work to suit your preferences. This article will guide you through these settings.
-</p>
-<h1 id=""w_review-and-change-tab-settings"">Review and change tab settings</h1>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select the <span class=""menu"">General</span> panel and go to the <strong>Tabs</strong> section.
-</li></ol>
-<dl><dt><span class=""for"" data-for=""fx142""><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx142""><span class=""for"" data-for=""fx129""><span class=""for"" data-for=""not win""><img alt=""Tab settings simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-33-57-72082f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx129TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-12-39-16-eb2f19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx129""><span class=""for"" data-for=""mac""><img alt=""Confirm_MactabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-22-07-3ecc05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Confirm_LinuxtabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-14-20-54-01d59f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx94settingsTabs-Win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-07-09-35-39-eb7cea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span></span>
-</dt></dl>
-<ul><li><strong>Ctrl+Tab cycles through tabs in recently used order:</strong> Select this setting if you want to use the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Tab</span></span> keyboard shortcut to switch through open tabs in the order you viewed them rather than in the order they appear in the Firefox window.<div class=""note""><strong>Note:</strong> If you want to use <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Tab</span></span> to switch to the tab next to the current tab and <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Shift</span> + <span class=""key"">Tab</span></span> to switch to the previous tab, deselect this setting (clear the checkbox).</div>
-</li><li><strong>Open links in tabs instead of new windows:</strong> This setting controls whether links from other applications or from web pages which request to open them in new windows are opened in a new window or a new tab in the most recent window.<div class=""note""><strong>Note:</strong> If you have chosen to open pages in new tabs, Firefox will ignore this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span> and will open a new window from a link if the page author specified that the new window should have a specific size, because some pages can only be displayed correctly at a specific size.</div>
-</li><li><strong>When you open a link, image or media in a new tab, switch to it immediately:</strong> When you middle-click on a Web link (or hold down <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> while clicking with the left mouse button), the page will be opened in a new tab. That new tab will be in the background (the selected tab will not change). The same thing happens when opening a web link, image or video in a new tab using the context menu. Check this setting to load and display the page in a new foreground tab instead.
-</li><li><span class=""for"" data-for=""fx142""><strong>Ask before closing multiple tabs:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before closing multiple tabs:</strong></span>  Select this setting to enable a warning dialog to confirm your choice to close a window with multiple tabs (shown below) to prevent accidentally closing the entire window when you only intend to close the current tab. To learn more, see <a href=""/en-US/kb/how-configure-close-tab-warnings-firefox"">How to configure Close Tab warnings in Firefox</a>.
-</li></ul>
-<dl><dt><img alt=""fx89-warn-on-close"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-40-56-5c8a1b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div class=""for"" data-for=""mac"">
-<ul><li><span class=""for"" data-for=""fx142""><strong>Ask before quitting with ⌘Q:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before quitting with ⌘Q:</strong></span> On macOS, you can also exit Firefox using the <span class=""key"">Command ⌘</span> + <span class=""key"">Q</span> keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck this setting.
-</li></ul>
-</div><div class=""for"" data-for=""linux"">
-<ul><li><span class=""for"" data-for=""fx142""><strong>Ask before quitting with Ctrl+Q:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before quitting with Ctrl+Q:</strong></span> On Linux, you can also exit Firefox using the <span class=""key"">Ctrl</span> + <span class=""key"">Q</span> keyboard shortcut. Deselect this setting if you want to disable close multiple tabs warnings when you use this shortcut.
-</li></ul>
-</div>
-<ul><li><em>(If applicable)</em> <strong>Warn you when opening multiple tabs might slow down Firefox:</strong> This setting is only shown if you disabled the warning dialog Firefox displays to confirm your choice to open multiple tabs at once (shown below). Check this setting to re-enable the warning, to prevent accidentally slowing down Firefox while loading a large number of tabs.
-</li></ul>
-<dl><dt><img alt=""fx89-warn-on-open"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-29-14-53af4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div class=""for"" data-for=""win"">
-<ul><li> <strong>Show tab previews in the Windows taskbar:</strong> When you move your pointer over the Firefox icon in the Windows taskbar, Windows will show you a preview of the Firefox window. With this option check marked, Windows will show you a separate preview for each tab.
-</li></ul>
-</div><div class=""for"" data-for=""fx129"">
-<ul><li><strong>Show an image preview when you hover on a tab:</strong> When you move your pointer over a tab, Firefox will show a thumbnail preview image. To disable the preview images, uncheck this setting.
-</li></ul>
-<dl><dt><img alt=""tab hover over preview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-49-52-ef69d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
-</dt></dl>
-</div><div class=""for"" data-for=""fx142"">
-<ul><li><strong>Use AI to suggest tabs and a name for tab groups:</strong> With the <a href=""/en-US/kb/how-use-ai-enhanced-tab-groups"">AI-enhanced tab groups</a> feature, AI will suggest names and tabs based on similar open tabs in a single window. This feature is part of a progressive rollout and may not be available to all users.
-</li></ul>
-</div>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/tabs-organize-websites-single-window"">Use tabs to organize lots of websites in a single window</a> 
-</li><li><a href=""/en-US/kb/tab-overview-menu"">Tab overview menu</a> 
-</li><li><a href=""/en-US/kb/tab-context-menu"">Tab context menu</a>
-</li></ul>
-<div class=""for"" data-for=""fx136"">
-<ul><li><a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>
-</li></ul>
-</div>",firefox,browse;settings;tabs,"Tabs are an essential part of your browsing experience in Firefox, allowing you to keep multiple websites open in a single window. Firefox provides several options to customize how tabs work to suit your preferences. This article will guide you through these settings.
-
-# Review and change tab settings
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select the General panel and go to the **Tabs** section.
-
-<dl><dt>
-<span class=""for"" data-for=""fx142""><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx142""><span class=""for"" data-for=""fx129""><span class=""for"" data-for=""not win""><img alt=""Tab settings simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-33-57-72082f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx129TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-12-39-16-eb2f19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx129""><span class=""for"" data-for=""mac""><img alt=""Confirm_MactabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-22-07-3ecc05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Confirm_LinuxtabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-14-20-54-01d59f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx94settingsTabs-Win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-07-09-35-39-eb7cea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span></span>
-</dt></dl>
-- **Ctrl+Tab cycles through tabs in recently used order:** Select this setting if you want to use the Ctrl + TabControl + Tab keyboard shortcut to switch through open tabs in the order you viewed them rather than in the order they appear in the Firefox window.
-**Note:** If you want to use Ctrl + TabControl + Tab to switch to the tab next to the current tab and Ctrl + Shift + TabControl + Shift + Tab to switch to the previous tab, deselect this setting (clear the checkbox).
-- **Open links in tabs instead of new windows:** This setting controls whether links from other applications or from web pages which request to open them in new windows are opened in a new window or a new tab in the most recent window.
-**Note:** If you have chosen to open pages in new tabs, Firefox will ignore this optionpreference and will open a new window from a link if the page author specified that the new window should have a specific size, because some pages can only be displayed correctly at a specific size.
-- **When you open a link, image or media in a new tab, switch to it immediately:** When you middle-click on a Web link (or hold down CtrlCommand while clicking with the left mouse button), the page will be opened in a new tab. That new tab will be in the background (the selected tab will not change). The same thing happens when opening a web link, image or video in a new tab using the context menu. Check this setting to load and display the page in a new foreground tab instead.
-- **Ask before closing multiple tabs:**** Confirm before closing multiple tabs:** Select this setting to enable a warning dialog to confirm your choice to close a window with multiple tabs (shown below) to prevent accidentally closing the entire window when you only intend to close the current tab. To learn more, see [How to configure Close Tab warnings in Firefox](\""https://support.mozilla.org/en-US/kb/how-configure-close-tab-warnings-firefox"").
-
-<dl><dt>
-<img alt=""fx89-warn-on-close"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-40-56-5c8a1b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-- **Ask before quitting with ⌘Q:**** Confirm before quitting with ⌘Q:** On macOS, you can also exit Firefox using the Command ⌘ + Q keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck this setting.
-
-- **Ask before quitting with Ctrl+Q:**** Confirm before quitting with Ctrl+Q:** On Linux, you can also exit Firefox using the Ctrl + Q keyboard shortcut. Deselect this setting if you want to disable close multiple tabs warnings when you use this shortcut.
-
-- _(If applicable)_ **Warn you when opening multiple tabs might slow down Firefox:** This setting is only shown if you disabled the warning dialog Firefox displays to confirm your choice to open multiple tabs at once (shown below). Check this setting to re-enable the warning, to prevent accidentally slowing down Firefox while loading a large number of tabs.
-
-<dl><dt>
-<img alt=""fx89-warn-on-open"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-29-14-53af4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-- **Show tab previews in the Windows taskbar:** When you move your pointer over the Firefox icon in the Windows taskbar, Windows will show you a preview of the Firefox window. With this option check marked, Windows will show you a separate preview for each tab.
-
-- **Show an image preview when you hover on a tab:** When you move your pointer over a tab, Firefox will show a thumbnail preview image. To disable the preview images, uncheck this setting.
-
-<dl><dt>
-<img alt=""tab hover over preview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-49-52-ef69d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
-</dt></dl>
-
-- **Use AI to suggest tabs and a name for tab groups:** With the [AI-enhanced tab groups](\""https://support.mozilla.org/en-US/kb/how-use-ai-enhanced-tab-groups"") feature, AI will suggest names and tabs based on similar open tabs in a single window. This feature is part of a progressive rollout and may not be available to all users.
-
-# Related articles
-
-- [Use tabs to organize lots of websites in a single window](\""https://support.mozilla.org/en-US/kb/tabs-organize-websites-single-window"")
-- [Tab overview menu](\""https://support.mozilla.org/en-US/kb/tab-overview-menu"")
-- [Tab context menu](\""https://support.mozilla.org/en-US/kb/tab-context-menu"")
-
-- [Use the sidebar to access tools and vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"")
-
-"
-863,Fix login issues on websites that require a username and password,fix-login-issues-on-websites-require-passwords,https://support.mozilla.org/en-US/kb/fix-login-issues-on-websites-require-passwords,en-US,"If you find that you can't log in to a website that requires a username and password, follow the steps described in this article.","<p>If you find that you can't log in to a website that requires a username and password, follow the steps described in this article.
-</p>
-<ul><li> If you can log in to a website manually, but <strong>can't save or use saved usernames and passwords</strong>, see <a href=""/en-US/kb/usernames-and-passwords-are-not-saved"">Usernames and passwords are not saved</a>.
-</li></ul>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-cookies-for-the-website""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable cookies for the website</span></a></li><li class=""toclevel-1""><a href=""#w_clear-history-for-that-site""><span class=""tocnumber"">2</span> <span class=""toctext"">Clear history for that site</span></a></li><li class=""toclevel-1""><a href=""#w_clear-all-cookies-and-the-cache""><span class=""tocnumber"">3</span> <span class=""toctext"">Clear all cookies and the cache</span></a></li><li class=""toclevel-1""><a href=""#w_check-add-ons""><span class=""tocnumber"">4</span> <span class=""toctext"">Check add-ons</span></a></li><li class=""toclevel-1""><a href=""#w_security-application-is-blocking-cookies""><span class=""tocnumber"">5</span> <span class=""toctext"">Security application is blocking cookies</span></a></li><li class=""toclevel-1""><a href=""#w_remove-corrupt-cookies-file""><span class=""tocnumber"">6</span> <span class=""toctext"">Remove corrupt cookies file</span></a></li></ul></div>
-<h1 id=""w_enable-cookies-for-the-website"">Enable cookies for the website</h1>
-<p>Make sure that <a href=""/en-US/kb/cookies-information-websites-store-on-your-computer"">cookies</a> are enabled for the site in question.
-</p>
-<ul><li>For instructions, see <a href=""/en-US/kb/websites-say-cookies-are-blocked-unblock-them"">Websites say cookies are blocked - Unblock them</a>
-</li></ul>
-<p>If you changed any settings, try logging in to the site again. 
-</p>
-<h1 id=""w_clear-history-for-that-site"">Clear history for that site</h1>
-<p>The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
-</p>
-<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
- Click <span class=""menu"">History</span> and then click the <span class=""menu"">Manage history</span> bar at the bottom to open the Library window.
-
-</li><li> At the top right corner, type the name of the website you wish to forget in the <em>Search History</em> field, and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.
-</li><li> In the resulting list, <span class=""for"" data-for=""win,linux"">right-click</span><span class=""for"" data-for=""mac"">hold down the <span class=""key"">Ctrl</span> key while you click</span> on the site you wish to forget, and select <span class=""menu"">Forget About This Site</span>.<span class=""for"" data-for=""win""><br><img alt=""History Win6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-25-59-2e196c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><br><img alt=""History Mac6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-22-59-4827fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><br><img alt=""History Lin6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-21-07-49758c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</li><li> Close the Library window.
-</li></ol>
-<h1 id=""w_clear-all-cookies-and-the-cache"">Clear all cookies and the cache</h1>
-<p>If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
-</p><div class=""for"" data-for=""not fx128"">
-<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
-
-</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
-</li><li> In the <em>Time range to clear:</em> drop-down, select <strong>Everything</strong>.
-</li><li> Below the drop-down menu, select both <strong>Cookies</strong> and <strong>Cache</strong>. Make sure other items you want to keep are not selected.
-</li><li> Click <span class=""button"">Clear Now</span>.
-</li></ol>
-</div><div class=""for"" data-for=""fx128"">
-<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
-
-</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
-</li><li> In the <em>When:</em> drop-down, select <strong>Everything</strong>.
-</li><li> Below the drop-down menu, select both  <strong>Cookies and site data</strong> and <strong>Temporary cached files and pages</strong>. Make sure other items you want to keep are not selected.
-</li><li> Click <span class=""button"">Clear</span>.
-</li></ol>
-</div>
-To learn more about clearing cookies, site data and cached web content in Firefox, see <a href=""/en-US/kb/clear-cookies-and-site-data-firefox"">Clear cookies and site data in Firefox</a>.
-<p></p>
-<h1 id=""w_check-add-ons"">Check add-ons</h1>
-<p>Some extensions can cause problems with logging in to websites, especially extensions associated with certain websites. See <a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>.
-</p><div class=""for"" data-for=""win"">
-<h1 id=""w_security-application-is-blocking-cookies"">Security application is blocking cookies</h1>
-<p>Some Internet security and privacy applications have features that block cookies. Check the documentation that came with your software or visit the software provider's support site, to see if your application includes a cookie control feature and how you can change those settings. 
-</p></div>
-<h1 id=""w_remove-corrupt-cookies-file"">Remove corrupt cookies file</h1>
-<p>If you can't log in to websites after removing the cookies associated with it, clearing your Firefox cache, and trying with your extensions and plugins disabled<span class=""for"" data-for=""win"">, and have checked security software</span>, you may have a corrupt cookies file in your Firefox profile folder.
-</p>
-<div class=""note""><strong>This will remove all your stored cookies and essentially log you out of all saved sessions on all websites.</strong></div>
-<ol><li><p>Open your profile folder: 
-</p><ul><li><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span> and select <span class=""menu"">More Troubleshooting Information</span>.</span><span class=""for"" data-for=""mac"">From the <span class=""menu"">Help</span> menu, select <span class=""menu"">More Troubleshooting Information</span>.</span> The <strong>Troubleshooting Information</strong> tab will open.
-</li><li>Under the <strong>Application Basics</strong> section next to <em><span class=""for"" data-for=""not linux"">Profile Folder</span><span class=""for"" data-for=""linux"">Profile Directory</span></em>, click <span class=""button""><span class=""for"" data-for=""win"">Open Folder</span><span class=""for"" data-for=""mac"">Show in Finder</span><span class=""for"" data-for=""linux"">Open Directory</span></span>. <span class=""for"" data-for=""mac"">A window will open that contains your profile folder.</span><span class=""for"" data-for=""win"">Your profile folder will open.</span><span class=""for"" data-for=""linux"">Your profile directory will open.</span>
-</li></ul>
-<div class=""note""><strong>Note:</strong>  If<span class=""for"" data-for=""win10,win11""> Firefox displays an error after clicking <span class=""button"">Open Folder</span> or if</span> you are unable to open or use Firefox, follow the instructions in <a href=""/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"">Finding your profile without opening Firefox</a>.</div>
-<p></p>
-</li><li><span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
-
-</li><li> Delete the <span class=""filepath"">cookies.sqlite</span> file and any <span class=""filepath"">cookies.sqlite-journal</span> files.
-</li><li> Restart Firefox.
-</li></ol>
-<p><br>
-
-<br> <br>
-<em><strong>Includes information from <a href=""http://kb.mozillazine.org/Websites_report_cookies_are_disabled"">Websites report cookies are disabled (mozillaZine KB)</a></strong></em>
-</p>",firefox,site-breakages,"If you find that you can't log in to a website that requires a username and password, follow the steps described in this article.
-
-- If you can log in to a website manually, but **can't save or use saved usernames and passwords** , see [Usernames and passwords are not saved](\""https://support.mozilla.org/en-US/kb/usernames-and-passwords-are-not-saved"").
-
-## Table of Contents
-
-- [1 Enable cookies for the website](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_enable-cookies-for-the-website)
-- [2 Clear history for that site](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_clear-history-for-that-site)
-- [3 Clear all cookies and the cache](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_clear-all-cookies-and-the-cache)
-- [4 Check add-ons](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_check-add-ons)
-- [5 Security application is blocking cookies](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_security-application-is-blocking-cookies)
-- [6 Remove corrupt cookies file](https://support.mozilla.org/kb/fix-login-issues-on-websites-require-passwords#w_remove-corrupt-cookies-file)
-
-# Enable cookies for the website
-
-Make sure that [cookies](\""https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"") are enabled for the site in question.
-
-- For instructions, see [Websites say cookies are blocked - Unblock them](\""https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them"")
-
-If you changed any settings, try logging in to the site again.
-
-# Clear history for that site
-
-The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel. Click History and then click the Manage history bar at the bottom to open the Library window.
-2. At the top right corner, type the name of the website you wish to forget in the _Search History_ field, and press EnterReturn.
-3. In the resulting list, right-clickhold down the Ctrl key while you click on the site you wish to forget, and select Forget About This Site.  
- ![History Win6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
- ![History Mac6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
- ![History Lin6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-4. Close the Library window.
-
-# Clear all cookies and the cache
-
-If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
-2. Click History and select Clear recent history…
-3. In the _Time range to clear:_ drop-down, select **Everything**.
-4. Below the drop-down menu, select both **Cookies** and **Cache**. Make sure other items you want to keep are not selected.
-5. Click Clear Now.
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
-2. Click History and select Clear recent history…
-3. In the _When:_ drop-down, select **Everything**.
-4. Below the drop-down menu, select both **Cookies and site data** and **Temporary cached files and pages**. Make sure other items you want to keep are not selected.
-5. Click Clear.
-
-To learn more about clearing cookies, site data and cached web content in Firefox, see [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"").
-
-# Check add-ons
-
-Some extensions can cause problems with logging in to websites, especially extensions associated with certain websites. See [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"").
-
-# Security application is blocking cookies
-
-Some Internet security and privacy applications have features that block cookies. Check the documentation that came with your software or visit the software provider's support site, to see if your application includes a cookie control feature and how you can change those settings.
-
-# Remove corrupt cookies file
-
-If you can't log in to websites after removing the cookies associated with it, clearing your Firefox cache, and trying with your extensions and plugins disabled, and have checked security software, you may have a corrupt cookies file in your Firefox profile folder.
-
-**This will remove all your stored cookies and essentially log you out of all saved sessions on all websites.**
-
-1. Open your profile folder: 
-
-2. Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
-3. Delete the cookies.sqlite file and any cookies.sqlite-journal files.
-4. Restart Firefox.
-
-_**Includes information from [Websites report cookies are disabled (mozillaZine KB)](http://kb.mozillazine.org/Websites_report_cookies_are_disabled)**_
-
-"
-864,How to search the contents of the current page for text or links,search-contents-current-page-text-or-links,https://support.mozilla.org/en-US/kb/search-contents-current-page-text-or-links,en-US,"When you are viewing a web page in Firefox, you can search for words, phrases or links on the page. This article explains how it works.","<p>When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-the-find-bar""><span class=""tocnumber"">1</span> <span class=""toctext"">Using the Find bar</span></a></li><li class=""toclevel-1""><a href=""#w_quick-find""><span class=""tocnumber"">2</span> <span class=""toctext"">Quick Find</span></a><ul><li class=""toclevel-2""><a href=""#w_search-links-only""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Search links only</span></a></li><li class=""toclevel-2""><a href=""#w_find-automatically-while-typing-on-a-page""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Find automatically while typing on a page</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_keyboard-shortcuts""><span class=""tocnumber"">3</span> <span class=""toctext"">Keyboard shortcuts</span></a></li></ul></div>
-<h1 id=""w_using-the-find-bar"">Using the Find bar</h1>
-<p>To search for text on a page:
-</p>
-<ol><li>Click the menu button <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then click <span class=""menu"">Find in page…</span>. Alternatively, <span class=""for"" data-for=""not mac""><a href=""/en-US/kb/restore-menu-bar-firefox"">when the Menu bar is enabled</a> </span>you can click <span class=""menu"">Edit</span> and then click <span class=""menu"">Find in Page…</span> in the Menu bar, or you can press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span> on the keyboard.
-<ul><li> A Find bar will appear at the bottom of the window.
-</li></ul>
-<dl><dt><img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Type a search into the <em>Find in page</em> field. Firefox will automatically highlight the first matching result on the page as you type.
-<ul><li>If the <strong>Highlight All</strong> option is selected, all other matching results will also be highlighted in a different color.
-</li><li>The current highlighted instance number and the total match count are shown in the Find bar. If no match was found, it shows <strong>Phrase not found</strong>.
-</li></ul>
-</li><li>Click Next and Previous arrows to jump to each match on the page.
-</li><li>Click <strong>✕</strong> or press <span class=""key"">Esc</span> to close the Find bar.
-</li></ol>
-<div class=""note"">
-<p>You can enable or disable any of the following options to change the search results:
-</p>
-<ul><li> <strong>Highlight All</strong>: Highlight all terms that match the search you've entered. Click again to turn it off.
-</li><li> <strong>Match case</strong>: Make searches case-sensitive. Normally if you search for “<em>search phrase</em>”, instances of “<em>Search Phrase</em>” on the page will also be found when you use the Find bar. If this option is selected, only instances of the phrase as you've typed it will be found.
-</li><li> <strong>Match <a href=""https://wikipedia.org/wiki/Diacritic"">Diacritics</a></strong>: When this option is selected the search will distinguish between accented letters and their base letters. For example, the search for “<em>résumé</em>” will not find a match for “<em>resume</em>”.
-</li><li> <strong>Whole Words</strong>: This highlights only entire words that match your search.
-</li></ul>
-</div>
-<h1 id=""w_quick-find"">Quick Find</h1>
-<p>The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
-</p><p>Press the <span class=""key"">/</span> key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
-</p><p>The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button (✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
-</p><p>To close the Quick Find bar, wait a few moments for it to disappear, or press the <span class=""key"">Esc</span> key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
-</p>
-<h2 id=""w_search-links-only"">Search links only</h2>
-<p>If you want to find only phrases that occur in links on the page you're viewing:
-</p>
-<ol><li> Type <span class=""key"">'</span> (single quote character) while not into a text field to bring up the Quick Find (links only) bar.
-</li><li> Type a search phrase into the Quick Find (links only) field. The first link that contains the phrase you've typed will be selected.
-</li></ol>
-<h2 id=""w_find-automatically-while-typing-on-a-page"">Find automatically while typing on a page</h2>
-<p>Firefox can start searching for phrases you enter without having to open a Find bar first. To enable this feature:
-</p>
-<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li> In the <span class=""menu"">General</span> panel, go down to the <em>Browsing</em> section.
-</li><li> Check mark <strong>Search for text when you start typing</strong>.
-</li><li> Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
-
-</li></ol>
-<p>After you enable this feature, the Quick Find bar will automatically show up when you type inside a website while not into a text field.
-</p>
-<h1 id=""w_keyboard-shortcuts"">Keyboard shortcuts</h1>
-<ul><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span> to show the Find bar.
-</li><li>Press <span class=""key"">/</span> to show the Quick Find bar while not into a text field.
-</li><li>Press <span class=""key"">'</span> to show the Quick Find (links only) bar while not into a text field.
-</li><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">F3</span> to highlight the next instance of your search phrase or link, even if no Find bar is visible.
-</li><li>Press <span class=""key"">Shift</span>+<span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">Shift</span>+<span class=""key"">F3</span> to highlight the previous one.
-</li><li>Press <span class=""key"">Esc</span> to close the current visible Find bar while the focus is on it, and cancel highlighting.
-</li></ul>",firefox,browse;search;search-tag-and-share,"When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
-
-## Table of Contents
-
-- [1 Using the Find bar](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_using-the-find-bar)
-- [2 Quick Find](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_quick-find)
-  - [2.1 Search links only](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_search-links-only)
-  - [2.2 Find automatically while typing on a page](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_find-automatically-while-typing-on-a-page)
-
-- [3 Keyboard shortcuts](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_keyboard-shortcuts)
-
-# Using the Find bar
-
-To search for text on a page:
-
-1. Click the menu button ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then click Find in page…. Alternatively, [when the Menu bar is enabled](\""https://support.mozilla.org/en-US/kb/restore-menu-bar-firefox"") you can click Edit and then click Find in Page… in the Menu bar, or you can press CtrlCommand+F on the keyboard.
-  - A Find bar will appear at the bottom of the window.
-
-<dl><dt>
-<img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Type a search into the _Find in page_ field. Firefox will automatically highlight the first matching result on the page as you type.
-  - If the **Highlight All** option is selected, all other matching results will also be highlighted in a different color.
-  - The current highlighted instance number and the total match count are shown in the Find bar. If no match was found, it shows **Phrase not found**.
-
-3. Click Next and Previous arrows to jump to each match on the page.
-4. Click **✕** or press Esc to close the Find bar.
-
-You can enable or disable any of the following options to change the search results:
-
-- **Highlight All** : Highlight all terms that match the search you've entered. Click again to turn it off.
-- **Match case** : Make searches case-sensitive. Normally if you search for “_search phrase_”, instances of “_Search Phrase_” on the page will also be found when you use the Find bar. If this option is selected, only instances of the phrase as you've typed it will be found.
-- **Match [Diacritics](https://wikipedia.org/wiki/Diacritic)**: When this option is selected the search will distinguish between accented letters and their base letters. For example, the search for “_résumé_” will not find a match for “_resume_”.
-- **Whole Words** : This highlights only entire words that match your search.
-
-# Quick Find
-
-The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
-
-Press the / key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
-
-The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button&nbsp;(✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
-
-To close the Quick Find bar, wait a few moments for it to disappear, or press the Esc key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
-
-## Search links only
-
-If you want to find only phrases that occur in links on the page you're viewing:
-
-1. Type ' (single quote character) while not into a text field to bring up the Quick Find (links only) bar.
-2. Type a search phrase into the Quick Find (links only) field. The first link that contains the phrase you've typed will be selected.
-
-## Find automatically while typing on a page
-
-Firefox can start searching for phrases you enter without having to open a Find bar first. To enable this feature:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, go down to the _Browsing_ section.
-3. Check mark **Search for text when you start typing**.
-4. Close the Settings page. Any changes you've made will automatically be saved.
-
-After you enable this feature, the Quick Find bar will automatically show up when you type inside a website while not into a text field.
-
-# Keyboard shortcuts
-
-- Press CtrlCommand+F to show the Find bar.
-- Press / to show the Quick Find bar while not into a text field.
-- Press ' to show the Quick Find (links only) bar while not into a text field.
-- Press CtrlCommand+G or F3 to highlight the next instance of your search phrase or link, even if no Find bar is visible.
-- Press Shift+CtrlCommand+G or Shift+F3 to highlight the previous one.
-- Press Esc to close the current visible Find bar while the focus is on it, and cancel highlighting.
-
-"
 867,Use the Troubleshooting Information page to help fix Firefox issues,use-troubleshooting-information-page-fix-firefox,https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox,en-US,"The Troubleshooting Information page has tools and details about your Firefox installation, that can help you solve problems with Firefox.","<p>Firefox includes a <em>Troubleshooting Information</em> page with some problem-solving tools, details about your Firefox installation and other technical data, such as any installed extensions, important modified preferences and graphics information. If you are <a href=""/en-US/kb/get-community-support"">getting help on the support forum</a>, content you provide from this page can help resolve your Firefox issue.
 </p><p><strong>To access the Troubleshooting Information page:</strong> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span>, and select <span class=""menu"">More Troubleshooting Information</span>. You will be taken to a page with the address <em>about:support</em>. You can also access this page by entering <strong>about:support</strong> into the address bar.
 </p><p><img alt=""Fx110-aboutsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-10-15-36-24-a4fe2e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -55529,340 +55159,6 @@ If you want to keep your Firefox up to date, with all the latest features and up
 - Upgrade to a Windows version that Microsoft still supports, such as Windows 10 or higher. Learn more [in this Microsoft FAQ](https://support.microsoft.com/help/14223/).
 Windows versions that are not supported by Microsoft are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions.
 - (Advanced): Switch to a [Linux](https://wikipedia.org/wiki/Linux)-based operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
-
-"
-35932,"Advanced panel - System, network, updates, and other advanced settings in Thunderbird",advanced-panel-settings-in-thunderbird,https://support.mozilla.org/en-US/kb/advanced-panel-settings-in-thunderbird,en-US,"Learn about the Advanced panel of the Thunderbird Options/Preferences window including scrolling, system integration, network, update, certificates, etc.","<p>This article explains the settings available in the Advanced panel of the Thunderbird <span class=""for"" data-for=""win"">Options</span><span class=""for"" data-for=""mac,linux"">Preferences</span> window. These are settings that aren't used often, such as proxy settings or various advanced settings that only some people need.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general-tab""><span class=""tocnumber"">1</span> <span class=""toctext"">General tab</span></a><ul><li class=""toclevel-2""><a href=""#w_return-receipts""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Return Receipts</span></a></li><li class=""toclevel-2""><a href=""#w_return-receipts-dialog""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Return Receipts Dialog</span></a></li><li class=""toclevel-2""><a href=""#w_scrolling""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Scrolling</span></a></li><li class=""toclevel-2""><a href=""#w_system-integration""><span class=""tocnumber"">1.4</span> <span class=""toctext"">System Integration</span></a></li><li class=""toclevel-2""><a href=""#w_advanced-configuration""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Advanced Configuration</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_data-choices-tab""><span class=""tocnumber"">2</span> <span class=""toctext"">Data Choices tab</span></a><ul><li class=""toclevel-2""><a href=""#w_telemetry""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Telemetry</span></a></li><li class=""toclevel-2""><a href=""#w_crash-reporter""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Crash Reporter</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_network-disk-space-tab""><span class=""tocnumber"">3</span> <span class=""toctext"">Network &amp; Disk Space tab</span></a><ul><li class=""toclevel-2""><a href=""#w_connection""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Connection</span></a></li><li class=""toclevel-2""><a href=""#w_connection-settings-dialog""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Connection Settings Dialog</span></a></li><li class=""toclevel-2""><a href=""#w_offline""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Offline</span></a></li><li class=""toclevel-2""><a href=""#w_offline-settings-dialog""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Offline Settings Dialog</span></a></li><li class=""toclevel-2""><a href=""#w_disk-space""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Disk space</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_update-tab""><span class=""tocnumber"">4</span> <span class=""toctext"">Update tab</span></a></li><li class=""toclevel-1""><a href=""#w_certificates-tab""><span class=""tocnumber"">5</span> <span class=""toctext"">Certificates tab</span></a></li></ul></div>
-<h1 id=""w_general-tab"">General tab</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-general-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-08-56-686ef7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-general-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-07-16-3ff81e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-general-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-06-55-5ba0fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<h2 id=""w_return-receipts"">Return Receipts</h2>
-<p>A return receipt adds a request with your message to notify you when the recipient has opened the message.
-</p>
-<h2 id=""w_return-receipts-dialog"">Return Receipts Dialog</h2>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-general-rr-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-08-32-82bdd1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-general-rr-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-08-08-aeba27.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-general-rr-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-07-46-1cdcf6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>When sending messages, always request a return receipt</strong>: Check mark this setting to make Thunderbird automatically request a return receipt on every message you send.
-</li></ul>
-<p>When receipt arrives:
-</p>
-<ul><li> <strong>Leave it in my Inbox</strong>: Return receipts arrive through email. Select this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span> to leave return receipts in your Inbox email folder.
-</li><li> <strong>Move it to my ""Sent"" folder</strong>: Select this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span> to make Thunderbird automatically move return receipts to your ""Sent"" email folder.
-</li></ul>
-<p>When I receive a request for a return receipt:
-</p>
-<ul><li> <strong>Never send a return receipt</strong>: If someone sends you a message that contains a request for a return receipt, select this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span> to make Thunderbird always ignore the request. 
-</li><li> <strong>Allow return receipts for some messages</strong>: For each of these cases, you can set Thunderbird to always send a receipt, ignore the request, or choose <strong>Ask me</strong>, which will make Thunderbird display a prompt when you open the message.
-</li></ul>
-<h2 id=""w_scrolling"">Scrolling</h2>
-<ul><li> <strong>Use autoscrolling</strong>: Autoscrolling is a useful feature which allows you to scroll by clicking the middle mouse button (usually the scroll wheel) and moving the mouse up or down. Some people find this annoying, so autoscrolling can be disabled with this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span>.
-</li></ul>
-<ul><li> <strong>Use smooth scrolling</strong>: Smooth scrolling can be very useful if you read a lot of long messages. Normally, when you press <span class=""key"">Page Down</span>, the view jumps directly down one page. With smooth scrolling, it slides down smoothly, so you can see how much it scrolls. This makes it easier to resume reading from where you were before.
-</li></ul>
-<h2 id=""w_system-integration"">System Integration</h2>
-<ul><li> <strong>Always check to see if Thunderbird is the default mail client on startup</strong>: Select this setting if you want Thunderbird to check whether it is the default mail client at startup. Making Thunderbird your default mail client will ensure Thunderbird is used whenever an application has the option to send mail. For more information, see <a href=""/en-US/kb/make-thunderbird-default-mail-client"">Make Thunderbird the Default Mail Client</a>.
-</li></ul>
-<div class=""for"" data-for=""win"">
-<ul><li> <strong>Allow Windows Search to search messages</strong>: Select this option to allow Windows' built-in search to index your Thunderbird messages. Once indexed, your Thunderbird messages will be included in search results when you use the Windows Search feature.
-</li></ul>
-</div><div class=""for"" data-for=""mac"">
-<ul><li> <strong>Allow Spotlight to search messages</strong>: Select this preference to allow Spotlight to index your Thunderbird messages. Once indexed, your Thunderbird messages will be included in Spotlight search results.
-</li></ul>
-</div>
-<h2 id=""w_advanced-configuration"">Advanced Configuration</h2>
-<ul><li> <strong>Enable Global Search and Indexer</strong>: This enables Thunderbird's built-in search feature, which allows you to search among all messages you have in Thunderbird. For more information, see <a href=""/en-US/kb/global-search"">Global Search</a>.
-</li><li> <strong>Message Store Type for new accounts</strong>: By default, Thunderbird stores mail folders locally in single files (For example, there's a file called <em>Inbox</em>). You can make new accounts store each message in its own file. For more information, see <a href=""/en-US/kb/maildir-thunderbird"">Maildir in Thunderbird</a>.
-</li><li><strong>Use hardware acceleration when available</strong>: Thunderbird can use your computer's graphics processor to display some messages with video and animation. This makes Thunderbird faster since your computer's graphics processor is much better than your computer's main processor at displaying these types of things. This box is checked by default but the feature isn't available for all graphics processors. Thunderbird will enable it when possible.<div class=""note"">If you change this setting you must restart Thunderbird.</div>
-</li><li> <strong>Config Editor</strong>: The Config Editor lists all <span class=""for"" data-for=""win"">options</span><span class=""for"" data-for=""mac,linux"">preferences</span> that Thunderbird has loaded. Many of them are advanced <span class=""for"" data-for=""win"">options</span><span class=""for"" data-for=""mac,linux"">preferences</span>, that are not available in the <span class=""for"" data-for=""win"">Options</span><span class=""for"" data-for=""mac,linux"">Preferences</span> window or Account Settings window. In the Config Editor, you can view, edit, and reset those <span class=""for"" data-for=""win"">options</span><span class=""for"" data-for=""mac,linux"">preferences</span>. For more information, see <a href=""/en-US/kb/config-editor"">Config Editor</a>.
-</li></ul>
-<h1 id=""w_data-choices-tab"">Data Choices tab</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-data-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-06-26-c720c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-data-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-06-02-5439b1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-data-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-05-38-978a2b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<h2 id=""w_telemetry"">Telemetry</h2>
-<ul><li><strong>Enable Telemetry</strong>: Enabling this setting will send anonymous data (<a href=""/en-US/kb/manage-firefox-data-collection-privacy-settings"">learn more</a>) to Mozilla about the real world performance of Thunderbird. This information will be used to make Thunderbird better.
-</li></ul>
-<h2 id=""w_crash-reporter"">Crash Reporter</h2>
-<ul><li> <strong>Enable Crash Reporter</strong>: If Thunderbird crashes, the <a href=""/en-US/kb/mozilla-crash-reporter-tb"">Mozilla Crash Reporter</a> will appear, asking you if you want to report the crash to Mozilla. With this box check marked, the <em>Tell Mozilla about this crash so they can fix it</em> check box in the crash reporter will default to being check marked.
-</li></ul>
-<h1 id=""w_network-disk-space-tab"">Network &amp; Disk Space tab</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-network-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-13-00-c23684.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-network-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-09-44-ef0e0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-network-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-09-24-538662.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<h2 id=""w_connection"">Connection</h2>
-<p>Your organization or Internet service provider may offer or require you to use a proxy. A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests, and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
-</p>
-<h2 id=""w_connection-settings-dialog"">Connection Settings Dialog</h2>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-network-proxy-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-12-35-86b741.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-network-proxy-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-12-13-991790.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-network-proxy-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-11-42-582687.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>No proxy</strong>:  Choose this if you don't want to use a proxy.
-</li><li> <strong>Auto-detect proxy settings for this network</strong>: Choose this if you want Thunderbird to automatically detect the proxy settings for your network.
-</li><li> <strong>Use system proxy settings</strong>:  Choose this if you want to use the proxy settings configured for your operating system. <em>(default setting)</em>
-</li><li> <strong>Manual proxy configuration</strong>: Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
-<ul><li> If the same proxy name and port number are used for all protocols, check <strong>Use this proxy server for all protocols</strong>.
-</li><li> <strong>No Proxy For</strong>: List of hostnames or IP addresses that will not be proxied.
-</li></ul>
-</li><li> <strong>Automatic proxy configuration URL</strong>: Choose this if you have a <a href=""http://en.wikipedia.org/wiki/Proxy_auto-config"">proxy configuration</a> (.pac) file. Enter the URL and click <span class=""button"">OK</span> to save changes and load the proxy configuration.
-<ul><li> <span class=""button"">Reload</span>: The reload button will load the currently available proxy configuration.
-</li></ul>
-</li></ul>
-<h2 id=""w_offline"">Offline</h2>
-<p>These settings control how Thunderbird behaves when your computer is not connected to the internet. For example, Thunderbird will not check for new messages, or try to download messages when you select them. When composing a message, the Send button will become ""Send Later"" and Thunderbird will put your outgoing message in the Outbox, instead of trying to send it.
-</p>
-<h2 id=""w_offline-settings-dialog"">Offline Settings Dialog</h2>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-network-offline-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-11-04-154ba2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-network-offline-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-10-36-21b80a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-network-offline-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-10-10-ba500a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Automatically follow detected online state</strong>: Thunderbird will check if your computer is not connected to the internet. If it is not connected, Thunderbird will switch to offline mode. When a connection is detected, Thunderbird will switch to online mode.
-</li><li> <strong>Manual state when starting up</strong>: If <em>Automatically follow detected online state</em> is not enabled, this will determine how Thunderbird decides if it should be in offline mode when you start it. Setting this to <em>Offline</em> will make Thunderbird always start in offline mode. Setting this to <em>Online</em> will make Thunderbird always start in online mode. <em>Ask me for online state</em> will make Thunderbird always prompt you which mode to choose.  <em>Remember previous online state</em> will make Thunderbird open in the mode it was set at when you last closed it.
-</li><li> <strong>Send unsent messages when going online</strong>: If you have any messages in your Outbox, setting this to <em>Yes</em> will make Thunderbird automatically send those messages when you switch to online mode. When set to <em>No</em>, messages in your Outbox will not be sent. Setting this to <em>Ask me</em> will make Thunderbird prompt you to send messages in your Outbox when you switch to online mode.
-</li><li> <strong>Download messages for offline use when going offline</strong>: If you have any offline folders set to keep a copy of every message on your computer, setting this to <em>Yes</em> will make Thunderbird automatically download any messages in those folders you don't have stored locally when you switch to offline mode. When set to <em>No</em>, local copies of messages will not be synced. Setting this to <em>Ask me</em> will make Thunderbird prompt you to download new messages from online folders when you switch to offline mode.
-</li></ul>
-<h2 id=""w_disk-space"">Disk space</h2>
-<p>Messages you view, which are not kept on your computer, are normally stored in a special cache folder for quicker viewing the next time you view the message. You can specify the amount of disk space the cache can use here. You can also immediately clear the contents of the cache.
-</p>
-<ul><li> <span class=""button"">Clear Now</span>: Immediately clears the current contents of the cache, freeing the disk space used by the cache.
-</li><li> <strong>Use up to ___MB of space for the cache</strong>: This box allows you to specify the maximum size, in megabytes, of the cache on your computer.
-</li><li> <strong>Compact all folders when it will save over ___MB in total</strong>: When a message is deleted, Thunderbird will keep it stored, and mark it as deleted so you won't see it. Compacting a folder removes any messages from storage that have been marked as deleted. This will make message lists load faster, and take up less disk space. Checking this box allows you to specify the maximum size, in megabytes, of the folder before Thunderbird will automatically compact it.
-</li></ul>
-<h1 id=""w_update-tab"">Update tab</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-update-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-14-02-faf529.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-update-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-13-41-cab8be.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-update-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-13-20-cb8674.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><div class=""for"" data-for=""win""><p>
-</p>
-<ul><li><strong>Automatically install updates (recommended: improved security)</strong>: Thunderbird automatically downloads and installs found updates.
-<ul><li> <strong>Warn me if this will disable any of my add-ons:</strong> If you wish to be prompted if the downloads will disable any installed add-ons, select that setting.
-</li></ul>
-</li><li><strong>Check for updates, but let me choose whether to install them:</strong> Thunderbird lets you choose if you want to download and install updates. If you do not choose to do so, you can download them at a later time.
-</li><li><strong>Never check for updates (not recommended: security risk):</strong> Thunderbird will not check for updates. <div class=""warning""><strong>Warning:</strong> If you select this setting, you will not receive critical security updates that may keep you safe online unless you frequently do a manual check for updates.</div>
-</li><li> To review the history of updates that have been downloaded and installed, click <span class=""button"">Show Update History</span>.
-</li><li><strong>Use a background service to install updates:</strong> Thunderbird will use the <a href=""/en-US/kb/what-mozilla-maintenance-service"">Mozilla Maintenance Service</a> when installing updates. This will remove the need to authorize Thunderbird to make changes to your computer through the User Account Control dialog in Windows 7 and Vista.
-</li></ul>
-<div class=""note""><strong>Note:</strong> You must be running Thunderbird as an administrator or as the user who originally installed Thunderbird to install Thunderbird updates.</div>
-</div><div class=""for"" data-for=""mac,linux"">
-<div class=""for"" data-for=""linux""><div class=""note"">Note: Thunderbird update options may be absent if updates are controlled by your Linux <a href=""https://wikipedia.org/wiki/Package_manager"">package manager</a>. </div></div>
-<p>
-</p>
-<ul><li><strong>Automatically install updates (recommended: improved security)</strong>: Thunderbird automatically downloads and installs found updates.
-<ul><li> <strong>Warn me if this will disable any of my add-ons:</strong> If you wish to be prompted if the downloads will disable any installed add-ons, select that setting.
-</li></ul>
-</li><li><strong>Check for updates, but let me choose whether to install them:</strong> Thunderbird lets you choose if you want to download and install updates. If you do not choose to do so, you can download them at a later time.
-</li><li><strong>Never check for updates (not recommended: security risk):</strong> Thunderbird will not check for updates. <div class=""warning""><strong>Warning:</strong> If you select this setting, you will not receive critical security updates that may keep you safe online unless you frequently do a manual check for updates.</div>
-</li><li> To review the history of updates that have been downloaded and installed, click <span class=""button"">Show Update History</span>.
-</li></ul>
-<div class=""for"" data-for=""mac""><div class=""note""><strong>Note:</strong> You must be running Thunderbird as an admin or as the user who originally installed Thunderbird to install Thunderbird updates.</div></div><div class=""for"" data-for=""linux""><div class=""note""><strong>Note:</strong> You must be running Thunderbird as root or as the user who originally installed Thunderbird to install Thunderbird updates.</div></div>
-</div>
-<h1 id=""w_certificates-tab"">Certificates tab</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb45-advanced-certs-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-05-08-b831c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb45-advanced-certs-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-04-23-bb72f7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""linux""><img alt=""tb45-advanced-certs-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-12-13-18-03-32-3f61ac.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p><a href=""http://en.wikipedia.org/wiki/Public_key_certificate"">Certificates</a> help perform encryption and decryption of connections to websites.
-</p>
-<ul><li> <strong>When a server requests my personal certificate:</strong> Some servers ask you to identify yourself with a personal certificate. In order to do so, they ask Thunderbird to generate one for you. When you access a server in the future, Thunderbird will ask you for which certificate to use. If you wish to have Thunderbird automatically choose a certificate for you, select the <strong>Select one automatically</strong> <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span>. <div class=""note""><strong>Note:</strong> A personal certificate can contain personally identifiable information, such as your name or address. It may therefore harm your privacy if you select the <strong>Select one automatically</strong> <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span>. If you do, you will not be alerted when a website request your personal certificate, and you may lose the ability to control who can access your personal information.</div>
-</li></ul>
-<ul><li> <strong>Query OCSP responder servers to confirm the current validity of certificates</strong>: Thunderbird may ask an OCSP (Online Certificate Status Protocol) server to confirm that a certificate is still valid. By default, Thunderbird validates a certificate if the certificate provides an OCSP server. You will most likely only need to change this if your Internet environment requires it.
-</li></ul>
-<ul><li> <span class=""button"">Manage Certificates</span>: Click this button to view stored certificates, import new certificates, and back up or delete old certificates in Thunderbird.
-</li></ul>
-<ul><li> <span class=""button"">Security Devices</span>: Security devices can encrypt and decrypt connections and store certificates and passwords. If you need to use a security device other than the one in Thunderbird, click the <span class=""button"">Security Devices</span> button.
-</li></ul>",thunderbird,settings,"This article explains the settings available in the Advanced panel of the Thunderbird OptionsPreferences window. These are settings that aren't used often, such as proxy settings or various advanced settings that only some people need.
-
-## Table of Contents
-
-- [1 General tab](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_general-tab)
-  - [1.1 Return Receipts](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_return-receipts)
-  - [1.2 Return Receipts Dialog](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_return-receipts-dialog)
-  - [1.3 Scrolling](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_scrolling)
-  - [1.4 System Integration](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_system-integration)
-  - [1.5 Advanced Configuration](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_advanced-configuration)
-
-- [2 Data Choices tab](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_data-choices-tab)
-  - [2.1 Telemetry](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_telemetry)
-  - [2.2 Crash Reporter](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_crash-reporter)
-
-- [3 Network & Disk Space tab](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_network-disk-space-tab)
-  - [3.1 Connection](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_connection)
-  - [3.2 Connection Settings Dialog](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_connection-settings-dialog)
-  - [3.3 Offline](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_offline)
-  - [3.4 Offline Settings Dialog](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_offline-settings-dialog)
-  - [3.5 Disk space](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_disk-space)
-
-- [4 Update tab](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_update-tab)
-- [5 Certificates tab](https://support.mozilla.org/kb/advanced-panel-settings-in-thunderbird#w_certificates-tab)
-
-# General tab
-
-![tb45-advanced-general-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-general-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-general-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Return Receipts
-
-A return receipt adds a request with your message to notify you when the recipient has opened the message.
-
-## Return Receipts Dialog
-
-![tb45-advanced-general-rr-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-general-rr-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-general-rr-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **When sending messages, always request a return receipt** : Check mark this setting to make Thunderbird automatically request a return receipt on every message you send.
-
-When receipt arrives:
-
-- **Leave it in my Inbox** : Return receipts arrive through email. Select this optionpreference to leave return receipts in your Inbox email folder.
-- **Move it to my ""Sent"" folder** : Select this optionpreference to make Thunderbird automatically move return receipts to your ""Sent"" email folder.
-
-When I receive a request for a return receipt:
-
-- **Never send a return receipt** : If someone sends you a message that contains a request for a return receipt, select this optionpreference to make Thunderbird always ignore the request. 
-- **Allow return receipts for some messages** : For each of these cases, you can set Thunderbird to always send a receipt, ignore the request, or choose **Ask me** , which will make Thunderbird display a prompt when you open the message.
-
-## Scrolling
-
-- **Use autoscrolling** : Autoscrolling is a useful feature which allows you to scroll by clicking the middle mouse button (usually the scroll wheel) and moving the mouse up or down. Some people find this annoying, so autoscrolling can be disabled with this optionpreference.
-
-- **Use smooth scrolling** : Smooth scrolling can be very useful if you read a lot of long messages. Normally, when you press Page Down, the view jumps directly down one page. With smooth scrolling, it slides down smoothly, so you can see how much it scrolls. This makes it easier to resume reading from where you were before.
-
-## System Integration
-
-- **Always check to see if Thunderbird is the default mail client on startup** : Select this setting if you want Thunderbird to check whether it is the default mail client at startup. Making Thunderbird your default mail client will ensure Thunderbird is used whenever an application has the option to send mail. For more information, see [Make Thunderbird the Default Mail Client](\""https://support.mozilla.org/en-US/kb/make-thunderbird-default-mail-client"").
-
-- **Allow Windows Search to search messages** : Select this option to allow Windows' built-in search to index your Thunderbird messages. Once indexed, your Thunderbird messages will be included in search results when you use the Windows Search feature.
-
-- **Allow Spotlight to search messages** : Select this preference to allow Spotlight to index your Thunderbird messages. Once indexed, your Thunderbird messages will be included in Spotlight search results.
-
-## Advanced Configuration
-
-- **Enable Global Search and Indexer** : This enables Thunderbird's built-in search feature, which allows you to search among all messages you have in Thunderbird. For more information, see [Global Search](\""https://support.mozilla.org/en-US/kb/global-search"").
-- **Message Store Type for new accounts** : By default, Thunderbird stores mail folders locally in single files (For example, there's a file called _Inbox_). You can make new accounts store each message in its own file. For more information, see [Maildir in Thunderbird](\""https://support.mozilla.org/en-US/kb/maildir-thunderbird"").
-- **Use hardware acceleration when available** : Thunderbird can use your computer's graphics processor to display some messages with video and animation. This makes Thunderbird faster since your computer's graphics processor is much better than your computer's main processor at displaying these types of things. This box is checked by default but the feature isn't available for all graphics processors. Thunderbird will enable it when possible.
-If you change this setting you must restart Thunderbird.
-- **Config Editor** : The Config Editor lists all optionspreferences that Thunderbird has loaded. Many of them are advanced optionspreferences, that are not available in the OptionsPreferences window or Account Settings window. In the Config Editor, you can view, edit, and reset those optionspreferences. For more information, see [Config Editor](\""https://support.mozilla.org/en-US/kb/config-editor"").
-
-# Data Choices tab
-
-![tb45-advanced-data-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-data-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-data-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Telemetry
-
-- **Enable Telemetry** : Enabling this setting will send anonymous data ([learn more](\""https://support.mozilla.org/en-US/kb/manage-firefox-data-collection-privacy-settings"")) to Mozilla about the real world performance of Thunderbird. This information will be used to make Thunderbird better.
-
-## Crash Reporter
-
-- **Enable Crash Reporter** : If Thunderbird crashes, the [Mozilla Crash Reporter](\""https://support.mozilla.org/en-US/kb/mozilla-crash-reporter-tb"") will appear, asking you if you want to report the crash to Mozilla. With this box check marked, the _Tell Mozilla about this crash so they can fix it_ check box in the crash reporter will default to being check marked.
-
-# Network & Disk Space tab
-
-![tb45-advanced-network-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Connection
-
-Your organization or Internet service provider may offer or require you to use a proxy. A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests, and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
-
-## Connection Settings Dialog
-
-![tb45-advanced-network-proxy-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-proxy-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-proxy-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **No proxy** : Choose this if you don't want to use a proxy.
-- **Auto-detect proxy settings for this network** : Choose this if you want Thunderbird to automatically detect the proxy settings for your network.
-- **Use system proxy settings** : Choose this if you want to use the proxy settings configured for your operating system. _(default setting)_
-- **Manual proxy configuration** : Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
-  - If the same proxy name and port number are used for all protocols, check **Use this proxy server for all protocols**.
-  - **No Proxy For** : List of hostnames or IP addresses that will not be proxied.
-
-- **Automatic proxy configuration URL** : Choose this if you have a [proxy configuration](http://en.wikipedia.org/wiki/Proxy_auto-config) (.pac) file. Enter the URL and click OK to save changes and load the proxy configuration.
-  - Reload: The reload button will load the currently available proxy configuration.
-
-## Offline
-
-These settings control how Thunderbird behaves when your computer is not connected to the internet. For example, Thunderbird will not check for new messages, or try to download messages when you select them. When composing a message, the Send button will become ""Send Later"" and Thunderbird will put your outgoing message in the Outbox, instead of trying to send it.
-
-## Offline Settings Dialog
-
-![tb45-advanced-network-offline-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-offline-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-network-offline-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Automatically follow detected online state** : Thunderbird will check if your computer is not connected to the internet. If it is not connected, Thunderbird will switch to offline mode. When a connection is detected, Thunderbird will switch to online mode.
-- **Manual state when starting up** : If _Automatically follow detected online state_ is not enabled, this will determine how Thunderbird decides if it should be in offline mode when you start it. Setting this to _Offline_ will make Thunderbird always start in offline mode. Setting this to _Online_ will make Thunderbird always start in online mode. _Ask me for online state_ will make Thunderbird always prompt you which mode to choose. _Remember previous online state_ will make Thunderbird open in the mode it was set at when you last closed it.
-- **Send unsent messages when going online** : If you have any messages in your Outbox, setting this to _Yes_ will make Thunderbird automatically send those messages when you switch to online mode. When set to _No_, messages in your Outbox will not be sent. Setting this to _Ask me_ will make Thunderbird prompt you to send messages in your Outbox when you switch to online mode.
-- **Download messages for offline use when going offline** : If you have any offline folders set to keep a copy of every message on your computer, setting this to _Yes_ will make Thunderbird automatically download any messages in those folders you don't have stored locally when you switch to offline mode. When set to _No_, local copies of messages will not be synced. Setting this to _Ask me_ will make Thunderbird prompt you to download new messages from online folders when you switch to offline mode.
-
-## Disk space
-
-Messages you view, which are not kept on your computer, are normally stored in a special cache folder for quicker viewing the next time you view the message. You can specify the amount of disk space the cache can use here. You can also immediately clear the contents of the cache.
-
-- Clear Now: Immediately clears the current contents of the cache, freeing the disk space used by the cache.
-- **Use up to \_\_\_MB of space for the cache** : This box allows you to specify the maximum size, in megabytes, of the cache on your computer.
-- **Compact all folders when it will save over \_\_\_MB in total** : When a message is deleted, Thunderbird will keep it stored, and mark it as deleted so you won't see it. Compacting a folder removes any messages from storage that have been marked as deleted. This will make message lists load faster, and take up less disk space. Checking this box allows you to specify the maximum size, in megabytes, of the folder before Thunderbird will automatically compact it.
-
-# Update tab
-
-![tb45-advanced-update-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-update-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-update-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Automatically install updates (recommended: improved security)**: Thunderbird automatically downloads and installs found updates.
-  - **Warn me if this will disable any of my add-ons:** If you wish to be prompted if the downloads will disable any installed add-ons, select that setting.
-
-- **Check for updates, but let me choose whether to install them:** Thunderbird lets you choose if you want to download and install updates. If you do not choose to do so, you can download them at a later time.
-- **Never check for updates (not recommended: security risk):** Thunderbird will not check for updates. 
-**Warning:** If you select this setting, you will not receive critical security updates that may keep you safe online unless you frequently do a manual check for updates.
-- To review the history of updates that have been downloaded and installed, click Show Update History.
-- **Use a background service to install updates:** Thunderbird will use the [Mozilla Maintenance Service](\""https://support.mozilla.org/en-US/kb/what-mozilla-maintenance-service"") when installing updates. This will remove the need to authorize Thunderbird to make changes to your computer through the User Account Control dialog in Windows 7 and Vista.
-
-**Note:** You must be running Thunderbird as an administrator or as the user who originally installed Thunderbird to install Thunderbird updates.
-
-Note: Thunderbird update options may be absent if updates are controlled by your Linux [package manager](https://wikipedia.org/wiki/Package_manager). 
-
-- **Automatically install updates (recommended: improved security)**: Thunderbird automatically downloads and installs found updates.
-  - **Warn me if this will disable any of my add-ons:** If you wish to be prompted if the downloads will disable any installed add-ons, select that setting.
-
-- **Check for updates, but let me choose whether to install them:** Thunderbird lets you choose if you want to download and install updates. If you do not choose to do so, you can download them at a later time.
-- **Never check for updates (not recommended: security risk):** Thunderbird will not check for updates. 
-**Warning:** If you select this setting, you will not receive critical security updates that may keep you safe online unless you frequently do a manual check for updates.
-- To review the history of updates that have been downloaded and installed, click Show Update History.
-
-**Note:** You must be running Thunderbird as an admin or as the user who originally installed Thunderbird to install Thunderbird updates.
-
-**Note:** You must be running Thunderbird as root or as the user who originally installed Thunderbird to install Thunderbird updates.
-
-# Certificates tab
-
-![tb45-advanced-certs-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-certs-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb45-advanced-certs-linux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-[Certificates](http://en.wikipedia.org/wiki/Public_key_certificate) help perform encryption and decryption of connections to websites.
-
-- **When a server requests my personal certificate:** Some servers ask you to identify yourself with a personal certificate. In order to do so, they ask Thunderbird to generate one for you. When you access a server in the future, Thunderbird will ask you for which certificate to use. If you wish to have Thunderbird automatically choose a certificate for you, select the **Select one automatically** optionpreference. 
-**Note:** A personal certificate can contain personally identifiable information, such as your name or address. It may therefore harm your privacy if you select the **Select one automatically** optionpreference. If you do, you will not be alerted when a website request your personal certificate, and you may lose the ability to control who can access your personal information.
-
-- **Query OCSP responder servers to confirm the current validity of certificates** : Thunderbird may ask an OCSP (Online Certificate Status Protocol) server to confirm that a certificate is still valid. By default, Thunderbird validates a certificate if the certificate provides an OCSP server. You will most likely only need to change this if your Internet environment requires it.
-
-- Manage Certificates: Click this button to view stored certificates, import new certificates, and back up or delete old certificates in Thunderbird.
-
-- Security Devices: Security devices can encrypt and decrypt connections and store certificates and passwords. If you need to use a security device other than the one in Thunderbird, click the Security Devices button.
-
-"
-36187,Change the default search in Firefox Focus on iOS,change-default-search-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-default-search-firefox-focus-ios,en-US,"Learn how to change your default search engine in Firefox Focus on your iPhone, iPad or iPod touch.","<p>
-</p><p><a href=""/en-US/kb/firefox-focus-ios"">Firefox Focus for iOS</a> gives you the option to change your default search engine. Here's how to do it:
-</p>
-<ol><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Settings</span>
-</li><li>Under <span class=""menu"">Search</span>, tap <span class=""menu"">Search Engine</span>. 
-</li><li>Choose your desired search engine from the installed search engines list. Your search engine will save automatically. <div class=""note""><strong>Note:</strong> Your choices may differ depending on your region and version.</div> 
-</li><li>Tap <span class=""menu"">Back</span> at the top left to return to the home screen.
-</li></ol>",focus-firefox,search;search-tag-and-share,"[Firefox Focus for iOS](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios"") gives you the option to change your default search engine. Here's how to do it:
-
-1. Tap the menu button in the bottom right corner.
-2. Tap Settings
-3. Under Search, tap Search Engine. 
-4. Choose your desired search engine from the installed search engines list. Your search engine will save automatically. 
-**Note:** Your choices may differ depending on your region and version.
-5. Tap Back at the top left to return to the home screen.
 
 "
 36450,What is Firefox Focus for Android?,what-firefox-focus-android,https://support.mozilla.org/en-US/kb/what-firefox-focus-android,en-US,Firefox Focus gives you a dedicated privacy browser with tracking protection on your Android phone or tablet.,"<p></p><div class=""note""><strong>Living in Germany, Austria or Switzerland?</strong> <a href=""https://support.mozilla.org/de/products/klar"">Firefox Klar</a> is the German language version of Firefox Focus. See <a href=""/en-US/kb/difference-between-firefox-focus-and-firefox-klar"">I can't find Firefox Focus in Germany, Austria or Switzerland</a>.</div>
@@ -93070,6 +92366,235 @@ We recommend that users [create a Mozilla account](\""https://support.mozilla.or
     - **Warn you about unwanted and uncommon software** : Lets you know if you're about to download potentially unwanted software or uncommon software that may contain a virus or make unexpected changes to your computer.
 
 When Firefox detects you've entered a suspicious site, it will display a warning in the address bar. If an unwanted, potentially harmful download is detected, a warning message will display in the Downloads panel and Firefox will block the download. To learn more, see [How does built-in Phishing and Malware Protection work?](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") and [Download protection for downloaded files in Firefox](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection"").
+
+"
+59174,Quick actions in the Firefox search bar,quick-actions-firefox-search-bar,https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar,en-US,This article refers to the new Quick actions feature available in the Firefox address bar drop-down menu.,"<p>Firefox’s Quick Actions are buttons that appear when you type in the address bar. They let you instantly perform common browser tasks—like clearing history or opening settings—without navigating menus.
+</p>
+<dl><dt><span class=""for"" data-for=""not fx140""><img alt=""Fx123BetaQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-11-29-55-f2b4bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx140""><img alt=""Fx140NewTabQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-28-20-23-42-686f08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>This article explains what Quick Actions are, when they appear, how to use them, and how to turn them off if you don’t find them helpful. If this feature isn’t available in your version of Firefox yet, it may be coming soon.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-are-quick-actions""><span class=""tocnumber"">1</span> <span class=""toctext"">What are Quick Actions?</span></a><ul><li class=""toclevel-2""><a href=""#w_available-quick-actions""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Available Quick Actions</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-use-quick-actions""><span class=""tocnumber"">2</span> <span class=""toctext"">How to use Quick Actions?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-turn-off-quick-actions""><span class=""tocnumber"">3</span> <span class=""toctext"">How to turn off Quick Actions?</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshoot-quick-actions""><span class=""tocnumber"">4</span> <span class=""toctext"">Troubleshoot Quick Actions</span></a><ul><li class=""toclevel-2""><a href=""#w_i-dont-see-quick-actions""><span class=""tocnumber"">4.1</span> <span class=""toctext"">I don’t see Quick Actions</span></a></li><li class=""toclevel-2""><a href=""#w_quick-actions-dont-work-or-behave-inconsistently""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Quick Actions don’t work or behave inconsistently</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">5</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_why-was-this-feature-added""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Why was this feature added?</span></a></li><li class=""toclevel-2""><a href=""#w_this-feature-wasnt-in-my-settings-before-did-firefox-change-something""><span class=""tocnumber"">5.2</span> <span class=""toctext"">This feature wasn’t in my settings before—did Firefox change something?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-suggest-new-quick-actions""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Can I suggest new Quick Actions?</span></a></li><li class=""toclevel-2""><a href=""#w_im-seeing-unrelated-suggestions-like-ai-or-tab-groups-whats-going-on""><span class=""tocnumber"">5.4</span> <span class=""toctext"">I'm seeing unrelated suggestions like AI or tab groups. What’s going on?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_what-are-quick-actions"">What are Quick Actions?</h1>
+<p>Quick Actions are shortcuts that appear <strong>below the address bar</strong> when you start typing. They let you quickly complete tasks using just your keyboard.
+</p>
+<table>
+<caption> <strong>Examples of available actions</strong>
+</caption><tbody><tr>
+<th>Action</th><th>What it does
+</th></tr>
+<tr>
+<td>Clear recent history</td><td>Deletes your recent browsing history
+</td></tr>
+<tr>
+<td>View downloads</td><td>Opens your Downloads panel
+</td></tr>
+<tr>
+<td>Manage settings</td><td>Takes you directly to Firefox Settings
+</td></tr>
+<tr>
+<td>View Add-ons</td><td>Opens the Add-ons Manager
+</td></tr>
+<tr>
+<td>Open Firefox View</td><td>Opens the recent browsing panel
+</td></tr>
+<tr>
+<td>Manage passwords</td><td>Opens your saved logins in Password Manager
+</td></tr>
+<tr>
+<td>Translate</td><td> Opens a new tab with a text translation tool
+</td></tr></tbody></table>
+<h2 id=""w_available-quick-actions"">Available Quick Actions</h2>
+<p>To see which Quick Actions are available, enter <span class=""key"">&gt;</span> in the Firefox address bar and press the space bar, or else open the <a href=""/en-US/kb/about-new-tab-page"">New Tab</a> page and select <span class=""menu"">Actions</span> from the address bar drop-down menu.
+</p>
+<dl><dt><img alt=""Fx150QuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-20-22-24-68df3a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""note""><strong>Note:</strong> These options may vary depending on your region, Firefox version or language.</div>
+<h1 id=""w_how-to-use-quick-actions"">How to use Quick Actions?</h1>
+<ol><li>Click in the address bar or start typing a related command (such as ""settings"" or ""history"").
+</li><li>Firefox will show suggested Quick Actions.
+</li><li>Click on a suggestion or use the arrow keys to navigate, then press <span class=""key"">Enter</span>.
+</li></ol>
+<h1 id=""w_how-to-turn-off-quick-actions"">How to turn off Quick Actions?</h1>
+<p>If you prefer not to use this feature, you can disable it in Firefox Settings, as follows:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">Search</span> panel.
+</li><li>Deselect the <span class=""menu"">Quick actions</span> option under the <em>Address Bar - Firefox Suggest</em> section.
+<dl><dt><span class=""for"" data-for=""not fx140""><img alt=""Fx123settings-DisableQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-11-11-33-98eb42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx140""><img alt=""Fx140SearchSettings-DisableQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-14-40-49-fc6f05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</span></dt></dl>
+</li></ol>
+<div class=""note""><strong>Tip:</strong> You can still use traditional menus or keyboard shortcuts for all actions that Quick Actions support.</div>
+<h1 id=""w_troubleshoot-quick-actions"">Troubleshoot Quick Actions</h1>
+<h2 id=""w_i-dont-see-quick-actions"">I don’t see Quick Actions</h2>
+<ul><li>This feature is still being rolled out. Make sure you're using the latest version of Firefox.
+</li><li>Some regional or localized Firefox versions may not have this feature enabled yet.
+</li></ul>
+<h2 id=""w_quick-actions-dont-work-or-behave-inconsistently"">Quick Actions don’t work or behave inconsistently</h2>
+<ul><li>If Quick Actions are not responsive or only appear sometimes, try restarting Firefox.
+</li><li>Check for interfering extensions:
+<ol><li>Restart in <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Troubleshoot Mode</a>: Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span>, select <span class=""menu"">Troubleshoot Mode…</span> and click <span class=""button"">Restart</span> in the <em>Restart Firefox in Troubleshoot Mode?</em> dialog.
+</li><li>Test Quick Actions again.
+</li><li>If they appear, an add-on may be interfering. <a href=""/en-US/kb/disable-or-remove-add-ons#w_disabling-extensions"">Disable extensions</a> one by one to isolate the issue.
+</li></ol>
+</li></ul>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<h2 id=""w_why-was-this-feature-added"">Why was this feature added?</h2>
+<p>Quick Actions aim to make common tasks faster and easier. However, we understand that new features can disrupt established workflows. That’s why Firefox gives you the option to turn them off.
+</p>
+<h2 id=""w_this-feature-wasnt-in-my-settings-before-did-firefox-change-something"">This feature wasn’t in my settings before—did Firefox change something?</h2>
+<p>Yes. Quick Actions were introduced in a recent Firefox version and may be enabled by default. You can customize this behavior using the steps above.
+</p>
+<h2 id=""w_can-i-suggest-new-quick-actions"">Can I suggest new Quick Actions?</h2>
+<p>We’re collecting feedback on this feature. Visit <a href=""https://connect.mozilla.org/"">Mozilla Connect</a> to submit your ideas or concerns.
+</p>
+<h2 id=""w_im-seeing-unrelated-suggestions-like-ai-or-tab-groups-whats-going-on"">I'm seeing unrelated suggestions like AI or tab groups. What’s going on?</h2>
+<p>If you're seeing suggestions not related to Quick Actions, those may be address bar search results or other experimental features. If you want to share feedback:
+</p>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li><li>Click <span class=""menu"">Help</span> and select <span class=""menu"">Share Ideas and Feedback…</span>
+</li></ol>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li> <a href=""/en-US/kb/address-bar-autocomplete-firefox"">Address bar autocomplete suggestions in Firefox</a>
+</li><li> <a href=""/en-US/kb/search-firefox-address-bar"">Search with the Firefox address bar</a>
+</li><li> <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a>
+</li></ul>",firefox,search;search-tag-and-share;settings,"Firefox’s Quick Actions are buttons that appear when you type in the address bar. They let you instantly perform common browser tasks—like clearing history or opening settings—without navigating menus.
+
+<dl><dt>
+<span class=""for"" data-for=""not fx140""><img alt=""Fx123BetaQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-11-29-55-f2b4bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx140""><img alt=""Fx140NewTabQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-28-20-23-42-686f08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+This article explains what Quick Actions are, when they appear, how to use them, and how to turn them off if you don’t find them helpful. If this feature isn’t available in your version of Firefox yet, it may be coming soon.
+
+## Table of Contents
+
+- [1 What are Quick Actions?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_what-are-quick-actions)
+  - [1.1 Available Quick Actions](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_available-quick-actions)
+
+- [2 How to use Quick Actions?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_how-to-use-quick-actions)
+- [3 How to turn off Quick Actions?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_how-to-turn-off-quick-actions)
+- [4 Troubleshoot Quick Actions](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_troubleshoot-quick-actions)
+  - [4.1 I don’t see Quick Actions](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_i-dont-see-quick-actions)
+  - [4.2 Quick Actions don’t work or behave inconsistently](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_quick-actions-dont-work-or-behave-inconsistently)
+
+- [5 Frequently asked questions](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_frequently-asked-questions)
+  - [5.1 Why was this feature added?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_why-was-this-feature-added)
+  - [5.2 This feature wasn’t in my settings before—did Firefox change something?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_this-feature-wasnt-in-my-settings-before-did-firefox-change-something)
+  - [5.3 Can I suggest new Quick Actions?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_can-i-suggest-new-quick-actions)
+  - [5.4 I'm seeing unrelated suggestions like AI or tab groups. What’s going on?](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_im-seeing-unrelated-suggestions-like-ai-or-tab-groups-whats-going-on)
+
+- [6 Related articles](https://support.mozilla.org/kb/quick-actions-firefox-search-bar#w_related-articles)
+
+# What are Quick Actions?
+
+Quick Actions are shortcuts that appear **below the address bar** when you start typing. They let you quickly complete tasks using just your keyboard.
+
+<caption> <strong>Examples of available actions</strong>
+</caption>
+| Action | What it does |
+| --- | --- |
+| Clear recent history | Deletes your recent browsing history |
+| View downloads | Opens your Downloads panel |
+| Manage settings | Takes you directly to Firefox Settings |
+| View Add-ons | Opens the Add-ons Manager |
+| Open Firefox View | Opens the recent browsing panel |
+| Manage passwords | Opens your saved logins in Password Manager |
+| Translate | Opens a new tab with a text translation tool |
+
+## Available Quick Actions
+
+To see which Quick Actions are available, enter \> in the Firefox address bar and press the space bar, or else open the [New Tab](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"") page and select Actions from the address bar drop-down menu.
+
+<dl><dt>
+<img alt=""Fx150QuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-20-22-24-68df3a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+**Note:** These options may vary depending on your region, Firefox version or language.
+
+# How to use Quick Actions?
+
+1. Click in the address bar or start typing a related command (such as ""settings"" or ""history"").
+2. Firefox will show suggested Quick Actions.
+3. Click on a suggestion or use the arrow keys to navigate, then press Enter.
+
+# How to turn off Quick Actions?
+
+If you prefer not to use this feature, you can disable it in Firefox Settings, as follows:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Search panel.
+3. Deselect the Quick actions option under the _Address Bar - Firefox Suggest_ section.<dl><dt>
+<span class=""for"" data-for=""not fx140""><img alt=""Fx123settings-DisableQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-11-11-33-98eb42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx140""><img alt=""Fx140SearchSettings-DisableQuickActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-14-40-49-fc6f05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</span>
+</dt></dl>
+
+**Tip:** You can still use traditional menus or keyboard shortcuts for all actions that Quick Actions support.
+
+# Troubleshoot Quick Actions
+
+## I don’t see Quick Actions
+
+- This feature is still being rolled out. Make sure you're using the latest version of Firefox.
+- Some regional or localized Firefox versions may not have this feature enabled yet.
+
+## Quick Actions don’t work or behave inconsistently
+
+- If Quick Actions are not responsive or only appear sometimes, try restarting Firefox.
+- Check for interfering extensions:
+  1. Restart in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode""): Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Help, select Troubleshoot Mode… and click Restart in the _Restart Firefox in Troubleshoot Mode?_ dialog.
+  2. Test Quick Actions again.
+  3. If they appear, an add-on may be interfering. [Disable extensions](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons#w_disabling-extensions"") one by one to isolate the issue.
+
+# Frequently asked questions
+
+## Why was this feature added?
+
+Quick Actions aim to make common tasks faster and easier. However, we understand that new features can disrupt established workflows. That’s why Firefox gives you the option to turn them off.
+
+## This feature wasn’t in my settings before—did Firefox change something?
+
+Yes. Quick Actions were introduced in a recent Firefox version and may be enabled by default. You can customize this behavior using the steps above.
+
+## Can I suggest new Quick Actions?
+
+We’re collecting feedback on this feature. Visit [Mozilla Connect](https://connect.mozilla.org/) to submit your ideas or concerns.
+
+## I'm seeing unrelated suggestions like AI or tab groups. What’s going on?
+
+If you're seeing suggestions not related to Quick Actions, those may be address bar search results or other experimental features. If you want to share feedback:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+2. Click Help and select Share Ideas and Feedback…
+
+# Related articles
+
+- [Address bar autocomplete suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox"")
+- [Search with the Firefox address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"")
+- [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"")
+
+"
+59221,What's new in Firefox for iOS (version 104),whats-new-firefox-ios-version-104,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-104,en-US,See what's new in the latest release of Firefox for iOS (version 104).,"<p>Welcome to a new version of Firefox for iOS (version 104). This release comes with the following improvements and features:
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_mobile-bookmarks-will-now-display-first""><span class=""tocnumber"">1</span> <span class=""toctext"">Mobile bookmarks will now display first</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes-and-enhancements""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes and enhancements</span></a></li></ul></div>
+<h1 id=""w_mobile-bookmarks-will-now-display-first"">Mobile bookmarks will now display first</h1>
+<p>When you open the bookmarks section, all bookmarks and folders you’ve created on Firefox for iOS will be displayed first. The Bookmarks Menu, Bookmarks Toolbar and Unsorted Bookmarks folders are now nested under a new folder called Desktop Bookmarks. Bookmarks are saved to their appropriate root folder by default.
+</p>
+<h1 id=""w_bug-fixes-and-enhancements"">Bug fixes and enhancements</h1>
+<ul><li>Sponsored shortcut URLs that you’ve frequently visited will no longer appear as a shortcut on your Firefox for iOS homepage. If you’ve visited a sponsored shortcut previously, it will still appear in your history.
+</li></ul>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 104). This release comes with the following improvements and features:
+
+## Table of Contents
+
+- [1 Mobile bookmarks will now display first](https://support.mozilla.org/kb/whats-new-firefox-ios-version-104#w_mobile-bookmarks-will-now-display-first)
+- [2 Bug fixes and enhancements](https://support.mozilla.org/kb/whats-new-firefox-ios-version-104#w_bug-fixes-and-enhancements)
+
+# Mobile bookmarks will now display first
+
+When you open the bookmarks section, all bookmarks and folders you’ve created on Firefox for iOS will be displayed first. The Bookmarks Menu, Bookmarks Toolbar and Unsorted Bookmarks folders are now nested under a new folder called Desktop Bookmarks. Bookmarks are saved to their appropriate root folder by default.
+
+# Bug fixes and enhancements
+
+- Sponsored shortcut URLs that you’ve frequently visited will no longer appear as a shortcut on your Firefox for iOS homepage. If you’ve visited a sponsored shortcut previously, it will still appear in your history.
 
 "
 59226,Why do I get an error when I try to upgrade my subscription?,upgrade-error,https://support.mozilla.org/en-US/kb/upgrade-error,en-US,Users who purchased a subscription from the Apple Store or Google Play Store will receive an error message when attempting to upgrade their subscription from the website. This article explains what the error means and how to fix it.,"<p>Users who purchased a subscription from the Apple Store or Google Play Store will receive an error message when attempting to upgrade their subscription from the website.
