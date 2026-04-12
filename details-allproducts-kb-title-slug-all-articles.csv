@@ -17002,6 +17002,735 @@ When you open Firefox for the first time:
 - [Firefox users on macOS 10.12, 10.13 and 10.14 moving to Extended Support Release](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"")
 
 "
+852,Websites say cookies are blocked - Unblock them,websites-say-cookies-are-blocked-unblock-them,https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them,en-US,This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled.,"<p>This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled.  For more information on cookies, see <a href=""/en-US/kb/cookies-information-websites-store-on-your-computer"">Cookies - Information that websites store on your computer</a>.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_check-cookie-settings""><span class=""tocnumber"">1</span> <span class=""toctext"">Check cookie settings</span></a></li><li class=""toclevel-1""><a href=""#w_check-sites-that-are-blocked-from-setting-cookies""><span class=""tocnumber"">2</span> <span class=""toctext"">Check sites that are blocked from setting cookies</span></a></li><li class=""toclevel-1""><a href=""#w_clear-history-for-that-site""><span class=""tocnumber"">3</span> <span class=""toctext"">Clear history for that site</span></a></li><li class=""toclevel-1""><a href=""#w_clear-all-cookies-and-the-cache""><span class=""tocnumber"">4</span> <span class=""toctext"">Clear all cookies and the cache</span></a></li></ul></div>
+<h1 id=""w_check-cookie-settings"">Check cookie settings</h1>
+<p>Firefox can be set to not accept cookies. To turn on cookies:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Select the <span class=""menu"">Privacy &amp; Security</span> panel. This is where you can view your settings for <strong><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a></strong>, which includes cookies.
+<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-06-41-12-6fb0ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx108settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-09-04-33-36-05e8a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<ul><li>If <span class=""menu"">Standard</span> is selected, this is the default setting and, except for trackers, all cookies are allowed. For more information, see <a href=""/en-US/kb/trackers-and-scripts-firefox-blocks-enhanced-track"">Trackers and scripts Firefox blocks in Enhanced Tracking Protection</a> and <a href=""/en-US/kb/introducing-total-cookie-protection-standard-mode"">Introducing Total Cookie Protection in Standard Mode</a>.
+</li><li>If <span class=""menu"">Strict</span> is selected, either choose <span class=""menu"">Standard</span> or switch to <span class=""menu"">Custom</span>.
+</li><li>If <span class=""menu"">Custom</span> is selected, either uncheck <strong>Cookies</strong> (this will allow all cookies) or select the setting to only block <em>Cross-site tracking cookies, and isolate other cross-site cookies</em>.
+</li></ul>
+<dl><dt><img alt=""Fx111settings-ETPcustom"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-18-12-14-24-e725a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Select the <img alt=""reload all tabs retina"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-09-13-11-05-25-37ec1e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150""> button (shown when multiple tabs are open) to apply your new setting.
+</li></ol>
+<h1 id=""w_check-sites-that-are-blocked-from-setting-cookies"">Check sites that are blocked from setting cookies</h1>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">Privacy &amp; Security</span> panel and scroll down to the <strong>Cookies and Site Data</strong> section.
+<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li>Click <span class=""for"" data-for=""fx148""><span class=""menu"">Manage exceptions</span>.</span><span class=""for"" data-for=""not fx148""><span class=""button"">Manage Exceptions…</span></span>
+<ul><li>The <em>Exceptions - Cookies and Site Data</em> dialog box that opens will show you which sites you have blocked from storing cookies.
+</li></ul>
+</li><li>Make sure the site you're trying to access isn't listed.
+<ul><li>If it is, click on its entry and click <span class=""button"">Remove Website</span>.
+</li></ul>
+</li><li>Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
+
+</li></ol>
+<h1 id=""w_clear-history-for-that-site"">Clear history for that site</h1>
+<p>The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
+</p>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+ Click <span class=""menu"">History</span> and then click the <span class=""menu"">Manage history</span> bar at the bottom to open the Library window.
+
+</li><li>Search for the website you want to remove from your history by typing its name in the <strong>Search History</strong> field in the top-right corner and then pressing <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.
+</li><li>Then, in the search results, <span class=""for"" data-for=""win,linux"">right-click</span><span class=""for"" data-for=""mac"">hold down the <span class=""key"">Ctrl</span> key while you click</span> on the site you want to remove, and select <span class=""menu"">Forget About This Site</span>.<div class=""warning""><strong>All history items (browsing and download history, cookies, cache, active logins, passwords, saved form data, exceptions for cookies, images, pop-ups) for that site will be removed.</strong></div><br><span class=""for"" data-for=""win""><img alt=""History Win6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-25-59-2e196c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""History Mac6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-22-59-4827fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""History Lin6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-21-07-49758c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</li><li>Finally, close the Library window.
+</li></ol>
+<h1 id=""w_clear-all-cookies-and-the-cache"">Clear all cookies and the cache</h1>
+<p>If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
+</p><div class=""for"" data-for=""not fx128"">
+<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
+</li><li> In the <em>Time range to clear:</em> drop-down, select <strong>Everything</strong>.
+</li><li> Below the drop-down menu, select both <strong>Cookies</strong> and <strong>Cache</strong>. Make sure other items you want to keep are not selected.
+</li><li> Click <span class=""button"">Clear Now</span>.
+</li></ol>
+</div><div class=""for"" data-for=""fx128"">
+<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
+</li><li> In the <em>When:</em> drop-down, select <strong>Everything</strong>.
+</li><li> Below the drop-down menu, select both  <strong>Cookies and site data</strong> and <strong>Temporary cached files and pages</strong>. Make sure other items you want to keep are not selected.
+</li><li> Click <span class=""button"">Clear</span>.
+</li></ol>
+</div>
+<p></p><p><br>
+
+<br> <br>
+<em><strong>Based on information from <a href=""http://kb.mozillazine.org/Websites_report_cookies_are_disabled"">Websites report cookies are disabled (mozillaZine KB)</a></strong></em>
+</p>",firefox,tracking-protection,"This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled. For more information on cookies, see [Cookies - Information that websites store on your computer](\""https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"").
+
+## Table of Contents
+
+- [1 Check cookie settings](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_check-cookie-settings)
+- [2 Check sites that are blocked from setting cookies](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_check-sites-that-are-blocked-from-setting-cookies)
+- [3 Clear history for that site](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_clear-history-for-that-site)
+- [4 Clear all cookies and the cache](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_clear-all-cookies-and-the-cache)
+
+# Check cookie settings
+
+Firefox can be set to not accept cookies. To turn on cookies:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Privacy & Security panel. This is where you can view your settings for **[Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"")**, which includes cookies.<dl><dt>
+<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-06-41-12-6fb0ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx108settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-09-04-33-36-05e8a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+  - If Standard is selected, this is the default setting and, except for trackers, all cookies are allowed. For more information, see [Trackers and scripts Firefox blocks in Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/trackers-and-scripts-firefox-blocks-enhanced-track"") and [Introducing Total Cookie Protection in Standard Mode](\""https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode"").
+  - If Strict is selected, either choose Standard or switch to Custom.
+  - If Custom is selected, either uncheck **Cookies** (this will allow all cookies) or select the setting to only block _Cross-site tracking cookies, and isolate other cross-site cookies_.
+
+<dl><dt>
+<img alt=""Fx111settings-ETPcustom"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-18-12-14-24-e725a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Select the ![reload all tabs retina](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button (shown when multiple tabs are open) to apply your new setting.
+
+# Check sites that are blocked from setting cookies
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Privacy & Security panel and scroll down to the **Cookies and Site Data** section.<dl><dt>
+<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. Click Manage exceptions.Manage Exceptions…
+  - The _Exceptions - Cookies and Site Data_ dialog box that opens will show you which sites you have blocked from storing cookies.
+
+4. Make sure the site you're trying to access isn't listed.
+  - If it is, click on its entry and click Remove Website.
+
+5. Close the Settings page. Any changes you've made will automatically be saved.
+
+# Clear history for that site
+
+The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel. Click History and then click the Manage history bar at the bottom to open the Library window.
+2. Search for the website you want to remove from your history by typing its name in the **Search History** field in the top-right corner and then pressing EnterReturn.
+3. Then, in the search results, right-clickhold down the Ctrl key while you click on the site you want to remove, and select Forget About This Site.
+**All history items (browsing and download history, cookies, cache, active logins, passwords, saved form data, exceptions for cookies, images, pop-ups) for that site will be removed.**
+  
+ ![History Win6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![History Mac6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![History Lin6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+4. Finally, close the Library window.
+
+# Clear all cookies and the cache
+
+If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History and select Clear recent history…
+3. In the _Time range to clear:_ drop-down, select **Everything**.
+4. Below the drop-down menu, select both **Cookies** and **Cache**. Make sure other items you want to keep are not selected.
+5. Click Clear Now.
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History and select Clear recent history…
+3. In the _When:_ drop-down, select **Everything**.
+4. Below the drop-down menu, select both **Cookies and site data** and **Temporary cached files and pages**. Make sure other items you want to keep are not selected.
+5. Click Clear.
+
+_**Based on information from [Websites report cookies are disabled (mozillaZine KB)](http://kb.mozillazine.org/Websites_report_cookies_are_disabled)**_
+
+"
+855,Accessibility features in Firefox - Make Firefox and web content work for all users,accessibility-features-firefox,https://support.mozilla.org/en-US/kb/accessibility-features-firefox,en-US,Learn about features that make Firefox and web content accessible if you have vision problems or limited ability to use a keyboard or mouse.,"<p>Firefox includes many features to make the browser and web content accessible to all users, including those who have low vision, no vision or limited ability to use a keyboard or mouse.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-a-keyboard""><span class=""tocnumber"">1</span> <span class=""toctext"">Using a Keyboard</span></a><ul><li class=""toclevel-2""><a href=""#w_using-a-keyboard-to-navigate-within-webpages""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Using a keyboard to navigate within webpages</span></a></li><li class=""toclevel-2""><a href=""#w_search-for-text-when-you-start-to-type""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Search for text when you start to type</span></a></li><li class=""toclevel-2""><a href=""#w_html-access-keys""><span class=""tocnumber"">1.3</span> <span class=""toctext"">HTML Access Keys</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_mouse-shortcuts""><span class=""tocnumber"">2</span> <span class=""toctext"">Mouse Shortcuts</span></a></li><li class=""toclevel-1""><a href=""#w_zoom-fonts-and-colors""><span class=""tocnumber"">3</span> <span class=""toctext"">Zoom, Fonts and Colors</span></a><ul><li class=""toclevel-2""><a href=""#w_page-zoom""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Page Zoom</span></a></li><li class=""toclevel-2""><a href=""#w_text-zoom""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Text Zoom</span></a></li><li class=""toclevel-2""><a href=""#w_changing-the-size-of-buttons-and-menus""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Changing the size of buttons and menus</span></a></li><li class=""toclevel-2""><a href=""#w_setting-fonts-and-colors""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Setting Fonts and Colors</span></a></li><li class=""toclevel-2""><a href=""#w_setting-a-minimum-font-size""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Setting a Minimum Font Size</span></a></li><li class=""toclevel-2""><a href=""#w_overriding-page-fonts""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Overriding Page Fonts</span></a></li><li class=""toclevel-2""><a href=""#w_overriding-page-colors""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Overriding Page Colors</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-a-high-contrast-theme""><span class=""tocnumber"">4</span> <span class=""toctext"">Using a High Contrast Theme</span></a></li><li class=""toclevel-1""><a href=""#w_controlling-web-content""><span class=""tocnumber"">5</span> <span class=""toctext"">Controlling Web Content</span></a><ul><li class=""toclevel-2""><a href=""#w_blocking-pop-up-windows""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Blocking Pop-up Windows</span></a></li><li class=""toclevel-2""><a href=""#w_restricting-javascript-behavior""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Restricting JavaScript Behavior</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_compatibility-with-assistive-technologies""><span class=""tocnumber"">6</span> <span class=""toctext"">Compatibility With Assistive Technologies</span></a><ul><li class=""toclevel-2""><a href=""#w_screen-reader""><span class=""tocnumber"">6.1</span> <span class=""toctext"">Screen Reader</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-accessibility-links""><span class=""tocnumber"">7</span> <span class=""toctext"">Related accessibility links</span></a></li><li class=""toclevel-1""><a href=""#w_accessibility-conformance-report-acr""><span class=""tocnumber"">8</span> <span class=""toctext"">Accessibility Conformance Report (ACR)</span></a></li></ul></div>
+<h1 id=""w_using-a-keyboard"">Using a Keyboard</h1>
+<p>A list of common keyboard shortcuts is available in <a href=""/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"">Keyboard shortcuts - Perform common Firefox tasks quickly</a>. To customize shortcuts, see <a href=""/en-US/kb/customize-keyboard-shortcuts-firefox"">Customize keyboard shortcuts in Firefox</a>.
+</p>
+<h2 id=""w_using-a-keyboard-to-navigate-within-webpages"">Using a keyboard to navigate within webpages</h2>
+<p>To enable navigation and text selection within web content <span class=""for"" data-for=""fx124"">and PDF documents</span> using your keyboard in Firefox, as if you were navigating in a read-only text editor, follow the steps below:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, <em>Browsing</em> section, check the box next to <strong>Always use the cursor keys to navigate within pages</strong>.
+</li></ol>
+<p>Once this feature is activated, Firefox will introduce a movable cursor on web pages<span class=""for"" data-for=""fx124""> and within PDF documents</span> opened in the browser. This functionality, known as <a href=""https://wikipedia.org/wiki/Caret_navigation"">Caret Browsing</a>, significantly improves precision and accessibility for text selection and copying, providing a versatile tool for interacting with digital content.<span class=""for"" data-for=""win""> You can press <span class=""key"">F7</span> at any time to turn this feature on or off. When you press <span class=""key"">F7</span>, Firefox will ask if you really want to turn on this feature. You can disable this prompt by selecting <strong>Do not show this dialog again</strong>.</span>
+</p>
+<h2 id=""w_search-for-text-when-you-start-to-type"">Search for text when you start to type</h2>
+<p>To quickly navigate to text or hyperlinks in a web page, follow these steps:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, <em>Browsing</em> section, check the box next to <strong>Search for text when you start typing</strong>.
+</li></ol>
+<p>This feature has two modes. Press <span class=""key"">/</span> and start typing to search all text on the current page, or press <span class=""key"">'</span> before your string to search hyperlinks only. Firefox will highlight matching text or hyperlinks as you type.
+</p><p>The following keyboard shortcuts control this feature:
+</p>
+<ul><li> Type more characters to narrow your search. Firefox will highlight the next matching hyperlink or text or alert you that nothing matched.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">F3</span> to find the next occurrence of your current search string.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">Shift</span>+<span class=""key"">G</span> or <span class=""key"">Shift</span> + <span class=""key"">F3</span> to find the previous occurrence of your current search string.
+</li><li> Press <span class=""key"">Backspace</span> to undo the last character you typed. Firefox will back up to the previously highlighted text.
+</li><li> Press <span class=""key"">Esc</span> to cancel a search. You can also cancel a search by changing focus, or simply waiting for the timeout.
+</li></ul>
+<p>If this setting is checked, you can start typing at any time to auto-start a search on the current page. By default, auto-started searches look for all text on the page. You can still explicitly press <span class=""key"">'</span> or <span class=""key"">/</span> to start finding in one mode or the other.
+</p><p>You can use this feature to get to buttons, text boxes and other form controls. Search for the text immediately before the form control you want and press <span class=""key"">Tab</span>. Pressing <span class=""key"">Tab</span> automatically exits the search and sets focus to the next form field or button after the highlighted text.
+</p>
+<h2 id=""w_html-access-keys"">HTML Access Keys</h2>
+<p>On some web pages, keyboard shortcuts are assigned to different elements on the page. To move the cursor directly to one of these elements, press <span class=""for"" data-for=""win,linux""><span class=""key"">Shift</span>+<span class=""key"">Alt</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">option</span></span>+<strong>AccessKey</strong>.
+</p>
+<div class=""note"">Which key <strong>AccessKey</strong> depends on the website. It is determined by the website author, not Firefox.</div>
+<h1 id=""w_mouse-shortcuts"">Mouse Shortcuts</h1>
+<p>A list of common mouse shortcuts is available in <a href=""/en-US/kb/mouse-shortcuts-perform-common-tasks"">Use mouse shortcuts to perform common tasks in Firefox</a>.
+</p>
+<h1 id=""w_zoom-fonts-and-colors"">Zoom, Fonts and Colors</h1>
+<h2 id=""w_page-zoom"">Page Zoom</h2>
+<p>You can zoom in and out of web pages including images with the following keyboard shortcuts:
+</p>
+<ul><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">+</span> to display the web page one size larger.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">−</span> to display the web page one size smaller.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">0</span> (zero) to display the web page at its normal size.
+</li></ul>
+<p>For other ways to zoom in and out a web page, see <a href=""/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"">Font size and zoom - increase the size of web pages</a>.
+</p>
+<h2 id=""w_text-zoom"">Text Zoom</h2>
+<p>You can choose to change the text size only using the <em>Text Zoom</em> feature:
+</p>
+<ol><li><span class=""for"" data-for=""win7,win8,win10"">Press the <span class=""key"">Alt</span> key to temporarily bring up the traditional Firefox menus.</span> <span class=""for"" data-for=""win,linux"">At the top of the Firefox window</span><span class=""for"" data-for=""mac"">On the menu bar</span>, click the <span class=""menu"">View</span> menu.
+</li><li>Go down to <span class=""menu"">Zoom</span>.
+</li><li>Select <span class=""menu"">Zoom Text Only</span>, which will make the controls only apply to text, not images.
+</li></ol>
+<p>The following keyboard shortcuts control text size when Text Zoom is selected:
+</p>
+<ul><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">+</span> to increase the text size.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">−</span> to decrease the text size.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">0</span> (zero) to reset the text size to the web page's default size.
+</li></ul>
+<p>Note that some web pages may display incorrectly if you increase or decrease the text size.
+</p><p>For other ways to zoom in and out the text of a web page, see <a href=""/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"">Font size and zoom - increase the size of web pages</a>.
+</p><div class=""for"" data-for=""win"">
+<h2 id=""w_changing-the-size-of-buttons-and-menus"">Changing the size of buttons and menus</h2>
+<p>Firefox automatically detects and matches the preferred text size of your operating system. If you change the display size for text on your computer, all websites, Firefox buttons and menus will adjust accordingly.
+</p><p>For example, to make changes to these settings in Windows 10, follow the steps below:
+</p>
+<ol><li>Click the Windows icon in the taskbar.
+</li><li>Click <span class=""menu"">Settings</span>.
+</li><li>Select <span class=""menu"">Ease of Access</span>.
+</li><li>Click <span class=""menu"">Display</span>.
+</li><li>Under <em>Make text bigger</em>, adjust the slider to your preferred text size.
+</li></ol>
+<p>Microsoft has rebranded <em>Ease of Access</em> to <em>Accessibility</em> in the Windows 11 Settings section.
+</p></div>
+<h2 id=""w_setting-fonts-and-colors"">Setting Fonts and Colors</h2>
+<p>See <a href=""/en-US/kb/change-fonts-and-colors-websites-use"">Change the fonts and colors websites use</a> for detailed instructions on choosing your preferred font styles and colors.
+</p>
+<h2 id=""w_setting-a-minimum-font-size"">Setting a Minimum Font Size</h2>
+<p>Some websites may display text which is too small to read comfortably. To make such pages easier to read, you can set a minimum font size. On web pages that try to display text smaller than this size, Firefox will enlarge the text to your chosen size.
+</p><p>To set a minimum font size:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Fonts</em> section, click the <span class=""button"">Advanced…</span> button.
+</li><li>Specify a minimum font size from the dropdown menu.
+</li></ol>
+<p>Note that some web pages may display incorrectly depending on your choice of minimum font size.
+</p>
+<h2 id=""w_overriding-page-fonts"">Overriding Page Fonts</h2>
+<p>Some websites may display text in fonts that are difficult to read, and other sites may rely on the browser's default fonts. To set your default fonts:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Fonts</em> section, choose a default font and size.
+</li></ol>
+<p>You can specify default fonts for different styles, including serif, sans-serif and monospace by clicking the <span class=""button"">Advanced…</span> button. However, many web pages specify their own fonts, so your choices will have no effect on such pages. To override the fonts defined by such pages, uncheck the <strong>Allow pages to choose their own fonts, instead of your selections above</strong> option.
+</p><p>Note that some web pages may display incorrectly depending on your choice of a default font.
+</p>
+<h2 id=""w_overriding-page-colors"">Overriding Page Colors</h2>
+<p>Some websites may display text and background colors that are difficult to read, and other sites may rely on the browser's default colors. To set your default colors:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Colors</em> section, click the <span class=""button"">Manage Colors…</span> button.
+</li></ol>
+<p>You can set default text and background colors, as well as default colors for visited and unvisited hyperlinks.
+</p><p>However, many web pages set their own colors, so your choices will have no effect. To override the colors defined by web pages, use the drop-down menu to set <strong>Override the colors specified by the page with your selections above</strong> to <span class=""menu"">Always</span>.
+</p>
+<div class=""note"">The text and background colors you set above will also be used when <a href=""/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"">viewing PDFs in Firefox</a>.</div>
+<h1 id=""w_using-a-high-contrast-theme"">Using a High Contrast Theme</h1>
+<p>Firefox automatically detects if you are using a High Contrast theme on Windows and displays everything in your high contrast color scheme. This overrides all other browser or web page settings, and it affects the Firefox interface itself (all menus, windows and dialog boxes) and the content of any web page you visit.
+</p><div class=""for"" data-for=""win""><p><span class=""for"" data-for=""win7"">To use a High Contrast theme, go to <span class=""menu"">Start Menu</span>, select <span class=""menu"">Control Panel</span>, then <span class=""menu"">Appearance and Personalization</span>, finally <span class=""menu"">Change the theme</span> and choose one of the High Contrast themes.</span><span class=""for"" data-for=""win8"">To use a High Contrast theme, open the charms panel, select <span class=""menu"">Control Panel</span> from the <span class=""menu"">Settings</span> charm, then <span class=""menu"">Appearance and Personalization</span>, finally <span class=""menu"">Change the theme</span> and choose one of the High Contrast themes.</span><span class=""for"" data-for=""win10"">To use a High Contrast theme, go to <span class=""menu"">Start Menu</span>, select <span class=""menu"">Settings</span>, then <span class=""menu"">Ease of Access</span>, finally <span class=""menu"">High Contrast</span> on the left. Choose one of the High Contrast themes in the drop-down menu and click <span class=""button"">Apply</span>.</span>
+</p></div>
+<h1 id=""w_controlling-web-content"">Controlling Web Content</h1>
+<h2 id=""w_blocking-pop-up-windows"">Blocking Pop-up Windows</h2>
+<p>See <a href=""/en-US/kb/pop-blocker-settings-exceptions-troubleshooting"">Pop-up blocker settings, exceptions and troubleshooting</a> for information on blocking pop-up windows.
+</p>
+<h2 id=""w_restricting-javascript-behavior"">Restricting JavaScript Behavior</h2>
+<p>JavaScript can be used to do things that some people don't like. For better control, you can install <a href=""https://addons.mozilla.org/firefox/search/?tag=privacy"">privacy extensions</a>. For more info, see <a href=""/en-US/kb/javascript-settings-for-interactive-web-pages"">JavaScript settings and preferences for interactive web pages</a>.
+</p>
+<h1 id=""w_compatibility-with-assistive-technologies"">Compatibility With Assistive Technologies</h1>
+<h2 id=""w_screen-reader"">Screen Reader</h2>
+<p>A screen reader is a software application that attempts to identify and interpret what is being displayed on the screen (or, more accurately, sent to standard output, whether a video monitor is present or not). This interpretation is then re-presented to the user with text-to-speech, sound icons or a Braille output device. Screen readers are a form of assistive technology (AT) potentially useful to people who are blind, visually impaired, illiterate or learning disabled, often in combination with other AT, such as screen magnifiers. The above was adapted from Wikipedia under the <a href=""http://creativecommons.org/licenses/by-sa/3.0/"">Creative Commons – Attribution-ShareAlike 3.0</a> license.
+</p><p>Here are a <a href=""https://wikipedia.org/wiki/List_of_screen_readers"">list of screen reader software</a> and links to common ones:
+</p><div class=""for"" data-for=""win"">
+<ul><li><a href=""https://www.nvaccess.org/"">NVDA</a>
+</li><li><a href=""https://www.webbie.org.uk/thunder/"">Thunder</a>
+</li><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://www.freedomscientific.com/products/software/jaws/"">JAWS</a> (commercial)
+</li><li><a href=""https://www.freedomscientific.com/products/software/zoomtext/"">ZoomText</a> (commercial)
+</li><li><a href=""https://yourdolphin.com/product/version?id=182"">Supernova</a> (commercial)
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div><div class=""for"" data-for=""mac"">
+<ul><li><a href=""https://www.apple.com/accessibility/mac/vision/"">VoiceOver</a> – Firefox includes basic support for Voiceover. (This <a href=""https://support.apple.com/guide/voiceover/voiceover-recognition-category-vocbaf20181f/mac"">Apple Support page</a> explains how to enable VoiceOver and other Accessibility preferences.)
+</li><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://orca.gnome.org/"">Orca</a>
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div>
+<h1 id=""w_related-accessibility-links"">Related accessibility links</h1>
+<ul><li><a href=""https://developer.mozilla.org/docs/Web/Accessibility"">Mozilla Accessibility on <em>MDN Web Docs</em></a>
+</li><li><a href=""https://blog.mozilla.org/accessibility/"">Mozilla Accessibility Blog</a>
+</li></ul>
+<h1 id=""w_accessibility-conformance-report-acr"">Accessibility Conformance Report (ACR)</h1>
+<p>We strive to be both compliant with accessibility standards and to create delightful experiences for our users. This recent report describes how the Firefox browser currently works for people with disabilities. It is based on the ITI Voluntary Product Accessibility Template (VPAT® 2.5) and covers compliance with the Web Content Accessibility Guidelines (WCAG 2.2) and with the Revised Section 508 of the Rehabilitation Act: <a href=""https://wiki.mozilla.org/images/d/d4/Firefox_VPAT_124_on_Windows_OS_%28April_2024%29.pdf"">Firefox for desktop (Windows OS, April 2024)</a>.
+</p>",firefox,accessibility,"Firefox includes many features to make the browser and web content accessible to all users, including those who have low vision, no vision or limited ability to use a keyboard or mouse.
+
+## Table of Contents
+
+- [1 Using a Keyboard](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-keyboard)
+  - [1.1 Using a keyboard to navigate within webpages](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-keyboard-to-navigate-within-webpages)
+  - [1.2 Search for text when you start to type](https://support.mozilla.org/kb/accessibility-features-firefox#w_search-for-text-when-you-start-to-type)
+  - [1.3 HTML Access Keys](https://support.mozilla.org/kb/accessibility-features-firefox#w_html-access-keys)
+
+- [2 Mouse Shortcuts](https://support.mozilla.org/kb/accessibility-features-firefox#w_mouse-shortcuts)
+- [3 Zoom, Fonts and Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_zoom-fonts-and-colors)
+  - [3.1 Page Zoom](https://support.mozilla.org/kb/accessibility-features-firefox#w_page-zoom)
+  - [3.2 Text Zoom](https://support.mozilla.org/kb/accessibility-features-firefox#w_text-zoom)
+  - [3.3 Changing the size of buttons and menus](https://support.mozilla.org/kb/accessibility-features-firefox#w_changing-the-size-of-buttons-and-menus)
+  - [3.4 Setting Fonts and Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_setting-fonts-and-colors)
+  - [3.5 Setting a Minimum Font Size](https://support.mozilla.org/kb/accessibility-features-firefox#w_setting-a-minimum-font-size)
+  - [3.6 Overriding Page Fonts](https://support.mozilla.org/kb/accessibility-features-firefox#w_overriding-page-fonts)
+  - [3.7 Overriding Page Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_overriding-page-colors)
+
+- [4 Using a High Contrast Theme](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-high-contrast-theme)
+- [5 Controlling Web Content](https://support.mozilla.org/kb/accessibility-features-firefox#w_controlling-web-content)
+  - [5.1 Blocking Pop-up Windows](https://support.mozilla.org/kb/accessibility-features-firefox#w_blocking-pop-up-windows)
+  - [5.2 Restricting JavaScript Behavior](https://support.mozilla.org/kb/accessibility-features-firefox#w_restricting-javascript-behavior)
+
+- [6 Compatibility With Assistive Technologies](https://support.mozilla.org/kb/accessibility-features-firefox#w_compatibility-with-assistive-technologies)
+  - [6.1 Screen Reader](https://support.mozilla.org/kb/accessibility-features-firefox#w_screen-reader)
+
+- [7 Related accessibility links](https://support.mozilla.org/kb/accessibility-features-firefox#w_related-accessibility-links)
+- [8 Accessibility Conformance Report (ACR)](https://support.mozilla.org/kb/accessibility-features-firefox#w_accessibility-conformance-report-acr)
+
+# Using a Keyboard
+
+A list of common keyboard shortcuts is available in [Keyboard shortcuts - Perform common Firefox tasks quickly](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly""). To customize shortcuts, see [Customize keyboard shortcuts in Firefox](\""https://support.mozilla.org/en-US/kb/customize-keyboard-shortcuts-firefox"").
+
+## Using a keyboard to navigate within webpages
+
+To enable navigation and text selection within web content and PDF documents using your keyboard in Firefox, as if you were navigating in a read-only text editor, follow the steps below:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, _Browsing_ section, check the box next to **Always use the cursor keys to navigate within pages**.
+
+Once this feature is activated, Firefox will introduce a movable cursor on web pages and within PDF documents opened in the browser. This functionality, known as [Caret Browsing](https://wikipedia.org/wiki/Caret_navigation), significantly improves precision and accessibility for text selection and copying, providing a versatile tool for interacting with digital content. You can press F7 at any time to turn this feature on or off. When you press F7, Firefox will ask if you really want to turn on this feature. You can disable this prompt by selecting **Do not show this dialog again**.
+
+## Search for text when you start to type
+
+To quickly navigate to text or hyperlinks in a web page, follow these steps:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, _Browsing_ section, check the box next to **Search for text when you start typing**.
+
+This feature has two modes. Press / and start typing to search all text on the current page, or press ' before your string to search hyperlinks only. Firefox will highlight matching text or hyperlinks as you type.
+
+The following keyboard shortcuts control this feature:
+
+- Type more characters to narrow your search. Firefox will highlight the next matching hyperlink or text or alert you that nothing matched.
+- Press CtrlCommand+G or F3 to find the next occurrence of your current search string.
+- Press CtrlCommand+Shift+G or Shift + F3 to find the previous occurrence of your current search string.
+- Press Backspace to undo the last character you typed. Firefox will back up to the previously highlighted text.
+- Press Esc to cancel a search. You can also cancel a search by changing focus, or simply waiting for the timeout.
+
+If this setting is checked, you can start typing at any time to auto-start a search on the current page. By default, auto-started searches look for all text on the page. You can still explicitly press ' or / to start finding in one mode or the other.
+
+You can use this feature to get to buttons, text boxes and other form controls. Search for the text immediately before the form control you want and press Tab. Pressing Tab automatically exits the search and sets focus to the next form field or button after the highlighted text.
+
+## HTML Access Keys
+
+On some web pages, keyboard shortcuts are assigned to different elements on the page. To move the cursor directly to one of these elements, press Shift+AltCtrl + option+ **AccessKey**.
+
+Which key **AccessKey** depends on the website. It is determined by the website author, not Firefox.
+
+# Mouse Shortcuts
+
+A list of common mouse shortcuts is available in [Use mouse shortcuts to perform common tasks in Firefox](\""https://support.mozilla.org/en-US/kb/mouse-shortcuts-perform-common-tasks"").
+
+# Zoom, Fonts and Colors
+
+## Page Zoom
+
+You can zoom in and out of web pages including images with the following keyboard shortcuts:
+
+- Press CtrlCommand++ to display the web page one size larger.
+- Press CtrlCommand+− to display the web page one size smaller.
+- Press CtrlCommand+0 (zero) to display the web page at its normal size.
+
+For other ways to zoom in and out a web page, see [Font size and zoom - increase the size of web pages](\""https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"").
+
+## Text Zoom
+
+You can choose to change the text size only using the _Text Zoom_ feature:
+
+1. Press the Alt key to temporarily bring up the traditional Firefox menus. At the top of the Firefox windowOn the menu bar, click the View menu.
+2. Go down to Zoom.
+3. Select Zoom Text Only, which will make the controls only apply to text, not images.
+
+The following keyboard shortcuts control text size when Text Zoom is selected:
+
+- Press CtrlCommand++ to increase the text size.
+- Press CtrlCommand+− to decrease the text size.
+- Press CtrlCommand+0 (zero) to reset the text size to the web page's default size.
+
+Note that some web pages may display incorrectly if you increase or decrease the text size.
+
+For other ways to zoom in and out the text of a web page, see [Font size and zoom - increase the size of web pages](\""https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"").
+
+## Changing the size of buttons and menus
+
+Firefox automatically detects and matches the preferred text size of your operating system. If you change the display size for text on your computer, all websites, Firefox buttons and menus will adjust accordingly.
+
+For example, to make changes to these settings in Windows 10, follow the steps below:
+
+1. Click the Windows icon in the taskbar.
+2. Click Settings.
+3. Select Ease of Access.
+4. Click Display.
+5. Under _Make text bigger_, adjust the slider to your preferred text size.
+
+Microsoft has rebranded _Ease of Access_ to _Accessibility_ in the Windows 11 Settings section.
+
+## Setting Fonts and Colors
+
+See [Change the fonts and colors websites use](\""https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use"") for detailed instructions on choosing your preferred font styles and colors.
+
+## Setting a Minimum Font Size
+
+Some websites may display text which is too small to read comfortably. To make such pages easier to read, you can set a minimum font size. On web pages that try to display text smaller than this size, Firefox will enlarge the text to your chosen size.
+
+To set a minimum font size:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Fonts_ section, click the Advanced… button.
+4. Specify a minimum font size from the dropdown menu.
+
+Note that some web pages may display incorrectly depending on your choice of minimum font size.
+
+## Overriding Page Fonts
+
+Some websites may display text in fonts that are difficult to read, and other sites may rely on the browser's default fonts. To set your default fonts:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Fonts_ section, choose a default font and size.
+
+You can specify default fonts for different styles, including serif, sans-serif and monospace by clicking the Advanced… button. However, many web pages specify their own fonts, so your choices will have no effect on such pages. To override the fonts defined by such pages, uncheck the **Allow pages to choose their own fonts, instead of your selections above** option.
+
+Note that some web pages may display incorrectly depending on your choice of a default font.
+
+## Overriding Page Colors
+
+Some websites may display text and background colors that are difficult to read, and other sites may rely on the browser's default colors. To set your default colors:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Colors_ section, click the Manage Colors… button.
+
+You can set default text and background colors, as well as default colors for visited and unvisited hyperlinks.
+
+However, many web pages set their own colors, so your choices will have no effect. To override the colors defined by web pages, use the drop-down menu to set **Override the colors specified by the page with your selections above** to Always.
+
+The text and background colors you set above will also be used when [viewing PDFs in Firefox](\""https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"").
+
+# Using a High Contrast Theme
+
+Firefox automatically detects if you are using a High Contrast theme on Windows and displays everything in your high contrast color scheme. This overrides all other browser or web page settings, and it affects the Firefox interface itself (all menus, windows and dialog boxes) and the content of any web page you visit.
+
+To use a High Contrast theme, go to Start Menu, select Control Panel, then Appearance and Personalization, finally Change the theme and choose one of the High Contrast themes.To use a High Contrast theme, open the charms panel, select Control Panel from the Settings charm, then Appearance and Personalization, finally Change the theme and choose one of the High Contrast themes.To use a High Contrast theme, go to Start Menu, select Settings, then Ease of Access, finally High Contrast on the left. Choose one of the High Contrast themes in the drop-down menu and click Apply.
+
+# Controlling Web Content
+
+## Blocking Pop-up Windows
+
+See [Pop-up blocker settings, exceptions and troubleshooting](\""https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting"") for information on blocking pop-up windows.
+
+## Restricting JavaScript Behavior
+
+JavaScript can be used to do things that some people don't like. For better control, you can install [privacy extensions](https://addons.mozilla.org/firefox/search/?tag=privacy). For more info, see [JavaScript settings and preferences for interactive web pages](\""https://support.mozilla.org/en-US/kb/javascript-settings-for-interactive-web-pages"").
+
+# Compatibility With Assistive Technologies
+
+## Screen Reader
+
+A screen reader is a software application that attempts to identify and interpret what is being displayed on the screen (or, more accurately, sent to standard output, whether a video monitor is present or not). This interpretation is then re-presented to the user with text-to-speech, sound icons or a Braille output device. Screen readers are a form of assistive technology (AT) potentially useful to people who are blind, visually impaired, illiterate or learning disabled, often in combination with other AT, such as screen magnifiers. The above was adapted from Wikipedia under the [Creative Commons – Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
+
+Here are a [list of screen reader software](https://wikipedia.org/wiki/List_of_screen_readers) and links to common ones:
+
+- [NVDA](https://www.nvaccess.org/)
+- [Thunder](https://www.webbie.org.uk/thunder/)
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [JAWS](https://www.freedomscientific.com/products/software/jaws/) (commercial)
+- [ZoomText](https://www.freedomscientific.com/products/software/zoomtext/) (commercial)
+- [Supernova](https://yourdolphin.com/product/version?id=182) (commercial)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+- [VoiceOver](https://www.apple.com/accessibility/mac/vision/) – Firefox includes basic support for Voiceover. (This [Apple Support page](https://support.apple.com/guide/voiceover/voiceover-recognition-category-vocbaf20181f/mac) explains how to enable VoiceOver and other Accessibility preferences.)
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [Orca](https://orca.gnome.org/)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+# Related accessibility links
+
+- [Mozilla Accessibility on _MDN Web Docs_](https://developer.mozilla.org/docs/Web/Accessibility)
+- [Mozilla Accessibility Blog](https://blog.mozilla.org/accessibility/)
+
+# Accessibility Conformance Report (ACR)
+
+We strive to be both compliant with accessibility standards and to create delightful experiences for our users. This recent report describes how the Firefox browser currently works for people with disabilities. It is based on the ITI Voluntary Product Accessibility Template (VPAT® 2.5) and covers compliance with the Web Content Accessibility Guidelines (WCAG 2.2) and with the Revised Section 508 of the Rehabilitation Act: [Firefox for desktop (Windows OS, April 2024)](https://wiki.mozilla.org/images/d/d4/Firefox_VPAT_124_on_Windows_OS_%28April_2024%29.pdf).
+
+"
+856,Where to find and manage downloaded files in Firefox,where-find-and-manage-downloaded-files-firefox,https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox,en-US,"The Downloads panel and Library keep track of files you download. We'll show you how to access, manage, change settings and find your files.","<p>Your <em>Downloads</em> panel and <em>Library</em> keep track of files you download while using Firefox. This article explains how to access and manage the files you download in Firefox and how to configure your download settings.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-access-my-downloads""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I access my downloads?</span></a></li><li class=""toclevel-1""><a href=""#w_see-downloads-history""><span class=""tocnumber"">2</span> <span class=""toctext"">See downloads history</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-manage-my-downloaded-files""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I manage my downloaded files?</span></a><ul><li class=""toclevel-2""><a href=""#w_set-firefox-to-always-open-similar-files""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Set Firefox to always open similar files</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_change-where-downloads-are-saved""><span class=""tocnumber"">4</span> <span class=""toctext"">Change where downloads are saved</span></a></li><li class=""toclevel-1""><a href=""#w_change-download-actions-for-file-types""><span class=""tocnumber"">5</span> <span class=""toctext"">Change download actions for file types</span></a></li><li class=""toclevel-1""><a href=""#w_download-protection""><span class=""tocnumber"">6</span> <span class=""toctext"">Download protection</span></a><ul><li class=""toclevel-2""><a href=""#w_how-do-i-handle-unsafe-downloads""><span class=""tocnumber"">6.1</span> <span class=""toctext"">How do I handle unsafe downloads?</span></a></li></ul></li></ul></div>
+<h1 id=""w_how-do-i-access-my-downloads"">How do I access my downloads?</h1>
+<p>You can access downloads from your current browsing session by clicking on the <em>Downloads</em> <img alt=""Fx91DownloadsButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-30-12-15-40-415bec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the toolbar.
+</p>
+<ul><li>The arrow will appear blue <img alt=""Fx91DownloadsButton-blue"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-30-12-16-42-62782e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to let you know there are unviewed downloaded files.
+</li><li>During a download, the <em>Downloads</em> button becomes an icon <img alt=""Fx91DownloadProgress"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-05-35-57-b3ff0e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> that gradually fills with color to show your download's progress. You can click the download item, even before it's finished downloading; Firefox will open the file immediately once it is available.
+</li></ul>
+<p>Click on the <em>Downloads</em> button to open the <em>Downloads</em> panel.
+</p>
+<dl><dt><span class=""for"" data-for=""win,linux""><img alt=""Fx91DownloadsPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-05-49-52-a3589c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx99DownloadsPanel-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-24-05-24-06-d93b66.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>The <em>Downloads</em> panel displays your five most recently downloaded files, along with their size and download status. To see all of your downloads at any time, go to the <em>Library</em> by clicking <span class=""menu"">Show all downloads</span> at the bottom of the <em>Downloads</em> panel.
+<span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the <em>Downloads</em> button for options, such as to hide the <em>Downloads</em> button when there are no downloads in the current session or to show the <em>Downloads</em> panel when a download begins.
+</p>
+<dl><dt><img alt=""Fx102DownloadsButtonContextMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-15-13-18-05-4e6862.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""note""><strong>Note:</strong> Your toolbar does not include a <em>Downloads</em> button by default, when you have no downloads in your current browsing session. You can use the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button on your toolbar to access a list of your previous downloads (see below).</div>
+<h1 id=""w_see-downloads-history"">See downloads history</h1>
+<p>The <em>Library</em> displays information for all of your downloaded files unless you've cleared them from your history.
+Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button and click <span class=""menu"">Downloads</span> from the menu.
+
+The <em>Library</em> window will open, showing a list of your downloaded files.
+</p>
+<dl><dt><span class=""for"" data-for=""win,linux""><img alt=""Fx99Library-Downloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-23-02-14-29-171fa2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx99LibraryDownloads-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-24-05-07-18-84227f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<h1 id=""w_how-can-i-manage-my-downloaded-files"">How can I manage my downloaded files?</h1>
+<p>You can check on downloads at any time. Click the <em>Downloads</em> button <img alt=""Fx91DownloadsButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-30-12-15-40-415bec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the <em>Downloads</em> panel. The <em>Downloads</em> panel displays up to five of your most recently downloaded files, as well as their size and download status. Alternatively, click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then click <span class=""menu"">Downloads</span> to <a href=""#w_see-downloads-history"">view your downloads</a> in the <em>Library</em> window, which displays a list of your previous downloads, along with the size, source and download time for each file.
+</p><p>You can manage your files directly in the <em>Downloads</em> panel or in your <em>Library</em>. Options will appear to the right of each file during each stage of the download:
+</p>
+<ul><li><strong>Pause:</strong> You can pause any downloads currently in progress. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file and select <span class=""menu"">Pause</span>. (<span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file entry and select <span class=""menu"">Resume</span>, when you want to continue downloading the file.)
+</li><li><strong>Cancel <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>:</strong> If you no longer need to download a file, click the <span class=""button"">🞩</span> button at the right of the file entry. This button turns into a refresh symbol; click it again to restart your download.
+</li><li><strong>Open the file:</strong> When a download has finished, you can click on the entry directly to open the file.
+</li><li><span class=""for"" data-for=""win,linux""><strong>Show in Folder</strong> <img alt=""Fx91DownloadsPanel-OpenFolderIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-06-04-01-45ab90.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>: Once a file has finished downloading, the icon to the right of the file entry becomes a folder. Click the folder icon to open the folder that contains that file.</span><span class=""for"" data-for=""mac""><strong>Show In Finder</strong> <img alt=""fx icon Open the file's folder Mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-24-09-21-34-a9df8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>: Once a file has finished downloading, the icon to the right of the file entry becomes a magnifying glass. Click the magnifying glass icon to show that file in the Finder.</span> To set the folder where your downloads go, see <a href=""#w_change-where-downloads-are-saved"">Change where downloads are saved</a>, below.
+</li><li><strong>Go to Download Page:</strong> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file to bring up the menu. Choose this option to visit the webpage where the file came from.
+</li><li><strong>Remove the file's entry:</strong> If you do not wish to keep a record of a particular download, you can remove the entry for a file. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file entry, then select <span class=""menu"">Remove From History</span> in the context menu. This will remove the entry from the list but will not delete the file itself.
+</li><li><strong>Retry a Download <img alt=""fx icon retry download 16x16"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-39-efc512.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>:</strong> If for any reason a file does not finish downloading, click the button to the right of the entry — a refresh symbol — to retry.
+</li><li><strong>Clear Downloads:</strong> Click the <span class=""button"">Clear Downloads</span> button at the top of the <em>Library</em> window to clear the entire history of downloaded items. This will not delete the downloaded files.
+</li><li><strong>Delete a downloaded file:</strong> You can delete a downloaded file that you don't want to keep. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ on the file entry and select <span class=""menu"">Delete</span>. This will remove the file from your disk.
+</li></ul>
+<h2 id=""w_set-firefox-to-always-open-similar-files"">Set Firefox to always open similar files</h2>
+<p>When you download a file, you can configure Firefox to always open similar files. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file in the <em>Downloads</em> panel and select <span class=""menu"">Always Open Similar Files</span> from the context menu.
+This will add an entry for that file type to the <em>Applications</em> section of the <span class=""menu"">General</span> panel in <a href=""/en-US/kb/firefox-options-preferences-and-settings#w_general-panel"">Firefox settings</a>, where you can configure how Firefox handles that type of file. To learn more, see <a href=""/en-US/kb/change-firefox-behavior-when-open-file"">Manage file types and download actions in Firefox</a>.
+</p>
+<h1 id=""w_change-where-downloads-are-saved"">Change where downloads are saved</h1>
+<p>File downloads are saved in the folder specified in Firefox Settings
+. To change that folder:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> In the <span class=""menu"">General</span> panel, find the <strong>Downloads</strong> section under <em>Files and Applications</em>.
+<dl><dt><span class=""for"" data-for=""not fx143""><span class=""for"" data-for=""win,linux""><img alt=""Fx101ChangeDownloadLocation-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-07-03-23-31-59-c51cf8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""></span></span><span class=""for"" data-for=""fx143""><span class=""for"" data-for=""win,linux""><img alt=""Fx143settings-Downloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-21-02-19-16-b31132.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""></span></span>
+</dt></dl>
+</li><li> Click the <span class=""for"" data-for=""win,linux""><span class=""button"">Browse</span></span><span class=""for"" data-for=""mac""><span class=""button"">Choose</span></span> button next to the <strong>Save files to</strong> entry.
+</li><li> Choose the downloads folder you wish to use.
+</li></ol>
+<h1 id=""w_change-download-actions-for-file-types"">Change download actions for file types</h1>
+<p>You can change what action Firefox will take for handling downloads for different types of files when you browse the Web, such as opening the file with a specified application or always asking you what to do for that type of file.
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to the <em>Applications</em> section.
+</li><li>Select the file type you wish to change and click on the arrow under the <em>Action</em> column.
+</li><li>Choose the action you wish to take in the drop-down menu.
+</li></ol>
+<p>For more information, see <a href=""/en-US/kb/change-firefox-behavior-when-open-file"">Manage file types and download actions in Firefox</a>.
+</p>
+<h1 id=""w_download-protection"">Download protection</h1>
+<p>
+Before beginning a download, Firefox will attempt to protect you from potentially malicious or unsafe downloads, and will block downloads from insecure connections. To learn more, see the Mozilla Security blog posts <a href=""https://blog.mozilla.org/security/2021/10/05/firefox-93-protects-against-insecure-downloads/"">Firefox 93 protects against Insecure Downloads</a>, <a href=""https://blog.mozilla.org/security/2016/08/01/enhancing-download-protection-in-firefox/"">Enhancing Download Protection in Firefox</a> and <a href=""https://blog.mozilla.org/security/2014/07/23/improving-malware-detection-in-firefox/"">Improving Malware Detection in Firefox</a>. If something is suspected, the download will not begin, but rather the <em>Downloads</em> panel will display a warning message:
+</p>
+<dl><dt><img alt=""Fx91UnsafeDownloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-06-56-39-c600ee.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>Potentially malicious downloads are detected using <em>Google Safe Browsing</em> service. The file name will be displayed along with the warning message:
+</p>
+<ul><li><em>This file contains a virus or malware.</em>
+</li></ul>
+<p>Other files covered under download protection may be potentially unwanted downloads (explained in the <a href=""https://www.google.com/intl/en/about/company/unwanted-software-policy.html"">Google Policy</a>) that may make unexpected changes to your computer. Or, a download may not be malicious or unwanted, but simply not commonly downloaded. The file name will be displayed with one of these warning messages:
+</p>
+<ul><li><em>This file may harm your computer.</em>
+</li><li><em>This file is not commonly downloaded.</em>
+</li></ul>
+<p>Download protection is enabled by default in Firefox. For more information, see <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">How does built-in Phishing and Malware Protection work?</a>
+</p>
+<h2 id=""w_how-do-i-handle-unsafe-downloads"">How do I handle unsafe downloads?</h2>
+<p>When you see a malicious file or other types of potentially unsafe files in the <em>Downloads</em> panel, click on the right-facing arrow to choose what to do with the file. You will be given more information about the type of unsafe file and the option to allow the download or remove it:
+</p>
+<dl><dt><img alt=""Fx98UnsafeDLdetails"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-17-23-14-57c427.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p><strong>Tip:</strong> The (right-click) context menu includes other options for handling any potentially harmful or malicious files listed in the Downloads panel that are pending download:
+</p>
+<dl><dt><img alt=""Fx98UnsafeDLcontextmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-17-07-52-d5d996.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>For example: <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ one of the potentially unsafe files that are pending download and select <span class=""menu"">Allow Download</span> to save the file to your computer.
+</p>",firefox,download-and-save;downloads,"Your _Downloads_ panel and _Library_ keep track of files you download while using Firefox. This article explains how to access and manage the files you download in Firefox and how to configure your download settings.
+
+## Table of Contents
+
+- [1 How do I access my downloads?](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_how-do-i-access-my-downloads)
+- [2 See downloads history](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history)
+- [3 How can I manage my downloaded files?](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_how-can-i-manage-my-downloaded-files)
+  - [3.1 Set Firefox to always open similar files](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_set-firefox-to-always-open-similar-files)
+
+- [4 Change where downloads are saved](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_change-where-downloads-are-saved)
+- [5 Change download actions for file types](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_change-download-actions-for-file-types)
+- [6 Download protection](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection)
+  - [6.1 How do I handle unsafe downloads?](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_how-do-i-handle-unsafe-downloads)
+
+# How do I access my downloads?
+
+You can access downloads from your current browsing session by clicking on the _Downloads_ ![Fx91DownloadsButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button in the toolbar.
+
+- The arrow will appear blue ![Fx91DownloadsButton-blue](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to let you know there are unviewed downloaded files.
+- During a download, the _Downloads_ button becomes an icon ![Fx91DownloadProgress](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) that gradually fills with color to show your download's progress. You can click the download item, even before it's finished downloading; Firefox will open the file immediately once it is available.
+
+Click on the _Downloads_ button to open the _Downloads_ panel.
+
+<dl><dt>
+<span class=""for"" data-for=""win,linux""><img alt=""Fx91DownloadsPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-05-49-52-a3589c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx99DownloadsPanel-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-24-05-24-06-d93b66.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+The _Downloads_ panel displays your five most recently downloaded files, along with their size and download status. To see all of your downloads at any time, go to the _Library_ by clicking Show all downloads at the bottom of the _Downloads_ panel.Right-clickRight-click (or hold down the Control key while you click) the _Downloads_ button for options, such as to hide the _Downloads_ button when there are no downloads in the current session or to show the _Downloads_ panel when a download begins.
+
+<dl><dt>
+<img alt=""Fx102DownloadsButtonContextMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-15-13-18-05-4e6862.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+**Note:** Your toolbar does not include a _Downloads_ button by default, when you have no downloads in your current browsing session. You can use the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button on your toolbar to access a list of your previous downloads (see below).
+
+# See downloads history
+
+The _Library_ displays information for all of your downloaded files unless you've cleared them from your history. Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button and click Downloads from the menu. The _Library_ window will open, showing a list of your downloaded files.
+
+<dl><dt>
+<span class=""for"" data-for=""win,linux""><img alt=""Fx99Library-Downloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-23-02-14-29-171fa2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx99LibraryDownloads-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-04-24-05-07-18-84227f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+# How can I manage my downloaded files?
+
+You can check on downloads at any time. Click the _Downloads_ button ![Fx91DownloadsButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the _Downloads_ panel. The _Downloads_ panel displays up to five of your most recently downloaded files, as well as their size and download status. Alternatively, click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then click Downloads to [view your downloads](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history) in the _Library_ window, which displays a list of your previous downloads, along with the size, source and download time for each file.
+
+You can manage your files directly in the _Downloads_ panel or in your _Library_. Options will appear to the right of each file during each stage of the download:
+
+- **Pause:** You can pause any downloads currently in progress. Right-clickRight-click (or hold down the Control key while you click) the file and select Pause. (Right-clickRight-click (or hold down the Control key while you click) the file entry and select Resume, when you want to continue downloading the file.)
+- **Cancel ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif):** If you no longer need to download a file, click the 🞩 button at the right of the file entry. This button turns into a refresh symbol; click it again to restart your download.
+- **Open the file:** When a download has finished, you can click on the entry directly to open the file.
+- **Show in Folder**![Fx91DownloadsPanel-OpenFolderIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif): Once a file has finished downloading, the icon to the right of the file entry becomes a folder. Click the folder icon to open the folder that contains that file. **Show In Finder**![fx icon Open the file's folder Mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif): Once a file has finished downloading, the icon to the right of the file entry becomes a magnifying glass. Click the magnifying glass icon to show that file in the Finder. To set the folder where your downloads go, see [Change where downloads are saved](https://support.mozilla.org/kb/where-find-and-manage-downloaded-files-firefox#w_change-where-downloads-are-saved), below.
+- **Go to Download Page:** Right-clickRight-click (or hold down the Control key while you click) the file to bring up the menu. Choose this option to visit the webpage where the file came from.
+- **Remove the file's entry:** If you do not wish to keep a record of a particular download, you can remove the entry for a file. Right-clickRight-click (or hold down the Control key while you click) the file entry, then select Remove From History in the context menu. This will remove the entry from the list but will not delete the file itself.
+- **Retry a Download ![fx icon retry download 16x16](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif):** If for any reason a file does not finish downloading, click the button to the right of the entry — a refresh symbol — to retry.
+- **Clear Downloads:** Click the Clear Downloads button at the top of the _Library_ window to clear the entire history of downloaded items. This will not delete the downloaded files.
+- **Delete a downloaded file:** You can delete a downloaded file that you don't want to keep. Right-clickRight-click (or hold down the Control key while you click) on the file entry and select Delete. This will remove the file from your disk.
+
+## Set Firefox to always open similar files
+
+When you download a file, you can configure Firefox to always open similar files. Right-clickRight-click (or hold down the Control key while you click) the file in the _Downloads_ panel and select Always Open Similar Files from the context menu. This will add an entry for that file type to the _Applications_ section of the General panel in [Firefox settings](\""https://support.mozilla.org/en-US/kb/firefox-options-preferences-and-settings#w_general-panel""), where you can configure how Firefox handles that type of file. To learn more, see [Manage file types and download actions in Firefox](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file"").
+
+# Change where downloads are saved
+
+File downloads are saved in the folder specified in Firefox Settings . To change that folder:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, find the **Downloads** section under _Files and Applications_.<dl><dt>
+<span class=""for"" data-for=""not fx143""><span class=""for"" data-for=""win,linux""><img alt=""Fx101ChangeDownloadLocation-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-07-03-23-31-59-c51cf8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""></span></span><span class=""for"" data-for=""fx143""><span class=""for"" data-for=""win,linux""><img alt=""Fx143settings-Downloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-21-02-19-16-b31132.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""></span></span>
+</dt></dl>
+3. Click the BrowseChoose button next to the **Save files to** entry.
+4. Choose the downloads folder you wish to use.
+
+# Change download actions for file types
+
+You can change what action Firefox will take for handling downloads for different types of files when you browse the Web, such as opening the file with a specified application or always asking you what to do for that type of file.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to the _Applications_ section.
+3. Select the file type you wish to change and click on the arrow under the _Action_ column.
+4. Choose the action you wish to take in the drop-down menu.
+
+For more information, see [Manage file types and download actions in Firefox](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file"").
+
+# Download protection
+
+Before beginning a download, Firefox will attempt to protect you from potentially malicious or unsafe downloads, and will block downloads from insecure connections. To learn more, see the Mozilla Security blog posts [Firefox 93 protects against Insecure Downloads](https://blog.mozilla.org/security/2021/10/05/firefox-93-protects-against-insecure-downloads/), [Enhancing Download Protection in Firefox](https://blog.mozilla.org/security/2016/08/01/enhancing-download-protection-in-firefox/) and [Improving Malware Detection in Firefox](https://blog.mozilla.org/security/2014/07/23/improving-malware-detection-in-firefox/). If something is suspected, the download will not begin, but rather the _Downloads_ panel will display a warning message:
+
+<dl><dt>
+<img alt=""Fx91UnsafeDownloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-06-56-39-c600ee.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+Potentially malicious downloads are detected using _Google Safe Browsing_ service. The file name will be displayed along with the warning message:
+
+- _This file contains a virus or malware._
+
+Other files covered under download protection may be potentially unwanted downloads (explained in the [Google Policy](https://www.google.com/intl/en/about/company/unwanted-software-policy.html)) that may make unexpected changes to your computer. Or, a download may not be malicious or unwanted, but simply not commonly downloaded. The file name will be displayed with one of these warning messages:
+
+- _This file may harm your computer._
+- _This file is not commonly downloaded._
+
+Download protection is enabled by default in Firefox. For more information, see [How does built-in Phishing and Malware Protection work?](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"")
+
+## How do I handle unsafe downloads?
+
+When you see a malicious file or other types of potentially unsafe files in the _Downloads_ panel, click on the right-facing arrow to choose what to do with the file. You will be given more information about the type of unsafe file and the option to allow the download or remove it:
+
+<dl><dt>
+<img alt=""Fx98UnsafeDLdetails"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-17-23-14-57c427.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Tip:** The (right-click) context menu includes other options for handling any potentially harmful or malicious files listed in the Downloads panel that are pending download:
+
+<dl><dt>
+<img alt=""Fx98UnsafeDLcontextmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-17-07-52-d5d996.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+For example: Right-clickRight-click (or hold down the Control key while you click) one of the potentially unsafe files that are pending download and select Allow Download to save the file to your computer.
+
+"
 858,Use mouse shortcuts to perform common tasks in Firefox,mouse-shortcuts-perform-common-tasks,https://support.mozilla.org/en-US/kb/mouse-shortcuts-perform-common-tasks,en-US,"This is a list of Firefox mouse shortcuts that you can use to navigate websites, work with tabs, zoom in and out, and more.","<p>This is a list of mouse shortcuts in Mozilla Firefox.<span class=""for"" data-for=""linux""> The shortcuts only work if they are not used by the desktop environment or window manager.</span>
 </p>
 <ul><li>For keyboard shortcuts, see <a href=""/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"">this article</a>.
@@ -57579,6 +58308,129 @@ When you open Firefox for the first time, the Import Tool may appear automatical
 - [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"")
 
 "
+38500,Tracking Protection on Firefox Focus for iOS,tracking-protection-focus-ios,https://support.mozilla.org/en-US/kb/tracking-protection-focus-ios,en-US,How to view what trackers are on a page and how to turn Tracking Protection on or off.,"<p>Firefox Focus' Tracking Protection blocks trackers that follow you across multiple websites.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-know-if-tracking-protection-is-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I know if Tracking Protection is on or off?</span></a></li><li class=""toclevel-1""><a href=""#w_turn-tracking-protection-off-or-on""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn Tracking Protection off or on</span></a></li></ul></div>
+<h1 id=""w_how-do-i-know-if-tracking-protection-is-on-or-off"">How do I know if Tracking Protection is on or off?</h1>
+<p>When you visit a website, you’ll see a shield in your address bar. When Tracking Protection is on and you tap on the shield, it will bring up a panel where you can see the number of trackers being blocked on that page:
+</p>
+<ul><li><strong><img alt=""Focus shield active"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-11-07-10-22-eb78a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> Tracking Protection is ON:</strong> Focus blocked trackers and harmful scripts on a site. Tap the shield to see what was blocked.
+</li><li><img alt=""Focus shield crossed out"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-11-07-11-23-eb0992.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> <strong>Tracking Protection is OFF:</strong> A line through the shield means Tracking Protection is off and not blocking any trackers. Tap the shield and toggle the switch to turn it back on.
+</li></ul>
+<h1 id=""w_turn-tracking-protection-off-or-on"">Turn Tracking Protection off or on</h1>
+<ol><li>Tap the shield in the address bar to open the <em>Enhanced Tracking Protection</em> panel.
+</li><li>Tap the switch <img alt=""FocusPinkToggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-05-13-06-38-454c7d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> next to <strong>Enhanced Tracking Protection</strong> to turn it off or on.
+</li></ol>
+<p><img alt=""FocusETPpanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-08-08-43-75e9a6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</p><p>If you turn Tracking Protection off, it will remain off until you tap the trash icon in the toolbar or close Firefox Focus.
+</p>
+<div class=""note"">Learn more about <a href=""https://disconnect.me/trackerprotection"">tracking and the standards Disconnect uses to create its list</a> and <a href=""https://wiki.mozilla.org/Security/Tracking_protection#Lists"">the lists used by Firefox Focus for Tracking Protection</a>.</div>",focus-firefox,privacy-and-security;tracking-protection,"Firefox Focus' Tracking Protection blocks trackers that follow you across multiple websites.
+
+## Table of Contents
+
+- [1 How do I know if Tracking Protection is on or off?](https://support.mozilla.org/kb/tracking-protection-focus-ios#w_how-do-i-know-if-tracking-protection-is-on-or-off)
+- [2 Turn Tracking Protection off or on](https://support.mozilla.org/kb/tracking-protection-focus-ios#w_turn-tracking-protection-off-or-on)
+
+# How do I know if Tracking Protection is on or off?
+
+When you visit a website, you’ll see a shield in your address bar. When Tracking Protection is on and you tap on the shield, it will bring up a panel where you can see the number of trackers being blocked on that page:
+
+- **![Focus shield active](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Tracking Protection is ON:** Focus blocked trackers and harmful scripts on a site. Tap the shield to see what was blocked.
+- ![Focus shield crossed out](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) **Tracking Protection is OFF:** A line through the shield means Tracking Protection is off and not blocking any trackers. Tap the shield and toggle the switch to turn it back on.
+
+# Turn Tracking Protection off or on
+
+1. Tap the shield in the address bar to open the _Enhanced Tracking Protection_ panel.
+2. Tap the switch ![FocusPinkToggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to **Enhanced Tracking Protection** to turn it off or on.
+
+![FocusETPpanel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+If you turn Tracking Protection off, it will remain off until you tap the trash icon in the toolbar or close Firefox Focus.
+
+Learn more about [tracking and the standards Disconnect uses to create its list](https://disconnect.me/trackerprotection) and [the lists used by Firefox Focus for Tracking Protection](https://wiki.mozilla.org/Security/Tracking_protection#Lists).
+"
+38604,An extension changed my New Tab page or home page,extension-changed-my-new-tab-page,https://support.mozilla.org/en-US/kb/extension-changed-my-new-tab-page,en-US,View and disable extensions or add-ons that change the new tab page or home page.,"<p>Extensions (also known as add-ons) are small programs you can install to add features to Firefox. Some extensions can take control of the home page (what you see when you start Firefox, open a new window, or click the home icon <img alt=""Home Button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-19-01-59-26-fcbbdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the toolbar) or the  <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a> (what you see when you open a new tab). If this happens, Firefox will ask you when you open it for the first time if that change is okay.
+</p>
+<dl><dt><img alt=""Fx83NewTabChange-MomentumAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-19-17-53-55-1682ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_view-and-disable-the-extension""><span class=""tocnumber"">1</span> <span class=""toctext"">View and disable the extension</span></a></li><li class=""toclevel-1""><a href=""#w_remove-the-extension""><span class=""tocnumber"">2</span> <span class=""toctext"">Remove the extension</span></a></li></ul></div>
+<h1 id=""w_view-and-disable-the-extension"">View and disable the extension</h1>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <strong>Home</strong>.
+</li><li>Under <strong>New Windows and Tabs</strong>, it will indicate which extension has changed your home page or New Tab page.
+<dl><dt><img alt=""DisableExtensionNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-01-13-02-45-164cdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click <span class=""button"">Disable Extension</span> to prevent the extension from changing your home or New Tab page again. The page will change back to what you had previously set. To change your home page again, see <a href=""/en-US/kb/how-to-set-the-home-page"">How to set the home page</a>.
+</li></ol>
+<h1 id=""w_remove-the-extension"">Remove the extension</h1>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions</span>.
+
+</li><li>Under <strong>Manage Your Extensions</strong> find the extension you want to remove.
+</li><li>On the right side of the extension click the menu (three dots) and select <span class=""menu"">Remove</span>. 
+<dl><dt><img alt=""fx72 remove extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-16-33-40-a77f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>",firefox,add-ons-extensions-and-themes;settings,"Extensions (also known as add-ons) are small programs you can install to add features to Firefox. Some extensions can take control of the home page (what you see when you start Firefox, open a new window, or click the home icon ![Home Button 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the toolbar) or the [New Tab page](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"") (what you see when you open a new tab). If this happens, Firefox will ask you when you open it for the first time if that change is okay.
+
+<dl><dt>
+<img alt=""Fx83NewTabChange-MomentumAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-19-17-53-55-1682ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+## Table of Contents
+
+- [1 View and disable the extension](https://support.mozilla.org/kb/extension-changed-my-new-tab-page#w_view-and-disable-the-extension)
+- [2 Remove the extension](https://support.mozilla.org/kb/extension-changed-my-new-tab-page#w_remove-the-extension)
+
+# View and disable the extension
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click **Home**.
+3. Under **New Windows and Tabs** , it will indicate which extension has changed your home page or New Tab page.<dl><dt>
+<img alt=""DisableExtensionNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-01-13-02-45-164cdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Click Disable Extension to prevent the extension from changing your home or New Tab page again. The page will change back to what you had previously set. To change your home page again, see [How to set the home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"").
+
+# Remove the extension
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions.
+2. Under **Manage Your Extensions** find the extension you want to remove.
+3. On the right side of the extension click the menu (three dots) and select Remove. <dl><dt>
+<img alt=""fx72 remove extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-16-33-40-a77f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+"
+38819,Remove a search engine in Firefox Focus for Android,remove-search-engine-firefox-focus-android,https://support.mozilla.org/en-US/kb/remove-search-engine-firefox-focus-android,en-US,Remove a search engine in Firefox Focus for Android.,"<p>Firefox Focus comes with built-in search engines and you can even add <a href=""/en-US/kb/add-search-engine-firefox-focus-android"">additional ones</a>. You can also clean up your list by removing unwanted search engines:
+</p>
+<ol><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Go to <span class=""menu"">Search</span>.
+</li><li>Tap <span class=""menu"">Search engine</span>.
+</li><li>Tap the menu button at the top right.
+<dl><dt><img alt=""Focus-choose-Sengine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-21-09-42-13-b2bce4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>Tap <span class=""menu"">Remove</span>.
+</li><li>Check the box next to the search engine you want to delete.
+</li><li>Tap the trash <img alt=""Focustrash-icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-21-09-18-24-7f13c6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon at the top right.
+</li><li>Tap the back arrow to save your settings and go back to the previous screen.
+</li></ol>",focus-firefox,search;search-tag-and-share;settings,"Firefox Focus comes with built-in search engines and you can even add [additional ones](\""https://support.mozilla.org/en-US/kb/add-search-engine-firefox-focus-android""). You can also clean up your list by removing unwanted search engines:
+
+1. Tap the menu button next to the address bar:
+
+2. Tap Settings.
+3. Go to Search.
+4. Tap Search engine.
+5. Tap the menu button at the top right.<dl><dt>
+<img alt=""Focus-choose-Sengine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-21-09-42-13-b2bce4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+6. Tap Remove.
+7. Check the box next to the search engine you want to delete.
+8. Tap the trash ![Focustrash-icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon at the top right.
+9. Tap the back arrow to save your settings and go back to the previous screen.
+
+"
 38820,Add a search engine to Firefox Focus for Android,add-search-engine-firefox-focus-android,https://support.mozilla.org/en-US/kb/add-search-engine-firefox-focus-android,en-US,Add a search engine or search results page to Firefox Focus for Android.,"<p>Firefox Focus comes with built-in search engines, but you can also add new ones:
 </p>
 <ol><li><p>Tap the menu button next to the address bar:
@@ -69313,7 +70165,7 @@ When you next start Firefox, it should not ask you for your Primary Password unl
 
 For more information about Primary Passwords, see [Use a Primary Password to protect stored logins and passwords](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"").
 "
-45403,Recover user data missing after Firefox update,recover-user-data-missing-after-firefox-update,https://support.mozilla.org/en-US/kb/recover-user-data-missing-after-firefox-update,en-US,"If your bookmarks, passwords, preference settings and other data are missing, it may be available in another Firefox profile. Learn more.","<p>If Firefox starts up without your bookmarks, passwords, saved tabs and other settings, check whether your data is available in a different <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a>. This can happen because Firefox creates a <a href=""/en-US/kb/dedicated-profiles-firefox-installation"">dedicated profile for each installation of Firefox</a>.
+45403,Recover user data missing after Firefox update or reinstall,recover-user-data-missing-after-firefox-update,https://support.mozilla.org/en-US/kb/recover-user-data-missing-after-firefox-update,en-US,"If your bookmarks, passwords, preference settings and other data are missing, it may be available in another Firefox profile. Learn more.","<p>If Firefox starts up without your bookmarks, passwords, saved tabs and other settings, check whether your data is available in a different <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a>. This can happen because Firefox creates a <a href=""/en-US/kb/dedicated-profiles-firefox-installation"">dedicated profile for each installation of Firefox</a>.
 </p><p>To recover your Firefox data and settings from another profile:
 </p><p>Type <strong>about:profiles</strong> into the Firefox address bar and press the <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span> key. This will open the <em>About Profiles</em> page.<br><span class=""for"" data-for=""win""><img alt=""Fx96aboutprofiles-Win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-29-00-08-24-5e11bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""about:profiles macOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-07-13-36-23-103333.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> </span><span class=""for"" data-for=""linux""><img alt=""Fx52_about-profiles-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-14-01-05-24-eccbc8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </p><p>This page should list at least one profile and could list many. The profile that Firefox is currently using will have this under the profile name: <strong>This is the profile in use and it cannot be deleted.</strong>
@@ -81325,99 +82177,6 @@ Copy the renamed language packs into the `extensions` directory you created in s
 Using policy, set [RequestedLocales](https://github.com/mozilla/policy-templates/blob/master/README.md#requestedlocales) to either the language you want to use by default or an empty string to use the same language as the operating system.
 
 "
-54084,Fritz!box isn't working when Mozilla VPN is on,fritzbox-isnt-working-when-mozilla-vpn,https://support.mozilla.org/en-US/kb/fritzbox-isnt-working-when-mozilla-vpn,en-US,Fritz!box is blocked when Mozilla VPN is on.,"<p>Some users are unable to access the <a href=""https://avm.de/products/fritzbox/"">Fritz!box</a> to manage their router settings when Mozilla VPN is on. 
-</p><p>For better privacy protection, the  Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router. 
-</p>
-<h1 id=""w_workaround"">Workaround</h1>
-<p>To fix this problem, try <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">turning Mozilla VPN off</a> to configure the Fritz!box, then turn Mozilla VPN on again.
-</p><p><br>
-
-<strong>Related articles:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
-</li></ul>
-<p><strong>Learn more:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related"">The language of the websites I visit changes when I turn Mozilla VPN on - What to do</a>
-</li><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
-</li></ul>",mozilla-vpn,connectivity;performance-and-connectivity,"Some users are unable to access the [Fritz!box](https://avm.de/products/fritzbox/) to manage their router settings when Mozilla VPN is on.
-
-For better privacy protection, the Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router.
-
-# Workaround
-
-To fix this problem, try [turning Mozilla VPN off](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") to configure the Fritz!box, then turn Mozilla VPN on again.
-
-**Related articles:**
-
-- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
-
-**Learn more:**
-
-- [The language of the websites I visit changes when I turn Mozilla VPN on - What to do](https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related)
-- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
-
-"
-54410,Firefox for Enterprise 90 - Release notes,firefox-enterprise-90-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-90-release-notes,en-US,See what's coming out with Firefox for Enterprise 90.,"<p>Except where noted, everything here applies to both Firefox 90 and the Firefox 78.12 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">3</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_general"">General</h1>
-<ul><li>On Windows, Firefox now supports <a href=""/en-US/kb/enable-background-updates-firefox-windows"">background updates</a>. This does not apply to the ESR.
-</li></ul>
-<ul><li>On Windows, the version number was removed from DisplayName in the Uninstall data for Firefox in the registry. See <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1713393"">bug 1713393</a> for more details.
-</li></ul>
-<h1 id=""w_bug-fixes"">Bug fixes</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter"">WebsiteFilter</a> policy could be bypassed using a reader mode URL. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1710749"">bug 1710749</a>.
-</li></ul>
-<ul><li>It was possible to remove a locked extension. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1658768"">bug 1658768</a>.
-</li></ul>
-<ul><li>When setting the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#offertosavelogins"">OfferToSaveLogins</a> policy to false, some items in preferences were still clickable. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1692159"">bug 1692159</a>. This was not a problem in the ESR.
-</li></ul>
-<ul><li>If the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#disableappupdate"">DisableAppUpdate</a> policy was set to true, typing ""update firefox"" in the URL bar still offered to update Firefox. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1710796"">bug 1710796</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#autolaunchprotocolsfromorigins"">AutoLaunchProtocolsFromOrigins</a> policy has been added. This allows you to define a list of external protocols that can be used from listed origins without prompting the user. It is based on the <a href=""https://chromeenterprise.google/policies/#AutoLaunchProtocolsFromOrigins"">Chrome policy of the same name</a>.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#backgroundappupdate"">BackgroundAppUpdate</a> policy has been added. This allows you to control background updates. This does not apply to the ESR.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 90 and the Firefox 78.12 ESR.
-
-## Table of Contents
-
-- [1 General](https://support.mozilla.org/kb/firefox-enterprise-90-release-notes#w_general)
-- [2 Bug fixes](https://support.mozilla.org/kb/firefox-enterprise-90-release-notes#w_bug-fixes)
-- [3 Policies](https://support.mozilla.org/kb/firefox-enterprise-90-release-notes#w_policies)
-- [4 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-90-release-notes#w_special-notes)
-
-# General
-
-- On Windows, Firefox now supports [background updates](\""https://support.mozilla.org/en-US/kb/enable-background-updates-firefox-windows""). This does not apply to the ESR.
-
-- On Windows, the version number was removed from DisplayName in the Uninstall data for Firefox in the registry. See [bug 1713393](https://bugzilla.mozilla.org/show_bug.cgi?id=1713393) for more details.
-
-# Bug fixes
-
-- The [WebsiteFilter](https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter) policy could be bypassed using a reader mode URL. This was fixed in [bug 1710749](https://bugzilla.mozilla.org/show_bug.cgi?id=1710749).
-
-- It was possible to remove a locked extension. This was fixed in [bug 1658768](https://bugzilla.mozilla.org/show_bug.cgi?id=1658768).
-
-- When setting the [OfferToSaveLogins](https://github.com/mozilla/policy-templates/blob/master/README.md#offertosavelogins) policy to false, some items in preferences were still clickable. This was fixed in [bug 1692159](https://bugzilla.mozilla.org/show_bug.cgi?id=1692159). This was not a problem in the ESR.
-
-- If the [DisableAppUpdate](https://github.com/mozilla/policy-templates/blob/master/README.md#disableappupdate) policy was set to true, typing ""update firefox"" in the URL bar still offered to update Firefox. This was fixed in [bug 1710796](https://bugzilla.mozilla.org/show_bug.cgi?id=1710796).
-
-# Policies
-
-- The [AutoLaunchProtocolsFromOrigins](https://github.com/mozilla/policy-templates/blob/master/README.md#autolaunchprotocolsfromorigins) policy has been added. This allows you to define a list of external protocols that can be used from listed origins without prompting the user. It is based on the [Chrome policy of the same name](https://chromeenterprise.google/policies/#AutoLaunchProtocolsFromOrigins).
-
-- The [BackgroundAppUpdate](https://github.com/mozilla/policy-templates/blob/master/README.md#backgroundappupdate) policy has been added. This allows you to control background updates. This does not apply to the ESR.
-
-# Special Notes
-
-- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-
-"
 54428,Enable background updates on Firefox for Windows when Firefox is not running,enable-background-updates-firefox-windows,https://support.mozilla.org/en-US/kb/enable-background-updates-firefox-windows,en-US,"On Windows, you can set Firefox to update in the background even when it isn't running, so you always have the latest version. Learn more.","<div class=""for"" data-for=""not win""><div class=""for"" data-for=""not win""><div class=""warning"">This article only applies to Firefox on Windows.</div></div></div>
 <p></p><p>Firefox includes a background updates feature for Windows that checks for, downloads, and installs Firefox updates in the background, even when Firefox is not running. This way, you will have the latest available version of Firefox, every time you open the browser.
 </p><p>The background updates feature adds a <strong>Firefox Background Update</strong> entry to the <em>Windows Task Scheduler</em> that, when enabled, will check for Firefox updates every 7 hours when the browser is not in use. On Windows, there will now be fewer interruptions because, when background updates are enabled, Firefox won’t prompt you for updates. Instead, a background agent will download and install updates even if Firefox is closed.
@@ -91263,6 +92022,359 @@ Your subscription to Relay Premium will remain active and you’ll still be able
 **Related content:**
 
 - [In what languages is Firefox Relay available in?](\""https://support.mozilla.org/en-US/kb/in-what-languages-is-firefox-relay-available-in"")
+
+"
+58946,Troubleshoot Mozilla VPN connection problems,troubleshoot-mozilla-vpn-connection-problems,https://support.mozilla.org/en-US/kb/troubleshoot-mozilla-vpn-connection-problems,en-US,"What to do if Mozilla VPN disconnects or turns off after being activated, or if websites fail to load even though Mozilla VPN is connected.","<p>If you find that Mozilla VPN is disconnecting or turning off after being activated, you can try the below steps to resolve this issue. These steps are also helpful if Mozilla VPN is connected, but websites fail to load.
+</p><p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_restart-mozilla-vpn"">Restart Mozilla VPN</h2>
+<p>Restarting Mozilla VPN is a quick way to fix minor connection problems or glitches.
+</p>
+<ol><li>Close the Mozilla VPN app completely.
+<ul><li>On mobile, swipe it away from the recent apps list.
+</li><li>On desktop, right-click the Mozilla VPN icon in the system tray or menu bar and select <span class=""menu"">Quit</span>.
+</li></ul>
+</li><li>Reopen the app and try connecting again.
+</li></ol>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_restart-your-device"">Restart your device</h2>
+<p>Sometimes a quick restart can reset network settings and resolve hidden glitches:
+</p>
+<ol><li>Restart your device.
+</li><li>Open Mozilla VPN and try connecting again.
+</li></ol>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_update-mozilla-vpn"">Update Mozilla VPN</h2>
+<p>An outdated app can cause compatibility issues so ensure you're using the latest version of Mozilla VPN. Download the most <a href=""https://www.mozilla.org/products/vpn/download/"">recent release</a>. 
+</p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_run-application-as-an-administrator-windows"">Run application as an administrator (Windows)</h2>
+<p>Try running the client as the administrator. Sometimes running the app with elevated permissions can help.
+</p>
+<ol><li>Click the <strong>Windows</strong> icon in the taskbar.
+</li><li>Enter Mozilla VPN and select ""Run as Admin"".
+</li></ol>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_disable-firewalls-desktop"">Disable Firewalls (Desktop)</h2>
+<p>Other firewall or antivirus apps may conflict with Mozilla VPN. Try disabling them or allowing an exception for Mozilla VPN. 
+</p>
+<div class=""note""><strong>Note:</strong> For assistance and instructions, consult the official support documentation for your specific application. It should offer comprehensive information, troubleshooting, and even detailed guides in case of any issues.</div>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_for-windows-defender-firewall"">For Windows Defender Firewall</h2>
+<ol><li>In the <em>Windows Start Menu</em> search bar, type <strong>Allow an app through Windows Firewall</strong> and click the first result.
+</li><li>Click the <strong>Change Settings</strong> button at the top right of the window to make changes.
+<dl><dt><img alt=""changesettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-29-15-47-40-fa4739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>The <em>Allow another app</em> button should highlight. Click the <strong>Allow another app</strong> button close to the bottom of the window.
+</li><li>Click <strong>Browse</strong>.
+</li><li>Navigate to the VPN by going through the following path: <strong>This PC &gt; Windows (C:) &gt; Program Files &gt; Mozilla &gt; Mozilla VPN &gt; MozillaVPN.exe</strong>
+</li><li>Click <strong>Add</strong>.
+</li><li>Go to the <em>Allowed apps</em> window.
+</li><li>Look for <em>mozillavpn</em>.
+</li><li>Make sure the <strong>Private</strong> and <strong>Public</strong> boxes next to it are checked.
+</li><li>Click <strong>OK</strong> at the bottom.
+</li><li>Restart the system.
+</li></ol>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_for-macos-application-firewall"">For macOS Application Firewall</h2>
+<ol><li>Open <strong>System Preference</strong>.
+</li><li>Click the <strong>Security</strong> or <strong>Security &amp; Privacy</strong> icon.
+</li><li>Select the <strong>Firewall</strong> tab.
+</li><li>Click the lock icon in the preference pane
+</li><li>Enter an administrator name and password.
+</li><li>Click the <strong>Firewall Options</strong> button.
+</li><li>Click the <strong>Add Application (+)</strong> button.
+</li><li>Select <strong>Mozilla VPN</strong>.
+</li><li>Click <strong>Add</strong>.
+</li><li>Click <strong>OK</strong>.
+</li></ol>
+<p></p></section>
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_reset-mozilla-vpn"">Reset Mozilla VPN</h2>
+<p>If none of the above solutions work and Mozilla VPN keeps disconnecting, you can try resetting Mozilla VPN:
+</p>
+<ol><li>Open the Mozilla VPN application.
+</li><li>Click the <em>Settings</em> <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> icon.
+</li><li>Select <span class=""menu"">Help</span>.
+<dl><dt><img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li><li>Go to the <strong>Reset VPN</strong> section of the menu.
+<dl><dt><img alt=""Reset VPN button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-25-47-701ab6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li><li>Select the <span class=""button"">Reset VPN</span> button.
+<dl><dt><img alt=""Reset VPN click"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-27-48-4330c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li><li>Confirm the reset by selecting the <span class=""button"">Reset and quit</span> button.
+<dl><dt><img alt=""Confirm VPN reset"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-28-38-a18fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li><li>A loading screen will appear while clearing all settings and preferences.
+</li><li>You will be signed out of your Mozilla VPN app and redirected to the sign in screen.
+</li></ol>
+<p>Congratulations! The VPN reset is done. You will need to sign back in to Mozilla VPN using your Mozilla account email and password.
+</p></section>
+<p></p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<p>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related"">The language of the websites I visit changes when I turn Mozilla VPN on - What to do</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/choose-mozilla-vpn-plan-right-you"">Choose the Mozilla VPN plan that is right for you</a>
+</li></ul>",mozilla-vpn,connectivity;performance-and-connectivity,"If you find that Mozilla VPN is disconnecting or turning off after being activated, you can try the below steps to resolve this issue. These steps are also helpful if Mozilla VPN is connected, but websites fail to load.
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_restart-mozilla-vpn"">Restart Mozilla VPN</h2>
+<p>Restarting Mozilla VPN is a quick way to fix minor connection problems or glitches.
+</p>
+<ol>
+<li>Close the Mozilla VPN app completely.
+<ul>
+<li>On mobile, swipe it away from the recent apps list.
+</li>
+<li>On desktop, right-click the Mozilla VPN icon in the system tray or menu bar and select <span class=""menu"">Quit</span>.
+</li>
+</ul>
+</li>
+<li>Reopen the app and try connecting again.
+</li>
+</ol>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_restart-your-device"">Restart your device</h2>
+<p>Sometimes a quick restart can reset network settings and resolve hidden glitches:
+</p>
+<ol>
+<li>Restart your device.
+</li>
+<li>Open Mozilla VPN and try connecting again.
+</li>
+</ol>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_update-mozilla-vpn"">Update Mozilla VPN</h2>
+<p>An outdated app can cause compatibility issues so ensure you're using the latest version of Mozilla VPN. Download the most <a href=""https://www.mozilla.org/products/vpn/download/"">recent release</a>. 
+</p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_run-application-as-an-administrator-windows"">Run application as an administrator (Windows)</h2>
+<p>Try running the client as the administrator. Sometimes running the app with elevated permissions can help.
+</p>
+<ol>
+<li>Click the <strong>Windows</strong> icon in the taskbar.
+</li>
+<li>Enter Mozilla VPN and select ""Run as Admin"".
+</li>
+</ol>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_disable-firewalls-desktop"">Disable Firewalls (Desktop)</h2>
+<p>Other firewall or antivirus apps may conflict with Mozilla VPN. Try disabling them or allowing an exception for Mozilla VPN. 
+</p>
+<div class=""note"">
+<strong>Note:</strong> For assistance and instructions, consult the official support documentation for your specific application. It should offer comprehensive information, troubleshooting, and even detailed guides in case of any issues.</div>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_for-windows-defender-firewall"">For Windows Defender Firewall</h2>
+<ol>
+<li>In the <em>Windows Start Menu</em> search bar, type <strong>Allow an app through Windows Firewall</strong> and click the first result.
+</li>
+<li>Click the <strong>Change Settings</strong> button at the top right of the window to make changes.
+<dl><dt>
+<img alt=""changesettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-29-15-47-40-fa4739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li>
+<li>The <em>Allow another app</em> button should highlight. Click the <strong>Allow another app</strong> button close to the bottom of the window.
+</li>
+<li>Click <strong>Browse</strong>.
+</li>
+<li>Navigate to the VPN by going through the following path: <strong>This PC &gt; Windows (C:) &gt; Program Files &gt; Mozilla &gt; Mozilla VPN &gt; MozillaVPN.exe</strong>
+</li>
+<li>Click <strong>Add</strong>.
+</li>
+<li>Go to the <em>Allowed apps</em> window.
+</li>
+<li>Look for <em>mozillavpn</em>.
+</li>
+<li>Make sure the <strong>Private</strong> and <strong>Public</strong> boxes next to it are checked.
+</li>
+<li>Click <strong>OK</strong> at the bottom.
+</li>
+<li>Restart the system.
+</li>
+</ol>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_for-macos-application-firewall"">For macOS Application Firewall</h2>
+<ol>
+<li>Open <strong>System Preference</strong>.
+</li>
+<li>Click the <strong>Security</strong> or <strong>Security &amp; Privacy</strong> icon.
+</li>
+<li>Select the <strong>Firewall</strong> tab.
+</li>
+<li>Click the lock icon in the preference pane
+</li>
+<li>Enter an administrator name and password.
+</li>
+<li>Click the <strong>Firewall Options</strong> button.
+</li>
+<li>Click the <strong>Add Application (+)</strong> button.
+</li>
+<li>Select <strong>Mozilla VPN</strong>.
+</li>
+<li>Click <strong>Add</strong>.
+</li>
+<li>Click <strong>OK</strong>.
+</li>
+</ol>
+<p></p></section><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_reset-mozilla-vpn"">Reset Mozilla VPN</h2>
+<p>If none of the above solutions work and Mozilla VPN keeps disconnecting, you can try resetting Mozilla VPN:
+</p>
+<ol>
+<li>Open the Mozilla VPN application.
+</li>
+<li>Click the <em>Settings</em> <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> icon.
+</li>
+<li>Select <span class=""menu"">Help</span>.
+<dl><dt>
+<img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li>
+<li>Go to the <strong>Reset VPN</strong> section of the menu.
+<dl><dt>
+<img alt=""Reset VPN button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-25-47-701ab6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li>
+<li>Select the <span class=""button"">Reset VPN</span> button.
+<dl><dt>
+<img alt=""Reset VPN click"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-27-48-4330c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li>
+<li>Confirm the reset by selecting the <span class=""button"">Reset and quit</span> button.
+<dl><dt>
+<img alt=""Confirm VPN reset"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-28-38-a18fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li>
+<li>A loading screen will appear while clearing all settings and preferences.
+</li>
+<li>You will be signed out of your Mozilla VPN app and redirected to the sign in screen.
+</li>
+</ol>
+<p>Congratulations! The VPN reset is done. You will need to sign back in to Mozilla VPN using your Mozilla account email and password.
+</p></section>
+
+# Related articles
+
+- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
+- [The language of the websites I visit changes when I turn Mozilla VPN on - What to do](https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related)
+- [Choose the Mozilla VPN plan that is right for you](https://support.mozilla.org/en-US/kb/choose-mozilla-vpn-plan-right-you)
+
+"
+58974,Firefox Translations Add-on,firefox-translations-add-on,https://support.mozilla.org/en-US/kb/firefox-translations-add-on,en-US,"Translate web pages in Firefox when you visit a site that's in another language, without using the cloud.","<p>Firefox has always prioritized user convenience and privacy, especially when it comes to browsing content in multiple languages. The Firefox Translations add-on has been a valuable tool for many, offering the ability to translate websites directly in Firefox without relying on cloud services. As browser technology advances and strives to improve user experience, Firefox is transitioning towards a more seamless, integrated solution.
+</p>
+<h1 id=""w_introducing-built-in-translation-in-firefox"">Introducing built-in translation in Firefox</h1>
+<p>Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 118, we are excited to introduce a built-in translation feature, a significant step forward in our commitment to privacy and seamless browsing. This feature, integrated directly into your browser, allows local translations of web pages, ensuring your privacy and security remain uncompromised. This built-in tool enables effortless web surfing in your preferred language, making the need for separate translation add-ons obsolete.
+</p>
+<h1 id=""w_changes-to-the-firefox-translations-add-on"">Changes to the Firefox translations add-on</h1>
+<p>With the introduction of the built-in translation feature, the Firefox Translations add-on will no longer receive updates or maintenance. While the add-on will remain functional for a period, we encourage users to transition to the built-in translation feature for the most up-to-date and secure experience.
+</p>
+<h1 id=""w_next-steps-for-users"">Next steps for users</h1>
+<p>As we sunset the Firefox Translations add-on, we invite users to embrace the built-in translation feature. To use it, make sure your <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> is 118 or above. Visit <a href=""/en-US/kb/website-translation"">Firefox Translations</a> for details.
+</p>
+<h1 id=""w_want-to-keep-using-the-translation-add-on"">Want to keep using the translation add-on?</h1>
+<p>If you're comfortable with and prefer the <a href=""https://addons.mozilla.org/firefox/addon/firefox-translations/"">Firefox Translations add-on</a> for cloud-free website translations in Firefox, you're welcome to keep using it. 
+</p><p>Once the Firefox Translations add-on is in place, the Firefox Translations toolbar becomes visible when you access a web page that's not your chosen Firefox language. The language that the page is in should be shown (you can change this if required). Click <img alt=""Translation Add-on translate button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-16-06-59-03-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""70""> to launch the translation of the page into the language you have Firefox set to. As the page is being translated, there is a counter at the top of the page to advise you how many elements have yet to be translated to give you an idea of progress.
+</p><p>Once the translation has finished, you can select the <span class=""button"">Translate this tab automatically</span> option for continuous translation as you browse.
+</p><p>There are some options to choose from:
+</p>
+<ul><li>Options on the toolbar allow you to include the translation of forms and to highlight potential errors in red.
+</li><li>From the Options button on the right-hand side of the toolbar, you can select to:
+<ul><li>Never translate a language
+</li><li>Never translate a website
+</li><li>Translation preferences – will open the Firefox Settings, where you can <a href=""/en-US/kb/choose-display-languages-multilingual-web-pages"">set the display language</a> for Firefox and set exceptions for Firefox Translations
+</li></ul>
+</li></ul>
+<dl><dt><img alt=""Firefox Translations Add-on in use"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-16-06-56-06-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700""> 
+</dt></dl>
+<p><br>
+<strong>Related content</strong>
+</p>
+<ul><li><a href=""/en-US/kb/website-translation"">Firefox Translations</a>
+</li><li><a href=""/en-US/kb/use-firefox-another-language"">Use Firefox in another language</a>
+</li></ul>",firefox,add-ons-extensions-and-themes,"Firefox has always prioritized user convenience and privacy, especially when it comes to browsing content in multiple languages. The Firefox Translations add-on has been a valuable tool for many, offering the ability to translate websites directly in Firefox without relying on cloud services. As browser technology advances and strives to improve user experience, Firefox is transitioning towards a more seamless, integrated solution.
+
+# Introducing built-in translation in Firefox
+
+Starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 118, we are excited to introduce a built-in translation feature, a significant step forward in our commitment to privacy and seamless browsing. This feature, integrated directly into your browser, allows local translations of web pages, ensuring your privacy and security remain uncompromised. This built-in tool enables effortless web surfing in your preferred language, making the need for separate translation add-ons obsolete.
+
+# Changes to the Firefox translations add-on
+
+With the introduction of the built-in translation feature, the Firefox Translations add-on will no longer receive updates or maintenance. While the add-on will remain functional for a period, we encourage users to transition to the built-in translation feature for the most up-to-date and secure experience.
+
+# Next steps for users
+
+As we sunset the Firefox Translations add-on, we invite users to embrace the built-in translation feature. To use it, make sure your [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") is 118 or above. Visit [Firefox Translations](\""https://support.mozilla.org/en-US/kb/website-translation"") for details.
+
+# Want to keep using the translation add-on?
+
+If you're comfortable with and prefer the [Firefox Translations add-on](https://addons.mozilla.org/firefox/addon/firefox-translations/) for cloud-free website translations in Firefox, you're welcome to keep using it.
+
+Once the Firefox Translations add-on is in place, the Firefox Translations toolbar becomes visible when you access a web page that's not your chosen Firefox language. The language that the page is in should be shown (you can change this if required). Click ![Translation Add-on translate button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to launch the translation of the page into the language you have Firefox set to. As the page is being translated, there is a counter at the top of the page to advise you how many elements have yet to be translated to give you an idea of progress.
+
+Once the translation has finished, you can select the Translate this tab automatically option for continuous translation as you browse.
+
+There are some options to choose from:
+
+- Options on the toolbar allow you to include the translation of forms and to highlight potential errors in red.
+- From the Options button on the right-hand side of the toolbar, you can select to:
+  - Never translate a language
+  - Never translate a website
+  - Translation preferences – will open the Firefox Settings, where you can [set the display language](\""https://support.mozilla.org/en-US/kb/choose-display-languages-multilingual-web-pages"") for Firefox and set exceptions for Firefox Translations
+
+<dl><dt>
+<img alt=""Firefox Translations Add-on in use"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-16-06-56-06-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700""> 
+</dt></dl>
+
+**Related content**
+
+- [Firefox Translations](\""https://support.mozilla.org/en-US/kb/website-translation"")
+- [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"")
+
+"
+58980,How to upgrade your MDN Plus subscription,how-upgrade-your-mdn-plus-subscription,https://support.mozilla.org/en-US/kb/how-upgrade-your-mdn-plus-subscription,en-US,"If you are an MDN Core or MDN Plus 5 subscriber and wish to upgrade your subscription to a better plan, you can do it from the MDN Plus website.","<p>If you are an <em>MDN Core</em> or <em>MDN Plus 5</em> subscriber and wish to upgrade your subscription to a better plan, you can do it from the <a href=""https://developer.mozilla.org/plus"">MDN Plus website</a>.
+</p>
+<div class=""note""><strong>Note:</strong> Users can only upgrade to a higher plan. Downgrades are not available at this time.</div>
+<ol><li>Log in to the <a href=""https://developer.mozilla.org/plus"">MDN Plus site</a> with the credentials you used to subscribe to your current plan.
+</li><li>Scroll down to the bottom of the page to see the plans you can upgrade to.
+</li><li>Click the <strong>Upgrade</strong> button to select a plan from the available options.
+</li><li>You will be redirected to the checkout screen to complete your purchase.
+</li><li>The change in your plan will take effect immediately.
+</li></ol>
+<p>You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
+</p>",mdn-plus,manage-billing,"If you are an _MDN Core_ or _MDN Plus 5_ subscriber and wish to upgrade your subscription to a better plan, you can do it from the [MDN Plus website](https://developer.mozilla.org/plus).
+
+**Note:** Users can only upgrade to a higher plan. Downgrades are not available at this time.
+
+1. Log in to the [MDN Plus site](https://developer.mozilla.org/plus) with the credentials you used to subscribe to your current plan.
+2. Scroll down to the bottom of the page to see the plans you can upgrade to.
+3. Click the **Upgrade** button to select a plan from the available options.
+4. You will be redirected to the checkout screen to complete your purchase.
+5. The change in your plan will take effect immediately.
+
+You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
 
 "
 58999,I can't sign in to Mozilla VPN - What should I do?,i-cant-sign-mozilla-vpn-what-should-i-do,https://support.mozilla.org/en-US/kb/i-cant-sign-mozilla-vpn-what-should-i-do,en-US,"If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues.","<p>If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues. 
@@ -108919,6 +110031,88 @@ If you’ve set a custom server location for a specific website but no longer ne
 # Related articles
 
 - [Get started with the Mozilla VPN extension](\""https://support.mozilla.org/en-US/kb/get-started-mozilla-vpn-extension"")
+- [Disable Mozilla VPN protection for a specific website](\""https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website"")
+
+"
+66486,How will DNS work when using the VPN extension?,how-will-dns-work-when-using-vpn-extension,https://support.mozilla.org/en-US/kb/how-will-dns-work-when-using-vpn-extension,en-US,Learn how your DNS (Domain Name System) settings work while using your Mozilla VPN extension.,"<p>In the context of Firefox, DNS (<a href=""https://wikipedia.org/wiki/Domain_Name_System"">Domain Name System</a>) queries are critical to how browsers translate website names into IP addresses. When using the Mozilla VPN browser extension, all DNS queries originated in Firefox are securely routed through the Mozilla VPN connection, enhancing their privacy and protection.
+</p><p>If you enable any privacy features in the Mozilla VPN application such as blocking ads, ad trackers or malware – or use the <strong>Custom DNS</strong> option, your device will utilize specific DNS resolvers designed to block these threats. These settings, configured in the Mozilla VPN application, will affect your browsing experience in Firefox.
+</p><p>However, if Firefox is set to use <a href=""/en-US/kb/dns-over-https-doh-faqs"">DNS over HTTPS (DoH)</a>, the DNS resolver specified in Firefox will take priority over the resolver configured in the Mozilla VPN application.
+</p>
+<h1 id=""w_common-questions"">Common questions</h1>
+<h2 id=""w_do-client-dns-settings-apply-to-the-extension-if-the-vpn-client-is-turned-off"">Do client DNS settings apply to the extension if the VPN client is turned off?</h2>
+<p>Yes. DNS preferences configured in the Mozilla VPN client will still apply to the Mozilla VPN extension, even if the Mozilla VPN client is turned off while the Mozilla VPN extension is turned on. This ensures consistent DNS behavior across both components, regardless of the client’s status.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-do-i-change-my-dns-settings"">How do I change my DNS settings?</a>
+</li><li><a href=""/en-US/kb/how-do-i-change-my-privacy-features"">How do I change my Privacy features?</a>
+</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings,"In the context of Firefox, DNS ([Domain Name System](https://wikipedia.org/wiki/Domain_Name_System)) queries are critical to how browsers translate website names into IP addresses. When using the Mozilla VPN browser extension, all DNS queries originated in Firefox are securely routed through the Mozilla VPN connection, enhancing their privacy and protection.
+
+If you enable any privacy features in the Mozilla VPN application such as blocking ads, ad trackers or malware – or use the **Custom DNS** option, your device will utilize specific DNS resolvers designed to block these threats. These settings, configured in the Mozilla VPN application, will affect your browsing experience in Firefox.
+
+However, if Firefox is set to use [DNS over HTTPS (DoH)](\""https://support.mozilla.org/en-US/kb/dns-over-https-doh-faqs""), the DNS resolver specified in Firefox will take priority over the resolver configured in the Mozilla VPN application.
+
+# Common questions
+
+## Do client DNS settings apply to the extension if the VPN client is turned off?
+
+Yes. DNS preferences configured in the Mozilla VPN client will still apply to the Mozilla VPN extension, even if the Mozilla VPN client is turned off while the Mozilla VPN extension is turned on. This ensures consistent DNS behavior across both components, regardless of the client’s status.
+
+# Related articles
+
+- [How do I change my DNS settings?](\""https://support.mozilla.org/en-US/kb/how-do-i-change-my-dns-settings"")
+- [How do I change my Privacy features?](\""https://support.mozilla.org/en-US/kb/how-do-i-change-my-privacy-features"")
+
+"
+66487,A program on your computer interferes with the Mozilla VPN extension,program-your-computer-interferes-mozilla-vpn-exten,https://support.mozilla.org/en-US/kb/program-your-computer-interferes-mozilla-vpn-exten,en-US,You got a message saying that “A program on your computer may be causing issues with the Mozilla VPN extension”. Here's how you can fix that.,"<p>The Mozilla VPN extension may display the message: <strong>A program on your computer may be causing issues with the Mozilla VPN extension.</strong>
+</p><p>This issue is often caused by the Killer Network Service (KNS), which monitors and prioritizes network traffic. Unfortunately, KNS can conflict with Mozilla VPN’s functionality, particularly App Exclusions and the Firefox browser extension. This guide shows how to disable the specific setting of KNS that causes this unwanted behavior and restores the smooth operation of Mozilla VPN.
+</p>
+<h1 id=""w_disable-killer-network-service-kns"">Disable Killer Network Service (KNS)</h1>
+<p>The Killer Network Service (KNS) is a software typically pre-installed on gaming laptops or high-performance PCs with Intel hardware. It helps prioritize network traffic for activities like online gaming or streaming.
+</p><p>While this feature is beneficial in some cases, it can interfere with Mozilla VPN's browser extension and the App Exclusions functionality. To resolve this issue, follow these steps:
+</p>
+<ol><li>Open the Windows menu, and use the search function to look for the <strong>Killer Intelligence Center</strong>.
+</li><li>Once open, locate the <strong>Quick Settings</strong> section on the right side of the application.
+<dl><dt><img alt=""KNS Quick settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-06-28-ddf16c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click the toggle next to <strong>Prioritization Engine</strong> to turn it off.
+<dl><dt><img alt=""Disable prioritization engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-07-34-bcfacc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+</li></ol>
+<p>You are done! This should resolve any conflict with the Mozilla VPN extension and/or the App Exclusions functionality.
+</p>
+<div class=""note""><strong>Note:</strong> The Firefox extension may continue to show this warning, but provided the Prioritization Engine is disabled, everything should work correctly. At that point, feel free to simply dismiss the notification in the Mozilla VPN extension.</div>
+<p>To re-enable KNS’s Prioritization Engine, simply follow the steps above and turn the toggle back on.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-will-dns-work-when-using-vpn-extension"">How will DNS work when using the VPN extension?</a>
+</li><li><a href=""/en-US/kb/disable-vpn-protection-specific-website"">Disable Mozilla VPN protection for a specific website</a>
+</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings,"The Mozilla VPN extension may display the message: **A program on your computer may be causing issues with the Mozilla VPN extension.**
+
+This issue is often caused by the Killer Network Service (KNS), which monitors and prioritizes network traffic. Unfortunately, KNS can conflict with Mozilla VPN’s functionality, particularly App Exclusions and the Firefox browser extension. This guide shows how to disable the specific setting of KNS that causes this unwanted behavior and restores the smooth operation of Mozilla VPN.
+
+# Disable Killer Network Service (KNS)
+
+The Killer Network Service (KNS) is a software typically pre-installed on gaming laptops or high-performance PCs with Intel hardware. It helps prioritize network traffic for activities like online gaming or streaming.
+
+While this feature is beneficial in some cases, it can interfere with Mozilla VPN's browser extension and the App Exclusions functionality. To resolve this issue, follow these steps:
+
+1. Open the Windows menu, and use the search function to look for the **Killer Intelligence Center**.
+2. Once open, locate the **Quick Settings** section on the right side of the application.<dl><dt>
+<img alt=""KNS Quick settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-06-28-ddf16c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Click the toggle next to **Prioritization Engine** to turn it off.<dl><dt>
+<img alt=""Disable prioritization engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-07-34-bcfacc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+
+You are done! This should resolve any conflict with the Mozilla VPN extension and/or the App Exclusions functionality.
+
+**Note:** The Firefox extension may continue to show this warning, but provided the Prioritization Engine is disabled, everything should work correctly. At that point, feel free to simply dismiss the notification in the Mozilla VPN extension.
+
+To re-enable KNS’s Prioritization Engine, simply follow the steps above and turn the toggle back on.
+
+# Related articles
+
+- [How will DNS work when using the VPN extension?](\""https://support.mozilla.org/en-US/kb/how-will-dns-work-when-using-vpn-extension"")
 - [Disable Mozilla VPN protection for a specific website](\""https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website"")
 
 "
