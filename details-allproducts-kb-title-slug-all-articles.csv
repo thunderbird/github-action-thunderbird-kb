@@ -48869,7 +48869,7 @@ You can use the <em>Search preference name</em> box at the top of the <em>about:
 <ul><li>Alternatively, you can click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
 </li></ul>
 </li><li>Enter a new value.<br><img alt=""Fx145aboutconfig-editpref"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-18-21-15-20-b903ba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</li><li>Click on the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to save the change. 
+</li><li>Click the <em>Save</em> <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to save the change. 
 </li></ol>
 <h1 id=""w_resetting-or-deleting-preferences"">Resetting or deleting preferences</h1>
 <div class=""note""><strong>Note:</strong> You can only reset or remove <strong>modified</strong> preferences, which are listed in bold type. To reset all preferences, see <a href=""/en-US/kb/reset-preferences-fix-problems"">Reset Firefox preferences to troubleshoot and fix problems</a>.</div>
@@ -48927,7 +48927,7 @@ To change a **string (text)** or a **number** preference's value:
 
 2. Enter a new value.  
  ![Fx145aboutconfig-editpref](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-3. Click on the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save the change. 
+3. Click the _Save_ ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save the change. 
 
 # Resetting or deleting preferences
 
@@ -87946,68 +87946,6 @@ The following bug fixes were implemented:
 - Tab history will no longer show after cleaning all history.
 
 "
-57283,Firefox for Enterprise 98 - Release notes,firefox-enterprise-98-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-98-release-notes,en-US,See what's coming out with Firefox for Enterprise 98.,"<p>See what's coming out with Firefox for Enterprise 98.
-</p><p>Except where noted, everything here applies to both Firefox 98 and the Firefox 91.7 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_bug-fixes"">Bug Fixes</h1>
-<ul><li>The PKG for macOS didn't report that it supports M1. This was fixed for Firefox 98 in  <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1740631"">bug 1740631</a>. It has not been fixed for the Firefox ESR yet.
-</li></ul>
-<ul><li>When configuring Outlook Web Access, some fields didn't work properly. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1736570"">bug 1736570</a>. This fix should be in the next ESR update.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#pdfjs"">PDFjs</a> policy couldn't be used to disable PDF permissions. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1751037"">bug 1751037</a>.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter"">WebsiteFilter</a> policy did not properly block web pages when they displayed as the results of a 301 or 302 redirect. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1711870"">bug 1711870</a>.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#usermessaging"">UserMessaging</a> policy has been updated with to add support for removing the ""More from Mozilla"" section in preferences. This was done in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1755354"">bug 1755354</a>. This policy only applies to Firefox 98.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<p>Firefox 100 will be released on May 3, 2022. We've created a blog post that has more detail:
-</p><p><a href=""https://hacks.mozilla.org/2022/02/version-100-in-chrome-and-firefox/"">https://hacks.mozilla.org/2022/02/version-100-in-chrome-and-firefox/</a>
-</p><p>We strongly encourage taking some time to test your internal applications to make sure they work properly with Firefox 100.
-</p><p>Similar to Chrome, we will be providing a preference (network.http.useragent.forceVersion) that can be set using the Preferences policy if for some reason you need to keep the version below 100.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"See what's coming out with Firefox for Enterprise 98.
-
-Except where noted, everything here applies to both Firefox 98 and the Firefox 91.7 ESR.
-
-## Table of Contents
-
-- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-98-release-notes#w_bug-fixes)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-98-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-98-release-notes#w_special-notes)
-
-# Bug Fixes
-
-- The PKG for macOS didn't report that it supports M1. This was fixed for Firefox 98 in [bug 1740631](https://bugzilla.mozilla.org/show_bug.cgi?id=1740631). It has not been fixed for the Firefox ESR yet.
-
-- When configuring Outlook Web Access, some fields didn't work properly. This was fixed in [bug 1736570](https://bugzilla.mozilla.org/show_bug.cgi?id=1736570). This fix should be in the next ESR update.
-
-# Policies
-
-- The [PDFjs](https://github.com/mozilla/policy-templates/blob/master/README.md#pdfjs) policy couldn't be used to disable PDF permissions. This was fixed in [bug 1751037](https://bugzilla.mozilla.org/show_bug.cgi?id=1751037).
-
-- The [WebsiteFilter](https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter) policy did not properly block web pages when they displayed as the results of a 301 or 302 redirect. This was fixed in [bug 1711870](https://bugzilla.mozilla.org/show_bug.cgi?id=1711870).
-
-- The [UserMessaging](https://github.com/mozilla/policy-templates/blob/master/README.md#usermessaging) policy has been updated with to add support for removing the ""More from Mozilla"" section in preferences. This was done in [bug 1755354](https://bugzilla.mozilla.org/show_bug.cgi?id=1755354). This policy only applies to Firefox 98.
-
-# Special Notes
-
-Firefox 100 will be released on May 3, 2022. We've created a blog post that has more detail:
-
-[https://hacks.mozilla.org/2022/02/version-100-in-chrome-and-firefox/](https://hacks.mozilla.org/2022/02/version-100-in-chrome-and-firefox/)
-
-We strongly encourage taking some time to test your internal applications to make sure they work properly with Firefox 100.
-
-Similar to Chrome, we will be providing a preference (network.http.useragent.forceVersion) that can be set using the Preferences policy if for some reason you need to keep the version below 100.
-
-"
-57333,What's new in Firefox Klar for iOS (version 98),whats-new-firefox-klar-ios-version-98,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-98,en-US,Welcome to version 98 of Firefox Klar for iOS.,"<p>
-
-</p><p>Welcome to version 98 of Firefox Klar for iOS. There were no major updates or enhancements released in version 98, only bug fixes. Check back in April 2022 for what's new in version 99.
-</p>",klar,firefox-klar-ios,"Welcome to version 98 of Firefox Klar for iOS. There were no major updates or enhancements released in version 98, only bug fixes. Check back in April 2022 for what's new in version 99.
-
-"
 57345,Delete an individual tab in Firefox Klar for Android,delete-individual-tab-firefox-klar-android,https://support.mozilla.org/en-US/kb/delete-individual-tab-firefox-klar-android,en-US,Tap the Trash icon at the top left to remove an individual tab.,"<p>
 
 </p><p>Firefox Focus makes it easier to browse between web pages, open multiple private tabs and delete individual tabs.
@@ -97679,58 +97617,6 @@ All set! You've changed your DNS settings and will connect to the internet throu
 
 - The [EnableTrackingProtection](https://github.com/mozilla/policy-templates/blob/master/README.md#enabletrackingprotection) policy has been updated to support the new EmailTracking option. This does not apply to the ESR.
 - The xpinstall.signatures.required preference can now be set via the [Preferences](https://github.com/mozilla/policy-templates/blob/master/README.md#preferences) policy on the ESR only.
-
-"
-61232,Turn off ads on MDN Plus,turn-ads-mdn-plus,https://support.mozilla.org/en-US/kb/turn-ads-mdn-plus,en-US,This article shows MDN Plus subscribers the steps to enjoy an ad-free experience.,"<p>If you are an MDN Plus user, you will see ads on the MDN pages by default. These ads are related to the website’s content and will not track your online activity. However, MDN Plus subscribers can opt-out and enjoy an ad-free experience.
-<img alt=""MDN Plus ad 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-37-14-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-To turn off ads on MDN Plus:
-</p>
-<div class=""note""><strong>Note:</strong> You must have an MDN Plus 5 or an MDN Supporter 10 subscription plan to disable ads in MDN Plus.</div>
-<ol><li>At the top right, click your profile picture and select <span class=""menu"">My settings</span>.
-<dl><dt><img alt=""MDN Plus ad 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-37-46-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li><li>Under <em>Manage Account</em>, toggle on the <strong>Go ads free</strong> option.
-<dl><dt><img alt=""MDN Plus ad 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-38-06-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li><li>You can also access the <span class=""menu"">My settings</span> menu by clicking the <strong>Don't want to see ads</strong> option below an ad.
-<dl><dt><img alt=""MDN Plus ad 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-38-50-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li></ol>
-<p>All set! You'll not see MDN ads moving forward. 
-</p><p><strong>Related content</strong>
-</p>
-<ul><li><a href=""/en-US/kb/whats-difference-between-mdn-and-mdn-plus"">What's the difference between MDN and MDN Plus?</a> 
-</li><li><a href=""/en-US/kb/how-upgrade-your-mdn-plus-subscription"">How to upgrade your MDN Plus subscription</a>
-</li></ul>",mdn-plus,settings,"If you are an MDN Plus user, you will see ads on the MDN pages by default. These ads are related to the website’s content and will not track your online activity. However, MDN Plus subscribers can opt-out and enjoy an ad-free experience. ![MDN Plus ad 1](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) To turn off ads on MDN Plus:
-
-**Note:** You must have an MDN Plus 5 or an MDN Supporter 10 subscription plan to disable ads in MDN Plus.
-
-1. At the top right, click your profile picture and select My settings.<dl><dt>
-<img alt=""MDN Plus ad 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-37-46-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-2. Under _Manage Account_, toggle on the **Go ads free** option.<dl><dt>
-<img alt=""MDN Plus ad 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-38-06-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-3. You can also access the My settings menu by clicking the **Don't want to see ads** option below an ad.<dl><dt>
-<img alt=""MDN Plus ad 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-11-12-38-50-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-
-All set! You'll not see MDN ads moving forward.
-
-**Related content**
-
-- [What's the difference between MDN and MDN Plus?](\""https://support.mozilla.org/en-US/kb/whats-difference-between-mdn-and-mdn-plus"")
-- [How to upgrade your MDN Plus subscription](\""https://support.mozilla.org/en-US/kb/how-upgrade-your-mdn-plus-subscription"")
-
-"
-61309,Why do I get a harmful download message when downloading Firefox on Windows?,why-do-i-get-harmful-download-message-when-downloading-firefox-windows,https://support.mozilla.org/en-US/kb/why-do-i-get-harmful-download-message-when-downloading-firefox-windows,en-US,You may see a warning that the installer could harm your device when attempting to download Firefox from another browser. Learn more.,"<p>You may encounter a harmful or dangerous download warning message when downloading Firefox using a different browser. This could be a standard warning of some browsers when downloading executable files, and it is not unique to Firefox. The message usually appears when Google Safe Browsing or Microsoft SmartScreen features are disabled for that browser.
-</p><p><img alt=""harmfulDownloadWarning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-26-13-57-16-879e4f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</p><p>We want to assure you that Firefox is safe and secure software and we take the security of our users very seriously. For more information, read <a href=""https://www.mozilla.org/firefox/browsers/best-browser/"">Find your best browser for speed, privacy and security</a> and <a href=""/en-US/kb/firefox-privacy-and-security-features#w_security"">Firefox privacy and security features</a>.
-</p>",firefox,download-and-save;downloads;install;installation-and-updates,"You may encounter a harmful or dangerous download warning message when downloading Firefox using a different browser. This could be a standard warning of some browsers when downloading executable files, and it is not unique to Firefox. The message usually appears when Google Safe Browsing or Microsoft SmartScreen features are disabled for that browser.
-
-![harmfulDownloadWarning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-We want to assure you that Firefox is safe and secure software and we take the security of our users very seriously. For more information, read [Find your best browser for speed, privacy and security](https://www.mozilla.org/firefox/browsers/best-browser/) and [Firefox privacy and security features](\""https://support.mozilla.org/en-US/kb/firefox-privacy-and-security-features#w_security"").
 
 "
 61355,Firefox for Enterprise 113 - Release notes,firefox-enterprise-113-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-113-release-notes,en-US,See what's coming out with Firefox for Enterprise 113.,"<p>Except where noted, everything here applies to both Firefox 113 and the Firefox 102.10 ESR.
