@@ -24068,6 +24068,475 @@ If you're really interested in editing and writing documentation, here are a few
 - See more guidelines on Knowledge Base contribution [here](https://support.mozilla.org/en-US/products/contributor/kb).
 
 "
+5915,How to localize the SUMO interface,localize-sumo-interface,https://support.mozilla.org/en-US/kb/localize-sumo-interface,en-US,Learn how to localize the SUMO user interface.,"<div class=""note"">The information below is quite lengthy and complex. If you need help or notice any inconsistencies, please let us know on the <a href=""/forums/l10n-forum"">l10n forum</a>.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-are-ui-strings""><span class=""tocnumber"">1</span> <span class=""toctext"">What are UI strings?</span></a></li><li class=""toclevel-1""><a href=""#w_where-can-i-localize-strings""><span class=""tocnumber"">2</span> <span class=""toctext"">Where can I localize strings?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-localize-strings-in-pontoon""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I localize strings in Pontoon?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-review-suggestions-in-pontoon""><span class=""tocnumber"">4</span> <span class=""toctext"">How can I review suggestions in Pontoon?</span></a></li></ul></div>
+<h1 id=""w_what-are-ui-strings"">What are UI strings?</h1>
+<p>Each element of the SUMO site interface that is text, but not the help content itself - all the buttons and navigation links. The text of each such element is a ""string"".
+</p><p>We currently have two servers for SUMO:
+</p>
+<ol><li> <a href=""https://support.mozilla.org"">https://support.mozilla.org</a> - our real server, also known as ""prod"" (short for ""production"")
+</li><li> <a href=""https://support.allizom.org"">https://support.allizom.org</a> - out release testing server (this is <strong>not</strong> a server to test localizations - a broken string will be a broken string both here and on the production server).
+</li></ol>
+<p>The strings you translate are regularly transferred to the testing and production servers, where you can see them in action.
+</p>
+<h1 id=""w_where-can-i-localize-strings"">Where can I localize strings?</h1>
+<div class=""warning"">We use different tools to localize UI strings, depending on the choices made by locale teams. Please ask your Locale Leaders about the details for your locale.</div>
+<p>UI strings for SUMO are localized in a variety of tools:
+</p>
+<ul><li> <a href=""https://pontoon.mozilla.org/projects/sumo/"">Pontoon</a> - the most popular tool - developed and maintained by Mozilla's L10n Team. You can <a href=""https://mozilla-l10n.github.io/localizer-documentation/tools/pontoon/"">find the documentation that explains how to use Pontoon here</a>.
+</li></ul>
+<div class=""note"">Pootle is still being set up for Mozilla l10n, more links will appear below as they become available. Thank you for your patience.</div>
+<ul><li> Pootle - used by several locales - an updated version of the legacy tool (<a href=""https://localize.mozilla.org/projects/sumo"">Verbatim</a>)
+</li></ul>
+<h1 id=""w_how-can-i-localize-strings-in-pontoon"">How can I localize strings in Pontoon?</h1>
+<div class=""note""><a href=""https://mozilla-l10n.github.io/localizer-documentation/tools/pontoon/"">Detailed instructions for using Pontoon can be found here</a>. <br>Please note that at this moment in time, SUMO is using the Out-of-context method of localization, and <strong>not</strong> the In-context option that Pontoon offers.</div>
+<ol><li> Register or log in <a href=""https://pontoon.mozilla.org/"">through the main site</a>. If you have a Mozilla LDAP account you can just log in with your LDAP username and password. Otherwise, you'll have to register for an account before you can login.
+</li><li> Navigate to SUMO strings. To do this, click the leftmost navigation breadcrumb in the top left corner of the page, and type ""SUMO"". Click the option that appears. In a similar way, choose your locale and the file you want to localize in the following breadcrumbs. Finally, click <span class=""button"">Go</span>.
+</li><li> View missing strings. To do this, click the funnel/filter icon below the navigation breadcrumbs and choose <em>Missing</em>, <em>Fuzzy</em> or <em>Untranslated</em> to display strings that require work. If you want to find a particular string, use the <em>Search</em> box next to the funnel/filter icon and input the text in English.
+</li><li> Translate the text and make sure you save your work.
+</li></ol>
+<h1 id=""w_how-can-i-review-suggestions-in-pontoon"">How can I review suggestions in Pontoon?</h1>
+<p>If you are a Reviewer in Pontoon, you will occasionally have to approve strings suggested by others. To do so:
+</p>
+<ol><li> Log in as described above.
+</li><li> Navigate to the SUMO project, as described above.
+</li><li> View suggested strings. To do this, click the funnel/filter icon below the navigation breadcrumbs and choose <em>Suggested</em> or <em>Has Suggestions</em> to display strings that require reviewing. If you want to find a particular string, use the <em>Search</em> box next to the funnel/filter icon and input the text in English.
+</li><li> To approve an existing suggestion, review the suggestions in the bottom right part of the screen, and approve the best one using the ""checkmark"" symbol.
+</li></ol>
+<div class=""note"">Do you have any questions? Do you need assistance while localizing? Please tell us on the <a href=""/forums/l10n-forum"">l10n forum</a>.</div>",contributor,l10n,"The information below is quite lengthy and complex. If you need help or notice any inconsistencies, please let us know on the [l10n forum](\""https://support.mozilla.org/forums/l10n-forum"").
+
+## Table of Contents
+
+- [1 What are UI strings?](https://support.mozilla.org/kb/localize-sumo-interface#w_what-are-ui-strings)
+- [2 Where can I localize strings?](https://support.mozilla.org/kb/localize-sumo-interface#w_where-can-i-localize-strings)
+- [3 How can I localize strings in Pontoon?](https://support.mozilla.org/kb/localize-sumo-interface#w_how-can-i-localize-strings-in-pontoon)
+- [4 How can I review suggestions in Pontoon?](https://support.mozilla.org/kb/localize-sumo-interface#w_how-can-i-review-suggestions-in-pontoon)
+
+# What are UI strings?
+
+Each element of the SUMO site interface that is text, but not the help content itself - all the buttons and navigation links. The text of each such element is a ""string"".
+
+We currently have two servers for SUMO:
+
+1. [https://support.mozilla.org](https://support.mozilla.org) - our real server, also known as ""prod"" (short for ""production"")
+2. [https://support.allizom.org](https://support.allizom.org) - out release testing server (this is **not** a server to test localizations - a broken string will be a broken string both here and on the production server).
+
+The strings you translate are regularly transferred to the testing and production servers, where you can see them in action.
+
+# Where can I localize strings?
+
+We use different tools to localize UI strings, depending on the choices made by locale teams. Please ask your Locale Leaders about the details for your locale.
+
+UI strings for SUMO are localized in a variety of tools:
+
+- [Pontoon](https://pontoon.mozilla.org/projects/sumo/) - the most popular tool - developed and maintained by Mozilla's L10n Team. You can [find the documentation that explains how to use Pontoon here](https://mozilla-l10n.github.io/localizer-documentation/tools/pontoon/).
+
+Pootle is still being set up for Mozilla l10n, more links will appear below as they become available. Thank you for your patience.
+
+- Pootle - used by several locales - an updated version of the legacy tool ([Verbatim](https://localize.mozilla.org/projects/sumo))
+
+# How can I localize strings in Pontoon?
+
+[Detailed instructions for using Pontoon can be found here](https://mozilla-l10n.github.io/localizer-documentation/tools/pontoon/).   
+Please note that at this moment in time, SUMO is using the Out-of-context method of localization, and **not** the In-context option that Pontoon offers.
+
+1. Register or log in [through the main site](https://pontoon.mozilla.org/). If you have a Mozilla LDAP account you can just log in with your LDAP username and password. Otherwise, you'll have to register for an account before you can login.
+2. Navigate to SUMO strings. To do this, click the leftmost navigation breadcrumb in the top left corner of the page, and type ""SUMO"". Click the option that appears. In a similar way, choose your locale and the file you want to localize in the following breadcrumbs. Finally, click Go.
+3. View missing strings. To do this, click the funnel/filter icon below the navigation breadcrumbs and choose _Missing_, _Fuzzy_ or _Untranslated_ to display strings that require work. If you want to find a particular string, use the _Search_ box next to the funnel/filter icon and input the text in English.
+4. Translate the text and make sure you save your work.
+
+# How can I review suggestions in Pontoon?
+
+If you are a Reviewer in Pontoon, you will occasionally have to approve strings suggested by others. To do so:
+
+1. Log in as described above.
+2. Navigate to the SUMO project, as described above.
+3. View suggested strings. To do this, click the funnel/filter icon below the navigation breadcrumbs and choose _Suggested_ or _Has Suggestions_ to display strings that require reviewing. If you want to find a particular string, use the _Search_ box next to the funnel/filter icon and input the text in English.
+4. To approve an existing suggestion, review the suggestions in the bottom right part of the screen, and approve the best one using the ""checkmark"" symbol.
+
+Do you have any questions? Do you need assistance while localizing? Please tell us on the [l10n forum](\""https://support.mozilla.org/forums/l10n-forum"").
+"
+5927,"How to use ""For"" tags",how-to-use-for,https://support.mozilla.org/en-US/kb/how-to-use-for,en-US,"Learn how to use “for” markup in Mozilla Support articles, to show content for different operating systems and product versions","<p>One of the great features of our Knowledge Base is the ability to show instructions customized for operating systems (Windows, macOS, Linux) and Firefox versions. We can say, for example, that a certain section of a help article is “for” Windows users and Mac and Linux users won't see it. The feature is designed to work invisibly. When someone opens a help article, we'll automatically detect what operating system and version of Firefox they are using and show the appropriate instructions. This article goes over the details of how to use {for} markup in Knowledge Base articles.
+</p>
+<div class=""warning""><strong>Localizers:</strong> When localizing articles with {for} and {/for} elements in the content, <strong>do not translate</strong> anything inside the { and } brackets! Keep them the same way they look in the original text. This is important to have the element function properly.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-switch-instructions-to-different-operating-systems-or-firefox-versions""><span class=""tocnumber"">1</span> <span class=""toctext"">How to switch instructions to different operating systems or Firefox versions</span></a></li><li class=""toclevel-1""><a href=""#w_basic-syntax-and-behavior""><span class=""tocnumber"">2</span> <span class=""toctext"">Basic syntax and behavior</span></a><ul><li class=""toclevel-2""><a href=""#w_operating-systems""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Operating systems</span></a></li><li class=""toclevel-2""><a href=""#w_firefox-versions""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Firefox versions</span></a><ul><li class=""toclevel-3""><a href=""#w_show-instructions-for-only-one-version-of-firefox""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Show instructions for only one version of Firefox</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_combining-operating-systems-and-firefox-versions""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Combining operating systems and Firefox versions</span></a></li><li class=""toclevel-2""><a href=""#w_negating-conditions""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Negating conditions</span></a></li><li class=""toclevel-2""><a href=""#w_leverage-for-tags-for-advanced-versioning-control""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Leverage {for} tags for advanced versioning control</span></a></li><li class=""toclevel-2""><a href=""#w_when-the-contents-are-shown""><span class=""tocnumber"">2.6</span> <span class=""toctext"">When the contents are shown</span></a></li><li class=""toclevel-2""><a href=""#w_operating-system-and-product-abbreviations""><span class=""tocnumber"">2.7</span> <span class=""toctext"">Operating system and product abbreviations</span></a></li><li class=""toclevel-2""><a href=""#w_inline-and-block-level-contexts""><span class=""tocnumber"">2.8</span> <span class=""toctext"">Inline and block-level contexts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_best-practices-for-using-for-in-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Best practices for using {for} in articles</span></a></li><li class=""toclevel-1""><a href=""#w_complete-knowledge-base-guidelines""><span class=""tocnumber"">4</span> <span class=""toctext"">Complete Knowledge Base guidelines</span></a></li></ul></div>
+<h1 id=""w_how-to-switch-instructions-to-different-operating-systems-or-firefox-versions"">How to switch instructions to different operating systems or Firefox versions</h1>
+<p>In order to follow the example in this article, you'll have to switch the article selector to different operating systems and Firefox versions. It's located in the right panel of the article, under <em>Editing Tools</em>.
+</p>
+<dl><dt><img alt=""CustomizeThisArticle-2025"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-23-04-42-19-e3ac67.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_basic-syntax-and-behavior"">Basic syntax and behavior</h1>
+<h2 id=""w_operating-systems"">Operating systems</h2>
+<p>Here is the syntax to show an image for <strong>Windows 10</strong>:
+</p>
+<dl><dt><strong><code>{for win10}[[Image:Windows Logo]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Change the selector to Windows 10 to see the image:
+<dl><dt><span class=""for"" data-for=""win10""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<div class=""for"" data-for=""win10"">
+<ul><li>If you change the selector to Windows XP, Windows 7, Windows 8, Windows 11, Mac or Linux, the image above won't be shown because it's not “for” them.
+</li></ul>
+</div><p>Although the Windows selector doesn't exist, you can write instructions that apply to all Windows versions:
+</p>
+<dl><dt><strong><code>{for win}[[Image:Image:vista.jpg]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Change the selector to Windows XP, Windows 7/Vista, Windows 8, Windows 10 or Windows 11 to see the image:
+<dl><dt><span class=""for"" data-for=""win""><img alt=""vista.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/vista.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<div class=""for"" data-for=""win"">
+<ul><li>If you change the selector to Mac or Linux, the image above won't be shown because it's not “for” them.
+</li></ul>
+</div>
+<h2 id=""w_firefox-versions"">Firefox versions</h2>
+<p>Here is the syntax to show something for <strong>Firefox 140 and above</strong>:
+</p>
+<dl><dt><strong><code>{for fx140}[[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Change the selector to Firefox 140 or higher to see the image:
+<dl><dt><span class=""for"" data-for=""fx140""><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<div class=""for"" data-for=""fx139"">
+<ul><li>If you change the selector to Firefox 139 or lower, the image above will disappear because it's not “for” those versions.
+</li></ul>
+</div>
+<h3 id=""w_show-instructions-for-only-one-version-of-firefox"">Show instructions for only one version of Firefox</h3>
+<p>To show instructions <strong>only for Firefox 140</strong>, use the “=” operator:
+</p>
+<dl><dt><strong><code>{for =fx140}[[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Now the image only shows when you change the selector to Firefox 140:
+<dl><dt><span class=""for"" data-for=""=fx140""><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<h2 id=""w_combining-operating-systems-and-firefox-versions"">Combining operating systems and Firefox versions</h2>
+<p>You can specify an operating system and a Firefox version by separating them with a comma:
+</p>
+<dl><dt><strong><code>{for win,fx140}[[Image:Windows Logo]][[Image:Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Change the selector to Windows and Firefox 140 or higher to see images:
+<dl><dt><span class=""for"" data-for=""win,fx140""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<p>A more complex situation with an implied “for” can be written like this:
+</p>
+<dl><dt><strong><code>{for mac, win10, win11, =fx128, fx140}[[Image:Windows Logo]][[Image:macos.jpg]][[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+<ul><li>Change the selector to Mac or Windows 10 or Windows 11 and Firefox 128 or Firefox 140 and above to see images:
+<dl><dt><span class=""for"" data-for=""mac,win10,win11,=fx128,fx140""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""macos.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/macos.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ul>
+<h2 id=""w_negating-conditions"">Negating conditions</h2>
+<p>You can negate a condition by preceding it with the word <code>not</code>. A negated condition is true if and only if the condition is false. For example, the condition
+</p>
+<dl><dt><strong><code>not fx140</code></strong>
+</dt></dl>
+<p>is true if the Firefox version is less than 140.
+</p>
+<h2 id=""w_leverage-for-tags-for-advanced-versioning-control"">Leverage {for} tags for advanced versioning control</h2>
+<p>With frequent updates and feature releases in Firefox, <em>for</em> tags play a key role for targeted content curation, enabling us to deliver relevant information to users based on their specific version of Firefox. Key applications of these tags include:
+</p>
+<ul><li><strong>Early access for Nightly and Beta Users:</strong> It allows us to present upcoming features or changes to users who are on Nightly and Beta channels, giving them a heads-up about what they might find. This ensures that our most engaged and technical users can start exploring new functionalities ahead of the broader community.
+</li><li><strong>Localization ahead of launch:</strong> <em>for</em> tags allow us to publish content for upcoming versions ahead of their public release. This allows our localization community to prepare translations early, guaranteeing multi-language support the moment a new version goes live in the Production channel.
+</li><li><strong>Avoid confusion among general audience:</strong> Using <em>for</em> tags, we strategically avoid exposing our general audience to premature information, thereby preventing confusion about what's currently available in their current version of Firefox.
+</li></ul>
+<h2 id=""w_when-the-contents-are-shown"">When the contents are shown</h2>
+<p>Formally, the markup between {for} and {/for} will be <em>shown</em> if both of these conditions are met:
+</p>
+<ul><li> The {for} has no operating system (OS) condition, or it has at least one OS condition that is true regarding the OS the user is running (or has manually selected).
+</li><li> The {for} has no Firefox version condition, or it has at least one Firefox version condition that is true regarding the Firefox version the user is running (or has manually selected).
+</li></ul>
+<p>Otherwise, the contents of the {for}…{/for} are not shown.
+</p>
+<div class=""note"">Any content enclosed within a {for} tag, aimed at earlier Firefox versions, remains visible to users of those versions even if those versions aren't listed in the version selector.</div>
+<p>A few other things to note:
+</p>
+<ul><li> Spaces after the commas are optional.
+</li><li> {for} and other wiki markup don't work in article search summaries.
+</li><li> Headings which are hidden by {for} blocks do not appear in the page's table of contents. If the user causes them to show by manually selecting the right OS/browser combination, the table of contents entries instantly appear.
+</li></ul>
+<h2 id=""w_operating-system-and-product-abbreviations"">Operating system and product abbreviations</h2>
+<p>These are the operating system and product abbreviations available for use with {for}:
+</p>
+<ul><li> win (Windows)
+</li><li> winxp (Windows XP/2000/Server 2003)
+</li><li> win7 (Windows 7/Vista/Server 2008)
+</li><li> win8 (Windows 8/8.1/Server 2012)
+</li><li> win10 (Windows 10)
+</li><li> win11 (Windows 11)
+</li><li> mac (macOS)
+</li><li> linux (Linux)
+</li><li> fxN where N = the Firefox (desktop) version, for example fx115, fx116, fx117, etc.
+</li><li> mN where N = the Firefox for Android (mobile) version, for example m115, m116, m117, etc.
+</li><li> tbN where N = the Thunderbird version, for example tb91, tb102, tb115, etc.
+</li></ul>
+<p>You have to use fxN in Firefox support articles, mN in Firefox for Android support articles and tbN in Thunderbird support articles.
+</p>
+<h2 id=""w_inline-and-block-level-contexts"">Inline and block-level contexts</h2>
+<p>{for} can be used in both inline and block-level contexts (in the HTML sense). The inline form takes effect when working within a line of text:
+</p><p><strong>This is {for win}inline use{/for}.</strong>
+</p><p>The block form is used to wrap entire paragraphs, ordered lists, headings, and so on. The only caveat is that, when using the block form, the {for} and {/for} should each be on a line by itself. Otherwise, it might be considered part of a neighboring paragraph and produce surprising results.
+</p>
+<dl><dt><strong>{for win}</strong>
+</dt><dt><strong>This is block-level.</strong>
+</dt><dt><strong>*One</strong>
+</dt><dt><strong>*Two</strong>
+</dt><dt><strong>{/for}</strong>
+</dt></dl>
+<h1 id=""w_best-practices-for-using-for-in-articles"">Best practices for using {for} in articles</h1>
+<p><strong>When writing instructions for different operating systems, it's best to write complete sentences and paragraphs for each OS/Firefox version, even if it means duplicating things.</strong> This makes the article easier to understand, maintain and localize. When it comes time, for example, to remove specific instructions for Firefox 140 and below, those sections can just be deleted rather than trying to excise them from a larger section.
+</p>
+<ul><li>The <strong>wrong way</strong> to use {for}:
+<dl><dt>#{for not fx140}{for win,linux}At the top of the Firefox window{/for}{for mac}On the menu bar{/for}, click on the {/for}{for fx140}Click the menu button, go over to the {menu History} menu{/for}{for winxp,mac,linux,not fx140}{menu Tools} menu{/for}{for win10,win11,not fx140}{menu Firefox} menu, go over to the {menu History} menu{/for} and select {menu Clear Recent History…}
+</dt></dl>
+</li><li>The <strong>right way</strong> to use {for}:
+<dl><dt>{for not fx140}
+</dt><dt>#{for win10,win11}At the top of the Firefox window, click on the {menu Firefox} menu, go over to the {menu History} menu and select {menu Clear Recent History…}{/for}{for mac}On the menu bar, click on the {menu Tools} menu and select {menu Clear Recent History…}{/for}{for winxp,linux}At the top of the Firefox window, click on the {menu Tools} menu and select {menu Clear Recent History…}{/for}
+</dt><dt>{/for}
+</dt><dt>{for fx140}
+</dt><dt>#Click the menu button, go over to the {menu History} menu and select {menu Clear Recent History…}
+</dt><dt>{/for}
+</dt></dl>
+</li><li>In the following example, we treat Firefox 140 and below, Firefox 141/142, and Firefox 143 and above as three different sets of instructions. That's often the case, but more and more as we change Firefox every four weeks we'll see more changes in later versions. They'll look like this:
+<dl><dt>{for not fx141}
+</dt><dt>#The old instructions.
+</dt><dt>{/for}
+</dt><dt>{for =fx141,=fx142}
+</dt><dt>#The new instructions.
+</dt><dt>{/for}
+</dt><dt>{for fx143}
+</dt><dt>#The NEW new instructions.
+</dt><dt>{/for}
+</dt></dl>
+</li></ul>
+<h1 id=""w_complete-knowledge-base-guidelines"">Complete Knowledge Base guidelines</h1>
+<p>See <a href=""https://support.mozilla.org/en-US/products/contributor/kb"">more guidelines on Knowledge Base contribution</a>.
+</p>",firefox;contributor,create-and-edit-articles;kb;l10n,"One of the great features of our Knowledge Base is the ability to show instructions customized for operating systems (Windows, macOS, Linux) and Firefox versions. We can say, for example, that a certain section of a help article is “for” Windows users and Mac and Linux users won't see it. The feature is designed to work invisibly. When someone opens a help article, we'll automatically detect what operating system and version of Firefox they are using and show the appropriate instructions. This article goes over the details of how to use {for} markup in Knowledge Base articles.
+
+**Localizers:** When localizing articles with {for} and {/for} elements in the content, **do not translate** anything inside the { and } brackets! Keep them the same way they look in the original text. This is important to have the element function properly.
+
+## Table of Contents
+
+- [1 How to switch instructions to different operating systems or Firefox versions](https://support.mozilla.org/kb/how-to-use-for#w_how-to-switch-instructions-to-different-operating-systems-or-firefox-versions)
+- [2 Basic syntax and behavior](https://support.mozilla.org/kb/how-to-use-for#w_basic-syntax-and-behavior)
+  - [2.1 Operating systems](https://support.mozilla.org/kb/how-to-use-for#w_operating-systems)
+  - [2.2 Firefox versions](https://support.mozilla.org/kb/how-to-use-for#w_firefox-versions)
+    - [2.2.1 Show instructions for only one version of Firefox](https://support.mozilla.org/kb/how-to-use-for#w_show-instructions-for-only-one-version-of-firefox)
+
+  - [2.3 Combining operating systems and Firefox versions](https://support.mozilla.org/kb/how-to-use-for#w_combining-operating-systems-and-firefox-versions)
+  - [2.4 Negating conditions](https://support.mozilla.org/kb/how-to-use-for#w_negating-conditions)
+  - [2.5 Leverage {for} tags for advanced versioning control](https://support.mozilla.org/kb/how-to-use-for#w_leverage-for-tags-for-advanced-versioning-control)
+  - [2.6 When the contents are shown](https://support.mozilla.org/kb/how-to-use-for#w_when-the-contents-are-shown)
+  - [2.7 Operating system and product abbreviations](https://support.mozilla.org/kb/how-to-use-for#w_operating-system-and-product-abbreviations)
+  - [2.8 Inline and block-level contexts](https://support.mozilla.org/kb/how-to-use-for#w_inline-and-block-level-contexts)
+
+- [3 Best practices for using {for} in articles](https://support.mozilla.org/kb/how-to-use-for#w_best-practices-for-using-for-in-articles)
+- [4 Complete Knowledge Base guidelines](https://support.mozilla.org/kb/how-to-use-for#w_complete-knowledge-base-guidelines)
+
+# How to switch instructions to different operating systems or Firefox versions
+
+In order to follow the example in this article, you'll have to switch the article selector to different operating systems and Firefox versions. It's located in the right panel of the article, under _Editing Tools_.
+
+<dl><dt>
+<img alt=""CustomizeThisArticle-2025"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-23-04-42-19-e3ac67.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# Basic syntax and behavior
+
+## Operating systems
+
+Here is the syntax to show an image for **Windows&nbsp;10** :
+
+<dl><dt>
+<strong><code>{for win10}[[Image:Windows Logo]]{/for}</code></strong>
+</dt></dl>
+- Change the selector to Windows&nbsp;10 to see the image:<dl><dt>
+<span class=""for"" data-for=""win10""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- If you change the selector to Windows&nbsp;XP, Windows&nbsp;7, Windows 8, Windows 11, Mac or Linux, the image above won't be shown because it's not “for” them.
+
+Although the Windows selector doesn't exist, you can write instructions that apply to all Windows versions:
+
+<dl><dt>
+<strong><code>{for win}[[Image:Image:vista.jpg]]{/for}</code></strong>
+</dt></dl>
+- Change the selector to Windows&nbsp;XP, Windows&nbsp;7/Vista, Windows 8, Windows&nbsp;10 or Windows&nbsp;11 to see the image:<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""vista.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/vista.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- If you change the selector to Mac or Linux, the image above won't be shown because it's not “for” them.
+
+## Firefox versions
+
+Here is the syntax to show something for **Firefox&nbsp;140 and above** :
+
+<dl><dt>
+<strong><code>{for fx140}[[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+- Change the selector to Firefox&nbsp;140 or higher to see the image:<dl><dt>
+<span class=""for"" data-for=""fx140""><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- If you change the selector to Firefox&nbsp;139 or lower, the image above will disappear because it's not “for” those versions.
+
+### Show instructions for only one version of Firefox
+
+To show instructions **only for Firefox&nbsp;140** , use the “=” operator:
+
+<dl><dt>
+<strong><code>{for =fx140}[[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+- Now the image only shows when you change the selector to Firefox&nbsp;140:<dl><dt>
+<span class=""for"" data-for=""=fx140""><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+## Combining operating systems and Firefox versions
+
+You can specify an operating system and a Firefox version by separating them with a comma:
+
+<dl><dt>
+<strong><code>{for win,fx140}[[Image:Windows Logo]][[Image:Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+- Change the selector to Windows and Firefox&nbsp;140 or higher to see images:<dl><dt>
+<span class=""for"" data-for=""win,fx140""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+A more complex situation with an implied “for” can be written like this:
+
+<dl><dt>
+<strong><code>{for mac, win10, win11, =fx128, fx140}[[Image:Windows Logo]][[Image:macos.jpg]][[Image:Firefox Quantum Logo]]{/for}</code></strong>
+</dt></dl>
+- Change the selector to Mac or Windows&nbsp;10 or Windows&nbsp;11 and Firefox&nbsp;128 or Firefox&nbsp;140 and above to see images:<dl><dt>
+<span class=""for"" data-for=""mac,win10,win11,=fx128,fx140""><img alt=""Windows Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-25-10-17-38-84daa9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""macos.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/macos.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><img alt=""Firefox Quantum Logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-26-10-25-42-3493cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+## Negating conditions
+
+You can negate a condition by preceding it with the word `not`. A negated condition is true if and only if the condition is false. For example, the condition
+
+<dl><dt>
+<strong><code>not fx140</code></strong>
+</dt></dl>
+
+is true if the Firefox version is less than 140.
+
+## Leverage {for} tags for advanced versioning control
+
+With frequent updates and feature releases in Firefox, _for_ tags play a key role for targeted content curation, enabling us to deliver relevant information to users based on their specific version of Firefox. Key applications of these tags include:
+
+- **Early access for Nightly and Beta Users:** It allows us to present upcoming features or changes to users who are on Nightly and Beta channels, giving them a heads-up about what they might find. This ensures that our most engaged and technical users can start exploring new functionalities ahead of the broader community.
+- **Localization ahead of launch:** _for_ tags allow us to publish content for upcoming versions ahead of their public release. This allows our localization community to prepare translations early, guaranteeing multi-language support the moment a new version goes live in the Production channel.
+- **Avoid confusion among general audience:** Using _for_ tags, we strategically avoid exposing our general audience to premature information, thereby preventing confusion about what's currently available in their current version of Firefox.
+
+## When the contents are shown
+
+Formally, the markup between {for} and {/for} will be _shown_ if both of these conditions are met:
+
+- The {for} has no operating system (OS) condition, or it has at least one OS condition that is true regarding the OS the user is running (or has manually selected).
+- The {for} has no Firefox version condition, or it has at least one Firefox version condition that is true regarding the Firefox version the user is running (or has manually selected).
+
+Otherwise, the contents of the {for}…{/for} are not shown.
+
+Any content enclosed within a {for} tag, aimed at earlier Firefox versions, remains visible to users of those versions even if those versions aren't listed in the version selector.
+
+A few other things to note:
+
+- Spaces after the commas are optional.
+- {for} and other wiki markup don't work in article search summaries.
+- Headings which are hidden by {for} blocks do not appear in the page's table of contents. If the user causes them to show by manually selecting the right OS/browser combination, the table of contents entries instantly appear.
+
+## Operating system and product abbreviations
+
+These are the operating system and product abbreviations available for use with {for}:
+
+- win (Windows)
+- winxp (Windows&nbsp;XP/2000/Server&nbsp;2003)
+- win7 (Windows&nbsp;7/Vista/Server&nbsp;2008)
+- win8 (Windows&nbsp;8/8.1/Server&nbsp;2012)
+- win10 (Windows 10)
+- win11 (Windows 11)
+- mac (macOS)
+- linux (Linux)
+- fxN where N = the Firefox (desktop) version, for example fx115, fx116, fx117, etc.
+- mN where N = the Firefox for Android (mobile) version, for example m115, m116, m117, etc.
+- tbN where N = the Thunderbird version, for example tb91, tb102, tb115, etc.
+
+You have to use fxN in Firefox support articles, mN in Firefox for Android support articles and tbN in Thunderbird support articles.
+
+## Inline and block-level contexts
+
+{for} can be used in both inline and block-level contexts (in the HTML sense). The inline form takes effect when working within a line of text:
+
+**This is {for win}inline use{/for}.**
+
+The block form is used to wrap entire paragraphs, ordered lists, headings, and so on. The only caveat is that, when using the block form, the {for} and {/for} should each be on a line by itself. Otherwise, it might be considered part of a neighboring paragraph and produce surprising results.
+
+<dl>
+<dt>
+<strong>{for win}</strong>
+</dt>
+<dt>
+<strong>This is block-level.</strong>
+</dt>
+<dt>
+<strong>*One</strong>
+</dt>
+<dt>
+<strong>*Two</strong>
+</dt>
+<dt>
+<strong>{/for}</strong>
+</dt>
+</dl>
+# Best practices for using {for} in articles
+
+**When writing instructions for different operating systems, it's best to write complete sentences and paragraphs for each OS/Firefox version, even if it means duplicating things.** This makes the article easier to understand, maintain and localize. When it comes time, for example, to remove specific instructions for Firefox&nbsp;140 and below, those sections can just be deleted rather than trying to excise them from a larger section.
+
+- The **wrong way** to use {for}:<dl><dt>#{for not fx140}{for win,linux}At the top of the Firefox window{/for}{for mac}On the menu bar{/for}, click on the {/for}{for fx140}Click the menu button, go over to the {menu History} menu{/for}{for winxp,mac,linux,not fx140}{menu Tools} menu{/for}{for win10,win11,not fx140}{menu Firefox} menu, go over to the {menu History} menu{/for} and select {menu Clear Recent History…}
+</dt></dl>
+- The **right way** to use {for}:<dl>
+<dt>{for not fx140}
+</dt>
+<dt>#{for win10,win11}At the top of the Firefox window, click on the {menu Firefox} menu, go over to the {menu History} menu and select {menu Clear Recent History…}{/for}{for mac}On the menu bar, click on the {menu Tools} menu and select {menu Clear Recent History…}{/for}{for winxp,linux}At the top of the Firefox window, click on the {menu Tools} menu and select {menu Clear Recent History…}{/for}
+</dt>
+<dt>{/for}
+</dt>
+<dt>{for fx140}
+</dt>
+<dt>#Click the menu button, go over to the {menu History} menu and select {menu Clear Recent History…}
+</dt>
+<dt>{/for}
+</dt>
+</dl>
+- In the following example, we treat Firefox 140 and below, Firefox 141/142, and Firefox 143 and above as three different sets of instructions. That's often the case, but more and more as we change Firefox every four weeks we'll see more changes in later versions. They'll look like this:<dl>
+<dt>{for not fx141}
+</dt>
+<dt>#The old instructions.
+</dt>
+<dt>{/for}
+</dt>
+<dt>{for =fx141,=fx142}
+</dt>
+<dt>#The new instructions.
+</dt>
+<dt>{/for}
+</dt>
+<dt>{for fx143}
+</dt>
+<dt>#The NEW new instructions.
+</dt>
+<dt>{/for}
+</dt>
+</dl>
+
+# Complete Knowledge Base guidelines
+
+See [more guidelines on Knowledge Base contribution](https://support.mozilla.org/en-US/products/contributor/kb).
+
+"
 5928,Using Templates,using-templates,https://support.mozilla.org/en-US/kb/using-templates,en-US,How to use Templates,"<p>Templates are a way of reusing pieces of content in Knowledge Base articles. Instead of writing a set of instructions multiple times, you can create and update it in one place, and then refer to it in other pages. The other pages will stay up-to-date with changes to the Template automatically!
 </p>
 <div class=""warning""><strong>Localizers</strong>: when localizing templates, do not translate the name of the page - just use the original one! So, if the template is named <em>Template:browsersettings</em>, do not translate any of the elements in the name - just use <em>Template:browsersettings</em> in your locale. This is important to have the templates function properly.</div>
@@ -44693,6 +45162,201 @@ To fix this:
   2. The Mozilla platform:
     - Firefox test channels (Nightly, Developer Edition and Beta)
     - Firefox Developer Tools
+
+"
+22504,Access Mozilla services with a Mozilla account,access-mozilla-services-firefox-account,https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account,en-US,Mozilla account is a safe and easy way to access Mozilla services on all your devices. Learn how to create an account and access services.,"<p>Mozilla accounts let you access Mozilla services on any device with the Firefox browser by simply signing in. All you need to create a Mozilla account is an email address and a password.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-sign-up-for-a-mozilla-account""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I sign up for a Mozilla account?</span></a></li><li class=""toclevel-1""><a href=""#w_sign-in-with-a-one-time-email-code""><span class=""tocnumber"">2</span> <span class=""toctext"">Sign in with a one-time email code</span></a></li><li class=""toclevel-1""><a href=""#w_what-services-can-i-use-with-a-mozilla-account""><span class=""tocnumber"">3</span> <span class=""toctext"">What services can I use with a Mozilla account?</span></a></li><li class=""toclevel-1""><a href=""#w_what-makes-mozilla-accounts-different""><span class=""tocnumber"">4</span> <span class=""toctext"">What makes Mozilla accounts different?</span></a></li></ul></div>
+<h1 id=""w_how-do-i-sign-up-for-a-mozilla-account"">How do I sign up for a Mozilla account?</h1>
+<p>You can access the sign-up page on each Mozilla service, or visit the <a href=""https://accounts.firefox.com/signup"">Mozilla accounts signup page</a> and follow the steps below:
+</p>
+<ol><li> Enter your email address and click <span class=""button"">Sign up or sign in</span>.
+</li><li> Enter a password and your age, then click <span class=""button"">Create account</span>.
+<dl><dt><div class=""note"">We ask your age to meet the <a href=""https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites"">Children's Online Privacy Protection Rule</a> of the USA legislation.</div>
+</dt></dl>
+</li><li> When the Mozilla accounts email arrives, enter the 6-digit confirmation code.
+</li><li> Once your account has been confirmed, sign in to your favorite Mozilla Service using your newly created account. After you sign up, you can also sign in and add an image to your profile.
+</li></ol>
+<p>If you have problems confirming your account, please see <a href=""/en-US/kb/im-having-problems-confirming-my-firefox-account"">I'm having problems confirming my Mozilla account</a>.
+</p>
+<div class=""note""><strong>Note:</strong> You can also use your existing Google or Apple ID to sign up for a Mozilla account. This eliminates the need to remember yet another username and password. To learn more, see <a href=""/en-US/kb/sign-in-accounts-using-3rd-party-auth"">Sign in to a Mozilla account using 3rd-party authentication</a>.</div>
+<h1 id=""w_sign-in-with-a-one-time-email-code"">Sign in with a one-time email code</h1>
+<p>Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address.
+</p><p>When you enter your email on a supported service, Mozilla automatically determines the correct sign-in method. If your account is eligible for the passwordless flow, you’ll receive a one-time code by email. Enter that code on the verification screen to complete sign-in. If the code expires, you can request a new one.
+</p><p>You can use passwordless login when creating a new account for a supported service, or when your existing account lacks a password and is not linked to Google or Apple.
+</p>
+<div class=""note""><strong>Note</strong>: Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>
+<h1 id=""w_what-services-can-i-use-with-a-mozilla-account"">What services can I use with a Mozilla account?</h1>
+<p>The following Mozilla services are available:
+</p>
+<ul><li><strong><a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Firefox Sync</a>:</strong> Access your browsing data, like bookmarks, history, passwords and open tabs on your desktop, laptop and phone with just one Mozilla account login.
+</li><li><strong><a href=""https://addons.mozilla.org"">Firefox Add-ons</a>:</strong> Add features to Firefox by developing add-ons. See <a href=""/en-US/kb/access-your-add-ons-firefox-accounts"">Access your add-ons with a Mozilla account</a>.
+</li><li><strong><a href=""https://support.mozilla.org"">Mozilla Support</a>:</strong> Help other users by answering questions and contributing to help articles. See <a href=""/en-US/kb/firefox-accounts-supportmozillaorg"">Mozilla account on support.mozilla.org</a>.
+</li><li><strong><a href=""https://monitor.mozilla.org"">Mozilla Monitor</a>:</strong> Learn if your information was exposed in a data breach and how to take action to protect your online accounts. See <a href=""/en-US/kb/get-started-firefox-monitor"">Get started with Mozilla Monitor</a>.
+</li><li><strong><a href=""/en-US/kb/whats-difference-between-mdn-and-mdn-plus"">MDN Plus</a>:</strong> You can upgrade your access to the <a href=""https://developer.mozilla.org/"">Mozilla Developer Network (MDN)</a> with MDN Plus.
+</li><li><strong><a href=""https://connect.mozilla.org"">Mozilla Connect</a>:</strong> Give product feedback, share ideas for new features, and participate in discussions that help shape future product releases. See <a href=""/en-US/kb/what-mozilla-connect"">What is Mozilla Connect?</a>
+</li><li><strong><a href=""https://relay.firefox.com"">Firefox Relay</a>:</strong> Relay email masks protect your true email address from public view and automatically forwards messages to your true inbox.
+</li><li><strong><a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN</a>:</strong> A Virtual Private Network for desktop and mobile devices.
+</li></ul>
+<h1 id=""w_what-makes-mozilla-accounts-different"">What makes Mozilla accounts different?</h1>
+<p>At Mozilla, we put your privacy first. Any data you store on our servers is encrypted with your password, making it impossible for anyone without your password to read your data—even Mozilla. The benefit of this is that no one can mine your data to create a profile of you. However, it does require that you make a password that is both strong and memorable. If you forget your password and reset it, your storage is wiped clean and replaced with what is currently saved in Firefox on your devices.
+</p>",firefox;mozilla-account,accounts,"Mozilla accounts let you access Mozilla services on any device with the Firefox browser by simply signing in. All you need to create a Mozilla account is an email address and a password.
+
+## Table of Contents
+
+- [1 How do I sign up for a Mozilla account?](https://support.mozilla.org/kb/access-mozilla-services-firefox-account#w_how-do-i-sign-up-for-a-mozilla-account)
+- [2 Sign in with a one-time email code](https://support.mozilla.org/kb/access-mozilla-services-firefox-account#w_sign-in-with-a-one-time-email-code)
+- [3 What services can I use with a Mozilla account?](https://support.mozilla.org/kb/access-mozilla-services-firefox-account#w_what-services-can-i-use-with-a-mozilla-account)
+- [4 What makes Mozilla accounts different?](https://support.mozilla.org/kb/access-mozilla-services-firefox-account#w_what-makes-mozilla-accounts-different)
+
+# How do I sign up for a Mozilla account?
+
+You can access the sign-up page on each Mozilla service, or visit the [Mozilla accounts signup page](https://accounts.firefox.com/signup) and follow the steps below:
+
+1. Enter your email address and click Sign up or sign in.
+2. Enter a password and your age, then click Create account.<dl><dt>
+<div class=""note"">We ask your age to meet the <a href=""https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites"">Children's Online Privacy Protection Rule</a> of the USA legislation.</div>
+</dt></dl>
+3. When the Mozilla accounts email arrives, enter the 6-digit confirmation code.
+4. Once your account has been confirmed, sign in to your favorite Mozilla Service using your newly created account. After you sign up, you can also sign in and add an image to your profile.
+
+If you have problems confirming your account, please see [I'm having problems confirming my Mozilla account](\""https://support.mozilla.org/en-US/kb/im-having-problems-confirming-my-firefox-account"").
+
+**Note:** You can also use your existing Google or Apple ID to sign up for a Mozilla account. This eliminates the need to remember yet another username and password. To learn more, see [Sign in to a Mozilla account using 3rd-party authentication](\""https://support.mozilla.org/en-US/kb/sign-in-accounts-using-3rd-party-auth"").
+
+# Sign in with a one-time email code
+
+Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address.
+
+When you enter your email on a supported service, Mozilla automatically determines the correct sign-in method. If your account is eligible for the passwordless flow, you’ll receive a one-time code by email. Enter that code on the verification screen to complete sign-in. If the code expires, you can request a new one.
+
+You can use passwordless login when creating a new account for a supported service, or when your existing account lacks a password and is not linked to Google or Apple.
+
+**Note** : Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
+
+# What services can I use with a Mozilla account?
+
+The following Mozilla services are available:
+
+- **[Firefox Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer""):** Access your browsing data, like bookmarks, history, passwords and open tabs on your desktop, laptop and phone with just one Mozilla account login.
+- **[Firefox Add-ons](https://addons.mozilla.org):** Add features to Firefox by developing add-ons. See [Access your add-ons with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-your-add-ons-firefox-accounts"").
+- **[Mozilla Support](https://support.mozilla.org):** Help other users by answering questions and contributing to help articles. See [Mozilla account on support.mozilla.org](\""https://support.mozilla.org/en-US/kb/firefox-accounts-supportmozillaorg"").
+- **[Mozilla Monitor](https://monitor.mozilla.org):** Learn if your information was exposed in a data breach and how to take action to protect your online accounts. See [Get started with Mozilla Monitor](\""https://support.mozilla.org/en-US/kb/get-started-firefox-monitor"").
+- **[MDN Plus](\""https://support.mozilla.org/en-US/kb/whats-difference-between-mdn-and-mdn-plus""):** You can upgrade your access to the [Mozilla Developer Network (MDN)](https://developer.mozilla.org/) with MDN Plus.
+- **[Mozilla Connect](https://connect.mozilla.org):** Give product feedback, share ideas for new features, and participate in discussions that help shape future product releases. See [What is Mozilla Connect?](\""https://support.mozilla.org/en-US/kb/what-mozilla-connect"")
+- **[Firefox Relay](https://relay.firefox.com):** Relay email masks protect your true email address from public view and automatically forwards messages to your true inbox.
+- **[Mozilla VPN](https://www.mozilla.org/products/vpn/):** A Virtual Private Network for desktop and mobile devices.
+
+# What makes Mozilla accounts different?
+
+At Mozilla, we put your privacy first. Any data you store on our servers is encrypted with your password, making it impossible for anyone without your password to read your data—even Mozilla. The benefit of this is that no one can mine your data to create a profile of you. However, it does require that you make a password that is both strong and memorable. If you forget your password and reset it, your storage is wiped clean and replaced with what is currently saved in Firefox on your devices.
+
+"
+22658,Firefox for Android for Support Forum Contributors,firefox-android-support-forum-contributors,https://support.mozilla.org/en-US/kb/firefox-android-support-forum-contributors,en-US,Support Forum Contributors training for Firefox for Android,"<p>Firefox is too good to keep only to a desktop, so there's Firefox for Android devices too. Firefox for Android offers a lot of the same benefits as the Firefox desktop browser, but it's specially optimized for mobile. The following articles are grouped into popular topics, starting from the basics to topics that make you a power user.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_top-issues""><span class=""tocnumber"">1</span> <span class=""toctext"">Top issues</span></a></li><li class=""toclevel-1""><a href=""#w_basics""><span class=""tocnumber"">2</span> <span class=""toctext"">Basics</span></a><ul><li class=""toclevel-2""><a href=""#w_get-up-and-running-with-firefox-for-android""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Get up and running with Firefox for Android</span></a></li><li class=""toclevel-2""><a href=""#w_firefox-for-android-fundamentals""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Firefox for Android Fundamentals</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_beyond-the-basics-power-user""><span class=""tocnumber"">3</span> <span class=""toctext"">Beyond the basics / Power user</span></a><ul><li class=""toclevel-2""><a href=""#w_make-firefox-for-android-yours""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Make Firefox for Android yours</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_stay-safe-with-firefox-for-android""><span class=""tocnumber"">4</span> <span class=""toctext"">Stay safe with Firefox for Android</span></a></li><li class=""toclevel-1""><a href=""#w_other-resources""><span class=""tocnumber"">5</span> <span class=""toctext"">Other Resources</span></a></li></ul></div>
+<h1 id=""w_top-issues"">Top issues</h1>
+<p>Here are the top issues you're likely to encounter on the support forums for Firefox for Android:
+</p>
+<ol><li>Problems synchronizing bookmarks, tabs or history : <a href=""https://support.mozilla.org/en-US/products/mobile/save-share-and-sync-firefox-android/sync"">Sync</a>
+</li><li>Websites aren't rendering properly - This is beyond our control a lot of the time. Some sites are built with WebKit in mind, which renders things differently than Firefox for Android's platform. 
+</li><li>Missing menu button -  <a href=""/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"">Firefox menu icon is missing on Android - how to access the menu</a>
+</li></ol>
+<h1 id=""w_basics"">Basics</h1>
+<h2 id=""w_get-up-and-running-with-firefox-for-android"">Get up and running with Firefox for Android</h2>
+<ol><li> <a href=""/en-US/kb/install-firefox-android-device-using-google-play"">Install Firefox on an Android device using Google Play</a> - The recommended option is through Google Play, unless it's not available in that user's country. The article will show you alternate methods, if that's the case.
+</li><li> <a href=""/en-US/kb/update-latest-version-firefox-android"">Update to the latest version of Firefox for Android</a> - The recommended option here is also through Google Play, but the article describes a menu method as well.
+</li></ol>
+<h2 id=""w_firefox-for-android-fundamentals"">Firefox for Android Fundamentals</h2>
+<p>These articles are a good starting point for learning about the powerful things that Firefox for Android can do, as well as learn about basic functionality.
+
+</p>
+<ul><li> <a href=""/en-US/kb/customize-firefox-home-screen"">Customize the Firefox home screen</a>
+</li><li> <a href=""/en-US/kb/manage-tabs-firefox-android"">Manage tabs in Firefox for Android</a>
+</li></ul>
+<h1 id=""w_beyond-the-basics-power-user"">Beyond the basics / Power user</h1>
+<h2 id=""w_make-firefox-for-android-yours"">Make Firefox for Android yours</h2>
+<p>Many users are unaware that you can do cool stuff with your Awesome Screen, like hide panels you don't need, change your browser's default language, add and remove search engines and add additional features using add-ons. These articles will help you along the way:
+</p>
+<ul><li><a href=""/en-US/kb/customize-firefox-home-screen"">Customize the Firefox home screen</a> - see the ""customize"" section
+</li><li><a href=""/en-US/kb/change-default-language-firefox-android"">Change the default language of Firefox for Android</a> - you can use add-ons to add extra panels to the Awesome Screen.
+</li><li><a href=""/en-US/kb/find-and-install-add-ons-firefox-android"">Find and install extensions on Firefox for Android</a>
+</li><li><a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> and <a href=""/en-US/kb/add-a-device-to-firefox-sync"">How do I add a device to Firefox Sync?</a>
+</li><li><a href=""/en-US/kb/view-articles-reader-view-firefox-android"">View articles in Reader View on Firefox for Android</a> - Reader Mode is available on websites that 
+</li></ul>
+<h1 id=""w_stay-safe-with-firefox-for-android"">Stay safe with Firefox for Android</h1>
+<p>The Mozilla community is dedicated to privacy and user choice, so it only makes sense to bring all the privacy goodness from Firefox desktop to mobile:
+</p>
+<ul><li><a href=""/en-US/kb/clear-your-browsing-history-and-other-personal-data"">Clear your browsing history and other personal data on Firefox for Android</a>
+</li><li><a href=""/en-US/kb/how-do-i-use-do-not-track-firefox-android"">How do I use Do-not-track on Firefox for Android?</a>
+</li></ul>
+<h1 id=""w_other-resources"">Other Resources</h1>
+<p>Here are other Firefox for Android resources you can check out to get an idea of what's coming:
+</p>
+<ul><li><a href=""https://bugzilla.mozilla.org/describecomponents.cgi?product=Fenix"">Current bugs for Firefox for Android</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/firefox-android-android-studio-emulator"">Run Firefox for Android on a desktop or laptop computer</a>]
+</li></ul>",contributor,forum,"Firefox is too good to keep only to a desktop, so there's Firefox for Android devices too. Firefox for Android offers a lot of the same benefits as the Firefox desktop browser, but it's specially optimized for mobile. The following articles are grouped into popular topics, starting from the basics to topics that make you a power user.
+
+## Table of Contents
+
+- [1 Top issues](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_top-issues)
+- [2 Basics](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_basics)
+  - [2.1 Get up and running with Firefox for Android](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_get-up-and-running-with-firefox-for-android)
+  - [2.2 Firefox for Android Fundamentals](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_firefox-for-android-fundamentals)
+
+- [3 Beyond the basics / Power user](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_beyond-the-basics-power-user)
+  - [3.1 Make Firefox for Android yours](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_make-firefox-for-android-yours)
+
+- [4 Stay safe with Firefox for Android](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_stay-safe-with-firefox-for-android)
+- [5 Other Resources](https://support.mozilla.org/kb/firefox-android-support-forum-contributors#w_other-resources)
+
+# Top issues
+
+Here are the top issues you're likely to encounter on the support forums for Firefox for Android:
+
+1. Problems synchronizing bookmarks, tabs or history&nbsp;: [Sync](https://support.mozilla.org/en-US/products/mobile/save-share-and-sync-firefox-android/sync)
+2. Websites aren't rendering properly - This is beyond our control a lot of the time. Some sites are built with WebKit in mind, which renders things differently than Firefox for Android's platform. 
+3. Missing menu button - [Firefox menu icon is missing on Android - how to access the menu](\""https://support.mozilla.org/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"")
+
+# Basics
+
+## Get up and running with Firefox for Android
+
+1. [Install Firefox on an Android device using Google Play](\""https://support.mozilla.org/en-US/kb/install-firefox-android-device-using-google-play"") - The recommended option is through Google Play, unless it's not available in that user's country. The article will show you alternate methods, if that's the case.
+2. [Update to the latest version of Firefox for Android](\""https://support.mozilla.org/en-US/kb/update-latest-version-firefox-android"") - The recommended option here is also through Google Play, but the article describes a menu method as well.
+
+## Firefox for Android Fundamentals
+
+These articles are a good starting point for learning about the powerful things that Firefox for Android can do, as well as learn about basic functionality.
+
+- [Customize the Firefox home screen](\""https://support.mozilla.org/en-US/kb/customize-firefox-home-screen"")
+- [Manage tabs in Firefox for Android](\""https://support.mozilla.org/en-US/kb/manage-tabs-firefox-android"")
+
+# Beyond the basics / Power user
+
+## Make Firefox for Android yours
+
+Many users are unaware that you can do cool stuff with your Awesome Screen, like hide panels you don't need, change your browser's default language, add and remove search engines and add additional features using add-ons. These articles will help you along the way:
+
+- [Customize the Firefox home screen](\""https://support.mozilla.org/en-US/kb/customize-firefox-home-screen"") - see the ""customize"" section
+- [Change the default language of Firefox for Android](\""https://support.mozilla.org/en-US/kb/change-default-language-firefox-android"") - you can use add-ons to add extra panels to the Awesome Screen.
+- [Find and install extensions on Firefox for Android](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-firefox-android"")
+- [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") and [How do I add a device to Firefox Sync?](\""https://support.mozilla.org/en-US/kb/add-a-device-to-firefox-sync"")
+- [View articles in Reader View on Firefox for Android](\""https://support.mozilla.org/en-US/kb/view-articles-reader-view-firefox-android"") - Reader Mode is available on websites that 
+
+# Stay safe with Firefox for Android
+
+The Mozilla community is dedicated to privacy and user choice, so it only makes sense to bring all the privacy goodness from Firefox desktop to mobile:
+
+- [Clear your browsing history and other personal data on Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-and-other-personal-data"")
+- [How do I use Do-not-track on Firefox for Android?](\""https://support.mozilla.org/en-US/kb/how-do-i-use-do-not-track-firefox-android"")
+
+# Other Resources
+
+Here are other Firefox for Android resources you can check out to get an idea of what's coming:
+
+- [Current bugs for Firefox for Android](https://bugzilla.mozilla.org/describecomponents.cgi?product=Fenix)
+- [Run Firefox for Android on a desktop or laptop computer](https://support.mozilla.org/en-US/kb/firefox-android-android-studio-emulator)]
 
 "
 22718,Angry User Training,angry-user-training,https://support.mozilla.org/en-US/kb/angry-user-training,en-US,"This training includes some useful tips and helps you to provide excellent support for angry, frustrated and difficult users. We call it Defusing the Bomb.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_defusing-the-bomb""><span class=""tocnumber"">1</span> <span class=""toctext"">Defusing the Bomb</span></a><ul><li class=""toclevel-2""><a href=""#w_get-to-the-root-of-the-question-right-away""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Get to the root of the question right away</span></a></li><li class=""toclevel-2""><a href=""#w_setting-the-expectations""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Setting the expectations</span></a></li><li class=""toclevel-2""><a href=""#w_actively-empathize""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Actively empathize</span></a></li><li class=""toclevel-2""><a href=""#w_going-the-extra-mile""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Going the extra mile</span></a></li><li class=""toclevel-2""><a href=""#w_do-not-take-it-personally""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Do not take it personally</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_provide-flexible-help""><span class=""tocnumber"">2</span> <span class=""toctext"">Provide flexible help</span></a></li><li class=""toclevel-1""><a href=""#w_what-if-users-are-already-angry""><span class=""tocnumber"">3</span> <span class=""toctext"">What if users are already angry?</span></a></li><li class=""toclevel-1""><a href=""#w_avoid-getting-into-arguments-with-users""><span class=""tocnumber"">4</span> <span class=""toctext"">Avoid getting into arguments with users</span></a><ul><li class=""toclevel-2""><a href=""#w_some-examples""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Some examples:</span></a></li><li class=""toclevel-2""><a href=""#w_empathy""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Empathy</span></a></li></ul></li></ul></div>
@@ -78275,268 +78939,6 @@ To change this preference:
 - **Never** to never open links in native apps.
 
 "
-50669,"Windows 10 warns me to use a ""Microsoft-verified"" app",windows-10-warns-me-use-microsoft-verified-app,https://support.mozilla.org/en-US/kb/windows-10-warns-me-use-microsoft-verified-app,en-US,"Windows 10 may interrupt your Firefox install with a “Microsoft-verified apps” warning. Firefox is safe to install, so choose “install anyway”.","<p>When installing Firefox on Windows 10, you may see a warning that says you can “only install apps from the Microsoft Store.” This is a Windows setting that blocks apps like Firefox from installing. Don't worry, you can quickly change this setting and continue with the installation.
-</p><p><strong>Any Firefox download from <em><a href=""https://www.mozilla.org/"">www.mozilla.org</a></em> or <em><a href=""https://www.firefox.com/"">www.firefox.com</a></em> is safe to install</strong>, so choose <strong>Install anyway</strong>.
-</p>
-<dl><dt><img alt=""use a Microsoft verified app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-25-33-00c66e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-<div class=""note"">
-<p><strong>Note:</strong>
-</p>
-<ul><li>You can also <a href=""/en-US/kb/download-firefox-windows-microsoft-store"">download and install Firefox from the Microsoft Store</a>.
-</li><li><strong>Using Windows 10 in S mode?</strong> See <a href=""/en-US/kb/windows-s-mode-wont-let-me-install-firefox"">Windows in S mode won't let me install Firefox</a>.
-</li></ul>
-</div>
-<h1 id=""w_what-do-i-do-if-i-dont-see-the-option-to-install-anyway"">What do I do if I don’t see the option to install anyway?</h1>
-<p>If you do not see the option to <em>Install anyway</em>, follow the steps below to change your system settings.
-</p>
-<ol><li>Open the Windows 10 Start <img alt=""Windows10StartButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-30-01-57-41-45d514.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu and select <img alt=""Win10Settings-GearIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-02-08-08-25-b8c3f7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><span class=""menu"">Settings</span>.
-</li><li>Click on <strong>Apps</strong> in the <em>Windows Settings</em> menu.
-<dl><dt><img alt=""w10 Apps settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-26-53-8a60db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>In the <em>Apps &amp; features</em> section, go to <strong>Choose where to get apps</strong>, click on the dropdown menu below and select one of the options that allows you to install from <strong>Anywhere</strong>.
-<dl><dt><img alt=""w10 Choose where to get apps"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-27-16-79d830.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>Run the Firefox Installer again. Windows may now allow it to install Firefox.
-</li></ol>
-<h1 id=""w_related-content"">Related content</h1>
-<ul><li> <a href=""/en-US/kb/why-do-i-get-harmful-download-message-when-downloading-firefox-windows"">Why do I get a harmful download message when downloading Firefox on Windows?</a>
-</li><li> <a href=""/en-US/kb/how-install-firefox-windows"">How to install Firefox on Windows</a>
-</li><li> <a href=""/en-US/kb/firefox-support-windows-10-end-support"">What Windows 10 end of support means for Firefox users</a>
-</li></ul>",firefox,installation-and-updates,"When installing Firefox on Windows 10, you may see a warning that says you can “only install apps from the Microsoft Store.” This is a Windows setting that blocks apps like Firefox from installing. Don't worry, you can quickly change this setting and continue with the installation.
-
-**Any Firefox download from _[www.mozilla.org](https://www.mozilla.org/)_ or _[www.firefox.com](https://www.firefox.com/)_ is safe to install**, so choose **Install anyway**.
-
-<dl><dt>
-<img alt=""use a Microsoft verified app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-25-33-00c66e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-
-**Note:**
-
-- You can also [download and install Firefox from the Microsoft Store](\""https://support.mozilla.org/en-US/kb/download-firefox-windows-microsoft-store"").
-- **Using Windows 10 in S mode?** See [Windows in S mode won't let me install Firefox](\""https://support.mozilla.org/en-US/kb/windows-s-mode-wont-let-me-install-firefox"").
-
-# What do I do if I don’t see the option to install anyway?
-
-If you do not see the option to _Install anyway_, follow the steps below to change your system settings.
-
-1. Open the Windows 10 Start ![Windows10StartButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu and select ![Win10Settings-GearIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Settings.
-2. Click on **Apps** in the _Windows Settings_ menu.<dl><dt>
-<img alt=""w10 Apps settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-26-53-8a60db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-3. In the _Apps & features_ section, go to **Choose where to get apps** , click on the dropdown menu below and select one of the options that allows you to install from **Anywhere**.<dl><dt>
-<img alt=""w10 Choose where to get apps"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-27-16-79d830.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-4. Run the Firefox Installer again. Windows may now allow it to install Firefox.
-
-# Related content
-
-- [Why do I get a harmful download message when downloading Firefox on Windows?](\""https://support.mozilla.org/en-US/kb/why-do-i-get-harmful-download-message-when-downloading-firefox-windows"")
-- [How to install Firefox on Windows](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"")
-- [What Windows 10 end of support means for Firefox users](\""https://support.mozilla.org/en-US/kb/firefox-support-windows-10-end-support"")
-
-"
-50670,About Add-on Badges,add-on-badges,https://support.mozilla.org/en-US/kb/add-on-badges,en-US,You’ll know if an extension is being regularly reviewed if it has one of the badges listed in this article.,"<p>Firefox add-on badges help you quickly identify which <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">extensions</a> are trusted, reviewed or developed by Mozilla. This guide explains what each badge means, shows you where to find them, and gives you tips on how to safely use add-ons.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_badges-and-what-they-mean""><span class=""tocnumber"">1</span> <span class=""toctext"">Badges and what they mean</span></a><ul><li class=""toclevel-2""><a href=""#w_recommended-extensions""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Recommended extensions</span></a></li><li class=""toclevel-2""><a href=""#w_extensions-by-firefox""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Extensions by Firefox</span></a></li><li class=""toclevel-2""><a href=""#w_caution-label""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Caution label</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_tips-for-safe-add-on-use""><span class=""tocnumber"">2</span> <span class=""toctext"">Tips for safe add-on use</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_badges-and-what-they-mean"">Badges and what they mean</h1>
-<h2 id=""w_recommended-extensions"">Recommended extensions</h2>
-<p>These extensions are carefully selected by Mozilla staff and community members for:
-</p>
-<ul><li>Strong security
-</li><li>Reliable functionality
-</li><li>High-quality user experience
-</li></ul>
-<p>Each one is manually reviewed for policy compliance. Developers can’t pay to be part of this program. Recommended extensions may be featured on <a href=""https://addons.mozilla.org/"">addons.mozilla.org (AMO)</a>.
-</p><p><strong>Example badge:</strong>
-</p>
-<dl><dt><img alt=""'Recommended' Add-on Badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-28-23-0aef2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""180"">
-</dt></dl>
-<div class=""note""><strong>Tip:</strong> Learn more about the <a href=""/en-US/kb/recommended-extensions-program"">Recommended Extensions program</a>.</div>
-<h2 id=""w_extensions-by-firefox"">Extensions by Firefox</h2>
-<p>These are made by Mozilla to deliver new features or fun extras for Firefox. They are reviewed for security and policy compliance.
-</p><p><strong>Example badge:</strong>
-</p>
-<dl><dt><img alt=""'By Firefox' Add-ons badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-26-57-ec0c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140"">
-</dt></dl>
-<h2 id=""w_caution-label"">Caution label</h2>
-<p>Extensions not regularly reviewed by Mozilla staff will display a caution message on AMO. This doesn’t always mean the add-on is unsafe, but you should check the developer's reputation, user reviews and requested permissions.
-</p><p><strong>Example badge:</strong>
-</p>
-<dl><dt><img alt=""AMO Caution Label"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-24-12-26-17-839739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h1 id=""w_tips-for-safe-add-on-use"">Tips for safe add-on use</h1>
-<ul><li>Look for badges to find trusted extensions.
-</li><li>Read reviews and ratings.
-</li><li>Check requested permissions before installing.
-</li><li>Remove extensions you no longer use.
-</li></ul>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/find-and-install-add-ons-firefox-android"">Find and install extensions on Firefox for Android</a>
-</li><li><a href=""/en-US/kb/uninstall-firefox-android-add-ons"">Uninstall Firefox for Android extensions</a>
-</li><li><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Find and install add-ons to add features to Firefox</a>
-</li></ul>",firefox,add-ons-extensions-and-themes;settings,"Firefox add-on badges help you quickly identify which [extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"") are trusted, reviewed or developed by Mozilla. This guide explains what each badge means, shows you where to find them, and gives you tips on how to safely use add-ons.
-
-## Table of Contents
-
-- [1 Badges and what they mean](https://support.mozilla.org/kb/add-on-badges#w_badges-and-what-they-mean)
-  - [1.1 Recommended extensions](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions)
-  - [1.2 Extensions by Firefox](https://support.mozilla.org/kb/add-on-badges#w_extensions-by-firefox)
-  - [1.3 Caution label](https://support.mozilla.org/kb/add-on-badges#w_caution-label)
-
-- [2 Tips for safe add-on use](https://support.mozilla.org/kb/add-on-badges#w_tips-for-safe-add-on-use)
-- [3 Related articles](https://support.mozilla.org/kb/add-on-badges#w_related-articles)
-
-# Badges and what they mean
-
-## Recommended extensions
-
-These extensions are carefully selected by Mozilla staff and community members for:
-
-- Strong security
-- Reliable functionality
-- High-quality user experience
-
-Each one is manually reviewed for policy compliance. Developers can’t pay to be part of this program. Recommended extensions may be featured on [addons.mozilla.org (AMO)](https://addons.mozilla.org/).
-
-**Example badge:**
-
-<dl><dt>
-<img alt=""'Recommended' Add-on Badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-28-23-0aef2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""180"">
-</dt></dl>
-**Tip:** Learn more about the [Recommended Extensions program](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program"").
-
-## Extensions by Firefox
-
-These are made by Mozilla to deliver new features or fun extras for Firefox. They are reviewed for security and policy compliance.
-
-**Example badge:**
-
-<dl><dt>
-<img alt=""'By Firefox' Add-ons badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-26-57-ec0c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140"">
-</dt></dl>
-## Caution label
-
-Extensions not regularly reviewed by Mozilla staff will display a caution message on AMO. This doesn’t always mean the add-on is unsafe, but you should check the developer's reputation, user reviews and requested permissions.
-
-**Example badge:**
-
-<dl><dt>
-<img alt=""AMO Caution Label"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-24-12-26-17-839739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-# Tips for safe add-on use
-
-- Look for badges to find trusted extensions.
-- Read reviews and ratings.
-- Check requested permissions before installing.
-- Remove extensions you no longer use.
-
-# Related articles
-
-- [Find and install extensions on Firefox for Android](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-firefox-android"")
-- [Uninstall Firefox for Android extensions](\""https://support.mozilla.org/en-US/kb/uninstall-firefox-android-add-ons"")
-- [Find and install add-ons to add features to Firefox](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"")
-
-"
-50702,Thunderbird 78 FAQ,thunderbird-78-faq,https://support.mozilla.org/en-US/kb/thunderbird-78-faq,en-US,"This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.","<p>This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78""><span class=""tocnumber"">1</span> <span class=""toctext"">Where can I find more information on changes and new features in Thunderbird 78?</span></a></li><li class=""toclevel-1""><a href=""#w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages""><span class=""tocnumber"">2</span> <span class=""toctext"">After upgrading to Thunderbird 78, I cannot receive or send email messages.</span></a><ul><li class=""toclevel-2""><a href=""#w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1""><span class=""tocnumber"">2.1</span> <span class=""toctext"">How to enable outdated security protocols TLS 1.0 and 1.1</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78""><span class=""tocnumber"">3</span> <span class=""toctext"">When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?</span></a></li><li class=""toclevel-1""><a href=""#w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp""><span class=""tocnumber"">4</span> <span class=""toctext"">Where can I find information on Thunderbird's new encryption technology, OpenPGP?</span></a></li></ul></div>
-<h2 id=""w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78"">Where can I find more information on changes and new features in Thunderbird 78?</h2>
-<p>Please refer to the following documents:
-</p>
-<ul><li> <a href=""/en-US/kb/new-thunderbird-78"">New in Thunderbird 78.0</a>
-</li><li> <a href=""https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/"">Thunderbird 78 Release Notes</a>
-</li><li> <a href=""https://www.thunderbird.net/en-US/thunderbird/releases/"">Thunderbird Release Notes</a> (all releases, including details on the latest minor releases)
-</li></ul>
-<h2 id=""w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages"">After upgrading to Thunderbird 78, I cannot receive or send email messages.</h2>
-<p>One reason why this might happen is your email provider is still using very outdated security protocols. Thunderbird is serious about protecting the privacy and security of your communications, so by default, Thunderbird 78 will not connect to servers that do not support the modern (over ten years old) <a href=""https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.2"">TLS 1.2 connection security protocol</a>. If your email provider only supports the outdated security protocols TLS 1.0 or TLS 1.1, then downloading (receiving) and sending emails will not work. If you need to connect to mail servers with outdated security, or if you want to check if this is the cause of your problem, you can temporarily re-enable the older security protocols in Thunderbird settings using the process below.  If you still have difficulties after trying TLS changes, or you know your mail servers support TLS 1.2, see:
-</p>
-<ul><li> <a href=""/en-US/kb/cannot-send-messages"">Cannot send messages</a>
-</li><li> <a href=""/en-US/kb/cannot-receive-messages"">Cannot receive messages</a>
-</li></ul>
-<div class=""note"">
-<h3 id=""w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1"">How to enable outdated security protocols TLS 1.0 and 1.1</h3>
-<ol><li> Open <a href=""/en-US/kb/config-editor"">Config Editor</a> (about:config)
-<ul><li> <span class=""menu"">≡</span> &gt; <span class=""for"" data-for=""win""><span class=""menu"">Options</span></span><span class=""for"" data-for=""linux,mac""><span class=""menu"">Preferences</span></span> &gt; <span class=""menu"">Find in <span class=""for"" data-for=""win"">Options</span><span class=""for"" data-for=""linux,mac"">Preferences</span></span>
-</li><li> In the searchbox, type: <strong>about:config</strong>, then press <span class=""key"">Enter</span>.
-</li><li> Click on the button <span class=""button"">Config Editor…</span> in the search result.
-</li></ul>
-</li><li> In the about:config dialog, search for: <strong>security.tls.version.min</strong>
-</li><li> Double-click on the found preference <strong>security.tls.version.min</strong> and change its value to <strong>1</strong>, then press <span class=""key"">Enter</span>.
-</li><li> Restart Thunderbird and try to download your messages.
-</li></ol>
-<p>If you can receive and/or send your messages after changing this preference:
-</p>
-<ul><li> <strong>Please inform your email provider to upgrade the security protocols on the server to support TLS 1.2.</strong>
-</li><li> Revert the preference <strong>security.tls.version.min</strong> to its original value as soon as possible by repeating the above procedure, then right-click on the preference and choose <span class=""menu"">Reset</span> from the context menu.
-</li></ul>
-</div>
-<h2 id=""w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78"">When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?</h2>
-<p>We have redesigned the addressing area for more efficiency, transparency, and convenience. Please find more information in the following documents:
-</p>
-<ul><li> <a href=""/en-US/kb/new-thunderbird-78"">New in Thunderbird 78.0</a>
-</li><li> <a href=""/en-US/kb/addressing-email"">Addressing an Email</a>
-</li></ul>
-<h2 id=""w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp"">Where can I find information on Thunderbird's new encryption technology, OpenPGP?</h2>
-<p>For any questions or more information about Thunderbird's new message encryption feature, OpenPGP, please see the following document:
-</p>
-<ul><li> <a href=""/en-US/kb/openpgp-thunderbird-howto-and-faq"">OpenPGP in Thunderbird - HOWTO and FAQ</a>
-</li></ul>",thunderbird,email-and-messaging;send-and-receive-email,"This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.
-
-## Table of Contents
-
-- [1 Where can I find more information on changes and new features in Thunderbird 78?](https://support.mozilla.org/kb/thunderbird-78-faq#w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78)
-- [2 After upgrading to Thunderbird 78, I cannot receive or send email messages.](https://support.mozilla.org/kb/thunderbird-78-faq#w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages)
-  - [2.1 How to enable outdated security protocols TLS 1.0 and 1.1](https://support.mozilla.org/kb/thunderbird-78-faq#w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1)
-
-- [3 When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?](https://support.mozilla.org/kb/thunderbird-78-faq#w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78)
-- [4 Where can I find information on Thunderbird's new encryption technology, OpenPGP?](https://support.mozilla.org/kb/thunderbird-78-faq#w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp)
-
-## Where can I find more information on changes and new features in Thunderbird 78?
-
-Please refer to the following documents:
-
-- [New in Thunderbird 78.0](\""https://support.mozilla.org/en-US/kb/new-thunderbird-78"")
-- [Thunderbird 78 Release Notes](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/)
-- [Thunderbird Release Notes](https://www.thunderbird.net/en-US/thunderbird/releases/) (all releases, including details on the latest minor releases)
-
-## After upgrading to Thunderbird 78, I cannot receive or send email messages.
-
-One reason why this might happen is your email provider is still using very outdated security protocols. Thunderbird is serious about protecting the privacy and security of your communications, so by default, Thunderbird 78 will not connect to servers that do not support the modern (over ten years old) [TLS 1.2 connection security protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.2). If your email provider only supports the outdated security protocols TLS 1.0 or TLS 1.1, then downloading (receiving) and sending emails will not work. If you need to connect to mail servers with outdated security, or if you want to check if this is the cause of your problem, you can temporarily re-enable the older security protocols in Thunderbird settings using the process below. If you still have difficulties after trying TLS changes, or you know your mail servers support TLS 1.2, see:
-
-- [Cannot send messages](\""https://support.mozilla.org/en-US/kb/cannot-send-messages"")
-- [Cannot receive messages](\""https://support.mozilla.org/en-US/kb/cannot-receive-messages"")
-
-### How to enable outdated security protocols TLS 1.0 and 1.1
-
-1. Open [Config Editor](\""https://support.mozilla.org/en-US/kb/config-editor"") (about:config)
-  - ≡ \> OptionsPreferences \> Find in OptionsPreferences
-  - In the searchbox, type: **about:config** , then press Enter.
-  - Click on the button Config Editor… in the search result.
-
-2. In the about:config dialog, search for: **security.tls.version.min**
-3. Double-click on the found preference **security.tls.version.min** and change its value to **1** , then press Enter.
-4. Restart Thunderbird and try to download your messages.
-
-If you can receive and/or send your messages after changing this preference:
-
-- **Please inform your email provider to upgrade the security protocols on the server to support TLS 1.2.**
-- Revert the preference **security.tls.version.min** to its original value as soon as possible by repeating the above procedure, then right-click on the preference and choose Reset from the context menu.
-
-## When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?
-
-We have redesigned the addressing area for more efficiency, transparency, and convenience. Please find more information in the following documents:
-
-- [New in Thunderbird 78.0](\""https://support.mozilla.org/en-US/kb/new-thunderbird-78"")
-- [Addressing an Email](\""https://support.mozilla.org/en-US/kb/addressing-email"")
-
-## Where can I find information on Thunderbird's new encryption technology, OpenPGP?
-
-For any questions or more information about Thunderbird's new message encryption feature, OpenPGP, please see the following document:
-
-- [OpenPGP in Thunderbird - HOWTO and FAQ](\""https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq"")
-
-"
 50917,Sponsors on the home page and New Tab page,sponsor-privacy,https://support.mozilla.org/en-US/kb/sponsor-privacy,en-US,"Working with its advertising partners, Mozilla may place sponsored shortcuts on the default Firefox home page and New Tab page. Learn more.","<p>Mozilla works with advertising partners to place sponsored shortcuts, sponsored stories, and advertisements on the New Tab page. These are always clearly marked, and you have control over whether they are shown. Privacy is fundamental to Mozilla’s mission. We adhere to the <a href=""https://firefox-source-docs.mozilla.org/contributing/data-collection.html"">privacy standards for Firefox</a>, use technical designs that enforce these standards, and we only work with advertising partners that meet those standards as well.
 </p><p>The revenue from these advertisements on Firefox New Tab supports Mozilla’s mission to build a healthier internet and help fund Firefox development. Because Mozilla is structured not for maximizing profit but for advancing its mission, this revenue is reinvested into projects that foster a healthier web and improve privacy, including how to deliver ads in a privacy-preserving way. By keeping ads optional and transparent, we create a sustainable way to support Firefox without compromising your privacy. 
 </p>
@@ -81389,161 +81791,6 @@ For more information about how to install Firefox for Android, visit [Install Fi
 # What will happen to my bookmarks and screenshots?
 
 Any bookmarks you have saved will be deleted after you uninstall the application, while screenshots will stay on your device.
-
-"
-54072,"Solutions for ""Can not create temp folder archive"" error when installing Firefox (Windows 10)",solutions-can-not-create-temp-folder-archive-error,https://support.mozilla.org/en-US/kb/solutions-can-not-create-temp-folder-archive-error,en-US,"Stuck with the ""Can not create temp folder archive"" error on 7-Zip when installing Firefox for Windows 10? This article will help you to solve the issue.","<p>When installing Firefox for Windows 10, the error message, <strong>""Can not create temp folder archive,""</strong> is shown when 7-Zip tries to unpack the installation file but is not able to locate the Temp folder or it is not able to access it. This is how the error looks like:
-</p><p><img alt=""can not create temp folder archive error"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-06-21-32-21-c0928e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p><strong>Running the Firefox installation file as an administrator or with an administrator account is a common fix for this problem and it can work for some users.</strong> In case if that does not work for you, this article will also be exploring the other possible solutions to help you solve this issue.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_running-the-installation-file-as-administrator""><span class=""tocnumber"">1</span> <span class=""toctext"">Running the installation file as administrator</span></a></li><li class=""toclevel-1""><a href=""#w_moving-installation-file-to-desktop""><span class=""tocnumber"">2</span> <span class=""toctext"">Moving installation file to Desktop</span></a></li><li class=""toclevel-1""><a href=""#w_ensuring-the-temp-folder-is-in-the-correct-directory""><span class=""tocnumber"">3</span> <span class=""toctext"">Ensuring the Temp folder is in the correct directory</span></a></li><li class=""toclevel-1""><a href=""#w_other-solutions""><span class=""tocnumber"">4</span> <span class=""toctext"">Other solutions</span></a></li></ul></div>
-<h1 id=""w_running-the-installation-file-as-administrator"">Running the installation file as administrator</h1>
-<p>Simply right-click on the installation file and select <strong>Run as administrator</strong>. This will give the file admin-level permissions for 7-Zip to create an archive in the Temp folder to proceed with the installation if it is having insufficient permissions to do so.
-</p>
-<h1 id=""w_moving-installation-file-to-desktop"">Moving installation file to Desktop</h1>
-<p>Before running the file, make sure it is saved in the same drive where Windows is installed. A simple way to ensure this is by <strong>moving the file to the Desktop</strong> and run it. If needed, right click and select <strong>Run as administrator</strong>.
-</p>
-<h1 id=""w_ensuring-the-temp-folder-is-in-the-correct-directory"">Ensuring the Temp folder is in the correct directory</h1>
-<p>The Temp folder which the installation file is trying to access to unpack files for installation is usually located at: <strong>Users\[username]\AppData\Local\Temp</strong>
-</p><p>To ensure the Temp folder is located in the correct directory, follow the steps below:
-</p>
-<ol><li> Open up the <strong>start menu</strong>
-</li><li> Search <strong>%appdata%</strong> and hit Enter
-</li><li> Click on <strong>AppData</strong> on the top bar
-</li><li> Go into the <strong>Local</strong> folder
-</li><li> Check if the <strong>Temp</strong> folder exists in here, if it does not exist, create a new folder named <strong>Temp</strong> (make sure letter 'T' is capital)
-</li></ol>
-<p>After that, you may perform the previous solutions again to see if they work this time.
-</p>
-<h1 id=""w_other-solutions"">Other solutions</h1>
-<ul><li>Ensure Windows 10 is updated to the latest version, this issue might be a bug with Windows and an update might solve the issue. To update Windows 10, go through the steps in <a href=""https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a"">this article</a> by Microsoft Support.
-</li><li>For more possible solutions, <a href=""https://www.youtube.com/watch?v=1TVPZ2OZ29g"">please see this video.</a>
-</li></ul>",firefox,crashing-and-slow-performance;error-codes;installation-and-updates;performance-and-connectivity,"When installing Firefox for Windows 10, the error message, **""Can not create temp folder archive,""** is shown when 7-Zip tries to unpack the installation file but is not able to locate the Temp folder or it is not able to access it. This is how the error looks like:
-
-![can not create temp folder archive error](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-**Running the Firefox installation file as an administrator or with an administrator account is a common fix for this problem and it can work for some users.** In case if that does not work for you, this article will also be exploring the other possible solutions to help you solve this issue.
-
-## Table of Contents
-
-- [1 Running the installation file as administrator](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_running-the-installation-file-as-administrator)
-- [2 Moving installation file to Desktop](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_moving-installation-file-to-desktop)
-- [3 Ensuring the Temp folder is in the correct directory](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_ensuring-the-temp-folder-is-in-the-correct-directory)
-- [4 Other solutions](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_other-solutions)
-
-# Running the installation file as administrator
-
-Simply right-click on the installation file and select **Run as administrator**. This will give the file admin-level permissions for 7-Zip to create an archive in the Temp folder to proceed with the installation if it is having insufficient permissions to do so.
-
-# Moving installation file to Desktop
-
-Before running the file, make sure it is saved in the same drive where Windows is installed. A simple way to ensure this is by **moving the file to the Desktop** and run it. If needed, right click and select **Run as administrator**.
-
-# Ensuring the Temp folder is in the correct directory
-
-The Temp folder which the installation file is trying to access to unpack files for installation is usually located at: **Users\[username]\AppData\Local\Temp**
-
-To ensure the Temp folder is located in the correct directory, follow the steps below:
-
-1. Open up the **start menu**
-2. Search **%appdata%** and hit Enter
-3. Click on **AppData** on the top bar
-4. Go into the **Local** folder
-5. Check if the **Temp** folder exists in here, if it does not exist, create a new folder named **Temp** (make sure letter 'T' is capital)
-
-After that, you may perform the previous solutions again to see if they work this time.
-
-# Other solutions
-
-- Ensure Windows 10 is updated to the latest version, this issue might be a bug with Windows and an update might solve the issue. To update Windows 10, go through the steps in [this article](https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a) by Microsoft Support.
-- For more possible solutions, [please see this video.](https://www.youtube.com/watch?v=1TVPZ2OZ29g)
-
-"
-54079,Deploy Firefox with language packs,deploying-firefox-language-packs,https://support.mozilla.org/en-US/kb/deploying-firefox-language-packs,en-US,Deploy Firefox in your environment with preinstalled language packs.,"<p>In an enterprise environment, it may be necessary to deploy Firefox with language packs preinstalled. This document will show you how to do that. These steps also work if you are <a href=""/en-US/kb/repackaging-windows-installer"">customizing the Windows installer</a>.
-</p>
-<h1 id=""w_step-1-create-directories"">Step 1: Create directories</h1>
-<p>In the Firefox installation directory, you will need to create some required directories. First, create a directory called <code>distribution</code>. Inside of that directory, create another called <code>extensions</code>. If you are on macOS, you should create the directories in <code>Contents/Resources</code>
-</p>
-<h1 id=""w_step-2-download-language-packs"">Step 2: Download language packs</h1>
-<p>Download the language packs that correspond to the build you are installing. They are in the xpi directory for the corresponding platform. For example:
-</p><p><code>https://releases.mozilla.org/pub/firefox/releases/137.0/win64/xpi/</code>
-</p><p>Even though the XPI files are duplicated in the different platforms, there is no difference between them. You can download the XPI from any platform directory.
-</p>
-<h1 id=""w_step-3-rename-the-language-packs"">Step 3: Rename the language packs</h1>
-<p>Rename the language packs using the following format:
-</p>
-<pre>xx.xpi -&gt; langpack-xx@firefox.mozilla.org.xpi
-</pre>
-or<pre>xx-XX.xpi -&gt; langpack-xx-XX@firefox.mozilla.org.xpi
-</pre>
-<h1 id=""w_step-4-copy-the-language-packs"">Step 4 : Copy the language packs</h1>
-<p>Copy the renamed language packs into the <code>extensions</code> directory you created in step 1.
-</p>
-<h1 id=""w_step-5-set-the-default-language"">Step 5: Set the default language</h1>
-<p>Using policy, set <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#requestedlocales"">RequestedLocales</a> to either the language you want to use by default or an empty string to use the same language as the operating system.
-</p>",firefox-enterprise,installation-and-updates,"In an enterprise environment, it may be necessary to deploy Firefox with language packs preinstalled. This document will show you how to do that. These steps also work if you are [customizing the Windows installer](\""https://support.mozilla.org/en-US/kb/repackaging-windows-installer"").
-
-# Step 1: Create directories
-
-In the Firefox installation directory, you will need to create some required directories. First, create a directory called `distribution`. Inside of that directory, create another called `extensions`. If you are on macOS, you should create the directories in `Contents/Resources`
-
-# Step 2: Download language packs
-
-Download the language packs that correspond to the build you are installing. They are in the xpi directory for the corresponding platform. For example:
-
-`https://releases.mozilla.org/pub/firefox/releases/137.0/win64/xpi/`
-
-Even though the XPI files are duplicated in the different platforms, there is no difference between them. You can download the XPI from any platform directory.
-
-# Step 3: Rename the language packs
-
-Rename the language packs using the following format:
-
-    xx.xpi -> langpack-xx@firefox.mozilla.org.xpi
-
-or
-
-    xx-XX.xpi -> langpack-xx-XX@firefox.mozilla.org.xpi
-
-# Step 4&nbsp;: Copy the language packs
-
-Copy the renamed language packs into the `extensions` directory you created in step 1.
-
-# Step 5: Set the default language
-
-Using policy, set [RequestedLocales](https://github.com/mozilla/policy-templates/blob/master/README.md#requestedlocales) to either the language you want to use by default or an empty string to use the same language as the operating system.
-
-"
-54084,Fritz!box isn't working when Mozilla VPN is on,fritzbox-isnt-working-when-mozilla-vpn,https://support.mozilla.org/en-US/kb/fritzbox-isnt-working-when-mozilla-vpn,en-US,Fritz!box is blocked when Mozilla VPN is on.,"<p>Some users are unable to access the <a href=""https://avm.de/products/fritzbox/"">Fritz!box</a> to manage their router settings when Mozilla VPN is on. 
-</p><p>For better privacy protection, the  Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router. 
-</p>
-<h1 id=""w_workaround"">Workaround</h1>
-<p>To fix this problem, try <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">turning Mozilla VPN off</a> to configure the Fritz!box, then turn Mozilla VPN on again.
-</p><p><br>
-
-<strong>Related articles:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
-</li></ul>
-<p><strong>Learn more:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related"">The language of the websites I visit changes when I turn Mozilla VPN on - What to do</a>
-</li><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
-</li></ul>",mozilla-vpn,connectivity;performance-and-connectivity,"Some users are unable to access the [Fritz!box](https://avm.de/products/fritzbox/) to manage their router settings when Mozilla VPN is on.
-
-For better privacy protection, the Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router.
-
-# Workaround
-
-To fix this problem, try [turning Mozilla VPN off](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") to configure the Fritz!box, then turn Mozilla VPN on again.
-
-**Related articles:**
-
-- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
-
-**Learn more:**
-
-- [The language of the websites I visit changes when I turn Mozilla VPN on - What to do](https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related)
-- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
 
 "
 54410,Firefox for Enterprise 90 - Release notes,firefox-enterprise-90-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-90-release-notes,en-US,See what's coming out with Firefox for Enterprise 90.,"<p>Except where noted, everything here applies to both Firefox 90 and the Firefox 78.12 ESR.
@@ -96695,6 +96942,181 @@ You need to opt out of _Usage and technical data_ in the settings:
 2. Tap Settings.
 3. Scroll down to **Privacy**.
 4. Tap the toggle next to **Send usage data**.
+
+"
+61092,How do I monitor multiple email addresses?,how-do-i-monitor-multiple-email-addresses,https://support.mozilla.org/en-US/kb/how-do-i-monitor-multiple-email-addresses,en-US,This article will show you how to add or exclude email addresses on Mozilla Monitor.,"<p>If you have more than one email address that you use online, you might want to keep track of any data breaches that might affect them. Mozilla Monitor can help you do that by sending you alerts whenever one of your email addresses appears in a breach. You don't need to create multiple accounts to monitor multiple email addresses. You can enroll up to 20 different email addresses from a single Mozilla account.
+</p>
+<dl><dt><img alt=""Monitored email addresses"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-15-59-ca1b02.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+<h1 id=""w_add-an-additional-email-address"">Add an additional email address</h1>
+<ol><li>Go to the Mozilla Monitor website at <a href=""http://monitor.mozilla.org"">monitor.mozilla.org</a>, and sign in to your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>.
+</li><li>At the Mozilla Monitor dashboard, on the left-hand side, click the <img alt=""Settings button Monitor"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-21-19-cb68a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""65""> option.
+</li><li>Under the Monitor Settings Select <img alt=""edit your info button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-23-03-0a54be.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""120""> option, and click the <strong>Edit/Add</strong> button.
+</li><li>Under Monitored email address, click the <img alt=""add email address button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-24-07-f2a9cc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""115""> button.
+</li><li>Type in the email address you want to monitor and click the <img alt=""send verification link button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-24-39-5eef12.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""175""> button.
+<dl><dt><img alt=""send verification link"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-26-02-a07758.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+</li><li>An email will be sent to the inbox of the added address. You will need to click the <img alt=""verify email button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-27-16-522fbb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""100"">  button to complete adding it to Monitor.
+<dl><dt><img alt=""email verification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-28-34-8b89a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+</li><li>Awesome! You're all set. Mozilla Monitor will alert you if this email address is ever compromised in a data breach.
+</li></ol>
+<div class=""note""><strong>Note:</strong> To add an email address on Monitor Plus, follow the same path.</div>
+<h1 id=""w_choose-which-email-address-will-receive-the-breach-alerts"">Choose which email address will receive the breach alerts</h1>
+<p>To select the email address that will receive the breach alerts:
+</p>
+<ol><li>On your Monitor Settings select Set notifications.
+</li><li>Under the Instant breach alerts section, choose the email option that best fits you.
+<dl><dt><img alt=""instant breach alert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-37-10-81dc87.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+</li></ol>
+<div class=""note""><strong>Note:</strong> To choose which email address will receive the breach alerts on Monitor Plus, follow the same path.</div>
+<h1 id=""w_stop-monitoring-an-email-address"">Stop monitoring an email address</h1>
+<p>To stop monitoring an email address, do the following:
+</p>
+<ol><li>Under the Monitor Settings Select Edit your info option, and click the Edit/Add button.
+</li><li>At the bottom of the page a list of your monitored email addresses will show up. Click  next to the email address you wish to delete 
+<dl><dt><img alt=""delete email"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-38-49-dc710f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450""> 
+</dt></dl>
+</li><li>Click the Save button. All set! This email address won't get any more alerts about data breaches that happen in the future.
+</li></ol>
+<h1 id=""w_related-content"">Related Content</h1>
+<ul><li><a href=""/en-US/kb/resolve-breaches-firefox-monitor"">Resolve breaches with Mozilla Monitor</a>
+</li><li><a href=""/en-US/kb/what-do-after-data-breach"">What to do after a data breach</a>
+</li><li><a href=""/en-US/kb/mozilla-monitor-faq"">Mozilla Monitor - Frequently asked questions</a>					
+</li></ul>
+<h2 id=""w_learn-more"">Learn more</h2>
+<ul><li>See also <a href=""/en-US/kb/firefox-password-manager-alerts-breached-websites"">Firefox Password Manager - Alerts for breached websites</a> about alerts in Firefox for saved logins and passwords exposed in known data breaches.
+</li></ul>",monitor,privacy-and-security,"If you have more than one email address that you use online, you might want to keep track of any data breaches that might affect them. Mozilla Monitor can help you do that by sending you alerts whenever one of your email addresses appears in a breach. You don't need to create multiple accounts to monitor multiple email addresses. You can enroll up to 20 different email addresses from a single Mozilla account.
+
+<dl><dt>
+<img alt=""Monitored email addresses"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-15-59-ca1b02.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+# Add an additional email address
+
+1. Go to the Mozilla Monitor website at [monitor.mozilla.org](http://monitor.mozilla.org), and sign in to your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+2. At the Mozilla Monitor dashboard, on the left-hand side, click the ![Settings button Monitor](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) option.
+3. Under the Monitor Settings Select ![edit your info button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) option, and click the **Edit/Add** button.
+4. Under Monitored email address, click the ![add email address button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
+5. Type in the email address you want to monitor and click the ![send verification link button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.<dl><dt>
+<img alt=""send verification link"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-26-02-a07758.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+6. An email will be sent to the inbox of the added address. You will need to click the ![verify email button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to complete adding it to Monitor.<dl><dt>
+<img alt=""email verification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-28-34-8b89a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+7. Awesome! You're all set. Mozilla Monitor will alert you if this email address is ever compromised in a data breach.
+
+**Note:** To add an email address on Monitor Plus, follow the same path.
+
+# Choose which email address will receive the breach alerts
+
+To select the email address that will receive the breach alerts:
+
+1. On your Monitor Settings select Set notifications.
+2. Under the Instant breach alerts section, choose the email option that best fits you.<dl><dt>
+<img alt=""instant breach alert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-37-10-81dc87.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
+</dt></dl>
+
+**Note:** To choose which email address will receive the breach alerts on Monitor Plus, follow the same path.
+
+# Stop monitoring an email address
+
+To stop monitoring an email address, do the following:
+
+1. Under the Monitor Settings Select Edit your info option, and click the Edit/Add button.
+2. At the bottom of the page a list of your monitored email addresses will show up. Click next to the email address you wish to delete <dl><dt>
+<img alt=""delete email"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-16-07-38-49-dc710f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450""> 
+</dt></dl>
+3. Click the Save button. All set! This email address won't get any more alerts about data breaches that happen in the future.
+
+# Related Content
+
+- [Resolve breaches with Mozilla Monitor](\""https://support.mozilla.org/en-US/kb/resolve-breaches-firefox-monitor"")
+- [What to do after a data breach](\""https://support.mozilla.org/en-US/kb/what-do-after-data-breach"")
+- [Mozilla Monitor - Frequently asked questions](\""https://support.mozilla.org/en-US/kb/mozilla-monitor-faq"")
+
+## Learn more
+
+- See also [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"") about alerts in Firefox for saved logins and passwords exposed in known data breaches.
+
+"
+61114,How do I change my Privacy features?,how-do-i-change-my-privacy-features,https://support.mozilla.org/en-US/kb/how-do-i-change-my-privacy-features,en-US,Learn how to activate and deactivate the Mozilla VPN Privacy features and how it can interact with your custom DNS settings.,"<p>Mozilla VPN's Privacy features allow you to add extra layers of defense to your connection using DNS-level safeguards that specifically target ads, trackers, and malware.
+</p><p>In this article, you will learn how to activate and deactivate this feature and how it can interact with your custom DNS settings.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_activate-and-deactivate-privacy-features""><span class=""tocnumber"">1</span> <span class=""toctext"">Activate and deactivate Privacy features</span></a></li><li class=""toclevel-1""><a href=""#w_common-questions""><span class=""tocnumber"">2</span> <span class=""toctext"">Common questions</span></a><ul><li class=""toclevel-2""><a href=""#w_whats-a-tracker""><span class=""tocnumber"">2.1</span> <span class=""toctext"">What's a tracker?</span></a></li><li class=""toclevel-2""><a href=""#w_whats-malware""><span class=""tocnumber"">2.2</span> <span class=""toctext"">What's malware?</span></a></li></ul></li></ul></div>
+<h1 id=""w_activate-and-deactivate-privacy-features"">Activate and deactivate Privacy features</h1>
+<ol><li>Open Mozilla VPN, and at the bottom right, click the <strong>Settings</strong><img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""25""> icon.
+</li><li>Select <strong>Privacy features</strong>.
+<dl><dt><img alt=""Privacy settings vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-21-57-36bef5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">  
+</dt></dl>
+</li><li>To activate the features you want, slide the toggles next to them to the right side. You can choose one or more options. To deactivate a feature, just slide the toggle to your left.
+<dl><dt><img alt=""privacy features example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-25-20-2759e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt><dt><div class=""note""><strong>Note:</strong> If you experience issues accessing certain websites, try temporarily turning off Privacy features, as they can occasionally cause websites to malfunction or display content inaccurately.</div>
+</dt></dl>
+</li></ol>
+<p>Well done! You have successfully added an extra layer of security to help protect your online activities.
+</p>
+<h1 id=""w_common-questions"">Common questions</h1>
+<h2 id=""w_whats-a-tracker"">What's a tracker?</h2>
+<p>Online trackers are small pieces of code inserted into the websites you visit, such as cookies or tracking pixels, which allow third parties to collect information about your online activities. When you visit a website that uses trackers, the third party that controls the tracker may be able to infer personal data like your interests, browsing habits and location.
+</p>
+<h2 id=""w_whats-malware"">What's malware?</h2>
+<p>Malware, which is short for malicious software, is a type of software that intentionally harms or disrupts devices and networks or steals or encrypts data. Some examples of malware are viruses, trojans, spyware, and ransomware. Malware can infiltrate your device via several means, such as downloading files from untrustworthy sources, opening email attachments, clicking on malicious links or pop-ups, or connecting to infected devices.
+</p><p><strong>Related content</strong>
+</p>
+<ul><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
+</li><li><a href=""/en-US/kb/multi-hop-encrypt-your-data-twice-enhanced-security"">Multi-Hop - Encrypt your data twice for enhanced security while using Mozilla VPN</a>
+</li></ul>
+<p><strong>Learn more</strong>
+</p>
+<ul><li><a href=""/en-US/kb/connecting-unsecured-networks-using-mozilla-vpn"">Connecting to unsecured networks while using Mozilla VPN</a>
+</li></ul>",mozilla-vpn,privacy-and-security;settings,"Mozilla VPN's Privacy features allow you to add extra layers of defense to your connection using DNS-level safeguards that specifically target ads, trackers, and malware.
+
+In this article, you will learn how to activate and deactivate this feature and how it can interact with your custom DNS settings.
+
+## Table of Contents
+
+- [1 Activate and deactivate Privacy features](https://support.mozilla.org/kb/how-do-i-change-my-privacy-features#w_activate-and-deactivate-privacy-features)
+- [2 Common questions](https://support.mozilla.org/kb/how-do-i-change-my-privacy-features#w_common-questions)
+  - [2.1 What's a tracker?](https://support.mozilla.org/kb/how-do-i-change-my-privacy-features#w_whats-a-tracker)
+  - [2.2 What's malware?](https://support.mozilla.org/kb/how-do-i-change-my-privacy-features#w_whats-malware)
+
+# Activate and deactivate Privacy features
+
+1. Open Mozilla VPN, and at the bottom right, click the **Settings**![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon.
+2. Select **Privacy features**.<dl><dt>
+<img alt=""Privacy settings vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-21-57-36bef5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">  
+</dt></dl>
+3. To activate the features you want, slide the toggles next to them to the right side. You can choose one or more options. To deactivate a feature, just slide the toggle to your left.<dl>
+<dt>
+<img alt=""privacy features example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-25-20-2759e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt>
+<dt>
+<div class=""note"">
+<strong>Note:</strong> If you experience issues accessing certain websites, try temporarily turning off Privacy features, as they can occasionally cause websites to malfunction or display content inaccurately.</div>
+</dt>
+</dl>
+
+Well done! You have successfully added an extra layer of security to help protect your online activities.
+
+# Common questions
+
+## What's a tracker?
+
+Online trackers are small pieces of code inserted into the websites you visit, such as cookies or tracking pixels, which allow third parties to collect information about your online activities. When you visit a website that uses trackers, the third party that controls the tracker may be able to infer personal data like your interests, browsing habits and location.
+
+## What's malware?
+
+Malware, which is short for malicious software, is a type of software that intentionally harms or disrupts devices and networks or steals or encrypts data. Some examples of malware are viruses, trojans, spyware, and ransomware. Malware can infiltrate your device via several means, such as downloading files from untrustworthy sources, opening email attachments, clicking on malicious links or pop-ups, or connecting to infected devices.
+
+**Related content**
+
+- [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
+- [Multi-Hop - Encrypt your data twice for enhanced security while using Mozilla VPN](\""https://support.mozilla.org/en-US/kb/multi-hop-encrypt-your-data-twice-enhanced-security"")
+
+**Learn more**
+
+- [Connecting to unsecured networks while using Mozilla VPN](\""https://support.mozilla.org/en-US/kb/connecting-unsecured-networks-using-mozilla-vpn"")
 
 "
 61116,How do I change my DNS settings?,how-do-i-change-my-dns-settings,https://support.mozilla.org/en-US/kb/how-do-i-change-my-dns-settings,en-US,This article will show you how to change your DNS settings on Mozilla VPN and why you might want to do that.,"<p>The Domain Name System (DNS) is like a phone book for the internet that matches domain names with IP addresses. Your device uses DNS servers to find the websites you want to visit. By default, your Internet Service Provider (ISP) provides your device with DNS servers. But this means that your ISP can see and track what websites you visit, and even sell your browsing data to third parties.
@@ -121364,6 +121786,505 @@ Just like the sponsored content itself, lift studies are totally optional. You c
 - [Firefox Privacy Notice](https://www.mozilla.org/en-US/privacy/firefox/?_gl=1%2A1q5jqfw%2A_ga%2AMzU1MjI1MDIuMTc1NzY4MTI1Mw..%2A_ga_2VC139B3XV%2AczE3NjI5NzEwNDAkbzIwOSRnMSR0MTc2Mjk3NTcxNyRqMzYkbDAkaDA.#how-is-your-data-used)
 
 "
+70916,Manage multiple tabs in Firefox for Android,manage-multiple-tabs-firefox-android,https://support.mozilla.org/en-US/kb/manage-multiple-tabs-firefox-android,en-US,"Learn how to open, close, switch, and organize tabs in Firefox for Android, including private browsing tabs and synced tabs from other devices.","<p>Firefox for Android makes it easy to manage your open tabs, switch between private and regular browsing, and access tabs from other devices using Sync. You can also customize how your tabs look and control when they close.
+</p><p>This article will show you how to:
+</p>
+<ul><li>Access open tabs
+</li><li>Use private and synced tabs
+</li><li>Manage multiple tabs at once
+</li><li>Customize your tab view and behavior
+</li></ul>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_access-your-open-tabs""><span class=""tocnumber"">1</span> <span class=""toctext"">Access your open tabs</span></a></li><li class=""toclevel-1""><a href=""#w_switch-between-regular-private-and-synced-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Switch between regular, private, and synced tabs</span></a><ul><li class=""toclevel-2""><a href=""#w_regular-tabs""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Regular tabs</span></a></li><li class=""toclevel-2""><a href=""#w_private-tabs""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Private tabs</span></a></li><li class=""toclevel-2""><a href=""#w_synced-tabs""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Synced tabs</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_manage-multiple-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Manage multiple tabs</span></a></li><li class=""toclevel-1""><a href=""#w_customize-tabs-in-firefox-for-android""><span class=""tocnumber"">4</span> <span class=""toctext"">Customize tabs in Firefox for Android</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshooting-tips""><span class=""tocnumber"">5</span> <span class=""toctext"">Troubleshooting tips</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_access-your-open-tabs"">Access your open tabs</h1>
+<ol><li>Open Firefox on your Android device.
+</li><li>Tap the <strong>tab icon</strong> (square with a number) in the toolbar at the bottom or top of the screen (depending on your settings).
+<dl><dt><img alt=""tabiconandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-13-30-e7f8cb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li><li>Your currently open tabs will appear here.
+<dl><dt><img alt=""tabviewandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-14-21-309153.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ol>
+<p>If you don’t have any open tabs, Firefox will prompt you to open one.
+</p>
+<dl><dt><img alt=""createtab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-17-35-38d959.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<p>If you already have open tabs, they will show up here.
+</p>
+<h1 id=""w_switch-between-regular-private-and-synced-tabs"">Switch between regular, private, and synced tabs</h1>
+<p>Firefox organizes tabs into different categories:
+</p>
+<h2 id=""w_regular-tabs"">Regular tabs</h2>
+<p>These are your normal browsing tabs.
+</p>
+<h2 id=""w_private-tabs"">Private tabs</h2>
+<ul><li>Tap <em>Private</em> at the top of the tab view.
+</li><li>Use private tabs when you don’t want Firefox to save your browsing history or cookies.
+<dl><dt><img alt=""privatetab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-29-04-df84ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ul>
+<p>Private browsing sessions are not saved when you close the app.
+</p>
+<h2 id=""w_synced-tabs"">Synced tabs</h2>
+<ul><li>Tap <em>Sync</em> to view tabs open on other devices connected to your Mozilla account.
+</li><li>If you're not signed in, Firefox will prompt you to log in.
+<dl><dt><img alt=""synctab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-32-47-a4f5d0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ul>
+<p>Learn how to sign in to Sync in <a href=""/en-US/kb/sync"">this article</a>.
+</p>
+<h1 id=""w_manage-multiple-tabs"">Manage multiple tabs</h1>
+<ol><li>In the tab view, tap the three-dot menu at the top-right or bottom-right corner.
+</li><li>You’ll see options to:
+<ul><li>Select tabs
+</li><li>See recently closed tabs
+</li><li>Access tab settings
+</li><li>Close all tabs
+</li></ul>
+</li></ol>
+<ul><li><dl><dt><img alt=""managetabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-36-49-471f83.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ul>
+<h1 id=""w_customize-tabs-in-firefox-for-android"">Customize tabs in Firefox for Android</h1>
+<ol><li>In the tab view, tap the three-dot menu at the top-right or bottom-right corner.
+</li><li>Tap <span class=""button"">Tab settings</span>.
+</li></ol>
+<p>You can customize:
+</p><p><strong>Tab layout</strong>
+</p>
+<ul><li>List view
+</li><li>Grid view
+</li></ul>
+<p><strong>Auto-close tabs</strong>
+</p>
+<ul><li>Never
+</li><li>After one day
+</li><li>After one week
+</li><li>After one month
+</li></ul>
+<p><strong>Inactive tabs</strong>
+</p>
+<ul><li>Tabs can be moved to the Inactive tabs section based on your preferences.
+<dl><dt><img alt=""tabmanagement"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-41-19-44ac79.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li></ul>
+<h1 id=""w_troubleshooting-tips"">Troubleshooting tips</h1>
+<ul><li><strong>Tabs not syncing?</strong> Make sure you're signed into the same Mozilla account on all devices.
+</li><li><strong>Can’t find tab settings?</strong> Ensure you’re using the latest version of Firefox for Android.
+</li></ul>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/explore-firefox-android-menu"">Explore the Firefox for Android menu</a>
+</li><li><a href=""/en-US/kb/downloads-firefox-android"">Downloads in Firefox for Android</a>
+</li><li><a href=""/en-US/kb/manage-tabs-firefox-android"">Manage tabs in Firefox for Android</a>
+</li></ul>",mobile,browse;tabs,"Firefox for Android makes it easy to manage your open tabs, switch between private and regular browsing, and access tabs from other devices using Sync. You can also customize how your tabs look and control when they close.
+
+This article will show you how to:
+
+- Access open tabs
+- Use private and synced tabs
+- Manage multiple tabs at once
+- Customize your tab view and behavior
+
+## Table of Contents
+
+- [1 Access your open tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_access-your-open-tabs)
+- [2 Switch between regular, private, and synced tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_switch-between-regular-private-and-synced-tabs)
+  - [2.1 Regular tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_regular-tabs)
+  - [2.2 Private tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_private-tabs)
+  - [2.3 Synced tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_synced-tabs)
+
+- [3 Manage multiple tabs](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_manage-multiple-tabs)
+- [4 Customize tabs in Firefox for Android](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_customize-tabs-in-firefox-for-android)
+- [5 Troubleshooting tips](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_troubleshooting-tips)
+- [6 Related articles](https://support.mozilla.org/kb/manage-multiple-tabs-firefox-android#w_related-articles)
+
+# Access your open tabs
+
+1. Open Firefox on your Android device.
+2. Tap the **tab icon** (square with a number) in the toolbar at the bottom or top of the screen (depending on your settings).<dl><dt>
+<img alt=""tabiconandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-13-30-e7f8cb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+3. Your currently open tabs will appear here.<dl><dt>
+<img alt=""tabviewandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-14-21-309153.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+If you don’t have any open tabs, Firefox will prompt you to open one.
+
+<dl><dt>
+<img alt=""createtab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-17-35-38d959.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+If you already have open tabs, they will show up here.
+
+# Switch between regular, private, and synced tabs
+
+Firefox organizes tabs into different categories:
+
+## Regular tabs
+
+These are your normal browsing tabs.
+
+## Private tabs
+
+- Tap _Private_ at the top of the tab view.
+- Use private tabs when you don’t want Firefox to save your browsing history or cookies.<dl><dt>
+<img alt=""privatetab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-29-04-df84ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Private browsing sessions are not saved when you close the app.
+
+## Synced tabs
+
+- Tap _Sync_ to view tabs open on other devices connected to your Mozilla account.
+- If you're not signed in, Firefox will prompt you to log in.<dl><dt>
+<img alt=""synctab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-32-47-a4f5d0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Learn how to sign in to Sync in [this article](\""https://support.mozilla.org/en-US/kb/sync"").
+
+# Manage multiple tabs
+
+1. In the tab view, tap the three-dot menu at the top-right or bottom-right corner.
+2. You’ll see options to:
+  - Select tabs
+  - See recently closed tabs
+  - Access tab settings
+  - Close all tabs
+
+- <dl><dt>
+<img alt=""managetabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-36-49-471f83.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+# Customize tabs in Firefox for Android
+
+1. In the tab view, tap the three-dot menu at the top-right or bottom-right corner.
+2. Tap Tab settings.
+
+You can customize:
+
+**Tab layout**
+
+- List view
+- Grid view
+
+**Auto-close tabs**
+
+- Never
+- After one day
+- After one week
+- After one month
+
+**Inactive tabs**
+
+- Tabs can be moved to the Inactive tabs section based on your preferences.<dl><dt>
+<img alt=""tabmanagement"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-02-13-41-19-44ac79.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+# Troubleshooting tips
+
+- **Tabs not syncing?** Make sure you're signed into the same Mozilla account on all devices.
+- **Can’t find tab settings?** Ensure you’re using the latest version of Firefox for Android.
+
+# Related articles
+
+- [Explore the Firefox for Android menu](\""https://support.mozilla.org/en-US/kb/explore-firefox-android-menu"")
+- [Downloads in Firefox for Android](\""https://support.mozilla.org/en-US/kb/downloads-firefox-android"")
+- [Manage tabs in Firefox for Android](\""https://support.mozilla.org/en-US/kb/manage-tabs-firefox-android"")
+
+"
+70966,Restore your Firefox browsing data with a backup file,firefox-backup,https://support.mozilla.org/en-US/kb/firefox-backup,en-US,"Learn how Firefox Backup helps restore your bookmarks, settings, and passwords on a new device.","<p>
+While <a href=""/en-US/kb/sync-firefox-desktop"">Firefox Sync</a> is the easiest and most reliable way to keep your data backed up across all your devices, you can create an automatic backup file for extra options if you prefer not to use Sync.
+</p><p>Sync automatically updates your bookmarks, history, passwords, and settings whenever you sign in with your Mozilla account, making sure your data is always up to date. However, the automatic backup option allows you to store a copy of your Firefox data on your local device or cloud for safekeeping.
+</p><p>The backup contains browsing data, such as bookmarks, settings, or passwords, to help you easily move it to a new computer or anytime you need to reinstall a fresh copy of Firefox.
+</p><p>When enabled, Firefox creates it, and you can store it locally or in the cloud. The backup file is refreshed every day with your latest browsing data.
+</p>
+<div class=""note""><strong>Note:</strong> The ability to create backup files is currently only available to users on Windows 10, and the ability to restore backup files is only available on Windows 10 and 11.<span class=""for"" data-for=""not fx150""> Additionally, if you have <a href=""/en-US/kb/profile-management"">created profiles</a> via the Firefox menu<span class=""for"" data-for=""not fx148""> or have Firefox configured to <a href=""/en-US/kb/delete-browsing-search-download-history-firefox#w_how-do-i-make-firefox-clear-my-history-automatically"">clear history automatically</a></span>, backup and restore are not yet available.</span></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-firefox-backup-file""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a Firefox backup file</span></a></li><li class=""toclevel-1""><a href=""#w_protect-your-sensitive-browsing-data-with-a-password""><span class=""tocnumber"">2</span> <span class=""toctext"">Protect your sensitive browsing data with a password</span></a></li><li class=""toclevel-1""><a href=""#w_turn-backup-off""><span class=""tocnumber"">3</span> <span class=""toctext"">Turn backup off</span></a></li><li class=""toclevel-1""><a href=""#w_restore-firefox-with-your-backup-file""><span class=""tocnumber"">4</span> <span class=""toctext"">Restore Firefox with your backup file</span></a></li><li class=""toclevel-1""><a href=""#w_restore-from-a-backup-during-firefox-setup""><span class=""tocnumber"">5</span> <span class=""toctext"">Restore from a backup during Firefox setup</span></a></li><li class=""toclevel-1""><a href=""#w_what-does-the-backup-file-save""><span class=""tocnumber"">6</span> <span class=""toctext"">What does the backup file save</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshoot-problems-with-backing-up-or-restoring-your-data""><span class=""tocnumber"">7</span> <span class=""toctext"">Troubleshoot problems with backing up or restoring your data</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-couldnt-restore-your-backup""><span class=""tocnumber"">7.1</span> <span class=""toctext"">Firefox couldn’t restore your backup</span></a></li><li class=""toclevel-2""><a href=""#w_backup-failed-or-stopped""><span class=""tocnumber"">7.2</span> <span class=""toctext"">Backup failed or stopped</span></a></li><li class=""toclevel-2""><a href=""#w_issues-with-passwords-or-settings""><span class=""tocnumber"">7.3</span> <span class=""toctext"">Issues with passwords or settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">8</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_do-i-need-a-mozilla-account-to-use-backup""><span class=""tocnumber"">8.1</span> <span class=""toctext"">Do I need a Mozilla account to use backup?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-back-up-to-the-cloud""><span class=""tocnumber"">8.2</span> <span class=""toctext"">Can I back up to the cloud?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">9</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_create-a-firefox-backup-file"">Create a Firefox backup file</h1>
+<p>Turn backup on to create a backup file that is updated daily.
+</p>
+<ol><li>Click the main menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, and go to <span class=""menu"">Settings</span>.
+</li><li>Select <span class=""menu"">Sync</span>.
+</li><li>Scroll down to <span class=""menu"">Backup</span>, and click <span class=""button"">Manage backup</span>.
+</li><li>Choose the location to save the backup file.
+<ul><li>If you’re using a Windows device, consider saving it to your OneDrive, since files in your OneDrive will be available when you set up a new Windows device.
+</li></ul>
+</li><li>Click <span class=""button"">Turn on backup</span>.
+<dl><dt><img alt=""firefoxbackùp1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-14-02-cfeaae.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_protect-your-sensitive-browsing-data-with-a-password"">Protect your sensitive browsing data with a password</h1>
+<p>You can include passwords and payment methods, and encrypt your entire backup file with a password:
+</p>
+<ol><li>Check the <span class=""button"">Back up your sensitive data</span> box.
+</li><li>Enter a password in the <span class=""menu"">Password</span> field.
+</li><li>Confirm it in the <span class=""menu"">Repeat password</span> field.
+</li><li>Click <span class=""button"">Turn on backup</span>.
+<dl><dt><img alt=""firefoxbackup2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-21-16-ff10e5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""note""><strong>Note:</strong> Use a secure, unique password. Read <a href=""/en-US/kb/password-strength"">our guide</a> for tips.</div>
+<h1 id=""w_turn-backup-off"">Turn backup off</h1>
+<ol><li>Click the main menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, and go to <span class=""menu"">Settings</span>.
+</li><li>Select <span class=""menu"">Sync</span>.
+</li><li>Scroll down to <span class=""menu"">Backup</span>.
+</li><li>Click <span class=""button"">Manage backup</span>.
+</li><li>Click <span class=""button"">Turn off and delete backup</span>.
+<dl><dt><img alt=""firefoxbackup3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-25-56-5b7d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<div class=""warning""><strong>Warning:</strong> Turning off backup will also delete your backup file.</div> 
+<h1 id=""w_restore-firefox-with-your-backup-file"">Restore Firefox with your backup file</h1>
+<ol><li>Click the main menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, and go to <span class=""menu"">Settings</span>.
+</li><li>Select <span class=""menu"">Sync</span>.
+</li><li>Go to <span class=""menu"">Restore your data</span>, and click <span class=""button"">Choose backup file</span>.
+<dl><dt><img alt=""firefoxbackup4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-32-32-be1c7f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_restore-from-a-backup-during-firefox-setup"">Restore from a backup during Firefox setup</h1>
+<p>When you install Firefox on a new device, it will try to find a backup in your files. If a backup is found, an option to restore Firefox will be shown automatically.
+</p>
+<dl><dt><img alt=""firefoxbackup5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-37-37-3d1581.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<ol><li>Information about the detected backup file is shown. You can browse for a different backup file by clicking the <span class=""button"">Choose…</span> button.
+</li><li>If the backup file is encrypted with a password, type the password in the <span class=""button"">Password</span> box.
+</li><li>Click <span class=""button"">Restore and restart</span>. Firefox will close and then reopen with all your data and settings restored.
+<dl><dt><img alt=""firefoxbackup6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-40-26-ea48e6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Once Firefox restarts, choose your default and pinning preferences and click <span class=""button"">Save and continue</span>.
+</li></ol>
+<h1 id=""w_what-does-the-backup-file-save"">What does the backup file save</h1>
+<p>The backup file saves browsing data, such as:
+</p>
+<ul><li>Bookmarks
+</li><li>Settings
+</li><li>History
+</li><li>Passwords
+</li><li>Payment methods
+</li><li>Extensions
+</li><li>Other browsing data
+</li></ul>
+<p>Sensitive data such as passwords, payment methods, or credit card numbers is encrypted and protected by a password.
+</p><p>You can choose to back up:
+</p>
+<ul><li>Basic data, and you won’t have to use a password.
+</li><li>All data, including sensitive data, but you’ll have to use a password.
+</li></ul>
+<p>When you install Firefox on a new device, you can restore all your browsing data.
+</p>
+<h1 id=""w_troubleshoot-problems-with-backing-up-or-restoring-your-data"">Troubleshoot problems with backing up or restoring your data</h1>
+<p>If you’re having trouble creating or restoring your Firefox backup, try the suggestions below. These common issues can often be fixed with a few simple steps.
+</p>
+<h2 id=""w_firefox-couldnt-restore-your-backup"">Firefox couldn’t restore your backup</h2>
+<p>This may happen for a few reasons:
+</p>
+<ol><li><strong>The file is not a valid backup</strong>
+<ul><li>Make sure you’re selecting a file that was created by Firefox’s backup system.
+</li><li>Backup files have a specific structure and may not work if they’ve been modified or renamed.
+</li><li>You can also try searching your computer for: <strong>“Firefox backup”</strong> or <strong>“restore Firefox”</strong>
+</li></ul>
+</li><li><strong>The selected folder or file was moved or deleted</strong>
+<ul><li>If the backup file or folder was moved, Firefox may not be able to find it.
+</li><li>Use <span class=""button"">Choose backup file</span> during restore and browse to the current file location manually.
+</li></ul>
+</li></ol>
+<div class=""note""><strong>Tip:</strong> Look for backups saved in common locations like your Documents folder, OneDrive, Dropbox, or anywhere you normally store your personal files.</div>
+<h2 id=""w_backup-failed-or-stopped"">Backup failed or stopped</h2>
+<ol><li><strong>Your device ran out of storage space</strong>
+<ul><li>Firefox can’t complete a backup if there isn’t enough space on your device. 
+</li><li>Try clearing space on your hard drive and then turn backup off and on again:
+<ul><li>Go to <span class=""menu"">Settings</span> &gt; <span class=""menu"">Sync</span>.
+</li><li>Click <span class=""button"">Manage backup</span>.
+</li><li>Click <span class=""button"">Turn off and delete backup</span>, then re-enable it.
+</li></ul>
+</li></ul>
+</li><li><strong>Backup was interrupted due to repeated errors</strong>
+<ul><li>If Firefox detects too many errors, it may stop backing up temporarily.
+</li><li>Turning the backup off and back on can often resolve this.
+</li></ul>
+</li></ol>
+<h2 id=""w_issues-with-passwords-or-settings"">Issues with passwords or settings</h2>
+<ol><li><strong>You entered a password that doesn’t meet backup guidelines</strong>
+<ul><li>When setting a backup password, follow the password strength and format requirements shown in the setup screen.
+</li><li>Try a secure combination of letters, numbers, and symbols.
+</li></ul>
+</li></ol>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<h2 id=""w_do-i-need-a-mozilla-account-to-use-backup"">Do I need a Mozilla account to use backup?</h2>
+<p>No, but we recommend creating a Mozilla account and using Firefox Sync as an even more convenient and reliable way to back up your data. Firefox Sync stores your data securely with Mozilla, so that it can be accessed from any new device just by signing in.
+</p>
+<h2 id=""w_can-i-back-up-to-the-cloud"">Can I back up to the cloud?</h2>
+<p>Yes. You can choose a cloud location (like OneDrive or Dropbox) when selecting where to save your backup file.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/sync"">Sync Firefox data</a>
+</li><li><a href=""/en-US/kb/how-install-firefox-windows"">How to install Firefox on Windows</a>
+</li><li><a href=""/en-US/kb/update-firefox-latest-release"">Update Firefox to the latest release</a>
+</li></ul>",firefox,account-management;accounts;backup-data;backup-recovery-and-sync;profiles;recover-data,"While [Firefox Sync](\""https://support.mozilla.org/en-US/kb/sync-firefox-desktop"") is the easiest and most reliable way to keep your data backed up across all your devices, you can create an automatic backup file for extra options if you prefer not to use Sync.
+
+Sync automatically updates your bookmarks, history, passwords, and settings whenever you sign in with your Mozilla account, making sure your data is always up to date. However, the automatic backup option allows you to store a copy of your Firefox data on your local device or cloud for safekeeping.
+
+The backup contains browsing data, such as bookmarks, settings, or passwords, to help you easily move it to a new computer or anytime you need to reinstall a fresh copy of Firefox.
+
+When enabled, Firefox creates it, and you can store it locally or in the cloud. The backup file is refreshed every day with your latest browsing data.
+
+**Note:** The ability to create backup files is currently only available to users on Windows 10, and the ability to restore backup files is only available on Windows 10 and 11. Additionally, if you have [created profiles](\""https://support.mozilla.org/en-US/kb/profile-management"") via the Firefox menu or have Firefox configured to [clear history automatically](\""https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox#w_how-do-i-make-firefox-clear-my-history-automatically""), backup and restore are not yet available.
+
+## Table of Contents
+
+- [1 Create a Firefox backup file](https://support.mozilla.org/kb/firefox-backup#w_create-a-firefox-backup-file)
+- [2 Protect your sensitive browsing data with a password](https://support.mozilla.org/kb/firefox-backup#w_protect-your-sensitive-browsing-data-with-a-password)
+- [3 Turn backup off](https://support.mozilla.org/kb/firefox-backup#w_turn-backup-off)
+- [4 Restore Firefox with your backup file](https://support.mozilla.org/kb/firefox-backup#w_restore-firefox-with-your-backup-file)
+- [5 Restore from a backup during Firefox setup](https://support.mozilla.org/kb/firefox-backup#w_restore-from-a-backup-during-firefox-setup)
+- [6 What does the backup file save](https://support.mozilla.org/kb/firefox-backup#w_what-does-the-backup-file-save)
+- [7 Troubleshoot problems with backing up or restoring your data](https://support.mozilla.org/kb/firefox-backup#w_troubleshoot-problems-with-backing-up-or-restoring-your-data)
+  - [7.1 Firefox couldn’t restore your backup](https://support.mozilla.org/kb/firefox-backup#w_firefox-couldnt-restore-your-backup)
+  - [7.2 Backup failed or stopped](https://support.mozilla.org/kb/firefox-backup#w_backup-failed-or-stopped)
+  - [7.3 Issues with passwords or settings](https://support.mozilla.org/kb/firefox-backup#w_issues-with-passwords-or-settings)
+
+- [8 Frequently asked questions](https://support.mozilla.org/kb/firefox-backup#w_frequently-asked-questions)
+  - [8.1 Do I need a Mozilla account to use backup?](https://support.mozilla.org/kb/firefox-backup#w_do-i-need-a-mozilla-account-to-use-backup)
+  - [8.2 Can I back up to the cloud?](https://support.mozilla.org/kb/firefox-backup#w_can-i-back-up-to-the-cloud)
+
+- [9 Related articles](https://support.mozilla.org/kb/firefox-backup#w_related-articles)
+
+# Create a Firefox backup file
+
+Turn backup on to create a backup file that is updated daily.
+
+1. Click the main menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), and go to Settings.
+2. Select Sync.
+3. Scroll down to Backup, and click Manage backup.
+4. Choose the location to save the backup file.
+  - If you’re using a Windows device, consider saving it to your OneDrive, since files in your OneDrive will be available when you set up a new Windows device.
+
+5. Click Turn on backup.<dl><dt>
+<img alt=""firefoxbackùp1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-14-02-cfeaae.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Protect your sensitive browsing data with a password
+
+You can include passwords and payment methods, and encrypt your entire backup file with a password:
+
+1. Check the Back up your sensitive data box.
+2. Enter a password in the Password field.
+3. Confirm it in the Repeat password field.
+4. Click Turn on backup.<dl><dt>
+<img alt=""firefoxbackup2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-21-16-ff10e5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Note:** Use a secure, unique password. Read [our guide](\""https://support.mozilla.org/en-US/kb/password-strength"") for tips.
+
+# Turn backup off
+
+1. Click the main menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), and go to Settings.
+2. Select Sync.
+3. Scroll down to Backup.
+4. Click Manage backup.
+5. Click Turn off and delete backup.<dl><dt>
+<img alt=""firefoxbackup3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-25-56-5b7d0b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Warning:** Turning off backup will also delete your backup file.
+
+# Restore Firefox with your backup file
+
+1. Click the main menu ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), and go to Settings.
+2. Select Sync.
+3. Go to Restore your data, and click Choose backup file.<dl><dt>
+<img alt=""firefoxbackup4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-32-32-be1c7f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Restore from a backup during Firefox setup
+
+When you install Firefox on a new device, it will try to find a backup in your files. If a backup is found, an option to restore Firefox will be shown automatically.
+
+<dl><dt>
+<img alt=""firefoxbackup5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-37-37-3d1581.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+1. Information about the detected backup file is shown. You can browse for a different backup file by clicking the Choose… button.
+2. If the backup file is encrypted with a password, type the password in the Password box.
+3. Click Restore and restart. Firefox will close and then reopen with all your data and settings restored.<dl><dt>
+<img alt=""firefoxbackup6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-04-13-40-26-ea48e6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Once Firefox restarts, choose your default and pinning preferences and click Save and continue.
+
+# What does the backup file save
+
+The backup file saves browsing data, such as:
+
+- Bookmarks
+- Settings
+- History
+- Passwords
+- Payment methods
+- Extensions
+- Other browsing data
+
+Sensitive data such as passwords, payment methods, or credit card numbers is encrypted and protected by a password.
+
+You can choose to back up:
+
+- Basic data, and you won’t have to use a password.
+- All data, including sensitive data, but you’ll have to use a password.
+
+When you install Firefox on a new device, you can restore all your browsing data.
+
+# Troubleshoot problems with backing up or restoring your data
+
+If you’re having trouble creating or restoring your Firefox backup, try the suggestions below. These common issues can often be fixed with a few simple steps.
+
+## Firefox couldn’t restore your backup
+
+This may happen for a few reasons:
+
+1. **The file is not a valid backup**
+  - Make sure you’re selecting a file that was created by Firefox’s backup system.
+  - Backup files have a specific structure and may not work if they’ve been modified or renamed.
+  - You can also try searching your computer for: **“Firefox backup”** or **“restore Firefox”**
+
+2. **The selected folder or file was moved or deleted**
+  - If the backup file or folder was moved, Firefox may not be able to find it.
+  - Use Choose backup file during restore and browse to the current file location manually.
+
+**Tip:** Look for backups saved in common locations like your Documents folder, OneDrive, Dropbox, or anywhere you normally store your personal files.
+
+## Backup failed or stopped
+
+1. **Your device ran out of storage space**
+  - Firefox can’t complete a backup if there isn’t enough space on your device. 
+  - Try clearing space on your hard drive and then turn backup off and on again:
+    - Go to Settings \> Sync.
+    - Click Manage backup.
+    - Click Turn off and delete backup, then re-enable it.
+
+2. **Backup was interrupted due to repeated errors**
+  - If Firefox detects too many errors, it may stop backing up temporarily.
+  - Turning the backup off and back on can often resolve this.
+
+## Issues with passwords or settings
+
+1. **You entered a password that doesn’t meet backup guidelines**
+  - When setting a backup password, follow the password strength and format requirements shown in the setup screen.
+  - Try a secure combination of letters, numbers, and symbols.
+
+# Frequently asked questions
+
+## Do I need a Mozilla account to use backup?
+
+No, but we recommend creating a Mozilla account and using Firefox Sync as an even more convenient and reliable way to back up your data. Firefox Sync stores your data securely with Mozilla, so that it can be accessed from any new device just by signing in.
+
+## Can I back up to the cloud?
+
+Yes. You can choose a cloud location (like OneDrive or Dropbox) when selecting where to save your backup file.
+
+# Related articles
+
+- [Sync Firefox data](\""https://support.mozilla.org/en-US/kb/sync"")
+- [How to install Firefox on Windows](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"")
+- [Update Firefox to the latest release](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"")
+
+"
 71060,How does Machine Translation work on SUMO?,how-does-machine-translation-work-sumo,https://support.mozilla.org/en-US/kb/how-does-machine-translation-work-sumo,en-US,This article explains how Machine Translations work in the Mozilla Support platform,"<p>SUMO localization now has Machine Translation integrated and enabled in several languages. This article explains how the Machine Translation (MT) workflow works when it’s enabled for your locale.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-happens-when-mt-is-enabled-in-my-locale""><span class=""tocnumber"">1</span> <span class=""toctext"">What happens when MT is enabled in my locale?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-missing-and-stale-content""><span class=""tocnumber"">2</span> <span class=""toctext"">What are “missing” and “stale” content?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-mt-work""><span class=""tocnumber"">3</span> <span class=""toctext"">How does MT work?</span></a></li><li class=""toclevel-1""><a href=""#w_is-there-a-review-window""><span class=""tocnumber"">4</span> <span class=""toctext"">Is there a review window?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-the-mt-bandwidth""><span class=""tocnumber"">5</span> <span class=""toctext"">What is the MT bandwidth?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-edit-articles-that-have-undergone-mt""><span class=""tocnumber"">6</span> <span class=""toctext"">Can I edit articles that have undergone MT?</span></a></li></ul></div>
@@ -123493,6 +124414,32 @@ Before you begin, [set up Sync on your iOS device](\""https://support.mozilla.or
 
 - [View synced tabs from other devices](\""https://support.mozilla.org/en-US/kb/view-synced-tabs-other-devices"")
 - [View synced tabs from other devices in Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-do-i-view-synced-tabs-firefox-android"")
+
+"
+73250,Statistics for Firefox Homepage Sponsors,statistics-firefox-homepage-sponsors,https://support.mozilla.org/en-US/kb/statistics-firefox-homepage-sponsors,en-US,Learn how Firefox Homepage Sponsors aggregates statistics and how it protects your privacy.,"<p>Firefox shows sponsored ads on its homepage to help support its development while keeping the browser free and open. These are always optional, <a href=""https://www.firefox.com/en-US/user-privacy/#advertising"">respect your privacy</a>, and <a href=""/en-US/kb/sponsor-privacy"">can be turned off</a> at any time.
+</p><p>To demonstrate the value of homepage placement to sponsors, and increase their contribution to Mozilla, Mozilla reports <em>aggregate statistics</em> to these sponsors, without tracking individual users. Note that Firefox is <a href=""https://firefox-source-docs.mozilla.org/contributing/data-collection.html"">built in a way</a> so that even Mozilla doesn’t learn what you do online, including on the homepage.
+</p><p>This article explains how this reporting works and how it protects your privacy.
+</p>
+<h1 id=""w_how-it-works"">How it Works</h1>
+<p>Broadly speaking, most sponsors are interested in three aggregate numbers: how many people were shown the sponsored content on the homepage, how many people subsequently clicked on it, and how many people subsequently made a purchase on the sponsor’s website.
+</p><p>Firefox keeps track of each of these numbers locally on your device, and then transmits them to Mozilla in a way that <a href=""https://firefox-source-docs.mozilla.org/contributing/data-collection.html#verifiable-guarantees"">never reveals</a> which websites you’ve visited — including the sponsor’s website. It’s worth noting this is quite different from how others do it: it is standard practice for publishers to keep track of which ads a given person clicked on, but Mozilla has an exceptionally high standard for user privacy and does not do this.
+</p><p>It’s straightforward for Firefox to count the number of times each piece of homepage content is shown and clicked. For things like purchases, it’s up to the sponsor’s website to communicate any such information to the browser with a JavaScript event.
+</p><p>If you disable sponsored content, no such information is recorded by Firefox or sent to Mozilla. If you choose to keep them enabled to support Mozilla, your privacy remains protected. Even Mozilla doesn’t learn which websites you visit, and this is built into the Firefox source code in a way that anyone can verify.
+</p>",firefox,privacy-and-security,"Firefox shows sponsored ads on its homepage to help support its development while keeping the browser free and open. These are always optional, [respect your privacy](https://www.firefox.com/en-US/user-privacy/#advertising), and [can be turned off](\""https://support.mozilla.org/en-US/kb/sponsor-privacy"") at any time.
+
+To demonstrate the value of homepage placement to sponsors, and increase their contribution to Mozilla, Mozilla reports _aggregate statistics_ to these sponsors, without tracking individual users. Note that Firefox is [built in a way](https://firefox-source-docs.mozilla.org/contributing/data-collection.html) so that even Mozilla doesn’t learn what you do online, including on the homepage.
+
+This article explains how this reporting works and how it protects your privacy.
+
+# How it Works
+
+Broadly speaking, most sponsors are interested in three aggregate numbers: how many people were shown the sponsored content on the homepage, how many people subsequently clicked on it, and how many people subsequently made a purchase on the sponsor’s website.
+
+Firefox keeps track of each of these numbers locally on your device, and then transmits them to Mozilla in a way that [never reveals](https://firefox-source-docs.mozilla.org/contributing/data-collection.html#verifiable-guarantees) which websites you’ve visited — including the sponsor’s website. It’s worth noting this is quite different from how others do it: it is standard practice for publishers to keep track of which ads a given person clicked on, but Mozilla has an exceptionally high standard for user privacy and does not do this.
+
+It’s straightforward for Firefox to count the number of times each piece of homepage content is shown and clicked. For things like purchases, it’s up to the sponsor’s website to communicate any such information to the browser with a JavaScript event.
+
+If you disable sponsored content, no such information is recorded by Firefox or sent to Mozilla. If you choose to keep them enabled to support Mozilla, your privacy remains protected. Even Mozilla doesn’t learn which websites you visit, and this is built into the Firefox source code in a way that anyone can verify.
 
 "
 719,What to do when searches take you to the wrong search website,searches-take-you-to-wrong-search-website,https://support.mozilla.org/en-US/kb/searches-take-you-to-wrong-search-website,en-US,"Firefox searches going to the wrong website can be caused by your Internet provider, an add-on, toolbar or malware. Learn how to fix this.","<p>This article describes what to do when searches from Firefox don't go to the expected site(s).  For example, Google searches may redirect to a page with a lot of advertising or using a different search engine.
