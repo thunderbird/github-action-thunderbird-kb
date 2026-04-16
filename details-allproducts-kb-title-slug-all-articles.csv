@@ -38667,167 +38667,6 @@ To delete a previously added preference, click the trash icon following the entr
 Changes to preferences are stored immediately. However, some parts of Thunderbird or many add-ons only read their preferences on start-up, so it is good practice to restart Thunderbird after editing preferences for your changes to take effect. It is also important to know that when you restore a preference to its default value, Thunderbird does not store that preference in the preferences file. Only non-default preferences are stored in the preferences file.
 
 "
-17146,Blocking a sender,blocking-sender,https://support.mozilla.org/en-US/kb/blocking-sender,en-US,This article explains how to block a particular sender in Thunderbird.,"<p>Thunderbird does not have an option for blocking email messages from specific people or domains. However, you can use message filters to automatically  dispose of unwanted messages.
-</p><p>Message filters operate on a per-account basis, so when you set up the filter you must configure it to act on the correct account.  The easiest way to do this is:
-</p>
-<ul><li> Select a message from a sender you wish to block: <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Press and hold the <span class=""button"">Ctrl</span> key, click</span> on the sender's address and choose <strong>Create Filter From...</strong>. <br><br> <img alt=""block sender"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-19-23-34-45-468beb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li> This will open the <strong>Filter rules</strong> window with the email address already inserted into the filter.  
-<ol><li> Name the filter.  Something like ""Block list"" would be appropriate. 
-</li><li> In the bottom half of the window, change the action to perform to <strong>Delete Message</strong>.<br><br> <img alt=""filter rule"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-20-06-28-04-56d288.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li></ol>
-</li><li> Click <span class=""button"">OK</span> to save the filter. The next time that person sends you mail, it will automatically be deleted.
-</li></ul>
-<p>The Message filter that you have created can be opened and edited by selecting the <span class=""menu"">Message filters...</span> entry in the <span class=""menu"">Tools</span> menu. It is not necessary to create an individual filter for each address you want to block.  
-Now you have the <strong>Block list</strong> filter, the next time you want to block someone you can add the person's address into the top of the filter by clicking the <span class=""button"">+</span> button and thus creating a new field to enter the new address. Make sure you select the ""Match any of the following"" option, as you wish it to fire on <em>any</em> of the listed addresses.
-</p>",thunderbird,contacts;email-and-messaging;send-and-receive-email,"Thunderbird does not have an option for blocking email messages from specific people or domains. However, you can use message filters to automatically dispose of unwanted messages.
-
-Message filters operate on a per-account basis, so when you set up the filter you must configure it to act on the correct account. The easiest way to do this is:
-
-- Select a message from a sender you wish to block: Right-clickPress and hold the Ctrl key, click on the sender's address and choose **Create Filter From...**.   
-  
-  ![block sender](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-- This will open the **Filter rules** window with the email address already inserted into the filter. 
-  1. Name the filter. Something like ""Block list"" would be appropriate. 
-  2. In the bottom half of the window, change the action to perform to **Delete Message**.  
-  
-  ![filter rule](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-
-- Click OK to save the filter. The next time that person sends you mail, it will automatically be deleted.
-
-The Message filter that you have created can be opened and edited by selecting the Message filters... entry in the Tools menu. It is not necessary to create an individual filter for each address you want to block. Now you have the **Block list** filter, the next time you want to block someone you can add the person's address into the top of the filter by clicking the + button and thus creating a new field to enter the new address. Make sure you select the ""Match any of the following"" option, as you wish it to fire on _any_ of the listed addresses.
-
-"
-17150,How to Use Attachments,how-use-attachments,https://support.mozilla.org/en-US/kb/how-use-attachments,en-US,This article explains how to use attachments.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-add-attachments-to-a-message""><span class=""tocnumber"">1</span> <span class=""toctext"">How to Add Attachments to a Message</span></a><ul><li class=""toclevel-2""><a href=""#w_file-restrictions""><span class=""tocnumber"">1.1</span> <span class=""toctext"">File Restrictions</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_receiving-attachments""><span class=""tocnumber"">2</span> <span class=""toctext"">Receiving Attachments</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">3</span> <span class=""toctext"">See Also</span></a></li></ul></div>
-<p>Attachments are files that are sent along with an email message. Almost any type of file can be sent via email, including videos, music, pictures, and documents. However, some restrictions are placed on attachments, such as a file size and permissible file extensions. 
-</p>
-<h1 id=""w_how-to-add-attachments-to-a-message"">How to Add Attachments to a Message</h1>
-<ol><li><a href=""/en-US/kb/sending-and-receiving-messages-thunderbird#w_composing-a-new-message"">Compose</a> a new message.
-</li><li>Click on <span class=""button"">Attach</span>.<br><br><img alt=""New Email Attach Button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-28-15-43-42-7714f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li>Browse to the location of the file you would like to attach.<br><br> <img alt=""Browse for attachment win7"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-28-15-46-40-e257c6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li>Select the desired file and click <span class=""button"">Open</span>.
-</li><li>Repeat until all the desired files are added.
-</li></ol>
-<p>Alternatively, you can drag and drop files from your desktop, file explorer and various other applications to the top right corner of a new message.
-</p>
-<h2 id=""w_file-restrictions"">File Restrictions</h2>
-<p>Most email providers (including Hotmail, Gmail, and Yahoo) restrict the type and size of attachments. File type restrictions prevent malicious content from being passed along. Size limitations prevent very large attachments from being sent, which would tie up the mail servers and the client applications.
-</p><p>File size restrictions among common email providers include:
-</p>
-<ul><li>Hotmail: 25 MB
-</li><li>Gmail: 25 MB
-</li><li>Yahoo: 25MB
-</li></ul>
-<div class=""note"">If you want to send a large attachment, please read the <a href=""/en-US/kb/how-can-i-send-large-attachment"">How can I send a large attachment?</a> article.</div>
-<p>Commonly restricted file types include:
-</p>
-<ul><li>""ade"", ""adp"", ""bat"", ""chm"", ""cmd"", ""com"", ""cpl"", ""exe"", ""hta"", ""ins"", ""isp"", ""jse"", ""lib"", ""mde"", ""msc"", ""msp"", ""mst"", ""pif"", ""scr"", ""sct"", ""shb"", ""sys"", ""vb"", ""vbe"", ""vbs"", ""vxd"", ""wsc"", ""wsf"", ""wsh""
-</li></ul>
-<h1 id=""w_receiving-attachments"">Receiving Attachments</h1>
-<p>The attachments indicator is a paperclip. It will appear next to any message, sent or received, that has an attachment.
-</p><p><img alt=""Attachment Icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-28-15-49-16-f9cf40.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>Viewing attachments:
-</p>
-<ol><li>Open the message containing the attachment(s).
-</li><li>A summary of the attachments will appear at the bottom of the message.
-</li><li>Use the <span class=""button"">Save</span> button to save the attachment.
-</li><li>The expanded menu provides the following options:
-<ul><li><strong>Open</strong> - Opens the file with the default application associated with the file type.
-</li><li><strong>Save as...</strong> - Saves the file in a location of your choosing.
-</li><li><strong>Detach</strong> - Saves the file in a location of your choosing before prompting you to detach the file from the email.
-</li><li><strong>Delete</strong> - Prompts you to delete the attachment from the email. <br><br><img alt=""Attachments drop down menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-08-28-15-38-02-20595e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>  <br>
-</li></ul>
-</li></ol>
-<div class=""for"" data-for=""not tb24""><p>To manipulate all the attachments associated with a message, go to <span class=""menu"">File &gt; Attachments</span> and select one of the following options:
-</p></div><div class=""for"" data-for=""tb24""><p>To manipulate all the attachments associated with a message, go to <span class=""menu"">Message &gt; Attachments</span> and select one of the following options:
-</p></div>
-<ul><li><strong>Open All...</strong>
-</li><li><strong>Save All...</strong>
-</li><li><strong>Detach All...</strong>
-</li><li><strong>Delete All...</strong>
-</li></ul>
-<h1 id=""w_see-also"">See Also</h1>
-<ul><li><a href=""/en-US/kb/how-can-i-send-large-attachment"">How can I send a large attachment?</a> 
-</li><li><a href=""https://mail.google.com/support/bin/topic.py?topic=15057"">Gmail Attachments Help</a>
-</li><li><a href=""http://help.yahoo.com/l/us/yahoo/mail/classic/context/context-02.html"">Yahoo Attachments Help</a>
-</li></ul>",thunderbird,send-and-receive-email,"## Table of Contents
-
-- [1 How to Add Attachments to a Message](https://support.mozilla.org/kb/how-use-attachments#w_how-to-add-attachments-to-a-message)
-  - [1.1 File Restrictions](https://support.mozilla.org/kb/how-use-attachments#w_file-restrictions)
-
-- [2 Receiving Attachments](https://support.mozilla.org/kb/how-use-attachments#w_receiving-attachments)
-- [3 See Also](https://support.mozilla.org/kb/how-use-attachments#w_see-also)
-
-Attachments are files that are sent along with an email message. Almost any type of file can be sent via email, including videos, music, pictures, and documents. However, some restrictions are placed on attachments, such as a file size and permissible file extensions.
-
-# How to Add Attachments to a Message
-
-1. [Compose](\""https://support.mozilla.org/en-US/kb/sending-and-receiving-messages-thunderbird#w_composing-a-new-message"") a new message.
-2. Click on Attach.  
-  
- ![New Email Attach Button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-3. Browse to the location of the file you would like to attach.  
-  
-  ![Browse for attachment win7](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-4. Select the desired file and click Open.
-5. Repeat until all the desired files are added.
-
-Alternatively, you can drag and drop files from your desktop, file explorer and various other applications to the top right corner of a new message.
-
-## File Restrictions
-
-Most email providers (including Hotmail, Gmail, and Yahoo) restrict the type and size of attachments. File type restrictions prevent malicious content from being passed along. Size limitations prevent very large attachments from being sent, which would tie up the mail servers and the client applications.
-
-File size restrictions among common email providers include:
-
-- Hotmail: 25 MB
-- Gmail: 25 MB
-- Yahoo: 25MB
-
-If you want to send a large attachment, please read the [How can I send a large attachment?](\""https://support.mozilla.org/en-US/kb/how-can-i-send-large-attachment"") article.
-
-Commonly restricted file types include:
-
-- ""ade"", ""adp"", ""bat"", ""chm"", ""cmd"", ""com"", ""cpl"", ""exe"", ""hta"", ""ins"", ""isp"", ""jse"", ""lib"", ""mde"", ""msc"", ""msp"", ""mst"", ""pif"", ""scr"", ""sct"", ""shb"", ""sys"", ""vb"", ""vbe"", ""vbs"", ""vxd"", ""wsc"", ""wsf"", ""wsh""
-
-# Receiving Attachments
-
-The attachments indicator is a paperclip. It will appear next to any message, sent or received, that has an attachment.
-
-![Attachment Icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Viewing attachments:
-
-1. Open the message containing the attachment(s).
-2. A summary of the attachments will appear at the bottom of the message.
-3. Use the Save button to save the attachment.
-4. The expanded menu provides the following options:
-  - **Open** - Opens the file with the default application associated with the file type.
-  - **Save as...** - Saves the file in a location of your choosing.
-  - **Detach** - Saves the file in a location of your choosing before prompting you to detach the file from the email.
-  - **Delete** - Prompts you to delete the attachment from the email.   
-  
- ![Attachments drop down menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
-
-To manipulate all the attachments associated with a message, go to File \> Attachments and select one of the following options:
-
-To manipulate all the attachments associated with a message, go to Message \> Attachments and select one of the following options:
-
-- **Open All...**
-- **Save All...**
-- **Detach All...**
-- **Delete All...**
-
-# See Also
-
-- [How can I send a large attachment?](\""https://support.mozilla.org/en-US/kb/how-can-i-send-large-attachment"")
-- [Gmail Attachments Help](https://mail.google.com/support/bin/topic.py?topic=15057)
-- [Yahoo Attachments Help](http://help.yahoo.com/l/us/yahoo/mail/classic/context/context-02.html)
-
-"
 17152,Rebuilding the Global Database,rebuilding-global-database,https://support.mozilla.org/en-US/kb/rebuilding-global-database,en-US,Rebuilding the Global Database will initiate a re-indexing of emails and address book cards (newsgroup messages are not indexed).,"<p>The Global Database (""Gloda"" for short) is an indexing system that enables Thunderbird to search messages. Rebuilding the Global Database re-indexes messages and address book cards. (Newsgroup messages are not indexed.)
 </p><p>Reasons for rebuilding the Global Database include:
 </p>
@@ -57718,215 +57557,6 @@ To switch to a tab, just tap on it in the menu.
 To delete a tab, tap the x icon next to it in the menu.
 
 To quickly clear your browsing session, and delete all tabs at once, tap the trash ![Copnfig Editor Trash Icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon at the top left of the screen.
-
-"
-37706,Open a new private tab in Firefox Klar,open-new-tab-firefox-klar,https://support.mozilla.org/en-US/kb/open-new-tab-firefox-klar,en-US,How to open new tabs in Firefox Klar for Android.,"<p>Firefox Klar makes it easier to browse between web pages. Open multiple private tabs. It's easy to view your open tabs when you're ready. 
-</p>
-<h1 id=""w_to-open-a-link-in-a-private-tab"">To open a link in a private tab</h1>
-<ol><li>Tap and hold on a link on a page to bring up a menu.
-</li><li>Tap <span class=""menu"">Open link in private tab</span>.
-</li><li>The page will open in a new private tab and the trash icon will change to the number of open tabs in your session.
-</li></ol>
-<p><img alt=""FocusPrivateTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-30-15-31-11-68adb1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
-</p><p>To see your open private tabs, tap the number at the bottom right to bring up a list of your open tabs.
-<img alt=""opentabsfocus"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-30-15-37-55-772461.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</p>",klar,firefox-klar-android,"Firefox Klar makes it easier to browse between web pages. Open multiple private tabs. It's easy to view your open tabs when you're ready.
-
-# To open a link in a private tab
-
-1. Tap and hold on a link on a page to bring up a menu.
-2. Tap Open link in private tab.
-3. The page will open in a new private tab and the trash icon will change to the number of open tabs in your session.
-
-![FocusPrivateTab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-To see your open private tabs, tap the number at the bottom right to bring up a list of your open tabs. ![opentabsfocus](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-"
-37708,Enhanced Tracking Protection in Firefox for iOS,enhanced-tracking-protection-firefox-ios,https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-ios,en-US,Firefox for iOS has a Tracking Protection feature which reduces targeted ads and helps stop advertisers from tracking your browsing.,"<p>Firefox for iOS has a built-in Enhanced Tracking Protection feature, which reduces targeted ads and helps stop advertisers from tracking your browsing. This is done with <a href=""https://disconnect.me/trackerprotection"">a list provided by Disconnect</a> to identify and reduce ad, social and analytics trackers, as well as cryptominers and fingerprinters. You can customize your protection by turning off Enhanced Tracking Protection for individual websites and choosing from two levels of protection, Standard or Strict.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-tracking-protection-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn Tracking Protection on or off</span></a></li><li class=""toclevel-1""><a href=""#w_turn-tracking-protection-off-for-specific-websites-only""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn Tracking Protection off for specific websites only</span></a></li><li class=""toclevel-1""><a href=""#w_temporarily-disable-tracking-protection-for-a-website""><span class=""tocnumber"">3</span> <span class=""toctext"">Temporarily disable Tracking Protection for a website</span></a></li><li class=""toclevel-1""><a href=""#w_verify-the-security-of-the-page""><span class=""tocnumber"">4</span> <span class=""toctext"">Verify the security of the page</span></a><ul><li class=""toclevel-2""><a href=""#w_alert-area""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Alert area</span></a></li><li class=""toclevel-2""><a href=""#w_trackers""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Trackers</span></a></li><li class=""toclevel-2""><a href=""#w_clear-cookies-and-site-data""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Clear cookies and site data</span></a></li><li class=""toclevel-2""><a href=""#w_privacy-settings""><span class=""tocnumber"">4.4</span> <span class=""toctext"">Privacy settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_turn-tracking-protection-on-or-off"">Turn Tracking Protection on or off</h1>
-<p>Enhanced Tracking Protection is on by default for additional privacy. To turn it off for all websites:
-</p>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
-
-</li><li>Tap <span class=""menu"">Tracking Protection</span>.
-</li><li>Slide the switch next <strong>Enhanced Tracking Protection</strong> to turn it on or off <img alt=""switchonios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-01-22-03-04-3327d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
-</li><li>When you turn it on, choose the level of protection you want:
-<ul><li><strong>Standard:</strong> protects you from social media trackers, cross-site trackers, cryptominers and fingerprinters.
-</li><li><strong>Strict:</strong> this includes the Standard level of protection and also stops known tracking content such as videos, ads and other content that contains tracking code. Pages load faster but this setting can also block some website functionality. If this happens, see below how to turn off Tracking Protection for a specific site.
-</li></ul>
-</li></ol>
-<h1 id=""w_turn-tracking-protection-off-for-specific-websites-only"">Turn Tracking Protection off for specific websites only</h1>
-<p>By tapping <img alt=""shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-32-19-978c02.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> you can disable Enhanced Tracking Protection while in Strict or Standard mode.
-</p>
-<ol><li>Tap the <strong>shield icon</strong> next to the URL bar.
-</li><li>Tap the switch next to <span class=""menu"">Enhanced Tracking Protection</span> to switch it off or turn it on <img alt=""switchonios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-01-22-03-04-3327d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
-<ul><li>Blue means it's enabled.
-</li><li>Gray means it's disabled.
-</li></ul>
-<dl><dt><img alt=""iosprivacy"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-24-50-50d31a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li></ol>
-<div class=""note""><strong>Note:</strong> In cases where something is broken with the site you’re visiting, Firefox will advise you to disable the Tracking Protection, but otherwise it will keep it enabled by default.</div>
-<h1 id=""w_temporarily-disable-tracking-protection-for-a-website"">Temporarily disable Tracking Protection for a website</h1>
-<div class=""note"">This does not affect Apple's Intelligent Tracking Prevention (ITP) setting. ITP is controlled through your device-level settings, not through the Firefox settings.</div>
-<p>If you are in <em>Strict</em> mode and are having problems with a site loading, you can quickly and temporarily disable Enhanced Tracking Protection for the current tab by long-pressing the refresh button, then tapping <span class=""menu"">Reload without Tracking Protection</span>.
-</p>
-<div class=""note"">Read more about <a href=""https://disconnect.me/trackerprotection"">tracking and the standards Disconnect uses to create its list</a>. Learn more about <a href=""https://wiki.mozilla.org/Security/Tracking_protection#Lists"">the lists used by Firefox for iOS for Tracking Protection</a>.</div>
-<h1 id=""w_verify-the-security-of-the-page"">Verify the security of the page</h1>
-<p>Tracking Protection’s dashboard provides easy access to privacy settings, trackers, connections, cookies and data, while also letting you know about the security of the page you are currently viewing.
-</p>
-<dl><dt><img alt=""iostracker"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-51-55-b19417.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-<h2 id=""w_alert-area"">Alert area</h2>
-<p>Depending on the security of the site, Tracking Protection will display one of the three alerts:
-</p>
-<ol><li><strong>Firefox is on guard</strong>
-<dl><dt><img alt=""firefoxguard"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-57-02-9c50e8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li><strong>You turned off protections</strong>
-<dl><dt><img alt=""offprotections"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-00-09-3d4284.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li><strong>Be careful on this site</strong>
-<dl><dt><img alt=""carefulsite"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-01-29-9d2a85.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<p>These alerts are meant to keep you updated and aware of any possible threats you might encounter while browsing.
-</p>
-<h2 id=""w_trackers"">Trackers</h2>
-<p>Tracking Protection will show you the number of trackers it has blocked for the site you are currently visiting. If you access the panel, which you can simply do so by tapping on it, you will be able to see specific details about these trackers.
-</p>
-<dl><dt><img alt=""trackers"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-05-42-37e938.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-<h2 id=""w_clear-cookies-and-site-data"">Clear cookies and site data</h2>
-<p>Tracking Protection also lets you clear cookies and site data directly from the dashboard and reload the site. The action follows the same behavior as its desktop version: It keeps history and bookmarks intact.
-</p>
-<ol><li>Tap the <span class=""menu"">Clear cookies and site data</span> panel.
-</li><li>Tap <span class=""menu"">Clear</span>.
-</li></ol>
-<dl><dt><img alt=""clearcookies"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-10-40-a2b1c2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-<h2 id=""w_privacy-settings"">Privacy settings</h2>
-<p>If you want to access more advanced settings, Tracking Protection will allow you to within the Privacy settings panel.
-</p><p>Here you can choose between the Standard and Strict options of this capability, but you can also manage passwords, payment methods, private tabs, notifications or privacy policies.
-</p>
-<dl><dt><img alt=""iossettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-13-06-baa1b6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/clear-browsing-history-firefox-ios"">Clear browsing history in Firefox for iOS</a>
-</li><li><a href=""/en-US/kb/how-opt-out-studies-firefox-ios"">How to opt out of studies on Firefox for iOS</a>
-</li><li><a href=""/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"">How to add, remove, edit and move bookmarks in Firefox for iOS</a>
-</li></ul>",ios,privacy-and-security,"Firefox for iOS has a built-in Enhanced Tracking Protection feature, which reduces targeted ads and helps stop advertisers from tracking your browsing. This is done with [a list provided by Disconnect](https://disconnect.me/trackerprotection) to identify and reduce ad, social and analytics trackers, as well as cryptominers and fingerprinters. You can customize your protection by turning off Enhanced Tracking Protection for individual websites and choosing from two levels of protection, Standard or Strict.
-
-## Table of Contents
-
-- [1 Turn Tracking Protection on or off](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_turn-tracking-protection-on-or-off)
-- [2 Turn Tracking Protection off for specific websites only](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_turn-tracking-protection-off-for-specific-websites-only)
-- [3 Temporarily disable Tracking Protection for a website](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_temporarily-disable-tracking-protection-for-a-website)
-- [4 Verify the security of the page](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_verify-the-security-of-the-page)
-  - [4.1 Alert area](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_alert-area)
-  - [4.2 Trackers](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_trackers)
-  - [4.3 Clear cookies and site data](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_clear-cookies-and-site-data)
-  - [4.4 Privacy settings](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_privacy-settings)
-
-- [5 Related articles](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-ios#w_related-articles)
-
-# Turn Tracking Protection on or off
-
-Enhanced Tracking Protection is on by default for additional privacy. To turn it off for all websites:
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. Tap Settings in the menu panel.
-3. Tap Tracking Protection.
-4. Slide the switch next **Enhanced Tracking Protection** to turn it on or off ![switchonios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-5. When you turn it on, choose the level of protection you want:
-  - **Standard:** protects you from social media trackers, cross-site trackers, cryptominers and fingerprinters.
-  - **Strict:** this includes the Standard level of protection and also stops known tracking content such as videos, ads and other content that contains tracking code. Pages load faster but this setting can also block some website functionality. If this happens, see below how to turn off Tracking Protection for a specific site.
-
-# Turn Tracking Protection off for specific websites only
-
-By tapping ![shield](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) you can disable Enhanced Tracking Protection while in Strict or Standard mode.
-
-1. Tap the **shield icon** next to the URL bar.
-2. Tap the switch next to Enhanced Tracking Protection to switch it off or turn it on ![switchonios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-  - Blue means it's enabled.
-  - Gray means it's disabled.
-
-<dl><dt>
-<img alt=""iosprivacy"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-24-50-50d31a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-
-**Note:** In cases where something is broken with the site you’re visiting, Firefox will advise you to disable the Tracking Protection, but otherwise it will keep it enabled by default.
-
-# Temporarily disable Tracking Protection for a website
-
-This does not affect Apple's Intelligent Tracking Prevention (ITP) setting. ITP is controlled through your device-level settings, not through the Firefox settings.
-
-If you are in _Strict_ mode and are having problems with a site loading, you can quickly and temporarily disable Enhanced Tracking Protection for the current tab by long-pressing the refresh button, then tapping Reload without Tracking Protection.
-
-Read more about [tracking and the standards Disconnect uses to create its list](https://disconnect.me/trackerprotection). Learn more about [the lists used by Firefox for iOS for Tracking Protection](https://wiki.mozilla.org/Security/Tracking_protection#Lists).
-
-# Verify the security of the page
-
-Tracking Protection’s dashboard provides easy access to privacy settings, trackers, connections, cookies and data, while also letting you know about the security of the page you are currently viewing.
-
-<dl><dt>
-<img alt=""iostracker"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-51-55-b19417.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-## Alert area
-
-Depending on the security of the site, Tracking Protection will display one of the three alerts:
-
-1. **Firefox is on guard** <dl><dt>
-<img alt=""firefoxguard"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-05-57-02-9c50e8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. **You turned off protections** <dl><dt>
-<img alt=""offprotections"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-00-09-3d4284.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. **Be careful on this site** <dl><dt>
-<img alt=""carefulsite"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-01-29-9d2a85.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-These alerts are meant to keep you updated and aware of any possible threats you might encounter while browsing.
-
-## Trackers
-
-Tracking Protection will show you the number of trackers it has blocked for the site you are currently visiting. If you access the panel, which you can simply do so by tapping on it, you will be able to see specific details about these trackers.
-
-<dl><dt>
-<img alt=""trackers"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-05-42-37e938.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-## Clear cookies and site data
-
-Tracking Protection also lets you clear cookies and site data directly from the dashboard and reload the site. The action follows the same behavior as its desktop version: It keeps history and bookmarks intact.
-
-1. Tap the Clear cookies and site data panel.
-2. Tap Clear.
-
-<dl><dt>
-<img alt=""clearcookies"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-10-40-a2b1c2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-## Privacy settings
-
-If you want to access more advanced settings, Tracking Protection will allow you to within the Privacy settings panel.
-
-Here you can choose between the Standard and Strict options of this capability, but you can also manage passwords, payment methods, private tabs, notifications or privacy policies.
-
-<dl><dt>
-<img alt=""iossettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-03-06-13-06-baa1b6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-# Related articles
-
-- [Clear browsing history in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/clear-browsing-history-firefox-ios"")
-- [How to opt out of studies on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-opt-out-studies-firefox-ios"")
-- [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"")
 
 "
 37831,I can’t play audio on a Remote Desktop Connection,i-cant-play-audio-remote-desktop-connection,https://support.mozilla.org/en-US/kb/i-cant-play-audio-remote-desktop-connection,en-US,How to solve a known issue with audio playback when you use Firefox on a Remote Desktop Connection.,"<p>If you are on a Remote Desktop Connection (RDP) on Windows, audio playback will be disabled due to increased security restrictions. This is a known issue since Firefox version 56 that we are working hard to fix. 
@@ -78939,6 +78569,268 @@ To change this preference:
 - **Never** to never open links in native apps.
 
 "
+50669,"Windows 10 warns me to use a ""Microsoft-verified"" app",windows-10-warns-me-use-microsoft-verified-app,https://support.mozilla.org/en-US/kb/windows-10-warns-me-use-microsoft-verified-app,en-US,"Windows 10 may interrupt your Firefox install with a “Microsoft-verified apps” warning. Firefox is safe to install, so choose “install anyway”.","<p>When installing Firefox on Windows 10, you may see a warning that says you can “only install apps from the Microsoft Store.” This is a Windows setting that blocks apps like Firefox from installing. Don't worry, you can quickly change this setting and continue with the installation.
+</p><p><strong>Any Firefox download from <em><a href=""https://www.mozilla.org/"">www.mozilla.org</a></em> or <em><a href=""https://www.firefox.com/"">www.firefox.com</a></em> is safe to install</strong>, so choose <strong>Install anyway</strong>.
+</p>
+<dl><dt><img alt=""use a Microsoft verified app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-25-33-00c66e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+<div class=""note"">
+<p><strong>Note:</strong>
+</p>
+<ul><li>You can also <a href=""/en-US/kb/download-firefox-windows-microsoft-store"">download and install Firefox from the Microsoft Store</a>.
+</li><li><strong>Using Windows 10 in S mode?</strong> See <a href=""/en-US/kb/windows-s-mode-wont-let-me-install-firefox"">Windows in S mode won't let me install Firefox</a>.
+</li></ul>
+</div>
+<h1 id=""w_what-do-i-do-if-i-dont-see-the-option-to-install-anyway"">What do I do if I don’t see the option to install anyway?</h1>
+<p>If you do not see the option to <em>Install anyway</em>, follow the steps below to change your system settings.
+</p>
+<ol><li>Open the Windows 10 Start <img alt=""Windows10StartButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-30-01-57-41-45d514.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu and select <img alt=""Win10Settings-GearIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-02-08-08-25-b8c3f7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><span class=""menu"">Settings</span>.
+</li><li>Click on <strong>Apps</strong> in the <em>Windows Settings</em> menu.
+<dl><dt><img alt=""w10 Apps settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-26-53-8a60db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>In the <em>Apps &amp; features</em> section, go to <strong>Choose where to get apps</strong>, click on the dropdown menu below and select one of the options that allows you to install from <strong>Anywhere</strong>.
+<dl><dt><img alt=""w10 Choose where to get apps"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-27-16-79d830.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>Run the Firefox Installer again. Windows may now allow it to install Firefox.
+</li></ol>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li> <a href=""/en-US/kb/why-do-i-get-harmful-download-message-when-downloading-firefox-windows"">Why do I get a harmful download message when downloading Firefox on Windows?</a>
+</li><li> <a href=""/en-US/kb/how-install-firefox-windows"">How to install Firefox on Windows</a>
+</li><li> <a href=""/en-US/kb/firefox-support-windows-10-end-support"">What Windows 10 end of support means for Firefox users</a>
+</li></ul>",firefox,installation-and-updates,"When installing Firefox on Windows 10, you may see a warning that says you can “only install apps from the Microsoft Store.” This is a Windows setting that blocks apps like Firefox from installing. Don't worry, you can quickly change this setting and continue with the installation.
+
+**Any Firefox download from _[www.mozilla.org](https://www.mozilla.org/)_ or _[www.firefox.com](https://www.firefox.com/)_ is safe to install**, so choose **Install anyway**.
+
+<dl><dt>
+<img alt=""use a Microsoft verified app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-25-33-00c66e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+
+**Note:**
+
+- You can also [download and install Firefox from the Microsoft Store](\""https://support.mozilla.org/en-US/kb/download-firefox-windows-microsoft-store"").
+- **Using Windows 10 in S mode?** See [Windows in S mode won't let me install Firefox](\""https://support.mozilla.org/en-US/kb/windows-s-mode-wont-let-me-install-firefox"").
+
+# What do I do if I don’t see the option to install anyway?
+
+If you do not see the option to _Install anyway_, follow the steps below to change your system settings.
+
+1. Open the Windows 10 Start ![Windows10StartButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu and select ![Win10Settings-GearIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Settings.
+2. Click on **Apps** in the _Windows Settings_ menu.<dl><dt>
+<img alt=""w10 Apps settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-26-53-8a60db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+3. In the _Apps & features_ section, go to **Choose where to get apps** , click on the dropdown menu below and select one of the options that allows you to install from **Anywhere**.<dl><dt>
+<img alt=""w10 Choose where to get apps"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-20-08-27-16-79d830.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+4. Run the Firefox Installer again. Windows may now allow it to install Firefox.
+
+# Related content
+
+- [Why do I get a harmful download message when downloading Firefox on Windows?](\""https://support.mozilla.org/en-US/kb/why-do-i-get-harmful-download-message-when-downloading-firefox-windows"")
+- [How to install Firefox on Windows](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"")
+- [What Windows 10 end of support means for Firefox users](\""https://support.mozilla.org/en-US/kb/firefox-support-windows-10-end-support"")
+
+"
+50670,About Add-on Badges,add-on-badges,https://support.mozilla.org/en-US/kb/add-on-badges,en-US,You’ll know if an extension is being regularly reviewed if it has one of the badges listed in this article.,"<p>Firefox add-on badges help you quickly identify which <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">extensions</a> are trusted, reviewed or developed by Mozilla. This guide explains what each badge means, shows you where to find them, and gives you tips on how to safely use add-ons.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_badges-and-what-they-mean""><span class=""tocnumber"">1</span> <span class=""toctext"">Badges and what they mean</span></a><ul><li class=""toclevel-2""><a href=""#w_recommended-extensions""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Recommended extensions</span></a></li><li class=""toclevel-2""><a href=""#w_extensions-by-firefox""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Extensions by Firefox</span></a></li><li class=""toclevel-2""><a href=""#w_caution-label""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Caution label</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_tips-for-safe-add-on-use""><span class=""tocnumber"">2</span> <span class=""toctext"">Tips for safe add-on use</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_badges-and-what-they-mean"">Badges and what they mean</h1>
+<h2 id=""w_recommended-extensions"">Recommended extensions</h2>
+<p>These extensions are carefully selected by Mozilla staff and community members for:
+</p>
+<ul><li>Strong security
+</li><li>Reliable functionality
+</li><li>High-quality user experience
+</li></ul>
+<p>Each one is manually reviewed for policy compliance. Developers can’t pay to be part of this program. Recommended extensions may be featured on <a href=""https://addons.mozilla.org/"">addons.mozilla.org (AMO)</a>.
+</p><p><strong>Example badge:</strong>
+</p>
+<dl><dt><img alt=""'Recommended' Add-on Badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-28-23-0aef2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""180"">
+</dt></dl>
+<div class=""note""><strong>Tip:</strong> Learn more about the <a href=""/en-US/kb/recommended-extensions-program"">Recommended Extensions program</a>.</div>
+<h2 id=""w_extensions-by-firefox"">Extensions by Firefox</h2>
+<p>These are made by Mozilla to deliver new features or fun extras for Firefox. They are reviewed for security and policy compliance.
+</p><p><strong>Example badge:</strong>
+</p>
+<dl><dt><img alt=""'By Firefox' Add-ons badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-26-57-ec0c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140"">
+</dt></dl>
+<h2 id=""w_caution-label"">Caution label</h2>
+<p>Extensions not regularly reviewed by Mozilla staff will display a caution message on AMO. This doesn’t always mean the add-on is unsafe, but you should check the developer's reputation, user reviews and requested permissions.
+</p><p><strong>Example badge:</strong>
+</p>
+<dl><dt><img alt=""AMO Caution Label"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-24-12-26-17-839739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_tips-for-safe-add-on-use"">Tips for safe add-on use</h1>
+<ul><li>Look for badges to find trusted extensions.
+</li><li>Read reviews and ratings.
+</li><li>Check requested permissions before installing.
+</li><li>Remove extensions you no longer use.
+</li></ul>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/find-and-install-add-ons-firefox-android"">Find and install extensions on Firefox for Android</a>
+</li><li><a href=""/en-US/kb/uninstall-firefox-android-add-ons"">Uninstall Firefox for Android extensions</a>
+</li><li><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Find and install add-ons to add features to Firefox</a>
+</li></ul>",firefox,add-ons-extensions-and-themes;settings,"Firefox add-on badges help you quickly identify which [extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"") are trusted, reviewed or developed by Mozilla. This guide explains what each badge means, shows you where to find them, and gives you tips on how to safely use add-ons.
+
+## Table of Contents
+
+- [1 Badges and what they mean](https://support.mozilla.org/kb/add-on-badges#w_badges-and-what-they-mean)
+  - [1.1 Recommended extensions](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions)
+  - [1.2 Extensions by Firefox](https://support.mozilla.org/kb/add-on-badges#w_extensions-by-firefox)
+  - [1.3 Caution label](https://support.mozilla.org/kb/add-on-badges#w_caution-label)
+
+- [2 Tips for safe add-on use](https://support.mozilla.org/kb/add-on-badges#w_tips-for-safe-add-on-use)
+- [3 Related articles](https://support.mozilla.org/kb/add-on-badges#w_related-articles)
+
+# Badges and what they mean
+
+## Recommended extensions
+
+These extensions are carefully selected by Mozilla staff and community members for:
+
+- Strong security
+- Reliable functionality
+- High-quality user experience
+
+Each one is manually reviewed for policy compliance. Developers can’t pay to be part of this program. Recommended extensions may be featured on [addons.mozilla.org (AMO)](https://addons.mozilla.org/).
+
+**Example badge:**
+
+<dl><dt>
+<img alt=""'Recommended' Add-on Badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-28-23-0aef2d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""180"">
+</dt></dl>
+**Tip:** Learn more about the [Recommended Extensions program](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program"").
+
+## Extensions by Firefox
+
+These are made by Mozilla to deliver new features or fun extras for Firefox. They are reviewed for security and policy compliance.
+
+**Example badge:**
+
+<dl><dt>
+<img alt=""'By Firefox' Add-ons badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-24-03-26-57-ec0c18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140"">
+</dt></dl>
+## Caution label
+
+Extensions not regularly reviewed by Mozilla staff will display a caution message on AMO. This doesn’t always mean the add-on is unsafe, but you should check the developer's reputation, user reviews and requested permissions.
+
+**Example badge:**
+
+<dl><dt>
+<img alt=""AMO Caution Label"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-24-12-26-17-839739.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# Tips for safe add-on use
+
+- Look for badges to find trusted extensions.
+- Read reviews and ratings.
+- Check requested permissions before installing.
+- Remove extensions you no longer use.
+
+# Related articles
+
+- [Find and install extensions on Firefox for Android](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-firefox-android"")
+- [Uninstall Firefox for Android extensions](\""https://support.mozilla.org/en-US/kb/uninstall-firefox-android-add-ons"")
+- [Find and install add-ons to add features to Firefox](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"")
+
+"
+50702,Thunderbird 78 FAQ,thunderbird-78-faq,https://support.mozilla.org/en-US/kb/thunderbird-78-faq,en-US,"This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.","<p>This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78""><span class=""tocnumber"">1</span> <span class=""toctext"">Where can I find more information on changes and new features in Thunderbird 78?</span></a></li><li class=""toclevel-1""><a href=""#w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages""><span class=""tocnumber"">2</span> <span class=""toctext"">After upgrading to Thunderbird 78, I cannot receive or send email messages.</span></a><ul><li class=""toclevel-2""><a href=""#w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1""><span class=""tocnumber"">2.1</span> <span class=""toctext"">How to enable outdated security protocols TLS 1.0 and 1.1</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78""><span class=""tocnumber"">3</span> <span class=""toctext"">When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?</span></a></li><li class=""toclevel-1""><a href=""#w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp""><span class=""tocnumber"">4</span> <span class=""toctext"">Where can I find information on Thunderbird's new encryption technology, OpenPGP?</span></a></li></ul></div>
+<h2 id=""w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78"">Where can I find more information on changes and new features in Thunderbird 78?</h2>
+<p>Please refer to the following documents:
+</p>
+<ul><li> <a href=""/en-US/kb/new-thunderbird-78"">New in Thunderbird 78.0</a>
+</li><li> <a href=""https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/"">Thunderbird 78 Release Notes</a>
+</li><li> <a href=""https://www.thunderbird.net/en-US/thunderbird/releases/"">Thunderbird Release Notes</a> (all releases, including details on the latest minor releases)
+</li></ul>
+<h2 id=""w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages"">After upgrading to Thunderbird 78, I cannot receive or send email messages.</h2>
+<p>One reason why this might happen is your email provider is still using very outdated security protocols. Thunderbird is serious about protecting the privacy and security of your communications, so by default, Thunderbird 78 will not connect to servers that do not support the modern (over ten years old) <a href=""https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.2"">TLS 1.2 connection security protocol</a>. If your email provider only supports the outdated security protocols TLS 1.0 or TLS 1.1, then downloading (receiving) and sending emails will not work. If you need to connect to mail servers with outdated security, or if you want to check if this is the cause of your problem, you can temporarily re-enable the older security protocols in Thunderbird settings using the process below.  If you still have difficulties after trying TLS changes, or you know your mail servers support TLS 1.2, see:
+</p>
+<ul><li> <a href=""/en-US/kb/cannot-send-messages"">Cannot send messages</a>
+</li><li> <a href=""/en-US/kb/cannot-receive-messages"">Cannot receive messages</a>
+</li></ul>
+<div class=""note"">
+<h3 id=""w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1"">How to enable outdated security protocols TLS 1.0 and 1.1</h3>
+<ol><li> Open <a href=""/en-US/kb/config-editor"">Config Editor</a> (about:config)
+<ul><li> <span class=""menu"">≡</span> &gt; <span class=""for"" data-for=""win""><span class=""menu"">Options</span></span><span class=""for"" data-for=""linux,mac""><span class=""menu"">Preferences</span></span> &gt; <span class=""menu"">Find in <span class=""for"" data-for=""win"">Options</span><span class=""for"" data-for=""linux,mac"">Preferences</span></span>
+</li><li> In the searchbox, type: <strong>about:config</strong>, then press <span class=""key"">Enter</span>.
+</li><li> Click on the button <span class=""button"">Config Editor…</span> in the search result.
+</li></ul>
+</li><li> In the about:config dialog, search for: <strong>security.tls.version.min</strong>
+</li><li> Double-click on the found preference <strong>security.tls.version.min</strong> and change its value to <strong>1</strong>, then press <span class=""key"">Enter</span>.
+</li><li> Restart Thunderbird and try to download your messages.
+</li></ol>
+<p>If you can receive and/or send your messages after changing this preference:
+</p>
+<ul><li> <strong>Please inform your email provider to upgrade the security protocols on the server to support TLS 1.2.</strong>
+</li><li> Revert the preference <strong>security.tls.version.min</strong> to its original value as soon as possible by repeating the above procedure, then right-click on the preference and choose <span class=""menu"">Reset</span> from the context menu.
+</li></ul>
+</div>
+<h2 id=""w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78"">When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?</h2>
+<p>We have redesigned the addressing area for more efficiency, transparency, and convenience. Please find more information in the following documents:
+</p>
+<ul><li> <a href=""/en-US/kb/new-thunderbird-78"">New in Thunderbird 78.0</a>
+</li><li> <a href=""/en-US/kb/addressing-email"">Addressing an Email</a>
+</li></ul>
+<h2 id=""w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp"">Where can I find information on Thunderbird's new encryption technology, OpenPGP?</h2>
+<p>For any questions or more information about Thunderbird's new message encryption feature, OpenPGP, please see the following document:
+</p>
+<ul><li> <a href=""/en-US/kb/openpgp-thunderbird-howto-and-faq"">OpenPGP in Thunderbird - HOWTO and FAQ</a>
+</li></ul>",thunderbird,email-and-messaging;send-and-receive-email,"This document answers questions for new users of Thunderbird 78, in particular users who have upgraded from a previous version.
+
+## Table of Contents
+
+- [1 Where can I find more information on changes and new features in Thunderbird 78?](https://support.mozilla.org/kb/thunderbird-78-faq#w_where-can-i-find-more-information-on-changes-and-new-features-in-thunderbird-78)
+- [2 After upgrading to Thunderbird 78, I cannot receive or send email messages.](https://support.mozilla.org/kb/thunderbird-78-faq#w_after-upgrading-to-thunderbird-78-i-cannot-receive-or-send-email-messages)
+  - [2.1 How to enable outdated security protocols TLS 1.0 and 1.1](https://support.mozilla.org/kb/thunderbird-78-faq#w_how-to-enable-outdated-security-protocols-tls-1-0-and-1-1)
+
+- [3 When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?](https://support.mozilla.org/kb/thunderbird-78-faq#w_when-writing-a-new-message-how-can-i-add-edit-or-remove-recipients-in-thunderbird-78)
+- [4 Where can I find information on Thunderbird's new encryption technology, OpenPGP?](https://support.mozilla.org/kb/thunderbird-78-faq#w_where-can-i-find-information-on-thunderbirds-new-encryption-technology-openpgp)
+
+## Where can I find more information on changes and new features in Thunderbird 78?
+
+Please refer to the following documents:
+
+- [New in Thunderbird 78.0](\""https://support.mozilla.org/en-US/kb/new-thunderbird-78"")
+- [Thunderbird 78 Release Notes](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/)
+- [Thunderbird Release Notes](https://www.thunderbird.net/en-US/thunderbird/releases/) (all releases, including details on the latest minor releases)
+
+## After upgrading to Thunderbird 78, I cannot receive or send email messages.
+
+One reason why this might happen is your email provider is still using very outdated security protocols. Thunderbird is serious about protecting the privacy and security of your communications, so by default, Thunderbird 78 will not connect to servers that do not support the modern (over ten years old) [TLS 1.2 connection security protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.2). If your email provider only supports the outdated security protocols TLS 1.0 or TLS 1.1, then downloading (receiving) and sending emails will not work. If you need to connect to mail servers with outdated security, or if you want to check if this is the cause of your problem, you can temporarily re-enable the older security protocols in Thunderbird settings using the process below. If you still have difficulties after trying TLS changes, or you know your mail servers support TLS 1.2, see:
+
+- [Cannot send messages](\""https://support.mozilla.org/en-US/kb/cannot-send-messages"")
+- [Cannot receive messages](\""https://support.mozilla.org/en-US/kb/cannot-receive-messages"")
+
+### How to enable outdated security protocols TLS 1.0 and 1.1
+
+1. Open [Config Editor](\""https://support.mozilla.org/en-US/kb/config-editor"") (about:config)
+  - ≡ \> OptionsPreferences \> Find in OptionsPreferences
+  - In the searchbox, type: **about:config** , then press Enter.
+  - Click on the button Config Editor… in the search result.
+
+2. In the about:config dialog, search for: **security.tls.version.min**
+3. Double-click on the found preference **security.tls.version.min** and change its value to **1** , then press Enter.
+4. Restart Thunderbird and try to download your messages.
+
+If you can receive and/or send your messages after changing this preference:
+
+- **Please inform your email provider to upgrade the security protocols on the server to support TLS 1.2.**
+- Revert the preference **security.tls.version.min** to its original value as soon as possible by repeating the above procedure, then right-click on the preference and choose Reset from the context menu.
+
+## When writing a new message, how can I add, edit, or remove recipients in Thunderbird 78?
+
+We have redesigned the addressing area for more efficiency, transparency, and convenience. Please find more information in the following documents:
+
+- [New in Thunderbird 78.0](\""https://support.mozilla.org/en-US/kb/new-thunderbird-78"")
+- [Addressing an Email](\""https://support.mozilla.org/en-US/kb/addressing-email"")
+
+## Where can I find information on Thunderbird's new encryption technology, OpenPGP?
+
+For any questions or more information about Thunderbird's new message encryption feature, OpenPGP, please see the following document:
+
+- [OpenPGP in Thunderbird - HOWTO and FAQ](\""https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq"")
+
+"
 50917,Sponsors on the home page and New Tab page,sponsor-privacy,https://support.mozilla.org/en-US/kb/sponsor-privacy,en-US,"Working with its advertising partners, Mozilla may place sponsored shortcuts on the default Firefox home page and New Tab page. Learn more.","<p>Mozilla works with advertising partners to place sponsored shortcuts, sponsored stories, and advertisements on the New Tab page. These are always clearly marked, and you have control over whether they are shown. Privacy is fundamental to Mozilla’s mission. We adhere to the <a href=""https://firefox-source-docs.mozilla.org/contributing/data-collection.html"">privacy standards for Firefox</a>, use technical designs that enforce these standards, and we only work with advertising partners that meet those standards as well.
 </p><p>The revenue from these advertisements on Firefox New Tab supports Mozilla’s mission to build a healthier internet and help fund Firefox development. Because Mozilla is structured not for maximizing profit but for advancing its mission, this revenue is reinvested into projects that foster a healthier web and improve privacy, including how to deliver ads in a privacy-preserving way. By keeping ads optional and transparent, we create a sustainable way to support Firefox without compromising your privacy. 
 </p>
@@ -81611,160 +81503,6 @@ You can change any other permissions from the **Page Info** window, which contai
 See the [View site information with Page Info](\""https://support.mozilla.org/en-US/kb/firefox-page-info-window"") article for additional information.
 
 "
-53699,What's new in Firefox for iOS (version 34),whats-new-firefox-ios-version-34,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-34,en-US,See what's included in Firefox for iOS 34.,"<p>Thank you for updating to a new version of Firefox for iOS. This release comes with a brand new, clean, and modern look and improvements to search.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_new-clean-and-modern-look""><span class=""tocnumber"">1</span> <span class=""toctext"">New clean and modern look</span></a><ul><li class=""toclevel-2""><a href=""#w_new-ipad-tab-strip""><span class=""tocnumber"">1.1</span> <span class=""toctext"">New iPad tab strip</span></a></li><li class=""toclevel-2""><a href=""#w_menu-improvements-for-easier-access-to-content""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Menu improvements for easier access to content</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_search-enhancements""><span class=""tocnumber"">2</span> <span class=""toctext"">Search enhancements</span></a><ul><li class=""toclevel-2""><a href=""#w_active-search-engine""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Active search engine</span></a></li><li class=""toclevel-2""><a href=""#w_easy-to-refine-search-suggestions""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Easy-to-refine search suggestions</span></a></li><li class=""toclevel-2""><a href=""#w_search-open-and-synced-tabs""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Search open and synced tabs</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_tab-improvements""><span class=""tocnumber"">3</span> <span class=""toctext"">Tab improvements</span></a><ul><li class=""toclevel-2""><a href=""#w_new-tab-list-view""><span class=""tocnumber"">3.1</span> <span class=""toctext"">New tab list view</span></a></li><li class=""toclevel-2""><a href=""#w_easier-access-to-synced-tabs""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Easier access to synced tabs</span></a></li></ul></li></ul></div>
-<h1 id=""w_new-clean-and-modern-look"">New clean and modern look</h1>
-<p>We’ve updated our icons across the app and made the menus and controls more consistent with the iOS system design. 
-</p>
-<h2 id=""w_new-ipad-tab-strip"">New iPad tab strip</h2>
-<dl><dt><img alt=""ipad ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-18-37-09401f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-<h2 id=""w_menu-improvements-for-easier-access-to-content"">Menu improvements for easier access to content</h2>
-<p>The updated Firefox menu gets a new look and feel so you can get to content you need, like your bookmarks, history, reading list and downloads, even faster.
-</p>
-<dl><dt><img alt=""new menu ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-20-39-5f9d3d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-<h1 id=""w_search-enhancements"">Search enhancements</h1>
-<h2 id=""w_active-search-engine"">Active search engine</h2>
-<p>See what your active search engine is at a glance. Firefox displays your active search engine right on the search bar.
-</p>
-<dl><dt><img alt=""search engine ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-21-57-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-<h2 id=""w_easy-to-refine-search-suggestions"">Easy-to-refine search suggestions</h2>
-<p>Now you can easily narrow your searches without having to enter extra words. Just tap the append arrow next to a search suggestion to use or choose more refinements.
-</p>
-<dl><dt><img alt=""search refinements ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-23-30-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-<h2 id=""w_search-open-and-synced-tabs"">Search open and synced tabs</h2>
-<p>We’ve included synced tabs to your tabs menu. Rather than having to open Your Library to search your tabs, we’ve included open and synced tabs in your search suggestions so you can access them all right from one search.
-</p><p>If an open or synced tab matches your search, Firefox will automatically take you to your open tab.
-</p>
-<dl><dt><img alt=""switch tab ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-24-36-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-<h1 id=""w_tab-improvements"">Tab improvements</h1>
-<h2 id=""w_new-tab-list-view"">New tab list view</h2>
-<p>View your open tabs without losing your page. When tap the tab number icon, the tab tray will scroll up over the page. To get back to the page, simply slide the tab tray down.
-</p>
-<dl><dt><img alt=""tab view ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-26-18-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-<h2 id=""w_easier-access-to-synced-tabs"">Easier access to synced tabs</h2>
-<p>You can now access synced and open tabs all in one place. Rather than having to click through extra steps, just tap the tab number on your toolbar to access your synced tabs. 
-</p>
-<dl><dt><img alt=""sync tabs ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-27-13-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>",ios,installation-and-updates;update,"Thank you for updating to a new version of Firefox for iOS. This release comes with a brand new, clean, and modern look and improvements to search.
-
-## Table of Contents
-
-- [1 New clean and modern look](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_new-clean-and-modern-look)
-  - [1.1 New iPad tab strip](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_new-ipad-tab-strip)
-  - [1.2 Menu improvements for easier access to content](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_menu-improvements-for-easier-access-to-content)
-
-- [2 Search enhancements](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_search-enhancements)
-  - [2.1 Active search engine](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_active-search-engine)
-  - [2.2 Easy-to-refine search suggestions](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_easy-to-refine-search-suggestions)
-  - [2.3 Search open and synced tabs](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_search-open-and-synced-tabs)
-
-- [3 Tab improvements](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_tab-improvements)
-  - [3.1 New tab list view](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_new-tab-list-view)
-  - [3.2 Easier access to synced tabs](https://support.mozilla.org/kb/whats-new-firefox-ios-version-34#w_easier-access-to-synced-tabs)
-
-# New clean and modern look
-
-We’ve updated our icons across the app and made the menus and controls more consistent with the iOS system design.
-
-## New iPad tab strip
-<dl><dt>
-<img alt=""ipad ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-18-37-09401f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-## Menu improvements for easier access to content
-
-The updated Firefox menu gets a new look and feel so you can get to content you need, like your bookmarks, history, reading list and downloads, even faster.
-
-<dl><dt>
-<img alt=""new menu ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-20-39-5f9d3d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-# Search enhancements
-
-## Active search engine
-
-See what your active search engine is at a glance. Firefox displays your active search engine right on the search bar.
-
-<dl><dt>
-<img alt=""search engine ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-21-57-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-## Easy-to-refine search suggestions
-
-Now you can easily narrow your searches without having to enter extra words. Just tap the append arrow next to a search suggestion to use or choose more refinements.
-
-<dl><dt>
-<img alt=""search refinements ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-23-30-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-## Search open and synced tabs
-
-We’ve included synced tabs to your tabs menu. Rather than having to open Your Library to search your tabs, we’ve included open and synced tabs in your search suggestions so you can access them all right from one search.
-
-If an open or synced tab matches your search, Firefox will automatically take you to your open tab.
-
-<dl><dt>
-<img alt=""switch tab ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-24-36-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-# Tab improvements
-
-## New tab list view
-
-View your open tabs without losing your page. When tap the tab number icon, the tab tray will scroll up over the page. To get back to the page, simply slide the tab tray down.
-
-<dl><dt>
-<img alt=""tab view ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-26-18-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>
-## Easier access to synced tabs
-
-You can now access synced and open tabs all in one place. Rather than having to click through extra steps, just tap the tab number on your toolbar to access your synced tabs.
-
-<dl><dt>
-<img alt=""sync tabs ios 34"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-16-27-13-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320"">
-</dt></dl>"
-53859,Firefox for Enterprise 89 - Release notes,firefox-enterprise-89-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-89-release-notes,en-US,See what's coming out with Firefox for Enterprise 89.,"<p>Except where noted, everything here applies to both Firefox 89 and the Firefox 78.11 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">3</span> <span class=""toctext"">Policies</span></a></li></ul></div>
-<h1 id=""w_general"">General</h1>
-<ul><li>Signatures are now shown when viewing PDF files. This change is only in Firefox 89, not the ESR.
-</li></ul>
-<h1 id=""w_bug-fixes"">Bug fixes</h1>
-<ul><li>If the DisablePasswordReveal policy was used, creating new logins in the password manager didn't work correctly. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1696948"">bug 1696948</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#alloweddomainsforapps"">AllowedDomainsForApps</a> policy has been added. This allows you to define which domains are allowed to access Google Workspace. It is based on the <a href=""https://chromeenterprise.google/policies/#AllowedDomainsForApps"">Chrome policy of the same name</a>.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#extension"">ExtensionSettings</a> policy has been updated to allow disabling updates to individual extensions with the <code>updates_disabled</code> option.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#preferences"">Preferences</a> policy has been updated to support preferences that begin with <span class=""pref"">gfx.</span> or <span class=""pref"">layers.</span>.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 89 and the Firefox 78.11 ESR.
-
-## Table of Contents
-
-- [1 General](https://support.mozilla.org/kb/firefox-enterprise-89-release-notes#w_general)
-- [2 Bug fixes](https://support.mozilla.org/kb/firefox-enterprise-89-release-notes#w_bug-fixes)
-- [3 Policies](https://support.mozilla.org/kb/firefox-enterprise-89-release-notes#w_policies)
-
-# General
-
-- Signatures are now shown when viewing PDF files. This change is only in Firefox 89, not the ESR.
-
-# Bug fixes
-
-- If the DisablePasswordReveal policy was used, creating new logins in the password manager didn't work correctly. This was fixed in [bug 1696948](https://bugzilla.mozilla.org/show_bug.cgi?id=1696948).
-
-# Policies
-
-- The [AllowedDomainsForApps](https://github.com/mozilla/policy-templates/blob/master/README.md#alloweddomainsforapps) policy has been added. This allows you to define which domains are allowed to access Google Workspace. It is based on the [Chrome policy of the same name](https://chromeenterprise.google/policies/#AllowedDomainsForApps).
-
-- The [ExtensionSettings](https://github.com/mozilla/policy-templates/blob/master/README.md#extension) policy has been updated to allow disabling updates to individual extensions with the `updates_disabled` option.
-
-- The [Preferences](https://github.com/mozilla/policy-templates/blob/master/README.md#preferences) policy has been updated to support preferences that begin with gfx. or layers..
-
-"
 53877,End of support for Firefox Lite,end-support-firefox-lite,https://support.mozilla.org/en-US/kb/end-support-firefox-lite,en-US,"Mozilla ended support for Firefox Lite on June 30, 2021. Learn more.","<p>Mozilla ended support for the Firefox Lite browser on June 30, 2021. Version 2.6.1 was the last supported release for Firefox Lite. You will no longer be able to install or reinstall Firefox Lite from the App Store. The application may continue to work on your device but it will no longer receive support or security updates.
 </p>
 <h1 id=""w_why-has-mozilla-ended-support-for-firefox-lite"">Why has Mozilla ended support for Firefox Lite?</h1>
@@ -81791,6 +81529,161 @@ For more information about how to install Firefox for Android, visit [Install Fi
 # What will happen to my bookmarks and screenshots?
 
 Any bookmarks you have saved will be deleted after you uninstall the application, while screenshots will stay on your device.
+
+"
+54072,"Solutions for ""Can not create temp folder archive"" error when installing Firefox (Windows 10)",solutions-can-not-create-temp-folder-archive-error,https://support.mozilla.org/en-US/kb/solutions-can-not-create-temp-folder-archive-error,en-US,"Stuck with the ""Can not create temp folder archive"" error on 7-Zip when installing Firefox for Windows 10? This article will help you to solve the issue.","<p>When installing Firefox for Windows 10, the error message, <strong>""Can not create temp folder archive,""</strong> is shown when 7-Zip tries to unpack the installation file but is not able to locate the Temp folder or it is not able to access it. This is how the error looks like:
+</p><p><img alt=""can not create temp folder archive error"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-06-21-32-21-c0928e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p><strong>Running the Firefox installation file as an administrator or with an administrator account is a common fix for this problem and it can work for some users.</strong> In case if that does not work for you, this article will also be exploring the other possible solutions to help you solve this issue.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_running-the-installation-file-as-administrator""><span class=""tocnumber"">1</span> <span class=""toctext"">Running the installation file as administrator</span></a></li><li class=""toclevel-1""><a href=""#w_moving-installation-file-to-desktop""><span class=""tocnumber"">2</span> <span class=""toctext"">Moving installation file to Desktop</span></a></li><li class=""toclevel-1""><a href=""#w_ensuring-the-temp-folder-is-in-the-correct-directory""><span class=""tocnumber"">3</span> <span class=""toctext"">Ensuring the Temp folder is in the correct directory</span></a></li><li class=""toclevel-1""><a href=""#w_other-solutions""><span class=""tocnumber"">4</span> <span class=""toctext"">Other solutions</span></a></li></ul></div>
+<h1 id=""w_running-the-installation-file-as-administrator"">Running the installation file as administrator</h1>
+<p>Simply right-click on the installation file and select <strong>Run as administrator</strong>. This will give the file admin-level permissions for 7-Zip to create an archive in the Temp folder to proceed with the installation if it is having insufficient permissions to do so.
+</p>
+<h1 id=""w_moving-installation-file-to-desktop"">Moving installation file to Desktop</h1>
+<p>Before running the file, make sure it is saved in the same drive where Windows is installed. A simple way to ensure this is by <strong>moving the file to the Desktop</strong> and run it. If needed, right click and select <strong>Run as administrator</strong>.
+</p>
+<h1 id=""w_ensuring-the-temp-folder-is-in-the-correct-directory"">Ensuring the Temp folder is in the correct directory</h1>
+<p>The Temp folder which the installation file is trying to access to unpack files for installation is usually located at: <strong>Users\[username]\AppData\Local\Temp</strong>
+</p><p>To ensure the Temp folder is located in the correct directory, follow the steps below:
+</p>
+<ol><li> Open up the <strong>start menu</strong>
+</li><li> Search <strong>%appdata%</strong> and hit Enter
+</li><li> Click on <strong>AppData</strong> on the top bar
+</li><li> Go into the <strong>Local</strong> folder
+</li><li> Check if the <strong>Temp</strong> folder exists in here, if it does not exist, create a new folder named <strong>Temp</strong> (make sure letter 'T' is capital)
+</li></ol>
+<p>After that, you may perform the previous solutions again to see if they work this time.
+</p>
+<h1 id=""w_other-solutions"">Other solutions</h1>
+<ul><li>Ensure Windows 10 is updated to the latest version, this issue might be a bug with Windows and an update might solve the issue. To update Windows 10, go through the steps in <a href=""https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a"">this article</a> by Microsoft Support.
+</li><li>For more possible solutions, <a href=""https://www.youtube.com/watch?v=1TVPZ2OZ29g"">please see this video.</a>
+</li></ul>",firefox,crashing-and-slow-performance;error-codes;installation-and-updates;performance-and-connectivity,"When installing Firefox for Windows 10, the error message, **""Can not create temp folder archive,""** is shown when 7-Zip tries to unpack the installation file but is not able to locate the Temp folder or it is not able to access it. This is how the error looks like:
+
+![can not create temp folder archive error](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+**Running the Firefox installation file as an administrator or with an administrator account is a common fix for this problem and it can work for some users.** In case if that does not work for you, this article will also be exploring the other possible solutions to help you solve this issue.
+
+## Table of Contents
+
+- [1 Running the installation file as administrator](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_running-the-installation-file-as-administrator)
+- [2 Moving installation file to Desktop](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_moving-installation-file-to-desktop)
+- [3 Ensuring the Temp folder is in the correct directory](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_ensuring-the-temp-folder-is-in-the-correct-directory)
+- [4 Other solutions](https://support.mozilla.org/kb/solutions-can-not-create-temp-folder-archive-error#w_other-solutions)
+
+# Running the installation file as administrator
+
+Simply right-click on the installation file and select **Run as administrator**. This will give the file admin-level permissions for 7-Zip to create an archive in the Temp folder to proceed with the installation if it is having insufficient permissions to do so.
+
+# Moving installation file to Desktop
+
+Before running the file, make sure it is saved in the same drive where Windows is installed. A simple way to ensure this is by **moving the file to the Desktop** and run it. If needed, right click and select **Run as administrator**.
+
+# Ensuring the Temp folder is in the correct directory
+
+The Temp folder which the installation file is trying to access to unpack files for installation is usually located at: **Users\[username]\AppData\Local\Temp**
+
+To ensure the Temp folder is located in the correct directory, follow the steps below:
+
+1. Open up the **start menu**
+2. Search **%appdata%** and hit Enter
+3. Click on **AppData** on the top bar
+4. Go into the **Local** folder
+5. Check if the **Temp** folder exists in here, if it does not exist, create a new folder named **Temp** (make sure letter 'T' is capital)
+
+After that, you may perform the previous solutions again to see if they work this time.
+
+# Other solutions
+
+- Ensure Windows 10 is updated to the latest version, this issue might be a bug with Windows and an update might solve the issue. To update Windows 10, go through the steps in [this article](https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a) by Microsoft Support.
+- For more possible solutions, [please see this video.](https://www.youtube.com/watch?v=1TVPZ2OZ29g)
+
+"
+54079,Deploy Firefox with language packs,deploying-firefox-language-packs,https://support.mozilla.org/en-US/kb/deploying-firefox-language-packs,en-US,Deploy Firefox in your environment with preinstalled language packs.,"<p>In an enterprise environment, it may be necessary to deploy Firefox with language packs preinstalled. This document will show you how to do that. These steps also work if you are <a href=""/en-US/kb/repackaging-windows-installer"">customizing the Windows installer</a>.
+</p>
+<h1 id=""w_step-1-create-directories"">Step 1: Create directories</h1>
+<p>In the Firefox installation directory, you will need to create some required directories. First, create a directory called <code>distribution</code>. Inside of that directory, create another called <code>extensions</code>. If you are on macOS, you should create the directories in <code>Contents/Resources</code>
+</p>
+<h1 id=""w_step-2-download-language-packs"">Step 2: Download language packs</h1>
+<p>Download the language packs that correspond to the build you are installing. They are in the xpi directory for the corresponding platform. For example:
+</p><p><code>https://releases.mozilla.org/pub/firefox/releases/137.0/win64/xpi/</code>
+</p><p>Even though the XPI files are duplicated in the different platforms, there is no difference between them. You can download the XPI from any platform directory.
+</p>
+<h1 id=""w_step-3-rename-the-language-packs"">Step 3: Rename the language packs</h1>
+<p>Rename the language packs using the following format:
+</p>
+<pre>xx.xpi -&gt; langpack-xx@firefox.mozilla.org.xpi
+</pre>
+or<pre>xx-XX.xpi -&gt; langpack-xx-XX@firefox.mozilla.org.xpi
+</pre>
+<h1 id=""w_step-4-copy-the-language-packs"">Step 4 : Copy the language packs</h1>
+<p>Copy the renamed language packs into the <code>extensions</code> directory you created in step 1.
+</p>
+<h1 id=""w_step-5-set-the-default-language"">Step 5: Set the default language</h1>
+<p>Using policy, set <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#requestedlocales"">RequestedLocales</a> to either the language you want to use by default or an empty string to use the same language as the operating system.
+</p>",firefox-enterprise,installation-and-updates,"In an enterprise environment, it may be necessary to deploy Firefox with language packs preinstalled. This document will show you how to do that. These steps also work if you are [customizing the Windows installer](\""https://support.mozilla.org/en-US/kb/repackaging-windows-installer"").
+
+# Step 1: Create directories
+
+In the Firefox installation directory, you will need to create some required directories. First, create a directory called `distribution`. Inside of that directory, create another called `extensions`. If you are on macOS, you should create the directories in `Contents/Resources`
+
+# Step 2: Download language packs
+
+Download the language packs that correspond to the build you are installing. They are in the xpi directory for the corresponding platform. For example:
+
+`https://releases.mozilla.org/pub/firefox/releases/137.0/win64/xpi/`
+
+Even though the XPI files are duplicated in the different platforms, there is no difference between them. You can download the XPI from any platform directory.
+
+# Step 3: Rename the language packs
+
+Rename the language packs using the following format:
+
+    xx.xpi -> langpack-xx@firefox.mozilla.org.xpi
+
+or
+
+    xx-XX.xpi -> langpack-xx-XX@firefox.mozilla.org.xpi
+
+# Step 4&nbsp;: Copy the language packs
+
+Copy the renamed language packs into the `extensions` directory you created in step 1.
+
+# Step 5: Set the default language
+
+Using policy, set [RequestedLocales](https://github.com/mozilla/policy-templates/blob/master/README.md#requestedlocales) to either the language you want to use by default or an empty string to use the same language as the operating system.
+
+"
+54084,Fritz!box isn't working when Mozilla VPN is on,fritzbox-isnt-working-when-mozilla-vpn,https://support.mozilla.org/en-US/kb/fritzbox-isnt-working-when-mozilla-vpn,en-US,Fritz!box is blocked when Mozilla VPN is on.,"<p>Some users are unable to access the <a href=""https://avm.de/products/fritzbox/"">Fritz!box</a> to manage their router settings when Mozilla VPN is on. 
+</p><p>For better privacy protection, the  Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router. 
+</p>
+<h1 id=""w_workaround"">Workaround</h1>
+<p>To fix this problem, try <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">turning Mozilla VPN off</a> to configure the Fritz!box, then turn Mozilla VPN on again.
+</p><p><br>
+
+<strong>Related articles:</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
+</li></ul>
+<p><strong>Learn more:</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related"">The language of the websites I visit changes when I turn Mozilla VPN on - What to do</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
+</li></ul>",mozilla-vpn,connectivity;performance-and-connectivity,"Some users are unable to access the [Fritz!box](https://avm.de/products/fritzbox/) to manage their router settings when Mozilla VPN is on.
+
+For better privacy protection, the Mozilla VPN client configures the system to use a DNS server accessible only through the VPN network, and that DNS server fails to identify the Fritz!box router. Then, when Mozilla VPN is ON and users type fritz.box in the address bar, they can't access the router.
+
+# Workaround
+
+To fix this problem, try [turning Mozilla VPN off](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") to configure the Fritz!box, then turn Mozilla VPN on again.
+
+**Related articles:**
+
+- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
+
+**Learn more:**
+
+- [The language of the websites I visit changes when I turn Mozilla VPN on - What to do](https://support.mozilla.org/en-US/kb/language-websites-i-visit-changes-when-i-turn-mozi?utm_source=-vpn-related)
+- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
 
 "
 54410,Firefox for Enterprise 90 - Release notes,firefox-enterprise-90-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-90-release-notes,en-US,See what's coming out with Firefox for Enterprise 90.,"<p>Except where noted, everything here applies to both Firefox 90 and the Firefox 78.12 ESR.
@@ -95722,142 +95615,6 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 ## Learn more
 
 - [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
-
-"
-60644,How to download and install Mozilla VPN on macOS,how-download-and-install-mozilla-vpn-macos,https://support.mozilla.org/en-US/kb/how-download-and-install-mozilla-vpn-macos,en-US,"Download and install Mozilla VPN to connect to the internet through one of our secure servers, keeping your location and online activity private.","<p>Download and install Mozilla VPN to connect to the internet through one of our secure servers, keeping your location and online activity private and throwing off data collectors.
-</p>
-<div class=""note"">Your subscription allows you to run Mozilla VPN on up to five devices at the same time. If Mozilla VPN is installed on multiple profiles on one device, each profile will count as a device. To learn more, visit <a href=""/en-US/kb/are-there-limits-my-mozilla-vpn-connection"">Are there limits to my Mozilla VPN connection?</a></div>
-<div class=""note""><strong>Note:</strong> Mozilla VPN is available for macOS 13 and up. <a href=""https://archive.mozilla.org/pub/vpn/releases/"">Download previous versions for Mac.</a></div>
-<p>To download and install Mozilla VPN on your macOS:
-</p>
-<ol><li>Visit <a href=""https://www.mozilla.org/products/vpn/download/"">https://www.mozilla.org/products/vpn/download/</a>.
-</li><li>Click <strong>Get Mozilla VPN</strong> to begin the download for your current device, or select another device type from the list on the right.
-<dl><dt><img alt=""Download VPN for macos"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-22-14-21-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li><li>Go to your Downloads folder (or to your default downloads destination) and double-click on the <strong>MozillaVPN.pkg</strong> file to start the installation.
-<dl><dt><div class=""note""><strong>Tip:</strong> On Firefox and most web browsers, you can locate recently downloaded files by clicking the <strong>downloads icon</strong> in the right of the navigation bar.</div>
-</dt></dl>
-</li><li>A pop-up window may ask you if you allow the app to make changes to your computer. Click <strong>Yes</strong>.
-</li><li>The installer will open. Click <span class=""button"">Continue</span> to advance.
-<dl><dt><img alt=""VPN install mac 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-39-30-2a2fcb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-</li><li>Select for which users you wish to install Mozilla VPN. Click <span class=""button"">Continue</span> to advance.
-<dl><dt><img alt=""VPN install mac select destination folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-49-02-dfccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-</li><li>The default destination will be the applications folder, but you have the option to specify a different location, clicking <span class=""button"">Change Install Location…</span> It is generally safe for most users to stick with the default location. When ready, click <span class=""button"">Install</span> to begin the installation.
-<dl><dt><img alt=""VPN install location and type"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-53-53-fe49e8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-</li><li>You may be asked to enter your system password or touch ID authentication to authorize the installation.
-<dl><dt><img alt=""VPN install mac 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-42-02-4122cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>A progress bar will appear to allow you to keep track of the installation progress.
-<dl><dt><img alt=""VPN install mac 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-44-06-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-</li><li>Upon completion, a confirmation message will display an installation summary. Click <span class=""button"">Close</span> to exit the installer.
-<dl><dt><img alt=""VPN install mac 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-44-40-5851ef.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-</li><li>You may be asked if you want to remove the installation file since it is no longer necessary. We recommend you do, but it’s not required.
-<dl><dt><img alt=""VPN install mac 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-45-05-c869c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Mozilla VPN will launch. Click <span class=""button"">Get Started</span> and sign in with your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account credentials</a>. If you don’t have a subscription, visit the <a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN</a> website and <a href=""/en-US/kb/choose-mozilla-vpn-plan-right-you"">choose the plan that is right for you</a>.
-<dl><dt><img alt=""VPN get started"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-11-42-06-b54cbf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-ios"">Download and install Mozilla VPN on iOS</a>
-</li><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-android"">How to download and install Mozilla VPN on Android</a>
-</li><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-windows"">Download and install Mozilla VPN on Windows</a>
-</li><li><a href=""/en-US/kb/how-install-mozilla-vpn-linux-computer"">How to install Mozilla VPN on a Linux computer</a>
-</li></ul>
-<h2 id=""w_learn-more"">Learn more</h2>
-<ul><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
-</li></ul>",mozilla-vpn,install;installation-and-updates,"Download and install Mozilla VPN to connect to the internet through one of our secure servers, keeping your location and online activity private and throwing off data collectors.
-
-Your subscription allows you to run Mozilla VPN on up to five devices at the same time. If Mozilla VPN is installed on multiple profiles on one device, each profile will count as a device. To learn more, visit [Are there limits to my Mozilla VPN connection?](\""https://support.mozilla.org/en-US/kb/are-there-limits-my-mozilla-vpn-connection"")
-
-**Note:** Mozilla VPN is available for macOS 13 and up. [Download previous versions for Mac.](https://archive.mozilla.org/pub/vpn/releases/)
-
-To download and install Mozilla VPN on your macOS:
-
-1. Visit [https://www.mozilla.org/products/vpn/download/](https://www.mozilla.org/products/vpn/download/).
-2. Click **Get Mozilla VPN** to begin the download for your current device, or select another device type from the list on the right.<dl><dt>
-<img alt=""Download VPN for macos"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-22-14-21-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-3. Go to your Downloads folder (or to your default downloads destination) and double-click on the **MozillaVPN.pkg** file to start the installation.<dl><dt>
-<div class=""note"">
-<strong>Tip:</strong> On Firefox and most web browsers, you can locate recently downloaded files by clicking the <strong>downloads icon</strong> in the right of the navigation bar.</div>
-</dt></dl>
-4. A pop-up window may ask you if you allow the app to make changes to your computer. Click **Yes**.
-5. The installer will open. Click Continue to advance.<dl><dt>
-<img alt=""VPN install mac 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-39-30-2a2fcb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-6. Select for which users you wish to install Mozilla VPN. Click Continue to advance.<dl><dt>
-<img alt=""VPN install mac select destination folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-49-02-dfccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-7. The default destination will be the applications folder, but you have the option to specify a different location, clicking Change Install Location… It is generally safe for most users to stick with the default location. When ready, click Install to begin the installation.<dl><dt>
-<img alt=""VPN install location and type"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-53-53-fe49e8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-8. You may be asked to enter your system password or touch ID authentication to authorize the installation.<dl><dt>
-<img alt=""VPN install mac 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-42-02-4122cf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-9. A progress bar will appear to allow you to keep track of the installation progress.<dl><dt>
-<img alt=""VPN install mac 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-44-06-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-10. Upon completion, a confirmation message will display an installation summary. Click Close to exit the installer.<dl><dt>
-<img alt=""VPN install mac 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-44-40-5851ef.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""560"">
-</dt></dl>
-11. You may be asked if you want to remove the installation file since it is no longer necessary. We recommend you do, but it’s not required.<dl><dt>
-<img alt=""VPN install mac 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-12-45-05-c869c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-12. Mozilla VPN will launch. Click Get Started and sign in with your [Mozilla account credentials](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account""). If you don’t have a subscription, visit the [Mozilla VPN](https://www.mozilla.org/products/vpn/) website and [choose the plan that is right for you](\""https://support.mozilla.org/en-US/kb/choose-mozilla-vpn-plan-right-you"").<dl><dt>
-<img alt=""VPN get started"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-11-42-06-b54cbf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
-
-# Related articles
-
-- [Download and install Mozilla VPN on iOS](\""https://support.mozilla.org/en-US/kb/how-download-and-install-mozilla-vpn-ios"")
-- [How to download and install Mozilla VPN on Android](\""https://support.mozilla.org/en-US/kb/how-download-and-install-mozilla-vpn-android"")
-- [Download and install Mozilla VPN on Windows](\""https://support.mozilla.org/en-US/kb/how-download-and-install-mozilla-vpn-windows"")
-- [How to install Mozilla VPN on a Linux computer](\""https://support.mozilla.org/en-US/kb/how-install-mozilla-vpn-linux-computer"")
-
-## Learn more
-
-- [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
-
-"
-60715,X-Mouse Button Control in Firefox 110,x-mouse-button-control-firefox-110,https://support.mozilla.org/en-US/kb/x-mouse-button-control-firefox-110,en-US,Learn about an issue with X-Mouse Button Control in Firefox 110 for Windows.,"<p></p><div class=""for"" data-for=""not win""><div class=""warning"">This article only applies to Firefox on Windows.</div></div>
-<p></p>
-<div class=""note""><strong>Note:</strong> An updated version of X-Mouse Button Control (XMBC 2.20) has been released. Issues with Firefox 110 should be fixed. To learn more, see <a href=""https://forums.highrez.co.uk/viewtopic.php?t=4682"">this forum</a>.</div>
-<p>In advance of the release of <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 110, an issue was identified with GPU Sandboxing causing a conflict with X-Mouse Button Control, software used to custom configure a computer mouse, that may cause mouse wheel scrolling to stop working.
-</p><p>Mozilla has reached out to the developer of X-Mouse Button Control, and they are working on a solution. Given that we do not know when this will be fixed and the benefit of GPU Sandboxing to all Firefox users, the decision has been made to proceed with rolling out this new feature in Firefox, but we are aware that this is not the best result for all at this time.
-</p><p>The best solution at the present time is to turn on the <strong>Disable Scroll Window Under Cursor</strong> setting:
-</p>
-<ul><li> Right-click the X-Mouse Button Control icon and select <strong>Setup</strong>.
-</li><li> Choose the <strong>Options</strong> tab in the right pane of the Setup window.
-</li><li> Make sure there is a checkmark next to <strong>Disable Scroll Window Under Cursor</strong>.
-</li><li> Select the <strong>Apply</strong> button near the lower-right corner of the window.
-</li></ul>
-<p>A corrected version of X-Mouse Button Control is currently being tested, and we hope it can be made more widely available very soon. If you wish to use the beta version, you can install it from <a href=""https://forums.highrez.co.uk/viewtopic.php?p=23412#p23412"">this forum message</a>.  Please be aware that this is not a fully tested version and may have unresolved issues.
-</p>",firefox,add-ons-extensions-and-themes;performance-and-connectivity;settings,"This article only applies to Firefox on Windows.
-
-**Note:** An updated version of X-Mouse Button Control (XMBC 2.20) has been released. Issues with Firefox 110 should be fixed. To learn more, see [this forum](https://forums.highrez.co.uk/viewtopic.php?t=4682).
-
-In advance of the release of [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 110, an issue was identified with GPU Sandboxing causing a conflict with X-Mouse Button Control, software used to custom configure a computer mouse, that may cause mouse wheel scrolling to stop working.
-
-Mozilla has reached out to the developer of X-Mouse Button Control, and they are working on a solution. Given that we do not know when this will be fixed and the benefit of GPU Sandboxing to all Firefox users, the decision has been made to proceed with rolling out this new feature in Firefox, but we are aware that this is not the best result for all at this time.
-
-The best solution at the present time is to turn on the **Disable Scroll Window Under Cursor** setting:
-
-- Right-click the X-Mouse Button Control icon and select **Setup**.
-- Choose the **Options** tab in the right pane of the Setup window.
-- Make sure there is a checkmark next to **Disable Scroll Window Under Cursor**.
-- Select the **Apply** button near the lower-right corner of the window.
-
-A corrected version of X-Mouse Button Control is currently being tested, and we hope it can be made more widely available very soon. If you wish to use the beta version, you can install it from [this forum message](https://forums.highrez.co.uk/viewtopic.php?p=23412#p23412). Please be aware that this is not a fully tested version and may have unresolved issues.
 
 "
 60720,Get started with Mozilla Monitor,get-started-firefox-monitor,https://support.mozilla.org/en-US/kb/get-started-firefox-monitor,en-US,Mozilla Monitor is a data breach notification service offered by Mozilla that warns you if your online accounts have been involved in a data leak.,"<p>Mozilla Monitor is a data breach notification service offered by Mozilla that warns you if your online accounts have been involved in a data leak. Using the <a href=""https://haveibeenpwned.com/"">Have I Been Pwned</a> database, Mozilla Monitor keeps track of known data breaches and notifies you if your online accounts are compromised, providing guidance on how to proactively protect yourself going forward.
@@ -110132,228 +109889,6 @@ If you’d like to dive deeper into how Firefox handles your data, check out the
 - [Telemetry – Firefox Source Docs documentation](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/index.html)
 
 - [Telemetry collection - Windows default browser trends](\""https://support.mozilla.org/en-US/kb/telemetry-collection-windows-default-browser-trend"")
-
-"
-66501,Manage marketing data settings in Firefox for Desktop,marketing-data,https://support.mozilla.org/en-US/kb/marketing-data,en-US,"Learn how Firefox Desktop collects marketing data, how Mozilla uses it, and how you can manage or opt out of marketing data sharing.","<p></p><div class=""note""> 
-<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.
-</p>
-</div>
-If you arrive on the Firefox download page after clicking an ad on another website, you’ll have the option to share how you discovered Firefox with Mozilla’s marketing measurement partners. This helps us improve marketing efforts and reach more people, using <a href=""https://support.google.com/analytics/answer/7318509?hl=en"">Google Analytics</a> as part of the process.
-<p></p>
-<div class=""note"">Firefox does not share information like your browsing history, search queries or saved passwords, with marketing partners. Mozilla only collects the data necessary to measure and improve our marketing campaigns.</div>
-<p>This article explains what data is collected, how it’s used, and how you can opt out.
-</p>
-<h1 id=""w_what-data-is-collected"">What data is collected?</h1>
-<p>If you choose to share your data, Firefox collects and shares the following:
-</p>
-<ul><li><strong>Attribution data:</strong> When you download Firefox through one of our marketing campaigns, we collect information to determine which campaign or advertisement referred you to Firefox’s download page. This may include:
-<ul><li>Campaign ID, ad group ID and advertising source
-</li><li>Country, timestamp and device metadata
-</li></ul>
-</li><li><strong>Interaction data:</strong> Firefox measures the success of our marketing campaigns by analyzing meaningful usage patterns rather than simply tracking downloads. These conversion events (such as whether a user opens Firefox multiple times during their first week after installing it) help us determine which campaigns are successful.
-</li></ul>
-<p><span class=""for"" data-for=""fx136"">For a technical overview of the data collected in the <a href=""/en-US/kb/usage-ping-settings"">daily usage ping</a>, see the definitions in <a href=""https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/usage-reporting"">the Glean Dictionary for Desktop</a>.</span>
-</p>
-<h1 id=""w_how-does-mozilla-use-this-data"">How does Mozilla use this data?</h1>
-<p>Mozilla uses marketing data to:
-</p>
-<ul><li><strong>Measure campaign performance:</strong> Understand which advertisements or marketing campaigns are most effective in encouraging Firefox downloads.
-</li><li><strong>Improve marketing efforts:</strong> Refine how we promote Firefox to reach more people.
-</li></ul>
-<p>Mozilla’s approach to data collection is guided by the <a href=""https://www.mozilla.org/about/manifesto/"">Mozilla Manifesto</a>. For more details, see the <a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>.
-</p>
-<h1 id=""w_how-to-opt-out-of-marketing-data-collection"">How to opt out of marketing data collection</h1>
-<h2 id=""w_on-the-firefox-download-page"">On the Firefox download page</h2>
-<p>If you’re downloading Firefox from a marketing campaign, you’ll see an opt-out option on the download page. Simply uncheck the box that allows Mozilla to collect marketing data before proceeding with your download.
-</p>
-<h2 id=""w_in-firefox-settings"">In Firefox settings</h2>
-<p>You can also manage your preferences in Firefox settings:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Go to the <span class=""menu"">Privacy &amp; Security</span> panel.
-</li><li>Scroll down to <em>Firefox Data Collection and Use</em>.
-</li><li>Uncheck the box next to <span class=""for"" data-for=""not fx136""><strong>Allow Firefox to send technical and interaction data to Mozilla</strong></span><span class=""for"" data-for=""fx136""><strong>Send technical and interaction data to Mozilla</strong></span> to stop sharing marketing data.
-<dl><dt><span class=""for"" data-for=""not fx135""><img alt=""Fx128DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-44-29-63e3ee.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx135""><img alt=""Fx135DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-50-36-dfdd4f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx136""><img alt=""Fx136DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-55-57-04579d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-</li></ol>
-<p>To learn more, see <a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>.
-</p>
-<h1 id=""w_how-to-avoid-google-analytics-data-collection"">How to avoid Google Analytics data collection</h1>
-<p>To prevent Google Analytics from collecting any data on Mozilla’s websites, you can block cookies. In Firefox, you can adjust your browser settings to block or limit cookies, including those used by Google Analytics. Note that this may also affect other site functionality. For detailed instructions, see <a href=""/en-US/kb/block-websites-storing-cookies-site-data-firefox"">Block websites from storing cookies and site data in Firefox</a>.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>
-</li><li><a href=""/en-US/kb/mobile-marketing-data"">Manage marketing data settings in Firefox for Android</a>
-</li><li><a href=""/en-US/kb/privacy-preserving-attribution"">Privacy-Preserving Attribution</a>
-</li></ul>",firefox,privacy-and-security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Firefox handles data with transparency—learn more about what that means for you. [Read the Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-If you arrive on the Firefox download page after clicking an ad on another website, you’ll have the option to share how you discovered Firefox with Mozilla’s marketing measurement partners. This helps us improve marketing efforts and reach more people, using [Google Analytics](https://support.google.com/analytics/answer/7318509?hl=en) as part of the process.
-
-Firefox does not share information like your browsing history, search queries or saved passwords, with marketing partners. Mozilla only collects the data necessary to measure and improve our marketing campaigns.
-
-This article explains what data is collected, how it’s used, and how you can opt out.
-
-# What data is collected?
-
-If you choose to share your data, Firefox collects and shares the following:
-
-- **Attribution data:** When you download Firefox through one of our marketing campaigns, we collect information to determine which campaign or advertisement referred you to Firefox’s download page. This may include:
-  - Campaign ID, ad group ID and advertising source
-  - Country, timestamp and device metadata
-
-- **Interaction data:** Firefox measures the success of our marketing campaigns by analyzing meaningful usage patterns rather than simply tracking downloads. These conversion events (such as whether a user opens Firefox multiple times during their first week after installing it) help us determine which campaigns are successful.
-
-For a technical overview of the data collected in the [daily usage ping](\""https://support.mozilla.org/en-US/kb/usage-ping-settings""), see the definitions in [the Glean Dictionary for Desktop](https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/usage-reporting).
-
-# How does Mozilla use this data?
-
-Mozilla uses marketing data to:
-
-- **Measure campaign performance:** Understand which advertisements or marketing campaigns are most effective in encouraging Firefox downloads.
-- **Improve marketing efforts:** Refine how we promote Firefox to reach more people.
-
-Mozilla’s approach to data collection is guided by the [Mozilla Manifesto](https://www.mozilla.org/about/manifesto/). For more details, see the [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-# How to opt out of marketing data collection
-
-## On the Firefox download page
-
-If you’re downloading Firefox from a marketing campaign, you’ll see an opt-out option on the download page. Simply uncheck the box that allows Mozilla to collect marketing data before proceeding with your download.
-
-## In Firefox settings
-
-You can also manage your preferences in Firefox settings:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to the Privacy & Security panel.
-3. Scroll down to _Firefox Data Collection and Use_.
-4. Uncheck the box next to **Allow Firefox to send technical and interaction data to Mozilla**** Send technical and interaction data to Mozilla** to stop sharing marketing data.<dl><dt>
-<span class=""for"" data-for=""not fx135""><img alt=""Fx128DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-44-29-63e3ee.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx135""><img alt=""Fx135DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-50-36-dfdd4f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx136""><img alt=""Fx136DataCollection-OptOutSetting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-22-04-55-57-04579d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-
-To learn more, see [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"").
-
-# How to avoid Google Analytics data collection
-
-To prevent Google Analytics from collecting any data on Mozilla’s websites, you can block cookies. In Firefox, you can adjust your browser settings to block or limit cookies, including those used by Google Analytics. Note that this may also affect other site functionality. For detailed instructions, see [Block websites from storing cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/block-websites-storing-cookies-site-data-firefox"").
-
-# Related articles
-
-- [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"")
-- [Manage marketing data settings in Firefox for Android](\""https://support.mozilla.org/en-US/kb/mobile-marketing-data"")
-- [Privacy-Preserving Attribution](\""https://support.mozilla.org/en-US/kb/privacy-preserving-attribution"")
-
-"
-66504,Crash reports in Firefox for Desktop,crash-report,https://support.mozilla.org/en-US/kb/crash-report,en-US,"Learn about backlogged crash reports, how Firefox handles them and how to manage the setting to allow or prevent automatically sending crash reports","<p></p><div class=""note""> 
-<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.
-</p>
-</div>
-When Firefox for Desktop crashes, it can send a crash report to Mozilla to help us fix bugs and improve the browser. You can choose to send them on a case-by-case basis after a crash or enable automatic submission.
-<p></p><p>This article explains what’s included in a crash report, how Mozilla uses it, and how you can manage the setting to automatically send crash reports.
-</p>
-<h1 id=""w_whats-included-in-a-crash-report"">What’s included in a crash report?</h1>
-<p>Crash reports contain technical details about the crash to help Mozilla identify and fix problems in Firefox. Here’s what’s included:
-</p>
-<ul><li><strong>Crash metadata:</strong> Information such as the operating system, Firefox version, and the time of the crash. This allows us to narrow down what platforms/user groups are affected by the crash.
-</li><li><strong>Device memory usage:</strong> Information about available memory at the time of the crash. Memory information can be a useful tool to determine whether a crash is caused by low system memory.
-</li><li><strong>Crash stack traces:</strong> Technical details about the code running at the time of the crash. These details guide developers to identify the cause of the crash (whether due to Firefox or third-party code).
-</li><li><strong>Snapshots from the program memory:</strong> Small fragments of memory will be stored in the report to help developers analyze the crash. These might contain private information and will only be accessible by a small number of developers within Mozilla.
-</li><li><strong>Browsing metadata:</strong> The URL that was loaded at the time of the crash may be included if you opt-in to sending it. Sometimes, crashes can only be reproduced by certain webpages, so the URL involved may be valuable to debug the cause of the crash.
-</li><li><strong>Hardware testing results:</strong> We receive a remarkable number of crashes that are simply due to bad hardware. To help identify these cases, we perform simple hardware tests and include results in reports. The tests do not take long and the results do not contain personal identifiable information, however users can opt-out of sending this information.
-</li></ul>
-<p>Some crash reports may include additional debugging information, such as minidumps – small memory snapshots that may contain data such as the list of files that were opened by Firefox at the time of crash or the last URL the user was visiting, to help diagnose crashes. Only a limited number of Mozilla engineers have access to this data.
-</p><p>For a detailed breakdown of the data included in crash reports, visit the <a href=""https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/crash"">Glean Dictionary</a>.
-</p>
-<h1 id=""w_whats-included-in-a-crash-ping"">What’s included in a crash ping?</h1>
-<p>Firefox also sends <a href=""https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/data/crash-ping.html"">crash pings</a>, smaller reports containing only the non-identifying metadata about crashes. These are sent automatically unless you opt out of <a href=""/en-US/kb/technical-and-interaction-data"">technical and interaction data collection</a> in your settings. While crash pings contain less information than crash reports, they serve an important role in prioritizing debugging efforts (since they give a better estimate of the impact of bugs, not to mention they give insights into background process crashes for which we normally do not receive reports). Crash pings also give a much more accurate representation of the overall stability of Firefox.
-</p><p>For a detailed breakdown of the data included in crash pings, visit the <a href=""https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/crash"">Glean Dictionary</a>.
-</p>
-<h2 id=""w_how-does-mozilla-use-crash-reports-and-crash-pings"">How does Mozilla use crash reports and crash pings?</h2>
-<p>Mozilla uses crash pings and reports to fix bugs by understanding what caused the crash and prioritizing fixes, improve reliability by identifying trends to make Firefox more stable, and enhance user experience by ensuring future updates are less likely to crash.
-</p>
-<h1 id=""w_allow-firefox-to-automatically-send-crash-reports"">Allow Firefox to automatically send crash reports</h1>
-<p>You can control whether Firefox automatically sends crash reports:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Go to the <span class=""menu"">Privacy &amp; Security</span> panel.
-</li><li>Scroll down to the <em>Firefox Data Collection and Use</em> section.
-</li><li>Check or uncheck the box next to <strong>Automatically send crash reports</strong>.
-</li></ol>
-<p><img alt=""Automatically send crash reports"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-12-11-54-abdfe9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
-</p>
-<h2 id=""w_what-happens-if-i-enable-this-option"">What happens if I enable this option?</h2>
-<p>If you enable this option, Firefox will automatically send crash reports. This ensures that Mozilla receives important crash data to improve Firefox’s stability. If you leave this option disabled (the default setting), crash reports will remain saved locally on your device until you manually choose to send them — for example, by submitting a crash report after Firefox prompts you following a new crash.
-</p>
-<h1 id=""w_manually-submitting-crash-reports"">Manually submitting crash reports</h1>
-<p>Aside from choosing to submit crash reports immediately following a crash, you can also view all of your crash reports and potentially submit them later by entering <strong>about:crashes</strong> in the address bar.
-</p>
-<h1 id=""w_related-content"">Related content</h1>
-<p>To learn more about how Mozilla handles your data, check out these resources:
-</p>
-<ul><li><a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>
-</li><li><a href=""/en-US/kb/manage-firefox-data-collection-privacy-settings"">Manage Firefox data collection and privacy settings</a>
-</li><li><a href=""/en-US/kb/mozillacrashreporter"">Mozilla Crash Reporter</a>
-</li></ul>",firefox,privacy-and-security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Firefox handles data with transparency—learn more about what that means for you. [Read the Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-When Firefox for Desktop crashes, it can send a crash report to Mozilla to help us fix bugs and improve the browser. You can choose to send them on a case-by-case basis after a crash or enable automatic submission.
-
-This article explains what’s included in a crash report, how Mozilla uses it, and how you can manage the setting to automatically send crash reports.
-
-# What’s included in a crash report?
-
-Crash reports contain technical details about the crash to help Mozilla identify and fix problems in Firefox. Here’s what’s included:
-
-- **Crash metadata:** Information such as the operating system, Firefox version, and the time of the crash. This allows us to narrow down what platforms/user groups are affected by the crash.
-- **Device memory usage:** Information about available memory at the time of the crash. Memory information can be a useful tool to determine whether a crash is caused by low system memory.
-- **Crash stack traces:** Technical details about the code running at the time of the crash. These details guide developers to identify the cause of the crash (whether due to Firefox or third-party code).
-- **Snapshots from the program memory:** Small fragments of memory will be stored in the report to help developers analyze the crash. These might contain private information and will only be accessible by a small number of developers within Mozilla.
-- **Browsing metadata:** The URL that was loaded at the time of the crash may be included if you opt-in to sending it. Sometimes, crashes can only be reproduced by certain webpages, so the URL involved may be valuable to debug the cause of the crash.
-- **Hardware testing results:** We receive a remarkable number of crashes that are simply due to bad hardware. To help identify these cases, we perform simple hardware tests and include results in reports. The tests do not take long and the results do not contain personal identifiable information, however users can opt-out of sending this information.
-
-Some crash reports may include additional debugging information, such as minidumps – small memory snapshots that may contain data such as the list of files that were opened by Firefox at the time of crash or the last URL the user was visiting, to help diagnose crashes. Only a limited number of Mozilla engineers have access to this data.
-
-For a detailed breakdown of the data included in crash reports, visit the [Glean Dictionary](https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/crash).
-
-# What’s included in a crash ping?
-
-Firefox also sends [crash pings](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/data/crash-ping.html), smaller reports containing only the non-identifying metadata about crashes. These are sent automatically unless you opt out of [technical and interaction data collection](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"") in your settings. While crash pings contain less information than crash reports, they serve an important role in prioritizing debugging efforts (since they give a better estimate of the impact of bugs, not to mention they give insights into background process crashes for which we normally do not receive reports). Crash pings also give a much more accurate representation of the overall stability of Firefox.
-
-For a detailed breakdown of the data included in crash pings, visit the [Glean Dictionary](https://dictionary.telemetry.mozilla.org/apps/firefox_desktop/pings/crash).
-
-## How does Mozilla use crash reports and crash pings?
-
-Mozilla uses crash pings and reports to fix bugs by understanding what caused the crash and prioritizing fixes, improve reliability by identifying trends to make Firefox more stable, and enhance user experience by ensuring future updates are less likely to crash.
-
-# Allow Firefox to automatically send crash reports
-
-You can control whether Firefox automatically sends crash reports:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to the Privacy & Security panel.
-3. Scroll down to the _Firefox Data Collection and Use_ section.
-4. Check or uncheck the box next to **Automatically send crash reports**.
-
-![Automatically send crash reports](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## What happens if I enable this option?
-
-If you enable this option, Firefox will automatically send crash reports. This ensures that Mozilla receives important crash data to improve Firefox’s stability. If you leave this option disabled (the default setting), crash reports will remain saved locally on your device until you manually choose to send them — for example, by submitting a crash report after Firefox prompts you following a new crash.
-
-# Manually submitting crash reports
-
-Aside from choosing to submit crash reports immediately following a crash, you can also view all of your crash reports and potentially submit them later by entering **about:crashes** in the address bar.
-
-# Related content
-
-To learn more about how Mozilla handles your data, check out these resources:
-
-- [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/)
-- [Manage Firefox data collection and privacy settings](\""https://support.mozilla.org/en-US/kb/manage-firefox-data-collection-privacy-settings"")
-- [Mozilla Crash Reporter](\""https://support.mozilla.org/en-US/kb/mozillacrashreporter"")
 
 "
 66534,Manage your Monitor notifications,manage-your-monitor-notifications,https://support.mozilla.org/en-US/kb/manage-your-monitor-notifications,en-US,Monitor helps you stay informed about data breaches and data broker sites through your notification settings. You can control the updates you receive to ensure they are relevant to your needs.,"<p>Mozilla Monitor helps you stay informed about data breaches and data broker sites that might expose your personal information. By customizing your notification settings, you can control the updates you receive to ensure they are relevant to your needs. Mozilla Monitor helps you stay informed about data breaches and data broker sites that might expose your personal information. By customizing your notification settings, you can control the updates you receive to ensure they are relevant to your needs.
