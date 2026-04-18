@@ -22710,8 +22710,9 @@ Windows hides the <span class=""filepath"">AppData</span> folder by default but 
 </li><li><span class=""filepath"">bookmarkbackups</span><br>This folder stores bookmark backup files, which can be used to restore your bookmarks.
 </li><li><span class=""filepath"">favicons.sqlite</span><br>This file contains all of the favicons for your Firefox bookmarks.
 </li></ul>
-<p>For more information, see <a href=""/en-US/kb/bookmarks-firefox"">Bookmarks in Firefox</a> and <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.
-</p><p><strong>Passwords:</strong>
+<p>For more information, see <a href=""/en-US/kb/bookmarks-firefox"">Bookmarks in Firefox</a> and <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.<br>
+<br>
+<strong>Passwords:</strong>
 </p>
 <ul><li><span class=""filepath"">key4.db</span>
 </li><li><span class=""filepath"">logins.json</span><br><br>Your passwords are stored in these two files. For more information, see <a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Password Manager - Remember, delete and edit logins and passwords in Firefox</a>.
@@ -22737,8 +22738,8 @@ Windows hides the <span class=""filepath"">AppData</span> folder by default but 
 </p>
 <ul><li><span class=""filepath"">cookies.sqlite</span><br>A <a href=""/en-US/kb/cookies-information-websites-store-on-your-computer"">cookie</a> is a bit of information stored on your computer by a website you’ve visited. Usually, this is something like your site preferences or login status. Cookies are all stored in this file.
 </li></ul>
-<p><strong>DOM storage:</strong>
-</p><p>DOM Storage is designed to provide a larger, more secure, and easier-to-use alternative to storing information in cookies.
+<p><strong>DOM storage:</strong><br>
+DOM Storage is designed to provide a larger, more secure, and easier-to-use alternative to storing information in cookies.
 </p>
 <ul><li><span class=""filepath"">webappsstore.sqlite</span><br>Information is stored in this file for websites
 </li><li><span class=""filepath"">chromeappsstore.sqlite</span><br>This file stores information for <a href=""http://kb.mozillazine.org/About_protocol_links"">about:*</a> pages.
@@ -22879,8 +22880,8 @@ This folder stores bookmark backup files, which can be used to restore your book
 - favicons.sqlite  
 This file contains all of the favicons for your Firefox bookmarks.
 
-For more information, see [Bookmarks in Firefox](\""https://support.mozilla.org/en-US/kb/bookmarks-firefox"") and [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them"").
-
+For more information, see [Bookmarks in Firefox](\""https://support.mozilla.org/en-US/kb/bookmarks-firefox"") and [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them"").  
+  
 **Passwords:**
 
 - key4.db
@@ -22915,8 +22916,7 @@ This file remembers what you have searched for in the Firefox search bar and wha
 - cookies.sqlite  
 A [cookie](\""https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"") is a bit of information stored on your computer by a website you’ve visited. Usually, this is something like your site preferences or login status. Cookies are all stored in this file.
 
-**DOM storage:**
-
+**DOM storage:**  
 DOM Storage is designed to provide a larger, more secure, and easier-to-use alternative to storing information in cookies.
 
 - webappsstore.sqlite  
@@ -48529,7 +48529,7 @@ _**Based on information from [About:config (mozillaZine KB)](http://kb.mozillazi
 "
 27897,Make Firefox your default browser on Windows,how-change-your-default-browser-firefox-windows,https://support.mozilla.org/en-US/kb/how-change-your-default-browser-firefox-windows,en-US,Learn how to make Firefox your default Web browser on Windows 10 and Windows 11.,"<p>Whether you're using Windows 10 or the latest Windows 11, this guide will help you set Firefox as your default browser with minimal fuss. Setting Firefox as your default browser on Windows has become a bit more involved due to changes in how Windows manages default applications. We introduced a new guidance notification feature to help you easily navigate these changes.
 </p>
-<div class=""note""><strong>Note:</strong> <span class=""for"" data-for=""win7,win8,winxp,linux,mac"">This article applies to Windows 10 or Windows 11. For previous versions of Windows, see <a href=""/en-US/kb/make-firefox-your-default-browser"">Make Firefox your default browser</a>. </span>If you don’t currently have Firefox installed on your computer, first <a href=""/en-US/kb/how-install-firefox-windows"">download and install Firefox</a>.</div> 
+<div class=""note""><strong>Note:</strong> <span class=""for"" data-for=""win7,win8,winxp,linux,mac"">This article applies to Windows 10 or Windows 11. For macOS, Linux or previous versions of Windows, see <a href=""/en-US/kb/make-firefox-your-default-browser"">Make Firefox your default browser</a>.</span><span class=""for"" data-for=""win10,win11""> If you don’t currently have Firefox installed on your computer, first <a href=""/en-US/kb/how-install-firefox-windows"">download and install Firefox</a>.</span></div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-set-firefox-as-your-default-browser""><span class=""tocnumber"">1</span> <span class=""toctext"">How to set Firefox as your default browser</span></a><ul><li class=""toclevel-2""><a href=""#w_make-firefox-your-default-browser-in-firefox-settings""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Make Firefox your default browser in Firefox Settings</span></a></li><li class=""toclevel-2""><a href=""#w_manually-set-firefox-as-your-default-browser-in-windows-settings""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Manually set Firefox as your default browser in Windows settings</span></a><ul><li class=""toclevel-3""><a href=""#w_for-windows-10""><span class=""tocnumber"">1.2.1</span> <span class=""toctext"">For Windows 10</span></a></li><li class=""toclevel-3""><a href=""#w_for-windows-11""><span class=""tocnumber"">1.2.2</span> <span class=""toctext"">For Windows 11</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">2</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_how-to-set-firefox-as-your-default-browser"">How to set Firefox as your default browser</h1>
 <h2 id=""w_make-firefox-your-default-browser-in-firefox-settings"">Make Firefox your default browser in Firefox Settings</h2>
@@ -48576,7 +48576,7 @@ _**Based on information from [About:config (mozillaZine KB)](http://kb.mozillazi
 </li><li><a href=""/en-US/kb/setting-firefox-default-browser-does-not-work"">Setting Firefox as the default browser does not work - What to do</a>
 </li></ul>",firefox,settings,"Whether you're using Windows 10 or the latest Windows 11, this guide will help you set Firefox as your default browser with minimal fuss. Setting Firefox as your default browser on Windows has become a bit more involved due to changes in how Windows manages default applications. We introduced a new guidance notification feature to help you easily navigate these changes.
 
-**Note:** This article applies to Windows 10 or Windows 11. For previous versions of Windows, see [Make Firefox your default browser](\""https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser""). If you don’t currently have Firefox installed on your computer, first [download and install Firefox](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"").
+**Note:** This article applies to Windows 10 or Windows 11. For macOS, Linux or previous versions of Windows, see [Make Firefox your default browser](\""https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser""). If you don’t currently have Firefox installed on your computer, first [download and install Firefox](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"").
 
 ## Table of Contents
 
@@ -50230,8 +50230,8 @@ Your password will be copied to the clipboard for you to paste wherever you want
 <h1 id=""w_switch-between-regular-and-private-browsing"">Switch between regular and private browsing</h1>
 <ol><li>Tap the numeric tab icon at the bottom of the screen.<br><img alt=""tabios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-17-06-44-39-154c58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 
-</li><li>Tap the <span class=""button"">Private</span> button at the top/bottom center of the screen.<br><img alt=""privateios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-15-12-10-34-a4a326.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</li><li>To switch back to regular browsing, tap the <span class=""button"">Tabs</span> button again.
+</li><li>Tap <strong>Private</strong> at the top/bottom center of the screen.<br><img alt=""privateios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-15-12-10-34-a4a326.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</li><li>To switch back to regular browsing, tap <strong>Tabs</strong> again.
 </li></ol>
 <h1 id=""w_know-when-youre-in-private-browsing-mode"">Know when you’re in private browsing mode</h1>
 <p>You’re in private browsing mode if:
@@ -50284,9 +50284,9 @@ Private browsing lets you browse without saving your history, cookies or passwor
 
 1. Tap the numeric tab icon at the bottom of the screen.  
  ![tabios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap the Private button at the top/bottom center of the screen.  
+2. Tap **Private** at the top/bottom center of the screen.  
  ![privateios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-3. To switch back to regular browsing, tap the Tabs button again.
+3. To switch back to regular browsing, tap **Tabs** again.
 
 # Know when you’re in private browsing mode
 
@@ -58301,247 +58301,6 @@ To get a print-friendly view, turn on [Reader View](\""https://support.mozilla.o
 3. Long press a bookmark to enter selection mode.
 4. Tap the 3-dot menu in the toolbar.
 5. Tap Select all.
-
-"
-39206,Enable email invitations for CalDAV servers configured to do serverside scheduling,enable-email-invitations-caldav-servers-configured,https://support.mozilla.org/en-US/kb/enable-email-invitations-caldav-servers-configured,en-US,How to configure Thunderbird/Lightning to send email invitations even if you're subscribed to a CalDAV calendar supporting serverside scheduling.,"<p>If you have subscribed to a calendar using the caldav protocol, you might have experienced that if you have created an event and added other people to join it, there seems to be no invitation send out when saving the event.
-</p><p>Apart from not having an email identity associated to this calendar, that could be related to the server settings, which might tell Thunderbird/Lightning that the server will take care of any scheduling operation. But somethimes, this is not what you want since you cannot see yourself whether or not an invitation was send out properly or the server supports only scheduling operations for users on the same calendar server and you want to also invite other people.
-</p><p>Starting with Thunderbird 60 / Lightning 6.2, there is a per calendar option available to overrule the servers scheduling options and enforce Lightning to do email scheduling.
-</p><p>To enable it, switch to the calendar or task view, and right-click on the respective caldav calendar and select the properties item in the context menu.
-</p><p><img alt=""Editing calendar properties"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-07-04-29-52-80b02e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Now, you just check the option ""Prefer client-side email scheduling"", which is available below the dropdown list to select an email identity. This option will be only visible for CalDAV calendars but not for any other type of calendar.
-</p><p><img alt=""Prefer email scheduling in calendar properties"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-07-04-33-30-470cf0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Since email invitations for a calendar only work properly if you have associated an email identity to the calendar, the feature won't be available, if you haven't done so. Even if you configure it first and then remove the email identity, it won't be effective.
-</p><p><img alt=""Disabled option to prefer email scheduling"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-07-04-36-31-a9a2c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>If you're configuring a new caldav calendar, enabling this feature from within the calendar wizard is prepared but currently not enabled until the server feature detection is implemented. So, currently you need to edit the calendar preferences as described above after creating the calendar.
-</p>",thunderbird,calendar,"If you have subscribed to a calendar using the caldav protocol, you might have experienced that if you have created an event and added other people to join it, there seems to be no invitation send out when saving the event.
-
-Apart from not having an email identity associated to this calendar, that could be related to the server settings, which might tell Thunderbird/Lightning that the server will take care of any scheduling operation. But somethimes, this is not what you want since you cannot see yourself whether or not an invitation was send out properly or the server supports only scheduling operations for users on the same calendar server and you want to also invite other people.
-
-Starting with Thunderbird 60 / Lightning 6.2, there is a per calendar option available to overrule the servers scheduling options and enforce Lightning to do email scheduling.
-
-To enable it, switch to the calendar or task view, and right-click on the respective caldav calendar and select the properties item in the context menu.
-
-![Editing calendar properties](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Now, you just check the option ""Prefer client-side email scheduling"", which is available below the dropdown list to select an email identity. This option will be only visible for CalDAV calendars but not for any other type of calendar.
-
-![Prefer email scheduling in calendar properties](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Since email invitations for a calendar only work properly if you have associated an email identity to the calendar, the feature won't be available, if you haven't done so. Even if you configure it first and then remove the email identity, it won't be effective.
-
-![Disabled option to prefer email scheduling](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-If you're configuring a new caldav calendar, enabling this feature from within the calendar wizard is prepared but currently not enabled until the server feature detection is implemented. So, currently you need to edit the calendar preferences as described above after creating the calendar.
-
-"
-39272,File system paths on Linux are always treated as UTF-8,utf-8-only-file-paths,https://support.mozilla.org/en-US/kb/utf-8-only-file-paths,en-US,"On Linux, the profile path is required to be valid UTF-8. Names of downloaded files are encoded in UTF-8 regardless of glibc and glib settings.","<div class=""for"" data-for=""not linux""><div class=""warning"">This article applies to Linux systems only.</div></div>
-<p>If you are using Linux, your file system has to be encoded in UTF-8 or Firefox won't understand it and it will generate error messages such as ""Error: The profile path is not valid UTF-8. Unable to continue.""
-</p><p>If you're not able to configure your filesystem as UTF-8, we recommend using only the letters a-z in the name of the Firefox profile and the download directory.
-</p><p>To change the way your file system is encoded, please consult the documentation for your Linux distribution.
-</p>
-<div class=""note"">For more information about UTF-8, see <a href=""https://developer.mozilla.org/en-US/docs/Glossary/UTF-8"">UTF-8 on the Mozilla Developer Network (MDN)</a>.</div>",firefox,settings,"This article applies to Linux systems only.
-
-If you are using Linux, your file system has to be encoded in UTF-8 or Firefox won't understand it and it will generate error messages such as ""Error: The profile path is not valid UTF-8. Unable to continue.""
-
-If you're not able to configure your filesystem as UTF-8, we recommend using only the letters a-z in the name of the Firefox profile and the download directory.
-
-To change the way your file system is encoded, please consult the documentation for your Linux distribution.
-
-For more information about UTF-8, see [UTF-8 on the Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8).
-"
-39295,Does Firefox share my location with websites?,does-firefox-share-my-location-websites,https://support.mozilla.org/en-US/kb/does-firefox-share-my-location-websites,en-US,Learn what information Firefox sends to websites about your location and how to use and manage location-aware features of your browser.,"<p>Firefox can use your device’s location to help websites provide local services, like finding nearby stores or weather updates. Firefox never shares your location without asking first, and you can always change or remove location permissions at any time.
-</p><p>You’re always in control of what’s shared — and with whom.
-</p><p>This article explains the location-aware features of Firefox and how to manage permissions for websites that ask you to share your location. 
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_location-aware-browsing""><span class=""tocnumber"">1</span> <span class=""toctext"">Location-aware browsing</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-it-work""><span class=""tocnumber"">2</span> <span class=""toctext"">How does it work?</span></a><ul><li class=""toclevel-2""><a href=""#w_temporary-permissions""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Temporary permissions</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-information-is-being-sent-and-to-whom-how-is-my-privacy-protected""><span class=""tocnumber"">3</span> <span class=""toctext"">What information is being sent, and to whom? How is my privacy protected?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-undo-a-permission-granted-to-a-site""><span class=""tocnumber"">4</span> <span class=""toctext"">How do I undo a permission granted to a site?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-stop-all-sites-from-asking-to-access-my-location""><span class=""tocnumber"">5</span> <span class=""toctext"">How do I stop all sites from asking to access my location?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-add-support-for-geolocation-to-my-website""><span class=""tocnumber"">6</span> <span class=""toctext"">How can I add support for Geolocation to my website?</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">7</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_location-aware-browsing"">Location-aware browsing</h1>
-<p>Websites using location-aware browsing will ask where you are located in order to enhance your browsing and searching experience. For example, sharing your location can help you find food near you faster or quickly get directions to places you want to go.
-</p><p>Websites using location-aware browsing signal to Firefox that they want to access your location. By default, Firefox asks you if you want to share your location with these websites.
-</p><p><strong>This service is optional.</strong> Firefox doesn’t share your location without your permission. Like all elements of Firefox, it is created using open standards to ease adoption by web developers.
-</p>
-<h1 id=""w_how-does-it-work"">How does it work?</h1>
-<p>When you visit a location-aware website, Firefox will ask you if you want to share your location. It will:
-</p>
-<ul><li>Show a pop-up asking if you want to allow or block access
-</li><li>Let you decide whether to remember your choice
-</li><li>Never share your location unless you say yes
-</li></ul>
-<dl><dt><img alt=""Location request panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-26-12-03-09-e38237.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-<p>Firefox uses information like your device’s IP address and nearby Wi-Fi networks to estimate your location. This information is sent to Google Location Services over a secure connection, but only if you allow the request.
-</p><p>Firefox does not:
-</p>
-<ul><li>Track your physical movements
-</li><li>Send your exact address
-</li><li>Share your location with websites or services unless you approve it
-</li></ul>
-<h2 id=""w_temporary-permissions"">Temporary permissions</h2>
-<p>Firefox is able to temporarily remember when you grant permissions to websites (like geolocation). If you allow a website location access but you do not check the <span class=""menu"">Remember this decision</span> box, Firefox will allow that permission on a temporary basis. Temporary permissions are automatically removed either after one hour or when the tab is closed. This provides control over shared data, ensuring that permissions are not retained longer than necessary.
-</p><p>To manage temporary permissions:
-</p>
-<ol><li>At the left side of the address bar, click the Permissions icon <img alt=""Fx89PermissionsIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-10-05-34-30-47c30e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
-</li><li>Find the Location entry under <strong>Allowed Temporarily</strong>.
-</li><li>Click the <strong>X</strong> to remove the permission.
-</li></ol>
-<p><img alt=""Temporary permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-26-12-14-32-95ad23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""> 
-</p>
-<h1 id=""w_what-information-is-being-sent-and-to-whom-how-is-my-privacy-protected"">What information is being sent, and to whom? How is my privacy protected?</h1>
-<p>
-Your privacy is extremely important to us, and Firefox never shares your location without your permission. When you visit a page that requests your information, you’ll be asked before any information is shared with the requesting website and our third-party service provider.
-</p><p>By default, Firefox uses Google Location Services to determine your location by sending:
-</p>
-<ul><li> your computer’s IP address,
-</li><li> information about the nearby wireless access points, and
-</li><li> a random client identifier, which is assigned by Google, that expires every 2 weeks.
-</li></ul>
-<p>Google Location Services then returns your estimated geolocation. For a complete description of information collected and used by Google, please see the <a href=""https://www.google.com/privacy/lsf.html"">Google Location Service in Mozilla Firefox Privacy Policy</a>.
-</p><p>The information is exchanged over an encrypted connection to protect your privacy. Once Firefox has your location information, it passes it to the website that requested it. The name and location of the website you are visiting are never shared with Google Location Services.
-</p><p>For a complete description of information collected and used by Firefox, please see the <a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>.
-</p><p>For information about what the requesting website does with your location information, please refer to that website’s privacy policy.
-</p>
-<h1 id=""w_how-do-i-undo-a-permission-granted-to-a-site"">How do I undo a permission granted to a site?</h1>
-<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li> Use the Settings
- search box to search for <strong>location</strong> (or select the <span class=""menu"">Privacy &amp; Security</span> panel and scroll down to the <em>Permissions</em> section).
-</li><li> Under <em>Permissions</em>, click the <span class=""button"">Settings</span> button to the right of <strong>Location</strong>.
-<dl><dt><img alt=""Fx98PreferencesSearchResultsLocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-14-17-56-21-f63b19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-<ul><li>The <em>Settings - Location Permissions</em> dialog box will open.
-</li></ul>
-<dl><dt><img alt=""Fx98LocationPermissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-14-17-57-57-12ad52.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li> Review or change the list of sites with allowed or denied location permission.
-</li></ol>
-<h1 id=""w_how-do-i-stop-all-sites-from-asking-to-access-my-location"">How do I stop all sites from asking to access my location?</h1>
-<p>You can set Firefox to automatically deny new permission requests to all websites, without asking.
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li> Use the Settings
- search box to search for <strong>location</strong> (or select the <span class=""menu"">Privacy &amp; Security</span> panel and scroll down to the <em>Permissions</em> section).  
-</li><li> Under <em>Permissions</em>, click the <span class=""button"">Settings…</span> button to the right of <strong>Location</strong>.
-</li><li> In the <em>Settings - Location Permissions</em> box that opens, check-mark the box next to <span class=""menu"">Block new requests asking to access your location</span>.
-</li><li> Click <span class=""button"">Save Changes</span>.
-</li></ol>
-<p>This will prevent any websites from requesting new permission to access your location. Only the sites with permission granted in the Location Permissions settings box will have access.
-</p>
-<h1 id=""w_how-can-i-add-support-for-geolocation-to-my-website"">How can I add support for Geolocation to my website?</h1>
-<p>You can integrate Geolocation support into your service by following <a href=""https://developer.mozilla.org/docs/Web/API/Geolocation_API"">the Geolocation API guide at <em>MDN web docs</em></a>.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/clear-cookies-and-site-data-firefox"">Clear cookies and site data in Firefox</a>
-</li><li><a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>
-</li></ul>",firefox,privacy-and-security,"Firefox can use your device’s location to help websites provide local services, like finding nearby stores or weather updates. Firefox never shares your location without asking first, and you can always change or remove location permissions at any time.
-
-You’re always in control of what’s shared — and with whom.
-
-This article explains the location-aware features of Firefox and how to manage permissions for websites that ask you to share your location.
-
-## Table of Contents
-
-- [1 Location-aware browsing](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_location-aware-browsing)
-- [2 How does it work?](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_how-does-it-work)
-  - [2.1 Temporary permissions](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_temporary-permissions)
-
-- [3 What information is being sent, and to whom? How is my privacy protected?](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_what-information-is-being-sent-and-to-whom-how-is-my-privacy-protected)
-- [4 How do I undo a permission granted to a site?](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_how-do-i-undo-a-permission-granted-to-a-site)
-- [5 How do I stop all sites from asking to access my location?](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_how-do-i-stop-all-sites-from-asking-to-access-my-location)
-- [6 How can I add support for Geolocation to my website?](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_how-can-i-add-support-for-geolocation-to-my-website)
-- [7 Related articles](https://support.mozilla.org/kb/does-firefox-share-my-location-websites#w_related-articles)
-
-# Location-aware browsing
-
-Websites using location-aware browsing will ask where you are located in order to enhance your browsing and searching experience. For example, sharing your location can help you find food near you faster or quickly get directions to places you want to go.
-
-Websites using location-aware browsing signal to Firefox that they want to access your location. By default, Firefox asks you if you want to share your location with these websites.
-
-**This service is optional.** Firefox doesn’t share your location without your permission. Like all elements of Firefox, it is created using open standards to ease adoption by web developers.
-
-# How does it work?
-
-When you visit a location-aware website, Firefox will ask you if you want to share your location. It will:
-
-- Show a pop-up asking if you want to allow or block access
-- Let you decide whether to remember your choice
-- Never share your location unless you say yes
-
-<dl><dt>
-<img alt=""Location request panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-26-12-03-09-e38237.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-
-Firefox uses information like your device’s IP address and nearby Wi-Fi networks to estimate your location. This information is sent to Google Location Services over a secure connection, but only if you allow the request.
-
-Firefox does not:
-
-- Track your physical movements
-- Send your exact address
-- Share your location with websites or services unless you approve it
-
-## Temporary permissions
-
-Firefox is able to temporarily remember when you grant permissions to websites (like geolocation). If you allow a website location access but you do not check the Remember this decision box, Firefox will allow that permission on a temporary basis. Temporary permissions are automatically removed either after one hour or when the tab is closed. This provides control over shared data, ensuring that permissions are not retained longer than necessary.
-
-To manage temporary permissions:
-
-1. At the left side of the address bar, click the Permissions icon ![Fx89PermissionsIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-2. Find the Location entry under **Allowed Temporarily**.
-3. Click the **X** to remove the permission.
-
-![Temporary permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# What information is being sent, and to whom? How is my privacy protected?
-
-Your privacy is extremely important to us, and Firefox never shares your location without your permission. When you visit a page that requests your information, you’ll be asked before any information is shared with the requesting website and our third-party service provider.
-
-By default, Firefox uses Google Location Services to determine your location by sending:
-
-- your computer’s IP address,
-- information about the nearby wireless access points, and
-- a random client identifier, which is assigned by Google, that expires every 2 weeks.
-
-Google Location Services then returns your estimated geolocation. For a complete description of information collected and used by Google, please see the [Google Location Service in Mozilla Firefox Privacy Policy](https://www.google.com/privacy/lsf.html).
-
-The information is exchanged over an encrypted connection to protect your privacy. Once Firefox has your location information, it passes it to the website that requested it. The name and location of the website you are visiting are never shared with Google Location Services.
-
-For a complete description of information collected and used by Firefox, please see the [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-For information about what the requesting website does with your location information, please refer to that website’s privacy policy.
-
-# How do I undo a permission granted to a site?
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Use the Settings search box to search for **location** (or select the Privacy & Security panel and scroll down to the _Permissions_ section).
-3. Under _Permissions_, click the Settings button to the right of **Location**.<dl><dt>
-<img alt=""Fx98PreferencesSearchResultsLocation"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-14-17-56-21-f63b19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-  - The _Settings - Location Permissions_ dialog box will open.
-
-<dl><dt>
-<img alt=""Fx98LocationPermissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-14-17-57-57-12ad52.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-4. Review or change the list of sites with allowed or denied location permission.
-
-# How do I stop all sites from asking to access my location?
-
-You can set Firefox to automatically deny new permission requests to all websites, without asking.
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Use the Settings search box to search for **location** (or select the Privacy & Security panel and scroll down to the _Permissions_ section). 
-3. Under _Permissions_, click the Settings… button to the right of **Location**.
-4. In the _Settings - Location Permissions_ box that opens, check-mark the box next to Block new requests asking to access your location.
-5. Click Save Changes.
-
-This will prevent any websites from requesting new permission to access your location. Only the sites with permission granted in the Location Permissions settings box will have access.
-
-# How can I add support for Geolocation to my website?
-
-You can integrate Geolocation support into your service by following [the Geolocation API guide at _MDN web docs_](https://developer.mozilla.org/docs/Web/API/Geolocation_API).
-
-# Related articles
-
-- [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"")
-- [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/)
 
 "
 39313,Tips for assessing the safety of an extension,tips-assessing-safety-extension,https://support.mozilla.org/en-US/kb/tips-assessing-safety-extension,en-US,Here are a few tips for assessing the safety of a third party extension.,"<p>When installing an extension, you might encounter a message requesting permission to access your browser's data or features. Granting this permission is necessary for the extension to install and function properly.
@@ -72447,101 +72206,6 @@ The kiosk mode provided by Firefox is a very basic mode intended for kiosks wher
 - [Using Dark Theme in Firefox for Android](\""https://support.mozilla.org/en-US/kb/using-dark-theme-firefox-android"")
 
 "
-46832,Deploy Firefox on macOS using PKG and Jamf,deploying-firefox-macos-using-pkg-and-jamf,https://support.mozilla.org/en-US/kb/deploying-firefox-macos-using-pkg-and-jamf,en-US,Learn how to deploy Firefox on macOS using pkg and Jamf,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
-Download the macOS .pkg for the release version and language you want to deploy:
-<p></p>
-<ol><li>Browse to <a href=""https://ftp.mozilla.org/pub/firefox/releases/"">https://ftp.mozilla.org/pub/firefox/releases/</a>
-</li><li>Navigate to the release version directory (for example <em>139.0.1</em>).
-</li><li>Navigate to the <em>mac</em> platform directory.
-</li><li>Navigate to the language directory (for example <em>en-US</em>).
-</li></ol>
-<p>For example: <a href=""https://ftp.mozilla.org/pub/firefox/releases/139.0.1/mac/en-US/"">https://ftp.mozilla.org/pub/firefox/releases/139.0.1/mac/en-US/</a> 
-</p><p>Once the .pkg is downloaded:
-</p>
-<ol><li>Log in to <em>Jamf Now</em>.
-</li><li>Click the <strong>Apps</strong> tab.
-</li><li>Click <strong>Add an App</strong>.
-</li><li>Click <strong>Upload Your App</strong>.
-</li><li>Drag and drop the PKG file into the upload page or click <strong>Browse</strong> to search for it on your computer.
-</li></ol>
-<p>Once the file successfully uploads, it will appear on your Apps page and is ready for deployment via Blueprint. For additional details from Jamf, see <a href=""https://support.jamfnow.com/s/article/360015973211-Tutorial-Deploying-macOS-packages"">https://support.jamfnow.com/s/article/360015973211-Tutorial-Deploying-macOS-packages</a>.
-</p>",firefox-enterprise,installation-and-updates,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
-Download the macOS .pkg for the release version and language you want to deploy:
-
-1. Browse to [https://ftp.mozilla.org/pub/firefox/releases/](https://ftp.mozilla.org/pub/firefox/releases/)
-2. Navigate to the release version directory (for example _139.0.1_).
-3. Navigate to the _mac_ platform directory.
-4. Navigate to the language directory (for example _en-US_).
-
-For example: [https://ftp.mozilla.org/pub/firefox/releases/139.0.1/mac/en-US/](https://ftp.mozilla.org/pub/firefox/releases/139.0.1/mac/en-US/)
-
-Once the .pkg is downloaded:
-
-1. Log in to _Jamf Now_.
-2. Click the **Apps** tab.
-3. Click **Add an App**.
-4. Click **Upload Your App**.
-5. Drag and drop the PKG file into the upload page or click **Browse** to search for it on your computer.
-
-Once the file successfully uploads, it will appear on your Apps page and is ready for deployment via Blueprint. For additional details from Jamf, see [https://support.jamfnow.com/s/article/360015973211-Tutorial-Deploying-macOS-packages](https://support.jamfnow.com/s/article/360015973211-Tutorial-Deploying-macOS-packages).
-
-"
-46951,Disable Firefox Sync,disable-firefox-sync,https://support.mozilla.org/en-US/kb/disable-firefox-sync,en-US,"Learn how to turn off Firefox Sync if you’d like to use your Mozilla account without syncing data such as, bookmarks, history and tabs.","<p>Firefox Sync allows you to sync your bookmarks, logins and passwords, browsing history, tab settings and other items across various devices. See <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> to learn more about how to turn on Sync.
-</p><p>You can disable Sync, if you like, to avoid syncing your data across certain devices when creating or signing in to your Mozilla account. You'll remain signed in to your account even after Sync has been disabled, unless you decide to sign out. You can also disable Sync for devices that have been synced previously. For additional information, see <a href=""/en-US/kb/remove-synced-device-firefox-accounts"">Remove a synced device from your Mozilla account</a>.
-</p>
-<div class=""note""><strong>Note:</strong> You can sign up for a <a href=""/en-US/kb/how-do-i-set-sync-my-computer#w_create-a-mozilla-account"">Mozilla account</a> without having to enable Firefox Sync immediately.</div>
-<h1 id=""w_disable-sync-for-previously-synced-devices"">Disable Sync for previously synced devices</h1>
-<p>To disable Sync for previously synced devices:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <strong>Sync </strong> from the menu options to open the Sync settings panel.
-</li><li>Click the <span class=""button"">Manage Sync</span> button in the <em>Syncing: ON</em> subsection.
-<dl><dt>The <em>Choose What To Sync</em> pop-up will open.
-</dt><dt><img alt=""Sync_proton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-12-15-17-45-ed2347.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Click <span class=""menu"">Disconnect…</span> A confirmation prompt will appear.
-<dl><dt><img alt=""Sync_protonPrompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-12-15-18-31-25d72e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Click the <span class=""button"">Disconnect</span> button in the prompt.
-</li></ol>
-<p>This Firefox profile will stop syncing your account but won’t delete any data or settings. The <span class=""menu"">Sync</span> panel of your Firefox Settings
- page will now show <em>Syncing: OFF</em>.
-</p>
-<dl><dt><img alt=""Fx89SyncingOff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-05-04-13-06-49f4bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div class=""note""><strong>Note:</strong> To turn syncing back on, click <span class=""menu"">Turn on syncing…</span> in the <span class=""menu"">Sync</span> panel of your Firefox Settings
- page.</div>",firefox;mozilla-account,performance-and-connectivity;privacy-and-security;sync-data,"Firefox Sync allows you to sync your bookmarks, logins and passwords, browsing history, tab settings and other items across various devices. See [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to learn more about how to turn on Sync.
-
-You can disable Sync, if you like, to avoid syncing your data across certain devices when creating or signing in to your Mozilla account. You'll remain signed in to your account even after Sync has been disabled, unless you decide to sign out. You can also disable Sync for devices that have been synced previously. For additional information, see [Remove a synced device from your Mozilla account](\""https://support.mozilla.org/en-US/kb/remove-synced-device-firefox-accounts"").
-
-**Note:** You can sign up for a [Mozilla account](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer#w_create-a-mozilla-account"") without having to enable Firefox Sync immediately.
-
-# Disable Sync for previously synced devices
-
-To disable Sync for previously synced devices:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click **Sync** from the menu options to open the Sync settings panel.
-3. Click the Manage Sync button in the _Syncing: ON_ subsection.<dl>
-<dt>The <em>Choose What To Sync</em> pop-up will open.
-</dt>
-<dt>
-<img alt=""Sync_proton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-12-15-17-45-ed2347.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt>
-</dl>
-4. Click Disconnect… A confirmation prompt will appear.<dl><dt>
-<img alt=""Sync_protonPrompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-12-15-18-31-25d72e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-5. Click the Disconnect button in the prompt.
-
-This Firefox profile will stop syncing your account but won’t delete any data or settings. The Sync panel of your Firefox Settings page will now show _Syncing: OFF_.
-
-<dl><dt>
-<img alt=""Fx89SyncingOff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-05-04-13-06-49f4bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-**Note:** To turn syncing back on, click Turn on syncing… in the Sync panel of your Firefox Settings page.
-"
 46980,Using Dark Theme in Firefox for iOS,using-dark-theme-firefox-ios,https://support.mozilla.org/en-US/kb/using-dark-theme-firefox-ios,en-US,Firefox for iOS can automatically switch to a dark or light theme to match your device’s settings if you have iOS 13.,"<p>Firefox for iOS supports iOS Dark Mode. You can switch between <strong>Light Mode</strong> and <strong>Dark Mode</strong> based on any of the following behavior:
 </p>
 <ul><li>Set automatically based on your screen brightness
@@ -83386,6 +83050,94 @@ Are you interested in supporting Firefox (and other Mozilla's products) users by
 - [Support forum - How to escalate](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-escalate"") — Learn how to escalate an issue
 - [Support forum - How to follow up](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-follow-up"") — Learn how to follow up on an issue
 - **[Support forum - Offtopic and duplicate questions](\""https://support.mozilla.org/en-US/kb/support-forum-offtopic-and-duplicate-questions"") — What to do with offtopic and duplicate questions? (You're here!)**
+
+For more guidelines on Support Forum contribution, see [these articles](https://support.mozilla.org/products/contributor/forum).
+
+"
+54965,Support forum - How to follow up,support-forum-how-to-follow-up,https://support.mozilla.org/en-US/kb/support-forum-how-to-follow-up,en-US,Learn how to follow up on an issue,"<h1 id=""w_following-up-an-issue"">Following up an issue</h1>
+<p>The answers you give may not be correct, or the user may have some follow up questions for you. In either case, it's useful to both you and the user that your conversation continues.  You are subscribed to threads by default, meaning that you will get e-mail notifications whenever someone replies. You may also find <a href=""/questions/all?show=all&amp;owner=mine"">the list of threads you posted in</a> useful.
+</p>
+<h1 id=""w_chosen-solution"">Chosen solution</h1>
+<p><img alt=""Solves the problem"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-30-01-09-45-09a46e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+Once their question has been solved, the user can choose which answer actually helped them to solve their problem by choosing an answer as a solution. If you believe that your answer has solved their problem, you can ask the Original Poster (OP) to mark your answer as a solution since they probably are not aware that they can do that. This can also be done by a forum moderator.
+</p>
+<h1 id=""w_complete-forum-support-guidelines"">Complete Forum Support Guidelines</h1>
+<p>Are you interested in supporting Firefox (and other Mozilla's products) users by answering support questions? Please follow these guidelines that will help explain how we do things:
+</p>
+<ul><li> <a href=""/en-US/kb/mozilla-support-rules-guidelines"">Mozilla Support rules and guidelines</a> - Make sure to read the rules and guidelines first
+</li><li> <a href=""/en-US/kb/support-forum-find-support-questions"">Support forum - Find support questions</a> — Learn how to find support questions
+</li><li> <a href=""/en-US/kb/support-forum-find-support-answers"">Support forum - Find support answers</a> — Learn how to find answers to support questions
+</li><li> <a href=""/en-US/kb/support-forum-post-replies"">Support forum - Post replies</a> — Learn how to post replies to support questions
+</li><li> <a href=""/en-US/kb/support-forum-how-to-escalate"">Support forum - How to escalate</a> — Learn how to escalate an issue
+</li><li> <strong><a href=""/en-US/kb/support-forum-how-to-follow-up"">Support forum - How to follow up</a>  — Learn how to follow up on an issue (You're here!)</strong>
+</li><li> <a href=""/en-US/kb/support-forum-offtopic-and-duplicate-questions"">Support forum - Offtopic and duplicate questions</a> - What to do with offtopic and duplicate questions?
+</li></ul>
+<p>For more guidelines on Support Forum contribution, see <a href=""https://support.mozilla.org/products/contributor/forum"">these articles</a>.
+
+</p>",contributor,forum,"# Following up an issue
+
+The answers you give may not be correct, or the user may have some follow up questions for you. In either case, it's useful to both you and the user that your conversation continues. You are subscribed to threads by default, meaning that you will get e-mail notifications whenever someone replies. You may also find [the list of threads you posted in](\""https://support.mozilla.org/questions/all?show=all&owner=mine"") useful.
+
+# Chosen solution
+
+![Solves the problem](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Once their question has been solved, the user can choose which answer actually helped them to solve their problem by choosing an answer as a solution. If you believe that your answer has solved their problem, you can ask the Original Poster (OP) to mark your answer as a solution since they probably are not aware that they can do that. This can also be done by a forum moderator.
+
+# Complete Forum Support Guidelines
+
+Are you interested in supporting Firefox (and other Mozilla's products) users by answering support questions? Please follow these guidelines that will help explain how we do things:
+
+- [Mozilla Support rules and guidelines](\""https://support.mozilla.org/en-US/kb/mozilla-support-rules-guidelines"") - Make sure to read the rules and guidelines first
+- [Support forum - Find support questions](\""https://support.mozilla.org/en-US/kb/support-forum-find-support-questions"") — Learn how to find support questions
+- [Support forum - Find support answers](\""https://support.mozilla.org/en-US/kb/support-forum-find-support-answers"") — Learn how to find answers to support questions
+- [Support forum - Post replies](\""https://support.mozilla.org/en-US/kb/support-forum-post-replies"") — Learn how to post replies to support questions
+- [Support forum - How to escalate](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-escalate"") — Learn how to escalate an issue
+- **[Support forum - How to follow up](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-follow-up"") — Learn how to follow up on an issue (You're here!)**
+- [Support forum - Offtopic and duplicate questions](\""https://support.mozilla.org/en-US/kb/support-forum-offtopic-and-duplicate-questions"") - What to do with offtopic and duplicate questions?
+
+For more guidelines on Support Forum contribution, see [these articles](https://support.mozilla.org/products/contributor/forum).
+
+"
+54966,Support forum - How to escalate,support-forum-how-to-escalate,https://support.mozilla.org/en-US/kb/support-forum-how-to-escalate,en-US,Learn how to escalate an issue from the support forum,"<h1 id=""w_escalate-a-support-question"">Escalate a support question</h1>
+<h2 id=""w_getting-help-from-fellow-contributors"">Getting help from fellow contributors</h2>
+<p>If you get stuck on a difficult support question, you can use the <a href=""https://support.mozilla.org/forums/support-forum-contributors"">Support Forum Contributors</a> discussion forum to discuss difficult questions or to see if other contributors are able to help. The <a href=""https://chat.mozilla.org/#/room/#SUMO:mozilla.org"">SUMO Matrix room</a> is another place to ask for help.
+</p>
+<h2 id=""w_contact-an-admin"">Contact an admin</h2>
+<p>Please see <a href=""/en-US/kb/attnadmin-how-community-can-reach-admin-and-when"">[Attn Admin] How the community can reach an Admin and when you might want to</a> to learn how the community can reach an admin and when you might want to do so.
+</p>
+<h1 id=""w_complete-forum-support-guidelines"">Complete Forum Support Guidelines</h1>
+<p>Are you interested in supporting Firefox (and other Mozilla's products) users by answering support questions? Please follow these guidelines that will help explain how we do things:
+</p>
+<ul><li> <a href=""/en-US/kb/mozilla-support-rules-guidelines"">Mozilla Support rules and guidelines</a> - Make sure to read the rules and guidelines first
+</li><li> <a href=""/en-US/kb/support-forum-find-support-questions"">Support forum - Find support questions</a> — Learn how to find support questions
+</li><li> <a href=""/en-US/kb/support-forum-find-support-answers"">Support forum - Find support answers</a> — Learn how to find answers to support questions 
+</li><li> <a href=""/en-US/kb/support-forum-post-replies"">Support forum - Post replies</a>  — Learn how to post replies to support questions 
+</li><li> <strong><a href=""/en-US/kb/support-forum-how-to-escalate"">Support forum - How to escalate</a>  — Learn how to escalate an issue (You're here!)</strong>
+</li><li> <a href=""/en-US/kb/support-forum-how-to-follow-up"">Support forum - How to follow up</a>  — Learn how to follow up on an issue
+</li><li> <a href=""/en-US/kb/support-forum-offtopic-and-duplicate-questions"">Support forum - Offtopic and duplicate questions</a> - What to do with offtopic and duplicate questions?
+</li></ul>
+<p>For more guidelines on Support Forum contribution, see <a href=""https://support.mozilla.org/products/contributor/forum"">these articles</a>.
+
+</p>",contributor,forum,"# Escalate a support question
+
+## Getting help from fellow contributors
+
+If you get stuck on a difficult support question, you can use the [Support Forum Contributors](https://support.mozilla.org/forums/support-forum-contributors) discussion forum to discuss difficult questions or to see if other contributors are able to help. The [SUMO Matrix room](https://chat.mozilla.org/#/room/#SUMO:mozilla.org) is another place to ask for help.
+
+## Contact an admin
+
+Please see [[Attn Admin] How the community can reach an Admin and when you might want to](\""https://support.mozilla.org/en-US/kb/attnadmin-how-community-can-reach-admin-and-when"") to learn how the community can reach an admin and when you might want to do so.
+
+# Complete Forum Support Guidelines
+
+Are you interested in supporting Firefox (and other Mozilla's products) users by answering support questions? Please follow these guidelines that will help explain how we do things:
+
+- [Mozilla Support rules and guidelines](\""https://support.mozilla.org/en-US/kb/mozilla-support-rules-guidelines"") - Make sure to read the rules and guidelines first
+- [Support forum - Find support questions](\""https://support.mozilla.org/en-US/kb/support-forum-find-support-questions"") — Learn how to find support questions
+- [Support forum - Find support answers](\""https://support.mozilla.org/en-US/kb/support-forum-find-support-answers"") — Learn how to find answers to support questions 
+- [Support forum - Post replies](\""https://support.mozilla.org/en-US/kb/support-forum-post-replies"") — Learn how to post replies to support questions 
+- **[Support forum - How to escalate](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-escalate"") — Learn how to escalate an issue (You're here!)**
+- [Support forum - How to follow up](\""https://support.mozilla.org/en-US/kb/support-forum-how-to-follow-up"") — Learn how to follow up on an issue
+- [Support forum - Offtopic and duplicate questions](\""https://support.mozilla.org/en-US/kb/support-forum-offtopic-and-duplicate-questions"") - What to do with offtopic and duplicate questions?
 
 For more guidelines on Support Forum contribution, see [these articles](https://support.mozilla.org/products/contributor/forum).
 
@@ -94968,6 +94720,82 @@ Making sure the domains listed in this article are allowed by your firewall or o
 We hope you enjoy this new version. Thank you for using Firefox and supporting Mozilla’s mission for privacy, safety and inclusion on the Web.
 
 "
+60457,What's new in Firefox Klar for iOS (version 107),whats-new-firefox-klar-ios-version-107,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-107,en-US,Welcome to version 107 of Firefox Klar for iOS.,"<p>
+</p><p>Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
+</p>",klar,firefox-klar-ios,"Welcome to a new version of Firefox Klar for iOS (version 107). This release comes with bug fixes and technical improvements.
+
+"
+60493,Mozilla People Directory - Managing account data,mozilla-people-directory-managing-account-data,https://support.mozilla.org/en-US/kb/mozilla-people-directory-managing-account-data,en-US,Manage your account data in the Mozilla People Directory.,"<h1 id=""w_what-data-do-you-receive-from-my-account"">What data do you receive from my account?</h1>
+<h2 id=""w_required-account-data"">Required Account Data</h2>
+<ul><li>Username
+</li><li>Email address
+</li></ul>
+<p>We will authenticate your account using <a href=""https://wikipedia.org/wiki/OAuth"">OAuth</a>.
+</p>
+<h2 id=""w_optional-account-data"">Optional Account Data</h2>
+<ul><li>First Name
+</li><li>Last Name
+</li><li>Location, time zone
+</li><li>Secondary email address
+</li><li>Telephone number
+</li><li>Biography (blank text box)
+</li><li>Access Groups
+</li><li>Tags
+</li><li>Languages
+</li><li>GitHub and Bugzilla identities
+</li><li>Links to other accounts (for example Discourse, Vouches, Matrix, Slack, Zoom and IRC)
+</li></ul>
+<h1 id=""w_how-do-i-access-my-account-data"">How do I access my account data?</h1>
+<p>This is easily accessible by logging in to your account at <a href=""https://people.mozilla.org"">https://people.mozilla.org</a>.
+</p>
+<h1 id=""w_how-do-i-update-my-account-data"">How do I update my account data?</h1>
+<p>Once you're logged in to your Mozilla account at <a href=""https://people.mozilla.org/"">https://people.mozilla.org/</a>, you can update or edit your personal data. A pencil icon in the top right corner of each editable section allows you to modify your information.
+</p>
+<h1 id=""w_how-do-i-delete-my-account-data"">How do I delete my account data?</h1>
+<p>To delete your account, email Mozilla at <a href=""mailto:people-mozilla-org-support@mozilla.com"">people-mozilla-org-support@mozilla.com</a>.
+</p>
+<h1 id=""w_how-long-do-you-keep-my-account-data"">How long do you keep my account data?</h1>
+<p>We keep it for as long as your account is open, unless you choose to delete it.
+</p>",privacy-and-security,privacy-and-security,"# What data do you receive from my account?
+
+## Required Account Data
+
+- Username
+- Email address
+
+We will authenticate your account using [OAuth](https://wikipedia.org/wiki/OAuth).
+
+## Optional Account Data
+
+- First Name
+- Last Name
+- Location, time zone
+- Secondary email address
+- Telephone number
+- Biography (blank text box)
+- Access Groups
+- Tags
+- Languages
+- GitHub and Bugzilla identities
+- Links to other accounts (for example Discourse, Vouches, Matrix, Slack, Zoom and IRC)
+
+# How do I access my account data?
+
+This is easily accessible by logging in to your account at [https://people.mozilla.org](https://people.mozilla.org).
+
+# How do I update my account data?
+
+Once you're logged in to your Mozilla account at [https://people.mozilla.org/](https://people.mozilla.org/), you can update or edit your personal data. A pencil icon in the top right corner of each editable section allows you to modify your information.
+
+# How do I delete my account data?
+
+To delete your account, email Mozilla at [people-mozilla-org-support@mozilla.com](mailto:people-mozilla-org-support@mozilla.com).
+
+# How long do you keep my account data?
+
+We keep it for as long as your account is open, unless you choose to delete it.
+
+"
 60503,What's New in Firefox Focus for iOS,whats-new-firefox-focus-ios,https://support.mozilla.org/en-US/kb/whats-new-firefox-focus-ios,en-US,See what's new in the latest release of Firefox Focus for iOS.,"<p>Welcome to a new version of Firefox Focus for iOS. This release comes with bug fixes and technical improvements.
 </p>",focus-firefox,installation-and-updates;update,"Welcome to a new version of Firefox Focus for iOS. This release comes with bug fixes and technical improvements.
 
@@ -97493,8 +97321,8 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_translate-the-full-page""><span class=""tocnumber"">1</span> <span class=""toctext"">Translate the full page</span></a></li><li class=""toclevel-1""><a href=""#w_translate-selected-text""><span class=""tocnumber"">2</span> <span class=""toctext"">Translate selected text</span></a></li><li class=""toclevel-1""><a href=""#w_customize-translation-settings""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize translation settings</span></a></li><li class=""toclevel-1""><a href=""#w_disable-website-translations""><span class=""tocnumber"">4</span> <span class=""toctext"">Disable website translations</span></a></li><li class=""toclevel-1""><a href=""#w_configure-installed-languages""><span class=""tocnumber"">5</span> <span class=""toctext"">Configure installed languages</span></a></li><li class=""toclevel-1""><a href=""#w_quick-action-for-translations""><span class=""tocnumber"">6</span> <span class=""toctext"">Quick Action for Translations</span></a></li><li class=""toclevel-1""><a href=""#w_faq""><span class=""tocnumber"">7</span> <span class=""toctext"">FAQ</span></a><ul><li class=""toclevel-2""><a href=""#w_what-languages-are-currently-supported-by-firefox-translations""><span class=""tocnumber"">7.1</span> <span class=""toctext"">What languages are currently supported by Firefox Translations?</span></a></li><li class=""toclevel-2""><a href=""#w_is-firefoxs-translation-feature-available-on-mobile-version""><span class=""tocnumber"">7.2</span> <span class=""toctext"">Is Firefox's translation feature available on mobile version?</span></a></li><li class=""toclevel-2""><a href=""#w_does-firefoxs-translation-feature-work-with-non-text-content-like-images-or-videos""><span class=""tocnumber"">7.3</span> <span class=""toctext"">Does Firefox's translation feature work with non-text content, like images or videos?</span></a></li><li class=""toclevel-2""><a href=""#w_what-if-i-encounter-a-page-with-mixed-languages-or-content-in-multiple-languages-will-the-translation-still-work""><span class=""tocnumber"">7.4</span> <span class=""toctext"">What if I encounter a page with mixed languages or content in multiple languages? Will the translation still work?</span></a></li><li class=""toclevel-2""><a href=""#w_can-firefox-translate-pages-that-are-password-protected-or-behind-login-screens""><span class=""tocnumber"">7.5</span> <span class=""toctext"">Can Firefox translate pages that are password-protected or behind login screens?</span></a></li><li class=""toclevel-2""><a href=""#w_how-do-i-revert-a-page-to-its-original-language-after-translation""><span class=""tocnumber"">7.6</span> <span class=""toctext"">How do I revert a page to its original language after translation?</span></a></li><li class=""toclevel-2""><a href=""#w_how-do-i-stop-the-translation-panel-from-opening-automatically""><span class=""tocnumber"">7.7</span> <span class=""toctext"">How do I stop the translation panel from opening automatically?</span></a></li><li class=""toclevel-2""><a href=""#w_how-do-i-enable-the-translation-panel""><span class=""tocnumber"">7.8</span> <span class=""toctext"">How do I enable the translation panel?</span></a></li><li class=""toclevel-2""><a href=""#w_why-do-i-need-to-install-languages""><span class=""tocnumber"">7.9</span> <span class=""toctext"">Why do I need to install languages?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">8</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_translate-the-full-page"">Translate the full page</h1>
-<ol><li>When you visit a webpage in a supported language, the translation panel will open automatically. 
-<ul><li>If the panel does not open, click the translation icon in the toolbar. 
+<ol><li>When you visit a webpage in a supported language, the translation panel will open automatically.
+<ul><li>If the panel does not open, click the translation icon in the toolbar.
 </li></ul>
 <dl><dt><img alt=""Translation icon - toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-18-08-03-27-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
@@ -97503,8 +97331,8 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 </li><li>Firefox detects the page language automatically. To change it, use the top dropdown menu.
 <dl><dt><img alt=""Fx150select translate from language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-14-17-48-f413e4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
-</li><li>Next, select your desired translation language from the bottom dropdown menu, which will be pre-populated with your first preferred language. To change it, use the dropdown menu.
-<dl><dt><img alt=""select translate to language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-14-21-15-f09869.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+</li><li>Next, select your desired translation language from the bottom dropdown menu, which will be pre-populated with your first preferred language.
+<dl><dt><img alt=""select translate to language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-14-21-15-f09869.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 </li><li>Click <span class=""button"">Translate</span> to translate the entire page.
 <dl><dt><img alt=""Fx150Firefox Fullpage Translation updated image 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-14-19-09-821f2b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
@@ -97517,7 +97345,7 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 <p>You might need to translate a specific word or sentence when reading in a foreign language. Firefox enables you to highlight and translate selected text to help with these situations.
 </p>
 <ol><li>Highlight the text.
-</li><li>Right click and select <span class=""menu"">Translate selection to …</span> (your language).
+</li><li>Right click and select <span class=""menu"">Translate selection to &lt;your language&gt;</span>.
 <dl><dt><img alt=""Translate selected text"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-09-05-40-32-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
 </li><li>The selected text will be translated and displayed in a pop-up. From here, click <span class=""button"">Copy</span> to save the translation to your clipboard, <span class=""button"">Translate full page</span> to translate the entire webpage or <span class=""button"">Done</span> to close the pop-up.
@@ -97550,8 +97378,8 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 <p>You can disable translation prompts in Firefox if you don’t want websites in other languages to be translated. When you disable translations, Firefox will stop showing the translation panel for sites that are not in your preferred language, and you’ll no longer receive prompts while browsing.
 </p><p>For example:
 </p>
-<ul><li>The translation panel won’t appear when visiting that site again
-</li><li>Pages in that language will load without translation suggestions
+<ul><li>The translation panel won’t appear when visiting that site again.
+</li><li>Pages in that language will load without translation suggestions.
 </li></ul>
 <p>To block specific translations:
 </p>
@@ -97573,7 +97401,7 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 </p>
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
-</li><li>Under the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em> settings.
+</li><li>Under the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em> section.
 </li><li>Under <em>Translations</em>, select from the list the languages you wish to have available for in-browser translation and click <span class=""button"">Install</span>. The first time you translate from/to a language, it gets automatically installed in your device, so, you may see some languages already installed when accessing these settings.
 <dl><dt><img alt=""Install language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-18-08-21-22-62d52d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
@@ -97583,12 +97411,12 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 </li></ol>
 <div class=""for"" data-for=""fx150"">
 <h1 id=""w_quick-action-for-translations"">Quick Action for Translations</h1>
-<p>You can access a translation tool from the address bar using a <a href=""/en-US/kb/quick-actions-firefox-search-bar"">Quick Action</a>.  
-</p><p>Start typing ""translate"" in the address bar and click the <span class=""button"">Translate</span> button at the top of the suggestions. Clicking it will open a page where you can select the languages you wish to translate from and to and enter the text you wish to translate.  You can switch languages and copy the text from the result box to use elsewhere.
+<p>You can access a translation tool from the address bar using a <a href=""/en-US/kb/quick-actions-firefox-search-bar"">Quick Action</a>.
+</p><p>Start typing <strong>translate</strong> in the address bar and click the <span class=""button"">Translate</span> button at the top of the suggestions. Clicking it will open a page where you can select the languages you wish to translate from and to and enter the text you wish to translate. You can switch languages and copy the text from the result box to use elsewhere.
 </p></div>
 <h1 id=""w_faq"">FAQ</h1>
 <h2 id=""w_what-languages-are-currently-supported-by-firefox-translations"">What languages are currently supported by Firefox Translations?</h2>
-<p>The list of currently supported languages can be found <a href=""https://www.firefox.com/features/translate/"">here</a>.
+<p>Find the <a href=""https://www.firefox.com/features/translate/"">list of currently supported languages on this Mozilla page</a>.
 </p>
 <h2 id=""w_is-firefoxs-translation-feature-available-on-mobile-version"">Is Firefox's translation feature available on mobile version?</h2>
 <p>This feature is available for <a href=""/en-US/kb/android-translation"">Firefox for Android</a> (starting from version 126) and <a href=""/en-US/kb/translate-firefox-ios"">Firefox for iOS</a> (starting from version 146).
@@ -97606,7 +97434,7 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 <p>To revert a page to its original language after translation, click the toolbar icon and select <span class=""button"">Show original</span>.
 </p>
 <h2 id=""w_how-do-i-stop-the-translation-panel-from-opening-automatically"">How do I stop the translation panel from opening automatically?</h2>
-<p>When Firefox detects that a page is translatable, it will open the translation panel automatically. To turn this off, click the cog icon and select the <span class=""menu"">Always offer to translate</span> option to turn it off. Alternatively, you can choose to turn the panel off only for certain languages or sites by selecting <span class=""menu"">Never translate [language]</span> or <span class=""menu"">Never translate this site</span> respectively.
+<p>When Firefox detects that a page is translatable, it will open the translation panel automatically. To turn this off, click the cog icon and select the <span class=""menu"">Always offer to translate</span> option to turn it off. Alternatively, you can choose to turn the panel off only for certain languages or sites by selecting <span class=""menu"">Never translate &lt;language&gt;</span> or <span class=""menu"">Never translate this site</span> respectively.
 </p><div class=""for"" data-for=""fx148""><p>You can also turn off translation prompts from the <em>AI Controls</em> panel in Firefox Settings.
 </p>
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
@@ -97661,8 +97489,8 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 
 # Translate the full page
 
-1. When you visit a webpage in a supported language, the translation panel will open automatically. 
-  - If the panel does not open, click the translation icon in the toolbar. 
+1. When you visit a webpage in a supported language, the translation panel will open automatically.
+  - If the panel does not open, click the translation icon in the toolbar.
 
 <dl><dt>
 <img alt=""Translation icon - toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-18-08-03-27-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -97672,8 +97500,8 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 2. Firefox detects the page language automatically. To change it, use the top dropdown menu.<dl><dt>
 <img alt=""Fx150select translate from language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-14-17-48-f413e4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
-3. Next, select your desired translation language from the bottom dropdown menu, which will be pre-populated with your first preferred language. To change it, use the dropdown menu.<dl><dt>
-<img alt=""select translate to language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-14-21-15-f09869.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+3. Next, select your desired translation language from the bottom dropdown menu, which will be pre-populated with your first preferred language.<dl><dt>
+<img alt=""select translate to language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-14-21-15-f09869.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
 </dt></dl>
 4. Click Translate to translate the entire page.<dl><dt>
 <img alt=""Fx150Firefox Fullpage Translation updated image 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-31-14-19-09-821f2b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
@@ -97687,7 +97515,7 @@ Occasionally, some sites may not accept an email address that includes a subdoma
 You might need to translate a specific word or sentence when reading in a foreign language. Firefox enables you to highlight and translate selected text to help with these situations.
 
 1. Highlight the text.
-2. Right click and select Translate selection to … (your language).<dl><dt>
+2. Right click and select Translate selection to \<your language\>.<dl><dt>
 <img alt=""Translate selected text"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-09-05-40-32-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
 </dt></dl>
 3. The selected text will be translated and displayed in a pop-up. From here, click Copy to save the translation to your clipboard, Translate full page to translate the entire webpage or Done to close the pop-up.<dl><dt>
@@ -97723,8 +97551,8 @@ You can disable translation prompts in Firefox if you don’t want websites in o
 
 For example:
 
-- The translation panel won’t appear when visiting that site again
-- Pages in that language will load without translation suggestions
+- The translation panel won’t appear when visiting that site again.
+- Pages in that language will load without translation suggestions.
 
 To block specific translations:
 
@@ -97745,7 +97573,7 @@ What the dropdown options mean:
 To configure your installed languages:
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Under the General panel, scroll down to _Language and Appearance_ settings.
+2. Under the General panel, scroll down to _Language and Appearance_ section.
 3. Under _Translations_, select from the list the languages you wish to have available for in-browser translation and click Install. The first time you translate from/to a language, it gets automatically installed in your device, so, you may see some languages already installed when accessing these settings.<dl><dt>
 <img alt=""Install language"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-18-08-21-22-62d52d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
@@ -97757,13 +97585,13 @@ To configure your installed languages:
 
 You can access a translation tool from the address bar using a [Quick Action](\""https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar"").
 
-Start typing ""translate"" in the address bar and click the Translate button at the top of the suggestions. Clicking it will open a page where you can select the languages you wish to translate from and to and enter the text you wish to translate. You can switch languages and copy the text from the result box to use elsewhere.
+Start typing **translate** in the address bar and click the Translate button at the top of the suggestions. Clicking it will open a page where you can select the languages you wish to translate from and to and enter the text you wish to translate. You can switch languages and copy the text from the result box to use elsewhere.
 
 # FAQ
 
 ## What languages are currently supported by Firefox Translations?
 
-The list of currently supported languages can be found [here](https://www.firefox.com/features/translate/).
+Find the [list of currently supported languages on this Mozilla page](https://www.firefox.com/features/translate/).
 
 ## Is Firefox's translation feature available on mobile version?
 
@@ -97787,7 +97615,7 @@ To revert a page to its original language after translation, click the toolbar i
 
 ## How do I stop the translation panel from opening automatically?
 
-When Firefox detects that a page is translatable, it will open the translation panel automatically. To turn this off, click the cog icon and select the Always offer to translate option to turn it off. Alternatively, you can choose to turn the panel off only for certain languages or sites by selecting Never translate [language] or Never translate this site respectively.
+When Firefox detects that a page is translatable, it will open the translation panel automatically. To turn this off, click the cog icon and select the Always offer to translate option to turn it off. Alternatively, you can choose to turn the panel off only for certain languages or sites by selecting Never translate \<language\> or Never translate this site respectively.
 
 You can also turn off translation prompts from the _AI Controls_ panel in Firefox Settings.
 
@@ -105047,7 +104875,7 @@ If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](h
 </p>
 <h2 id=""w_submit-updates-directly-to-kb"">Submit updates directly to KB</h2>
 <p>If your request qualifies as a minor update and you are comfortable making the change yourself, you can submit your edit directly in SUMO. 
-</p><p>For step-by-step instructions, please check out <a class=""new"" href=""/en-US/kb/new?title=Submit+a+minor+change+in+a+Knowledge+Base+article"" title=""Page does not exist."">Submit a minor change in a Knowledge Base article</a>.
+</p><p>For step-by-step instructions, please check out <a href=""/en-US/kb/edit-knowledge-base-article"">Submit a minor update in a Knowledge Base article</a>.
 </p>
 <h1 id=""w_how-do-i-submit-a-sumo-content-request"">How do I submit a SUMO content request?</h1>
 <p>To request new support content or changes to existing articles, please file a bug in Bugzilla <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&amp;component=Knowledge+Base+Content"">Knowledge Base Content component</a>.
@@ -105141,7 +104969,7 @@ Before submitting a content request via Bugzilla, it's important to determine th
 
 If your request qualifies as a minor update and you are comfortable making the change yourself, you can submit your edit directly in SUMO.
 
-For step-by-step instructions, please check out [Submit a minor change in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/new?title=Submit+a+minor+change+in+a+Knowledge+Base+article"" ""Page does not exist."").
+For step-by-step instructions, please check out [Submit a minor update in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/edit-knowledge-base-article"").
 
 # How do I submit a SUMO content request?
 
@@ -124618,7 +124446,7 @@ Before applying the Restrict Visibility feature to an article, it's crucial to w
 </p>
 <h1 id=""w_before-you-start"">Before you start</h1>
 <p>Before proceeding, please note that we follow different workflows for minor and major updates. 
-</p><p>Please review <a href=""/en-US/kb/major-vs-minor"">Minor vs major changes</a> to understand what qualifies under each category and see <a class=""new"" href=""/en-US/kb/new?title=Submit+a+minor+change+in+a+Knowledge+Base+article"" title=""Page does not exist."">Submit a minor change in a Knowledge Base article</a> for guidance on submitting minor updates directly.
+</p><p>Please review <a href=""/en-US/kb/major-vs-minor"">Minor vs major changes</a> to understand what qualifies under each category and see <a href=""/en-US/kb/edit-knowledge-base-article"">Submit a minor update in a Knowledge Base article</a> for guidance on submitting minor updates directly.
 </p><p>These guardrails apply only to <strong>new content requests or major updates</strong>, and do not affect minor revisions submitted directly to the Knowledge Base.
 </p>
 <h1 id=""w_content-process-for-new-content-requests-and-major-updates"">Content process for new content requests and major updates</h1>
@@ -124745,7 +124573,7 @@ These changes are about creating sustainable collaboration between staff and con
 
 Before proceeding, please note that we follow different workflows for minor and major updates.
 
-Please review [Minor vs major changes](\""https://support.mozilla.org/en-US/kb/major-vs-minor"") to understand what qualifies under each category and see [Submit a minor change in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/new?title=Submit+a+minor+change+in+a+Knowledge+Base+article"" ""Page does not exist."") for guidance on submitting minor updates directly.
+Please review [Minor vs major changes](\""https://support.mozilla.org/en-US/kb/major-vs-minor"") to understand what qualifies under each category and see [Submit a minor update in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/edit-knowledge-base-article"") for guidance on submitting minor updates directly.
 
 These guardrails apply only to **new content requests or major updates** , and do not affect minor revisions submitted directly to the Knowledge Base.
 
