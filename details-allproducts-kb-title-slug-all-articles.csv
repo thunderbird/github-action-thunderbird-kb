@@ -37179,452 +37179,6 @@ There is [a simple tutorial about the auto-responder on GMX's Facebook page](htt
 [http://help.yahoo.com/l/us/yahoo/mail/ymail/basics/basics-52.html](http://help.yahoo.com/l/us/yahoo/mail/ymail/basics/basics-52.html)
 
 "
-17089,Use multiple profiles in Thunderbird,using-multiple-profiles,https://support.mozilla.org/en-US/kb/using-multiple-profiles,en-US,"Thunderbird saves personal information such as messages, passwords and user preferences in a ""profile"". This article describes how to use multiple profiles.","<p>As described in the <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Profiles</a> article, Thunderbird saves personal information such as messages, passwords and user preferences in a set of files called a ""profile"", which is stored in a separate location from the Thunderbird program files. 
-</p><p>When you first install Thunderbird it creates a profile called ""default"", and this profile is used automatically. However, you can create additional profiles, each with their own set of account configurations, messages, etc. (Note, each profile can access multiple email accounts.)
-</p><p>The Profile Manager is used to create and delete profiles, and to select the profile to use for a Thunderbird session.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_starting-the-profile-manager""><span class=""tocnumber"">1</span> <span class=""toctext"">Starting the Profile Manager</span></a></li><li class=""toclevel-1""><a href=""#w_creating-a-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Creating a profile</span></a></li><li class=""toclevel-1""><a href=""#w_renaming-a-profile""><span class=""tocnumber"">3</span> <span class=""toctext"">Renaming a profile</span></a></li><li class=""toclevel-1""><a href=""#w_deleting-a-profile""><span class=""tocnumber"">4</span> <span class=""toctext"">Deleting a profile</span></a></li><li class=""toclevel-1""><a href=""#w_options""><span class=""tocnumber"">5</span> <span class=""toctext"">Options</span></a><ul><li class=""toclevel-2""><a href=""#w_work-offline""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Work Offline</span></a></li><li class=""toclevel-2""><a href=""#w_7dont-ask-at-startupsf8use-the-selected-profile-without-asking-at-startupsf""><span class=""tocnumber"">5.2</span> <span class=""toctext""><span class=""for"" data-for=""not tb31"">Don't ask at startup</span><span class=""for"" data-for=""tb31"">Use the selected profile without asking at startup</span></span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See also</span></a></li></ul></div>
-<h1 id=""w_starting-the-profile-manager"">Starting the Profile Manager</h1>
-<p>The Profile Manager is not displayed by default. Instead, you must start Thunderbird with a ""switch"" that makes the Profile Manager appear:
-</p><div class=""for"" data-for=""win"">
-<ul><li> <span class=""for"" data-for=""winxp"">Open the Windows <span class=""button"">Start</span> menu and select <span class=""button"">Run...</span> to open the Run dialog.</span><span class=""for"" data-for=""win7,win8,win10"">Press <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>+<span class=""key"">R</span> on the keyboard to open the Run dialog.</span> Then enter ""<code>thunderbird.exe -p</code>"" and click <span class=""button"">OK</span>.
-</li></ul>
-<div class=""note"">Note: If the Profile Manager window does not appear, you may need to specify the full path of the Thunderbird program, enclosed in quotes; for example:
-<p><em>On 32-bit Windows</em>
-</p>
-<ul><li> <code>""C:\Program Files\Mozilla Thunderbird\thunderbird.exe"" -p</code>
-</li></ul>
-<p><em>On 64-bit Windows</em>
-</p>
-<ul><li> <code>""C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe"" -p</code> (32-bit version, and standard location for 64-bit version)
-</li><li> <code>""C:\Program Files\Mozilla Thunderbird\thunderbird.exe"" -p</code> (optional location for Thunderbird 64-bit version)</li></ul></div>
-
-</div><div class=""for"" data-for=""mac"">
-<ul><li> Open the Terminal application, then type ""<code>/Applications/Thunderbird.app/Contents/MacOS/thunderbird-bin -ProfileManager</code>"" and press <span class=""button"">Return</span>.
-</li></ul>
-</div><div class=""for"" data-for=""linux"">
-<ul><li> In Terminal run: ""<code>thunderbird -ProfileManager</code>""
-</li></ul>
-</div><p><img alt=""ab167bec686b081a25849c98d6bf9ea7-1265838263-54-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-47-0b3dba.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>If the Profile Manager window does not open, Thunderbird may have been running in the background, even though it was not visible. Close all instances of Thunderbird or restart the computer and then try again. 
-</p>
-<h1 id=""w_creating-a-profile"">Creating a profile</h1>
-<p>To create a new profile, click the <span class=""button"">Create Profile...</span> button. After specifying a name for the profile, you may also specify a custom location for the profile folder (or click <span class=""button""><span class=""for"" data-for=""win,linux"">Finish</span><span class=""for"" data-for=""mac"">Done</span></span> to use the default location).
-</p><p><img alt=""ab167bec686b081a25849c98d6bf9ea7-1265840566-766-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-37-75abc0.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_renaming-a-profile"">Renaming a profile</h1>
-<p>To rename a profile, highlight the profile in the <strong>Choose User Profile</strong> window and select <span class=""button"">Rename Profile...</span>. Give the profile a new name and click <span class=""button"">OK</span>.
-</p>
-<h1 id=""w_deleting-a-profile"">Deleting a profile</h1>
-<p>To delete a profile, highlight the profile in the <strong>Choose User Profile</strong> window and select <span class=""button"">Delete Profile...</span>. Click <span class=""button"">Don't Delete Files</span> if you only want to remove the profile from the list but keep its files. Click <span class=""button"">Delete Files</span> to permanently delete the profile and all its data.
-</p>
-<div class=""note"">Note that you cannot delete a profile by simply deleting the profile folder from the disk. It will still be displayed in the list of available profiles.</div>
-<h1 id=""w_options"">Options</h1>
-<h2 id=""w_work-offline"">Work Offline</h2>
-<p>Choosing this option loads the selected profile and starts Thunderbird without connecting to the Internet. You can view messages saved to your computer and experiment with your profile.
-</p>
-<h2 id=""w_7dont-ask-at-startupsf8use-the-selected-profile-without-asking-at-startupsf""><span class=""for"" data-for=""not tb31"">Don't ask at startup</span><span class=""for"" data-for=""tb31"">Use the selected profile without asking at startup</span></h2>
-<p>When you have multiple profiles, this option tells Thunderbird what to do at startup:
-</p>
-<ul><li>If you check this option, Thunderbird will automatically load the selected profile at startup. To access other profiles, you must start the Profile Manager first. 
-</li><li>If you uncheck this option, Thunderbird will show you the Profile Manager each time you start it, so that you can select a profile to use.  
-</li></ul>
-<h1 id=""w_see-also"">See also</h1>
-<p>See the <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Profiles</a> article for information about locating the profile data files on a file system and making backups.
-</p>",thunderbird,accounts;profiles;settings,"As described in the [Profiles](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"") article, Thunderbird saves personal information such as messages, passwords and user preferences in a set of files called a ""profile"", which is stored in a separate location from the Thunderbird program files.
-
-When you first install Thunderbird it creates a profile called ""default"", and this profile is used automatically. However, you can create additional profiles, each with their own set of account configurations, messages, etc. (Note, each profile can access multiple email accounts.)
-
-The Profile Manager is used to create and delete profiles, and to select the profile to use for a Thunderbird session.
-
-## Table of Contents
-
-- [1 Starting the Profile Manager](https://support.mozilla.org/kb/using-multiple-profiles#w_starting-the-profile-manager)
-- [2 Creating a profile](https://support.mozilla.org/kb/using-multiple-profiles#w_creating-a-profile)
-- [3 Renaming a profile](https://support.mozilla.org/kb/using-multiple-profiles#w_renaming-a-profile)
-- [4 Deleting a profile](https://support.mozilla.org/kb/using-multiple-profiles#w_deleting-a-profile)
-- [5 Options](https://support.mozilla.org/kb/using-multiple-profiles#w_options)
-  - [5.1 Work Offline](https://support.mozilla.org/kb/using-multiple-profiles#w_work-offline)
-  - [5.2 Don't ask at startupUse the selected profile without asking at startup](https://support.mozilla.org/kb/using-multiple-profiles#w_7dont-ask-at-startupsf8use-the-selected-profile-without-asking-at-startupsf)
-
-- [6 See also](https://support.mozilla.org/kb/using-multiple-profiles#w_see-also)
-
-# Starting the Profile Manager
-
-The Profile Manager is not displayed by default. Instead, you must start Thunderbird with a ""switch"" that makes the Profile Manager appear:
-
-- Open the Windows Start menu and select Run... to open the Run dialog.Press ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)+R on the keyboard to open the Run dialog. Then enter ""`thunderbird.exe -p`"" and click OK.
-
-Note: If the Profile Manager window does not appear, you may need to specify the full path of the Thunderbird program, enclosed in quotes; for example:
-
-_On 32-bit Windows_
-
-- `""C:\Program Files\Mozilla Thunderbird\thunderbird.exe"" -p`
-
-_On 64-bit Windows_
-
-- `""C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe"" -p` (32-bit version, and standard location for 64-bit version)
-- `""C:\Program Files\Mozilla Thunderbird\thunderbird.exe"" -p` (optional location for Thunderbird 64-bit version)
-
-- Open the Terminal application, then type ""`/Applications/Thunderbird.app/Contents/MacOS/thunderbird-bin -ProfileManager`"" and press Return.
-
-- In Terminal run: ""`thunderbird -ProfileManager`""
-
-![ab167bec686b081a25849c98d6bf9ea7-1265838263-54-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-If the Profile Manager window does not open, Thunderbird may have been running in the background, even though it was not visible. Close all instances of Thunderbird or restart the computer and then try again.
-
-# Creating a profile
-
-To create a new profile, click the Create Profile... button. After specifying a name for the profile, you may also specify a custom location for the profile folder (or click FinishDone to use the default location).
-
-![ab167bec686b081a25849c98d6bf9ea7-1265840566-766-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Renaming a profile
-
-To rename a profile, highlight the profile in the **Choose User Profile** window and select Rename Profile.... Give the profile a new name and click OK.
-
-# Deleting a profile
-
-To delete a profile, highlight the profile in the **Choose User Profile** window and select Delete Profile.... Click Don't Delete Files if you only want to remove the profile from the list but keep its files. Click Delete Files to permanently delete the profile and all its data.
-
-Note that you cannot delete a profile by simply deleting the profile folder from the disk. It will still be displayed in the list of available profiles.
-
-# Options
-
-## Work Offline
-
-Choosing this option loads the selected profile and starts Thunderbird without connecting to the Internet. You can view messages saved to your computer and experiment with your profile.
-
-## Don't ask at startupUse the selected profile without asking at startup
-
-When you have multiple profiles, this option tells Thunderbird what to do at startup:
-
-- If you check this option, Thunderbird will automatically load the selected profile at startup. To access other profiles, you must start the Profile Manager first. 
-- If you uncheck this option, Thunderbird will show you the Profile Manager each time you start it, so that you can select a profile to use. 
-
-# See also
-
-See the [Profiles](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"") article for information about locating the profile data files on a file system and making backups.
-
-"
-17094,Configuration Options for Accounts,configuration-options-accounts,https://support.mozilla.org/en-US/kb/configuration-options-accounts,en-US,"Learn about the Account Settings window including server settings, identities, signatures, and more.","<p>This article explains the settings available in the Account Settings window. These are settings that are specific to each account.
-To access the Accounts Settings window, go to <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span> &gt; Account Settings</span>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_account-actions""><span class=""tocnumber"">1</span> <span class=""toctext"">Account Actions</span></a></li><li class=""toclevel-1""><a href=""#w_account-settings-panel""><span class=""tocnumber"">2</span> <span class=""toctext"">Account Settings panel</span></a></li><li class=""toclevel-1""><a href=""#w_server-settings-panel""><span class=""tocnumber"">3</span> <span class=""toctext"">Server Settings panel</span></a><ul><li class=""toclevel-2""><a href=""#w_security-settings""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Security Settings</span></a></li><li class=""toclevel-2""><a href=""#w_server-settings""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Server Settings</span></a></li><li class=""toclevel-2""><a href=""#w_message-storage""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Message Storage</span></a></li><li class=""toclevel-2""><a href=""#w_advanced-imap-settings""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Advanced IMAP Settings</span></a></li><li class=""toclevel-2""><a href=""#w_advanced-pop-settings""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Advanced POP Settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_copies-folders-panel""><span class=""tocnumber"">4</span> <span class=""toctext"">Copies &amp; Folders panel</span></a></li><li class=""toclevel-1""><a href=""#w_composition-addressing-panel""><span class=""tocnumber"">5</span> <span class=""toctext"">Composition &amp; Addressing panel</span></a></li><li class=""toclevel-1""><a href=""#w_junk-settings-panel""><span class=""tocnumber"">6</span> <span class=""toctext"">Junk Settings panel</span></a></li><li class=""toclevel-1""><a href=""#w_synchronization-storage-panel""><span class=""tocnumber"">7</span> <span class=""toctext"">Synchronization &amp; Storage panel</span></a></li><li class=""toclevel-1""><a href=""#w_return-receipts-panel""><span class=""tocnumber"">8</span> <span class=""toctext"">Return Receipts panel</span></a></li><li class=""toclevel-1""><a href=""#w_security-panel""><span class=""tocnumber"">9</span> <span class=""toctext"">Security panel</span></a><ul><li class=""toclevel-2""><a href=""#w_digital-signing""><span class=""tocnumber"">9.1</span> <span class=""toctext"">Digital Signing</span></a></li><li class=""toclevel-2""><a href=""#w_encryption""><span class=""tocnumber"">9.2</span> <span class=""toctext"">Encryption</span></a></li></ul></li></ul></div>
-<h1 id=""w_account-actions"">Account Actions</h1>
-<p><span class=""button"">Account Actions</span> at the bottom left of Account Settings offers:
-</p>
-<ul><li> Add Mail Account
-</li><li> Add Chat Account
-</li><li> Add Feed Account
-</li><li> Add Newsgroup Account
-</li><li> Set as Default, changes the currently selected mail account to be the default account, and adds a star next to the account name
-</li><li> Remove Account
-</li></ul>
-<h1 id=""w_account-settings-panel"">Account Settings panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-47-19-59841a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-26-13-f3d945.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Account name</strong>: Here, you can name the account. The name will appear in the folder pane as well as other areas in Thunderbird where you need to navigate accounts.
-</li><li> <strong>Your Name</strong>: This is the name that will appear in messages you send in the <em>From</em> field.
-</li><li> <strong>Email Address</strong>: When sending a message, this is the email address that will appear in the <em>From</em> field.
-</li><li> <strong>Reply-to Address</strong>: If you want replies to your messages to be sent to an address different from that in the <em>From</em> field, enter that address here.
-</li><li> <strong>Organization</strong>: If you'd like to state the organization your address belongs to, enter it in this field, and it will be attached to messages you send from the above address.
-</li><li> <strong>Signature text</strong>: If you'd like to append a signature to your message, enter it here or attach a signature file by check marking <strong>Attach the signature from a file instead</strong>. For more information, see <a href=""/en-US/kb/signatures"">Signatures</a>.
-</li><li> <strong>Attach my vCard to messages</strong>: A vCard is a virtual business card often attached to email messages. Enable this setting and click <span class=""button"">Edit Card</span> to enter the data in your vCard. The vCard will then be attached to all messages you send from this identity.
-</li><li> <strong>Outgoing Server</strong>: If you have multiple outgoing servers set up, use this menu to choose which server to use with this identity.
-</li><li> <span class=""button"">Manage Identities</span>: An identity is a configuration of name, address, signature, outgoing server, and many other corresponding settings. In Thunderbird, you can set up more than one identity per-account. Click on this button to set up and manage any other identities for this account. For more information, see <a href=""/en-US/kb/using-identities"">Using Identities</a>.
-</li></ul>
-<h1 id=""w_server-settings-panel"">Server Settings panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-server-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-48-42-ff578c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-server-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-27-03-300801.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Server Type</strong>: This setting is determined at the time the account is created. 
-</li><li> <strong>Server Name</strong> and <strong>Port</strong>: This is the server Thunderbird will connect to when retrieving messages for your account. The name and port number are provided by your mail provider. 
-</li><li> <strong>User Name</strong>: When contacting the server for new messages, the user name identifies which account you are retrieving messages for. Your user name is provided by your mail provider.
-</li></ul>
-<h2 id=""w_security-settings"">Security Settings</h2>
-<ul><li> <strong>Connection Security</strong>: These settings determine if your connection to the server is encrypted.
-<ul><li> <strong>None</strong>: The connection is not encrypted.
-</li><li> <strong>SSL/TLS</strong>: (Recommended when possible) The connection is encrypted.
-</li><li> <strong>STARTTLS</strong>: The connection starts as unencrypted, but attempts to make a secure connection if the server supports it.
-</li></ul>
-</li><li> <strong>Authentication method</strong>: These are various methods used to verify that you are the owner of the account you are trying to access. Your account provider will determine which authentication to choose. 
-</li></ul>
-<h2 id=""w_server-settings"">Server Settings</h2>
-<ul><li> <strong>Check for new messages at startup</strong>: With this setting enabled, Thunderbird will check the account for new messages when you start Thunderbird.
-</li><li> <strong>Check for new messages every __ minutes</strong>: Make Thunderbird check for new messages automatically on a set time interval. 
-</li><li> <strong>Allow immediate server notifications when new messages arrive</strong>: (IMAP accounts only) With this setting, Thunderbird will use the IMAP IDLE command, allowing you to receive new messages as soon as they arrive on the server without having to check the server for new messages.
-</li></ul>
-<p><em>When I delete a message:</em> 
-(IMAP accounts only) By default, when you delete a message, Thunderbird will move it to the Trash folder for that account. Here, you can change that behavior.
-</p>
-<ul><li> <strong>Move it to this folder</strong>: Instead of moving the message to the trash folder, use this menu to select a different folder where messages will be moved to.
-</li><li> <strong>Just mark it as deleted</strong>: Using this setting will keep the deleted message in the original folder, but strike a line through it to show you it has been marked as deleted. To clear the folder of deleted messages, right-click on the folder and select <span class=""menu"">Compact</span>.
-</li><li> <strong>Remove it immediately</strong>: Choose this setting to make Thunderbird remove messages when you delete them, without moving them to any folder.
-</li><li> <strong>Automatically download new messages</strong>: (POP accounts only) If Thunderbird checks for new messages using the <em>Check for new messages every</em> setting and detects new messages, you will still need to click <span class=""button"">Get Messages</span> to download those new messages. Enable this setting to automatically download those new messages when they are detected.
-</li><li> <strong>Fetch headers only</strong>: (POP accounts only) With this setting enabled, Thunderbird will only download the message headers. When you want to view a new message, Thunderbird will present a link to download the message content.
-</li><li> <strong>Leave messages on server</strong>: (POP accounts only) Using this setting, Thunderbird will not remove messages from the server after you've downloaded them. Set <em>For at most __ days</em> to delete messages from the server after a set time period. Set <em>Until I delete them</em> to delete messages from the server when you delete them from Thunderbird.
-</li></ul>
-<h2 id=""w_message-storage"">Message Storage</h2>
-<ul><li> <strong>Clean up (""Expunge"") Inbox on Exit</strong>: (IMAP accounts only) When a message is deleted, the master copy on the server is only marked as deleted. Enable this setting to remove messages on the server inbox marked as deleted from the server.
-</li><li> <strong>Empty Trash on Exit</strong>: With this setting enabled, Thunderbird will empty your trash folder when you exit the program/application.
-</li><li> <strong>Message Store Type</strong>: This setting determines if Thunderbird stores mail folders locally in single files (For example, there's a file called <em>Inbox</em>) or stores each message in its own file. For more information, see <a href=""/en-US/kb/maildir-thunderbird"">Maildir in Thunderbird</a>.<div class=""note""><strong>NOTE:</strong> This setting is determined when creating an account.</div>
-</li><li> <strong>Local Directory</strong>: This is the location where Thunderbird stores messages for the account. If you'd like to store messages for the account in a separate location from the rest of your Thunderbird profile, click <span class=""button"">Browse</span> to select the directory you want.
-</li></ul>
-<h2 id=""w_advanced-imap-settings"">Advanced IMAP Settings</h2>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-advancedIMAP-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-50-56-8c8165.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-advancedIMAP-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-27-57-8ca838.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-Click on <span class=""button"">Advanced</span> to configure IMAP server settings that are rarely customized.
-</p>
-<ul><li> <strong>IMAP Server Directory</strong>: If the IMAP folders reside in a different location than the default, fill in this field with the correct location. For instance, on Gmail, folders are kept in the <em>[Gmail]</em> directory.
-</li><li> <strong>Show only subscribed folders</strong>: With IMAP accounts, folders are kept on the server. In cases where the server contains folders for other functions, such as notes, there will be a folder for that function. By default, Thunderbird only shows the folders you have subscribed to. Disable this setting to make Thunderbird display all folders on the server. To select which folders you see, right-click on the account in the folder pane, and select <span class=""menu"">Subscribe</span>.
-</li><li> <strong>Server supports folders that contain sub-folders and messages</strong>: Use this setting if your server folders residing in other folders.
-</li><li> <strong>Maximum number of server connections to cache</strong>: Most servers support multiple connections. If you have an issue with connections to the server being dropped, try lowering this number.
-</li><li> Namespaces are used when your account has shared folders. For instance, your inbox is accessible only to you, but there may be a folder shared with other users. <strong>Personal namespace</strong> determines the directory are that is only accessible to you.  <strong>Public (shared)</strong> determines which directory is accessible to anyone. Use <strong>Other Users</strong> to determine specific users.
-</li><li> <strong>Allow server to override these namespaces</strong>: Enable this setting to let the server determine your namespaces.
-</li></ul>
-<h2 id=""w_advanced-pop-settings"">Advanced POP Settings</h2>
-<p>(POP accounts only) Click on <span class=""button"">Advanced</span> to configure your Inbox storage. 
-</p>
-<ul><li> <strong>When downloading mail from this account's server, use the following folder to store new messages</strong>: The setting determines which folder to use as the inbox for this account. By pointing more than one account to the same inbox, you can have one Inbox for all of your POP accounts.
-</li></ul>
-<h1 id=""w_copies-folders-panel"">Copies &amp; Folders panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-copies-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-51-55-686843.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-copies-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-28-51-8018ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Place a copy in</strong>: With this setting enabled, Thunderbird will make a copy of messages that you send, and place them in the folder you choose.
-</li><li> <strong>Place replies in the folder of the message being replied to</strong>: When replying to a message with this setting enabled, Thunderbird will determine which folder the message you are replying to is in, and place a copy of your reply in the same folder.
-</li><li> <strong>Cc these email addresses</strong>: If you'd like Thunderbird to automatically add an address to the <em>Cc</em> field on every message you send, enter the address in this field. To enter more than one address, use a comma to separate them.
-</li><li> <strong>Bcc these email addresses</strong>: If you'd like Thunderbird to automatically add an address to the <em>Bcc</em> field on every message you send, enter the address in this field. To enter more than one address, use a comma to separate them.
-</li><li> <strong>Keep message archives in</strong>: With this setting enabled, you can create a folder to hold an archive of your messages. For more information, see <a href=""/en-US/kb/archived-messages"">Archived Messages</a>.
-</li><li> <strong>Keep draft messages in</strong>: If you save a message as a draft, this setting determines which folder the draft will be saved in. Your draft will be removed when the message is sent.
-</li><li> <strong>Keep message templates in</strong>: If you save a message as a template, this setting determines which folder the template will be saved in.
-</li><li> <strong>Show confirmation dialog when messages are saved</strong>: 
-</li></ul>
-<h1 id=""w_composition-addressing-panel"">Composition &amp; Addressing panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-composition-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-31-11-07-07-9c7156.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-composition-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-31-11-07-41-ce207e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Compose messages in HTML format</strong>: Enable this setting to add the ability to format your messages using HTML, like bold, italics, underline, set a font family, font size, font color, background color, and more.
-</li><li> <strong>Automatically quote the original message when replying</strong>: With this setting enabled, when you click on <span class=""button"">Reply</span> or <span class=""button"">Reply All</span> on a message, the message you are replying to will be automatically quoted in the message compose window.
-</li><li> <strong>Then</strong>: If you have <em>Automatically quote the original message when replying</em> enabled, this setting determines where the cursor will be placed - either above or below the quoted text.
-</li><li> <strong>And place my signature</strong>: In addition to <em>Automatically quote the original message when replying</em>, if you also have Thunderbird set to automatically add a signature, this setting determines where your signature will be placed - either above or below the quoted text.
-</li><li> <strong>Include signature for replies</strong>: If you do not want your signature added when replying to a message, disable this setting.
-</li><li> <strong>Include signature for forwards</strong>: Enable this setting to make Thunderbird automatically add your signature when forwarding a message.
-</li></ul>
-<p>Click <span class=""button"">Global Composing Preferences</span> to open the Composition panel in the <span class=""for"" data-for=""mac,linux"">Preferences</span><span class=""for"" data-for=""win"">Options</span> window.
-</p>
-<ul><li> <strong>When looking up addresses</strong>: If you have Thunderbird set to look up addresses on an LDAP server when composing a message, this setting can be used to specify a different LDAP server when composing messages from this identity.
-</li></ul>
-<p>Click <span class=""button"">Global Addressing Preferences</span> to open the Addressing tab in the <span class=""for"" data-for=""mac,linux"">Preferences</span><span class=""for"" data-for=""win"">Options</span> window.
-</p>
-<h1 id=""w_junk-settings-panel"">Junk Settings panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-junk-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-31-11-08-18-35d910.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-junk-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-31-11-08-52-4d8a53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Enable adaptive junk mail controls for this account</strong>: Enable this setting to use Thunderbird junk mail filtering, which will detect junk messages and filter them out. For information about these settings, see <a href=""/en-US/kb/thunderbird-and-junk-spam-messages"">Thunderbird and Junk / Spam Messages</a>.
-</li></ul>
-<h1 id=""w_synchronization-storage-panel"">Synchronization &amp; Storage panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-sync-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-52-59-13cf48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-sync-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-29-40-dd3332.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Keep messages for this account on this computer</strong>: With IMAP, only headers are stored on your computer. When viewing a message, Thunderbird accesses the message content residing on the server. With this setting enabled, Thunderbird will store a local copy of each message on your computer, allowing you to read messages while offline. Click <span class=""button"">Advanced</span> to select which folders you want to store local copies of. For more information, see <a href=""/en-US/kb/imap-synchronization"">IMAP Synchronization</a>.
-</li></ul>
-<h1 id=""w_return-receipts-panel"">Return Receipts panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-RR-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-53-50-089af2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-RR-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-30-46-076b53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li> <strong>Use my global return receipt preferences for this account</strong>: A return receipt adds a request with your message to notify you when the recipient has opened the message. Your global return receipt settings can be viewed in the Advanced tab in the <span class=""for"" data-for=""mac,linux"">Preferences</span><span class=""for"" data-for=""win"">Options</span> window by clicking <span class=""button"">Global Preferences</span>. If you'd like to use different settings for this account, select <strong>Customize return receipts for this account</strong>. Settings available here are the same as global preferences, but they will only apply to the current account. For information, see <a href=""/en-US/kb/advanced-panel-settings-in-thunderbird"">Advanced panel - System, network, updates, and other advanced settings in Thunderbird</a>.
-</li></ul>
-<h1 id=""w_security-panel"">Security panel</h1>
-<p><span class=""for"" data-for=""win""><img alt=""tb52-accountsettings-security-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-19-54-40-9910bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-<span class=""for"" data-for=""mac""><img alt=""tb52-accountsettings-security-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-01-30-20-31-24-fb8c41.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<h2 id=""w_digital-signing"">Digital Signing</h2>
-<p>When you digitally sign a message, you embed information in the message that validates your identity. This is accomplished by using a digital certificate to sign your messages. For more information, see <a href=""/en-US/kb/digitally-signing-and-encrypting-messages"">Digitally Signing and Encrypting Messages</a>.
-</p>
-<ul><li> <strong>Digitally sign messages (by default)</strong>: Enable this setting to make Thunderbird automatically sign your messages using the certificate selected above. If this setting is not enabled, you can sign a message in the composition window by going to the <span class=""menu"">Options</span> menu and selecting <span class=""menu"">Digitally Sign This Message</span>.
-</li></ul>
-<h2 id=""w_encryption"">Encryption</h2>
-<p>When you encrypt a message, it appears to be ""scrambled"" and can only by read by a person who has the key to decrypt the message. This is also accomplished by using a digital certificate. For more information, see <a href=""/en-US/kb/digitally-signing-and-encrypting-messages"">Digitally Signing and Encrypting Messages</a>.
-</p><p><em>Default encryption setting when sending messages</em>:
-</p>
-<ul><li> <strong>Never (do not use encryption)</strong>: Set this preference to only encrypt messages that you choose when composing the message. You can encrypt a message in the composition window by going to the <span class=""menu"">Options</span> menu and selecting <span class=""menu"">Encrypt This Message</span>.
-</li><li> <strong>Required (can't send message unless all recipients have certificates)</strong>: Set this preference if you want all messages being sent to be encrypted.
-</li></ul>",thunderbird,settings,"This article explains the settings available in the Account Settings window. These are settings that are specific to each account. To access the Accounts Settings window, go to ToolsEdit \> Account Settings.
-
-## Table of Contents
-
-- [1 Account Actions](https://support.mozilla.org/kb/configuration-options-accounts#w_account-actions)
-- [2 Account Settings panel](https://support.mozilla.org/kb/configuration-options-accounts#w_account-settings-panel)
-- [3 Server Settings panel](https://support.mozilla.org/kb/configuration-options-accounts#w_server-settings-panel)
-  - [3.1 Security Settings](https://support.mozilla.org/kb/configuration-options-accounts#w_security-settings)
-  - [3.2 Server Settings](https://support.mozilla.org/kb/configuration-options-accounts#w_server-settings)
-  - [3.3 Message Storage](https://support.mozilla.org/kb/configuration-options-accounts#w_message-storage)
-  - [3.4 Advanced IMAP Settings](https://support.mozilla.org/kb/configuration-options-accounts#w_advanced-imap-settings)
-  - [3.5 Advanced POP Settings](https://support.mozilla.org/kb/configuration-options-accounts#w_advanced-pop-settings)
-
-- [4 Copies & Folders panel](https://support.mozilla.org/kb/configuration-options-accounts#w_copies-folders-panel)
-- [5 Composition & Addressing panel](https://support.mozilla.org/kb/configuration-options-accounts#w_composition-addressing-panel)
-- [6 Junk Settings panel](https://support.mozilla.org/kb/configuration-options-accounts#w_junk-settings-panel)
-- [7 Synchronization & Storage panel](https://support.mozilla.org/kb/configuration-options-accounts#w_synchronization-storage-panel)
-- [8 Return Receipts panel](https://support.mozilla.org/kb/configuration-options-accounts#w_return-receipts-panel)
-- [9 Security panel](https://support.mozilla.org/kb/configuration-options-accounts#w_security-panel)
-  - [9.1 Digital Signing](https://support.mozilla.org/kb/configuration-options-accounts#w_digital-signing)
-  - [9.2 Encryption](https://support.mozilla.org/kb/configuration-options-accounts#w_encryption)
-
-# Account Actions
-
-Account Actions at the bottom left of Account Settings offers:
-
-- Add Mail Account
-- Add Chat Account
-- Add Feed Account
-- Add Newsgroup Account
-- Set as Default, changes the currently selected mail account to be the default account, and adds a star next to the account name
-- Remove Account
-
-# Account Settings panel
-
-![tb52-accountsettings-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Account name** : Here, you can name the account. The name will appear in the folder pane as well as other areas in Thunderbird where you need to navigate accounts.
-- **Your Name** : This is the name that will appear in messages you send in the _From_ field.
-- **Email Address** : When sending a message, this is the email address that will appear in the _From_ field.
-- **Reply-to Address** : If you want replies to your messages to be sent to an address different from that in the _From_ field, enter that address here.
-- **Organization** : If you'd like to state the organization your address belongs to, enter it in this field, and it will be attached to messages you send from the above address.
-- **Signature text** : If you'd like to append a signature to your message, enter it here or attach a signature file by check marking **Attach the signature from a file instead**. For more information, see [Signatures](\""https://support.mozilla.org/en-US/kb/signatures"").
-- **Attach my vCard to messages** : A vCard is a virtual business card often attached to email messages. Enable this setting and click Edit Card to enter the data in your vCard. The vCard will then be attached to all messages you send from this identity.
-- **Outgoing Server** : If you have multiple outgoing servers set up, use this menu to choose which server to use with this identity.
-- Manage Identities: An identity is a configuration of name, address, signature, outgoing server, and many other corresponding settings. In Thunderbird, you can set up more than one identity per-account. Click on this button to set up and manage any other identities for this account. For more information, see [Using Identities](\""https://support.mozilla.org/en-US/kb/using-identities"").
-
-# Server Settings panel
-
-![tb52-accountsettings-server-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-server-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Server Type** : This setting is determined at the time the account is created. 
-- **Server Name** and **Port** : This is the server Thunderbird will connect to when retrieving messages for your account. The name and port number are provided by your mail provider. 
-- **User Name** : When contacting the server for new messages, the user name identifies which account you are retrieving messages for. Your user name is provided by your mail provider.
-
-## Security Settings
-
-- **Connection Security** : These settings determine if your connection to the server is encrypted.
-  - **None** : The connection is not encrypted.
-  - **SSL/TLS** : (Recommended when possible) The connection is encrypted.
-  - **STARTTLS** : The connection starts as unencrypted, but attempts to make a secure connection if the server supports it.
-
-- **Authentication method** : These are various methods used to verify that you are the owner of the account you are trying to access. Your account provider will determine which authentication to choose. 
-
-## Server Settings
-
-- **Check for new messages at startup** : With this setting enabled, Thunderbird will check the account for new messages when you start Thunderbird.
-- **Check for new messages every \_\_ minutes** : Make Thunderbird check for new messages automatically on a set time interval. 
-- **Allow immediate server notifications when new messages arrive** : (IMAP accounts only) With this setting, Thunderbird will use the IMAP IDLE command, allowing you to receive new messages as soon as they arrive on the server without having to check the server for new messages.
-
-_When I delete a message:_ (IMAP accounts only) By default, when you delete a message, Thunderbird will move it to the Trash folder for that account. Here, you can change that behavior.
-
-- **Move it to this folder** : Instead of moving the message to the trash folder, use this menu to select a different folder where messages will be moved to.
-- **Just mark it as deleted** : Using this setting will keep the deleted message in the original folder, but strike a line through it to show you it has been marked as deleted. To clear the folder of deleted messages, right-click on the folder and select Compact.
-- **Remove it immediately** : Choose this setting to make Thunderbird remove messages when you delete them, without moving them to any folder.
-- **Automatically download new messages** : (POP accounts only) If Thunderbird checks for new messages using the _Check for new messages every_ setting and detects new messages, you will still need to click Get Messages to download those new messages. Enable this setting to automatically download those new messages when they are detected.
-- **Fetch headers only** : (POP accounts only) With this setting enabled, Thunderbird will only download the message headers. When you want to view a new message, Thunderbird will present a link to download the message content.
-- **Leave messages on server** : (POP accounts only) Using this setting, Thunderbird will not remove messages from the server after you've downloaded them. Set _For at most \_\_ days_ to delete messages from the server after a set time period. Set _Until I delete them_ to delete messages from the server when you delete them from Thunderbird.
-
-## Message Storage
-
-- **Clean up (""Expunge"") Inbox on Exit**: (IMAP accounts only) When a message is deleted, the master copy on the server is only marked as deleted. Enable this setting to remove messages on the server inbox marked as deleted from the server.
-- **Empty Trash on Exit** : With this setting enabled, Thunderbird will empty your trash folder when you exit the program/application.
-- **Message Store Type** : This setting determines if Thunderbird stores mail folders locally in single files (For example, there's a file called _Inbox_) or stores each message in its own file. For more information, see [Maildir in Thunderbird](\""https://support.mozilla.org/en-US/kb/maildir-thunderbird"").
-**NOTE:** This setting is determined when creating an account.
-- **Local Directory** : This is the location where Thunderbird stores messages for the account. If you'd like to store messages for the account in a separate location from the rest of your Thunderbird profile, click Browse to select the directory you want.
-
-## Advanced IMAP Settings
-
-![tb52-accountsettings-advancedIMAP-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-advancedIMAP-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Click on Advanced to configure IMAP server settings that are rarely customized.
-
-- **IMAP Server Directory** : If the IMAP folders reside in a different location than the default, fill in this field with the correct location. For instance, on Gmail, folders are kept in the _[Gmail]_ directory.
-- **Show only subscribed folders** : With IMAP accounts, folders are kept on the server. In cases where the server contains folders for other functions, such as notes, there will be a folder for that function. By default, Thunderbird only shows the folders you have subscribed to. Disable this setting to make Thunderbird display all folders on the server. To select which folders you see, right-click on the account in the folder pane, and select Subscribe.
-- **Server supports folders that contain sub-folders and messages** : Use this setting if your server folders residing in other folders.
-- **Maximum number of server connections to cache** : Most servers support multiple connections. If you have an issue with connections to the server being dropped, try lowering this number.
-- Namespaces are used when your account has shared folders. For instance, your inbox is accessible only to you, but there may be a folder shared with other users. **Personal namespace** determines the directory are that is only accessible to you. **Public (shared)** determines which directory is accessible to anyone. Use **Other Users** to determine specific users.
-- **Allow server to override these namespaces** : Enable this setting to let the server determine your namespaces.
-
-## Advanced POP Settings
-
-(POP accounts only) Click on Advanced to configure your Inbox storage.
-
-- **When downloading mail from this account's server, use the following folder to store new messages** : The setting determines which folder to use as the inbox for this account. By pointing more than one account to the same inbox, you can have one Inbox for all of your POP accounts.
-
-# Copies & Folders panel
-
-![tb52-accountsettings-copies-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-copies-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Place a copy in** : With this setting enabled, Thunderbird will make a copy of messages that you send, and place them in the folder you choose.
-- **Place replies in the folder of the message being replied to** : When replying to a message with this setting enabled, Thunderbird will determine which folder the message you are replying to is in, and place a copy of your reply in the same folder.
-- **Cc these email addresses** : If you'd like Thunderbird to automatically add an address to the _Cc_ field on every message you send, enter the address in this field. To enter more than one address, use a comma to separate them.
-- **Bcc these email addresses** : If you'd like Thunderbird to automatically add an address to the _Bcc_ field on every message you send, enter the address in this field. To enter more than one address, use a comma to separate them.
-- **Keep message archives in** : With this setting enabled, you can create a folder to hold an archive of your messages. For more information, see [Archived Messages](\""https://support.mozilla.org/en-US/kb/archived-messages"").
-- **Keep draft messages in** : If you save a message as a draft, this setting determines which folder the draft will be saved in. Your draft will be removed when the message is sent.
-- **Keep message templates in** : If you save a message as a template, this setting determines which folder the template will be saved in.
-- **Show confirmation dialog when messages are saved** : 
-
-# Composition & Addressing panel
-
-![tb52-accountsettings-composition-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-composition-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Compose messages in HTML format** : Enable this setting to add the ability to format your messages using HTML, like bold, italics, underline, set a font family, font size, font color, background color, and more.
-- **Automatically quote the original message when replying** : With this setting enabled, when you click on Reply or Reply All on a message, the message you are replying to will be automatically quoted in the message compose window.
-- **Then** : If you have _Automatically quote the original message when replying_ enabled, this setting determines where the cursor will be placed - either above or below the quoted text.
-- **And place my signature** : In addition to _Automatically quote the original message when replying_, if you also have Thunderbird set to automatically add a signature, this setting determines where your signature will be placed - either above or below the quoted text.
-- **Include signature for replies** : If you do not want your signature added when replying to a message, disable this setting.
-- **Include signature for forwards** : Enable this setting to make Thunderbird automatically add your signature when forwarding a message.
-
-Click Global Composing Preferences to open the Composition panel in the PreferencesOptions window.
-
-- **When looking up addresses** : If you have Thunderbird set to look up addresses on an LDAP server when composing a message, this setting can be used to specify a different LDAP server when composing messages from this identity.
-
-Click Global Addressing Preferences to open the Addressing tab in the PreferencesOptions window.
-
-# Junk Settings panel
-
-![tb52-accountsettings-junk-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-junk-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Enable adaptive junk mail controls for this account** : Enable this setting to use Thunderbird junk mail filtering, which will detect junk messages and filter them out. For information about these settings, see [Thunderbird and Junk / Spam Messages](\""https://support.mozilla.org/en-US/kb/thunderbird-and-junk-spam-messages"").
-
-# Synchronization & Storage panel
-
-![tb52-accountsettings-sync-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-sync-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Keep messages for this account on this computer** : With IMAP, only headers are stored on your computer. When viewing a message, Thunderbird accesses the message content residing on the server. With this setting enabled, Thunderbird will store a local copy of each message on your computer, allowing you to read messages while offline. Click Advanced to select which folders you want to store local copies of. For more information, see [IMAP Synchronization](\""https://support.mozilla.org/en-US/kb/imap-synchronization"").
-
-# Return Receipts panel
-
-![tb52-accountsettings-RR-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-RR-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Use my global return receipt preferences for this account** : A return receipt adds a request with your message to notify you when the recipient has opened the message. Your global return receipt settings can be viewed in the Advanced tab in the PreferencesOptions window by clicking Global Preferences. If you'd like to use different settings for this account, select **Customize return receipts for this account**. Settings available here are the same as global preferences, but they will only apply to the current account. For information, see [Advanced panel - System, network, updates, and other advanced settings in Thunderbird](\""https://support.mozilla.org/en-US/kb/advanced-panel-settings-in-thunderbird"").
-
-# Security panel
-
-![tb52-accountsettings-security-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![tb52-accountsettings-security-mac](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Digital Signing
-
-When you digitally sign a message, you embed information in the message that validates your identity. This is accomplished by using a digital certificate to sign your messages. For more information, see [Digitally Signing and Encrypting Messages](\""https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages"").
-
-- **Digitally sign messages (by default)**: Enable this setting to make Thunderbird automatically sign your messages using the certificate selected above. If this setting is not enabled, you can sign a message in the composition window by going to the Options menu and selecting Digitally Sign This Message.
-
-## Encryption
-
-When you encrypt a message, it appears to be ""scrambled"" and can only by read by a person who has the key to decrypt the message. This is also accomplished by using a digital certificate. For more information, see [Digitally Signing and Encrypting Messages](\""https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages"").
-
-_Default encryption setting when sending messages_:
-
-- **Never (do not use encryption)**: Set this preference to only encrypt messages that you choose when composing the message. You can encrypt a message in the composition window by going to the Options menu and selecting Encrypt This Message.
-- **Required (can't send message unless all recipients have certificates)**: Set this preference if you want all messages being sent to be encrypted.
-
-"
 17095,Configuration Options for Identity,configuration-options-identity,https://support.mozilla.org/en-US/kb/configuration-options-identity,en-US,This page describes Thunderbird's configuration options that affect your identity.,"<p>This page describes Thunderbird's configuration options that affect your identity. 
 </p>
 <h1 id=""w_configure-the-organization-associated-with-an-email-account"">Configure the organization associated with an email account</h1>
@@ -68772,6 +68326,105 @@ To clean up your Send Tab device list:
 See [Manage the devices linked to your Mozilla account](\""https://support.mozilla.org/en-US/kb/fxa-managing-devices"") to learn more.
 
 "
+44563,Send Tab from another mobile app to Firefox,send-tab-from-another-mobile-app-to-firefox,https://support.mozilla.org/en-US/kb/send-tab-from-another-mobile-app-to-firefox,en-US,You can send links from another app like Twitter to Firefox on your computer or phone.,"<p>You can send links from another app like Twitter to Firefox on your computer or phone, so you can browse without interruption.
+</p>
+<ol><li>Tap the share function on your app. (Example from Twitter):
+<dl><dt><img alt=""share tweet"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-05-10-14-06-59-ed59d8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Choose Firefox on the list of apps to share to.
+</li><li>Select <span class=""menu"">Send to device</span>.
+<dl><dt><img alt=""send tab app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-05-10-14-13-06-973c7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Choose the device you want to send to.
+</li><li>The page will open in a new tab when you open Firefox.
+</li></ol>",ios,sync-data,"You can send links from another app like Twitter to Firefox on your computer or phone, so you can browse without interruption.
+
+1. Tap the share function on your app. (Example from Twitter):<dl><dt>
+<img alt=""share tweet"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-05-10-14-06-59-ed59d8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+2. Choose Firefox on the list of apps to share to.
+3. Select Send to device.<dl><dt>
+<img alt=""send tab app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-05-10-14-13-06-973c7c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Choose the device you want to send to.
+5. The page will open in a new tab when you open Firefox.
+
+"
+44770,How Firefox securely saves passwords,how-firefox-securely-saves-passwords,https://support.mozilla.org/en-US/kb/how-firefox-securely-saves-passwords,en-US,Learn how Firefox securely saves your passwords.,"<p>Your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a> and <a href=""/en-US/kb/sync"">Firefox Sync</a> allow you to save and sync your logins, as well as let you know if any of your passwords are vulnerable. They both also protect your passwords with <a href=""https://wikipedia.org/wiki/Encryption"">encryption</a> so that even Mozilla can’t see them. Meanwhile, Firefox checks your saved websites against a database of breached websites to let you know if your logins are vulnerable. For more information, see <a href=""/en-US/kb/firefox-password-manager-alerts-breached-websites"">Firefox Password Manager - Alerts for breached websites</a>.
+</p><p>Firefox uses the local encryption method for saved logins.
+</p>
+<table>
+<caption> Password encryption
+</caption><tbody><tr>
+<th>Change</th><th>Old</th><th>New
+</th></tr>
+<tr>
+<td>Encryption algorithm</td><td>3DES-CBC</td><td>AES-256-CBC
+</td></tr>
+<tr>
+<td>Key size</td><td>112 bits</td><td>256 bits
+</td></tr>
+<tr>
+<td>Purpose</td><td>Local protection of passwords stored on disk</td><td>Stronger, modern encryption standard
+</td></tr></tbody></table>
+<ul><li><strong>AES (Advanced Encryption Standard)</strong> is faster and much more secure than 3DES.
+</li><li>This change improves the protection of your passwords locally, on disk.
+</li><li><strong>Firefox Sync</strong> uses end-to-end encryption with AES-256-GCM and is unaffected.
+</li></ul>
+<p>This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_firefox-sync""><span class=""tocnumber"">1</span> <span class=""toctext"">Firefox Sync</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-desktop""><span class=""tocnumber"">2</span> <span class=""toctext"">Firefox Desktop</span></a></li></ul></div>
+<h1 id=""w_firefox-sync"">Firefox Sync</h1>
+<p>If you have a Mozilla account and have enabled the Sync functionality, your <a href=""/en-US/kb/sync-firefox-desktop"">login data</a> (usernames, passwords, hostnames) is uploaded encrypted to Mozilla’s Sync servers. This encryption ensures that your data is stored in a way that Mozilla cannot decrypt.
+</p>
+<div class=""note"">If you forget your Mozilla account email and password, Mozilla will not be able to recover your sync data as we do not have access to it.</div>
+<h1 id=""w_firefox-desktop"">Firefox Desktop</h1>
+<p>Firefox Desktop encrypts your passwords locally in your <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">user profile directory</a> using a <em>logins.json</em> file. Firefox Desktop uses simple cryptography to obscure your passwords. Mozilla doesn’t have the ability to see passwords, but Firefox Desktop does decrypt the password locally so that it can enter them into form fields.
+</p><p>For the best security, use a <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Primary Password</a> to encrypt your passwords. To learn more about how Firefox saves and stores your logins and passwords, see these articles:
+</p>
+<ul><li><a href=""/en-US/kb/using-primary-password-sync"">Use a Primary Password with Sync</a> 
+</li><li><a href=""/en-US/kb/where-are-my-logins-stored"">Where are my logins stored?</a>
+</li><li><a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Password Manager - Remember, delete and edit logins and passwords in Firefox</a>
+</li></ul>",firefox;mozilla-account,privacy-and-security;sync-data,"Your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") and [Firefox Sync](\""https://support.mozilla.org/en-US/kb/sync"") allow you to save and sync your logins, as well as let you know if any of your passwords are vulnerable. They both also protect your passwords with [encryption](https://wikipedia.org/wiki/Encryption) so that even Mozilla can’t see them. Meanwhile, Firefox checks your saved websites against a database of breached websites to let you know if your logins are vulnerable. For more information, see [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"").
+
+Firefox uses the local encryption method for saved logins.
+
+<caption> Password encryption
+</caption>
+| Change | Old | New |
+| --- | --- | --- |
+| Encryption algorithm | 3DES-CBC | AES-256-CBC |
+| Key size | 112 bits | 256 bits |
+| Purpose | Local protection of passwords stored on disk | Stronger, modern encryption standard |
+
+- **AES (Advanced Encryption Standard)** is faster and much more secure than 3DES.
+- This change improves the protection of your passwords locally, on disk.
+- **Firefox Sync** uses end-to-end encryption with AES-256-GCM and is unaffected.
+
+This upgrade happened automatically; your saved logins were re-encrypted in the background when you updated Firefox.
+
+## Table of Contents
+
+- [1 Firefox Sync](https://support.mozilla.org/kb/how-firefox-securely-saves-passwords#w_firefox-sync)
+- [2 Firefox Desktop](https://support.mozilla.org/kb/how-firefox-securely-saves-passwords#w_firefox-desktop)
+
+# Firefox Sync
+
+If you have a Mozilla account and have enabled the Sync functionality, your [login data](\""https://support.mozilla.org/en-US/kb/sync-firefox-desktop"") (usernames, passwords, hostnames) is uploaded encrypted to Mozilla’s Sync servers. This encryption ensures that your data is stored in a way that Mozilla cannot decrypt.
+
+If you forget your Mozilla account email and password, Mozilla will not be able to recover your sync data as we do not have access to it.
+
+# Firefox Desktop
+
+Firefox Desktop encrypts your passwords locally in your [user profile directory](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") using a _logins.json_ file. Firefox Desktop uses simple cryptography to obscure your passwords. Mozilla doesn’t have the ability to see passwords, but Firefox Desktop does decrypt the password locally so that it can enter them into form fields.
+
+For the best security, use a [Primary Password](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") to encrypt your passwords. To learn more about how Firefox saves and stores your logins and passwords, see these articles:
+
+- [Use a Primary Password with Sync](\""https://support.mozilla.org/en-US/kb/using-primary-password-sync"")
+- [Where are my logins stored?](\""https://support.mozilla.org/en-US/kb/where-are-my-logins-stored"")
+- [Password Manager - Remember, delete and edit logins and passwords in Firefox](\""https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins"")
+
+"
 44778,How to perform Sync on Firefox desktop,sync-firefox-desktop,https://support.mozilla.org/en-US/kb/sync-firefox-desktop,en-US,How to enable and perform a Sync on Firefox desktop,"<p>If you're signed in with your Mozilla account but Sync isn’t turned on yet, this article will help you activate it. Sync allows you to securely back up your bookmarks, passwords, browsing history and more across your devices.
 </p><p>Follow these quick steps to turn on and manage Sync in Firefox.
 </p>
@@ -81016,6 +80669,43 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 9. Click Done.
 
 "
+53351,Firefox for Enterprise 88 - Release notes,firefox-enterprise-88-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-88-release-notes,en-US,See what's coming out with Firefox for Enterprise 88.,"<p>Except where noted, everything here applies to both Firefox 88 and the Firefox 78.10 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">1</span> <span class=""toctext"">Policies</span></a></li></ul></div>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#showhomebutton"">ShowHomeButton</a> policy has been added. This allows you to show or hide the home button on the toolbar by default, but the user can still put it back or remove it. This is in anticipation of a future version of Firefox that will not show the home button on the toolbar by default.
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#usermessaging"">UserMessaging</a> policy has been updated with a new option - SkipOnboarding. Setting this to true turns off onboarding messages on the new tab page.
+</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 88 and the Firefox 78.10 ESR.
+
+## Table of Contents
+
+- [1 Policies](https://support.mozilla.org/kb/firefox-enterprise-88-release-notes#w_policies)
+
+# Policies
+
+- The [ShowHomeButton](https://github.com/mozilla/policy-templates/blob/master/README.md#showhomebutton) policy has been added. This allows you to show or hide the home button on the toolbar by default, but the user can still put it back or remove it. This is in anticipation of a future version of Firefox that will not show the home button on the toolbar by default.
+
+- The [UserMessaging](https://github.com/mozilla/policy-templates/blob/master/README.md#usermessaging) policy has been updated with a new option - SkipOnboarding. Setting this to true turns off onboarding messages on the new tab page.
+
+"
+53365,How to fix an error when trying to open Telegram or Slack on Firefox,how-fix-error-when-trying-open-telegram-or-slack,https://support.mozilla.org/en-US/kb/how-fix-error-when-trying-open-telegram-or-slack,en-US,How to fix the NS_ERROR_DOM_ABORT_ERR while trying to open web.telegram.org or app.slack.com on Firefox 87 or above.,"<div class=""note""><strong>Note:</strong> This article describes a problem that has been fixed since at least <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 93. You should <a href=""/en-US/kb/update-firefox-latest-release"">update Firefox</a> to resolve this issue.</div>
+<p>If you’re getting an <strong>NS_ERROR_DOM_ABORT_ERR</strong> while trying to open <a href=""http://web.telegram.org"">web.telegram.org</a> or <a href=""http://app.slack.com"">app.slack.com</a> on Firefox 87 or above, or if these pages aren’t loading at all, here’s a workaround you can try:
+</p>
+<ol><li>Enter <strong>about:serviceworkers</strong> in the address bar.
+</li><li>Click <span class=""button"">Unregister</span> for the site you’re trying to visit.
+</li><li>Reload the site.
+</li><li>If the site still isn’t loading properly, clear the storage for that site (see <a href=""/en-US/kb/clear-cookies-and-site-data-firefox#w_clear-cookies-for-any-website"">Clear cookies and site data</a> for more information.)
+</li></ol>",firefox,crashing-and-slow-performance;performance-and-connectivity," **Note:** This article describes a problem that has been fixed since at least [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 93. You should [update Firefox](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"") to resolve this issue.
+
+If you’re getting an **NS\_ERROR\_DOM\_ABORT\_ERR** while trying to open [web.telegram.org](http://web.telegram.org) or [app.slack.com](http://app.slack.com) on Firefox 87 or above, or if these pages aren’t loading at all, here’s a workaround you can try:
+
+1. Enter **about:serviceworkers** in the address bar.
+2. Click Unregister for the site you’re trying to visit.
+3. Reload the site.
+4. If the site still isn’t loading properly, clear the storage for that site (see [Clear cookies and site data](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox#w_clear-cookies-for-any-website"") for more information.)
+
+"
 53517,Text Encoding no longer available in the Firefox menu panel,text-encoding-no-longer-available-firefox-menu,https://support.mozilla.org/en-US/kb/text-encoding-no-longer-available-firefox-menu,en-US,The Firefox menu panel no longer has a Text Encoding submenu. It is still available in the Menu bar View menu and as an optional toolbar button.,"<p>The <em>Text Encoding</em> menu item was removed from the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> panel in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 89. Instead, you can use the Menu bar<span class=""for"" data-for=""not mac"">, <a href=""/en-US/kb/restore-menu-bar-firefox"">when the Menu bar is enabled</a>,</span> by clicking <span class=""menu"">View</span> and selecting <span class=""menu"">Repair Text Encoding</span> from the drop-down menu. <span class=""for"" data-for=""win,linux"">You can press and release the <span class=""key"">Alt</span> key to temporarily show the Menu bar.</span>
 </p>
 <dl><dt><img alt=""Fx91View-RepairTextEncoding"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-15-12-21-06-d018c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -86659,6 +86349,289 @@ At the end of the day, there is little any of us can personally do to stop data 
 - See [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"") about alerts in Firefox for saved logins and passwords exposed in known data breaches.
 
 "
+56766,How file downloads are handled in Firefox,manage-downloads-preferences-using-downloads-menu,https://support.mozilla.org/en-US/kb/manage-downloads-preferences-using-downloads-menu,en-US,This article describes changes to how downloads are handled and answers some frequently asked questions.,"<p>This article describes enhancements made to how downloads are handled since <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 98 and answers some frequently asked questions.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_firefox-no-longer-asks-what-to-do-for-each-file-by-default""><span class=""tocnumber"">1</span> <span class=""toctext"">Firefox no longer asks what to do for each file by default</span></a></li><li class=""toclevel-1""><a href=""#w_downloads-panel-automatically-opens""><span class=""tocnumber"">2</span> <span class=""toctext"">Downloads panel automatically opens</span></a></li><li class=""toclevel-1""><a href=""#w_downloaded-files-are-saved-to-disk""><span class=""tocnumber"">3</span> <span class=""toctext"">Downloaded files are saved to disk</span></a></li><li class=""toclevel-1""><a href=""#w_set-a-default-app-to-open-a-file-type""><span class=""tocnumber"">4</span> <span class=""toctext"">Set a default app to open a file type</span></a></li><li class=""toclevel-1""><a href=""#w_always-open-similar-files-and-other-downloads-panel-options""><span class=""tocnumber"">5</span> <span class=""toctext"">“Always Open Similar Files” and other Downloads panel options</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">6</span> <span class=""toctext"">Frequently asked questions</span></a></li></ul></div>
+<h1 id=""w_firefox-no-longer-asks-what-to-do-for-each-file-by-default"">Firefox no longer asks what to do for each file by default</h1>
+<p>You are not prompted to choose a helper application or save to disk before downloading a file, unless you have <a href=""/en-US/kb/change-firefox-behavior-when-open-file#w_changing-download-actions"">changed your setting</a> for that type of file, for Firefox to always ask what action to take:
+</p>
+<dl><dt><img alt=""Fx78OpeningFLVfile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-20-07-06-50-26e332.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<h1 id=""w_downloads-panel-automatically-opens"">Downloads panel automatically opens</h1>
+<p>Every time you start a download, Firefox will automatically bring up the Downloads panel by default, so you can experience minimal interruptions and easily find your downloaded files (to avoid having to close it several times, the panel won't show if there are multiple downloads in progress).
+</p>
+<dl><dt><img alt=""Fx97DownloadFile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-03-20-18-abcb2e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<p>To hide this panel when a download begins, right-click on the downloads button <img alt=""Fx91DownloadsButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-30-12-15-40-415bec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, and uncheck the option <span class=""menu"">Show Panel When Download Begins</span>.
+</p>
+<dl><dt><img alt=""Downloads_ContextM"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-24-07-57-40-69fb53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+<h1 id=""w_downloaded-files-are-saved-to-disk"">Downloaded files are saved to disk</h1>
+The files you download will be immediately saved on your disk. Depending on the current configuration, they will be saved in your preferred download folder, or you will be asked to select a location for each download. Windows and Linux users will find their downloaded files in the destination folder (this is usually the Downloads folder). They are not put in the Temp folder first.<div class=""note""><strong>Note:</strong> You can delete downloaded files directly from the Downloads panel or <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history"">Downloads Library window</a>. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file entry and select <span class=""menu"">Delete</span> from the context menu.</div>
+<p>If you have security software installed on your system, such as an antivirus, it can scan any files you download. If you notice that downloading large files takes a while to complete, sometimes increasing the CPU usage, this is not done by Firefox, but by the security software.
+</p>
+<h1 id=""w_set-a-default-app-to-open-a-file-type"">Set a default app to open a file type</h1>
+<p>When you <a href=""/en-US/kb/change-firefox-behavior-when-open-file"">set an application to open files of a specific type</a> in your Firefox preference settings, those files will open automatically, even files served by the website with <em>content-disposition: attachment</em>. The same applies to PDF files that are set to open in Firefox by default. This is a fix to <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=453455"">bug 453455</a>.
+</p>
+<h1 id=""w_always-open-similar-files-and-other-downloads-panel-options"">“Always Open Similar Files” and other Downloads panel options</h1>
+<p>When you download a file that can be opened with an installed application, you can <a href=""/en-US/kb/change-firefox-behavior-when-open-file#w_adding-download-actions"">add a preference</a> to always open similar files, from the Downloads panel context menu for the file. <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the file to see this menu item and other available options for that download. (The <em>Always Open Similar Files</em> option is also available for files listed in the <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history"">Downloads Library window</a>.)
+</p>
+<dl><dt><img alt=""Fx98Downloads-FileContextMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-16-10-39-02aa06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>The following options are available. You will not see some of these options for files that have been deleted, renamed or moved from the download folder.
+</p>
+<ul><li><strong>Always Open Similar Files:</strong> Make Firefox automatically open downloaded files of the same type with the system default application. (This option may be missing in some cases, such as files served by the website with the wrong content type, or executable files.)
+</li><li><strong>Show In Folder:</strong> Open the folder that contains your downloaded files and select the file used to open the context menu.
+</li><li><strong>Go To Download Page:</strong> Open in a new tab the page from which the file was downloaded, even after leaving the site or closing the tab.
+</li><li><strong>Copy Download Link:</strong> Copy the download link to share it, save it, or for any applicable use.
+</li><li><strong>Delete:</strong> Remove a downloaded file from your disk. It will appear in the list as <em>File deleted</em>.
+</li><li><strong>Remove From History:</strong> Remove a file from your list of downloaded files. The downloaded file is not deleted from your disk.
+</li><li><strong>Clear Preview Panel:</strong> Clear the list of downloaded items in the preview panel that opens when you start a download.
+</li></ul>
+<p>To learn more about managing downloads, see the article <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox"">Where to find and manage downloaded files in Firefox</a>.
+</p>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<p><strong>The <em>What should Firefox do with this file?</em> dialog was a helpful way to see when something downloaded. How do I notice this now?</strong><br>
+The Downloads panel will show automatically after you start a download.
+</p><p><strong>I want to approve each download before it happens, is there a way to do this?</strong><br>
+Firefox no longer shows the dialog by default because downloads are usually intentional. Having to click a second time for a download to start is usually unnecessary. Once a content type has been set up on the Settings page, you can change its action from <strong>Save file</strong> to <strong>Always ask</strong>. The steps are listed below under “I want to configure a different behavior for some files. How do I do that without the dialog?”
+</p><p>If you prefer to have Firefox ask you what to do with files that do <strong>not</strong> have an action defined on the Settings page, you can go to the bottom of the <em>Applications</em> section under <em>What should Firefox do with other files?</em> and select <strong>Ask whether to open or save files</strong>.
+</p>
+<dl><dt><img alt=""Fx101settings-Applications-OtherFiles"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-04-05-39-45-6cd522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>When you choose the setting <em>Ask whether to open or save files</em>, you will see a <em>What should Firefox do with this file?</em> prompt when you download any file that has no defined content type.
+</p><p><strong>Why does Firefox keep asking me where to save files?</strong><br>
+This will happen if you have configured your Firefox settings to always ask you where to save files. To check your download settings:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, find the <strong>Downloads</strong> section under <em>Files and Applications</em>.
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Fx101ChangeDownloadLocation-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-07-03-23-31-59-c51cf8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<p>See <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_change-where-downloads-are-saved"">Change where downloads are saved</a> for more information.
+</p><p><strong>When I open a file with an application, why is it also saved to my Downloads folder?</strong><br>
+Before Firefox version 98, files you opened in Firefox with an application were also saved to the system Temp folder on Windows and Linux, even though you may not have been aware of it. Firefox no longer saves files to a temporary folder because of the downsides to saving files in a location that is hard to discover. Instead, files are saved to the <em>Save files to</em> folder location shown in Firefox settings, in the <span class=""menu"">General</span> panel <strong>Downloads</strong> section under <em>Files and Applications</em>. (Firefox will not ask you to choose a folder when opening files if you have selected the <em>Always ask you where to save files</em> setting, to prevent unnecessary interruptions.)
+</p><p><strong>I want to configure a different behavior for some files. How do I do that without the dialog?</strong><br>
+When you select <em>Always Open Similar Files</em> in the context menu for a downloaded file, it will set Firefox to always open that type of file with the system default application. If you want a different behavior:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, go to the <strong>Applications</strong> section.
+<dl><dt><img alt=""Fx97ChangeDownloadActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-04-25-50-30296e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Select the type of file you wish to change and use the drop-down menu to change the download action, such as using another application to open that type of file or having Firefox always ask you what to do.
+</li></ol>
+<p>For more information, see <a href=""/en-US/kb/change-firefox-behavior-when-open-file"">Manage file types and download actions in Firefox</a>.
+</p>",firefox,settings,"This article describes enhancements made to how downloads are handled since [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 98 and answers some frequently asked questions.
+
+## Table of Contents
+
+- [1 Firefox no longer asks what to do for each file by default](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_firefox-no-longer-asks-what-to-do-for-each-file-by-default)
+- [2 Downloads panel automatically opens](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_downloads-panel-automatically-opens)
+- [3 Downloaded files are saved to disk](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_downloaded-files-are-saved-to-disk)
+- [4 Set a default app to open a file type](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_set-a-default-app-to-open-a-file-type)
+- [5 “Always Open Similar Files” and other Downloads panel options](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_always-open-similar-files-and-other-downloads-panel-options)
+- [6 Frequently asked questions](https://support.mozilla.org/kb/manage-downloads-preferences-using-downloads-menu#w_frequently-asked-questions)
+
+# Firefox no longer asks what to do for each file by default
+
+You are not prompted to choose a helper application or save to disk before downloading a file, unless you have [changed your setting](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file#w_changing-download-actions"") for that type of file, for Firefox to always ask what action to take:
+
+<dl><dt>
+<img alt=""Fx78OpeningFLVfile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-20-07-06-50-26e332.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+# Downloads panel automatically opens
+
+Every time you start a download, Firefox will automatically bring up the Downloads panel by default, so you can experience minimal interruptions and easily find your downloaded files (to avoid having to close it several times, the panel won't show if there are multiple downloads in progress).
+
+<dl><dt>
+<img alt=""Fx97DownloadFile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-03-20-18-abcb2e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+To hide this panel when a download begins, right-click on the downloads button ![Fx91DownloadsButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), and uncheck the option Show Panel When Download Begins.
+
+<dl><dt>
+<img alt=""Downloads_ContextM"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-06-24-07-57-40-69fb53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+# Downloaded files are saved to disk
+The files you download will be immediately saved on your disk. Depending on the current configuration, they will be saved in your preferred download folder, or you will be asked to select a location for each download. Windows and Linux users will find their downloaded files in the destination folder (this is usually the Downloads folder). They are not put in the Temp folder first.
+**Note:** You can delete downloaded files directly from the Downloads panel or [Downloads Library window](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history""). Right-clickRight-click (or hold down the Control key while you click) the file entry and select Delete from the context menu.
+
+If you have security software installed on your system, such as an antivirus, it can scan any files you download. If you notice that downloading large files takes a while to complete, sometimes increasing the CPU usage, this is not done by Firefox, but by the security software.
+
+# Set a default app to open a file type
+
+When you [set an application to open files of a specific type](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file"") in your Firefox preference settings, those files will open automatically, even files served by the website with _content-disposition: attachment_. The same applies to PDF files that are set to open in Firefox by default. This is a fix to [bug 453455](https://bugzilla.mozilla.org/show_bug.cgi?id=453455).
+
+# “Always Open Similar Files” and other Downloads panel options
+
+When you download a file that can be opened with an installed application, you can [add a preference](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file#w_adding-download-actions"") to always open similar files, from the Downloads panel context menu for the file. Right-clickRight-click (or hold down the Control key while you click) the file to see this menu item and other available options for that download. (The _Always Open Similar Files_ option is also available for files listed in the [Downloads Library window](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_see-downloads-history"").)
+
+<dl><dt>
+<img alt=""Fx98Downloads-FileContextMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-23-16-10-39-02aa06.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+The following options are available. You will not see some of these options for files that have been deleted, renamed or moved from the download folder.
+
+- **Always Open Similar Files:** Make Firefox automatically open downloaded files of the same type with the system default application. (This option may be missing in some cases, such as files served by the website with the wrong content type, or executable files.)
+- **Show In Folder:** Open the folder that contains your downloaded files and select the file used to open the context menu.
+- **Go To Download Page:** Open in a new tab the page from which the file was downloaded, even after leaving the site or closing the tab.
+- **Copy Download Link:** Copy the download link to share it, save it, or for any applicable use.
+- **Delete:** Remove a downloaded file from your disk. It will appear in the list as _File deleted_.
+- **Remove From History:** Remove a file from your list of downloaded files. The downloaded file is not deleted from your disk.
+- **Clear Preview Panel:** Clear the list of downloaded items in the preview panel that opens when you start a download.
+
+To learn more about managing downloads, see the article [Where to find and manage downloaded files in Firefox](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox"").
+
+# Frequently asked questions
+
+**The _What should Firefox do with this file?_ dialog was a helpful way to see when something downloaded. How do I notice this now?**  
+The Downloads panel will show automatically after you start a download.
+
+**I want to approve each download before it happens, is there a way to do this?**  
+Firefox no longer shows the dialog by default because downloads are usually intentional. Having to click a second time for a download to start is usually unnecessary. Once a content type has been set up on the Settings page, you can change its action from **Save file** to **Always ask**. The steps are listed below under “I want to configure a different behavior for some files. How do I do that without the dialog?”
+
+If you prefer to have Firefox ask you what to do with files that do **not** have an action defined on the Settings page, you can go to the bottom of the _Applications_ section under _What should Firefox do with other files?_ and select **Ask whether to open or save files**.
+
+<dl><dt>
+<img alt=""Fx101settings-Applications-OtherFiles"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-04-05-39-45-6cd522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+When you choose the setting _Ask whether to open or save files_, you will see a _What should Firefox do with this file?_ prompt when you download any file that has no defined content type.
+
+**Why does Firefox keep asking me where to save files?**  
+This will happen if you have configured your Firefox settings to always ask you where to save files. To check your download settings:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, find the **Downloads** section under _Files and Applications_.<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Fx101ChangeDownloadLocation-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-07-03-23-31-59-c51cf8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+See [Change where downloads are saved](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_change-where-downloads-are-saved"") for more information.
+
+**When I open a file with an application, why is it also saved to my Downloads folder?**  
+Before Firefox version 98, files you opened in Firefox with an application were also saved to the system Temp folder on Windows and Linux, even though you may not have been aware of it. Firefox no longer saves files to a temporary folder because of the downsides to saving files in a location that is hard to discover. Instead, files are saved to the _Save files to_ folder location shown in Firefox settings, in the General panel **Downloads** section under _Files and Applications_. (Firefox will not ask you to choose a folder when opening files if you have selected the _Always ask you where to save files_ setting, to prevent unnecessary interruptions.)
+
+**I want to configure a different behavior for some files. How do I do that without the dialog?**  
+When you select _Always Open Similar Files_ in the context menu for a downloaded file, it will set Firefox to always open that type of file with the system default application. If you want a different behavior:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, go to the **Applications** section.<dl><dt>
+<img alt=""Fx97ChangeDownloadActions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-24-04-25-50-30296e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Select the type of file you wish to change and use the drop-down menu to change the download action, such as using another application to open that type of file or having Firefox always ask you what to do.
+
+For more information, see [Manage file types and download actions in Firefox](\""https://support.mozilla.org/en-US/kb/change-firefox-behavior-when-open-file"").
+
+"
+56914,HTTPS-Only Mode in Firefox Focus for Android,https-only-prefs-focus,https://support.mozilla.org/en-US/kb/https-only-prefs-focus,en-US,"You can change your preferences to HTTPS-Only Mode in Firefox Focus for Android, version 97 and above.","<p>You can change your preferences to HTTPS-Only Mode in Firefox Focus for Android, version 97 and above. This security enhancing mode forces all connections to websites to use HTTPS. Most websites already support HTTPS; some support both HTTP and HTTPS. Enabling this mode provides a guarantee that all of your connections to websites are upgraded to use HTTPS and hence secure. Learn more about the benefits and how to enable HTTPS-Only Mode.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-http-and-https""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between HTTP and HTTPS?</span></a></li><li class=""toclevel-1""><a href=""#w_enable-https-only-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable HTTPS-Only Mode</span></a><ul><li class=""toclevel-2""><a href=""#w_enabledisable-https-only-mode""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Enable/Disable HTTPS-Only Mode</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_secure-site-not-available""><span class=""tocnumber"">3</span> <span class=""toctext"">Secure site not available</span></a></li></ul></div>
+<h1 id=""w_what-is-the-difference-between-http-and-https"">What is the difference between HTTP and HTTPS?</h1>
+<p><a href=""https://wikipedia.org/wiki/Hypertext_Transfer_Protocol"">HTTP</a> stands for Hypertext Transfer Protocol and is the foundational protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen, or altered. <a href=""https://wikipedia.org/wiki/HTTPS"">HTTPS</a> protocols fix this by creating a secure encrypted connection between the server and the browser which protects sensitive information.
+</p>
+<h1 id=""w_enable-https-only-mode"">Enable HTTPS-Only Mode</h1>
+<p>When you use HTTPS-Only Mode, this ensures all of your connections are encrypted and secure. So you have peace of mind that no one can snoop on the content of the pages you visit or hack into your connection to a website to steal your passwords, credit card information, or other personal information. This is especially useful when you are using a public WiFi where you can’t be sure of the integrity of your internet connection.
+</p><p>For example when HTTPS-Only Mode is active and a site is visited such as <code>http://example.com</code>,  Firefox will silently upgrade to <code>https://example.com</code>.
+</p>
+<h2 id=""w_enabledisable-https-only-mode"">Enable/Disable HTTPS-Only Mode</h2>
+<p>To enable or disable HTTPS-Only mode:
+</p>
+<ol><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span>
+</li><li>Go to <span class=""menu"">Privacy &amp; Security</span>
+</li><li>Scroll down to <span class=""menu"">Security</span>.
+</li><li>Tap the toggle next to <span class=""menu"">HTTPS-Only Mode</span> to enable or disable. 
+</li></ol>
+<h1 id=""w_secure-site-not-available"">Secure site not available</h1>
+<p>Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and a HTTPS version of a site is not available, you will see a “Secure Site Not Available” page:
+</p><p><img alt=""No HTTPS site"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-25-11-01-58-9ff81c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>If you tap <span class=""button"">Continue to HTTP Site</span>, you accept the risk and then will visit a HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+</p><p>Tap the <img alt=""back arrow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-09-19-16-11-17-f8f1fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> back button if you want to avoid any unencrypted connections.
+</p>",focus-firefox,privacy-and-security;security;settings,"You can change your preferences to HTTPS-Only Mode in Firefox Focus for Android, version 97 and above. This security enhancing mode forces all connections to websites to use HTTPS. Most websites already support HTTPS; some support both HTTP and HTTPS. Enabling this mode provides a guarantee that all of your connections to websites are upgraded to use HTTPS and hence secure. Learn more about the benefits and how to enable HTTPS-Only Mode.
+
+## Table of Contents
+
+- [1 What is the difference between HTTP and HTTPS?](https://support.mozilla.org/kb/https-only-prefs-focus#w_what-is-the-difference-between-http-and-https)
+- [2 Enable HTTPS-Only Mode](https://support.mozilla.org/kb/https-only-prefs-focus#w_enable-https-only-mode)
+  - [2.1 Enable/Disable HTTPS-Only Mode](https://support.mozilla.org/kb/https-only-prefs-focus#w_enabledisable-https-only-mode)
+
+- [3 Secure site not available](https://support.mozilla.org/kb/https-only-prefs-focus#w_secure-site-not-available)
+
+# What is the difference between HTTP and HTTPS?
+
+[HTTP](https://wikipedia.org/wiki/Hypertext_Transfer_Protocol) stands for Hypertext Transfer Protocol and is the foundational protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen, or altered. [HTTPS](https://wikipedia.org/wiki/HTTPS) protocols fix this by creating a secure encrypted connection between the server and the browser which protects sensitive information.
+
+# Enable HTTPS-Only Mode
+
+When you use HTTPS-Only Mode, this ensures all of your connections are encrypted and secure. So you have peace of mind that no one can snoop on the content of the pages you visit or hack into your connection to a website to steal your passwords, credit card information, or other personal information. This is especially useful when you are using a public WiFi where you can’t be sure of the integrity of your internet connection.
+
+For example when HTTPS-Only Mode is active and a site is visited such as `http://example.com`, Firefox will silently upgrade to `https://example.com`.
+
+## Enable/Disable HTTPS-Only Mode
+
+To enable or disable HTTPS-Only mode:
+
+1. Tap the menu button next to the address bar:
+
+2. Tap Settings
+3. Go to Privacy & Security
+4. Scroll down to Security.
+5. Tap the toggle next to HTTPS-Only Mode to enable or disable. 
+
+# Secure site not available
+
+Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and a HTTPS version of a site is not available, you will see a “Secure Site Not Available” page:
+
+![No HTTPS site](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+If you tap Continue to HTTP Site, you accept the risk and then will visit a HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+
+Tap the ![back arrow](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) back button if you want to avoid any unencrypted connections.
+
+"
+56958,What's new in Firefox for iOS (version 97),whats-new-firefox-ios-version-97,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-97,en-US,See what's new in the latest release of Firefox for iOS (version 97).,"<p>Welcome to a new version of Firefox for iOS (version 97). This release comes with the following improvements and features:
+</p>
+<h1 id=""w_app-store-rating-request"">App Store rating request</h1>
+<p>You may be prompted to leave a rating for the Firefox for iOS app on the App Store. The prompt won't interrupt your tasks and may only appear when you open the tabs tray. 
+</p>
+<h1 id=""w_pocket-article-recommendations-are-scrollable-horizontally"">Pocket article recommendations are scrollable horizontally</h1>
+<p>Pocket article recommendations are now scrollable horizontally on your Firefox homepage. 
+</p><p><img alt=""iOS pocket homepage scrollable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-27-11-04-28-377bd8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<h1 id=""w_bug-fixes"">Bug fixes</h1>
+<p>The following bug fixes were implemented:
+</p>
+<ul><li>The keyboard shortcut <span class=""button"">command</span> + <span class=""button"">L</span> is working as expected and will select the location bar to be ready for typing.
+</li><li>The keyboard shortcut <span class=""button"">command</span> + <span class=""button"">F</span> is working as expected and will open and select the Find panel.
+</li><li>Searching for saved logins is working as expected.
+</li></ul>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 97). This release comes with the following improvements and features:
+
+# App Store rating request
+
+You may be prompted to leave a rating for the Firefox for iOS app on the App Store. The prompt won't interrupt your tasks and may only appear when you open the tabs tray.
+
+# Pocket article recommendations are scrollable horizontally
+
+Pocket article recommendations are now scrollable horizontally on your Firefox homepage.
+
+![iOS pocket homepage scrollable](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Bug fixes
+
+The following bug fixes were implemented:
+
+- The keyboard shortcut command + L is working as expected and will select the location bar to be ready for typing.
+- The keyboard shortcut command + F is working as expected and will open and select the Find panel.
+- Searching for saved logins is working as expected.
+
+"
 56997,Quickly access previously generated masks,firefox-relay-how-reuse-email-masks,https://support.mozilla.org/en-US/kb/firefox-relay-how-reuse-email-masks,en-US,With Relay you can reuse the masks you have created to register or log in to other websites.,"<p>Relay allows you to reuse the masks you have created to register or log in to other websites. This can be especially helpful for <a href=""/en-US/kb/firefox-relay-what-email-mask"">free users, who have limited masks</a>. This article will show you how to access these masks.
 </p>
 <div class=""note""><strong>Note:</strong> To see the icon or the pop-up menu when right-clicking on an email field, you need to install the <a href=""https://addons.mozilla.org/firefox/addon/private-relay/"">Relay extension for Firefox</a>. See <a href=""/en-US/kb/how-enable-disable-firefox-relay-icon-on-online-fields-and-websites"">How to disable the Firefox Relay autofill icon on online fields and websites</a> to learn more. </div>
@@ -90487,6 +90460,210 @@ In addition to the above official channels, the following unofficial channels ar
 | German local forum | [https://www.camp-firefox.de/forum/](https://www.camp-firefox.de/forum/) |
 | Community forum in French | [https://forums.mozfr.org/](https://forums.mozfr.org/) |
 | Community forum in Italian | [https://forum.mozillaitalia.org/](https://forum.mozillaitalia.org/) |
+
+"
+58694,How to stay updated with Firefox release,stay-updated-firefox-releases,https://support.mozilla.org/en-US/kb/stay-updated-firefox-releases,en-US,Stay on top of release updates and trending issues,"<p>In the spirit of openness and to ensure contributors stay up to date on Firefox updates, here are a few key resources you can use to find information about Firefox releases (both desktop and mobile).
+</p>
+<div class=""note""><strong>Tip:</strong> You can bookmark these links for easy access in the future.</div>
+<h1 id=""w_firefox-train-release"">Firefox Train Release</h1>
+<p>The Firefox Release team maintains a platform that outlines Firefox regular release schedule (also known as the train release). You can find more information at: <strong><a href=""https://whattrainisitnow.com"">https://whattrainisitnow.com</a></strong>.
+</p>
+<h1 id=""w_release-information-support-articles-and-community-updates"">Release Information, Support Articles and Community Updates</h1>
+<p>For each Firefox release, we maintain a wiki page that compiles official release notes, relevant support articles and community updates. This page is a helpful reference that can help you stay informed about what's new, what's changed, and what issues may have been resolved or introduced. To find out more, please go to: <strong><a href=""https://wiki.mozilla.org/Support:Releases"">https://wiki.mozilla.org/Support:Releases</a></strong>.
+</p>
+<h1 id=""w_firefox-feedback-and-bug-boards"">Firefox feedback and bug boards</h1>
+<p>To help us identify trends and stay on top of user-reported issue, we use the following Trello boards to track Firefox feedback and bugs (for both desktop and mobile). These boards are managed by the Support Operations team and serve as a centralized place to collect, organize and monitor issues surfaced across SUMO channels.
+</p><p>By tracking this information regularly, we can better highlight recurring problems and provide more valuable insights to the product team. Here are invitations to join our Trello boards:
+</p>
+<ul><li> <strong>Feedback board: <a href=""https://trello.com/invite/b/678ffc65864d936ecc56520b/ATTI9612c8b7508ce6f2004ced4856d220e3C8BE4525/firefox-feedback-board-2025"">Firefox Feedback Board 2025</a></strong>
+</li><li> <strong>Bug board: <a href=""https://trello.com/invite/b/67802965cfe6d4239c4d75d5/ATTI08e01228d1327172e38b0662b1b082dc96505ECF/firefox-bug-board-2025"">Firefox Bug Board 2025</a></strong>
+</li></ul>",contributor,general;kb;l10n;forum,"In the spirit of openness and to ensure contributors stay up to date on Firefox updates, here are a few key resources you can use to find information about Firefox releases (both desktop and mobile).
+
+**Tip:** You can bookmark these links for easy access in the future.
+
+# Firefox Train Release
+
+The Firefox Release team maintains a platform that outlines Firefox regular release schedule (also known as the train release). You can find more information at: **[https://whattrainisitnow.com](https://whattrainisitnow.com)**.
+
+# Release Information, Support Articles and Community Updates
+
+For each Firefox release, we maintain a wiki page that compiles official release notes, relevant support articles and community updates. This page is a helpful reference that can help you stay informed about what's new, what's changed, and what issues may have been resolved or introduced. To find out more, please go to: **[https://wiki.mozilla.org/Support:Releases](https://wiki.mozilla.org/Support:Releases)**.
+
+# Firefox feedback and bug boards
+
+To help us identify trends and stay on top of user-reported issue, we use the following Trello boards to track Firefox feedback and bugs (for both desktop and mobile). These boards are managed by the Support Operations team and serve as a centralized place to collect, organize and monitor issues surfaced across SUMO channels.
+
+By tracking this information regularly, we can better highlight recurring problems and provide more valuable insights to the product team. Here are invitations to join our Trello boards:
+
+- **Feedback board: [Firefox Feedback Board 2025](https://trello.com/invite/b/678ffc65864d936ecc56520b/ATTI9612c8b7508ce6f2004ced4856d220e3C8BE4525/firefox-feedback-board-2025)**
+- **Bug board: [Firefox Bug Board 2025](https://trello.com/invite/b/67802965cfe6d4239c4d75d5/ATTI08e01228d1327172e38b0662b1b082dc96505ECF/firefox-bug-board-2025)**
+
+"
+58717,Prerequisite for sending an encrypted email message,thunderbird-help-cannot-encrypt,https://support.mozilla.org/en-US/kb/thunderbird-help-cannot-encrypt,en-US,This article explains why Thunderbird may report that it cannot encrypt an email that you attempt to send.,"<p>
+</p><p>If you attempt to send an email with enabled End-To-End Encryption (e2ee), Thunderbird may report that it cannot encrypt. This article explains the requirements for sending an encrypted an email message.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_requirements-list""><span class=""tocnumber"">1</span> <span class=""toctext"">Requirements List</span></a></li><li class=""toclevel-1""><a href=""#w_obtaining-openpgp-public-keys-of-correspondents""><span class=""tocnumber"">2</span> <span class=""toctext"">Obtaining OpenPGP public keys of correspondents</span></a></li><li class=""toclevel-1""><a href=""#w_obtaining-smime-certificates-of-correspondents""><span class=""tocnumber"">3</span> <span class=""toctext"">Obtaining S/MIME certificates of correspondents</span></a></li><li class=""toclevel-1""><a href=""#w_technical-validity""><span class=""tocnumber"">4</span> <span class=""toctext"">Technical validity</span></a></li><li class=""toclevel-1""><a href=""#w_matching-email-address""><span class=""tocnumber"">5</span> <span class=""toctext"">Matching email address</span></a></li><li class=""toclevel-1""><a href=""#w_accepting""><span class=""tocnumber"">6</span> <span class=""toctext"">Accepting</span></a></li><li class=""toclevel-1""><a href=""#w_other-resources""><span class=""tocnumber"">7</span> <span class=""toctext"">Other resources</span></a></li></ul></div>
+<h2 id=""w_requirements-list"">Requirements List</h2>
+<p>All of the items must be satisifed:
+</p>
+<ul><li> You must have a personal OpenPGP key or a personal S/MIME certificate, and you must configure Thunderbird to use it. How to do that is explained in a separate article: <a href=""/en-US/kb/thunderbird-help-setup-account-e2ee"">Setup your email account for using End-To-End Encryption</a>.
+</li><li> If you had previously configured your own key or certificate, ensure it hasn't expired, it hasn't been revoked, and you haven't deleted it.
+</li><li> Every email recipient that you added to the TO, CC or BCC fields must also own a personal OpenPGP key or personal S/MIME certificate, and they must have made the respective public key or certificate available. How you can obtain and use them is explained in the following sections in this article.
+</li><li> When using group encryption utilizing the <a href=""/en-US/kb/openpgp-recipient-alias-configuration"">OpenPGP recipient alias feature</a>, the public keys for all recipients defined for an alias email address must be available.
+</li><li> You must have keys or certificates of the same technology for all recipients including yourself, because OpenPGP and S/MIME are separate encryption technologies and cannot be mixed in a single email. Ensure you have selected the correct technology when composing an encrypted email.
+</li></ul>
+<p>If you need a more detailed explanation of the terms mentioned in this article, and to learn how email encryption technology works in general, you might want to read the article <a href=""/en-US/kb/introduction-to-e2e-encryption"">Introduction to End-to-end encryption in Thunderbird</a>.
+</p>
+<h2 id=""w_obtaining-openpgp-public-keys-of-correspondents"">Obtaining OpenPGP public keys of correspondents</h2>
+<p>The following mechanisms can be used to obtain an OpenPGP public key:
+</p>
+<ul><li> Your correspondent sends an email to you, and they attach their public key to that email. When viewing such an email, if you click the OpenPGP button shown in the header area, Thunderbird will offer you to import the key.
+</li><li> Your correspondent sends an email to you, which includes an Autocrypt header containing their public key. When viewing such an email, if you click the OpenPGP button shown in the header area, Thunderbird will offer you to import the key.
+</li><li> Your correspondent has published their public key on a web server. Your correspondent may give you a link to their public key. Or you might use a web search and find the key yourself. In both cases you download the public key to a local file, and then use Thunderbird's OpenPGP Key Manager to import the file containing the public key.
+</li><li> Your correspondent has published their public key on a server that uses the WKD protocol. When attempting to send an encrypted email, but you don't have a public key for a recipient's email address yet, Thunderbird may offer you to perform an online discovery, which is able to find public keys published using the WKD protocol.
+</li><li> Your correspondent has published their public key on a keyserver that Thunderbird supports, such as the <a href=""http://keys.openpgp.org"">keys.openpgp.org</a> server. When attempting to send an encrypted email, but you don't have a public key for a recipient's email address yet, Thunderbird may offer you to perform an online discovery, which is able to find public keys published on that keyserver.
+</li><li> Your correspondent has published their public key on a keyserver that Thunderbird isn't yet able to query automatically. If your correspondent tells you which keyserver contains their key, you might be able to use a web browser to visit that keyserver, search for their public key, download it to a file, and then import that file using Thunderbird's OpenPGP Key Manager.
+</li></ul>
+<p>If Thunderbird cannot find the key automatically, it is usually easiest to send a simple email (without encryption) to your correspondent, and ask them to send an email to you that contains their public key.
+</p><p>With Thunderbird versions 78 and 91, if you received an email with a correspondent's key, it was necessary to interact with that email to import the key, either by using the right click menu on an attachment and asking to import it, or by clicking the OpenPGP button shown in the header area, which may report that the email contains a public key and may offer to import it.
+</p><p>With Thunderbird versions 102 and newer, Thunderbird will automtically collect keys it sees in a cache for later use. When composing an email, and the correpondent's public key has not yet been imported, then Thunderbird may be able to automatically offer you to use public keys it has already collected.
+</p><p>Note, it is not possible to review the cache of all keys that Thunderbird has automatically collected. If necessary, Thunderbird will offer you matching keys in the OpenPGP Key Assistant, which you can access from Thunderbird's email composer window.
+</p><p>To review the list of already imported OpenPGP keys, you can use Thunderbird's OpenPGP Key Manager.
+</p>
+<h2 id=""w_obtaining-smime-certificates-of-correspondents"">Obtaining S/MIME certificates of correspondents</h2>
+<p>The standard way of distributing a person's certificate is to send a digitally signed email. If you have received a signed email from your correspondent, click the email to view it. If Thunderbird considers the email's signature and the sender's certificate valid, it will automatically be imported and available when you attempt to encrypt an email to that correspondent using the S/MIME technology. If you don't have a signed email from your correspondent yet, you could ask them to send a digitally signed email to you.
+</p><p>Note that certificates issued by CAs may have a short validity period. Certificates are no longer usable after the validity period has expired. In that case your correspondent will have to obtain a new certificate. Once that happened they will be able to send you a new digitally signed email with a valid certificate.
+</p><p>Organizations that operate an LDAP server may configure their server to store S/MIME certificates. If an LDAP server is configured, Thunderbird may automatically query the LDAP server if it needs to obtain a S/MIME certificate.
+</p><p>To review the list of S/MIME certificates that you already have, you can use Thunderbird's Certificate Manager.
+</p>
+<h2 id=""w_technical-validity"">Technical validity</h2>
+<p>Thunderbird only uses keys and certificates that it considers technically valid.
+</p><p>Thunderbird requires that an OpenPGP key contains at least one valid primary or subordinate key usable for creating digital signatures, and at least one key usable for encryption.
+</p><p>Thunderbird may refuse to use OpenPGP keys that are corrupted, or that are based on cryptographic algorithms that Thunderbird considers to be unsafe.
+</p><p>An OpenPGP public key has an inner structure, it may contain several subordinate keys, and it also contains properties, such as the validity period and the related user names and email addresses. Such properties may be added, removed or updated. To ensure that properties were really modified by the legitimate owner of the key, the properties are digitally signed using the owner's secret key. Each digital signature uses a signature algorithm. Thunderbird may ignore properties that are based on unsafe signature algorithms.
+</p><p>If you have obtained someone's public key, and Thunderbird refuses to import or to use it, possible reasons are:
+</p>
+<ul><li> After importing it the key appears to lack certain properties.
+</li><li> The key has an unexpected validity period.
+</li><li> The key might contain unsafe properties that Thunderbird decided to reject or ignore.
+</li></ul>
+<h2 id=""w_matching-email-address"">Matching email address</h2>
+<p>In order to use an OpenPGP public key or S/MIME certificate for sending an encrypted email to an email address, Thunderbird usually requires that the inner structure of the key or certificate lists the exactly matching email address. It allows Thunderbird to automatically decide if a public key or certificate can be used for an email address.
+</p><p>In other words, if Alice wants to send encrypted email to <a href=""mailto:bob@example.com"">bob@example.com</a>, she needs an OpenPGP public key or S/MIME certificate that claims to be for that email address. A key or certificate claiming to be for <a href=""mailto:bobby@example.com"">bobby@example.com</a> wouldn't be used by Thunderbird.
+</p><p>If Alice really wanted to use the public key or certificate listing <a href=""mailto:bobby@example.com"">bobby@example.com</a> for sending email to <a href=""mailto:bob@example.com"">bob@example.com</a>, then Alice would have to have additional knowledge about Bob's email addresses, which aren't obvious. Bob would have to ask Alice to use that key despite the email address mismatch. Alice would have to ask Thunderbird to use the public key or certificate despite the mismatch.
+</p><p>This is considered an advanced scenario, which some users might be required to use, but which most users don't need. Thunderbird currently doesn't offer an interactive solution for this.
+</p><p>However, because some expert users have requested support for using mismatching OpenPGP public keys, Thunderbird is offering an advanced configuration mechanism, which is documented in the article <a href=""/en-US/kb/thunderbird-help-openpgp-alias"">Thunderbird and OpenPGP Alias Keys</a>.
+</p>
+<h2 id=""w_accepting"">Accepting</h2>
+<p>If you have obtained an OpenPGP public key, and the key claims to be in the name of your correspondent, and contains your correspondent's email address, there is still a risk that it is not <em>the right key</em>. The risk is described in detail in the article <a href=""/en-US/kb/thunderbird-help-openpgp-counterfeit-key"">OpenPGP keys might be authentic or counterfeit</a>.
+</p><p>Because of this risk, Thunderbird doesn't use OpenPGP public keys automatically. Rather, for each public key you'd like to use, you are required to confirm that the key is acceptable for you, as described in the above article.
+</p><p>In other words, if Alice has obtained an OpenPGP public key that lists the email address <a href=""mailto:bob@example.com"">bob@example.com</a>, and Alice attempts to send an encrypted email to <a href=""mailto:bob@example.com"">bob@example.com</a>, Thunderbird might complain that there's no <em>accepted</em> key for Bob yet. Alice must follow the guidance offered on screen to review the key or keys that are available for <a href=""mailto:bob@example.com"">bob@example.com</a>, she should review it, she should ideally verify it, and she needs to mark the key as accepted.
+</p><p>For S/MIME, technically valid certificates that are signed by a CA that has been included in Thunderbird according based on the <a href=""https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/"">Mozilla Root Store Policy</a> will automatically be accepted by Thunderbird for sending encrypted email to the address listed in the certificate.
+</p>
+<h2 id=""w_other-resources"">Other resources</h2>
+<ul><li> <a href=""/en-US/kb/introduction-to-e2e-encryption"">Introduction to End-to-end encryption in Thunderbird</a>
+</li><li> <a href=""/en-US/kb/openpgp-thunderbird-howto-and-faq"">OpenPGP in Thunderbird - HOWTO and FAQ</a>
+</li><li> <a href=""/en-US/kb/thunderbird-help-setup-account-e2ee"">Setup your email account for using End-To-End Encryption</a>
+</li><li> <a href=""/en-US/kb/openpgp-recipient-alias-configuration"">OpenPGP Recipient Alias Configuration</a>
+</li></ul>",thunderbird,email-and-messaging;encryption;privacy-and-security;send-and-receive-email,"If you attempt to send an email with enabled End-To-End Encryption (e2ee), Thunderbird may report that it cannot encrypt. This article explains the requirements for sending an encrypted an email message.
+
+## Table of Contents
+
+- [1 Requirements List](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_requirements-list)
+- [2 Obtaining OpenPGP public keys of correspondents](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_obtaining-openpgp-public-keys-of-correspondents)
+- [3 Obtaining S/MIME certificates of correspondents](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_obtaining-smime-certificates-of-correspondents)
+- [4 Technical validity](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_technical-validity)
+- [5 Matching email address](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_matching-email-address)
+- [6 Accepting](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_accepting)
+- [7 Other resources](https://support.mozilla.org/kb/thunderbird-help-cannot-encrypt#w_other-resources)
+
+## Requirements List
+
+All of the items must be satisifed:
+
+- You must have a personal OpenPGP key or a personal S/MIME certificate, and you must configure Thunderbird to use it. How to do that is explained in a separate article: [Setup your email account for using End-To-End Encryption](\""https://support.mozilla.org/en-US/kb/thunderbird-help-setup-account-e2ee"").
+- If you had previously configured your own key or certificate, ensure it hasn't expired, it hasn't been revoked, and you haven't deleted it.
+- Every email recipient that you added to the TO, CC or BCC fields must also own a personal OpenPGP key or personal S/MIME certificate, and they must have made the respective public key or certificate available. How you can obtain and use them is explained in the following sections in this article.
+- When using group encryption utilizing the [OpenPGP recipient alias feature](\""https://support.mozilla.org/en-US/kb/openpgp-recipient-alias-configuration""), the public keys for all recipients defined for an alias email address must be available.
+- You must have keys or certificates of the same technology for all recipients including yourself, because OpenPGP and S/MIME are separate encryption technologies and cannot be mixed in a single email. Ensure you have selected the correct technology when composing an encrypted email.
+
+If you need a more detailed explanation of the terms mentioned in this article, and to learn how email encryption technology works in general, you might want to read the article [Introduction to End-to-end encryption in Thunderbird](\""https://support.mozilla.org/en-US/kb/introduction-to-e2e-encryption"").
+
+## Obtaining OpenPGP public keys of correspondents
+
+The following mechanisms can be used to obtain an OpenPGP public key:
+
+- Your correspondent sends an email to you, and they attach their public key to that email. When viewing such an email, if you click the OpenPGP button shown in the header area, Thunderbird will offer you to import the key.
+- Your correspondent sends an email to you, which includes an Autocrypt header containing their public key. When viewing such an email, if you click the OpenPGP button shown in the header area, Thunderbird will offer you to import the key.
+- Your correspondent has published their public key on a web server. Your correspondent may give you a link to their public key. Or you might use a web search and find the key yourself. In both cases you download the public key to a local file, and then use Thunderbird's OpenPGP Key Manager to import the file containing the public key.
+- Your correspondent has published their public key on a server that uses the WKD protocol. When attempting to send an encrypted email, but you don't have a public key for a recipient's email address yet, Thunderbird may offer you to perform an online discovery, which is able to find public keys published using the WKD protocol.
+- Your correspondent has published their public key on a keyserver that Thunderbird supports, such as the [keys.openpgp.org](http://keys.openpgp.org) server. When attempting to send an encrypted email, but you don't have a public key for a recipient's email address yet, Thunderbird may offer you to perform an online discovery, which is able to find public keys published on that keyserver.
+- Your correspondent has published their public key on a keyserver that Thunderbird isn't yet able to query automatically. If your correspondent tells you which keyserver contains their key, you might be able to use a web browser to visit that keyserver, search for their public key, download it to a file, and then import that file using Thunderbird's OpenPGP Key Manager.
+
+If Thunderbird cannot find the key automatically, it is usually easiest to send a simple email (without encryption) to your correspondent, and ask them to send an email to you that contains their public key.
+
+With Thunderbird versions 78 and 91, if you received an email with a correspondent's key, it was necessary to interact with that email to import the key, either by using the right click menu on an attachment and asking to import it, or by clicking the OpenPGP button shown in the header area, which may report that the email contains a public key and may offer to import it.
+
+With Thunderbird versions 102 and newer, Thunderbird will automtically collect keys it sees in a cache for later use. When composing an email, and the correpondent's public key has not yet been imported, then Thunderbird may be able to automatically offer you to use public keys it has already collected.
+
+Note, it is not possible to review the cache of all keys that Thunderbird has automatically collected. If necessary, Thunderbird will offer you matching keys in the OpenPGP Key Assistant, which you can access from Thunderbird's email composer window.
+
+To review the list of already imported OpenPGP keys, you can use Thunderbird's OpenPGP Key Manager.
+
+## Obtaining S/MIME certificates of correspondents
+
+The standard way of distributing a person's certificate is to send a digitally signed email. If you have received a signed email from your correspondent, click the email to view it. If Thunderbird considers the email's signature and the sender's certificate valid, it will automatically be imported and available when you attempt to encrypt an email to that correspondent using the S/MIME technology. If you don't have a signed email from your correspondent yet, you could ask them to send a digitally signed email to you.
+
+Note that certificates issued by CAs may have a short validity period. Certificates are no longer usable after the validity period has expired. In that case your correspondent will have to obtain a new certificate. Once that happened they will be able to send you a new digitally signed email with a valid certificate.
+
+Organizations that operate an LDAP server may configure their server to store S/MIME certificates. If an LDAP server is configured, Thunderbird may automatically query the LDAP server if it needs to obtain a S/MIME certificate.
+
+To review the list of S/MIME certificates that you already have, you can use Thunderbird's Certificate Manager.
+
+## Technical validity
+
+Thunderbird only uses keys and certificates that it considers technically valid.
+
+Thunderbird requires that an OpenPGP key contains at least one valid primary or subordinate key usable for creating digital signatures, and at least one key usable for encryption.
+
+Thunderbird may refuse to use OpenPGP keys that are corrupted, or that are based on cryptographic algorithms that Thunderbird considers to be unsafe.
+
+An OpenPGP public key has an inner structure, it may contain several subordinate keys, and it also contains properties, such as the validity period and the related user names and email addresses. Such properties may be added, removed or updated. To ensure that properties were really modified by the legitimate owner of the key, the properties are digitally signed using the owner's secret key. Each digital signature uses a signature algorithm. Thunderbird may ignore properties that are based on unsafe signature algorithms.
+
+If you have obtained someone's public key, and Thunderbird refuses to import or to use it, possible reasons are:
+
+- After importing it the key appears to lack certain properties.
+- The key has an unexpected validity period.
+- The key might contain unsafe properties that Thunderbird decided to reject or ignore.
+
+## Matching email address
+
+In order to use an OpenPGP public key or S/MIME certificate for sending an encrypted email to an email address, Thunderbird usually requires that the inner structure of the key or certificate lists the exactly matching email address. It allows Thunderbird to automatically decide if a public key or certificate can be used for an email address.
+
+In other words, if Alice wants to send encrypted email to [bob@example.com](mailto:bob@example.com), she needs an OpenPGP public key or S/MIME certificate that claims to be for that email address. A key or certificate claiming to be for [bobby@example.com](mailto:bobby@example.com) wouldn't be used by Thunderbird.
+
+If Alice really wanted to use the public key or certificate listing [bobby@example.com](mailto:bobby@example.com) for sending email to [bob@example.com](mailto:bob@example.com), then Alice would have to have additional knowledge about Bob's email addresses, which aren't obvious. Bob would have to ask Alice to use that key despite the email address mismatch. Alice would have to ask Thunderbird to use the public key or certificate despite the mismatch.
+
+This is considered an advanced scenario, which some users might be required to use, but which most users don't need. Thunderbird currently doesn't offer an interactive solution for this.
+
+However, because some expert users have requested support for using mismatching OpenPGP public keys, Thunderbird is offering an advanced configuration mechanism, which is documented in the article [Thunderbird and OpenPGP Alias Keys](\""https://support.mozilla.org/en-US/kb/thunderbird-help-openpgp-alias"").
+
+## Accepting
+
+If you have obtained an OpenPGP public key, and the key claims to be in the name of your correspondent, and contains your correspondent's email address, there is still a risk that it is not _the right key_. The risk is described in detail in the article [OpenPGP keys might be authentic or counterfeit](\""https://support.mozilla.org/en-US/kb/thunderbird-help-openpgp-counterfeit-key"").
+
+Because of this risk, Thunderbird doesn't use OpenPGP public keys automatically. Rather, for each public key you'd like to use, you are required to confirm that the key is acceptable for you, as described in the above article.
+
+In other words, if Alice has obtained an OpenPGP public key that lists the email address [bob@example.com](mailto:bob@example.com), and Alice attempts to send an encrypted email to [bob@example.com](mailto:bob@example.com), Thunderbird might complain that there's no _accepted_ key for Bob yet. Alice must follow the guidance offered on screen to review the key or keys that are available for [bob@example.com](mailto:bob@example.com), she should review it, she should ideally verify it, and she needs to mark the key as accepted.
+
+For S/MIME, technically valid certificates that are signed by a CA that has been included in Thunderbird according based on the [Mozilla Root Store Policy](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/) will automatically be accepted by Thunderbird for sending encrypted email to the address listed in the certificate.
+
+## Other resources
+
+- [Introduction to End-to-end encryption in Thunderbird](\""https://support.mozilla.org/en-US/kb/introduction-to-e2e-encryption"")
+- [OpenPGP in Thunderbird - HOWTO and FAQ](\""https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq"")
+- [Setup your email account for using End-To-End Encryption](\""https://support.mozilla.org/en-US/kb/thunderbird-help-setup-account-e2ee"")
+- [OpenPGP Recipient Alias Configuration](\""https://support.mozilla.org/en-US/kb/openpgp-recipient-alias-configuration"")
 
 "
 58718,Thunderbird and OpenPGP Alias Keys,thunderbird-help-openpgp-alias,https://support.mozilla.org/en-US/kb/thunderbird-help-openpgp-alias,en-US,How to use the OpenPGP Alias Keys feature to bypass Thunderbird's usual requirement that an OpenPGP public key must contain the recipient's email address.,"<p>
