@@ -6727,8 +6727,6 @@ _**Based on information from [Master password (mozillaZine KB)](http://kb.mozill
 </p>
 <div class=""note"">Clicking the <span class=""for"" data-for=""fx149"">shield</span><span class=""for"" data-for=""not fx149"">padlock</span> to the left of the address bar brings up the <a href=""/en-US/kb/site-information-panel"">Site Information panel</a>, which allows you to view more detailed information about the security status of the connection.</div>
 <div class=""warning""><strong>Warning:</strong> You should never send any sensitive information (such as bank information, credit card data or social security numbers) to a website if the address bar shows a <span class=""for"" data-for=""not fx149"">padlock with a <img alt=""Fx89Padlock-Triangle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-55-22-88c82d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> warning triangle or <img alt=""Fx89Padlock-RedLine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-53-30-fe088c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> </span><span class=""for"" data-for=""fx149"">shield <img alt=""Fx149UnifiedTrustIcon-NotSecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-28-01-23-07-34f753.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> with a</span> red strike over it. In such cases, you may not be communicating with the intended website and your data isn't safe against eavesdropping!</div>
-<p>
-</p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_padlock""><span class=""tocnumber"">1</span> <span class=""toctext"">Padlock</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-warning-triangle""><span class=""tocnumber"">2</span> <span class=""toctext"">Padlock with a warning triangle</span></a></li><li class=""toclevel-1""><a href=""#w_padlock-with-a-red-strike-over-it""><span class=""tocnumber"">3</span> <span class=""toctext"">Padlock with a red strike over it</span></a></li><li class=""toclevel-1""><a href=""#w_shield-with-a-check-mark""><span class=""tocnumber"">4</span> <span class=""toctext"">Shield with a check mark</span></a></li><li class=""toclevel-1""><a href=""#w_shield-with-an-x-mark""><span class=""tocnumber"">5</span> <span class=""toctext"">Shield with an x mark</span></a></li><li class=""toclevel-1""><a href=""#w_shield-with-a-red-strike-over-it""><span class=""tocnumber"">6</span> <span class=""toctext"">Shield with a red strike over it</span></a></li></ul></div>
 <div class=""for"" data-for=""not fx149"">
 <h1 id=""w_padlock"">Padlock</h1>
@@ -10513,18 +10511,29 @@ If neither Firefox nor another browser can load any websites, your problem is ex
 - See [OS X El Capitan: If you can’t connect to the Internet](http://support.apple.com/kb/PH21640) at apple.com.
 
 "
-720,Back up and restore information in Firefox profiles,back-and-restore-information-firefox-profiles,https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles,en-US,Firefox stores your personal data and settings in a profile folder. Learn how to back up and restore this important information.,"<p>Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a> folder on your computer, in a location separate from the Firefox program. This article explains how to back up your profile, restore it, or move your profile to a new location or computer.
-</p><p>This article only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> to learn about Firefox Sync and connecting your mobile devices.
+720,Manually back up and restore Firefox profile data,back-and-restore-information-firefox-profiles,https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles,en-US,Firefox stores your personal data and settings in a profile folder. Learn how to back up and restore this important information.,"<div class=""note""><strong>Note</strong>: If you want to back up your Firefox data and move it to a new device, we recommend using the built-in backup tool. See <a href=""/en-US/kb/firefox-backup"">Restore your Firefox browsing data with a backup file</a> for more details. </div>
+<p>Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a> folder on your computer, in a location separate from the Firefox program. You can copy this folder to back up and restore your data manually. 
+</p><p>This article explains how to use manual folder copy to back up your profile, restore it, or move your profile to a new location or computer, and it only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> to learn about Firefox Sync and connecting your mobile devices.
 </p>
 <div class=""note""><strong>Note:</strong> <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">The Refresh Firefox feature</a> creates an <strong>Old Firefox Data</strong> folder on your desktop, which contains a backup of your old profile folder and its contents. If you recently refreshed Firefox and still have this folder, you already have a complete profile backup.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_locate-your-profile-folder""><span class=""tocnumber"">1</span> <span class=""toctext"">Locate your profile folder</span></a></li><li class=""toclevel-1""><a href=""#w_back-up-your-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Back up your profile</span></a></li><li class=""toclevel-1""><a href=""#w_restore-a-profile-backup""><span class=""tocnumber"">3</span> <span class=""toctext"">Restore a profile backup</span></a><ul><li class=""toclevel-2""><a href=""#w_restore-to-a-different-location""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Restore to a different location</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_when-should-i-use-manual-backup""><span class=""tocnumber"">1</span> <span class=""toctext"">When should I use manual backup</span></a></li><li class=""toclevel-1""><a href=""#w_locate-your-profile-folder""><span class=""tocnumber"">2</span> <span class=""toctext"">Locate your profile folder</span></a></li><li class=""toclevel-1""><a href=""#w_manually-back-up-your-profile-data""><span class=""tocnumber"">3</span> <span class=""toctext"">Manually back up your profile data</span></a></li><li class=""toclevel-1""><a href=""#w_manually-restore-a-profile-backup""><span class=""tocnumber"">4</span> <span class=""toctext"">Manually restore a profile backup</span></a><ul><li class=""toclevel-2""><a href=""#w_restore-to-a-different-location""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Restore to a different location</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_when-should-i-use-manual-backup"">When should I use manual backup</h1>
+<p>Manual backup is useful if:
+</p>
+<ul><li>Firefox won’t open or is corrupted
+</li><li>You need to recover specific files
+</li><li>You are troubleshooting profile issues
+</li></ul>
+<p>For most users, the <a href=""/en-US/kb/firefox-backup""><strong>Firefox Backup tool</strong></a> is easier and recommended.
+</p>
 <h1 id=""w_locate-your-profile-folder"">Locate your profile folder</h1>
 <p></p><ul><li><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span> and select <span class=""menu"">More Troubleshooting Information</span>.</span><span class=""for"" data-for=""mac"">From the <span class=""menu"">Help</span> menu, select <span class=""menu"">More Troubleshooting Information</span>.</span> The <strong>Troubleshooting Information</strong> tab will open.
 </li><li>Under the <strong>Application Basics</strong> section next to <em><span class=""for"" data-for=""not linux"">Profile Folder</span><span class=""for"" data-for=""linux"">Profile Directory</span></em>, click <span class=""button""><span class=""for"" data-for=""win"">Open Folder</span><span class=""for"" data-for=""mac"">Show in Finder</span><span class=""for"" data-for=""linux"">Open Directory</span></span>. <span class=""for"" data-for=""mac"">A window will open that contains your profile folder.</span><span class=""for"" data-for=""win"">Your profile folder will open.</span><span class=""for"" data-for=""linux"">Your profile directory will open.</span>
 </li></ul>
 <div class=""note""><strong>Note:</strong>  If<span class=""for"" data-for=""win10,win11""> Firefox displays an error after clicking <span class=""button"">Open Folder</span> or if</span> you are unable to open or use Firefox, follow the instructions in <a href=""/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"">Finding your profile without opening Firefox</a>.</div>
 <p></p>
-<h1 id=""w_back-up-your-profile"">Back up your profile</h1>
+<h1 id=""w_manually-back-up-your-profile-data"">Manually back up your profile data</h1>
+<div class=""note""><strong>Note</strong>: If you’re trying to move your data to a new computer, use the <a href=""/en-US/kb/firefox-backup""><strong>Firefox Backup tool</strong></a> instead of these manual steps.</div>
 <p>To back up your profile, first close Firefox if it is open and then copy the profile folder to another location.
 </p>
 <ol><li> Locate your profile folder, as explained above.
@@ -10537,7 +10546,7 @@ If neither Firefox nor another browser can load any websites, your problem is ex
  the backup location (such as a USB-stick) and select <span class=""menu"">Paste<span class=""for"" data-for=""mac""> item</span></span>.
 </li></ol>
 <div class=""warning""> <strong>Warning:</strong> Profiles are not always portable across different operating systems because of file path and version differences. If you’re moving from Linux to Windows, you may only be able to copy bookmarks/password files, not the whole profile.</div>
-<h1 id=""w_restore-a-profile-backup"">Restore a profile backup</h1>
+<h1 id=""w_manually-restore-a-profile-backup"">Manually restore a profile backup</h1>
 <ol><li> <span class=""for"" data-for=""win"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Exit</span>.</span><span class=""for"" data-for=""mac"">Click the Firefox menu at the top of the screen and select <span class=""menu"">Quit Firefox</span>.</span><span class=""for"" data-for=""linux"">Click the Firefox menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Quit</span>.</span>
 
 </li><li> If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Firefox. <div class=""note""><strong>Important:</strong> The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.</div>
@@ -10561,20 +10570,33 @@ If neither Firefox nor another browser can load any websites, your problem is ex
 <ul><li>To back up and transfer your data using Firefox Sync when you install Firefox on a new device, see <a href=""/en-US/kb/switching-devices"">Back up and transfer your Firefox data to a new device</a>.
 </li><li>To restore or move selected information instead of the entire profile, see <a href=""/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"">Restore bookmarks, passwords and data from an old Firefox profile</a>.
 </li><li>To back up, restore or move just your bookmarks (not other data), see <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.
-</li></ul>",firefox,backup-data;backup-recovery-and-sync;installation-and-updates;recover-data;settings,"Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a [profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") folder on your computer, in a location separate from the Firefox program. This article explains how to back up your profile, restore it, or move your profile to a new location or computer.
+</li></ul>",firefox,backup-data;backup-recovery-and-sync;installation-and-updates;recover-data;settings," **Note** : If you want to back up your Firefox data and move it to a new device, we recommend using the built-in backup tool. See [Restore your Firefox browsing data with a backup file](\""https://support.mozilla.org/en-US/kb/firefox-backup"") for more details. 
 
-This article only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to learn about Firefox Sync and connecting your mobile devices.
+Firefox stores your personal data, such as bookmarks, passwords, and extensions, in a [profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") folder on your computer, in a location separate from the Firefox program. You can copy this folder to back up and restore your data manually.
+
+This article explains how to use manual folder copy to back up your profile, restore it, or move your profile to a new location or computer, and it only applies to Firefox on desktop (Windows, macOS, Linux). To move or back up data on mobile devices, use Firefox Sync. See [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"") to learn about Firefox Sync and connecting your mobile devices.
 
 **Note:** [The Refresh Firefox feature](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") creates an **Old Firefox Data** folder on your desktop, which contains a backup of your old profile folder and its contents. If you recently refreshed Firefox and still have this folder, you already have a complete profile backup.
 
 ## Table of Contents
 
-- [1 Locate your profile folder](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_locate-your-profile-folder)
-- [2 Back up your profile](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_back-up-your-profile)
-- [3 Restore a profile backup](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_restore-a-profile-backup)
-  - [3.1 Restore to a different location](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_restore-to-a-different-location)
+- [1 When should I use manual backup](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_when-should-i-use-manual-backup)
+- [2 Locate your profile folder](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_locate-your-profile-folder)
+- [3 Manually back up your profile data](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_manually-back-up-your-profile-data)
+- [4 Manually restore a profile backup](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_manually-restore-a-profile-backup)
+  - [4.1 Restore to a different location](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_restore-to-a-different-location)
 
-- [4 Related articles](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_related-articles)
+- [5 Related articles](https://support.mozilla.org/kb/back-and-restore-information-firefox-profiles#w_related-articles)
+
+# When should I use manual backup
+
+Manual backup is useful if:
+
+- Firefox won’t open or is corrupted
+- You need to recover specific files
+- You are troubleshooting profile issues
+
+For most users, the [**Firefox Backup tool**](\""https://support.mozilla.org/en-US/kb/firefox-backup"") is easier and recommended.
 
 # Locate your profile folder
 
@@ -10583,7 +10605,9 @@ This article only applies to Firefox on desktop (Windows, macOS, Linux). To move
 
 **Note:** If Firefox displays an error after clicking Open Folder or if you are unable to open or use Firefox, follow the instructions in [Finding your profile without opening Firefox](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"").
 
-# Back up your profile
+# Manually back up your profile data
+
+**Note** : If you’re trying to move your data to a new computer, use the [**Firefox Backup tool**](\""https://support.mozilla.org/en-US/kb/firefox-backup"") instead of these manual steps.
 
 To back up your profile, first close Firefox if it is open and then copy the profile folder to another location.
 
@@ -10595,7 +10619,7 @@ To back up your profile, first close Firefox if it is open and then copy the pro
 
  **Warning:** Profiles are not always portable across different operating systems because of file path and version differences. If you’re moving from Linux to Windows, you may only be able to copy bookmarks/password files, not the whole profile.
 
-# Restore a profile backup
+# Manually restore a profile backup
 
 1. Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Exit.Click the Firefox menu at the top of the screen and select Quit Firefox.Click the Firefox menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Quit.
 2. If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Firefox. 
@@ -16981,6 +17005,513 @@ When you open Firefox for the first time:
 - [Make Firefox your default browser](\""https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser"")
 - [Update Firefox to the latest release](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"")
 - [Firefox users on macOS 10.12, 10.13 and 10.14 moving to Extended Support Release](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"")
+
+"
+852,Websites say cookies are blocked - Unblock them,websites-say-cookies-are-blocked-unblock-them,https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them,en-US,This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled.,"<p>This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled.  For more information on cookies, see <a href=""/en-US/kb/cookies-information-websites-store-on-your-computer"">Cookies - Information that websites store on your computer</a>.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_check-cookie-settings""><span class=""tocnumber"">1</span> <span class=""toctext"">Check cookie settings</span></a></li><li class=""toclevel-1""><a href=""#w_check-sites-that-are-blocked-from-setting-cookies""><span class=""tocnumber"">2</span> <span class=""toctext"">Check sites that are blocked from setting cookies</span></a></li><li class=""toclevel-1""><a href=""#w_clear-history-for-that-site""><span class=""tocnumber"">3</span> <span class=""toctext"">Clear history for that site</span></a></li><li class=""toclevel-1""><a href=""#w_clear-all-cookies-and-the-cache""><span class=""tocnumber"">4</span> <span class=""toctext"">Clear all cookies and the cache</span></a></li></ul></div>
+<h1 id=""w_check-cookie-settings"">Check cookie settings</h1>
+<p>Firefox can be set to not accept cookies. To turn on cookies:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Select the <span class=""menu"">Privacy &amp; Security</span> panel. This is where you can view your settings for <strong><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a></strong>, which includes cookies.
+<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-06-41-12-6fb0ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx108settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-09-04-33-36-05e8a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<ul><li>If <span class=""menu"">Standard</span> is selected, this is the default setting and, except for trackers, all cookies are allowed. For more information, see <a href=""/en-US/kb/trackers-and-scripts-firefox-blocks-enhanced-track"">Trackers and scripts Firefox blocks in Enhanced Tracking Protection</a> and <a href=""/en-US/kb/introducing-total-cookie-protection-standard-mode"">Introducing Total Cookie Protection in Standard Mode</a>.
+</li><li>If <span class=""menu"">Strict</span> is selected, either choose <span class=""menu"">Standard</span> or switch to <span class=""menu"">Custom</span>.
+</li><li>If <span class=""menu"">Custom</span> is selected, either uncheck <strong>Cookies</strong> (this will allow all cookies) or select the setting to only block <em>Cross-site tracking cookies, and isolate other cross-site cookies</em>.
+</li></ul>
+<dl><dt><img alt=""Fx111settings-ETPcustom"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-18-12-14-24-e725a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Select the <img alt=""reload all tabs retina"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-09-13-11-05-25-37ec1e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150""> button (shown when multiple tabs are open) to apply your new setting.
+</li></ol>
+<h1 id=""w_check-sites-that-are-blocked-from-setting-cookies"">Check sites that are blocked from setting cookies</h1>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">Privacy &amp; Security</span> panel and scroll down to the <strong>Cookies and Site Data</strong> section.
+<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li>Click <span class=""for"" data-for=""fx148""><span class=""menu"">Manage exceptions</span>.</span><span class=""for"" data-for=""not fx148""><span class=""button"">Manage Exceptions…</span></span>
+<ul><li>The <em>Exceptions - Cookies and Site Data</em> dialog box that opens will show you which sites you have blocked from storing cookies.
+</li></ul>
+</li><li>Make sure the site you're trying to access isn't listed.
+<ul><li>If it is, click on its entry and click <span class=""button"">Remove Website</span>.
+</li></ul>
+</li><li>Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
+
+</li></ol>
+<h1 id=""w_clear-history-for-that-site"">Clear history for that site</h1>
+<p>The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
+</p>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+ Click <span class=""menu"">History</span> and then click the <span class=""menu"">Manage history</span> bar at the bottom to open the Library window.
+
+</li><li>Search for the website you want to remove from your history by typing its name in the <strong>Search History</strong> field in the top-right corner and then pressing <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.
+</li><li>Then, in the search results, <span class=""for"" data-for=""win,linux"">right-click</span><span class=""for"" data-for=""mac"">hold down the <span class=""key"">Ctrl</span> key while you click</span> on the site you want to remove, and select <span class=""menu"">Forget About This Site</span>.<div class=""warning""><strong>All history items (browsing and download history, cookies, cache, active logins, passwords, saved form data, exceptions for cookies, images, pop-ups) for that site will be removed.</strong></div><br><span class=""for"" data-for=""win""><img alt=""History Win6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-25-59-2e196c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""History Mac6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-22-59-4827fe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""History Lin6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-02-03-06-21-07-49758c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</li><li>Finally, close the Library window.
+</li></ol>
+<h1 id=""w_clear-all-cookies-and-the-cache"">Clear all cookies and the cache</h1>
+<p>If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
+</p><div class=""for"" data-for=""not fx128"">
+<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
+</li><li> In the <em>Time range to clear:</em> drop-down, select <strong>Everything</strong>.
+</li><li> Below the drop-down menu, select both <strong>Cookies</strong> and <strong>Cache</strong>. Make sure other items you want to keep are not selected.
+</li><li> Click <span class=""button"">Clear Now</span>.
+</li></ol>
+</div><div class=""for"" data-for=""fx128"">
+<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li> Click <span class=""menu"">History</span> and select <span class=""menu"">Clear recent history…</span>
+</li><li> In the <em>When:</em> drop-down, select <strong>Everything</strong>.
+</li><li> Below the drop-down menu, select both  <strong>Cookies and site data</strong> and <strong>Temporary cached files and pages</strong>. Make sure other items you want to keep are not selected.
+</li><li> Click <span class=""button"">Clear</span>.
+</li></ol>
+</div>
+<p></p><p><br>
+
+<br> <br>
+<em><strong>Based on information from <a href=""http://kb.mozillazine.org/Websites_report_cookies_are_disabled"">Websites report cookies are disabled (mozillaZine KB)</a></strong></em>
+</p>",firefox,tracking-protection,"This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled. For more information on cookies, see [Cookies - Information that websites store on your computer](\""https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"").
+
+## Table of Contents
+
+- [1 Check cookie settings](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_check-cookie-settings)
+- [2 Check sites that are blocked from setting cookies](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_check-sites-that-are-blocked-from-setting-cookies)
+- [3 Clear history for that site](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_clear-history-for-that-site)
+- [4 Clear all cookies and the cache](https://support.mozilla.org/kb/websites-say-cookies-are-blocked-unblock-them#w_clear-all-cookies-and-the-cache)
+
+# Check cookie settings
+
+Firefox can be set to not accept cookies. To turn on cookies:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Privacy & Security panel. This is where you can view your settings for **[Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"")**, which includes cookies.<dl><dt>
+<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-06-41-12-6fb0ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx108settings-ETP"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-09-04-33-36-05e8a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+  - If Standard is selected, this is the default setting and, except for trackers, all cookies are allowed. For more information, see [Trackers and scripts Firefox blocks in Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/trackers-and-scripts-firefox-blocks-enhanced-track"") and [Introducing Total Cookie Protection in Standard Mode](\""https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode"").
+  - If Strict is selected, either choose Standard or switch to Custom.
+  - If Custom is selected, either uncheck **Cookies** (this will allow all cookies) or select the setting to only block _Cross-site tracking cookies, and isolate other cross-site cookies_.
+
+<dl><dt>
+<img alt=""Fx111settings-ETPcustom"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-18-12-14-24-e725a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Select the ![reload all tabs retina](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button (shown when multiple tabs are open) to apply your new setting.
+
+# Check sites that are blocked from setting cookies
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Privacy & Security panel and scroll down to the **Cookies and Site Data** section.<dl><dt>
+<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. Click Manage exceptions.Manage Exceptions…
+  - The _Exceptions - Cookies and Site Data_ dialog box that opens will show you which sites you have blocked from storing cookies.
+
+4. Make sure the site you're trying to access isn't listed.
+  - If it is, click on its entry and click Remove Website.
+
+5. Close the Settings page. Any changes you've made will automatically be saved.
+
+# Clear history for that site
+
+The cookies and temporary data already stored on your computer may be causing the problem. Delete them, then test for your problem:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel. Click History and then click the Manage history bar at the bottom to open the Library window.
+2. Search for the website you want to remove from your history by typing its name in the **Search History** field in the top-right corner and then pressing EnterReturn.
+3. Then, in the search results, right-clickhold down the Ctrl key while you click on the site you want to remove, and select Forget About This Site.
+**All history items (browsing and download history, cookies, cache, active logins, passwords, saved form data, exceptions for cookies, images, pop-ups) for that site will be removed.**
+  
+ ![History Win6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![History Mac6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![History Lin6](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+4. Finally, close the Library window.
+
+# Clear all cookies and the cache
+
+If deleting cookies for the site with the problem did not fix the error, clear all the cookies stored on your computer and clear the Firefox cache:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History and select Clear recent history…
+3. In the _Time range to clear:_ drop-down, select **Everything**.
+4. Below the drop-down menu, select both **Cookies** and **Cache**. Make sure other items you want to keep are not selected.
+5. Click Clear Now.
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History and select Clear recent history…
+3. In the _When:_ drop-down, select **Everything**.
+4. Below the drop-down menu, select both **Cookies and site data** and **Temporary cached files and pages**. Make sure other items you want to keep are not selected.
+5. Click Clear.
+
+_**Based on information from [Websites report cookies are disabled (mozillaZine KB)](http://kb.mozillazine.org/Websites_report_cookies_are_disabled)**_
+
+"
+855,Accessibility features in Firefox - Make Firefox and web content work for all users,accessibility-features-firefox,https://support.mozilla.org/en-US/kb/accessibility-features-firefox,en-US,Learn about features that make Firefox and web content accessible if you have vision problems or limited ability to use a keyboard or mouse.,"<p>Firefox includes many features to make the browser and web content accessible to all users, including those who have low vision, no vision or limited ability to use a keyboard or mouse.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-a-keyboard""><span class=""tocnumber"">1</span> <span class=""toctext"">Using a Keyboard</span></a><ul><li class=""toclevel-2""><a href=""#w_using-a-keyboard-to-navigate-within-webpages""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Using a keyboard to navigate within webpages</span></a></li><li class=""toclevel-2""><a href=""#w_search-for-text-when-you-start-to-type""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Search for text when you start to type</span></a></li><li class=""toclevel-2""><a href=""#w_html-access-keys""><span class=""tocnumber"">1.3</span> <span class=""toctext"">HTML Access Keys</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_mouse-shortcuts""><span class=""tocnumber"">2</span> <span class=""toctext"">Mouse Shortcuts</span></a></li><li class=""toclevel-1""><a href=""#w_zoom-fonts-and-colors""><span class=""tocnumber"">3</span> <span class=""toctext"">Zoom, Fonts and Colors</span></a><ul><li class=""toclevel-2""><a href=""#w_page-zoom""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Page Zoom</span></a></li><li class=""toclevel-2""><a href=""#w_text-zoom""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Text Zoom</span></a></li><li class=""toclevel-2""><a href=""#w_changing-the-size-of-buttons-and-menus""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Changing the size of buttons and menus</span></a></li><li class=""toclevel-2""><a href=""#w_setting-fonts-and-colors""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Setting Fonts and Colors</span></a></li><li class=""toclevel-2""><a href=""#w_setting-a-minimum-font-size""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Setting a Minimum Font Size</span></a></li><li class=""toclevel-2""><a href=""#w_overriding-page-fonts""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Overriding Page Fonts</span></a></li><li class=""toclevel-2""><a href=""#w_overriding-page-colors""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Overriding Page Colors</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-a-high-contrast-theme""><span class=""tocnumber"">4</span> <span class=""toctext"">Using a High Contrast Theme</span></a></li><li class=""toclevel-1""><a href=""#w_controlling-web-content""><span class=""tocnumber"">5</span> <span class=""toctext"">Controlling Web Content</span></a><ul><li class=""toclevel-2""><a href=""#w_blocking-pop-up-windows""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Blocking Pop-up Windows</span></a></li><li class=""toclevel-2""><a href=""#w_restricting-javascript-behavior""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Restricting JavaScript Behavior</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_compatibility-with-assistive-technologies""><span class=""tocnumber"">6</span> <span class=""toctext"">Compatibility With Assistive Technologies</span></a><ul><li class=""toclevel-2""><a href=""#w_screen-reader""><span class=""tocnumber"">6.1</span> <span class=""toctext"">Screen Reader</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-accessibility-links""><span class=""tocnumber"">7</span> <span class=""toctext"">Related accessibility links</span></a></li><li class=""toclevel-1""><a href=""#w_accessibility-conformance-report-acr""><span class=""tocnumber"">8</span> <span class=""toctext"">Accessibility Conformance Report (ACR)</span></a></li></ul></div>
+<h1 id=""w_using-a-keyboard"">Using a Keyboard</h1>
+<p>A list of common keyboard shortcuts is available in <a href=""/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"">Keyboard shortcuts - Perform common Firefox tasks quickly</a>. To customize shortcuts, see <a href=""/en-US/kb/customize-keyboard-shortcuts-firefox"">Customize keyboard shortcuts in Firefox</a>.
+</p>
+<h2 id=""w_using-a-keyboard-to-navigate-within-webpages"">Using a keyboard to navigate within webpages</h2>
+<p>To enable navigation and text selection within web content <span class=""for"" data-for=""fx124"">and PDF documents</span> using your keyboard in Firefox, as if you were navigating in a read-only text editor, follow the steps below:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, <em>Browsing</em> section, check the box next to <strong>Always use the cursor keys to navigate within pages</strong>.
+</li></ol>
+<p>Once this feature is activated, Firefox will introduce a movable cursor on web pages<span class=""for"" data-for=""fx124""> and within PDF documents</span> opened in the browser. This functionality, known as <a href=""https://wikipedia.org/wiki/Caret_navigation"">Caret Browsing</a>, significantly improves precision and accessibility for text selection and copying, providing a versatile tool for interacting with digital content.<span class=""for"" data-for=""win""> You can press <span class=""key"">F7</span> at any time to turn this feature on or off. When you press <span class=""key"">F7</span>, Firefox will ask if you really want to turn on this feature. You can disable this prompt by selecting <strong>Do not show this dialog again</strong>.</span>
+</p>
+<h2 id=""w_search-for-text-when-you-start-to-type"">Search for text when you start to type</h2>
+<p>To quickly navigate to text or hyperlinks in a web page, follow these steps:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, <em>Browsing</em> section, check the box next to <strong>Search for text when you start typing</strong>.
+</li></ol>
+<p>This feature has two modes. Press <span class=""key"">/</span> and start typing to search all text on the current page, or press <span class=""key"">'</span> before your string to search hyperlinks only. Firefox will highlight matching text or hyperlinks as you type.
+</p><p>The following keyboard shortcuts control this feature:
+</p>
+<ul><li> Type more characters to narrow your search. Firefox will highlight the next matching hyperlink or text or alert you that nothing matched.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">F3</span> to find the next occurrence of your current search string.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">Shift</span>+<span class=""key"">G</span> or <span class=""key"">Shift</span> + <span class=""key"">F3</span> to find the previous occurrence of your current search string.
+</li><li> Press <span class=""key"">Backspace</span> to undo the last character you typed. Firefox will back up to the previously highlighted text.
+</li><li> Press <span class=""key"">Esc</span> to cancel a search. You can also cancel a search by changing focus, or simply waiting for the timeout.
+</li></ul>
+<p>If this setting is checked, you can start typing at any time to auto-start a search on the current page. By default, auto-started searches look for all text on the page. You can still explicitly press <span class=""key"">'</span> or <span class=""key"">/</span> to start finding in one mode or the other.
+</p><p>You can use this feature to get to buttons, text boxes and other form controls. Search for the text immediately before the form control you want and press <span class=""key"">Tab</span>. Pressing <span class=""key"">Tab</span> automatically exits the search and sets focus to the next form field or button after the highlighted text.
+</p>
+<h2 id=""w_html-access-keys"">HTML Access Keys</h2>
+<p>On some web pages, keyboard shortcuts are assigned to different elements on the page. To move the cursor directly to one of these elements, press <span class=""for"" data-for=""win,linux""><span class=""key"">Shift</span>+<span class=""key"">Alt</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">option</span></span>+<strong>AccessKey</strong>.
+</p>
+<div class=""note"">Which key <strong>AccessKey</strong> depends on the website. It is determined by the website author, not Firefox.</div>
+<h1 id=""w_mouse-shortcuts"">Mouse Shortcuts</h1>
+<p>A list of common mouse shortcuts is available in <a href=""/en-US/kb/mouse-shortcuts-perform-common-tasks"">Use mouse shortcuts to perform common tasks in Firefox</a>.
+</p>
+<h1 id=""w_zoom-fonts-and-colors"">Zoom, Fonts and Colors</h1>
+<h2 id=""w_page-zoom"">Page Zoom</h2>
+<p>You can zoom in and out of web pages including images with the following keyboard shortcuts:
+</p>
+<ul><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">+</span> to display the web page one size larger.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">−</span> to display the web page one size smaller.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">0</span> (zero) to display the web page at its normal size.
+</li></ul>
+<p>For other ways to zoom in and out a web page, see <a href=""/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"">Font size and zoom - increase the size of web pages</a>.
+</p>
+<h2 id=""w_text-zoom"">Text Zoom</h2>
+<p>You can choose to change the text size only using the <em>Text Zoom</em> feature:
+</p>
+<ol><li><span class=""for"" data-for=""win7,win8,win10"">Press the <span class=""key"">Alt</span> key to temporarily bring up the traditional Firefox menus.</span> <span class=""for"" data-for=""win,linux"">At the top of the Firefox window</span><span class=""for"" data-for=""mac"">On the menu bar</span>, click the <span class=""menu"">View</span> menu.
+</li><li>Go down to <span class=""menu"">Zoom</span>.
+</li><li>Select <span class=""menu"">Zoom Text Only</span>, which will make the controls only apply to text, not images.
+</li></ol>
+<p>The following keyboard shortcuts control text size when Text Zoom is selected:
+</p>
+<ul><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">+</span> to increase the text size.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">−</span> to decrease the text size.
+</li><li> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">0</span> (zero) to reset the text size to the web page's default size.
+</li></ul>
+<p>Note that some web pages may display incorrectly if you increase or decrease the text size.
+</p><p>For other ways to zoom in and out the text of a web page, see <a href=""/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"">Font size and zoom - increase the size of web pages</a>.
+</p><div class=""for"" data-for=""win"">
+<h2 id=""w_changing-the-size-of-buttons-and-menus"">Changing the size of buttons and menus</h2>
+<p>Firefox automatically detects and matches the preferred text size of your operating system. If you change the display size for text on your computer, all websites, Firefox buttons and menus will adjust accordingly.
+</p><p>For example, to make changes to these settings in Windows 10, follow the steps below:
+</p>
+<ol><li>Click the Windows icon in the taskbar.
+</li><li>Click <span class=""menu"">Settings</span>.
+</li><li>Select <span class=""menu"">Ease of Access</span>.
+</li><li>Click <span class=""menu"">Display</span>.
+</li><li>Under <em>Make text bigger</em>, adjust the slider to your preferred text size.
+</li></ol>
+<p>Microsoft has rebranded <em>Ease of Access</em> to <em>Accessibility</em> in the Windows 11 Settings section.
+</p></div>
+<h2 id=""w_setting-fonts-and-colors"">Setting Fonts and Colors</h2>
+<p>See <a href=""/en-US/kb/change-fonts-and-colors-websites-use"">Change the fonts and colors websites use</a> for detailed instructions on choosing your preferred font styles and colors.
+</p>
+<h2 id=""w_setting-a-minimum-font-size"">Setting a Minimum Font Size</h2>
+<p>Some websites may display text which is too small to read comfortably. To make such pages easier to read, you can set a minimum font size. On web pages that try to display text smaller than this size, Firefox will enlarge the text to your chosen size.
+</p><p>To set a minimum font size:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Fonts</em> section, click the <span class=""button"">Advanced…</span> button.
+</li><li>Specify a minimum font size from the dropdown menu.
+</li></ol>
+<p>Note that some web pages may display incorrectly depending on your choice of minimum font size.
+</p>
+<h2 id=""w_overriding-page-fonts"">Overriding Page Fonts</h2>
+<p>Some websites may display text in fonts that are difficult to read, and other sites may rely on the browser's default fonts. To set your default fonts:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Fonts</em> section, choose a default font and size.
+</li></ol>
+<p>You can specify default fonts for different styles, including serif, sans-serif and monospace by clicking the <span class=""button"">Advanced…</span> button. However, many web pages specify their own fonts, so your choices will have no effect on such pages. To override the fonts defined by such pages, uncheck the <strong>Allow pages to choose their own fonts, instead of your selections above</strong> option.
+</p><p>Note that some web pages may display incorrectly depending on your choice of a default font.
+</p>
+<h2 id=""w_overriding-page-colors"">Overriding Page Colors</h2>
+<p>Some websites may display text and background colors that are difficult to read, and other sites may rely on the browser's default colors. To set your default colors:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Language and Appearance</em>.
+</li><li>In the <em>Colors</em> section, click the <span class=""button"">Manage Colors…</span> button.
+</li></ol>
+<p>You can set default text and background colors, as well as default colors for visited and unvisited hyperlinks.
+</p><p>However, many web pages set their own colors, so your choices will have no effect. To override the colors defined by web pages, use the drop-down menu to set <strong>Override the colors specified by the page with your selections above</strong> to <span class=""menu"">Always</span>.
+</p>
+<div class=""note"">The text and background colors you set above will also be used when <a href=""/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"">viewing PDFs in Firefox</a>.</div>
+<h1 id=""w_using-a-high-contrast-theme"">Using a High Contrast Theme</h1>
+<p>Firefox automatically detects if you are using a High Contrast theme on Windows and displays everything in your high contrast color scheme. This overrides all other browser or web page settings, and it affects the Firefox interface itself (all menus, windows and dialog boxes) and the content of any web page you visit.
+</p><div class=""for"" data-for=""win""><p><span class=""for"" data-for=""win7"">To use a High Contrast theme, go to <span class=""menu"">Start Menu</span>, select <span class=""menu"">Control Panel</span>, then <span class=""menu"">Appearance and Personalization</span>, finally <span class=""menu"">Change the theme</span> and choose one of the High Contrast themes.</span><span class=""for"" data-for=""win8"">To use a High Contrast theme, open the charms panel, select <span class=""menu"">Control Panel</span> from the <span class=""menu"">Settings</span> charm, then <span class=""menu"">Appearance and Personalization</span>, finally <span class=""menu"">Change the theme</span> and choose one of the High Contrast themes.</span><span class=""for"" data-for=""win10"">To use a High Contrast theme, go to <span class=""menu"">Start Menu</span>, select <span class=""menu"">Settings</span>, then <span class=""menu"">Ease of Access</span>, finally <span class=""menu"">High Contrast</span> on the left. Choose one of the High Contrast themes in the drop-down menu and click <span class=""button"">Apply</span>.</span>
+</p></div>
+<h1 id=""w_controlling-web-content"">Controlling Web Content</h1>
+<h2 id=""w_blocking-pop-up-windows"">Blocking Pop-up Windows</h2>
+<p>See <a href=""/en-US/kb/pop-blocker-settings-exceptions-troubleshooting"">Pop-up blocker settings, exceptions and troubleshooting</a> for information on blocking pop-up windows.
+</p>
+<h2 id=""w_restricting-javascript-behavior"">Restricting JavaScript Behavior</h2>
+<p>JavaScript can be used to do things that some people don't like. For better control, you can install <a href=""https://addons.mozilla.org/firefox/search/?tag=privacy"">privacy extensions</a>. For more info, see <a href=""/en-US/kb/javascript-settings-for-interactive-web-pages"">JavaScript settings and preferences for interactive web pages</a>.
+</p>
+<h1 id=""w_compatibility-with-assistive-technologies"">Compatibility With Assistive Technologies</h1>
+<h2 id=""w_screen-reader"">Screen Reader</h2>
+<p>A screen reader is a software application that attempts to identify and interpret what is being displayed on the screen (or, more accurately, sent to standard output, whether a video monitor is present or not). This interpretation is then re-presented to the user with text-to-speech, sound icons or a Braille output device. Screen readers are a form of assistive technology (AT) potentially useful to people who are blind, visually impaired, illiterate or learning disabled, often in combination with other AT, such as screen magnifiers. The above was adapted from Wikipedia under the <a href=""http://creativecommons.org/licenses/by-sa/3.0/"">Creative Commons – Attribution-ShareAlike 3.0</a> license.
+</p><p>Here are a <a href=""https://wikipedia.org/wiki/List_of_screen_readers"">list of screen reader software</a> and links to common ones:
+</p><div class=""for"" data-for=""win"">
+<ul><li><a href=""https://www.nvaccess.org/"">NVDA</a>
+</li><li><a href=""https://www.webbie.org.uk/thunder/"">Thunder</a>
+</li><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://www.freedomscientific.com/products/software/jaws/"">JAWS</a> (commercial)
+</li><li><a href=""https://www.freedomscientific.com/products/software/zoomtext/"">ZoomText</a> (commercial)
+</li><li><a href=""https://yourdolphin.com/product/version?id=182"">Supernova</a> (commercial)
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div><div class=""for"" data-for=""mac"">
+<ul><li><a href=""https://www.apple.com/accessibility/mac/vision/"">VoiceOver</a> – Firefox includes basic support for Voiceover. (This <a href=""https://support.apple.com/guide/voiceover/voiceover-recognition-category-vocbaf20181f/mac"">Apple Support page</a> explains how to enable VoiceOver and other Accessibility preferences.)
+</li><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li><a href=""https://webinsight.cs.washington.edu/wa/"">WebAnywhere</a>
+</li><li><a href=""https://orca.gnome.org/"">Orca</a>
+</li><li><a href=""https://addons.mozilla.org/firefox/search/?q=screen%20reader&amp;type=extension"">Screen Reader Add-ons Search for Firefox</a>
+</li></ul>
+</div>
+<h1 id=""w_related-accessibility-links"">Related accessibility links</h1>
+<ul><li><a href=""https://developer.mozilla.org/docs/Web/Accessibility"">Mozilla Accessibility on <em>MDN Web Docs</em></a>
+</li><li><a href=""https://blog.mozilla.org/accessibility/"">Mozilla Accessibility Blog</a>
+</li></ul>
+<h1 id=""w_accessibility-conformance-report-acr"">Accessibility Conformance Report (ACR)</h1>
+<p>We strive to be both compliant with accessibility standards and to create delightful experiences for our users. This recent report describes how the Firefox browser currently works for people with disabilities. It is based on the ITI Voluntary Product Accessibility Template (VPAT® 2.5) and covers compliance with the Web Content Accessibility Guidelines (WCAG 2.2) and with the Revised Section 508 of the Rehabilitation Act: <a href=""https://wiki.mozilla.org/images/d/d4/Firefox_VPAT_124_on_Windows_OS_%28April_2024%29.pdf"">Firefox for desktop (Windows OS, April 2024)</a>.
+</p>",firefox,accessibility,"Firefox includes many features to make the browser and web content accessible to all users, including those who have low vision, no vision or limited ability to use a keyboard or mouse.
+
+## Table of Contents
+
+- [1 Using a Keyboard](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-keyboard)
+  - [1.1 Using a keyboard to navigate within webpages](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-keyboard-to-navigate-within-webpages)
+  - [1.2 Search for text when you start to type](https://support.mozilla.org/kb/accessibility-features-firefox#w_search-for-text-when-you-start-to-type)
+  - [1.3 HTML Access Keys](https://support.mozilla.org/kb/accessibility-features-firefox#w_html-access-keys)
+
+- [2 Mouse Shortcuts](https://support.mozilla.org/kb/accessibility-features-firefox#w_mouse-shortcuts)
+- [3 Zoom, Fonts and Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_zoom-fonts-and-colors)
+  - [3.1 Page Zoom](https://support.mozilla.org/kb/accessibility-features-firefox#w_page-zoom)
+  - [3.2 Text Zoom](https://support.mozilla.org/kb/accessibility-features-firefox#w_text-zoom)
+  - [3.3 Changing the size of buttons and menus](https://support.mozilla.org/kb/accessibility-features-firefox#w_changing-the-size-of-buttons-and-menus)
+  - [3.4 Setting Fonts and Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_setting-fonts-and-colors)
+  - [3.5 Setting a Minimum Font Size](https://support.mozilla.org/kb/accessibility-features-firefox#w_setting-a-minimum-font-size)
+  - [3.6 Overriding Page Fonts](https://support.mozilla.org/kb/accessibility-features-firefox#w_overriding-page-fonts)
+  - [3.7 Overriding Page Colors](https://support.mozilla.org/kb/accessibility-features-firefox#w_overriding-page-colors)
+
+- [4 Using a High Contrast Theme](https://support.mozilla.org/kb/accessibility-features-firefox#w_using-a-high-contrast-theme)
+- [5 Controlling Web Content](https://support.mozilla.org/kb/accessibility-features-firefox#w_controlling-web-content)
+  - [5.1 Blocking Pop-up Windows](https://support.mozilla.org/kb/accessibility-features-firefox#w_blocking-pop-up-windows)
+  - [5.2 Restricting JavaScript Behavior](https://support.mozilla.org/kb/accessibility-features-firefox#w_restricting-javascript-behavior)
+
+- [6 Compatibility With Assistive Technologies](https://support.mozilla.org/kb/accessibility-features-firefox#w_compatibility-with-assistive-technologies)
+  - [6.1 Screen Reader](https://support.mozilla.org/kb/accessibility-features-firefox#w_screen-reader)
+
+- [7 Related accessibility links](https://support.mozilla.org/kb/accessibility-features-firefox#w_related-accessibility-links)
+- [8 Accessibility Conformance Report (ACR)](https://support.mozilla.org/kb/accessibility-features-firefox#w_accessibility-conformance-report-acr)
+
+# Using a Keyboard
+
+A list of common keyboard shortcuts is available in [Keyboard shortcuts - Perform common Firefox tasks quickly](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly""). To customize shortcuts, see [Customize keyboard shortcuts in Firefox](\""https://support.mozilla.org/en-US/kb/customize-keyboard-shortcuts-firefox"").
+
+## Using a keyboard to navigate within webpages
+
+To enable navigation and text selection within web content and PDF documents using your keyboard in Firefox, as if you were navigating in a read-only text editor, follow the steps below:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, _Browsing_ section, check the box next to **Always use the cursor keys to navigate within pages**.
+
+Once this feature is activated, Firefox will introduce a movable cursor on web pages and within PDF documents opened in the browser. This functionality, known as [Caret Browsing](https://wikipedia.org/wiki/Caret_navigation), significantly improves precision and accessibility for text selection and copying, providing a versatile tool for interacting with digital content. You can press F7 at any time to turn this feature on or off. When you press F7, Firefox will ask if you really want to turn on this feature. You can disable this prompt by selecting **Do not show this dialog again**.
+
+## Search for text when you start to type
+
+To quickly navigate to text or hyperlinks in a web page, follow these steps:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, _Browsing_ section, check the box next to **Search for text when you start typing**.
+
+This feature has two modes. Press / and start typing to search all text on the current page, or press ' before your string to search hyperlinks only. Firefox will highlight matching text or hyperlinks as you type.
+
+The following keyboard shortcuts control this feature:
+
+- Type more characters to narrow your search. Firefox will highlight the next matching hyperlink or text or alert you that nothing matched.
+- Press CtrlCommand+G or F3 to find the next occurrence of your current search string.
+- Press CtrlCommand+Shift+G or Shift + F3 to find the previous occurrence of your current search string.
+- Press Backspace to undo the last character you typed. Firefox will back up to the previously highlighted text.
+- Press Esc to cancel a search. You can also cancel a search by changing focus, or simply waiting for the timeout.
+
+If this setting is checked, you can start typing at any time to auto-start a search on the current page. By default, auto-started searches look for all text on the page. You can still explicitly press ' or / to start finding in one mode or the other.
+
+You can use this feature to get to buttons, text boxes and other form controls. Search for the text immediately before the form control you want and press Tab. Pressing Tab automatically exits the search and sets focus to the next form field or button after the highlighted text.
+
+## HTML Access Keys
+
+On some web pages, keyboard shortcuts are assigned to different elements on the page. To move the cursor directly to one of these elements, press Shift+AltCtrl + option+ **AccessKey**.
+
+Which key **AccessKey** depends on the website. It is determined by the website author, not Firefox.
+
+# Mouse Shortcuts
+
+A list of common mouse shortcuts is available in [Use mouse shortcuts to perform common tasks in Firefox](\""https://support.mozilla.org/en-US/kb/mouse-shortcuts-perform-common-tasks"").
+
+# Zoom, Fonts and Colors
+
+## Page Zoom
+
+You can zoom in and out of web pages including images with the following keyboard shortcuts:
+
+- Press CtrlCommand++ to display the web page one size larger.
+- Press CtrlCommand+− to display the web page one size smaller.
+- Press CtrlCommand+0 (zero) to display the web page at its normal size.
+
+For other ways to zoom in and out a web page, see [Font size and zoom - increase the size of web pages](\""https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"").
+
+## Text Zoom
+
+You can choose to change the text size only using the _Text Zoom_ feature:
+
+1. Press the Alt key to temporarily bring up the traditional Firefox menus. At the top of the Firefox windowOn the menu bar, click the View menu.
+2. Go down to Zoom.
+3. Select Zoom Text Only, which will make the controls only apply to text, not images.
+
+The following keyboard shortcuts control text size when Text Zoom is selected:
+
+- Press CtrlCommand++ to increase the text size.
+- Press CtrlCommand+− to decrease the text size.
+- Press CtrlCommand+0 (zero) to reset the text size to the web page's default size.
+
+Note that some web pages may display incorrectly if you increase or decrease the text size.
+
+For other ways to zoom in and out the text of a web page, see [Font size and zoom - increase the size of web pages](\""https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages"").
+
+## Changing the size of buttons and menus
+
+Firefox automatically detects and matches the preferred text size of your operating system. If you change the display size for text on your computer, all websites, Firefox buttons and menus will adjust accordingly.
+
+For example, to make changes to these settings in Windows 10, follow the steps below:
+
+1. Click the Windows icon in the taskbar.
+2. Click Settings.
+3. Select Ease of Access.
+4. Click Display.
+5. Under _Make text bigger_, adjust the slider to your preferred text size.
+
+Microsoft has rebranded _Ease of Access_ to _Accessibility_ in the Windows 11 Settings section.
+
+## Setting Fonts and Colors
+
+See [Change the fonts and colors websites use](\""https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use"") for detailed instructions on choosing your preferred font styles and colors.
+
+## Setting a Minimum Font Size
+
+Some websites may display text which is too small to read comfortably. To make such pages easier to read, you can set a minimum font size. On web pages that try to display text smaller than this size, Firefox will enlarge the text to your chosen size.
+
+To set a minimum font size:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Fonts_ section, click the Advanced… button.
+4. Specify a minimum font size from the dropdown menu.
+
+Note that some web pages may display incorrectly depending on your choice of minimum font size.
+
+## Overriding Page Fonts
+
+Some websites may display text in fonts that are difficult to read, and other sites may rely on the browser's default fonts. To set your default fonts:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Fonts_ section, choose a default font and size.
+
+You can specify default fonts for different styles, including serif, sans-serif and monospace by clicking the Advanced… button. However, many web pages specify their own fonts, so your choices will have no effect on such pages. To override the fonts defined by such pages, uncheck the **Allow pages to choose their own fonts, instead of your selections above** option.
+
+Note that some web pages may display incorrectly depending on your choice of a default font.
+
+## Overriding Page Colors
+
+Some websites may display text and background colors that are difficult to read, and other sites may rely on the browser's default colors. To set your default colors:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, scroll down to _Language and Appearance_.
+3. In the _Colors_ section, click the Manage Colors… button.
+
+You can set default text and background colors, as well as default colors for visited and unvisited hyperlinks.
+
+However, many web pages set their own colors, so your choices will have no effect. To override the colors defined by web pages, use the drop-down menu to set **Override the colors specified by the page with your selections above** to Always.
+
+The text and background colors you set above will also be used when [viewing PDFs in Firefox](\""https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"").
+
+# Using a High Contrast Theme
+
+Firefox automatically detects if you are using a High Contrast theme on Windows and displays everything in your high contrast color scheme. This overrides all other browser or web page settings, and it affects the Firefox interface itself (all menus, windows and dialog boxes) and the content of any web page you visit.
+
+To use a High Contrast theme, go to Start Menu, select Control Panel, then Appearance and Personalization, finally Change the theme and choose one of the High Contrast themes.To use a High Contrast theme, open the charms panel, select Control Panel from the Settings charm, then Appearance and Personalization, finally Change the theme and choose one of the High Contrast themes.To use a High Contrast theme, go to Start Menu, select Settings, then Ease of Access, finally High Contrast on the left. Choose one of the High Contrast themes in the drop-down menu and click Apply.
+
+# Controlling Web Content
+
+## Blocking Pop-up Windows
+
+See [Pop-up blocker settings, exceptions and troubleshooting](\""https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting"") for information on blocking pop-up windows.
+
+## Restricting JavaScript Behavior
+
+JavaScript can be used to do things that some people don't like. For better control, you can install [privacy extensions](https://addons.mozilla.org/firefox/search/?tag=privacy). For more info, see [JavaScript settings and preferences for interactive web pages](\""https://support.mozilla.org/en-US/kb/javascript-settings-for-interactive-web-pages"").
+
+# Compatibility With Assistive Technologies
+
+## Screen Reader
+
+A screen reader is a software application that attempts to identify and interpret what is being displayed on the screen (or, more accurately, sent to standard output, whether a video monitor is present or not). This interpretation is then re-presented to the user with text-to-speech, sound icons or a Braille output device. Screen readers are a form of assistive technology (AT) potentially useful to people who are blind, visually impaired, illiterate or learning disabled, often in combination with other AT, such as screen magnifiers. The above was adapted from Wikipedia under the [Creative Commons – Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/) license.
+
+Here are a [list of screen reader software](https://wikipedia.org/wiki/List_of_screen_readers) and links to common ones:
+
+- [NVDA](https://www.nvaccess.org/)
+- [Thunder](https://www.webbie.org.uk/thunder/)
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [JAWS](https://www.freedomscientific.com/products/software/jaws/) (commercial)
+- [ZoomText](https://www.freedomscientific.com/products/software/zoomtext/) (commercial)
+- [Supernova](https://yourdolphin.com/product/version?id=182) (commercial)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+- [VoiceOver](https://www.apple.com/accessibility/mac/vision/) – Firefox includes basic support for Voiceover. (This [Apple Support page](https://support.apple.com/guide/voiceover/voiceover-recognition-category-vocbaf20181f/mac) explains how to enable VoiceOver and other Accessibility preferences.)
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+- [WebAnywhere](https://webinsight.cs.washington.edu/wa/)
+- [Orca](https://orca.gnome.org/)
+- [Screen Reader Add-ons Search for Firefox](https://addons.mozilla.org/firefox/search/?q=screen%20reader&type=extension)
+
+# Related accessibility links
+
+- [Mozilla Accessibility on _MDN Web Docs_](https://developer.mozilla.org/docs/Web/Accessibility)
+- [Mozilla Accessibility Blog](https://blog.mozilla.org/accessibility/)
+
+# Accessibility Conformance Report (ACR)
+
+We strive to be both compliant with accessibility standards and to create delightful experiences for our users. This recent report describes how the Firefox browser currently works for people with disabilities. It is based on the ITI Voluntary Product Accessibility Template (VPAT® 2.5) and covers compliance with the Web Content Accessibility Guidelines (WCAG 2.2) and with the Revised Section 508 of the Rehabilitation Act: [Firefox for desktop (Windows OS, April 2024)](https://wiki.mozilla.org/images/d/d4/Firefox_VPAT_124_on_Windows_OS_%28April_2024%29.pdf).
 
 "
 856,Where to find and manage downloaded files in Firefox,where-find-and-manage-downloaded-files-firefox,https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox,en-US,"The Downloads panel and Library keep track of files you download. We'll show you how to access, manage, change settings and find your files.","<p>Your <em>Downloads</em> panel and <em>Library</em> keep track of files you download while using Firefox. This article explains how to access and manage the files you download in Firefox and how to configure your download settings.
@@ -49768,12 +50299,14 @@ Your password will be copied to the clipboard for you to paste wherever you want
 </dt></dl>
 </li></ul>
 <h1 id=""w_open-and-close-private-tabs"">Open and close private tabs</h1>
-<ol><li>Switch to private browsing mode (see above).
-</li><li>Tap the plus (+) button to open a new private tab.
-<ul><li>To close a private tab, tap the ✕ in the tab preview.
+<p>After <a href=""#w_switch-between-regular-and-private-browsing"">switching to private browsing mode</a>:
+</p>
+<ul><li>To open a new private tab, tap the plus <span class=""button"">+</span> button.
+</li><li>To close a private tab, tap <span class=""button"">✕</span> in the tab preview.
+<ul><li><strong>Note:</strong> Private tabs close automatically when you quit the app, depending on your privacy settings.
 </li></ul>
-</li></ol>
-<div class=""note""><strong>Tip:</strong> To open a link in a Private Tab, press on the link until the menu opens, then choose <span class=""menu"">Open in a Private Tab</span>.</div>
+</li><li>To open a link in a private tab, tap and hold the link until the menu opens, then choose <span class=""menu"">Open in a Private Tab</span>.
+</li></ul>
 <h1 id=""w_faq"">FAQ</h1>
 <h2 id=""w_can-i-make-private-browsing-the-default-in-firefox-for-ios"">Can I make private browsing the default in Firefox for iOS?</h2>
 <p>No. Firefox for iOS doesn’t currently support launching in private browsing mode by default. You’ll need to switch manually each time.
@@ -49825,11 +50358,13 @@ You’re in private browsing mode if:
 
 # Open and close private tabs
 
-1. Switch to private browsing mode (see above).
-2. Tap the plus (+) button to open a new private tab.
-  - To close a private tab, tap the ✕ in the tab preview.
+After [switching to private browsing mode](https://support.mozilla.org/kb/private-browsing-firefox-ios#w_switch-between-regular-and-private-browsing):
 
-**Tip:** To open a link in a Private Tab, press on the link until the menu opens, then choose Open in a Private Tab.
+- To open a new private tab, tap the plus + button.
+- To close a private tab, tap ✕ in the tab preview.
+  - **Note:** Private tabs close automatically when you quit the app, depending on your privacy settings.
+
+- To open a link in a private tab, tap and hold the link until the menu opens, then choose Open in a Private Tab.
 
 # FAQ
 
@@ -52665,6 +53200,138 @@ You can also check the installed version of Firefox from the Windows list of ins
 To see if the 32-bit or 64-bit version of Firefox is installed, locate **Mozilla Firefox** in the list of programs. The program name will be followed by the the bit version and language, in parentheses. If the program name contains **x86** , the 32-bit version of Firefox is installed. If the program name contains **x64** , the 64-bit version of Firefox is installed.
 
 **Note:** You can have both 32-bit and 64-bit Firefox program versions listed, if you installed one version without uninstalling the other. Firefox creates [dedicated profiles for each installation](\""https://support.mozilla.org/en-US/kb/dedicated-profiles-firefox-installation"") (see [Recover user data missing after Firefox update or reinstall](\""https://support.mozilla.org/en-US/kb/recover-user-data-missing-after-firefox-update"") if this results in lost data). You can [uninstall the unwanted version](\""https://support.mozilla.org/en-US/kb/uninstall-firefox-from-your-computer""). The Firefox uninstaller doesn't remove any of your [Firefox user profile data](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data""), such as passwords or bookmarks.
+
+"
+31487,Access your add-ons with a Mozilla account,access-your-add-ons-firefox-accounts,https://support.mozilla.org/en-US/kb/access-your-add-ons-firefox-accounts,en-US,The addons.mozilla.org (AMO) site is using Mozilla accounts to offer a more integrated experience across all Mozilla services and products.,"<p>The <a href=""https://addons.mozilla.org"">Mozilla Add-ons site</a> is using Mozilla accounts for a more integrated experience across all Mozilla products and services (see <a href=""https://blog.mozilla.org/addons/2016/02/01/firefox-accounts-on-amo/"">this Mozilla blog</a> for the background). Use your existing Mozilla account or create a new one to access your add-ons on <a href=""https://addons.mozilla.org"">https://addons.mozilla.org</a>.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_upgrade-from-an-add-ons-account-to-a-mozilla-account""><span class=""tocnumber"">1</span> <span class=""toctext"">Upgrade from an Add-ons account to a Mozilla account</span></a></li><li class=""toclevel-1""><a href=""#w_sign-in-to-an-existing-account""><span class=""tocnumber"">2</span> <span class=""toctext"">Sign in to an existing account</span></a></li><li class=""toclevel-1""><a href=""#w_create-a-new-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Create a new account</span></a></li><li class=""toclevel-1""><a href=""#w_deleting-your-mozilla-account""><span class=""tocnumber"">4</span> <span class=""toctext"">Deleting your Mozilla account</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">5</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-happens-to-my-add-ons-when-i-convert-to-a-new-mozilla-account""><span class=""tocnumber"">5.1</span> <span class=""toctext"">What happens to my add-ons when I convert to a new Mozilla account?</span></a></li><li class=""toclevel-2""><a href=""#w_why-do-i-want-a-mozilla-account""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Why do I want a Mozilla account?</span></a></li><li class=""toclevel-2""><a href=""#w_where-do-i-change-my-password""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Where do I change my password?</span></a></li></ul></li></ul></div>
+<h1 id=""w_upgrade-from-an-add-ons-account-to-a-mozilla-account"">Upgrade from an Add-ons account to a Mozilla account</h1>
+<p>If you have an existing Add-ons account, you can upgrade to Mozilla accounts by signing in or registering with a Mozilla account that matches your Add-ons email address.
+</p><p>You can find instructions for signing in or registering below.
+</p>
+<h1 id=""w_sign-in-to-an-existing-account"">Sign in to an existing account</h1>
+<p>If you already have a Mozilla account, you can sign in to the Add-ons site.
+</p>
+<ol><li>Go to the <a href=""https://addons.mozilla.org/"">Add-ons site</a>.
+</li><li>Click <strong>Sign in</strong>.
+</li><li>Enter your email address and password, then click <span class=""button"">Sign in</span>.
+</li><li>You will be redirected back to <a href=""https://addons.mozilla.org"">https://addons.mozilla.org</a>.
+</li></ol>
+<div class=""note""><strong>Note</strong>: Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>
+<h1 id=""w_create-a-new-account"">Create a new account</h1>
+<p>If you’ve never had an Add-ons account or a Mozilla account, sign up for Mozilla accounts to get started with the Add-ons site.
+</p>
+<ol><li>Go to the <a href=""https://addons.mozilla.org/"">Add-ons site</a>.
+</li><li>Click <strong>Register</strong>.
+</li><li>Enter your email address, password and age, then click <span class=""button"">Create account</span>.
+</li><li>You will receive a confirmation email from Firefox with a 6-digit confirmation code. Use it to confirm your account.
+</li><li>You will be redirected back to <a href=""https://addons.mozilla.org"">https://addons.mozilla.org</a>.
+</li></ol>
+<p>For more information, see <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Access Mozilla services with a Mozilla account</a>.
+</p>
+<h1 id=""w_deleting-your-mozilla-account"">Deleting your Mozilla account</h1>
+<p>Please see <a href=""/en-US/kb/how-do-i-delete-my-firefox-account"">this article</a> to learn how to delete your Mozilla account.
+</p><p>When you delete your Mozilla account, your <a href=""https://addons.mozilla.org"">https://addons.mozilla.org</a> account will also be deleted and all of its associated data is deleted with it. If you later create a new account using the same email address, no add-ons will be associated with it.
+</p><p>Before deleting your account, we recommend that you <a href=""http://extensionworkshop.com/documentation/publish/add-on-ownership/#transfer-ownership?utm_source=support.mozilla.org&amp;utm_medium=kb-article&amp;utm_content=access-your-add-ons-with-firefox-accounts"">transfer any add-ons you have developed to a new owner</a>. If you share add-on ownership with other accounts, your account will be removed from the ownership list once it has been deleted.
+</p>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<h2 id=""w_what-happens-to-my-add-ons-when-i-convert-to-a-new-mozilla-account"">What happens to my add-ons when I convert to a new Mozilla account?</h2>
+<p>You will have access to all your add-ons through your new Mozilla account.
+</p>
+<h2 id=""w_why-do-i-want-a-mozilla-account"">Why do I want a Mozilla account?</h2>
+<p>A Mozilla account is the primary account system used by Firefox, most often used natively to synchronize Firefox services across multiple devices. Even if you don’t use Sync, many Firefox-related services will soon begin migrating over to simplify your sign-in process, making it easier for you to join new services.
+</p>
+<h2 id=""w_where-do-i-change-my-password"">Where do I change my password?</h2>
+<p>Once you have a Mozilla account, you can go to <a href=""https://accounts.firefox.com"">https://accounts.firefox.com</a>, sign in and click <span class=""button"">Change</span> next to <strong>Password</strong>.
+</p>",firefox;mozilla-account,add-ons-extensions-and-themes;settings,"The [Mozilla Add-ons site](https://addons.mozilla.org) is using Mozilla accounts for a more integrated experience across all Mozilla products and services (see [this Mozilla blog](https://blog.mozilla.org/addons/2016/02/01/firefox-accounts-on-amo/) for the background). Use your existing Mozilla account or create a new one to access your add-ons on [https://addons.mozilla.org](https://addons.mozilla.org).
+
+## Table of Contents
+
+- [1 Upgrade from an Add-ons account to a Mozilla account](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_upgrade-from-an-add-ons-account-to-a-mozilla-account)
+- [2 Sign in to an existing account](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_sign-in-to-an-existing-account)
+- [3 Create a new account](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_create-a-new-account)
+- [4 Deleting your Mozilla account](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_deleting-your-mozilla-account)
+- [5 Frequently asked questions](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_frequently-asked-questions)
+  - [5.1 What happens to my add-ons when I convert to a new Mozilla account?](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_what-happens-to-my-add-ons-when-i-convert-to-a-new-mozilla-account)
+  - [5.2 Why do I want a Mozilla account?](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_why-do-i-want-a-mozilla-account)
+  - [5.3 Where do I change my password?](https://support.mozilla.org/kb/access-your-add-ons-firefox-accounts#w_where-do-i-change-my-password)
+
+# Upgrade from an Add-ons account to a Mozilla account
+
+If you have an existing Add-ons account, you can upgrade to Mozilla accounts by signing in or registering with a Mozilla account that matches your Add-ons email address.
+
+You can find instructions for signing in or registering below.
+
+# Sign in to an existing account
+
+If you already have a Mozilla account, you can sign in to the Add-ons site.
+
+1. Go to the [Add-ons site](https://addons.mozilla.org/).
+2. Click **Sign in**.
+3. Enter your email address and password, then click Sign in.
+4. You will be redirected back to [https://addons.mozilla.org](https://addons.mozilla.org).
+
+**Note** : Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
+
+# Create a new account
+
+If you’ve never had an Add-ons account or a Mozilla account, sign up for Mozilla accounts to get started with the Add-ons site.
+
+1. Go to the [Add-ons site](https://addons.mozilla.org/).
+2. Click **Register**.
+3. Enter your email address, password and age, then click Create account.
+4. You will receive a confirmation email from Firefox with a 6-digit confirmation code. Use it to confirm your account.
+5. You will be redirected back to [https://addons.mozilla.org](https://addons.mozilla.org).
+
+For more information, see [Access Mozilla services with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+
+# Deleting your Mozilla account
+
+Please see [this article](\""https://support.mozilla.org/en-US/kb/how-do-i-delete-my-firefox-account"") to learn how to delete your Mozilla account.
+
+When you delete your Mozilla account, your [https://addons.mozilla.org](https://addons.mozilla.org) account will also be deleted and all of its associated data is deleted with it. If you later create a new account using the same email address, no add-ons will be associated with it.
+
+Before deleting your account, we recommend that you [transfer any add-ons you have developed to a new owner](http://extensionworkshop.com/documentation/publish/add-on-ownership/#transfer-ownership?utm_source=support.mozilla.org&utm_medium=kb-article&utm_content=access-your-add-ons-with-firefox-accounts). If you share add-on ownership with other accounts, your account will be removed from the ownership list once it has been deleted.
+
+# Frequently asked questions
+
+## What happens to my add-ons when I convert to a new Mozilla account?
+
+You will have access to all your add-ons through your new Mozilla account.
+
+## Why do I want a Mozilla account?
+
+A Mozilla account is the primary account system used by Firefox, most often used natively to synchronize Firefox services across multiple devices. Even if you don’t use Sync, many Firefox-related services will soon begin migrating over to simplify your sign-in process, making it easier for you to join new services.
+
+## Where do I change my password?
+
+Once you have a Mozilla account, you can go to [https://accounts.firefox.com](https://accounts.firefox.com), sign in and click Change next to **Password**.
+
+"
+31684,Article discussion forums,article-discussion-forums,https://support.mozilla.org/en-US/kb/article-discussion-forums,en-US,Discuss articles with other Mozilla Support contributors and team members.,"<p>Each article has a discussion forum. In these forums, we can talk about what needs changing and what needs improvement. To get to the discussion forum:
+</p>
+<ol><li>Go to the article you want to discuss.
+</li><li>Click the Discussion link under <strong>Editing Tools</strong> to get to the article Discussion forum.
+<dl><dt><img alt=""SUMOEditingToolsDiscussion"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-26-06-55-23-3a4555.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+<ul><li>If you don't see <strong>Editing Tools</strong>, you will need to sign in to Mozilla Support.
+</li></ul>
+</li><li>If you have a new topic to discuss, click the <span class=""button"">Post a new thread</span> button.
+<dl><dt><img alt=""ArticleDiscussion"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-22-10-51-57-1cedbe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li><li>To respond to an existing discussion, click on the Title and enter your response in the <strong>Post a reply</strong> box at the bottom of the thread.
+</li></ol>",contributor,kb,"Each article has a discussion forum. In these forums, we can talk about what needs changing and what needs improvement. To get to the discussion forum:
+
+1. Go to the article you want to discuss.
+2. Click the Discussion link under **Editing Tools** to get to the article Discussion forum.<dl><dt>
+<img alt=""SUMOEditingToolsDiscussion"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-26-06-55-23-3a4555.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+  - If you don't see **Editing Tools** , you will need to sign in to Mozilla Support.
+
+3. If you have a new topic to discuss, click the Post a new thread button.<dl><dt>
+<img alt=""ArticleDiscussion"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-22-10-51-57-1cedbe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+4. To respond to an existing discussion, click on the Title and enter your response in the **Post a reply** box at the bottom of the thread.
 
 "
 31689,What's new in Firefox for Android,whats-new-firefox-android,https://support.mozilla.org/en-US/kb/whats-new-firefox-android,en-US,Learn more about the latest features on Firefox for Android.,"<p>Welcome to a new version of Firefox for Android (version 112). Here are some highlights of bug fixes and enhancements in this version:
@@ -72406,6 +73073,7 @@ On Android, the Mozilla VPN icon in your device's _Quick Settings_ can be used f
 47059,Is Mozilla VPN compatible with my device?,mozilla-vpn-compatible-my-device,https://support.mozilla.org/en-US/kb/mozilla-vpn-compatible-my-device,en-US,"Mozilla VPN is available for desktop, tablet and mobile devices and compatible with Windows 10 and 11, macOS, Linux, Android and iOS.","<p>Mozilla VPN is available for desktop, tablet and mobile devices and compatible with these operating systems:
 </p>
 <ul><li>Windows 10 and Windows 11 (64-bit only)
+</li><li>Windows 10 ARM and Windows 11 ARM
 </li><li>macOS (version 13 and up)
 </li><li>Android (version 9 and up)
 </li><li>iOS (version 15 and up)
@@ -72420,7 +73088,6 @@ On Android, the Mozilla VPN icon in your device's _Quick Settings_ can be used f
 <p><strong>Note:</strong>
 </p>
 <ul><li>Mozilla VPN is currently not compatible with gaming consoles (such as PlayStation or Xbox) and routers.
-</li><li>Devices with ARM processors are not supported.
 </li><li><a href=""https://archive.mozilla.org/pub/vpn/releases/"">Download previous versions for Mac.</a>
 </li></ul>
 </div>
@@ -72437,6 +73104,7 @@ On Android, the Mozilla VPN icon in your device's _Quick Settings_ can be used f
 </li></ul>",mozilla-vpn,install;installation-and-updates,"Mozilla VPN is available for desktop, tablet and mobile devices and compatible with these operating systems:
 
 - Windows 10 and Windows 11 (64-bit only)
+- Windows 10 ARM and Windows 11 ARM
 - macOS (version 13 and up)
 - Android (version 9 and up)
 - iOS (version 15 and up)
@@ -72449,7 +73117,6 @@ On Android, the Mozilla VPN icon in your device's _Quick Settings_ can be used f
 **Note:**
 
 - Mozilla VPN is currently not compatible with gaming consoles (such as PlayStation or Xbox) and routers.
-- Devices with ARM processors are not supported.
 - [Download previous versions for Mac.](https://archive.mozilla.org/pub/vpn/releases/)
 
 Visit the [Mozilla VPN page](https://vpn.mozilla.org/) to sign up. For information about how to download Mozilla VPN on your desktop, tablet or mobile device, see [this article](\""https://support.mozilla.org/en-US/kb/how-download-mozilla-vpn-your-desktop-or-mobile"").
@@ -78610,7 +79277,8 @@ Go to your support question, which is accessible from your Mozilla Support user 
 To make sure that you use add-ons that are safe, install extensions from the [Recommended Extensions program](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program""). These extensions are thoroughly evaluated by the team for safety before they receive the _Recommended_ status.
 
 "
-51159,Profiling Thunderbird Performance,profiling-thunderbird-performance,https://support.mozilla.org/en-US/kb/profiling-thunderbird-performance,en-US,How to create a Thunderbird performance profile to find causes of high CPU load or slowness.,"<p>Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird. Before you begin, check whether the issue disappears when Thunderbird is started in <a href=""/en-US/kb/troubleshoot-mode-thunderbird"">Troubleshoot Mode</a>. It may also be helpful to review the <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems"">performance checklist</a>.
+51159,Profiling Thunderbird Performance,profiling-thunderbird-performance,https://support.mozilla.org/en-US/kb/profiling-thunderbird-performance,en-US,How to create a Thunderbird performance profile to find causes of high CPU load or slowness.,"<p>Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird. 
+</p><p>Before you begin, check whether the issue disappears when Thunderbird is started in <a href=""/en-US/kb/troubleshoot-mode-thunderbird"">Troubleshoot Mode</a>. It may also be helpful to step through the <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems"">performance checklist on wiki</a>.
 </p><p>Some types of diagnostics require using a development version of Thunderbird, available from the <a href=""https://www.thunderbird.net/download/daily/"">Thunderbird download page</a>.
 </p><p>Performance diagnostics use a tool called the performance profiler. Thunderbird uses the Firefox profiler, so some dialog windows may refer to Firefox. The <a href=""https://profiler.firefox.com/docs/#/"">Firefox profiler documentation</a> is excellent, but usually not required unless you encounter difficulties or need to perform special tasks such as startup profiling. In the documentation, every instance of the word “Firefox” should be understood as “Thunderbird”.
 </p>
@@ -78623,7 +79291,7 @@ To make sure that you use add-ons that are safe, install extensions from the [Re
 </p>
 <ol><li> Use the keyboard shortcut <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">I</span></span><span class=""for"" data-for=""mac""><span class=""key"">command</span> + <span class=""key"">option</span> + <span class=""key"">I</span></span>, or click the menu button in Thunderbird <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Tools</span>.
 </li><li> From the menu, select <span class=""menu"">Developer Tools</span>. An incoming connection prompt will appear.<br><br>
-<dl><dt> <div class=""warning""><strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt.<br>The prompt window may be hidden behind other Thunderbird windows.</div>
+<dl><dt> <div class=""warning""><strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt. The prompt window may be hidden behind other Thunderbird windows.</div>
 </dt></dl>
 </li><li> Click <span class=""key"">OK</span>. The <em>Developer Tools</em> window will open. In current versions of Thunderbird, the <span class=""menu"">Performance</span> tab is visible, and clicking it shows the <span class=""button"">Start Recording</span> button.<br>If the tab is not visible:
 <dl><dt><ul><li> Press <span class=""key"">F1</span> or click the <img alt=""horizontal3-dot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-22-02-18-07-c5058b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the upper-right corner of the window and choose <span class=""menu"">Settings</span>. The developer tools settings window will open.
@@ -78649,8 +79317,8 @@ To make sure that you use add-ons that are safe, install extensions from the [Re
 </li><li> Close the profiler settings window using the window controls – there is no <span class=""button"">OK</span> or <span class=""button"">Save</span> button.
 </li></ol>
 <h1 id=""w_recording-a-performance-diagnostic"">Recording a performance diagnostic</h1>
-<div class=""warning""><strong>Important!</strong> Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue.</div>
-<p>When the profiler and test scenario are ready, you can begin recording and saving the performance diagnostic.
+<div class=""warning""><strong>Important!</strong> Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue. From the time you start recording, please document how many seconds it takes until the problem starts and the problem ends, and include this when you report your performance profile.</div>
+<p>When the profiler and test scenario are ready, you can begin recording and saving the performance diagnostic. 
 </p>
 <ol><li> In the <span class=""menu"">Performance</span> tab of the developer tools window, click <span class=""button"">Start Recording</span> button.
 <dl><dt><div class=""note""><strong>Note</strong>. A warning icon may appear on the toolbar. Clicking it opens a console at the bottom of the window with the message “Failed to get the active browserId while starting the profiler” – this can be ignored.</div>
@@ -78676,7 +79344,9 @@ To make sure that you use add-ons that are safe, install extensions from the [Re
 </li></ol>
 <h1 id=""w_diagnosing-thunderbird-startup-and-shutdown"">Diagnosing Thunderbird startup and shutdown</h1>
 <p>Startup or shutdown diagnostics require following <a href=""https://profiler.firefox.com/docs/#/./guide-startup-shutdown"">special but very simple instructions</a>. As before, every instance of the word “Firefox” should be understood as “Thunderbird”.
-</p>",thunderbird,crashing-and-slow-performance;performance-and-connectivity,"Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird. Before you begin, check whether the issue disappears when Thunderbird is started in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird""). It may also be helpful to review the [performance checklist](https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems).
+</p>",thunderbird,crashing-and-slow-performance;performance-and-connectivity,"Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird.
+
+Before you begin, check whether the issue disappears when Thunderbird is started in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird""). It may also be helpful to step through the [performance checklist on wiki](https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems).
 
 Some types of diagnostics require using a development version of Thunderbird, available from the [Thunderbird download page](https://www.thunderbird.net/download/daily/).
 
@@ -78704,7 +79374,7 @@ In Thunderbird’s main window, open the developer tools:
 2. From the menu, select Developer Tools. An incoming connection prompt will appear.  
   
 <dl><dt> <div class=""warning"">
-<strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt.<br>The prompt window may be hidden behind other Thunderbird windows.</div>
+<strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt. The prompt window may be hidden behind other Thunderbird windows.</div>
 </dt></dl>
 3. Click OK. The _Developer Tools_ window will open. In current versions of Thunderbird, the Performance tab is visible, and clicking it shows the Start Recording button.  
 If the tab is not visible:<dl><dt>
@@ -78738,7 +79408,7 @@ To configure the profiler settings:
 
 # Recording a performance diagnostic
 
-**Important!** Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue.
+**Important!** Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue. From the time you start recording, please document how many seconds it takes until the problem starts and the problem ends, and include this when you report your performance profile.
 
 When the profiler and test scenario are ready, you can begin recording and saving the performance diagnostic.
 
@@ -91891,171 +92561,6 @@ Some extensions can also help you or your family stay productive and help with s
 - [Tomato Clock](https://addons.mozilla.org/firefox/addon/tomato-clock/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Use Tomato clock to stay focused and take breaks when needed. You can customize the timer to focus or take a break for a fixed length of time.
 - [Dictionary Anywhere](https://addons.mozilla.org/firefox/addon/dictionary-anyvhere/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Double-click a word to find its definition. This extension supports English, French, German, and Spanish.
 - [Unhook: Remove YouTube Recommended Videos Comments](https://addons.mozilla.org/firefox/addon/youtube-recommended-videos/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Keep your focus by blocking YouTube recommendations.
-
-"
-59162,Disable password saving in Firefox,disable-password-saving-firefox,https://support.mozilla.org/en-US/kb/disable-password-saving-firefox,en-US,"If you’re using a shared device and don’t want Firefox to remember your passwords, you can change your preferences in Firefox settings.","<p>If you’re using a shared device and don’t want Firefox to remember your passwords, you change your preferences in the settings.
-</p>
-<div class=""note"">We recommend that each person who shares a device should <a href=""/en-US/kb/access-mozilla-services-firefox-account"">create a Mozilla account</a> and sign out every time, to prevent their logins from being exposed.
-You can also use a <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Primary Password</a> for additional protection.</div>
-<h1 id=""w_disable-all-password-saving"">Disable all password saving</h1>
-<div class=""for"" data-for=""not fx122"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
-</li><li>Scroll down to the <em>Logins and Passwords</em> section.
-</li><li>Uncheck the box next to <em>Ask to save logins and passwords for websites</em>.
-<dl><dt><img alt=""Fx107-Settings-LoginsAndPasswords-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-06-12-06-e9d993.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
-</dt></dl>
-</li></ol>
-</div><div class=""for"" data-for=""fx122"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
-</li><li>Scroll down to the <em>Passwords</em> section.
-</li><li>Uncheck the box next to <em>Ask to save passwords</em>.
-<dl><dt><img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-</div>
-<h1 id=""w_disable-password-saving-for-specific-websites-only"">Disable password saving for specific websites only</h1>
-<p>You can also configure Firefox not to save passwords for specific websites. To add these exceptions:
-</p><div class=""for"" data-for=""not fx122"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
-</li><li>Scroll down to the <span class=""menu"">Logins and Passwords</span> section.
-</li><li>Check the box next to <em>Ask to save logins and passwords for websites</em>.
-</li><li>Click <span class=""menu"">Exceptions…</span> next to <em>Ask to save logins and passwords for websites</em> to open the exceptions panel.
-<dl><dt><img alt=""Fx107-Config-SaveLogins-Exceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-05-44-38-a15ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""520"">
-</dt></dl>
-</li><li>Type the address of each website you don't want Firefox to save passwords, then click <span class=""button"">Block</span>.<br>Both http and https URLs for the website will be added to the exception list.
-</li><li>You can use <span class=""button"">Remove Website</span> to remove the selected URL from the list, or <span class=""button"">Remove All Websites</span> to remove all exceptions.
-</li><li>Click <span class=""button"">Save changes</span>.
-</li></ol>
-</div><div class=""for"" data-for=""fx122"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
-</li><li>Scroll down to the <span class=""menu"">Passwords</span> section.
-</li><li>Check the box next to <em>Ask to save passwords</em>.
-</li><li>Click<img alt=""Exceptions button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-15-11-ea7aa5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140""> next to <em>Ask to save passwords</em> to open the exceptions panel.
-<dl><dt><img alt=""Exceptions - saved passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-17-51-66d7fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li><li>Type the address of each website you don't want Firefox to save passwords, then click <span class=""button"">Block</span>.<br>Both http and https URLs for the website will be added to the exception list.
-</li><li>You can use <span class=""button"">Remove Website</span> to remove the selected URL from the list, or <span class=""button"">Remove All Websites</span> to remove all exceptions.
-</li><li>Click <img alt=""Save changes button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-19-0411fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""120"">
-</li></ol>
-</div>",firefox,privacy-and-security,"If you’re using a shared device and don’t want Firefox to remember your passwords, you change your preferences in the settings.
-
-We recommend that each person who shares a device should [create a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") and sign out every time, to prevent their logins from being exposed. You can also use a [Primary Password](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") for additional protection.
-
-# Disable all password saving
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Privacy & Security in the panel to the left.
-3. Scroll down to the _Logins and Passwords_ section.
-4. Uncheck the box next to _Ask to save logins and passwords for websites_.<dl><dt>
-<img alt=""Fx107-Settings-LoginsAndPasswords-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-06-12-06-e9d993.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
-</dt></dl>
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Privacy & Security in the panel to the left.
-3. Scroll down to the _Passwords_ section.
-4. Uncheck the box next to _Ask to save passwords_.<dl><dt>
-<img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-# Disable password saving for specific websites only
-
-You can also configure Firefox not to save passwords for specific websites. To add these exceptions:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Privacy & Security in the panel to the left.
-3. Scroll down to the Logins and Passwords section.
-4. Check the box next to _Ask to save logins and passwords for websites_.
-5. Click Exceptions… next to _Ask to save logins and passwords for websites_ to open the exceptions panel.<dl><dt>
-<img alt=""Fx107-Config-SaveLogins-Exceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-05-44-38-a15ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""520"">
-</dt></dl>
-6. Type the address of each website you don't want Firefox to save passwords, then click Block.  
-Both http and https URLs for the website will be added to the exception list.
-7. You can use Remove Website to remove the selected URL from the list, or Remove All Websites to remove all exceptions.
-8. Click Save changes.
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Privacy & Security in the panel to the left.
-3. Scroll down to the Passwords section.
-4. Check the box next to _Ask to save passwords_.
-5. Click ![Exceptions button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to _Ask to save passwords_ to open the exceptions panel.<dl><dt>
-<img alt=""Exceptions - saved passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-17-51-66d7fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-6. Type the address of each website you don't want Firefox to save passwords, then click Block.  
-Both http and https URLs for the website will be added to the exception list.
-7. You can use Remove Website to remove the selected URL from the list, or Remove All Websites to remove all exceptions.
-8. Click ![Save changes button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-"
-59163,Disable credit card and payment method syncing across devices,disable-credit-card-syncing-across-devices,https://support.mozilla.org/en-US/kb/disable-credit-card-syncing-across-devices,en-US,Disable credit cards and payment method syncing to prevent unwanted purchases on your shared devices.,"<p><a href=""/en-US/kb/how-do-i-choose-what-information-sync-firefox"">Firefox Sync</a> lets you access data such as bookmarks, history, logins and passwords, and credit cards or payment methods on other devices when you are signed in with your Mozilla account. To disable sync for sensitive data like <span class=""for"" data-for=""not fx122"">credit cards</span><span class=""for"" data-for=""fx122"">payment methods</span> to prevent purchases on a shared device, follow the steps below:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Sync</span> in the options to the left.
-<ul><li>In these settings, you can choose what items to sync across devices when you signed in with your Mozilla account.
-</li></ul>
-</li><li>If syncing is ON, then you're syncing the items that appear in the panel.
-</li><li>Click <span class=""button"">Change…</span> to open the <em>Choose What To Sync</em> dialog.
-</li><li>Uncheck the box next to <strong><span class=""for"" data-for=""not fx122"">Credit cards</span><span class=""for"" data-for=""fx122"">Payment methods</span></strong> to stop syncing this data across devices.
-<dl><dt><span class=""for"" data-for=""not fx122""><img alt=""Fx121ChooseWhatToSync"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-26-50-bd21c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx122""><img alt=""Choose what to sync panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-36-ee8ade.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
-</dt></dl>
-</li><li>Click <span class=""button"">Save Changes</span>.
-</li></ol>
-<p>Additionally, you can <span class=""for"" data-for=""not fx122""><a href=""/en-US/kb/credit-card-autofill#w_turn-credit-card-autofill-on-or-off"">disable credit card autofill</a></span><span class=""for"" data-for=""fx122""><a href=""/en-US/kb/credit-card-autofill#w_turn-payment-methods-autofill-on-or-off"">disable payment methods autofill</a></span> to prevent Firefox from filling in your credit card information on the device where this data is saved.
-</p>
-<div class=""note"">We recommend that users <a href=""/en-US/kb/access-mozilla-services-firefox-account"">create a Mozilla account</a> for each member of the family and to sign out every time, to prevent credit card information or other sensitive data from being exposed.</div>",firefox,privacy-and-security,"[Firefox Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-what-information-sync-firefox"") lets you access data such as bookmarks, history, logins and passwords, and credit cards or payment methods on other devices when you are signed in with your Mozilla account. To disable sync for sensitive data like credit cardspayment methods to prevent purchases on a shared device, follow the steps below:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Sync in the options to the left.
-  - In these settings, you can choose what items to sync across devices when you signed in with your Mozilla account.
-
-3. If syncing is ON, then you're syncing the items that appear in the panel.
-4. Click Change… to open the _Choose What To Sync_ dialog.
-5. Uncheck the box next to **Credit cardsPayment methods** to stop syncing this data across devices.<dl><dt>
-<span class=""for"" data-for=""not fx122""><img alt=""Fx121ChooseWhatToSync"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-26-50-bd21c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx122""><img alt=""Choose what to sync panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-36-ee8ade.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
-</dt></dl>
-6. Click Save Changes.
-
-Additionally, you can [disable credit card autofill](\""https://support.mozilla.org/en-US/kb/credit-card-autofill#w_turn-credit-card-autofill-on-or-off"")[disable payment methods autofill](\""https://support.mozilla.org/en-US/kb/credit-card-autofill#w_turn-payment-methods-autofill-on-or-off"") to prevent Firefox from filling in your credit card information on the device where this data is saved.
-
-We recommend that users [create a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") for each member of the family and to sign out every time, to prevent credit card information or other sensitive data from being exposed.
-"
-59164,Block deceptive content and dangerous downloads in Firefox,block-deceptive-content-and-dangerous-downloads-firefox,https://support.mozilla.org/en-US/kb/block-deceptive-content-and-dangerous-downloads-firefox,en-US,Make sure these settings are enabled to prevent unwanted downloads and block suspicious content on your children's sessions.,"<p>Websites you or your children visit may sometimes try to download and install <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">malicious software</a> on your computer without your approval. Firefox warns you of these attacks so you can take action against them and block suspicious content before it’s downloaded to your disk. To make sure this protection is enabled visit your Security settings:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select the <span class=""menu"">Privacy &amp; Security</span> panel.
-</li><li>Go down to the <em>Security</em> section.
-<dl><dt><img alt=""Fx89Security-DeceptiveContent"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-12-02-36-07-8bccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Under <em>Deceptive Content and Dangerous Software Protection</em>, make sure the following boxes are checked:
-<ul><li><strong>Block dangerous and deceptive content</strong>: Check this box to block potential malware or content that can trick you into downloading malware or unintentionally entering information.
-<ul><li><strong>Block dangerous downloads</strong>: Blocks potential viruses and other malware.
-</li><li><strong>Warn you about unwanted and uncommon software</strong>: Lets you know if you're about to download potentially unwanted software or uncommon software that may contain a virus or make unexpected changes to your computer.
-</li></ul>
-</li></ul>
-</li></ol>
-<p>When Firefox detects you've entered a suspicious site, it will display a warning in the address bar. If an unwanted, potentially harmful download is detected, a warning message will display in the Downloads panel and Firefox will block the download. To learn more, see <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">How does built-in Phishing and Malware Protection work?</a> and <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection"">Download protection for downloaded files in Firefox</a>.
-</p>",firefox,privacy-and-security,"Websites you or your children visit may sometimes try to download and install [malicious software](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") on your computer without your approval. Firefox warns you of these attacks so you can take action against them and block suspicious content before it’s downloaded to your disk. To make sure this protection is enabled visit your Security settings:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select the Privacy & Security panel.
-3. Go down to the _Security_ section.<dl><dt>
-<img alt=""Fx89Security-DeceptiveContent"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-12-02-36-07-8bccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. Under _Deceptive Content and Dangerous Software Protection_, make sure the following boxes are checked:
-  - **Block dangerous and deceptive content** : Check this box to block potential malware or content that can trick you into downloading malware or unintentionally entering information.
-    - **Block dangerous downloads** : Blocks potential viruses and other malware.
-    - **Warn you about unwanted and uncommon software** : Lets you know if you're about to download potentially unwanted software or uncommon software that may contain a virus or make unexpected changes to your computer.
-
-When Firefox detects you've entered a suspicious site, it will display a warning in the address bar. If an unwanted, potentially harmful download is detected, a warning message will display in the Downloads panel and Firefox will block the download. To learn more, see [How does built-in Phishing and Malware Protection work?](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") and [Download protection for downloaded files in Firefox](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection"").
 
 "
 59174,Quick actions in the Firefox search bar,quick-actions-firefox-search-bar,https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar,en-US,This article refers to the new Quick actions feature available in the Firefox address bar drop-down menu.,"<p>Firefox’s Quick Actions are buttons that appear when you type in the address bar. They let you instantly perform common browser tasks—like clearing history or opening settings—without navigating menus.
@@ -123334,26 +123839,37 @@ Thunderbird should automatically configure your Thundermail email settings to ma
 - New to Thunderbird for Android? Then check out [Getting started with Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-android"").
 
 "
-72404,Getting Started with Thunderbird Pro,getting-started-thunderbird-pro,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro,en-US,"How to get started with Thunderbird Pro which currently includes: Thundermail, Send and Appointment.","<p>For the best experience, we recommend that you start off with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari.
+72404,Getting Started with Thunderbird Pro,getting-started-thunderbird-pro,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro,en-US,"How to get started with Thunderbird Pro which currently includes: Thundermail, Send and Appointment.","<p>For the possible best experience, we recommend that you start with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari. Appointment, Send and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.
+</p><p>Prepare for Thunderbird Pro:
 </p>
-<ul><li> If you have Thunderbird Desktop installed, install the Thunderbird Pro add-on as per <a href=""/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop"">Install the Thunderbird Pro Add-on in Thunderbird Desktop</a>. If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
-</li><li> Login. You'll have to enter a credit card number even though you may have a Thunderbird Pro coupon code (have problems with a code that you received? please <a href=""https://support.tb.pro/hc/en-us/requests/new"">ask for support</a>). Currently, only credit cards  are accepted. Apple Pay, Paypal and other 3rd party services are not currently supported. 
-</li><li> Configure Thunderbird for Desktop for Thundermail as per the article <a href=""/en-US/kb/thunderbird-desktop-and-thundermail"">Thunderbird for Desktop and Thundermail</a>.
-</li><li> Configure Thunderbird for Android for Thundermail as per the article: <a href=""/en-US/kb/thundermail-and-thunderbird-android"">Thundermail and Thunderbird for Android</a>.
-</li><li> Configure Appointment as per <a href=""https://support.tb.pro/hc/sections/43161318933907"">our Appointment articles</a>.
+<ul><li> If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
+</li><li> If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to <a href=""/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop"">Install the Thunderbird Pro Add-on in Thunderbird Desktop</a>. 
+</li><li> Set up your Thunderbird Pro account. You must enter a payment choice, for example a credit card number.  If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please <a href=""https://support.tb.pro/hc/en-us/requests/new"">ask for support</a>. Currently, only credit cards are accepted. Apple Pay, Paypal and other 3rd party services are not yet supported. 
+</li></ul>
+<p>Set up your application:
+</p>
+<ul><li> For Thundermail on desktop - Configure Thunderbird for Desktop for Thundermail according to the article <a href=""/en-US/kb/thunderbird-desktop-and-thundermail"">Thunderbird for Desktop and Thundermail</a>.
+</li><li> For Thundermail on on mobile - Configure Thunderbird for Android for Thundermail according to the article: <a href=""/en-US/kb/thundermail-and-thunderbird-android"">Thundermail and Thunderbird for Android</a>.
+</li><li> For Appointment - Configure according to <a href=""https://support.tb.pro/hc/sections/43161318933907"">our Appointment articles</a>.
 </li><li> Configure Send as per <a href=""https://support.tb.pro/hc/sections/43937747865235"">our Send articles</a>.
 </li></ul>
-<p>Go forth, set up some office hours with Appointment, send some files with Send and send and receive email with Thundermail!
-</p>",thunderbird;thunderbird-android,accounts;email-and-messaging;installation-and-updates;settings,"For the best experience, we recommend that you start off with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari.
+<p>Go forth! Set up some office hours with Appointment. Send some files with Send. Send and receive email with Thundermail!
+</p>",thunderbird;thunderbird-android,accounts;email-and-messaging;installation-and-updates;settings,"For the possible best experience, we recommend that you start with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari. Appointment, Send and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.
 
-- If you have Thunderbird Desktop installed, install the Thunderbird Pro add-on as per [Install the Thunderbird Pro Add-on in Thunderbird Desktop](\""https://support.mozilla.org/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop""). If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
-- Login. You'll have to enter a credit card number even though you may have a Thunderbird Pro coupon code (have problems with a code that you received? please [ask for support](https://support.tb.pro/hc/en-us/requests/new)). Currently, only credit cards are accepted. Apple Pay, Paypal and other 3rd party services are not currently supported. 
-- Configure Thunderbird for Desktop for Thundermail as per the article [Thunderbird for Desktop and Thundermail](\""https://support.mozilla.org/en-US/kb/thunderbird-desktop-and-thundermail"").
-- Configure Thunderbird for Android for Thundermail as per the article: [Thundermail and Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android"").
-- Configure Appointment as per [our Appointment articles](https://support.tb.pro/hc/sections/43161318933907).
+Prepare for Thunderbird Pro:
+
+- If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
+- If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to [Install the Thunderbird Pro Add-on in Thunderbird Desktop](\""https://support.mozilla.org/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop""). 
+- Set up your Thunderbird Pro account. You must enter a payment choice, for example a credit card number. If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please [ask for support](https://support.tb.pro/hc/en-us/requests/new). Currently, only credit cards are accepted. Apple Pay, Paypal and other 3rd party services are not yet supported. 
+
+Set up your application:
+
+- For Thundermail on desktop - Configure Thunderbird for Desktop for Thundermail according to the article [Thunderbird for Desktop and Thundermail](\""https://support.mozilla.org/en-US/kb/thunderbird-desktop-and-thundermail"").
+- For Thundermail on on mobile - Configure Thunderbird for Android for Thundermail according to the article: [Thundermail and Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android"").
+- For Appointment - Configure according to [our Appointment articles](https://support.tb.pro/hc/sections/43161318933907).
 - Configure Send as per [our Send articles](https://support.tb.pro/hc/sections/43937747865235).
 
-Go forth, set up some office hours with Appointment, send some files with Send and send and receive email with Thundermail!
+Go forth! Set up some office hours with Appointment. Send some files with Send. Send and receive email with Thundermail!
 
 "
 72417,Harmful add-on protection,harmful-add-protection,https://support.mozilla.org/en-US/kb/harmful-add-protection,en-US,"If you have installed an add-on that triggers the opening of a known malicious website, Firefox will block it to protect you.","<p>When an add-on that you have installed triggers the opening of a website that has been reported as a deceptive site (sometimes called a “phishing” page) as a source of unwanted software or as an attack site designed to harm your computer, Firefox will clearly advise you that the site has been blocked for your safety.
@@ -126508,14 +127024,6 @@ For more information and additional steps you may need to take, see [Make Firefo
 - [Setting Firefox as the default browser does not work - What to do](\""https://support.mozilla.org/en-US/kb/setting-firefox-default-browser-does-not-work"")
 
 "
-73513,Forum response - Mozilla VPN redirect,forum-response-mozilla-vpn,https://support.mozilla.org/en-US/kb/forum-response-mozilla-vpn,en-US,A redirect for questions about Mozilla VPN landing on public forums.,"<p>
-Hi,
-</p><p>Mozilla VPN is one of our premium products. In order to get premium support from a dedicated agent, please submit your question with your Mozilla VPN app by going to <strong>Settings</strong> &gt; <strong>Help</strong> &gt; <strong>Contact Support</strong>. Alternatively, you can sign in to the Mozilla account connected to your subscription here (if not already) and then use <a href=""/questions/new/mozilla-vpn/form"">this link</a>.
-</p>",firefox;mobile;ios;mozilla-vpn;monitor;firefox-enterprise;thunderbird;thunderbird-android,undefined,"Hi,
-
-Mozilla VPN is one of our premium products. In order to get premium support from a dedicated agent, please submit your question with your Mozilla VPN app by going to **Settings** \> **Help** \> **Contact Support**. Alternatively, you can sign in to the Mozilla account connected to your subscription here (if not already) and then use [this link](\""https://support.mozilla.org/questions/new/mozilla-vpn/form"").
-
-"
 73519,Fix Firefox not opening on macOS due to Rosetta,firefox-rosetta-macos,https://support.mozilla.org/en-US/kb/firefox-rosetta-macos,en-US,Fix issues where Firefox won’t open on macOS due to Rosetta or outdated Firefox versions.,"<p>If Firefox won’t open on your Mac and you see a message about <strong>Intel-based apps</strong> or <strong>Rosetta</strong>, this article will help you fix the problem.
 You might see a message like:
 </p><p><strong>“Support Ending for Intel-based Apps. This version of Firefox will not open in a future release of macOS.”</strong>
@@ -126785,6 +127293,159 @@ No. Updating the app does not affect your subscription, login, or settings.
 
 - [What is Mozilla VPN and how does it work?](\""https://support.mozilla.org/en-US/kb/what-mozilla-vpn-and-how-does-it-work"")
 - [How to sign in to Mozilla VPN](\""https://support.mozilla.org/en-US/kb/how-log-mozilla-vpn"")
+
+"
+73553,Fix Thunderbird not opening on macOS due to Rosetta,thunderbird-rosetta-macos,https://support.mozilla.org/en-US/kb/thunderbird-rosetta-macos,en-US,Fix issues where Thunderbird won’t open on macOS due to Rosetta or outdated Thunderbird versions.,"<p>If Thunderbird won’t open on your Mac and you see a message about <strong>Intel-based apps</strong> or <strong>Rosetta</strong>, this article will help you fix the problem.
+</p><p><strong>“Support Ending for Intel-based Apps. This version of Thunderbird will not open in a future release of macOS.”</strong>
+</p><p>This usually means your version of Thunderbird is outdated or running using Rosetta.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_why-this-happens""><span class=""tocnumber"">1</span> <span class=""toctext"">Why this happens</span></a></li><li class=""toclevel-1""><a href=""#w_check-if-thunderbird-is-using-rosetta""><span class=""tocnumber"">2</span> <span class=""toctext"">Check if Thunderbird is using Rosetta</span></a></li><li class=""toclevel-1""><a href=""#w_update-thunderbird-to-the-latest-version""><span class=""tocnumber"">3</span> <span class=""toctext"">Update Thunderbird to the latest version</span></a></li><li class=""toclevel-1""><a href=""#w_if-you-still-see-the-message""><span class=""tocnumber"">4</span> <span class=""toctext"">If you still see the message</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">5</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-is-rosetta""><span class=""tocnumber"">5.1</span> <span class=""toctext"">What is Rosetta?</span></a></li><li class=""toclevel-2""><a href=""#w_why-is-rosetta-being-removed""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Why is Rosetta being removed?</span></a></li><li class=""toclevel-2""><a href=""#w_do-i-need-rosetta-to-use-thunderbird""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Do I need Rosetta to use Thunderbird?</span></a></li><li class=""toclevel-2""><a href=""#w_what-happens-if-i-keep-using-an-old-version-of-thunderbird""><span class=""tocnumber"">5.4</span> <span class=""toctext"">What happens if I keep using an old version of Thunderbird?</span></a></li><li class=""toclevel-2""><a href=""#w_will-updating-thunderbird-affect-my-data""><span class=""tocnumber"">5.5</span> <span class=""toctext"">Will updating Thunderbird affect my data?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_why-this-happens"">Why this happens</h1>
+<p>Apple is removing support for <strong>Rosetta</strong>, a tool that allows apps built for Intel-based Macs to run on Apple silicon devices (such as M1, M2, and newer).
+If Thunderbird is using Rosetta or is an older version:
+</p>
+<ul><li>macOS may show a warning
+</li><li>Thunderbird may stop opening entirely on newer macOS versions
+</li></ul>
+<h1 id=""w_check-if-thunderbird-is-using-rosetta"">Check if Thunderbird is using Rosetta</h1>
+<p>If your macOS version still supports Rosetta, you can turn it off:
+</p>
+<ol><li>Quit Thunderbird.
+</li><li>Open the <span class=""menu"">Applications</span> folder.
+</li><li>Find <span class=""menu"">Thunderbird</span>.
+</li><li>Right-click (or Control-click) it and select <span class=""button"">Get Info</span>.
+</li><li>Look for <span class=""button"">Open using Rosetta</span>.
+</li><li>If checked, uncheck it.
+</li><li>Close the window and open Thunderbird again.
+</li></ol>
+<p>If Thunderbird opens normally, the issue is fixed.
+</p>
+<h1 id=""w_update-thunderbird-to-the-latest-version"">Update Thunderbird to the latest version</h1>
+<p>If you don’t see the Rosetta option, or Thunderbird still doesn’t open, update to the latest version.
+</p>
+<ol><li>Visit the <a href=""https://gethunderbird.com/"">Thunderbird download page</a>. 
+</li><li>Download the latest version of Thunderbird.
+</li><li>Open the downloaded file.
+</li><li>Drag Thunderbird into the <span class=""menu"">Applications</span> folder.
+</li><li>Replace the existing version if prompted.
+</li><li>Open Thunderbird.
+</li></ol>
+<div class=""note""><strong>Note:</strong> New versions of Thunderbird run natively on Apple silicon and do not require Rosetta.</div>
+<h1 id=""w_if-you-still-see-the-message"">If you still see the message</h1>
+<ul><li>Make sure you are using the latest version of Thunderbird
+</li><li>Restart your Mac after installing updates
+</li><li>Check for macOS updates
+</li></ul>
+<p>If the problem continues, you can get help from <a href=""https://support.mozilla.org/"">Mozilla Support</a>.
+</p>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<h2 id=""w_what-is-rosetta"">What is Rosetta?</h2>
+<p>Rosetta is a compatibility feature from Apple that allows apps built for Intel-based Macs to run on newer Apple silicon devices (such as M1 and M2). To learn more, see <a href=""https://support.apple.com/102527"">this Apple support article</a>.
+</p>
+<h2 id=""w_why-is-rosetta-being-removed"">Why is Rosetta being removed?</h2>
+<p>Apple is transitioning fully to Apple Silicon. Newer versions of macOS no longer support Rosetta, so apps must run natively.
+</p>
+<h2 id=""w_do-i-need-rosetta-to-use-thunderbird"">Do I need Rosetta to use Thunderbird?</h2>
+<p>No. Current versions of Thunderbird are built to run natively on Apple silicon and do not require Rosetta.
+</p>
+<h2 id=""w_what-happens-if-i-keep-using-an-old-version-of-thunderbird"">What happens if I keep using an old version of Thunderbird?</h2>
+<p>Older versions that rely on Rosetta may stop working on newer versions of macOS. Updating Thunderbird ensures it continues to work properly.
+</p>
+<h2 id=""w_will-updating-thunderbird-affect-my-data"">Will updating Thunderbird affect my data?</h2>
+<p>No. Updating Thunderbird does not remove your bookmarks, history, or saved data.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/installing-thunderbird-on-mac"">Install Thunderbird on Mac</a>
+</li><li><a href=""/en-US/kb/updating-thunderbird"">Update Thunderbird to the latest version</a>
+</li></ul>",thunderbird,installation-and-updates,"If Thunderbird won’t open on your Mac and you see a message about **Intel-based apps** or **Rosetta** , this article will help you fix the problem.
+
+**“Support Ending for Intel-based Apps. This version of Thunderbird will not open in a future release of macOS.”**
+
+This usually means your version of Thunderbird is outdated or running using Rosetta.
+
+## Table of Contents
+
+- [1 Why this happens](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_why-this-happens)
+- [2 Check if Thunderbird is using Rosetta](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_check-if-thunderbird-is-using-rosetta)
+- [3 Update Thunderbird to the latest version](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_update-thunderbird-to-the-latest-version)
+- [4 If you still see the message](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_if-you-still-see-the-message)
+- [5 Frequently asked questions](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_frequently-asked-questions)
+  - [5.1 What is Rosetta?](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_what-is-rosetta)
+  - [5.2 Why is Rosetta being removed?](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_why-is-rosetta-being-removed)
+  - [5.3 Do I need Rosetta to use Thunderbird?](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_do-i-need-rosetta-to-use-thunderbird)
+  - [5.4 What happens if I keep using an old version of Thunderbird?](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_what-happens-if-i-keep-using-an-old-version-of-thunderbird)
+  - [5.5 Will updating Thunderbird affect my data?](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_will-updating-thunderbird-affect-my-data)
+
+- [6 Related articles](https://support.mozilla.org/kb/thunderbird-rosetta-macos#w_related-articles)
+
+# Why this happens
+
+Apple is removing support for **Rosetta** , a tool that allows apps built for Intel-based Macs to run on Apple silicon devices (such as M1, M2, and newer). If Thunderbird is using Rosetta or is an older version:
+
+- macOS may show a warning
+- Thunderbird may stop opening entirely on newer macOS versions
+
+# Check if Thunderbird is using Rosetta
+
+If your macOS version still supports Rosetta, you can turn it off:
+
+1. Quit Thunderbird.
+2. Open the Applications folder.
+3. Find Thunderbird.
+4. Right-click (or Control-click) it and select Get Info.
+5. Look for Open using Rosetta.
+6. If checked, uncheck it.
+7. Close the window and open Thunderbird again.
+
+If Thunderbird opens normally, the issue is fixed.
+
+# Update Thunderbird to the latest version
+
+If you don’t see the Rosetta option, or Thunderbird still doesn’t open, update to the latest version.
+
+1. Visit the [Thunderbird download page](https://gethunderbird.com/). 
+2. Download the latest version of Thunderbird.
+3. Open the downloaded file.
+4. Drag Thunderbird into the Applications folder.
+5. Replace the existing version if prompted.
+6. Open Thunderbird.
+
+**Note:** New versions of Thunderbird run natively on Apple silicon and do not require Rosetta.
+
+# If you still see the message
+
+- Make sure you are using the latest version of Thunderbird
+- Restart your Mac after installing updates
+- Check for macOS updates
+
+If the problem continues, you can get help from [Mozilla Support](https://support.mozilla.org/).
+
+# Frequently asked questions
+
+## What is Rosetta?
+
+Rosetta is a compatibility feature from Apple that allows apps built for Intel-based Macs to run on newer Apple silicon devices (such as M1 and M2). To learn more, see [this Apple support article](https://support.apple.com/102527).
+
+## Why is Rosetta being removed?
+
+Apple is transitioning fully to Apple Silicon. Newer versions of macOS no longer support Rosetta, so apps must run natively.
+
+## Do I need Rosetta to use Thunderbird?
+
+No. Current versions of Thunderbird are built to run natively on Apple silicon and do not require Rosetta.
+
+## What happens if I keep using an old version of Thunderbird?
+
+Older versions that rely on Rosetta may stop working on newer versions of macOS. Updating Thunderbird ensures it continues to work properly.
+
+## Will updating Thunderbird affect my data?
+
+No. Updating Thunderbird does not remove your bookmarks, history, or saved data.
+
+# Related articles
+
+- [Install Thunderbird on Mac](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac"")
+- [Update Thunderbird to the latest version](\""https://support.mozilla.org/en-US/kb/updating-thunderbird"")
 
 "
 719,What to do when searches take you to the wrong search website,searches-take-you-to-wrong-search-website,https://support.mozilla.org/en-US/kb/searches-take-you-to-wrong-search-website,en-US,"Firefox searches going to the wrong website can be caused by your Internet provider, an add-on, toolbar or malware. Learn how to fix this.","<p>This article describes what to do when searches from Firefox don't go to the expected site(s).  For example, Google searches may redirect to a page with a lot of advertising or using a different search engine.
