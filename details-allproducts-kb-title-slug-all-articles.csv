@@ -4514,7 +4514,7 @@ You cannot remove themes that come with Firefox ( [Colorways](\""https://support
 <div class=""note""><strong>Note:</strong> Because your preferences and extensions often cause problems, this article does not explain how to copy these between profiles. If you follow the steps in this article, you will have to reinstall your extensions and reconfigure your Firefox preferences.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_back-up-your-current-profile""><span class=""tocnumber"">1</span> <span class=""toctext"">Back up your current profile</span></a></li><li class=""toclevel-1""><a href=""#w_create-a-new-firefox-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Create a new Firefox profile</span></a></li><li class=""toclevel-1""><a href=""#w_copy-files-between-profile-folders""><span class=""tocnumber"">3</span> <span class=""toctext"">Copy files between profile folders</span></a></li><li class=""toclevel-1""><a href=""#w_your-important-data-and-their-files""><span class=""tocnumber"">4</span> <span class=""toctext"">Your important data and their files</span></a></li></ul></div>
 <h1 id=""w_back-up-your-current-profile"">Back up your current profile</h1>
-<p>Before starting it is recommended that you make a complete backup of your existing Firefox profile in case something goes wrong. Please read the <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a> article for instructions.
+<p>Before starting it is recommended that you make a complete backup of your existing Firefox profile in case something goes wrong. Please read the <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a> article for instructions.
 </p>
 <h1 id=""w_create-a-new-firefox-profile"">Create a new Firefox profile</h1>
 <div class=""note""><strong>Note:</strong> This step is not necessary if you already have a new Firefox profile, for example, one you previously created or a <a href=""/en-US/kb/dedicated-profiles-firefox-installation"">profile created by Firefox for a new installation</a>. This step is also not needed if you want to recover profile data from an <em>Old Firefox Data</em> folder placed on the desktop after you <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">refresh Firefox</a>.</div>
@@ -4566,7 +4566,7 @@ To learn more about the data and their files within your Firefox profile, see <a
 
 # Back up your current profile
 
-Before starting it is recommended that you make a complete backup of your existing Firefox profile in case something goes wrong. Please read the [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"") article for instructions.
+Before starting it is recommended that you make a complete backup of your existing Firefox profile in case something goes wrong. Please read the [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"") article for instructions.
 
 # Create a new Firefox profile
 
@@ -6033,7 +6033,7 @@ Starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-
 <h1 id=""w_remove-user-data-and-settings"">Remove user data and settings</h1>
 <p>Uninstalling Firefox does not remove any user data such as bookmarks, history, passwords and cookies<span class=""for"" data-for=""linux""> (unless you are using snap on Ubuntu)</span>. If you also want to remove this information, you should delete the <span class=""filepath"">Firefox</span> folder containing your <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">user profile</a>:
 </p>
-<div class=""note""><strong>Note:</strong> To back up your bookmarks, passwords, cookies and other user data and settings, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>.</div>
+<div class=""note""><strong>Note:</strong> To back up your bookmarks, passwords, cookies and other user data and settings, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.</div>
 <div class=""for"" data-for=""mac"">
 <ol><li>Click the <strong>Finder</strong> icon in the dock.
 </li><li>In the menu bar, click the <span class=""menu"">Go</span> menu, hold down the <span class=""key"">option</span> or <span class=""key"">Alt</span> key and select <span class=""menu"">Library</span>. A window will open containing your <em>Library</em> folder.
@@ -6179,7 +6179,7 @@ To finish uninstalling Firefox:
 
 Uninstalling Firefox does not remove any user data such as bookmarks, history, passwords and cookies (unless you are using snap on Ubuntu). If you also want to remove this information, you should delete the Firefox folder containing your [user profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data""):
 
-**Note:** To back up your bookmarks, passwords, cookies and other user data and settings, see [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
+**Note:** To back up your bookmarks, passwords, cookies and other user data and settings, see [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
 
 1. Click the **Finder** icon in the dock.
 2. In the menu bar, click the Go menu, hold down the option or Alt key and select Library. A window will open containing your _Library_ folder.
@@ -11065,7 +11065,7 @@ There may be other add-ons with similar features that are compatible with your v
 </li></ol>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li> For instructions on how to back up and restore your bookmarks or move them to another installation of Firefox, see <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.
-</li><li> For instructions on how to back up and restore your Firefox profile data and settings, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>.
+</li><li> For instructions on how to back up and restore your Firefox profile data and settings, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.
 </li></ul>",firefox,backup-data;backup-recovery-and-sync;bookmarks;browse;import-and-export-settings;settings,"This article explains how to export your bookmarks to an HTML file, which can be used as a backup or for importing into another web browser.
 
 These are the differences between a backup and an export:
@@ -11100,7 +11100,7 @@ If you don’t see your bookmarks on the toolbar after importing, turn on the to
 # Related articles
 
 - For instructions on how to back up and restore your bookmarks or move them to another installation of Firefox, see [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them"").
-- For instructions on how to back up and restore your Firefox profile data and settings, see [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
+- For instructions on how to back up and restore your Firefox profile data and settings, see [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
 
 "
 729,How to install Firefox on Windows,how-install-firefox-windows,https://support.mozilla.org/en-US/kb/how-install-firefox-windows,en-US,This article describes how to download and install Firefox on Windows.,"<p>This article explains how to install Firefox on Windows, either with a simple online installer from Mozilla or from the Microsoft Store.
@@ -15289,7 +15289,7 @@ The Firefox Profile Manager (Choose User Profile) window should open.
 <p>You can sync your new profile with other Firefox profiles and devices. To learn more, see <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a> and <a href=""/en-US/kb/how-do-i-choose-what-information-sync-firefox"">How do I choose what information to sync on Firefox?</a>
 </p>
 <h1 id=""w_move-a-profile"">Move a profile</h1>
-<p>To copy all of your Firefox data and settings to another Firefox installation (for example, when you get a new computer), you can make a backup of your Firefox profile, then restore it in your new location. For instructions, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>.
+<p>To copy all of your Firefox data and settings to another Firefox installation (for example, when you get a new computer), you can make a backup of your Firefox profile, then restore it in your new location. For instructions, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.
 </p>
 <h1 id=""w_recover-information-from-an-old-profile"">Recover information from an old profile</h1>
 <p>If you have important information from an old Firefox profile, such as bookmarks, passwords or user preferences, you can transfer that information to a new Firefox profile by copying the associated files. For instructions, see <a href=""/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"">Restore bookmarks, passwords and data from an old Firefox profile</a>. You can also switch to a previous profile to recover old profile data. See <a href=""/en-US/kb/recover-user-data-missing-after-firefox-update"">Recover user data missing after Firefox update or reinstall</a> for details.
@@ -15463,7 +15463,7 @@ You can sync your new profile with other Firefox profiles and devices. To learn 
 
 # Move a profile
 
-To copy all of your Firefox data and settings to another Firefox installation (for example, when you get a new computer), you can make a backup of your Firefox profile, then restore it in your new location. For instructions, see [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
+To copy all of your Firefox data and settings to another Firefox installation (for example, when you get a new computer), you can make a backup of your Firefox profile, then restore it in your new location. For instructions, see [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
 
 # Recover information from an old profile
 
@@ -22836,7 +22836,7 @@ DOM Storage is designed to provide a larger, more secure, and easier-to-use alte
 <h1 id=""w_working-with-profiles"">Working with profiles</h1>
 <ul><li><a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">Profile Manager - Create, remove or switch Firefox profiles</a> explains how to do things like, create a new profile, set a new default profile, and delete an old profile.
 </li><li><a href=""/en-US/kb/recover-user-data-missing-after-firefox-update"">Recover user data missing after Firefox update or reinstall</a> explains how to use the Profile Manager to switch profiles, if multiple profiles exist. 
-</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a> explains how to back up and restore a profile. It also explains how to move your profile information to a different location on your hard drive or to another computer.
+</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a> explains how to back up and restore a profile. It also explains how to move your profile information to a different location on your hard drive or to another computer.
 </li><li><a href=""/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"">Restore bookmarks, passwords and data from an old Firefox profile</a> explains how to copy files to a new profile.
 </li></ul>",firefox,accounts;profiles,"All of the changes you make in Firefox, such as your home page, what toolbars you use, extensions you have installed, saved passwords and your bookmarks, are stored in a special folder called a _profile_. Your profile folder is stored in a separate place from the Firefox program so, if something ever goes wrong with Firefox, your data and settings will still be there. It also means that you can [uninstall Firefox](\""https://support.mozilla.org/en-US/kb/uninstall-firefox-from-your-computer"") without losing your personal information and that you don't have to reinstall Firefox to clear your settings or troubleshoot a problem.
 
@@ -23024,7 +23024,7 @@ This file stores the details of containers used by the [Container Tabs feature](
 
 - [Profile Manager - Create, remove or switch Firefox profiles](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") explains how to do things like, create a new profile, set a new default profile, and delete an old profile.
 - [Recover user data missing after Firefox update or reinstall](\""https://support.mozilla.org/en-US/kb/recover-user-data-missing-after-firefox-update"") explains how to use the Profile Manager to switch profiles, if multiple profiles exist. 
-- [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"") explains how to back up and restore a profile. It also explains how to move your profile information to a different location on your hard drive or to another computer.
+- [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"") explains how to back up and restore a profile. It also explains how to move your profile information to a different location on your hard drive or to another computer.
 - [Restore bookmarks, passwords and data from an old Firefox profile](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile"") explains how to copy files to a new profile.
 
 "
@@ -25642,7 +25642,7 @@ Unfortunately, you can't change or recover the email address associated with a F
 <div class=""note""><strong>Note:</strong> The refresh will place your old Firefox profile on your desktop in a folder named <em>Old Firefox Data</em>. If your problem persists, you can partially restore lost information by <a href=""/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile#w_copy-files-between-profile-folders"">copying files to the newly created profile</a>. If you no longer need this folder, we encourage you to delete it, since it contains sensitive information.</div>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Use Troubleshoot Mode in Firefox</a>
-</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>
+</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>
 </li><li><a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Profiles - Where Firefox stores your bookmarks, passwords and other user data</a>
 </li></ul>",firefox,settings,"This feature is available on Firefox for desktop or laptop computers.
 
@@ -25705,7 +25705,7 @@ The refresh feature removes add-ons normally stored inside the Firefox profile f
 # Related articles
 
 - [Use Troubleshoot Mode in Firefox](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"")
-- [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"")
+- [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"")
 - [Profiles - Where Firefox stores your bookmarks, passwords and other user data](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"")
 
 "
@@ -67573,386 +67573,6 @@ Using the full installer from the command line will implicitly enable silent mod
 To uninstall Firefox for Enterprise silently, you have to uninstall from the command line. To do so, run \<install directory\>\uninstall\helper.exe with the command line parameter **/S**.
 
 "
-43911,Make Firefox for Enterprise the default browser,make-firefox-enterprise-default-browser,https://support.mozilla.org/en-US/kb/make-firefox-enterprise-default-browser,en-US,Learn how to configure the computers in your domain to use Firefox for Enterprise as the default browser.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
-<p></p><p>As an administrator, you can configure the computers in your domain to use Firefox for Enterprise as the default browser. First, make sure all computers have installed Firefox for Enterprise, and then follow the instructions below. 
-</p>
-<h2 id=""w_step-1"">Step 1</h2>
-<p>To set Firefox for Enterprise as the default browser on all computers in your environment, you’ll have to create a single shared XML file that sets Firefox for Enterprise as the default browser. The XML file must be placed on a shared server folder accessible by all of the computers in your environment. 
-</p>
-<div class=""note""><strong>Note:</strong> Firefox for Enterprise must be installed on the target computer for the correct file associations (e.g. html or htm) to launch the Firefox for Enterprise browser by default.</div>
-<p>See below for an example xml that sets Firefox for Enterprise as the default browser opening html, htm, http, and https files and links. 
-</p>
-<pre>&lt;?xml version=""1.0"" encoding=""UTF-8""?&gt;
-&lt;DefaultAssociations&gt;
-  &lt;Association Identifier="".htm"" ProgId=""FirefoxHTML-308046B0AF4A39CB"" ApplicationName=""Firefox"" /&gt;
-  &lt;Association Identifier="".html"" ProgId=""FirefoxHTML-308046B0AF4A39CB"" ApplicationName=""Firefox"" /&gt;
-  &lt;Association Identifier=""http"" ProgId=""FirefoxURL-308046B0AF4A39CB"" ApplicationName=""Firefox"" /&gt;
-  &lt;Association Identifier=""https"" ProgId=""FirefoxURL-308046B0AF4A39CB"" ApplicationName=""Firefox"" /&gt;
-&lt;/DefaultAssociations&gt;
-
-</pre>
-<div class=""note""><strong>Note:</strong> The 308046B0AF4A39CB value is based on where Firefox is installed. 308046B0AF4A39CB corresponds to C:\Program Files\Mozilla Firefox. If your Firefox installation is in C:\Program Files (x86)\Mozilla Firefox, you should use E7CF176E110C211B. For any other install location, you can go to about:support and look at the value for <strong>Update Folder</strong>. The value is after C:\ProgramData\Mozilla\updates\.</div>
-<h2 id=""w_step-2"">Step 2</h2>
-<p>On Windows, policy support is implemented using the Group Policy Management console. Firefox supports setting policies via Active Directory as well as by using Local Group Policy. 
-</p><p>Read <a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">this support article</a> to learn how to use a group policy object to set Firefox for Enterprise as the default browser.
-</p>
-<h2 id=""w_step-3"">Step 3</h2>
-<p>To set up the default associations configuration file for the computers in your environment, you must edit the related Group Policy Object on your domain’s server. To do so, follow the instructions below:
-</p>
-<ol><li>Open the Group Policy Management Console by going to Start &gt; All Programs &gt; Administrative Tools &gt; Group Policy Management. 
-</li><li>Click Group Policy Management &gt; Domains &gt; <a href=""http://example.com"">example.com</a>
-</li><li>Open the Linked Group Policy Objects tab. 
-</li><li>Right-click the GPO you want to select and click Edit. 
-</li><li>From the Group Policy Management Editor, navigate to Computer Configuration &gt; Policies &gt; Administrative Template &gt; Windows Components &gt; File Explore and double-click on Set a default associations configuration file. 
-</li><li>Select Enabled from the Set a default associations configuration file window.
-</li><li>Enter the location of your default application association XML file from the Options box. You can use the provided sample XML file or one you’ve created yourself. 
-</li></ol>
-<div class=""note""><strong>Note:</strong> The XML file must be located on your service in a location accessible to every computer in the environment.</div>
-<h2 id=""w_step-4"">Step 4</h2>
-<p>To verify that your Group Policy Object has been applied to computers in your environment, make sure the GPO has been applied by refreshing the Windows Client or running the GPUdate.exe /force command to manually refresh.
-</p>
-<div class=""note""><strong>Note:</strong> Once downloaded and applied, all target computers in the system have to be rebooted for the policy to take effect.</div>
-<ol><li>Go to Windows &gt; System32 and right-click rsop.msc and click run as administrator.
-</li><li>Log in with your administrator credentials and click Yes. 
-</li><li>To confirm that Set a default associations configuration file is available, go to Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; File Explore. 
-</li><li>Open the Set a default associations configuration file to confirm that the setting is enabled and that the location of the XML file is accurate.
-</li><li>Once Firefox for Enterprise has been set as the default browser, all files with htm and html extensions will show the Firefox icon.
-</li></ol>",firefox-enterprise,settings,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
-
-As an administrator, you can configure the computers in your domain to use Firefox for Enterprise as the default browser. First, make sure all computers have installed Firefox for Enterprise, and then follow the instructions below.
-
-## Step 1
-
-To set Firefox for Enterprise as the default browser on all computers in your environment, you’ll have to create a single shared XML file that sets Firefox for Enterprise as the default browser. The XML file must be placed on a shared server folder accessible by all of the computers in your environment.
-
-**Note:** Firefox for Enterprise must be installed on the target computer for the correct file associations (e.g. html or htm) to launch the Firefox for Enterprise browser by default.
-
-See below for an example xml that sets Firefox for Enterprise as the default browser opening html, htm, http, and https files and links.
-
-    <?xml version=""1.0"" encoding=""UTF-8""?>
-    <DefaultAssociations>
-      <Association Identifier="".htm"" ProgId=""FirefoxHTML-308046B0AF4A39CB"" ApplicationName=""Firefox"" />
-      <Association Identifier="".html"" ProgId=""FirefoxHTML-308046B0AF4A39CB"" ApplicationName=""Firefox"" />
-      <Association Identifier=""http"" ProgId=""FirefoxURL-308046B0AF4A39CB"" ApplicationName=""Firefox"" />
-      <Association Identifier=""https"" ProgId=""FirefoxURL-308046B0AF4A39CB"" ApplicationName=""Firefox"" />
-    </DefaultAssociations>
-
-**Note:** The 308046B0AF4A39CB value is based on where Firefox is installed. 308046B0AF4A39CB corresponds to C:\Program Files\Mozilla Firefox. If your Firefox installation is in C:\Program Files (x86)\Mozilla Firefox, you should use E7CF176E110C211B. For any other install location, you can go to about:support and look at the value for **Update Folder**. The value is after C:\ProgramData\Mozilla\updates\.
-
-## Step 2
-
-On Windows, policy support is implemented using the Group Policy Management console. Firefox supports setting policies via Active Directory as well as by using Local Group Policy.
-
-Read [this support article](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"") to learn how to use a group policy object to set Firefox for Enterprise as the default browser.
-
-## Step 3
-
-To set up the default associations configuration file for the computers in your environment, you must edit the related Group Policy Object on your domain’s server. To do so, follow the instructions below:
-
-1. Open the Group Policy Management Console by going to Start \> All Programs \> Administrative Tools \> Group Policy Management. 
-2. Click Group Policy Management \> Domains \> [example.com](http://example.com)
-3. Open the Linked Group Policy Objects tab. 
-4. Right-click the GPO you want to select and click Edit. 
-5. From the Group Policy Management Editor, navigate to Computer Configuration \> Policies \> Administrative Template \> Windows Components \> File Explore and double-click on Set a default associations configuration file. 
-6. Select Enabled from the Set a default associations configuration file window.
-7. Enter the location of your default application association XML file from the Options box. You can use the provided sample XML file or one you’ve created yourself. 
-
-**Note:** The XML file must be located on your service in a location accessible to every computer in the environment.
-
-## Step 4
-
-To verify that your Group Policy Object has been applied to computers in your environment, make sure the GPO has been applied by refreshing the Windows Client or running the GPUdate.exe /force command to manually refresh.
-
-**Note:** Once downloaded and applied, all target computers in the system have to be rebooted for the policy to take effect.
-
-1. Go to Windows \> System32 and right-click rsop.msc and click run as administrator.
-2. Log in with your administrator credentials and click Yes. 
-3. To confirm that Set a default associations configuration file is available, go to Computer Configuration \> Administrative Templates \> Windows Components \> File Explore. 
-4. Open the Set a default associations configuration file to confirm that the setting is enabled and that the location of the XML file is accurate.
-5. Once Firefox for Enterprise has been set as the default browser, all files with htm and html extensions will show the Firefox icon.
-
-"
-43912,Set up Certificate Authorities (CAs) in Firefox,setting-certificate-authorities-firefox,https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox,en-US,Learn how to set up certificate authorities (CAs) for your organization in Firefox for Enterprise.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
-<p></p><p>If your organization uses private certificate authorities (CAs) to issue certificates for your internal servers, browsers such as Firefox might display errors unless you configure them to recognize these private certificates. This should be done early on, so your users won’t have trouble accessing websites.
-</p><p>You can add these CA certificates using one of the following methods.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_use-built-in-support-for-windows-macos-and-android-recommended""><span class=""tocnumber"">1</span> <span class=""toctext"">Use built-in support for Windows, macOS and Android (recommended)</span></a><ul><li class=""toclevel-2""><a href=""#w_windows-enterprise-support""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Windows Enterprise support</span></a></li><li class=""toclevel-2""><a href=""#w_macos-enterprise-support""><span class=""tocnumber"">1.2</span> <span class=""toctext"">macOS Enterprise support</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_use-policies-to-import-ca-certificates""><span class=""tocnumber"">2</span> <span class=""toctext"">Use policies to import CA certificates</span></a></li><li class=""toclevel-1""><a href=""#w_linux""><span class=""tocnumber"">3</span> <span class=""toctext"">Linux</span></a><ul><li class=""toclevel-2""><a href=""#w_using-p11-kit-trust-so-on-linux""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Using p11-kit-trust.so on Linux</span></a></li><li class=""toclevel-2""><a href=""#w_preload-the-certificate-databases-new-profiles-only""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Preload the Certificate Databases (new profiles only)</span></a></li><li class=""toclevel-2""><a href=""#w_certutil""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Certutil</span></a></li></ul></li></ul></div>
-<h1 id=""w_use-built-in-support-for-windows-macos-and-android-recommended"">Use built-in support for Windows, macOS and Android (recommended)</h1>
-<p>By default, Firefox on Windows, macOS and Android will search for and make use of third-party CAs that have been added to the operating system's certificate store. So, if you have configured your operating system to trust your organization's private CAs, Firefox should trust those CAs with no additional configuration required. This feature can be controlled in the <span class=""menu"">Privacy &amp; Security</span> tab of <em>about:preferences</em> using the <strong>Allow Firefox to automatically trust third-party root certificates you install</strong> checkbox. Alternatively, the <span class=""pref"">security.enterprise_roots.enabled</span> preference in <em>about:config</em> controls this feature.
-</p>
-<h2 id=""w_windows-enterprise-support"">Windows Enterprise support</h2>
-<p>Firefox can be configured to automatically search for and import CAs that have been added to the Windows certificate store by a user or administrator.
-</p>
-<ol><li>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li>Search for the <span class=""pref"">security.enterprise_roots.enabled</span> preference.
-</li><li>Click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to this preference to change its value to <span class=""pref"">true</span>.
-</li><li>Restart Firefox.
-</li></ol>
-<p>Firefox will inspect the <em>HKLM\SOFTWARE\Microsoft\SystemCertificates</em> registry location (corresponding to the API flag <em>CERT_SYSTEM_STORE_LOCAL_MACHINE</em>) for CAs that are trusted to issue certificates for TLS web server authentication. Any such CAs will be imported and trusted by Firefox, although they may not appear in Firefox's certificate manager. Administration of these CAs should occur using built-in Windows tools or other third-party utilities.
-</p><p>Firefox will also search the registry locations <em>HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root\Certificates</em> and <em>HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root\Certificates</em> (corresponding to the API flags <em>CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY</em> and <em>CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE</em>, respectively).
-</p>
-<h2 id=""w_macos-enterprise-support"">macOS Enterprise support</h2>
-<p>This feature also works for macOS by importing roots found in the macOS system keychain.
-</p>
-<h1 id=""w_use-policies-to-import-ca-certificates"">Use policies to import CA certificates</h1>
-<p>An <a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">enterprise policy</a> can be used to add CA certificates to Firefox.
-</p>
-<ul><li>Setting the <em>ImportEnterpriseRoots</em> key to <strong>true</strong> will cause Firefox to trust root certificates. We recommend this option to add trust for a private PKI to Firefox. It is equivalent to setting the <span class=""pref"">security.enterprise_roots.enabled</span> preference as described in the <a href=""#w_use-built-in-support-for-windows-macos-and-android-recommended"">Use built-in support for Windows, macOS and Android (recommended)</a> section above.
-</li><li>The <em>Install</em> key searches by default for certificates in the locations listed below. You can specify a fully qualified path (see the <a href=""https://mozilla.github.io/policy-templates/#certificates"">examples listed here</a>). If Firefox does not find something at your fully qualified path, it will search the default directories:
-<ul><li>Windows
-<ul><li>%USERPROFILE%\AppData\Local\Mozilla\Certificates
-</li><li>%USERPROFILE%\AppData\Roaming\Mozilla\Certificates
-</li></ul>
-</li><li>macOS
-<ul><li>/Library/Application Support/Mozilla/Certificates
-</li><li>~/Library/Application Support/Mozilla/Certificates
-</li></ul>
-</li><li>Linux
-<ul><li>/usr/lib/mozilla/certificates
-</li><li>/usr/lib64/mozilla/certificates
-</li></ul>
-</li></ul>
-</li></ul>
-<h1 id=""w_linux"">Linux</h1>
-<h2 id=""w_using-p11-kit-trust-so-on-linux"">Using p11-kit-trust.so on Linux</h2>
-<p>Certificates can be programmatically imported by using <em>p11-kit-trust.so</em> from <em>p11-kit</em>. This can be done by setting the <a href=""https://mozilla.github.io/policy-templates/#securitydevices"">SecurityDevices policy</a> in <em>/etc/firefox/policies/policies.json</em> and adding an entry pointing to the <em>p11-kit-trust.so</em> location in the system, by manually adding it via the Security Devices manager in Preferences, or by using the modutil utility.
-</p>
-<h2 id=""w_preload-the-certificate-databases-new-profiles-only"">Preload the Certificate Databases (new profiles only)</h2>
-<p>Some users will <a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">create a new profile in Firefox</a>, manually install the certificates they need, and then distribute the various .db files (<em>cert9.db</em>, <em>key4.db</em> and <em>secmod.db</em>) into new profiles using this method. This is not the recommended approach, and this method only works for new profiles.
-</p>
-<h2 id=""w_certutil"">Certutil</h2>
-<p>You can use certutil to update the Firefox certificate databases from the command line. Check the <a href=""https://docs.microsoft.com/windows-server/administration/windows-commands/certutil"">Microsoft support site</a> for more information.
-</p>",firefox-enterprise,settings,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
-
-If your organization uses private certificate authorities (CAs) to issue certificates for your internal servers, browsers such as Firefox might display errors unless you configure them to recognize these private certificates. This should be done early on, so your users won’t have trouble accessing websites.
-
-You can add these CA certificates using one of the following methods.
-
-## Table of Contents
-
-- [1 Use built-in support for Windows, macOS and Android (recommended)](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_use-built-in-support-for-windows-macos-and-android-recommended)
-  - [1.1 Windows Enterprise support](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_windows-enterprise-support)
-  - [1.2 macOS Enterprise support](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_macos-enterprise-support)
-
-- [2 Use policies to import CA certificates](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_use-policies-to-import-ca-certificates)
-- [3 Linux](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_linux)
-  - [3.1 Using p11-kit-trust.so on Linux](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_using-p11-kit-trust-so-on-linux)
-  - [3.2 Preload the Certificate Databases (new profiles only)](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_preload-the-certificate-databases-new-profiles-only)
-  - [3.3 Certutil](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_certutil)
-
-# Use built-in support for Windows, macOS and Android (recommended)
-
-By default, Firefox on Windows, macOS and Android will search for and make use of third-party CAs that have been added to the operating system's certificate store. So, if you have configured your operating system to trust your organization's private CAs, Firefox should trust those CAs with no additional configuration required. This feature can be controlled in the Privacy & Security tab of _about:preferences_ using the **Allow Firefox to automatically trust third-party root certificates you install** checkbox. Alternatively, the security.enterprise\_roots.enabled preference in _about:config_ controls this feature.
-
-## Windows Enterprise support
-
-Firefox can be configured to automatically search for and import CAs that have been added to the Windows certificate store by a user or administrator.
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. Search for the security.enterprise\_roots.enabled preference.
-3. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to this preference to change its value to true.
-4. Restart Firefox.
-
-Firefox will inspect the _HKLM\SOFTWARE\Microsoft\SystemCertificates_ registry location (corresponding to the API flag _CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE_) for CAs that are trusted to issue certificates for TLS web server authentication. Any such CAs will be imported and trusted by Firefox, although they may not appear in Firefox's certificate manager. Administration of these CAs should occur using built-in Windows tools or other third-party utilities.
-
-Firefox will also search the registry locations _HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root\Certificates_ and _HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root\Certificates_ (corresponding to the API flags _CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_GROUP\_POLICY_ and _CERT\_SYSTEM\_STORE\_LOCAL\_MACHINE\_ENTERPRISE_, respectively).
-
-## macOS Enterprise support
-
-This feature also works for macOS by importing roots found in the macOS system keychain.
-
-# Use policies to import CA certificates
-
-An [enterprise policy](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"") can be used to add CA certificates to Firefox.
-
-- Setting the _ImportEnterpriseRoots_ key to **true** will cause Firefox to trust root certificates. We recommend this option to add trust for a private PKI to Firefox. It is equivalent to setting the security.enterprise\_roots.enabled preference as described in the [Use built-in support for Windows, macOS and Android (recommended)](https://support.mozilla.org/kb/setting-certificate-authorities-firefox#w_use-built-in-support-for-windows-macos-and-android-recommended) section above.
-- The _Install_ key searches by default for certificates in the locations listed below. You can specify a fully qualified path (see the [examples listed here](https://mozilla.github.io/policy-templates/#certificates)). If Firefox does not find something at your fully qualified path, it will search the default directories:
-  - Windows
-    - %USERPROFILE%\AppData\Local\Mozilla\Certificates
-    - %USERPROFILE%\AppData\Roaming\Mozilla\Certificates
-
-  - macOS
-    - /Library/Application Support/Mozilla/Certificates
-    - ~/Library/Application Support/Mozilla/Certificates
-
-  - Linux
-    - /usr/lib/mozilla/certificates
-    - /usr/lib64/mozilla/certificates
-
-# Linux
-
-## Using p11-kit-trust.so on Linux
-
-Certificates can be programmatically imported by using _p11-kit-trust.so_ from _p11-kit_. This can be done by setting the [SecurityDevices policy](https://mozilla.github.io/policy-templates/#securitydevices) in _/etc/firefox/policies/policies.json_ and adding an entry pointing to the _p11-kit-trust.so_ location in the system, by manually adding it via the Security Devices manager in Preferences, or by using the modutil utility.
-
-## Preload the Certificate Databases (new profiles only)
-
-Some users will [create a new profile in Firefox](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles""), manually install the certificates they need, and then distribute the various .db files (_cert9.db_, _key4.db_ and _secmod.db_) into new profiles using this method. This is not the recommended approach, and this method only works for new profiles.
-
-## Certutil
-
-You can use certutil to update the Firefox certificate databases from the command line. Check the [Microsoft support site](https://docs.microsoft.com/windows-server/administration/windows-commands/certutil) for more information.
-
-"
-43916,Drag and Drop errors with Firefox Launcher Process enabled and Windows UAC disabled - How to Fix,windows-administrator-launcher-process-error-fix,https://support.mozilla.org/en-US/kb/windows-administrator-launcher-process-error-fix,en-US,How to fix Firefox drag-and-drop errors when running Windows as Administrator with UAC disabled and the Launcher Process enabled.,"<div class=""for"" data-for=""mac,linux""><div class=""for"" data-for=""not win""><div class=""warning"">This article only applies to Firefox on Windows.</div></div></div>
-<p></p>
-<div class=""note"">This article applies to <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 67 and above, on all Windows builds.  This article is also for IT Admins who want to configure Firefox on their organization's computers. </div>
-<p>The <a href=""https://wiki.mozilla.org/Platform/Integration/InjectEject/Launcher_Process/"">Launcher Process</a> is a security-related feature that was enabled for all users in the Firefox version 68 release. When running Windows as an Administrator with <a href=""https://wikipedia.org/wiki/User_Account_Control"">User Account Control</a> (UAC) disabled and the launcher process enabled, Firefox users may experience unexpected behavior.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_why-the-problem-occurs""><span class=""tocnumber"">1</span> <span class=""toctext"">Why the problem occurs</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-verify-the-problem""><span class=""tocnumber"">2</span> <span class=""toctext"">How to verify the problem</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-fix""><span class=""tocnumber"">3</span> <span class=""toctext"">How to fix</span></a><ul><li class=""toclevel-2""><a href=""#w_re-enable-uac""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Re-enable UAC</span></a></li><li class=""toclevel-2""><a href=""#w_start-firefox-using-the-no-deelevate-command""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Start Firefox Using the -no-deelevate command</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_partial-workaround""><span class=""tocnumber"">4</span> <span class=""toctext"">Partial workaround</span></a></li></ul></div>
-<h1 id=""w_why-the-problem-occurs"">Why the problem occurs</h1>
-<p>When the launcher process detects that it is running at a <a href=""https://wikipedia.org/wiki/Mandatory_Integrity_Control"">high integrity level</a>, it will force Firefox to run at a medium integrity level. This intentional security feature is intended to prevent malicious code from gaining write access to sensitive areas of the operating system. Windows does not allow programs running at a lower integrity level to send data to programs running at a higher integrity level. As a result, users may experience errors when trying to drag and drop from Firefox to another application. 
-</p>
-<h1 id=""w_how-to-verify-the-problem"">How to verify the problem</h1>
-<p>To verify this condition, make sure the user is operating Windows as a full Administrator and has disabled User Account Control (UAC) settings. Enter <span class=""menu"">about:support</span> in the address bar and look under <strong>Application Basics</strong> for the <em>Launcher Process</em> entry. If the Launcher Process is enabled, you may experience errors when trying to drag and drop an image or URL from Firefox to another application or to the Windows desktop (for example, when you try to <a href=""/en-US/kb/create-desktop-shortcut-website"">create a desktop shortcut to a website</a>).
-</p>
-<div class=""note""><strong>Note:</strong> The about:support <strong>Application Basics</strong> <em>Launcher Process</em> entry may show <em>Disabled due to failure</em> even though the <span class=""pref"">browser.launcherProcess.enabled</span>  preference is set to <span class=""pref"">true</span> in the <a href=""/en-US/kb/about-config-editor-firefox"">Firefox Configuration Editor</a> (<em>about:config</em>) page. To enable the Launcher Process, enter <em>about:config</em> in the address bar, find the <span class=""pref"">browser.launcherProcess.enabled</span> preference, toggle it to  <span class=""pref"">false</span> and then toggle it back to <span class=""pref"">true</span>.</div>
-<h1 id=""w_how-to-fix"">How to fix</h1>
-<p>To fix the problem, users have two options. 
-</p>
-<h2 id=""w_re-enable-uac"">Re-enable UAC</h2>
-<p>First, users can re-enable UAC on their PC. To do so, type <span class=""menu"">UAC</span> in the search field on your taskbar by right-clicking the Start button and selecting Search. Click <span class=""menu"">Change User Account Control settings</span>. To turn UAC on, drag the slider to <span class=""menu"">Notify me only when apps try to make changes to my computer (default)</span>, click <span class=""menu"">OK</span> and then restart the computer. This option is the most secure fix available. 
-</p>
-<h2 id=""w_start-firefox-using-the-no-deelevate-command"">Start Firefox Using the -no-deelevate command</h2>
-<p>Alternatively, users can solve the issue by launching Firefox using the <span class=""menu"">-no-deelevate</span> command line option, either directly from the command line or by editing their Firefox shortcut to do so.
-</p>
-<h1 id=""w_partial-workaround"">Partial workaround</h1>
-<p><em>Copy and Paste</em> often can substitute for drag-and-drop. For example, a user can right-click on an image and choose <span class=""menu"">Copy Image</span>, then right-click on the Windows desktop and choose <span class=""menu"">Paste</span>. Where practicable, this is preferred to reducing security by using the <span class=""menu"">-no-deelevate</span> command line option.
-</p>",firefox;firefox-enterprise,performance-and-connectivity;settings,"This article only applies to Firefox on Windows.
-
-This article applies to [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 67 and above, on all Windows builds. This article is also for IT Admins who want to configure Firefox on their organization's computers. 
-
-The [Launcher Process](https://wiki.mozilla.org/Platform/Integration/InjectEject/Launcher_Process/) is a security-related feature that was enabled for all users in the Firefox version 68 release. When running Windows as an Administrator with [User Account Control](https://wikipedia.org/wiki/User_Account_Control) (UAC) disabled and the launcher process enabled, Firefox users may experience unexpected behavior.
-
-## Table of Contents
-
-- [1 Why the problem occurs](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_why-the-problem-occurs)
-- [2 How to verify the problem](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_how-to-verify-the-problem)
-- [3 How to fix](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_how-to-fix)
-  - [3.1 Re-enable UAC](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_re-enable-uac)
-  - [3.2 Start Firefox Using the -no-deelevate command](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_start-firefox-using-the-no-deelevate-command)
-
-- [4 Partial workaround](https://support.mozilla.org/kb/windows-administrator-launcher-process-error-fix#w_partial-workaround)
-
-# Why the problem occurs
-
-When the launcher process detects that it is running at a [high integrity level](https://wikipedia.org/wiki/Mandatory_Integrity_Control), it will force Firefox to run at a medium integrity level. This intentional security feature is intended to prevent malicious code from gaining write access to sensitive areas of the operating system. Windows does not allow programs running at a lower integrity level to send data to programs running at a higher integrity level. As a result, users may experience errors when trying to drag and drop from Firefox to another application.
-
-# How to verify the problem
-
-To verify this condition, make sure the user is operating Windows as a full Administrator and has disabled User Account Control (UAC) settings. Enter about:support in the address bar and look under **Application Basics** for the _Launcher Process_ entry. If the Launcher Process is enabled, you may experience errors when trying to drag and drop an image or URL from Firefox to another application or to the Windows desktop (for example, when you try to [create a desktop shortcut to a website](\""https://support.mozilla.org/en-US/kb/create-desktop-shortcut-website"")).
-
-**Note:** The about:support **Application Basics** _Launcher Process_ entry may show _Disabled due to failure_ even though the browser.launcherProcess.enabled preference is set to true in the [Firefox Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) page. To enable the Launcher Process, enter _about:config_ in the address bar, find the browser.launcherProcess.enabled preference, toggle it to false and then toggle it back to true.
-
-# How to fix
-
-To fix the problem, users have two options.
-
-## Re-enable UAC
-
-First, users can re-enable UAC on their PC. To do so, type UAC in the search field on your taskbar by right-clicking the Start button and selecting Search. Click Change User Account Control settings. To turn UAC on, drag the slider to Notify me only when apps try to make changes to my computer (default), click OK and then restart the computer. This option is the most secure fix available.
-
-## Start Firefox Using the -no-deelevate command
-
-Alternatively, users can solve the issue by launching Firefox using the -no-deelevate command line option, either directly from the command line or by editing their Firefox shortcut to do so.
-
-# Partial workaround
-
-_Copy and Paste_ often can substitute for drag-and-drop. For example, a user can right-click on an image and choose Copy Image, then right-click on the Windows desktop and choose Paste. Where practicable, this is preferred to reducing security by using the -no-deelevate command line option.
-
-"
-43925,Legacy browser support extension for Windows,legacy-browser-support-extension-windows,https://support.mozilla.org/en-US/kb/legacy-browser-support-extension-windows,en-US,Add-ons and older versions of Firefox ESR may enable your users to run legacy add-ons and view websites that require Internet Explorer.,"<h1 id=""w_overview"">Overview</h1>
-<p>The Legacy Browser Support extension allows Windows users to maintain compatibility with websites that use legacy technologies while using Firefox as a primary browser. Once defined through policy or the Enterprise mode site list, users can automatically open a predefined set of URLs in Internet Explorer and switch back to Firefox when navigating to a different domain. To ensure that the Legacy Browser Support extension will work properly, run the dedicated installer, install the extension and install the templates.
-</p>
-<h1 id=""w_configure-firefox-to-install-the-legacy-browser-support-extension"">Configure Firefox to install the legacy browser support extension</h1>
-<ul><li> Details on how to install extensions can be found <a href=""https://github.com/mozilla/policy-templates#extensions"">on the Mozilla GitHub repository</a>.
-</li><li> The Legacy Browser Support extension can be found <a href=""https://addons.mozilla.org/firefox/addon/legacy-browser-support/"">on the Mozilla add-ons website</a>.
-</li></ul>
-<p></p><div class=""note"">Please reach out to the add-on developer directly, if you need help with a specific add-on.</div>
-<p></p>
-<h1 id=""w_run-the-dedicated-installer"">Run the dedicated installer</h1>
-<p>Use your software management tool to run the dedicated Legacy Browser Support MSI installer. 32-bit (<a href=""https://github.com/mozilla/legacy-browser-support/releases/download/v1.0/setup.msi"">this link</a>) and 64-bit (<a href=""https://github.com/mozilla/legacy-browser-support/releases/download/v1.0/setup64.msi"">this other link</a>) versions of the installer are available.
-</p>
-<h1 id=""w_install-the-templates-and-provision-the-ie-enterprise-mode-site-list-optional"">Install the templates and provision the IE Enterprise Mode Site list (optional)</h1>
-<p>Instructions regarding how to provision the IE Enterprise Mode Site list can be found <a href=""https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-it-pro/internet-explorer-11/ie11-deploy-guide/turn-on-enterprise-mode-and-use-a-site-list"">on the Microsoft Learn website</a>.
-</p><p>The ADMX templates for Firefox are available for download <a href=""https://github.com/mozilla/policy-templates/releases"">on the Mozilla GitHub repository</a>. Please note that ADMX templates should be added to the <span class=""filepath"">X:\Windows\PolicyDefinitions</span> directory and customized per your deployment configuration:
-</p>
-<ol><li> List the URLs that should be opened in the alternative browser. 
-</li><li> Customize the behavior of the extension:
-<dl><dt><ul><li> <strong>Alternative Browser Arguments:</strong> none
-</li></ul>
-</dt></dl>
-<dl><dt> Use this to enter command line parameters if necessary. See the documentation included with the ADM templates for more information.
-</dt></dl>
-<dl><dt><ul><li> <strong>Alternative Browser Path:</strong> ${ie}
-</li><li> <strong>Firefox Arguments:</strong> none
-</li><li> <strong>Firefox Path:</strong> ${firefox}
-</li><li> <strong>Hosts to Open In Either Browser:</strong> none
-</li></ul>
-</dt></dl>
-<dl><dt> Specify a URL greylist by including the URLs that shouldn’t exclusively open in one browser or the other, such as a Single sign-on page, if necessary. For more information, see the documentation included with the ADM templates.
-</dt></dl>
-<dl><dt><ul><li> <strong>Hosts to Open In the Alternative Browser:</strong> enter the URLs to redirect.
-</li></ul>
-</dt></dl>
-</li></ol>
-<p><strong>Here are some notes that you should reference:</strong>
-</p>
-<ul><li> The URLs you specify in the policy take precedence over the Internet Explorer site list if you provision URLs through both.
-</li><li> The latest information on our policies and more details about specific policies are available in the README within our GitHub repository: <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md"">https://github.com/mozilla/policy-templates/blob/master/README.md</a>.
-</li><li> Refer to the following GitHub repository: <a href=""https://github.com/mozilla/legacy-browser-support/releases"">https://github.com/mozilla/legacy-browser-support/releases</a>.
-</li></ul>",firefox-enterprise,settings,"# Overview
-
-The Legacy Browser Support extension allows Windows users to maintain compatibility with websites that use legacy technologies while using Firefox as a primary browser. Once defined through policy or the Enterprise mode site list, users can automatically open a predefined set of URLs in Internet Explorer and switch back to Firefox when navigating to a different domain. To ensure that the Legacy Browser Support extension will work properly, run the dedicated installer, install the extension and install the templates.
-
-# Configure Firefox to install the legacy browser support extension
-
-- Details on how to install extensions can be found [on the Mozilla GitHub repository](https://github.com/mozilla/policy-templates#extensions).
-- The Legacy Browser Support extension can be found [on the Mozilla add-ons website](https://addons.mozilla.org/firefox/addon/legacy-browser-support/).
-
-Please reach out to the add-on developer directly, if you need help with a specific add-on.
-
-# Run the dedicated installer
-
-Use your software management tool to run the dedicated Legacy Browser Support MSI installer. 32-bit ([this link](https://github.com/mozilla/legacy-browser-support/releases/download/v1.0/setup.msi)) and 64-bit ([this other link](https://github.com/mozilla/legacy-browser-support/releases/download/v1.0/setup64.msi)) versions of the installer are available.
-
-# Install the templates and provision the IE Enterprise Mode Site list (optional)
-
-Instructions regarding how to provision the IE Enterprise Mode Site list can be found [on the Microsoft Learn website](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-it-pro/internet-explorer-11/ie11-deploy-guide/turn-on-enterprise-mode-and-use-a-site-list).
-
-The ADMX templates for Firefox are available for download [on the Mozilla GitHub repository](https://github.com/mozilla/policy-templates/releases). Please note that ADMX templates should be added to the X:\Windows\PolicyDefinitions directory and customized per your deployment configuration:
-
-1. List the URLs that should be opened in the alternative browser. 
-2. Customize the behavior of the extension:<dl><dt>
-<ul><li> <strong>Alternative Browser Arguments:</strong> none
-</li></ul>
-</dt></dl><dl><dt> Use this to enter command line parameters if necessary. See the documentation included with the ADM templates for more information.
-</dt></dl><dl><dt>
-<ul>
-<li> <strong>Alternative Browser Path:</strong> ${ie}
-</li>
-<li> <strong>Firefox Arguments:</strong> none
-</li>
-<li> <strong>Firefox Path:</strong> ${firefox}
-</li>
-<li> <strong>Hosts to Open In Either Browser:</strong> none
-</li>
-</ul>
-</dt></dl><dl><dt> Specify a URL greylist by including the URLs that shouldn’t exclusively open in one browser or the other, such as a Single sign-on page, if necessary. For more information, see the documentation included with the ADM templates.
-</dt></dl><dl><dt>
-<ul><li> <strong>Hosts to Open In the Alternative Browser:</strong> enter the URLs to redirect.
-</li></ul>
-</dt></dl>
-
-**Here are some notes that you should reference:**
-
-- The URLs you specify in the policy take precedence over the Internet Explorer site list if you provision URLs through both.
-- The latest information on our policies and more details about specific policies are available in the README within our GitHub repository: [https://github.com/mozilla/policy-templates/blob/master/README.md](https://github.com/mozilla/policy-templates/blob/master/README.md).
-- Refer to the following GitHub repository: [https://github.com/mozilla/legacy-browser-support/releases](https://github.com/mozilla/legacy-browser-support/releases).
-
-"
 43926,Common Voice Accounts - Managing Account Data,common-voice-accounts-managing-account-data,https://support.mozilla.org/en-US/kb/common-voice-accounts-managing-account-data,en-US,Common Voice is a global database of donated voices that enables anyone to train voice-enabled apps in potentially every language.,"<p><a href=""https://voice.mozilla.org"">Common Voice</a> is a global database of donated voices that enables anyone to train voice-enabled apps in potentially every language. Its Privacy Notice is available <a href=""https://voice.mozilla.org/privacy"">here</a>.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-data-do-you-receive-from-my-account""><span class=""tocnumber"">1</span> <span class=""toctext"">What data do you receive from my account?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-access-my-account-data""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I access my account data?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-update-my-account-data""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I update my account data?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-delete-my-account-data""><span class=""tocnumber"">4</span> <span class=""toctext"">How do I delete my account data?</span></a></li><li class=""toclevel-1""><a href=""#w_how-long-do-you-keep-my-account-data""><span class=""tocnumber"">5</span> <span class=""toctext"">How long do you keep my account data?</span></a></li></ul></div>
@@ -69251,7 +68871,7 @@ Firefox for iOS will sync automatically at regular intervals but you can also fo
 </li><li>Tap your email address.
 </li><li>Put a check mark next to the types of information you want to sync.
 </li></ol>
-<div class=""note""><strong>Note:</strong> Firefox Sync is <strong>not an online backup tool</strong> but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>.</div>
+<div class=""note""><strong>Note:</strong> Firefox Sync is <strong>not an online backup tool</strong> but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.</div>
 <h1 id=""w_connect-to-a-self-hosted-mozilla-account-server"">Connect to a self-hosted Mozilla account server</h1>
 <p>To customize your Mozilla account server settings:
 </p>
@@ -69315,7 +68935,7 @@ To sync your bookmarks, payment methods, history, passwords and open tabs with F
 3. Tap your email address.
 4. Put a check mark next to the types of information you want to sync.
 
-**Note:** Firefox Sync is **not an online backup tool** but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
+**Note:** Firefox Sync is **not an online backup tool** but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
 
 # Connect to a self-hosted Mozilla account server
 
@@ -88686,186 +88306,6 @@ We strongly encourage taking some time to test your internal applications to mak
 Similar to Chrome, we will be providing a preference (network.http.useragent.forceVersion) that can be set using the Preferences policy if for some reason you need to keep the version below 100.
 
 "
-57663,What's new in Firefox for iOS (version 99),whats-new-firefox-ios-version-99,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-99,en-US,See what's new in the latest release of Firefox for iOS (version 99).,"<p>Welcome to a new version of Firefox for iOS (version 99). This release comes with the following improvements and features:
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_view-and-close-inactive-tabs-experiment""><span class=""tocnumber"">1</span> <span class=""toctext"">View and close inactive tabs experiment</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes</span></a></li></ul></div>
-<h1 id=""w_view-and-close-inactive-tabs-experiment"">View and close inactive tabs experiment</h1>
-<div class=""note""><strong>Note:</strong> This feature is currently only available to select users as an experiment.</div> 
-<p>The Inactive Tabs group shows tabs you haven't viewed for 14 days. Tabs will stay inactive indefinitely and won't auto-close. The Inactive Tabs group will be collapsed anytime you open a tab tray. You can tap the group to expand it and close all.
-</p><p><img alt=""inactive tabs ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-29-10-03-52-8c175d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
-</p>
-<h1 id=""w_bug-fixes"">Bug fixes</h1>
-<p>The following bug fixes were implemented:
-</p>
-<ul><li>Deleted items from website data will now be immediately cleared.
-</li><li>When you dismiss the Settings menu, the ""Pasted from [app]"" banner will no longer be repeatedly displayed. 
-</li><li>You can now properly correct a typo in the middle of a search word or phrase.
-</li></ul>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 99). This release comes with the following improvements and features:
-
-## Table of Contents
-
-- [1 View and close inactive tabs experiment](https://support.mozilla.org/kb/whats-new-firefox-ios-version-99#w_view-and-close-inactive-tabs-experiment)
-- [2 Bug fixes](https://support.mozilla.org/kb/whats-new-firefox-ios-version-99#w_bug-fixes)
-
-# View and close inactive tabs experiment
-
-**Note:** This feature is currently only available to select users as an experiment.
-
-The Inactive Tabs group shows tabs you haven't viewed for 14 days. Tabs will stay inactive indefinitely and won't auto-close. The Inactive Tabs group will be collapsed anytime you open a tab tray. You can tap the group to expand it and close all.
-
-![inactive tabs ios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Bug fixes
-
-The following bug fixes were implemented:
-
-- Deleted items from website data will now be immediately cleared.
-- When you dismiss the Settings menu, the ""Pasted from [app]"" banner will no longer be repeatedly displayed. 
-- You can now properly correct a typo in the middle of a search word or phrase.
-
-"
-57733,Automatic Conversion of Google mail accounts to OAuth 2.0 Authentication,automatic-conversion-google-mail-accounts-oauth20,https://support.mozilla.org/en-US/kb/automatic-conversion-google-mail-accounts-oauth20,en-US,"Thunderbird 91.8.0, released 5th April 2022, converts Gmail accounts to OAuth 2.0 in compliance with Google's schedule for requiring this login method.","<p>Starting from version 91.8.0, when updating from a version lower than 91.8.0, Thunderbird will convert the authentication method of Gmail accounts to OAuth 2.0 to help users comply with <a href=""https://support.google.com/accounts/answer/6010255"">Google's requirement of OAuth 2.0 for Gmail logins</a>. These changes are <strong>required</strong> by Google.
-</p>
-<div class=""note"">We recommend updating to the latest version of Thunderbird for the latest security fixes and many other bug fixes and improvements. However, if you want to continue using an old version of Thunderbird below 91.8.0 at your own risk, you will have to change the authentication method to <em>OAuth2</em> yourself. You can also use the following steps on any newer version of Thunderbird to double-check that your authentication method is actually set to <em>OAuth2</em>.</div>
-<h2 id=""w_ensure-that-your-thunderbird-gmail-account-is-set-to-oauth2"">Ensure that your Thunderbird Gmail account is set to OAuth2</h2>
-<h3 id=""w_outgoing-server-smtp"">Outgoing Server (SMTP)</h3>
-<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Account Settings</span>
-</li><li> Select your account (e.g. <span class=""menu""><a href=""mailto:Jane@example.com"">Jane@example.com</a></span>) from the account list on the left.
-</li><li> At the bottom of the settings pane, look for <span class=""menu"">Outgoing Server (SMTP)</span>.
-</li><li> Click on the <span class=""button"">Edit SMTP Server…</span> button on the right.
-</li><li> In the SMTP Server dialog, ensure that <span class=""menu"">Authentication method</span> is set to <em>OAuth2</em>.
-</li><li> Click on the <span class=""button"">OK</span> button to confirm your SMTP Server settings.
-</li></ol>
-<h3 id=""w_incoming-server"">Incoming Server</h3>
-<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Account Settings</span>
-</li><li> Select your account (e.g. <span class=""menu""><a href=""mailto:Jane@example.com"">Jane@example.com</a></span>) from the account list on the left.
-</li><li> Underneath your account entry, select the <span class=""menu"">Server Settings</span> subsection (if it is not visible, you may need to toggle the <span class=""button"">&gt;</span> button first).
-</li><li> Ensure that <span class=""menu"">Security Settings</span> &gt; <span class=""menu"">Authentication method</span> is set to <em>OAuth2</em>.
-</li></ol>
-<p><br>
-</p>
-<div class=""warning""><strong>Cookies and javascript must be enabled for the OAuth 2.0 setup process to work.</strong> If you have rejected cookies in Thunderbird, the OAuth setup process will fail because some cookies must be accepted to store data between page updates. <strong>You need to accept cookies at least temporarily using one of the methods described below.</strong></div>
-<h2 id=""w_how-to-avoid-or-correct-an-oauth-failure-caused-by-rejected-cookies"">How to avoid or correct an OAuth failure caused by rejected cookies</h2>
-<p>First, verify your general setting for cookies in Thunderbird:
-</p>
-<ul><li> Do <span class=""button"">≡</span> &gt; <span class=""for"" data-for=""not tb102""><span class=""menu"">Preferences</span></span><span class=""for"" data-for=""tb102""><span class=""menu"">Settings</span></span> &gt; <span class=""menu"">Privacy &amp; Security</span> &gt; <span class=""menu"">Web Content</span>.
-</li><li> Look at the checkbox <strong>Accept cookies from sites</strong>.
-</li></ul>
-<p>If <strong>Accept cookies from sites</strong> is <strong>not</strong> checked, do one of the following and then go through the OAuth login process again:
-</p>
-<ul><li> Create an exception to accept cookies from <em>Google</em>:
-<ul><li> Click the nearby <span class=""button"">Exceptions…</span> button to open the <em>Exceptions - Cookies</em> dialog.
-</li><li> In the <em>Address of website</em> input box, enter <strong><a href=""https://accounts.google"">https://accounts.google</a>.com</strong>.
-</li><li> Pick <span class=""button"">Allow</span>, then <span class=""button"">Save Changes</span>.
-</li></ul>
-</li><li> Alternatively, accept <em>all</em> cookies:
-<ul><li> Set the checkmark for <strong>Accept cookies from sites</strong>.
-</li></ul>
-</li></ul>
-<p>After you have gone through the OAuth process, if you prefer, you can again reject cookies, because receiving and sending mail will work with cookies rejected. But rejecting all cookies or removing the exception has the disadvantage that when the OAuth token for Gmail access expires at some date in the future, the OAuth dialog will show up and fail again until you accept the required cookies.
-</p><p>For greater detail about cookies, see the article <a href=""/en-US/kb/privacy-panel-settings-in-thunderbird"">Privacy panel - Remote content and cookie settings in Thunderbird</a>.
-</p>
-<h2 id=""w_how-to-avoid-or-correct-an-oauth-failure-caused-by-disabled-javascript"">How to avoid or correct an OAuth failure caused by disabled javascript</h2>
-<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""for"" data-for=""not tb102""><span class=""menu"">Preferences</span></span><span class=""for"" data-for=""tb102""><span class=""menu"">Settings</span></span> &gt; <span class=""menu"">General</span>
-</li><li> From the bottom right corner of the <strong>General</strong> settings pane, click <span class=""button"">Config Editor</span>.
-</li><li> Copy or type this into the <em>Search preference name</em> searchbox: <strong>javascript.enabled</strong>
-</li><li> You should now see a single search result line for the setting <strong>javascript.enabled</strong>.
-<ul><li> If <strong>javascript.enabled</strong> is <strong>true</strong>, no change is needed.
-</li><li> If <strong>javascript.enabled</strong> is <strong>false</strong>, you need to change it to <strong>true</strong> by clicking the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to the right.
-</li></ul>
-</li></ol>
-<h2 id=""w_check-if-the-proper-authentication-tokens-have-been-saved"">Check if the proper authentication tokens have been saved</h2>
-<ul><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Privacy &amp; Security</span> &gt; <span class=""menu"">Passwords</span>&gt; <span class=""menu"">Saved Passwords</span>.
-<ul><li> If account authentication was set to <strong>OAuth2</strong> and the OAuth login was successful, you should see entries for each username (gmail account) of the form
-</li></ul>
-</li></ul>
-<dl><dd> <strong>oauth://accounts.google<span>.</span>com (<a href=""https://mail.google"">https://mail.google</a><span>.</span>com/ …)</strong>
-</dd></dl>
-<dl><dt><div class=""note""><strong>Note:</strong> The <em>oauth</em> entry is an OAuth2 authentication token, and not a password.</div>
-</dt></dl>
-<dl><dt><ul><li> If account authentication was set to <strong>OAuth2</strong> and OAuth login was <strong>not</strong> successful, check your password entries for providers of the following form and delete them:
-</li></ul>
-</dt><dd> <strong>imap://imap.gmail<span>.</span>com (imap://imap.gmail<span>.</span>com)</strong>
-</dd><dd> <strong>smtp://smtp.gmail<span>.</span>com (smtp://smtp.gmail<span>.</span>com)</strong>
-</dd></dl>
-<p>If you're still having problems, you can <a href=""https://support.mozilla.org/questions/new/thunderbird/form"">ask a question in Thunderbird support</a>.
-</p>",thunderbird,installation-and-updates;privacy-and-security,"Starting from version 91.8.0, when updating from a version lower than 91.8.0, Thunderbird will convert the authentication method of Gmail accounts to OAuth 2.0 to help users comply with [Google's requirement of OAuth 2.0 for Gmail logins](https://support.google.com/accounts/answer/6010255). These changes are **required** by Google.
-
-We recommend updating to the latest version of Thunderbird for the latest security fixes and many other bug fixes and improvements. However, if you want to continue using an old version of Thunderbird below 91.8.0 at your own risk, you will have to change the authentication method to _OAuth2_ yourself. You can also use the following steps on any newer version of Thunderbird to double-check that your authentication method is actually set to _OAuth2_.
-
-## Ensure that your Thunderbird Gmail account is set to OAuth2
-
-### Outgoing Server (SMTP)
-
-1. Do ≡ \> Account Settings
-2. Select your account (e.g. [Jane@example.com](mailto:Jane@example.com)) from the account list on the left.
-3. At the bottom of the settings pane, look for Outgoing Server (SMTP).
-4. Click on the Edit SMTP Server… button on the right.
-5. In the SMTP Server dialog, ensure that Authentication method is set to _OAuth2_.
-6. Click on the OK button to confirm your SMTP Server settings.
-
-### Incoming Server
-
-1. Do ≡ \> Account Settings
-2. Select your account (e.g. [Jane@example.com](mailto:Jane@example.com)) from the account list on the left.
-3. Underneath your account entry, select the Server Settings subsection (if it is not visible, you may need to toggle the \> button first).
-4. Ensure that Security Settings \> Authentication method is set to _OAuth2_.
-
-**Cookies and javascript must be enabled for the OAuth 2.0 setup process to work.** If you have rejected cookies in Thunderbird, the OAuth setup process will fail because some cookies must be accepted to store data between page updates. **You need to accept cookies at least temporarily using one of the methods described below.**
-
-## How to avoid or correct an OAuth failure caused by rejected cookies
-
-First, verify your general setting for cookies in Thunderbird:
-
-- Do ≡ \> PreferencesSettings \> Privacy & Security \> Web Content.
-- Look at the checkbox **Accept cookies from sites**.
-
-If **Accept cookies from sites** is **not** checked, do one of the following and then go through the OAuth login process again:
-
-- Create an exception to accept cookies from _Google_:
-  - Click the nearby Exceptions… button to open the _Exceptions - Cookies_ dialog.
-  - In the _Address of website_ input box, enter **[https://accounts.google](https://accounts.google).com**.
-  - Pick Allow, then Save Changes.
-
-- Alternatively, accept _all_ cookies:
-  - Set the checkmark for **Accept cookies from sites**.
-
-After you have gone through the OAuth process, if you prefer, you can again reject cookies, because receiving and sending mail will work with cookies rejected. But rejecting all cookies or removing the exception has the disadvantage that when the OAuth token for Gmail access expires at some date in the future, the OAuth dialog will show up and fail again until you accept the required cookies.
-
-For greater detail about cookies, see the article [Privacy panel - Remote content and cookie settings in Thunderbird](\""https://support.mozilla.org/en-US/kb/privacy-panel-settings-in-thunderbird"").
-
-## How to avoid or correct an OAuth failure caused by disabled javascript
-
-1. Do ≡ \> PreferencesSettings \> General
-2. From the bottom right corner of the **General** settings pane, click Config Editor.
-3. Copy or type this into the _Search preference name_ searchbox: **javascript.enabled**
-4. You should now see a single search result line for the setting **javascript.enabled**.
-  - If **javascript.enabled** is **true** , no change is needed.
-  - If **javascript.enabled** is **false** , you need to change it to **true** by clicking the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to the right.
-
-## Check if the proper authentication tokens have been saved
-
-- Do ≡ \> Settings \> Privacy & Security \> Passwords\> Saved Passwords.
-  - If account authentication was set to **OAuth2** and the OAuth login was successful, you should see entries for each username (gmail account) of the form
-
-<dl><dd> <strong>oauth://accounts.google<span>.</span>com (<a href=""https://mail.google"">https://mail.google</a><span>.</span>com/ …)</strong>
-</dd></dl><dl><dt>
-<div class=""note"">
-<strong>Note:</strong> The <em>oauth</em> entry is an OAuth2 authentication token, and not a password.</div>
-</dt></dl><dl>
-<dt>
-<ul><li> If account authentication was set to <strong>OAuth2</strong> and OAuth login was <strong>not</strong> successful, check your password entries for providers of the following form and delete them:
-</li></ul>
-</dt>
-<dd> <strong>imap://imap.gmail<span>.</span>com (imap://imap.gmail<span>.</span>com)</strong>
-</dd>
-<dd> <strong>smtp://smtp.gmail<span>.</span>com (smtp://smtp.gmail<span>.</span>com)</strong>
-</dd>
-</dl>
-
-If you're still having problems, you can [ask a question in Thunderbird support](https://support.mozilla.org/questions/new/thunderbird/form).
-
-"
 57875,Import bookmarks to Firefox for Android,importing-bookmarks-firefox-android,https://support.mozilla.org/en-US/kb/importing-bookmarks-firefox-android,en-US,How to import your bookmarks and other data from another browser into Firefox for Android.,"<p>To import bookmarks and other data from another browser installed on your Android device:
 </p>
 <ol><li>Sign in to your account on a desktop computer that has a desktop version of that browser installed.
@@ -92561,6 +92001,171 @@ Some extensions can also help you or your family stay productive and help with s
 - [Tomato Clock](https://addons.mozilla.org/firefox/addon/tomato-clock/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Use Tomato clock to stay focused and take breaks when needed. You can customize the timer to focus or take a break for a fixed length of time.
 - [Dictionary Anywhere](https://addons.mozilla.org/firefox/addon/dictionary-anyvhere/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Double-click a word to find its definition. This extension supports English, French, German, and Spanish.
 - [Unhook: Remove YouTube Recommended Videos Comments](https://addons.mozilla.org/firefox/addon/youtube-recommended-videos/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured) – Keep your focus by blocking YouTube recommendations.
+
+"
+59162,Disable password saving in Firefox,disable-password-saving-firefox,https://support.mozilla.org/en-US/kb/disable-password-saving-firefox,en-US,"If you’re using a shared device and don’t want Firefox to remember your passwords, you can change your preferences in Firefox settings.","<p>If you’re using a shared device and don’t want Firefox to remember your passwords, you change your preferences in the settings.
+</p>
+<div class=""note"">We recommend that each person who shares a device should <a href=""/en-US/kb/access-mozilla-services-firefox-account"">create a Mozilla account</a> and sign out every time, to prevent their logins from being exposed.
+You can also use a <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Primary Password</a> for additional protection.</div>
+<h1 id=""w_disable-all-password-saving"">Disable all password saving</h1>
+<div class=""for"" data-for=""not fx122"">
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
+</li><li>Scroll down to the <em>Logins and Passwords</em> section.
+</li><li>Uncheck the box next to <em>Ask to save logins and passwords for websites</em>.
+<dl><dt><img alt=""Fx107-Settings-LoginsAndPasswords-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-06-12-06-e9d993.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
+</dt></dl>
+</li></ol>
+</div><div class=""for"" data-for=""fx122"">
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
+</li><li>Scroll down to the <em>Passwords</em> section.
+</li><li>Uncheck the box next to <em>Ask to save passwords</em>.
+<dl><dt><img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+</div>
+<h1 id=""w_disable-password-saving-for-specific-websites-only"">Disable password saving for specific websites only</h1>
+<p>You can also configure Firefox not to save passwords for specific websites. To add these exceptions:
+</p><div class=""for"" data-for=""not fx122"">
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
+</li><li>Scroll down to the <span class=""menu"">Logins and Passwords</span> section.
+</li><li>Check the box next to <em>Ask to save logins and passwords for websites</em>.
+</li><li>Click <span class=""menu"">Exceptions…</span> next to <em>Ask to save logins and passwords for websites</em> to open the exceptions panel.
+<dl><dt><img alt=""Fx107-Config-SaveLogins-Exceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-05-44-38-a15ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""520"">
+</dt></dl>
+</li><li>Type the address of each website you don't want Firefox to save passwords, then click <span class=""button"">Block</span>.<br>Both http and https URLs for the website will be added to the exception list.
+</li><li>You can use <span class=""button"">Remove Website</span> to remove the selected URL from the list, or <span class=""button"">Remove All Websites</span> to remove all exceptions.
+</li><li>Click <span class=""button"">Save changes</span>.
+</li></ol>
+</div><div class=""for"" data-for=""fx122"">
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Privacy &amp; Security</span> in the panel to the left.
+</li><li>Scroll down to the <span class=""menu"">Passwords</span> section.
+</li><li>Check the box next to <em>Ask to save passwords</em>.
+</li><li>Click<img alt=""Exceptions button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-15-11-ea7aa5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""140""> next to <em>Ask to save passwords</em> to open the exceptions panel.
+<dl><dt><img alt=""Exceptions - saved passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-17-51-66d7fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>Type the address of each website you don't want Firefox to save passwords, then click <span class=""button"">Block</span>.<br>Both http and https URLs for the website will be added to the exception list.
+</li><li>You can use <span class=""button"">Remove Website</span> to remove the selected URL from the list, or <span class=""button"">Remove All Websites</span> to remove all exceptions.
+</li><li>Click <img alt=""Save changes button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-19-0411fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""120"">
+</li></ol>
+</div>",firefox,privacy-and-security,"If you’re using a shared device and don’t want Firefox to remember your passwords, you change your preferences in the settings.
+
+We recommend that each person who shares a device should [create a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") and sign out every time, to prevent their logins from being exposed. You can also use a [Primary Password](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") for additional protection.
+
+# Disable all password saving
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security in the panel to the left.
+3. Scroll down to the _Logins and Passwords_ section.
+4. Uncheck the box next to _Ask to save logins and passwords for websites_.<dl><dt>
+<img alt=""Fx107-Settings-LoginsAndPasswords-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-06-12-06-e9d993.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
+</dt></dl>
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security in the panel to the left.
+3. Scroll down to the _Passwords_ section.
+4. Uncheck the box next to _Ask to save passwords_.<dl><dt>
+<img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Disable password saving for specific websites only
+
+You can also configure Firefox not to save passwords for specific websites. To add these exceptions:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security in the panel to the left.
+3. Scroll down to the Logins and Passwords section.
+4. Check the box next to _Ask to save logins and passwords for websites_.
+5. Click Exceptions… next to _Ask to save logins and passwords for websites_ to open the exceptions panel.<dl><dt>
+<img alt=""Fx107-Config-SaveLogins-Exceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-25-05-44-38-a15ae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""520"">
+</dt></dl>
+6. Type the address of each website you don't want Firefox to save passwords, then click Block.  
+Both http and https URLs for the website will be added to the exception list.
+7. You can use Remove Website to remove the selected URL from the list, or Remove All Websites to remove all exceptions.
+8. Click Save changes.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Privacy & Security in the panel to the left.
+3. Scroll down to the Passwords section.
+4. Check the box next to _Ask to save passwords_.
+5. Click ![Exceptions button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to _Ask to save passwords_ to open the exceptions panel.<dl><dt>
+<img alt=""Exceptions - saved passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-16-17-51-66d7fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+6. Type the address of each website you don't want Firefox to save passwords, then click Block.  
+Both http and https URLs for the website will be added to the exception list.
+7. You can use Remove Website to remove the selected URL from the list, or Remove All Websites to remove all exceptions.
+8. Click ![Save changes button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+"
+59163,Disable credit card and payment method syncing across devices,disable-credit-card-syncing-across-devices,https://support.mozilla.org/en-US/kb/disable-credit-card-syncing-across-devices,en-US,Disable credit cards and payment method syncing to prevent unwanted purchases on your shared devices.,"<p><a href=""/en-US/kb/how-do-i-choose-what-information-sync-firefox"">Firefox Sync</a> lets you access data such as bookmarks, history, logins and passwords, and credit cards or payment methods on other devices when you are signed in with your Mozilla account. To disable sync for sensitive data like <span class=""for"" data-for=""not fx122"">credit cards</span><span class=""for"" data-for=""fx122"">payment methods</span> to prevent purchases on a shared device, follow the steps below:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Sync</span> in the options to the left.
+<ul><li>In these settings, you can choose what items to sync across devices when you signed in with your Mozilla account.
+</li></ul>
+</li><li>If syncing is ON, then you're syncing the items that appear in the panel.
+</li><li>Click <span class=""button"">Change…</span> to open the <em>Choose What To Sync</em> dialog.
+</li><li>Uncheck the box next to <strong><span class=""for"" data-for=""not fx122"">Credit cards</span><span class=""for"" data-for=""fx122"">Payment methods</span></strong> to stop syncing this data across devices.
+<dl><dt><span class=""for"" data-for=""not fx122""><img alt=""Fx121ChooseWhatToSync"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-26-50-bd21c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx122""><img alt=""Choose what to sync panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-36-ee8ade.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
+</dt></dl>
+</li><li>Click <span class=""button"">Save Changes</span>.
+</li></ol>
+<p>Additionally, you can <span class=""for"" data-for=""not fx122""><a href=""/en-US/kb/credit-card-autofill#w_turn-credit-card-autofill-on-or-off"">disable credit card autofill</a></span><span class=""for"" data-for=""fx122""><a href=""/en-US/kb/credit-card-autofill#w_turn-payment-methods-autofill-on-or-off"">disable payment methods autofill</a></span> to prevent Firefox from filling in your credit card information on the device where this data is saved.
+</p>
+<div class=""note"">We recommend that users <a href=""/en-US/kb/access-mozilla-services-firefox-account"">create a Mozilla account</a> for each member of the family and to sign out every time, to prevent credit card information or other sensitive data from being exposed.</div>",firefox,privacy-and-security,"[Firefox Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-what-information-sync-firefox"") lets you access data such as bookmarks, history, logins and passwords, and credit cards or payment methods on other devices when you are signed in with your Mozilla account. To disable sync for sensitive data like credit cardspayment methods to prevent purchases on a shared device, follow the steps below:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Sync in the options to the left.
+  - In these settings, you can choose what items to sync across devices when you signed in with your Mozilla account.
+
+3. If syncing is ON, then you're syncing the items that appear in the panel.
+4. Click Change… to open the _Choose What To Sync_ dialog.
+5. Uncheck the box next to **Credit cardsPayment methods** to stop syncing this data across devices.<dl><dt>
+<span class=""for"" data-for=""not fx122""><img alt=""Fx121ChooseWhatToSync"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-26-50-bd21c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx122""><img alt=""Choose what to sync panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-10-15-36-ee8ade.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600""></span>
+</dt></dl>
+6. Click Save Changes.
+
+Additionally, you can [disable credit card autofill](\""https://support.mozilla.org/en-US/kb/credit-card-autofill#w_turn-credit-card-autofill-on-or-off"")[disable payment methods autofill](\""https://support.mozilla.org/en-US/kb/credit-card-autofill#w_turn-payment-methods-autofill-on-or-off"") to prevent Firefox from filling in your credit card information on the device where this data is saved.
+
+We recommend that users [create a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") for each member of the family and to sign out every time, to prevent credit card information or other sensitive data from being exposed.
+"
+59164,Block deceptive content and dangerous downloads in Firefox,block-deceptive-content-and-dangerous-downloads-firefox,https://support.mozilla.org/en-US/kb/block-deceptive-content-and-dangerous-downloads-firefox,en-US,Make sure these settings are enabled to prevent unwanted downloads and block suspicious content on your children's sessions.,"<p>Websites you or your children visit may sometimes try to download and install <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">malicious software</a> on your computer without your approval. Firefox warns you of these attacks so you can take action against them and block suspicious content before it’s downloaded to your disk. To make sure this protection is enabled visit your Security settings:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">Privacy &amp; Security</span> panel.
+</li><li>Go down to the <em>Security</em> section.
+<dl><dt><img alt=""Fx89Security-DeceptiveContent"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-12-02-36-07-8bccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Under <em>Deceptive Content and Dangerous Software Protection</em>, make sure the following boxes are checked:
+<ul><li><strong>Block dangerous and deceptive content</strong>: Check this box to block potential malware or content that can trick you into downloading malware or unintentionally entering information.
+<ul><li><strong>Block dangerous downloads</strong>: Blocks potential viruses and other malware.
+</li><li><strong>Warn you about unwanted and uncommon software</strong>: Lets you know if you're about to download potentially unwanted software or uncommon software that may contain a virus or make unexpected changes to your computer.
+</li></ul>
+</li></ul>
+</li></ol>
+<p>When Firefox detects you've entered a suspicious site, it will display a warning in the address bar. If an unwanted, potentially harmful download is detected, a warning message will display in the Downloads panel and Firefox will block the download. To learn more, see <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">How does built-in Phishing and Malware Protection work?</a> and <a href=""/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection"">Download protection for downloaded files in Firefox</a>.
+</p>",firefox,privacy-and-security,"Websites you or your children visit may sometimes try to download and install [malicious software](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") on your computer without your approval. Firefox warns you of these attacks so you can take action against them and block suspicious content before it’s downloaded to your disk. To make sure this protection is enabled visit your Security settings:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Privacy & Security panel.
+3. Go down to the _Security_ section.<dl><dt>
+<img alt=""Fx89Security-DeceptiveContent"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-07-12-02-36-07-8bccb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Under _Deceptive Content and Dangerous Software Protection_, make sure the following boxes are checked:
+  - **Block dangerous and deceptive content** : Check this box to block potential malware or content that can trick you into downloading malware or unintentionally entering information.
+    - **Block dangerous downloads** : Blocks potential viruses and other malware.
+    - **Warn you about unwanted and uncommon software** : Lets you know if you're about to download potentially unwanted software or uncommon software that may contain a virus or make unexpected changes to your computer.
+
+When Firefox detects you've entered a suspicious site, it will display a warning in the address bar. If an unwanted, potentially harmful download is detected, a warning message will display in the Downloads panel and Firefox will block the download. To learn more, see [How does built-in Phishing and Malware Protection work?](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") and [Download protection for downloaded files in Firefox](\""https://support.mozilla.org/en-US/kb/where-find-and-manage-downloaded-files-firefox#w_download-protection"").
 
 "
 59174,Quick actions in the Firefox search bar,quick-actions-firefox-search-bar,https://support.mozilla.org/en-US/kb/quick-actions-firefox-search-bar,en-US,This article refers to the new Quick actions feature available in the Firefox address bar drop-down menu.,"<p>Firefox’s Quick Actions are buttons that appear when you type in the address bar. They let you instantly perform common browser tasks—like clearing history or opening settings—without navigating menus.
@@ -98102,7 +97707,7 @@ Miscellaneous but important improvements:
 </li><li><a href=""/en-US/kb/sync-bookmarks-logins-and-browsing-history-firefox"">Sync bookmarks, logins and browsing history on Firefox for iOS</a>
 </li></ul>
 <h2 id=""w_can-i-back-up-my-data-without-a-mozilla-account"">Can I back up my data without a Mozilla account?</h2>
-<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>.
+<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.
 </p><p></p></section>
 <p></p>",firefox,backup-data;sync-data,"Learn how to move, install or migrate Firefox to a new device using Firefox Sync. Once you enable your [Firefox Sync backup](\""https://support.mozilla.org/en-US/kb/sync""), whenever you change your phone or computer to a new device, you will be able to install Firefox without losing your data. Your bookmarks, browsing history, passwords, and open tabs will migrate with you securely.
 
@@ -98190,7 +97795,7 @@ The data you sync should include your bookmarks, logins and passwords, addresses
 </li>
 </ul>
 <h2 id=""w_can-i-back-up-my-data-without-a-mozilla-account"">Can I back up my data without a Mozilla account?</h2>
-<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href='\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles""'>Back up and restore information in Firefox profiles</a>.
+<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href='\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles""'>Manually back up and restore Firefox profile data</a>.
 </p>
 <p></p></section>
 
@@ -118873,7 +118478,7 @@ If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](h
 </div>
 <h2 id=""w_related-articles"">Related articles</h2>
 <ul><li><a href=""/en-US/kb/firefox-support-windows-10-end-support"">What Windows 10 end of support means for Firefox users</a>
-</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Back up and restore information in Firefox profiles</a>
+</li><li><a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>
 </li><li><a href=""/en-US/kb/sync-firefox-desktop"">How to perform Sync on Firefox desktop</a>
 </li><li><a href=""/en-US/kb/switching-devices"">Back up and transfer your Firefox data to a new device</a>
 </li></ul>",firefox,installation-and-updates,"This article only applies to Firefox on Windows.
@@ -118951,7 +118556,7 @@ When running the Firefox installer:
 ## Related articles
 
 - [What Windows 10 end of support means for Firefox users](\""https://support.mozilla.org/en-US/kb/firefox-support-windows-10-end-support"")
-- [Back up and restore information in Firefox profiles](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"")
+- [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"")
 - [How to perform Sync on Firefox desktop](\""https://support.mozilla.org/en-US/kb/sync-firefox-desktop"")
 - [Back up and transfer your Firefox data to a new device](\""https://support.mozilla.org/en-US/kb/switching-devices"")
 
