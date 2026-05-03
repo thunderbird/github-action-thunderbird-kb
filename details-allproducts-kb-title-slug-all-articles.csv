@@ -39616,271 +39616,6 @@ If you believe that your private key has been ""compromised"" (that is, someone 
 Send the revocation certificate to the people you correspond with so that they know that your current key is no longer valid. This ensures that if someone tries to use your current key to impersonate you, the recipients will know that the key pair is not valid.
 
 "
-17192,New Email Address,new-email-address,https://support.mozilla.org/en-US/kb/new-email-address,en-US,This article explains how you can subscribe to a personalized email address with Thunderbird.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_introduction""><span class=""tocnumber"">1</span> <span class=""toctext"">Introduction</span></a><ul><li class=""toclevel-2""><a href=""#w_why-would-i-need-my-own-email-address""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Why would I need my own email address?</span></a></li><li class=""toclevel-2""><a href=""#w_what-does-thunderbird-provide""><span class=""tocnumber"">1.2</span> <span class=""toctext"">What does Thunderbird provide ?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-do-i-set-up-a-new-mail-account""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I set up a new mail account?</span></a><ul><li class=""toclevel-2""><a href=""#w_creating-a-new-email-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Creating a new email account</span></a></li><li class=""toclevel-2""><a href=""#w_configuring-an-existing-email-account""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Configuring an existing email account</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-the-new-email-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Using the new email account</span></a></li></ul></div>
-<h1 id=""w_introduction"">Introduction</h1>
-<h2 id=""w_why-would-i-need-my-own-email-address"">Why would I need my own email address?</h2>
-<ul><li>Want a mail address that belongs to you or your family or your organization?
-</li><li>Don't like the idea that your personal messages are owned by some big world wide company?
-</li><li>Want to be free to change your Internet Service Provider without worrying if your mail address will survive?
-</li><li>Don't want a robot to  scan your messages in order to detect which ad is better for you to see when you use webmail, or  maybe you don't want ads at the end of your messages?
-</li></ul>
-<p>In order to answer these questions and to provide a great email experience to its users, Thunderbird allows you to subscribe to some email services that can give you a personal email address. Instead of using something like <a href=""mailto:john.smith@gmail.com"">john.smith@gmail.com</a>, you can use for instance <a href=""mailto:john@smith.us"">john@smith.us</a>, or <a href=""mailto:john.smith@mylittlecompagnie.com"">john.smith@mylittlecompagnie.com</a>
-</p>
-<h2 id=""w_what-does-thunderbird-provide"">What does Thunderbird provide ?</h2>
-<p>Thunderbird is currently working with two major email service providers:
-</p>
-<ul><li> <a href=""https://mailfence.com/"">Mailfence</a> (based in Europe)
-</li><li> <a href=""http://www.gandi.net/"">Gandi</a> (based in Europe)
-</li></ul>
-<p>Usually email address providers will charge you an annual fee to set-up and host your personalized account. Depending on the email address provider, the personalized email account can come with other services. We encourage you to examine each mail provider's offering and pick the one that's best for you. Here's a quick glance at the paid offers (free offers may differ):
-</p>
-<table>
-<tbody><tr>
-<td></td><td><strong>Mailfence</strong></td><td><strong>Gandi</strong>
-</td></tr>
-<tr>
-<td>Custom email domain </td><td> yes </td><td> yes
-</td></tr>
-<tr>
-<td>Email alias addresses </td><td> 10 </td><td> Unlimited
-</td></tr>
-<tr>
-<td>Mailbox  size</td><td> 5 GB - 50 GB </td><td> (2x) 3 GB - 50 GB
-</td></tr>
-<tr>
-<td>Cloud storage</td><td> 12 GB - 70 GB </td><td> n/a
-</td></tr>
-<tr>
-<td>Secure group spaces</td><td> 3 - 7 </td><td> n/a
-</td></tr>
-<tr>
-<td>Encryption + Two-factor authentication </td><td> yes </td><td> n/a
-</td></tr>
-<tr>
-<td>Website langages</td><td> 10 languages available </td><td> 6 languages available
-</td></tr>
-<tr>
-<td>More details</td><td> <a href=""https://mailfence.com"">https://mailfence.com</a> </td><td> <a href=""https://www.gandi.net/domain/mail"">https://www.gandi.net/domain/mail</a>
-</td></tr></tbody></table>
-<p>Note that both of them support POP and IMAP, secure connections, and some other features. If you have special needs (larger mailbox capacity, more address for  you or your business) then you can simply upgrade to another email package at the same provider.
-</p>
-<h1 id=""w_how-do-i-set-up-a-new-mail-account"">How do I set up a new mail account?</h1>
-<h2 id=""w_creating-a-new-email-account"">Creating a new email account</h2>
-<p>When you start Thunderbird for the first time, or select <span class=""menu"">File &gt; New &gt; Get a New Mail Account</span>, you are given the option to acquire an entirely new email account from an email service provider. Enter the name you want to use for your new email address in the field at the top, select the desired provider and click <span class=""button"">Search</span>. 
-</p><p>The email service provider(s) you selected will show you available email addresses that are based on the name you entered. You can change the name you entered and search again until you find the email address you like best. If the email service provider charges for an account, the amount will be displayed. 
-</p><p><img alt=""TB78-Get-a-new-mail-account-Sample-search"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-31-14-12-06-5a2621.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>Select the address you would like to acquire by clicking on the button that displays the amount. You will be prompted to create an account on the email service provider's site and configure payment and other options. 
-</p><p>After creating your new account, Thunderbird will automatically configure it so you can begin using the new account right away.
-</p>
-<h2 id=""w_configuring-an-existing-email-account"">Configuring an existing email account</h2>
-<p>If you already have a <em>Mailfence</em> or a <em>Gandi</em> account (or any other type of accounts), you can skip the process of creating a new account and move on to configuring an existing account, by clicking on <span class=""button"">Skip this and use my existing email</span>. These pages provide more details about the setup of an existing email address in Thunderbird:
-</p>
-<ul><li> <a href=""https://kb.mailfence.com/kb/how-can-use-mailfence-messages-with-thunderbird-using-smtp-and-imap-pop/"">How to use Mailfence with Thunderbird</a>
-</li><li> <a href=""http://wiki.gandi.net/en/mail/setting-email-with-tbird"">Configuring Gandi Mail for Thunderbird</a>
-</li><li> <a href=""/en-US/kb/automatic-account-configuration"">Automatic Account Configuration</a> in Thunderbird (for any other email address) 
-</li></ul>
-<p>To abort the account configuration process, click <span class=""button"">I think I'll configure my account later</span>.
-</p>
-<h1 id=""w_using-the-new-email-account"">Using the new email account</h1>
-<p>Your new email account will be displayed in the Folder panel on the left side of the main Thunderbird window. 
-</p><p>Messages will be automatically downloaded to the new account when Thunderbird checks the server for messages.
-</p><p>You can now customize your mail account, for instance by composing your <a class=""new"" href=""/en-US/kb/new?title=signatures"" title=""Page does not exist."">signatures</a>.
-</p><p>To compose a message from your new account, select the account in the Folder panel and click the <span class=""button"">Write</span> button.
-</p><p> 
-
-</p>",thunderbird,send-and-receive-email,"## Table of Contents
-
-- [1 Introduction](https://support.mozilla.org/kb/new-email-address#w_introduction)
-  - [1.1 Why would I need my own email address?](https://support.mozilla.org/kb/new-email-address#w_why-would-i-need-my-own-email-address)
-  - [1.2 What does Thunderbird provide&nbsp;?](https://support.mozilla.org/kb/new-email-address#w_what-does-thunderbird-provide)
-
-- [2 How do I set up a new mail account?](https://support.mozilla.org/kb/new-email-address#w_how-do-i-set-up-a-new-mail-account)
-  - [2.1 Creating a new email account](https://support.mozilla.org/kb/new-email-address#w_creating-a-new-email-account)
-  - [2.2 Configuring an existing email account](https://support.mozilla.org/kb/new-email-address#w_configuring-an-existing-email-account)
-
-- [3 Using the new email account](https://support.mozilla.org/kb/new-email-address#w_using-the-new-email-account)
-
-# Introduction
-
-## Why would I need my own email address?
-
-- Want a mail address that belongs to you or your family or your organization?
-- Don't like the idea that your personal messages are owned by some big world wide company?
-- Want to be free to change your Internet Service Provider without worrying if your mail address will survive?
-- Don't want a robot to scan your messages in order to detect which ad is better for you to see when you use webmail, or maybe you don't want ads at the end of your messages?
-
-In order to answer these questions and to provide a great email experience to its users, Thunderbird allows you to subscribe to some email services that can give you a personal email address. Instead of using something like [john.smith@gmail.com](mailto:john.smith@gmail.com), you can use for instance [john@smith.us](mailto:john@smith.us), or [john.smith@mylittlecompagnie.com](mailto:john.smith@mylittlecompagnie.com)
-
-## What does Thunderbird provide&nbsp;?
-
-Thunderbird is currently working with two major email service providers:
-
-- [Mailfence](https://mailfence.com/) (based in Europe)
-- [Gandi](http://www.gandi.net/) (based in Europe)
-
-Usually email address providers will charge you an annual fee to set-up and host your personalized account. Depending on the email address provider, the personalized email account can come with other services. We encourage you to examine each mail provider's offering and pick the one that's best for you. Here's a quick glance at the paid offers (free offers may differ):
-
-| | **Mailfence** | **Gandi** |
-| Custom email domain | yes | yes |
-| Email alias addresses | 10 | Unlimited |
-| Mailbox size | 5 GB - 50 GB | (2x) 3 GB - 50 GB |
-| Cloud storage | 12 GB - 70 GB | n/a |
-| Secure group spaces | 3 - 7 | n/a |
-| Encryption + Two-factor authentication | yes | n/a |
-| Website langages | 10 languages available | 6 languages available |
-| More details | [https://mailfence.com](https://mailfence.com) | [https://www.gandi.net/domain/mail](https://www.gandi.net/domain/mail) |
-
-Note that both of them support POP and IMAP, secure connections, and some other features. If you have special needs (larger mailbox capacity, more address for you or your business) then you can simply upgrade to another email package at the same provider.
-
-# How do I set up a new mail account?
-
-## Creating a new email account
-
-When you start Thunderbird for the first time, or select File \> New \> Get a New Mail Account, you are given the option to acquire an entirely new email account from an email service provider. Enter the name you want to use for your new email address in the field at the top, select the desired provider and click Search.
-
-The email service provider(s) you selected will show you available email addresses that are based on the name you entered. You can change the name you entered and search again until you find the email address you like best. If the email service provider charges for an account, the amount will be displayed.
-
-![TB78-Get-a-new-mail-account-Sample-search](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Select the address you would like to acquire by clicking on the button that displays the amount. You will be prompted to create an account on the email service provider's site and configure payment and other options.
-
-After creating your new account, Thunderbird will automatically configure it so you can begin using the new account right away.
-
-## Configuring an existing email account
-
-If you already have a _Mailfence_ or a _Gandi_ account (or any other type of accounts), you can skip the process of creating a new account and move on to configuring an existing account, by clicking on Skip this and use my existing email. These pages provide more details about the setup of an existing email address in Thunderbird:
-
-- [How to use Mailfence with Thunderbird](https://kb.mailfence.com/kb/how-can-use-mailfence-messages-with-thunderbird-using-smtp-and-imap-pop/)
-- [Configuring Gandi Mail for Thunderbird](http://wiki.gandi.net/en/mail/setting-email-with-tbird)
-- [Automatic Account Configuration](\""https://support.mozilla.org/en-US/kb/automatic-account-configuration"") in Thunderbird (for any other email address) 
-
-To abort the account configuration process, click I think I'll configure my account later.
-
-# Using the new email account
-
-Your new email account will be displayed in the Folder panel on the left side of the main Thunderbird window.
-
-Messages will be automatically downloaded to the new account when Thunderbird checks the server for messages.
-
-You can now customize your mail account, for instance by composing your [signatures](\""https://support.mozilla.org/en-US/kb/new?title=signatures"" ""Page does not exist."").
-
-To compose a message from your new account, select the account in the Folder panel and click the Write button.
-
-&nbsp;
-
-"
-17194,Thunderbird’s Scam Detection,thunderbirds-scam-detection,https://support.mozilla.org/en-US/kb/thunderbirds-scam-detection,en-US,This article explains how Thunderbird's scam detection works.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-a-scam""><span class=""tocnumber"">1</span> <span class=""toctext"">What is a scam?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-spam-and-scams""><span class=""tocnumber"">2</span> <span class=""toctext"">What is the difference between spam and scams?</span></a></li><li class=""toclevel-1""><a href=""#w_protecting-yourself-from-scams""><span class=""tocnumber"">3</span> <span class=""toctext"">Protecting yourself from scams</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbirds-automatic-scam-filtering""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Thunderbird's automatic scam filtering</span></a><ul><li class=""toclevel-3""><a href=""#w_why-does-thunderbird-tell-me-that-a-legitimate-message-is-a-scam""><span class=""tocnumber"">3.1.1</span> <span class=""toctext"">Why does Thunderbird tell me that a legitimate message is a scam?</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_be-skeptical-about-email-messages""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Be skeptical about email messages</span></a></li></ul></li></ul></div>
-<h1 id=""w_what-is-a-scam"">What is a scam?</h1>
-<p>A scam message contains material designed to trick the recipient into disclosing personal information. For example, a message might ask you to click a link and enter your credit card number in order to receive a prize. There is, of course, no prize. Instead, the person who sent the message collects your credit card number.
-</p><p>These kinds of attacks are called ""phishing"" (a variant on the idea of ""fishing"" for data, such as usernames, passwords or credit card numbers). Generally, data phishers send out mass emails that cleverly imitate the look and feel of messages from legitimate businesses (such as banks, large websites or retail stores). Some look like fancy form letters with headers and company logos. Some have email addresses that look like they originated from the company they claim to represent.
-</p><p>In addition to the credit card phishing scam described above, phishers use several other tactics:
-</p>
-<ul><li> Telling you that your account on a website will be closed unless you click a link and re-enter your username and password. (This exposes your login information to the phisher.)
-</li><li> Telling you that a software update is available, followed by a request for you to provide information or install malicious software on your computer.
-</li><li> Telling you that there has been a charge on one of your accounts, or a change to your account status and prompting you to follow the link in the message to correct the problem.
-</li></ul>
-<h1 id=""w_what-is-the-difference-between-spam-and-scams"">What is the difference between spam and scams?</h1>
-<p>Both spam messages and scam messages are unsolicited and unwanted messages. However, spam messages are merely unwanted advertisements and are not dangerous, only annoying. Scam messages, however, are malicious because they want your personal information for nefarious purposes (identity theft, credit card scams, bank account access, etc.).
-</p>
-<h1 id=""w_protecting-yourself-from-scams"">Protecting yourself from scams</h1>
-<p>To protect yourself against scams, you must use a combination of Thunderbird's built-in scam detection tools combined with your own common sense and skepticism.
-</p>
-<h2 id=""w_thunderbirds-automatic-scam-filtering"">Thunderbird's automatic scam filtering</h2>
-<p>Thunderbird uses its built-in scam filtering that is part of <a href=""/en-US/kb/thunderbird-and-junk-spam-messages"">the junk filtering</a> functions. It looks for characteristics in messages that are common in scam messages, for example:
-</p>
-<ul><li> Links with numerical server names (<a href=""http://127.0.0.1/"">http://127.0.0.1/</a>).
-</li><li> Links where the text doesn't match the server name (for example, the text of the message might say ""<a href=""https://secure.example.com"">https://secure.example.com</a>"" but the link actually goes to ""<a href=""http://phishing.example.com"">http://phishing.example.com</a>"" instead). Phishers do this to fool you into going to their site. Unfortunately some legitimate mailing lists also do this with redirectors for tracking purposes.
-</li><li> A remote image link that has different image source than the link points to (spoofing a legitimate web site, similar to the link spoofing described above).
-</li></ul>
-<p>When Thunderbird detects that a message could be a potential phishing attempt, it will display a warning at the top of the message saying that ""<em>This message may be a scam</em>"":
-</p><p><img alt=""scam warning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-06-11-13-04-54-c0f7f7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>As a second line of defense, Thunderbird warns you when you click a link in a message that appears to be taking you to a different website than the one indicated by the URL in the message:
-</p><p><img alt=""email scam alert"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-06-18-05-18-24-725bda.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<h3 id=""w_why-does-thunderbird-tell-me-that-a-legitimate-message-is-a-scam"">Why does Thunderbird tell me that a legitimate message is a scam?</h3>
-<p>
-</p><p>Thunderbird's detection algorithm isn't perfect and, unlike its spam filter, does not learn or adapt based on your email flags. If you are getting too many false alerts, you may consider (at your own risk) disabling it:
-</p>
-<ol><li> <span class=""for"" data-for=""mac"">In the menu bar, click the <span class=""menu"">Thunderbird</span> menu and select <span class=""menu"">Settings</span>.</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Settings</span>.</span>
-
-</li><li> Select the <strong>Security</strong> tab and then <strong>E-mail Scams</strong>.
-</li><li> Uncheck the box.
-</li></ol>
-<p><img alt=""scam options"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-06-10-14-11-05-9b80de.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<h2 id=""w_be-skeptical-about-email-messages"">Be skeptical about email messages</h2>
-<p>Your best defense is to be aware of scam tactics and be skeptical about your email messages.
-</p>
-<ul><li> Don't click on links in emails unless you are absolutely sure that the sender is legitimate. Instead, use your browser to search for the site. For example, if you receive a message that says you should change your password on your online bank account, do not click the link in the message. Instead, use your browser to navigate to the bank's site (using the URL from your bookmarks, favorites, or from search) and check if the request is real.
-</li><li> Don't reply to a message that asks you for your personal information.
-</li><li> Use a recent version of a browser that implements a phishing filter, such as  <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">the one used by Firefox</a>.
-</li><li> Use a recent version of an email application (like Thunderbird), which has built-in protection against phishing.
-</li></ul>",thunderbird,"","## Table of Contents
-
-- [1 What is a scam?](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_what-is-a-scam)
-- [2 What is the difference between spam and scams?](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_what-is-the-difference-between-spam-and-scams)
-- [3 Protecting yourself from scams](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_protecting-yourself-from-scams)
-  - [3.1 Thunderbird's automatic scam filtering](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_thunderbirds-automatic-scam-filtering)
-    - [3.1.1 Why does Thunderbird tell me that a legitimate message is a scam?](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_why-does-thunderbird-tell-me-that-a-legitimate-message-is-a-scam)
-
-  - [3.2 Be skeptical about email messages](https://support.mozilla.org/kb/thunderbirds-scam-detection#w_be-skeptical-about-email-messages)
-
-# What is a scam?
-
-A scam message contains material designed to trick the recipient into disclosing personal information. For example, a message might ask you to click a link and enter your credit card number in order to receive a prize. There is, of course, no prize. Instead, the person who sent the message collects your credit card number.
-
-These kinds of attacks are called ""phishing"" (a variant on the idea of ""fishing"" for data, such as usernames, passwords or credit card numbers). Generally, data phishers send out mass emails that cleverly imitate the look and feel of messages from legitimate businesses (such as banks, large websites or retail stores). Some look like fancy form letters with headers and company logos. Some have email addresses that look like they originated from the company they claim to represent.
-
-In addition to the credit card phishing scam described above, phishers use several other tactics:
-
-- Telling you that your account on a website will be closed unless you click a link and re-enter your username and password. (This exposes your login information to the phisher.)
-- Telling you that a software update is available, followed by a request for you to provide information or install malicious software on your computer.
-- Telling you that there has been a charge on one of your accounts, or a change to your account status and prompting you to follow the link in the message to correct the problem.
-
-# What is the difference between spam and scams?
-
-Both spam messages and scam messages are unsolicited and unwanted messages. However, spam messages are merely unwanted advertisements and are not dangerous, only annoying. Scam messages, however, are malicious because they want your personal information for nefarious purposes (identity theft, credit card scams, bank account access, etc.).
-
-# Protecting yourself from scams
-
-To protect yourself against scams, you must use a combination of Thunderbird's built-in scam detection tools combined with your own common sense and skepticism.
-
-## Thunderbird's automatic scam filtering
-
-Thunderbird uses its built-in scam filtering that is part of [the junk filtering](\""https://support.mozilla.org/en-US/kb/thunderbird-and-junk-spam-messages"") functions. It looks for characteristics in messages that are common in scam messages, for example:
-
-- Links with numerical server names ([http://127.0.0.1/](http://127.0.0.1/)).
-- Links where the text doesn't match the server name (for example, the text of the message might say ""[https://secure.example.com](https://secure.example.com)"" but the link actually goes to ""[http://phishing.example.com](http://phishing.example.com)"" instead). Phishers do this to fool you into going to their site. Unfortunately some legitimate mailing lists also do this with redirectors for tracking purposes.
-- A remote image link that has different image source than the link points to (spoofing a legitimate web site, similar to the link spoofing described above).
-
-When Thunderbird detects that a message could be a potential phishing attempt, it will display a warning at the top of the message saying that ""_This message may be a scam_"":
-
-![scam warning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-As a second line of defense, Thunderbird warns you when you click a link in a message that appears to be taking you to a different website than the one indicated by the URL in the message:
-
-![email scam alert](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-### Why does Thunderbird tell me that a legitimate message is a scam?
-
-Thunderbird's detection algorithm isn't perfect and, unlike its spam filter, does not learn or adapt based on your email flags. If you are getting too many false alerts, you may consider (at your own risk) disabling it:
-
-1. In the menu bar, click the Thunderbird menu and select Settings.Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Settings.
-2. Select the **Security** tab and then **E-mail Scams**.
-3. Uncheck the box.
-
-![scam options](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Be skeptical about email messages
-
-Your best defense is to be aware of scam tactics and be skeptical about your email messages.
-
-- Don't click on links in emails unless you are absolutely sure that the sender is legitimate. Instead, use your browser to search for the site. For example, if you receive a message that says you should change your password on your online bank account, do not click the link in the message. Instead, use your browser to navigate to the bank's site (using the URL from your bookmarks, favorites, or from search) and check if the request is real.
-- Don't reply to a message that asks you for your personal information.
-- Use a recent version of a browser that implements a phishing filter, such as [the one used by Firefox](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"").
-- Use a recent version of an email application (like Thunderbird), which has built-in protection against phishing.
-
-"
 17197,Using Saved Searches,using-saved-searches,https://support.mozilla.org/en-US/kb/using-saved-searches,en-US,This article describes the Saved Search Folder feature and explains how to use it effectively.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-are-saved-searches""><span class=""tocnumber"">1</span> <span class=""toctext"">What are Saved Searches?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-create-a-saved-search-folder""><span class=""tocnumber"">2</span> <span class=""toctext"">How to create a Saved Search folder</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-set-the-search-criteria""><span class=""tocnumber"">3</span> <span class=""toctext"">How to set the search criteria</span></a></li><li class=""toclevel-1""><a href=""#w_example-searches""><span class=""tocnumber"">4</span> <span class=""toctext"">Example searches</span></a></li><li class=""toclevel-1""><a href=""#w_properties""><span class=""tocnumber"">5</span> <span class=""toctext"">Properties</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_what-are-saved-searches"">What are Saved Searches?</h1>
 <p>A Saved Search is a special folder which shows a selection of messages which match your pre-defined search criteria. Saved Searches are a great way of saving time because instead of typing or recreating your most frequent searches again and again, you can just get immediate live results by looking at your Saved Search folder.
@@ -62461,269 +62196,6 @@ Mozilla is working on various initiatives that provide similar functionality to 
 Firefox will disconnect from your account but won't delete any browsing information.
 
 "
-41011,How do I report a broken site in Firefox desktop?,report-breakage-due-blocking,https://support.mozilla.org/en-US/kb/report-breakage-due-blocking,en-US,How to report a broken website and what information Mozilla receives when you report breakage caused by Enhanced Tracking Protection.,"<div class=""for"" data-for=""not fx123""><p><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> sometimes causes websites to display or work incorrectly. For example, some buttons may not work, parts of some pages may be missing, and some pages may not load at all. Reporting any problems caused by content blocking helps us improve Firefox.
-</p><p>Follow these steps, when necessary, to report a site that isn’t working properly:
-</p>
-<ol><li> Click the shield <img alt=""Fx91ShieldIcon-Blue"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-04-07-27-48-6f4a69.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the address bar to open the Protections panel.
-</li><li> Click the blue toggle switch <img alt=""Fx91ETPbluetoggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-16-12-56-21-3859dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to turn off protections.<br>The site will reload with Enhanced Tracking Protection turned off.
-</li><li> If this fixed the problem, click the shield <img alt=""Fx91shield-ETPoff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-16-13-20-43-26a8c0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the Protections panel again.
-<dl><dt><img alt=""Fx91SiteFixedSendReport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-16-13-01-56-7fcd80.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Click <span class=""menu"">Site fixed? Send report</span> to let Firefox know.<br>It will open the <em>Report a Broken Site</em> panel.
-<dl><dt><img alt=""Fx98ETP-ReportBrokenSite"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-23-12-12-39-99d4dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Describe the problem to help us solve the problem faster. (Optional.)
-</li><li> Click the <span class=""button"">Send Report</span> button.
-</li></ol>
-<p>When you report breakage, Mozilla receives the following information:
-</p>
-<ul><li>Website URL (without query strings to avoid identifying your activity on the site)
-</li><li>Operating system on the device
-</li><li>Version of Firefox that you’re using
-</li><li>Description of the problem that you’ve typed in the text box
-</li><li>Your Firefox privacy settings:
-<ul><li>Enhanced Tracking Protection (On, Off or Only in private browsing)
-</li><li>Your protection level (Standard, Strict or Custom)
-</li><li>Third-party tracking cookies (Blocked or Allowed)
-</li><li>Which third-party tracking cookie block list is being used (Level 1 or Level 2)
-</li><li>Fingerprinting (Blocked or allowed)
-</li><li>Cryptomining (Blocked or allowed)
-</li><li>Other third-party cookies (Always blocked, Never blocked or Blocked from unvisited websites)
-</li><li>Custom referrer settings from <em>about:config</em>
-</li><li>If cookies are set to expire at the end of your session
-</li><li>How long third-party storage will be kept
-</li></ul>
-</li></ul>
-</div><div class=""for"" data-for=""fx123""><p>Are you experiencing issues with a webpage that works fine in other browsers but not in Firefox? This could be a <a href=""https://www.techopedia.com/definition/23240/browser-compatibility"">web compatibility</a> (webcompat) issue. Common signs include:
-</p>
-<ul><li>Slow or non-functional sites
-</li><li>Broken images or videos
-</li><li>Malfunctioning buttons, links and text boxes
-</li><li>Missing content
-</li><li>Issues with signing in or password autofill
-</li><li>Problems when using an ad blocker
-</li></ul>
-<p>To proactively combat these web compatibility issues, Firefox has integrated a user-friendly reporting tool directly into the browser. This tool enables users to swiftly report issues related to content blocking, thereby aiding in the enhancement of Firefox's performance and user experience.
-</p>
-<div class=""warning"">To ensure your privacy, the reporting tool allows you to edit the URL before reporting, enabling you to remove any personal information from the URL. For detailed information and precautions, turn to the <a href=""#w_protect-your-information"">Protect your information</a> section detailed later in this article.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-can-i-access-the-report-broken-site-tool""><span class=""tocnumber"">1</span> <span class=""toctext"">How can I access the Report broken site tool?</span></a></li><li class=""toclevel-1""><a href=""#w_what-information-does-mozilla-collect-from-your-report""><span class=""tocnumber"">2</span> <span class=""toctext"">What information does Mozilla collect from your report?</span></a></li><li class=""toclevel-1""><a href=""#w_protect-your-information""><span class=""tocnumber"">3</span> <span class=""toctext"">Protect your information</span></a><ul><li class=""toclevel-2""><a href=""#w_customizable-url""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Customizable URL</span></a></li><li class=""toclevel-2""><a href=""#w_optional-describe-the-problem-text-box""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Optional Describe the Problem Text Box</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-will-firefox-do-with-your-report""><span class=""tocnumber"">4</span> <span class=""toctext"">What will Firefox do with your report?</span></a></li><li class=""toclevel-1""><a href=""#w_related-content""><span class=""tocnumber"">5</span> <span class=""toctext"">Related content</span></a></li></ul></div>
-<h1 id=""w_how-can-i-access-the-report-broken-site-tool"">How can I access the <em>Report broken site</em> tool?</h1>
-<p>If a site seems broken due to web compatibility or <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a>-related issues, you can report it directly to the Webcompat team.
-To report a non-Firefox site that isn’t working properly, follow these steps:
-</p>
-<ol><li>At the top right, click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the Firefox menu.
-</li><li>At the bottom of the menu, select the <img alt=""Report broken site option"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-15-24-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150""> option.
-</li><li>Next, enter the site URL, pick an option from the dropdown menu under <em>What's broken?</em>, and, optionally, add a short description of the issue.
-<dl><dt><img alt=""Report broken site panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-16-37-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-</li><li>To submit your report, click <img alt=""Report broken site panel Send button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-19-05-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50"">.
-</li><li>A success message will confirm your submission. To conclude, click <img alt=""Report broken site panel Close button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-20-00-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""60"">.
-<dl><dt><img alt=""Report broken site panel Success message"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-20-18-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-</li></ol>
-<div class=""note"">
-<p>The reporting tool will not work on a new tab or <em>about:</em> Firefox page.
-</p><p>For Nightly and Beta channel users: You can send a detailed report using the <strong>Send more info</strong> link, located at the lower end of the <em>Report a broken site</em> panel.
-</p>
-</div>
-<p>
-</p>
-<h1 id=""w_what-information-does-mozilla-collect-from-your-report"">What information does Mozilla collect from your report?</h1>
-<p>We wish to keep our process as transparent as possible. Any reports you send to Mozilla with this tool will include the following information when we receive it via our data pipeline:
-</p>
-<ul><li>uuid: A single-use Unique User ID that helps us identify the specific report in our data pipeline. This is not tied to your Firefox profile in any way and cannot be used to identify you. If you submit multiple reports, it will be a different uuid each time.
-</li><li>reported_at: The timestamp when our pipeline receives your report
-</li><li>comments: Any notes you would like to share with us in the optional <em>Describe the problem</em> box.
-</li><li>url = The URL of the site you are reporting. While the feature automatically populates the text field with the URL of the site you are currently on when you select <em>Report Broken Site</em>, you will be able to edit it prior to submitting the report.
-</li><li>breakage_category = The answer you chose from the <em>Choose reason</em> dropdown menu
-</li><li>details
-<ul><li>Device (Operating system, version, screen dimensions &amp; touchscreen capability)
-</li><li>User Agent String (Mozilla version, Gecko version, Firefox version and build date)
-</li><li>Graphics (GPU model, version and rendering capabilities)
-</li><li>Privacy settings
-<ul><li>If you’re submitting a report from a Private Browsing window
-</li><li>If Firefox site isolation (Fission) is turned on
-</li><li>If Total Cookie Protection is turned on
-</li><li>Enhanced Tracking Protection (On, Off or Only in private browsing)
-</li><li>Your protection level (Standard, Strict or Custom)
-</li><li>Third-party tracking cookies (Blocked or Allowed)
-</li><li>Which third-party tracking cookie block list is being used (Level 1 or 2)
-</li><li>Fingerprinting (Blocked or Allowed)
-</li><li>Cryptomining (Blocked or Allowed)
-</li><li>Other third-party cookies (Always blocked, Never blocked or Blocked from unvisited websites)
-</li><li>Custom referrer settings from <em>about:config</em>
-</li><li>If cookies are set to expire at the end of your session
-</li><li>How long third-party storage will be kept
-</li></ul>
-</li><li>Security settings (Any antivirus software, antispyware or firewalls installed)
-</li><li>Languages used for Firefox, and
-</li><li>Any details you share in the optional <em>Describe the problem</em> text box
-</li></ul>
-</li></ul>
-<p>
-</p>
-<h1 id=""w_protect-your-information"">Protect your information</h1>
-<h2 id=""w_customizable-url"">Customizable URL</h2>
-<p>The <em>Report broken site</em> tool pre-fills the URL of the site you're reporting. Beware, some URLs might contain sensitive data, such as shipping details or personal tax information. To protect your privacy, edit the URL to omit personal details. Note, however, that changes to the URL might hinder our issue reproduction efforts.
-</p>
-<h2 id=""w_optional-describe-the-problem-text-box"">Optional <em>Describe the Problem</em> Text Box</h2>
-<p>If you believe additional details in the <em>Describe the Problem</em> area could help resolve your web compatibility issue, feel free to include them. However, carefully consider the information you share. We implement measures to protect your data temporarily before it's securely discarded, but submitting sensitive information is ultimately your choice. Your contributions are crucial to our Webcompat team's efforts in improving Firefox. Providing extra context, including thorough responses to <em>What’s broken?</em>, aids us in identifying and rectifying major problems that negatively affect your browsing.
-</p>
-<h1 id=""w_what-will-firefox-do-with-your-report"">What will Firefox do with your report?</h1>
-<p>When you submit a Report broken site form, the data is stored in a secure database. The Firefox Webcompat Team reviews these reports and makes an effort to remove data that might have been incidentally included in either the URL or the comments before sharing it with other Mozilla personnel involved in issue resolution. The team may use automated technologies, including third party services, to assist with the translation, prioritization and resolution of these reviews. As part of this issue resolution, Mozilla may file a bug in our Bugzilla tool to help engineers diagnose and fix the issues identified; as a public platform, the submitted URLs within Bugzilla are publicly visible, but each submission is first manually reviewed to remove any identifiable information.
-</p><p>Mozilla also separately securely stores the submitted data for trend analysis and to compile aggregated user statistics. This data may also be shared with researchers on a de-identified or aggregated basis.
-</p></div>
-<h1 id=""w_related-content"">Related content</h1>
-<p>To learn more about the privacy principles that guide Mozilla's mission, visit:
-</p>
-<ul><li><a href=""/en-US/kb/how-stay-safe-web"">How to stay safe on the web</a>
-</li><li><a href=""https://www.mozilla.org/privacy/"">Mozilla Privacy Policy</a>
-</li><li><a href=""https://www.mozilla.org/about/policy/lean-data/"">Data Privacy Principles</a>
-</li><li><a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>
-</li><li><a href=""https://www.mozilla.org/privacy/faq/"">Mozilla's Data Privacy FAQ</a>
-</li></ul>",firefox,performance-and-connectivity;site-breakages,"[Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"") sometimes causes websites to display or work incorrectly. For example, some buttons may not work, parts of some pages may be missing, and some pages may not load at all. Reporting any problems caused by content blocking helps us improve Firefox.
-
-Follow these steps, when necessary, to report a site that isn’t working properly:
-
-1. Click the shield ![Fx91ShieldIcon-Blue](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the address bar to open the Protections panel.
-2. Click the blue toggle switch ![Fx91ETPbluetoggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to turn off protections.  
-The site will reload with Enhanced Tracking Protection turned off.
-3. If this fixed the problem, click the shield ![Fx91shield-ETPoff](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the Protections panel again.<dl><dt>
-<img alt=""Fx91SiteFixedSendReport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-16-13-01-56-7fcd80.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. Click Site fixed? Send report to let Firefox know.  
-It will open the _Report a Broken Site_ panel.<dl><dt>
-<img alt=""Fx98ETP-ReportBrokenSite"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-23-12-12-39-99d4dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-5. Describe the problem to help us solve the problem faster. (Optional.)
-6. Click the Send Report button.
-
-When you report breakage, Mozilla receives the following information:
-
-- Website URL (without query strings to avoid identifying your activity on the site)
-- Operating system on the device
-- Version of Firefox that you’re using
-- Description of the problem that you’ve typed in the text box
-- Your Firefox privacy settings:
-  - Enhanced Tracking Protection (On, Off or Only in private browsing)
-  - Your protection level (Standard, Strict or Custom)
-  - Third-party tracking cookies (Blocked or Allowed)
-  - Which third-party tracking cookie block list is being used (Level 1 or Level 2)
-  - Fingerprinting (Blocked or allowed)
-  - Cryptomining (Blocked or allowed)
-  - Other third-party cookies (Always blocked, Never blocked or Blocked from unvisited websites)
-  - Custom referrer settings from _about:config_
-  - If cookies are set to expire at the end of your session
-  - How long third-party storage will be kept
-
-Are you experiencing issues with a webpage that works fine in other browsers but not in Firefox? This could be a [web compatibility](https://www.techopedia.com/definition/23240/browser-compatibility) (webcompat) issue. Common signs include:
-
-- Slow or non-functional sites
-- Broken images or videos
-- Malfunctioning buttons, links and text boxes
-- Missing content
-- Issues with signing in or password autofill
-- Problems when using an ad blocker
-
-To proactively combat these web compatibility issues, Firefox has integrated a user-friendly reporting tool directly into the browser. This tool enables users to swiftly report issues related to content blocking, thereby aiding in the enhancement of Firefox's performance and user experience.
-
-To ensure your privacy, the reporting tool allows you to edit the URL before reporting, enabling you to remove any personal information from the URL. For detailed information and precautions, turn to the [Protect your information](https://support.mozilla.org/kb/report-breakage-due-blocking#w_protect-your-information) section detailed later in this article.
-
-## Table of Contents
-
-- [1 How can I access the Report broken site tool?](https://support.mozilla.org/kb/report-breakage-due-blocking#w_how-can-i-access-the-report-broken-site-tool)
-- [2 What information does Mozilla collect from your report?](https://support.mozilla.org/kb/report-breakage-due-blocking#w_what-information-does-mozilla-collect-from-your-report)
-- [3 Protect your information](https://support.mozilla.org/kb/report-breakage-due-blocking#w_protect-your-information)
-  - [3.1 Customizable URL](https://support.mozilla.org/kb/report-breakage-due-blocking#w_customizable-url)
-  - [3.2 Optional Describe the Problem Text Box](https://support.mozilla.org/kb/report-breakage-due-blocking#w_optional-describe-the-problem-text-box)
-
-- [4 What will Firefox do with your report?](https://support.mozilla.org/kb/report-breakage-due-blocking#w_what-will-firefox-do-with-your-report)
-- [5 Related content](https://support.mozilla.org/kb/report-breakage-due-blocking#w_related-content)
-
-# How can I access the _Report broken site_ tool?
-
-If a site seems broken due to web compatibility or [Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"")-related issues, you can report it directly to the Webcompat team. To report a non-Firefox site that isn’t working properly, follow these steps:
-
-1. At the top right, click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the Firefox menu.
-2. At the bottom of the menu, select the ![Report broken site option](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) option.
-3. Next, enter the site URL, pick an option from the dropdown menu under _What's broken?_, and, optionally, add a short description of the issue.<dl><dt>
-<img alt=""Report broken site panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-16-37-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-4. To submit your report, click ![Report broken site panel Send button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-5. A success message will confirm your submission. To conclude, click ![Report broken site panel Close button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).<dl><dt>
-<img alt=""Report broken site panel Success message"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-05-20-18-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-
-The reporting tool will not work on a new tab or _about:_ Firefox page.
-
-For Nightly and Beta channel users: You can send a detailed report using the **Send more info** link, located at the lower end of the _Report a broken site_ panel.
-
-# What information does Mozilla collect from your report?
-
-We wish to keep our process as transparent as possible. Any reports you send to Mozilla with this tool will include the following information when we receive it via our data pipeline:
-
-- uuid: A single-use Unique User ID that helps us identify the specific report in our data pipeline. This is not tied to your Firefox profile in any way and cannot be used to identify you. If you submit multiple reports, it will be a different uuid each time.
-- reported\_at: The timestamp when our pipeline receives your report
-- comments: Any notes you would like to share with us in the optional _Describe the problem_ box.
-- url = The URL of the site you are reporting. While the feature automatically populates the text field with the URL of the site you are currently on when you select _Report Broken Site_, you will be able to edit it prior to submitting the report.
-- breakage\_category = The answer you chose from the _Choose reason_ dropdown menu
-- details
-  - Device (Operating system, version, screen dimensions & touchscreen capability)
-  - User Agent String (Mozilla version, Gecko version, Firefox version and build date)
-  - Graphics (GPU model, version and rendering capabilities)
-  - Privacy settings
-    - If you’re submitting a report from a Private Browsing window
-    - If Firefox site isolation (Fission) is turned on
-    - If Total Cookie Protection is turned on
-    - Enhanced Tracking Protection (On, Off or Only in private browsing)
-    - Your protection level (Standard, Strict or Custom)
-    - Third-party tracking cookies (Blocked or Allowed)
-    - Which third-party tracking cookie block list is being used (Level 1 or 2)
-    - Fingerprinting (Blocked or Allowed)
-    - Cryptomining (Blocked or Allowed)
-    - Other third-party cookies (Always blocked, Never blocked or Blocked from unvisited websites)
-    - Custom referrer settings from _about:config_
-    - If cookies are set to expire at the end of your session
-    - How long third-party storage will be kept
-
-  - Security settings (Any antivirus software, antispyware or firewalls installed)
-  - Languages used for Firefox, and
-  - Any details you share in the optional _Describe the problem_ text box
-
-# Protect your information
-
-## Customizable URL
-
-The _Report broken site_ tool pre-fills the URL of the site you're reporting. Beware, some URLs might contain sensitive data, such as shipping details or personal tax information. To protect your privacy, edit the URL to omit personal details. Note, however, that changes to the URL might hinder our issue reproduction efforts.
-
-## Optional _Describe the Problem_ Text Box
-
-If you believe additional details in the _Describe the Problem_ area could help resolve your web compatibility issue, feel free to include them. However, carefully consider the information you share. We implement measures to protect your data temporarily before it's securely discarded, but submitting sensitive information is ultimately your choice. Your contributions are crucial to our Webcompat team's efforts in improving Firefox. Providing extra context, including thorough responses to _What’s broken?_, aids us in identifying and rectifying major problems that negatively affect your browsing.
-
-# What will Firefox do with your report?
-
-When you submit a Report broken site form, the data is stored in a secure database. The Firefox Webcompat Team reviews these reports and makes an effort to remove data that might have been incidentally included in either the URL or the comments before sharing it with other Mozilla personnel involved in issue resolution. The team may use automated technologies, including third party services, to assist with the translation, prioritization and resolution of these reviews. As part of this issue resolution, Mozilla may file a bug in our Bugzilla tool to help engineers diagnose and fix the issues identified; as a public platform, the submitted URLs within Bugzilla are publicly visible, but each submission is first manually reviewed to remove any identifiable information.
-
-Mozilla also separately securely stores the submitted data for trend analysis and to compile aggregated user statistics. This data may also be shared with researchers on a de-identified or aggregated basis.
-
-# Related content
-
-To learn more about the privacy principles that guide Mozilla's mission, visit:
-
-- [How to stay safe on the web](\""https://support.mozilla.org/en-US/kb/how-stay-safe-web"")
-- [Mozilla Privacy Policy](https://www.mozilla.org/privacy/)
-- [Data Privacy Principles](https://www.mozilla.org/about/policy/lean-data/)
-- [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/)
-- [Mozilla's Data Privacy FAQ](https://www.mozilla.org/privacy/faq/)
-
-"
-41062,GeckoView in Firefox Klar,geckoview-firefox-klar,https://support.mozilla.org/en-US/kb/geckoview-firefox-klar,en-US,Firefox Klar version 7 is powered by GeckoView which increases its file size but allows a faster and more secure browsing experience.,"<p>This version 7 upgrade brings you Firefox Klar powered by our new and improved ""GeckoView"" browser engine which allows us to bring you a faster and more secure browsing experience.
-</p><p>Older versions of Firefox Klar were built on the native Android Webview browser engine, which allowed us to expedite its early development, but limited its growth. While this new GeckoView engine increases Firefox Klar's size from 4MB to 38MB, we are committed to keep it as streamlined as possible. GeckoView will allow faster updates so you can get new features powered by GeckoView soon.
-</p>",klar,firefox-klar-android,"This version 7 upgrade brings you Firefox Klar powered by our new and improved ""GeckoView"" browser engine which allows us to bring you a faster and more secure browsing experience.
-
-Older versions of Firefox Klar were built on the native Android Webview browser engine, which allowed us to expedite its early development, but limited its growth. While this new GeckoView engine increases Firefox Klar's size from 4MB to 38MB, we are committed to keep it as streamlined as possible. GeckoView will allow faster updates so you can get new features powered by GeckoView soon.
-
-"
 41066,Search suggestions in Firefox Focus for Android,search-suggestions-firefox-focus-android,https://support.mozilla.org/en-US/kb/search-suggestions-firefox-focus-android,en-US,Search suggestions in Firefox Focus,"<p>
 </p><p>As you type into the address or search bar, Firefox Focus will recommend popular searches that match what you're typing.
 </p><p>When you type text into the address bar for the first time, Firefox Focus will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
@@ -79277,6 +78749,199 @@ Go to your support question, which is accessible from your Mozilla Support user 
 To make sure that you use add-ons that are safe, install extensions from the [Recommended Extensions program](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program""). These extensions are thoroughly evaluated by the team for safety before they receive the _Recommended_ status.
 
 "
+51159,Profiling Thunderbird Performance,profiling-thunderbird-performance,https://support.mozilla.org/en-US/kb/profiling-thunderbird-performance,en-US,How to create a Thunderbird performance profile to find causes of high CPU load or slowness.,"<p>Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird.
+</p><p>Before you begin, check whether the issue disappears when Thunderbird is started in <a href=""/en-US/kb/troubleshoot-mode-thunderbird"">Troubleshoot Mode</a>. It may also be helpful to step through the <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems"">performance checklist on wiki</a>.
+</p><p>Some types of diagnostics require using a development version of Thunderbird, available from the <a href=""https://www.thunderbird.net/download/daily/"">Thunderbird download page</a>.
+</p><p>Performance diagnostics use a tool called the performance profiler. Thunderbird uses the Firefox profiler, so some dialog windows may refer to Firefox. The <a href=""https://profiler.firefox.com/docs/#/"">Firefox profiler documentation</a> is excellent, but usually not required unless you encounter difficulties or need to perform special tasks such as startup profiling. In the documentation, every instance of the word “Firefox” should be understood as “Thunderbird”.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_preparing-the-performance-profiler""><span class=""tocnumber"">1</span> <span class=""toctext"">Preparing the Performance Profiler</span></a><ul><li class=""toclevel-2""><a href=""#w_opening-developer-tools""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Opening Developer Tools</span></a></li><li class=""toclevel-2""><a href=""#w_configuring-profiler-settings""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Configuring profiler settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_recording-a-performance-diagnostic""><span class=""tocnumber"">2</span> <span class=""toctext"">Recording a performance diagnostic</span></a></li><li class=""toclevel-1""><a href=""#w_saving-and-sharing-performance-diagnostic-results""><span class=""tocnumber"">3</span> <span class=""toctext"">Saving and sharing performance diagnostic results</span></a></li><li class=""toclevel-1""><a href=""#w_diagnosing-thunderbird-startup-and-shutdown""><span class=""tocnumber"">4</span> <span class=""toctext"">Diagnosing Thunderbird startup and shutdown</span></a></li></ul></div>
+<h1 id=""w_preparing-the-performance-profiler"">Preparing the Performance Profiler</h1>
+<p>The performance profiler is part of the <em>Developer Tools</em>.
+</p>
+<h2 id=""w_opening-developer-tools"">Opening Developer Tools</h2>
+<p>In Thunderbird’s main window, open the developer tools:
+</p>
+<ol><li> Use the keyboard shortcut <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">I</span></span><span class=""for"" data-for=""mac""><span class=""key"">command</span> + <span class=""key"">option</span> + <span class=""key"">I</span></span>, or click the menu button in Thunderbird <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Tools</span>.
+</li><li> From the menu, select <span class=""menu"">Developer Tools</span>. An incoming connection prompt will appear.<br><br>
+<dl><dt> <div class=""warning""><strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt. The prompt window may be hidden behind other Thunderbird windows.</div>
+</dt></dl>
+</li><li> Click <span class=""key"">OK</span>. The <em>Developer Tools</em> window will open. In current versions of Thunderbird, the <span class=""menu"">Performance</span> tab is visible, and clicking it shows the <span class=""button"">Start Recording</span> button.<br>If the tab is not visible:
+<dl><dt><ul><li> Press <span class=""key"">F1</span> or click the <img alt=""horizontal3-dot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-22-02-18-07-c5058b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the upper-right corner of the window and choose <span class=""menu"">Settings</span>. The developer tools settings window will open.
+</li><li> Make sure the <em>Default Developer Tools</em> section has the <span class=""menu"">[✓] Performance</span> option enabled. If it is not enabled:
+</li></ul>
+</dt></dl>
+<dl><dt><dl><dt><ul><li> enable it, then click the <span class=""menu"">Performance</span> tab that appears at the top of the developer tools window.
+</li></ul>
+</dt></dl>
+</dt></dl>
+</li></ol>
+<h2 id=""w_configuring-profiler-settings"">Configuring profiler settings</h2>
+<p>To configure the profiler settings:
+</p>
+<ol><li> At the bottom of the <em>Performance</em> tab, click <u>Edit Settings…</u>. A Thunderbird window will open with the profiler settings tab active.
+</li><li> In the <strong>Profiler Settings</strong> section, enable the <span class=""menu"">Thunderbird</span> radio button (in nightly/trunk versions, the <span class=""menu"">Daily</span> button). After changing other options, this button will automatically deactivate and the <span class=""button"">Custom</span> button will become active.
+</li><li> In the <strong>Features</strong> section, enable the <span class=""button"">All File IO</span> checkbox.
+</li><li> To protect privacy or reduce memory usage, scroll down and disable the <span class=""button"">Screenshots</span> checkbox.
+</li><li> Adjust other settings if needed. For example:
+<ul><li> Change the <em>Native Allocations</em> option available in Thunderbird Daily if you are diagnosing high memory usage.
+</li><li> Increase the buffer size from 1 GB to 2 GB and extend the sampling interval beyond the default 1 ms if reproducing the issue requires more than one minute of recording or if additional data collections are enabled.
+</li></ul>
+</li><li> Close the profiler settings window using the window controls – there is no <span class=""button"">OK</span> or <span class=""button"">Save</span> button.
+</li></ol>
+<h1 id=""w_recording-a-performance-diagnostic"">Recording a performance diagnostic</h1>
+<div class=""warning""><strong>Important!</strong> Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue. From the time you start recording, please document how many seconds it takes until the problem starts and the problem ends, and include this when you report your performance profile.</div>
+<p>When the profiler and test scenario are ready, you can begin recording and saving the performance diagnostic.
+</p>
+<ol><li> In the <span class=""menu"">Performance</span> tab of the developer tools window, click <span class=""button"">Start Recording</span> button.
+<dl><dt><div class=""note""><strong>Note:</strong> A warning icon may appear on the toolbar. Clicking it opens a console at the bottom of the window with the message “Failed to get the active browserId while starting the profiler” – this can be ignored.</div>
+</dt></dl>
+</li><li> After recording starts, quickly return to Thunderbird’s main window and perform the actions from your test scenario.
+</li><li> When finished, immediately return to the developer tools window and click <span class=""button"">Capture recording</span> to stop data collection. A brief <strong>Capturing profile</strong> message will appear, followed by the Firefox profiler window displaying the recorded data.
+</li></ol>
+<h1 id=""w_saving-and-sharing-performance-diagnostic-results"">Saving and sharing performance diagnostic results</h1>
+<p>To save and share the performance diagnostic results:
+</p>
+<ol><li> Click the <span class=""button"">Upload Local Profile</span> button in the upper-right corner of the profiler window.
+<dl><dt> <img alt=""profiler_result"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-14-54-49-5eef39.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li> In the “Share Performance Profile” panel, select the checkboxes for any private information you want to include. By default, no private information is included in the performance profile.
+<dl><dt> <img alt=""profiler_share"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-09-43-38-b4c789.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+</li><li> Click the <img alt=""performance_download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-07-58-46-8bf3b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""110""> button to save a JSON file locally. You can then email it or attach it to a bug report.
+</li><li> Click the <img alt=""profiler_upload"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-07-57-00-574018.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""100""> button to upload the profile to the <a href=""https://profiler.firefox.com/"">Firefox profiler</a> repository and generate a direct link (permalink). The link becomes available after clicking the <span class=""button"">Permalink</span> button in the profiler window. You can copy and share it with developers or others who can help diagnose the issue, or attach it to a new or existing <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird"">bug report</a> in <a href=""https://bugzilla.mozilla.org"">Bugzilla (BMO)</a>.
+<dl><dt> <img alt=""profiler_link"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-07-55-44-d22720.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Close the performance profiler window.
+</li><li> Close the developer tools window.
+</li></ol>
+<h1 id=""w_diagnosing-thunderbird-startup-and-shutdown"">Diagnosing Thunderbird startup and shutdown</h1>
+<p>Startup or shutdown diagnostics require following <a href=""https://profiler.firefox.com/docs/#/./guide-startup-shutdown"">special but very simple instructions</a>. As before, every instance of the word “Firefox” should be understood as “Thunderbird”.
+</p>",thunderbird,crashing-and-slow-performance;performance-and-connectivity,"Running a performance diagnostic can help developers identify the causes of high CPU usage, slowdowns, or excessive memory consumption in Thunderbird.
+
+Before you begin, check whether the issue disappears when Thunderbird is started in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird""). It may also be helpful to step through the [performance checklist on wiki](https://wiki.mozilla.org/Thunderbird:Testing:Memory_Usage_Problems).
+
+Some types of diagnostics require using a development version of Thunderbird, available from the [Thunderbird download page](https://www.thunderbird.net/download/daily/).
+
+Performance diagnostics use a tool called the performance profiler. Thunderbird uses the Firefox profiler, so some dialog windows may refer to Firefox. The [Firefox profiler documentation](https://profiler.firefox.com/docs/#/) is excellent, but usually not required unless you encounter difficulties or need to perform special tasks such as startup profiling. In the documentation, every instance of the word “Firefox” should be understood as “Thunderbird”.
+
+## Table of Contents
+
+- [1 Preparing the Performance Profiler](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_preparing-the-performance-profiler)
+  - [1.1 Opening Developer Tools](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_opening-developer-tools)
+  - [1.2 Configuring profiler settings](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_configuring-profiler-settings)
+
+- [2 Recording a performance diagnostic](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_recording-a-performance-diagnostic)
+- [3 Saving and sharing performance diagnostic results](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_saving-and-sharing-performance-diagnostic-results)
+- [4 Diagnosing Thunderbird startup and shutdown](https://support.mozilla.org/kb/profiling-thunderbird-performance#w_diagnosing-thunderbird-startup-and-shutdown)
+
+# Preparing the Performance Profiler
+
+The performance profiler is part of the _Developer Tools_.
+
+## Opening Developer Tools
+
+In Thunderbird’s main window, open the developer tools:
+
+1. Use the keyboard shortcut Ctrl + Shift + Icommand + option + I, or click the menu button in Thunderbird ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Tools.
+2. From the menu, select Developer Tools. An incoming connection prompt will appear.  
+  
+<dl><dt> <div class=""warning"">
+<strong>Important!</strong> To allow the developer tools to connect to Thunderbird, you must approve the connection in the prompt. The prompt window may be hidden behind other Thunderbird windows.</div>
+</dt></dl>
+3. Click OK. The _Developer Tools_ window will open. In current versions of Thunderbird, the Performance tab is visible, and clicking it shows the Start Recording button.  
+If the tab is not visible:<dl><dt>
+<ul>
+<li> Press <span class=""key"">F1</span> or click the <img alt=""horizontal3-dot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-22-02-18-07-c5058b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the upper-right corner of the window and choose <span class=""menu"">Settings</span>. The developer tools settings window will open.
+</li>
+<li> Make sure the <em>Default Developer Tools</em> section has the <span class=""menu"">[✓] Performance</span> option enabled. If it is not enabled:
+</li>
+</ul>
+</dt></dl><dl>
+<dt></dt>
+<dl><dt>
+<ul><li> enable it, then click the <span class=""menu"">Performance</span> tab that appears at the top of the developer tools window.
+</li></ul>
+</dt></dl>
+</dl>
+
+## Configuring profiler settings
+
+To configure the profiler settings:
+
+1. At the bottom of the _Performance_ tab, click <u>Edit Settings…</u>. A Thunderbird window will open with the profiler settings tab active.
+2. In the **Profiler Settings** section, enable the Thunderbird radio button (in nightly/trunk versions, the Daily button). After changing other options, this button will automatically deactivate and the Custom button will become active.
+3. In the **Features** section, enable the All File IO checkbox.
+4. To protect privacy or reduce memory usage, scroll down and disable the Screenshots checkbox.
+5. Adjust other settings if needed. For example:
+  - Change the _Native Allocations_ option available in Thunderbird Daily if you are diagnosing high memory usage.
+  - Increase the buffer size from 1 GB to 2 GB and extend the sampling interval beyond the default 1 ms if reproducing the issue requires more than one minute of recording or if additional data collections are enabled.
+
+6. Close the profiler settings window using the window controls – there is no OK or Save button.
+
+# Recording a performance diagnostic
+
+**Important!** Before you start recording, prepare a clear test scenario whenever possible. Unless otherwise specified, the recording should be as short as possible and include only the actions suspected to trigger the issue. From the time you start recording, please document how many seconds it takes until the problem starts and the problem ends, and include this when you report your performance profile.
+
+When the profiler and test scenario are ready, you can begin recording and saving the performance diagnostic.
+
+1. In the Performance tab of the developer tools window, click Start Recording button.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> A warning icon may appear on the toolbar. Clicking it opens a console at the bottom of the window with the message “Failed to get the active browserId while starting the profiler” – this can be ignored.</div>
+</dt></dl>
+2. After recording starts, quickly return to Thunderbird’s main window and perform the actions from your test scenario.
+3. When finished, immediately return to the developer tools window and click Capture recording to stop data collection. A brief **Capturing profile** message will appear, followed by the Firefox profiler window displaying the recorded data.
+
+# Saving and sharing performance diagnostic results
+
+To save and share the performance diagnostic results:
+
+1. Click the Upload Local Profile button in the upper-right corner of the profiler window.<dl><dt> <img alt=""profiler_result"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-14-54-49-5eef39.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+2. In the “Share Performance Profile” panel, select the checkboxes for any private information you want to include. By default, no private information is included in the performance profile.<dl><dt> <img alt=""profiler_share"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-09-43-38-b4c789.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+3. Click the ![performance_download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save a JSON file locally. You can then email it or attach it to a bug report.
+4. Click the ![profiler_upload](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to upload the profile to the [Firefox profiler](https://profiler.firefox.com/) repository and generate a direct link (permalink). The link becomes available after clicking the Permalink button in the profiler window. You can copy and share it with developers or others who can help diagnose the issue, or attach it to a new or existing [bug report](https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird) in [Bugzilla (BMO)](https://bugzilla.mozilla.org).<dl><dt> <img alt=""profiler_link"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-12-30-07-55-44-d22720.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+5. Close the performance profiler window.
+6. Close the developer tools window.
+
+# Diagnosing Thunderbird startup and shutdown
+
+Startup or shutdown diagnostics require following [special but very simple instructions](https://profiler.firefox.com/docs/#/./guide-startup-shutdown). As before, every instance of the word “Firefox” should be understood as “Thunderbird”.
+
+"
+51253,Firefox for Enterprise 83 - Release notes,firefox-enterprise-83-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-83-release-notes,en-US,See what's coming out with Firefox for Enterprise 83.,"<p>Except where noted, everything here applies to both Firefox 83 and the Firefox 78.5 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">1</span> <span class=""toctext"">Policies</span></a></li></ul></div>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>A new policy has been added for <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#managedbookmarks"">ManagedBookmarks</a>.
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#preferences"">Preferences</a> policy has been updated to support preferences that begin with <span class=""pref"">general.autoScroll.</span>, <span class=""pref"">general.smoothScroll.</span>, and <span class=""pref"">signon.</span>.
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#overridefirstrunpage"">OverrideFirstRunPage</a> policy has been updated to support multiple URLs separated by a vertical bar (|).
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter"">WebsiteFilter</a> policy has been updated to support blocking local files by using file:/// patterns.
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#disabletelemetry"">DisableTelemetry</a> policy has been updated to set the preference <span class=""pref"">toolkit.telemetry.archive.enabled</span> to false. We continue to recommend that you do not disable telemetry. Information collected through telemetry helps us build a better product for businesses like yours.
+</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 83 and the Firefox 78.5 ESR.
+
+## Table of Contents
+
+- [1 Policies](https://support.mozilla.org/kb/firefox-enterprise-83-release-notes#w_policies)
+
+# Policies
+
+- A new policy has been added for [ManagedBookmarks](https://github.com/mozilla/policy-templates/blob/master/README.md#managedbookmarks).
+
+- The [Preferences](https://github.com/mozilla/policy-templates/blob/master/README.md#preferences) policy has been updated to support preferences that begin with general.autoScroll., general.smoothScroll., and signon..
+
+- The [OverrideFirstRunPage](https://github.com/mozilla/policy-templates/blob/master/README.md#overridefirstrunpage) policy has been updated to support multiple URLs separated by a vertical bar (|).
+
+- The [WebsiteFilter](https://github.com/mozilla/policy-templates/blob/master/README.md#websitefilter) policy has been updated to support blocking local files by using file:/// patterns.
+
+- The [DisableTelemetry](https://github.com/mozilla/policy-templates/blob/master/README.md#disabletelemetry) policy has been updated to set the preference toolkit.telemetry.archive.enabled to false. We continue to recommend that you do not disable telemetry. Information collected through telemetry helps us build a better product for businesses like yours.
+
+"
 51283,End of support for Adobe Flash,end-support-adobe-flash,https://support.mozilla.org/en-US/kb/end-support-adobe-flash,en-US,"Like other browsers, Firefox has ended support for Adobe Flash. Learn about the details here.","<p>Firefox ended support for Adobe Flash in Firefox at the end of 2020, as <a href=""https://blog.mozilla.org/futurereleases/2017/07/25/firefox-roadmap-flash-end-life/"">announced back in 2017</a>. Adobe and other browsers also ended support for Flash at the end of 2020.
 </p><p><a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 84 was the final version to support Flash. Firefox version 85 (released on January 26, 2021) shipped without Flash support, improving our performance and security. There is no setting to re-enable Flash support.
 </p>
@@ -88409,48 +88074,6 @@ You can manage your subscription through Apple's App Store by following these st
 If you’re interested in contributing to MDN Web Docs, learn more about how to [update the documentation](https://developer.mozilla.org/docs/MDN/Contribute/Feedback#update_the_documentation) in GitHub and [join the conversation](https://developer.mozilla.org/docs/MDN/Contribute/Feedback#join_the_conversation) with other people who work on MDN content in Matrix and the MDN discussion forum.
 
 If you’re experiencing bugs or site problems with MDN, learn more about how to [report an issue](\""https://support.mozilla.org/en-US/kb/where-can-i-get-help-mdn-api-and-documentation"").
-
-"
-57602,Where can I get help with the MDN API and documentation?,where-can-i-get-help-mdn-api-and-documentation,https://support.mozilla.org/en-US/kb/where-can-i-get-help-mdn-api-and-documentation,en-US,Learn the steps to report an issue with MDN documentation or the MDN website.,"<p>You can report an issue if you encounter a problem:
-</p>
-<ul><li> <a href=""https://developer.mozilla.org/docs/MDN/Contribute/Feedback#documentation_issues"">in the MDN documentation</a>
-</li><li> <a href=""https://developer.mozilla.org/docs/MDN/Contribute/Feedback#site_issues"">with the MDN website</a>
-</li></ul>
-<p>Learn more about you can help <a href=""/en-US/kb/how-can-i-help-submit-and-resolve-bugs-mdn-content"">submit and resolve bugs in the MDN content repo</a>.
-</p>",mdn-plus,performance-and-connectivity,"You can report an issue if you encounter a problem:
-
-- [in the MDN documentation](https://developer.mozilla.org/docs/MDN/Contribute/Feedback#documentation_issues)
-- [with the MDN website](https://developer.mozilla.org/docs/MDN/Contribute/Feedback#site_issues)
-
-Learn more about you can help [submit and resolve bugs in the MDN content repo](\""https://support.mozilla.org/en-US/kb/how-can-i-help-submit-and-resolve-bugs-mdn-content"").
-
-"
-57606,Difficulties with a website in Firefox Klar for Android 100,difficulties-website-firefox-klar-android-100,https://support.mozilla.org/en-US/kb/difficulties-website-firefox-klar-android-100,en-US,A potential temporary solution if a web page is not opening correctly in Firefox Klar for Android 100.,"<p>
-</p><p>You may find that webpages do not work correctly in Firefox Klar for Android 100. This is due to the website not updating to accommodate version numbers with three characters.
-</p>
-<div class=""warning""><strong>Important:</strong> The potential temporary solution provided below requires the download and use of a preliminary version called <em>Nightly</em>. This preliminary version is only available in English language and the international name <strong>Firefox Focus for Android Nightly</strong> instead of the name <strong>Firefox Klar</strong> which is normally used in German speaking countries.</div>
-<p>If this impacts a website that you use often, there is a temporary workaround:
-</p>
-<ol><li>Install Firefox Focus for Android Nightly from the Google Play Store following <a href=""/en-US/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-nightly"">this guide</a>. This app will be kept separate to the Firefox Klar for Android you normally use, and you can remove this app later if you wish.
-</li><li>Type <strong>about:config</strong> in the address bar and tap <span class=""button"">Enter</span> to go to the <em>about:config</em> page.
-</li><li>Search for the <span class=""pref"">network.http.useragent.forceVersion</span> preference.
-</li><li>Tap in the field below the preference and set its value to <span class=""pref"">99</span>.
-</li><li>Close and reopen Firefox Focus for Android Nightly.
-</li></ol>
-<p>To help Mozilla identify the websites where this issue occurs, it would be appreciated if you could complete <a href=""https://webcompat.com/issues/new"">this form</a>.
-</p>",klar,firefox-klar-android,"You may find that webpages do not work correctly in Firefox Klar for Android 100. This is due to the website not updating to accommodate version numbers with three characters.
-
-**Important:** The potential temporary solution provided below requires the download and use of a preliminary version called _Nightly_. This preliminary version is only available in English language and the international name **Firefox Focus for Android Nightly** instead of the name **Firefox Klar** which is normally used in German speaking countries.
-
-If this impacts a website that you use often, there is a temporary workaround:
-
-1. Install Firefox Focus for Android Nightly from the Google Play Store following [this guide](\""https://support.mozilla.org/en-US/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-nightly""). This app will be kept separate to the Firefox Klar for Android you normally use, and you can remove this app later if you wish.
-2. Type **about:config** in the address bar and tap Enter to go to the _about:config_ page.
-3. Search for the network.http.useragent.forceVersion preference.
-4. Tap in the field below the preference and set its value to 99.
-5. Close and reopen Firefox Focus for Android Nightly.
-
-To help Mozilla identify the websites where this issue occurs, it would be appreciated if you could complete [this form](https://webcompat.com/issues/new).
 
 "
 57658,Firefox for Enterprise 99 - Release notes,firefox-enterprise-99-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-99-release-notes,en-US,See what's coming out with Firefox for Enterprise 99.,"<p>See what's coming out with Firefox for Enterprise 99.
@@ -103253,438 +102876,6 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 
 <dl><dt>If the DLP icon is displayed, but there is no <em>Agent Path</em> listed, it indicates that Firefox has been configured to use DLP via an Enterprise Policy, but is not connected to any DLP agent software on the computer.
 </dt></dl>"
-64692,Firefox desktop icon gallery for SUMO contributors,icon-gallery-firefox-desktop,https://support.mozilla.org/en-US/kb/icon-gallery-firefox-desktop,en-US,Access inline icons for use in Firefox Desktop KB articles.,"<p>Designed for quick access, this icon gallery is part of our strategy to <a href=""https://blog.mozilla.org/sumo/2024/04/09/keeping-you-in-the-loop-whats-new-in-our-knowledge-base/"">reduce cognitive load</a> in KB content. These icons help clearly depict interface elements in Firefox Desktop articles, making it easier for readers to follow along without overwhelming visual information. Use this resource to enhance clarity and navigability of your documentation. For tips on effective inline icon usage, refer to <a href=""/en-US/kb/how-place-images-article#w_effective-use-of-inline-images"">Add images and screenshots to Knowledge Base articles</a>.
-</p>
-<h1 id=""w_how-to-use-this-icon-gallery"">How to use this Icon Gallery</h1>
-<ol><li><strong>Select an icon:</strong> Find the icon that accurately represents the interface element you are discussing in your article.
-</li><li><strong>Copy the Wiki Code:</strong> Each icon listed below comes with a Wiki Code, allowing you to easily embed it inline within your text.
-</li><li><strong>Embed in your article:</strong> Paste the Wiki Code directly into the flow of your article.  To add images using the SUMO editor, in the toolbar, click <img alt=""IG add image"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-03-07-56-05-5d68bf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20"">, and then search for the icon you need by entering its name in the search field.
-</li></ol>
-<table>
-<tbody><tr>
-<th> Icon
-</th><th> Icon name
-</th><th> Wiki code
-</th><th> Media gallery URL
-</th><th> Alt text
-</th></tr>
-<tr>
-<td> <img alt=""IG 3-dot horizontal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-12-15-26-02-938306.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> 3-dot horizontal
-</td><td>  [[Image:IG 3-dot horizontal]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57601"">https://support.mozilla.org/en-US/gallery/image/57601</a>
-</td><td> 3-dot horizontal
-</td></tr>
-<tr>
-<td> <img alt=""IG add signature"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-02-02-42-59-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Add signature
-</td><td> [[Image:IG add signature]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/55357"">https://support.mozilla.org/en-US/gallery/image/55357</a>
-</td><td> Add signature in PDF
-</td></tr>
-<tr>
-<td> <img alt=""IG back"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-02-12-46-40-61d515.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Back
-</td><td> [[Image:IG back]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51934"">https://support.mozilla.org/en-US/gallery/image/51934</a>
-</td><td> Back
-</td></tr>
-<tr>
-<td> <img alt=""IG bookmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-19-30-7314bd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Bookmark
-</td><td> [[Image:IG bookmark]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51912"">https://support.mozilla.org/en-US/gallery/image/51912</a>
-</td><td> Bookmark
-</td></tr>
-<tr>
-<td> <img alt=""IG blocked popup"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-13-11-7dcf63.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Blocked popup
-</td><td> [[Image:IG blocked popup]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51903"">https://support.mozilla.org/en-US/gallery/image/51903</a>
-</td><td> Blocked popup
-</td></tr>
-<tr>
-<td> <img alt=""IG camera off"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-53-11-7606d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Camera off
-</td><td> [[Image:IG camera off]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51924"">https://support.mozilla.org/en-US/gallery/image/51924</a>
-</td><td> Camera off
-</td></tr>
-<tr>
-<td> <img alt=""IG camera on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-53-36-b5eae7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Camera on
-</td><td> [[Image:IG camera on]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51925"">https://support.mozilla.org/en-US/gallery/image/51925</a>
-</td><td> Camera on
-</td></tr>
-<tr>
-<td> <img alt=""IG close"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-02-12-50-44-f121cb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Close
-</td><td> [[Image:IG close]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51936"">https://support.mozilla.org/en-US/gallery/image/51936</a>
-</td><td> Close
-</td></tr>
-<tr>
-<td> <img alt=""IG cookies"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-17-32-1f9c9d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Cookies
-</td><td> [[Image:IG cookies]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51906"">https://support.mozilla.org/en-US/gallery/image/51906</a>
-</td><td> Tracking cookies
-</td></tr>
-<tr>
-<td> <img alt=""IG cookies blocked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-18-05-fdd3f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Cookies blocked
-</td><td> [[Image:IG cookies blocked]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51907"">https://support.mozilla.org/en-US/gallery/image/51907</a>
-</td><td> Tracking cookies blocked
-</td></tr>
-<tr>
-<td> <img alt=""IG critical"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-12-09-23-317ff3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Critical
-</td><td> [[Image:IG critical]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51927"">https://support.mozilla.org/en-US/gallery/image/51927</a>
-</td><td> Critical
-</td></tr>
-<tr>
-<td> <img alt=""IG cursor arrow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-40-04-5e44d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Cursor arrow
-</td><td> [[Image:IG cursor arrow]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51914"">https://support.mozilla.org/en-US/gallery/image/51914</a>
-</td><td> Cursor arrow
-</td></tr>
-<tr>
-<td> <img alt=""IG edit"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-41-26-6bcf3e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Edit
-</td><td> [[Image:IG edit]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51916"">https://support.mozilla.org/en-US/gallery/image/51916</a>
-</td><td> Edit
-</td></tr>
-<tr>
-<td> <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Edit (variation)
-</td><td> [[Image:IG edit 2]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/53452"">https://support.mozilla.org/en-US/gallery/image/53452</a>
-</td><td> Edit
-</td></tr>
-<tr>
-<td> <img alt=""IG extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-08-55-608d76.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Extensions
-</td><td> [[Image:IG extensions]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51899"">https://support.mozilla.org/en-US/gallery/image/51899</a>
-</td><td> Extensions
-</td></tr>
-<tr>
-<td> <img alt=""IG folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-18-47-b09b1b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Folder
-</td><td> [[Image:IG folder]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51908"">https://support.mozilla.org/en-US/gallery/image/51908</a>
-</td><td> Folder
-</td></tr>
-<tr>
-<td> <img alt=""IG forward"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-02-12-49-08-66dad4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Forward
-</td><td> [[Image:IG arrow right]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51935"">https://support.mozilla.org/en-US/gallery/image/51935</a>
-</td><td> Forward
-</td></tr>
-<tr>
-<td> <img alt=""IG help"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-12-09-48-cc0581.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Help
-</td><td> [[Image:IG help]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51928"">https://support.mozilla.org/en-US/gallery/image/51928</a>
-</td><td> Help
-</td></tr>
-<tr>
-<td> <img alt=""IG history"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-02-12-51-39-881876.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> History
-</td><td> [[Image:IG history]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51937"">https://support.mozilla.org/en-US/gallery/image/51937</a>
-</td><td> History
-</td></tr>
-<tr>
-<td> <img alt=""IG home"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-28-37-1e6d33.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Home
-</td><td> [[Image:IG home]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51896"">https://support.mozilla.org/en-US/gallery/image/51896</a>
-</td><td> Home button
-</td></tr>
-<tr>
-<td> <img alt=""IG information"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-02-12-54-43-18d202.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Information
-</td><td> [[Image:IG information]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51938"">https://support.mozilla.org/en-US/gallery/image/51938</a>
-</td><td> Information
-</td></tr>
-<tr>
-<td> <img alt=""IG location blocked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-47-52-b57730.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Location blocked
-</td><td> [[Image:IG location blocked]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51919"">https://support.mozilla.org/en-US/gallery/image/51919</a>
-</td><td> Location blocked
-</td></tr>
-<tr>
-<td> <img alt=""IG location on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-48-30-6bf9db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Location on
-</td><td> [[Image:IG location on]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51920"">https://support.mozilla.org/en-US/gallery/image/51920</a>
-</td><td> Location on
-</td></tr>
-<tr>
-<td> <img alt=""IG lock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-31-01-48-02-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Lock
-</td><td> [[Image:IG lock]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/56928"">https://support.mozilla.org/en-US/gallery/image/56928</a>
-</td><td> Lock
-</td></tr>
-<tr>
-<td> <img alt=""IG lock red strike"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-31-01-47-23-c81e72.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Lock red strike
-</td><td> [[Image:IG lock red strike]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51921"">https://support.mozilla.org/en-US/gallery/image/51921</a>
-</td><td> Lock with a red strike
-</td></tr>
-<tr>
-<td> <img alt=""IG lock warning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-51-12-b8c616.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Lock warning
-</td><td> [[Image:IG lock warning]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51921"">https://support.mozilla.org/en-US/gallery/image/51921</a>
-</td><td> Lock warning
-</td></tr>
-<tr>
-<td> <img alt=""IG login"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-03-06-35-08-d56b69.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Login
-</td><td> [[Image:IG login]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/56454"">https://support.mozilla.org/en-US/gallery/image/56454</a>
-</td><td> Login
-</td></tr>
-<tr>
-<td> <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Main menu
-</td><td> [[Image:IG main menu]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51702"">https://support.mozilla.org/en-US/gallery/image/51702</a>
-</td><td> Main menu
-</td></tr>
-<tr>
-<td> <img alt=""IG mic off"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-51-47-f45dfc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Mic off
-</td><td> [[Image:IG mic off]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51922"">https://support.mozilla.org/en-US/gallery/image/51922</a>
-</td><td> Microphone off
-</td></tr>
-<tr>
-<td> <img alt=""IG mic on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-11-52-24-6c2ff3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Mic on
-</td><td> [[Image:IG mic on]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51923"">https://support.mozilla.org/en-US/gallery/image/51923</a>
-</td><td> Microphone on
-</td></tr>
-<tr>
-<td> <img alt=""IG notification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-19-16-65299c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Notification
-</td><td> [[Image:IG notification]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51909"">https://support.mozilla.org/en-US/gallery/image/51909</a>
-</td><td> Notification
-</td></tr>
-<tr>
-<td> <img alt=""IG notification blocked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-19-55-56383d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Notification blocked
-</td><td> [[Image:IG notification blocked]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51910"">https://support.mozilla.org/en-US/gallery/image/51910</a>
-</td><td> Notification blocked
-</td></tr>
-<tr>
-<td> <img alt=""IG open new tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-24-02-22-33-8bcc56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Open new tab
-</td><td> [[Image:IG open new tab]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/55357"">https://support.mozilla.org/en-US/gallery/image/55357</a>
-</td><td> Open new tab
-</td></tr>
-<tr>
-<td> <img alt=""IG split view left"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-08-99304a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Split view left
-</td><td> [[Image:IG split view left]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57550"">https://support.mozilla.org/en-US/gallery/image/57550</a>
-</td><td> Split view left
-</td></tr>
-<tr>
-<td> <img alt=""IG split view right"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-40-ccb13d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Split view right
-</td><td> [[Image:IG split view right]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57551"">https://support.mozilla.org/en-US/gallery/image/57551</a>
-</td><td> Split view right
-</td></tr>
-<tr>
-<td> <img alt=""IG permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-20-03-06-49-41275a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Permissions
-</td><td> [[Image:IG permissions]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57277"">https://support.mozilla.org/en-US/gallery/image/57277</a>
-</td><td> Permissions
-</td></tr>
-<tr>
-<td> <img alt=""IG taskbar tabs add tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-19-02-45-17-f52abb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Taskbar tabs add tab
-</td><td> [[Image:IG taskbar tabs add tab]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/56861"">https://support.mozilla.org/en-US/gallery/image/56861</a>
-</td><td> Taskbar tabs add tab
-</td></tr>
-<tr>
-<td> <img alt=""IG taskbar tabs move tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-19-02-43-45-1180fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Taskbar tabs move tab
-</td><td> [[Image:IG taskbar tabs move tab]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/56860"">https://support.mozilla.org/en-US/gallery/image/56860</a>
-</td><td> Taskbar tabs move tab
-</td></tr>
-<tr>
-<td> <img alt=""IG translations"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-27-00-04-02-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Translations
-</td><td> [[Image:IG translations]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57094"">https://support.mozilla.org/en-US/gallery/image/57094</a>
-</td><td> Translations
-</td></tr>
-<tr>
-<td> <img alt=""IG trust icon active"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-26-46-ff0861.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Trust icon Active
-</td><td> [[Image:IG trust icon active]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57229"">https://support.mozilla.org/en-US/gallery/image/57229</a>
-</td><td> Trust icon Active
-</td></tr>
-<tr>
-<td> <img alt=""IG trust icon disabled"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-27-51-4bffdf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Trust icon Disabled
-</td><td> [[Image:IG trust icon disabled]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57230"">https://support.mozilla.org/en-US/gallery/image/57230</a>
-</td><td> Trust icon Disabled
-</td></tr>
-<tr>
-<td> <img alt=""IG trust icon insecure"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-28-29-c93823.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Trust icon Insecure
-</td><td> [[Image:IG trust icon insecure]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57231"">https://support.mozilla.org/en-US/gallery/image/57231</a>
-</td><td> Trust icon Insecure
-</td></tr>
-<tr>
-<td> <img alt=""IG trust icon warning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-42-40-9f815c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Trust icon Warning
-</td><td> [[Image:IG trust icon warning]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57234"">https://support.mozilla.org/en-US/gallery/image/57234</a>
-</td><td> Trust icon Warning
-</td></tr>
-<tr>
-<td> <img alt=""IG window"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-38-34-05b8c7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Window
-</td><td> [[Image:IG window]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57232"">https://support.mozilla.org/en-US/gallery/image/57232</a>
-</td><td> Window
-</td></tr>
-<tr>
-<td> <img alt=""IG window firefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-15-03-39-06-42a986.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Window Firefox
-</td><td> [[Image:IG window firefox]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57233"">https://support.mozilla.org/en-US/gallery/image/57233</a>
-</td><td> Window Firefox
-</td></tr></tbody></table>",contributor,screenshots-and-icons,"Designed for quick access, this icon gallery is part of our strategy to [reduce cognitive load](https://blog.mozilla.org/sumo/2024/04/09/keeping-you-in-the-loop-whats-new-in-our-knowledge-base/) in KB content. These icons help clearly depict interface elements in Firefox Desktop articles, making it easier for readers to follow along without overwhelming visual information. Use this resource to enhance clarity and navigability of your documentation. For tips on effective inline icon usage, refer to [Add images and screenshots to Knowledge Base articles](\""https://support.mozilla.org/en-US/kb/how-place-images-article#w_effective-use-of-inline-images"").
-
-# How to use this Icon Gallery
-
-1. **Select an icon:** Find the icon that accurately represents the interface element you are discussing in your article.
-2. **Copy the Wiki Code:** Each icon listed below comes with a Wiki Code, allowing you to easily embed it inline within your text.
-3. **Embed in your article:** Paste the Wiki Code directly into the flow of your article. To add images using the SUMO editor, in the toolbar, click ![IG add image](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), and then search for the icon you need by entering its name in the search field.
-
-| Icon | Icon name | Wiki code | Media gallery URL | Alt text |
-| --- | --- | --- | --- | --- |
-| ![IG 3-dot horizontal](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | 3-dot horizontal | [[Image:IG 3-dot horizontal]] | [https://support.mozilla.org/en-US/gallery/image/57601](https://support.mozilla.org/en-US/gallery/image/57601) | 3-dot horizontal |
-| ![IG add signature](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Add signature | [[Image:IG add signature]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Add signature in PDF |
-| ![IG back](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Back | [[Image:IG back]] | [https://support.mozilla.org/en-US/gallery/image/51934](https://support.mozilla.org/en-US/gallery/image/51934) | Back |
-| ![IG bookmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Bookmark | [[Image:IG bookmark]] | [https://support.mozilla.org/en-US/gallery/image/51912](https://support.mozilla.org/en-US/gallery/image/51912) | Bookmark |
-| ![IG blocked popup](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Blocked popup | [[Image:IG blocked popup]] | [https://support.mozilla.org/en-US/gallery/image/51903](https://support.mozilla.org/en-US/gallery/image/51903) | Blocked popup |
-| ![IG camera off](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Camera off | [[Image:IG camera off]] | [https://support.mozilla.org/en-US/gallery/image/51924](https://support.mozilla.org/en-US/gallery/image/51924) | Camera off |
-| ![IG camera on](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Camera on | [[Image:IG camera on]] | [https://support.mozilla.org/en-US/gallery/image/51925](https://support.mozilla.org/en-US/gallery/image/51925) | Camera on |
-| ![IG close](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Close | [[Image:IG close]] | [https://support.mozilla.org/en-US/gallery/image/51936](https://support.mozilla.org/en-US/gallery/image/51936) | Close |
-| ![IG cookies](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Cookies | [[Image:IG cookies]] | [https://support.mozilla.org/en-US/gallery/image/51906](https://support.mozilla.org/en-US/gallery/image/51906) | Tracking cookies |
-| ![IG cookies blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Cookies blocked | [[Image:IG cookies blocked]] | [https://support.mozilla.org/en-US/gallery/image/51907](https://support.mozilla.org/en-US/gallery/image/51907) | Tracking cookies blocked |
-| ![IG critical](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Critical | [[Image:IG critical]] | [https://support.mozilla.org/en-US/gallery/image/51927](https://support.mozilla.org/en-US/gallery/image/51927) | Critical |
-| ![IG cursor arrow](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Cursor arrow | [[Image:IG cursor arrow]] | [https://support.mozilla.org/en-US/gallery/image/51914](https://support.mozilla.org/en-US/gallery/image/51914) | Cursor arrow |
-| ![IG edit](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Edit | [[Image:IG edit]] | [https://support.mozilla.org/en-US/gallery/image/51916](https://support.mozilla.org/en-US/gallery/image/51916) | Edit |
-| ![IG edit 2](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Edit (variation) | [[Image:IG edit 2]] | [https://support.mozilla.org/en-US/gallery/image/53452](https://support.mozilla.org/en-US/gallery/image/53452) | Edit |
-| ![IG extensions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Extensions | [[Image:IG extensions]] | [https://support.mozilla.org/en-US/gallery/image/51899](https://support.mozilla.org/en-US/gallery/image/51899) | Extensions |
-| ![IG folder](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Folder | [[Image:IG folder]] | [https://support.mozilla.org/en-US/gallery/image/51908](https://support.mozilla.org/en-US/gallery/image/51908) | Folder |
-| ![IG forward](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Forward | [[Image:IG arrow right]] | [https://support.mozilla.org/en-US/gallery/image/51935](https://support.mozilla.org/en-US/gallery/image/51935) | Forward |
-| ![IG help](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Help | [[Image:IG help]] | [https://support.mozilla.org/en-US/gallery/image/51928](https://support.mozilla.org/en-US/gallery/image/51928) | Help |
-| ![IG history](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | History | [[Image:IG history]] | [https://support.mozilla.org/en-US/gallery/image/51937](https://support.mozilla.org/en-US/gallery/image/51937) | History |
-| ![IG home](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Home | [[Image:IG home]] | [https://support.mozilla.org/en-US/gallery/image/51896](https://support.mozilla.org/en-US/gallery/image/51896) | Home button |
-| ![IG information](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Information | [[Image:IG information]] | [https://support.mozilla.org/en-US/gallery/image/51938](https://support.mozilla.org/en-US/gallery/image/51938) | Information |
-| ![IG location blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Location blocked | [[Image:IG location blocked]] | [https://support.mozilla.org/en-US/gallery/image/51919](https://support.mozilla.org/en-US/gallery/image/51919) | Location blocked |
-| ![IG location on](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Location on | [[Image:IG location on]] | [https://support.mozilla.org/en-US/gallery/image/51920](https://support.mozilla.org/en-US/gallery/image/51920) | Location on |
-| ![IG lock](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Lock | [[Image:IG lock]] | [https://support.mozilla.org/en-US/gallery/image/56928](https://support.mozilla.org/en-US/gallery/image/56928) | Lock |
-| ![IG lock red strike](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Lock red strike | [[Image:IG lock red strike]] | [https://support.mozilla.org/en-US/gallery/image/51921](https://support.mozilla.org/en-US/gallery/image/51921) | Lock with a red strike |
-| ![IG lock warning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Lock warning | [[Image:IG lock warning]] | [https://support.mozilla.org/en-US/gallery/image/51921](https://support.mozilla.org/en-US/gallery/image/51921) | Lock warning |
-| ![IG login](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Login | [[Image:IG login]] | [https://support.mozilla.org/en-US/gallery/image/56454](https://support.mozilla.org/en-US/gallery/image/56454) | Login |
-| ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Main menu | [[Image:IG main menu]] | [https://support.mozilla.org/en-US/gallery/image/51702](https://support.mozilla.org/en-US/gallery/image/51702) | Main menu |
-| ![IG mic off](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Mic off | [[Image:IG mic off]] | [https://support.mozilla.org/en-US/gallery/image/51922](https://support.mozilla.org/en-US/gallery/image/51922) | Microphone off |
-| ![IG mic on](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Mic on | [[Image:IG mic on]] | [https://support.mozilla.org/en-US/gallery/image/51923](https://support.mozilla.org/en-US/gallery/image/51923) | Microphone on |
-| ![IG notification](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification | [[Image:IG notification]] | [https://support.mozilla.org/en-US/gallery/image/51909](https://support.mozilla.org/en-US/gallery/image/51909) | Notification |
-| ![IG notification blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification blocked | [[Image:IG notification blocked]] | [https://support.mozilla.org/en-US/gallery/image/51910](https://support.mozilla.org/en-US/gallery/image/51910) | Notification blocked |
-| ![IG open new tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Open new tab | [[Image:IG open new tab]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Open new tab |
-| ![IG split view left](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view left]] | [https://support.mozilla.org/en-US/gallery/image/57550](https://support.mozilla.org/en-US/gallery/image/57550) | Split view left |
-| ![IG split view right](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view right | [[Image:IG split view right]] | [https://support.mozilla.org/en-US/gallery/image/57551](https://support.mozilla.org/en-US/gallery/image/57551) | Split view right |
-| ![IG permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Permissions | [[Image:IG permissions]] | [https://support.mozilla.org/en-US/gallery/image/57277](https://support.mozilla.org/en-US/gallery/image/57277) | Permissions |
-| ![IG taskbar tabs add tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs add tab | [[Image:IG taskbar tabs add tab]] | [https://support.mozilla.org/en-US/gallery/image/56861](https://support.mozilla.org/en-US/gallery/image/56861) | Taskbar tabs add tab |
-| ![IG taskbar tabs move tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs move tab | [[Image:IG taskbar tabs move tab]] | [https://support.mozilla.org/en-US/gallery/image/56860](https://support.mozilla.org/en-US/gallery/image/56860) | Taskbar tabs move tab |
-| ![IG translations](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Translations | [[Image:IG translations]] | [https://support.mozilla.org/en-US/gallery/image/57094](https://support.mozilla.org/en-US/gallery/image/57094) | Translations |
-| ![IG trust icon active](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Active | [[Image:IG trust icon active]] | [https://support.mozilla.org/en-US/gallery/image/57229](https://support.mozilla.org/en-US/gallery/image/57229) | Trust icon Active |
-| ![IG trust icon disabled](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Disabled | [[Image:IG trust icon disabled]] | [https://support.mozilla.org/en-US/gallery/image/57230](https://support.mozilla.org/en-US/gallery/image/57230) | Trust icon Disabled |
-| ![IG trust icon insecure](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Insecure | [[Image:IG trust icon insecure]] | [https://support.mozilla.org/en-US/gallery/image/57231](https://support.mozilla.org/en-US/gallery/image/57231) | Trust icon Insecure |
-| ![IG trust icon warning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Trust icon Warning | [[Image:IG trust icon warning]] | [https://support.mozilla.org/en-US/gallery/image/57234](https://support.mozilla.org/en-US/gallery/image/57234) | Trust icon Warning |
-| ![IG window](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Window | [[Image:IG window]] | [https://support.mozilla.org/en-US/gallery/image/57232](https://support.mozilla.org/en-US/gallery/image/57232) | Window |
-| ![IG window firefox](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Window Firefox | [[Image:IG window firefox]] | [https://support.mozilla.org/en-US/gallery/image/57233](https://support.mozilla.org/en-US/gallery/image/57233) | Window Firefox |
-
-"
-64703,Firefox for Enterprise 126 - Release notes,firefox-enterprise-126-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-126-release-notes,en-US,See what's coming out with Firefox for Enterprise 126.,"<p>Except where noted, everything here applies to both Firefox 126 and the Firefox 115.11 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-esr-128""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Firefox ESR 128</span></a></li></ul></li></ul></div>
-<h1 id=""w_bug-fixes"">Bug Fixes</h1>
-<ul><li>Locking the Proxy policy now locks all options even if you don't change any values. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1876555"">bug 1876555</a>.
-</li><li>The ""Tabs from other devices"" section no longer shows in Firefox View if you have Accounts disabled. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1861400"">bug 1861400</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://mozilla.github.io/policy-templates/#translateenabled"">TranslateEnabled</a> policy has been added. (This does not apply to the ESR.)
-</li><li>The <a href=""https://mozilla.github.io/policy-templates/#preferences"">Preferences</a> policy has been updated to allow setting the preferences <span class=""pref"">privacy.userContext.enabled</span> and <span class=""pref"">privacy.userContext.ui.enabled</span>.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<h2 id=""w_firefox-esr-128"">Firefox ESR 128</h2>
-<p>Firefox 128 is the next ESR and will be released on July 9, 2024.
-</p><p>If you use the ESR, we strongly recommend that you start testing with Firefox Nightly to see if there are any issues you have with the next ESR.
-</p><p>If you need to prevent upgrades for any reason, you can use the new AppUpdatePin policy.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 126 and the Firefox 115.11 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
-
-## Table of Contents
-
-- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-126-release-notes#w_bug-fixes)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-126-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-126-release-notes#w_special-notes)
-  - [3.1 Firefox ESR 128](https://support.mozilla.org/kb/firefox-enterprise-126-release-notes#w_firefox-esr-128)
-
-# Bug Fixes
-
-- Locking the Proxy policy now locks all options even if you don't change any values. This was fixed in [bug 1876555](https://bugzilla.mozilla.org/show_bug.cgi?id=1876555).
-- The ""Tabs from other devices"" section no longer shows in Firefox View if you have Accounts disabled. This was fixed in [bug 1861400](https://bugzilla.mozilla.org/show_bug.cgi?id=1861400).
-
-# Policies
-
-- The [TranslateEnabled](https://mozilla.github.io/policy-templates/#translateenabled) policy has been added. (This does not apply to the ESR.)
-- The [Preferences](https://mozilla.github.io/policy-templates/#preferences) policy has been updated to allow setting the preferences privacy.userContext.enabled and privacy.userContext.ui.enabled.
-
-# Special Notes
-
-## Firefox ESR 128
-
-Firefox 128 is the next ESR and will be released on July 9, 2024.
-
-If you use the ESR, we strongly recommend that you start testing with Firefox Nightly to see if there are any issues you have with the next ESR.
-
-If you need to prevent upgrades for any reason, you can use the new AppUpdatePin policy.
-
-"
 64705,How to report inappropriate content on Mozilla Support,report-inappropriate-content,https://support.mozilla.org/en-US/kb/report-inappropriate-content,en-US,Learn how to report inappropriate content on Mozilla Support,"<h1 id=""w_whats-considered-inapropriate"">What's considered inapropriate</h1>
 <p>The following content is considered inappropriate based on our <a href=""/en-US/kb/moderation-guidelines"">Forum Moderation Guidelines</a>:
 </p>
@@ -123610,7 +122801,7 @@ Pro to the public once the Early Bird release concludes. </div>
 <ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt;  <span class=""menu"">New Account</span> &gt; <span class=""menu"">Email</span>.
 </li><li> Enter your Thundermail email address and follow the prompts to set up your Thundermail email account.
 </li></ol>
-<p>Thunderbird should have automatically added your Thundermail email in <a href=""/en-US/kb/configuration-options-accounts"">account settings</a>, a CalDAV calendar called <strong>Thundermail Calendar</strong> in your Thunderbird calendar <a href=""/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"">space</a> (press <span class=""for"" data-for=""not mac""><span class=""key"">Alt</span> + <span class=""key"">3</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">3</span></span>), and a CardDAV address book called <strong>Thundermail Address Book</strong> in your address book <a href=""/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"">space</a> (press <span class=""for"" data-for=""not mac""><span class=""key"">Alt</span> + <span class=""key"">2</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">2</span></span>) to check). If any of those are missing, please try changing the settings to those in the manual settings sections below, and please <a href=""https://accounts.tb.pro/contact/"">create a Thunderbird Pro support ticket</a>.
+<p>Thunderbird should have automatically added your Thundermail email in <a href=""/en-US/kb/configuration-options-accounts"">account settings</a>, a CalDAV calendar called <strong>Thundermail Calendar</strong> in your Thunderbird calendar <a href=""/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"">space</a> (press <span class=""for"" data-for=""not mac""><span class=""key"">Alt</span> + <span class=""key"">3</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">3</span></span>), and a CardDAV address book called <strong>Thundermail Address Book</strong> in your address book <a href=""/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"">space</a> (press <span class=""for"" data-for=""not mac""><span class=""key"">Alt</span> + <span class=""key"">2</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">2</span></span>) to check). If any of those are missing, please try changing the settings to those in the manual settings sections below, and please <a href=""https://accounts.tb.pro/contact/"">create a Thunderbird Pro support ticket</a> if you have any issues.
 </p><p><br>
 </p>
 <h1 id=""w_manual-settings"">Manual settings</h1>
@@ -123639,14 +122830,14 @@ Pro to the public once the Early Bird release concludes. </div>
 </li><li> <strong>Authentication method:</strong> OAuth2
 </li></ul>
 <h2 id=""w_thundermail-calendar"">Thundermail Calendar</h2>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span>  &gt; <span class=""menu"">New Account</span> &gt; <span class=""menu"">Calendar</span> &gt; <span class=""button"">On the Network</span>.
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Account</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add Account</span></span> &gt; <span class=""menu"">Calendar</span> &gt; <span class=""button"">On the Network</span>.
 </li><li> For <strong>Username:</strong>, enter your Thundermail email address. For example <strong>nemo@thundermail.com</strong>.
 </li><li> For <strong>Location</strong>, enter <strong><a href=""http://mail.thundermail.com"">mail.thundermail.com</a></strong>.
 </li><li> Click <span class=""button"">Find Calendars</span>.
 </li><li> In the <strong>Create New Calendar</strong> dialog, select your Thundermail calendar and click <span class=""button"">Subscribe</span>.
 </li></ol>
 <h2 id=""w_thundermail-address-book"">Thundermail Address Book</h2>
-<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span>  &gt; <span class=""menu"">New Account</span> &gt; <span class=""menu"">New Address Book</span> &gt; <span class=""button"">New remote Address Book</span>.
+<ol><li> Click Thunderbird app menu <span class=""menu"">☰</span>  &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Account</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add Account</span></span> &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Address Book</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Address Book</span></span> &gt; <span class=""for"" data-for=""not tb152""><span class=""button"">New remote Address Book</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add remote Address Book</span></span>.
 </li><li>  For <strong>Username:</strong>, enter your Thundermail email address. For example <strong>nemo@thundermail.com</strong>.
 </li><li> For <strong>URL/Hostname</strong>, enter <strong><a href=""https://mail.thundermail.com"">https://mail.thundermail.com</a></strong>.
 </li><li> Click <span class=""button"">Continue</span>.
@@ -123684,7 +122875,7 @@ Pro to the public once the Early Bird release concludes. </div>
 1. Click Thunderbird app menu ☰ \> New Account \> Email.
 2. Enter your Thundermail email address and follow the prompts to set up your Thundermail email account.
 
-Thunderbird should have automatically added your Thundermail email in [account settings](\""https://support.mozilla.org/en-US/kb/configuration-options-accounts""), a CalDAV calendar called **Thundermail Calendar** in your Thunderbird calendar [space](\""https://support.mozilla.org/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"") (press Alt + 3Ctrl + 3), and a CardDAV address book called **Thundermail Address Book** in your address book [space](\""https://support.mozilla.org/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"") (press Alt + 2Ctrl + 2) to check). If any of those are missing, please try changing the settings to those in the manual settings sections below, and please [create a Thunderbird Pro support ticket](https://accounts.tb.pro/contact/).
+Thunderbird should have automatically added your Thundermail email in [account settings](\""https://support.mozilla.org/en-US/kb/configuration-options-accounts""), a CalDAV calendar called **Thundermail Calendar** in your Thunderbird calendar [space](\""https://support.mozilla.org/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"") (press Alt + 3Ctrl + 3), and a CardDAV address book called **Thundermail Address Book** in your address book [space](\""https://support.mozilla.org/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"") (press Alt + 2Ctrl + 2) to check). If any of those are missing, please try changing the settings to those in the manual settings sections below, and please [create a Thunderbird Pro support ticket](https://accounts.tb.pro/contact/) if you have any issues.
 
 # Manual settings
 
@@ -123729,7 +122920,7 @@ If Thunderbird failed to add the expected items or you need to adjust them, plea
 </ul>
 <h2 id=""w_thundermail-calendar"">Thundermail Calendar</h2>
 <ol>
-<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""menu"">New Account</span> &gt; <span class=""menu"">Calendar</span> &gt; <span class=""button"">On the Network</span>.
+<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Account</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add Account</span></span> &gt; <span class=""menu"">Calendar</span> &gt; <span class=""button"">On the Network</span>.
 </li>
 <li> For <strong>Username:</strong>, enter your Thundermail email address. For example <strong>nemo@thundermail.com</strong>.
 </li>
@@ -123742,7 +122933,7 @@ If Thunderbird failed to add the expected items or you need to adjust them, plea
 </ol>
 <h2 id=""w_thundermail-address-book"">Thundermail Address Book</h2>
 <ol>
-<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""menu"">New Account</span> &gt; <span class=""menu"">New Address Book</span> &gt; <span class=""button"">New remote Address Book</span>.
+<li> Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Account</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add Account</span></span> &gt; <span class=""for"" data-for=""not tb152""><span class=""menu"">New Address Book</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Address Book</span></span> &gt; <span class=""for"" data-for=""not tb152""><span class=""button"">New remote Address Book</span></span><span class=""for"" data-for=""tb152""><span class=""menu"">Add remote Address Book</span></span>.
 </li>
 <li> For <strong>Username:</strong>, enter your Thundermail email address. For example <strong>nemo@thundermail.com</strong>.
 </li>
