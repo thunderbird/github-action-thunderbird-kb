@@ -12511,622 +12511,6 @@ The bookmark backup file can either be a [manual backup](https://support.mozilla
 After upgrading or downgrading your Windows 10 operating system, a directory named Windows.old is created, and most of the data erased from the upgrade or downgrade is stored there. One especially useful item is the Bookmarks from Firefox. Follow the instructions in [Restoring from backups](https://support.mozilla.org/kb/restore-bookmarks-from-backup-or-move-them#w_restoring-from-backups) above, and when you select Choose File…, follow the path _C:\Windows.old\Users\\<UserName\>\AppData\Roaming\Mozilla\Firefox\Profiles\\<filename.default\>\bookmarkbackups_ to your previous bookmarks. Check the file date for information when the backup was created. Be aware using a backup bookmark folder will replace all the bookmarks in Firefox with the bookmarks in the backup file.
 
 "
-750,Bookmarks in Firefox,bookmarks-firefox,https://support.mozilla.org/en-US/kb/bookmarks-firefox,en-US,Bookmarks are links to web pages that make it easy to get back to your favorite places. Learn the basics of making and managing bookmarks.,"<p><strong>Bookmarks</strong> <span class=""for"" data-for=""win"">(called <em>Favorites</em> in Microsoft Edge) </span>are links you save to web pages that make it easy to get back to your favorite places. This article covers the basics of creating and managing Firefox bookmarks.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-bookmark-a-page""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I bookmark a page?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-change-the-name-or-location-of-a-bookmark""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I change the name or location of a bookmark?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-delete-a-bookmark""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I delete a bookmark?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-organize-my-bookmarks""><span class=""tocnumber"">4</span> <span class=""toctext"">How do I organize my bookmarks?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-access-my-bookmarks""><span class=""tocnumber"">5</span> <span class=""toctext"">How do I access my bookmarks?</span></a><ul><li class=""toclevel-2""><a href=""#w_address-bar-search""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Address Bar Search</span></a></li><li class=""toclevel-2""><a href=""#w_bookmarks-toolbar""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Bookmarks Toolbar</span></a><ul><li class=""toclevel-3""><a href=""#w_other-bookmarks-folder""><span class=""tocnumber"">5.2.1</span> <span class=""toctext"">Other Bookmarks folder</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_firefox-sidebar-and-menu""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Firefox Sidebar and Menu</span></a></li><li class=""toclevel-2""><a href=""#w_bookmarks-menu-button-on-the-toolbar""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Bookmarks Menu button on the toolbar</span></a><ul><li class=""toclevel-3""><a href=""#w_how-do-i-add-the-bookmarks-menu-button-to-the-toolbar""><span class=""tocnumber"">5.4.1</span> <span class=""toctext"">How do I add the Bookmarks Menu button to the toolbar?</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-use-keywords-with-bookmarks""><span class=""tocnumber"">6</span> <span class=""toctext"">How to use keywords with bookmarks</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-import-bookmarks-from-another-browser-or-profile""><span class=""tocnumber"">7</span> <span class=""toctext"">How do I import bookmarks from another browser or profile?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-restore-bookmarks-from-backup""><span class=""tocnumber"">8</span> <span class=""toctext"">How do I restore bookmarks from backup?</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">9</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_how-do-i-bookmark-a-page"">How do I bookmark a page?</h1>
-<p>To bookmark a page, just click on the star in the address bar.
-</p>
-<dl><dt><img alt=""Fx89 bookmarks star address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-29-08-04-12-b88ff3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>The star will turn blue when the page is bookmarked and a window will pop up so you can name, move, or tag your bookmark.
-</p>
-<div class=""note""><strong>To bookmark all open tabs in a window at once:</strong>
-<div class=""for"" data-for=""mac"">
-<ol><li>Select <span class=""menu"">Bookmark All Tabs…</span> from the Bookmarks menu.
-<dl><dt><img alt=""Fx64MenuBar-BookmarkAllTabs-Mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-12-20-03-56-27-cfb64c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Give the new bookmarks folder a name and choose which folder to store it in.
-</li><li>Click <span class=""button"">Add Bookmarks</span> to finish.
-</li></ol>
-</div><div class=""for"" data-for=""win,linux"">
-<ol><li>Right-click on any of the tabs and choose <span class=""menu"">Select All Tabs</span> from the context menu.
-</li><li>Right-click on any tab again and select <span class=""menu"">Bookmark Tabs…</span>.
-</li><li>Give the new bookmarks folder a name and choose which folder to store it in.
-</li><li>Click <span class=""button"">Add Bookmarks</span> to finish.
-</li></ol>
-</div>
-<span class=""for"" data-for=""win,mac"">You can also use the keyboard shortcut <span class=""for"" data-for=""win""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">D</span></span><span class=""for"" data-for=""mac""><span class=""key"">command</span> + <span class=""key"">Shift</span> + <span class=""key"">D</span></span> to bookmark all open tabs in the current window.</span></div>
-<h1 id=""w_how-do-i-change-the-name-or-location-of-a-bookmark"">How do I change the name or location of a bookmark?</h1>
-<p>To edit the details of your bookmark:
-</p>
-<ol><li>Click the star a second time to open the <em>Edit Bookmark</em> dialog box.
-<dl><dt><img alt=""Fx89EditBookmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-29-08-47-09-2b24fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>In the <em>Edit bookmark</em> box, you can change any of these details:
-<ul><li><strong>Name:</strong> This is the name that Firefox displays for the bookmark in menus.
-</li><li><strong>Location:</strong> Choose what folder to store your bookmark in by picking one from the drop-down menu (for example, the <span class=""menu"">Bookmarks Menu</span> or <span class=""menu"">Bookmarks Toolbar</span>). In that drop-down menu, you can also select <span class=""menu"">Choose…</span> to see a list of all bookmarks folders or create a new one.<br>By default, bookmarks are saved in the last used folder (or in the <em>Bookmarks Toolbar</em>, if you are bookmarking your first page).
-</li><li><strong>Tags:</strong> You can use tags to help you search through and organize your bookmarks. For more information, see <a href=""/en-US/kb/categorizing-bookmarks-make-them-easy-to-find"">Bookmark Tags - Categorize bookmarks to make them easy to find</a>.
-</li></ul>
-</li><li>When you have finished editing, click <span class=""button"">Save</span> to close the box.
-</li></ol>
-<div class=""note""><strong>Tip:</strong> If you don't want to see this editor when saving a bookmark, uncheck <strong>Show editor when saving</strong>.</div>
-<h1 id=""w_how-do-i-delete-a-bookmark"">How do I delete a bookmark?</h1>
-<p>See <a href=""/en-US/kb/how-do-i-delete-bookmark"">How do I delete a bookmark?</a> to remove one from your Firefox browser.
-</p>
-<h1 id=""w_how-do-i-organize-my-bookmarks"">How do I organize my bookmarks?</h1>
-<p>The <em>Library</em> window lets you view and organize all of your bookmarks. You can open the <em>Bookmarks Library</em> window as shown below.
-</p><p>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
- Click <span class=""menu"">Bookmarks</span> and then click the <span class=""menu"">Manage bookmarks</span> bar at the bottom.
-
-</p>
-<div class=""note""><strong>Tip:</strong> You can also use the keyboard shortcut <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">O</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">Shift</span> + <span class=""key"">O</span></span> to quickly open your <em>Bookmarks Library</em>.</div>
-<dl><dt><img alt=""Fx63Library-OtherBookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-17-12-03-09-8df39b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>In the <em>Bookmarks Library window</em> you can:
-</p>
-<ul><li>Drag and drop your bookmarks into other folders. See <a href=""/en-US/kb/bookmark-folders-organize-your-bookmarks"">Use bookmark folders to organize your bookmarks</a> to learn more. There are some special folders:
-<ul><li><strong>Bookmarks Menu:</strong> Bookmarks in this folder will appear in the Firefox Sidebar and Menu bar<span class=""for"" data-for=""win,linux""> or toolbar</span> Bookmarks menu.
-</li><li><strong>Bookmarks Toolbar:</strong> Bookmarks in this folder will appear in the <a href=""#w_bookmarks-toolbar"">Bookmarks Toolbar</a>, if it's turned on.
-</li></ul>
-</li><li><a href=""/en-US/kb/sort-bookmarks-quickly-find-ones-you-want"">Sort your bookmarks to quickly find the ones you want</a>.
-</li><li>Search your bookmarks by name.
-</li><li>Edit your bookmarks' details, including <a href=""#w_how-to-use-keywords-with-bookmarks"">keywords</a> (see below).
-</li><li>Open a bookmark in the current tab by double-clicking on it.
-</li><li><span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- on a bookmark to view other options in the context menu, such as <span class=""menu"">Open in New Tab</span>, <span class=""menu"">Open in New Private Window</span>, <span class=""menu"">Delete Bookmark</span>, etc.
-</li><li><a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Backup, restore</a>, <a href=""/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer"">export</a> and <a href=""/en-US/kb/import-bookmarks-html-file"">import</a> your bookmarks.
-</li></ul>
-<h1 id=""w_how-do-i-access-my-bookmarks"">How do I access my bookmarks?</h1>
-<h2 id=""w_address-bar-search"">Address Bar Search</h2>
-<p>You can search bookmarked pages by typing their name in the address bar. As you type, a list of web pages that you've bookmarked, tagged and visited will appear. Bookmarked pages will have a star next to them. The search can be restricted to bookmarks if you start with <code>*</code> and a space. Then simply click one of the pages, and you'll be taken there instantly. To learn more, see <a href=""/en-US/kb/address-bar-autocomplete-firefox"">Address bar autocomplete suggestions in Firefox</a>.
-</p><p>Alternatively, you can activate bookmark searching from the main menu:
-</p>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
-
-</li><li>Click <span class=""menu"">Bookmarks</span>.
-</li><li>Activate bookmark searching by clicking <span class=""menu"">Search bookmarks</span>.
-</li><li>Type the name of the bookmark you're looking for into the address bar.
-</li></ol>
-<p>Firefox will display only the matching bookmarks as you type.
-</p>
-<div class=""note""><strong>Note:</strong> <span class=""menu"">Search bookmarks</span> is also available in the Bookmarks menu, accessible if you added the <a href=""#w_bookmarks-menu-button-on-the-toolbar"">Bookmarks Menu</a><img alt=""Bookmarks Menu button - Proton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-19-21-15-40-ba2c56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to the toolbar.</div>
-<h2 id=""w_bookmarks-toolbar"">Bookmarks Toolbar</h2>
-<p>Firefox's <a href=""/en-US/kb/bookmarks-toolbar-display-favorite-websites"">Bookmarks toolbar</a> gives you quick access to often-used bookmarks. For new users, bookmarks are placed by default here.
-</p>
-<dl><dt><img alt=""bookmarks toolbar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-26-44-cd454e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>To enable the Bookmarks Toolbar:
-</p><div class=""for"" data-for=""win,linux"">
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, then click <span class=""menu"">More tools</span> and select <span class=""menu"">Customize Toolbar…</span>
-
-</li><li>Select the <span class=""menu"">Toolbars</span> dropdown menu at the bottom of the window.
-</li><li>Select <span class=""menu"">Bookmarks Toolbar</span>. 
-<ul><li>The menu options <span class=""menu"">Always Show</span>, <span class=""menu"">Never Show</span> and <span class=""menu"">Only Show on New Tab</span> will be available for you to choose when you want the Bookmarks Toolbar to be visible.
-</li></ul>
-</li><li>Click the <span class=""button"">Done</span> button when you're finished.
-</li></ol>
-</div><div class=""for"" data-for=""mac"">
-<dl><dt><img alt=""Bookmarks Toolbar Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-03-08-26-01-17c78e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ol><li>Click the <span class=""menu"">View</span> menu at the top of the screen and go down to <span class=""menu"">Toolbars</span>.
-</li><li>Select <span class=""menu"">Bookmarks Toolbar</span>. The menu options <span class=""menu"">Always Show</span>, <span class=""menu"">Never Show</span> and <span class=""menu"">Only Show on New Tab</span> will be available for you to choose when you want the Bookmarks Toolbar to be visible.
-</li></ol>
-</div>
-<div class=""note""><strong>Tip:</strong> You can also use the keyboard shortcut <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">B</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">Shift</span> + <span class=""key"">B</span></span> to show or hide the Bookmarks Toolbar.</div>
-<p>To learn more, see <a href=""/en-US/kb/bookmarks-toolbar-display-favorite-websites"">Bookmarks Toolbar - Display your favorite websites at the top of the Firefox window</a>.
-</p>
-<h3 id=""w_other-bookmarks-folder"">Other Bookmarks folder</h3>
-<p>You will see an <em>Other Bookmarks</em> folder icon at the end of the Bookmarks toolbar if the <em>Other Bookmarks</em> folder in your Library contains any bookmarks. This makes it easier to find bookmarks stored in that folder. To remove the <em>Other Bookmarks</em> folder icon from the Bookmarks toolbar, see <a href=""/en-US/kb/remove-other-bookmarks-folder-from-bookmarks-toolbar"">Remove the Other Bookmarks folder from the Bookmarks Toolbar</a>.
-</p>
-<h2 id=""w_firefox-sidebar-and-menu"">Firefox Sidebar and Menu</h2>
-<p>You can view and access all of your bookmarks from the <a href=""/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"">Firefox Sidebar</a> and from the Menu bar <span class=""menu"">Bookmarks</span> menu<span class=""for"" data-for=""win,linux"">, if the <a href=""/en-US/kb/restore-menu-bar-firefox"">Menu bar</a> is enabled</span>.
-</p>
-<h2 id=""w_bookmarks-menu-button-on-the-toolbar"">Bookmarks Menu button on the toolbar</h2>
-<p>
-The Bookmarks Menu <img alt=""Bookmarks Menu button - Proton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-19-21-15-40-ba2c56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> toolbar button is not shown by default, but you can add it by <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">customizing your Firefox toolbar</a>.
-</p>
-<h3 id=""w_how-do-i-add-the-bookmarks-menu-button-to-the-toolbar"">How do I add the Bookmarks Menu button to the toolbar?</h3>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, then click <span class=""menu"">More tools</span> and select <span class=""menu"">Customize Toolbar…</span>
-
-<ul><li>A special tab will open which allows you to drag and drop items in or out of the overflow menu and the toolbar.
-</li></ul>
-</li><li>Drag the Bookmarks Menu <img alt=""Bookmarks Menu button - Proton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-06-19-21-15-40-ba2c56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to the toolbar.
-</li><li>Click <span class=""button"">Done</span>.
-</li></ol>
-<p>To remove the button, use the above steps to drag the Bookmarks Menu button out of the toolbar.
-</p>
-<h1 id=""w_how-to-use-keywords-with-bookmarks"">How to use keywords with bookmarks</h1>
-<p>You can use <em>keywords</em> to easily access your bookmarks. When you assign a keyword to a bookmark, you can simply type the keyword into the address bar and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span> to open the bookmark. Any words supplied <em>after</em> the bookmark keyword and a space will be URL-encoded and substituted into the bookmark's URL in place of the <code>%s</code> placeholder, wherever that appears; see below for details.
-</p><p>To assign a keyword to a bookmark:
-</p>
-<ol><li>Open the <a href=""#w_how-do-i-organize-my-bookmarks"">Library window</a> and select the bookmark.
-</li><li>Click the keyword field at the bottom of the window.
-</li><li>Type your desired keyword.
-<ul><li>The keyword may contain letters, digits and special characters (for example: <code>- _ ' "" , . : ; = / \ ( ) [ ] { } ! &amp; @ ~</code>). It must not contain spaces and must not start or end with these characters: <code>? * ^ $ % # +</code>
-</li><li> Wherever the string <code>%s</code> appears in the bookmark's URL, it will be replaced with any words typed in the address bar after the bookmark's keyword and a space, properly URL-encoded, so they can be used as query string parameters to a search engine, for example.
-<ul><li> <strong>Example:</strong> use <strong><code>mdn</code></strong> as the keyword for the URL <a href=""https://developer.mozilla.org/search?q=%s"">https://developer.mozilla.org/search?q=%s</a>; type <strong><code>mdn css border-radius</code></strong> in the address bar to test it.
-</li></ul>
-</li><li>The keyword must not be the same as a <a href=""/en-US/kb/assign-shortcuts-search-engines"">search engine's keyword</a>. For instance, if a search engine has the keyword <strong><code>@g</code></strong>, the bookmark's keyword cannot be <strong><code>@g</code></strong>, but it can be <strong><code>g</code></strong>.
-</li><li>If the chosen keyword was already assigned to another bookmark, it will be reassigned to the new one.
-</li></ul>
-</li></ol>
-<div class=""note""><strong>Note:</strong> Outside the Library, you can access the keyword field from the context menu by <span class=""for"" data-for=""win,linux"">right-clicking</span><span class=""for"" data-for=""mac"">holding down the <span class=""key"">Control</span> key while you click</span> the bookmark and then selecting <span class=""menu"">Edit Bookmark</span>.</div>
-<h1 id=""w_how-do-i-import-bookmarks-from-another-browser-or-profile"">How do I import bookmarks from another browser or profile?</h1>
-<p>Firefox lets you import bookmarks from other browsers installed on your computer. It also lets you import other data, such as browsing history and saved passwords, from some of these browsers. To learn more, see <a href=""/en-US/kb/import-data-another-browser"">Import data from another browser</a>.
-</p>
-<h1 id=""w_how-do-i-restore-bookmarks-from-backup"">How do I restore bookmarks from backup?</h1>
-<p>To restore bookmarks, see <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>. Sync does not guarantee a backup, and restoring a backup may overwrite synced data. If you run into file restore fails or your bookmarks are suddenly lost when restarting Firefox, see <a href=""/en-US/kb/recover-lost-or-missing-bookmarks"">Recover lost or missing Bookmarks</a>.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly#w_bookmarks"">Bookmarks section of Keyboard Shortcuts</a> 
-</li><li><a href=""/en-US/kb/bookmark-folders-organize-your-bookmarks"">Use bookmark folders to organize your bookmarks</a>
-</li><li><a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Set up Sync to share bookmarks, open tabs and more with another profile, computer or mobile device</a>.
-</li></ul>",firefox,bookmarks;browse," **Bookmarks** (called _Favorites_ in Microsoft Edge) are links you save to web pages that make it easy to get back to your favorite places. This article covers the basics of creating and managing Firefox bookmarks.
-
-## Table of Contents
-
-- [1 How do I bookmark a page?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-bookmark-a-page)
-- [2 How do I change the name or location of a bookmark?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-change-the-name-or-location-of-a-bookmark)
-- [3 How do I delete a bookmark?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-delete-a-bookmark)
-- [4 How do I organize my bookmarks?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-organize-my-bookmarks)
-- [5 How do I access my bookmarks?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-access-my-bookmarks)
-  - [5.1 Address Bar Search](https://support.mozilla.org/kb/bookmarks-firefox#w_address-bar-search)
-  - [5.2 Bookmarks Toolbar](https://support.mozilla.org/kb/bookmarks-firefox#w_bookmarks-toolbar)
-    - [5.2.1 Other Bookmarks folder](https://support.mozilla.org/kb/bookmarks-firefox#w_other-bookmarks-folder)
-
-  - [5.3 Firefox Sidebar and Menu](https://support.mozilla.org/kb/bookmarks-firefox#w_firefox-sidebar-and-menu)
-  - [5.4 Bookmarks Menu button on the toolbar](https://support.mozilla.org/kb/bookmarks-firefox#w_bookmarks-menu-button-on-the-toolbar)
-    - [5.4.1 How do I add the Bookmarks Menu button to the toolbar?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-add-the-bookmarks-menu-button-to-the-toolbar)
-
-- [6 How to use keywords with bookmarks](https://support.mozilla.org/kb/bookmarks-firefox#w_how-to-use-keywords-with-bookmarks)
-- [7 How do I import bookmarks from another browser or profile?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-import-bookmarks-from-another-browser-or-profile)
-- [8 How do I restore bookmarks from backup?](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-restore-bookmarks-from-backup)
-- [9 Related articles](https://support.mozilla.org/kb/bookmarks-firefox#w_related-articles)
-
-# How do I bookmark a page?
-
-To bookmark a page, just click on the star in the address bar.
-
-<dl><dt>
-<img alt=""Fx89 bookmarks star address bar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-29-08-04-12-b88ff3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-The star will turn blue when the page is bookmarked and a window will pop up so you can name, move, or tag your bookmark.
-
-**To bookmark all open tabs in a window at once:**
-
-1. Select Bookmark All Tabs… from the Bookmarks menu.<dl><dt>
-<img alt=""Fx64MenuBar-BookmarkAllTabs-Mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-12-20-03-56-27-cfb64c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Give the new bookmarks folder a name and choose which folder to store it in.
-3. Click Add Bookmarks to finish.
-
-1. Right-click on any of the tabs and choose Select All Tabs from the context menu.
-2. Right-click on any tab again and select Bookmark Tabs….
-3. Give the new bookmarks folder a name and choose which folder to store it in.
-4. Click Add Bookmarks to finish.
-
-You can also use the keyboard shortcut Ctrl + Shift + Dcommand + Shift + D to bookmark all open tabs in the current window.
-
-# How do I change the name or location of a bookmark?
-
-To edit the details of your bookmark:
-
-1. Click the star a second time to open the _Edit Bookmark_ dialog box.<dl><dt>
-<img alt=""Fx89EditBookmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-29-08-47-09-2b24fb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. In the _Edit bookmark_ box, you can change any of these details:
-  - **Name:** This is the name that Firefox displays for the bookmark in menus.
-  - **Location:** Choose what folder to store your bookmark in by picking one from the drop-down menu (for example, the Bookmarks Menu or Bookmarks Toolbar). In that drop-down menu, you can also select Choose… to see a list of all bookmarks folders or create a new one.  
-By default, bookmarks are saved in the last used folder (or in the _Bookmarks Toolbar_, if you are bookmarking your first page).
-  - **Tags:** You can use tags to help you search through and organize your bookmarks. For more information, see [Bookmark Tags - Categorize bookmarks to make them easy to find](\""https://support.mozilla.org/en-US/kb/categorizing-bookmarks-make-them-easy-to-find"").
-
-3. When you have finished editing, click Save to close the box.
-
-**Tip:** If you don't want to see this editor when saving a bookmark, uncheck **Show editor when saving**.
-
-# How do I delete a bookmark?
-
-See [How do I delete a bookmark?](\""https://support.mozilla.org/en-US/kb/how-do-i-delete-bookmark"") to remove one from your Firefox browser.
-
-# How do I organize my bookmarks?
-
-The _Library_ window lets you view and organize all of your bookmarks. You can open the _Bookmarks Library_ window as shown below.
-
-Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel. Click Bookmarks and then click the Manage bookmarks bar at the bottom.
-
-**Tip:** You can also use the keyboard shortcut Ctrl + Shift + OCommand + Shift + O to quickly open your _Bookmarks Library_.
-<dl><dt>
-<img alt=""Fx63Library-OtherBookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-11-17-12-03-09-8df39b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-In the _Bookmarks Library window_ you can:
-
-- Drag and drop your bookmarks into other folders. See [Use bookmark folders to organize your bookmarks](\""https://support.mozilla.org/en-US/kb/bookmark-folders-organize-your-bookmarks"") to learn more. There are some special folders:
-  - **Bookmarks Menu:** Bookmarks in this folder will appear in the Firefox Sidebar and Menu bar or toolbar Bookmarks menu.
-  - **Bookmarks Toolbar:** Bookmarks in this folder will appear in the [Bookmarks Toolbar](https://support.mozilla.org/kb/bookmarks-firefox#w_bookmarks-toolbar), if it's turned on.
-
-- [Sort your bookmarks to quickly find the ones you want](\""https://support.mozilla.org/en-US/kb/sort-bookmarks-quickly-find-ones-you-want"").
-- Search your bookmarks by name.
-- Edit your bookmarks' details, including [keywords](https://support.mozilla.org/kb/bookmarks-firefox#w_how-to-use-keywords-with-bookmarks) (see below).
-- Open a bookmark in the current tab by double-clicking on it.
-- Right-clickRight-click (or hold down the Control key while you click) on a bookmark to view other options in the context menu, such as Open in New Tab, Open in New Private Window, Delete Bookmark, etc.
-- [Backup, restore](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them""), [export](\""https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer"") and [import](\""https://support.mozilla.org/en-US/kb/import-bookmarks-html-file"") your bookmarks.
-
-# How do I access my bookmarks?
-
-## Address Bar Search
-
-You can search bookmarked pages by typing their name in the address bar. As you type, a list of web pages that you've bookmarked, tagged and visited will appear. Bookmarked pages will have a star next to them. The search can be restricted to bookmarks if you start with `*` and a space. Then simply click one of the pages, and you'll be taken there instantly. To learn more, see [Address bar autocomplete suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox"").
-
-Alternatively, you can activate bookmark searching from the main menu:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
-2. Click Bookmarks.
-3. Activate bookmark searching by clicking Search bookmarks.
-4. Type the name of the bookmark you're looking for into the address bar.
-
-Firefox will display only the matching bookmarks as you type.
-
-**Note:** Search bookmarks is also available in the Bookmarks menu, accessible if you added the [Bookmarks Menu](https://support.mozilla.org/kb/bookmarks-firefox#w_bookmarks-menu-button-on-the-toolbar) ![Bookmarks Menu button - Proton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to the toolbar.
-
-## Bookmarks Toolbar
-
-Firefox's [Bookmarks toolbar](\""https://support.mozilla.org/en-US/kb/bookmarks-toolbar-display-favorite-websites"") gives you quick access to often-used bookmarks. For new users, bookmarks are placed by default here.
-
-<dl><dt>
-<img alt=""bookmarks toolbar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-26-44-cd454e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-To enable the Bookmarks Toolbar:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), then click More tools and select Customize Toolbar…
-2. Select the Toolbars dropdown menu at the bottom of the window.
-3. Select Bookmarks Toolbar. 
-  - The menu options Always Show, Never Show and Only Show on New Tab will be available for you to choose when you want the Bookmarks Toolbar to be visible.
-
-4. Click the Done button when you're finished.
-
-<dl><dt>
-<img alt=""Bookmarks Toolbar Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-03-08-26-01-17c78e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-1. Click the View menu at the top of the screen and go down to Toolbars.
-2. Select Bookmarks Toolbar. The menu options Always Show, Never Show and Only Show on New Tab will be available for you to choose when you want the Bookmarks Toolbar to be visible.
-
-**Tip:** You can also use the keyboard shortcut Ctrl + Shift + BCommand + Shift + B to show or hide the Bookmarks Toolbar.
-
-To learn more, see [Bookmarks Toolbar - Display your favorite websites at the top of the Firefox window](\""https://support.mozilla.org/en-US/kb/bookmarks-toolbar-display-favorite-websites"").
-
-### Other Bookmarks folder
-
-You will see an _Other Bookmarks_ folder icon at the end of the Bookmarks toolbar if the _Other Bookmarks_ folder in your Library contains any bookmarks. This makes it easier to find bookmarks stored in that folder. To remove the _Other Bookmarks_ folder icon from the Bookmarks toolbar, see [Remove the Other Bookmarks folder from the Bookmarks Toolbar](\""https://support.mozilla.org/en-US/kb/remove-other-bookmarks-folder-from-bookmarks-toolbar"").
-
-## Firefox Sidebar and Menu
-
-You can view and access all of your bookmarks from the [Firefox Sidebar](\""https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"") and from the Menu bar Bookmarks menu, if the [Menu bar](\""https://support.mozilla.org/en-US/kb/restore-menu-bar-firefox"") is enabled.
-
-## Bookmarks Menu button on the toolbar
-
-The Bookmarks Menu ![Bookmarks Menu button - Proton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) toolbar button is not shown by default, but you can add it by [customizing your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"").
-
-### How do I add the Bookmarks Menu button to the toolbar?
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), then click More tools and select Customize Toolbar…
-  - A special tab will open which allows you to drag and drop items in or out of the overflow menu and the toolbar.
-
-2. Drag the Bookmarks Menu ![Bookmarks Menu button - Proton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to the toolbar.
-3. Click Done.
-
-To remove the button, use the above steps to drag the Bookmarks Menu button out of the toolbar.
-
-# How to use keywords with bookmarks
-
-You can use _keywords_ to easily access your bookmarks. When you assign a keyword to a bookmark, you can simply type the keyword into the address bar and press EnterReturn to open the bookmark. Any words supplied _after_ the bookmark keyword and a space will be URL-encoded and substituted into the bookmark's URL in place of the `%s` placeholder, wherever that appears; see below for details.
-
-To assign a keyword to a bookmark:
-
-1. Open the [Library window](https://support.mozilla.org/kb/bookmarks-firefox#w_how-do-i-organize-my-bookmarks) and select the bookmark.
-2. Click the keyword field at the bottom of the window.
-3. Type your desired keyword.
-  - The keyword may contain letters, digits and special characters (for example: `- _ ' "" , . : ; = / \ ( ) [] { } ! & @ ~`). It must not contain spaces and must not start or end with these characters: `? * ^ $ % # +`
-  - Wherever the string `%s` appears in the bookmark's URL, it will be replaced with any words typed in the address bar after the bookmark's keyword and a space, properly URL-encoded, so they can be used as query string parameters to a search engine, for example.
-    - **Example:** use **`mdn`** as the keyword for the URL [https://developer.mozilla.org/search?q=%s](https://developer.mozilla.org/search?q=%s); type **`mdn css border-radius`** in the address bar to test it.
-
-  - The keyword must not be the same as a [search engine's keyword](\""https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines""). For instance, if a search engine has the keyword **`@g`** , the bookmark's keyword cannot be **`@g`** , but it can be **`g`**.
-  - If the chosen keyword was already assigned to another bookmark, it will be reassigned to the new one.
-
-**Note:** Outside the Library, you can access the keyword field from the context menu by right-clickingholding down the Control key while you click the bookmark and then selecting Edit Bookmark.
-
-# How do I import bookmarks from another browser or profile?
-
-Firefox lets you import bookmarks from other browsers installed on your computer. It also lets you import other data, such as browsing history and saved passwords, from some of these browsers. To learn more, see [Import data from another browser](\""https://support.mozilla.org/en-US/kb/import-data-another-browser"").
-
-# How do I restore bookmarks from backup?
-
-To restore bookmarks, see [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them""). Sync does not guarantee a backup, and restoring a backup may overwrite synced data. If you run into file restore fails or your bookmarks are suddenly lost when restarting Firefox, see [Recover lost or missing Bookmarks](\""https://support.mozilla.org/en-US/kb/recover-lost-or-missing-bookmarks"").
-
-# Related articles
-
-- [Bookmarks section of Keyboard Shortcuts](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly#w_bookmarks"")
-- [Use bookmark folders to organize your bookmarks](\""https://support.mozilla.org/en-US/kb/bookmark-folders-organize-your-bookmarks"")
-- [Set up Sync to share bookmarks, open tabs and more with another profile, computer or mobile device](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"").
-
-"
-757,How to print web pages in Firefox,how-print-web-pages-firefox,https://support.mozilla.org/en-US/kb/how-print-web-pages-firefox,en-US,This article covers the basics of print settings and formatting options in Firefox.,"<p>Learn more on how to print web pages using Firefox's printing features.
-</p>
-<ul><li> For troubleshooting printing problems, see <a href=""/en-US/kb/fix-printing-problems-firefox"">Fix printing problems in Firefox</a>.
-</li><li>To print pages in a simplified format, see <a href=""/en-US/kb/print-simplified-clutter-free-pages-firefox"">Print simplified, clutter-free pages in Firefox</a>.
-</li></ul>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_print-a-web-page""><span class=""tocnumber"">1</span> <span class=""toctext"">Print a web page</span></a></li><li class=""toclevel-1""><a href=""#w_advanced-tips""><span class=""tocnumber"">2</span> <span class=""toctext"">Advanced tips</span></a></li></ul></div>
-<h1 id=""w_print-a-web-page"">Print a web page</h1>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then click <span class=""button"">Print…</span>
-<ul><li>This will open a print preview for that web page.
-</li></ul>
-<dl><dt><img alt=""Fx82PrintUI"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-30-13-51-12-c0ec0e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Choose your printing options:
-<ul><li><strong>Destination:</strong> Use the dropdown menu to choose the device or document to print to or save. Select <span class=""menu"">Save to PDF</span> in the drop-down menu to save the shown preview as a PDF file.
-</li><li><strong>Copies:</strong> Choose how many copies to make (available for printers and faxes).
-</li><li><strong>Orientation:</strong> Allows you to choose between <span class=""button"">Portrait</span> and <span class=""button"">Landscape</span> orientation of the printed page.
-</li><li><strong>Pages:</strong> Allows you to choose what pages you would like to print.
-</li><li><strong>Color mode:</strong> This allows you to choose whether to print in <span class=""menu"">Color</span> or <span class=""menu"">Black and white</span> (this may not be customizable for some printers).
-</li><li><strong>More settings:</strong> Expand this section for more options, such as <strong>Paper size</strong>, <strong>Scale</strong>, <strong>Pages per sheet</strong>, <strong>Margins</strong>, <strong>Format</strong> (<strong>Original</strong> or <a href=""/en-US/kb/print-simplified-clutter-free-pages-firefox""><strong>Simplified</strong></a>, if available), <strong>Two-sided printing</strong>, <strong>Print headers and footers</strong> and <strong>Print backgrounds</strong>. (If you select <em>Simplified</em> under <em>Format</em>, you won't be able to select <em>Print backgrounds</em>.)
-</li></ul>
-</li><li>After adjusting the settings, click <span class=""button"">Print</span> to start printing.
-</li></ol>
-<h1 id=""w_advanced-tips"">Advanced tips</h1>
-<ul><li>If you want to edit the web page content before printing, you can use an extension from <a href=""https://addons.mozilla.org/firefox/"">Firefox Add-ons</a> such as <a href=""https://addons.mozilla.org/firefox/addon/print-edit-we/"">Print Edit WE</a>.
-</li><li>To print a single image from a page, you can typically right-click it, and select <span class=""menu"">Open Image in New Tab</span> or <span class=""menu"">View Background Image</span> then print using the instructions above.
-</li><li>Web pages can set themselves up to appear different on paper to how they look on screen, so don't be surprised to see some changes.
-</li></ul>",firefox,browse;download-and-save;downloads;images-and-documents,"Learn more on how to print web pages using Firefox's printing features.
-
-- For troubleshooting printing problems, see [Fix printing problems in Firefox](\""https://support.mozilla.org/en-US/kb/fix-printing-problems-firefox"").
-- To print pages in a simplified format, see [Print simplified, clutter-free pages in Firefox](\""https://support.mozilla.org/en-US/kb/print-simplified-clutter-free-pages-firefox"").
-
-## Table of Contents
-
-- [1 Print a web page](https://support.mozilla.org/kb/how-print-web-pages-firefox#w_print-a-web-page)
-- [2 Advanced tips](https://support.mozilla.org/kb/how-print-web-pages-firefox#w_advanced-tips)
-
-# Print a web page
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then click Print…
-  - This will open a print preview for that web page.
-
-<dl><dt>
-<img alt=""Fx82PrintUI"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-09-30-13-51-12-c0ec0e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Choose your printing options:
-  - **Destination:** Use the dropdown menu to choose the device or document to print to or save. Select Save to PDF in the drop-down menu to save the shown preview as a PDF file.
-  - **Copies:** Choose how many copies to make (available for printers and faxes).
-  - **Orientation:** Allows you to choose between Portrait and Landscape orientation of the printed page.
-  - **Pages:** Allows you to choose what pages you would like to print.
-  - **Color mode:** This allows you to choose whether to print in Color or Black and white (this may not be customizable for some printers).
-  - **More settings:** Expand this section for more options, such as **Paper size** , **Scale** , **Pages per sheet** , **Margins** , **Format** ( **Original** or [**Simplified**](\""https://support.mozilla.org/en-US/kb/print-simplified-clutter-free-pages-firefox""), if available), **Two-sided printing** , **Print headers and footers** and **Print backgrounds**. (If you select _Simplified_ under _Format_, you won't be able to select _Print backgrounds_.)
-
-3. After adjusting the settings, click Print to start printing.
-
-# Advanced tips
-
-- If you want to edit the web page content before printing, you can use an extension from [Firefox Add-ons](https://addons.mozilla.org/firefox/) such as [Print Edit WE](https://addons.mozilla.org/firefox/addon/print-edit-we/).
-- To print a single image from a page, you can typically right-click it, and select Open Image in New Tab or View Background Image then print using the instructions above.
-- Web pages can set themselves up to appear different on paper to how they look on screen, so don't be surprised to see some changes.
-
-"
-758,Warning Unresponsive script - What it means and how to fix it,warning-unresponsive-script,https://support.mozilla.org/en-US/kb/warning-unresponsive-script,en-US,This article describes the reasons for this error message and covers possible solutions and workarounds.,"<p>When Firefox shows a a “Warning: Unresponsive script” prompt that says “<em>A script on this page may be busy, or it may have stopped responding. You can stop the script now, or you can continue to see if the script will complete.</em>”, it means a webpage (or sometimes an extension) is running a script that’s taking too long to complete. This can cause Firefox to slow down, freeze, or stop responding.
-</p><p>This article explains what causes the warning, what it looks like, and gives you detailed step-by-step solutions, including how to change script timeout settings and how to troubleshoot software conflicts.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_why-this-warning-appears""><span class=""tocnumber"">1</span> <span class=""toctext"">Why this warning appears</span></a></li><li class=""toclevel-1""><a href=""#w_what-to-do-when-you-see-the-warning""><span class=""tocnumber"">2</span> <span class=""toctext"">What to do when you see the warning</span></a><ul><li class=""toclevel-2""><a href=""#w_option-1-let-the-script-continue-briefly""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Option 1: Let the script continue (briefly)</span></a></li><li class=""toclevel-2""><a href=""#w_option-2-block-scripts-on-specific-websites""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Option 2: Block scripts on specific websites</span></a></li><li class=""toclevel-2""><a href=""#w_option-3-check-for-conflicting-software""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Option 3: Check for conflicting software</span></a><ul><li class=""toclevel-3""><a href=""#w_troubleshooting""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Troubleshooting</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_option-4-increase-script-run-time-advanced""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Option 4: Increase script run time (Advanced)</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_still-having-issues""><span class=""tocnumber"">3</span> <span class=""toctext"">Still having issues?</span></a></li><li class=""toclevel-1""><a href=""#w_important-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Important notes</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_why-this-warning-appears"">Why this warning appears</h1>
-<p>Firefox uses scripts to help load web content, run interactive elements, and power browser features. If a script takes too long to finish, Firefox pauses it to prevent your browser from freezing entirely.
-</p><p>Possible causes include:
-</p>
-<ul><li>A poorly coded or overloaded webpage (e.g., heavy ads, infinite loops).
-</li><li>An outdated or incompatible extension.
-</li><li>A software conflict (e.g., antivirus or ad blocker interfering with page scripts).
-</li><li>A Firefox setting that limits how long scripts can run.
-</li></ul>
-<h1 id=""w_what-to-do-when-you-see-the-warning"">What to do when you see the warning</h1>
-<h2 id=""w_option-1-let-the-script-continue-briefly"">Option 1: Let the script continue (briefly)</h2>
-<p>If you don’t see the warning again after clicking <span class=""button"">Continue</span>, the script may just need a few extra seconds to finish.
-</p><p>But if the warning keeps returning or Firefox becomes unresponsive, continue with the steps below.
-</p>
-<h2 id=""w_option-2-block-scripts-on-specific-websites"">Option 2: Block scripts on specific websites</h2>
-<p>If the error only happens on one site, that site is likely causing the issue. You can use an extension to block scripts from running on specific domains:
-</p>
-<ol><li> Install the <a href=""https://addons.mozilla.org/firefox/addon/javascript-toggler"">JavaScript Toggle On and Off</a> extension.
-</li><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions</span>.
-
-</li><li> Find the <em>JavaScript Toggle On and Off</em> entry and click the <span class=""for"" data-for=""win""><span class=""button"">Options</span></span><span class=""for"" data-for=""mac,linux""><span class=""button"">Preferences</span></span> button.
-</li><li> Scroll down to the <strong>Black-list</strong> text box and enter the URL of the site that's giving you problems.
-</li><li> Click <span class=""button"">Save</span>. The domain name of the site will be added to the list.
-</li></ol>
-<p>Now that the problematic site has been blocked from running scripts, it will no longer cause unresponsive script warnings.
-</p>
-<h2 id=""w_option-3-check-for-conflicting-software"">Option 3: Check for conflicting software</h2>
-<p>Some antivirus tools or privacy extensions may block or interfere with scripts. Common examples reported by users:
-</p>
-<table>
-<caption>
-</caption><tbody><tr>
-<th>Software/Tool</th><th>Reported Issue</th><th>Suggested Action
-</th></tr>
-<tr>
-<td>Malwarebytes</td><td>Flags or blocks safe scripts</td><td>Add Firefox to exclusions
-</td></tr>
-<tr>
-<td>AdBlock / uBlock</td><td>Prevents scripts from loading</td><td>Temporarily disable to test
-</td></tr>
-<tr>
-<td>Script-blocking extensions</td><td>Aggressively blocks page elements</td><td>Review filter lists
-</td></tr></tbody></table>
-<h3 id=""w_troubleshooting"">Troubleshooting</h3>
-<ol><li>Restart Firefox in Troubleshoot Mode:
-<ul><li>Click the menu button &gt; <span class=""button"">Help</span> &gt; <span class=""button"">Troubleshoot Mode…</span>.
-</li><li>Click Restart in the confirmation dialog.
-</li></ul>
-</li><li>Test the site again.
-</li><li>If the error doesn’t appear, one of your extensions or software tools may be causing the problem.
-</li></ol>
-<h2 id=""w_option-4-increase-script-run-time-advanced"">Option 4: Increase script run time (Advanced)</h2>
-<p></p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-<p></p>
-<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li> In the <em>about:config</em> page, search for the preference <span class=""pref"">dom.max_script_run_time</span>.
-</li><li> Click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button and enter <span class=""pref"">20</span>.
-</li><li> Press the checkmark <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to save the preference.
-</li></ol>
-<p>If you still receive the prompt (or if you want to see it again), you should set that preference back to the default value.
-</p>
-<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li> In the <em>about:config</em> page, search for the preference <span class=""pref"">dom.max_script_run_time</span>.
-</li><li> Click the <em>Reset</em> <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button.
-</li></ol>
-<h1 id=""w_still-having-issues"">Still having issues?</h1>
-<p>If none of the above fixes help, try these:
-</p>
-<ul><li>Refresh Firefox to restore default settings
-<ul><li>See: <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a>
-</li></ul>
-</li><li>Switch to another browser temporarily to access the problematic site
-</li><li>Report the site to Mozilla using the Report Broken Site feature in the Firefox menu
-</li></ul>
-<h1 id=""w_important-notes"">Important notes</h1>
-<ul><li>Firefox may show this warning even when the issue isn’t caused by your system.
-</li><li>If your browser is crashing, running slow, or freezing beyond just script errors, you may be facing a product issue, not a documentation issue. We recommend:
-<ul><li>Visiting <a href=""https://support.mozilla.org/en-US/questions/"">Mozilla Support Forums</a>
-</li><li>Submitting feedback via <a href=""https://connect.mozilla.org/"">Mozilla Connect</a>
-</li></ul>
-</li></ul>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>
-</li><li><a href=""/en-US/kb/firefox-hangs-or-not-responding"">Firefox hangs or is not responding - How to fix</a>
-</li><li><a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor for Firefox</a>
-</li><li><a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a>
-</li></ul>
-<p>
-<br> <br>
-<em><strong>Based on information from <a href=""http://kb.mozillazine.org/Unresponsive_Script_Warning"">Unresponsive Script Warning (mozillaZine KB)</a></strong></em>
-</p>",firefox,error-codes;performance-and-connectivity,"When Firefox shows a a “Warning: Unresponsive script” prompt that says “_A script on this page may be busy, or it may have stopped responding. You can stop the script now, or you can continue to see if the script will complete._”, it means a webpage (or sometimes an extension) is running a script that’s taking too long to complete. This can cause Firefox to slow down, freeze, or stop responding.
-
-This article explains what causes the warning, what it looks like, and gives you detailed step-by-step solutions, including how to change script timeout settings and how to troubleshoot software conflicts.
-
-## Table of Contents
-
-- [1 Why this warning appears](https://support.mozilla.org/kb/warning-unresponsive-script#w_why-this-warning-appears)
-- [2 What to do when you see the warning](https://support.mozilla.org/kb/warning-unresponsive-script#w_what-to-do-when-you-see-the-warning)
-  - [2.1 Option 1: Let the script continue (briefly)](https://support.mozilla.org/kb/warning-unresponsive-script#w_option-1-let-the-script-continue-briefly)
-  - [2.2 Option 2: Block scripts on specific websites](https://support.mozilla.org/kb/warning-unresponsive-script#w_option-2-block-scripts-on-specific-websites)
-  - [2.3 Option 3: Check for conflicting software](https://support.mozilla.org/kb/warning-unresponsive-script#w_option-3-check-for-conflicting-software)
-    - [2.3.1 Troubleshooting](https://support.mozilla.org/kb/warning-unresponsive-script#w_troubleshooting)
-
-  - [2.4 Option 4: Increase script run time (Advanced)](https://support.mozilla.org/kb/warning-unresponsive-script#w_option-4-increase-script-run-time-advanced)
-
-- [3 Still having issues?](https://support.mozilla.org/kb/warning-unresponsive-script#w_still-having-issues)
-- [4 Important notes](https://support.mozilla.org/kb/warning-unresponsive-script#w_important-notes)
-- [5 Related articles](https://support.mozilla.org/kb/warning-unresponsive-script#w_related-articles)
-
-# Why this warning appears
-
-Firefox uses scripts to help load web content, run interactive elements, and power browser features. If a script takes too long to finish, Firefox pauses it to prevent your browser from freezing entirely.
-
-Possible causes include:
-
-- A poorly coded or overloaded webpage (e.g., heavy ads, infinite loops).
-- An outdated or incompatible extension.
-- A software conflict (e.g., antivirus or ad blocker interfering with page scripts).
-- A Firefox setting that limits how long scripts can run.
-
-# What to do when you see the warning
-
-## Option 1: Let the script continue (briefly)
-
-If you don’t see the warning again after clicking Continue, the script may just need a few extra seconds to finish.
-
-But if the warning keeps returning or Firefox becomes unresponsive, continue with the steps below.
-
-## Option 2: Block scripts on specific websites
-
-If the error only happens on one site, that site is likely causing the issue. You can use an extension to block scripts from running on specific domains:
-
-1. Install the [JavaScript Toggle On and Off](https://addons.mozilla.org/firefox/addon/javascript-toggler) extension.
-2. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions.
-3. Find the _JavaScript Toggle On and Off_ entry and click the OptionsPreferences button.
-4. Scroll down to the **Black-list** text box and enter the URL of the site that's giving you problems.
-5. Click Save. The domain name of the site will be added to the list.
-
-Now that the problematic site has been blocked from running scripts, it will no longer cause unresponsive script warnings.
-
-## Option 3: Check for conflicting software
-
-Some antivirus tools or privacy extensions may block or interfere with scripts. Common examples reported by users:
-
-<caption>
-</caption>
-| Software/Tool | Reported Issue | Suggested Action |
-| --- | --- | --- |
-| Malwarebytes | Flags or blocks safe scripts | Add Firefox to exclusions |
-| AdBlock / uBlock | Prevents scripts from loading | Temporarily disable to test |
-| Script-blocking extensions | Aggressively blocks page elements | Review filter lists |
-
-### Troubleshooting
-
-1. Restart Firefox in Troubleshoot Mode:
-  - Click the menu button \> Help \> Troubleshoot Mode….
-  - Click Restart in the confirmation dialog.
-
-2. Test the site again.
-3. If the error doesn’t appear, one of your extensions or software tools may be causing the problem.
-
-## Option 4: Increase script run time (Advanced)
-
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. In the _about:config_ page, search for the preference dom.max\_script\_run\_time.
-3. Click the _Edit_ ![Fx71aboutconfig-EditButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button and enter 20.
-4. Press the checkmark ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to save the preference.
-
-If you still receive the prompt (or if you want to see it again), you should set that preference back to the default value.
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. In the _about:config_ page, search for the preference dom.max\_script\_run\_time.
-3. Click the _Reset_ ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button.
-
-# Still having issues?
-
-If none of the above fixes help, try these:
-
-- Refresh Firefox to restore default settings
-  - See: [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"")
-
-- Switch to another browser temporarily to access the problematic site
-- Report the site to Mozilla using the Report Broken Site feature in the Firefox menu
-
-# Important notes
-
-- Firefox may show this warning even when the issue isn’t caused by your system.
-- If your browser is crashing, running slow, or freezing beyond just script errors, you may be facing a product issue, not a documentation issue. We recommend:
-  - Visiting [Mozilla Support Forums](https://support.mozilla.org/en-US/questions/)
-  - Submitting feedback via [Mozilla Connect](https://connect.mozilla.org/)
-
-# Related articles
-
-- [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"")
-- [Firefox hangs or is not responding - How to fix](\""https://support.mozilla.org/en-US/kb/firefox-hangs-or-not-responding"")
-- [Configuration Editor for Firefox](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"")
-- [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"")
-
-_**Based on information from [Unresponsive Script Warning (mozillaZine KB)](http://kb.mozillazine.org/Unresponsive_Script_Warning)**_
-
-"
 760,Firefox can't load websites but other browsers can,firefox-cant-load-websites-other-browsers-can,https://support.mozilla.org/en-US/kb/firefox-cant-load-websites-other-browsers-can,en-US,"We'll explain errors such as ""Server not found"" or ""Unable to connect""  and how to fix problems where Firefox can't access websites but other browsers can.","<p>This article describes problems where Firefox cannot load websites but other Web browsers (such as <span class=""for"" data-for=""win"">Microsoft Edge or Internet Explorer</span><span class=""for"" data-for=""mac"">Safari</span><span class=""for"" data-for=""linux"">Epiphany on Gnome or Konqueror on KDE</span>) can. When this happens, Firefox may show a <em>Server not found</em> or <em>Unable to connect</em> error message.
 </p>
 <ul><li>For other error messages that display when you try to view websites in Firefox, see <a href=""/en-US/kb/websites-dont-load-troubleshoot-and-fix-errors"">Websites don't load - troubleshoot and fix error messages</a>.
@@ -25880,6 +25264,532 @@ You need to opt out of Usage and technical data in the settings:
 
 - [Mobile - Manage Firefox data collection and privacy settings](\""https://support.mozilla.org/en-US/kb/mobile-manage-firefox-data-collection-and-privacy"")
 - [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"")
+
+"
+8543,Helping with crashes,helping-crashes,https://support.mozilla.org/en-US/kb/helping-crashes,en-US,"When Firefox crashes, the crash report provides useful information needed to find a solution. Learn about that troubleshooting process.","<p>When <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Firefox crashes</a> and a user asks for help, viewing a crash report will help you to better understand the cause of the crash (for example, extensions or third-party software) and provides useful information needed to find a solution, such as related bug reports. This article describes that troubleshooting process.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-look-up-someones-crash-report""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I look up someone's crash report?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-read-a-crash-report""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I read a crash report?</span></a><ul><li class=""toclevel-2""><a href=""#w_check-for-related-bugs""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Check for related bugs</span></a></li><li class=""toclevel-2""><a href=""#w_check-for-malware""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Check for malware</span></a></li><li class=""toclevel-2""><a href=""#w_check-for-problem-extensions""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Check for problem extensions</span></a></li><li class=""toclevel-2""><a href=""#w_other-helpful-parts-of-a-crash-report""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Other helpful parts of a crash report</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-do-i-do-if-i-need-help-reading-crash-reports""><span class=""tocnumber"">3</span> <span class=""toctext"">What do I do if I need help reading crash reports?</span></a></li></ul></div>
+<h1 id=""w_how-do-i-look-up-someones-crash-report"">How do I look up someone's crash report?</h1>
+<p>When people visit the <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Troubleshoot Firefox crashes (closing or quitting unexpectedly)</a> article or work through the <a href=""https://support.mozilla.org/en-US/questions/new"">Ask a Question</a> flow, we ask them to copy their latest Crash IDs from <strong>about:crashes</strong> and to paste it into the question form. When someone posts a question on the Firefox support forum, we can also use the Post a Reply <em>Common responses</em> tool and select <a href=""/en-US/kb/forum-response-firefox-crashes"">Forum Response - Firefox crashes</a> to ask for crash reports.
+</p><p>When a complete Crash ID beginning with <em>bp-</em> is pasted into the support forum, the forum software will create a clickable link to the Crash Report. Note that the pasted text is not seen as a link until the post is made on the forum. The link will not show up in the person's Post Reply preview.    
+</p>
+<div class=""note""><strong>Note:</strong> Instructions for users to find their Crash ID are in the <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash"">Troubleshoot Firefox crashes</a> article.</div>  
+<h1 id=""w_how-do-i-read-a-crash-report"">How do I read a crash report?</h1>
+<p>A crash report contains many useful pieces of information. The following explains what to look for. If you are a contributor looking to learn more, check out Mozilla's <a href=""https://firefox-source-docs.mozilla.org/contributing/debugging/understanding_crash_reports.html"">Understanding Crash Reports</a> article.
+</p>
+<h2 id=""w_check-for-related-bugs"">Check for related bugs</h2>
+<p>The report always begins on the <em>Details</em> tab. The <em>Bugzilla</em> tab will link you to bug reports, if any, that are related to this crash signature. <strong>Click through and read the bug report — especially all of the comments. What you are looking for is a workaround that you can give to the person you are trying to help.</strong><br><br><img alt=""MozillaCrashReport-BugzillaTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-04-02-53-36-f3ad58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>
+Also, if the status of the bug is FIXED, look at the <em>Target Milestone</em> and <em>Tracking Flags</em> fields.  They will tell you in which version of Firefox the issue has been fixed.
+</p>
+<h2 id=""w_check-for-malware"">Check for malware</h2>
+<p>If there were no related bugs, click on the <em>Modules</em> tab. Here you're looking for files with no version information. They are sometimes related to malware. Often googling the name of the file will help you corroborate this. In such cases, you can suggest that the user scan their system for malware and link to the <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a> article for recommendations.<br><br><img alt=""crash4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-01-11-10-08-35-586274.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h2 id=""w_check-for-problem-extensions"">Check for problem extensions</h2>
+<p>Finally, check the <em>Extensions</em> tab to see what (if any) extensions were running. You'll probably have to google the Extension ID to figure out what some of them are but that should also pull up information about extensions that often cause problems. <strong>If you suspect a problem extension, recommend that they disable that extension and see if the problem is fixed (instructions are in <a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a>).</strong> You should also link them to <a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>  in case that doesn't work.<br><br><img alt=""crash5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-01-11-10-14-11-31798c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h2 id=""w_other-helpful-parts-of-a-crash-report"">Other helpful parts of a crash report</h2>
+<ul><li><strong>Details tab:</strong>
+<ul><li> <em>Signature</em> - Describes the kind of crash. There are links in this field that will let you view every crash report with the same crash signature over 1 - 4 weeks across all Firefox versions.
+</li><li> In addition to the crash signature, the top section contains details about the crash time, crash reason, Firefox version, OS, CPU, graphics settings, and the <a href=""http://en.wikipedia.org/wiki/Layered_Service_Provider"">LSP</a>.
+</li><li> <em>Crashing Thread</em> - Shows the last function calls before the crash. You can see if third party software is implied. The bug component is usually the component which the last called functions belongs to.
+</li></ul>
+</li><li><strong>Correlations tab:</strong> Tables of correlation data (modules, add-ons, CPU cores) for this crash signature and reason elaborated from all the crashes of the day in the current Firefox version. The higher the ratio is between the two percentages, the higher the correlation is. Correlations per module and per add-on must be checked to see if it's caused by third party software or add-ons.
+</li></ul>
+<h1 id=""w_what-do-i-do-if-i-need-help-reading-crash-reports"">What do I do if I need help reading crash reports?</h1>
+<p>Crash reports contain a lot of very technical information. There are many more things that can be learned from them than what's presented in this article and sometimes, the steps presented here won't lead to concrete steps you can give a user to resolve the problem. <strong>If you want help with reading crash reports, the best thing to do is ask for help in the <a href=""https://chat.mozilla.org/#/room/#SUMO:mozilla.org"">SUMO Matrix room</a></strong> Just type: <em>Can someone help me read this crash report?</em>
+</p>",contributor,general,"When [Firefox crashes](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"") and a user asks for help, viewing a crash report will help you to better understand the cause of the crash (for example, extensions or third-party software) and provides useful information needed to find a solution, such as related bug reports. This article describes that troubleshooting process.
+
+## Table of Contents
+
+- [1 How do I look up someone's crash report?](https://support.mozilla.org/kb/helping-crashes#w_how-do-i-look-up-someones-crash-report)
+- [2 How do I read a crash report?](https://support.mozilla.org/kb/helping-crashes#w_how-do-i-read-a-crash-report)
+  - [2.1 Check for related bugs](https://support.mozilla.org/kb/helping-crashes#w_check-for-related-bugs)
+  - [2.2 Check for malware](https://support.mozilla.org/kb/helping-crashes#w_check-for-malware)
+  - [2.3 Check for problem extensions](https://support.mozilla.org/kb/helping-crashes#w_check-for-problem-extensions)
+  - [2.4 Other helpful parts of a crash report](https://support.mozilla.org/kb/helping-crashes#w_other-helpful-parts-of-a-crash-report)
+
+- [3 What do I do if I need help reading crash reports?](https://support.mozilla.org/kb/helping-crashes#w_what-do-i-do-if-i-need-help-reading-crash-reports)
+
+# How do I look up someone's crash report?
+
+When people visit the [Troubleshoot Firefox crashes (closing or quitting unexpectedly)](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"") article or work through the [Ask a Question](https://support.mozilla.org/en-US/questions/new) flow, we ask them to copy their latest Crash IDs from **about:crashes** and to paste it into the question form. When someone posts a question on the Firefox support forum, we can also use the Post a Reply _Common responses_ tool and select [Forum Response - Firefox crashes](\""https://support.mozilla.org/en-US/kb/forum-response-firefox-crashes"") to ask for crash reports.
+
+When a complete Crash ID beginning with _bp-_ is pasted into the support forum, the forum software will create a clickable link to the Crash Report. Note that the pasted text is not seen as a link until the post is made on the forum. The link will not show up in the person's Post Reply preview.
+
+**Note:** Instructions for users to find their Crash ID are in the [Troubleshoot Firefox crashes](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash"") article.
+
+# How do I read a crash report?
+
+A crash report contains many useful pieces of information. The following explains what to look for. If you are a contributor looking to learn more, check out Mozilla's [Understanding Crash Reports](https://firefox-source-docs.mozilla.org/contributing/debugging/understanding_crash_reports.html) article.
+
+## Check for related bugs
+
+The report always begins on the _Details_ tab. The _Bugzilla_ tab will link you to bug reports, if any, that are related to this crash signature. **Click through and read the bug report — especially all of the comments. What you are looking for is a workaround that you can give to the person you are trying to help.**  
+  
+ ![MozillaCrashReport-BugzillaTab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+Also, if the status of the bug is FIXED, look at the _Target Milestone_ and _Tracking Flags_ fields. They will tell you in which version of Firefox the issue has been fixed.
+
+## Check for malware
+
+If there were no related bugs, click on the _Modules_ tab. Here you're looking for files with no version information. They are sometimes related to malware. Often googling the name of the file will help you corroborate this. In such cases, you can suggest that the user scan their system for malware and link to the [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") article for recommendations.  
+  
+ ![crash4](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+## Check for problem extensions
+
+Finally, check the _Extensions_ tab to see what (if any) extensions were running. You'll probably have to google the Extension ID to figure out what some of them are but that should also pull up information about extensions that often cause problems. **If you suspect a problem extension, recommend that they disable that extension and see if the problem is fixed (instructions are in [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"")).** You should also link them to [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"") in case that doesn't work.  
+  
+ ![crash5](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+## Other helpful parts of a crash report
+
+- **Details tab:**
+  - _Signature_ - Describes the kind of crash. There are links in this field that will let you view every crash report with the same crash signature over 1 - 4 weeks across all Firefox versions.
+  - In addition to the crash signature, the top section contains details about the crash time, crash reason, Firefox version, OS, CPU, graphics settings, and the [LSP](http://en.wikipedia.org/wiki/Layered_Service_Provider).
+  - _Crashing Thread_ - Shows the last function calls before the crash. You can see if third party software is implied. The bug component is usually the component which the last called functions belongs to.
+
+- **Correlations tab:** Tables of correlation data (modules, add-ons, CPU cores) for this crash signature and reason elaborated from all the crashes of the day in the current Firefox version. The higher the ratio is between the two percentages, the higher the correlation is. Correlations per module and per add-on must be checked to see if it's caused by third party software or add-ons.
+
+# What do I do if I need help reading crash reports?
+
+Crash reports contain a lot of very technical information. There are many more things that can be learned from them than what's presented in this article and sometimes, the steps presented here won't lead to concrete steps you can give a user to resolve the problem. **If you want help with reading crash reports, the best thing to do is ask for help in the [SUMO Matrix room](https://chat.mozilla.org/#/room/#SUMO:mozilla.org)** Just type: _Can someone help me read this crash report?_
+
+"
+8571,Article review guidelines for KB reviewers,article-review-guidelines,https://support.mozilla.org/en-US/kb/article-review-guidelines,en-US,"Guidelines for reviewing KB articles including revision levels, feedback for editors, and 'ready for localization' status","<p>Our <a href=""/groups/knowledge-base-reviewers"">Knowledge Base reviewers</a> are Mozilla contributors and staff with experience and skill in writing support documentation. Here are some guidelines for reviewing articles. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_purpose""><span class=""tocnumber"">1</span> <span class=""toctext"">Purpose</span></a><ul><li class=""toclevel-2""><a href=""#w_key-responsibilities""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Key responsibilities</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_review-guidelines""><span class=""tocnumber"">2</span> <span class=""toctext"">Review guidelines</span></a><ul><li class=""toclevel-2""><a href=""#w_review-policy-based-on-content-type""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Review policy based on content type</span></a></li><li class=""toclevel-2""><a href=""#w_where-to-find-unreviewed-articles""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Where to find unreviewed articles</span></a><ul><li class=""toclevel-3""><a href=""#w_prioritization""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Prioritization</span></a></li><li class=""toclevel-3""><a href=""#w_special-articles""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">Special articles</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_special-requirements-for-subscription-or-premium-products""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Special requirements for subscription or premium products</span></a><ul><li class=""toclevel-3""><a href=""#w_content-submission""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Content submission</span></a></li><li class=""toclevel-3""><a href=""#w_content-approval""><span class=""tocnumber"">2.3.2</span> <span class=""toctext"">Content approval</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_reviewing-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Reviewing articles</span></a><ul><li class=""toclevel-2""><a href=""#w_choosing-revision-levels""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Choosing revision levels</span></a></li><li class=""toclevel-2""><a href=""#w_leaving-feedback-for-editors""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Leaving feedback for editors</span></a></li><li class=""toclevel-2""><a href=""#w_deferring-a-revision""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Deferring a revision</span></a></li><li class=""toclevel-2""><a href=""#w_reviewing-multiple-revisions""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Reviewing multiple revisions</span></a></li><li class=""toclevel-2""><a href=""#w_needs-change""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Needs change</span></a></li><li class=""toclevel-2""><a href=""#w_giving-credit""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Giving credit</span></a></li><li class=""toclevel-2""><a href=""#w_handling-spam-and-mistaken-edits""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Handling spam and mistaken edits</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_ready-for-localization""><span class=""tocnumber"">4</span> <span class=""toctext"">Ready for localization</span></a><ul><li class=""toclevel-2""><a href=""#w_how-does-ready-for-localization-rfl-work""><span class=""tocnumber"">4.1</span> <span class=""toctext"">How does “Ready For Localization” (RFL) work?</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Marking an article RFL</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl-post-review""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Marking an article RFL post-review</span></a></li><li class=""toclevel-2""><a href=""#w_rfl-protocols""><span class=""tocnumber"">4.4</span> <span class=""toctext"">RFL protocols</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_release-readiness""><span class=""tocnumber"">5</span> <span class=""toctext"">Release readiness</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-release-calendar""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Firefox release calendar</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_discussion-channel-and-escalation""><span class=""tocnumber"">6</span> <span class=""toctext"">Discussion channel and escalation</span></a></li><li class=""toclevel-1""><a href=""#w_role-evaluation""><span class=""tocnumber"">7</span> <span class=""toctext"">Role evaluation</span></a></li></ul></div>
+<h1 id=""w_purpose"">Purpose</h1>
+<p>As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity, and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily. 
+</p>
+<h2 id=""w_key-responsibilities"">Key responsibilities</h2>
+<p>As a KB reviewer, when you review a revision, always make sure that the revision: 
+</p>
+<ul><li> Is accurate and up-to-date
+</li><li> Uses clear, consistent language and tone
+</li><li> Is aligned with Mozilla’s editorial guidelines
+</li><li> Includes correct and functioning formatting, links, and markup
+</li><li> Follows accessibility and localization best practices
+</li><li> Meets the scope of the article and product version
+</li></ul>
+<h1 id=""w_review-guidelines"">Review guidelines</h1>
+<div class=""note""><strong>Note:</strong> These approval guidelines only apply to reviewing en-US updates. They do not apply to translated, non-en-US updates. For more information on localizing content, check out <a href=""/en-US/kb/translating-an-article"">Translating an article</a>.</div>
+<p>Most revisions are made by people volunteering their time and talent. When dealing with the work that people have submitted, assume that everyone has the best intentions and be sure to thank them for their contribution. <strong>Remember, you may be the first and only contact that person has with someone from Mozilla. Please make it positive.</strong>
+</p>
+<h2 id=""w_review-policy-based-on-content-type"">Review policy based on content type</h2>
+<div class=""warning""><strong>Important: No self-approval by any contributor is allowed in any type of revisions.</strong></div>
+<p>Review requirements differ by <a href=""/en-US/kb/major-vs-minor"">content type</a>. It’s important to review the following policy below before approving any new revision. 
+</p>
+<ul><li> <strong>New articles</strong>: All new articles must be reviewed by a CX staff member.
+</li><li> <strong>Major updates</strong>: Both CX staff and contributors with KB reviewer permission can review revision with major updates. There might be exceptions where certain content may require CX staff approval, particularly for sensitive or high-impact content. In these situations, the author should indicate in the revision notes “Staff review required.”
+</li><li> <strong>Minor updates</strong>: Minor updates may be reviewed by either CX staff or a contributor reviewer. 
+</li></ul>
+<div class=""warning""><strong>Note:</strong> All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted. Otherwise, you can defer the revision.</div>
+<h2 id=""w_where-to-find-unreviewed-articles"">Where to find unreviewed articles</h2>
+<p>There are multiple ways you can find unreviewed articles: 
+</p>
+<ul><li> <strong>Knowledge Base Overview</strong>: This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
+</li><li> <strong>Unreviewed Changes</strong>: This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
+</li><li> <strong>Most Visited</strong>: This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
+</li></ul>
+<h3 id=""w_prioritization"">Prioritization</h3>
+<p>When reviewing multiple articles, it’s important to prioritize your efforts strategically. Consider the following:
+</p>
+<ul><li> <strong>Article with high pageviews</strong>: Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
+</li><li> <strong>Article linked within the product</strong>: If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.
+<dl><dt><img alt=""in-product KB indicator"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-09-55-35-befc54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+</li></ul>
+<h3 id=""w_special-articles"">Special articles</h3>
+<ul><li><strong>Templates</strong> include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed <a href=""/contributors/kb-overview?category=60"">here</a>. For guidelines on how to use templates within articles, please refer to <a href=""/en-US/kb/using-templates"">Using Templates</a>.
+</li><li><strong>Canned Responses</strong> are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available <a href=""/contributors/kb-overview?category=70"">here</a>. For additional guidelines on creating or improving common responses, see <a href=""/en-US/kb/create-or-improve-common-forum-responses"">Create or improve common forum responses</a>.
+</li></ul>
+<h2 id=""w_special-requirements-for-subscription-or-premium-products"">Special requirements for subscription or premium products</h2>
+<h3 id=""w_content-submission"">Content submission</h3>
+<div class=""warning""><strong>Important: Contributors may not directly submit updates or create new Knowledge Base articles for Subscription or Premium products.</strong></div>
+<p>If you would like to suggest new content or propose changes, please  file <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&amp;component=Knowledge%20Base%20Content"">a Bugzilla ticket</a> or reach out to <a href=""/en-US/kb/meet-team"">a staff member</a>. You can contact us either on <a href=""https://chat.mozilla.org/#/room/#sumo:mozilla.org"">Matrix</a> or in the #sumo-team channel on Slack (for contributors with Slack access). 
+</p>
+<h3 id=""w_content-approval"">Content approval</h3>
+<p><strong>Staff approval is required for all revisions related to Subscription or Premium products</strong>. This includes Canned Responses and Templates associated with these products. 
+</p><p>For reference, current Subscription or Premium products include:
+</p>
+<ul><li> Mozilla VPN
+</li><li> Firefox Relay
+</li><li> Mozilla Monitor
+</li><li> MDN Plus
+</li></ul>
+<h1 id=""w_reviewing-articles"">Reviewing articles</h1>
+<h2 id=""w_choosing-revision-levels"">Choosing revision levels</h2>
+<p>When you approve an article, you have three different revision levels to choose from. These levels will determine the need and prioritization for localization. 
+</p>
+<ul><li> <strong>Minor details that don't affect the instructions:</strong> These are changes that won't change instructions to users. Localizers won't be notified about these changes.
+</li><li> <strong>Content changes that don't require immediate translation:</strong> This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers. 
+</li><li> <strong>Major content changes that will make older translations inaccurate:</strong> This can be used when the update will cause the previous content to be outdated. Marking an article with this will trigger a warning on localized articles that the content may be out of date and provide a link to the English version for the most updated information.
+<dl><dt><img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+</li></ul>
+<h2 id=""w_leaving-feedback-for-editors"">Leaving feedback for editors</h2>
+<p>When approving an article, it's important to thank the editors for their contribution. It's also nice if you can give them feedback. Has their writing improved? Did they do an especially good job explaining something complex? Let them know!
+</p>
+<div class=""note""><strong>Note:</strong> If a revision is good but contains a minor mistake (typo, markup mistake, etc.), you can approve it and ask the editor to fix the issue. Otherwise, you can also submit a new revision to fix it and ask a fellow KB reviewer to review.</div>
+<dl><dt><img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+<h2 id=""w_deferring-a-revision"">Deferring a revision</h2>
+<p>If a revision is not particularly helpful, you can defer the proposed revision. Rather than being a simple rejection, however, a deferral is your opportunity to work with the revision’s author to improve their revision. You can do so by leaving a message in the comment field to thank the author and then give specific, constructive feedback about what you feel needs to change in order for the revision to be acceptable. Be sure to also include links to any relevant documentations or guidelines.
+</p>
+<dl><dt><img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+<h2 id=""w_reviewing-multiple-revisions"">Reviewing multiple revisions</h2>
+<p>When there are multiple revisions pending for approval, make sure to check all of the revisions starting from the oldest one before making a decision. It’s important to note that you can't review older revisions when a newer revision has been approved. You will see that they are still pending for approval, but it won't be possible to review them.
+</p>
+<h2 id=""w_needs-change"">Needs change</h2>
+<p>When approving a revision, you have to decide what, if anything, still needs to be changed. If everything specified in the “Needs change” comment has been taken care of, you can uncheck it (clearing the comment) and approve the article. If there are still things that need to be done, make sure the checkbox is checked and update the comment. This way, we can <a href=""/contributors/need-changes"">easily keep track of what work needs to be done on articles</a>.
+</p>
+<dl><dt><img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+<h2 id=""w_giving-credit"">Giving credit</h2>
+<p>Sometimes people that participate in a discussion about an article make significant contributions to a revision even if they weren't the one to actually edit the wiki. In cases like this, you can edit the list of contributors to an article (on the article history page) to include them. Bonus points for letting them know you did this!
+</p><p><strong>How to give credit to a contributor in the KB</strong>
+</p>
+<ul><li> To add a contributor, go to the <em>Show History</em> page of an article
+</li><li> Scroll down under the revisions and click the “Edit contributors” link
+</li><li> Type the contributor name and then click <span class=""button"">Add Contributor</span>
+</li></ul>
+<div class=""note""><strong>Note:</strong> Everybody who submitted a revision will be given credit automatically unless their revision is deferred.</div>
+<h2 id=""w_handling-spam-and-mistaken-edits"">Handling spam and mistaken edits</h2>
+<p>In the case of spam, you should simply delete the revision by clicking the trash can icon in the article revision history and confirming. In the case of mistaken submissions (no changes) and misplaced help requests (the edit is basically a support question), you should defer and include this message in your comments:<br>
+<em>Hi.</em><br>
+<em>It appears you may have been trying to get help with Firefox. If that is the case, please ask your question again here, <a href=""https://support.mozilla.org/questions/new"">https://support.mozilla.org/questions/new</a> so that we can better help you.</em><br>
+<em>Sorry for the inconvenience.</em>
+</p><p>Once you've done that, you can delete the revision.
+</p><p><img alt=""DeleteKBspam"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-05-01-02-50-37-72c4a4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<div class=""note""><strong>Note:</strong> You cannot delete an unapproved article that is spam or a support request by deleting its revisions. Refer these articles to an admin.</div>
+<h1 id=""w_ready-for-localization"">Ready for localization</h1>
+<h2 id=""w_how-does-ready-for-localization-rfl-work"">How does “Ready For Localization” (RFL) work?</h2>
+<p>To prevent contributors from translating an article that is still being updated, the system only allows translation of versions that have been explicitly marked <strong>Ready for Localization (RFL)</strong>. When the localizer clicks <span class=""button"">Translate article</span>, they are given the most recent revision that has been marked as RFL.
+</p><p>After a new revision is approved, the article will not appear in localization dashboards as needing an update unless the <strong>Ready for Localization (RFL)</strong> flag is checked. When the RFL flag is set, the system also sends an email notification to everyone watching the article, informing them that the article is ready to be localized.
+</p>
+<h2 id=""w_marking-an-article-rfl"">Marking an article RFL</h2>
+<p>Marking an article revision as “Ready for localization” means that we’re telling localizers the English version is done and can be translated without fear that the article will change a few more times before they're done.
+</p>
+<dl><dt><img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+<p><br>
+</p>
+<div class=""note""><strong>Note:</strong> The “Ready for L10N” column on the KB dashboard will indicate NO for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the <a href=""/contributors/unready"">Changes Not Ready for Localization</a> page.</div>
+<p>Localization is a lot of work and is often done by just one person. It’s not always easy, but try to make sure that all required changes are done before a Firefox release so that localizers can use that extra time for getting their work done.
+</p>
+<div class=""note""><strong>Note:</strong> Remember that if you mark a revision as a minor update, there is no option to mark the article as ready for localization because localizers don't get notified of changes with this revision level.</div>
+<h2 id=""w_marking-an-article-rfl-post-review"">Marking an article RFL post-review</h2>
+<p>If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an <strong>X</strong> symbol) under the <strong>R</strong> column of the article revision history and confirming.
+</p>
+<dl><dt><img alt=""ReadyForLocalization3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-30-14-13-09-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>Revisions that have been marked RFL have a checkmark symbol.
+</p>
+<h2 id=""w_rfl-protocols"">RFL protocols</h2>
+<p>All contributor reviewers must adhere to the following localization protocols:
+</p>
+<ul><li> All Mozilla staff and contributor reviewers may mark a net-new article or an article update as ready for localization.
+</li><li> All net new articles and revisions that introduce new or changed information must be marked for localization, unless otherwise specified by Product teams based on regional availability.
+</li><li> If a revision does not alter instruction, accuracy, or user experience, the localization priority must be decreased accordingly.
+</li><li> In some cases, Mozilla staff may leave comment syntax or a revision comment in an article to indicate that a translation is already being submitted for internal localization in certain locales.  If the comment syntax indicates that an article or revision is already being submitted for internal localization, contributors must not localize it independently.
+</li></ul>
+<h1 id=""w_release-readiness"">Release readiness</h1>
+<p>To make sure that we are ready to support upcoming Firefox on-train releases, here are some guidelines regarding the timelines for release readiness. 
+Articles that are associated with the next release are either new articles or content updates that cover functionality introduced in the next release. The following guidelines apply to articles with release-related content.
+</p>
+<h2 id=""w_firefox-release-calendar"">Firefox release calendar</h2>
+<div class=""note""><strong>Note:</strong> You can find a <a href=""https://whattrainisitnow.com/calendar/"">release schedule for Firefox here</a>.</div>
+<p><strong>4 weeks before the next release</strong>
+</p>
+<ul><li> Begin planning and drafting content for the upcoming release; no work for localizers yet
+</li><li> All existing articles remain open for editing and localization as usual.
+</li></ul>
+<p><strong>1-2 weeks before the next release</strong>
+</p>
+<ul><li> Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes. 
+</li><li> If the content requires localization prior to release, the product team must notify the CX staff so we can coordinate with the localization community to ensure deadlines are met.
+</li></ul>
+<p><strong>Release day</strong>
+</p>
+<ul><li> Content changes should be published in the en-US Knowledge Base. Localizers should prioritize translating articles related to the new release.
+</li></ul>
+<h1 id=""w_discussion-channel-and-escalation"">Discussion channel and escalation</h1>
+<p>Not all KB reviewers actively monitor <a href=""/kb/article-discussion-forums"">KB Discussions</a>. If you need to reach the entire group of KB reviewers, please email <a href=""mailto:kb-reviewers@mozilla.com"">kb-reviewers@mozilla.com</a>.
+</p>
+<h1 id=""w_role-evaluation"">Role evaluation</h1>
+<p>Creating content that is accurate, consistent, and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment. 
+</p><p>As a Knowledge Base reviewer, you play an important role in upholding those standards. To ensure our reviewer group stays active and aligned with current practices, the Community team conducts a light annual review based on participation and adherence to guidelines. 
+</p><p>To retain your KB reviewer permission, we ask that you: 
+</p>
+<ul><li> Stay aligned: Adhere to the Community Participation Guidelines and the KB reviewer guidelines outlined in this article.
+</li><li> Stay active: Review at least three (3) revisions within a six-month period. 
+</li></ul>
+<p>If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported, and aligned with current processes.
+</p><p>If circumstances change and you need to step back, we completely understand. Since this is a volunteer role, your time and availability may naturally shift. Don’t hesitate to let the Community team know when that happens. We’re always happy to reconnect when you’re ready to re-engage.
+</p><p>—
+</p><p>By working together and involving others in the review and approval process, we can maintain the highest standards of quality and ensure that our content is top-notch. Thank you for your cooperation, and let's continue to create amazing revisions for our users!
+</p>",contributor,kb;kb-process-policies,"Our [Knowledge Base reviewers](\""https://support.mozilla.org/groups/knowledge-base-reviewers"") are Mozilla contributors and staff with experience and skill in writing support documentation. Here are some guidelines for reviewing articles.
+
+## Table of Contents
+
+- [1 Purpose](https://support.mozilla.org/kb/article-review-guidelines#w_purpose)
+  - [1.1 Key responsibilities](https://support.mozilla.org/kb/article-review-guidelines#w_key-responsibilities)
+
+- [2 Review guidelines](https://support.mozilla.org/kb/article-review-guidelines#w_review-guidelines)
+  - [2.1 Review policy based on content type](https://support.mozilla.org/kb/article-review-guidelines#w_review-policy-based-on-content-type)
+  - [2.2 Where to find unreviewed articles](https://support.mozilla.org/kb/article-review-guidelines#w_where-to-find-unreviewed-articles)
+    - [2.2.1 Prioritization](https://support.mozilla.org/kb/article-review-guidelines#w_prioritization)
+    - [2.2.2 Special articles](https://support.mozilla.org/kb/article-review-guidelines#w_special-articles)
+
+  - [2.3 Special requirements for subscription or premium products](https://support.mozilla.org/kb/article-review-guidelines#w_special-requirements-for-subscription-or-premium-products)
+    - [2.3.1 Content submission](https://support.mozilla.org/kb/article-review-guidelines#w_content-submission)
+    - [2.3.2 Content approval](https://support.mozilla.org/kb/article-review-guidelines#w_content-approval)
+
+- [3 Reviewing articles](https://support.mozilla.org/kb/article-review-guidelines#w_reviewing-articles)
+  - [3.1 Choosing revision levels](https://support.mozilla.org/kb/article-review-guidelines#w_choosing-revision-levels)
+  - [3.2 Leaving feedback for editors](https://support.mozilla.org/kb/article-review-guidelines#w_leaving-feedback-for-editors)
+  - [3.3 Deferring a revision](https://support.mozilla.org/kb/article-review-guidelines#w_deferring-a-revision)
+  - [3.4 Reviewing multiple revisions](https://support.mozilla.org/kb/article-review-guidelines#w_reviewing-multiple-revisions)
+  - [3.5 Needs change](https://support.mozilla.org/kb/article-review-guidelines#w_needs-change)
+  - [3.6 Giving credit](https://support.mozilla.org/kb/article-review-guidelines#w_giving-credit)
+  - [3.7 Handling spam and mistaken edits](https://support.mozilla.org/kb/article-review-guidelines#w_handling-spam-and-mistaken-edits)
+
+- [4 Ready for localization](https://support.mozilla.org/kb/article-review-guidelines#w_ready-for-localization)
+  - [4.1 How does “Ready For Localization” (RFL) work?](https://support.mozilla.org/kb/article-review-guidelines#w_how-does-ready-for-localization-rfl-work)
+  - [4.2 Marking an article RFL](https://support.mozilla.org/kb/article-review-guidelines#w_marking-an-article-rfl)
+  - [4.3 Marking an article RFL post-review](https://support.mozilla.org/kb/article-review-guidelines#w_marking-an-article-rfl-post-review)
+  - [4.4 RFL protocols](https://support.mozilla.org/kb/article-review-guidelines#w_rfl-protocols)
+
+- [5 Release readiness](https://support.mozilla.org/kb/article-review-guidelines#w_release-readiness)
+  - [5.1 Firefox release calendar](https://support.mozilla.org/kb/article-review-guidelines#w_firefox-release-calendar)
+
+- [6 Discussion channel and escalation](https://support.mozilla.org/kb/article-review-guidelines#w_discussion-channel-and-escalation)
+- [7 Role evaluation](https://support.mozilla.org/kb/article-review-guidelines#w_role-evaluation)
+
+# Purpose
+
+As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity, and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily.
+
+## Key responsibilities
+
+As a KB reviewer, when you review a revision, always make sure that the revision:
+
+- Is accurate and up-to-date
+- Uses clear, consistent language and tone
+- Is aligned with Mozilla’s editorial guidelines
+- Includes correct and functioning formatting, links, and markup
+- Follows accessibility and localization best practices
+- Meets the scope of the article and product version
+
+# Review guidelines
+
+**Note:** These approval guidelines only apply to reviewing en-US updates. They do not apply to translated, non-en-US updates. For more information on localizing content, check out [Translating an article](\""https://support.mozilla.org/en-US/kb/translating-an-article"").
+
+Most revisions are made by people volunteering their time and talent. When dealing with the work that people have submitted, assume that everyone has the best intentions and be sure to thank them for their contribution. **Remember, you may be the first and only contact that person has with someone from Mozilla. Please make it positive.**
+
+## Review policy based on content type
+
+**Important: No self-approval by any contributor is allowed in any type of revisions.**
+
+Review requirements differ by [content type](\""https://support.mozilla.org/en-US/kb/major-vs-minor""). It’s important to review the following policy below before approving any new revision.
+
+- **New articles** : All new articles must be reviewed by a CX staff member.
+- **Major updates** : Both CX staff and contributors with KB reviewer permission can review revision with major updates. There might be exceptions where certain content may require CX staff approval, particularly for sensitive or high-impact content. In these situations, the author should indicate in the revision notes “Staff review required.”
+- **Minor updates** : Minor updates may be reviewed by either CX staff or a contributor reviewer. 
+
+**Note:** All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted. Otherwise, you can defer the revision.
+
+## Where to find unreviewed articles
+
+There are multiple ways you can find unreviewed articles:
+
+- **Knowledge Base Overview** : This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
+- **Unreviewed Changes** : This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
+- **Most Visited** : This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
+
+### Prioritization
+
+When reviewing multiple articles, it’s important to prioritize your efforts strategically. Consider the following:
+
+- **Article with high pageviews** : Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
+- **Article linked within the product** : If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.<dl><dt>
+<img alt=""in-product KB indicator"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-09-55-35-befc54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</dt></dl>
+
+### Special articles
+
+- **Templates** include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed [here](\""https://support.mozilla.org/contributors/kb-overview?category=60""). For guidelines on how to use templates within articles, please refer to [Using Templates](\""https://support.mozilla.org/en-US/kb/using-templates"").
+- **Canned Responses** are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available [here](\""https://support.mozilla.org/contributors/kb-overview?category=70""). For additional guidelines on creating or improving common responses, see [Create or improve common forum responses](\""https://support.mozilla.org/en-US/kb/create-or-improve-common-forum-responses"").
+
+## Special requirements for subscription or premium products
+
+### Content submission
+
+**Important: Contributors may not directly submit updates or create new Knowledge Base articles for Subscription or Premium products.**
+
+If you would like to suggest new content or propose changes, please file [a Bugzilla ticket](https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&component=Knowledge%20Base%20Content) or reach out to [a staff member](\""https://support.mozilla.org/en-US/kb/meet-team""). You can contact us either on [Matrix](https://chat.mozilla.org/#/room/#sumo:mozilla.org) or in the #sumo-team channel on Slack (for contributors with Slack access).
+
+### Content approval
+
+**Staff approval is required for all revisions related to Subscription or Premium products**. This includes Canned Responses and Templates associated with these products.
+
+For reference, current Subscription or Premium products include:
+
+- Mozilla VPN
+- Firefox Relay
+- Mozilla Monitor
+- MDN Plus
+
+# Reviewing articles
+
+## Choosing revision levels
+
+When you approve an article, you have three different revision levels to choose from. These levels will determine the need and prioritization for localization.
+
+- **Minor details that don't affect the instructions:** These are changes that won't change instructions to users. Localizers won't be notified about these changes.
+- **Content changes that don't require immediate translation:** This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers. 
+- **Major content changes that will make older translations inaccurate:** This can be used when the update will cause the previous content to be outdated. Marking an article with this will trigger a warning on localized articles that the content may be out of date and provide a link to the English version for the most updated information.<dl><dt>
+<img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+
+## Leaving feedback for editors
+
+When approving an article, it's important to thank the editors for their contribution. It's also nice if you can give them feedback. Has their writing improved? Did they do an especially good job explaining something complex? Let them know!
+
+**Note:** If a revision is good but contains a minor mistake (typo, markup mistake, etc.), you can approve it and ask the editor to fix the issue. Otherwise, you can also submit a new revision to fix it and ask a fellow KB reviewer to review.
+<dl><dt>
+<img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+## Deferring a revision
+
+If a revision is not particularly helpful, you can defer the proposed revision. Rather than being a simple rejection, however, a deferral is your opportunity to work with the revision’s author to improve their revision. You can do so by leaving a message in the comment field to thank the author and then give specific, constructive feedback about what you feel needs to change in order for the revision to be acceptable. Be sure to also include links to any relevant documentations or guidelines.
+
+<dl><dt>
+<img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+## Reviewing multiple revisions
+
+When there are multiple revisions pending for approval, make sure to check all of the revisions starting from the oldest one before making a decision. It’s important to note that you can't review older revisions when a newer revision has been approved. You will see that they are still pending for approval, but it won't be possible to review them.
+
+## Needs change
+
+When approving a revision, you have to decide what, if anything, still needs to be changed. If everything specified in the “Needs change” comment has been taken care of, you can uncheck it (clearing the comment) and approve the article. If there are still things that need to be done, make sure the checkbox is checked and update the comment. This way, we can [easily keep track of what work needs to be done on articles](\""https://support.mozilla.org/contributors/need-changes"").
+
+<dl><dt>
+<img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+## Giving credit
+
+Sometimes people that participate in a discussion about an article make significant contributions to a revision even if they weren't the one to actually edit the wiki. In cases like this, you can edit the list of contributors to an article (on the article history page) to include them. Bonus points for letting them know you did this!
+
+**How to give credit to a contributor in the KB**
+
+- To add a contributor, go to the _Show History_ page of an article
+- Scroll down under the revisions and click the “Edit contributors” link
+- Type the contributor name and then click Add Contributor
+
+**Note:** Everybody who submitted a revision will be given credit automatically unless their revision is deferred.
+
+## Handling spam and mistaken edits
+
+In the case of spam, you should simply delete the revision by clicking the trash can icon in the article revision history and confirming. In the case of mistaken submissions (no changes) and misplaced help requests (the edit is basically a support question), you should defer and include this message in your comments:  
+_Hi._  
+_It appears you may have been trying to get help with Firefox. If that is the case, please ask your question again here, [https://support.mozilla.org/questions/new](https://support.mozilla.org/questions/new) so that we can better help you._  
+_Sorry for the inconvenience._
+
+Once you've done that, you can delete the revision.
+
+![DeleteKBspam](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+**Note:** You cannot delete an unapproved article that is spam or a support request by deleting its revisions. Refer these articles to an admin.
+
+# Ready for localization
+
+## How does “Ready For Localization” (RFL) work?
+
+To prevent contributors from translating an article that is still being updated, the system only allows translation of versions that have been explicitly marked **Ready for Localization (RFL)**. When the localizer clicks Translate article, they are given the most recent revision that has been marked as RFL.
+
+After a new revision is approved, the article will not appear in localization dashboards as needing an update unless the **Ready for Localization (RFL)** flag is checked. When the RFL flag is set, the system also sends an email notification to everyone watching the article, informing them that the article is ready to be localized.
+
+## Marking an article RFL
+
+Marking an article revision as “Ready for localization” means that we’re telling localizers the English version is done and can be translated without fear that the article will change a few more times before they're done.
+
+<dl><dt>
+<img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+
+**Note:** The “Ready for L10N” column on the KB dashboard will indicate NO for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the [Changes Not Ready for Localization](\""https://support.mozilla.org/contributors/unready"") page.
+
+Localization is a lot of work and is often done by just one person. It’s not always easy, but try to make sure that all required changes are done before a Firefox release so that localizers can use that extra time for getting their work done.
+
+**Note:** Remember that if you mark a revision as a minor update, there is no option to mark the article as ready for localization because localizers don't get notified of changes with this revision level.
+
+## Marking an article RFL post-review
+
+If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an **X** symbol) under the **R** column of the article revision history and confirming.
+
+<dl><dt>
+<img alt=""ReadyForLocalization3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-30-14-13-09-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+Revisions that have been marked RFL have a checkmark symbol.
+
+## RFL protocols
+
+All contributor reviewers must adhere to the following localization protocols:
+
+- All Mozilla staff and contributor reviewers may mark a net-new article or an article update as ready for localization.
+- All net new articles and revisions that introduce new or changed information must be marked for localization, unless otherwise specified by Product teams based on regional availability.
+- If a revision does not alter instruction, accuracy, or user experience, the localization priority must be decreased accordingly.
+- In some cases, Mozilla staff may leave comment syntax or a revision comment in an article to indicate that a translation is already being submitted for internal localization in certain locales. If the comment syntax indicates that an article or revision is already being submitted for internal localization, contributors must not localize it independently.
+
+# Release readiness
+
+To make sure that we are ready to support upcoming Firefox on-train releases, here are some guidelines regarding the timelines for release readiness. Articles that are associated with the next release are either new articles or content updates that cover functionality introduced in the next release. The following guidelines apply to articles with release-related content.
+
+## Firefox release calendar
+
+**Note:** You can find a [release schedule for Firefox here](https://whattrainisitnow.com/calendar/).
+
+**4 weeks before the next release**
+
+- Begin planning and drafting content for the upcoming release; no work for localizers yet
+- All existing articles remain open for editing and localization as usual.
+
+**1-2 weeks before the next release**
+
+- Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes. 
+- If the content requires localization prior to release, the product team must notify the CX staff so we can coordinate with the localization community to ensure deadlines are met.
+
+**Release day**
+
+- Content changes should be published in the en-US Knowledge Base. Localizers should prioritize translating articles related to the new release.
+
+# Discussion channel and escalation
+
+Not all KB reviewers actively monitor [KB Discussions](\""https://support.mozilla.org/kb/article-discussion-forums""). If you need to reach the entire group of KB reviewers, please email [kb-reviewers@mozilla.com](mailto:kb-reviewers@mozilla.com).
+
+# Role evaluation
+
+Creating content that is accurate, consistent, and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment.
+
+As a Knowledge Base reviewer, you play an important role in upholding those standards. To ensure our reviewer group stays active and aligned with current practices, the Community team conducts a light annual review based on participation and adherence to guidelines.
+
+To retain your KB reviewer permission, we ask that you:
+
+- Stay aligned: Adhere to the Community Participation Guidelines and the KB reviewer guidelines outlined in this article.
+- Stay active: Review at least three (3) revisions within a six-month period. 
+
+If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported, and aligned with current processes.
+
+If circumstances change and you need to step back, we completely understand. Since this is a volunteer role, your time and availability may naturally shift. Don’t hesitate to let the Community team know when that happens. We’re always happy to reconnect when you’re ready to re-engage.
+
+—
+
+By working together and involving others in the review and approval process, we can maintain the highest standards of quality and ensure that our content is top-notch. Thank you for your cooperation, and let's continue to create amazing revisions for our users!
 
 "
 8603,Use Firefox in Full Screen mode,how-make-firefox-and-websites-go-full-screen,https://support.mozilla.org/en-US/kb/how-make-firefox-and-websites-go-full-screen,en-US,The Full Screen feature lets you expand the Firefox browser for the current page to fill up your whole screen. This article explains how to turn it on and off.,"<p>Sometimes you want to see more of the web and less of the browser. That's when Full Screen mode comes in handy. It lets you expand Firefox for the current page to fill up your whole screen, so you can focus on what matters most.
@@ -47114,6 +47024,238 @@ Here's how it works:
 </dt></dl>
 
 The link will open in a new tab in Firefox for Android.
+
+"
+26479,Change your default search engine in Firefox for iOS,change-your-default-search-engine-firefox-ios,https://support.mozilla.org/en-US/kb/change-your-default-search-engine-firefox-ios,en-US,"Learn how to change your default search engine in Firefox on your iPhone, iPad or iPod touch.","<p>Firefox for iOS gives you the ability to add, remove and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_change-default-search-engine""><span class=""tocnumber"">1</span> <span class=""toctext"">Change default search engine</span></a></li><li class=""toclevel-1""><a href=""#w_add-a-search-engine""><span class=""tocnumber"">2</span> <span class=""toctext"">Add a search engine</span></a></li></ul></div>
+<h1 id=""w_change-default-search-engine"">Change default search engine</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
+
+</li><li>Tap <span class=""menu"">Search</span>.
+</li><li>Tap the current default search engine name.
+</li><li>You current default search engine choice will have a check mark. To use another, tap the name of the search you want to use as your default search engine.
+</li><li>After you select a new default search engine, Firefox will take you back to the <strong>Search</strong> screen. Tap <em>Settings</em> to return to the menu, and tap <strong>Done</strong> to close it.
+</li></ol>
+<div class=""note""><strong>Show search suggestions:</strong> By default, Firefox shows you search suggestions from the default search engine while you type in the address bar. See <a href=""/en-US/kb/turn-search-suggestions-or-firefox-ios"">Turn search suggestions on or off on Firefox for iOS</a> to change this setting.</div> 
+<div class=""note""><strong>Enable or disable search engines:</strong> See <a href=""/en-US/kb/enable-or-disable-search-engines-firefox-ios"">Enable or disable search engines on Firefox for iOS</a> to change which search engines can be used for a search.</div>
+<h1 id=""w_add-a-search-engine"">Add a search engine</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
+
+</li><li>Tap <span class=""menu"">Search</span>.
+</li><li>Tap <span class=""menu"">Add Search Engine</span> under the list of available <strong>Quick-Search Engines</strong>.
+</li><li>Enter a name for the search engine in the <strong>Title</strong> text field.
+</li><li>Enter a search string URL in the <strong>URL</strong> text field.
+<dl><dt><div class=""note""><strong>Note:</strong> Please be sure to replace the query string with “%s”, for example:<br>https://www.google.com/search?q=%s <br>https://www.startpage.com/sp/search?q=%s  <br>https://www.ecosia.org/search?q=%s<br><br>If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to <a href=""http://ecosia.org"">ecosia.org</a> and search for <strong>firefox</strong>, the resulting URL in the address bar will be https://www.ecosia.org/search?q=<strong>firefox</strong>. Then the search string must be https://www.ecosia.org/search?q=<strong>%s</strong>, replacing the query with ""%s"".</div>
+</dt></dl>
+</li><li>Tap the <span class=""button"">Save</span> button. The search engine is added to the predefined list of search engines in alphabetical order.
+</li></ol>",ios,search,"Firefox for iOS gives you the ability to add, remove and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
+
+## Table of Contents
+
+- [1 Change default search engine](https://support.mozilla.org/kb/change-your-default-search-engine-firefox-ios#w_change-default-search-engine)
+- [2 Add a search engine](https://support.mozilla.org/kb/change-your-default-search-engine-firefox-ios#w_add-a-search-engine)
+
+# Change default search engine
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap Settings in the menu panel.
+3. Tap Search.
+4. Tap the current default search engine name.
+5. You current default search engine choice will have a check mark. To use another, tap the name of the search you want to use as your default search engine.
+6. After you select a new default search engine, Firefox will take you back to the **Search** screen. Tap _Settings_ to return to the menu, and tap **Done** to close it.
+
+**Show search suggestions:** By default, Firefox shows you search suggestions from the default search engine while you type in the address bar. See [Turn search suggestions on or off on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/turn-search-suggestions-or-firefox-ios"") to change this setting.
+
+**Enable or disable search engines:** See [Enable or disable search engines on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/enable-or-disable-search-engines-firefox-ios"") to change which search engines can be used for a search.
+
+# Add a search engine
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap Settings in the menu panel.
+3. Tap Search.
+4. Tap Add Search Engine under the list of available **Quick-Search Engines**.
+5. Enter a name for the search engine in the **Title** text field.
+6. Enter a search string URL in the **URL** text field.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> Please be sure to replace the query string with “%s”, for example:<br>https://www.google.com/search?q=%s <br>https://www.startpage.com/sp/search?q=%s <br>https://www.ecosia.org/search?q=%s<br><br>If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to <a href=""http://ecosia.org"">ecosia.org</a> and search for <strong>firefox</strong>, the resulting URL in the address bar will be https://www.ecosia.org/search?q=<strong>firefox</strong>. Then the search string must be https://www.ecosia.org/search?q=<strong>%s</strong>, replacing the query with ""%s"".</div>
+</dt></dl>
+7. Tap the Save button. The search engine is added to the predefined list of search engines in alphabetical order.
+
+"
+26720,Practice article for SUMO localizers (localize this),practice-article-localize-this,https://support.mozilla.org/en-US/kb/practice-article-localize-this,en-US,This article is meant for new localizers to practice how different elements of a KB page work during localization. (localize this),"<p>
+</p><p>
+</p><p>
+Welcome to the practice l10n article for SUMO! Here you can see how the elements in Knowledge Base articles in SUMO work together to allow for many combinations of content on one page. It can look quite complex at first, so pay attention - but it's also a very easy to use and powerful tool!
+</p><p>This article can be localized by anyone with a SUMO account, and the localized version should be deleted after the localizer feels confident with working in the KB, to make it possible for new contributors to practice.
+</p><p>To get started with the practice, please click the ""Translate article"" link on the side. Things will look a bit differently, but you will see instructions in the ""Content"" field, so don't worry!
+</p><p>
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_lets-get-practicing""><span class=""tocnumber"">1</span> <span class=""toctext"">Let's get practicing!</span></a><ul><li class=""toclevel-2""><a href=""#w_first-lets-take-a-look-at-basic-formatting""><span class=""tocnumber"">1.1</span> <span class=""toctext"">First, let's take a look at basic formatting</span></a></li><li class=""toclevel-2""><a href=""#w_now-lets-practice-for-statements""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Now, let's practice for statements</span></a><ul><li class=""toclevel-3""><a href=""#w_where-do-i-find-more-help""><span class=""tocnumber"">1.2.1</span> <span class=""toctext"">Where do I find more help?</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_what-about-templates""><span class=""tocnumber"">1.3</span> <span class=""toctext"">What about Templates?</span></a><ul><li class=""toclevel-3""><a href=""#w_i-want-to-know-more-about-templates""><span class=""tocnumber"">1.3.1</span> <span class=""toctext"">I want to know more about Templates!</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_ok-i-get-all-the-formatting-what-to-do-next""><span class=""tocnumber"">2</span> <span class=""toctext"">OK, I get all the formatting, what to do next?</span></a></li></ul></div>
+<p>
+</p>
+<h1 id=""w_lets-get-practicing"">Let's get practicing!</h1>
+<p>
+</p>
+<h2 id=""w_first-lets-take-a-look-at-basic-formatting"">First, let's take a look at basic formatting</h2>
+<p>
+This text should be normal.<br>
+<strong>This text should be bold.</strong><br>
+<em>This text should be italicized.</em><br>
+<em><strong>This text should be bold AND italicized.</strong></em><br>
+
+</p>
+<ul><li> This should be a bullet point for the top list.
+<ul><li> This should be a sub-bullet point.
+<ul><li> This should be a sub-sub-bullet point.
+</li></ul>
+</li></ul>
+</li><li> This should be another bullet point for the top list.
+</li></ul>
+<ol><li> This should be a numbered list element for the top list.
+<ol><li> This should be a numbered list sub-element.
+</li><li> This should be the next numbered list sub-element.
+<ol><li> This should be a numbered list sub-sub-element.
+</li><li> This should be the next numbered list sub-sub-element.
+</li></ol>
+</li></ol>
+</li><li> This should be the next numbered list element for the top list.
+</li></ol>
+<p>
+</p>
+<div class=""note"">This should be a note. You should localize everything between the starting and ending element of this note, but not the starting/ending element!</div>
+<div class=""warning"">This should be a more visible note, that we like to call a ""warning"". You should localize everything between the starting and ending element of this warning, but not the starting/ending element!</div>
+<p>Very often, an article will contain references to the user interface of the software it describes. We use a bunch of different formatting options for that, too!<br>
+
+<span class=""button"">This is a button highlight</span>, and <span class=""menu"">This should be a menu option highlight</span>.
+</p>
+<h2 id=""w_now-lets-practice-for-statements"">Now, let's practice <em>for</em> statements</h2>
+<p>
+You can find all the information on how to use <em>for</em> statements (including very intricate combinations ;D) when you read <a href=""/en-US/kb/how-to-use-for"">How to use ""For"" tags</a>. 
+</p><p> 
+<span class=""for"" data-for=""not fx30"">This will not appear for Firefox version 30.</span>
+<span class=""for"" data-for=""fx38"">This will appear only for Firefox version 38.</span>
+</p><p><span class=""for"" data-for=""linux"">This will appear only for Linux.
+
+<img alt=""linux logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-02-07-11-56-15-e206a5.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</span></p><p><span class=""for"" data-for=""win"">This will appear only for Windows.
+
+<img alt=""Windows"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-10-29-10-20-44-0f4137.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</p><p><span class=""for"" data-for=""mac"">This will appear only for Mac OS.
+
+<img alt=""macos logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-02-07-11-56-41-43b9d8.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</p><p>
+</p>
+<h3 id=""w_where-do-i-find-more-help"">Where do I find more help?</h3>
+<p>
+To learn how to upload and use images in the KB, read the information in <a href=""https://support.mozilla.org/kb/adding-screenshots"">this article</a>.
+</p>
+<h2 id=""w_what-about-templates"">What about Templates?</h2>
+<div class=""warning"">Warning, incoming template!</div>
+<p>
+Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+</p>
+<h3 id=""w_i-want-to-know-more-about-templates"">I want to know more about Templates!</h3>
+<p>
+If you want to learn more about templates, please read <a href=""/en-US/kb/using-templates"">Using Templates</a>.
+</p>
+<h1 id=""w_ok-i-get-all-the-formatting-what-to-do-next"">OK, I get all the formatting, what to do next?</h1>
+<ol><li> Make sure you read the rest of the l10n documentation: <a href=""/en-US/kb/translating-an-article"">Translating an article</a>.
+</li><li> Get in touch with other localizers in your language! <a href=""https://support.mozilla.org/en-US/forums/l10n-forum/711081"">you can find the languages here</a>.
+</li><li> Ready to start localizing? Great! <a href=""https://support.mozilla.org/localization"">Head over to your dashboard</a> and get cracking :-)
+</li><li> Remember, that if you have problems or questions, you can  <a href=""/forums/l10n-forum/"">head over to our forums and ask there!</a>
+</li></ol>",contributor,l10n,"Welcome to the practice l10n article for SUMO! Here you can see how the elements in Knowledge Base articles in SUMO work together to allow for many combinations of content on one page. It can look quite complex at first, so pay attention - but it's also a very easy to use and powerful tool!
+
+This article can be localized by anyone with a SUMO account, and the localized version should be deleted after the localizer feels confident with working in the KB, to make it possible for new contributors to practice.
+
+To get started with the practice, please click the ""Translate article"" link on the side. Things will look a bit differently, but you will see instructions in the ""Content"" field, so don't worry!
+
+## Table of Contents
+
+- [1 Let's get practicing!](https://support.mozilla.org/kb/practice-article-localize-this#w_lets-get-practicing)
+  - [1.1 First, let's take a look at basic formatting](https://support.mozilla.org/kb/practice-article-localize-this#w_first-lets-take-a-look-at-basic-formatting)
+  - [1.2 Now, let's practice for statements](https://support.mozilla.org/kb/practice-article-localize-this#w_now-lets-practice-for-statements)
+    - [1.2.1 Where do I find more help?](https://support.mozilla.org/kb/practice-article-localize-this#w_where-do-i-find-more-help)
+
+  - [1.3 What about Templates?](https://support.mozilla.org/kb/practice-article-localize-this#w_what-about-templates)
+    - [1.3.1 I want to know more about Templates!](https://support.mozilla.org/kb/practice-article-localize-this#w_i-want-to-know-more-about-templates)
+
+- [2 OK, I get all the formatting, what to do next?](https://support.mozilla.org/kb/practice-article-localize-this#w_ok-i-get-all-the-formatting-what-to-do-next)
+
+# Let's get practicing!
+
+## First, let's take a look at basic formatting
+
+This text should be normal.  
+**This text should be bold.**  
+_This text should be italicized._  
+_ **This text should be bold AND italicized.** _
+
+- This should be a bullet point&nbsp;for the top list.
+  - This should be a sub-bullet point.
+    - This should be a sub-sub-bullet point.
+
+- This should be another bullet point for the top list.
+
+1. This should be a numbered list element for the top list.
+  1. This should be a numbered list sub-element.
+  2. This should be the next numbered list sub-element.
+    1. This should be a numbered list sub-sub-element.
+    2. This should be the next numbered list sub-sub-element.
+
+2. This should be the next numbered list element for the top list.
+
+This should be a note. You should localize everything between the starting and ending element of this note, but not the starting/ending element!
+
+This should be a more visible note, that we like to call a ""warning"". You should localize everything between the starting and ending element of this warning, but not the starting/ending element!
+
+Very often, an article will contain references to the user interface of the software it describes. We use a bunch of different formatting options for that, too!  
+This is a button highlight, and This should be a menu option highlight.
+
+## Now, let's practice _for_ statements
+
+You can find all the information on how to use _for_ statements (including very intricate combinations&nbsp;;D) when you read [How to use ""For"" tags](\""https://support.mozilla.org/en-US/kb/how-to-use-for"").
+
+This will not appear for Firefox version 30.This will appear only for Firefox version 38.
+
+This will appear only for Linux. ![linux logo](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+This will appear only for Windows. ![Windows](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+This will appear only for Mac OS. ![macos logo](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+### Where do I find more help?
+
+To learn how to upload and use images in the KB, read the information in [this article](https://support.mozilla.org/kb/adding-screenshots).
+
+## What about Templates?
+
+Warning, incoming template!
+
+Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
+
+### I want to know more about Templates!
+
+If you want to learn more about templates, please read [Using Templates](\""https://support.mozilla.org/en-US/kb/using-templates"").
+
+# OK, I get all the formatting, what to do next?
+
+1. Make sure you read the rest of the l10n documentation: [Translating an article](\""https://support.mozilla.org/en-US/kb/translating-an-article"").
+2. Get in touch with other localizers in your language! [you can find the languages here](https://support.mozilla.org/en-US/forums/l10n-forum/711081).
+3. Ready to start localizing? Great! [Head over to your dashboard](https://support.mozilla.org/localization) and get cracking&nbsp;:-)
+4. Remember, that if you have problems or questions, you can [head over to our forums and ask there!](\""https://support.mozilla.org/forums/l10n-forum/"")
 
 "
 26742,Installing an Add-on in Thunderbird,installing-addon-thunderbird,https://support.mozilla.org/en-US/kb/installing-addon-thunderbird,en-US,Add-ons add functionality to Thunderbird or change its appearance. Learn how to install add-ons to Thunderbird.,"<p><a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions"">Add-ons</a> are little apps that add new functionality to Thunderbird (extensions) or change its appearance (themes). This article shows you how to install an add-on to your Thunderbird.
@@ -100430,150 +100572,6 @@ Currently, Google Trending Search is available exclusively to a limited set of F
 Enabling trending searches does not affect your search [privacy](https://www.mozilla.org/privacy/firefox/). The trending searches shown are not based on your personal search history but on popular searches from a broad audience. Mozilla does not collect any personal information or track your individual searches.
 
 "
-62314,Open Firefox automatically when you start your computer,open-firefox-automatically-when-you-start-computer,https://support.mozilla.org/en-US/kb/open-firefox-automatically-when-you-start-computer,en-US,"Enable Firefox to launch automatically when Windows starts, providing quicker access to your browser and enhancing your browsing experience.","<p></p><div class=""for"" data-for=""not win""><div class=""warning"">This article only applies to Firefox on Windows.</div></div>
-Starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 120, you can set Firefox to automatically launch whenever you start or restart your Windows computer. Setting Firefox to auto-launch optimizes efficiency in our browser-centric digital routines, eliminating manual startup delays and facilitating immediate web access.
-<p></p>
-<h1 id=""w_opt-in-prompt"">Opt-in prompt</h1>
-<p>If you have previously chosen Firefox as your default browser, an opt-in message will appear. Simply click <img alt=""Yes, open Firefox button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-16-07-17-26-2b5fb5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""100""> to enable it.
-</p><p><img alt=""Auto launch prompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-28-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_manual-configuration"">Manual configuration</h1>
-<p>Didn’t receive the prompt? Follow these steps to manually set up auto-launch:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">Make sure you're using Firefox on Windows. Then, click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-</li><li>In the <span class=""menu"">General</span> panel, locate and select the <strong>Open Firefox automatically when your computer starts up</strong> option.
-<dl><dt><img alt=""Auto launch preferences 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-48-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt><dt><div class=""note""><strong>Note:</strong> This option may not be available if you <a href=""/en-US/kb/shield#w_how-do-i-opt-out"">opted out of Studies</a> in Firefox Settings.</div> 
-</dt></dl>
-</li><li>If prompted with <em>This preference has been disabled in Windows</em>, click the <a href=""https://support.microsoft.com/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd"">Startup Apps</a> link. This will guide you to the appropriate section in Windows' system settings.
-<dl><dt><img alt=""Auto launch preferences 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-36-06-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Once done, exit the <em>Settings</em> page. Your adjustments are saved automatically.
-</li></ol>",firefox,browse;settings,"This article only applies to Firefox on Windows.
-
-Starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 120, you can set Firefox to automatically launch whenever you start or restart your Windows computer. Setting Firefox to auto-launch optimizes efficiency in our browser-centric digital routines, eliminating manual startup delays and facilitating immediate web access.
-
-# Opt-in prompt
-
-If you have previously chosen Firefox as your default browser, an opt-in message will appear. Simply click ![Yes, open Firefox button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to enable it.
-
-![Auto launch prompt](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Manual configuration
-
-Didn’t receive the prompt? Follow these steps to manually set up auto-launch:
-
-1. Make sure you're using Firefox on Windows. Then, click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, locate and select the **Open Firefox automatically when your computer starts up** option.<dl>
-<dt>
-<img alt=""Auto launch preferences 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-35-48-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt>
-<dt>
-<div class=""note"">
-<strong>Note:</strong> This option may not be available if you <a href='\""https://support.mozilla.org/en-US/kb/shield#w_how-do-i-opt-out""'>opted out of Studies</a> in Firefox Settings.</div> 
-</dt>
-</dl>
-3. If prompted with _This preference has been disabled in Windows_, click the [Startup Apps](https://support.microsoft.com/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd) link. This will guide you to the appropriate section in Windows' system settings.<dl><dt>
-<img alt=""Auto launch preferences 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-17-08-36-06-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. Once done, exit the _Settings_ page. Your adjustments are saved automatically.
-
-"
-62316,Relay Phone Masking FAQ,relay-phone-masking-faq,https://support.mozilla.org/en-US/kb/relay-phone-masking-faq,en-US,Frequently asked questions about Relay Phone Masking.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_do-i-need-to-install-an-app-to-use-relay-phone-masking""><span class=""tocnumber"">1</span> <span class=""toctext"">Do I need to install an app to use Relay Phone Masking?</span></a></li><li class=""toclevel-1""><a href=""#w_how-many-phone-masks-do-i-get""><span class=""tocnumber"">2</span> <span class=""toctext"">How many phone masks do I get?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-save-the-relay-contact-card""><span class=""tocnumber"">3</span> <span class=""toctext"">How do I save the Relay contact card?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-text-forwarding""><span class=""tocnumber"">4</span> <span class=""toctext"">What is text forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-text-repliesconversations""><span class=""tocnumber"">5</span> <span class=""toctext"">What are text replies/conversations?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-texts-will-be-forwarded""><span class=""tocnumber"">6</span> <span class=""toctext"">What kinds of texts will be forwarded?</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-call-forwarding""><span class=""tocnumber"">7</span> <span class=""toctext"">What is call forwarding?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-make-calls-from-my-relay-number""><span class=""tocnumber"">8</span> <span class=""toctext"">Can I make calls from my Relay number?</span></a></li><li class=""toclevel-1""><a href=""#w_does-a-relay-premium-subscription-include-phone-masking-or-is-it-a-separate-service""><span class=""tocnumber"">9</span> <span class=""toctext"">Does a Relay Premium subscription include phone masking or is it a separate service?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-my-true-phone-number-after-registering-it""><span class=""tocnumber"">10</span> <span class=""toctext"">Can I change my true phone number after registering it?</span></a></li><li class=""toclevel-1""><a href=""#w_should-i-add-my-relay-phone-number-to-my-contacts""><span class=""tocnumber"">11</span> <span class=""toctext"">Should I add my Relay Phone number to my contacts?</span></a></li></ul></div>
-<h1 id=""w_do-i-need-to-install-an-app-to-use-relay-phone-masking"">Do I need to install an app to use Relay Phone Masking?</h1>
-<p>No, Relay Phone Masking works using your device’s standard text messaging and calling apps.
-</p>
-<h1 id=""w_how-many-phone-masks-do-i-get"">How many phone masks do I get?</h1>
-<p>You only get one phone number mask at this time. Once you choose your phone number mask, you cannot change it later.
-</p>
-<h1 id=""w_how-do-i-save-the-relay-contact-card"">How do I save the Relay contact card?</h1>
-<p>Once you upgrade to Relay Phone Masking, we will text you a contact card that contains the number from which you will receive forwarded texts, similar to any contact card that stores the phone number of people who contact you. On most devices, you can select that contact card and save it like any other contact on your phone.
-</p>
-<h1 id=""w_what-is-text-forwarding"">What is text forwarding?</h1>
-<p>When a text message is sent to your relay number, it will forward to your true phone number.
-</p>
-<h1 id=""w_what-are-text-repliesconversations"">What are text replies/conversations?</h1>
-<p>When you reply to a forwarded message from your Relay number, Relay will forward your reply to the last number that texted you.
-</p>
-<h1 id=""w_what-kinds-of-texts-will-be-forwarded"">What kinds of texts will be forwarded?</h1>
-<p>Only SMS text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
-</p>
-<h1 id=""w_what-is-call-forwarding"">What is call forwarding?</h1>
-<p>When a call is made to your relay number, it will forward to your true phone number.
-</p>
-<h1 id=""w_can-i-make-calls-from-my-relay-number"">Can I make calls from my Relay number?</h1>
-<p>No. Similar to email masks, Relay Phone Masking only protects your true phone number when responding to messages or answering phone calls.
-</p>
-<h1 id=""w_does-a-relay-premium-subscription-include-phone-masking-or-is-it-a-separate-service"">Does a Relay Premium subscription include phone masking or is it a separate service?</h1>
-<p>Relay Phone Masking is a separate premium service, and is not initially included with Relay email masking subscription.
-</p>
-<h1 id=""w_can-i-change-my-true-phone-number-after-registering-it"">Can I change my true phone number after registering it?</h1>
-<p>You cannot change your true phone number by yourself after you register it. Please <a href=""/en-US/kb/how-do-i-contact-support-relay-premium"">contact support</a> for assistance.
-</p>
-<h1 id=""w_should-i-add-my-relay-phone-number-to-my-contacts"">Should I add my Relay Phone number to my contacts?</h1>
-<p>In your welcome text message, a contact card will be included containing your Relay Phone number. You can import this card into your contacts application for convenience and to help identify forwarded Relay forwarded text messages.
-</p><p>Importing contacts can be different depending on your mobile device and contacts application; however, tapping on the contact card attachment in the welcome text message should begin the process. For additional information on importing contacts, please refer to your device's manual.
-</p>",relay,masking;privacy-and-security,"## Table of Contents
-
-- [1 Do I need to install an app to use Relay Phone Masking?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_do-i-need-to-install-an-app-to-use-relay-phone-masking)
-- [2 How many phone masks do I get?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_how-many-phone-masks-do-i-get)
-- [3 How do I save the Relay contact card?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_how-do-i-save-the-relay-contact-card)
-- [4 What is text forwarding?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-is-text-forwarding)
-- [5 What are text replies/conversations?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-are-text-repliesconversations)
-- [6 What kinds of texts will be forwarded?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-kinds-of-texts-will-be-forwarded)
-- [7 What is call forwarding?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_what-is-call-forwarding)
-- [8 Can I make calls from my Relay number?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_can-i-make-calls-from-my-relay-number)
-- [9 Does a Relay Premium subscription include phone masking or is it a separate service?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_does-a-relay-premium-subscription-include-phone-masking-or-is-it-a-separate-service)
-- [10 Can I change my true phone number after registering it?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_can-i-change-my-true-phone-number-after-registering-it)
-- [11 Should I add my Relay Phone number to my contacts?](https://support.mozilla.org/kb/relay-phone-masking-faq#w_should-i-add-my-relay-phone-number-to-my-contacts)
-
-# Do I need to install an app to use Relay Phone Masking?
-
-No, Relay Phone Masking works using your device’s standard text messaging and calling apps.
-
-# How many phone masks do I get?
-
-You only get one phone number mask at this time. Once you choose your phone number mask, you cannot change it later.
-
-# How do I save the Relay contact card?
-
-Once you upgrade to Relay Phone Masking, we will text you a contact card that contains the number from which you will receive forwarded texts, similar to any contact card that stores the phone number of people who contact you. On most devices, you can select that contact card and save it like any other contact on your phone.
-
-# What is text forwarding?
-
-When a text message is sent to your relay number, it will forward to your true phone number.
-
-# What are text replies/conversations?
-
-When you reply to a forwarded message from your Relay number, Relay will forward your reply to the last number that texted you.
-
-# What kinds of texts will be forwarded?
-
-Only SMS text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
-
-# What is call forwarding?
-
-When a call is made to your relay number, it will forward to your true phone number.
-
-# Can I make calls from my Relay number?
-
-No. Similar to email masks, Relay Phone Masking only protects your true phone number when responding to messages or answering phone calls.
-
-# Does a Relay Premium subscription include phone masking or is it a separate service?
-
-Relay Phone Masking is a separate premium service, and is not initially included with Relay email masking subscription.
-
-# Can I change my true phone number after registering it?
-
-You cannot change your true phone number by yourself after you register it. Please [contact support](\""https://support.mozilla.org/en-US/kb/how-do-i-contact-support-relay-premium"") for assistance.
-
-# Should I add my Relay Phone number to my contacts?
-
-In your welcome text message, a contact card will be included containing your Relay Phone number. You can import this card into your contacts application for convenience and to help identify forwarded Relay forwarded text messages.
-
-Importing contacts can be different depending on your mobile device and contacts application; however, tapping on the contact card attachment in the welcome text message should begin the process. For additional information on importing contacts, please refer to your device's manual.
-
-"
 62317,Use the in-browser print function on Firefox for Android,use-browser-print-function-firefox-android,https://support.mozilla.org/en-US/kb/use-browser-print-function-firefox-android,en-US,The Firefox for Android print function that allows you to print web content and PDFs directly from your mobile device.,"<p>Firefox for Android <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">version</a> 118 introduces a convenient in-browser print function that allows you to print web content and PDFs directly from your mobile device. This article will guide you through the process of using this new feature and provide some essential information about it.
 </p>
 <h1 id=""w_access-the-print-function"">Access the Print Function</h1>
@@ -116039,7 +116037,7 @@ You can also visit the <a href=""https://support.mozilla.org/en-US/products/mozi
 </div>
 <div class=""note""> 
 <p><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 </p>
 </div>
 <p>VPN is a built-in Firefox feature that adds privacy by routing your browser traffic through a secure proxy server and masking your IP address. The feature includes a monthly data limit of 50 GB. Firefox will notify you when you are approaching this limit with a prompt in the browser. It is available to a limited set of users during the initial rollout, starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 149.
@@ -116142,7 +116140,7 @@ This article covers Firefox’s built-in VPN feature, not the Mozilla VPN app.
 If you use the Mozilla VPN app, open the app and go to **Help** \> **Contact support** for assistance.  
  You can also visit the [Mozilla VPN support page](https://support.mozilla.org/en-US/products/mozilla-vpn).
 
-![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 
 VPN is a built-in Firefox feature that adds privacy by routing your browser traffic through a secure proxy server and masking your IP address. The feature includes a monthly data limit of 50 GB. Firefox will notify you when you are approaching this limit with a prompt in the browser. It is available to a limited set of users during the initial rollout, starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 149.
 
