@@ -36921,6 +36921,174 @@ This walk-through also assumes that you have already created a new calendar. If 
 Congratulations, your recurring event should be setup correctly.
 
 "
+17081,Create new calendars,creating-new-calendars,https://support.mozilla.org/en-US/kb/creating-new-calendars,en-US,Using Thunderbird it's possible to have multiple calendars. You can connect to your online calendars during email account setup or create new calendars later.,"<p>With Thunderbird, it's possible to have multiple calendars. During email account setup, your existing online calendars can be automatically detected. Or you can set up new calendars in Calendar Mode or Task Mode.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_connect-to-your-online-calendars-during-email-account-setup""><span class=""tocnumber"">1</span> <span class=""toctext"">Connect to your online calendars during email account setup</span></a></li><li class=""toclevel-1""><a href=""#w_creating-a-new-calendar""><span class=""tocnumber"">2</span> <span class=""toctext"">Creating a new calendar</span></a><ul><li class=""toclevel-2""><a href=""#w_on-your-computer-local-calendars""><span class=""tocnumber"">2.1</span> <span class=""toctext"">On your computer - local calendars</span></a></li><li class=""toclevel-2""><a href=""#w_on-the-network-connect-to-your-online-calendars""><span class=""tocnumber"">2.2</span> <span class=""toctext"">On the Network - connect to your online calendars</span></a><ul><li class=""toclevel-3""><a href=""#w_finding-the-link-to-your-google-calendar""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Finding the link to your Google calendar</span></a></li><li class=""toclevel-3""><a href=""#w_icalendar-ics""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">iCalendar (ICS)</span></a></li></ul></li></ul></li></ul></div>
+<h1 id=""w_connect-to-your-online-calendars-during-email-account-setup"">Connect to your online calendars during email account setup</h1>
+<p><img alt=""TB91-account-setup-sucessfully-created-connect-linked-services"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-23-18-24-30-bc0fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>After setting up your existing email address with convenient auto-configuration, Thunderbird will now automatically detect your remote address books and calendars based on the user information you provided.
+</p><p>When adding a Google mail account to Thunderbird, you can easily add your existing Google calendars and address book (see <a href=""https://thunderbird.topicbox.com/groups/beta/T9886a223d58b7aad-M09757bc2dee271bf7d29580b"">Notes</a>).
+</p>
+<div class=""note""><strong>Note:</strong> If one of your Google calendars is not found or not accessible, it might not be set up for syncing. You can choose which calendars Google will expose in your <a href=""https://calendar.google.com/calendar/u/0/syncselect"">Google Calendar Sync Settings</a>. Unfortunately, Google does not support tasks through CalDAV.
+</div>
+<h1 id=""w_creating-a-new-calendar"">Creating a new calendar</h1>
+<p>From the Calendar Tab (not the sidebar):
+</p>
+<ul><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ in the calendar list on the left side of the screen.
+</li><li> Choose <span class=""menu"">New Calendar…</span> from the context menu.
+</li><li> Alternatively, you can use <span class=""button"">≡</span> &gt; <span class=""menu"">New</span> &gt; <span class=""menu"">Calendar…</span>, or <span class=""menu"">File</span> &gt;  <span class=""menu"">New </span> &gt; <span class=""menu"">Calendar…</span>.
+</li></ul>
+<p>Now you need to choose whether you want to create the calendar ""on your computer"" or ""on the network"".
+</p>
+<h2 id=""w_on-your-computer-local-calendars"">On your computer - local calendars</h2>
+<p>When choosing ""On my computer"", you can only use the calendar on the computer you're working at. All the data is stored inside an internal database (the file local.sqlite in your Thunderbird profile).
+</p>
+<ul><li> Choose <strong>On my computer</strong> and click <span class=""for"" data-for=""win,linux""><span class=""button"">Next</span></span><span class=""for"" data-for=""mac""><span class=""button"">Continue</span></span>.
+</li><li> Enter a name for your calendar and choose a color, then click <span class=""button"">Create Calendar</span>.
+</li></ul>
+<h2 id=""w_on-the-network-connect-to-your-online-calendars"">On the Network - connect to your online calendars</h2>
+<p>When choosing ""On the Network"", your calendar files may reside on general webservers (read-only), on WebDAV or CalDAV servers, on the local filesystem or a network share, or you could use your Google calendars.
+</p>
+<ul><li> Choose <strong>On the Network</strong> and click <span class=""for"" data-for=""win,linux""><span class=""button"">Next</span></span><span class=""for"" data-for=""mac""><span class=""button"">Continue</span></span>.
+</li></ul>
+<p><img alt=""TB91-create-new-calendar-username-location-gmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-06-13-39-47-3d7208.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<ol><li> Enter your username, for example your email address on Gmail.
+</li><li> Enter the calendar URL in the Location field. Thunderbird recognizes a variety of calendar URLs.
+</li><li> If applicable, check <strong>This location doesn't require credentials</strong>.
+</li><li> <strong>Offline Support</strong> is checked by default, so that you can also use your calendar when you are offline.
+</li><li> Click on <span class=""button"">Find Calendars</span>.
+</li></ol>
+<p>In the next step, Thunderbird will show you a selection of available calendars.
+</p><p><img alt=""TB91-create-new-calendar-select-calendars-gmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-06-13-53-58-bef503.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<ul><li> You can change the properties of each calendar, for example its name and color, using the <span class=""button"">Properties</span> button.
+</li><li> Check the calendars you want, and click on <span class=""button"">Subscribe</span>.
+</li></ul>
+<h3 id=""w_finding-the-link-to-your-google-calendar"">Finding the link to your Google calendar</h3>
+<ol><li> Go to your Google calendar on the browser, click the Options menu (3 points) next to the name of the calendar you wish to subscribe to and click on <span class=""menu"">Settings and sharing</span>.
+</li></ol>
+<p><img alt=""Google Calendar Settings and Sharing"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-22-00-12-10-89785c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<ol><li> Find and copy a link to your calendar.
+<ul><li> In the <strong>Access permissions for events</strong> section, click on <strong>Get shareable link</strong> and copy the link.
+</li><li> Alternatively, you can use ICS format: In the <strong>Integrate calendar</strong> section, select and copy the link under <em>Public address in iCal format</em> or <em>Secret address in iCal format</em>.
+</li></ul>
+</li><li> Paste this link into the Location field of the <em>Create New Calendar</em> dialog box.
+</li></ol>
+<h3 id=""w_icalendar-ics"">iCalendar (ICS)</h3>
+<p>You're able to subscribe to calendars provided by third parties, mostly in ics format. These are almost always read-only; you won't be able to change anything for the calendars. An example of this kind of calendar are the <a href=""https://www.thunderbird.net/calendar/holidays/"">holiday calendars provided by Thunderbird</a>.
+</p>",thunderbird,calendar,"With Thunderbird, it's possible to have multiple calendars. During email account setup, your existing online calendars can be automatically detected. Or you can set up new calendars in Calendar Mode or Task Mode.
+
+## Table of Contents
+
+- [1 Connect to your online calendars during email account setup](https://support.mozilla.org/kb/creating-new-calendars#w_connect-to-your-online-calendars-during-email-account-setup)
+- [2 Creating a new calendar](https://support.mozilla.org/kb/creating-new-calendars#w_creating-a-new-calendar)
+  - [2.1 On your computer - local calendars](https://support.mozilla.org/kb/creating-new-calendars#w_on-your-computer-local-calendars)
+  - [2.2 On the Network - connect to your online calendars](https://support.mozilla.org/kb/creating-new-calendars#w_on-the-network-connect-to-your-online-calendars)
+    - [2.2.1 Finding the link to your Google calendar](https://support.mozilla.org/kb/creating-new-calendars#w_finding-the-link-to-your-google-calendar)
+    - [2.2.2 iCalendar (ICS)](https://support.mozilla.org/kb/creating-new-calendars#w_icalendar-ics)
+
+# Connect to your online calendars during email account setup
+
+![TB91-account-setup-sucessfully-created-connect-linked-services](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+After setting up your existing email address with convenient auto-configuration, Thunderbird will now automatically detect your remote address books and calendars based on the user information you provided.
+
+When adding a Google mail account to Thunderbird, you can easily add your existing Google calendars and address book (see [Notes](https://thunderbird.topicbox.com/groups/beta/T9886a223d58b7aad-M09757bc2dee271bf7d29580b)).
+
+**Note:** If one of your Google calendars is not found or not accessible, it might not be set up for syncing. You can choose which calendars Google will expose in your [Google Calendar Sync Settings](https://calendar.google.com/calendar/u/0/syncselect). Unfortunately, Google does not support tasks through CalDAV.
+
+# Creating a new calendar
+
+From the Calendar Tab (not the sidebar):
+
+- Right-clickRight-click (or hold down the Control key while you click) in the calendar list on the left side of the screen.
+- Choose New Calendar… from the context menu.
+- Alternatively, you can use ≡ \> New \> Calendar…, or File \> New \> Calendar….
+
+Now you need to choose whether you want to create the calendar ""on your computer"" or ""on the network"".
+
+## On your computer - local calendars
+
+When choosing ""On my computer"", you can only use the calendar on the computer you're working at. All the data is stored inside an internal database (the file local.sqlite in your Thunderbird profile).
+
+- Choose **On my computer** and click NextContinue.
+- Enter a name for your calendar and choose a color, then click Create Calendar.
+
+## On the Network - connect to your online calendars
+
+When choosing ""On the Network"", your calendar files may reside on general webservers (read-only), on WebDAV or CalDAV servers, on the local filesystem or a network share, or you could use your Google calendars.
+
+- Choose **On the Network** and click NextContinue.
+
+![TB91-create-new-calendar-username-location-gmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+1. Enter your username, for example your email address on Gmail.
+2. Enter the calendar URL in the Location field. Thunderbird recognizes a variety of calendar URLs.
+3. If applicable, check **This location doesn't require credentials**.
+4. **Offline Support** is checked by default, so that you can also use your calendar when you are offline.
+5. Click on Find Calendars.
+
+In the next step, Thunderbird will show you a selection of available calendars.
+
+![TB91-create-new-calendar-select-calendars-gmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+- You can change the properties of each calendar, for example its name and color, using the Properties button.
+- Check the calendars you want, and click on Subscribe.
+
+### Finding the link to your Google calendar
+
+1. Go to your Google calendar on the browser, click the Options menu (3 points) next to the name of the calendar you wish to subscribe to and click on Settings and sharing.
+
+![Google Calendar Settings and Sharing](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+1. Find and copy a link to your calendar.
+  - In the **Access permissions for events** section, click on **Get shareable link** and copy the link.
+  - Alternatively, you can use ICS format: In the **Integrate calendar** section, select and copy the link under _Public address in iCal format_ or _Secret address in iCal format_.
+
+2. Paste this link into the Location field of the _Create New Calendar_ dialog box.
+
+### iCalendar (ICS)
+
+You're able to subscribe to calendars provided by third parties, mostly in ics format. These are almost always read-only; you won't be able to change anything for the calendars. An example of this kind of calendar are the [holiday calendars provided by Thunderbird](https://www.thunderbird.net/calendar/holidays/).
+
+"
+17083,Message List Columns,message-list-columns,https://support.mozilla.org/en-US/kb/message-list-columns,en-US,This article explains how to configure the columns that Thunderbird displays in message lists.,"<p>When Thunderbird shows a list of messages, it displays a set of columns that contain attributes of each message, such as the message subject, date, etc. 
+</p><p><img alt=""0ce91f9379ad3e73eaeb49674df83243-1294176581-880-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-47-c94537.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h1 id=""w_add-or-remove-columns"">Add or remove columns</h1>
+<p>The screenshot above shows the default column layout. Click the column picker button on the far right of the label bar to see a list of the available columns. Alternatively, you can right-click on any column label to display the list.
+</p><p><img alt=""0ce91f9379ad3e73eaeb49674df83243-1294177618-649-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-42-44df06.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>Click on a checked item in the list to remove a column from the message list. Click on an unchecked item in the list to add a column to the message list.
+</p>
+<h1 id=""w_move-or-resize-columns"">Move or resize columns</h1>
+<p>To move a column, click and drag the column heading to the desired position. To resize a column, roll your cursor over the right side of the column heading. When the cursor changes from a single pointer to a double pointer, drag the column edge into the desired position.
+</p>
+<h1 id=""w_apply-column-layout-to-other-folders"">Apply column layout to other folders</h1>
+<p>To apply the column layout to other folders, select <span class=""menu"">Apply columns to</span> from the column list. Select <span class=""menu"">Folder</span> to apply the changes to one specific folder. Select <span class=""menu"">Folder and its children</span> to apply the changes to a selected folder and all sub-folders beneath it. Under <span class=""menu"">Folder and its children</span>, you can select an email address (which will apply the folder configuration to all folders beneath that address) or a specific folder under an email address. Note that if you apply the changes from one folder to another, the column positions and sizes will also be applied.
+</p>",thunderbird,send-and-receive-email;settings,"When Thunderbird shows a list of messages, it displays a set of columns that contain attributes of each message, such as the message subject, date, etc.
+
+![0ce91f9379ad3e73eaeb49674df83243-1294176581-880-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Add or remove columns
+
+The screenshot above shows the default column layout. Click the column picker button on the far right of the label bar to see a list of the available columns. Alternatively, you can right-click on any column label to display the list.
+
+![0ce91f9379ad3e73eaeb49674df83243-1294177618-649-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Click on a checked item in the list to remove a column from the message list. Click on an unchecked item in the list to add a column to the message list.
+
+# Move or resize columns
+
+To move a column, click and drag the column heading to the desired position. To resize a column, roll your cursor over the right side of the column heading. When the cursor changes from a single pointer to a double pointer, drag the column edge into the desired position.
+
+# Apply column layout to other folders
+
+To apply the column layout to other folders, select Apply columns to from the column list. Select Folder to apply the changes to one specific folder. Select Folder and its children to apply the changes to a selected folder and all sub-folders beneath it. Under Folder and its children, you can select an email address (which will apply the folder configuration to all folders beneath that address) or a specific folder under an email address. Note that if you apply the changes from one folder to another, the column positions and sizes will also be applied.
+
+"
 17085,Vacation Response,vacation-response,https://support.mozilla.org/en-US/kb/vacation-response,en-US,"A ""vacation response"" (also known as ""out of office response"" or ""away message"") is an automatic message that is generated by the mail server in response to incoming messages. It is used to inform people who are sending you emails that you are not available.","<p>A ""vacation response"" (also known as ""out of office response"" or ""away message"") is an automatic message that is generated by the mail server in response to incoming messages. It is used to inform people who are sending you emails that you are not available.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_background""><span class=""tocnumber"">1</span> <span class=""toctext"">Background</span></a></li><li class=""toclevel-1""><a href=""#w_use-your-providers-web-interface""><span class=""tocnumber"">2</span> <span class=""toctext"">Use your provider's web interface</span></a><ul><li class=""toclevel-2""><a href=""#w_aol""><span class=""tocnumber"">2.1</span> <span class=""toctext"">AOL</span></a></li><li class=""toclevel-2""><a href=""#w_comcast""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Comcast</span></a></li><li class=""toclevel-2""><a href=""#w_charter""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Charter</span></a></li><li class=""toclevel-2""><a href=""#w_fastmail-fm""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Fastmail.fm</span></a></li><li class=""toclevel-2""><a href=""#w_gmail""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Gmail</span></a></li><li class=""toclevel-2""><a href=""#w_hotmaillive""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Hotmail/Live</span></a></li><li class=""toclevel-2""><a href=""#w_gmx""><span class=""tocnumber"">2.7</span> <span class=""toctext"">GMX</span></a></li><li class=""toclevel-2""><a href=""#w_runbox""><span class=""tocnumber"">2.8</span> <span class=""toctext"">Runbox</span></a></li><li class=""toclevel-2""><a href=""#w_roadrunner""><span class=""tocnumber"">2.9</span> <span class=""toctext"">RoadRunner</span></a></li><li class=""toclevel-2""><a href=""#w_yahoo""><span class=""tocnumber"">2.10</span> <span class=""toctext"">Yahoo</span></a></li></ul></li></ul></div>
@@ -73364,230 +73532,6 @@ If you forgot your Mozilla account password, [learn how to reset your password](
 - [How do I update my payment information on Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-update-my-payment-information-mozilla-vpn?utm_source=-vpn-related)
 
 "
-47070,How do I update my payment information on Mozilla VPN?,how-do-i-update-my-payment-information-mozilla-vpn,https://support.mozilla.org/en-US/kb/how-do-i-update-my-payment-information-mozilla-vpn,en-US,"If you get a message that your payment failed, it may be because your card expired or is no longer valid. Here's how to update it.","<p>Keep your payment information up to date so that your Mozilla VPN subscription automatically renews on expiration day. Here’s how to update your payment method:
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_where-can-i-see-my-mozilla-vpn-subscription-information""><span class=""tocnumber"">1</span> <span class=""toctext"">Where can I see my Mozilla VPN subscription information?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-update-my-payment-information-on-mozilla-vpn""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I update my payment information on Mozilla VPN?</span></a><ul><li class=""toclevel-2""><a href=""#w_windows-macos-linux-or-android""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Windows, macOS, Linux or Android</span></a></li><li class=""toclevel-2""><a href=""#w_ios-iphone-or-ipad""><span class=""tocnumber"">2.2</span> <span class=""toctext"">iOS (iPhone or iPad)</span></a></li></ul></li></ul></div>
-<h1 id=""w_where-can-i-see-my-mozilla-vpn-subscription-information"">Where can I see my Mozilla VPN subscription information?</h1>
-<ol><li>Open Mozilla VPN and click (or tap) the settings <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> icon.
-</li><li>Click (or tap) the <span class=""menu"">Account</span> option on the menu. The panel that opens next displays more details about your subscription.
-<dl><dt><img alt=""Account summary updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-20-11-05-38-cd97e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h1 id=""w_how-do-i-update-my-payment-information-on-mozilla-vpn"">How do I update my payment information on Mozilla VPN?</h1>
-<h2 id=""w_windows-macos-linux-or-android"">Windows, macOS, Linux or Android</h2>
-<ol><li>Open Mozilla VPN.
-</li><li>Open your Settings by clicking (or tapping) the gear icon in the top right corner.
-</li><li>Click (or tap) the <span class=""menu"">Account</span> option.
-</li><li>Click (or tap) <strong>Manage subscription</strong> and sign in to your Mozilla account.
-</li><li>Click (or tap) <strong>Paid Subscriptions</strong> on the left side of the page.
-</li><li>Click (or tap) the <strong>Change</strong> button under <em>Payment information</em> to update your details.
-</li><li>After you've updated your information, click (or tap) the <strong>Update</strong> button.
-</li></ol>
-<h2 id=""w_ios-iphone-or-ipad"">iOS (iPhone or iPad)</h2>
-<p>You can manage your subscription through Apple's App Store by following these steps or see <a href=""https://support.apple.com/en-us/HT201266"">the Apple support site</a> for more information.
-</p>
-<ol><li>Open the Settings app.
-</li><li>Tap your name.
-</li><li>Tap <span class=""menu"">Subscriptions</span>.
-</li><li>Tap <span class=""menu"">Payment and Shipping</span>.
-</li><li>Tap the payment method you want to change or <span class=""menu"">Add Payment Method</span> to enter a new one.
-</li></ol>
-<p><br>
-
-<strong>Related articles</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related"">Where can I see my Mozilla VPN subscription information?</a>
-</li></ul>
-<p><strong>Learn more</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related"">How do I cancel my subscription to Mozilla VPN?</a>
-</li></ul>",mozilla-vpn;mozilla-account,billing-and-subscriptions;manage-billing;manage-subscriptions,"Keep your payment information up to date so that your Mozilla VPN subscription automatically renews on expiration day. Here’s how to update your payment method:
-
-## Table of Contents
-
-- [1 Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_where-can-i-see-my-mozilla-vpn-subscription-information)
-- [2 How do I update my payment information on Mozilla VPN?](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_how-do-i-update-my-payment-information-on-mozilla-vpn)
-  - [2.1 Windows, macOS, Linux or Android](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_windows-macos-linux-or-android)
-  - [2.2 iOS (iPhone or iPad)](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_ios-iphone-or-ipad)
-
-# Where can I see my Mozilla VPN subscription information?
-
-1. Open Mozilla VPN and click (or tap) the settings ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon.
-2. Click (or tap) the Account option on the menu. The panel that opens next displays more details about your subscription.<dl><dt>
-<img alt=""Account summary updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-20-11-05-38-cd97e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-# How do I update my payment information on Mozilla VPN?
-
-## Windows, macOS, Linux or Android
-
-1. Open Mozilla VPN.
-2. Open your Settings by clicking (or tapping) the gear icon in the top right corner.
-3. Click (or tap) the Account option.
-4. Click (or tap) **Manage subscription** and sign in to your Mozilla account.
-5. Click (or tap) **Paid Subscriptions** on the left side of the page.
-6. Click (or tap) the **Change** button under _Payment information_ to update your details.
-7. After you've updated your information, click (or tap) the **Update** button.
-
-## iOS (iPhone or iPad)
-
-You can manage your subscription through Apple's App Store by following these steps or see [the Apple support site](https://support.apple.com/en-us/HT201266) for more information.
-
-1. Open the Settings app.
-2. Tap your name.
-3. Tap Subscriptions.
-4. Tap Payment and Shipping.
-5. Tap the payment method you want to change or Add Payment Method to enter a new one.
-
-**Related articles**
-
-- [Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related)
-
-**Learn more**
-
-- [How do I cancel my subscription to Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related)
-
-"
-47132,How to obtain the Mozilla VPN Logs,debugging-mozilla-vpn,https://support.mozilla.org/en-US/kb/debugging-mozilla-vpn,en-US,"When troubleshooting issues with Mozilla VPN, our engineers can ask for logs. These don't contain any personal information, but give hints about the issue.","<p>When troubleshooting issues with Mozilla VPN, our engineers might ask for logs. These logs don't contain any personal information about your browsing activity. Rest assured that these logs only track things happening within the Mozilla VPN software itself, such as internal events and actions, which might give hints as to where issues might be.
-</p>
-<div class=""note""><strong>Note:</strong> Before exporting the application logs, try a Mozilla VPN Reset. This will clear all Mozilla VPN data and settings and return it to the state it was when you first installed it. To learn more about it, please read our article <a href=""/en-US/kb/how-remove-mozilla-vpn-app-data-your-device"">How do I reset Mozilla VPN?</a></div>
-<p>If you are having problems with Mozilla VPN, the Mozilla Support team may ask you to provide us with these logs in order to facilitate finding a solution. This helps us pinpoint the problem and get you back quickly. 
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-export-logs-on-mozilla-vpn""><span class=""tocnumber"">1</span> <span class=""toctext"">How to export logs on Mozilla VPN</span></a></li><li class=""toclevel-1""><a href=""#w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do""><span class=""tocnumber"">2</span> <span class=""toctext"">I can't log in to Mozilla VPN to generate the log file – What to do</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I export the log if I can't open Mozilla VPN on Windows?</span></a></li></ul></div>
-<h1 id=""w_how-to-export-logs-on-mozilla-vpn"">How to export logs on Mozilla VPN</h1>
-<p>Follow these steps to export the application logs:
-</p>
-<ol><li>Open Mozilla VPN and click the gear icon <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> (icon may appear in top right corner of the application on versions older than 2.10).
-</li><li>Click or tap <span class=""menu"">Help</span>.
-<dl><dt><img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-</li><li>Select <span class=""menu"">View Log</span>. This will generate a <code>.txt</code> file with logs to help Mozilla Support troubleshoot the problem.
-<dl><dt><img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Attach the <code>.txt</code> file to your Contact Support Form.
-</li></ol>
-<h1 id=""w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do"">I can't log in to Mozilla VPN to generate the log file – What to do</h1>
-<ol><li>On the Mozilla VPN <em>Get started</em> screen, click or tap <span class=""menu"">Help</span>.
-<dl><dt><img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Select <span class=""menu"">View Log</span>. This will generate a <code>.txt</code> file with logs to help Mozilla Support troubleshoot the problem.
-<dl><dt><img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-</li><li>Save and attach the <code>.txt</code> file to your Contact Support Form.
-</li></ol>
-<h1 id=""w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows"">How can I export the log if I can't open Mozilla VPN on Windows?</h1>
-<ol><li>Open the Windows <em>File Explorer</em>.
-</li><li>Click the <strong>View</strong> tab at the top of the window.
-<dl><dt><img alt=""Windows  view tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-47-46-5824b3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li>On the far right side of the option near the top of this tab, look for <strong>Hidden Items</strong>. Check this box, if it is not already.
-<dl><dt><img alt=""Windows hidden items"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-50-00-ddabdb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>This will enable you to complete the next steps:
-<ol><li>Click <strong>This PC</strong> on the left side of the <em>File Explorer</em>.
-<dl><dt><img alt=""Select This PC"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-52-09-075726.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150"">
-</dt></dl>
-</li><li>Click your hard drive (This should be labeled <em>Windows</em> or <em>OS (C:)</em>).
-</li><li>Open the <strong>Users</strong> folder.
-<dl><dt><img alt=""User's file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-53-49-e22716.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>Open the folder for your user, it should have your username.
-</li><li>Open the <strong>AppData</strong> folder.
-<dl><dt><img alt=""AppData file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-56-12-46393a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>Open the <strong>Roaming</strong> folder.
-<dl><dt><img alt=""Roaming file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-57-44-5f2e4c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>Inside the Roaming folder, find a text file document named <em>mozillavpn.txt</em>.
-<dl><dt><img alt=""VPN text file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-10-30-38-61b178.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-</li><li>Copy the file and attach it to your response email.
-</li></ol>
-</li></ol>
-<p><br>
-
-<strong>Related articles:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
-</li><li><a href=""https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data?utm_source=-vpn-related"">How to remove Mozilla VPN App Data</a>
-</li></ul>
-<p><strong>Learn more:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
-</li></ul>",mozilla-vpn,performance-and-connectivity,"When troubleshooting issues with Mozilla VPN, our engineers might ask for logs. These logs don't contain any personal information about your browsing activity. Rest assured that these logs only track things happening within the Mozilla VPN software itself, such as internal events and actions, which might give hints as to where issues might be.
-
-**Note:** Before exporting the application logs, try a Mozilla VPN Reset. This will clear all Mozilla VPN data and settings and return it to the state it was when you first installed it. To learn more about it, please read our article [How do I reset Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data-your-device"")
-
-If you are having problems with Mozilla VPN, the Mozilla Support team may ask you to provide us with these logs in order to facilitate finding a solution. This helps us pinpoint the problem and get you back quickly.
-
-## Table of Contents
-
-- [1 How to export logs on Mozilla VPN](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_how-to-export-logs-on-mozilla-vpn)
-- [2 I can't log in to Mozilla VPN to generate the log file – What to do](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do)
-- [3 How can I export the log if I can't open Mozilla VPN on Windows?](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows)
-
-# How to export logs on Mozilla VPN
-
-Follow these steps to export the application logs:
-
-1. Open Mozilla VPN and click the gear icon ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) (icon may appear in top right corner of the application on versions older than 2.10).
-2. Click or tap Help.<dl><dt>
-<img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-3. Select View Log. This will generate a `.txt` file with logs to help Mozilla Support troubleshoot the problem.<dl><dt>
-<img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-4. Attach the `.txt` file to your Contact Support Form.
-
-# I can't log in to Mozilla VPN to generate the log file – What to do
-
-1. On the Mozilla VPN _Get started_ screen, click or tap Help.<dl><dt>
-<img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-2. Select View Log. This will generate a `.txt` file with logs to help Mozilla Support troubleshoot the problem.<dl><dt>
-<img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-3. Save and attach the `.txt` file to your Contact Support Form.
-
-# How can I export the log if I can't open Mozilla VPN on Windows?
-
-1. Open the Windows _File Explorer_.
-2. Click the **View** tab at the top of the window.<dl><dt>
-<img alt=""Windows view tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-47-46-5824b3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-3. On the far right side of the option near the top of this tab, look for **Hidden Items**. Check this box, if it is not already.<dl><dt>
-<img alt=""Windows hidden items"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-50-00-ddabdb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-4. This will enable you to complete the next steps:
-  1. Click **This PC** on the left side of the _File Explorer_.<dl><dt>
-<img alt=""Select This PC"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-52-09-075726.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150"">
-</dt></dl>
-  2. Click your hard drive (This should be labeled _Windows_ or _OS (C:)_).
-  3. Open the **Users** folder.<dl><dt>
-<img alt=""User's file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-53-49-e22716.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-  4. Open the folder for your user, it should have your username.
-  5. Open the **AppData** folder.<dl><dt>
-<img alt=""AppData file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-56-12-46393a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-  6. Open the **Roaming** folder.<dl><dt>
-<img alt=""Roaming file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-57-44-5f2e4c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-  7. Inside the Roaming folder, find a text file document named _mozillavpn.txt_.<dl><dt>
-<img alt=""VPN text file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-10-30-38-61b178.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-  8. Copy the file and attach it to your response email.
-
-**Related articles:**
-
-- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
-- [How to remove Mozilla VPN App Data](https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data?utm_source=-vpn-related)
-
-**Learn more:**
-
-- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
-
-"
 47214,My privacy settings were changed from Custom to Standard,my-privacy-settings-were-changed-custom-standard,https://support.mozilla.org/en-US/kb/my-privacy-settings-were-changed-custom-standard,en-US,"If your Custom settings match the settings in Standard, you will be switched back to Standard. This will not affect your settings.","<p>If your tracking protection setting in <em>about:preferences#privacy</em> is set to <strong>Custom</strong>, but your custom options exactly match the ones in the <strong>Standard</strong> settings, Firefox will switch back to the <strong>Standard</strong>. You will not lose the privacy options you have selected since your custom settings matched the standard ones.
 </p>
 <h1 id=""w_change-back-to-custom-settings"">Change back to Custom settings</h1>
@@ -84591,100 +84535,6 @@ Visit [https://relay.firefox.com/accounts/settings/](https://relay.firefox.com/a
 2. If the box is unchecked, check it to enable data collection and click the Save button.<dl><dt>
 <img alt=""Labels 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-06-05-11-51-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-
-"
-55581,What's New in Firefox Klar for iOS (version 39),whats-new-klar-ios-39,https://support.mozilla.org/en-US/kb/whats-new-klar-ios-39,en-US,Welcome to version 39 of Firefox Klar for iOS.,"<p>Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
-</p><p>To learn more about Firefox Focus, see <a href=""/en-US/kb/what-firefox-klar-ios"">What is Firefox Klar for iOS?</a> 
-</p><p>We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
-</p>",klar,firefox-klar-ios,"Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
-
-To learn more about Firefox Focus, see [What is Firefox Klar for iOS?](\""https://support.mozilla.org/en-US/kb/what-firefox-klar-ios"")
-
-We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
-
-"
-55628,Firefox for Enterprise 94 - Release notes,firefox-enterprise-94-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-94-release-notes,en-US,See what's coming out with Firefox for Enterprise 94.,"<p>Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_general"">General</h1>
-<ul><li>We now provide an MSIX for Firefox. It can be download via <a href=""https://download.mozilla.org/?product=firefox-msix-latest-ssl&amp;os=win64&amp;lang=en-US"">this link</a>. We do not provide an MSIX for the ESR (yet).
-</li></ul>
-<ul><li>In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps"">DNSOverHTTPS</a> policy was not properly working for setting a DoH URL. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1732961"">bug 1732961</a>.
-</li></ul>
-<ul><li>The Pocket option in the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome"">FirefoxHome</a> policy was not disabling the checkbox in preferences. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1729001"">bug 1729001</a>..
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-</li></ul>
-<ul><li>The Firefox 78 ESR is the last version of Firefox that supports macOS versions &lt; 10.12.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
-
-## Table of Contents
-
-- [1 General](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_general)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_special-notes)
-
-# General
-
-- We now provide an MSIX for Firefox. It can be download via [this link](https://download.mozilla.org/?product=firefox-msix-latest-ssl&os=win64&lang=en-US). We do not provide an MSIX for the ESR (yet).
-
-- In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
-
-# Policies
-
-- The [DNSOverHTTPS](https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps) policy was not properly working for setting a DoH URL. This was fixed in [bug 1732961](https://bugzilla.mozilla.org/show_bug.cgi?id=1732961).
-
-- The Pocket option in the [FirefoxHome](https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome) policy was not disabling the checkbox in preferences. This was fixed in [bug 1729001](https://bugzilla.mozilla.org/show_bug.cgi?id=1729001)..
-
-# Special Notes
-
-- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
-
-- The Firefox 78 ESR is the last version of Firefox that supports macOS versions \< 10.12.
-
-"
-55632,Change your theme in Firefox Focus for iOS,change-your-theme-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-focus-ios,en-US,Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
-</p>
-<h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
-
-</li><li>Under General, tap <span class=""menu"">Theme</span>.
-</li></ol>",focus-firefox,add-ons-extensions-and-themes;customization;settings,"Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
-
-# Set theme to light or dark
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. Tap Settings in the menu panel.
-3. Under General, tap Theme.
-
-"
-55633,Change your theme in Firefox Klar for iOS,change-your-theme-firefox-klar-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-klar-ios,en-US,Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
-</p>
-<h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
-
-</li><li>Under General, tap <span class=""menu"">Theme</span>.
-</li></ol>",klar,firefox-klar-ios,"Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
-
-# Set theme to light or dark
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. Tap Settings in the menu panel.
-3. Under General, tap Theme.
 
 "
 55636,Usage Data Changes for Firefox for iOS and Android,usage-data-changes-firefox-ios-and-android,https://support.mozilla.org/en-US/kb/usage-data-changes-firefox-ios-and-android,en-US,Firefox began collecting new usage data to support the Firefox for iOS 39 and Android 94 releases to support personalization.,"<p>Firefox began collecting new usage data to support the Firefox for <a href=""/en-US/kb/whats-new-firefox-ios-version-39"">iOS 39</a> and <a href=""/en-US/kb/whats-new-firefox-android"">Android 94</a> releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database. 
