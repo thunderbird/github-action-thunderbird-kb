@@ -36921,174 +36921,6 @@ This walk-through also assumes that you have already created a new calendar. If 
 Congratulations, your recurring event should be setup correctly.
 
 "
-17081,Create new calendars,creating-new-calendars,https://support.mozilla.org/en-US/kb/creating-new-calendars,en-US,Using Thunderbird it's possible to have multiple calendars. You can connect to your online calendars during email account setup or create new calendars later.,"<p>With Thunderbird, it's possible to have multiple calendars. During email account setup, your existing online calendars can be automatically detected. Or you can set up new calendars in Calendar Mode or Task Mode.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_connect-to-your-online-calendars-during-email-account-setup""><span class=""tocnumber"">1</span> <span class=""toctext"">Connect to your online calendars during email account setup</span></a></li><li class=""toclevel-1""><a href=""#w_creating-a-new-calendar""><span class=""tocnumber"">2</span> <span class=""toctext"">Creating a new calendar</span></a><ul><li class=""toclevel-2""><a href=""#w_on-your-computer-local-calendars""><span class=""tocnumber"">2.1</span> <span class=""toctext"">On your computer - local calendars</span></a></li><li class=""toclevel-2""><a href=""#w_on-the-network-connect-to-your-online-calendars""><span class=""tocnumber"">2.2</span> <span class=""toctext"">On the Network - connect to your online calendars</span></a><ul><li class=""toclevel-3""><a href=""#w_finding-the-link-to-your-google-calendar""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Finding the link to your Google calendar</span></a></li><li class=""toclevel-3""><a href=""#w_icalendar-ics""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">iCalendar (ICS)</span></a></li></ul></li></ul></li></ul></div>
-<h1 id=""w_connect-to-your-online-calendars-during-email-account-setup"">Connect to your online calendars during email account setup</h1>
-<p><img alt=""TB91-account-setup-sucessfully-created-connect-linked-services"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-23-18-24-30-bc0fd4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>After setting up your existing email address with convenient auto-configuration, Thunderbird will now automatically detect your remote address books and calendars based on the user information you provided.
-</p><p>When adding a Google mail account to Thunderbird, you can easily add your existing Google calendars and address book (see <a href=""https://thunderbird.topicbox.com/groups/beta/T9886a223d58b7aad-M09757bc2dee271bf7d29580b"">Notes</a>).
-</p>
-<div class=""note""><strong>Note:</strong> If one of your Google calendars is not found or not accessible, it might not be set up for syncing. You can choose which calendars Google will expose in your <a href=""https://calendar.google.com/calendar/u/0/syncselect"">Google Calendar Sync Settings</a>. Unfortunately, Google does not support tasks through CalDAV.
-</div>
-<h1 id=""w_creating-a-new-calendar"">Creating a new calendar</h1>
-<p>From the Calendar Tab (not the sidebar):
-</p>
-<ul><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
- in the calendar list on the left side of the screen.
-</li><li> Choose <span class=""menu"">New Calendar…</span> from the context menu.
-</li><li> Alternatively, you can use <span class=""button"">≡</span> &gt; <span class=""menu"">New</span> &gt; <span class=""menu"">Calendar…</span>, or <span class=""menu"">File</span> &gt;  <span class=""menu"">New </span> &gt; <span class=""menu"">Calendar…</span>.
-</li></ul>
-<p>Now you need to choose whether you want to create the calendar ""on your computer"" or ""on the network"".
-</p>
-<h2 id=""w_on-your-computer-local-calendars"">On your computer - local calendars</h2>
-<p>When choosing ""On my computer"", you can only use the calendar on the computer you're working at. All the data is stored inside an internal database (the file local.sqlite in your Thunderbird profile).
-</p>
-<ul><li> Choose <strong>On my computer</strong> and click <span class=""for"" data-for=""win,linux""><span class=""button"">Next</span></span><span class=""for"" data-for=""mac""><span class=""button"">Continue</span></span>.
-</li><li> Enter a name for your calendar and choose a color, then click <span class=""button"">Create Calendar</span>.
-</li></ul>
-<h2 id=""w_on-the-network-connect-to-your-online-calendars"">On the Network - connect to your online calendars</h2>
-<p>When choosing ""On the Network"", your calendar files may reside on general webservers (read-only), on WebDAV or CalDAV servers, on the local filesystem or a network share, or you could use your Google calendars.
-</p>
-<ul><li> Choose <strong>On the Network</strong> and click <span class=""for"" data-for=""win,linux""><span class=""button"">Next</span></span><span class=""for"" data-for=""mac""><span class=""button"">Continue</span></span>.
-</li></ul>
-<p><img alt=""TB91-create-new-calendar-username-location-gmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-06-13-39-47-3d7208.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<ol><li> Enter your username, for example your email address on Gmail.
-</li><li> Enter the calendar URL in the Location field. Thunderbird recognizes a variety of calendar URLs.
-</li><li> If applicable, check <strong>This location doesn't require credentials</strong>.
-</li><li> <strong>Offline Support</strong> is checked by default, so that you can also use your calendar when you are offline.
-</li><li> Click on <span class=""button"">Find Calendars</span>.
-</li></ol>
-<p>In the next step, Thunderbird will show you a selection of available calendars.
-</p><p><img alt=""TB91-create-new-calendar-select-calendars-gmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-06-13-53-58-bef503.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<ul><li> You can change the properties of each calendar, for example its name and color, using the <span class=""button"">Properties</span> button.
-</li><li> Check the calendars you want, and click on <span class=""button"">Subscribe</span>.
-</li></ul>
-<h3 id=""w_finding-the-link-to-your-google-calendar"">Finding the link to your Google calendar</h3>
-<ol><li> Go to your Google calendar on the browser, click the Options menu (3 points) next to the name of the calendar you wish to subscribe to and click on <span class=""menu"">Settings and sharing</span>.
-</li></ol>
-<p><img alt=""Google Calendar Settings and Sharing"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-22-00-12-10-89785c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<ol><li> Find and copy a link to your calendar.
-<ul><li> In the <strong>Access permissions for events</strong> section, click on <strong>Get shareable link</strong> and copy the link.
-</li><li> Alternatively, you can use ICS format: In the <strong>Integrate calendar</strong> section, select and copy the link under <em>Public address in iCal format</em> or <em>Secret address in iCal format</em>.
-</li></ul>
-</li><li> Paste this link into the Location field of the <em>Create New Calendar</em> dialog box.
-</li></ol>
-<h3 id=""w_icalendar-ics"">iCalendar (ICS)</h3>
-<p>You're able to subscribe to calendars provided by third parties, mostly in ics format. These are almost always read-only; you won't be able to change anything for the calendars. An example of this kind of calendar are the <a href=""https://www.thunderbird.net/calendar/holidays/"">holiday calendars provided by Thunderbird</a>.
-</p>",thunderbird,calendar,"With Thunderbird, it's possible to have multiple calendars. During email account setup, your existing online calendars can be automatically detected. Or you can set up new calendars in Calendar Mode or Task Mode.
-
-## Table of Contents
-
-- [1 Connect to your online calendars during email account setup](https://support.mozilla.org/kb/creating-new-calendars#w_connect-to-your-online-calendars-during-email-account-setup)
-- [2 Creating a new calendar](https://support.mozilla.org/kb/creating-new-calendars#w_creating-a-new-calendar)
-  - [2.1 On your computer - local calendars](https://support.mozilla.org/kb/creating-new-calendars#w_on-your-computer-local-calendars)
-  - [2.2 On the Network - connect to your online calendars](https://support.mozilla.org/kb/creating-new-calendars#w_on-the-network-connect-to-your-online-calendars)
-    - [2.2.1 Finding the link to your Google calendar](https://support.mozilla.org/kb/creating-new-calendars#w_finding-the-link-to-your-google-calendar)
-    - [2.2.2 iCalendar (ICS)](https://support.mozilla.org/kb/creating-new-calendars#w_icalendar-ics)
-
-# Connect to your online calendars during email account setup
-
-![TB91-account-setup-sucessfully-created-connect-linked-services](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-After setting up your existing email address with convenient auto-configuration, Thunderbird will now automatically detect your remote address books and calendars based on the user information you provided.
-
-When adding a Google mail account to Thunderbird, you can easily add your existing Google calendars and address book (see [Notes](https://thunderbird.topicbox.com/groups/beta/T9886a223d58b7aad-M09757bc2dee271bf7d29580b)).
-
-**Note:** If one of your Google calendars is not found or not accessible, it might not be set up for syncing. You can choose which calendars Google will expose in your [Google Calendar Sync Settings](https://calendar.google.com/calendar/u/0/syncselect). Unfortunately, Google does not support tasks through CalDAV.
-
-# Creating a new calendar
-
-From the Calendar Tab (not the sidebar):
-
-- Right-clickRight-click (or hold down the Control key while you click) in the calendar list on the left side of the screen.
-- Choose New Calendar… from the context menu.
-- Alternatively, you can use ≡ \> New \> Calendar…, or File \> New \> Calendar….
-
-Now you need to choose whether you want to create the calendar ""on your computer"" or ""on the network"".
-
-## On your computer - local calendars
-
-When choosing ""On my computer"", you can only use the calendar on the computer you're working at. All the data is stored inside an internal database (the file local.sqlite in your Thunderbird profile).
-
-- Choose **On my computer** and click NextContinue.
-- Enter a name for your calendar and choose a color, then click Create Calendar.
-
-## On the Network - connect to your online calendars
-
-When choosing ""On the Network"", your calendar files may reside on general webservers (read-only), on WebDAV or CalDAV servers, on the local filesystem or a network share, or you could use your Google calendars.
-
-- Choose **On the Network** and click NextContinue.
-
-![TB91-create-new-calendar-username-location-gmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-1. Enter your username, for example your email address on Gmail.
-2. Enter the calendar URL in the Location field. Thunderbird recognizes a variety of calendar URLs.
-3. If applicable, check **This location doesn't require credentials**.
-4. **Offline Support** is checked by default, so that you can also use your calendar when you are offline.
-5. Click on Find Calendars.
-
-In the next step, Thunderbird will show you a selection of available calendars.
-
-![TB91-create-new-calendar-select-calendars-gmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- You can change the properties of each calendar, for example its name and color, using the Properties button.
-- Check the calendars you want, and click on Subscribe.
-
-### Finding the link to your Google calendar
-
-1. Go to your Google calendar on the browser, click the Options menu (3 points) next to the name of the calendar you wish to subscribe to and click on Settings and sharing.
-
-![Google Calendar Settings and Sharing](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-1. Find and copy a link to your calendar.
-  - In the **Access permissions for events** section, click on **Get shareable link** and copy the link.
-  - Alternatively, you can use ICS format: In the **Integrate calendar** section, select and copy the link under _Public address in iCal format_ or _Secret address in iCal format_.
-
-2. Paste this link into the Location field of the _Create New Calendar_ dialog box.
-
-### iCalendar (ICS)
-
-You're able to subscribe to calendars provided by third parties, mostly in ics format. These are almost always read-only; you won't be able to change anything for the calendars. An example of this kind of calendar are the [holiday calendars provided by Thunderbird](https://www.thunderbird.net/calendar/holidays/).
-
-"
-17083,Message List Columns,message-list-columns,https://support.mozilla.org/en-US/kb/message-list-columns,en-US,This article explains how to configure the columns that Thunderbird displays in message lists.,"<p>When Thunderbird shows a list of messages, it displays a set of columns that contain attributes of each message, such as the message subject, date, etc. 
-</p><p><img alt=""0ce91f9379ad3e73eaeb49674df83243-1294176581-880-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-47-c94537.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_add-or-remove-columns"">Add or remove columns</h1>
-<p>The screenshot above shows the default column layout. Click the column picker button on the far right of the label bar to see a list of the available columns. Alternatively, you can right-click on any column label to display the list.
-</p><p><img alt=""0ce91f9379ad3e73eaeb49674df83243-1294177618-649-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-42-44df06.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Click on a checked item in the list to remove a column from the message list. Click on an unchecked item in the list to add a column to the message list.
-</p>
-<h1 id=""w_move-or-resize-columns"">Move or resize columns</h1>
-<p>To move a column, click and drag the column heading to the desired position. To resize a column, roll your cursor over the right side of the column heading. When the cursor changes from a single pointer to a double pointer, drag the column edge into the desired position.
-</p>
-<h1 id=""w_apply-column-layout-to-other-folders"">Apply column layout to other folders</h1>
-<p>To apply the column layout to other folders, select <span class=""menu"">Apply columns to</span> from the column list. Select <span class=""menu"">Folder</span> to apply the changes to one specific folder. Select <span class=""menu"">Folder and its children</span> to apply the changes to a selected folder and all sub-folders beneath it. Under <span class=""menu"">Folder and its children</span>, you can select an email address (which will apply the folder configuration to all folders beneath that address) or a specific folder under an email address. Note that if you apply the changes from one folder to another, the column positions and sizes will also be applied.
-</p>",thunderbird,send-and-receive-email;settings,"When Thunderbird shows a list of messages, it displays a set of columns that contain attributes of each message, such as the message subject, date, etc.
-
-![0ce91f9379ad3e73eaeb49674df83243-1294176581-880-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Add or remove columns
-
-The screenshot above shows the default column layout. Click the column picker button on the far right of the label bar to see a list of the available columns. Alternatively, you can right-click on any column label to display the list.
-
-![0ce91f9379ad3e73eaeb49674df83243-1294177618-649-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Click on a checked item in the list to remove a column from the message list. Click on an unchecked item in the list to add a column to the message list.
-
-# Move or resize columns
-
-To move a column, click and drag the column heading to the desired position. To resize a column, roll your cursor over the right side of the column heading. When the cursor changes from a single pointer to a double pointer, drag the column edge into the desired position.
-
-# Apply column layout to other folders
-
-To apply the column layout to other folders, select Apply columns to from the column list. Select Folder to apply the changes to one specific folder. Select Folder and its children to apply the changes to a selected folder and all sub-folders beneath it. Under Folder and its children, you can select an email address (which will apply the folder configuration to all folders beneath that address) or a specific folder under an email address. Note that if you apply the changes from one folder to another, the column positions and sizes will also be applied.
-
-"
 17085,Vacation Response,vacation-response,https://support.mozilla.org/en-US/kb/vacation-response,en-US,"A ""vacation response"" (also known as ""out of office response"" or ""away message"") is an automatic message that is generated by the mail server in response to incoming messages. It is used to inform people who are sending you emails that you are not available.","<p>A ""vacation response"" (also known as ""out of office response"" or ""away message"") is an automatic message that is generated by the mail server in response to incoming messages. It is used to inform people who are sending you emails that you are not available.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_background""><span class=""tocnumber"">1</span> <span class=""toctext"">Background</span></a></li><li class=""toclevel-1""><a href=""#w_use-your-providers-web-interface""><span class=""tocnumber"">2</span> <span class=""toctext"">Use your provider's web interface</span></a><ul><li class=""toclevel-2""><a href=""#w_aol""><span class=""tocnumber"">2.1</span> <span class=""toctext"">AOL</span></a></li><li class=""toclevel-2""><a href=""#w_comcast""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Comcast</span></a></li><li class=""toclevel-2""><a href=""#w_charter""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Charter</span></a></li><li class=""toclevel-2""><a href=""#w_fastmail-fm""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Fastmail.fm</span></a></li><li class=""toclevel-2""><a href=""#w_gmail""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Gmail</span></a></li><li class=""toclevel-2""><a href=""#w_hotmaillive""><span class=""tocnumber"">2.6</span> <span class=""toctext"">Hotmail/Live</span></a></li><li class=""toclevel-2""><a href=""#w_gmx""><span class=""tocnumber"">2.7</span> <span class=""toctext"">GMX</span></a></li><li class=""toclevel-2""><a href=""#w_runbox""><span class=""tocnumber"">2.8</span> <span class=""toctext"">Runbox</span></a></li><li class=""toclevel-2""><a href=""#w_roadrunner""><span class=""tocnumber"">2.9</span> <span class=""toctext"">RoadRunner</span></a></li><li class=""toclevel-2""><a href=""#w_yahoo""><span class=""tocnumber"">2.10</span> <span class=""toctext"">Yahoo</span></a></li></ul></li></ul></div>
@@ -72998,7 +72830,7 @@ Visit the [Mozilla VPN page](https://vpn.mozilla.org/) to sign up. For informati
 <h1 id=""w_related-articles"">Related articles</h1>
 <p>
 </p>
-<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a>
+<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a>
 </li><li><a href=""/en-US/kb/how-log-mozilla-vpn"">How to sign in to Mozilla VPN</a>
 </li><li><a href=""/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"">How can I tell if Mozilla VPN is connected?</a>
 </li></ul>
@@ -73040,7 +72872,7 @@ Your device will appear on your list of registered devices.
 
 # Related articles
 
-- [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
+- [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
 - [How to sign in to Mozilla VPN](\""https://support.mozilla.org/en-US/kb/how-log-mozilla-vpn"")
 - [How can I tell if Mozilla VPN is connected?](\""https://support.mozilla.org/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"")
 
@@ -80329,7 +80161,7 @@ If you still can’t access the sign-in page after trying the above, you can try
 </p>
 <dl><dt><img alt=""mozillavpnlogin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-06-02-20-44ff2c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-<p>All set! The Mozilla VPN installation is completed. For next steps, check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>.
+<p>All set! The Mozilla VPN installation is completed. For next steps, check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>.
 </p>
 <h2 id=""w_option-2-install-via-flatpak-recommended-for-most-linux-distributions"">Option 2: Install via Flatpak (Recommended for most Linux distributions)</h2>
 <p>Mozilla VPN is available as a Flatpak through <a href=""https://flathub.org/apps/org.mozilla.vpn"">Flathub</a>. Flatpak is supported by many popular Linux distributions, including: Ubuntu, Fedora, openSUSE, elementary OS, Manjaro and more. See the <a href=""https://flatpak.org/setup/"">full list of supported distributions</a>.
@@ -80393,7 +80225,7 @@ If you don’t have a subscription, visit the [Mozilla VPN](https://www.mozilla.
 <img alt=""mozillavpnlogin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-06-02-20-44ff2c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 
-All set! The Mozilla VPN installation is completed. For next steps, check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"").
+All set! The Mozilla VPN installation is completed. For next steps, check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"").
 
 ## Option 2: Install via Flatpak (Recommended for most Linux distributions)
 
@@ -87733,6 +87565,95 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 To help Mozilla identify the websites where this issue is occurring, it would be appreciated if you could complete [this form](https://webcompat.com/issues/new).
 
 "
+57490,Difficulties opening or using a website in Firefox Focus for Android 100,difficulties-firefox-focus-android-100,https://support.mozilla.org/en-US/kb/difficulties-firefox-focus-android-100,en-US,A potential temporary solution if a web page is not opening correctly in Firefox Focus for Android 100.,"<p>You may find that web pages do not work correctly in Firefox Focus for Android 100. This is due to the website not updating to accommodate version numbers with three characters.
+</p><p>If this impacts a website that you use often, there is a temporary workaround:
+</p>
+<ol><li> Install Firefox Focus for Android Nightly from the Google Play Store following <a href=""/en-US/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-nightly"">this guide</a>. This app will be separate to the Firefox Focus for Android you normally use, and you can remove this app later if you wish.
+</li><li> Type <strong>about:config</strong> in the address bar and tap <span class=""button"">Enter</span> to go to the <em>about:config</em> page.
+</li><li> Search for the <span class=""pref"">network.http.useragent.forceVersion</span> preference.
+</li><li> Tap in the field below the preference and set its value to <span class=""pref"">99</span>.
+</li><li> Close and reopen Firefox Focus for Android Nightly.
+</li></ol>
+<p>To help Mozilla identify the websites where this issue occurs, it would be appreciated if you could complete <a href=""https://webcompat.com/issues/new"">this form</a>.
+</p>",focus-firefox,crashing-and-slow-performance;performance-and-connectivity;site-breakages,"You may find that web pages do not work correctly in Firefox Focus for Android 100. This is due to the website not updating to accommodate version numbers with three characters.
+
+If this impacts a website that you use often, there is a temporary workaround:
+
+1. Install Firefox Focus for Android Nightly from the Google Play Store following [this guide](\""https://support.mozilla.org/en-US/kb/download-beta-and-nightly-focus-android#w_download-firefox-focus-for-android-nightly""). This app will be separate to the Firefox Focus for Android you normally use, and you can remove this app later if you wish.
+2. Type **about:config** in the address bar and tap Enter to go to the _about:config_ page.
+3. Search for the network.http.useragent.forceVersion preference.
+4. Tap in the field below the preference and set its value to 99.
+5. Close and reopen Firefox Focus for Android Nightly.
+
+To help Mozilla identify the websites where this issue occurs, it would be appreciated if you could complete [this form](https://webcompat.com/issues/new).
+
+"
+57530,Introducing Total Cookie Protection in Standard Mode,introducing-total-cookie-protection-standard-mode,https://support.mozilla.org/en-US/kb/introducing-total-cookie-protection-standard-mode,en-US,Firefox users now have access to Total Cookie Protection by default. Find all you need to know about it in this article.,"<p>Firefox users now have access to Total Cookie Protection by default. Total Cookie Protection is an advancement built into <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> that works by maintaining a separate <em>cookie jar</em> for each website you visit.
+</p>
+<h1 id=""w_how-does-total-cookie-protection-work"">How does Total Cookie Protection work?</h1>
+<p>Firefox is here to protect you from third-parties who are tracking cookies and information about your browsing activity, without your knowledge or consent. These companies try to build a profile based on details of your online spending, health and other personal information, and sell it without you knowing.  
+</p><p>Total Cookie Protection builds a fence around cookies, limiting them to the site you're on so third parties can't use those same <a href=""https://www.digitalinformationworld.com/2020/06/you-better-get-used-to-the-name-tracking-beacons-instead-of-cookies.html"">tracking beacons</a> to follow you from one site to the next. For example, if you visit Facebook, Facebook won’t be able to view your activity on Etsy, One Medical or your cousin’s cooking blog later.
+</p><p>For more information, check out our <a href=""https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"">blog post on Total Cookie Protection</a>. 
+</p>
+<h1 id=""w_what-should-i-expect"">What should I expect?</h1>
+<p>Total Cookie Protection will be turned on by default in standard browsing. There should be no noticeable effect on your browsing and sites should continue to work as before.
+</p>
+<h1 id=""w_what-kind-of-data-do-we-collect"">What kind of data do we collect?</h1>
+<p>Firefox doesn’t collect any of your personal data, other than your setting preference.
+</p>
+<h1 id=""w_what-do-i-do-if-a-site-seems-broken"">What do I do if a site seems broken?</h1>
+<p>If a site seems broken, disabling <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> might fix the issue by allowing trackers on just that site. It allows trackers to load on that site only. Enhanced Tracking Protection will still prevent trackers on other sites. To disable it:
+</p>
+<ol><li>Visit the website.
+</li><li>At the left of the address bar, click the <img alt=""Fx89ShieldIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-05-12-06-f2679d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> shield icon.
+</li><li>At the top of the panel, toggle off the Enhanced Tracking Protection switch <img alt=""Fx91ETPbluetoggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-16-12-56-21-3859dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""40"">. This will disable Enhanced Tracking Protection for the site, causing the page to automatically reload and enable trackers.
+<dl><dt><span class=""for"" data-for=""not fx138""><img alt=""Protection panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-06-58-36-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""></span><span class=""for"" data-for=""fx138""><img alt=""Fx138ProtectionPanelOff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-03-19-08-3f5858.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<p>Follow the same process to turn Enhanced Tracking Protection back on.
+</p><p>If the issue persists, consider reporting it by submitting a <em>Broken Site Report</em>. This allows the Webcompat team to examine the problem. For more information, see <a href=""/en-US/kb/report-breakage-due-blocking"">How do I report a broken site in Firefox desktop?</a>
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li>To learn more about Enhanced Tracking Protection settings in Firefox, see <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection in Firefox for desktop</a>.
+</li><li>For information about Total Cookie Protection and site breakage, see <a href=""/en-US/kb/total-cookie-protection-and-website-breakage-faq"">Total Cookie Protection and website breakage FAQ</a>.
+</li></ul>",firefox,privacy-and-security;tracking-protection,"Firefox users now have access to Total Cookie Protection by default. Total Cookie Protection is an advancement built into [Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"") that works by maintaining a separate _cookie jar_ for each website you visit.
+
+# How does Total Cookie Protection work?
+
+Firefox is here to protect you from third-parties who are tracking cookies and information about your browsing activity, without your knowledge or consent. These companies try to build a profile based on details of your online spending, health and other personal information, and sell it without you knowing.
+
+Total Cookie Protection builds a fence around cookies, limiting them to the site you're on so third parties can't use those same [tracking beacons](https://www.digitalinformationworld.com/2020/06/you-better-get-used-to-the-name-tracking-beacons-instead-of-cookies.html) to follow you from one site to the next. For example, if you visit Facebook, Facebook won’t be able to view your activity on Etsy, One Medical or your cousin’s cooking blog later.
+
+For more information, check out our [blog post on Total Cookie Protection](https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/).
+
+# What should I expect?
+
+Total Cookie Protection will be turned on by default in standard browsing. There should be no noticeable effect on your browsing and sites should continue to work as before.
+
+# What kind of data do we collect?
+
+Firefox doesn’t collect any of your personal data, other than your setting preference.
+
+# What do I do if a site seems broken?
+
+If a site seems broken, disabling [Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"") might fix the issue by allowing trackers on just that site. It allows trackers to load on that site only. Enhanced Tracking Protection will still prevent trackers on other sites. To disable it:
+
+1. Visit the website.
+2. At the left of the address bar, click the ![Fx89ShieldIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) shield icon.
+3. At the top of the panel, toggle off the Enhanced Tracking Protection switch ![Fx91ETPbluetoggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). This will disable Enhanced Tracking Protection for the site, causing the page to automatically reload and enable trackers.<dl><dt>
+<span class=""for"" data-for=""not fx138""><img alt=""Protection panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-20-06-58-36-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""></span><span class=""for"" data-for=""fx138""><img alt=""Fx138ProtectionPanelOff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-03-19-08-3f5858.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+Follow the same process to turn Enhanced Tracking Protection back on.
+
+If the issue persists, consider reporting it by submitting a _Broken Site Report_. This allows the Webcompat team to examine the problem. For more information, see [How do I report a broken site in Firefox desktop?](\""https://support.mozilla.org/en-US/kb/report-breakage-due-blocking"")
+
+# Related articles
+
+- To learn more about Enhanced Tracking Protection settings in Firefox, see [Enhanced Tracking Protection in Firefox for desktop](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"").
+- For information about Total Cookie Protection and site breakage, see [Total Cookie Protection and website breakage FAQ](\""https://support.mozilla.org/en-US/kb/total-cookie-protection-and-website-breakage-faq"").
+
+"
 57580,What's the difference between MDN and MDN Plus?,whats-difference-between-mdn-and-mdn-plus,https://support.mozilla.org/en-US/kb/whats-difference-between-mdn-and-mdn-plus,en-US,You can upgrade your access to Mozilla Developer Network (MDN) Web Docs with a free or paid subscription to MDN Plus.  Learn more.,"<p><a href=""https://developer.mozilla.org"">Mozilla Developer Network (MDN) Web Docs</a> is an evolving learning platform for Web technologies and the software that powers the Web. MDN's mission is simple: provide a blueprint for a better Internet and empower a new generation of developers and content creators to build it.
 </p><p>MDN Web Docs is available for free, is accessible to all, and doesn’t require you to sign in with a <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>. You can upgrade your access with a free or paid MDN Plus subscription, which includes varying access to Collections, Notifications and MDN Offline. MDN Plus requires you to create and/or sign in with a Mozilla account. To learn more, see the <a href=""https://developer.mozilla.org/plus/docs/faq"">MDN Plus FAQ</a> page.
 </p>
@@ -89347,7 +89268,7 @@ To learn more about Firefox Focus, its abilities and settings, see:
 </li><li>Mozilla VPN will automatically connect to the server location you last connected to.
 </li></ol>
 <h1 id=""w_related-content"">Related content</h1>
-<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a>
+<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a>
 </li><li><a href=""/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"">How can I tell if Mozilla VPN is connected?</a>
 </li><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
 </li></ul>",mozilla-vpn,installation-and-updates,"Mozilla VPN allows you to connect automatically on startup as a way to ensure that your internet connection is always protected when starting your device. To enable this feature, follow the steps below.
@@ -89381,7 +89302,7 @@ To learn more about Firefox Focus, its abilities and settings, see:
 
 # Related content
 
-- [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
+- [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
 - [How can I tell if Mozilla VPN is connected?](\""https://support.mozilla.org/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"")
 - [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
 
@@ -93905,7 +93826,7 @@ Once installed, site permission add-ons will appear in a separate panel in the a
 </dt></dl>
 </li></ul>
 <h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a>
+<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a>
 </li><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
 </li></ul>
 <p><strong>Learn more</strong>
@@ -93993,7 +93914,7 @@ This status indicates your Mozilla VPN is disabled and your online activity is n
 
 # Related articles
 
-- [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
+- [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
 - [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
 
 **Learn more**
@@ -95304,7 +95225,7 @@ Don't hesitate to reach out if you need assistance. We have a fantastic [Support
 </dt></dl>
 </li><li>When connecting for the first time, an Android message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap <strong>Allow</strong> to continue. You may be asked to confirm your choice if your device is password protected.
 </li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
+<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-ios"">Download and install Mozilla VPN on iOS</a>
@@ -95335,7 +95256,7 @@ To download and install Mozilla VPN on your Android device:
 </dt></dl>
 6. When connecting for the first time, an Android message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap **Allow** to continue. You may be asked to confirm your choice if your device is password protected.
 
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
+All set! The Mozilla VPN installation is completed. Check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
 
 # Related articles
 
@@ -95372,7 +95293,7 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 </dt></dl>
 </li><li>When connecting for the first time, an iOS message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap <strong>Allow</strong> to continue. You may be asked to confirm your choice if your device is password protected.
 </li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
+<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
 </p>
 <h1 id=""w_ipad"">iPad</h1>
 <ol><li>Visit the <a href=""https://apps.apple.com/app/mozilla-vpn-secure-private/id1489407738"">App Store</a>.
@@ -95388,7 +95309,7 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 </dt></dl>
 </li><li>When connecting for the first time, an iOS message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap <strong>Allow</strong> to continue. You may be asked to confirm your choice if your device is password protected.
 </li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
+<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-windows"">Download and install Mozilla VPN on Windows</a>
@@ -95420,7 +95341,7 @@ To download and install Mozilla VPN on your iOS device:
 </dt></dl>
 6. When connecting for the first time, an iOS message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap **Allow** to continue. You may be asked to confirm your choice if your device is password protected.
 
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
+All set! The Mozilla VPN installation is completed. Check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
 
 # iPad
 
@@ -95437,7 +95358,7 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 </dt></dl>
 6. When connecting for the first time, an iOS message will ask you to allow Mozilla VPN to set up a VPN connection. This is necessary to route your internet traffic via the Mozilla VPN servers. Tap **Allow** to continue. You may be asked to confirm your choice if your device is password protected.
 
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
+All set! The Mozilla VPN installation is completed. Check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
 
 # Related articles
 
@@ -95479,7 +95400,7 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 <dl><dt><img alt=""mozillavpnsignup"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-06-11-59-abc8ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 </li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
+<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
 </p>
 <h1 id=""w_related-content"">Related content</h1>
 <ul><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-ios"">Download and install Mozilla VPN on iOS</a>
@@ -95521,7 +95442,7 @@ To download and install Mozilla VPN on your Windows device:
 <img alt=""mozillavpnsignup"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-06-11-59-abc8ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
+All set! The Mozilla VPN installation is completed. Check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
 
 # Related content
 
@@ -95574,7 +95495,7 @@ All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozi
 <dl><dt><img alt=""VPN get started"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-11-42-06-b54cbf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 </li></ol>
-<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">How do I turn on Mozilla VPN?</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
+<p>All set! The Mozilla VPN installation is completed. Check <a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a> and <a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a> for next steps.
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/how-download-and-install-mozilla-vpn-ios"">Download and install Mozilla VPN on iOS</a>
@@ -95626,7 +95547,7 @@ To download and install Mozilla VPN on your macOS:
 <img alt=""VPN get started"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-20-11-42-06-b54cbf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 
-All set! The Mozilla VPN installation is completed. Check [How do I turn on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
+All set! The Mozilla VPN installation is completed. Check [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"") and [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"") for next steps.
 
 # Related articles
 
@@ -97800,6 +97721,302 @@ Installing languages enables Firefox to perform translations locally within your
 </p>",firefox-private-network,accounts,"Mozilla ended support for Firefox Private Network on June 20th, 2023. You can no longer subscribe to Firefox Private Network, or install, reinstall, or use the extension. Current customers will no longer be billed and any remaining days in the month will be credited back to your original payment method. Please refer to the email sent to customers for any questions regarding your subscription.
 
 As an alternative to Firefox Private Network, learn more about [Mozilla VPN](https://www.mozilla.org/products/vpn) to create a fast, secure, private connection to the internet.
+
+"
+61420,New in Thunderbird 115 Supernova,new-thunderbird-115-supernova,https://support.mozilla.org/en-US/kb/new-thunderbird-115-supernova,en-US,"Detailed introduction to the most interesting new features, improvements, and changes visible to users in Thunderbird 115.0 Supernova.","<p></p><div class=""warning"">More for Thunderbird: <strong>o</strong> Vote on &amp; suggest improvements at <a href=""https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird"">Connect</a> <strong>o</strong> <a href=""https://www.thunderbird.net/participate/"">Participate/Contribute</a> <strong>o</strong> <a href=""https://support.mozilla.org/questions/new/thunderbird/form"">Get Support</a></div>
+<p></p><p>This article introduces the most interesting new features, improvements, and changes visible to users which are available in Thunderbird 115 Supernova.
+</p><p>For more details on the main window in Thunderbird 115, please refer to: <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova"">Getting Started with the Thunderbird main window (Supernova and newer)</a>. Also see the <a href=""https://blog.thunderbird.net/tag/supernova/"">Thunderbird Blog</a> for more details and background.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_new-unified-toolbar""><span class=""tocnumber"">1</span> <span class=""toctext"">New Unified Toolbar</span></a></li><li class=""toclevel-1""><a href=""#w_simplified-application-menu""><span class=""tocnumber"">2</span> <span class=""toctext"">Simplified Application Menu</span></a></li><li class=""toclevel-1""><a href=""#w_improved-message-list""><span class=""tocnumber"">3</span> <span class=""toctext"">Improved Message List</span></a></li><li class=""toclevel-1""><a href=""#w_calendar-improvements""><span class=""tocnumber"">4</span> <span class=""toctext"">Calendar Improvements</span></a></li><li class=""toclevel-1""><a href=""#w_look-and-feel-improvements-new-message-button-get-messages-folder-pane-options-meatball-menu""><span class=""tocnumber"">5</span> <span class=""toctext"">Look and Feel Improvements: New Message Button, Get messages, Folder pane options meatball menu</span></a></li><li class=""toclevel-1""><a href=""#w_other-look-and-feel-improvements""><span class=""tocnumber"">6</span> <span class=""toctext"">Other Look and Feel Improvements</span></a></li></ul></div>
+<h1 id=""w_new-unified-toolbar"">New Unified Toolbar</h1>
+<p>There is now a single “Unified Toolbar” on top of the Tabs Bar, which is fully screenreader and keyboard accessible. This toolbar is used for all “Spaces”, which are Mail, Address Book, Calendar, Tasks, Chat and Settings. The toolbar is customizable by right clicking (<span class=""key"">control</span> click on macOS) &gt; <span class=""button"">Customize…</span>
+<br><br>
+<img alt=""tb115-unified-toolbar-customize"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-24-15-35-00-da152a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p><span class=""button"">Customize…</span> offers a common set of buttons available for all “Spaces”, which correspond to the <a href=""/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar"">Spaces Toolbar Introduced in 102</a>. Also available are Spaces-specific buttons for each Space. 
+</p><p>Full keyboard navigation includes <span class=""key"">Tab</span> and arrow keys to navigate, <span class=""key"">Enter</span> to add a button to the toolbar, <span class=""key"">Delete</span> to remove it, and <span class=""key"">Alt</span> with arrow keys to move buttons around on the toolbar, in addition to mouse actions such as drag and drop. 
+</p><p>Please refer to <a href=""/en-US/kb/unified-toolbar"">Unified Toolbar</a> for more details on the Unified Toolbar and customizations.
+</p><p>We are working on improving the other toolbars (e.g., composer, message window, event editor, etc.) for a future release.
+</p>
+<h1 id=""w_simplified-application-menu"">Simplified Application Menu</h1>
+<p>The Application Menu (also known as appmenu or “Thunderbird Menu”), <span class=""menu"">≡</span>, has been simplified and reduced to make it easier to navigate. Only global context items are listed, which do not need to be updated or changed based on which Thunderbird “Space” you are using. There are now at most two layers of submenus, so you no longer need to dig around in multiple sublevels to find what you need.
+</p><p>Of course, you can still find other menu items in the Thunderbird menu bar by pressing the <span class=""key"">Alt</span> key on Windows and Linux (and in the macOS Thunderbird menu bar).
+</p>
+<h1 id=""w_improved-message-list"">Improved Message List</h1>
+<p>The message list now uses modern HTML technology, which is faster and has a whole host of behind the scenes improvements to make improving it in the future much easier.
+</p><p>A new Message List Header shows the current folder name, number of messages, Quick Filter, and new “Message list display options” icon, <img alt=""tb115-display-options-icon-offical-from-micah"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-09-20-04-06-4a2c27.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</p><p>The Vertical View Layout now defaults to a new two line “Card View” which is more compact and better suited to the Vertical Layout. With the customization options, you can change the Vertical View back to the version 102 “Table View”.
+</p>
+<h1 id=""w_calendar-improvements"">Calendar Improvements</h1>
+<p>To summarize, there is an improved “mini-month” layout, a Unified Toolbar for the Calendar “Space” on top of the tabs, improvements to the day/week/month grid, and some other minor changes.
+</p><p>For the mini-month:
+<br><br>
+<img alt=""tb115-calendar-minimonth"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-31-21-10-53-c1c4fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<ul><li> [a] The Today icon in the “mini-month” has been changed from an <span class=""button"">◯</span> button to a graphical icon on the <strong>left</strong>. 
+</li><li> Dates with an event or task are now marked with a blue dot to allow easier scanning without relying on color.
+</li><li> [b,c] New buttons are placed in a more contextually relevant place: <span class=""button"">+ New Event</span>, <span class=""button"">New Calendar</span>.
+</li></ul>
+<p>For the day/week/month grid:
+<br><br>
+<img alt=""tb115-calendar-day-week-month-grid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-31-21-19-08-93ac56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<ul><li> [a] The <span class=""button"">Today</span> navigation button has been changed to the same Today icon used in the mini-month.
+</li><li> [b] The “Day, Week, Multiweek, Month” tab bar was changed to radio style buttons to indicate you can only select one.
+</li><li> [c] There is a new Settings icon to the <strong>right</strong> of the “Day, Week, Multiweek, Month” again in a more contextually relevant place.
+</li></ul>
+<h1 id=""w_look-and-feel-improvements-new-message-button-get-messages-folder-pane-options-meatball-menu"">Look and Feel Improvements: New Message Button, Get messages, Folder pane options meatball menu</h1>
+<p>All the buttons in the Folder Pane and Unified Toolbars have been revamped using modern CSS and HTML Technology. The buttons are now more accessible and customizable. 
+</p><p>Many menus and buttons have been moved and changed to be closer to where they are more relevant in the context of Thunderbird. One example is the new <span class=""menu"">Folder Modes</span> sub menu, which is documented below.
+</p><p>Miscellaneous but important improvements:
+<br><br>
+<img alt=""tb115-new-message-get-messages-folder-pane-options"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-25-21-21-06-24e829.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<ul><li> There is a new <span class=""button"">+ New Message</span> button to compose a new email, chat message, etc. that replaces the old <span class=""button"">Write</span> button. Refer to <strong>1</strong> in the screenshot above.
+</li><li> There is a new <em>Get messages</em> icon, <img alt=""tb115-official-getmessages-icon16x16"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-09-09-20-26-c6f8be.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, to the <strong>left</strong> of <span class=""button"">+ New Message</span>. This new icon replaces the old <span class=""button"">Get Messages</span> button. Refer to <strong>2</strong> in the screenshot above.
+</li><li> There is a new <span class=""menu"">Folder pane options</span> menu also known as a “meatball” or “three horizontal dots” menu, <span class=""menu"">⋯</span>, to the <strong>right</strong> of   <span class=""button"">+ New Message</span>. This menu has options to show the Total message count, Folder Size and hide the <em>Get Messages</em> and <em>New Message</em> icons as well as hide the Local Folders and Folder Pane Header. It also has a <span class=""menu"">Folder Modes</span> sub menu. This sub menu replaces the 102 <span class=""menu"">⋯</span> menu at the top of the “Folder Pane” toolbar.  Refer to <strong>3</strong> in the screenshot above.
+</li></ul>
+<h1 id=""w_other-look-and-feel-improvements"">Other Look and Feel Improvements</h1>
+<ul><li> In the Mail Space, the <em>Quick Filter</em> icon that toggles between hiding or showing the Quick Filter Toolbar' is always visible (in prior versions it became invisible when you removed it via customization).
+</li><li> There is a new tabular view in Address Book.
+</li><li> “Touch” has been removed from <span class=""menu"">≡</span> &gt; <span class=""button"">Density</span>. It’s now Compact, Default and Relaxed, before 115, it was Compact, Normal and Touch.
+</li><li> A new Card View for messages can be turned on by clicking the new <em>Message list display options</em> icon (which is on the right of the <em>Quick Filter</em> icon): <img alt=""tb115-display-options-icon-offical-from-micah"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-09-20-04-06-4a2c27.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> &gt; <span class=""menu"">Cards View</span>. Please see: <a href=""/en-US/kb/getting-started-thunderbird-main-window-supernova#w_vertical-view-layout-with-card-view"">Getting Started with the Thunderbird main window (Supernova and newer)</a>.
+</li></ul>",thunderbird,installation-and-updates;update,"More for Thunderbird: **o** Vote on & suggest improvements at [Connect](https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird) **o** [Participate/Contribute](https://www.thunderbird.net/participate/) **o** [Get Support](https://support.mozilla.org/questions/new/thunderbird/form)
+
+This article introduces the most interesting new features, improvements, and changes visible to users which are available in Thunderbird 115 Supernova.
+
+For more details on the main window in Thunderbird 115, please refer to: [Getting Started with the Thunderbird main window (Supernova and newer)](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova""). Also see the [Thunderbird Blog](https://blog.thunderbird.net/tag/supernova/) for more details and background.
+
+## Table of Contents
+
+- [1 New Unified Toolbar](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_new-unified-toolbar)
+- [2 Simplified Application Menu](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_simplified-application-menu)
+- [3 Improved Message List](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_improved-message-list)
+- [4 Calendar Improvements](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_calendar-improvements)
+- [5 Look and Feel Improvements: New Message Button, Get messages, Folder pane options meatball menu](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_look-and-feel-improvements-new-message-button-get-messages-folder-pane-options-meatball-menu)
+- [6 Other Look and Feel Improvements](https://support.mozilla.org/kb/new-thunderbird-115-supernova#w_other-look-and-feel-improvements)
+
+# New Unified Toolbar
+
+There is now a single “Unified Toolbar” on top of the Tabs Bar, which is fully screenreader and keyboard accessible. This toolbar is used for all “Spaces”, which are Mail, Address Book, Calendar, Tasks, Chat and Settings. The toolbar is customizable by right clicking (control click on macOS) \> Customize…  
+  
+ ![tb115-unified-toolbar-customize](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+Customize… offers a common set of buttons available for all “Spaces”, which correspond to the [Spaces Toolbar Introduced in 102](\""https://support.mozilla.org/en-US/kb/new-thunderbird-102#w_take-control-of-your-personal-information-new-spaces-toolbar""). Also available are Spaces-specific buttons for each Space.
+
+Full keyboard navigation includes Tab and arrow keys to navigate, Enter to add a button to the toolbar, Delete to remove it, and Alt with arrow keys to move buttons around on the toolbar, in addition to mouse actions such as drag and drop.
+
+Please refer to [Unified Toolbar](\""https://support.mozilla.org/en-US/kb/unified-toolbar"") for more details on the Unified Toolbar and customizations.
+
+We are working on improving the other toolbars (e.g., composer, message window, event editor, etc.) for a future release.
+
+# Simplified Application Menu
+
+The Application Menu (also known as appmenu or “Thunderbird Menu”), ≡, has been simplified and reduced to make it easier to navigate. Only global context items are listed, which do not need to be updated or changed based on which Thunderbird “Space” you are using. There are now at most two layers of submenus, so you no longer need to dig around in multiple sublevels to find what you need.
+
+Of course, you can still find other menu items in the Thunderbird menu bar by pressing the Alt key on Windows and Linux (and in the macOS Thunderbird menu bar).
+
+# Improved Message List
+
+The message list now uses modern HTML technology, which is faster and has a whole host of behind the scenes improvements to make improving it in the future much easier.
+
+A new Message List Header shows the current folder name, number of messages, Quick Filter, and new “Message list display options” icon, ![tb115-display-options-icon-offical-from-micah](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+
+The Vertical View Layout now defaults to a new two line “Card View” which is more compact and better suited to the Vertical Layout. With the customization options, you can change the Vertical View back to the version 102 “Table View”.
+
+# Calendar Improvements
+
+To summarize, there is an improved “mini-month” layout, a Unified Toolbar for the Calendar “Space” on top of the tabs, improvements to the day/week/month grid, and some other minor changes.
+
+For the mini-month:  
+  
+ ![tb115-calendar-minimonth](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+- [a] The Today icon in the “mini-month” has been changed from an ◯ button to a graphical icon on the **left**. 
+- Dates with an event or task are now marked with a blue dot to allow easier scanning without relying on color.
+- [b,c] New buttons are placed in a more contextually relevant place: + New Event, New Calendar.
+
+For the day/week/month grid:  
+  
+ ![tb115-calendar-day-week-month-grid](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+- [a] The Today navigation button has been changed to the same Today icon used in the mini-month.
+- [b] The “Day, Week, Multiweek, Month” tab bar was changed to radio style buttons to indicate you can only select one.
+- [c] There is a new Settings icon to the **right** of the “Day, Week, Multiweek, Month” again in a more contextually relevant place.
+
+# Look and Feel Improvements: New Message Button, Get messages, Folder pane options meatball menu
+
+All the buttons in the Folder Pane and Unified Toolbars have been revamped using modern CSS and HTML Technology. The buttons are now more accessible and customizable.
+
+Many menus and buttons have been moved and changed to be closer to where they are more relevant in the context of Thunderbird. One example is the new Folder Modes sub menu, which is documented below.
+
+Miscellaneous but important improvements:  
+  
+ ![tb115-new-message-get-messages-folder-pane-options](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+- There is a new + New Message button to compose a new email, chat message, etc. that replaces the old Write button. Refer to **1** in the screenshot above.
+- There is a new _Get messages_ icon, ![tb115-official-getmessages-icon16x16](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), to the **left** of + New Message. This new icon replaces the old Get Messages button. Refer to **2** in the screenshot above.
+- There is a new Folder pane options menu also known as a “meatball” or “three horizontal dots” menu, ⋯, to the **right** of + New Message. This menu has options to show the Total message count, Folder Size and hide the _Get Messages_ and _New Message_ icons as well as hide the Local Folders and Folder Pane Header. It also has a Folder Modes sub menu. This sub menu replaces the 102 ⋯ menu at the top of the “Folder Pane” toolbar. Refer to **3** in the screenshot above.
+
+# Other Look and Feel Improvements
+
+- In the Mail Space, the _Quick Filter_ icon that toggles between hiding or showing the Quick Filter Toolbar' is always visible (in prior versions it became invisible when you removed it via customization).
+- There is a new tabular view in Address Book.
+- “Touch” has been removed from ≡ \> Density. It’s now Compact, Default and Relaxed, before 115, it was Compact, Normal and Touch.
+- A new Card View for messages can be turned on by clicking the new _Message list display options_ icon (which is on the right of the _Quick Filter_ icon): ![tb115-display-options-icon-offical-from-micah](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) \> Cards View. Please see: [Getting Started with the Thunderbird main window (Supernova and newer)](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-main-window-supernova#w_vertical-view-layout-with-card-view"").
+
+"
+61455,Back up and transfer your Firefox data to a new device,switching-devices,https://support.mozilla.org/en-US/kb/switching-devices,en-US,"Learn how to transfer your browser data when switching devices using Firefox Sync. Back up your bookmarks, history, passwords, etc. with your Mozilla account.","<p>Learn how to move, install or migrate Firefox to a new device using Firefox Sync. Once you enable your <a href=""/en-US/kb/sync"">Firefox Sync backup</a>, whenever you change your phone or computer to a new device, you will be able to install Firefox without losing your data. Your bookmarks, browsing history, passwords and open tabs will migrate with you securely.
+</p>
+<ul><li>To learn how to create and restore a backup file if you prefer not to use Sync, see <a href=""/en-US/kb/firefox-backup"">Restore your Firefox browsing data with a backup file</a>.
+</li></ul>
+<h1 id=""w_backup-assistant"">Backup assistant</h1>
+<p>To begin running Firefox Sync:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Click <span class=""menu"">Sync</span> and then, if necessary, sign into your Mozilla account to begin.
+</li></ol>
+<p>Use the interactive walkthrough below to understand the steps of how to move your data to your new device using Firefox Sync.
+</p><form-wizard id=""switching-devices-wizard"" fxa-root=""https://accounts.firefox.com"">
+  <sign-in-step name=""sign-into-fxa""></sign-in-step>
+  <configure-step name=""configure-sync""></configure-step>
+  <setup-device-step name=""setup-new-device""></setup-device-step>
+</form-wizard>
+<p></p><p>The data you sync should include your bookmarks, logins and passwords, addresses, payment methods, extensions and important settings. If your bookmarks failed to populate correctly, see <a href=""/en-US/kb/restore-bookmarks-from-backup-or-move-them"">Restore bookmarks from backup or move them to another computer</a>.
+</p>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
+<p></p><section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-can-i-manually-back-up-my-data"">How can I manually back up my data?</h2>
+<p>If you prefer not to use Firefox Sync and instead manually back up your data, learn how to <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">backup and restore information from your Firefox profile</a>. Once you complete a manual backup, you will then be able to restore it on a new device.
+</p>
+<h2 id=""w_how-can-i-back-up-my-data-later"">How can I back up my data later?</h2>
+<p>If you aren’t able to perform a data backup at this time, you can do it later from the Firefox menu. These are the steps you need to follow:
+</p>
+<ol><li><span class=""for"" data-for=""not mac"">Click the menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the top right corner and click <span class=""menu"">Help</span></span><span class=""for"" data-for=""mac"">Click <span class=""menu"">Help</span> in the Menu bar</span>.
+</li><li>Select <span class=""menu"">Switching to a new device</span> from the Help menu.
+<dl><dt><span class=""for"" data-for=""not mac""><img alt=""switching_devices_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-24-10-09-28-a3e6bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
+</dt></dl>
+</li><li>Follow the steps in the setup assistant to back up your data.
+</li></ol>
+<h2 id=""w_what-can-i-do-if-i-lost-my-password"">What can I do if I lost my password?</h2>
+<p>To access your backed-up Firefox data, you need to log in to the same Mozilla account you used on your old device. If you forgot your password, you’ll need to reset it using recovery keys. Resetting your password without <a href=""/en-US/kb/reset-your-firefox-account-password-recovery-keys"">recovery keys</a> will wipe all your data for security reasons.
+</p>
+<h2 id=""w_what-data-is-included-in-a-backup"">What data is included in a backup?</h2>
+<p>In this process, we back up the following data:
+</p>
+<ul><li>Bookmarks
+</li><li>History
+</li><li>Lists of open tabs
+</li><li>Passwords
+</li><li>Saved addresses
+</li><li>Payment methods
+</li><li>Installed add-ons
+</li><li>Selected settings
+</li></ul>
+<h2 id=""w_can-i-choose-what-data-i-want-to-sync"">Can I choose what data I want to sync?</h2>
+<p>Yes, you can choose the data you want to sync in step 2 of the wizard, by clicking the <strong>browser settings</strong> link. You can also change this later by following the steps in <a href=""/en-US/kb/how-do-i-choose-what-information-sync-firefox"">How do I choose what information to sync on Firefox?</a>
+</p>
+<h2 id=""w_how-do-you-handle-my-data"">How do you handle my data?</h2>
+<p>When backing up your data, your history, passwords, addresses, and credit cards are included. However, we do not collect this information and it remains accessible to you alone. Here is a list of frequently asked questions regarding <a href=""https://www.mozilla.org/privacy/faq/"">how we handle user data</a>.
+</p>
+<h2 id=""w_how-do-i-sync-my-data-from-android-or-ios"">How do I sync my data from Android or iOS?</h2>
+<p>See the following resources based on your mobile device type:
+</p>
+<ul><li><a href=""/en-US/kb/sync-bookmarks-tabs-history-and-passwords-android"">Sync bookmarks, history, passwords and tabs on Android</a>
+</li><li><a href=""/en-US/kb/sync-bookmarks-logins-and-browsing-history-firefox"">Sync bookmarks, logins and browsing history on Firefox for iOS</a>
+</li></ul>
+<h2 id=""w_can-i-back-up-my-data-without-a-mozilla-account"">Can I back up my data without a Mozilla account?</h2>
+<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.
+</p><p></p></section>
+<p></p>",firefox,backup-data;sync-data,"Learn how to move, install or migrate Firefox to a new device using Firefox Sync. Once you enable your [Firefox Sync backup](\""https://support.mozilla.org/en-US/kb/sync""), whenever you change your phone or computer to a new device, you will be able to install Firefox without losing your data. Your bookmarks, browsing history, passwords and open tabs will migrate with you securely.
+
+- To learn how to create and restore a backup file if you prefer not to use Sync, see [Restore your Firefox browsing data with a backup file](\""https://support.mozilla.org/en-US/kb/firefox-backup"").
+
+# Backup assistant
+
+To begin running Firefox Sync:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Click Sync and then, if necessary, sign into your Mozilla account to begin.
+
+Use the interactive walkthrough below to understand the steps of how to move your data to your new device using Firefox Sync.
+
+<form-wizard id=""switching-devices-wizard"" fxa-root=""https://accounts.firefox.com"">
+  <sign-in-step name=""sign-into-fxa""></sign-in-step>
+  <configure-step name=""configure-sync""></configure-step>
+  <setup-device-step name=""setup-new-device""></setup-device-step>
+</form-wizard>
+
+The data you sync should include your bookmarks, logins and passwords, addresses, payment methods, extensions and important settings. If your bookmarks failed to populate correctly, see [Restore bookmarks from backup or move them to another computer](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-from-backup-or-move-them"").
+
+# Frequently asked questions
+
+<section class=""mzp-c-details"">
+<p></p>
+<h2 id=""w_how-can-i-manually-back-up-my-data"">How can I manually back up my data?</h2>
+<p>If you prefer not to use Firefox Sync and instead manually back up your data, learn how to <a href='\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles""'>backup and restore information from your Firefox profile</a>. Once you complete a manual backup, you will then be able to restore it on a new device.
+</p>
+<h2 id=""w_how-can-i-back-up-my-data-later"">How can I back up my data later?</h2>
+<p>If you aren’t able to perform a data backup at this time, you can do it later from the Firefox menu. These are the steps you need to follow:
+</p>
+<ol>
+<li>
+<span class=""for"" data-for=""not mac"">Click the menu <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button in the top right corner and click <span class=""menu"">Help</span></span><span class=""for"" data-for=""mac"">Click <span class=""menu"">Help</span> in the Menu bar</span>.
+</li>
+<li>Select <span class=""menu"">Switching to a new device</span> from the Help menu.
+<dl><dt>
+<span class=""for"" data-for=""not mac""><img alt=""switching_devices_button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-24-10-09-28-a3e6bb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
+</dt></dl>
+</li>
+<li>Follow the steps in the setup assistant to back up your data.
+</li>
+</ol>
+<h2 id=""w_what-can-i-do-if-i-lost-my-password"">What can I do if I lost my password?</h2>
+<p>To access your backed-up Firefox data, you need to log in to the same Mozilla account you used on your old device. If you forgot your password, you’ll need to reset it using recovery keys. Resetting your password without <a href='\""https://support.mozilla.org/en-US/kb/reset-your-firefox-account-password-recovery-keys""'>recovery keys</a> will wipe all your data for security reasons.
+</p>
+<h2 id=""w_what-data-is-included-in-a-backup"">What data is included in a backup?</h2>
+<p>In this process, we back up the following data:
+</p>
+<ul>
+<li>Bookmarks
+</li>
+<li>History
+</li>
+<li>Lists of open tabs
+</li>
+<li>Passwords
+</li>
+<li>Saved addresses
+</li>
+<li>Payment methods
+</li>
+<li>Installed add-ons
+</li>
+<li>Selected settings
+</li>
+</ul>
+<h2 id=""w_can-i-choose-what-data-i-want-to-sync"">Can I choose what data I want to sync?</h2>
+<p>Yes, you can choose the data you want to sync in step 2 of the wizard, by clicking the <strong>browser settings</strong> link. You can also change this later by following the steps in <a href='\""https://support.mozilla.org/en-US/kb/how-do-i-choose-what-information-sync-firefox""'>How do I choose what information to sync on Firefox?</a>
+</p>
+<h2 id=""w_how-do-you-handle-my-data"">How do you handle my data?</h2>
+<p>When backing up your data, your history, passwords, addresses, and credit cards are included. However, we do not collect this information and it remains accessible to you alone. Here is a list of frequently asked questions regarding <a href=""https://www.mozilla.org/privacy/faq/"">how we handle user data</a>.
+</p>
+<h2 id=""w_how-do-i-sync-my-data-from-android-or-ios"">How do I sync my data from Android or iOS?</h2>
+<p>See the following resources based on your mobile device type:
+</p>
+<ul>
+<li>
+<a href='\""https://support.mozilla.org/en-US/kb/sync-bookmarks-tabs-history-and-passwords-android""'>Sync bookmarks, history, passwords and tabs on Android</a>
+</li>
+<li>
+<a href='\""https://support.mozilla.org/en-US/kb/sync-bookmarks-logins-and-browsing-history-firefox""'>Sync bookmarks, logins and browsing history on Firefox for iOS</a>
+</li>
+</ul>
+<h2 id=""w_can-i-back-up-my-data-without-a-mozilla-account"">Can I back up my data without a Mozilla account?</h2>
+<p>Yes. You can learn how to save your browser data without having to sign up for an account by checking out the steps in <a href='\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles""'>Manually back up and restore Firefox profile data</a>.
+</p>
+<p></p></section>
 
 "
 61456,Why aren’t my add-ons working on some websites?,addons-restricted-domains,https://support.mozilla.org/en-US/kb/addons-restricted-domains,en-US,"Learn why some Firefox extensions have been disabled on certain websites, how to manage these limits, and explore alternative solutions.","<p>Certain Firefox users may come across a desktop notification indicating that their add-ons have been disabled for particular websites. In <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox versions</a> 113, 114 and <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>, we have introduced a system add-on developed by Mozilla that disables extensions on specific websites for various reasons, including security concerns.
