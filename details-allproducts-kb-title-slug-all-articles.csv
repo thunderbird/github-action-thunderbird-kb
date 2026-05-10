@@ -35503,80 +35503,6 @@ If for some reason you feel like your normal profile (whichever profile location
 [You can read more about snap snapshots here.](https://snapcraft.io/docs/snapshots)
 
 "
-17060,Install Thunderbird on Mac,installing-thunderbird-on-mac,https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac,en-US,This article describes how to install Thunderbird on Mac OS.,"<p>This article describes how to install Thunderbird on Mac. For other operating systems, see <a href=""/en-US/kb/installing-thunderbird-windows"">Install Thunderbird on Windows</a> and <a href=""/en-US/kb/installing-thunderbird-linux"">Install Thunderbird on Linux</a>.
-Before you install Thunderbird, check that your computer meets the <a href=""https://www.thunderbird.net/thunderbird/system-requirements/"">System Requirements</a>.
-</p><p>Open the <a href=""https://www.thunderbird.net/"">Thunderbird download page</a> and click the ""Free Download"" button to download the platform and language edition of Thunderbird for your computer. If you want to download Thunderbird in a language other than the one suggested, click on ""Systems &amp; Languages"" for the list of available editions. Click on the macOS installation of your choice to continue.
-</p><p>Once the download is completed, the disk image may open by itself and mount a new volume which contains the Thunderbird application. If you do not see the new volume, double-click the Thunderbird dmg icon to open it. A Finder window appears, containing the Thunderbird application. <strong>Drag the Thunderbird icon to the Applications folder.</strong>  Now eject the disk image by selecting it in a Finder window and pressing the <span class=""key"">command</span>+<span class=""key"">E</span> keys or by using the Finder's <span class=""menu"">File</span> menu, and selecting <span class=""menu"">Eject</span>.
-</p><p>Thunderbird is now ready for use. Open the Applications folder and start by double-clicking on the Thunderbird icon. You may get a security warning that Thunderbird has been downloaded from the Internet. Because you downloaded Thunderbird from the official site, you can click <span class=""button"">Open</span> to continue.
-</p>
-<div class=""note""><strong>Tip:</strong> You can add Thunderbird to your dock for easy access. Just open your Applications folder and drag Thunderbird to the dock.</div>
-<p>The first time you start Thunderbird you may be alerted that it is not your default email application. (The default email application is the program that opens, for example, when you click a link on a web page to an email address.) If you want Thunderbird to be the default email application, click <span class=""button"">Yes</span> to set it as your default mailer. If not (for example if you are just trying out Thunderbird) click <span class=""button"">No</span>.
-</p>
-<h2 id=""w_common-problems"">Common Problems</h2>
-<ul><li> If you fail to install Thunderbird to the Applications folder, every time Thunderbird starts it will not have remembered your provious session settings - it will ask you to create email accounts, or otherwise indicate that it has no data.  <strong>You must drag the Thunderbird dmg file/icon to the Applications folder.</strong>
-</li></ul>
-<p>
-</p>",thunderbird,installation-and-updates,"This article describes how to install Thunderbird on Mac. For other operating systems, see [Install Thunderbird on Windows](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-windows"") and [Install Thunderbird on Linux](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-linux""). Before you install Thunderbird, check that your computer meets the [System Requirements](https://www.thunderbird.net/thunderbird/system-requirements/).
-
-Open the [Thunderbird download page](https://www.thunderbird.net/) and click the ""Free Download"" button to download the platform and language edition of Thunderbird for your computer. If you want to download Thunderbird in a language other than the one suggested, click on ""Systems & Languages"" for the list of available editions. Click on the macOS installation of your choice to continue.
-
-Once the download is completed, the disk image may open by itself and mount a new volume which contains the Thunderbird application. If you do not see the new volume, double-click the Thunderbird dmg icon to open it. A Finder window appears, containing the Thunderbird application. **Drag the Thunderbird icon to the Applications folder.** Now eject the disk image by selecting it in a Finder window and pressing the command+E keys or by using the Finder's File menu, and selecting Eject.
-
-Thunderbird is now ready for use. Open the Applications folder and start by double-clicking on the Thunderbird icon. You may get a security warning that Thunderbird has been downloaded from the Internet. Because you downloaded Thunderbird from the official site, you can click Open to continue.
-
-**Tip:** You can add Thunderbird to your dock for easy access. Just open your Applications folder and drag Thunderbird to the dock.
-
-The first time you start Thunderbird you may be alerted that it is not your default email application. (The default email application is the program that opens, for example, when you click a link on a web page to an email address.) If you want Thunderbird to be the default email application, click Yes to set it as your default mailer. If not (for example if you are just trying out Thunderbird) click No.
-
-## Common Problems
-
-- If you fail to install Thunderbird to the Applications folder, every time Thunderbird starts it will not have remembered your provious session settings - it will ask you to create email accounts, or otherwise indicate that it has no data. **You must drag the Thunderbird dmg file/icon to the Applications folder.**
-
-"
-17061,Keyboard Shortcuts for Searching,keyboard-shortcuts-searching,https://support.mozilla.org/en-US/kb/keyboard-shortcuts-searching,en-US,This page describes the keystroke combinations used to access various search functions in Thunderbird.,"<p>This page shows the keyboard shortcuts for the various <em>search functions</em> in Thunderbird. For the full list of <em>all</em> keyboard shortcuts, see <a href=""/en-US/kb/keyboard-shortcuts-thunderbird"">Keyboard Shortcuts</a>.
-</p>
-<h1 id=""w_prior-to-version-3-1"">Prior to version 3.1</h1>
-<p>In earlier versions (prior to 3.1) of Thunderbird, the  <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span> key combination invoked the function for searching for text in the currently selected message. 
-</p>
-<h1 id=""w_version-3-1-to-version-7"">Version 3.1 to version 7</h1>
-<p>In subsequent versions prior to version 8, the <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span> key combination was reassigned to invoke Quick Filter, which allows you to limit the  messages currently displayed by specifying various filter parameters.
-</p><p>The keystroke combination for searching for text within a message was <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span>, <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span>. (That is, the same key combination used twice in a row.)
-</p>
-<h1 id=""w_version-8-and-later"">Version 8 and later</h1>
-<p>As of Thunderbird version 8, the following keystrokes are assigned to search functions:
-</p>
-<ul><li> Search All Messages (Global Search): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span>  + <span class=""button"">K</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span>  + <span class=""button"">K</span></span>
-</li><li> Quick Filter Bar (filter messages in current view): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span>
-</li><li> Search for messages in a folder (search dialog): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""mac""> <span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span>
-</li></ul>
-<ul><li> Find text in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""mac""> <span class=""button"">Command</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">F</span></span>
-</li><li> Find again in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span>  + <span class=""button"">G</span> or <span class=""button"">F3</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">G</span> or <span class=""button"">F3</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span>  + <span class=""button"">G</span> or <span class=""button"">F3</span></span>
-</li><li> Find previous in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span>
-</li></ul>",thunderbird,search;search-tag-and-share,"This page shows the keyboard shortcuts for the various _search functions_ in Thunderbird. For the full list of _all_ keyboard shortcuts, see [Keyboard Shortcuts](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird"").
-
-# Prior to version 3.1
-
-In earlier versions (prior to 3.1) of Thunderbird, the Ctrl / Command + F key combination invoked the function for searching for text in the currently selected message.
-
-# Version 3.1 to version 7
-
-In subsequent versions prior to version 8, the Ctrl / Command + F key combination was reassigned to invoke Quick Filter, which allows you to limit the messages currently displayed by specifying various filter parameters.
-
-The keystroke combination for searching for text within a message was Ctrl / Command + F, Ctrl / Command + F. (That is, the same key combination used twice in a row.)
-
-# Version 8 and later
-
-As of Thunderbird version 8, the following keystrokes are assigned to search functions:
-
-- Search All Messages (Global Search): Ctrl + KCommand + KCtrl + K
-- Quick Filter Bar (filter messages in current view): Ctrl + Shift + KCommand + Shift + KCtrl + Shift + K
-- Search for messages in a folder (search dialog): Ctrl + Shift + F Command + Shift + FCtrl + Shift + F
-
-- Find text in current message: Ctrl + F Command + FCtrl + F
-- Find again in current message: Ctrl + G or F3Command + G or F3Ctrl + G or F3
-- Find previous in current message: Ctrl + Shift + G or Shift + F3Command + Shift + G or Shift + F3Ctrl + Shift + G or Shift + F3
-
-"
 17062,Compacting folders,compacting-folders,https://support.mozilla.org/en-US/kb/compacting-folders,en-US,This article explains how Thunderbird stores messages on a disk drive and why it is necessary to periodically compact (purge).,"<p>This article explains how Thunderbird stores messages on disk and why it is necessary to periodically <em>compact</em> folders. Compacting is a regular file maintenance process (sometimes referred to as ""purging"") which recovers disk space without changing or removing any of your messages.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-thunderbird-stores-messages""><span class=""tocnumber"">1</span> <span class=""toctext"">How Thunderbird stores messages</span></a></li><li class=""toclevel-1""><a href=""#w_what-compact-does-not-do""><span class=""tocnumber"">2</span> <span class=""toctext"">What compact does not do</span></a></li><li class=""toclevel-1""><a href=""#w_is-it-ok-to-compact""><span class=""tocnumber"">3</span> <span class=""toctext"">Is it OK to compact?</span></a></li><li class=""toclevel-1""><a href=""#w_the-compact-folders-prompt""><span class=""tocnumber"">4</span> <span class=""toctext"">The Compact Folders prompt</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-compact-required""><span class=""tocnumber"">5</span> <span class=""toctext"">Why is compact required?</span></a></li><li class=""toclevel-1""><a href=""#w_when-does-compact-occur""><span class=""tocnumber"">6</span> <span class=""toctext"">When does compact occur?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-configure-compact""><span class=""tocnumber"">7</span> <span class=""toctext"">How can I configure compact?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-compact-work""><span class=""tocnumber"">8</span> <span class=""toctext"">How does compact work?</span></a></li><li class=""toclevel-1""><a href=""#w_potential-complications""><span class=""tocnumber"">9</span> <span class=""toctext"">Potential complications</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">10</span> <span class=""toctext"">See also</span></a></li></ul></div>
@@ -57641,212 +57567,6 @@ We are continually trying to improve Firefox with your help. If you're still hav
 6. Tap **Done** to save your changes.
 
 "
-38355,Switch from Chrome to Firefox,switching-chrome-firefox,https://support.mozilla.org/en-US/kb/switching-chrome-firefox,en-US,"Firefox can automatically move bookmarks, passwords, history and other preferences from Chrome without deleting it or interfering with any of its settings.","<p>You can switch from Google Chrome to <a href=""https://www.firefox.com/"">Firefox</a> quickly and easily. Firefox can import your bookmarks, browsing history<span class=""for"" data-for=""mac"">, passwords</span> and other data from Chrome without deleting anything or changing your Chrome settings. You'll still be able to use Chrome afterward, if needed. Here’s how:
-</p>
-<h1 id=""w_import-your-chrome-data-to-firefox"">Import your Chrome data to Firefox</h1>
-<p>Before you begin, save any open tabs in Chrome by bookmarking them into a new folder in your Chrome bookmarks bar (for example, you can name it “Open Tabs”).
-<span class=""for"" data-for=""mac""><img alt=""Bookmark all tabs Chrome MacOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-30-02-03-06-2632e4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<h2 id=""w_1-download-and-install-firefox"">1. Download and install Firefox</h2>
-<p>Go to the <a href=""https://www.firefox.com/browsers/desktop/"">Firefox download page</a> and <span class=""for"" data-for=""win""><a href=""/en-US/kb/how-install-firefox-windows"">install the latest version of Firefox</a></span><span class=""for"" data-for=""mac""><a href=""/en-US/kb/how-download-and-install-firefox-mac"">install the latest version of Firefox</a></span><span class=""for"" data-for=""linux""><a href=""/en-US/kb/install-firefox-linux"">install the latest version of Firefox</a></span>.
-</p>
-<h2 id=""w_2-exit-google-chrome"">2. Exit Google Chrome</h2>
-<p>Before importing data, make sure Chrome is closed. Click the three-dot menu and select <span class=""for"" data-for=""win""><strong>Exit</strong></span><span class=""for"" data-for=""mac,linux""><strong>Quit Chrome</strong></span>.
-</p>
-<dl><dt><span class=""for"" data-for=""mac""><img alt=""quit chrome mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-11-31-31-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""exitgooglewin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-12-47-23-c68b3c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-<h2 id=""w_3-open-firefox"">3. Open Firefox</h2>
-<p>When you open Firefox for the first time, the Import Tool may appear automatically, but if it doesn’t:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">Click <span class=""menu"">File</span> in Menu bar at the top of the screen and select <span class=""menu"">Import From Another Browser…</span> in the menu.</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the top-right corner.</span>
-</li></ol>
-<div class=""for"" data-for=""win,linux"">
-<ol><li>Select <span class=""menu"">Settings</span>.
-</li><li>In the <span class=""menu"">General</span> panel, scroll down to <em>Import Browser Data</em>.
-</li><li>Click <span class=""button"">Import Data</span>.
-<dl><dt><img alt=""importchromewin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-10-30-61f29e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-</div>
-<h2 id=""w_4-choose-what-to-import"">4. Choose what to import</h2>
-<ol><li>In the import tool, select <strong>Google Chrome</strong> from the list of browsers.
-</li><li>Choose the data you want to import:
-<ul><li>Bookmarks
-</li><li>Saved passwords
-</li><li>Browsing history
-</li><li>Extensions
-</li><li>Form autofill data
-</li></ul>
-</li></ol>
-<div class=""for"" data-for=""win,linux"">
-<dl><dt><img alt=""importbrowserdata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-11-26-0cd10f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt><dt><div class=""warning""><strong>Note:</strong> <span class=""for"" data-for=""win"">Starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 140, you can’t import passwords from Chrome to Firefox automatically on Windows.</span><span class=""for"" data-for=""linux"">You can’t import passwords from Chrome to Firefox automatically on Linux.</span> You’ll have to import them using a CSV file via the migration wizard. See <a href=""/en-US/kb/import-bookmarks-google-chrome"">Import bookmarks and other data from Google Chrome</a> on how to do it.</div>
-</dt></dl>
-</div>
-<h2 id=""w_5-complete-the-import"">5. Complete the import</h2>
-<ol><li>Click <strong>Import</strong> to begin.
-</li><li>Once the import is finished, click <strong>Done</strong>.
-<dl><dt><span class=""for"" data-for=""win,linux""><img alt=""importcomplete"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-15-21-0f7324.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""importmac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-11-13-18-07-1a17ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
-</dt></dl>
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/import-bookmarks-google-chrome"">Import bookmarks and other data from Google Chrome</a>
-</li><li><a href=""/en-US/kb/make-firefox-your-default-browser"">Make Firefox your default browser</a>
-</li><li><a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox controls, buttons and toolbars</a>
-</li></ul>",firefox,backup-recovery-and-sync;import-and-export-settings;install;installation-and-updates;settings;sync-data,"You can switch from Google Chrome to [Firefox](https://www.firefox.com/) quickly and easily. Firefox can import your bookmarks, browsing history, passwords and other data from Chrome without deleting anything or changing your Chrome settings. You'll still be able to use Chrome afterward, if needed. Here’s how:
-
-# Import your Chrome data to Firefox
-
-Before you begin, save any open tabs in Chrome by bookmarking them into a new folder in your Chrome bookmarks bar (for example, you can name it “Open Tabs”). ![Bookmark all tabs Chrome MacOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## 1. Download and install Firefox
-
-Go to the [Firefox download page](https://www.firefox.com/browsers/desktop/) and [install the latest version of Firefox](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"")[install the latest version of Firefox](\""https://support.mozilla.org/en-US/kb/how-download-and-install-firefox-mac"")[install the latest version of Firefox](\""https://support.mozilla.org/en-US/kb/install-firefox-linux"").
-
-## 2. Exit Google Chrome
-
-Before importing data, make sure Chrome is closed. Click the three-dot menu and select **Exit**** Quit Chrome**.
-
-<dl><dt>
-<span class=""for"" data-for=""mac""><img alt=""quit chrome mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-03-11-31-31-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""exitgooglewin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-12-47-23-c68b3c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-## 3. Open Firefox
-
-When you open Firefox for the first time, the Import Tool may appear automatically, but if it doesn’t:
-
-1. Click File in Menu bar at the top of the screen and select Import From Another Browser… in the menu.Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the top-right corner.
-
-1. Select Settings.
-2. In the General panel, scroll down to _Import Browser Data_.
-3. Click Import Data.<dl><dt>
-<img alt=""importchromewin"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-10-30-61f29e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-## 4. Choose what to import
-
-1. In the import tool, select **Google Chrome** from the list of browsers.
-2. Choose the data you want to import:
-  - Bookmarks
-  - Saved passwords
-  - Browsing history
-  - Extensions
-  - Form autofill data
-
-<dl>
-<dt>
-<img alt=""importbrowserdata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-11-26-0cd10f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt>
-<dt>
-<div class=""warning"">
-<strong>Note:</strong> <span class=""for"" data-for=""win"">Starting with <a href='\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""'>Firefox version</a> 140, you can’t import passwords from Chrome to Firefox automatically on Windows.</span><span class=""for"" data-for=""linux"">You can’t import passwords from Chrome to Firefox automatically on Linux.</span> You’ll have to import them using a CSV file via the migration wizard. See <a href='\""https://support.mozilla.org/en-US/kb/import-bookmarks-google-chrome""'>Import bookmarks and other data from Google Chrome</a> on how to do it.</div>
-</dt>
-</dl>
-
-## 5. Complete the import
-
-1. Click **Import** to begin.
-2. Once the import is finished, click **Done**.<dl><dt>
-<span class=""for"" data-for=""win,linux""><img alt=""importcomplete"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-10-13-15-21-0f7324.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""importmac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-11-13-18-07-1a17ed.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""></span>
-</dt></dl>
-
-# Related articles
-
-- [Import bookmarks and other data from Google Chrome](\""https://support.mozilla.org/en-US/kb/import-bookmarks-google-chrome"")
-- [Make Firefox your default browser](\""https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser"")
-- [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"")
-
-"
-38500,Tracking Protection on Firefox Focus for iOS,tracking-protection-focus-ios,https://support.mozilla.org/en-US/kb/tracking-protection-focus-ios,en-US,How to view what trackers are on a page and how to turn Tracking Protection on or off.,"<p>Firefox Focus' Tracking Protection blocks trackers that follow you across multiple websites.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-know-if-tracking-protection-is-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I know if Tracking Protection is on or off?</span></a></li><li class=""toclevel-1""><a href=""#w_turn-tracking-protection-off-or-on""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn Tracking Protection off or on</span></a></li></ul></div>
-<h1 id=""w_how-do-i-know-if-tracking-protection-is-on-or-off"">How do I know if Tracking Protection is on or off?</h1>
-<p>When you visit a website, you’ll see a shield in your address bar. When Tracking Protection is on and you tap on the shield, it will bring up a panel where you can see the number of trackers being blocked on that page:
-</p>
-<ul><li><strong><img alt=""Focus shield active"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-11-07-10-22-eb78a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> Tracking Protection is ON:</strong> Focus blocked trackers and harmful scripts on a site. Tap the shield to see what was blocked.
-</li><li><img alt=""Focus shield crossed out"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-11-07-11-23-eb0992.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> <strong>Tracking Protection is OFF:</strong> A line through the shield means Tracking Protection is off and not blocking any trackers. Tap the shield and toggle the switch to turn it back on.
-</li></ul>
-<h1 id=""w_turn-tracking-protection-off-or-on"">Turn Tracking Protection off or on</h1>
-<ol><li>Tap the shield in the address bar to open the <em>Enhanced Tracking Protection</em> panel.
-</li><li>Tap the switch <img alt=""FocusPinkToggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-05-13-06-38-454c7d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> next to <strong>Enhanced Tracking Protection</strong> to turn it off or on.
-</li></ol>
-<p><img alt=""FocusETPpanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-08-08-43-75e9a6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</p><p>If you turn Tracking Protection off, it will remain off until you tap the trash icon in the toolbar or close Firefox Focus.
-</p>
-<div class=""note"">Learn more about <a href=""https://disconnect.me/trackerprotection"">tracking and the standards Disconnect uses to create its list</a> and <a href=""https://wiki.mozilla.org/Security/Tracking_protection#Lists"">the lists used by Firefox Focus for Tracking Protection</a>.</div>",focus-firefox,privacy-and-security;tracking-protection,"Firefox Focus' Tracking Protection blocks trackers that follow you across multiple websites.
-
-## Table of Contents
-
-- [1 How do I know if Tracking Protection is on or off?](https://support.mozilla.org/kb/tracking-protection-focus-ios#w_how-do-i-know-if-tracking-protection-is-on-or-off)
-- [2 Turn Tracking Protection off or on](https://support.mozilla.org/kb/tracking-protection-focus-ios#w_turn-tracking-protection-off-or-on)
-
-# How do I know if Tracking Protection is on or off?
-
-When you visit a website, you’ll see a shield in your address bar. When Tracking Protection is on and you tap on the shield, it will bring up a panel where you can see the number of trackers being blocked on that page:
-
-- **![Focus shield active](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Tracking Protection is ON:** Focus blocked trackers and harmful scripts on a site. Tap the shield to see what was blocked.
-- ![Focus shield crossed out](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) **Tracking Protection is OFF:** A line through the shield means Tracking Protection is off and not blocking any trackers. Tap the shield and toggle the switch to turn it back on.
-
-# Turn Tracking Protection off or on
-
-1. Tap the shield in the address bar to open the _Enhanced Tracking Protection_ panel.
-2. Tap the switch ![FocusPinkToggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to **Enhanced Tracking Protection** to turn it off or on.
-
-![FocusETPpanel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-If you turn Tracking Protection off, it will remain off until you tap the trash icon in the toolbar or close Firefox Focus.
-
-Learn more about [tracking and the standards Disconnect uses to create its list](https://disconnect.me/trackerprotection) and [the lists used by Firefox Focus for Tracking Protection](https://wiki.mozilla.org/Security/Tracking_protection#Lists).
-"
-38604,An extension changed my New Tab page or home page,extension-changed-my-new-tab-page,https://support.mozilla.org/en-US/kb/extension-changed-my-new-tab-page,en-US,View and disable extensions or add-ons that change the new tab page or home page.,"<p>Extensions (also known as add-ons) are small programs you can install to add features to Firefox. Some extensions can take control of the home page (what you see when you start Firefox, open a new window, or click the home icon <img alt=""Home Button 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-19-01-59-26-fcbbdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the toolbar) or the  <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a> (what you see when you open a new tab). If this happens, Firefox will ask you when you open it for the first time if that change is okay.
-</p>
-<dl><dt><img alt=""Fx83NewTabChange-MomentumAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-19-17-53-55-1682ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_view-and-disable-the-extension""><span class=""tocnumber"">1</span> <span class=""toctext"">View and disable the extension</span></a></li><li class=""toclevel-1""><a href=""#w_remove-the-extension""><span class=""tocnumber"">2</span> <span class=""toctext"">Remove the extension</span></a></li></ul></div>
-<h1 id=""w_view-and-disable-the-extension"">View and disable the extension</h1>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <strong>Home</strong>.
-</li><li>Under <strong>New Windows and Tabs</strong>, it will indicate which extension has changed your home page or New Tab page.
-<dl><dt><img alt=""DisableExtensionNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-01-13-02-45-164cdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Click <span class=""button"">Disable Extension</span> to prevent the extension from changing your home or New Tab page again. The page will change back to what you had previously set. To change your home page again, see <a href=""/en-US/kb/how-to-set-the-home-page"">How to set the home page</a>.
-</li></ol>
-<h1 id=""w_remove-the-extension"">Remove the extension</h1>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions</span>.
-
-</li><li>Under <strong>Manage Your Extensions</strong> find the extension you want to remove.
-</li><li>On the right side of the extension click the menu (three dots) and select <span class=""menu"">Remove</span>. 
-<dl><dt><img alt=""fx72 remove extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-16-33-40-a77f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>",firefox,add-ons-extensions-and-themes;settings,"Extensions (also known as add-ons) are small programs you can install to add features to Firefox. Some extensions can take control of the home page (what you see when you start Firefox, open a new window, or click the home icon ![Home Button 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the toolbar) or the [New Tab page](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"") (what you see when you open a new tab). If this happens, Firefox will ask you when you open it for the first time if that change is okay.
-
-<dl><dt>
-<img alt=""Fx83NewTabChange-MomentumAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-12-19-17-53-55-1682ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-## Table of Contents
-
-- [1 View and disable the extension](https://support.mozilla.org/kb/extension-changed-my-new-tab-page#w_view-and-disable-the-extension)
-- [2 Remove the extension](https://support.mozilla.org/kb/extension-changed-my-new-tab-page#w_remove-the-extension)
-
-# View and disable the extension
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click **Home**.
-3. Under **New Windows and Tabs** , it will indicate which extension has changed your home page or New Tab page.<dl><dt>
-<img alt=""DisableExtensionNewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-01-13-02-45-164cdc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. Click Disable Extension to prevent the extension from changing your home or New Tab page again. The page will change back to what you had previously set. To change your home page again, see [How to set the home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"").
-
-# Remove the extension
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions.
-2. Under **Manage Your Extensions** find the extension you want to remove.
-3. On the right side of the extension click the menu (three dots) and select Remove. <dl><dt>
-<img alt=""fx72 remove extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-12-20-16-33-40-a77f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-"
 38819,Remove a search engine in Firefox Focus for Android,remove-search-engine-firefox-focus-android,https://support.mozilla.org/en-US/kb/remove-search-engine-firefox-focus-android,en-US,Remove a search engine in Firefox Focus for Android.,"<p>Firefox Focus comes with built-in search engines and you can even add <a href=""/en-US/kb/add-search-engine-firefox-focus-android"">additional ones</a>. You can also clean up your list by removing unwanted search engines:
 </p>
 <ol><li><p>Tap the menu button next to the address bar:
@@ -73532,6 +73252,230 @@ If you forgot your Mozilla account password, [learn how to reset your password](
 - [How do I update my payment information on Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-update-my-payment-information-mozilla-vpn?utm_source=-vpn-related)
 
 "
+47070,How do I update my payment information on Mozilla VPN?,how-do-i-update-my-payment-information-mozilla-vpn,https://support.mozilla.org/en-US/kb/how-do-i-update-my-payment-information-mozilla-vpn,en-US,"If you get a message that your payment failed, it may be because your card expired or is no longer valid. Here's how to update it.","<p>Keep your payment information up to date so that your Mozilla VPN subscription automatically renews on expiration day. Here’s how to update your payment method:
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_where-can-i-see-my-mozilla-vpn-subscription-information""><span class=""tocnumber"">1</span> <span class=""toctext"">Where can I see my Mozilla VPN subscription information?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-update-my-payment-information-on-mozilla-vpn""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I update my payment information on Mozilla VPN?</span></a><ul><li class=""toclevel-2""><a href=""#w_windows-macos-linux-or-android""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Windows, macOS, Linux or Android</span></a></li><li class=""toclevel-2""><a href=""#w_ios-iphone-or-ipad""><span class=""tocnumber"">2.2</span> <span class=""toctext"">iOS (iPhone or iPad)</span></a></li></ul></li></ul></div>
+<h1 id=""w_where-can-i-see-my-mozilla-vpn-subscription-information"">Where can I see my Mozilla VPN subscription information?</h1>
+<ol><li>Open Mozilla VPN and click (or tap) the settings <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> icon.
+</li><li>Click (or tap) the <span class=""menu"">Account</span> option on the menu. The panel that opens next displays more details about your subscription.
+<dl><dt><img alt=""Account summary updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-20-11-05-38-cd97e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<h1 id=""w_how-do-i-update-my-payment-information-on-mozilla-vpn"">How do I update my payment information on Mozilla VPN?</h1>
+<h2 id=""w_windows-macos-linux-or-android"">Windows, macOS, Linux or Android</h2>
+<ol><li>Open Mozilla VPN.
+</li><li>Open your Settings by clicking (or tapping) the gear icon in the top right corner.
+</li><li>Click (or tap) the <span class=""menu"">Account</span> option.
+</li><li>Click (or tap) <strong>Manage subscription</strong> and sign in to your Mozilla account.
+</li><li>Click (or tap) <strong>Paid Subscriptions</strong> on the left side of the page.
+</li><li>Click (or tap) the <strong>Change</strong> button under <em>Payment information</em> to update your details.
+</li><li>After you've updated your information, click (or tap) the <strong>Update</strong> button.
+</li></ol>
+<h2 id=""w_ios-iphone-or-ipad"">iOS (iPhone or iPad)</h2>
+<p>You can manage your subscription through Apple's App Store by following these steps or see <a href=""https://support.apple.com/en-us/HT201266"">the Apple support site</a> for more information.
+</p>
+<ol><li>Open the Settings app.
+</li><li>Tap your name.
+</li><li>Tap <span class=""menu"">Subscriptions</span>.
+</li><li>Tap <span class=""menu"">Payment and Shipping</span>.
+</li><li>Tap the payment method you want to change or <span class=""menu"">Add Payment Method</span> to enter a new one.
+</li></ol>
+<p><br>
+
+<strong>Related articles</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related"">Where can I see my Mozilla VPN subscription information?</a>
+</li></ul>
+<p><strong>Learn more</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related"">How do I cancel my subscription to Mozilla VPN?</a>
+</li></ul>",mozilla-vpn;mozilla-account,billing-and-subscriptions;manage-billing;manage-subscriptions,"Keep your payment information up to date so that your Mozilla VPN subscription automatically renews on expiration day. Here’s how to update your payment method:
+
+## Table of Contents
+
+- [1 Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_where-can-i-see-my-mozilla-vpn-subscription-information)
+- [2 How do I update my payment information on Mozilla VPN?](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_how-do-i-update-my-payment-information-on-mozilla-vpn)
+  - [2.1 Windows, macOS, Linux or Android](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_windows-macos-linux-or-android)
+  - [2.2 iOS (iPhone or iPad)](https://support.mozilla.org/kb/how-do-i-update-my-payment-information-mozilla-vpn#w_ios-iphone-or-ipad)
+
+# Where can I see my Mozilla VPN subscription information?
+
+1. Open Mozilla VPN and click (or tap) the settings ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon.
+2. Click (or tap) the Account option on the menu. The panel that opens next displays more details about your subscription.<dl><dt>
+<img alt=""Account summary updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-20-11-05-38-cd97e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+# How do I update my payment information on Mozilla VPN?
+
+## Windows, macOS, Linux or Android
+
+1. Open Mozilla VPN.
+2. Open your Settings by clicking (or tapping) the gear icon in the top right corner.
+3. Click (or tap) the Account option.
+4. Click (or tap) **Manage subscription** and sign in to your Mozilla account.
+5. Click (or tap) **Paid Subscriptions** on the left side of the page.
+6. Click (or tap) the **Change** button under _Payment information_ to update your details.
+7. After you've updated your information, click (or tap) the **Update** button.
+
+## iOS (iPhone or iPad)
+
+You can manage your subscription through Apple's App Store by following these steps or see [the Apple support site](https://support.apple.com/en-us/HT201266) for more information.
+
+1. Open the Settings app.
+2. Tap your name.
+3. Tap Subscriptions.
+4. Tap Payment and Shipping.
+5. Tap the payment method you want to change or Add Payment Method to enter a new one.
+
+**Related articles**
+
+- [Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related)
+
+**Learn more**
+
+- [How do I cancel my subscription to Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-cancel-my-subscription-mozilla-vpn?utm_source=-vpn-related)
+
+"
+47132,How to obtain the Mozilla VPN Logs,debugging-mozilla-vpn,https://support.mozilla.org/en-US/kb/debugging-mozilla-vpn,en-US,"When troubleshooting issues with Mozilla VPN, our engineers can ask for logs. These don't contain any personal information, but give hints about the issue.","<p>When troubleshooting issues with Mozilla VPN, our engineers might ask for logs. These logs don't contain any personal information about your browsing activity. Rest assured that these logs only track things happening within the Mozilla VPN software itself, such as internal events and actions, which might give hints as to where issues might be.
+</p>
+<div class=""note""><strong>Note:</strong> Before exporting the application logs, try a Mozilla VPN Reset. This will clear all Mozilla VPN data and settings and return it to the state it was when you first installed it. To learn more about it, please read our article <a href=""/en-US/kb/how-remove-mozilla-vpn-app-data-your-device"">How do I reset Mozilla VPN?</a></div>
+<p>If you are having problems with Mozilla VPN, the Mozilla Support team may ask you to provide us with these logs in order to facilitate finding a solution. This helps us pinpoint the problem and get you back quickly. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-export-logs-on-mozilla-vpn""><span class=""tocnumber"">1</span> <span class=""toctext"">How to export logs on Mozilla VPN</span></a></li><li class=""toclevel-1""><a href=""#w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do""><span class=""tocnumber"">2</span> <span class=""toctext"">I can't log in to Mozilla VPN to generate the log file – What to do</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I export the log if I can't open Mozilla VPN on Windows?</span></a></li></ul></div>
+<h1 id=""w_how-to-export-logs-on-mozilla-vpn"">How to export logs on Mozilla VPN</h1>
+<p>Follow these steps to export the application logs:
+</p>
+<ol><li>Open Mozilla VPN and click the gear icon <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> (icon may appear in top right corner of the application on versions older than 2.10).
+</li><li>Click or tap <span class=""menu"">Help</span>.
+<dl><dt><img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+</li><li>Select <span class=""menu"">View Log</span>. This will generate a <code>.txt</code> file with logs to help Mozilla Support troubleshoot the problem.
+<dl><dt><img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Attach the <code>.txt</code> file to your Contact Support Form.
+</li></ol>
+<h1 id=""w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do"">I can't log in to Mozilla VPN to generate the log file – What to do</h1>
+<ol><li>On the Mozilla VPN <em>Get started</em> screen, click or tap <span class=""menu"">Help</span>.
+<dl><dt><img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Select <span class=""menu"">View Log</span>. This will generate a <code>.txt</code> file with logs to help Mozilla Support troubleshoot the problem.
+<dl><dt><img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+</li><li>Save and attach the <code>.txt</code> file to your Contact Support Form.
+</li></ol>
+<h1 id=""w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows"">How can I export the log if I can't open Mozilla VPN on Windows?</h1>
+<ol><li>Open the Windows <em>File Explorer</em>.
+</li><li>Click the <strong>View</strong> tab at the top of the window.
+<dl><dt><img alt=""Windows  view tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-47-46-5824b3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+</li><li>On the far right side of the option near the top of this tab, look for <strong>Hidden Items</strong>. Check this box, if it is not already.
+<dl><dt><img alt=""Windows hidden items"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-50-00-ddabdb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>This will enable you to complete the next steps:
+<ol><li>Click <strong>This PC</strong> on the left side of the <em>File Explorer</em>.
+<dl><dt><img alt=""Select This PC"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-52-09-075726.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150"">
+</dt></dl>
+</li><li>Click your hard drive (This should be labeled <em>Windows</em> or <em>OS (C:)</em>).
+</li><li>Open the <strong>Users</strong> folder.
+<dl><dt><img alt=""User's file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-53-49-e22716.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>Open the folder for your user, it should have your username.
+</li><li>Open the <strong>AppData</strong> folder.
+<dl><dt><img alt=""AppData file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-56-12-46393a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>Open the <strong>Roaming</strong> folder.
+<dl><dt><img alt=""Roaming file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-57-44-5f2e4c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>Inside the Roaming folder, find a text file document named <em>mozillavpn.txt</em>.
+<dl><dt><img alt=""VPN text file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-10-30-38-61b178.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+</li><li>Copy the file and attach it to your response email.
+</li></ol>
+</li></ol>
+<p><br>
+
+<strong>Related articles:</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related"">Troubleshooting speed issues on Mozilla VPN</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data?utm_source=-vpn-related"">How to remove Mozilla VPN App Data</a>
+</li></ul>
+<p><strong>Learn more:</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
+</li></ul>",mozilla-vpn,performance-and-connectivity,"When troubleshooting issues with Mozilla VPN, our engineers might ask for logs. These logs don't contain any personal information about your browsing activity. Rest assured that these logs only track things happening within the Mozilla VPN software itself, such as internal events and actions, which might give hints as to where issues might be.
+
+**Note:** Before exporting the application logs, try a Mozilla VPN Reset. This will clear all Mozilla VPN data and settings and return it to the state it was when you first installed it. To learn more about it, please read our article [How do I reset Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data-your-device"")
+
+If you are having problems with Mozilla VPN, the Mozilla Support team may ask you to provide us with these logs in order to facilitate finding a solution. This helps us pinpoint the problem and get you back quickly.
+
+## Table of Contents
+
+- [1 How to export logs on Mozilla VPN](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_how-to-export-logs-on-mozilla-vpn)
+- [2 I can't log in to Mozilla VPN to generate the log file – What to do](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_i-cant-log-in-to-mozilla-vpn-to-generate-the-log-file-what-to-do)
+- [3 How can I export the log if I can't open Mozilla VPN on Windows?](https://support.mozilla.org/kb/debugging-mozilla-vpn#w_how-can-i-export-the-log-if-i-cant-open-mozilla-vpn-on-windows)
+
+# How to export logs on Mozilla VPN
+
+Follow these steps to export the application logs:
+
+1. Open Mozilla VPN and click the gear icon ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) (icon may appear in top right corner of the application on versions older than 2.10).
+2. Click or tap Help.<dl><dt>
+<img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+3. Select View Log. This will generate a `.txt` file with logs to help Mozilla Support troubleshoot the problem.<dl><dt>
+<img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+4. Attach the `.txt` file to your Contact Support Form.
+
+# I can't log in to Mozilla VPN to generate the log file – What to do
+
+1. On the Mozilla VPN _Get started_ screen, click or tap Help.<dl><dt>
+<img alt=""VPN HELP BUTTON"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-06-11-21-37-6a26f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+2. Select View Log. This will generate a `.txt` file with logs to help Mozilla Support troubleshoot the problem.<dl><dt>
+<img alt=""View logs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-01-14-43-36-ec7606.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+3. Save and attach the `.txt` file to your Contact Support Form.
+
+# How can I export the log if I can't open Mozilla VPN on Windows?
+
+1. Open the Windows _File Explorer_.
+2. Click the **View** tab at the top of the window.<dl><dt>
+<img alt=""Windows view tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-47-46-5824b3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+3. On the far right side of the option near the top of this tab, look for **Hidden Items**. Check this box, if it is not already.<dl><dt>
+<img alt=""Windows hidden items"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-50-00-ddabdb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+4. This will enable you to complete the next steps:
+  1. Click **This PC** on the left side of the _File Explorer_.<dl><dt>
+<img alt=""Select This PC"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-52-09-075726.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""150"">
+</dt></dl>
+  2. Click your hard drive (This should be labeled _Windows_ or _OS (C:)_).
+  3. Open the **Users** folder.<dl><dt>
+<img alt=""User's file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-53-49-e22716.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+  4. Open the folder for your user, it should have your username.
+  5. Open the **AppData** folder.<dl><dt>
+<img alt=""AppData file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-56-12-46393a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+  6. Open the **Roaming** folder.<dl><dt>
+<img alt=""Roaming file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-09-57-44-5f2e4c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+  7. Inside the Roaming folder, find a text file document named _mozillavpn.txt_.<dl><dt>
+<img alt=""VPN text file"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-09-12-10-30-38-61b178.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+  8. Copy the file and attach it to your response email.
+
+**Related articles:**
+
+- [Troubleshooting speed issues on Mozilla VPN](https://support.mozilla.org/en-US/kb/troubleshooting-speed-issues-mozilla-vpn?utm_source=-vpn-related)
+- [How to remove Mozilla VPN App Data](https://support.mozilla.org/en-US/kb/how-remove-mozilla-vpn-app-data?utm_source=-vpn-related)
+
+**Learn more:**
+
+- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
+
+"
 47214,My privacy settings were changed from Custom to Standard,my-privacy-settings-were-changed-custom-standard,https://support.mozilla.org/en-US/kb/my-privacy-settings-were-changed-custom-standard,en-US,"If your Custom settings match the settings in Standard, you will be switched back to Standard. This will not affect your settings.","<p>If your tracking protection setting in <em>about:preferences#privacy</em> is set to <strong>Custom</strong>, but your custom options exactly match the ones in the <strong>Standard</strong> settings, Firefox will switch back to the <strong>Standard</strong>. You will not lose the privacy options you have selected since your custom settings matched the standard ones.
 </p>
 <h1 id=""w_change-back-to-custom-settings"">Change back to Custom settings</h1>
@@ -84537,6 +84481,100 @@ Visit [https://relay.firefox.com/accounts/settings/](https://relay.firefox.com/a
 </dt></dl>
 
 "
+55581,What's New in Firefox Klar for iOS (version 39),whats-new-klar-ios-39,https://support.mozilla.org/en-US/kb/whats-new-klar-ios-39,en-US,Welcome to version 39 of Firefox Klar for iOS.,"<p>Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
+</p><p>To learn more about Firefox Focus, see <a href=""/en-US/kb/what-firefox-klar-ios"">What is Firefox Klar for iOS?</a> 
+</p><p>We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+</p>",klar,firefox-klar-ios,"Welcome to version 39 of Firefox Klar for iOS. Firefox Klar for iOS now has built-in light and dark themes so you can customize its appearance. The theme set is by your system theme.
+
+To learn more about Firefox Focus, see [What is Firefox Klar for iOS?](\""https://support.mozilla.org/en-US/kb/what-firefox-klar-ios"")
+
+We hope you enjoy this new version. Thank you for supporting Firefox/Mozilla and our mission for privacy, safety and inclusion on the Web.
+
+"
+55628,Firefox for Enterprise 94 - Release notes,firefox-enterprise-94-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-94-release-notes,en-US,See what's coming out with Firefox for Enterprise 94.,"<p>Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_general""><span class=""tocnumber"">1</span> <span class=""toctext"">General</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
+<h1 id=""w_general"">General</h1>
+<ul><li>We now provide an MSIX for Firefox. It can be download via <a href=""https://download.mozilla.org/?product=firefox-msix-latest-ssl&amp;os=win64&amp;lang=en-US"">this link</a>. We do not provide an MSIX for the ESR (yet).
+</li></ul>
+<ul><li>In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
+</li></ul>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps"">DNSOverHTTPS</a> policy was not properly working for setting a DoH URL. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1732961"">bug 1732961</a>.
+</li></ul>
+<ul><li>The Pocket option in the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome"">FirefoxHome</a> policy was not disabling the checkbox in preferences. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1729001"">bug 1729001</a>..
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<ul><li>The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
+</li></ul>
+<ul><li>The Firefox 78 ESR is the last version of Firefox that supports macOS versions &lt; 10.12.
+</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 94 and the Firefox 91.3 ESR.
+
+## Table of Contents
+
+- [1 General](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_general)
+- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_policies)
+- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-94-release-notes#w_special-notes)
+
+# General
+
+- We now provide an MSIX for Firefox. It can be download via [this link](https://download.mozilla.org/?product=firefox-msix-latest-ssl&os=win64&lang=en-US). We do not provide an MSIX for the ESR (yet).
+
+- In Firefox 91 and Firefox ESR 78.12, we changed the DisplayName in the uninstall data for Firefox on Windows to not include the version. This was done to make it easier to write scripts that use this value without having to change it for every release. We forgot to document this in previous release notes.
+
+# Policies
+
+- The [DNSOverHTTPS](https://github.com/mozilla/policy-templates/blob/master/README.md#dnsoverhttps) policy was not properly working for setting a DoH URL. This was fixed in [bug 1732961](https://bugzilla.mozilla.org/show_bug.cgi?id=1732961).
+
+- The Pocket option in the [FirefoxHome](https://github.com/mozilla/policy-templates/blob/master/README.md#firefoxhome) policy was not disabling the checkbox in preferences. This was fixed in [bug 1729001](https://bugzilla.mozilla.org/show_bug.cgi?id=1729001)..
+
+# Special Notes
+
+- The Firefox 78 ESR is the last version of Firefox that supports Flash. The last version of that ESR will be 78.15 which is scheduled to be released on 2021-10-05. This means that Flash will officially be out of support on Firefox when the Firefox 78 ESR reaches EOL on 2021-11-02.
+
+- The Firefox 78 ESR is the last version of Firefox that supports macOS versions \< 10.12.
+
+"
+55632,Change your theme in Firefox Focus for iOS,change-your-theme-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-focus-ios,en-US,Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
+</p>
+<h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
+
+</li><li>Under General, tap <span class=""menu"">Theme</span>.
+</li></ol>",focus-firefox,add-ons-extensions-and-themes;customization;settings,"Firefox Focus for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
+
+# Set theme to light or dark
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap Settings in the menu panel.
+3. Under General, tap Theme.
+
+"
+55633,Change your theme in Firefox Klar for iOS,change-your-theme-firefox-klar-ios,https://support.mozilla.org/en-US/kb/change-your-theme-firefox-klar-ios,en-US,Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.,"<p>Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
+</p>
+<h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
+
+</li><li>Under General, tap <span class=""menu"">Theme</span>.
+</li></ol>",klar,firefox-klar-ios,"Firefox Klar for iOS has built-in light and dark themes so you can customize its appearance. You can also choose to have the theme set by your system.
+
+# Set theme to light or dark
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap Settings in the menu panel.
+3. Under General, tap Theme.
+
+"
 55636,Usage Data Changes for Firefox for iOS and Android,usage-data-changes-firefox-ios-and-android,https://support.mozilla.org/en-US/kb/usage-data-changes-firefox-ios-and-android,en-US,Firefox began collecting new usage data to support the Firefox for iOS 39 and Android 94 releases to support personalization.,"<p>Firefox began collecting new usage data to support the Firefox for <a href=""/en-US/kb/whats-new-firefox-ios-version-39"">iOS 39</a> and <a href=""/en-US/kb/whats-new-firefox-android"">Android 94</a> releases to support personalization and the ability to customize your homepage. This data is stored on the client side only, as part of our existing history database. 
 </p><p>Note that we are not collecting any personal information as part of this change. 
 </p>
@@ -87173,31 +87211,6 @@ Firefox 100 will be released on May 3, 2022. We've created a blog post that has 
 We strongly encourage taking some time to test your internal applications to make sure they work properly with Firefox 100.
 
 Similar to Chrome, we will be providing a preference (network.http.useragent.forceVersion) that can be set using the Preferences policy if for some reason you need to keep the version below 100.
-
-"
-57333,What's new in Firefox Klar for iOS (version 98),whats-new-firefox-klar-ios-version-98,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-98,en-US,Welcome to version 98 of Firefox Klar for iOS.,"<p>
-
-</p><p>Welcome to version 98 of Firefox Klar for iOS. There were no major updates or enhancements released in version 98, only bug fixes. Check back in April 2022 for what's new in version 99.
-</p>",klar,firefox-klar-ios,"Welcome to version 98 of Firefox Klar for iOS. There were no major updates or enhancements released in version 98, only bug fixes. Check back in April 2022 for what's new in version 99.
-
-"
-57345,Delete an individual tab in Firefox Klar for Android,delete-individual-tab-firefox-klar-android,https://support.mozilla.org/en-US/kb/delete-individual-tab-firefox-klar-android,en-US,Tap the Trash icon at the top left to remove an individual tab.,"<p>
-
-</p><p>Firefox Focus makes it easier to browse between web pages, open multiple private tabs and delete individual tabs.
-</p>
-<h1 id=""w_delete-an-individual-private-tab"">Delete an individual private tab</h1>
-<ol><li>Tap the <img alt=""Tab icon - Mobile"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-20-11-14-56-ada30a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""22""> <strong>Tab</strong> icon containing the number of open tabs at the top right of the screen.
-</li><li>Tap the <img alt=""focus cancel icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-28-11-08-28-9cc458.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <strong>Delete</strong> icon the tab you want to delete. Your tab will be closed instantly.
-</li></ol>
-<p><img alt=""Focus tabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-28-11-07-04-314cf0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>",klar,firefox-focus-android,"Firefox Focus makes it easier to browse between web pages, open multiple private tabs and delete individual tabs.
-
-# Delete an individual private tab
-
-1. Tap the ![Tab icon - Mobile](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) **Tab** icon containing the number of open tabs at the top right of the screen.
-2. Tap the ![focus cancel icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) **Delete** icon the tab you want to delete. Your tab will be closed instantly.
-
-![Focus tabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
 "
 57350,HTTPS-Only Mode in Firefox Klar for Android,https-only-mode-firefox-klar-android,https://support.mozilla.org/en-US/kb/https-only-mode-firefox-klar-android,en-US,"You can change your preferences to HTTPS-Only Mode in Firefox Klar for Android, version 97 and above.","<p>
@@ -105665,7 +105678,7 @@ Since these are experimental features, please share your feedback through the re
 </p>
 <ul><li>You can sync data from your new profile with other devices that are signed in to your <a href=""/en-US/kb/firefox-accounts-managing-account-data"">Mozilla account</a>. To learn more, see <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a>, <a href=""/en-US/kb/sync"">Sync Firefox data</a> and <a href=""/en-US/kb/how-do-i-choose-what-information-sync-firefox"">How do I choose what information to sync on Firefox?</a>
 </li></ul>
-<div class=""note""><strong>Note:</strong> You cannot sign in with the same Mozilla account on multiple profiles on the same device, as this prevents accidental data merging.</div>
+<div class=""note""><strong>Note:</strong> To prevent accidental data merging, you cannot sign in with the same Mozilla account on multiple profiles on the same device.</div>
 <dl><dt><img alt=""Fx138BetaMozillaAccountAlreadyInUse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-22-03-36-07-b8be3a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <h2 id=""w_choose-a-profile-at-firefox-startup"">Choose a profile at Firefox startup</h2>
@@ -105850,7 +105863,7 @@ If you want your new profile’s bookmarks, passwords and history available on o
 
 - You can sync data from your new profile with other devices that are signed in to your [Mozilla account](\""https://support.mozilla.org/en-US/kb/firefox-accounts-managing-account-data""). To learn more, see [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer""), [Sync Firefox data](\""https://support.mozilla.org/en-US/kb/sync"") and [How do I choose what information to sync on Firefox?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-what-information-sync-firefox"")
 
-**Note:** You cannot sign in with the same Mozilla account on multiple profiles on the same device, as this prevents accidental data merging.
+**Note:** To prevent accidental data merging, you cannot sign in with the same Mozilla account on multiple profiles on the same device.
 <dl><dt>
 <img alt=""Fx138BetaMozillaAccountAlreadyInUse"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-22-03-36-07-b8be3a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
@@ -108917,272 +108930,6 @@ Firefox 115 ESR is officially out of support for enterprises. Firefox 115 ESR us
 We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/?version=esr) for Windows 7/8 and macOS 10.12/10.13/10.14 users until March 2025.
 
 If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
-
-"
-66403,Gmail and Thunderbird for Android,gmail-thunderbird-android,https://support.mozilla.org/en-US/kb/gmail-thunderbird-android,en-US,How to use Gmail and Gmail with OAuth 2.0 with Thunderbird for Android and K-9.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_troubleshooting-gmail-login-issues-for-thunderbird-for-android-and-k-9""><span class=""tocnumber"">1</span> <span class=""toctext"">Troubleshooting Gmail login issues for Thunderbird for Android and K-9</span></a><ul><li class=""toclevel-2""><a href=""#w_working-around-an-app-blocked-error-in-k-9""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Working around an “App Blocked” error in K-9</span></a></li><li class=""toclevel-2""><a href=""#w_working-around-google-advanced-protection-errors-like-admin-policy-enforced""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Working around Google Advanced Protection errors like “admin_policy_enforced”</span></a></li><li class=""toclevel-2""><a href=""#w_wrong-google-account""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Wrong Google Account</span></a></li><li class=""toclevel-2""><a href=""#w_issues-with-your-android-default-browser""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Issues with your Android default browser</span></a></li></ul></li></ul></div>
-<h1 id=""w_troubleshooting-gmail-login-issues-for-thunderbird-for-android-and-k-9"">Troubleshooting Gmail login issues for Thunderbird for Android and K-9</h1>
-<p>Gmail login issues are common and can occur for various reasons, such as incorrect credentials, browser problems, or account security measures. This guide provides straightforward solutions to help you resolve these issues quickly and gain access to your account.
-</p><p>If you cannot log in to your Gmail account using Thunderbird or K-9, please follow the steps in Google's official troubleshooting wizard: <a href=""https://support.google.com/accounts/troubleshooter/2402620"">Can't sign in to your Google Account</a>.
-</p>
-<h2 id=""w_working-around-an-app-blocked-error-in-k-9"">Working around an “App Blocked” error in K-9</h2>
-<p>This problem has been fixed in the latest versions of K-9. Please upgrade to the latest version.
-</p>
-<h2 id=""w_working-around-google-advanced-protection-errors-like-admin-policy-enforced"">Working around Google Advanced Protection errors like “admin_policy_enforced”</h2>
-<p>If you see an <strong>admin_policy_enforced</strong> message, then your administrator has <strong>Google Advanced Protection</strong> enabled for your Google Workspace. Unfortunately, the only workaround at the moment is to ask your administrator to disable <strong>Google Advanced Protection</strong> by following the steps in Google's documentation: <a href=""https://support.google.com/a/answer/7281227"">Control which third-party &amp; internal apps access Google Workspace data</a>. Your workspace Administrator may also be able to introduce an exception for Thunderbird for Android.
-</p><p>If you are in control of your workspace, you can temporarily remove yourself from the Google Advanced Protection program, sign in to Thunderbird for Android, and then re-enroll yourself. Note however, when a background authentication needs to be renewed, you may be required to repeat the process.
-</p><p>We are working on becoming part of this program in the future, so this workaround will not be required.
-</p>
-<h2 id=""w_wrong-google-account"">Wrong Google Account</h2>
-<p>Thunderbird for Android opens the default Android web browser as part of logging you into your Gmail Account.
-</p><p>If you have multiple google accounts, logging into Gmail can fail if you are using the wrong account. As well, sometimes your default web browser might try to log you in with the wrong Google Account when using OAuth. Here are some possible solutions:
-</p>
-<ul><li> In your default web browser, log out of all Google Accounts on <a href=""https://accounts.google.com/"">https://accounts.google.com/</a>.
-</li><li> Clear your data (cache, cookies, etc.) in your web browser. If you are using Firefox for Android, please follow the instructions in <a href=""/en-US/kb/clear-your-browsing-history-firefox-android"">Clear your browsing history in Firefox for Android</a>. For other browsers, please consult the browser's support site.
-</li></ul>
-<h2 id=""w_issues-with-your-android-default-browser"">Issues with your Android default browser</h2>
-<p>If you suspect that you have issues with your default browser, try changing it to another browser (see Google's support article <a href=""https://support.google.com/android/answer/14324187"">Learn how to change your default browser</a>).
-</p>",thunderbird-android,email-and-messaging;passwords-and-sign-in;reset-passwords;save-passwords;send-and-receive-email;settings,"## Table of Contents
-
-- [1 Troubleshooting Gmail login issues for Thunderbird for Android and K-9](https://support.mozilla.org/kb/gmail-thunderbird-android#w_troubleshooting-gmail-login-issues-for-thunderbird-for-android-and-k-9)
-  - [1.1 Working around an “App Blocked” error in K-9](https://support.mozilla.org/kb/gmail-thunderbird-android#w_working-around-an-app-blocked-error-in-k-9)
-  - [1.2 Working around Google Advanced Protection errors like “admin\_policy\_enforced”](https://support.mozilla.org/kb/gmail-thunderbird-android#w_working-around-google-advanced-protection-errors-like-admin-policy-enforced)
-  - [1.3 Wrong Google Account](https://support.mozilla.org/kb/gmail-thunderbird-android#w_wrong-google-account)
-  - [1.4 Issues with your Android default browser](https://support.mozilla.org/kb/gmail-thunderbird-android#w_issues-with-your-android-default-browser)
-
-# Troubleshooting Gmail login issues for Thunderbird for Android and K-9
-
-Gmail login issues are common and can occur for various reasons, such as incorrect credentials, browser problems, or account security measures. This guide provides straightforward solutions to help you resolve these issues quickly and gain access to your account.
-
-If you cannot log in to your Gmail account using Thunderbird or K-9, please follow the steps in Google's official troubleshooting wizard: [Can't sign in to your Google Account](https://support.google.com/accounts/troubleshooter/2402620).
-
-## Working around an “App Blocked” error in K-9
-
-This problem has been fixed in the latest versions of K-9. Please upgrade to the latest version.
-
-## Working around Google Advanced Protection errors like “admin\_policy\_enforced”
-
-If you see an **admin\_policy\_enforced** message, then your administrator has **Google Advanced Protection** enabled for your Google Workspace. Unfortunately, the only workaround at the moment is to ask your administrator to disable **Google Advanced Protection** by following the steps in Google's documentation: [Control which third-party & internal apps access Google Workspace data](https://support.google.com/a/answer/7281227). Your workspace Administrator may also be able to introduce an exception for Thunderbird for Android.
-
-If you are in control of your workspace, you can temporarily remove yourself from the Google Advanced Protection program, sign in to Thunderbird for Android, and then re-enroll yourself. Note however, when a background authentication needs to be renewed, you may be required to repeat the process.
-
-We are working on becoming part of this program in the future, so this workaround will not be required.
-
-## Wrong Google Account
-
-Thunderbird for Android opens the default Android web browser as part of logging you into your Gmail Account.
-
-If you have multiple google accounts, logging into Gmail can fail if you are using the wrong account. As well, sometimes your default web browser might try to log you in with the wrong Google Account when using OAuth. Here are some possible solutions:
-
-- In your default web browser, log out of all Google Accounts on [https://accounts.google.com/](https://accounts.google.com/).
-- Clear your data (cache, cookies, etc.) in your web browser. If you are using Firefox for Android, please follow the instructions in [Clear your browsing history in Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-firefox-android""). For other browsers, please consult the browser's support site.
-
-## Issues with your Android default browser
-
-If you suspect that you have issues with your default browser, try changing it to another browser (see Google's support article [Learn how to change your default browser](https://support.google.com/android/answer/14324187)).
-
-"
-66480,Get started with the Mozilla VPN extension,get-started-mozilla-vpn-extension,https://support.mozilla.org/en-US/kb/get-started-mozilla-vpn-extension,en-US,"The VPN extension complements the main VPN app, offering flexible controls to secure your browsing activity and customize VPN settings without altering your device-wide VPN protection.","<div class=""note""><strong>Note:</strong> Mozilla Subscriptions are available in Australia, Austria, Bangladesh, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Egypt, Estonia, Finland, France, Germany, Greece, Hungary, India, Indonesia, Ireland, Italy, Kenya, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Morocco, Netherlands, New Zealand, Nigeria, Norway, Poland, Portugal, Romania, Saudi Arabia, Senegal, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Türkiye, Uganda, Ukraine, United Kingdom, United States, and Vietnam.</div>
-<p>The Mozilla VPN extension complements the main VPN client application, offering flexible controls to secure your browsing activity and customize VPN settings for individual websites, all without altering your device-wide VPN protection.
-</p>
-<h1 id=""w_how-to-install-and-use-the-mozilla-vpn-firefox-extension"">How to install and use the Mozilla VPN Firefox Extension</h1>
-<ol><li>On the Mozilla Firefox browser, go to the <a href=""https://addons.mozilla.org/firefox/addon/mozilla-vpn-extension/?utm_medium=referral&amp;utm_source=sumo&amp;utm_campaign=extension-articles"">Firefox Add-ons page</a> and search for <strong>Mozilla VPN</strong>.
-</li><li>Click <span class=""button"">Add to Firefox</span> to install the extension.
-<dl><dt><img alt=""Add VPN extension to firefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-28-00-8b714e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""650"">
-</dt></dl>
-</li><li>Accept the prompts to grant the necessary permissions.
-</li><li>After the extension is installed, the Mozilla VPN icon appears in Firefox’s toolbar.
-<dl><dt><img alt=""VPN icon on toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-29-25-fce827.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<div class=""note""><strong>Note:</strong> To use the Mozilla VPN Firefox extension, the Mozilla VPN software must be installed and running on your computer (though it doesn’t need to be connected to the VPN network). Additionally, you must be logged into your account and have an active subscription.</div>
-<h1 id=""w_activate-your-mozilla-vpn-extension-in-firefox"">Activate your Mozilla VPN extension in Firefox</h1>
-<ol><li>In the top right corner of your Mozilla Firefox browser, locate and click the Mozilla VPN extension icon.
-<dl><dt><img alt=""extension icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-36-48-0dca08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-</li><li>Verify that the extension’s toggle is on. It should be automatically on if the Mozilla VPN software is on by the time you open Firefox. If it’s not on, flip the switch to on.
-<dl><dt><img alt=""VPN extension on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-38-33-73f947.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h1 id=""w_what-can-i-do-with-the-extension"">What can I do with the extension?</h1>
-<p>Within the Mozilla VPN extension interface, you will find various functions.
-</p>
-<dl><dt><img alt=""VPN extension UI"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-39-46-123402.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<ul><li>By clicking the toggle <img alt=""toggle on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-42-20-217d9a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""45""> you will be able to turn VPN protection on and off for Firefox. Note that activating and deactivating the protection of Firefox via the extension will not impact your device-level protection. That continues to be managed via the Mozilla VPN client.
-</li><li>Through the <img alt=""always turn off checkbox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-43-34-098a27.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">, you will be able to exclude websites from VPN protection. For more information, see <a href=""/en-US/kb/disable-vpn-protection-specific-website"">Disable Mozilla VPN protection for a specific website</a>.
-</li><li>With <img alt=""Select website location"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-44-11-cb84cd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""200""> you can set a preferred location to access given websites. For more information, see <a href=""/en-US/kb/change-your-location-specific-website"">Change your location for a specific website</a>.
-</li><li>Through the <img alt=""VPN extension settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-45-09-610023.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> icon, you’ll be able to see all your website-level VPN preferences in a single place.
-</li><li>The <img alt=""Give feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-46-02-a6e877.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> option allows you to send feedback about the extension.
-</li><li>The <img alt=""Reset site preferences button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-48-01-e462df.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> button allows you to set your extension preferences back to default.
-</li></ul>
-<h1 id=""w_get-to-know-your-settings"">Get to know your settings</h1>
-<p>You can access the Mozilla VPN extension settings by clicking the settings icon in the top right corner of the extension.
-</p>
-<dl><dt><img alt=""Extension setting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-48-53-2e5d8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<p><strong>This will display the following options:</strong>
-</p>
-<dl><dt><img alt=""Extension setting menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-56-23-522624.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<ul><li><strong>Website preferences:</strong> Provides a list with all the preferences you saved for the websites you use the extension on. Here you can see if the VPN protection is on or off for a given website and which preferred location you saved for any specific site.
-</li><li><strong>Help center: </strong>Allows you to access our support center to find all the information you need about the Mozilla VPN extension.
-</li><li><strong>Contact support:</strong> Allows you to submit a request for assistance. Fill out the form, and our team will help resolve your issue.
-</li></ul>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/change-your-location-specific-website"">Change your location for a specific website</a>
-</li><li><a href=""/en-US/kb/disable-vpn-protection-specific-website"">Disable Mozilla VPN protection for a specific website</a>
-</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings," **Note:** Mozilla Subscriptions are available in Australia, Austria, Bangladesh, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Egypt, Estonia, Finland, France, Germany, Greece, Hungary, India, Indonesia, Ireland, Italy, Kenya, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Morocco, Netherlands, New Zealand, Nigeria, Norway, Poland, Portugal, Romania, Saudi Arabia, Senegal, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Türkiye, Uganda, Ukraine, United Kingdom, United States, and Vietnam.
-
-The Mozilla VPN extension complements the main VPN client application, offering flexible controls to secure your browsing activity and customize VPN settings for individual websites, all without altering your device-wide VPN protection.
-
-# How to install and use the Mozilla VPN Firefox Extension
-
-1. On the Mozilla Firefox browser, go to the [Firefox Add-ons page](https://addons.mozilla.org/firefox/addon/mozilla-vpn-extension/?utm_medium=referral&utm_source=sumo&utm_campaign=extension-articles) and search for **Mozilla VPN**.
-2. Click Add to Firefox to install the extension.<dl><dt>
-<img alt=""Add VPN extension to firefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-28-00-8b714e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""650"">
-</dt></dl>
-3. Accept the prompts to grant the necessary permissions.
-4. After the extension is installed, the Mozilla VPN icon appears in Firefox’s toolbar.<dl><dt>
-<img alt=""VPN icon on toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-29-25-fce827.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-**Note:** To use the Mozilla VPN Firefox extension, the Mozilla VPN software must be installed and running on your computer (though it doesn’t need to be connected to the VPN network). Additionally, you must be logged into your account and have an active subscription.
-
-# Activate your Mozilla VPN extension in Firefox
-
-1. In the top right corner of your Mozilla Firefox browser, locate and click the Mozilla VPN extension icon.<dl><dt>
-<img alt=""extension icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-36-48-0dca08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
-</dt></dl>
-2. Verify that the extension’s toggle is on. It should be automatically on if the Mozilla VPN software is on by the time you open Firefox. If it’s not on, flip the switch to on.<dl><dt>
-<img alt=""VPN extension on"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-38-33-73f947.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-# What can I do with the extension?
-
-Within the Mozilla VPN extension interface, you will find various functions.
-
-<dl><dt>
-<img alt=""VPN extension UI"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-39-46-123402.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-- By clicking the toggle ![toggle on](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) you will be able to turn VPN protection on and off for Firefox. Note that activating and deactivating the protection of Firefox via the extension will not impact your device-level protection. That continues to be managed via the Mozilla VPN client.
-- Through the ![always turn off checkbox](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), you will be able to exclude websites from VPN protection. For more information, see [Disable Mozilla VPN protection for a specific website](\""https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website"").
-- With ![Select website location](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) you can set a preferred location to access given websites. For more information, see [Change your location for a specific website](\""https://support.mozilla.org/en-US/kb/change-your-location-specific-website"").
-- Through the ![VPN extension settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon, you’ll be able to see all your website-level VPN preferences in a single place.
-- The ![Give feedback](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) option allows you to send feedback about the extension.
-- The ![Reset site preferences button](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button allows you to set your extension preferences back to default.
-
-# Get to know your settings
-
-You can access the Mozilla VPN extension settings by clicking the settings icon in the top right corner of the extension.
-
-<dl><dt>
-<img alt=""Extension setting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-48-53-2e5d8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-**This will display the following options:**
-
-<dl><dt>
-<img alt=""Extension setting menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-56-23-522624.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-- **Website preferences:** Provides a list with all the preferences you saved for the websites you use the extension on. Here you can see if the VPN protection is on or off for a given website and which preferred location you saved for any specific site.
-- **Help center:** Allows you to access our support center to find all the information you need about the Mozilla VPN extension.
-- **Contact support:** Allows you to submit a request for assistance. Fill out the form, and our team will help resolve your issue.
-
-# Related articles
-
-- [Change your location for a specific website](\""https://support.mozilla.org/en-US/kb/change-your-location-specific-website"")
-- [Disable Mozilla VPN protection for a specific website](\""https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website"")
-
-"
-66481,Disable Mozilla VPN protection for a specific website,disable-vpn-protection-specific-website,https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website,en-US,The Mozilla VPN extension allows you to choose the websites you wish to protect and the ones you don't. This article describes how it works.,"<p>Some websites, such as streaming services or online banking platforms, may not function properly when accessed through a VPN. With the Mozilla VPN Firefox extension, you can customize your browsing experience by disabling VPN protection for these websites, allowing you a more seamless experience when using Mozilla VPN.
-</p><p><strong>To disable Mozilla VPN protection for a specific website, follow these steps:</strong>
-</p>
-<ol><li>Navigate to the website where you want to disable the Mozilla VPN protection.
-</li><li>In the top right corner of your Mozilla Firefox browser, locate and open the Mozilla VPN extension icon.
-<dl><dt><img alt=""extension icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-36-48-0dca08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<p>In the <em>Preferences for this website</em> section, you’ll find a checkbox labeled <strong>Always turn off VPN protection</strong>. Check the corresponding box to apply the setting for this website.
-</p>
-<dl><dt><img alt=""Always turn off unchecked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-56-01-cc0074.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-<p>From now on, the website you have selected will no longer be protected by Mozilla VPN, and the disabling of the protection for this site is confirmed by the crossed out VPN icon on the right-hand side of the URL bar.
-</p>
-<dl><dt><img alt=""VPN off - toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-57-18-380308.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h1 id=""w_re-enable-website-protection"">Re-enable website protection</h1>
-<p>You can undo the website exclusion through any of the following methods. In all cases, the website needs to be loaded in your current Firefox tab.
-</p>
-<h2 id=""w_method-1-through-the-mozilla-vpn-icon-in-the-url-bar"">Method 1: Through the Mozilla VPN icon in the URL bar</h2>
-<ol><li>On the right-hand side of the URL bar, look for the crossed-out Mozilla VPN icon.
-</li><li>Click the icon, and select <strong>Turn on</strong>.
-<dl><dt><img alt=""Turn on from toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-59-46-208f15.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h2 id=""w_method-2-through-the-extension"">Method 2: Through the extension</h2>
-<ol><li>Go to the top right corner of your Firefox browser, and click the Mozilla VPN icon.
-</li><li>Uncheck the <strong>Always turn off VPN protection for</strong> option.
-<dl><dt><img alt=""Always turn off unchecked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-56-01-cc0074.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h2 id=""w_method-3-by-resetting-your-site-preferences"">Method 3: By resetting your site preferences</h2>
-<ol><li>Go to the top right corner of your Firefox browser, and click the Mozilla VPN icon.
-</li><li>Click the <span class=""button"">Reset site preferences</span> button.
-<dl><dt><img alt=""Reset site preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-04-29-145767.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/get-started-mozilla-vpn-extension"">Get started with the Mozilla VPN extension</a>
-</li><li><a href=""/en-US/kb/manage-vpn-extension-preferences"">Manage the Mozilla VPN extension preferences</a>
-</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings,"Some websites, such as streaming services or online banking platforms, may not function properly when accessed through a VPN. With the Mozilla VPN Firefox extension, you can customize your browsing experience by disabling VPN protection for these websites, allowing you a more seamless experience when using Mozilla VPN.
-
-**To disable Mozilla VPN protection for a specific website, follow these steps:**
-
-1. Navigate to the website where you want to disable the Mozilla VPN protection.
-2. In the top right corner of your Mozilla Firefox browser, locate and open the Mozilla VPN extension icon.<dl><dt>
-<img alt=""extension icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-09-36-48-0dca08.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-In the _Preferences for this website_ section, you’ll find a checkbox labeled **Always turn off VPN protection**. Check the corresponding box to apply the setting for this website.
-
-<dl><dt>
-<img alt=""Always turn off unchecked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-56-01-cc0074.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-From now on, the website you have selected will no longer be protected by Mozilla VPN, and the disabling of the protection for this site is confirmed by the crossed out VPN icon on the right-hand side of the URL bar.
-
-<dl><dt>
-<img alt=""VPN off - toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-57-18-380308.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-# Re-enable website protection
-
-You can undo the website exclusion through any of the following methods. In all cases, the website needs to be loaded in your current Firefox tab.
-
-## Method 1: Through the Mozilla VPN icon in the URL bar
-
-1. On the right-hand side of the URL bar, look for the crossed-out Mozilla VPN icon.
-2. Click the icon, and select **Turn on**.<dl><dt>
-<img alt=""Turn on from toolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-59-46-208f15.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-## Method 2: Through the extension
-
-1. Go to the top right corner of your Firefox browser, and click the Mozilla VPN icon.
-2. Uncheck the **Always turn off VPN protection for** option.<dl><dt>
-<img alt=""Always turn off unchecked"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-10-56-01-cc0074.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-## Method 3: By resetting your site preferences
-
-1. Go to the top right corner of your Firefox browser, and click the Mozilla VPN icon.
-2. Click the Reset site preferences button.<dl><dt>
-<img alt=""Reset site preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-04-29-145767.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-# Related articles
-
-- [Get started with the Mozilla VPN extension](\""https://support.mozilla.org/en-US/kb/get-started-mozilla-vpn-extension"")
-- [Manage the Mozilla VPN extension preferences](\""https://support.mozilla.org/en-US/kb/manage-vpn-extension-preferences"")
 
 "
 66484,Change your location for a specific website,change-your-location-specific-website,https://support.mozilla.org/en-US/kb/change-your-location-specific-website,en-US,The Mozilla VPN extension allows you to set a particular location through which you want to access a given website. Learn about this feature here.,"<p>With the Mozilla VPN extension, you can set a particular location through which you want to access a given website. This can be useful when visiting websites whose content depends on the country in which you appear to be located, such as news websites.
