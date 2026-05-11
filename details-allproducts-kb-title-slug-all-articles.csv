@@ -30072,6 +30072,124 @@ If you need to set up an in-product link, please fill a [Content Request Bugzill
 - [Anatomy of a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/anatomy-of-a-knowledge-base-article"")
 
 "
+15187,How to Translate SUMO KB Articles in Hindi,how-translate-sumo-kb-articles-hindi,https://support.mozilla.org/en-US/kb/how-translate-sumo-kb-articles-hindi,en-US,Translating KB articles in Hindi Language.,"<div class=""note"">This article will help you to translate KB articles in Hindi. If you want to translate SUMO interface look at the article <a href=""/en-US/kb/localize-sumo-interface"">How to localize the SUMO interface</a>. </div>
+<p>Steps to Translate Articles:
+</p>
+<ol><li> All Hindi Localizers are following Hindi Localization Style Guide which you can download <a href=""http://svn.fedorahosted.org/svn/fuel/language/hi/style_guide/fuel-translation-style-and-convention-guide-hi.pdf"">here</a>.
+</li><li> Use <a href=""http://www.google.com/intl/hi/inputtools/cloud/try/"">Hindi Input Tool</a> to type in Hindi.
+</li><li> For difficult words use <a href=""http://shabdkosh.com/"">Shabdkosh</a> to translate English words in Hindi.
+</li></ol>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-choose-an-article-to-translate""><span class=""tocnumber"">1</span> <span class=""toctext"">How to Choose an Article to Translate</span></a></li><li class=""toclevel-1""><a href=""#w_what-strings-you-have-to-translate""><span class=""tocnumber"">2</span> <span class=""toctext"">What strings you have to translate.</span></a></li></ul></div>
+<h2 id=""w_how-to-choose-an-article-to-translate"">How to Choose an Article to Translate</h2>
+<ol><li> Go to <a href=""https://support.mozilla.org/hi-IN/localization"">Hindi Localization Dashboard</a> .
+</li><li> Look at most visited articles .
+</li><li> Symbols to look in localization dashboard and what they signifies :
+</li></ol>
+<ul><li> circle(green) - Translated and approved.
+</li><li>  circle(yellow)  - Update needed.
+</li><li> rectangle   - Review needed.
+</li><li>  red triangle - Translation needed.
+<ul><li> Choose one untranslated article by clicking 	अनुवाद की जरूरत.
+</li></ul>
+</li></ul>
+<h2 id=""w_what-strings-you-have-to-translate"">What strings you have to translate.</h2>
+<ol><li> Title.
+</li><li> Slug: It is auto-generated and it should be of maximum 50 character.
+</li><li> Search Result summary: it can be of maximum 120 character.
+</li><li> Main Body Part of the article:
+</li></ol>
+<ul><li>  Please do not translate the strings which are in the following brackets [    ],[ [    ] ], {    }, and &lt;   &gt;.
+</li></ul>
+<p><strong>Tips:</strong>
+</p>
+<ol><li> Avoid using Google translate since it doesn't gives exact result what we are looking for.
+</li><li> Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
+</li><li> If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
+</li></ol>",contributor,l10n,"This article will help you to translate KB articles in Hindi. If you want to translate SUMO interface look at the article [How to localize the SUMO interface](\""https://support.mozilla.org/en-US/kb/localize-sumo-interface""). 
+
+Steps to Translate Articles:
+
+1. All Hindi Localizers are following Hindi Localization Style Guide which you can download [here](http://svn.fedorahosted.org/svn/fuel/language/hi/style_guide/fuel-translation-style-and-convention-guide-hi.pdf).
+2. Use [Hindi Input Tool](http://www.google.com/intl/hi/inputtools/cloud/try/) to type in Hindi.
+3. For difficult words use [Shabdkosh](http://shabdkosh.com/) to translate English words in Hindi.
+
+## Table of Contents
+
+- [1 How to Choose an Article to Translate](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-hindi#w_how-to-choose-an-article-to-translate)
+- [2 What strings you have to translate.](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-hindi#w_what-strings-you-have-to-translate)
+
+## How to Choose an Article to Translate
+
+1. Go to [Hindi Localization Dashboard](https://support.mozilla.org/hi-IN/localization) .
+2. Look at most visited articles .
+3. Symbols to look in localization dashboard and what they signifies&nbsp;:
+
+- circle(green) - Translated and approved.
+- circle(yellow) - Update needed.
+- rectangle - Review needed.
+- red triangle - Translation needed.
+  - Choose one untranslated article by clicking अनुवाद की जरूरत.
+
+## What strings you have to translate.
+
+1. Title.
+2. Slug: It is auto-generated and it should be of maximum 50 character.
+3. Search Result summary: it can be of maximum 120 character.
+4. Main Body Part of the article:
+
+- Please do not translate the strings which are in the following brackets [],[[] ], { }, and \< \>.
+
+**Tips:**
+
+1. Avoid using Google translate since it doesn't gives exact result what we are looking for.
+2. Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
+3. If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
+
+"
+15455,Share your Android device with a Firefox Guest Session,share-your-android-device-firefox-guest-session,https://support.mozilla.org/en-US/kb/share-your-android-device-firefox-guest-session,en-US,This feature is no longer active.,"<div class=""warning""><strong>This feature has been removed.</strong> The Guest Session has been removed to streamline your experience. Please use <a href=""/en-US/kb/private-browsing-firefox-android"">Private Browsing on Firefox for Android</a> to keep your sessions separate or your device's guest mode feature (see the support articles for your device).</div>
+<p>A Guest Session lets someone else use Firefox on your Android device without giving them access to your personal information like passwords, bookmarks and history.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_start-a-guest-session""><span class=""tocnumber"">1</span> <span class=""toctext"">Start a Guest Session</span></a></li><li class=""toclevel-1""><a href=""#w_end-a-guest-session""><span class=""tocnumber"">2</span> <span class=""toctext"">End a Guest Session</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-tell-if-i-am-in-a-guest-session""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I tell if I am in a Guest Session?</span></a></li></ul></div>
+<h1 id=""w_start-a-guest-session"">Start a Guest Session</h1>
+<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button.
+</li><li>Tap <span class=""menu"">New Guest Session</span> (you may need to tap <span class=""menu"">Tools</span> first).
+</li><li>Then tap  <span class=""button"">Continue</span>. Firefox will restart in Guest Session mode.
+</li></ol>
+<h1 id=""w_end-a-guest-session"">End a Guest Session</h1>
+<ol><li>Tap the Firefox menu button (either <a href=""/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"">at the bottom right on some devices</a> or in the upper right of the browser)
+.
+</li><li>Tap <span class=""menu"">Exit Guest Session</span>.
+</li><li>Tap <span class=""button"">Continue</span> to delete all the browsing data from the Guest Session and return Firefox to normal with all of your personal data available.
+</li></ol>
+<h1 id=""w_how-can-i-tell-if-i-am-in-a-guest-session"">How can I tell if I am in a Guest Session?</h1>
+<p>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button. If you can see <span class=""menu"">Exit Guest Session</span> you are in Guest Session mode.
+</p>",firefox-android-esr,privacy-and-security," **This feature has been removed.** The Guest Session has been removed to streamline your experience. Please use [Private Browsing on Firefox for Android](\""https://support.mozilla.org/en-US/kb/private-browsing-firefox-android"") to keep your sessions separate or your device's guest mode feature (see the support articles for your device).
+
+A Guest Session lets someone else use Firefox on your Android device without giving them access to your personal information like passwords, bookmarks and history.
+
+## Table of Contents
+
+- [1 Start a Guest Session](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_start-a-guest-session)
+- [2 End a Guest Session](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_end-a-guest-session)
+- [3 How can I tell if I am in a Guest Session?](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_how-can-i-tell-if-i-am-in-a-guest-session)
+
+# Start a Guest Session
+
+1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button.
+2. Tap New Guest Session (you may need to tap Tools first).
+3. Then tap Continue. Firefox will restart in Guest Session mode.
+
+# End a Guest Session
+
+1. Tap the Firefox menu button (either [at the bottom right on some devices](\""https://support.mozilla.org/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"") or in the upper right of the browser) .
+2. Tap Exit Guest Session.
+3. Tap Continue to delete all the browsing data from the Guest Session and return Firefox to normal with all of your personal data available.
+
+# How can I tell if I am in a Guest Session?
+
+Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button. If you can see Exit Guest Session you are in Guest Session mode.
+
+"
 15789,Add images and screenshots to Knowledge Base articles,how-place-images-article,https://support.mozilla.org/en-US/kb/how-place-images-article,en-US,Elevate your Knowledge Base contributions with the power of visuals. Learn how to effectively integrate images into your articles.,"<p>Boost your Knowledge Base articles with visuals. Adding screenshots clarifies complex concepts and simplifies instructions, offering users a straightforward view of interface elements. This guide shows you how to incorporate images cleanly and effectively, enhancing content clarity and reader engagement.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-screenshots-on-a-computer-or-mobile-device""><span class=""tocnumber"">1</span> <span class=""toctext"">Create screenshots on a computer or mobile device</span></a></li><li class=""toclevel-1""><a href=""#w_add-screenshots-and-other-images-to-knowledge-base-articles""><span class=""tocnumber"">2</span> <span class=""toctext"">Add screenshots and other images to Knowledge Base articles</span></a><ul><li class=""toclevel-2""><a href=""#w_upload-an-image-to-the-media-gallery""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Upload an image to the Media Gallery</span></a></li><li class=""toclevel-2""><a href=""#w_upload-an-image-directly-from-the-article-editor""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Upload an image directly from the article editor</span></a></li><li class=""toclevel-2""><a href=""#w_add-an-image-to-an-article""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Add an image to an article</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_effective-use-of-inline-images""><span class=""tocnumber"">3</span> <span class=""toctext"">Effective use of inline images</span></a></li><li class=""toclevel-1""><a href=""#w_effective-use-of-images-for-step-by-step-instructions""><span class=""tocnumber"">4</span> <span class=""toctext"">Effective use of images for step-by-step instructions</span></a></li><li class=""toclevel-1""><a href=""#w_examples""><span class=""tocnumber"">5</span> <span class=""toctext"">Examples</span></a><ul><li class=""toclevel-2""><a href=""#w_markup-for-an-inline-image""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Markup for an inline image</span></a></li><li class=""toclevel-2""><a href=""#w_inline-image-example""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Inline image example</span></a></li><li class=""toclevel-2""><a href=""#w_markup-for-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Markup for an image in a set of steps</span></a></li><li class=""toclevel-2""><a href=""#w_example-of-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Example of an image in a set of steps</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_knowledge-base-guidelines""><span class=""tocnumber"">6</span> <span class=""toctext"">Knowledge Base guidelines</span></a></li></ul></div>
@@ -40904,539 +41022,6 @@ If you have created a new email account that uses IMAP, you cannot delete your o
 - If you want to do the opposite of this action, see: [FAQ Changing IMAP to POP](\""https://support.mozilla.org/en-US/kb/faq-changing-imap-pop"")
 
 &nbsp;
-
-"
-17208,Instant Messaging and Chat,instant-messaging-and-chat,https://support.mozilla.org/en-US/kb/instant-messaging-and-chat,en-US,"As of Thunderbird 52.x, Thunderbird supports instant messaging and chat using IRC, XMPP, Twitter, and Google Talk","<p>Thunderbird supports instant messaging and chat using IRC, XMPP, and Google Talk.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_configuring-chat""><span class=""tocnumber"">1</span> <span class=""toctext"">Configuring Chat</span></a><ul><li class=""toclevel-2""><a href=""#w_start-the-new-account-wizard""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Start the New Account Wizard</span></a></li><li class=""toclevel-2""><a href=""#w_enter-username""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Enter Username</span></a></li><li class=""toclevel-2""><a href=""#w_enter-password""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Enter Password</span></a></li><li class=""toclevel-2""><a href=""#w_advanced-options""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Advanced Options</span></a></li><li class=""toclevel-2""><a href=""#w_finish-the-wizard""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Finish the Wizard</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-chat""><span class=""tocnumber"">2</span> <span class=""toctext"">Using Chat</span></a><ul><li class=""toclevel-2""><a href=""#w_connect-to-your-chat-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Connect to your Chat Account</span></a></li><li class=""toclevel-2""><a href=""#w_use-the-chat-tab-to-start-and-join-conversations""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Use the Chat Tab to start and join conversations</span></a></li><li class=""toclevel-2""><a href=""#w_chat-is-included-in-search""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Chat is included in Search</span></a></li></ul></li></ul></div>
-<h1 id=""w_configuring-chat"">Configuring Chat</h1>
-<p>To use Chat, you must first create a new account (or configure an existing account) with an online instant messaging or chat provider. Thunderbird currently works with IRC, XMPP, <del>Twitter</del>, and Google Talk. 
-</p><p>In this example we will show IRC, Google Talk and XMPP.  Note, Twitter is no longer supported.
-</p>
-<h2 id=""w_start-the-new-account-wizard"">Start the New Account Wizard</h2>
-<p>At the top of the Thunderbird window, click on the <span class=""menu"">File</span> menu, then click <span class=""menu"">New</span> and then click <span class=""menu"">Chat Account…</span>:
-</p><p><img alt=""ChatSelectionDialog"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-07-10-01-11-07-b5b15a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<h2 id=""w_enter-username"">Enter Username</h2>
-<p>For IRC, you will have to enter your IRC server name, e.g. irc.mozilla.org for Mozilla's IRC server.
-</p><p>For XMPP, you will also have to enter your XMPP server name. 
-</p><p><img alt=""irc-enter-username"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-13-21-49febf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_enter-password"">Enter Password</h2>
-<p>Enter the password for the service.
-</p><p><img alt=""irc-password"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-15-51-f983e7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div class=""note"">A password is optional for an IRC account and is only required if you have reserved your nickname on the IRC network.</div>
-<h2 id=""w_advanced-options"">Advanced Options</h2>
-<p>This is not usually needed, so just click <span class=""for"" data-for=""win,linux""><span class=""button"">Next</span></span><span class=""for"" data-for=""mac""><span class=""button"">Continue</span></span>.
-</p><p><img alt=""irc-skip-advanced-options"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-18-35-7f205c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_finish-the-wizard"">Finish the Wizard</h2>
-<p>Next, you will be presented with a Summary screen. Click <span class=""button"">Finish</span> to finish the wizard and start chatting.
-</p><p><img alt=""irc-summary"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-21-46-7117a7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_using-chat"">Using Chat</h1>
-<h2 id=""w_connect-to-your-chat-account"">Connect to your Chat Account</h2>
-<p>First make sure that you are online by going to your Chat Status and connecting:
-</p>
-<ul><li> click on the <span class=""menu"">Tools</span> menu and then click on <span class=""menu"">Chat status</span> and then <span class=""menu"">Show Accounts…</span>
-</li><li> click on the <span class=""button"">Connect</span> button next to the account you want to go online with
-</li></ul>
-<p><img alt=""irc-click-connect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-32-57-65e398.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_use-the-chat-tab-to-start-and-join-conversations"">Use the Chat Tab to start and join conversations</h2>
-<p>Click on the Chat Tab next to the Write Tab to start and join conversations.
-</p><p><img alt=""irc-chat-tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-38-47-df9c44.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_chat-is-included-in-search"">Chat is included in Search</h2>
-<p>Like any other type of Thunderbird account (e.g. email and RSS), Chat is integrated with search.
-</p><p>Here's an example of email, and Chat conversations being found by Thunderbird's <a href=""/en-US/kb/global-search"">global search</a>:
-</p><p><img alt=""irc-search"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-24-22-43-08-a3663b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>",thunderbird,settings,"Thunderbird supports instant messaging and chat using IRC, XMPP, and Google Talk.
-
-## Table of Contents
-
-- [1 Configuring Chat](https://support.mozilla.org/kb/instant-messaging-and-chat#w_configuring-chat)
-  - [1.1 Start the New Account Wizard](https://support.mozilla.org/kb/instant-messaging-and-chat#w_start-the-new-account-wizard)
-  - [1.2 Enter Username](https://support.mozilla.org/kb/instant-messaging-and-chat#w_enter-username)
-  - [1.3 Enter Password](https://support.mozilla.org/kb/instant-messaging-and-chat#w_enter-password)
-  - [1.4 Advanced Options](https://support.mozilla.org/kb/instant-messaging-and-chat#w_advanced-options)
-  - [1.5 Finish the Wizard](https://support.mozilla.org/kb/instant-messaging-and-chat#w_finish-the-wizard)
-
-- [2 Using Chat](https://support.mozilla.org/kb/instant-messaging-and-chat#w_using-chat)
-  - [2.1 Connect to your Chat Account](https://support.mozilla.org/kb/instant-messaging-and-chat#w_connect-to-your-chat-account)
-  - [2.2 Use the Chat Tab to start and join conversations](https://support.mozilla.org/kb/instant-messaging-and-chat#w_use-the-chat-tab-to-start-and-join-conversations)
-  - [2.3 Chat is included in Search](https://support.mozilla.org/kb/instant-messaging-and-chat#w_chat-is-included-in-search)
-
-# Configuring Chat
-
-To use Chat, you must first create a new account (or configure an existing account) with an online instant messaging or chat provider. Thunderbird currently works with IRC, XMPP, Twitter, and Google Talk.
-
-In this example we will show IRC, Google Talk and XMPP. Note, Twitter is no longer supported.
-
-## Start the New Account Wizard
-
-At the top of the Thunderbird window, click on the File menu, then click New and then click Chat Account…:
-
-![ChatSelectionDialog](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Enter Username
-
-For IRC, you will have to enter your IRC server name, e.g. irc.mozilla.org for Mozilla's IRC server.
-
-For XMPP, you will also have to enter your XMPP server name.
-
-![irc-enter-username](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Enter Password
-
-Enter the password for the service.
-
-![irc-password](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-A password is optional for an IRC account and is only required if you have reserved your nickname on the IRC network.
-
-## Advanced Options
-
-This is not usually needed, so just click NextContinue.
-
-![irc-skip-advanced-options](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Finish the Wizard
-
-Next, you will be presented with a Summary screen. Click Finish to finish the wizard and start chatting.
-
-![irc-summary](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Using Chat
-
-## Connect to your Chat Account
-
-First make sure that you are online by going to your Chat Status and connecting:
-
-- click on the Tools menu and then click on Chat status and then Show Accounts…
-- click on the Connect button next to the account you want to go online with
-
-![irc-click-connect](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Use the Chat Tab to start and join conversations
-
-Click on the Chat Tab next to the Write Tab to start and join conversations.
-
-![irc-chat-tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Chat is included in Search
-
-Like any other type of Thunderbird account (e.g. email and RSS), Chat is integrated with search.
-
-Here's an example of email, and Chat conversations being found by Thunderbird's [global search](\""https://support.mozilla.org/en-US/kb/global-search""):
-
-![irc-search](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-"
-17209,Addressing an Email,addressing-email,https://support.mozilla.org/en-US/kb/addressing-email,en-US,"How to add recipients to an email message in Thunderbird, and tips for handling many recipients efficiently.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_changes-to-the-addressing-area-in-thunderbird-78""><span class=""tocnumber"">1</span> <span class=""toctext"">Changes to the addressing area in Thunderbird 78</span></a></li><li class=""toclevel-1""><a href=""#w_adding-recipients-to-your-email-message""><span class=""tocnumber"">2</span> <span class=""toctext"">Adding recipients to your email message</span></a><ul><li class=""toclevel-2""><a href=""#w_adding-new-recipients""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Adding new recipients</span></a></li><li class=""toclevel-2""><a href=""#w_adding-recipients-from-your-address-book""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Adding recipients from your address book</span></a></li><li class=""toclevel-2""><a href=""#w_how-to-edit-or-remove-recipient-items""><span class=""tocnumber"">2.3</span> <span class=""toctext"">How to edit or remove recipient items</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_address-fields-to-cc-bcc""><span class=""tocnumber"">3</span> <span class=""toctext"">Address Fields: To, Cc, Bcc</span></a><ul><li class=""toclevel-2""><a href=""#w_selecting-several-or-all-recipient-items""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Selecting several or all recipient items</span></a></li><li class=""toclevel-2""><a href=""#w_changing-recipient-type-how-to-move-recipients-to-another-address-field""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Changing recipient type: How to move recipients to another address field</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_selecting-and-adding-recipients-from-contacts-side-bar""><span class=""tocnumber"">4</span> <span class=""toctext"">Selecting and adding recipients from Contacts Side bar</span></a><ul><li class=""toclevel-2""><a href=""#w_selecting-several-contacts-from-your-address-book""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Selecting several contacts from your address book</span></a></li><li class=""toclevel-2""><a href=""#w_adding-contacts-from-contacts-sidebar-to-an-address-field""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Adding contacts from contacts sidebar to an address field</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_starting-a-new-message-from-your-address-book""><span class=""tocnumber"">5</span> <span class=""toctext"">Starting a new message from your Address Book</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See Also</span></a></li></ul></div>
-<p>Addressing an email message with Thunderbird is easy. The addressing area has been designed from the ground up for a convenient and powerful user experience.
-</p><p><img alt=""TB78-Compose-Addressing-To"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-58-10-7af45b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div class=""note"">
-<h2 id=""w_changes-to-the-addressing-area-in-thunderbird-78"">Changes to the addressing area in Thunderbird 78</h2>
-<p>Please note: The addressing area has been redesigned for Thunderbird 78, and this article has been fully rewritten to describe the new design and behaviour.
-</p>
-<ul><li> In Thunderbird 78, recipients of the same type (e.g. To, Cc, or Bcc) are grouped into a single row which will accept more than one email address. Handling message recipients is now easier and much more efficient than before. For example, you can now select several recipients and apply the same action to all of them at the same time (copy, cut, remove, drag etc.).
-</li><li> By comparison, in Thunderbird 68, it was one recipient per address row, each with its own type selector. Recipients of different types could be wildly mixed, and acting on several recipients at the same time was not possible.
-</li><li> You can find a short summary of differences and similarities between the old and new addressing area in the <a href=""https://support.mozilla.org/en-US/kb/new-thunderbird-78#w_new-addressing-area"">New Addressing Area</a> section of the article <a href=""/en-US/kb/new-thunderbird-78"">New in Thunderbird 78.0</a>. However, the full details of the new design are described below.
-</li></ul>
-</div>
-<h2 id=""w_adding-recipients-to-your-email-message"">Adding recipients to your email message</h2>
-<p>Whenever you click Write, Forward or Reply, Thunderbird opens a new Write window, also known as compose window. It will open up with focus on the To: address field, ready for your input. A recipient consists of an email address and an optional display name which you can choose freely – but remember that your recipient will also see the display name! Typical email recipients look like this:
-</p>
-<dl><dt> <a href=""mailto:service@example.com"">service@example.com</a><br>
-</dt><dt> Jane Doe &lt;<a href=""mailto:jane.doe@example.com"">jane.doe@example.com</a>&gt;
-</dt></dl>
-<p>Thunderbird will show each recipient as a recipient item, sometimes jokingly called recipient “pill” by Thunderbird contributors because they first arrived with rounded corners (the recipient items, not the contributors… ;-)).
-</p><p><br>
-</p>
-<h3 id=""w_adding-new-recipients"">Adding <em>new</em> recipients</h3>
-<p>There are several ways of adding one or more new recipients to your message:
-</p>
-<ul><li> Type a recipient directly into the address field, then press <span class=""key"">Enter</span>. In the same line, just type another one and press <span class=""key"">Enter</span> again.<br>Note: Do not enter any comma or semi-colon between recipient items, as Thunderbird will handle the technicalities for you.
-</li><li> Copy and paste comma-separated recipients into the address field, then press <span class=""key"">Enter</span>. 
-</li><li> Drag and drop recipients into a shown address field.
-</li></ul>
-<h3 id=""w_adding-recipients-from-your-address-book"">Adding recipients <em>from your address book</em></h3>
-<p>Thunderbird offers very efficient possibilities of adding recipients which are already in your address book:
-</p>
-<ul><li> Type search words in the address field of your choice, and recipient autocomplete will assist you.
-</li></ul>
-<div class=""note"">
-<dl><dt><strong>Autocomplete search</strong> is very powerful:
-</dt></dl>
-<dl><dt><ul><li> Order of search words doesn’t matter: “Doe John” finds “John Doe”.
-</li><li> Partial search words work: “Ann” finds “Marianne”, “Mary-Ann” etc.
-</li><li> You can even combine search words from different contact properties like name and email: “John example” finds “John Doe &lt;<a href=""mailto:manager@example.com"">manager@example.com</a>&gt;”.
-</li><li> Comma is ignored, so “Doe, John” finds “John Richard Doe”.
-</li><li> Try defining and searching unique nicknames for your contacts, too.
-</li></ul>
-</dt></dl>
-</div>
-<ul><li> <a href=""#w_selecting-and-adding-recipients-from-contacts-side-bar"">Add recipients from contacts sidebar</a>: A miniature address book right there in your write window! Powerful especially for adding several recipients.
-</li><li> You can also <a href=""#w_starting-a-new-message-from-your-address-book"">start writing a message from contacts in your address book</a>.
-</li></ul>
-<div class=""note"">
-<h3 id=""w_how-to-edit-or-remove-recipient-items"">How to edit or remove recipient items</h3>
-<ul><li> To edit a recipient item, select it with mouse or cursor navigation keys, then press Enter. When you’re done editing, just press Enter again. More information about <a href=""#w_changing-recipient-type-how-to-move-recipients-to-another-address-field"">changing the type of a recipient item (To, Cc, and Bcc)</a>  below.
-</li></ul>
-<p><img alt=""TB78-Compose-Addressing-EditPill"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-37-37-f35c74.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<ul><li> To remove a recipient item, select it and press <span class=""for"" data-for=""win,linux""><span class=""key"">Del</span> or <span class=""key"">Backspace</span></span><span class=""for"" data-for=""mac""><span class=""key"">Delete</span></span>. In the same way, you can also <a href=""#w_selecting-several-or-all-recipient-items"">select several recipient items</a> and delete them in a single step. <span class=""menu"">Delete</span> is also available from the context menu after right-clicking on a recipient item <span class=""for"" data-for=""win"">or pressing the context menu key</span>.
-</li></ul>
-</div>
-<h2 id=""w_address-fields-to-cc-bcc"">Address Fields: To, Cc, Bcc</h2>
-<p>For efficient communication and privacy, Thunderbird offers different address fields to group your recipients by type:
-</p>
-<table>
-<tbody><tr>
-<td><strong>To:</strong></td><td>The main recipients of your message (visible for all recipients).<br>
-</td></tr>
-<tr>
-<td><strong>Cc (Carbon copy):</strong></td><td>Other recipients (visible for all recipients).<br>
-</td></tr>
-<tr>
-<td><strong>Bcc (Blind carbon copy):</strong></td><td>Hidden recipients (not visible for all other recipients).<br>
-</td></tr>
-<tr>
-<td><strong>Reply-To:</strong></td><td>You can specify one or more of your own email addresses where you want to receive replies to your message when the recipient uses the “Reply” function of his email system.
-</td></tr></tbody></table>
-<p>To show the Cc: or Bcc: address fields, use the <span class=""button"">Cc</span> and <span class=""button"">Bcc</span> buttons on top of the To: address field; for Reply-To and other message headers, use the <span class=""button"">&gt;&gt;</span> disclosure button which says {tooltip Other types of addressing fields}.
-</p><p><img alt=""TB78-Compose-Addressing-MoreAddressingFields"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-15-32-080bd0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>It is recommended to use the Bcc: address field if you are writing to groups of people who are not related or very close friends. Any Bcc: recipient will receive the message, but all other recipients, even other Bcc: recipients, won’t know about that from looking at the message. If your message has only Bcc: recipients, the message will show as addressed to ""undisclosed recipients;"" or similar wording by the receiving email program. This will protect the privacy of your recipients, and prevent spam when lots of private email addresses might be made public by computers infected with computer viruses.
-</p>
-<div class=""note"">
-<h3 id=""w_selecting-several-or-all-recipient-items"">Selecting several or all recipient items</h3>
-<p>The new addressing area makes it easier than ever before to act on several recipient items at the same time. Just select and go! Clumsy was yesterday! Enjoy the new convenience of copying, cutting, pasting, moving, or deleting several recipient items in a single step. Depending on scenario, applying actions to lots of recipients is now up to 99% more efficient than before.
-</p>
-<ul><li> <em>To select several recipient items even when they are <u>not</u> next to each other:</em> Hold down the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> key while clicking on each recipient. Using keyboard, hold down <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> while navigating with <span class=""key"">→</span>, <span class=""key"">←</span>, <span class=""key"">Home</span> or <span class=""key"">End</span>, and select recipient items with <span class=""key"">Space</span>. You can even select recipient items from different address fields this way!
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-Addressing-CtrlSelectPills"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-36-54-8984da.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> <em>To select several recipient items which are next to each other:</em> Hold down <span class=""key"">Shift</span> while navigating with <span class=""key"">←</span> or <span class=""key"">→</span> to select the next items. This also works in combination with holding down <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> to add to an existing distributed selection.
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-Addressing-ShiftSelectPills"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-57-15-f3e76b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> <em>To select </em>all<em> recipient items of the focused address field:</em> Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">A</span>. To select all recipient items of <em>all</em> address fields, just press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">A</span> again!
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-Addressing-SelectAllPills-AllFields"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-56-03-613757.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</div>
-<h3 id=""w_changing-recipient-type-how-to-move-recipients-to-another-address-field"">Changing recipient type: How to move recipients to another address field</h3>
-<p>You can now change the type of your recipients between To, Cc, and Bcc in a snap, even for several recipients at the same time. First, <a href=""#w_selecting-several-or-all-recipient-items"">select the recipient items</a> which you want to move to another address field. Now there are several ways of moving the selected recipient items to another address field:
-</p>
-<ul><li> Right-click on a selected recipient item<span class=""for"" data-for=""win""> (or press the context menu key)</span>, then choose <span class=""menu"">Add to Cc</span>, <span class=""menu"">Add to Bcc</span>, or <span class=""menu"">Add to To</span> from the context menu. The target address field will be automatically shown if it is still hidden, saving you an extra step.
-</li><li> Alternatively, press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">X</span> to cut the selected recipient items, focus the target address field, and paste them with <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">V</span>.
-</li><li> Drag and drop selected recipient items between shown address fields, or onto the recipient field button of a hidden field (<span class=""button"">Cc</span>, <span class=""button"">Bcc</span>), which will automatically be shown with the recipients added.
-</li></ul>
-<h2 id=""w_selecting-and-adding-recipients-from-contacts-side-bar"">Selecting and adding recipients from Contacts Side bar</h2>
-<p>The Write window offers a miniature address book pane called “Contacts Sidebar”. This is convenient and powerful especially for adding several recipients based on your search words. Select a specific address book to display only the contacts contained therein. You can show or hide this pane with the shortcut key <span class=""key"">F9</span> or using the menu: <span class=""menu"">View &gt; Toolbars &gt; Contacts Sidebar</span>.
-</p><p><img alt=""TB78-Compose-ContactsSideBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-59-17-3c5152.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""285"">
-</p><p>To add a single contact to the To: address field, simply double-click on it. There are several ways of selecting several contacts in contacts sidebar in order to add them as recipients. 
-</p>
-<div class=""note"">
-<h3 id=""w_selecting-several-contacts-from-your-address-book"">Selecting several contacts from your address book</h3>
-<ul><li> <em>To select several contacts which are <u>not</u> next to each other:</em> Hold down the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> key while you click on each contact (or press spacebar on keyboard). Clicking or pressing spacebar on an already selected contact will deselect it.
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-ContactsSideBar-CtrlSelect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-02-01-9fa88c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> <em>To select several contacts which are next to each other:</em> Click on the first contact you want to select, then hold down <span class=""key"">Shift</span> key while clicking on the last contact, which will also select all contacts in between. Alternatively, using keyboard, hold down the <span class=""key"">Shift</span> key while using navigation keys like <span class=""key"">↓</span>, <span class=""key"">↑</span>, <span class=""key"">End</span>, <span class=""key"">Home</span>, <span class=""key"">Page Up</span> or <span class=""key"">Page Down</span> to extend your selection.
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-ContactsSideBar-ShiftSelect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-08-03-f0a4ad.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> <em>For advanced high efficiency selections, you can actually combine the two methods:</em> Keep holding down <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> and add <span class=""key"">Shift</span> when appropriate to add a coherent group of contacts to your existing distributed selection.
-</li></ul>
-</div>
-<h3 id=""w_adding-contacts-from-contacts-sidebar-to-an-address-field"">Adding contacts from contacts sidebar to an address field</h3>
-<p>Here’s how you can add one or more selected contacts to the desired address field:
-</p>
-<ul><li> Use the <span class=""button"">Add to To:</span>, <span class=""button"">Add to Cc:</span>, <span class=""button"">Add to Bcc:</span> buttons at the bottom of the pane.
-</li><li> Alternatively, right-click on one of the selected contacts and add them using the respective action from context menu.
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-ContactsSideBar-Context"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-01-08-ba0d90.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> You can also drag and drop one or more selected contacts from the sidebar into any of the address fields, or onto the <span class=""button"">CC</span> or <span class=""button"">Bcc</span> disclosure buttons.
-</li></ul>
-<dl><dt><img alt=""TB78-Compose-ContactsSideBar-DragAndDrop-CcBccButtons"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-02-56-7bfc4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h2 id=""w_starting-a-new-message-from-your-address-book"">Starting a new message from your Address Book</h2>
-<p>It is also possible to start writing a new message directly from the Address Book window. This might be handy for the simple scenario where you only want to use the To: address field. 
-The address book has the same search and <a href=""#w_selecting-several-contacts-from-your-address-book"">selection</a>  features like contacts sidebar. So you can select several contacts by holding down the <span class=""key"">Ctrl</span> key and/or the <span class=""key"">Shift</span> key. Then just click the <span class=""button"">Write</span> button on the Address Book Toolbar or right-click on the selection and choose <span class=""menu"">Write</span> from context menu.
-</p><p><img alt=""TB78-Compose-AddressbookWrite-Context"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-14-14-09-12-c77943.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_see-also"">See Also</h2>
-<ul><li> <a href=""/en-US/kb/sending-and-receiving-messages-thunderbird"">Send and receive messages in Thunderbird</a>
-</li><li> <a href=""/en-US/kb/how-create-and-use-mailing-lists-thunderbird"">How to create and use mailing lists on Thunderbird</a>
-</li></ul>",thunderbird,send-and-receive-email,"## Table of Contents
-
-- [1 Changes to the addressing area in Thunderbird 78](https://support.mozilla.org/kb/addressing-email#w_changes-to-the-addressing-area-in-thunderbird-78)
-- [2 Adding recipients to your email message](https://support.mozilla.org/kb/addressing-email#w_adding-recipients-to-your-email-message)
-  - [2.1 Adding new recipients](https://support.mozilla.org/kb/addressing-email#w_adding-new-recipients)
-  - [2.2 Adding recipients from your address book](https://support.mozilla.org/kb/addressing-email#w_adding-recipients-from-your-address-book)
-  - [2.3 How to edit or remove recipient items](https://support.mozilla.org/kb/addressing-email#w_how-to-edit-or-remove-recipient-items)
-
-- [3 Address Fields: To, Cc, Bcc](https://support.mozilla.org/kb/addressing-email#w_address-fields-to-cc-bcc)
-  - [3.1 Selecting several or all recipient items](https://support.mozilla.org/kb/addressing-email#w_selecting-several-or-all-recipient-items)
-  - [3.2 Changing recipient type: How to move recipients to another address field](https://support.mozilla.org/kb/addressing-email#w_changing-recipient-type-how-to-move-recipients-to-another-address-field)
-
-- [4 Selecting and adding recipients from Contacts Side bar](https://support.mozilla.org/kb/addressing-email#w_selecting-and-adding-recipients-from-contacts-side-bar)
-  - [4.1 Selecting several contacts from your address book](https://support.mozilla.org/kb/addressing-email#w_selecting-several-contacts-from-your-address-book)
-  - [4.2 Adding contacts from contacts sidebar to an address field](https://support.mozilla.org/kb/addressing-email#w_adding-contacts-from-contacts-sidebar-to-an-address-field)
-
-- [5 Starting a new message from your Address Book](https://support.mozilla.org/kb/addressing-email#w_starting-a-new-message-from-your-address-book)
-- [6 See Also](https://support.mozilla.org/kb/addressing-email#w_see-also)
-
-Addressing an email message with Thunderbird is easy. The addressing area has been designed from the ground up for a convenient and powerful user experience.
-
-![TB78-Compose-Addressing-To](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Changes to the addressing area in Thunderbird 78
-
-Please note: The addressing area has been redesigned for Thunderbird 78, and this article has been fully rewritten to describe the new design and behaviour.
-
-- In Thunderbird 78, recipients of the same type (e.g. To, Cc, or Bcc) are grouped into a single row which will accept more than one email address. Handling message recipients is now easier and much more efficient than before. For example, you can now select several recipients and apply the same action to all of them at the same time (copy, cut, remove, drag etc.).
-- By comparison, in Thunderbird 68, it was one recipient per address row, each with its own type selector. Recipients of different types could be wildly mixed, and acting on several recipients at the same time was not possible.
-- You can find a short summary of differences and similarities between the old and new addressing area in the [New Addressing Area](https://support.mozilla.org/en-US/kb/new-thunderbird-78#w_new-addressing-area) section of the article [New in Thunderbird 78.0](\""https://support.mozilla.org/en-US/kb/new-thunderbird-78""). However, the full details of the new design are described below.
-
-## Adding recipients to your email message
-
-Whenever you click Write, Forward or Reply, Thunderbird opens a new Write window, also known as compose window. It will open up with focus on the To: address field, ready for your input. A recipient consists of an email address and an optional display name which you can choose freely – but remember that your recipient will also see the display name! Typical email recipients look like this:
-
-<dl>
-<dt> <a href=""mailto:service@example.com"">service@example.com</a><br>
-</dt>
-<dt> Jane Doe &lt;<a href=""mailto:jane.doe@example.com"">jane.doe@example.com</a>&gt;
-</dt>
-</dl>
-
-Thunderbird will show each recipient as a recipient item, sometimes jokingly called recipient “pill” by Thunderbird contributors because they first arrived with rounded corners (the recipient items, not the contributors…&nbsp;;-)).
-
-### Adding _new_ recipients
-
-There are several ways of adding one or more new recipients to your message:
-
-- Type a recipient directly into the address field, then press Enter. In the same line, just type another one and press Enter again.  
-Note: Do not enter any comma or semi-colon between recipient items, as Thunderbird will handle the technicalities for you.
-- Copy and paste comma-separated recipients into the address field, then press Enter. 
-- Drag and drop recipients into a shown address field.
-
-### Adding recipients _from your address book_
-
-Thunderbird offers very efficient possibilities of adding recipients which are already in your address book:
-
-- Type search words in the address field of your choice, and recipient autocomplete will assist you.
-
-<dl><dt>
-<strong>Autocomplete search</strong> is very powerful:
-</dt></dl><dl><dt>
-<ul>
-<li> Order of search words doesn’t matter: “Doe John” finds “John Doe”.
-</li>
-<li> Partial search words work: “Ann” finds “Marianne”, “Mary-Ann” etc.
-</li>
-<li> You can even combine search words from different contact properties like name and email: “John example” finds “John Doe &lt;<a href=""mailto:manager@example.com"">manager@example.com</a>&gt;”.
-</li>
-<li> Comma is ignored, so “Doe, John” finds “John Richard Doe”.
-</li>
-<li> Try defining and searching unique nicknames for your contacts, too.
-</li>
-</ul>
-</dt></dl>
-
-- [Add recipients from contacts sidebar](https://support.mozilla.org/kb/addressing-email#w_selecting-and-adding-recipients-from-contacts-side-bar): A miniature address book right there in your write window! Powerful especially for adding several recipients.
-- You can also [start writing a message from contacts in your address book](https://support.mozilla.org/kb/addressing-email#w_starting-a-new-message-from-your-address-book).
-
-### How to edit or remove recipient items
-
-- To edit a recipient item, select it with mouse or cursor navigation keys, then press Enter. When you’re done editing, just press Enter again. More information about [changing the type of a recipient item (To, Cc, and Bcc)](https://support.mozilla.org/kb/addressing-email#w_changing-recipient-type-how-to-move-recipients-to-another-address-field) below.
-
-![TB78-Compose-Addressing-EditPill](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- To remove a recipient item, select it and press Del or BackspaceDelete. In the same way, you can also [select several recipient items](https://support.mozilla.org/kb/addressing-email#w_selecting-several-or-all-recipient-items) and delete them in a single step. Delete is also available from the context menu after right-clicking on a recipient item or pressing the context menu key.
-
-## Address Fields: To, Cc, Bcc
-
-For efficient communication and privacy, Thunderbird offers different address fields to group your recipients by type:
-
-| **To:** | The main recipients of your message (visible for all recipients).  
- |
-| **Cc&nbsp;(Carbon&nbsp;copy):** | Other recipients (visible for all recipients).  
- |
-| **Bcc&nbsp;(Blind&nbsp;carbon&nbsp;copy):** | Hidden recipients (not visible for all other recipients).  
- |
-| **Reply-To:** | You can specify one or more of your own email addresses where you want to receive replies to your message when the recipient uses the “Reply” function of his email system. |
-
-To show the Cc: or Bcc: address fields, use the Cc and Bcc buttons on top of the To: address field; for Reply-To and other message headers, use the \>\> disclosure button which says {tooltip Other types of addressing fields}.
-
-![TB78-Compose-Addressing-MoreAddressingFields](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-It is recommended to use the Bcc: address field if you are writing to groups of people who are not related or very close friends. Any Bcc: recipient will receive the message, but all other recipients, even other Bcc: recipients, won’t know about that from looking at the message. If your message has only Bcc: recipients, the message will show as addressed to ""undisclosed recipients;"" or similar wording by the receiving email program. This will protect the privacy of your recipients, and prevent spam when lots of private email addresses might be made public by computers infected with computer viruses.
-
-### Selecting several or all recipient items
-
-The new addressing area makes it easier than ever before to act on several recipient items at the same time. Just select and go! Clumsy was yesterday! Enjoy the new convenience of copying, cutting, pasting, moving, or deleting several recipient items in a single step. Depending on scenario, applying actions to lots of recipients is now up to 99% more efficient than before.
-
-- _To select several recipient items even when they are <u>not</u> next to each other:_ Hold down the CtrlCommand key while clicking on each recipient. Using keyboard, hold down CtrlCommand while navigating with →, ←, Home or End, and select recipient items with Space. You can even select recipient items from different address fields this way!
-
-<dl><dt>
-<img alt=""TB78-Compose-Addressing-CtrlSelectPills"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-36-54-8984da.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- _To select several recipient items which are next to each other:_ Hold down Shift while navigating with ← or → to select the next items. This also works in combination with holding down CtrlCommand to add to an existing distributed selection.
-
-<dl><dt>
-<img alt=""TB78-Compose-Addressing-ShiftSelectPills"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-57-15-f3e76b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- _To select_ all _recipient items of the focused address field:_ Press CtrlCommand+A. To select all recipient items of _all_ address fields, just press CtrlCommand+A again!
-
-<dl><dt>
-<img alt=""TB78-Compose-Addressing-SelectAllPills-AllFields"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-15-56-03-613757.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-### Changing recipient type: How to move recipients to another address field
-
-You can now change the type of your recipients between To, Cc, and Bcc in a snap, even for several recipients at the same time. First, [select the recipient items](https://support.mozilla.org/kb/addressing-email#w_selecting-several-or-all-recipient-items) which you want to move to another address field. Now there are several ways of moving the selected recipient items to another address field:
-
-- Right-click on a selected recipient item (or press the context menu key), then choose Add to Cc, Add to Bcc, or Add to To from the context menu. The target address field will be automatically shown if it is still hidden, saving you an extra step.
-- Alternatively, press CtrlCommand+X to cut the selected recipient items, focus the target address field, and paste them with CtrlCommand+V.
-- Drag and drop selected recipient items between shown address fields, or onto the recipient field button of a hidden field (Cc, Bcc), which will automatically be shown with the recipients added.
-
-## Selecting and adding recipients from Contacts Side bar
-
-The Write window offers a miniature address book pane called “Contacts Sidebar”. This is convenient and powerful especially for adding several recipients based on your search words. Select a specific address book to display only the contacts contained therein. You can show or hide this pane with the shortcut key F9 or using the menu: View \> Toolbars \> Contacts Sidebar.
-
-![TB78-Compose-ContactsSideBar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-To add a single contact to the To: address field, simply double-click on it. There are several ways of selecting several contacts in contacts sidebar in order to add them as recipients.
-
-### Selecting several contacts from your address book
-
-- _To select several contacts which are <u>not</u> next to each other:_ Hold down the CtrlCommand key while you click on each contact (or press spacebar on keyboard). Clicking or pressing spacebar on an already selected contact will deselect it.
-
-<dl><dt>
-<img alt=""TB78-Compose-ContactsSideBar-CtrlSelect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-02-01-9fa88c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- _To select several contacts which are next to each other:_ Click on the first contact you want to select, then hold down Shift key while clicking on the last contact, which will also select all contacts in between. Alternatively, using keyboard, hold down the Shift key while using navigation keys like ↓, ↑, End, Home, Page Up or Page Down to extend your selection.
-
-<dl><dt>
-<img alt=""TB78-Compose-ContactsSideBar-ShiftSelect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-08-03-f0a4ad.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- _For advanced high efficiency selections, you can actually combine the two methods:_ Keep holding down CtrlCommand and add Shift when appropriate to add a coherent group of contacts to your existing distributed selection.
-
-### Adding contacts from contacts sidebar to an address field
-
-Here’s how you can add one or more selected contacts to the desired address field:
-
-- Use the Add to To:, Add to Cc:, Add to Bcc: buttons at the bottom of the pane.
-- Alternatively, right-click on one of the selected contacts and add them using the respective action from context menu.
-
-<dl><dt>
-<img alt=""TB78-Compose-ContactsSideBar-Context"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-01-08-ba0d90.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- You can also drag and drop one or more selected contacts from the sidebar into any of the address fields, or onto the CC or Bcc disclosure buttons.
-
-<dl><dt>
-<img alt=""TB78-Compose-ContactsSideBar-DragAndDrop-CcBccButtons"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-16-16-02-56-7bfc4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-## Starting a new message from your Address Book
-
-It is also possible to start writing a new message directly from the Address Book window. This might be handy for the simple scenario where you only want to use the To: address field. The address book has the same search and [selection](https://support.mozilla.org/kb/addressing-email#w_selecting-several-contacts-from-your-address-book) features like contacts sidebar. So you can select several contacts by holding down the Ctrl key and/or the Shift key. Then just click the Write button on the Address Book Toolbar or right-click on the selection and choose Write from context menu.
-
-![TB78-Compose-AddressbookWrite-Context](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## See Also
-
-- [Send and receive messages in Thunderbird](\""https://support.mozilla.org/en-US/kb/sending-and-receiving-messages-thunderbird"")
-- [How to create and use mailing lists on Thunderbird](\""https://support.mozilla.org/en-US/kb/how-create-and-use-mailing-lists-thunderbird"")
-
-"
-17215,How to Customize Toolbars,how-customize-toolbars,https://support.mozilla.org/en-US/kb/how-customize-toolbars,en-US,This article explains how to customize the position and contents of Thunderbird toolbars.,"<div class=""note""> For Thunderbird 115 Supernova and newer, please refer to: <a href=""/en-US/kb/unified-toolbar"">Unified Toolbar</a>.</div>
-<p>Thunderbird's toolbars provide easy access to common features. This article explains how you can customize toolbars to make Thunderbird work the way you do.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-show-and-hide-the-different-toolbars""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I show and hide the different toolbars?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-customize-or-rearrange-toolbar-items""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I customize or rearrange toolbar items?</span></a></li><li class=""toclevel-1""><a href=""#w_toolbar-troubleshooting""><span class=""tocnumber"">3</span> <span class=""toctext"">Toolbar Troubleshooting</span></a></li></ul></div>
-<h1 id=""w_how-do-i-show-and-hide-the-different-toolbars"">How do I show and hide the different toolbars?</h1>
-<p>Most toolbars can be shown or hidden depending on your needs.
-To show or hide a toolbar, <span class=""for"" data-for=""win,linux"">right-click</span><span class=""for"" data-for=""mac"">control-click</span> on an empty section of the Tab Strip at the top and check or uncheck it in the pop-up menu.
-</p><div class=""for"" data-for=""win"">
-<ul><li><strong>Menu Bar:</strong> This toolbar at the top of the Thunderbird window contains the browser menus (<span class=""menu"">File</span>, <span class=""menu"">Edit</span>, <span class=""menu"">Help</span>, etc.). On Windows Vista and later versions, the Menu Bar is hidden by default, and its features are contained in the Thunderbird menu button, <span class=""menu"">≡</span>. If the Menu Bar is hidden, you can temporarily show it by pressing the <span class=""key"">Alt</span> key.
-</li></ul>
-</div><div class=""for"" data-for=""linux"">
-<ul><li><strong>Menu Bar:</strong> This toolbar at the top of the Thunderbird window contains the Thunderbird menus (<span class=""menu"">File</span>, <span class=""menu"">Edit</span>, <span class=""menu"">Help</span>, etc.). 
-</li></ul>
-</div><div class=""for"" data-for=""mac"">
-<ul><li><strong>Menu Bar:</strong> This toolbar at the top of the Thunderbird window contains the Thunderbird menus (<span class=""menu"">File</span>, <span class=""menu"">Edit</span>, <span class=""menu"">Help</span>, etc.) and you can't hide it on the Mac.
-</li></ul>
-</div>
-<ul><li><strong>Mail Toolbar</strong>: This toolbar (which is underneath the Menu Bar) contains mail related buttons and menus such as  <span class=""button"">Get Messages</span>, <span class=""button"">Write</span>, <span class=""button"">Chat</span>,  <span class=""button"">Tag</span>, <span class=""button"">Quick Filter</span>, etc.
-</li><li><strong>Tab Strip:</strong> This is where your tabs such as the tabs for your inbox and for Thunderbird Add-ons are displayed. You can't hide it.
-</li></ul>
-<p><img alt=""Thunderbird Toolbars - win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-11-20-10-43-19-d3036f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_how-do-i-customize-or-rearrange-toolbar-items"">How do I customize or rearrange toolbar items?</h1>
-<ol><li> <span class=""for"" data-for=""win,linux"">Right click</span><span class=""for"" data-for=""mac"">Control click</span> an empty section of the Tab Strip and select <span class=""menu"">Customize...</span>. <br><img alt=""Right Click Customize"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-11-20-10-53-08-4a1b83.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>The Customize Toolbar window opens. <br><img alt=""Thunderbird Customize Toolbar Window"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-11-20-10-55-08-b877e1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</li><li> Change the toolbar items as necessary. 
-<ul><li> To add an item, drag it from the Customize Toolbar window onto the toolbar where you want it to appear.
-</li><li> To remove an item, drag it to the Customize Toolbar window.
-</li><li> To rearrange an item, drag it to the spot where you want it.
-</li></ul>
-</li><li> When finished, click <span class=""button"">Done</span>.
-</li></ol>
-<p><strong>Try it out:</strong> Experiment with different arrangements. You can always restore the default toolbar settings by clicking <span class=""button"">Restore Default Set</span> in the Customize Toolbar window.
-</p>
-<h1 id=""w_toolbar-troubleshooting"">Toolbar Troubleshooting</h1>
-<p>See these toolbar troubleshooting articles:
-</p>
-<ul><li><a href=""/en-US/kb/display-thunderbird-menus-and-toolbar"">Display the Thunderbird menus and toolbar</a>
-</li></ul>",thunderbird,add-ons-extensions-and-themes;settings," For Thunderbird 115 Supernova and newer, please refer to: [Unified Toolbar](\""https://support.mozilla.org/en-US/kb/unified-toolbar"").
-
-Thunderbird's toolbars provide easy access to common features. This article explains how you can customize toolbars to make Thunderbird work the way you do.
-
-## Table of Contents
-
-- [1 How do I show and hide the different toolbars?](https://support.mozilla.org/kb/how-customize-toolbars#w_how-do-i-show-and-hide-the-different-toolbars)
-- [2 How do I customize or rearrange toolbar items?](https://support.mozilla.org/kb/how-customize-toolbars#w_how-do-i-customize-or-rearrange-toolbar-items)
-- [3 Toolbar Troubleshooting](https://support.mozilla.org/kb/how-customize-toolbars#w_toolbar-troubleshooting)
-
-# How do I show and hide the different toolbars?
-
-Most toolbars can be shown or hidden depending on your needs. To show or hide a toolbar, right-clickcontrol-click on an empty section of the Tab Strip at the top and check or uncheck it in the pop-up menu.
-
-- **Menu Bar:** This toolbar at the top of the Thunderbird window contains the browser menus (File, Edit, Help, etc.). On Windows Vista and later versions, the Menu Bar is hidden by default, and its features are contained in the Thunderbird menu button, ≡. If the Menu Bar is hidden, you can temporarily show it by pressing the Alt key.
-
-- **Menu Bar:** This toolbar at the top of the Thunderbird window contains the Thunderbird menus (File, Edit, Help, etc.). 
-
-- **Menu Bar:** This toolbar at the top of the Thunderbird window contains the Thunderbird menus (File, Edit, Help, etc.) and you can't hide it on the Mac.
-
-- **Mail Toolbar** : This toolbar (which is underneath the Menu Bar) contains mail related buttons and menus such as Get Messages, Write, Chat, Tag, Quick Filter, etc.
-- **Tab Strip:** This is where your tabs such as the tabs for your inbox and for Thunderbird Add-ons are displayed. You can't hide it.
-
-![Thunderbird Toolbars - win](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# How do I customize or rearrange toolbar items?
-
-1. Right clickControl click an empty section of the Tab Strip and select Customize....   
- ![Right Click Customize](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
-The Customize Toolbar window opens.   
- ![Thunderbird Customize Toolbar Window](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Change the toolbar items as necessary. 
-  - To add an item, drag it from the Customize Toolbar window onto the toolbar where you want it to appear.
-  - To remove an item, drag it to the Customize Toolbar window.
-  - To rearrange an item, drag it to the spot where you want it.
-
-3. When finished, click Done.
-
-**Try it out:** Experiment with different arrangements. You can always restore the default toolbar settings by clicking Restore Default Set in the Customize Toolbar window.
-
-# Toolbar Troubleshooting
-
-See these toolbar troubleshooting articles:
-
-- [Display the Thunderbird menus and toolbar](\""https://support.mozilla.org/en-US/kb/display-thunderbird-menus-and-toolbar"")
 
 "
 17217,Display the Thunderbird menus and toolbar,display-thunderbird-menus-and-toolbar,https://support.mozilla.org/en-US/kb/display-thunderbird-menus-and-toolbar,en-US,"The menu items File, Edit, View, etc. are located in the menu bar. This article will help you restore a missing menu bar.","<p>Whether or not the Thunderbird Menu Bar is displayed depends on your Operating System.
@@ -103167,13 +102752,6 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </th><th> Alt text
 </th></tr>
 <tr>
-<td> <img alt=""IG 3-dot horizontal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-12-15-26-02-938306.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> 3-dot horizontal
-</td><td>  [[Image:IG 3-dot horizontal]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57601"">https://support.mozilla.org/en-US/gallery/image/57601</a>
-</td><td> 3-dot horizontal
-</td></tr>
-<tr>
 <td> <img alt=""IG add signature"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-04-02-02-42-59-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </td><td> Add signature
 </td><td> [[Image:IG add signature]]
@@ -103398,6 +102976,27 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </td><td> Open new tab
 </td></tr>
 <tr>
+<td> <img alt=""IG page actions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-30-15-26-42-077193.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Page actions
+</td><td> [[Image:IG page actions]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51895"">https://support.mozilla.org/en-US/gallery/image/51895</a>
+</td><td> Page actions (3-dot horizontal)
+</td></tr>
+<tr>
+<td> <img alt=""IG permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-20-03-06-49-41275a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Permissions
+</td><td> [[Image:IG permissions]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57277"">https://support.mozilla.org/en-US/gallery/image/57277</a>
+</td><td> Permissions
+</td></tr>
+<tr>
+<td> <img alt=""IG settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-16-12-49-24-1ce48d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</td><td> Settings
+</td><td> [[Image:IG settings]]
+</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/51776"">https://support.mozilla.org/en-US/gallery/image/51776</a>
+</td><td> Settings (gear icon)
+</td></tr>
+<tr>
 <td> <img alt=""IG split view left"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-06-07-06-08-99304a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </td><td> Split view left
 </td><td> [[Image:IG split view left]]
@@ -103410,13 +103009,6 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 </td><td> [[Image:IG split view right]]
 </td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57551"">https://support.mozilla.org/en-US/gallery/image/57551</a>
 </td><td> Split view right
-</td></tr>
-<tr>
-<td> <img alt=""IG permissions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-20-03-06-49-41275a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</td><td> Permissions
-</td><td> [[Image:IG permissions]]
-</td><td> <a href=""https://support.mozilla.org/en-US/gallery/image/57277"">https://support.mozilla.org/en-US/gallery/image/57277</a>
-</td><td> Permissions
 </td></tr>
 <tr>
 <td> <img alt=""IG taskbar tabs add tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-01-19-02-45-17-f52abb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -103490,7 +103082,6 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 
 | Icon | Icon name | Wiki code | Media gallery URL | Alt text |
 | --- | --- | --- | --- | --- |
-| ![IG 3-dot horizontal](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | 3-dot horizontal | [[Image:IG 3-dot horizontal]] | [https://support.mozilla.org/en-US/gallery/image/57601](https://support.mozilla.org/en-US/gallery/image/57601) | 3-dot horizontal |
 | ![IG add signature](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Add signature | [[Image:IG add signature]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Add signature in PDF |
 | ![IG back](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Back | [[Image:IG back]] | [https://support.mozilla.org/en-US/gallery/image/51934](https://support.mozilla.org/en-US/gallery/image/51934) | Back |
 | ![IG bookmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Bookmark | [[Image:IG bookmark]] | [https://support.mozilla.org/en-US/gallery/image/51912](https://support.mozilla.org/en-US/gallery/image/51912) | Bookmark |
@@ -103523,9 +103114,11 @@ When DLP is enabled and Firefox is connected to a DLP agent, information about t
 | ![IG notification](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification | [[Image:IG notification]] | [https://support.mozilla.org/en-US/gallery/image/51909](https://support.mozilla.org/en-US/gallery/image/51909) | Notification |
 | ![IG notification blocked](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Notification blocked | [[Image:IG notification blocked]] | [https://support.mozilla.org/en-US/gallery/image/51910](https://support.mozilla.org/en-US/gallery/image/51910) | Notification blocked |
 | ![IG open new tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Open new tab | [[Image:IG open new tab]] | [https://support.mozilla.org/en-US/gallery/image/55357](https://support.mozilla.org/en-US/gallery/image/55357) | Open new tab |
+| ![IG page actions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Page actions | [[Image:IG page actions]] | [https://support.mozilla.org/en-US/gallery/image/51895](https://support.mozilla.org/en-US/gallery/image/51895) | Page actions (3-dot horizontal) |
+| ![IG permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Permissions | [[Image:IG permissions]] | [https://support.mozilla.org/en-US/gallery/image/57277](https://support.mozilla.org/en-US/gallery/image/57277) | Permissions |
+| ![IG settings](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Settings | [[Image:IG settings]] | [https://support.mozilla.org/en-US/gallery/image/51776](https://support.mozilla.org/en-US/gallery/image/51776) | Settings (gear icon) |
 | ![IG split view left](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view left | [[Image:IG split view left]] | [https://support.mozilla.org/en-US/gallery/image/57550](https://support.mozilla.org/en-US/gallery/image/57550) | Split view left |
 | ![IG split view right](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Split view right | [[Image:IG split view right]] | [https://support.mozilla.org/en-US/gallery/image/57551](https://support.mozilla.org/en-US/gallery/image/57551) | Split view right |
-| ![IG permissions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Permissions | [[Image:IG permissions]] | [https://support.mozilla.org/en-US/gallery/image/57277](https://support.mozilla.org/en-US/gallery/image/57277) | Permissions |
 | ![IG taskbar tabs add tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs add tab | [[Image:IG taskbar tabs add tab]] | [https://support.mozilla.org/en-US/gallery/image/56861](https://support.mozilla.org/en-US/gallery/image/56861) | Taskbar tabs add tab |
 | ![IG taskbar tabs move tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Taskbar tabs move tab | [[Image:IG taskbar tabs move tab]] | [https://support.mozilla.org/en-US/gallery/image/56860](https://support.mozilla.org/en-US/gallery/image/56860) | Taskbar tabs move tab |
 | ![IG translations](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | Translations | [[Image:IG translations]] | [https://support.mozilla.org/en-US/gallery/image/57094](https://support.mozilla.org/en-US/gallery/image/57094) | Translations |
@@ -116709,7 +116302,9 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 </p>
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
-</li><li>Go to <span class=""menu"">Privacy and Security</span> and scroll down to the <strong>VPN</strong> section.
+</li><li>Go to <span class=""menu"">Privacy and Security</span> and go down to the <strong>VPN</strong> section.
+<ul><li> Alternatively, you can open the VPN panel from the toolbar and select <img alt=""IG gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-10-06-30-55-375c8d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> Settings.
+</li></ul>
 </li><li>Click <span class=""button"">Manage website settings</span>.
 <dl><dt><img alt=""managewebsitesettingsfirefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-23-08-30-09-eca7eb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
 </dt></dl>
@@ -116841,7 +116436,9 @@ While you can activate/deactivate VPN for specific sites in Firefox, you can als
 If you don’t want to access certain websites with VPN, you can add them to an exception list.
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Go to Privacy and Security and scroll down to the **VPN** section.
+2. Go to Privacy and Security and go down to the **VPN** section.
+  - Alternatively, you can open the VPN panel from the toolbar and select ![IG gear icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Settings.
+
 3. Click Manage website settings.<dl><dt>
 <img alt=""managewebsitesettingsfirefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-23-08-30-09-eca7eb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
 </dt></dl>
@@ -121517,7 +121114,12 @@ Make sure the **Suggest email masks** setting is enabled. Email masking is only 
 - [Explore the Firefox for iOS menu](\""https://support.mozilla.org/en-US/kb/menu-firefox-ios"")
 
 "
-70554,Hide your email using Firefox Relay on Android when signing up on websites,relay-masks-android,https://support.mozilla.org/en-US/kb/relay-masks-android,en-US,Learn how to use Firefox Relay to mask your email when signing up on websites in Firefox for Android.,"<p>Starting in Firefox for Android version 150, you can mask your real email address directly in the browser. This helps you stay private when signing up for websites, especially ones you don't fully trust.
+70554,Hide your email using Firefox Relay on Android when signing up on websites,relay-masks-android,https://support.mozilla.org/en-US/kb/relay-masks-android,en-US,Learn how to use Firefox Relay to mask your email when signing up on websites in Firefox for Android.,"<p></p><div class=""note""> 
+<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
+</p>
+</div>
+<p></p><p>Starting in Firefox for Android version 150, you can mask your real email address directly in the browser. This helps you stay private when signing up for websites, especially ones you don't fully trust.
 </p><p>Previously, this feature was only available through an extension. Now, it’s built into Firefox for Android. In this initial phase, it is available to users who are signed in to Firefox with a Mozilla account that already has Firefox Relay enabled.
 </p><p>If you have not used Relay before, sign in to Firefox on Android from <span class=""menu"">Settings</span>, then visit <a href=""https://relay.firefox.com/accounts/profile/"">relay.firefox.com</a> and sign in with the same Mozilla account to activate Relay. Once enabled, you can use email masking directly in the browser.
 </p><p>This article will show you how to mask your email in Firefox for Android.
@@ -121570,7 +121172,9 @@ Make sure the **Suggest email masks** setting is enabled. Email masking is only 
 <ul><li><a href=""/en-US/kb/explore-firefox-android-menu"">Explore the Firefox for Android menu</a>
 </li><li><a href=""/en-US/kb/set-opening-screen-firefox-android"">Choose your opening screen for Firefox for Android</a>
 </li><li><a href=""/en-US/kb/downloads-firefox-android"">Downloads in Firefox for Android</a>
-</li></ul>",mobile;relay,privacy-and-security,"Starting in Firefox for Android version 150, you can mask your real email address directly in the browser. This helps you stay private when signing up for websites, especially ones you don't fully trust.
+</li></ul>",mobile;relay,privacy-and-security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users.
+
+Starting in Firefox for Android version 150, you can mask your real email address directly in the browser. This helps you stay private when signing up for websites, especially ones you don't fully trust.
 
 Previously, this feature was only available through an extension. Now, it’s built into Firefox for Android. In this initial phase, it is available to users who are signed in to Firefox with a Mozilla account that already has Firefox Relay enabled.
 
