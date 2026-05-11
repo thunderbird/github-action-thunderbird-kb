@@ -30072,124 +30072,6 @@ If you need to set up an in-product link, please fill a [Content Request Bugzill
 - [Anatomy of a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/anatomy-of-a-knowledge-base-article"")
 
 "
-15187,How to Translate SUMO KB Articles in Hindi,how-translate-sumo-kb-articles-hindi,https://support.mozilla.org/en-US/kb/how-translate-sumo-kb-articles-hindi,en-US,Translating KB articles in Hindi Language.,"<div class=""note"">This article will help you to translate KB articles in Hindi. If you want to translate SUMO interface look at the article <a href=""/en-US/kb/localize-sumo-interface"">How to localize the SUMO interface</a>. </div>
-<p>Steps to Translate Articles:
-</p>
-<ol><li> All Hindi Localizers are following Hindi Localization Style Guide which you can download <a href=""http://svn.fedorahosted.org/svn/fuel/language/hi/style_guide/fuel-translation-style-and-convention-guide-hi.pdf"">here</a>.
-</li><li> Use <a href=""http://www.google.com/intl/hi/inputtools/cloud/try/"">Hindi Input Tool</a> to type in Hindi.
-</li><li> For difficult words use <a href=""http://shabdkosh.com/"">Shabdkosh</a> to translate English words in Hindi.
-</li></ol>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-choose-an-article-to-translate""><span class=""tocnumber"">1</span> <span class=""toctext"">How to Choose an Article to Translate</span></a></li><li class=""toclevel-1""><a href=""#w_what-strings-you-have-to-translate""><span class=""tocnumber"">2</span> <span class=""toctext"">What strings you have to translate.</span></a></li></ul></div>
-<h2 id=""w_how-to-choose-an-article-to-translate"">How to Choose an Article to Translate</h2>
-<ol><li> Go to <a href=""https://support.mozilla.org/hi-IN/localization"">Hindi Localization Dashboard</a> .
-</li><li> Look at most visited articles .
-</li><li> Symbols to look in localization dashboard and what they signifies :
-</li></ol>
-<ul><li> circle(green) - Translated and approved.
-</li><li>  circle(yellow)  - Update needed.
-</li><li> rectangle   - Review needed.
-</li><li>  red triangle - Translation needed.
-<ul><li> Choose one untranslated article by clicking 	अनुवाद की जरूरत.
-</li></ul>
-</li></ul>
-<h2 id=""w_what-strings-you-have-to-translate"">What strings you have to translate.</h2>
-<ol><li> Title.
-</li><li> Slug: It is auto-generated and it should be of maximum 50 character.
-</li><li> Search Result summary: it can be of maximum 120 character.
-</li><li> Main Body Part of the article:
-</li></ol>
-<ul><li>  Please do not translate the strings which are in the following brackets [    ],[ [    ] ], {    }, and &lt;   &gt;.
-</li></ul>
-<p><strong>Tips:</strong>
-</p>
-<ol><li> Avoid using Google translate since it doesn't gives exact result what we are looking for.
-</li><li> Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
-</li><li> If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
-</li></ol>",contributor,l10n,"This article will help you to translate KB articles in Hindi. If you want to translate SUMO interface look at the article [How to localize the SUMO interface](\""https://support.mozilla.org/en-US/kb/localize-sumo-interface""). 
-
-Steps to Translate Articles:
-
-1. All Hindi Localizers are following Hindi Localization Style Guide which you can download [here](http://svn.fedorahosted.org/svn/fuel/language/hi/style_guide/fuel-translation-style-and-convention-guide-hi.pdf).
-2. Use [Hindi Input Tool](http://www.google.com/intl/hi/inputtools/cloud/try/) to type in Hindi.
-3. For difficult words use [Shabdkosh](http://shabdkosh.com/) to translate English words in Hindi.
-
-## Table of Contents
-
-- [1 How to Choose an Article to Translate](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-hindi#w_how-to-choose-an-article-to-translate)
-- [2 What strings you have to translate.](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-hindi#w_what-strings-you-have-to-translate)
-
-## How to Choose an Article to Translate
-
-1. Go to [Hindi Localization Dashboard](https://support.mozilla.org/hi-IN/localization) .
-2. Look at most visited articles .
-3. Symbols to look in localization dashboard and what they signifies&nbsp;:
-
-- circle(green) - Translated and approved.
-- circle(yellow) - Update needed.
-- rectangle - Review needed.
-- red triangle - Translation needed.
-  - Choose one untranslated article by clicking अनुवाद की जरूरत.
-
-## What strings you have to translate.
-
-1. Title.
-2. Slug: It is auto-generated and it should be of maximum 50 character.
-3. Search Result summary: it can be of maximum 120 character.
-4. Main Body Part of the article:
-
-- Please do not translate the strings which are in the following brackets [],[[] ], { }, and \< \>.
-
-**Tips:**
-
-1. Avoid using Google translate since it doesn't gives exact result what we are looking for.
-2. Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
-3. If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
-
-"
-15455,Share your Android device with a Firefox Guest Session,share-your-android-device-firefox-guest-session,https://support.mozilla.org/en-US/kb/share-your-android-device-firefox-guest-session,en-US,This feature is no longer active.,"<div class=""warning""><strong>This feature has been removed.</strong> The Guest Session has been removed to streamline your experience. Please use <a href=""/en-US/kb/private-browsing-firefox-android"">Private Browsing on Firefox for Android</a> to keep your sessions separate or your device's guest mode feature (see the support articles for your device).</div>
-<p>A Guest Session lets someone else use Firefox on your Android device without giving them access to your personal information like passwords, bookmarks and history.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_start-a-guest-session""><span class=""tocnumber"">1</span> <span class=""toctext"">Start a Guest Session</span></a></li><li class=""toclevel-1""><a href=""#w_end-a-guest-session""><span class=""tocnumber"">2</span> <span class=""toctext"">End a Guest Session</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-tell-if-i-am-in-a-guest-session""><span class=""tocnumber"">3</span> <span class=""toctext"">How can I tell if I am in a Guest Session?</span></a></li></ul></div>
-<h1 id=""w_start-a-guest-session"">Start a Guest Session</h1>
-<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button.
-</li><li>Tap <span class=""menu"">New Guest Session</span> (you may need to tap <span class=""menu"">Tools</span> first).
-</li><li>Then tap  <span class=""button"">Continue</span>. Firefox will restart in Guest Session mode.
-</li></ol>
-<h1 id=""w_end-a-guest-session"">End a Guest Session</h1>
-<ol><li>Tap the Firefox menu button (either <a href=""/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"">at the bottom right on some devices</a> or in the upper right of the browser)
-.
-</li><li>Tap <span class=""menu"">Exit Guest Session</span>.
-</li><li>Tap <span class=""button"">Continue</span> to delete all the browsing data from the Guest Session and return Firefox to normal with all of your personal data available.
-</li></ol>
-<h1 id=""w_how-can-i-tell-if-i-am-in-a-guest-session"">How can I tell if I am in a Guest Session?</h1>
-<p>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button. If you can see <span class=""menu"">Exit Guest Session</span> you are in Guest Session mode.
-</p>",firefox-android-esr,privacy-and-security," **This feature has been removed.** The Guest Session has been removed to streamline your experience. Please use [Private Browsing on Firefox for Android](\""https://support.mozilla.org/en-US/kb/private-browsing-firefox-android"") to keep your sessions separate or your device's guest mode feature (see the support articles for your device).
-
-A Guest Session lets someone else use Firefox on your Android device without giving them access to your personal information like passwords, bookmarks and history.
-
-## Table of Contents
-
-- [1 Start a Guest Session](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_start-a-guest-session)
-- [2 End a Guest Session](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_end-a-guest-session)
-- [3 How can I tell if I am in a Guest Session?](https://support.mozilla.org/kb/share-your-android-device-firefox-guest-session#w_how-can-i-tell-if-i-am-in-a-guest-session)
-
-# Start a Guest Session
-
-1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button.
-2. Tap New Guest Session (you may need to tap Tools first).
-3. Then tap Continue. Firefox will restart in Guest Session mode.
-
-# End a Guest Session
-
-1. Tap the Firefox menu button (either [at the bottom right on some devices](\""https://support.mozilla.org/en-US/kb/firefox-menu-icon-missing-android-how-access-menu"") or in the upper right of the browser) .
-2. Tap Exit Guest Session.
-3. Tap Continue to delete all the browsing data from the Guest Session and return Firefox to normal with all of your personal data available.
-
-# How can I tell if I am in a Guest Session?
-
-Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button. If you can see Exit Guest Session you are in Guest Session mode.
-
-"
 15789,Add images and screenshots to Knowledge Base articles,how-place-images-article,https://support.mozilla.org/en-US/kb/how-place-images-article,en-US,Elevate your Knowledge Base contributions with the power of visuals. Learn how to effectively integrate images into your articles.,"<p>Boost your Knowledge Base articles with visuals. Adding screenshots clarifies complex concepts and simplifies instructions, offering users a straightforward view of interface elements. This guide shows you how to incorporate images cleanly and effectively, enhancing content clarity and reader engagement.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-screenshots-on-a-computer-or-mobile-device""><span class=""tocnumber"">1</span> <span class=""toctext"">Create screenshots on a computer or mobile device</span></a></li><li class=""toclevel-1""><a href=""#w_add-screenshots-and-other-images-to-knowledge-base-articles""><span class=""tocnumber"">2</span> <span class=""toctext"">Add screenshots and other images to Knowledge Base articles</span></a><ul><li class=""toclevel-2""><a href=""#w_upload-an-image-to-the-media-gallery""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Upload an image to the Media Gallery</span></a></li><li class=""toclevel-2""><a href=""#w_upload-an-image-directly-from-the-article-editor""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Upload an image directly from the article editor</span></a></li><li class=""toclevel-2""><a href=""#w_add-an-image-to-an-article""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Add an image to an article</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_effective-use-of-inline-images""><span class=""tocnumber"">3</span> <span class=""toctext"">Effective use of inline images</span></a></li><li class=""toclevel-1""><a href=""#w_effective-use-of-images-for-step-by-step-instructions""><span class=""tocnumber"">4</span> <span class=""toctext"">Effective use of images for step-by-step instructions</span></a></li><li class=""toclevel-1""><a href=""#w_examples""><span class=""tocnumber"">5</span> <span class=""toctext"">Examples</span></a><ul><li class=""toclevel-2""><a href=""#w_markup-for-an-inline-image""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Markup for an inline image</span></a></li><li class=""toclevel-2""><a href=""#w_inline-image-example""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Inline image example</span></a></li><li class=""toclevel-2""><a href=""#w_markup-for-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Markup for an image in a set of steps</span></a></li><li class=""toclevel-2""><a href=""#w_example-of-an-image-in-a-set-of-steps""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Example of an image in a set of steps</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_knowledge-base-guidelines""><span class=""tocnumber"">6</span> <span class=""toctext"">Knowledge Base guidelines</span></a></li></ul></div>
@@ -52237,6 +52119,49 @@ When you request a site in desktop view one time, Firefox will always show that 
 3. Avoid running third-party software that request accessibility features within Firefox.
 
 "
+31153,Send text or multimedia messages from Firefox for Android,send-text-or-multimedia-messages-firefox-android,https://support.mozilla.org/en-US/kb/send-text-or-multimedia-messages-firefox-android,en-US,Send text or multimedia messages from Firefox for Android.,"<p>Firefox for Android supports sending text (SMS) or multimedia (MMS) messages directly from the web pages that offer it.
+</p>
+<ol><li>Tap on the SMS or MMS link (usually a phone number) on the web page to launch the messaging app.
+</li><li>If you're using this feature for the first time, a prompt will ask you to choose an app. Choose your phone's messaging app, which for most devices is Messenger or Hangouts.
+</li><li>Your messaging app will open and automatically fill in the number and message that was on the web page.
+</li><li>Edit as needed and tap Send.
+</li></ol>",mobile,browse,"Firefox for Android supports sending text (SMS) or multimedia (MMS) messages directly from the web pages that offer it.
+
+1. Tap on the SMS or MMS link (usually a phone number) on the web page to launch the messaging app.
+2. If you're using this feature for the first time, a prompt will ask you to choose an app. Choose your phone's messaging app, which for most devices is Messenger or Hangouts.
+3. Your messaging app will open and automatically fill in the number and message that was on the web page.
+4. Edit as needed and tap Send.
+
+"
+31228,How can I get the latest version of Thunderbird on Windows XP or Vista?,get-latest-version-thunderbird-windows-xp-vista,https://support.mozilla.org/en-US/kb/get-latest-version-thunderbird-windows-xp-vista,en-US,How to update to the latest version of Thunderbird on Windows XP and Vista.,"<p>
+Although Thunderbird will run on Windows XP Service Pack 2 (SP2) or above, the latest installers for Thunderbird require Windows XP with Service Pack 3 (SP3) or Windows Vista with update <a href=""https://support.microsoft.com/en-us/kb/2763674"">KB2763674</a>. To  work around this issue, a two-step process is necessary to install the latest version of Thunderbird. Windows XP and Vista users should follow these steps:
+</p>
+<ol><li> <a href=""/en-US/kb/installing-thunderbird-windows"">Download and install Thunderbird</a> up to version 38.5.0 (<a href=""https://archive.mozilla.org/pub/thunderbird/releases/38.5.0/"">link to download</a>). 
+</li><li>After installing this version you can use the Thunderbird updater to install the latest version of Thunderbird. See the article <a href=""/en-US/kb/updating-thunderbird"">Update Thunderbird to the latest version</a> for details.
+</li></ol>
+<p>We're sorry for the inconvenience.
+</p>
+<div class=""note""><strong>For advanced users:</strong><br>
+<p>On Windows XP SP3 or up-to-date Vista operating systems, you can download the full installer for the latest version of Thunderbird from <a href=""https://archive.mozilla.org/pub/thunderbird/releases/"">https://archive.mozilla.org/pub/thunderbird/releases/</a>
+</p><p>For example, to download the Thunderbird 38.6.0 Windows English (US) full installer, navigate to <span class=""filepath"">/38.6.0/win32/en-US/</span> and choose the file <span class=""filepath"">Thunderbird Setup 38.6.0.exe</span>.
+</p><p>Before downloading, read the <a href=""https://www.mozilla.org/thunderbird/system-requirements"">System Requirements</a> and see the <a href=""https://www.mozilla.org/thunderbird/notes"">Release Notes</a> for information about the latest Thunderbird release.
+</p>
+</div>",thunderbird,install;installation-and-updates;update,"Although Thunderbird will run on Windows XP Service Pack 2 (SP2) or above, the latest installers for Thunderbird require Windows XP with Service Pack 3 (SP3) or Windows Vista with update [KB2763674](https://support.microsoft.com/en-us/kb/2763674). To work around this issue, a two-step process is necessary to install the latest version of Thunderbird. Windows XP and Vista users should follow these steps:
+
+1. [Download and install Thunderbird](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-windows"") up to version 38.5.0 ([link to download](https://archive.mozilla.org/pub/thunderbird/releases/38.5.0/)). 
+2. After installing this version you can use the Thunderbird updater to install the latest version of Thunderbird. See the article [Update Thunderbird to the latest version](\""https://support.mozilla.org/en-US/kb/updating-thunderbird"") for details.
+
+We're sorry for the inconvenience.
+
+**For advanced users:**  
+
+On Windows XP SP3 or up-to-date Vista operating systems, you can download the full installer for the latest version of Thunderbird from [https://archive.mozilla.org/pub/thunderbird/releases/](https://archive.mozilla.org/pub/thunderbird/releases/)
+
+For example, to download the Thunderbird 38.6.0 Windows English (US) full installer, navigate to /38.6.0/win32/en-US/ and choose the file Thunderbird Setup 38.6.0.exe.
+
+Before downloading, read the [System Requirements](https://www.mozilla.org/thunderbird/system-requirements) and see the [Release Notes](https://www.mozilla.org/thunderbird/notes) for information about the latest Thunderbird release.
+
+"
 31293,Search within a web page in Firefox for iOS,search-within-web-page-firefox-ios,https://support.mozilla.org/en-US/kb/search-within-web-page-firefox-ios,en-US,The Find in Page feature in Firefox for iOS lets you search for a word or phrase within a webpage.,"<p>Use the <em>Find in Page</em> feature to search for specific words on a web page with just a couple of taps.
 </p>
 <ol><li><p>Tap the Page Actions menu.
@@ -60981,6 +60906,46 @@ For more information on Apple's drag and drop feature, see [Drag and Drop on the
 3. Release the link and the other app will open and load that link.
 
 For more information on Apple's drag and drop feature, see [Drag and Drop on the Apple website](https://developer.apple.com/ios/drag-and-drop/).
+"
+40425,Use Face ID or Touch ID on Firefox Klar,use-face-id-or-touch-id-firefox-klar,https://support.mozilla.org/en-US/kb/use-face-id-or-touch-id-firefox-klar,en-US,Add an extra layer of privacy by setting up Face ID (iPhone X) or Touch ID on Firefox Klar.,"<p>
+</p><p>Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
+</p>
+<ol><li>Tap the menu button in the bottom right corner.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <span class=""menu"">Privacy</span>, turn the switch on <img alt=""FocusToggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-05-12-53-39-fef3a2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> next to <span class=""menu"">Use Face ID/Touch ID to unlock app</span>.
+</li><li>Tap <span class=""menu"">Back</span> at the top left to return to the home screen.
+</li></ol>",klar,firefox-klar-ios,"Add an extra layer of privacy by setting up Face ID on Firefox Klar for iOS. If you leave a website loaded on Firefox Klar when you switch apps, anyone who tries to view Firefox Klar will have to verify through Face ID.
+
+1. Tap the menu button in the bottom right corner.
+2. Tap Settings.
+3. Under Privacy, turn the switch on ![FocusToggle](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) next to Use Face ID/Touch ID to unlock app.
+4. Tap Back at the top left to return to the home screen.
+
+"
+40426,Find words on a page in Firefox Klar for iOS,find-words-page-firefox-klar-ios,https://support.mozilla.org/en-US/kb/find-words-page-firefox-klar-ios,en-US,Use the Find in Page feature to search for specific words on a web page.,"<p>
+</p><p>Use the <em>Find in Page</em> feature to search for specific words on a web page in a few taps.
+</p>
+<ol><li>Open the page you want to search.
+</li><li>Tap the menu button in the bottom right corner.
+</li><li>Tap <span class=""menu"">Find in Page</span> in the menu that pops up.
+<dl><dt><img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+</li><li>Enter the word or phrase that you want to find.
+</li><li>Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
+</li><li>Use the up or down arrows to see each instance of that word or phrase on the page.
+</li><li>Tap the <strong>X</strong> to return to regular view.
+</li></ol>",klar,firefox-klar-ios,"Use the _Find in Page_ feature to search for specific words on a web page in a few taps.
+
+1. Open the page you want to search.
+2. Tap the menu button in the bottom right corner.
+3. Tap Find in Page in the menu that pops up.<dl><dt>
+<img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
+</dt></dl>
+4. Enter the word or phrase that you want to find.
+5. Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
+6. Use the up or down arrows to see each instance of that word or phrase on the page.
+7. Tap the **X** to return to regular view.
+
 "
 40427,Change to desktop view on Firefox Klar for iOS,change-desktop-view-firefox-klar-ios,https://support.mozilla.org/en-US/kb/change-desktop-view-firefox-klar-ios,en-US,"If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps.","<p>
 </p><p>If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps:
@@ -89080,6 +89045,111 @@ If you use the ESR, we strongly recommend that you start testing with Firefox Ni
 5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
 
 Learn more about [deleting your browsing history in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/clear-browsing-history-firefox-ios"").
+
+"
+58141,Search your browsing history and bookmarks in Firefox for Android,search-your-browsing-history-and-bookmarks-firefox,https://support.mozilla.org/en-US/kb/search-your-browsing-history-and-bookmarks-firefox,en-US,You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.,"<p>You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_search-your-browsing-history""><span class=""tocnumber"">1</span> <span class=""toctext"">Search your browsing history</span></a></li><li class=""toclevel-1""><a href=""#w_search-your-bookmarks""><span class=""tocnumber"">2</span> <span class=""toctext"">Search your bookmarks</span></a></li></ul></div>
+<h1 id=""w_search-your-browsing-history"">Search your browsing history</h1>
+<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">History</span>.
+</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
+</li><li>Your search results will automatically update as you enter text.
+</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
+</li></ol>
+<p>Learn more about <a href=""/en-US/kb/clear-your-browsing-history-firefox-android"">deleting your browsing history in Firefox for Android</a>.
+</p>
+<h1 id=""w_search-your-bookmarks"">Search your bookmarks</h1>
+<ol><li>Tap the <img alt=""menu-icon-android"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-13-02-26-03-376793.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> menu icon and select <span class=""menu"">Bookmarks</span>.
+</li><li>Tap the <img alt=""MagnifyingGlassIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-05-06-44-05-ff176d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> search icon to begin your search.
+</li><li>Your search results will automatically update as you enter text.
+</li><li>Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+</li><li>To clear your text, tap the <img alt=""fx icon cancel download"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-03-07-07-36-18-170e8a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> cancel icon.
+</li></ol>",mobile,bookmarks;browse;history;search;search-tag-and-share,"You can search your browsing history and bookmarks in Firefox for Android to find websites you've previously visited and saved.
+
+## Table of Contents
+
+- [1 Search your browsing history](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-browsing-history)
+- [2 Search your bookmarks](https://support.mozilla.org/kb/search-your-browsing-history-and-bookmarks-firefox#w_search-your-bookmarks)
+
+# Search your browsing history
+
+1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select History.
+2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
+3. Your search results will automatically update as you enter text.
+4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
+
+Learn more about [deleting your browsing history in Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-firefox-android"").
+
+# Search your bookmarks
+
+1. Tap the ![menu-icon-android](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu icon and select Bookmarks.
+2. Tap the ![MagnifyingGlassIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) search icon to begin your search.
+3. Your search results will automatically update as you enter text.
+4. Tap a result to navigate to the page. Scrolling the list of search results will minimize the search bar.
+5. To clear your text, tap the ![fx icon cancel download](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) cancel icon.
+
+"
+58142,HTTPS-Only Mode in Firefox for Android,https-only-mode-firefox-android,https://support.mozilla.org/en-US/kb/https-only-mode-firefox-android,en-US,HTTPS-Only Mode is available for Firefox for Android. You can turn this setting on or off.,"<p>HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-http-and-https""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between HTTP and HTTPS?</span></a></li><li class=""toclevel-1""><a href=""#w_enable-or-disable-https-only-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable or disable HTTPS-Only Mode</span></a></li><li class=""toclevel-1""><a href=""#w_secure-site-not-available""><span class=""tocnumber"">3</span> <span class=""toctext"">Secure site not available</span></a></li></ul></div>
+<h1 id=""w_what-is-the-difference-between-http-and-https"">What is the difference between HTTP and HTTPS?</h1>
+<p><a href=""https://wikipedia.org/wiki/Hypertext_Transfer_Protocol"">HTTP</a> stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
+</p><p><a href=""https://wikipedia.org/wiki/HTTPS"">HTTPS</a> protocols fix this by using <a href=""https://en.wikipedia.org/wiki/Transport_Layer_Security"">TLS</a> (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
+</p><p>For example, when HTTPS-Only Mode is active and you visit a site with the <code><strong>http</strong>://example.com</code> URL, Firefox will silently upgrade to <code><strong>https</strong>://example.com</code>.
+</p>
+<h1 id=""w_enable-or-disable-https-only-mode"">Enable or disable HTTPS-Only Mode</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">HTTPS-Only Mode</span>.
+</li><li>Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
+</li><li>If you turn HTTPS-Only mode on, select <span class=""menu"">Enable in all tabs</span> or <span class=""menu"">Enable only in private tabs</span>.
+</li></ol>
+<h1 id=""w_secure-site-not-available"">Secure site not available</h1>
+<p>Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
+</p>
+<dl><dt><img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+<p>If you tap <span class=""button"">Continue to HTTP Site</span>, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+</p><p>Tap <span class=""button"">Go Back (Recommended)</span>, or your device's back button, if you want to avoid an unencrypted connection.
+</p>",mobile,privacy-and-security,"HTTPS-Only Mode is available in Firefox for Android. When it is enabled, Firefox will automatically establish secure, encrypted connections to websites whenever possible. This is especially useful when you are using a public Wi-Fi, where you can't be sure of the integrity of your internet connection. You can disable or enable this feature in your settings.
+
+## Table of Contents
+
+- [1 What is the difference between HTTP and HTTPS?](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_what-is-the-difference-between-http-and-https)
+- [2 Enable or disable HTTPS-Only Mode](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_enable-or-disable-https-only-mode)
+- [3 Secure site not available](https://support.mozilla.org/kb/https-only-mode-firefox-android#w_secure-site-not-available)
+
+# What is the difference between HTTP and HTTPS?
+
+[HTTP](https://wikipedia.org/wiki/Hypertext_Transfer_Protocol) stands for Hypertext Transfer Protocol. It is the fundamental protocol for the web and encodes basic interactions between browsers and web servers. The problem with the regular HTTP protocol is that the data transferring from server to browser is not encrypted, meaning data can be viewed, stolen or altered.
+
+[HTTPS](https://wikipedia.org/wiki/HTTPS) protocols fix this by using [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) (Transport Layer Security). This creates a secure encrypted connection between the server and the browser, which protects sensitive information.
+
+For example, when HTTPS-Only Mode is active and you visit a site with the `http://example.com` URL, Firefox will silently upgrade to `https://example.com`.
+
+# Enable or disable HTTPS-Only Mode
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap HTTPS-Only Mode.
+4. Switch the toggle to the left to turn HTTPS-Only Mode off. Switch the toggle to the right to turn it on.
+5. If you turn HTTPS-Only mode on, select Enable in all tabs or Enable only in private tabs.
+
+# Secure site not available
+
+Some websites only support HTTP and the connection cannot be upgraded. If HTTPS-Only Mode is enabled and an HTTPS version of a site is not available, you will see a “Secure site not available” page:
+
+<dl><dt>
+<img alt=""Android-SecureSiteNotAvailable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-12-08-17-10-cab53b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+
+If you tap Continue to HTTP Site, you accept the risks and will visit an HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+
+Tap Go Back (Recommended), or your device's back button, if you want to avoid an unencrypted connection.
 
 "
 58208,New in Thunderbird 102,new-thunderbird-102,https://support.mozilla.org/en-US/kb/new-thunderbird-102,en-US,"Detailed introduction to the most interesting new features, improvements, and changes visible to users in Thunderbird 102.0.","<p>This article offers a detailed introduction to the most interesting new features, improvements, and changes visible to users which are available in Thunderbird 102.0, to be downloaded from the <a href=""https://www.thunderbird.net/"">official website</a>. Existing installations of Thunderbird will be updated automatically in due time. A more comprehensive, but less descriptive list of changes can be found in the <a href=""https://www.thunderbird.net/thunderbird/102.0/releasenotes/"">Thunderbird 102 Release Notes</a>.
