@@ -26760,121 +26760,6 @@ Firefox will delete your information each time you close it through the Quit opt
 
  **Note:** If the above options do not work, force the application to stop and then restart it. Then follow the above steps to clear browsing history.
 "
-9160,How can I help by submitting mobile performance data?,how-can-i-help-submitting-mobile-performance-data,https://support.mozilla.org/en-US/kb/how-can-i-help-submitting-mobile-performance-data,en-US,The Telemetry and Crash Reporter features allow Mozilla's engineers to improve Firefox by sending back performance and usage information.,"<p>It's helpful for Mozilla's engineers to be able to measure how Firefox for Android behaves in the real world. The Telemetry feature provides this capability by sending them performance and usage information. As you use Firefox, Telemetry measures and collects non-personal information, such as memory consumption, responsiveness timing and feature usage. It then sends this information to Mozilla on a daily basis and we use it to make Firefox better for you.
-</p><p>Firefox also has a Crash Reporter feature that warns you when Firefox closes unexpectedly, and allows you to send this information so the engineers can make Firefox more stable and secure.
-</p><p>For more about what kind of information is collected and how it's used, see our <a href=""http://www.mozilla.org/legal/privacy/firefox.html#telemetry"">privacy policy</a>.
-</p>
-<h1 id=""w_how-do-i-opt-in-or-opt-out-of-sending-performance-data"">How do I opt-in or opt-out of sending performance data?</h1>
-<p>You can turn this feature on or off at any time in your Settings:
-</p><div class=""for"" data-for=""m25"">
-<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button and then <span class=""button"">Settings</span> (you may need to tap <span class=""menu"">More</span> first)
-.
-</li><li>Next tap <span class=""button"">Mozilla</span> and then check or uncheck the box next to <strong>Telemetry</strong> in the Data Choices section.
-</li><li> Check or uncheck the box next to <strong>Crash Reporter</strong> to send crash reports back to Mozilla.
-</li></ol>
-</div><div class=""for"" data-for=""not m25"">
-<ol><li>Tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button and then <span class=""button"">Settings</span> (you may need to tap <span class=""menu"">More</span> first)
-.
-</li><li>Next tap <span class=""button"">Data choices</span> and then check or uncheck the box next to <strong>Telemetry</strong>.
-</li></ol>
-</div>",firefox-android-esr,performance-and-connectivity,"It's helpful for Mozilla's engineers to be able to measure how Firefox for Android behaves in the real world. The Telemetry feature provides this capability by sending them performance and usage information. As you use Firefox, Telemetry measures and collects non-personal information, such as memory consumption, responsiveness timing and feature usage. It then sends this information to Mozilla on a daily basis and we use it to make Firefox better for you.
-
-Firefox also has a Crash Reporter feature that warns you when Firefox closes unexpectedly, and allows you to send this information so the engineers can make Firefox more stable and secure.
-
-For more about what kind of information is collected and how it's used, see our [privacy policy](http://www.mozilla.org/legal/privacy/firefox.html#telemetry).
-
-# How do I opt-in or opt-out of sending performance data?
-
-You can turn this feature on or off at any time in your Settings:
-
-1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button and then Settings (you may need to tap More first) .
-2. Next tap Mozilla and then check or uncheck the box next to **Telemetry** in the Data Choices section.
-3. Check or uncheck the box next to **Crash Reporter** to send crash reports back to Mozilla.
-
-1. Tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button and then Settings (you may need to tap More first) .
-2. Next tap Data choices and then check or uncheck the box next to **Telemetry**.
-
-"
-9195,Remove a toolbar that has taken over your Firefox search or home page,remove-toolbar-has-taken-over-your-firefox-search,https://support.mozilla.org/en-US/kb/remove-toolbar-has-taken-over-your-firefox-search,en-US,"This article will help you remove unwanted third-party toolbars from Firefox and restore the default search, New Tab and home page settings.","<p>This article will help you remove third-party toolbars like Ask, searchqu, MyStart, incredibar, seeearch, somoto, sweetim, uTorrent, and others from Firefox and restore your default home page, New tab page and search settings. For help removing the Babylon toolbar, see <a href=""/en-US/kb/remove-babylon-toolbar-home-page-and-search-engine"">How to remove the Babylon toolbar, home page and search engine</a>.
-</p>
-<ul><li>If you just want to remove a search engine from the Firefox Search Bar, see the <a href=""/en-US/kb/add-or-remove-search-engine-firefox"">Add or remove a search engine in Firefox</a> article.
-</li><li> If you need help with toolbar customization or if you simply want to hide a toolbar, see <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox controls, buttons and toolbars</a>.
-</li></ul>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-did-this-happen""><span class=""tocnumber"">1</span> <span class=""toctext"">How did this happen?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-fix-it""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I fix it?</span></a><ul><li class=""toclevel-2""><a href=""#w_use-the-add-ons-manager-to-remove-the-toolbar""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Use the Add-ons Manager to remove the toolbar</span></a></li><li class=""toclevel-2""><a href=""#w_restore-the-default-home-page-or-search-settings""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Restore the default home page or search settings</span></a></li><li class=""toclevel-2""><a href=""#w_other-solutions""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Other solutions</span></a></li></ul></li></ul></div>
-<h1 id=""w_how-did-this-happen"">How did this happen?</h1>
-<p>Toolbars from third-party software providers can change your search, New Tab and home page settings or cause other problems with Firefox. These toolbars can get added to Firefox when you visit a website and click on an ""Install"" link, when you download and run a toolbar installer, or when you install software that includes a Firefox toolbar. Be careful when installing or updating other applications and make sure you deselect any options for toolbars or other bundled software that you don't want. 
-</p><p>Also, some software providers offer their own version of Firefox that includes a toolbar and other customizations (for instance, <a href=""http://downloads.yahoo.com/firefox/"">Mozilla Firefox® optimized for Yahoo!</a>) so always make sure you download Firefox from the <a href=""https://www.mozilla.org/firefox"">Firefox download page</a>.
-</p>
-<h1 id=""w_how-do-i-fix-it"">How do I fix it?</h1>
-<div class=""note""><strong>Note:</strong> The <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox feature</a> can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
-</div>
-<h2 id=""w_use-the-add-ons-manager-to-remove-the-toolbar"">Use the Add-ons Manager to remove the toolbar</h2>
-<p>In most cases, third-party toolbars can be uninstalled from Firefox Add-ons Manager Extensions list, as follows:
-</p>
-<ol><li> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions</span>.
-
-</li><li> Select the toolbar you wish to remove.
-</li><li> Click the <span class=""button"">Remove</span> button.  
-</li><li> Click <strong>Restart now</strong> if it pops up. Your tabs will be saved and restored after the restart.
-</li></ol>
-<p>If you can't remove the toolbar from the Add-ons Manager, use the ""Disable"" option as a workaround, or see the <a href=""/en-US/kb/cannot-remove-add-on-extension-or-theme"">Cannot remove an add-on (extension or theme)</a> article for other solutions.  
-</p>
-<h2 id=""w_restore-the-default-home-page-or-search-settings"">Restore the default home page or search settings</h2>
-<p>You may need to reset your Firefox search preferences and restore the default New Tab page, home page and search engine after removing the toolbar. For more information, see the articles <a href=""/en-US/kb/change-your-default-search-settings-firefox"">Manage Firefox search settings</a>, <a href=""/en-US/kb/about-new-tab-page"">New Tab page in Firefox</a> and <a href=""/en-US/kb/how-to-set-the-home-page"">How to set the home page</a>.
-</p>
-<h2 id=""w_other-solutions"">Other solutions</h2>
-<ul><li>If your current Firefox installation was customized by another software provider, you'll need to <a href=""/en-US/kb/uninstall-firefox-from-your-computer"">uninstall Firefox from your computer</a> and then download Firefox from the <a href=""http://www.mozilla.org/firefox"">Firefox download page</a> and reinstall it.  
-</li><li> If the unwanted toolbar, home page and search engine come back when you restart Firefox, you may have malicious software installed on your computer. See <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a>.
-</li></ul>
-<div class=""for"" data-for=""win"">
-<ul><li> If a page (for example, bitable.com) keeps loading even though you have set a different home page, Firefox's shortcut might have been manipulated. See <a href=""/en-US/kb/wrong-home-page-opens-when-i-start-firefox-how-fix"">Wrong home page opens when I start Firefox - How to fix</a> for instructions on how to change it back.
-</li></ul>
-</div>",firefox,add-ons-extensions-and-themes,"This article will help you remove third-party toolbars like Ask, searchqu, MyStart, incredibar, seeearch, somoto, sweetim, uTorrent, and others from Firefox and restore your default home page, New tab page and search settings. For help removing the Babylon toolbar, see [How to remove the Babylon toolbar, home page and search engine](\""https://support.mozilla.org/en-US/kb/remove-babylon-toolbar-home-page-and-search-engine"").
-
-- If you just want to remove a search engine from the Firefox Search Bar, see the [Add or remove a search engine in Firefox](\""https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox"") article.
-- If you need help with toolbar customization or if you simply want to hide a toolbar, see [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"").
-
-## Table of Contents
-
-- [1 How did this happen?](https://support.mozilla.org/kb/remove-toolbar-has-taken-over-your-firefox-search#w_how-did-this-happen)
-- [2 How do I fix it?](https://support.mozilla.org/kb/remove-toolbar-has-taken-over-your-firefox-search#w_how-do-i-fix-it)
-  - [2.1 Use the Add-ons Manager to remove the toolbar](https://support.mozilla.org/kb/remove-toolbar-has-taken-over-your-firefox-search#w_use-the-add-ons-manager-to-remove-the-toolbar)
-  - [2.2 Restore the default home page or search settings](https://support.mozilla.org/kb/remove-toolbar-has-taken-over-your-firefox-search#w_restore-the-default-home-page-or-search-settings)
-  - [2.3 Other solutions](https://support.mozilla.org/kb/remove-toolbar-has-taken-over-your-firefox-search#w_other-solutions)
-
-# How did this happen?
-
-Toolbars from third-party software providers can change your search, New Tab and home page settings or cause other problems with Firefox. These toolbars can get added to Firefox when you visit a website and click on an ""Install"" link, when you download and run a toolbar installer, or when you install software that includes a Firefox toolbar. Be careful when installing or updating other applications and make sure you deselect any options for toolbars or other bundled software that you don't want.
-
-Also, some software providers offer their own version of Firefox that includes a toolbar and other customizations (for instance, [Mozilla Firefox® optimized for Yahoo!](http://downloads.yahoo.com/firefox/)) so always make sure you download Firefox from the [Firefox download page](https://www.mozilla.org/firefox).
-
-# How do I fix it?
-
-**Note:** The [Refresh Firefox feature](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
-
-## Use the Add-ons Manager to remove the toolbar
-
-In most cases, third-party toolbars can be uninstalled from Firefox Add-ons Manager Extensions list, as follows:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions.
-2. Select the toolbar you wish to remove.
-3. Click the Remove button. 
-4. Click **Restart now** if it pops up. Your tabs will be saved and restored after the restart.
-
-If you can't remove the toolbar from the Add-ons Manager, use the ""Disable"" option as a workaround, or see the [Cannot remove an add-on (extension or theme)](\""https://support.mozilla.org/en-US/kb/cannot-remove-add-on-extension-or-theme"") article for other solutions.
-
-## Restore the default home page or search settings
-
-You may need to reset your Firefox search preferences and restore the default New Tab page, home page and search engine after removing the toolbar. For more information, see the articles [Manage Firefox search settings](\""https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox""), [New Tab page in Firefox](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"") and [How to set the home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"").
-
-## Other solutions
-
-- If your current Firefox installation was customized by another software provider, you'll need to [uninstall Firefox from your computer](\""https://support.mozilla.org/en-US/kb/uninstall-firefox-from-your-computer"") and then download Firefox from the [Firefox download page](http://www.mozilla.org/firefox) and reinstall it. 
-- If the unwanted toolbar, home page and search engine come back when you restart Firefox, you may have malicious software installed on your computer. See [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
-
-- If a page (for example, bitable.com) keeps loading even though you have set a different home page, Firefox's shortcut might have been manipulated. See [Wrong home page opens when I start Firefox - How to fix](\""https://support.mozilla.org/en-US/kb/wrong-home-page-opens-when-i-start-firefox-how-fix"") for instructions on how to change it back.
-
-"
 9211,How do I share Firefox between people on a computer?,how-do-i-share-firefox-between-people-on-computer,https://support.mozilla.org/en-US/kb/how-do-i-share-firefox-between-people-on-computer,en-US,Firefox can be used by several people on a single computer. Learn the basic protections to prevent others form accessing your private data.,"<p>If you share your computer with other people, you may want to prevent them from logging in to your social network account, viewing your stored passwords and changing your bookmarks in Firefox. This article describes basic protections to take.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_use-individual-user-accounts""><span class=""tocnumber"">1</span> <span class=""toctext"">Use individual user accounts</span></a></li><li class=""toclevel-1""><a href=""#w_lock-your-computer-when-you-are-away-from-it""><span class=""tocnumber"">2</span> <span class=""toctext"">Lock your computer when you are away from it</span></a></li><li class=""toclevel-1""><a href=""#w_set-a-firefox-primary-password""><span class=""tocnumber"">3</span> <span class=""toctext"">Set a Firefox Primary Password</span></a></li></ul></div>
@@ -32542,6 +32427,377 @@ _Only active if focus is in Folder Pane or Message List Pane_ | Alt + HomeOption
 Some add-ons can add or change shortcut keys. For example [F9 Hides the Folder Pane](https://addons.thunderbird.net/thunderbird/addon/f9-hides-the-folder-pane/).
 
 Keyboard configuration for changing shortcut keys is in progress for a future release.
+
+"
+17025,Profiles - Where Thunderbird stores your messages and other user data,profiles-where-thunderbird-stores-user-data,https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data,en-US,"Thunderbird saves personal information such as messages, passwords and user preferences in a set of files called a ""profile"".","<p>All your data such as messages, passwords and user preferences, and changes made while you use Thunderbird, are stored in a special folder called a <em>profile</em>. Your profile folder is stored in a separate place from the Thunderbird program, so that if something ever goes wrong with the Thunderbird program your information will still be there. It also means that you can uninstall Thunderbird and reinstall without losing your settings and data. But storing it separately is NOT a backup. 
+</p>
+<div class=""warning""><strong>Frequent backups are recommended to protect your data.</strong> Without a backup you risk permanent loss of data from many possible causes. The following are NOT backups: data on mail servers, your Thunderbird profile on your local computer, a Thunderbird profile on a different computer, profiles run in cloud-based storage.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-find-my-profile""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I find my profile?</span></a><ul><li class=""toclevel-2""><a href=""#w_finding-your-profile-without-opening-thunderbird""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Finding your profile without opening Thunderbird</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_backing-up-a-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Backing up a profile</span></a></li><li class=""toclevel-1""><a href=""#w_restoring-a-profile-backup""><span class=""tocnumber"">3</span> <span class=""toctext"">Restoring a profile backup</span></a><ul><li class=""toclevel-2""><a href=""#w_restoring-to-a-different-location""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Restoring to a different location</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_moving-a-profile""><span class=""tocnumber"">4</span> <span class=""toctext"">Moving a profile</span></a></li><li class=""toclevel-1""><a href=""#w_sharing-profile-data-between-computers""><span class=""tocnumber"">5</span> <span class=""toctext"">Sharing profile data between computers</span></a><ul><li class=""toclevel-2""><a href=""#w_cloud-storage""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Cloud storage</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See Also</span></a></li></ul></div>
+<h1 id=""w_how-do-i-find-my-profile"">How do I find my profile?</h1>
+<p></p><ul><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Help</span> and select <span class=""menu"">Troubleshooting Information</span>. The <strong>Troubleshooting Information</strong> tab will open.
+</li><li> Under the <strong>Application Basics</strong> section, find the <span class=""for"" data-for=""win,mac""><em>Profile Folder</em></span><span class=""for"" data-for=""linux""><em>Profile Directory</em></span> row, then click on <span class=""button""><span class=""for"" data-for=""win"">Open Folder</span><span class=""for"" data-for=""mac"">Show in Finder</span><span class=""for"" data-for=""linux"">Open Directory</span></span>. <span class=""for"" data-for=""mac"">A window will open that contains your profile folder.</span><span class=""for"" data-for=""win,linux"">Your profile folder will open.</span>
+</li></ul>
+<div class=""note""><strong>Note:</strong> If you are unable to open or use Thunderbird, follow the instructions in <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird"">Finding your profile without opening Thunderbird</a>.</div>
+<p></p>
+<h2 id=""w_finding-your-profile-without-opening-thunderbird"">Finding your profile without opening Thunderbird</h2>
+<p> 
+</p><span class=""for"" data-for=""win""><div class=""for"" data-for=""not winxp""><p>Thunderbird stores your profile folder in this location on your computer, by default:<br>
+<span class=""filepath"">""C:\Users\&lt;your Windows login username&gt;\AppData\Roaming\Thunderbird\Profiles\""</span><br>
+Windows hides the <span class=""filepath"">AppData</span> folder by default, but you can find your profile folder as follows:
+</p><div class=""for"" data-for=""win10"">
+<ol><li> Press <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>+<span class=""key"">R</span> on the keyboard. A Run dialog will open. 
+</li><li> Paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong>
+</li><li> Click <span class=""button"">OK</span>.  A window will open containing profile folders.  
+</li><li> Double-click the profile folder you wish to open. 
+</li></ol>
+</div><div class=""for"" data-for=""win8"">
+<ol><li> From the Start Screen, click the <strong>Desktop</strong> tile. The Desktop view will open.
+</li><li> From the Desktop, hover in the lower right-hand corner to access the Charms.
+</li><li> Select the <span class=""menu"">Search</span> charm. The Search sidebar will open.
+</li><li> In the search box, paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>without pressing Enter. A list of profile folders will appear.
+</li><li> Click on the profile folder you wish to open (it will open in a window). If you only have one profile, its folder would have ""default"" in the name.
+</li></ol>
+</div><div class=""for"" data-for=""win7"">
+<ol><li> Click the Windows <span class=""button"">Start</span> button. The Start menu will open.
+</li><li> In the Search box at the bottom of the Start menu, paste or type:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>without pressing Enter. A list of profiles will appear at the top of the Start menu.
+</li><li> Click on the profile folder you wish to open (it will open in a window). If you only have a single profile, its folder would have ""default"" in the name.
+</li></ol>
+</div>
+<ul><li>Alternatively, you can find your profile by pressing the <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> key and then start typing: <strong>%APPDATA%\Thunderbird\Profiles\</strong> 
+</li></ul>
+<div class=""note""><strong>Note:</strong> To set Windows to show the <span class=""filepath"">AppData</span> folder and other hidden files and folders, see <a href=""https://support.microsoft.com/help/14201/windows-show-hidden-files"">Show hidden files - Windows Help</a>.</div>
+</div><div class=""for"" data-for=""winxp"">
+<ol><li> Click the Windows <span class=""button"">Start</span> button, and select <span class=""menu"">Run…</span>.<br> <br><img alt=""win-run.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/win-run.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>
+</li><li> Paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>then click <span class=""button"">OK</span>. <br>A window will open containing profile folders.<br><img alt=""win-rundialog.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/win-rundialog.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</li><li> Double-click the profile folder you wish to open.
+</li></ol>
+</div></span><div class=""for"" data-for=""mac"">
+<ol><li> Click the <strong>Finder</strong> icon in the dock. On the menu bar, click the <span class=""menu"">Go</span> menu, hold down the <span class=""key"">Option</span> or <span class=""key"">Alt</span> key and select <span class=""menu"">Library</span>.
+</li><li> Open the <span class=""filepath"">Thunderbird</span> folder, and then the <span class=""filepath"">Profiles</span> folder. 
+</li><li> Your profile folder is within this folder. 
+</li></ol>
+</div><div class=""for"" data-for=""linux"">
+<ol><li> <strong>(Ubuntu)</strong> Click the <span class=""menu"">Places</span> menu on the top right of the screen and select <span class=""menu"">Home Folder</span>. A File Browser window will appear.
+</li><li> Click the <span class=""menu"">View</span> menu and select <span class=""menu"">Show Hidden Files</span> if it isn't already checked.
+</li><li> Double click the folder marked <span class=""filepath"">.thunderbird</span>. Your profile folder is within this folder. 
+</li></ol>
+</div><p>If you only have one active profile, and you are using <a href=""/en-US/kb/thunderbird-esr"">Thunderbird <strong>ESR</strong></a> or <a href=""/en-US/kb/thunderbird-release"">Thunderbird <strong>release</strong></a> (two types of <a href=""/en-US/kb/choosing-thunderbird-release-channel"">update channels</a>), then ""default-release"" will be in the name by default (unless you have changed it) - both types of installs use the same profile name. Note: a folder name with just ""default"" without ""-release"" is normally an empty, unused dummy folder and can be ignored.
+</p><p>If you are using <a href=""/en-US/kb/thunderbird-beta"">Beta</a> or <a href=""/en-US/kb/thunderbird-daily"">Daily</a> then the profile name defaults to ""default-beta"" or ""default-daily"" respectively. You might also have created <a href=""/en-US/kb/using-multiple-profiles"">multiple profiles</a>. 
+</p>
+<h1 id=""w_backing-up-a-profile"">Backing up a profile</h1>
+<p>You can backup your data using <a href=""/en-US/kb/thunderbird-export"">Thunderbird's export tool</a>, or the steps below. 
+</p><p>To back up your profile, first close Thunderbird if it is open and then copy the profile folder to another location.
+</p>
+<ol><li> Locate your profile folder, as explained above.
+</li><li> Shut down Thunderbird.
+</li><li> Go to one level above your profile's folder, i.e. to <span class=""filepath""><span class=""for"" data-for=""win"">%APPDATA%\Thunderbird\Profiles\</span><span class=""for"" data-for=""mac"">~/Library/Thunderbird/Profiles/</span><span class=""for"" data-for=""linux"">~/.mozilla/Thunderbird/</span></span>
+</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">Ctrl</span> key while you click</span> on your profile folder (e.g. <span class=""filepath"">xxxxxxxx.default</span>), and select <span class=""menu"">Copy</span>.
+</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">Ctrl</span> key while you click</span> the backup location (e.g. a USB-stick or a blank CD-RW disc), and select <span class=""menu"">Paste<span class=""for"" data-for=""mac""> item</span></span>.
+</li></ol>
+<p>
+
+</p>
+<h1 id=""w_restoring-a-profile-backup"">Restoring a profile backup</h1>
+<p>You can restore your data using <a href=""/en-US/kb/thunderbird-import"">Thunderbird's import tool</a>, or the steps below. 
+</p>
+<ol><li> Shut down Thunderbird.
+</li><li> If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Thunderbird. <div class=""note""><strong>Important:</strong> The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.</div>
+</li></ol>
+<h2 id=""w_restoring-to-a-different-location"">Restoring to a different location</h2>
+<p>If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
+</p>
+<ol><li> Completely close Thunderbird, as explained above.
+</li><li><a href=""/en-US/kb/using-multiple-profiles"">Use the Thunderbird Profile Manager to create a new profile</a> in your desired location, then exit the Profile Manager. <div class=""note""><strong>Note:</strong> If you just installed Thunderbird on a new computer, you can use the default profile that is automatically created when you first run Thunderbird, instead of creating a new profile.</div>
+</li><li>Locate the backed up profile folder on your hard drive or backup medium (e.g., your USB-stick).
+</li><li>Open the profile folder backup (e.g., the <span class=""filepath"">xxxxxxxx.default</span> backup).
+</li><li>Copy the entire <em>contents</em> of the profile folder backup, such as the <span class=""filepath"">mimeTypes.rdf</span> file, <span class=""filepath"">prefs.js</span> file, etc.
+</li><li>Locate and open the new profile folder as explained above and then close Thunderbird (if open).
+</li><li>Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
+</li><li>Start Thunderbird.
+</li></ol>
+<h1 id=""w_moving-a-profile"">Moving a profile</h1>
+<p>Occasionally, you might want to move a profile or tell Thunderbird to use a profile stored in another location. 
+</p>
+<ol><li>Shut down Thunderbird.
+</li><li>Move the profile folder to the desired location.<span class=""for"" data-for=""winxp""> For example, on Windows XP, move the profile from <span class=""filepath"">C:\Documents and Settings\[username]\Application Data\Thunderbird\Profiles\xxxxxxxx.default</span> to <span class=""filepath"">D:\Stuff\MyMailProfile</span></span>. (If you are reverting to a  backed up profile, this step isn't necessary. Just note the current location of the profile you want to restore.)
+</li><li>Open up the profiles.ini file in a text editor. The file is located in the application data folder for Thunderbird:
+<ul><li> The path is <span class=""for"" data-for=""win""><span class=""filepath"">%AppData%\Thunderbird\</span> for Windows</span><span class=""for"" data-for=""linux""><span class=""filepath"">~/.thunderbird/</span> for Linux</span><span class=""for"" data-for=""mac""><span class=""filepath"">~/Library/Thunderbird/</span> for Mac OS X</span>.
+</li></ul>
+</li><li>In the <span class=""filepath"">profiles.ini</span> file, locate the entry for the profile you've just moved. Change the Path= line to the new location. 
+</li><li>If you switch from a relative path to a non-relative path, the direction of the slashes may need to change. For example, in Windows, non-relative paths use backslashes, whereas relative ones use forward slashes. Change IsRelative=1 to IsRelative=0.
+</li><li>Save <span class=""filepath"">profiles.ini</span> and restart Thunderbird.
+</li></ol>
+<h1 id=""w_sharing-profile-data-between-computers"">Sharing profile data between computers</h1>
+<p><strong>Simultaneous access to any part of the Thunderbird profile folder, via a file share, cloud storage or any other method, is NOT supported. Doing so risks corruption and permanent loss of data.</strong>
+</p>
+<h2 id=""w_cloud-storage"">Cloud storage</h2>
+<p>Thunderbird profile stored on cloud synced file storage should work on most cases, but simultaneous access from multiple running instances of Thunderbird, from multiple computers or within a single computer, is not supported. Your Thunderbird profile on cloud storage is not a backup.
+</p>
+<h1 id=""w_see-also"">See Also</h1>
+<ul><li><a href=""http://kb.mozillazine.org/Profile_Manager"">Profile Manager Article</a> on MozillaZine.
+</li><li><a href=""http://kb.mozillazine.org/Profile_backup"">Profile Backup Article</a> on MozillaZine.
+</li></ul>",thunderbird,accounts;email-and-messaging;import-and-export-email;installation-and-updates;profiles,"All your data such as messages, passwords and user preferences, and changes made while you use Thunderbird, are stored in a special folder called a _profile_. Your profile folder is stored in a separate place from the Thunderbird program, so that if something ever goes wrong with the Thunderbird program your information will still be there. It also means that you can uninstall Thunderbird and reinstall without losing your settings and data. But storing it separately is NOT a backup.
+
+**Frequent backups are recommended to protect your data.** Without a backup you risk permanent loss of data from many possible causes. The following are NOT backups: data on mail servers, your Thunderbird profile on your local computer, a Thunderbird profile on a different computer, profiles run in cloud-based storage.
+
+## Table of Contents
+
+- [1 How do I find my profile?](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_how-do-i-find-my-profile)
+  - [1.1 Finding your profile without opening Thunderbird](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird)
+
+- [2 Backing up a profile](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_backing-up-a-profile)
+- [3 Restoring a profile backup](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_restoring-a-profile-backup)
+  - [3.1 Restoring to a different location](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_restoring-to-a-different-location)
+
+- [4 Moving a profile](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_moving-a-profile)
+- [5 Sharing profile data between computers](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_sharing-profile-data-between-computers)
+  - [5.1 Cloud storage](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_cloud-storage)
+
+- [6 See Also](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_see-also)
+
+# How do I find my profile?
+
+- Click ≡ \> Help and select Troubleshooting Information. The **Troubleshooting Information** tab will open.
+- Under the **Application Basics** section, find the _Profile Folder__Profile Directory_ row, then click on Open FolderShow in FinderOpen Directory. A window will open that contains your profile folder.Your profile folder will open.
+
+**Note:** If you are unable to open or use Thunderbird, follow the instructions in [Finding your profile without opening Thunderbird](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird"").
+
+## Finding your profile without opening Thunderbird
+
+Thunderbird stores your profile folder in this location on your computer, by default:  
+""C:\Users\\<your Windows login username\>\AppData\Roaming\Thunderbird\Profiles\""  
+Windows hides the AppData folder by default, but you can find your profile folder as follows:
+
+1. Press ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)+R on the keyboard. A Run dialog will open. 
+2. Paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**
+3. Click OK. A window will open containing profile folders. 
+4. Double-click the profile folder you wish to open. 
+
+1. From the Start Screen, click the **Desktop** tile. The Desktop view will open.
+2. From the Desktop, hover in the lower right-hand corner to access the Charms.
+3. Select the Search charm. The Search sidebar will open.
+4. In the search box, paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**   
+without pressing Enter. A list of profile folders will appear.
+5. Click on the profile folder you wish to open (it will open in a window). If you only have one profile, its folder would have ""default"" in the name.
+
+1. Click the Windows Start button. The Start menu will open.
+2. In the Search box at the bottom of the Start menu, paste or type:  
+**%APPDATA%\Thunderbird\Profiles\**   
+without pressing Enter. A list of profiles will appear at the top of the Start menu.
+3. Click on the profile folder you wish to open (it will open in a window). If you only have a single profile, its folder would have ""default"" in the name.
+
+- Alternatively, you can find your profile by pressing the ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) key and then start typing: **%APPDATA%\Thunderbird\Profiles\**
+
+**Note:** To set Windows to show the AppData folder and other hidden files and folders, see [Show hidden files - Windows Help](https://support.microsoft.com/help/14201/windows-show-hidden-files).
+
+1. Click the Windows Start button, and select Run….  
+   
+ ![win-run.png](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+2. Paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**   
+then click OK.   
+A window will open containing profile folders.  
+ ![win-rundialog.png](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+3. Double-click the profile folder you wish to open.
+
+1. Click the **Finder** icon in the dock. On the menu bar, click the Go menu, hold down the Option or Alt key and select Library.
+2. Open the Thunderbird folder, and then the Profiles folder. 
+3. Your profile folder is within this folder. 
+
+1. **(Ubuntu)** Click the Places menu on the top right of the screen and select Home Folder. A File Browser window will appear.
+2. Click the View menu and select Show Hidden Files if it isn't already checked.
+3. Double click the folder marked .thunderbird. Your profile folder is within this folder. 
+
+If you only have one active profile, and you are using [Thunderbird **ESR**](\""https://support.mozilla.org/en-US/kb/thunderbird-esr"") or [Thunderbird **release**](\""https://support.mozilla.org/en-US/kb/thunderbird-release"") (two types of [update channels](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"")), then ""default-release"" will be in the name by default (unless you have changed it) - both types of installs use the same profile name. Note: a folder name with just ""default"" without ""-release"" is normally an empty, unused dummy folder and can be ignored.
+
+If you are using [Beta](\""https://support.mozilla.org/en-US/kb/thunderbird-beta"") or [Daily](\""https://support.mozilla.org/en-US/kb/thunderbird-daily"") then the profile name defaults to ""default-beta"" or ""default-daily"" respectively. You might also have created [multiple profiles](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles"").
+
+# Backing up a profile
+
+You can backup your data using [Thunderbird's export tool](\""https://support.mozilla.org/en-US/kb/thunderbird-export""), or the steps below.
+
+To back up your profile, first close Thunderbird if it is open and then copy the profile folder to another location.
+
+1. Locate your profile folder, as explained above.
+2. Shut down Thunderbird.
+3. Go to one level above your profile's folder, i.e. to %APPDATA%\Thunderbird\Profiles\~/Library/Thunderbird/Profiles/~/.mozilla/Thunderbird/
+4. Right-clickHold down the Ctrl key while you click on your profile folder (e.g. xxxxxxxx.default), and select Copy.
+5. Right-clickHold down the Ctrl key while you click the backup location (e.g. a USB-stick or a blank CD-RW disc), and select Paste item.
+
+# Restoring a profile backup
+
+You can restore your data using [Thunderbird's import tool](\""https://support.mozilla.org/en-US/kb/thunderbird-import""), or the steps below.
+
+1. Shut down Thunderbird.
+2. If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Thunderbird. 
+**Important:** The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.
+
+## Restoring to a different location
+
+If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
+
+1. Completely close Thunderbird, as explained above.
+2. [Use the Thunderbird Profile Manager to create a new profile](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles"") in your desired location, then exit the Profile Manager. 
+**Note:** If you just installed Thunderbird on a new computer, you can use the default profile that is automatically created when you first run Thunderbird, instead of creating a new profile.
+3. Locate the backed up profile folder on your hard drive or backup medium (e.g., your USB-stick).
+4. Open the profile folder backup (e.g., the xxxxxxxx.default backup).
+5. Copy the entire _contents_ of the profile folder backup, such as the mimeTypes.rdf file, prefs.js file, etc.
+6. Locate and open the new profile folder as explained above and then close Thunderbird (if open).
+7. Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
+8. Start Thunderbird.
+
+# Moving a profile
+
+Occasionally, you might want to move a profile or tell Thunderbird to use a profile stored in another location.
+
+1. Shut down Thunderbird.
+2. Move the profile folder to the desired location. For example, on Windows XP, move the profile from C:\Documents and Settings\[username]\Application Data\Thunderbird\Profiles\xxxxxxxx.default to D:\Stuff\MyMailProfile. (If you are reverting to a backed up profile, this step isn't necessary. Just note the current location of the profile you want to restore.)
+3. Open up the profiles.ini file in a text editor. The file is located in the application data folder for Thunderbird:
+  - The path is %AppData%\Thunderbird\&nbsp;for Windows~/.thunderbird/&nbsp;for Linux~/Library/Thunderbird/&nbsp;for Mac OS X.
+
+4. In the profiles.ini file, locate the entry for the profile you've just moved. Change the Path= line to the new location. 
+5. If you switch from a relative path to a non-relative path, the direction of the slashes may need to change. For example, in Windows, non-relative paths use backslashes, whereas relative ones use forward slashes. Change IsRelative=1 to IsRelative=0.
+6. Save profiles.ini and restart Thunderbird.
+
+# Sharing profile data between computers
+
+**Simultaneous access to any part of the Thunderbird profile folder, via a file share, cloud storage or any other method, is NOT supported. Doing so risks corruption and permanent loss of data.**
+
+## Cloud storage
+
+Thunderbird profile stored on cloud synced file storage should work on most cases, but simultaneous access from multiple running instances of Thunderbird, from multiple computers or within a single computer, is not supported. Your Thunderbird profile on cloud storage is not a backup.
+
+# See Also
+
+- [Profile Manager Article](http://kb.mozillazine.org/Profile_Manager) on MozillaZine.
+- [Profile Backup Article](http://kb.mozillazine.org/Profile_backup) on MozillaZine.
+
+"
+17026,Troubleshoot Mode Thunderbird,troubleshoot-mode-thunderbird,https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird,en-US,"How to use Thunderbird's Troubleshoot Mode to find and fix problems, especially if they are caused by add-ons.","<p><strong>Troubleshoot Mode</strong> runs Thunderbird with some features and customizations disabled, so you can see whether the cause of your problem is one of the disabled items. The disabling is <strong>temporary</strong> unless you choose to make the changes permanent.  <a href=""#w_what-does-troubleshoot-mode-disable"">The list of disabled items</a> is detailed below.
+</p><p><strong>Troubleshoot Mode does not affect your data.</strong>
+</p><p><br>
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_start-thunderbird-in-troubleshoot-mode""><span class=""tocnumber"">1</span> <span class=""toctext"">Start Thunderbird in Troubleshoot Mode</span></a></li><li class=""toclevel-1""><a href=""#w_turn-troubleshoot-mode-off""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn Troubleshoot Mode off</span></a></li><li class=""toclevel-1""><a href=""#w_diagnose-problems-in-troubleshoot-mode""><span class=""tocnumber"">3</span> <span class=""toctext"">Diagnose problems in Troubleshoot Mode</span></a><ul><li class=""toclevel-2""><a href=""#w_the-problem-still-happens-in-troubleshoot-mode""><span class=""tocnumber"">3.1</span> <span class=""toctext"">The problem still happens in Troubleshoot Mode</span></a></li><li class=""toclevel-2""><a href=""#w_the-problem-no-longer-happens-in-troubleshoot-mode""><span class=""tocnumber"">3.2</span> <span class=""toctext"">The problem no longer happens in Troubleshoot Mode</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-does-troubleshoot-mode-disable""><span class=""tocnumber"">4</span> <span class=""toctext"">What does Troubleshoot Mode disable?</span></a></li></ul></div>
+<h1 id=""w_start-thunderbird-in-troubleshoot-mode"">Start Thunderbird in Troubleshoot Mode</h1>
+<ol><li> Switch to Troubleshoot Mode:
+<ul><li> <strong>If Thunderbird is not running:</strong> <span class=""for"" data-for=""win"">Hold down the <span class=""key"">Shift</span> key while starting Thunderbird.</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">option</span> key while starting Thunderbird.</span><span class=""for"" data-for=""linux"">From <strong>Terminal</strong>, run this command: <code>thunderbird -safe-mode</code><br>You may need to specify the Thunderbird installation path (e.g. <span class=""filepath"">/usr/lib/thunderbird</span> or <span class=""filepath"">~/Downloads/thunderbird/thunderbird</span>).</span>
+</li><li> <strong>If Thunderbird is already running:</strong> Click <span class=""button"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Troubleshoot Mode...</span> and in the <em>Restart in Troubleshoot Mode</em> prompt, choose <span class=""button"">Restart</span>.
+</li></ul>
+</li><li> In the <strong>Thunderbird Troubleshoot Mode</strong> dialog box, click <span class=""button"">Continue in Troubleshoot Mode</span> button.
+<dl><dt><img alt=""tb-115-trouble-shoot-mode-cropped"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-24-17-00-44-75733b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt><dt><div class=""note"">If you want Troubleshoot Mode changes to be temporary, do not check the checkboxes - temporary is the default. But you can choose to make the changes permanent.</div>
+</dt></dl>
+</li><li> Click <span class=""button"">≡</span>  &gt; <span class=""menu"">Help</span> and check if you see <span class=""menu"">Turn Troubleshoot Mode Off</span> in the menu, to confirm that Thunderbird is currently running in Troubleshoot Mode.
+</li></ol>
+<h1 id=""w_turn-troubleshoot-mode-off"">Turn Troubleshoot Mode off</h1>
+<p>Click <span class=""button"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Turn Troubleshoot Mode Off</span> to immediately close Thunderbird and restart it in normal mode.
+</p><p>Or you can exit Thunderbird and start as you normally would.
+</p>
+<h1 id=""w_diagnose-problems-in-troubleshoot-mode"">Diagnose problems in Troubleshoot Mode</h1>
+<p>After starting Thunderbird in <strong>Troubleshoot Mode</strong>, test its behavior to see if the problem goes away.
+</p>
+<h2 id=""w_the-problem-still-happens-in-troubleshoot-mode"">The problem still happens in Troubleshoot Mode</h2>
+<p>If the problem still happens in Troubleshoot Mode, then it is not caused by an extension or theme installed in Thunderbird. Possible causes and solutions include:
+</p><div class=""for"" data-for=""win"">
+<ul><li> Something wrong with your Windows operating system or operating environment. Please start <a href=""https://support.microsoft.com/en-us/help/12376/windows-10-start-your-pc-in-safe-mode"">Windows in safe mode</a>. If the problem is resolved in Windows safe mode, then the cause is likely a program loaded during Windows startup. Possibilities include: antivirus software (AV), virus/malware, background downloads such as Windows or other program updates to name a few. For AV information see <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues"">https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues</a>.
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li> Something is wrong with your Thunderbird installation: If you had installed Thunderbird using the Linux package manager, then try reinstalling it. Also investigate possible library conflicts, and consider using the Thunderbird package from <a href=""https://www.thunderbird.net/"">https://www.thunderbird.net/</a>.
+</li></ul>
+</div>
+<ul><li> A problem with your mail provider. For example, <a href=""/en-US/kb/cannot-receive-messages"">not being able to recieve</a> or <a href=""/en-US/kb/cannot-send-messages"">not being able to send messages</a>.
+</li><li> Changes made to Thunderbird preference settings not disabled in Troubleshoot Mode. You might <a href=""/en-US/kb/using-multiple-profiles"">try creating a new profile</a>. (But do not delete your current profile.)
+</li><li> A bug in Thunderbird. <a href=""https://support.mozilla.org/en-US/questions/new/thunderbird"">Ask for help to determine if it is a bug</a>. Please file a bug if you have determined with Thunderbird Help Support that the problem is with Thunderbird. 
+</li></ul>
+<p>
+
+</p><p>
+</p>
+<h2 id=""w_the-problem-no-longer-happens-in-troubleshoot-mode"">The problem no longer happens in Troubleshoot Mode</h2>
+<p>If the problem no longer happens in Troubleshoot Mode, the most likely cause is an extension, theme, or hardware acceleration. Possible solutions include switching back to normal mode, then doing the following: (You may need to restart Thunderbird after each step to see if it solves the problem.)
+</p>
+<ul><li> Progressively disable extensions in the add-ons manager: Click <span class=""button"">≡</span> &gt; <span class=""button"">Add-ons and Themes</span> &gt; <span class=""button"">Extensions</span>, then check to see if the problem remains after disabling each extension. When the problem goes away, the last disabled extension is most likely the cause. You can try updating, reinstalling, removing, or leaving the extension disabled. 
+</li><li> Set the default theme in the add-ons manager: Click <span class=""button"">≡</span> &gt; <span class=""button"">Add-ons and Themes</span> &gt; <span class=""button"">Themes</span>, then enable the default theme.
+</li><li> Turn off the hardware acceleration in Thunderbird's settings: Click <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">General</span>, then uncheck <span class=""menu"">Use hardware acceleration when available</span>.
+</li></ul>
+<p>
+
+</p><h1 id=""w_what-does-troubleshoot-mode-disable"">What does Troubleshoot Mode disable?</h1>
+<ul><li><a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions"">Add-ons (extensions and themes)</a>
+</li><li><a href=""/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"">Hardware acceleration</a>
+</li><li><a href=""/en-US/kb/changes-toolbars-and-window-sizes-are-not-saved"">Window and sidebar size and position settings</a> (described in terms of Firefox)
+</li><li>userChrome and userContent customizations ; see <a href=""/en-US/kb/userchromecss-js-usercontent-unsupported"">userChrome.css and .js and userContent are unsupported</a>
+</li><li><a href=""https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/"">JavaScript Just-in-time (JIT) compiler</a>
+</li></ul>",thunderbird,crashing-and-slow-performance;performance-and-connectivity," **Troubleshoot Mode** runs Thunderbird with some features and customizations disabled, so you can see whether the cause of your problem is one of the disabled items. The disabling is **temporary** unless you choose to make the changes permanent. [The list of disabled items](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_what-does-troubleshoot-mode-disable) is detailed below.
+
+**Troubleshoot Mode does not affect your data.**
+
+## Table of Contents
+
+- [1 Start Thunderbird in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_start-thunderbird-in-troubleshoot-mode)
+- [2 Turn Troubleshoot Mode off](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_turn-troubleshoot-mode-off)
+- [3 Diagnose problems in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_diagnose-problems-in-troubleshoot-mode)
+  - [3.1 The problem still happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_the-problem-still-happens-in-troubleshoot-mode)
+  - [3.2 The problem no longer happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_the-problem-no-longer-happens-in-troubleshoot-mode)
+
+- [4 What does Troubleshoot Mode disable?](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_what-does-troubleshoot-mode-disable)
+
+# Start Thunderbird in Troubleshoot Mode
+
+1. Switch to Troubleshoot Mode:
+  - **If Thunderbird is not running:** Hold down the Shift key while starting Thunderbird.Hold down the option key while starting Thunderbird.From **Terminal** , run this command: `thunderbird -safe-mode`  
+You may need to specify the Thunderbird installation path (e.g. /usr/lib/thunderbird or ~/Downloads/thunderbird/thunderbird).
+  - **If Thunderbird is already running:** Click ≡ \> Help \> Troubleshoot Mode... and in the _Restart in Troubleshoot Mode_ prompt, choose Restart.
+
+2. In the **Thunderbird Troubleshoot Mode** dialog box, click Continue in Troubleshoot Mode button.<dl>
+<dt>
+<img alt=""tb-115-trouble-shoot-mode-cropped"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-24-17-00-44-75733b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt>
+<dt>
+<div class=""note"">If you want Troubleshoot Mode changes to be temporary, do not check the checkboxes - temporary is the default. But you can choose to make the changes permanent.</div>
+</dt>
+</dl>
+3. Click ≡ \> Help and check if you see Turn Troubleshoot Mode Off in the menu, to confirm that Thunderbird is currently running in Troubleshoot Mode.
+
+# Turn Troubleshoot Mode off
+
+Click ≡ \> Help \> Turn Troubleshoot Mode Off to immediately close Thunderbird and restart it in normal mode.
+
+Or you can exit Thunderbird and start as you normally would.
+
+# Diagnose problems in Troubleshoot Mode
+
+After starting Thunderbird in **Troubleshoot Mode** , test its behavior to see if the problem goes away.
+
+## The problem still happens in Troubleshoot Mode
+
+If the problem still happens in Troubleshoot Mode, then it is not caused by an extension or theme installed in Thunderbird. Possible causes and solutions include:
+
+- Something wrong with your Windows operating system or operating environment. Please start [Windows in safe mode](https://support.microsoft.com/en-us/help/12376/windows-10-start-your-pc-in-safe-mode). If the problem is resolved in Windows safe mode, then the cause is likely a program loaded during Windows startup. Possibilities include: antivirus software (AV), virus/malware, background downloads such as Windows or other program updates to name a few. For AV information see [https://wiki.mozilla.org/Thunderbird:Testing:Antivirus\_Related\_Performance\_Issues](https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues).
+
+- Something is wrong with your Thunderbird installation: If you had installed Thunderbird using the Linux package manager, then try reinstalling it. Also investigate possible library conflicts, and consider using the Thunderbird package from [https://www.thunderbird.net/](https://www.thunderbird.net/).
+
+- A problem with your mail provider. For example, [not being able to recieve](\""https://support.mozilla.org/en-US/kb/cannot-receive-messages"") or [not being able to send messages](\""https://support.mozilla.org/en-US/kb/cannot-send-messages"").
+- Changes made to Thunderbird preference settings not disabled in Troubleshoot Mode. You might [try creating a new profile](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles""). (But do not delete your current profile.)
+- A bug in Thunderbird. [Ask for help to determine if it is a bug](https://support.mozilla.org/en-US/questions/new/thunderbird). Please file a bug if you have determined with Thunderbird Help Support that the problem is with Thunderbird. 
+
+## The problem no longer happens in Troubleshoot Mode
+
+If the problem no longer happens in Troubleshoot Mode, the most likely cause is an extension, theme, or hardware acceleration. Possible solutions include switching back to normal mode, then doing the following: (You may need to restart Thunderbird after each step to see if it solves the problem.)
+
+- Progressively disable extensions in the add-ons manager: Click ≡ \> Add-ons and Themes \> Extensions, then check to see if the problem remains after disabling each extension. When the problem goes away, the last disabled extension is most likely the cause. You can try updating, reinstalling, removing, or leaving the extension disabled. 
+- Set the default theme in the add-ons manager: Click ≡ \> Add-ons and Themes \> Themes, then enable the default theme.
+- Turn off the hardware acceleration in Thunderbird's settings: Click ≡ \> Settings \> General, then uncheck Use hardware acceleration when available.
+
+# What does Troubleshoot Mode disable?
+
+- [Add-ons (extensions and themes)](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions"")
+- [Hardware acceleration](\""https://support.mozilla.org/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"")
+- [Window and sidebar size and position settings](\""https://support.mozilla.org/en-US/kb/changes-toolbars-and-window-sizes-are-not-saved"") (described in terms of Firefox)
+- userChrome and userContent customizations&nbsp;; see [userChrome.css and .js and userContent are unsupported](\""https://support.mozilla.org/en-US/kb/userchromecss-js-usercontent-unsupported"")
+- [JavaScript Just-in-time (JIT) compiler](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/)
 
 "
 17028,Thunderbird and Gmail,thunderbird-and-gmail,https://support.mozilla.org/en-US/kb/thunderbird-and-gmail,en-US,Thunderbird can be set up to work seamlessly with Google's Gmail. Messages will be synchronized between your local version of Thunderbird and web-based Gmail.,"<p>Thunderbird can be configured to work seamlessly with Google's <a href=""https://www.google.com/gmail/about/"">Gmail</a> service. Messages are synchronized between your local version of Thunderbird and the web-based Gmail.
@@ -54237,6 +54493,144 @@ Once you share a browser window with a site, you’re allowing that site to see 
 
 For more information, see [this Mozilla blog post](https://blog.mozilla.org/webrtc/share-browser-windows-entire-screen-sites-trust/).
 "
+35620,Use a Primary Password with Sync,using-primary-password-sync,https://support.mozilla.org/en-US/kb/using-primary-password-sync,en-US,Learn how to use Sync in Firefox with a Primary Password (formerly known as a “Master Password”) for extra protection.,"<p>Firefox for desktop has the option to use a Primary Password to protect your saved passwords. When a Primary Password is enabled, your saved passwords are encrypted and can not be accessed without entering the Primary Password. See <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Use a Primary Password to protect stored logins and passwords</a> for more information.
+</p>
+<h1 id=""w_how-does-my-primary-password-work-with-sync"">How does my Primary Password work with Sync?</h1>
+<p>When <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">using Sync</a>, your Mozilla account login is stored in the <a href=""/en-US/kb/password-manager-remember-delete-edit-logins"">Firefox password manager</a>. Your Primary Password must be entered before Sync can access your Mozilla account, allowing <a href=""/en-US/kb/sync-firefox-desktop"">syncing of your saved passwords</a> and other browser data among your devices.
+</p>
+<h1 id=""w_how-are-my-passwords-kept-safe"">How are my passwords kept safe?</h1>
+<p>When you save website passwords, the Primary Password feature encrypts them before storing them on your computer. To sync your passwords, once you enter your Primary Password, Sync re-encrypts them based on your Mozilla account password and then sends them to Sync servers. The decrypted copies of your passwords are never transmitted online.
+</p><p>This means the Primary Password is specific to a single device and not your Mozilla account. Each device can have a different (or no) Primary Password, and they are not synced between devices.
+</p>
+<div class=""note""><strong>Tip:</strong> Increase protection by enabling a Primary Password on each device. See <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Use a Primary Password to protect stored logins and passwords</a>.</div>
+<h1 id=""w_what-about-android-and-apples-ios"">What about Android and Apple's iOS?</h1>
+<p>Mobile versions of Firefox locally encrypt your passwords, but do so by relying on the built-in security of the device rather than a Primary Password. Your Mozilla account password is required to connect to Sync, so each login can be re-encrypted in a way that other devices are able to decrypt.
+</p>
+<div class=""note""><strong>Security tip:</strong> Always choose <a href=""/en-US/kb/password-strength"">a strong password</a> for your Mozilla account and be careful not to lose it. If you reset your password after forgetting it, you will lose access to your Sync data until you resync your device using the new password.</div>",firefox,passwords-and-sign-in;primary-password;sync-data,"Firefox for desktop has the option to use a Primary Password to protect your saved passwords. When a Primary Password is enabled, your saved passwords are encrypted and can not be accessed without entering the Primary Password. See [Use a Primary Password to protect stored logins and passwords](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") for more information.
+
+# How does my Primary Password work with Sync?
+
+When [using Sync](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer""), your Mozilla account login is stored in the [Firefox password manager](\""https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins""). Your Primary Password must be entered before Sync can access your Mozilla account, allowing [syncing of your saved passwords](\""https://support.mozilla.org/en-US/kb/sync-firefox-desktop"") and other browser data among your devices.
+
+# How are my passwords kept safe?
+
+When you save website passwords, the Primary Password feature encrypts them before storing them on your computer. To sync your passwords, once you enter your Primary Password, Sync re-encrypts them based on your Mozilla account password and then sends them to Sync servers. The decrypted copies of your passwords are never transmitted online.
+
+This means the Primary Password is specific to a single device and not your Mozilla account. Each device can have a different (or no) Primary Password, and they are not synced between devices.
+
+**Tip:** Increase protection by enabling a Primary Password on each device. See [Use a Primary Password to protect stored logins and passwords](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"").
+
+# What about Android and Apple's iOS?
+
+Mobile versions of Firefox locally encrypt your passwords, but do so by relying on the built-in security of the device rather than a Primary Password. Your Mozilla account password is required to connect to Sync, so each login can be re-encrypted in a way that other devices are able to decrypt.
+
+**Security tip:** Always choose [a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"") for your Mozilla account and be careful not to lose it. If you reset your password after forgetting it, you will lose access to your Sync data until you resync your device using the new password.
+"
+35625,My sign in was blocked for security reasons on Mozilla account,accounts-blocked,https://support.mozilla.org/en-US/kb/accounts-blocked,en-US,Sign-in attempts are blocked for security reasons if unusual activity is detected on your Mozilla account. Learn how to regain access.,"<p>If sign-in attempts on your Mozilla account are blocked and your account has been locked for security reasons, it means unusual activity was detected on your account. We understand this is frustrating, however this security measure prevents access until we verify your identity. To proceed, we’ll send you an email to confirm it’s you trying to sign in or to report unfamiliar activity.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_verification-e-mail""><span class=""tocnumber"">1</span> <span class=""toctext"">Verification E-mail</span></a></li><li class=""toclevel-1""><a href=""#w_i-havent-received-the-verification-email-what-should-i-do""><span class=""tocnumber"">2</span> <span class=""toctext"">I haven’t received the verification email. What should I do?</span></a></li><li class=""toclevel-1""><a href=""#w_my-verification-code-was-rejected-what-can-i-do""><span class=""tocnumber"">3</span> <span class=""toctext"">My verification code was rejected. What can I do?</span></a></li><li class=""toclevel-1""><a href=""#w_i-no-longer-have-access-to-the-email-on-my-mozilla-account""><span class=""tocnumber"">4</span> <span class=""toctext"">I no longer have access to the email on my Mozilla account.</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_verification-e-mail"">Verification E-mail</h1>
+<p>If your Mozilla account blocks a sign-in attempt, you will receive an email with a verification code. The email will include details about the attempt, such as the device type, location, IP address and time. If the activity looks familiar, enter the verification code from the email to confirm your identity.
+</p>
+<dl><dt><img alt=""MZA confirmation email"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-24-05-36-49-1cb353.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""note""><strong>How do I know that this email is really from Mozilla?</strong> Mozilla will never request your passwords, credit card details or bank information. Always check the sender’s email address for an official Mozilla domain and be cautious of any suspicious links or requests for personal information. Codes may contain numbers and letters; be careful with similar-looking characters like O (letter) and 0 (zero).</div>
+<p><strong>Why am I locked out after one attempt?</strong>
+This can happen if multiple verification codes are requested in a short time. Only the most recent code is valid - entering an old one counts as a failed attempt. This triggers a 15-minute lockout for security.
+</p><p>
+</p>
+<h1 id=""w_i-havent-received-the-verification-email-what-should-i-do"">I haven’t received the verification email. What should I do?</h1>
+<p>First, check your spam folder and filters to make sure it didn’t end up in the wrong folder. Also ensure your inbox isn’t full, and check for typos in your email address. After waiting a few minutes, try requesting the code again.
+</p><p>For other solutions, see <a href=""/en-US/kb/im-having-problems-confirming-my-firefox-account"">I'm having problems confirming my Mozilla account</a>. You can also contact the Mozilla account support team by completing <a href=""https://support.mozilla.org/questions/new/mozilla-account/form"">this form</a>, linked from the <span class=""button"">Contact Support</span> button in the <em>Still need help?</em> block shown below.
+</p>
+<h1 id=""w_my-verification-code-was-rejected-what-can-i-do"">My verification code was rejected. What can I do?</h1>
+<p>If your verification code is not accepted:
+</p>
+<ol><li>Double-check that you're entering the most recent code sent to your email. Older codes will not work.
+</li><li>The code is case-sensitive. Make sure Caps Lock is off.
+</li><li>Try typing the code manually if copy/paste doesn’t work.
+</li><li>Avoid using autofill or browser extensions that may overwrite fields.
+</li></ol>
+<p>Still not working?
+</p>
+<ul><li>Wait 15 minutes, then request a new code.
+</li><li>Try signing in using a different browser or a private window.
+</li><li>If the issue continues, contact Mozilla account support.
+</li></ul>
+<h1 id=""w_i-no-longer-have-access-to-the-email-on-my-mozilla-account"">I no longer have access to the email on my Mozilla account.</h1>
+<p>If you can't access your original email address, Mozilla support cannot recover your account for privacy and security reasons.
+</p><p>You can create a new Mozilla account using a new email address. However, if you are signed in on another device, update your account email by following the path:
+</p>
+<ul><li>Account Settings
+</li><li>Manage Account
+</li><li>Change Email before logging out
+</li></ul>
+<div class=""note"">Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a>
+</li><li><a href=""/en-US/kb/firefox-accounts-managing-account-data"">Mozilla account - Managing account data</a>
+</li><li><a href=""/en-US/kb/how-do-i-set-sync-my-computer"">How do I set up Sync on my computer?</a>
+</li></ul>",firefox;mozilla-account,accounts;passwords-and-sign-in;sign-in,"If sign-in attempts on your Mozilla account are blocked and your account has been locked for security reasons, it means unusual activity was detected on your account. We understand this is frustrating, however this security measure prevents access until we verify your identity. To proceed, we’ll send you an email to confirm it’s you trying to sign in or to report unfamiliar activity.
+
+## Table of Contents
+
+- [1 Verification E-mail](https://support.mozilla.org/kb/accounts-blocked#w_verification-e-mail)
+- [2 I haven’t received the verification email. What should I do?](https://support.mozilla.org/kb/accounts-blocked#w_i-havent-received-the-verification-email-what-should-i-do)
+- [3 My verification code was rejected. What can I do?](https://support.mozilla.org/kb/accounts-blocked#w_my-verification-code-was-rejected-what-can-i-do)
+- [4 I no longer have access to the email on my Mozilla account.](https://support.mozilla.org/kb/accounts-blocked#w_i-no-longer-have-access-to-the-email-on-my-mozilla-account)
+- [5 Related articles](https://support.mozilla.org/kb/accounts-blocked#w_related-articles)
+
+# Verification E-mail
+
+If your Mozilla account blocks a sign-in attempt, you will receive an email with a verification code. The email will include details about the attempt, such as the device type, location, IP address and time. If the activity looks familiar, enter the verification code from the email to confirm your identity.
+
+<dl><dt>
+<img alt=""MZA confirmation email"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-24-05-36-49-1cb353.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+**How do I know that this email is really from Mozilla?** Mozilla will never request your passwords, credit card details or bank information. Always check the sender’s email address for an official Mozilla domain and be cautious of any suspicious links or requests for personal information. Codes may contain numbers and letters; be careful with similar-looking characters like O (letter) and 0 (zero).
+
+**Why am I locked out after one attempt?** This can happen if multiple verification codes are requested in a short time. Only the most recent code is valid - entering an old one counts as a failed attempt. This triggers a 15-minute lockout for security.
+
+# I haven’t received the verification email. What should I do?
+
+First, check your spam folder and filters to make sure it didn’t end up in the wrong folder. Also ensure your inbox isn’t full, and check for typos in your email address. After waiting a few minutes, try requesting the code again.
+
+For other solutions, see [I'm having problems confirming my Mozilla account](\""https://support.mozilla.org/en-US/kb/im-having-problems-confirming-my-firefox-account""). You can also contact the Mozilla account support team by completing [this form](https://support.mozilla.org/questions/new/mozilla-account/form), linked from the Contact Support button in the _Still need help?_ block shown below.
+
+# My verification code was rejected. What can I do?
+
+If your verification code is not accepted:
+
+1. Double-check that you're entering the most recent code sent to your email. Older codes will not work.
+2. The code is case-sensitive. Make sure Caps Lock is off.
+3. Try typing the code manually if copy/paste doesn’t work.
+4. Avoid using autofill or browser extensions that may overwrite fields.
+
+Still not working?
+
+- Wait 15 minutes, then request a new code.
+- Try signing in using a different browser or a private window.
+- If the issue continues, contact Mozilla account support.
+
+# I no longer have access to the email on my Mozilla account.
+
+If you can't access your original email address, Mozilla support cannot recover your account for privacy and security reasons.
+
+You can create a new Mozilla account using a new email address. However, if you are signed in on another device, update your account email by following the path:
+
+- Account Settings
+- Manage Account
+- Change Email before logging out
+
+Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address. Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
+
+# Related articles
+
+- [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"")
+- [Mozilla account - Managing account data](\""https://support.mozilla.org/en-US/kb/firefox-accounts-managing-account-data"")
+- [How do I set up Sync on my computer?](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"")
+
+"
 35708,Message Tags - Categorize your email in Thunderbird,message-tags,https://support.mozilla.org/en-US/kb/message-tags,en-US,Message tags let you organize your email messages by categories. Learn how to use them.,"<p>Message tags let you organize your email messages by categories. You can tag your work messages with one color and personal with another, so they are easy to distinguish. Even better, you can then use the Quick Filter bar to pick out the messages with a specific tag from the list.
 </p><p><span class=""for"" data-for=""tb60""><img alt=""TB60 message tags"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-16-10-35-35-67cddd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 <span class=""for"" data-for=""not tb60""><span class=""for"" data-for=""not mac""><img alt=""TB message tags"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-11-19-06-48-17-97dfaa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""TB_message_tags_mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-13-17-08-25-f728ab.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span>
@@ -69807,6 +70201,80 @@ If you don’t want to see the controls while hovering, you can hide that option
 </dt></dl>
 
 If you later want to re-enable the controls, simply add back the check mark.
+
+"
+45920,"""Certificate cannot be trusted"" warning in Kazakhstan",certificate-cannot-be-trusted-warning-kazakhstan,https://support.mozilla.org/en-US/kb/certificate-cannot-be-trusted-warning-kazakhstan,en-US,Firefox is blocking the use of Kazakhstan root CA certificate to protect your privacy. Learn more about how to stay safe.,"<p>Internet Service Providers (ISPs) in Kazakhstan have been prompting users to install a government-issued root certificate on their devices. Many users were not aware that the certificate was being used to intercept their network communications, enabling a <a href=""https://wikipedia.org/wiki/Man-in-the-middle_attack"">Man-in-the-Middle (MITM) attack</a>.
+</p><p>The security and privacy of HTTPS encrypted communications in Firefox and other browsers relies on trusted Certificate Authorities (CAs) to issue website certificates only to someone that controls the domain name or website. However, if you install a root certificate manually, you are choosing to trust a certificate that doesn’t necessarily have to follow any privacy and security standards.
+</p><p>For your security, Firefox will block the use of the Kazakhstan root CA certificate, considering it invalid even if you’ve installed it. 
+</p><p>See <a href=""https://blog.mozilla.org/blog/2019/08/21/mozilla-takes-action-to-protect-users-in-kazakhstan/"">the Mozilla Blog</a> for more information.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-know-if-firefox-has-blocked-the-kazakhstan-root-ca-certificate""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I know if Firefox has blocked the Kazakhstan root CA certificate?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-remove-this-certificate""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I remove this certificate?</span></a></li><li class=""toclevel-1""><a href=""#w_what-can-i-do-to-protect-my-privacy""><span class=""tocnumber"">3</span> <span class=""toctext"">What can I do to protect my privacy?</span></a></li></ul></div>
+<h1 id=""w_how-do-i-know-if-firefox-has-blocked-the-kazakhstan-root-ca-certificate"">How do I know if Firefox has blocked the Kazakhstan root CA certificate?</h1>
+<p>If you attempt to access a site that responds with this certificate, you will get an error message saying the certificate cannot be trusted.
+</p>
+<h1 id=""w_how-do-i-remove-this-certificate"">How do I remove this certificate?</h1>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Go to the <span class=""menu"">Privacy &amp; Security</span> panel.
+</li><li>Scroll down to the end and click <span class=""button"">View Certificates</span>.
+</li><li>Under <em>Authorities</em>, select <strong>Qaznet Trust network</strong> from the list and click <span class=""button"">Delete</span>.
+</li></ol>
+<div class=""note"">You may have also installed the root certificate into the operating system (e.g. Windows, Android) of your device. If so, you must also follow instructions specific to your operating system to remove it, or else Firefox may not protect you from this threat.</div>
+<h1 id=""w_what-can-i-do-to-protect-my-privacy"">What can I do to protect my privacy?</h1>
+<ul><li>If you installed the root CA certificate, remove it immediately.
+</li><li>Change your passwords to a strong, unique password for each of your online accounts.
+</li><li>Research the use of virtual private network (VPN) software, or the <a href=""https://www.torproject.org/download/"">Tor Browser</a>, to access the Web. The Electronic Frontier Foundation provides helpful guidance on choosing a VPN (see <a href=""https://ssd.eff.org/en/module/choosing-vpn-thats-right-you"">Choosing the VPN That's Right for You</a>).
+</li></ul>",firefox,privacy-and-security,"Internet Service Providers (ISPs) in Kazakhstan have been prompting users to install a government-issued root certificate on their devices. Many users were not aware that the certificate was being used to intercept their network communications, enabling a [Man-in-the-Middle (MITM) attack](https://wikipedia.org/wiki/Man-in-the-middle_attack).
+
+The security and privacy of HTTPS encrypted communications in Firefox and other browsers relies on trusted Certificate Authorities (CAs) to issue website certificates only to someone that controls the domain name or website. However, if you install a root certificate manually, you are choosing to trust a certificate that doesn’t necessarily have to follow any privacy and security standards.
+
+For your security, Firefox will block the use of the Kazakhstan root CA certificate, considering it invalid even if you’ve installed it.
+
+See [the Mozilla Blog](https://blog.mozilla.org/blog/2019/08/21/mozilla-takes-action-to-protect-users-in-kazakhstan/) for more information.
+
+## Table of Contents
+
+- [1 How do I know if Firefox has blocked the Kazakhstan root CA certificate?](https://support.mozilla.org/kb/certificate-cannot-be-trusted-warning-kazakhstan#w_how-do-i-know-if-firefox-has-blocked-the-kazakhstan-root-ca-certificate)
+- [2 How do I remove this certificate?](https://support.mozilla.org/kb/certificate-cannot-be-trusted-warning-kazakhstan#w_how-do-i-remove-this-certificate)
+- [3 What can I do to protect my privacy?](https://support.mozilla.org/kb/certificate-cannot-be-trusted-warning-kazakhstan#w_what-can-i-do-to-protect-my-privacy)
+
+# How do I know if Firefox has blocked the Kazakhstan root CA certificate?
+
+If you attempt to access a site that responds with this certificate, you will get an error message saying the certificate cannot be trusted.
+
+# How do I remove this certificate?
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Go to the Privacy & Security panel.
+3. Scroll down to the end and click View Certificates.
+4. Under _Authorities_, select **Qaznet Trust network** from the list and click Delete.
+
+You may have also installed the root certificate into the operating system (e.g. Windows, Android) of your device. If so, you must also follow instructions specific to your operating system to remove it, or else Firefox may not protect you from this threat.
+
+# What can I do to protect my privacy?
+
+- If you installed the root CA certificate, remove it immediately.
+- Change your passwords to a strong, unique password for each of your online accounts.
+- Research the use of virtual private network (VPN) software, or the [Tor Browser](https://www.torproject.org/download/), to access the Web. The Electronic Frontier Foundation provides helpful guidance on choosing a VPN (see [Choosing the VPN That's Right for You](https://ssd.eff.org/en/module/choosing-vpn-thats-right-you)).
+
+"
+45950,How Firefox Sync keeps your data safe even if TLS fails,how-firefox-sync-keeps-your-data-safe-even-if-tls-fails,https://support.mozilla.org/en-US/kb/how-firefox-sync-keeps-your-data-safe-even-if-tls-fails,en-US,"Firefox Sync encrypts your data before it ever leaves your device, and ensures that the password to unlock this encryption is never transmitted to the server.","<p>With so many stories popping up in the news around data leakage these days, you may be wondering if your Firefox Sync data is safe. No need to worry as Firefox Sync contains additional layers of security.
+</p>
+<h1 id=""w_how-sync-works"">How Sync works</h1>
+<ul><li><a href=""/en-US/kb/sync"">Firefox Sync</a> ensures that your data is encrypted before it ever leaves your device, and that the password to unlock this encryption is never transmitted to the server. This is done by applying some cryptographic hashing to your Mozilla account password to strengthen it when you enter it, and deriving the authentication and encryption keys.
+</li><li>The authentication key is transmitted to the server to prove that you own the account. If <a href=""http://wikipedia.org/wiki/Transport_Layer_Security"">Transport Layer Security</a> (TLS) fails, this might cause the authentication key to be leaked, and someone who intercepts this key could use it to authenticate into your account. However, they can’t use it to access your Firefox Sync data since the encryption key is used to encrypt your data before it leaves your device. This key is never transmitted to the server, so it can’t be leaked if TLS fails.
+</li><li>Firefox Sync uses the account password to build an additional layer of security and encryption on top of what’s provided by TLS. Therefore, we can’t even access your Firefox Sync data and don’t rely on the confidentiality of TLS to keep your data safe. For technical details regarding how the entire process works, see <a href=""https://hacks.mozilla.org/2018/11/firefox-sync-privacy/"">Private by Design: How we built Firefox Sync</a>. 
+</li></ul>
+<p>The stronger your password, the more protection this scheme can offer. That’s why it’s important to <a href=""/en-US/kb/password-strength"">choose a secure password</a> for your Mozilla account.
+</p>",firefox;mozilla-account,privacy-and-security;sync-data,"With so many stories popping up in the news around data leakage these days, you may be wondering if your Firefox Sync data is safe. No need to worry as Firefox Sync contains additional layers of security.
+
+# How Sync works
+
+- [Firefox Sync](\""https://support.mozilla.org/en-US/kb/sync"") ensures that your data is encrypted before it ever leaves your device, and that the password to unlock this encryption is never transmitted to the server. This is done by applying some cryptographic hashing to your Mozilla account password to strengthen it when you enter it, and deriving the authentication and encryption keys.
+- The authentication key is transmitted to the server to prove that you own the account. If [Transport Layer Security](http://wikipedia.org/wiki/Transport_Layer_Security) (TLS) fails, this might cause the authentication key to be leaked, and someone who intercepts this key could use it to authenticate into your account. However, they can’t use it to access your Firefox Sync data since the encryption key is used to encrypt your data before it leaves your device. This key is never transmitted to the server, so it can’t be leaked if TLS fails.
+- Firefox Sync uses the account password to build an additional layer of security and encryption on top of what’s provided by TLS. Therefore, we can’t even access your Firefox Sync data and don’t rely on the confidentiality of TLS to keep your data safe. For technical details regarding how the entire process works, see [Private by Design: How we built Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/). 
+
+The stronger your password, the more protection this scheme can offer. That’s why it’s important to [choose a secure password](\""https://support.mozilla.org/en-US/kb/password-strength"") for your Mozilla account.
 
 "
 46006,Autofill logins on Firefox,autofill-logins-firefox,https://support.mozilla.org/en-US/kb/autofill-logins-firefox,en-US,Firefox lets you control whether or not to autofill your logins and passwords.,"<p>Firefox automatically saves and fills in your login information by default, so you wouldn't have to enter them every time. This article explains how you can control whether or not to autofill your passwords.
@@ -88769,6 +89237,178 @@ Thunderbird always helps you to do more with less effort. **Improved:** When rea
 </p>",klar,firefox-klar-ios,"Welcome to version 99 of Firefox Klar for iOS. There were no major updates or enhancements released in version 99, only bug fixes. Check back in May for what's new in version 100.
 
 "
+58342,Safari Integration in Firefox Focus for iOS,safari-integration-firefox-ios,https://support.mozilla.org/en-US/kb/safari-integration-firefox-ios,en-US,Firefox Focus for iOS allows users to integrate Firefox Focus features to Safari. Some users may have to take extra steps to enable Safari integration.,"<p>Enjoy protection against ad, social, content or analytics trackers provided by Firefox Focus without switching from Safari and keep Safari your preferred browser. Follow these steps to enable Firefox Focus for Safari.
+</p>
+<h1 id=""w_step-1-allow-safari-to-use-content-blockers"">Step 1: allow Safari to use content blockers</h1>
+<ol><li>Open the <strong>Settings</strong> app in your iPhone or iPad.
+</li><li>Scroll down to <span class=""menu"">Safari</span> and tap it.
+</li><li>In the <em>General</em> section, tap <strong>Extensions</strong>.
+</li><li>Under <em>Allow these content blockers</em>, check the switch next to <strong>Firefox Focus</strong>. If it is not enabled, tap it <img alt=""iosGreenSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-30-34-ff3d44.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
+</li><li>Close the <strong>Settings</strong> app.
+</li></ol>
+<h1 id=""w_step-2-enable-firefox-focus-for-safari"">Step 2: enable Firefox Focus for Safari</h1>
+<ol><li>Open Firefox Focus.
+</li><li>On the top right corner of the screen, tap the menu button <span class=""menu"">☰</span>.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Under <em>Safari Integration</em>, tap the switch next to <strong>Safari</strong> to enable it <img alt=""focusIosPinkSwitch"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-30-03-31-28-baed17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30"">.
+</li><li><a href=""/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"">Tweak the <em>Privacy</em> settings</a> to fit your needs.
+</li><li>Close Firefox Focus.
+</li></ol>
+<p>You are ready to browse on Safari with the protection of Firefox Focus! 
+</p>
+<h1 id=""w_related-content"">Related content</h1>
+<p>To learn more about Firefox Focus, its abilities and settings, see:
+</p>
+<ul><li><a href=""/en-US/kb/firefox-focus-ios"">What is Firefox Focus for iOS?</a>
+</li><li><a href=""/en-US/kb/how-does-firefox-focus-ios-use-permissions-it-requests"">How does Firefox Focus for iOS use the permissions it requests?</a>
+</li></ul>",focus-firefox,focus-ios;privacy-and-security,"Enjoy protection against ad, social, content or analytics trackers provided by Firefox Focus without switching from Safari and keep Safari your preferred browser. Follow these steps to enable Firefox Focus for Safari.
+
+# Step 1: allow Safari to use content blockers
+
+1. Open the **Settings** app in your iPhone or iPad.
+2. Scroll down to Safari and tap it.
+3. In the _General_ section, tap **Extensions**.
+4. Under _Allow these content blockers_, check the switch next to **Firefox Focus**. If it is not enabled, tap it&nbsp; ![iosGreenSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+5. Close the **Settings** app.
+
+# Step 2: enable Firefox Focus for Safari
+
+1. Open Firefox Focus.
+2. On the top right corner of the screen, tap the menu button&nbsp;☰.
+3. Tap Settings.
+4. Under _Safari Integration_, tap the switch next to **Safari** to enable it ![focusIosPinkSwitch](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+5. [Tweak the _Privacy_ settings](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios#w_customize-your-firefox-focus-protection-settings"") to fit your needs.
+6. Close Firefox Focus.
+
+You are ready to browse on Safari with the protection of Firefox Focus!
+
+# Related content
+
+To learn more about Firefox Focus, its abilities and settings, see:
+
+- [What is Firefox Focus for iOS?](\""https://support.mozilla.org/en-US/kb/firefox-focus-ios"")
+- [How does Firefox Focus for iOS use the permissions it requests?](\""https://support.mozilla.org/en-US/kb/how-does-firefox-focus-ios-use-permissions-it-requests"")
+
+"
+58358,Automatically launch Mozilla VPN when your device starts,automatically-launch-mozilla-vpn-when-your-device,https://support.mozilla.org/en-US/kb/automatically-launch-mozilla-vpn-when-your-device,en-US,Follow the steps in this article to automatically launch Mozilla VPN every time you start your device.,"<p>Mozilla VPN allows you to connect automatically on startup as a way to ensure that your internet connection is always protected when starting your device. To enable this feature, follow the steps below.
+</p>
+<div class=""warning""><strong>Warning:</strong> The <em>Connect on startup</em> feature is <strong>only available for Windows, macOS and Linux</strong>. To manually enable the <em>Connect on startup</em> feature on Android devices, follow the steps under the Android section of this article.</div>
+<h1 id=""w_how-to-automatically-launch-your-mozilla-vpn-on-windows-macos-and-linux"">How to automatically launch your Mozilla VPN on Windows, macOS and Linux</h1>
+<ol><li>Open Mozilla VPN.
+</li><li>Click the settings icon <img alt=""vpn settings icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-07-10-13-51-34-fffe56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20"">.
+<dl><dt><img alt=""VPN SETTINGS Button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-02-09-46-17-ae7881.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Click <span class=""menu"">Preferences</span>.
+<dl><dt><img alt=""VPN Preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-08-16-53-31-d0834f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Select <strong>Connect VPN on startup</strong>.
+<dl><dt><img alt=""Start Up VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-33-18-9177b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>The next time that you start your device, Mozilla VPN will automatically connect to the last server location you used.
+</li></ol>
+<h1 id=""w_how-to-automatically-launch-your-mozilla-vpn-on-your-android-device"">How to automatically launch your Mozilla VPN on your Android device</h1>
+<ol><li>Open the Settings app (typically a cogwheel icon) on your Android device.
+</li><li>In the settings search bar, type <strong>VPN</strong>.
+</li><li>Select the <strong>VPN</strong> result.
+</li><li>Select the gear icon next to <strong>Mozilla VPN</strong>.
+</li><li>Toggle on <strong>Always-on VPN</strong>.
+<dl><dt><img alt=""Always on VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-34-34-82de1c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Mozilla VPN will automatically connect to the server location you last connected to.
+</li></ol>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li><a href=""/en-US/kb/how-do-i-turn-mozilla-vpn"">Turn on Mozilla VPN on your Android device</a>
+</li><li><a href=""/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"">How can I tell if Mozilla VPN is connected?</a>
+</li><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
+</li></ul>",mozilla-vpn,installation-and-updates,"Mozilla VPN allows you to connect automatically on startup as a way to ensure that your internet connection is always protected when starting your device. To enable this feature, follow the steps below.
+
+**Warning:** The _Connect on startup_ feature is **only available for Windows, macOS and Linux**. To manually enable the _Connect on startup_ feature on Android devices, follow the steps under the Android section of this article.
+
+# How to automatically launch your Mozilla VPN on Windows, macOS and Linux
+
+1. Open Mozilla VPN.
+2. Click the settings icon ![vpn settings icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).<dl><dt>
+<img alt=""VPN SETTINGS Button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-02-09-46-17-ae7881.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+3. Click Preferences.<dl><dt>
+<img alt=""VPN Preferences"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-08-16-53-31-d0834f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+4. Select **Connect VPN on startup**.<dl><dt>
+<img alt=""Start Up VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-33-18-9177b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+5. The next time that you start your device, Mozilla VPN will automatically connect to the last server location you used.
+
+# How to automatically launch your Mozilla VPN on your Android device
+
+1. Open the Settings app (typically a cogwheel icon) on your Android device.
+2. In the settings search bar, type **VPN**.
+3. Select the **VPN** result.
+4. Select the gear icon next to **Mozilla VPN**.
+5. Toggle on **Always-on VPN**.<dl><dt>
+<img alt=""Always on VPN"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-23-12-34-34-82de1c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+6. Mozilla VPN will automatically connect to the server location you last connected to.
+
+# Related content
+
+- [Turn on Mozilla VPN on your Android device](\""https://support.mozilla.org/en-US/kb/how-do-i-turn-mozilla-vpn"")
+- [How can I tell if Mozilla VPN is connected?](\""https://support.mozilla.org/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"")
+- [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
+
+"
+58394,What is Mozilla Connect?,what-mozilla-connect,https://support.mozilla.org/en-US/kb/what-mozilla-connect,en-US,"Mozilla Connect is a space to give product feedback, share ideas for new features, and participate in conversations about Mozilla products.","
+<p>Mozilla launched the platform <a href=""https://connect.mozilla.org/"">Mozilla Connect</a>, in collaboration with <a href=""https://khoros.com/"">Khoros</a>, as a space for users to give product feedback, share ideas for new features, and participate in meaningful conversations that help shape future releases. You can leave feedback and share ideas for Firefox desktop, mobile, Mozilla VPN, Thunderbird and more.
+</p>
+<dl><dt><img alt=""Mozilla_Connect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-16-11-01-57-2e5c28.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+<h1 id=""w_features"">Features</h1>
+<ul><li>You can sign in to Mozilla Connect using your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>.
+</li><li>The platform is user-friendly. You can easily find the sections where you can contribute ideas, provide feedback and engage in discussions.
+</li><li>There is a labeling and search system, so other community members and product managers can easily find and engage with contributed posts.
+</li><li>In partnership with Khoros, Mozilla Connect allows you to rank your ideas and earn badges for your contributions.
+</li><li>The members of the community will be able to participate and host interesting events.
+</li></ul>
+<h2 id=""w_a-better-way-to-give-and-receive-feedback"">A better way to give and receive feedback</h2>
+<p>Mozilla employees will participate by responding directly to ideas, leading discussions, and sharing product demos. Contributors can expect to receive feedback on their ideas from other community members almost immediately. Ideas can be commented and voted on by the community. All top ideas will be shared with the staff for review. The evaluation process can take up to two weeks, and, if an idea needs to be evaluated further, we’ll make sure to keep the community informed.
+</p>
+<h2 id=""w_ideas-acceptance-criteria"">Ideas Acceptance Criteria</h2>
+<p>We are in the process of creating a rubric that details with what we consider for adopting ideas. This rubric will also be shared with the community. Some of the things we’ll consider are:
+</p>
+<ul><li>Does the idea align with the Mozilla vision?
+</li><li>Does the idea provide user value? Will the idea be impactful?
+</li></ul>
+<h2 id=""w_how-is-mozilla-connect-different-from-mozilla-support"">How is Mozilla Connect different from Mozilla Support?</h2>
+<p><a href=""https://support.mozilla.org/"">Mozilla Support</a> is a platform where users can find help articles and an active community of contributors ready to answer questions about Mozilla products in the <a href=""https://support.mozilla.org/en-US/questions/new"">support forums</a>. On the other hand, <a href=""https://connect.mozilla.org/"">Mozilla Connect</a> brings the community and the employees closer together to collaborate in developing new features or improving existing ones by sharing ideas or providing feedback about our products.
+</p><p>
+</p>",firefox,browse,"Mozilla launched the platform [Mozilla Connect](https://connect.mozilla.org/), in collaboration with [Khoros](https://khoros.com/), as a space for users to give product feedback, share ideas for new features, and participate in meaningful conversations that help shape future releases. You can leave feedback and share ideas for Firefox desktop, mobile, Mozilla VPN, Thunderbird and more.
+
+<dl><dt>
+<img alt=""Mozilla_Connect"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-16-11-01-57-2e5c28.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</dt></dl>
+# Features
+
+- You can sign in to Mozilla Connect using your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+- The platform is user-friendly. You can easily find the sections where you can contribute ideas, provide feedback and engage in discussions.
+- There is a labeling and search system, so other community members and product managers can easily find and engage with contributed posts.
+- In partnership with Khoros, Mozilla Connect allows you to rank your ideas and earn badges for your contributions.
+- The members of the community will be able to participate and host interesting events.
+
+## A better way to give and receive feedback
+
+Mozilla employees will participate by responding directly to ideas, leading discussions, and sharing product demos. Contributors can expect to receive feedback on their ideas from other community members almost immediately. Ideas can be commented and voted on by the community. All top ideas will be shared with the staff for review. The evaluation process can take up to two weeks, and, if an idea needs to be evaluated further, we’ll make sure to keep the community informed.
+
+## Ideas Acceptance Criteria
+
+We are in the process of creating a rubric that details with what we consider for adopting ideas. This rubric will also be shared with the community. Some of the things we’ll consider are:
+
+- Does the idea align with the Mozilla vision?
+- Does the idea provide user value? Will the idea be impactful?
+
+## How is Mozilla Connect different from Mozilla Support?
+
+[Mozilla Support](https://support.mozilla.org/) is a platform where users can find help articles and an active community of contributors ready to answer questions about Mozilla products in the [support forums](https://support.mozilla.org/en-US/questions/new). On the other hand, [Mozilla Connect](https://connect.mozilla.org/) brings the community and the employees closer together to collaborate in developing new features or improving existing ones by sharing ideas or providing feedback about our products.
+
+"
 58418,Custom installation of Thunderbird on Windows,custom-installation-thunderbird-windows,https://support.mozilla.org/en-US/kb/custom-installation-thunderbird-windows,en-US,"The custom setup option in the Thunderbird full, offline installer lets you choose the Windows program folder location and shortcuts. Learn more.","<p>This article explains how to customize your Thunderbird installation on Windows with the full, offline installer (versus the simplified online Thunderbird installer described in the <a href=""/en-US/kb/installing-thunderbird-windows"">Install Thunderbird on Windows</a> article, where you can't make any changes to the installation options, such as the program folder where Thunderbird is installed).
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_where-to-download-thunderbird-for-a-custom-installation""><span class=""tocnumber"">1</span> <span class=""toctext"">Where to download Thunderbird for a custom installation</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-install-thunderbird-with-custom-settings""><span class=""tocnumber"">2</span> <span class=""toctext"">How to install Thunderbird with custom settings</span></a><ul><li class=""toclevel-2""><a href=""#w_choose-where-thunderbird-is-installed""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Choose where Thunderbird is installed</span></a></li><li class=""toclevel-2""><a href=""#w_choose-optional-components""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Choose optional components</span></a></li><li class=""toclevel-2""><a href=""#w_choose-shortcuts""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Choose shortcuts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_summary""><span class=""tocnumber"">3</span> <span class=""toctext"">Summary</span></a></li></ul></div>
@@ -97933,6 +98573,125 @@ If you need to prevent upgrades for any reason, you can use the new [AppUpdatePi
 # macOS 10.12, 10.13 and 10.14 Support
 
 [We are ending support for macOS 10.12, 10.13 and 10.14.](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"") Users of Firefox on these versions of macOS will be moved over the Firefox 115 ESR and will be supported until September 26, 2024.
+
+"
+61557,How to reset your password without Account Recovery Keys and regain access to your data,how-reset-your-password-without-account-recovery-keys-access-data,https://support.mozilla.org/en-US/kb/how-reset-your-password-without-account-recovery-keys-access-data,en-US,"You can reset your Mozilla account password and restore the data stored on your computer, even if you don't have recovery keys. Learn how.","<p>
+</p>
+<div class=""warning""><strong>This article may include outdated content. Please see <a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a> for current information and instructions.</strong></div>
+<p>Recovery keys, if enabled, are unique codes generated by Firefox that help you regain access to your account and encrypted data when you forget your password or lose access to your device. Firefox stores a local profile with your data on your computer, which protects it during a password reset. With the local copy of your data, you can easily reset your password and restore your data, even if you don't have recovery keys. This article explains the steps you need to follow.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-locally-stored-data-and-synced-data""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between locally stored data and synced data?</span></a><ul><li class=""toclevel-2""><a href=""#w_locally-stored-data""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Locally stored data</span></a></li><li class=""toclevel-2""><a href=""#w_synced-data""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Synced data</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-reset-your-password-without-recovery-keys""><span class=""tocnumber"">2</span> <span class=""toctext"">How to reset your password without recovery keys</span></a><ul><li class=""toclevel-2""><a href=""#w_to-reset-your-password""><span class=""tocnumber"">2.1</span> <span class=""toctext"">To reset your password</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-content""><span class=""tocnumber"">3</span> <span class=""toctext"">Related content</span></a></li></ul></div>
+<h1 id=""w_what-is-the-difference-between-locally-stored-data-and-synced-data"">What is the difference between locally stored data and synced data?</h1>
+<h2 id=""w_locally-stored-data"">Locally stored data</h2>
+<p>A local <a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">profile</a> is like a personal storage space on your computer where Firefox saves your information. This includes browsing history, cookies, passwords, credit card details, settings, bookmarks, add-ons and open tabs. Regardless of having a Mozilla account or enabling Sync, as long as you're using the same computer/device and haven't wiped or formatted it, this data will be available to you.
+</p>
+<h2 id=""w_synced-data"">Synced data</h2>
+<p>When you sync your data with your Mozilla account, your data gets uploaded to Sync servers, based on your settings. This stored data is encrypted for security reasons and can be used to sync and populate other connected devices, allowing you to have the same information on both your mobile and desktop devices.
+</p>
+<h1 id=""w_how-to-reset-your-password-without-recovery-keys"">How to reset your password without recovery keys</h1>
+<div class=""warning"">
+<p><strong>Warning:</strong> To perform this password recovery without recovery keys, it is important to reset the Mozilla account from the same device where you last logged in to your Mozilla account and backed up your data. This allows Firefox to retrieve your data from your local profile on that device, which is necessary for the recovery process.
+</p><p>If you're resetting from a new device, you'll need access to the device where you logged in and synced your data the last time.
+</p>
+</div>
+<h2 id=""w_to-reset-your-password"">To reset your password</h2>
+<ol><li>Click the menu <img alt=""PhotonMenuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-09-28-11-58-03-e6a66b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and click <span class=""button"">Sign In</span> next to <em>Sync and save data</em>.
+</li><li>On the <em>Sign in</em> page, click <strong>Forgot password?</strong> link. Firefox will send you a reset email.
+</li><li>Follow the instructions in your reset email to change your password.
+</li><li>After signing in with your new password, remember to update your password on each of your synced devices.
+</li></ol>
+<p>Alternatively, you can click the <strong>Forgot password?</strong> link on any Mozilla account sign-in page and follow the prompts to reset your password. This will reset your Mozilla account.
+</p>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li><a href=""/en-US/kb/ive-lost-my-firefox-sync-account-information"">I've lost my Firefox Sync account information - What to do</a>
+</li></ul>",firefox;mozilla-account,passwords-and-sign-in;reset-passwords,"**This article may include outdated content. Please see [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"") for current information and instructions.**
+
+Recovery keys, if enabled, are unique codes generated by Firefox that help you regain access to your account and encrypted data when you forget your password or lose access to your device. Firefox stores a local profile with your data on your computer, which protects it during a password reset. With the local copy of your data, you can easily reset your password and restore your data, even if you don't have recovery keys. This article explains the steps you need to follow.
+
+## Table of Contents
+
+- [1 What is the difference between locally stored data and synced data?](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_what-is-the-difference-between-locally-stored-data-and-synced-data)
+  - [1.1 Locally stored data](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_locally-stored-data)
+  - [1.2 Synced data](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_synced-data)
+
+- [2 How to reset your password without recovery keys](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_how-to-reset-your-password-without-recovery-keys)
+  - [2.1 To reset your password](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_to-reset-your-password)
+
+- [3 Related content](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_related-content)
+
+# What is the difference between locally stored data and synced data?
+
+## Locally stored data
+
+A local [profile](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") is like a personal storage space on your computer where Firefox saves your information. This includes browsing history, cookies, passwords, credit card details, settings, bookmarks, add-ons and open tabs. Regardless of having a Mozilla account or enabling Sync, as long as you're using the same computer/device and haven't wiped or formatted it, this data will be available to you.
+
+## Synced data
+
+When you sync your data with your Mozilla account, your data gets uploaded to Sync servers, based on your settings. This stored data is encrypted for security reasons and can be used to sync and populate other connected devices, allowing you to have the same information on both your mobile and desktop devices.
+
+# How to reset your password without recovery keys
+
+**Warning:** To perform this password recovery without recovery keys, it is important to reset the Mozilla account from the same device where you last logged in to your Mozilla account and backed up your data. This allows Firefox to retrieve your data from your local profile on that device, which is necessary for the recovery process.
+
+If you're resetting from a new device, you'll need access to the device where you logged in and synced your data the last time.
+
+## To reset your password
+
+1. Click the menu ![PhotonMenuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and click Sign In next to _Sync and save data_.
+2. On the _Sign in_ page, click **Forgot password?** link. Firefox will send you a reset email.
+3. Follow the instructions in your reset email to change your password.
+4. After signing in with your new password, remember to update your password on each of your synced devices.
+
+Alternatively, you can click the **Forgot password?** link on any Mozilla account sign-in page and follow the prompts to reset your password. This will reset your Mozilla account.
+
+# Related content
+
+- [I've lost my Firefox Sync account information - What to do](\""https://support.mozilla.org/en-US/kb/ive-lost-my-firefox-sync-account-information"")
+
+"
+61594,Add a website shortcut to your home screen on Android,add-website-shortcut-your-home-screen-android,https://support.mozilla.org/en-US/kb/add-website-shortcut-your-home-screen-android,en-US,"Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.","<p>Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.
+</p>
+<ol><li>Launch Firefox on your Android device.
+</li><li>Visit the website you want to create a shortcut for.
+</li><li>Once the website loads, tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button.
+<dl><dt><img alt=""step1_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-23-52-4f960a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""button"">Add to Home Screen</span>
+<dl><dt><img alt=""step2_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-58-54-5124d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>A dialog box will appear, displaying a suggested name for the shortcut. You can change the name of the shortcut from this panel. Tap <strong>Add</strong> in the bottom right corner.
+<dl><dt><img alt=""step3_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-00-29-c5866d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <strong>Add</strong> once more to finish.
+<dl><dt><img alt=""step4_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-01-06-cfce30.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>
+<p>The shortcut will now appear in your home screen.
+</p><p><strong> Example </strong><br>
+Shortcut now appearing on android home screen.<br>
+<img alt=""step5_andr"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-32-42-c3d714.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</p>",mobile,browse;home-screen,"Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.
+
+1. Launch Firefox on your Android device.
+2. Visit the website you want to create a shortcut for.
+3. Once the website loads, tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button.<dl><dt>
+<img alt=""step1_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-23-52-4f960a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+4. Tap Add to Home Screen<dl><dt>
+<img alt=""step2_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-58-54-5124d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+5. A dialog box will appear, displaying a suggested name for the shortcut. You can change the name of the shortcut from this panel. Tap **Add** in the bottom right corner.<dl><dt>
+<img alt=""step3_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-00-29-c5866d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+6. Tap **Add** once more to finish.<dl><dt>
+<img alt=""step4_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-01-06-cfce30.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+The shortcut will now appear in your home screen.
+
+**Example**   
+Shortcut now appearing on android home screen.  
+ ![step5_andr](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
 "
 61646,Get your local weather forecast from the Firefox address bar,get-your-local-weather-forecast-firefox-address-bar,https://support.mozilla.org/en-US/kb/get-your-local-weather-forecast-firefox-address-bar,en-US,Get real-time weather updates conveniently displayed within the Firefox address bar.,"<p>Get real-time weather updates conveniently displayed within the Firefox <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a>. This feature can help you stay up-to-date on the latest weather conditions without visiting a particular website or app. Simply type <strong>weather</strong> in the address bar, and you'll see weather suggestions for your location.
