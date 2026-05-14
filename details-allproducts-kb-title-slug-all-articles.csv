@@ -35533,6 +35533,211 @@ The first time you start Thunderbird you may be alerted that it is not your defa
 - If you fail to install Thunderbird to the Applications folder, every time Thunderbird starts it will not have remembered your provious session settings - it will ask you to create email accounts, or otherwise indicate that it has no data. **You must drag the Thunderbird dmg file/icon to the Applications folder.**
 
 "
+17061,Keyboard Shortcuts for Searching,keyboard-shortcuts-searching,https://support.mozilla.org/en-US/kb/keyboard-shortcuts-searching,en-US,This page describes the keystroke combinations used to access various search functions in Thunderbird.,"<p>This page shows the keyboard shortcuts for the various <em>search functions</em> in Thunderbird. For the full list of <em>all</em> keyboard shortcuts, see <a href=""/en-US/kb/keyboard-shortcuts-thunderbird"">Keyboard Shortcuts</a>.
+</p>
+<h1 id=""w_prior-to-version-3-1"">Prior to version 3.1</h1>
+<p>In earlier versions (prior to 3.1) of Thunderbird, the  <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span> key combination invoked the function for searching for text in the currently selected message. 
+</p>
+<h1 id=""w_version-3-1-to-version-7"">Version 3.1 to version 7</h1>
+<p>In subsequent versions prior to version 8, the <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span> key combination was reassigned to invoke Quick Filter, which allows you to limit the  messages currently displayed by specifying various filter parameters.
+</p><p>The keystroke combination for searching for text within a message was <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span>, <span class=""button"">Ctrl</span> / <span class=""button"">Command</span> + <span class=""button"">F</span>. (That is, the same key combination used twice in a row.)
+</p>
+<h1 id=""w_version-8-and-later"">Version 8 and later</h1>
+<p>As of Thunderbird version 8, the following keystrokes are assigned to search functions:
+</p>
+<ul><li> Search All Messages (Global Search): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span>  + <span class=""button"">K</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span>  + <span class=""button"">K</span></span>
+</li><li> Quick Filter Bar (filter messages in current view): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">K</span></span>
+</li><li> Search for messages in a folder (search dialog): <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""mac""> <span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">F</span></span>
+</li></ul>
+<ul><li> Find text in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""mac""> <span class=""button"">Command</span> + <span class=""button"">F</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">F</span></span>
+</li><li> Find again in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span>  + <span class=""button"">G</span> or <span class=""button"">F3</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">G</span> or <span class=""button"">F3</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span>  + <span class=""button"">G</span> or <span class=""button"">F3</span></span>
+</li><li> Find previous in current message: <span class=""for"" data-for=""win""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span><span class=""for"" data-for=""mac""><span class=""button"">Command</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span><span class=""for"" data-for=""linux""><span class=""button"">Ctrl</span> + <span class=""button"">Shift</span> + <span class=""button"">G</span> or <span class=""button"">Shift</span> + <span class=""button"">F3</span></span>
+</li></ul>",thunderbird,search;search-tag-and-share,"This page shows the keyboard shortcuts for the various _search functions_ in Thunderbird. For the full list of _all_ keyboard shortcuts, see [Keyboard Shortcuts](\""https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird"").
+
+# Prior to version 3.1
+
+In earlier versions (prior to 3.1) of Thunderbird, the Ctrl / Command + F key combination invoked the function for searching for text in the currently selected message.
+
+# Version 3.1 to version 7
+
+In subsequent versions prior to version 8, the Ctrl / Command + F key combination was reassigned to invoke Quick Filter, which allows you to limit the messages currently displayed by specifying various filter parameters.
+
+The keystroke combination for searching for text within a message was Ctrl / Command + F, Ctrl / Command + F. (That is, the same key combination used twice in a row.)
+
+# Version 8 and later
+
+As of Thunderbird version 8, the following keystrokes are assigned to search functions:
+
+- Search All Messages (Global Search): Ctrl + KCommand + KCtrl + K
+- Quick Filter Bar (filter messages in current view): Ctrl + Shift + KCommand + Shift + KCtrl + Shift + K
+- Search for messages in a folder (search dialog): Ctrl + Shift + F Command + Shift + FCtrl + Shift + F
+
+- Find text in current message: Ctrl + F Command + FCtrl + F
+- Find again in current message: Ctrl + G or F3Command + G or F3Ctrl + G or F3
+- Find previous in current message: Ctrl + Shift + G or Shift + F3Command + Shift + G or Shift + F3Ctrl + Shift + G or Shift + F3
+
+"
+17062,Compacting folders,compacting-folders,https://support.mozilla.org/en-US/kb/compacting-folders,en-US,This article explains how Thunderbird stores messages on a disk drive and why it is necessary to periodically compact (purge).,"<p>This article explains how Thunderbird stores messages on disk and why it is necessary to periodically <em>compact</em> folders. Compacting is a regular file maintenance process (sometimes referred to as ""purging"") which recovers disk space without changing or removing any of your messages.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-thunderbird-stores-messages""><span class=""tocnumber"">1</span> <span class=""toctext"">How Thunderbird stores messages</span></a></li><li class=""toclevel-1""><a href=""#w_what-compact-does-not-do""><span class=""tocnumber"">2</span> <span class=""toctext"">What compact does not do</span></a></li><li class=""toclevel-1""><a href=""#w_is-it-ok-to-compact""><span class=""tocnumber"">3</span> <span class=""toctext"">Is it OK to compact?</span></a></li><li class=""toclevel-1""><a href=""#w_the-compact-folders-prompt""><span class=""tocnumber"">4</span> <span class=""toctext"">The Compact Folders prompt</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-compact-required""><span class=""tocnumber"">5</span> <span class=""toctext"">Why is compact required?</span></a></li><li class=""toclevel-1""><a href=""#w_when-does-compact-occur""><span class=""tocnumber"">6</span> <span class=""toctext"">When does compact occur?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-i-configure-compact""><span class=""tocnumber"">7</span> <span class=""toctext"">How can I configure compact?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-compact-work""><span class=""tocnumber"">8</span> <span class=""toctext"">How does compact work?</span></a></li><li class=""toclevel-1""><a href=""#w_potential-complications""><span class=""tocnumber"">9</span> <span class=""toctext"">Potential complications</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">10</span> <span class=""toctext"">See also</span></a></li></ul></div>
+<h1 id=""w_how-thunderbird-stores-messages"">How Thunderbird stores messages</h1>
+<p>Thunderbird has two storage methods for folders:
+</p>
+<ul><li> <a href=""http://en.wikipedia.org/wiki/Mbox"">Mbox</a> is the default format, where all of a folder's messages are stored in a single file on disk. This is where the compact process is useful, and the purpose of this article is to explain how and why.
+</li><li> <a href=""/en-US/kb/maildir-thunderbird"">Maildir</a> is a newer storage format, where every message of a folder is a separate file. <strong>maildir</strong> does not need compacting, and so this article is not applicable to <strong>maildir</strong> folders.
+</li></ul>
+<h1 id=""w_what-compact-does-not-do"">What compact does not do</h1>
+<p>Compact (purge) is a <u>maintenance</u> process, so it:
+</p>
+<ul><li> does <strong>not</strong> delete messages from folders
+</li><li> does <strong>not</strong> remove messages from trash or spam folders
+</li><li> does <strong>not</strong> compress folders by using compression algorithms such as zip
+</li></ul>
+<p>You may be concerned that the compact prompt sometimes appears just when you have deleted a message, or when you have started Thunderbird. This is expected behavior and is not cause for concern, because compact does <strong>not</strong> delete your messages.
+</p>
+<h1 id=""w_is-it-ok-to-compact"">Is it OK to compact?</h1>
+<p>Compact (purge) is normal maintenance (for the <a href=""#w_why-is-compact-required"">reasons</a> described below), and so it is OK to allow a compact to proceed.
+</p>
+<h1 id=""w_the-compact-folders-prompt"">The <em>Compact Folders</em> prompt</h1>
+<p>The <em>Compact Folders</em> prompt appears when the compact threshold has been reached.
+</p><p><img alt=""TB91-compact-folders-prompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-09-11-07-18-81e1a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p>You can choose <span class=""button"">Compact now</span> to allow compacting to proceed, or <span class=""button"">Remind me later</span> if the prompt came at an inconvenient time (in Thunderbird 78, the respective buttons were <strong>Proceed</strong> and <strong>Cancel</strong>). The prompt also has a checkbox: <span class=""menu"">☐ Compact folders automatically in the future</span>. To avoid being prompted again, you can tick this option and choose <span class=""button"">Compact now</span> (<strong>Proceed</strong> in Thunderbird 78) - then compacting will happen automatically in the background when necessary. If you do not wish to be prompted, we suggest you use the checkbox.
+</p>
+<h1 id=""w_why-is-compact-required"">Why is compact required?</h1>
+<p>Folders are stored by default in <a href=""#w_how-thunderbird-stores-messages"">mbox format</a>, and these need periodic cleaning because your daily usage of Thunderbird involves:
+</p>
+<ul><li> Adding messages to a folder, such as receiving new mail, which makes the <strong>mbox</strong> file larger. 
+</li><li> Deleting messages, or filtering or moving them to another folder, which does *not* immediately make the <strong>mbox</strong> file smaller. The folder does not get smaller because, for performance reasons, a deleted message is only logically marked for deletion. It becomes a gap which you can longer access, and the gaps, like bits of dirt, are eventually removed (purged) with a compact operation.
+</li></ul>
+<div class=""note""><strong>Note:</strong> Compact does not apply to accounts using the <a href=""/en-US/kb/maildir-thunderbird"">maildir</a> storage format. Unlike <strong>mbox</strong>, <strong>maildir</strong> stores each message in a separate file, and deleting a message results in deleting the message file.</div>
+<h1 id=""w_when-does-compact-occur"">When does compact occur?</h1>
+<p>A compact happens when:
+</p>
+<ul><li> You right-click a folder and select <span class=""menu"">Compact</span> to compact a single folder
+</li><li> You select <span class=""menu"">File &gt; Compact Folders</span> to compact all folders in an account
+</li><li> The amount of disk space to be freed by removing the gaps exceeds the threshold for automatic compact (<a href=""#w_how-can-i-configure-compact"">configuration</a> described below). Because deleting messages causes these gaps, you will often see the <em>Compact Folders</em> prompt just after deleting a message.
+</li></ul>
+<h1 id=""w_how-can-i-configure-compact"">How can I configure compact?</h1>
+<p><span class=""button"">≡</span> &gt; <span class=""menu""><span class=""for"" data-for=""mac,linux"">Settings</span><span class=""for"" data-for=""win"">Settings (formerly Options or Preferences)</span></span> &gt; <span class=""menu"">General</span> &gt; <span class=""menu"">Disk Space</span>
+</p><p>In configuring, you can:
+</p>
+<ul><li> Disable automatic compact (not recommended because your folders will not be regularly cleaned of deleted messages)
+</li><li> Change the compact threshold - a higher value will result in less frequent compacts (for example, if you deal with large messages or a large volume of messages, then you may want use a larger threshold)
+</li><li> Choose if you want to get prompted or if you prefer automatic compacting without prompts (new in Thunderbird 91). Note: The checkbox in the settings and the corresponding checkbox in the prompt will have reverse values because they are worded differently.
+</li></ul>
+<p><img alt=""TB91-compact-folders-preferences-vs-prompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-09-11-12-31-aadb1a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p><p><br>
+</p>
+<h1 id=""w_how-does-compact-work"">How does compact work?</h1>
+<p>Thunderbird opens the <strong>mbox</strong> file on the disk (for example, the <em>Inbox</em>), and based on the rules for the <strong>mbox</strong> mail format it reads the file one message at a time:
+</p>
+<ul><li> If the message is still current, it is copied to a new temporary <strong>mbox</strong> file, called <span class=""filepath"">Nstmp</span>.
+</li><li> If the message was marked as deleted or moved, that message is skipped and not moved to the mtemporary <strong>mbox</strong> file.
+</li></ul>
+<p>This repeats until the end of the file is reached. Then the original storage file is deleted, the new one replaces it, and a new index for this message file is created (for example <span class=""filepath"">Inbox.msf</span>). The end result is the gaps (the dirt) are gone.
+</p><p>During compact, the progress is displayed in the Status Bar:<br><br>
+<img alt=""Compacting folder message"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-10-22-13-52-28-40b0f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<h1 id=""w_potential-complications"">Potential complications</h1>
+<p>Most users will experience no complications during or after the compact process. But because compact involves significant IO activity, some users might experience folder issues or slowness, even more so if antivirus software monitoring is not excluding your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile directory</a>. For more information see <a href=""/en-US/kb/compacting-folders-potential-complications"">Compacting folders - Potential complications</a>.
+</p>
+<h1 id=""w_see-also"">See also</h1>
+<ul><li> The <a href=""http://thunderbirdtweaks.blogspot.com"">Thunderbird Tweaks blog</a> has a related article called ""<a href=""http://thunderbirdtweaks.blogspot.com/2011/07/compacting-what-is-it-and-why-must-i-do.html"">Compacting :- What is it and Why must I do it.</a>""
+</li></ul>",thunderbird,settings,"This article explains how Thunderbird stores messages on disk and why it is necessary to periodically _compact_ folders. Compacting is a regular file maintenance process (sometimes referred to as ""purging"") which recovers disk space without changing or removing any of your messages.
+
+## Table of Contents
+
+- [1 How Thunderbird stores messages](https://support.mozilla.org/kb/compacting-folders#w_how-thunderbird-stores-messages)
+- [2 What compact does not do](https://support.mozilla.org/kb/compacting-folders#w_what-compact-does-not-do)
+- [3 Is it OK to compact?](https://support.mozilla.org/kb/compacting-folders#w_is-it-ok-to-compact)
+- [4 The Compact Folders prompt](https://support.mozilla.org/kb/compacting-folders#w_the-compact-folders-prompt)
+- [5 Why is compact required?](https://support.mozilla.org/kb/compacting-folders#w_why-is-compact-required)
+- [6 When does compact occur?](https://support.mozilla.org/kb/compacting-folders#w_when-does-compact-occur)
+- [7 How can I configure compact?](https://support.mozilla.org/kb/compacting-folders#w_how-can-i-configure-compact)
+- [8 How does compact work?](https://support.mozilla.org/kb/compacting-folders#w_how-does-compact-work)
+- [9 Potential complications](https://support.mozilla.org/kb/compacting-folders#w_potential-complications)
+- [10 See also](https://support.mozilla.org/kb/compacting-folders#w_see-also)
+
+# How Thunderbird stores messages
+
+Thunderbird has two storage methods for folders:
+
+- [Mbox](http://en.wikipedia.org/wiki/Mbox) is the default format, where all of a folder's messages are stored in a single file on disk. This is where the compact process is useful, and the purpose of this article is to explain how and why.
+- [Maildir](\""https://support.mozilla.org/en-US/kb/maildir-thunderbird"") is a newer storage format, where every message of a folder is a separate file. **maildir** does not need compacting, and so this article is not applicable to **maildir** folders.
+
+# What compact does not do
+
+Compact (purge) is a <u>maintenance</u> process, so it:
+
+- does **not** delete messages from folders
+- does **not** remove messages from trash or spam folders
+- does **not** compress folders by using compression algorithms such as zip
+
+You may be concerned that the compact prompt sometimes appears just when you have deleted a message, or when you have started Thunderbird. This is expected behavior and is not cause for concern, because compact does **not** delete your messages.
+
+# Is it OK to compact?
+
+Compact (purge) is normal maintenance (for the [reasons](https://support.mozilla.org/kb/compacting-folders#w_why-is-compact-required) described below), and so it is OK to allow a compact to proceed.
+
+# The _Compact Folders_ prompt
+
+The _Compact Folders_ prompt appears when the compact threshold has been reached.
+
+![TB91-compact-folders-prompt](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+You can choose Compact now to allow compacting to proceed, or Remind me later if the prompt came at an inconvenient time (in Thunderbird 78, the respective buttons were **Proceed** and **Cancel** ). The prompt also has a checkbox: ☐ Compact folders automatically in the future. To avoid being prompted again, you can tick this option and choose Compact now ( **Proceed** in Thunderbird 78) - then compacting will happen automatically in the background when necessary. If you do not wish to be prompted, we suggest you use the checkbox.
+
+# Why is compact required?
+
+Folders are stored by default in [mbox format](https://support.mozilla.org/kb/compacting-folders#w_how-thunderbird-stores-messages), and these need periodic cleaning because your daily usage of Thunderbird involves:
+
+- Adding messages to a folder, such as receiving new mail, which makes the **mbox** file larger. 
+- Deleting messages, or filtering or moving them to another folder, which does \*not\* immediately make the **mbox** file smaller. The folder does not get smaller because, for performance reasons, a deleted message is only logically marked for deletion. It becomes a gap which you can longer access, and the gaps, like bits of dirt, are eventually removed (purged) with a compact operation.
+
+**Note:** Compact does not apply to accounts using the [maildir](\""https://support.mozilla.org/en-US/kb/maildir-thunderbird"") storage format. Unlike **mbox** , **maildir** stores each message in a separate file, and deleting a message results in deleting the message file.
+
+# When does compact occur?
+
+A compact happens when:
+
+- You right-click a folder and select Compact to compact a single folder
+- You select File \> Compact Folders to compact all folders in an account
+- The amount of disk space to be freed by removing the gaps exceeds the threshold for automatic compact ([configuration](https://support.mozilla.org/kb/compacting-folders#w_how-can-i-configure-compact) described below). Because deleting messages causes these gaps, you will often see the _Compact Folders_ prompt just after deleting a message.
+
+# How can I configure compact?
+
+≡ \> SettingsSettings (formerly Options or Preferences) \> General \> Disk Space
+
+In configuring, you can:
+
+- Disable automatic compact (not recommended because your folders will not be regularly cleaned of deleted messages)
+- Change the compact threshold - a higher value will result in less frequent compacts (for example, if you deal with large messages or a large volume of messages, then you may want use a larger threshold)
+- Choose if you want to get prompted or if you prefer automatic compacting without prompts (new in Thunderbird 91). Note: The checkbox in the settings and the corresponding checkbox in the prompt will have reverse values because they are worded differently.
+
+![TB91-compact-folders-preferences-vs-prompt](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# How does compact work?
+
+Thunderbird opens the **mbox** file on the disk (for example, the _Inbox_), and based on the rules for the **mbox** mail format it reads the file one message at a time:
+
+- If the message is still current, it is copied to a new temporary **mbox** file, called Nstmp.
+- If the message was marked as deleted or moved, that message is skipped and not moved to the mtemporary **mbox** file.
+
+This repeats until the end of the file is reached. Then the original storage file is deleted, the new one replaces it, and a new index for this message file is created (for example Inbox.msf). The end result is the gaps (the dirt) are gone.
+
+During compact, the progress is displayed in the Status Bar:  
+  
+ ![Compacting folder message](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Potential complications
+
+Most users will experience no complications during or after the compact process. But because compact involves significant IO activity, some users might experience folder issues or slowness, even more so if antivirus software monitoring is not excluding your [Thunderbird profile directory](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""). For more information see [Compacting folders - Potential complications](\""https://support.mozilla.org/en-US/kb/compacting-folders-potential-complications"").
+
+# See also
+
+- The [Thunderbird Tweaks blog](http://thunderbirdtweaks.blogspot.com) has a related article called ""[Compacting&nbsp;:- What is it and Why must I do it.](http://thunderbirdtweaks.blogspot.com/2011/07/compacting-what-is-it-and-why-must-i-do.html)""
+
+"
 17063,Move Thunderbird data to a new computer,moving-thunderbird-data-to-a-new-computer,https://support.mozilla.org/en-US/kb/moving-thunderbird-data-to-a-new-computer,en-US,"How to move Thunderbird data (accounts, messages, passwords) to a new computer.","<div class=""for"" data-for=""win""><p></p><div class=""youtube-embed"">
   <iframe src=""//www.youtube.com/embed/ywJ6eQwhb78?wmode=transparent&amp;rel=0"" frameborder=""0"" allowfullscreen></iframe>
 </div>
@@ -62377,6 +62582,161 @@ When you type text into the address bar for the first time, Firefox Focus will a
 5. Tap the toggle next to ""Get search suggestions"".
 
 "
+41067,Search suggestions in Firefox Klar for Android,search-suggestions-firefox-klar-android,https://support.mozilla.org/en-US/kb/search-suggestions-firefox-klar-android,en-US,Search suggestions in Firefox Klar.,"<p>As you type into the address or search bar, Firefox Klar will recommend popular searches that match what you're typing.
+</p><p>When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
+</p>
+<ol><li>Open Firefox and go to the Home screen.
+</li><li>Tap the three dots in the top right side of the screen.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Go to <span class=""menu"">Search</span>.
+</li><li> Tap the toggle next to ""Get search suggestions"".
+</li></ol>",klar,firefox-klar-android,"As you type into the address or search bar, Firefox Klar will recommend popular searches that match what you're typing.
+
+When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
+
+1. Open Firefox and go to the Home screen.
+2. Tap the three dots in the top right side of the screen.
+3. Tap Settings.
+4. Go to Search.
+5. Tap the toggle next to ""Get search suggestions"".
+
+"
+41090,Recommendations from Firefox,recommendations-firefox,https://support.mozilla.org/en-US/kb/recommendations-firefox,en-US,"This article describes why and how extension recommendations are made, including how to turn off recommendations.","<p>While you're exploring the web with Firefox, the browser may present you with suggestions for features and extensions, tailored to enhance your online experience. These recommendations are carefully curated based on the categories of websites you visit, such as suggesting media-related tools if you often access media sites, without the need to track your visits to individual websites.
+</p><p>This approach not only ensures that the recommendations are highly relevant and beneficial to your browsing needs but also prioritizes your privacy by avoiding the logging of specific sites you explore. By combining insights into your general browsing behavior and the type of content you engage with, Firefox's recommendation system aims to introduce useful tools and features that make your online journey smoother and more personalized.
+</p>
+<dl><dt><span class=""for"" data-for=""not fx123""><img alt=""recommendation button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-03-04-13-17-28-cfb65b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx123""><img alt=""Feature call out"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-06-42-cb7972.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""></span>
+</dt></dl>
+<div class=""warning""> Mozilla is committed to protecting your privacy. We do not collect your browsing data nor share it with third parties for the purpose of making these recommendations. The process of selecting appropriate features and extensions is carried out directly on your device, ensuring your information stays private. All suggested extensions undergo Mozilla's rigorous <a href=""/en-US/kb/recommended-extensions-program"">Recommended Extensions program</a> to ensure their quality and safety.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-kinds-of-features-and-extensions-are-recommended""><span class=""tocnumber"">1</span> <span class=""toctext"">What kinds of features and extensions are recommended?</span></a></li><li class=""toclevel-1""><a href=""#w_how-are-features-and-extensions-selected""><span class=""tocnumber"">2</span> <span class=""toctext"">How are features and extensions selected?</span></a></li><li class=""toclevel-1""><a href=""#w_who-benefits-from-these-recommendations""><span class=""tocnumber"">3</span> <span class=""toctext"">Who benefits from these recommendations?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-opt-out-of-recommendations-in-firefox""><span class=""tocnumber"">4</span> <span class=""toctext"">How do I opt out of recommendations in Firefox?</span></a><ul><li class=""toclevel-2""><a href=""#w_opt-out-of-recommendations-from-a-recommendation-menu""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Opt out of recommendations from a recommendation menu</span></a></li><li class=""toclevel-2""><a href=""#w_opt-out-of-all-recommendations-from-firefox-settings""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Opt out of all recommendations from Firefox settings</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-do-i-learn-more-about-extensions""><span class=""tocnumber"">5</span> <span class=""toctext"">How do I learn more about extensions?</span></a></li><li class=""toclevel-1""><a href=""#w_related-content""><span class=""tocnumber"">6</span> <span class=""toctext"">Related content</span></a></li></ul></div>
+<h1 id=""w_what-kinds-of-features-and-extensions-are-recommended"">What kinds of features and extensions are recommended?</h1>
+<p>Firefox may recommend a variety of features, including browser tools and extensions.
+</p>
+<ul><li><strong>Browser tools</strong> are discrete tools built directly into the browser, like <a href=""/en-US/kb/pinned-tabs-keep-favorite-websites-open"">Pin Tabs</a>, <a href=""/en-US/kb/firefox-reader-view-clutter-free-web-pages"">Reader View</a> and <a href=""/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer#w_edit-pdf-files"">PDF edits</a>. Firefox contains a lot of different tools that can improve your browsing experience and workflows through customization and efficiency gains. The recommendation feature aims to introduce you to tools you may not be aware of but could find useful.
+</li><li><strong><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Extensions</a></strong> allow you to add features to Firefox to customize your browsing experience. Extensions are software programs, most often developed by a third party, that modify the way Firefox works. They’re like apps for the browser, and they can make the tasks you do online simpler and more efficient. Extensions do things like protect passwords, download videos, find deals, block annoying ads and much more. They empower users to customize their browsing experience to fit their needs and personal tastes, making them an important part of Firefox.
+</li></ul>
+<h1 id=""w_how-are-features-and-extensions-selected"">How are features and extensions selected?</h1>
+<p>Mozilla's process for selecting recommended features and extensions is comprehensive, ensuring that only the highest-quality tools are suggested. This selection, made by Mozilla's expert product and editorial teams, is based strictly on improving functionality, user experience and security. Specifically, for features, we focus on those that are widely appreciated or have the potential to significantly enhance a user's browsing experience online. Importantly, the integrity of this program is maintained by prohibiting paid placements by extension developers, affirming that the recommendations are solely aimed at improving user browsing experiences.
+</p>
+<h1 id=""w_who-benefits-from-these-recommendations"">Who benefits from these recommendations?</h1>
+<p>Recommendations are strictly intended to provide a better browsing experience for Firefox users like you. We believe that the recommended features and extensions offer unique value, making the browser even more personal and useful.
+</p>
+<h1 id=""w_how-do-i-opt-out-of-recommendations-in-firefox"">How do I opt out of recommendations in Firefox?</h1>
+<div class=""for"" data-for=""not fx123""><p>If you wish to opt out of receiving recommendations in Firefox, follow the steps below.
+</p>
+<h2 id=""w_opt-out-of-recommendations-from-a-recommendation-menu"">Opt out of recommendations from a recommendation menu</h2>
+<p>When you view a recommendation, you can click on <span class=""button"">Not Now</span> to dismiss it, or you can opt out of recommendations using the drop-down menu:
+</p>
+<dl><dt><img alt=""recommendation dropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-03-04-13-39-58-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<ul><li><strong>Don't Show Me This Recommendation</strong> – opts out of the specific recommendation.
+</li><li><strong>Manage Recommendation Settings</strong> – This option takes you directly to your Firefox settings page, where you can opt out of all recommendations.
+</li></ul>
+</div><div class=""for"" data-for=""fx123""><p>If you wish to opt out of receiving recommendations in Firefox, follow these steps when a feature call-out appears:
+</p>
+<ul><li>Click on the <img alt=""Feature call out Dismiss dropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-07-19-7001ce.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""100""> dropdown menu to reveal your options:
+<dl><dt><img alt=""Recommendations dropdown menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-06-06-16-27-f55ddc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+<ul><li><strong>Don't show this recommendation again</strong> – Select this to stop receiving this particular recommendation in the future.
+</li><li><strong>Show fewer recommendations</strong> – Choose this to decrease the number of recommendations you receive.
+</li><li><strong>Manage settings</strong> – This option takes you directly to your Firefox settings page, where you can opt out of all recommendations by following the instructions in the next section.
+</li></ul>
+</li></ul>
+</div>
+<h2 id=""w_opt-out-of-all-recommendations-from-firefox-settings"">Opt out of all recommendations from Firefox settings</h2>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>In the <span class=""menu"">General</span> panel, go down to the <em>Browsing</em> section.
+<dl><dt><img alt=""Browsing opt out recommendations"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-20-02-644f4d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Uncheck <img alt=""Unchecked box box"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-17-36-6c3bf2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> the box next to <strong>Recommend extensions as you browse</strong> and the box next to <strong>Recommend features as you browse</strong>.
+</li></ol>
+<h1 id=""w_how-do-i-learn-more-about-extensions"">How do I learn more about extensions?</h1>
+<p>To explore a wide range of extensions, check out <a href=""https://addons.mozilla.org"">addons.mozilla.org (AMO)</a>. This platform hosts a vast collection of extensions and themes, predominantly developed by independent creators globally.
+</p>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li> <a href=""/en-US/kb/pinned-tabs-keep-favorite-websites-open"">Pinned Tabs - keep favorite websites open and just a click away</a>
+</li><li> <a href=""/en-US/kb/firefox-reader-view-clutter-free-web-pages"">Firefox Reader View for clutter-free web pages</a>
+</li><li> <a href=""/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"">View and edit PDF files using Firefox’s built-in viewer</a>
+</li><li> <a href=""/en-US/kb/choose-your-preferred-pdf-viewer-firefox"">Choose your preferred PDF viewer in Firefox</a>
+</li></ul>",firefox,settings,"While you're exploring the web with Firefox, the browser may present you with suggestions for features and extensions, tailored to enhance your online experience. These recommendations are carefully curated based on the categories of websites you visit, such as suggesting media-related tools if you often access media sites, without the need to track your visits to individual websites.
+
+This approach not only ensures that the recommendations are highly relevant and beneficial to your browsing needs but also prioritizes your privacy by avoiding the logging of specific sites you explore. By combining insights into your general browsing behavior and the type of content you engage with, Firefox's recommendation system aims to introduce useful tools and features that make your online journey smoother and more personalized.
+
+<dl><dt>
+<span class=""for"" data-for=""not fx123""><img alt=""recommendation button"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-03-04-13-17-28-cfb65b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx123""><img alt=""Feature call out"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-06-42-cb7972.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""></span>
+</dt></dl>
+ Mozilla is committed to protecting your privacy. We do not collect your browsing data nor share it with third parties for the purpose of making these recommendations. The process of selecting appropriate features and extensions is carried out directly on your device, ensuring your information stays private. All suggested extensions undergo Mozilla's rigorous [Recommended Extensions program](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program"") to ensure their quality and safety.
+
+## Table of Contents
+
+- [1 What kinds of features and extensions are recommended?](https://support.mozilla.org/kb/recommendations-firefox#w_what-kinds-of-features-and-extensions-are-recommended)
+- [2 How are features and extensions selected?](https://support.mozilla.org/kb/recommendations-firefox#w_how-are-features-and-extensions-selected)
+- [3 Who benefits from these recommendations?](https://support.mozilla.org/kb/recommendations-firefox#w_who-benefits-from-these-recommendations)
+- [4 How do I opt out of recommendations in Firefox?](https://support.mozilla.org/kb/recommendations-firefox#w_how-do-i-opt-out-of-recommendations-in-firefox)
+  - [4.1 Opt out of recommendations from a recommendation menu](https://support.mozilla.org/kb/recommendations-firefox#w_opt-out-of-recommendations-from-a-recommendation-menu)
+  - [4.2 Opt out of all recommendations from Firefox settings](https://support.mozilla.org/kb/recommendations-firefox#w_opt-out-of-all-recommendations-from-firefox-settings)
+
+- [5 How do I learn more about extensions?](https://support.mozilla.org/kb/recommendations-firefox#w_how-do-i-learn-more-about-extensions)
+- [6 Related content](https://support.mozilla.org/kb/recommendations-firefox#w_related-content)
+
+# What kinds of features and extensions are recommended?
+
+Firefox may recommend a variety of features, including browser tools and extensions.
+
+- **Browser tools** are discrete tools built directly into the browser, like [Pin Tabs](\""https://support.mozilla.org/en-US/kb/pinned-tabs-keep-favorite-websites-open""), [Reader View](\""https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages"") and [PDF edits](\""https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer#w_edit-pdf-files""). Firefox contains a lot of different tools that can improve your browsing experience and workflows through customization and efficiency gains. The recommendation feature aims to introduce you to tools you may not be aware of but could find useful.
+- **[Extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"")** allow you to add features to Firefox to customize your browsing experience. Extensions are software programs, most often developed by a third party, that modify the way Firefox works. They’re like apps for the browser, and they can make the tasks you do online simpler and more efficient. Extensions do things like protect passwords, download videos, find deals, block annoying ads and much more. They empower users to customize their browsing experience to fit their needs and personal tastes, making them an important part of Firefox.
+
+# How are features and extensions selected?
+
+Mozilla's process for selecting recommended features and extensions is comprehensive, ensuring that only the highest-quality tools are suggested. This selection, made by Mozilla's expert product and editorial teams, is based strictly on improving functionality, user experience and security. Specifically, for features, we focus on those that are widely appreciated or have the potential to significantly enhance a user's browsing experience online. Importantly, the integrity of this program is maintained by prohibiting paid placements by extension developers, affirming that the recommendations are solely aimed at improving user browsing experiences.
+
+# Who benefits from these recommendations?
+
+Recommendations are strictly intended to provide a better browsing experience for Firefox users like you. We believe that the recommended features and extensions offer unique value, making the browser even more personal and useful.
+
+# How do I opt out of recommendations in Firefox?
+
+If you wish to opt out of receiving recommendations in Firefox, follow the steps below.
+
+## Opt out of recommendations from a recommendation menu
+
+When you view a recommendation, you can click on Not Now to dismiss it, or you can opt out of recommendations using the drop-down menu:
+
+<dl><dt>
+<img alt=""recommendation dropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-03-04-13-39-58-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+- **Don't Show Me This Recommendation** – opts out of the specific recommendation.
+- **Manage Recommendation Settings** – This option takes you directly to your Firefox settings page, where you can opt out of all recommendations.
+
+If you wish to opt out of receiving recommendations in Firefox, follow these steps when a feature call-out appears:
+
+- Click on the ![Feature call out Dismiss dropdown](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) dropdown menu to reveal your options:<dl><dt>
+<img alt=""Recommendations dropdown menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-06-06-16-27-f55ddc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
+</dt></dl>
+  - **Don't show this recommendation again** – Select this to stop receiving this particular recommendation in the future.
+  - **Show fewer recommendations** – Choose this to decrease the number of recommendations you receive.
+  - **Manage settings** – This option takes you directly to your Firefox settings page, where you can opt out of all recommendations by following the instructions in the next section.
+
+## Opt out of all recommendations from Firefox settings
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, go down to the _Browsing_ section.<dl><dt>
+<img alt=""Browsing opt out recommendations"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-02-27-11-20-02-644f4d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+3. Uncheck ![Unchecked box box](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) the box next to **Recommend extensions as you browse** and the box next to **Recommend features as you browse**.
+
+# How do I learn more about extensions?
+
+To explore a wide range of extensions, check out [addons.mozilla.org (AMO)](https://addons.mozilla.org). This platform hosts a vast collection of extensions and themes, predominantly developed by independent creators globally.
+
+# Related content
+
+- [Pinned Tabs - keep favorite websites open and just a click away](\""https://support.mozilla.org/en-US/kb/pinned-tabs-keep-favorite-websites-open"")
+- [Firefox Reader View for clutter-free web pages](\""https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages"")
+- [View and edit PDF files using Firefox’s built-in viewer](\""https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer"")
+- [Choose your preferred PDF viewer in Firefox](\""https://support.mozilla.org/en-US/kb/choose-your-preferred-pdf-viewer-firefox"")
+
+"
 41094,Choosing a Firefox CPU architecture for Windows OS,choosing-firefox-cpu-architecture-windows-os,https://support.mozilla.org/en-US/kb/choosing-firefox-cpu-architecture-windows-os,en-US,On both ESR and rapid release channels we offer Firefox builds for both 32 and 64 bit CPU architecture.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
 <p></p><p>On both ESR and rapid release channels we offer Firefox builds for both 32 and 64 bit CPU architecture. We recommend using Firefox 64 bit builds in compatible environments although system administrators should select the CPU architecture that best matches their constraints. In any case, migrating from 32 bit Firefox to 64 bit Firefox should be done after significant QA cycles.
 </p>
@@ -67625,123 +67985,6 @@ Try to keep all videos under five minutes as a general rule. You may not be able
 # Ensure that the resolution and audio quality is top notch
 
 A video tutorial that contains poor resolution and/or audio quality is useless to any user. It’s easier to fix these issues prior to submitting your video for final editing since Camtasia doesn’t offer many options for enhancing original video files.
-
-"
-44296,Access toolbar functions using the keyboard,access-toolbar-functions-using-keyboard,https://support.mozilla.org/en-US/kb/access-toolbar-functions-using-keyboard,en-US,"Use your keyboard to access add-on buttons on the toolbar, as well as perform other toolbar functions not previously available via the keyboard.","<p>In Firefox, you can use the keyboard to access your add-on buttons on the toolbar, as well as perform other toolbar functions that were not previously available via your keyboard.
-</p>
-<h1 id=""w_to-access-toolbar-buttons"">To access toolbar buttons</h1>
-<ol><li> Press the <span class=""for"" data-for=""win,linux""><span class=""key"">Control</span> + <span class=""key"">L</span></span><span class=""for"" data-for=""mac""><span class=""key"">command</span> + <span class=""key"">L</span></span> keys to move to the address bar. 
-</li><li> Use the <span class=""key"">Tab</span> and <span class=""key"">Shift</span> + <span class=""key"">Tab</span> keys to move between various major groups of buttons in the toolbars<span class=""for"" data-for=""fx103"">, including the tab bar</span>.
-</li><li>Once you reach the desired group, you can use the right and left arrow keys to move through the buttons in that group. This allows you to quickly and efficiently find the button that you want.
-</li><li> Press the <span class=""key"">Space</span> or <span class=""key"">Enter</span> key to activate the desired toolbar button once you reach it.
-</li><li> Press the <span class=""key"">F6</span> key to quickly return to the web page from the toolbar.
-</li></ol>
-<div class=""for"" data-for=""win""><div class=""note""><strong>Windows tip:</strong> Alternatively, you can press the menu key or <span class=""key"">Shift</span> + <span class=""key"">F10</span> to access the context menu for the button, which is equivalent to clicking the right button on your mouse.</div></div>
-<h1 id=""w_disabling-this-feature"">Disabling this feature</h1>
-<p>If you have become accustomed to using <span class=""key"">Tab</span> to move between the URL bar and Search bar, skipping over buttons in between, you can restore the earlier behavior through the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a>. </p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-<p></p>
-<h2 id=""w_to-restore-the-earlier-tab-key-behavior"">To restore the earlier Tab key behavior</h2>
-<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li> Search for <span class=""pref"">browser.toolbars.keyboard_navigation</span>.
-</li><li> Click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to the preference to switch its value to <span class=""pref"">false</span>.
-</li><li> Close the <em>about:config</em> tab.
-</li></ol>",firefox,browse,"In Firefox, you can use the keyboard to access your add-on buttons on the toolbar, as well as perform other toolbar functions that were not previously available via your keyboard.
-
-# To access toolbar buttons
-
-1. Press the Control + Lcommand + L keys to move to the address bar. 
-2. Use the Tab and Shift + Tab keys to move between various major groups of buttons in the toolbars, including the tab bar.
-3. Once you reach the desired group, you can use the right and left arrow keys to move through the buttons in that group. This allows you to quickly and efficiently find the button that you want.
-4. Press the Space or Enter key to activate the desired toolbar button once you reach it.
-5. Press the F6 key to quickly return to the web page from the toolbar.
-
-**Windows tip:** Alternatively, you can press the menu key or Shift + F10 to access the context menu for the button, which is equivalent to clicking the right button on your mouse.
-
-# Disabling this feature
-
-If you have become accustomed to using Tab to move between the URL bar and Search bar, skipping over buttons in between, you can restore the earlier behavior through the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"").
-
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-## To restore the earlier Tab key behavior
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. Search for browser.toolbars.keyboard\_navigation.
-3. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to the preference to switch its value to false.
-4. Close the _about:config_ tab.
-
-"
-44360,Protect your container tabs with Mozilla VPN,protect-your-container-tabs-mozilla-vpn,https://support.mozilla.org/en-US/kb/protect-your-container-tabs-mozilla-vpn,en-US,Mozilla VPN encrypts your connection so that third parties can't track your online activity. Learn how to add this protection to Containers.,"<p>The <a href=""/en-US/kb/containers"">Container tabs</a> feature in Firefox lets you separate your online identities and activities into different tabs. For example, you can use one container tab for personal browsing, another for work browsing, another for shopping, etc. This helps you keep your activity more isolated between use cases.
-</p><p>By using container tabs and Mozilla VPN together, you can enjoy a higher level of online privacy by indicating different locations for each one of your containers. For example, if you live in the U.S. but care about local French news, you can set your news consumption container to VPN through France, and your personal shopping container to VPN through the United States.
-</p>
-<div class=""note""> Please ensure that you have an active <a href=""/en-US/kb/choose-mozilla-vpn-plan-right-you"">subscription</a> and the <a href=""https://www.mozilla.org/products/vpn/download/"">latest Mozilla VPN client version</a> installed to enable integration with <a href=""/en-US/kb/containers"">Multi-Account Containers</a>.
-</div>
-<p><strong>To enable Mozilla VPN on your containers:</strong>
-</p>
-<ol><li>Make sure that you have the <a href=""https://addons.mozilla.org/firefox/addon/multi-account-containers/"">Multi-Account Containers extension</a> installed. For instructions, see <a href=""/en-US/kb/containers"">Multi-Account Containers</a>.
-</li><li>Click on the Multi-Account Containers icon in the toolbar. If you haven't installed Mozilla VPN, click the <span class=""button"">Learn More</span> button to be redirected to the <a href=""https://vpn.mozilla.org/"">Mozilla VPN website</a>, where you can subscribe and download the app.
-<dl><dt><img alt=""MAC 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-03-05-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Install and sign in to Mozilla VPN if you’re using it for the first time.  This allows the Multi-Account Containers extension to know that it’s installed.
-</li><li>The Mozilla VPN logo and a status indicator will appear on the main panel.
-<dl><dt><img alt=""MAC 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-04-04-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Click <span class=""button"">Manage Containers</span> at the bottom.
-<dl><dt><img alt=""MAC 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-04-33-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>The list of containers will appear. Select the container for which you want to enable Mozilla VPN.
-<dl><dt><img alt=""MAC 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-06-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>A toggle will show in the Mozilla VPN section of your container's editing panel once you have integrated the VPN. Switch it to enable Mozilla VPN for this container.
-<dl><dt><img alt=""MAC 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-27-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Choose a location from the picker.
-<dl><dt><img alt=""MAC 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-41-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<p>All set! To confirm that the VPN is enabled check if the container where Mozilla VPN is configured displays the flag associated with the country of the server location of your choice.
-</p><p>
-<strong>Related articles:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/use-multi-account-containers-mozilla-vpn?utm_source=-vpn-related"">Use Multi-Account Containers with Mozilla VPN</a>
-</li></ul>",mozilla-vpn,privacy-and-security;security;settings;tracking-protection,"The [Container tabs](\""https://support.mozilla.org/en-US/kb/containers"") feature in Firefox lets you separate your online identities and activities into different tabs. For example, you can use one container tab for personal browsing, another for work browsing, another for shopping, etc. This helps you keep your activity more isolated between use cases.
-
-By using container tabs and Mozilla VPN together, you can enjoy a higher level of online privacy by indicating different locations for each one of your containers. For example, if you live in the U.S. but care about local French news, you can set your news consumption container to VPN through France, and your personal shopping container to VPN through the United States.
-
- Please ensure that you have an active [subscription](\""https://support.mozilla.org/en-US/kb/choose-mozilla-vpn-plan-right-you"") and the [latest Mozilla VPN client version](https://www.mozilla.org/products/vpn/download/) installed to enable integration with [Multi-Account Containers](\""https://support.mozilla.org/en-US/kb/containers"").
-
-**To enable Mozilla VPN on your containers:**
-
-1. Make sure that you have the [Multi-Account Containers extension](https://addons.mozilla.org/firefox/addon/multi-account-containers/) installed. For instructions, see [Multi-Account Containers](\""https://support.mozilla.org/en-US/kb/containers"").
-2. Click on the Multi-Account Containers icon in the toolbar. If you haven't installed Mozilla VPN, click the Learn More button to be redirected to the [Mozilla VPN website](https://vpn.mozilla.org/), where you can subscribe and download the app.<dl><dt>
-<img alt=""MAC 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-03-05-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-3. Install and sign in to Mozilla VPN if you’re using it for the first time. This allows the Multi-Account Containers extension to know that it’s installed.
-4. The Mozilla VPN logo and a status indicator will appear on the main panel.<dl><dt>
-<img alt=""MAC 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-04-04-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-5. Click Manage Containers at the bottom.<dl><dt>
-<img alt=""MAC 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-04-33-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-6. The list of containers will appear. Select the container for which you want to enable Mozilla VPN.<dl><dt>
-<img alt=""MAC 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-06-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-7. A toggle will show in the Mozilla VPN section of your container's editing panel once you have integrated the VPN. Switch it to enable Mozilla VPN for this container.<dl><dt>
-<img alt=""MAC 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-27-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-8. Choose a location from the picker.<dl><dt>
-<img alt=""MAC 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-07-13-05-41-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-All set! To confirm that the VPN is enabled check if the container where Mozilla VPN is configured displays the flag associated with the country of the server location of your choice.
-
-**Related articles:**
-
-- [Use Multi-Account Containers with Mozilla VPN](https://support.mozilla.org/en-US/kb/use-multi-account-containers-mozilla-vpn?utm_source=-vpn-related)
 
 "
 44396,Mozilla account on support.mozilla.org,firefox-accounts-supportmozillaorg,https://support.mozilla.org/en-US/kb/firefox-accounts-supportmozillaorg,en-US,Frequently asked questions about Mozilla accounts on Mozilla Support.,"<p>This article lists frequently asked questions about Mozilla accounts on Mozilla Support.
@@ -87945,56 +88188,6 @@ To cancel your MDN Plus subscription:
 3. Click (or tap) **Cancel Subscription**.
 
 "
-57593,How do I update my payment information for my MDN Plus subscription?,how-do-i-update-my-payment-information-my-mdn-plus,https://support.mozilla.org/en-US/kb/how-do-i-update-my-payment-information-my-mdn-plus,en-US,"MDN Plus allows you to auto-renew, so you don’t have to worry about your subscription. Learn the steps to update your payment method in this article.","<p>MDN Plus allows you to auto-renew, so you don’t have to worry about your subscription. If you get a message that your payment failed, it may be because your card expired or is no longer valid.
-</p>
-<h2 id=""w_windows-mac-linux-or-android"">Windows, Mac, Linux or Android</h2>
-<p>To update your payment method: 
-</p>
-<ol><li>Access your account at <a href=""https://accounts.firefox.com/signin"">https://accounts.firefox.com/signin</a>. 
-</li><li>Click (or tap) <strong>Paid Subscriptions</strong> on the left panel to open the subscriptions page.
-</li><li>Click (or tap) on the Manage button under <strong>Billing information</strong> to update your details.
-</li><li>After you've updated your information, click (or tap) the <strong>Update</strong> button.
-</li></ol>
-<h2 id=""w_ios"">iOS</h2>
-<p>You can manage your subscription through Apple's App Store by following these steps or see the <a href=""https://support.apple.com/en-us/HT201266/"">Apple support site</a> for more information.
-</p>
-<ol><li>Open the Settings app.
-</li><li>Tap your name.
-</li><li>Tap <strong>Subscriptions</strong>.
-</li><li>Tap <strong>Payment and Shipping</strong>.
-</li><li>Tap the payment method you want to change or <strong>Add Payment Method</strong> to enter a new one.
-</li></ol>",mdn-plus;mozilla-account,manage-billing;manage-subscriptions,"MDN Plus allows you to auto-renew, so you don’t have to worry about your subscription. If you get a message that your payment failed, it may be because your card expired or is no longer valid.
-
-## Windows, Mac, Linux or Android
-
-To update your payment method:
-
-1. Access your account at [https://accounts.firefox.com/signin](https://accounts.firefox.com/signin). 
-2. Click (or tap) **Paid Subscriptions** on the left panel to open the subscriptions page.
-3. Click (or tap) on the Manage button under **Billing information** to update your details.
-4. After you've updated your information, click (or tap) the **Update** button.
-
-## iOS
-
-You can manage your subscription through Apple's App Store by following these steps or see the [Apple support site](https://support.apple.com/en-us/HT201266/) for more information.
-
-1. Open the Settings app.
-2. Tap your name.
-3. Tap **Subscriptions**.
-4. Tap **Payment and Shipping**.
-5. Tap the payment method you want to change or **Add Payment Method** to enter a new one.
-
-"
-57594,Where can I view my MDN Plus subscription information?,where-can-i-view-my-mdn-plus-subscription-informat,https://support.mozilla.org/en-US/kb/where-can-i-view-my-mdn-plus-subscription-informat,en-US,Follow the steps in this article to view your MDN Plus subscription information.,"<p>To view your MDN Plus subscription information:
-</p>
-<ol><li>Access your account at <a href=""https://accounts.firefox.com/signin"">https://accounts.firefox.com/signin</a>. 
-</li><li>Click <strong>Paid Subscriptions</strong> on the left panel to open the subscriptions page.
-</li></ol>",mdn-plus;mozilla-account,billing-and-subscriptions;manage-billing;manage-subscriptions,"To view your MDN Plus subscription information:
-
-1. Access your account at [https://accounts.firefox.com/signin](https://accounts.firefox.com/signin). 
-2. Click **Paid Subscriptions** on the left panel to open the subscriptions page.
-
-"
 57596,How do I request a refund for MDN Plus?,how-do-i-request-refund-mdn-plus,https://support.mozilla.org/en-US/kb/how-do-i-request-refund-mdn-plus,en-US,Learn how to request a refund for MDN Plus in this article.,"<p>To request a refund for MDN Plus:
 </p>
 <ol><li>Access your account at <a href=""https://accounts.firefox.com/signin"">https://accounts.firefox.com/signin</a>. 
@@ -98965,6 +99158,160 @@ Please refer to the following screenshot: ![tb-115-customize-unified-toolbar-mai
 - 5. This is the Button Style. The default is Icons beside text
 
 **Try it out:** Experiment with some buttons and different arrangements. Try out the Context Menus on the buttons by right clicking (control click on macOS) You can always restore the default toolbar settings by clicking Restore default. When you are finished customizing, click Save.
+
+"
+61818,Autofill Credit Cards in Firefox for iOS,autofill-credit-cards-firefox-ios,https://support.mozilla.org/en-US/kb/autofill-credit-cards-firefox-ios,en-US,Streamline your online shopping with Firefox for iOS Credit Card and Payment Method Autofill. Learn more.,"<p>Streamline your online shopping with Firefox for iOS Credit Card and Payment Method Autofill. With just one tap, this feature automatically populates your payment information at checkout, saving you time and effort while giving you peace of mind that your data remains secure.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_access-the-credit-card-autofill-feature""><span class=""tocnumber"">1</span> <span class=""toctext"">Access the Credit Card Autofill Feature</span></a></li><li class=""toclevel-1""><a href=""#w_add-credit-card-information""><span class=""tocnumber"">2</span> <span class=""toctext"">Add Credit Card Information</span></a></li><li class=""toclevel-1""><a href=""#w_edit-and-delete-saved-credit-cards""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit and delete Saved Credit Cards</span></a></li></ul></div>
+<h2 id=""w_access-the-credit-card-autofill-feature"">Access the Credit Card Autofill Feature</h2>
+<ol><li>Launch Firefox on your iOS device.
+</li><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Select <span class=""menu"">Settings</span> from the menu options.
+<dl><dt><img alt=""Firefox iOS Settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-10-00-04-0749eb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+</li><li>Scroll down and tap <span class=""menu"">Payment Methods</span> under the <em>Privacy</em> section.
+<dl><dt><img alt=""Payment Methods menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-39-38-859895.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Make sure the <strong>Save and Fill Payment Methods</strong> option is enabled.
+<dl><dt><img alt=""Save and Fill Payment Methods"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-40-19-3d0872.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<h2 id=""w_add-credit-card-information"">Add Credit Card Information</h2>
+<ol><li>On the Payment Methods Feature page, tap <span class=""button"">+</span>.
+<dl><dt><img alt=""Add a Payment Method"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-41-19-100a84.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Enter your cardholder name, credit card number, and expiration date.
+<dl><dt><img alt=""Firefox ios enter card details"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-06-36-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Double-check the details for accuracy, and, on the top-right, tap <span class=""button"">Save</span>.
+</li></ol>
+<h2 id=""w_edit-and-delete-saved-credit-cards"">Edit and delete Saved Credit Cards</h2>
+<ol><li>On the Payment Methods Feature page, tap the saved credit card you want to modify.
+<dl><dt><img alt=""Payment methods - view saved cards"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-09-05-16-0bf768.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+</li><li>Tap <span class=""menu"">Edit</span> to allow modifications to the credit card you chose.
+<dl><dt><img alt=""Firefox ios edit card 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-07-59-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Modify the Credit Card information and tap <span class=""button"">Save</span>, or tap <span class=""button"">Remove Card</span> to delete it.
+<dl><dt><img alt=""Firefox ios edit or remove card"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-08-34-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>",ios,settings,"Streamline your online shopping with Firefox for iOS Credit Card and Payment Method Autofill. With just one tap, this feature automatically populates your payment information at checkout, saving you time and effort while giving you peace of mind that your data remains secure.
+
+## Table of Contents
+
+- [1 Access the Credit Card Autofill Feature](https://support.mozilla.org/kb/autofill-credit-cards-firefox-ios#w_access-the-credit-card-autofill-feature)
+- [2 Add Credit Card Information](https://support.mozilla.org/kb/autofill-credit-cards-firefox-ios#w_add-credit-card-information)
+- [3 Edit and delete Saved Credit Cards](https://support.mozilla.org/kb/autofill-credit-cards-firefox-ios#w_edit-and-delete-saved-credit-cards)
+
+## Access the Credit Card Autofill Feature
+
+1. Launch Firefox on your iOS device.
+2. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+3. Select Settings from the menu options.<dl><dt>
+<img alt=""Firefox iOS Settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-10-00-04-0749eb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+4. Scroll down and tap Payment Methods under the _Privacy_ section.<dl><dt>
+<img alt=""Payment Methods menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-39-38-859895.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+5. Make sure the **Save and Fill Payment Methods** option is enabled.<dl><dt>
+<img alt=""Save and Fill Payment Methods"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-40-19-3d0872.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+## Add Credit Card Information
+
+1. On the Payment Methods Feature page, tap +.<dl><dt>
+<img alt=""Add a Payment Method"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-06-41-19-100a84.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+2. Enter your cardholder name, credit card number, and expiration date.<dl><dt>
+<img alt=""Firefox ios enter card details"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-06-36-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+3. Double-check the details for accuracy, and, on the top-right, tap Save.
+
+## Edit and delete Saved Credit Cards
+
+1. On the Payment Methods Feature page, tap the saved credit card you want to modify.<dl><dt>
+<img alt=""Payment methods - view saved cards"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-21-09-05-16-0bf768.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
+</dt></dl>
+2. Tap Edit to allow modifications to the credit card you chose.<dl><dt>
+<img alt=""Firefox ios edit card 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-07-59-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+3. Modify the Credit Card information and tap Save, or tap Remove Card to delete it.<dl><dt>
+<img alt=""Firefox ios edit or remove card"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-08-34-490f17.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+"
+61819,userChrome.css and .js and userContent are unsupported,userchromecss-js-usercontent-unsupported,https://support.mozilla.org/en-US/kb/userchromecss-js-usercontent-unsupported,en-US,"userChrome.css, userChrome.js, userContent.css and userContent.js are unsupported because they can break at any time and are difficult to troubleshoot.","<h2 id=""w_why-is-userchrome-unsupported"">Why is userChrome unsupported?</h2>
+<p><em>userChrome.css</em> is a Cascading Style Sheet (CSS) that allows developers to make changes to Thunderbird’s user interface. The CSS rules in <em>userChrome.css</em> are applied to the user interface, and can override nearly every built-in style rule. <em>userChrome.js</em> allows anyone to inject JavaScript code that changes Thunderbird. <em>userContent.css</em> and <em>userContent.js</em> are similar features for websites.
+</p><p><em>userChrome.css</em>, <em>userChrome.js</em>, <em>userContent.css</em> and <em>userContent.js</em> are very powerful tools, intended for testing by technical users who are familiar with JS, CSS and HTML. The Thunderbird Project does not offer support for modifications to these files. This is because Thunderbird developers are constantly making improvements to the HTML elements, which alters the CSS selectors as well as the underlying JavaScript code. These changes mean that customizations based on <em>userChrome.css</em>, <em>userChrome.js</em>, <em>userContent.css</em> and <em>userContent.js</em> can break Thunderbird at any time and are very difficult to troubleshoot.
+</p>
+<h2 id=""w_how-to-disable-and-remove-userchrome-css"">How to disable and remove userChrome.css</h2>
+<p>Users can disable and remove their unsupported <em>userChrome.css</em> file so that it does not load on Thunderbird startup by following these steps:
+</p>
+<ol><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">General</span>
+</li><li> Scroll down to the bottom and click <span class=""button"">Config Editor…</span>
+</li><li> Enter <strong>toolkit.legacyUserProfileCustomizations.stylesheets</strong> and, if it has been changed, you will see a reset button which will look like a counter-clockwise arrow button <span class=""button""><img alt=""tb115-undo-16x16"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-10-23-10-00-44-2dce8f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>. Click it to reset the value immediately.
+</li><li> Remove <span class=""filepath"">userChrome.css</span> inside the <span class=""filepath"">chrome</span> folder of the profile folder. To find the profile folder, see the <em>How do I find my profile?</em> section in <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Profiles - Where Thunderbird stores your messages and other user data</a>.
+</li></ol>",thunderbird,customization;settings,"## Why is userChrome unsupported?
+
+_userChrome.css_ is a Cascading Style Sheet (CSS) that allows developers to make changes to Thunderbird’s user interface. The CSS rules in _userChrome.css_ are applied to the user interface, and can override nearly every built-in style rule. _userChrome.js_ allows anyone to inject JavaScript code that changes Thunderbird. _userContent.css_ and _userContent.js_ are similar features for websites.
+
+_userChrome.css_, _userChrome.js_, _userContent.css_ and _userContent.js_ are very powerful tools, intended for testing by technical users who are familiar with JS, CSS and HTML. The Thunderbird Project does not offer support for modifications to these files. This is because Thunderbird developers are constantly making improvements to the HTML elements, which alters the CSS selectors as well as the underlying JavaScript code. These changes mean that customizations based on _userChrome.css_, _userChrome.js_, _userContent.css_ and _userContent.js_ can break Thunderbird at any time and are very difficult to troubleshoot.
+
+## How to disable and remove userChrome.css
+
+Users can disable and remove their unsupported _userChrome.css_ file so that it does not load on Thunderbird startup by following these steps:
+
+1. Click ≡ \> Settings \> General
+2. Scroll down to the bottom and click Config Editor…
+3. Enter **toolkit.legacyUserProfileCustomizations.stylesheets** and, if it has been changed, you will see a reset button which will look like a counter-clockwise arrow button ![tb115-undo-16x16](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). Click it to reset the value immediately.
+4. Remove userChrome.css inside the chrome folder of the profile folder. To find the profile folder, see the _How do I find my profile?_ section in [Profiles - Where Thunderbird stores your messages and other user data](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"").
+
+"
+61834,Firefox for Enterprise 116 - Release notes,firefox-enterprise-116-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-116-release-notes,en-US,See what's coming out with Firefox for Enterprise 116.,"<p>Except where noted, everything here applies to both Firefox 116 and the Firefox 115.1 ESR. Firefox 115 is the current <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, only fixes will be backported to the Firefox 102 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">2</span> <span class=""toctext"">Special Notes</span></a><ul><li class=""toclevel-2""><a href=""#w_windows-7-8-and-8-1-support""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Windows 7, 8, and 8.1 Support</span></a></li><li class=""toclevel-2""><a href=""#w_macos-10-12-10-13-and-10-14-support""><span class=""tocnumber"">2.2</span> <span class=""toctext"">macOS 10.12, 10.13 and 10.14 Support</span></a></li></ul></li></ul></div>
+<h1 id=""w_bug-fixes"">Bug Fixes</h1>
+<ul><li>Users could access private browsing even when it was disabled by using the command line option. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1797806"">bug 1797806</a>. This is not fixed on the ESR. We're looking into it.
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<p>There is one more planned release of Firefox 102 ESR, and then it will go out of support on September 26, 2023. Users will then be automatically upgraded to the Firefox 115 ESR.
+</p><p>If you need to prevent upgrades for any reason, you can use the new <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
+</p>
+<h2 id=""w_windows-7-8-and-8-1-support"">Windows 7, 8, and 8.1 Support</h2>
+<p><a href=""/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support"">We are ending support for Windows 7, 8 and 8.1.</a> Users of Firefox on these versions of Windows will be moved over to the Firefox 115 ESR and will be supported until September 2024.
+</p>
+<h2 id=""w_macos-10-12-10-13-and-10-14-support"">macOS 10.12, 10.13 and 10.14 Support</h2>
+<p><a href=""/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"">We are ending support for macOS 10.12, 10.13 and 10.14.</a> Users of Firefox on these versions of macOS will be moved over to the Firefox 115 ESR and will be supported until September 2024.
+</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 116 and the Firefox 115.1 ESR. Firefox 115 is the current [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"") so, going forward, only fixes will be backported to the Firefox 102 ESR.
+
+## Table of Contents
+
+- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-116-release-notes#w_bug-fixes)
+- [2 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-116-release-notes#w_special-notes)
+  - [2.1 Windows 7, 8, and 8.1 Support](https://support.mozilla.org/kb/firefox-enterprise-116-release-notes#w_windows-7-8-and-8-1-support)
+  - [2.2 macOS 10.12, 10.13 and 10.14 Support](https://support.mozilla.org/kb/firefox-enterprise-116-release-notes#w_macos-10-12-10-13-and-10-14-support)
+
+# Bug Fixes
+
+- Users could access private browsing even when it was disabled by using the command line option. This was fixed in [bug 1797806](https://bugzilla.mozilla.org/show_bug.cgi?id=1797806). This is not fixed on the ESR. We're looking into it.
+
+# Special Notes
+
+There is one more planned release of Firefox 102 ESR, and then it will go out of support on September 26, 2023. Users will then be automatically upgraded to the Firefox 115 ESR.
+
+If you need to prevent upgrades for any reason, you can use the new [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
+
+## Windows 7, 8, and 8.1 Support
+
+[We are ending support for Windows 7, 8 and 8.1.](\""https://support.mozilla.org/en-US/kb/firefox-users-windows-7-8-and-81-moving-extended-support"") Users of Firefox on these versions of Windows will be moved over to the Firefox 115 ESR and will be supported until September 2024.
+
+## macOS 10.12, 10.13 and 10.14 Support
+
+[We are ending support for macOS 10.12, 10.13 and 10.14.](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"") Users of Firefox on these versions of macOS will be moved over to the Firefox 115 ESR and will be supported until September 2024.
 
 "
 61838,In what languages is Firefox Relay available in?,in-what-languages-is-firefox-relay-available-in,https://support.mozilla.org/en-US/kb/in-what-languages-is-firefox-relay-available-in,en-US,"In what languages is Relay available in?
@@ -127314,6 +127661,262 @@ If you are unable to opt out from your service provider, the following workaroun
 # All searches are affected
 
 If searching using the search bar **and** searching directly from the site itself are both being redirected to alternate sites, it is likely that this redirection is being caused by malicious software such as a virus, spyware or trojan installed on your computer. See [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") for instructions to get rid of malware.
+
+"
+820,Troubleshoot Firefox crashes (closing or quitting unexpectedly),troubleshoot-firefox-crashes-closing-or-quitting,https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting,en-US,"Learn how to troubleshoot and fix Firefox crashes, and find out how to get more help if you're having problems solving the issue.","<p>We understand how frustrating it is when Firefox crashes (closes or quits unexpectedly). When Firefox crashes, the <a href=""/en-US/kb/mozillacrashreporter"">Mozilla Crash Reporter</a> will allow you to submit a crash to us, so we can continue making improvements to Firefox. Here are also some things to try to get Firefox up and running optimally.
+</p>
+<div class=""note""><strong>Before getting started:</strong>
+<ul><li>If the page stops working because part of the page has crashed or stopped responding, try reloading the page to see if that fixes the problem.
+</li><li>If Firefox is open but won't respond to any of your actions, then this is a <em>hang</em>, not a crash.  See <a href=""/en-US/kb/firefox-hangs-or-not-responding"">Firefox hangs or is not responding - How to fix</a> for solutions.
+</li><li>If Firefox crashes at startup:
+<ul><li><a href=""#w_check-to-see-if-the-crash-happens-in-troubleshoot-mode"">Check to see if the crash happens in Troubleshoot Mode</a> (see below).
+</li><li>Try a clean reinstall (see <a href=""/en-US/kb/firefox-keeps-crashing-startup"">Firefox keeps crashing at startup</a>).
+</li></ul>
+</li></ul>
+<p>Otherwise, follow the steps below in order.
+</p>
+</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_update-your-software""><span class=""tocnumber"">1</span> <span class=""toctext"">Update your software</span></a><ul><li class=""toclevel-2""><a href=""#w_update-firefox""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Update Firefox</span></a></li><li class=""toclevel-2""><a href=""#w_update-windows""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Update Windows</span></a></li><li class=""toclevel-2""><a href=""#w_update-macos""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Update macOS</span></a></li><li class=""toclevel-2""><a href=""#w_update-linux""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Update Linux</span></a></li><li class=""toclevel-2""><a href=""#w_update-your-drivers""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Update your drivers</span></a></li><li class=""toclevel-2""><a href=""#w_update-your-internet-security-software""><span class=""tocnumber"">1.6</span> <span class=""toctext"">Update your Internet Security software</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_check-for-viruses-or-spyware""><span class=""tocnumber"">2</span> <span class=""toctext"">Check for viruses or spyware</span></a></li><li class=""toclevel-1""><a href=""#w_check-for-third-party-modules""><span class=""tocnumber"">3</span> <span class=""toctext"">Check for third-party modules</span></a></li><li class=""toclevel-1""><a href=""#w_check-to-see-if-the-crash-happens-in-troubleshoot-mode""><span class=""tocnumber"">4</span> <span class=""toctext"">Check to see if the crash happens in Troubleshoot Mode</span></a><ul><li class=""toclevel-2""><a href=""#w_the-crash-still-happens-in-troubleshoot-mode""><span class=""tocnumber"">4.1</span> <span class=""toctext"">The crash still happens in Troubleshoot Mode</span></a></li><li class=""toclevel-2""><a href=""#w_the-crash-doesnt-happen-in-troubleshoot-mode""><span class=""tocnumber"">4.2</span> <span class=""toctext"">The crash doesn't happen in Troubleshoot Mode</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_check-your-hardware""><span class=""tocnumber"">5</span> <span class=""toctext"">Check your hardware</span></a><ul><li class=""toclevel-2""><a href=""#w_check-your-ram-for-errors""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Check your RAM for errors</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_get-help-fixing-this-crash""><span class=""tocnumber"">6</span> <span class=""toctext"">Get help fixing this crash</span></a><ul><li class=""toclevel-2""><a href=""#w_ask-for-help-in-the-community-support-forum""><span class=""tocnumber"">6.1</span> <span class=""toctext"">Ask for help in the Community Support forum</span></a></li></ul></li></ul></div>
+<h1 id=""w_update-your-software"">Update your software</h1>
+<p><em>The crash you're experiencing may have already been fixed in a new version!</em> 
+</p>
+<h2 id=""w_update-firefox"">Update Firefox</h2>
+<p>Every Firefox release includes a number of fixes for crashes that people have reported.  Making sure you have the latest version may fix your crash.  See <a href=""/en-US/kb/update-firefox-latest-release"">Update Firefox to the latest release</a> for details.
+</p><div class=""for"" data-for=""win"">
+<h2 id=""w_update-windows"">Update Windows</h2>
+<p>Make sure you have all of the latest security and stability fixes.
+</p></div><div class=""for"" data-for=""mac"">
+<h2 id=""w_update-macos"">Update macOS</h2>
+<p>Make sure your Mac has all of the latest security and stability fixes.
+</p></div><div class=""for"" data-for=""linux"">
+<h2 id=""w_update-linux"">Update Linux</h2>
+<p>Make sure you have all of the latest security and stability fixes.
+</p></div>
+<h2 id=""w_update-your-drivers"">Update your drivers</h2>
+<p>Check if your graphics drivers are up-to-date. For more information, see <a href=""/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"">Upgrade your graphics drivers to use hardware acceleration and WebGL</a>.
+</p><p>If your crash happens while printing, check that your printer driver is up-to-date by going to your printer manufacturer's support website. The <a href=""/en-US/kb/fix-printing-problems-firefox"">Fix printing problems in Firefox</a> article may also help.
+</p>
+<h2 id=""w_update-your-internet-security-software"">Update your Internet Security software</h2>
+<p>Make sure you have the latest version of your Internet security software (including firewalls, antivirus programs, anti-spyware programs, and more).
+</p><div class=""for"" data-for=""win"">
+<h1 id=""w_check-for-viruses-or-spyware"">Check for viruses or spyware</h1>
+<p>A number of different viruses and spyware are known to crash Firefox. For more information, see <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a>.
+</p>
+<h1 id=""w_check-for-third-party-modules"">Check for third-party modules</h1>
+<p>Third-party applications (such as antivirus software, archiving software, and other tools) may load modules into Firefox. Sometimes, these applications load harmful modules that cause Firefox crashes, reduced performance, or compatibility issues. You may not notice that a malicious or unexpected module has been loaded, and it may cause problems that appear to be Firefox issues. For more information, see <a href=""/en-US/kb/identify-problems-third-party-modules-firefox-windows"">Identify problems caused by third-party modules in Firefox for Windows</a>.
+</p></div>
+<h1 id=""w_check-to-see-if-the-crash-happens-in-troubleshoot-mode"">Check to see if the crash happens in Troubleshoot Mode</h1>
+<p>If updating software didn't work or if Firefox crashes on startup, use the steps below to test whether the crash happens in <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Firefox Troubleshoot Mode</a> or not and then follow the instructions in the recommended articles.
+</p>
+<ol><li> <p>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span>, select <span class=""menu"">Troubleshoot Mode…</span> and click <span class=""button"">Restart</span> in the <em>Restart Firefox in Troubleshoot Mode?</em> dialog.
+</p>
+<div class=""note""><strong>Note:</strong> You can also start Firefox in Troubleshoot Mode by <span class=""for"" data-for=""win"">holding down the <span class=""key"">Shift</span> key while starting Firefox.</span><span class=""for"" data-for=""mac"">holding down the <span class=""key"">option</span> key while starting Firefox.</span><span class=""for"" data-for=""linux"">quitting Firefox and then going to your <strong>Terminal</strong> and running: <code>firefox -safe-mode</code><br>You may need to specify the Firefox installation path (for example <span class=""filepath"">/usr/lib/firefox</span>).</span></div>
+</li><li> When the <em>Open Firefox in Troubleshoot Mode?</em> window appears, press the <span class=""button"">Open</span> button. 
+<dl><dt><img alt=""Fx88TroubleshootMode"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-31-17-39-57-bfee23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<p>After Firefox starts in Troubleshoot Mode, test for your problem.
+</p>
+<div class=""note""><strong>Note:</strong> The <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox feature</a> can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
+</div>
+<h2 id=""w_the-crash-still-happens-in-troubleshoot-mode"">The crash still happens in Troubleshoot Mode</h2>
+<p>If your crash still happens in Troubleshoot Mode, it is not being caused by an extension, theme, or hardware acceleration. Try to <a href=""#w_get-help-fixing-this-crash"">get help with your crash ID</a> (see below).
+</p>
+<h2 id=""w_the-crash-doesnt-happen-in-troubleshoot-mode"">The crash doesn't happen in Troubleshoot Mode</h2>
+<p>If your crash doesn't happen in Troubleshoot Mode, it is most likely because an extension, theme, or hardware acceleration is causing the crash.
+</p>
+<ul><li>Follow the steps in <a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a> to determine the cause.
+</li></ul>
+<h1 id=""w_check-your-hardware"">Check your hardware</h1>
+<h2 id=""w_check-your-ram-for-errors"">Check your RAM for errors</h2>
+<p>If Firefox crashes repeatedly, check your RAM for errors using for instance the following tool, <span class=""for"" data-for=""win,linux""><a href=""http://www.memtest.org/"">Memtest86+</a></span><span class=""for"" data-for=""mac""><a href=""http://www.kelleycomputing.net/rember/"">Rember</a></span>.
+</p>
+<h1 id=""w_get-help-fixing-this-crash"">Get help fixing this crash</h1>
+<p>Figuring out the cause of a crash can be difficult. If you've tried the steps above and can't get Firefox to stop crashing, the instructions below will show you how to get the crash Report IDs for your most recent submitted crash reports, so our volunteers can help you.
+</p><p><strong>If you can open Firefox, at least in Troubleshoot Mode:</strong>
+</p>
+<ol><li>In the Firefox address bar, type <strong>about:crashes</strong> and hit <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>. A page listing submitted crash reports (and unsubmitted crash reports, if any) will appear.<br><img alt=""Fx115aboutcrashes"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-17-16-36-25-9d225a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+<ul><li>If you have recent, unsubmitted crash reports: Click the <span class=""button"">Submit</span> button for each recent unsubmitted report and then reload the <em>about:crashes</em> page.
+</li></ul>
+</li><li>You should copy the Report IDs for <strong>submitted</strong> crash reports (they start with <strong>bp-</strong>) to your support question in the Community Support forum.
+</li></ol>
+<div class=""note""><strong>Note:</strong> If you can't open Firefox because it crashes at startup even in Troubleshoot Mode, use these alternative instructions to locate Report IDs:
+<ol><li><span class=""for"" data-for=""win"">Press <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> + <span class=""key"">R</span> on the keyboard. Type in <span class=""filepath"">""%APPDATA%\Mozilla\Firefox\Crash Reports\submitted""</span> (including the quotation marks) and click <span class=""button"">OK</span>.</span><span class=""for"" data-for=""mac"">Click the <strong>Finder</strong> icon in the dock. On the menu bar, click the <span class=""menu"">Go</span> menu, hold down the <span class=""key"">option</span> or <span class=""key"">alt</span> key and select <span class=""menu"">Library</span>. A window will open containing your Library folder. Then open the “Application Support” folder, the “Firefox” folder, the “Crash Reports” folder and finally the “submitted” folder.</span><span class=""for"" data-for=""linux"">Go to <span class=""filepath"">~/.mozilla/firefox/Crash Reports/submitted</span>.</span>
+</li><li>In the resulting folder, there will be a text file for each crash report you have submitted. Using the <span class=""menu"">View</span> menu, arrange them by date to find out which is the newest file and double-click on it to open it.</li></ol></div>
+
+<h2 id=""w_ask-for-help-in-the-community-support-forum"">Ask for help in the Community Support forum</h2>
+<ol><li> <strong><a href=""/en-US/questions/new/firefox/form"">Click this link</a></strong> to ask for help with your crash on the Firefox Community Support forum (see <a href=""/en-US/kb/get-community-support"">Get community support</a> for other support resources).
+<ul><li>You may need to create an account or log in to your existing account during the “ask a question” process.
+</li></ul>
+</li><li>On the <strong>Ask your question</strong> form, enter a subject and topic, then fill out the next section with as much information you have about the crash. Include any of the steps you completed above, like updating Firefox or testing for the crash in Troubleshoot Mode.
+</li><li>Copy the long Report ID number you've got above for the latest crashes (<strong>bp-…</strong>) and paste it into your question.
+</li><li>Finally, click the <span class=""button"">Submit</span> button.<div class=""note"">We know that providing all this information is time-consuming, but it will make it much easier for our volunteers to help you.</div>
+</li></ol>
+<p>
+<br> <br>
+<em><strong>Based on information from <a href=""http://kb.mozillazine.org/Firefox_crashes"">Firefox crashes (mozillaZine KB)</a></strong></em>
+</p>",firefox,crashing-and-slow-performance;performance-and-connectivity,"We understand how frustrating it is when Firefox crashes (closes or quits unexpectedly). When Firefox crashes, the [Mozilla Crash Reporter](\""https://support.mozilla.org/en-US/kb/mozillacrashreporter"") will allow you to submit a crash to us, so we can continue making improvements to Firefox. Here are also some things to try to get Firefox up and running optimally.
+
+**Before getting started:**
+- If the page stops working because part of the page has crashed or stopped responding, try reloading the page to see if that fixes the problem.
+- If Firefox is open but won't respond to any of your actions, then this is a _hang_, not a crash. See [Firefox hangs or is not responding - How to fix](\""https://support.mozilla.org/en-US/kb/firefox-hangs-or-not-responding"") for solutions.
+- If Firefox crashes at startup:
+  - [Check to see if the crash happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-to-see-if-the-crash-happens-in-troubleshoot-mode) (see below).
+  - Try a clean reinstall (see [Firefox keeps crashing at startup](\""https://support.mozilla.org/en-US/kb/firefox-keeps-crashing-startup"")).
+
+Otherwise, follow the steps below in order.
+
+## Table of Contents
+
+- [1 Update your software](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-your-software)
+  - [1.1 Update Firefox](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-firefox)
+  - [1.2 Update Windows](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-windows)
+  - [1.3 Update macOS](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-macos)
+  - [1.4 Update Linux](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-linux)
+  - [1.5 Update your drivers](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-your-drivers)
+  - [1.6 Update your Internet Security software](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_update-your-internet-security-software)
+
+- [2 Check for viruses or spyware](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-for-viruses-or-spyware)
+- [3 Check for third-party modules](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-for-third-party-modules)
+- [4 Check to see if the crash happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-to-see-if-the-crash-happens-in-troubleshoot-mode)
+  - [4.1 The crash still happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_the-crash-still-happens-in-troubleshoot-mode)
+  - [4.2 The crash doesn't happen in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_the-crash-doesnt-happen-in-troubleshoot-mode)
+
+- [5 Check your hardware](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-your-hardware)
+  - [5.1 Check your RAM for errors](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_check-your-ram-for-errors)
+
+- [6 Get help fixing this crash](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash)
+  - [6.1 Ask for help in the Community Support forum](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_ask-for-help-in-the-community-support-forum)
+
+# Update your software
+
+_The crash you're experiencing may have already been fixed in a new version!_
+
+## Update Firefox
+
+Every Firefox release includes a number of fixes for crashes that people have reported. Making sure you have the latest version may fix your crash. See [Update Firefox to the latest release](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"") for details.
+
+## Update Windows
+
+Make sure you have all of the latest security and stability fixes.
+
+## Update macOS
+
+Make sure your Mac has all of the latest security and stability fixes.
+
+## Update Linux
+
+Make sure you have all of the latest security and stability fixes.
+
+## Update your drivers
+
+Check if your graphics drivers are up-to-date. For more information, see [Upgrade your graphics drivers to use hardware acceleration and WebGL](\""https://support.mozilla.org/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"").
+
+If your crash happens while printing, check that your printer driver is up-to-date by going to your printer manufacturer's support website. The [Fix printing problems in Firefox](\""https://support.mozilla.org/en-US/kb/fix-printing-problems-firefox"") article may also help.
+
+## Update your Internet Security software
+
+Make sure you have the latest version of your Internet security software (including firewalls, antivirus programs, anti-spyware programs, and more).
+
+# Check for viruses or spyware
+
+A number of different viruses and spyware are known to crash Firefox. For more information, see [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
+
+# Check for third-party modules
+
+Third-party applications (such as antivirus software, archiving software, and other tools) may load modules into Firefox. Sometimes, these applications load harmful modules that cause Firefox crashes, reduced performance, or compatibility issues. You may not notice that a malicious or unexpected module has been loaded, and it may cause problems that appear to be Firefox issues. For more information, see [Identify problems caused by third-party modules in Firefox for Windows](\""https://support.mozilla.org/en-US/kb/identify-problems-third-party-modules-firefox-windows"").
+
+# Check to see if the crash happens in Troubleshoot Mode
+
+If updating software didn't work or if Firefox crashes on startup, use the steps below to test whether the crash happens in [Firefox Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"") or not and then follow the instructions in the recommended articles.
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Help, select Troubleshoot Mode… and click Restart in the _Restart Firefox in Troubleshoot Mode?_ dialog.
+
+2. When the _Open Firefox in Troubleshoot Mode?_ window appears, press the Open button. <dl><dt>
+<img alt=""Fx88TroubleshootMode"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-03-31-17-39-57-bfee23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+After Firefox starts in Troubleshoot Mode, test for your problem.
+
+**Note:** The [Refresh Firefox feature](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
+
+## The crash still happens in Troubleshoot Mode
+
+If your crash still happens in Troubleshoot Mode, it is not being caused by an extension, theme, or hardware acceleration. Try to [get help with your crash ID](https://support.mozilla.org/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash) (see below).
+
+## The crash doesn't happen in Troubleshoot Mode
+
+If your crash doesn't happen in Troubleshoot Mode, it is most likely because an extension, theme, or hardware acceleration is causing the crash.
+
+- Follow the steps in [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"") to determine the cause.
+
+# Check your hardware
+
+## Check your RAM for errors
+
+If Firefox crashes repeatedly, check your RAM for errors using for instance the following tool, [Memtest86+](http://www.memtest.org/)[Rember](http://www.kelleycomputing.net/rember/).
+
+# Get help fixing this crash
+
+Figuring out the cause of a crash can be difficult. If you've tried the steps above and can't get Firefox to stop crashing, the instructions below will show you how to get the crash Report IDs for your most recent submitted crash reports, so our volunteers can help you.
+
+**If you can open Firefox, at least in Troubleshoot Mode:**
+
+1. In the Firefox address bar, type **about:crashes** and hit EnterReturn. A page listing submitted crash reports (and unsubmitted crash reports, if any) will appear.  
+ ![Fx115aboutcrashes](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+  - If you have recent, unsubmitted crash reports: Click the Submit button for each recent unsubmitted report and then reload the _about:crashes_ page.
+
+2. You should copy the Report IDs for **submitted** crash reports (they start with **bp-** ) to your support question in the Community Support forum.
+
+**Note:** If you can't open Firefox because it crashes at startup even in Troubleshoot Mode, use these alternative instructions to locate Report IDs:
+1. Press ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) + R on the keyboard. Type in ""%APPDATA%\Mozilla\Firefox\Crash Reports\submitted"" (including the quotation marks) and click OK.Click the **Finder** icon in the dock. On the menu bar, click the Go menu, hold down the option or alt key and select Library. A window will open containing your Library folder. Then open the “Application Support” folder, the “Firefox” folder, the “Crash Reports” folder and finally the “submitted” folder.Go to ~/.mozilla/firefox/Crash Reports/submitted.
+2. In the resulting folder, there will be a text file for each crash report you have submitted. Using the View menu, arrange them by date to find out which is the newest file and double-click on it to open it.
+
+## Ask for help in the Community Support forum
+
+1. **[Click this link](\""https://support.mozilla.org/en-US/questions/new/firefox/form"")** to ask for help with your crash on the Firefox Community Support forum (see [Get community support](\""https://support.mozilla.org/en-US/kb/get-community-support"") for other support resources).
+  - You may need to create an account or log in to your existing account during the “ask a question” process.
+
+2. On the **Ask your question** form, enter a subject and topic, then fill out the next section with as much information you have about the crash. Include any of the steps you completed above, like updating Firefox or testing for the crash in Troubleshoot Mode.
+3. Copy the long Report ID number you've got above for the latest crashes ( **bp-…** ) and paste it into your question.
+4. Finally, click the Submit button.
+We know that providing all this information is time-consuming, but it will make it much easier for our volunteers to help you.
+
+_**Based on information from [Firefox crashes (mozillaZine KB)](http://kb.mozillazine.org/Firefox_crashes)**_
+
+"
+918,Will Firefox work on my mobile device?,will-firefox-work-my-mobile-device,https://support.mozilla.org/en-US/kb/will-firefox-work-my-mobile-device,en-US,This article lists mobile devices that you can install Firefox on.,"<p>Firefox is also available on Android and Apple phones and tablets. Use it with a <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a> to sync your bookmarks, passwords and browsing history across your desktop and mobile devices.
+</p>
+<div class=""warning"">The minimum Android version required to install or update <strong>Firefox for Android</strong> and <strong>Firefox Focus</strong> (in their Nightly release channels) is <strong>Android 8.0</strong>. For more information, see <a href=""https://blog.mozilla.org/futurereleases/2025/09/15/raising-the-minimum-android-version-for-firefox/"">Raising the minimum Android version for Firefox</a>.</div>
+<h1 id=""w_android-devices"">Android devices</h1>
+<p>Firefox is compatible with Android 8.0 or above devices. Android versions older than 8.0 are no longer supported. You can <a href=""https://www.mozilla.org/firefox/android"">download Firefox for Android</a> or search for Firefox in the Google Play store.
+</p>
+<div class=""note""><strong>Important:</strong> If you search for Firefox in the Google Play store and don't find Firefox for Android, your device may not be compatible.</div>
+<h1 id=""w_ipads-iphones-and-ipod-touch-devices"">iPads, iPhones and iPod touch devices</h1>
+<p>Firefox is available on iPhone, iPad and iPod touch devices with iOS 15 and above. For more info, see <a href=""/en-US/kb/firefox-available-iphone-or-ipad-my-language"">Is Firefox available for iPhone or iPad in my language?</a>
+</p>
+<h1 id=""w_other-mobile-devices"">Other mobile devices</h1>
+<p>Firefox is <strong>NOT</strong> available for Windows Phone, Windows RT, Bada, Symbian, Blackberry OS, webOS, HarmonyOS NEXT (HarmonyOS 5.0 and later) or other operating systems for mobile.
+</p><p><strong>Advanced users</strong>: You can manually install the Firefox APK (available for download from <a href=""https://archive.mozilla.org/pub/fenix/"">https://archive.mozilla.org/pub/fenix/</a>) using the built-in DroiTong container on HarmonyOS NEXT.
+</p>",mobile;ios,browse;installation-and-updates,"Firefox is also available on Android and Apple phones and tablets. Use it with a [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"") to sync your bookmarks, passwords and browsing history across your desktop and mobile devices.
+
+The minimum Android version required to install or update **Firefox for Android** and **Firefox Focus** (in their Nightly release channels) is **Android 8.0**. For more information, see [Raising the minimum Android version for Firefox](https://blog.mozilla.org/futurereleases/2025/09/15/raising-the-minimum-android-version-for-firefox/).
+
+# Android devices
+
+Firefox is compatible with Android 8.0 or above devices. Android versions older than 8.0 are no longer supported. You can [download Firefox for Android](https://www.mozilla.org/firefox/android) or search for Firefox in the Google Play store.
+
+**Important:** If you search for Firefox in the Google Play store and don't find Firefox for Android, your device may not be compatible.
+
+# iPads, iPhones and iPod touch devices
+
+Firefox is available on iPhone, iPad and iPod touch devices with iOS 15 and above. For more info, see [Is Firefox available for iPhone or iPad in my language?](\""https://support.mozilla.org/en-US/kb/firefox-available-iphone-or-ipad-my-language"")
+
+# Other mobile devices
+
+Firefox is **NOT** available for Windows Phone, Windows RT, Bada, Symbian, Blackberry OS, webOS, HarmonyOS NEXT (HarmonyOS 5.0 and later) or other operating systems for mobile.
+
+**Advanced users** : You can manually install the Firefox APK (available for download from [https://archive.mozilla.org/pub/fenix/](https://archive.mozilla.org/pub/fenix/)) using the built-in DroiTong container on HarmonyOS NEXT.
 
 "
 8215,How do I copy and paste text on Android?,how-do-i-copy-and-paste-text-android,https://support.mozilla.org/en-US/kb/how-do-i-copy-and-paste-text-android,en-US,"Firefox for Android supports copy and paste, this article shows you how to do it.","<div class=""for"" data-for=""not m48""><p>Firefox for Android lets you easily copy and paste text directly from a web page. This article will show you how it's done.
