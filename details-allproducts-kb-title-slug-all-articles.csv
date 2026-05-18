@@ -42262,6 +42262,10 @@ Do you have any questions? Do you need assistance while localizing? Please tell 
 To see more guidelines to localize support articles, follow [this link](https://support.mozilla.org/en-US/products/contributor/l10n).
 
 "
+19084,What is a badge?,what-badge,https://support.mozilla.org/en-US/kb/what-badge,en-US,What is a badge? What is a digital badge?,"<p>A badge is a symbol or indicator of an accomplishment, skill, quality  or interest. A  “digital badge” is an online record of achievements, tracking the  recipient’s communities of interaction that issued the badge and the  work completed to get it. Digital badges can support connected learning  environments by motivating learning and signaling achievement both  within particular communities as well as across communities and  institutions. (Source: <a href=""http://bit.ly/EKwhitepaper"">Erin Knight's White Paper</a>)
+</p>",open-badges,introduction-open-badges,"A badge is a symbol or indicator of an accomplishment, skill, quality or interest. A “digital badge” is an online record of achievements, tracking the recipient’s communities of interaction that issued the badge and the work completed to get it. Digital badges can support connected learning environments by motivating learning and signaling achievement both within particular communities as well as across communities and institutions. (Source: [Erin Knight's White Paper](http://bit.ly/EKwhitepaper))
+
+"
 19085,Why Open Badges?,why-open-badges,https://support.mozilla.org/en-US/kb/why-open-badges,en-US,What are Open Badges? What differentiates open badges from other digital badges?,"<p>A digital badge is an online representation of a skill you’ve earned. <a href=""http://openbadges.org"">Open Badges</a> take that concept one step further, and allows you to verify your skills, interests and achievements through credible organizations and attaches that information to the badge image file, hard-coding the metadata for future access and review. 
 </p><p>Because the system is based on an <a href=""http://www.openbadges.org/faq/#obi"">open standard</a>, earners can combine multiple  badges from different issuers to tell the complete story of their achievements — both online and off. Badges can be displayed wherever earners want them on the web, and share them for employment, education or lifelong learning.
 </p><p><strong>Open Badges are:</strong>
@@ -49820,294 +49824,6 @@ Visit [Collections in Firefox](\""https://support.mozilla.org/en-US/kb/collectio
 - [Collections in Firefox](\""https://support.mozilla.org/en-US/kb/collections-firefox"")
 
 "
-28895,Manage Firefox search settings,change-your-default-search-settings-firefox,https://support.mozilla.org/en-US/kb/change-your-default-search-settings-firefox,en-US,"Learn how to change search settings in Firefox, such as your default search engine and whether or not search suggestions are displayed.","<p>The <strong>Search</strong> panel in Firefox Settings
- lets you customize your search options. You can add or remove search engines, change your default search engine, change address bar settings, assign or change keyword shortcuts and choose whether to display search suggestions first or not at all.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_open-the-search-panel""><span class=""tocnumber"">1</span> <span class=""toctext"">Open the Search panel</span></a><ul><li class=""toclevel-2""><a href=""#w_default-search-engine""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Default search engine</span></a></li><li class=""toclevel-2""><a href=""#w_search-suggestions""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Search suggestions</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_address-bar""><span class=""tocnumber"">2</span> <span class=""toctext"">Address bar</span></a><ul><li class=""toclevel-2""><a href=""#w_search-alternatives""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Search alternatives</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_remove-or-add-search-engines""><span class=""tocnumber"">3</span> <span class=""toctext"">Remove or add search engines</span></a><ul><li class=""toclevel-2""><a href=""#w_remove-a-search-engine""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Remove a search engine</span></a></li><li class=""toclevel-2""><a href=""#w_restore-default-search-engines""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Restore default search engines</span></a></li><li class=""toclevel-2""><a href=""#w_add-a-new-search-engine""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Add a new search engine</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_search-engine-keywords""><span class=""tocnumber"">4</span> <span class=""toctext"">Search engine keywords</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<div class=""note""><strong>Note:</strong> Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.</div>
-<h1 id=""w_open-the-search-panel"">Open the Search panel</h1>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select <span class=""menu"">Search</span> in the left pane.
-<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-SearchPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-03-24-32-8d00e2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx122settings-SearchPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-26-08-48-38-9d9151.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-</li></ol>
-<h2 id=""w_default-search-engine"">Default search engine</h2>
-<p>Firefox lets you choose the search engine you wish to use in the address bar and search bar.
-</p>
-<ul><li><strong>Show search terms <span class=""for"" data-for=""fx148"">in the address bar on results pages</span><span class=""for"" data-for=""not fx148"">instead of URL on default search engine results page</span>:</strong> Select this setting to show the search term you entered, in the address bar on the results page for your default search engine. Deselect this setting to show the URL instead. This setting is hidden if you have <a href=""/en-US/kb/add-search-bar-firefox-toolbar"">added a separate Search bar</a> to your toolbar.
-</li></ul>
-<p>Use the drop-down menu under <span class=""for"" data-for=""fx148""><em>Default search engine</em></span><span class=""for"" data-for=""not fx148""><em>Default Search Engine</em></span> to choose the search engine you wish to use by default.
-</p><p><span class=""for"" data-for=""fx148""><img alt=""Fx148DefaultSearchEngineDropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-04-16-48-65510b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx122settings-DefaultSearchEngineDropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-26-08-15-48-435278.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<div class=""note"">
-<p><strong>Note:</strong> Some <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extensions</a> that are added to Firefox can set a new default search engine.
-</p>
-<dl><dt><img alt=""Fx84DefaultSearchEngineSetByAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-02-25-04-41-35-1717c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>You can <a href=""/en-US/kb/disable-or-remove-add-ons"">disable or remove the extension</a> that made the change, or you can choose another search engine from the drop-down menu, if you prefer a different default.
-</p>
-</div>
-<h2 id=""w_search-suggestions"">Search suggestions</h2>
-<p>As you type into the search bar or the address bar, your default search engine shows you suggestions based on popular searches or on your previous searches. See <a href=""/en-US/kb/search-suggestions-firefox"">Search suggestions in Firefox</a> for more information.
-
-</p><p><span class=""for"" data-for=""fx148""><img alt=""Fx148SearchEngineSuggestions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-03-45-15-b19a0a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx128settings-SearchSuggestions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-13-01-38-59-11a29a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<ul><li><strong>Show search suggestions:</strong> Select this setting to turn search suggestions on or off.
-<ul><li><strong>Show search suggestions <span class=""for"" data-for=""fx148"">before</span><span class=""for"" data-for=""not fx148"">ahead of</span> browsing history in address bar results:</strong> Select this setting to show search suggestions before your browsing history.
-</li><li><strong><span class=""for"" data-for=""fx148"">Search</span><span class=""for"" data-for=""not fx148"">Show search</span> suggestions in <span class=""for"" data-for=""fx148"">private windows</span><span class=""for"" data-for=""not fx148"">Private Windows</span>:</strong> Select this setting to show search suggestions in <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">Private Browsing</a> windows.
-</li><li><strong><span class=""for"" data-for=""fx148"">Trending</span><span class=""for"" data-for=""not fx148"">Show trending</span> search suggestions:</strong> Select this setting to <a href=""/en-US/kb/use-google-trending-search-firefox-address-bar"">show trending searches</a> in address bar results. This feature can also be used on Bing.<div class=""note""><strong>Note:</strong> The regions featured on trending searches are determined by Google and Microsoft, not by Mozilla, and are subject to change.</div>
-</li></ul>
-</li></ul>
-<h1 id=""w_address-bar"">Address bar</h1>
-<p>As you type into the address bar, Firefox may offer suggestions such as websites from your browsing history, bookmarks and open tabs. To learn more about this feature, see <a href=""/en-US/kb/address-bar-autocomplete-firefox"">Address bar autocomplete suggestions in Firefox</a>. You can choose the types of suggestions that are displayed in your Address bar settings:
-</p>
-<dl><dt><img alt=""Fx123settings-AddressBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-13-39-01-16a047.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li> <strong>Browsing history</strong>: suggests pages that you've previously visited.
-</li><li> <strong>Bookmarks</strong>: suggests pages that you've bookmarked.
-</li><li> <strong>Open tabs</strong>: suggests pages that you have open in another tab.
-</li><li> <strong>Shortcuts</strong>: suggests your most visited sites (if Shortcuts are enabled in your <a href=""/en-US/kb/customize-items-on-firefox-new-tab-page"">New Tab page settings</a>) when you click in the address bar.
-</li><li> <strong>Search engines</strong>: suggests results that include search engines. 
-</li></ul>
-<div class=""note""><strong>Note:</strong> Users in the United States, France, Germany, Italy and United Kingdom will see <span class=""for"" data-for=""fx148"">a <strong>Firefox Suggest</strong></span><span class=""for"" data-for=""not fx148"">an <strong>Address Bar — Firefox Suggest</strong></span> section instead, with additional settings. To learn more, see <a href=""/en-US/kb/firefox-suggest"">Customize Firefox Suggest settings</a>.</div>
-<h2 id=""w_search-alternatives"">Search alternatives</h2>
-<div class=""for"" data-for=""not fx137""><p>When you start typing in the address bar or search bar, you'll see icons below the search suggestions, to search instead with other search engines, Bookmarks, Tabs or History.
-</p>
-<dl><dt><img alt=""Fx89SearchAlternatives"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-10-04-49-27-2f5314.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</div><div class=""for"" data-for=""fx137""><p>When you start typing in the address bar, you'll see a Unified Search button with the icon for your default search engine.
-</p>
-<dl><dt><img alt=""Fx140UnifiedSearchButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-30-08-57-13-74352d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>When you click on it, a drop-down menu will open, to search instead with: other search engines, Bookmarks, Tabs or History.
-</p>
-<dl><dt><img alt=""Fx140UnifiedSearchDropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-01-03-26-31-89b887.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</div><p>You can choose an alternative search type and use it for your search, if you don't want to use the current default.
-</p><p>To remove alternative search engines you don't want to be displayed in the search bar or address bar, remove the check mark next to the search engine listed in the Search panel under <em>Search Shortcuts</em>. This will not remove the search engines themselves.
-</p>
-<h1 id=""w_remove-or-add-search-engines"">Remove or add search engines</h1>
-<p>To remove a search engine from Firefox, restore the default search engines that come with Firefox or add a new search engine, go to the <em>Search Shortcuts</em> section of the Search panel.
-</p>
-<h2 id=""w_remove-a-search-engine"">Remove a search engine</h2>
-<ol><li>Click the search engine you want to remove, to highlight it.
-</li><li>Click the <span class=""button"">Remove</span> button at the bottom, to take it off your list.
-<dl><dt><img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<div class=""note""><strong>Note:</strong> You must use the Add-ons manager to remove any search engines installed as Firefox <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extensions</a> (see <a href=""/en-US/kb/disable-or-remove-add-ons#w_removing-extensions"">Disable or remove Add-ons</a> for details).</div>
-<h2 id=""w_restore-default-search-engines"">Restore default search engines</h2>
-<p>If you remove any of the search engines that come with Firefox by default, click <span class=""button"">Restore Default Search Engines</span> at the bottom of the Search panel to bring them back.
-</p>
-<h2 id=""w_add-a-new-search-engine"">Add a new search engine</h2>
-<ol><li>Click the <strong>Find more search engines</strong> link at the bottom of the Search panel.<br>A <em>Firefox Add-ons</em> page will open, listing available search tools.
-</li><li>Click the search engine you want to add and click <span class=""button"">Add to Firefox</span>.
-</li></ol>
-<p>For more information about adding or removing search engines, see <a href=""/en-US/kb/add-or-remove-search-engine-firefox"">Add or remove a search engine in Firefox</a>.
-</p>
-<h1 id=""w_search-engine-keywords"">Search engine keywords</h1>
-<p>You can assign or change keyword shortcuts for your favorite search engines to make it easier to perform a search. For more information, see <a href=""/en-US/kb/assign-shortcuts-search-engines"">Assign shortcuts to search engines</a>.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/search-firefox-address-bar"">Search with the Firefox address bar</a>
-</li><li><a href=""/en-US/kb/search-suggestions-firefox"">Search suggestions in Firefox</a>
-</li><li><a href=""/en-US/kb/add-search-bar-firefox-toolbar"">Add the Search bar to your Firefox toolbar</a>
-</li><li><a href=""/en-US/kb/add-custom-search-engine-firefox"">Add custom search engines in Firefox</a>
-</li><li><a href=""/en-US/kb/search-engine-removal"">My default search engine changed after updating Firefox</a>
-</li></ul>",firefox,settings,"The **Search** panel in Firefox Settings lets you customize your search options. You can add or remove search engines, change your default search engine, change address bar settings, assign or change keyword shortcuts and choose whether to display search suggestions first or not at all.
-
-## Table of Contents
-
-- [1 Open the Search panel](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_open-the-search-panel)
-  - [1.1 Default search engine](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_default-search-engine)
-  - [1.2 Search suggestions](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_search-suggestions)
-
-- [2 Address bar](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_address-bar)
-  - [2.1 Search alternatives](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_search-alternatives)
-
-- [3 Remove or add search engines](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_remove-or-add-search-engines)
-  - [3.1 Remove a search engine](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_remove-a-search-engine)
-  - [3.2 Restore default search engines](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_restore-default-search-engines)
-  - [3.3 Add a new search engine](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_add-a-new-search-engine)
-
-- [4 Search engine keywords](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_search-engine-keywords)
-- [5 Related articles](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_related-articles)
-
-**Note:** Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.
-
-# Open the Search panel
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select Search in the left pane.<dl><dt>
-<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-SearchPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-03-24-32-8d00e2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx148""><img alt=""Fx122settings-SearchPanel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-12-26-08-48-38-9d9151.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-
-## Default search engine
-
-Firefox lets you choose the search engine you wish to use in the address bar and search bar.
-
-- **Show search terms in the address bar on results pagesinstead of URL on default search engine results page:** Select this setting to show the search term you entered, in the address bar on the results page for your default search engine. Deselect this setting to show the URL instead. This setting is hidden if you have [added a separate Search bar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"") to your toolbar.
-
-Use the drop-down menu under _Default search engine__Default Search Engine_ to choose the search engine you wish to use by default.
-
-![Fx148DefaultSearchEngineDropdown](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx122settings-DefaultSearchEngineDropdown](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-**Note:** Some [extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"") that are added to Firefox can set a new default search engine.
-
-<dl><dt>
-<img alt=""Fx84DefaultSearchEngineSetByAddon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-02-25-04-41-35-1717c8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-You can [disable or remove the extension](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"") that made the change, or you can choose another search engine from the drop-down menu, if you prefer a different default.
-
-## Search suggestions
-
-As you type into the search bar or the address bar, your default search engine shows you suggestions based on popular searches or on your previous searches. See [Search suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/search-suggestions-firefox"") for more information.
-
-![Fx148SearchEngineSuggestions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx128settings-SearchSuggestions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Show search suggestions:** Select this setting to turn search suggestions on or off.
-  - **Show search suggestions beforeahead of browsing history in address bar results:** Select this setting to show search suggestions before your browsing history.
-  - **SearchShow search suggestions in private windowsPrivate Windows:** Select this setting to show search suggestions in [Private Browsing](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") windows.
-  - **TrendingShow trending search suggestions:** Select this setting to [show trending searches](\""https://support.mozilla.org/en-US/kb/use-google-trending-search-firefox-address-bar"") in address bar results. This feature can also be used on Bing.
-**Note:** The regions featured on trending searches are determined by Google and Microsoft, not by Mozilla, and are subject to change.
-
-# Address bar
-
-As you type into the address bar, Firefox may offer suggestions such as websites from your browsing history, bookmarks and open tabs. To learn more about this feature, see [Address bar autocomplete suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox""). You can choose the types of suggestions that are displayed in your Address bar settings:
-
-<dl><dt>
-<img alt=""Fx123settings-AddressBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-28-13-39-01-16a047.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- **Browsing history** : suggests pages that you've previously visited.
-- **Bookmarks** : suggests pages that you've bookmarked.
-- **Open tabs** : suggests pages that you have open in another tab.
-- **Shortcuts** : suggests your most visited sites (if Shortcuts are enabled in your [New Tab page settings](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page"")) when you click in the address bar.
-- **Search engines** : suggests results that include search engines. 
-
-**Note:** Users in the United States, France, Germany, Italy and United Kingdom will see a **Firefox Suggest** an **Address Bar — Firefox Suggest** section instead, with additional settings. To learn more, see [Customize Firefox Suggest settings](\""https://support.mozilla.org/en-US/kb/firefox-suggest"").
-
-## Search alternatives
-
-When you start typing in the address bar or search bar, you'll see icons below the search suggestions, to search instead with other search engines, Bookmarks, Tabs or History.
-
-<dl><dt>
-<img alt=""Fx89SearchAlternatives"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-01-10-04-49-27-2f5314.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-When you start typing in the address bar, you'll see a Unified Search button with the icon for your default search engine.
-
-<dl><dt>
-<img alt=""Fx140UnifiedSearchButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-30-08-57-13-74352d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-When you click on it, a drop-down menu will open, to search instead with: other search engines, Bookmarks, Tabs or History.
-
-<dl><dt>
-<img alt=""Fx140UnifiedSearchDropdown"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-01-03-26-31-89b887.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-You can choose an alternative search type and use it for your search, if you don't want to use the current default.
-
-To remove alternative search engines you don't want to be displayed in the search bar or address bar, remove the check mark next to the search engine listed in the Search panel under _Search Shortcuts_. This will not remove the search engines themselves.
-
-# Remove or add search engines
-
-To remove a search engine from Firefox, restore the default search engines that come with Firefox or add a new search engine, go to the _Search Shortcuts_ section of the Search panel.
-
-## Remove a search engine
-
-1. Click the search engine you want to remove, to highlight it.
-2. Click the Remove button at the bottom, to take it off your list.<dl><dt>
-<img alt=""Search shortcuts - Remove engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-19-11-39-51-493cb4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-**Note:** You must use the Add-ons manager to remove any search engines installed as Firefox [extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"") (see [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons#w_removing-extensions"") for details).
-
-## Restore default search engines
-
-If you remove any of the search engines that come with Firefox by default, click Restore Default Search Engines at the bottom of the Search panel to bring them back.
-
-## Add a new search engine
-
-1. Click the **Find more search engines** link at the bottom of the Search panel.  
-A _Firefox Add-ons_ page will open, listing available search tools.
-2. Click the search engine you want to add and click Add to Firefox.
-
-For more information about adding or removing search engines, see [Add or remove a search engine in Firefox](\""https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox"").
-
-# Search engine keywords
-
-You can assign or change keyword shortcuts for your favorite search engines to make it easier to perform a search. For more information, see [Assign shortcuts to search engines](\""https://support.mozilla.org/en-US/kb/assign-shortcuts-search-engines"").
-
-# Related articles
-
-- [Search with the Firefox address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"")
-- [Search suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/search-suggestions-firefox"")
-- [Add the Search bar to your Firefox toolbar](\""https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar"")
-- [Add custom search engines in Firefox](\""https://support.mozilla.org/en-US/kb/add-custom-search-engine-firefox"")
-- [My default search engine changed after updating Firefox](\""https://support.mozilla.org/en-US/kb/search-engine-removal"")
-
-"
-28974,Copy a saved password in Firefox for Android,copy-saved-password-firefox-android,https://support.mozilla.org/en-US/kb/copy-saved-password-firefox-android,en-US,Firefox for Android lets you copy a saved password to the clipboard so you can paste it somewhere else.,"<p>
-</p><p>If you have logins and passwords saved on Firefox, you can copy a saved password to the clipboard so you can paste it somewhere else.
-</p><p>Here’s how to do it:
-</p><div class=""for"" data-for=""=m125,=m126"">
-<ol><li> Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li> Tap <span class=""menu"">Settings</span>.
-</li><li> Tap <span class=""menu"">Passwords</span> in the <em>General</em> section.
-</li><li> Tap <span class=""menu"">Saved passwords</span>. (You may need to release using the unlock method configured on your device.)
-</li><li> Select the account whose password you want to copy.
-</li><li> Tap the copy icon next to <strong>Password</strong>.<br>Your password will be copied to the clipboard for you to paste wherever you want.
-</li></ol>
-</div><div class=""for"" data-for=""m127"">
-<ol><li> Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li> Tap <span class=""menu"">Passwords</span>. (You may need to release using the unlock method configured on your device.)
-</li><li> Select the account whose password you want to copy.
-</li><li> Tap the copy icon next to <strong>Password</strong>.<br>Your password will be copied to the clipboard for you to paste wherever you want.
-</li></ol>
-</div><div class=""for"" data-for=""not m125"">
-<ol><li> Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li> Tap <span class=""menu"">Settings</span>.
-</li><li> Tap <span class=""menu"">Logins and passwords</span> in the <em>General</em> section.
-</li><li> Tap <span class=""menu"">Saved logins</span>. (You may need to release using the unlock method configured on your device.)
-</li><li> Select the account whose password you want to copy.
-</li><li> Tap the copy icon next to <strong>Password</strong>.<br>Your password will be copied to the clipboard for you to paste wherever you want.
-</li></ol>
-</div>",mobile,browse,"If you have logins and passwords saved on Firefox, you can copy a saved password to the clipboard so you can paste it somewhere else.
-
-Here’s how to do it:
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Passwords in the _General_ section.
-4. Tap Saved passwords. (You may need to release using the unlock method configured on your device.)
-5. Select the account whose password you want to copy.
-6. Tap the copy icon next to **Password**.  
-Your password will be copied to the clipboard for you to paste wherever you want.
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Passwords. (You may need to release using the unlock method configured on your device.)
-3. Select the account whose password you want to copy.
-4. Tap the copy icon next to **Password**.  
-Your password will be copied to the clipboard for you to paste wherever you want.
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Logins and passwords in the _General_ section.
-4. Tap Saved logins. (You may need to release using the unlock method configured on your device.)
-5. Select the account whose password you want to copy.
-6. Tap the copy icon next to **Password**.  
-Your password will be copied to the clipboard for you to paste wherever you want.
-
-"
 29087,About private browsing in Firefox for iOS,private-browsing-firefox-ios,https://support.mozilla.org/en-US/kb/private-browsing-firefox-ios,en-US,"Learn how to open and use private browsing in Firefox for iOS, plus answers to common questions.","<div class=""warning"">If you’re looking for help with your Firefox account, password recovery or other topics, visit the <a href=""https://support.mozilla.org"">Firefox Help Center</a>. This article explains how to open and use private browsing in Firefox for iOS.</div>
 <p>Private browsing lets you browse without saving your history, cookies or passwords. Bookmarks and downloaded files will still be saved.
 </p>
@@ -53051,13 +52767,13 @@ We hope you enjoy this new version. Thank you for using Firefox and supporting M
 </p>
 <ul><li> Fixing small typos
 </li><li> Removing unnecessary white spaces
-</li><li> Correcting spelling, grammar, or punctuation errors
+</li><li> Correcting spelling, grammar or punctuation errors
 </li><li> Fixing wiki markup formatting (headings, bullets, numbering, spacing, indentation)
 </li><li> Updating small factual details (for example: version numbers, button or menu labels) without rewriting sections
 </li><li> Updating sections and replacing them with existing templates without changing the original context
 </li><li> Removing content and markup related to Firefox versions that are no longer supported
-</li><li> Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility.
-</li><li> Updating broken links, links to renamed KB articles or updating links with the same target content
+</li><li> Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility
+</li><li> Updating broken links, links to renamed KB articles or links with the same target content
 </li><li> Adjusting tone to meet Mozilla’s support content standards
 </li><li> Replacing outdated UI screenshots with updated versions (2 or less)
 </li><li> Updating keywords
@@ -53072,13 +52788,13 @@ We hope you enjoy this new version. Thank you for using Firefox and supporting M
 </li><li> Correcting inaccurate or outdated content
 </li><li> Removing an existing section
 </li><li> Extensive rewriting (entire paragraphs or sections)
-</li><li> Substantial content additions (new instructions, FAQs, or troubleshooting steps)
+</li><li> Substantial content additions (new instructions, FAQs or troubleshooting steps)
 </li><li> Large-scale formatting or structural changes (moving multiple sections, changing article flow)
 </li><li> Adding visuals for accessibility
 </li><li> Rewriting or renaming section headings
 </li><li> Changing the scope or intent of the article
 </li><li> Replacing outdated screenshots or adding new screenshots (more than 2)
-</li><li> Updating, adding, or removing screencasts, GIFs, or videos
+</li><li> Updating, adding, or removing screencasts, GIFs or videos
 </li></ul>
 <div class=""warning""><strong>Note:</strong> To make the review process more manageable, major changes should be submitted as separate revisions. If submitted as a single large revision, your revision may be deferred and you’ll be asked to break it up and resubmit in smaller parts.</div>
 <p>To learn more about Knowledge Base contribution, please check out <a href=""/en-US/kb/how-contribute-knowledge-base"">How to contribute to the Knowledge Base</a>.
@@ -53092,13 +52808,13 @@ Here are what we consider to be minor changes:
 
 - Fixing small typos
 - Removing unnecessary white spaces
-- Correcting spelling, grammar, or punctuation errors
+- Correcting spelling, grammar or punctuation errors
 - Fixing wiki markup formatting (headings, bullets, numbering, spacing, indentation)
 - Updating small factual details (for example: version numbers, button or menu labels) without rewriting sections
 - Updating sections and replacing them with existing templates without changing the original context
 - Removing content and markup related to Firefox versions that are no longer supported
-- Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility.
-- Updating broken links, links to renamed KB articles or updating links with the same target content
+- Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility
+- Updating broken links, links to renamed KB articles or links with the same target content
 - Adjusting tone to meet Mozilla’s support content standards
 - Replacing outdated UI screenshots with updated versions (2 or less)
 - Updating keywords
@@ -53116,13 +52832,13 @@ Below are changes we consider major:
 - Correcting inaccurate or outdated content
 - Removing an existing section
 - Extensive rewriting (entire paragraphs or sections)
-- Substantial content additions (new instructions, FAQs, or troubleshooting steps)
+- Substantial content additions (new instructions, FAQs or troubleshooting steps)
 - Large-scale formatting or structural changes (moving multiple sections, changing article flow)
 - Adding visuals for accessibility
 - Rewriting or renaming section headings
 - Changing the scope or intent of the article
 - Replacing outdated screenshots or adding new screenshots (more than 2)
-- Updating, adding, or removing screencasts, GIFs, or videos
+- Updating, adding, or removing screencasts, GIFs or videos
 
 **Note:** To make the review process more manageable, major changes should be submitted as separate revisions. If submitted as a single large revision, your revision may be deferred and you’ll be asked to break it up and resubmit in smaller parts.
 
@@ -65291,434 +65007,6 @@ Try these fixes:
 - [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"")
 - [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"")
 - [Troubleshoot and diagnose Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-and-diagnose-firefox-problems"")
-
-"
-42744,How is Firefox for Enterprise different from normal Firefox?,firefox-enterprise-vs-normal-firefox,https://support.mozilla.org/en-US/kb/firefox-enterprise-vs-normal-firefox,en-US,Firefox for Enterprise is a version of Firefox designed specifically for enterprise needs. Learn more.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
-<p></p><p>Firefox for Enterprise includes several software solutions made by Mozilla for specific Enterprise needs. Together, these software solutions make up Firefox for Enterprise.
-</p><p><strong>The Firefox browser</strong>
-</p><p>You can select the Firefox Rapid Release channel (the version most consumers use) or the Firefox Extended Support Release channel (longer support cycles) depending on your needs. <a href=""/en-US/kb/choosing-firefox-update-channel"">This article</a> will help you understand how to select the channel that best matches your needs.
-</p><p><strong>The MSI installer</strong>
-</p><p>We created a MSI wrapper of the full installer exe in order to simplify deployments for active directory users in need of a Mozilla signed MSI. Find-out more about the MSI installer <a href=""/en-US/kb/deploy-firefox-msi-installers"">here</a>.
-</p><p><strong>ADM and AMDX templates</strong>
-</p><p>We created a ADM/ADMX templates (Windows group policy template) with standard best practices in order to illustrate how group policies can be used on Windows. Find-out more about the use of ADM/ADMX templates <a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">here</a>.
-</p><p><strong>The “Open in IE” extension</strong>
-</p><p>Some corporations still use ActiveX technologies or websites that are only tested against IE. This extension helps you determine which URLs should be opened in IE automatically by your users. Find-out more details about the “Open in IE” extension <a href=""/en-US/kb/legacy-browser-support-extension-windows"">here</a>.
-</p><p><strong>MacOS plist file</strong>
-</p><p>We created a plist template (MacOS policy management template) with standard best practices in order to illustrate how policies can be managed on MacOS. Find-out more about the use of plist templates <a href=""/en-US/kb/managing-policies-macos-desktops"">here</a>.
-</p><p><strong>Configuration JSON file “policies.json”</strong>
-</p><p>Even though we support GPO on Windows and plist on MacOS, you can still use a configuration file if it suits your needs (Linux machines?). Find-out more <a href=""/en-US/kb/customizing-firefox-using-policiesjson"">here</a> about how you can deploy customizations using policies.json.
-</p>",firefox-enterprise,browse,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
-
-Firefox for Enterprise includes several software solutions made by Mozilla for specific Enterprise needs. Together, these software solutions make up Firefox for Enterprise.
-
-**The Firefox browser**
-
-You can select the Firefox Rapid Release channel (the version most consumers use) or the Firefox Extended Support Release channel (longer support cycles) depending on your needs. [This article](\""https://support.mozilla.org/en-US/kb/choosing-firefox-update-channel"") will help you understand how to select the channel that best matches your needs.
-
-**The MSI installer**
-
-We created a MSI wrapper of the full installer exe in order to simplify deployments for active directory users in need of a Mozilla signed MSI. Find-out more about the MSI installer [here](\""https://support.mozilla.org/en-US/kb/deploy-firefox-msi-installers"").
-
-**ADM and AMDX templates**
-
-We created a ADM/ADMX templates (Windows group policy template) with standard best practices in order to illustrate how group policies can be used on Windows. Find-out more about the use of ADM/ADMX templates [here](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"").
-
-**The “Open in IE” extension**
-
-Some corporations still use ActiveX technologies or websites that are only tested against IE. This extension helps you determine which URLs should be opened in IE automatically by your users. Find-out more details about the “Open in IE” extension [here](\""https://support.mozilla.org/en-US/kb/legacy-browser-support-extension-windows"").
-
-**MacOS plist file**
-
-We created a plist template (MacOS policy management template) with standard best practices in order to illustrate how policies can be managed on MacOS. Find-out more about the use of plist templates [here](\""https://support.mozilla.org/en-US/kb/managing-policies-macos-desktops"").
-
-**Configuration JSON file “policies.json”**
-
-Even though we support GPO on Windows and plist on MacOS, you can still use a configuration file if it suits your needs (Linux machines?). Find-out more [here](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-policiesjson"") about how you can deploy customizations using policies.json.
-
-"
-42748,Manage Firefox updates,managing-firefox-updates,https://support.mozilla.org/en-US/kb/managing-firefox-updates,en-US,Learn about automatic updates for Firefox deployments and how to ensure that the latest security patches are applied and all features are available.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
-<p></p><p>We  recommend keeping automatic updates enabled for all Firefox deployments to ensure that the latest security patches are applied and all features are available, but your specific environment may prevent automatic updates.
-</p><p>Both Firefox Rapid Release and Firefox Extended Support Release can be used in your Enterprise environments. If you're concerned about frequent large updates, we recommend checking out <a href=""/en-US/kb/choosing-firefox-update-channel"">Choose a Firefox update channel</a> to learn more about Firefox Extended Support Release.
-</p>
-<table>
-<caption>
-</caption>
-<tbody><tr>
-<th>
-</th><th> <strong>Major update frequency</strong>
-</th><th> <strong>Major update scope</strong>
-</th><th> <strong>Minor update frequency</strong>
-</th><th> <strong>Minor update scope</strong>
-</th></tr>
-<tr>
-<td> <strong>ESR</strong>
-</td><td> Every year
-<p><a href=""https://whattrainisitnow.com/calendar/"">See calendar</a> 
-</p>
-</td><td> New features delivered and bugs fixed in the last 12 months.
-</td><td> Every 4 weeks or when necessary
-</td><td> Critical stability or security bug fixing
-</td></tr>
-<tr>
-<td> <strong>RR</strong>
-</td><td> Every four weeks
-<p><a href=""https://whattrainisitnow.com/calendar/"">See calendar</a> 
-</p>
-</td><td> New features delivered and bugs fixed in the last 4 weeks
-</td><td> When necessary in-between major releases
-</td><td> Critical stability or security bug fixing
-</td></tr></tbody></table>
-<p><br>
-</p>
-<h1 id=""w_disable-firefox-updates"">Disable Firefox updates</h1>
-<p>Automatic updates are enabled by default, but you can disable them using the <a href=""https://mozilla.github.io/policy-templates/#disableappupdate"">DisableAppUpdate policy</a>.
-</p><p>When updates are enabled, they can be installed silently without user approval by enabling the <a href=""https://mozilla.github.io/policy-templates/#appautoupdate"">AppAutoUpdate policy</a>.
-</p>
-<h1 id=""w_troubleshooting-firefox-update-issues"">Troubleshooting Firefox update issues</h1>
-<p>If a workstation does not receive Firefox updates, the following PowerShell checks can help identify the root cause.
-</p>
-<h2 id=""w_check-local-group-policy-gpo-registry-keys"">Check local Group Policy (GPO) registry keys</h2>
-<p>Run the following command:
-<code>
-</code></p><pre><code>Get-ItemProperty -Path ""HKLM:\SOFTWARE\Policies\Mozilla\Firefox"" | 
-Select-Object DisableAppUpdate, AppAutoUpdate
-</code></pre><code>
-</code><p><code></code>
-</p><p><strong>Expected values:</strong>
-</p>
-<table>
-<caption>
-</caption>
-<tbody><tr>
-<th> <strong>Registry value</strong>
-</th><th> <strong>Expected value</strong>
-</th></tr>
-<tr>
-<td> <code>DisableAppUpdate</code>
-</td><td> 0
-</td></tr>
-<tr>
-<td> <code>AppAutoUpdate</code>
-</td><td> 1
-</td></tr></tbody></table>
-<p>If these values are not set as expected, Firefox updates may be disabled by local or domain Group Policy.
-</p>
-<h2 id=""w_check-the-installed-firefox-version"">Check the installed Firefox version</h2>
-<p>Run the following PowerShell command:
-<code>
-</code></p><pre><code>Get-ChildItem -Path ""HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"" |
-Where-Object { $_.PSChildName -like ""Mozilla Firefox*"" } |
-ForEach-Object {
-    Get-ItemProperty $_.PsPath |
-    Select-Object DisplayName, DisplayVersion, Publisher, InstallDate
-}
-</code></pre><code>
-</code><p><code></code>
-</p><p>Compare the installed version with the latest Firefox ESR version available on Mozilla’s website.
-</p>
-<h2 id=""w_check-the-scheduled-task"">Check the scheduled task</h2>
-<p>Firefox relies on a background scheduled task to download and apply updates.
-</p><p>Run the following PowerShell command:
-<code>
-</code></p><pre><code>Get-ScheduledTask | 
-Where-Object { $_.TaskName -like ""*Firefox Background Update*"" } | 
-ForEach-Object { Get-ScheduledTaskInfo $_ }
-</code></pre><code>
-</code><p><code></code>
-</p><p><strong>-&gt; Ensure that:</strong>
-</p>
-<ul><li> The task exists
-</li><li> The task is enabled
-</li><li> The task runs successfully without errors
-</li></ul>
-<h2 id=""w_check-mozilla-maintenance-service"">Check Mozilla Maintenance Service</h2>
-<p>On Windows, Firefox updates may require the Mozilla Maintenance Service to be installed and running. This service allows Firefox to apply updates without requiring administrative privileges.
-</p>
-<h3 id=""w_check-if-the-service-exists-and-its-status"">Check if the service exists and its status</h3>
-<p>Run the following PowerShell command:
-<code>
-</code></p><pre><code>Get-Service -Name MozillaMaintenance -ErrorAction SilentlyContinue |
-Select-Object Name, DisplayName, Status, StartType
-</code></pre><code>
-</code><p><code></code>
-</p><p><strong>-&gt; Expected behavior:</strong>
-</p>
-<ul><li> The service exists
-</li><li> Status is <code>Running</code> (or <code>Stopped</code>, but able to start)
-</li><li> <code>StartType</code> is set to <code>Automatic</code> or <code>Manual</code>
-</li><li> If the service is missing, Firefox may not be able to apply updates automatically.
-</li></ul>
-<h3 id=""w_start-the-service-manually-if-required"">Start the service manually <em>(if required)</em></h3>
-<p>If the service exists but is not running, try starting it. Run the following PowerShell command:
-<code>
-</code></p><pre><code>Start-Service -Name MozillaMaintenance
-</code></pre><code>
-</code><p><code></code>
-</p><p>Check again that the service starts without errors.
-</p>
-<h3 id=""w_reinstall-the-mozilla-maintenance-service"">Reinstall the Mozilla Maintenance Service</h3>
-<p>If the service is missing or corrupted, it can be reinstalled using the Firefox installer:
-</p>
-<ol><li> Download the Firefox installer matching your deployment (ESR or standard release).
-</li><li> Run the installer as Administrator.
-</li><li> Ensure that <em>Install Mozilla Maintenance Service</em> is selected.
-</li></ol>
-<p>After installation, recheck the service status.
-</p>
-<h2 id=""w_check-bits-transfers-background-intelligent-transfer-service"">Check BITS transfers (Background Intelligent Transfer Service)</h2>
-<p>Firefox uses BITS to download updates in the background.
-</p><p>Run the following PowerShell command:
-<code>
-</code></p><pre><code>Get-BitsTransfer | 
-Where-Object { $_.DisplayName -match 'mozilla' -or $_.RemoteName -match 'mozilla' } | 
-ForEach-Object {
-    $job = $_
-    foreach ($file in $job.FileList) {
-        [PSCustomObject]@{
-            DisplayName        = $job.DisplayName
-            JobState           = $job.JobState
-            BytesTransferredMB = [math]::Round($file.BytesTransferred / 1MB, 2)
-            BytesRemainingMB   = [math]::Round(($file.BytesTotal - $file.BytesTransferred) / 1MB, 2)
-            ProgressPercent    = if ($file.BytesTotal -gt 0) { 
-                                     [math]::Round(($file.BytesTransferred / $file.BytesTotal * 100), 2) 
-                                 } else { 0 }
-            RemoteURL          = $file.RemoteName
-            LocalPath          = $file.LocalName
-        }
-    }
-}
-</code></pre><code>
-</code><p><code></code>
-</p><p><strong>-&gt; What to check</strong>
-</p>
-<ul><li> JobState shows the current transfer state (transferring, suspended, completed, or error).
-</li><li> ProgressPercent indicates download progress.
-</li><li> RemoteURL shows the URL used by Firefox to retrieve the update.
-</li></ul>
-<p><strong>-&gt; If the download is blocked</strong>
-</p><p>If progress does not advance or the job fails, verify that the URL shown in RemoteURL is not blocked by your network, firewall, or proxy.
-</p><p>To confirm, copy and paste the URL into a browser and check whether the download starts successfully.
-</p>
-<h2 id=""w_list-firefox-related-files-in-cprogramdata"">List Firefox-related files in <code>C:\ProgramData</code></h2>
-<p>Firefox update files are downloaded and stored in the following location.
-</p><p>Run the following PowerShell command:
-<code>
-</code></p><pre><code>Get-ChildItem -Path ""C:\ProgramData\Mozilla-*"" -Recurse | 
-Select-Object @{ Name=""Path""; Expression={$_.FullName} }, 
-              @{ Name=""Type""; Expression={ if ($_.PSIsContainer) { ""Directory"" } else { ""File"" } } }, 
-              @{ Name=""Size""; Expression={$_.Length} },
-              @{ Name=""LastModified""; Expression={$_.LastWriteTime} 
-}
-</code></pre><code>
-</code><p><code></code>
-</p><p>This helps verify whether update files were downloaded and identify incomplete or stalled files.
-</p><p>
-
-</p>",firefox-enterprise,installation-and-updates;settings;update,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
-
-We recommend keeping automatic updates enabled for all Firefox deployments to ensure that the latest security patches are applied and all features are available, but your specific environment may prevent automatic updates.
-
-Both Firefox Rapid Release and Firefox Extended Support Release can be used in your Enterprise environments. If you're concerned about frequent large updates, we recommend checking out [Choose a Firefox update channel](\""https://support.mozilla.org/en-US/kb/choosing-firefox-update-channel"") to learn more about Firefox Extended Support Release.
-
-<caption>
-</caption>| | **Major update frequency** | **Major update scope** | **Minor update frequency** | **Minor update scope** |
-| --- | --- | --- | --- | --- |
-| **ESR** | Every year
-
-[See calendar](https://whattrainisitnow.com/calendar/)
-
- | New features delivered and bugs fixed in the last 12 months. | Every 4 weeks or when necessary | Critical stability or security bug fixing |
-| **RR** | Every four weeks
-
-[See calendar](https://whattrainisitnow.com/calendar/)
-
- | New features delivered and bugs fixed in the last 4 weeks | When necessary in-between major releases | Critical stability or security bug fixing |
-
-# Disable Firefox updates
-
-Automatic updates are enabled by default, but you can disable them using the [DisableAppUpdate policy](https://mozilla.github.io/policy-templates/#disableappupdate).
-
-When updates are enabled, they can be installed silently without user approval by enabling the [AppAutoUpdate policy](https://mozilla.github.io/policy-templates/#appautoupdate).
-
-# Troubleshooting Firefox update issues
-
-If a workstation does not receive Firefox updates, the following PowerShell checks can help identify the root cause.
-
-## Check local Group Policy (GPO) registry keys
-
-Run the following command:`
-`
-
-    Get-ItemProperty -Path ""HKLM:\SOFTWARE\Policies\Mozilla\Firefox"" | 
-    Select-Object DisableAppUpdate, AppAutoUpdate
-
-`
-`
-
-``
-
-**Expected values:**
-
-<caption>
-</caption>| **Registry value** | **Expected value** |
-| --- | --- |
-| `DisableAppUpdate` | 0 |
-| `AppAutoUpdate` | 1 |
-
-If these values are not set as expected, Firefox updates may be disabled by local or domain Group Policy.
-
-## Check the installed Firefox version
-
-Run the following PowerShell command:`
-`
-
-    Get-ChildItem -Path ""HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"" |
-    Where-Object { $_.PSChildName -like ""Mozilla Firefox*"" } |
-    ForEach-Object {
-        Get-ItemProperty $_.PsPath |
-        Select-Object DisplayName, DisplayVersion, Publisher, InstallDate
-    }
-
-`
-`
-
-``
-
-Compare the installed version with the latest Firefox ESR version available on Mozilla’s website.
-
-## Check the scheduled task
-
-Firefox relies on a background scheduled task to download and apply updates.
-
-Run the following PowerShell command:`
-`
-
-    Get-ScheduledTask | 
-    Where-Object { $_.TaskName -like ""*Firefox Background Update*"" } | 
-    ForEach-Object { Get-ScheduledTaskInfo $_ }
-
-`
-`
-
-``
-
-**-\> Ensure that:**
-
-- The task exists
-- The task is enabled
-- The task runs successfully without errors
-
-## Check Mozilla Maintenance Service
-
-On Windows, Firefox updates may require the Mozilla Maintenance Service to be installed and running. This service allows Firefox to apply updates without requiring administrative privileges.
-
-### Check if the service exists and its status
-
-Run the following PowerShell command:`
-`
-
-    Get-Service -Name MozillaMaintenance -ErrorAction SilentlyContinue |
-    Select-Object Name, DisplayName, Status, StartType
-
-`
-`
-
-``
-
-**-\> Expected behavior:**
-
-- The service exists
-- Status is `Running` (or `Stopped`, but able to start)
-- `StartType` is set to `Automatic` or `Manual`
-- If the service is missing, Firefox may not be able to apply updates automatically.
-
-### Start the service manually _(if required)_
-
-If the service exists but is not running, try starting it. Run the following PowerShell command:`
-`
-
-    Start-Service -Name MozillaMaintenance
-
-`
-`
-
-``
-
-Check again that the service starts without errors.
-
-### Reinstall the Mozilla Maintenance Service
-
-If the service is missing or corrupted, it can be reinstalled using the Firefox installer:
-
-1. Download the Firefox installer matching your deployment (ESR or standard release).
-2. Run the installer as Administrator.
-3. Ensure that _Install Mozilla Maintenance Service_ is selected.
-
-After installation, recheck the service status.
-
-## Check BITS transfers (Background Intelligent Transfer Service)
-
-Firefox uses BITS to download updates in the background.
-
-Run the following PowerShell command:`
-`
-
-    Get-BitsTransfer | 
-    Where-Object { $_.DisplayName -match 'mozilla' -or $_.RemoteName -match 'mozilla' } | 
-    ForEach-Object {
-        $job = $_
-        foreach ($file in $job.FileList) {
-            [PSCustomObject]@{
-                DisplayName = $job.DisplayName
-                JobState = $job.JobState
-                BytesTransferredMB = [math]::Round($file.BytesTransferred / 1MB, 2)
-                BytesRemainingMB = [math]::Round(($file.BytesTotal - $file.BytesTransferred) / 1MB, 2)
-                ProgressPercent = if ($file.BytesTotal -gt 0) { 
-                                         [math]::Round(($file.BytesTransferred / $file.BytesTotal * 100), 2) 
-                                     } else { 0 }
-                RemoteURL = $file.RemoteName
-                LocalPath = $file.LocalName
-            }
-        }
-    }
-
-`
-`
-
-``
-
-**-\> What to check**
-
-- JobState shows the current transfer state (transferring, suspended, completed, or error).
-- ProgressPercent indicates download progress.
-- RemoteURL shows the URL used by Firefox to retrieve the update.
-
-**-\> If the download is blocked**
-
-If progress does not advance or the job fails, verify that the URL shown in RemoteURL is not blocked by your network, firewall, or proxy.
-
-To confirm, copy and paste the URL into a browser and check whether the download starts successfully.
-
-## List Firefox-related files in `C:\ProgramData`
-
-Firefox update files are downloaded and stored in the following location.
-
-Run the following PowerShell command:`
-`
-
-    Get-ChildItem -Path ""C:\ProgramData\Mozilla-*"" -Recurse | 
-    Select-Object @{ Name=""Path""; Expression={$_.FullName} }, 
-                  @{ Name=""Type""; Expression={ if ($_.PSIsContainer) { ""Directory"" } else { ""File"" } } }, 
-                  @{ Name=""Size""; Expression={$_.Length} },
-                  @{ Name=""LastModified""; Expression={$_.LastWriteTime} 
-    }
-
-`
-`
-
-``
-
-This helps verify whether update files were downloaded and identify incomplete or stalled files.
 
 "
 42757,What if I'm locked out of Two-Step Authentication?,what-if-im-locked-out-two-step-authentication,https://support.mozilla.org/en-US/kb/what-if-im-locked-out-two-step-authentication,en-US,Disable two-step authentication or use a backup authentication code to regain access to your account if you've been locked out of two-step authentication login.,"<p>This article explains what to do if you have been locked out of your Mozilla account <a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">two-step authentication</a> login.
@@ -77907,6 +77195,102 @@ As soon as you have started Thunderbird 78 with a profile, you cannot easily go 
 This is not yet supported. The addition of the feature is tracked here:[https://github.com/rnpgp/rnp/issues/1275](https://github.com/rnpgp/rnp/issues/1275)
 
 "
+50406,Use Web Apps with Firefox for Android,use-web-apps-firefox-android,https://support.mozilla.org/en-US/kb/use-web-apps-firefox-android,en-US,Learn more about Web apps and how to use them with Firefox for Android.,"<p>Web apps work almost like native apps except you can open a web app in your browser. While native apps can pass your information on to each other, running a web app through Firefox lets you use the browser's privacy features and extensions to gain more control over how the app is using your data. (For more information about apps, see our <a href=""https://blog.mozilla.org/firefox/no-judgment-digital-definitions-app-vs-web-app/"">blog post</a>.)
+</p><p>We'll show you how to install and use web apps on Firefox for Android.
+</p>
+<ol><li>Open Firefox on your Android phone or tablet.
+</li><li>Visit webpage for the app you want to install (example: <a href=""http://instagram.com"">instagram.com</a>, mastodon.social, <a href=""http://facebook.com"">facebook.com</a>, etc.)
+</li><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Install</span>. The <em>Add to Home Screen</em> panel will appear.
+</li><li>Drag the icon to your preferred spot on your home screen or tap <strong>Add automatically</strong>.
+</li></ol>",mobile,browse;privacy-and-security;settings,"Web apps work almost like native apps except you can open a web app in your browser. While native apps can pass your information on to each other, running a web app through Firefox lets you use the browser's privacy features and extensions to gain more control over how the app is using your data. (For more information about apps, see our [blog post](https://blog.mozilla.org/firefox/no-judgment-digital-definitions-app-vs-web-app/).)
+
+We'll show you how to install and use web apps on Firefox for Android.
+
+1. Open Firefox on your Android phone or tablet.
+2. Visit webpage for the app you want to install (example: [instagram.com](http://instagram.com), mastodon.social, [facebook.com](http://facebook.com), etc.)
+3. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+4. Tap Install. The _Add to Home Screen_ panel will appear.
+5. Drag the icon to your preferred spot on your home screen or tap **Add automatically**.
+
+"
+50557,Delete sync data from Firefox by signing out of your Mozilla account,delete-sync-data-firefox-signing-out-firefox-account,https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-account,en-US,How to sign out of your Mozilla account and remove your synced data from a device.,"<p>If you're no longer using your Mozilla account on a particular device (especially when you're giving access to your computer to someone else), you should sign out of your Mozilla account to help ensure that no one can access your synced bookmarks, passwords, add-ons and browsing history.
+</p><p>You can also delete your synced data from that device when you sign out.
+</p>
+<h1 id=""w_sign-out-of-your-mozilla-account-on-a-device"">Sign out of your Mozilla account on a device</h1>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li>Click on your Mozilla account (email address).
+<dl><dt><img alt=""FxA Login panel Fx88"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-26-15-04-20-204532.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+</li><li>Click <span class=""menu"">Sign Out</span>.
+</li><li>To delete your synced information from Firefox on that device, put a checkbox next to <strong>Delete data from this device (logins, passwords, history, bookmarks, etc.)</strong> 
+</li></ol>
+<h1 id=""w_what-does-delete-data-from-this-device-do"">What does “Delete data from this device” do?</h1>
+<div class=""note""><strong>Note:</strong> This will not delete your information from other synced devices – only the device you're using to sign out. To delete your Mozilla account altogether, see <a href=""/en-US/kb/how-do-i-delete-my-firefox-account"">How do I delete my Mozilla account?</a></div>
+<p><strong>If you select this checkbox when signing out, you will delete your Firefox data on the device, including:</strong>
+</p>
+<ul><li>Synced data from the computer:
+<ul><li>Logins 
+</li><li>Bookmarks
+</li><li>Passwords
+</li><li>History
+</li><li>Add-ons
+</li></ul>
+</li><li>Cookies and Cache
+</li><li>Browsing and download history
+</li></ul>
+<p>This button will <strong>not delete</strong> the following information from the device:
+</p>
+<ul><li>Website permissions
+</li><li>Modified preferences 
+</li><li>Download actions
+</li><li>Toolbar customization
+</li><li>Security certificates
+</li></ul>
+<p>If you’d also like to remove this information, see <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a>.
+</p>",firefox;mozilla-account,sync-data,"If you're no longer using your Mozilla account on a particular device (especially when you're giving access to your computer to someone else), you should sign out of your Mozilla account to help ensure that no one can access your synced bookmarks, passwords, add-ons and browsing history.
+
+You can also delete your synced data from that device when you sign out.
+
+# Sign out of your Mozilla account on a device
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click on your Mozilla account (email address).<dl><dt>
+<img alt=""FxA Login panel Fx88"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-26-15-04-20-204532.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+3. Click Sign Out.
+4. To delete your synced information from Firefox on that device, put a checkbox next to **Delete data from this device (logins, passwords, history, bookmarks, etc.)**
+
+# What does “Delete data from this device” do?
+
+**Note:** This will not delete your information from other synced devices – only the device you're using to sign out. To delete your Mozilla account altogether, see [How do I delete my Mozilla account?](\""https://support.mozilla.org/en-US/kb/how-do-i-delete-my-firefox-account"")
+
+**If you select this checkbox when signing out, you will delete your Firefox data on the device, including:**
+
+- Synced data from the computer:
+  - Logins 
+  - Bookmarks
+  - Passwords
+  - History
+  - Add-ons
+
+- Cookies and Cache
+- Browsing and download history
+
+This button will **not delete** the following information from the device:
+
+- Website permissions
+- Modified preferences 
+- Download actions
+- Toolbar customization
+- Security certificates
+
+If you’d also like to remove this information, see [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"").
+
+"
 50558,Control audio or video playback with your keyboard,control-audio-or-video-playback-your-keyboard,https://support.mozilla.org/en-US/kb/control-audio-or-video-playback-your-keyboard,en-US,This page explains the technical documentation on how to control media in Firefox by using the Media Session API.,"<p>This article describes the media control feature for audio or video playback in Firefox.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-media-control-feature""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the media control feature?</span></a></li><li class=""toclevel-1""><a href=""#w_what-platform-supports-this-feature""><span class=""tocnumber"">2</span> <span class=""toctext"">What platform supports this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_how-is-media-control-supported""><span class=""tocnumber"">3</span> <span class=""toctext"">How is media control supported?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-media-can-be-controlled-by-this-feature""><span class=""tocnumber"">4</span> <span class=""toctext"">What kinds of media can be controlled by this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_what-kinds-of-media-can-not-be-controlled-by-this-feature""><span class=""tocnumber"">5</span> <span class=""toctext"">What kinds of media can NOT be controlled by this feature?</span></a></li><li class=""toclevel-1""><a href=""#w_if-i-have-multiple-tabs-playing-media-which-tab-would-be-controlled""><span class=""tocnumber"">6</span> <span class=""toctext"">If I have multiple tabs playing media, which tab would be controlled?</span></a></li><li class=""toclevel-1""><a href=""#w_why-sometimes-when-i-press-media-control-keys-it-controls-other-apps-but-not-firefox-or-other-apps-are-also-being-controlled-at-the-same-time""><span class=""tocnumber"">7</span> <span class=""toctext"">Why sometimes when I press media control keys, it controls other apps but not Firefox? Or, other apps are also being controlled at the same time?</span></a></li></ul></div>
@@ -87525,6 +86909,253 @@ If the issue persists, consider reporting it by submitting a _Broken Site Report
 
 - To learn more about Enhanced Tracking Protection settings in Firefox, see [Enhanced Tracking Protection in Firefox for desktop](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"").
 - For information about Total Cookie Protection and site breakage, see [Total Cookie Protection and website breakage FAQ](\""https://support.mozilla.org/en-US/kb/total-cookie-protection-and-website-breakage-faq"").
+
+"
+57580,What's the difference between MDN and MDN Plus?,whats-difference-between-mdn-and-mdn-plus,https://support.mozilla.org/en-US/kb/whats-difference-between-mdn-and-mdn-plus,en-US,You can upgrade your access to Mozilla Developer Network (MDN) Web Docs with a free or paid subscription to MDN Plus.  Learn more.,"<p><a href=""https://developer.mozilla.org"">Mozilla Developer Network (MDN) Web Docs</a> is an evolving learning platform for Web technologies and the software that powers the Web. MDN's mission is simple: provide a blueprint for a better Internet and empower a new generation of developers and content creators to build it.
+</p><p>MDN Web Docs is available for free, is accessible to all, and doesn’t require you to sign in with a <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>. You can upgrade your access with a free or paid MDN Plus subscription, which includes varying access to Collections, Notifications and MDN Offline. MDN Plus requires you to create and/or sign in with a Mozilla account. To learn more, see the <a href=""https://developer.mozilla.org/plus/docs/faq"">MDN Plus FAQ</a> page.
+</p>
+<div class=""note"">MDN Plus is currently available in the United States, Canada, Austria, Belgium, Finland, France, the United Kingdom, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Puerto Rico, Sweden, Singapore, Switzerland, and Spain.</div>
+<table>
+<caption>
+</caption><caption>
+</caption>
+<tbody><tr>
+<th> Feature </th><th> MDN Core </th><th> MDN Plus 5 </th><th> MDN Supporter 10
+</th></tr>
+<tr>
+<td> <strong>Saved articles</strong> </td><td> Up to 5 saved articles </td><td>    <strong>☓</strong> </td><td>    <strong>☓</strong>
+</td></tr>
+<tr>
+<td> <strong>Updates</strong> </td><td> <strong>☓</strong> </td><td>    <strong>☓</strong> </td><td>    <strong>☓</strong>
+</td></tr>
+<tr>
+<td> <strong>Collections</strong> </td><td> Up to 3 collections </td><td>    <strong>☓</strong> </td><td>    <strong>☓</strong>
+</td></tr>
+<tr>
+<td> <strong>Ad-free experience</strong> </td><td>  </td><td>    <strong>☓</strong> </td><td>    <strong>☓</strong>
+</td></tr>
+<tr>
+<td> <strong>Early access to new features</strong> </td><td>  </td><td>  </td><td>    <strong>☓</strong>
+</td></tr></tbody></table>",mdn-plus,billing-and-subscriptions,"[Mozilla Developer Network (MDN) Web Docs](https://developer.mozilla.org) is an evolving learning platform for Web technologies and the software that powers the Web. MDN's mission is simple: provide a blueprint for a better Internet and empower a new generation of developers and content creators to build it.
+
+MDN Web Docs is available for free, is accessible to all, and doesn’t require you to sign in with a [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account""). You can upgrade your access with a free or paid MDN Plus subscription, which includes varying access to Collections, Notifications and MDN Offline. MDN Plus requires you to create and/or sign in with a Mozilla account. To learn more, see the [MDN Plus FAQ](https://developer.mozilla.org/plus/docs/faq) page.
+
+MDN Plus is currently available in the United States, Canada, Austria, Belgium, Finland, France, the United Kingdom, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Puerto Rico, Sweden, Singapore, Switzerland, and Spain.
+
+<caption>
+</caption>
+<caption>
+</caption>| Feature | MDN Core | MDN Plus 5 | MDN Supporter 10 |
+| --- | --- | --- | --- |
+| **Saved articles** | Up to 5 saved articles | &nbsp;&nbsp;&nbsp; **☓** | &nbsp;&nbsp;&nbsp; **☓** |
+| **Updates** | **☓** | &nbsp;&nbsp;&nbsp; **☓** | &nbsp;&nbsp;&nbsp; **☓** |
+| **Collections** | Up to 3 collections | &nbsp;&nbsp;&nbsp; **☓** | &nbsp;&nbsp;&nbsp; **☓** |
+| **Ad-free experience** | | &nbsp;&nbsp;&nbsp; **☓** | &nbsp;&nbsp;&nbsp; **☓** |
+| **Early access to new features** | | | &nbsp;&nbsp;&nbsp; **☓** |
+
+"
+57584,Add and delete collections in MDN Plus,add-and-delete-collections-mdn-plus,https://support.mozilla.org/en-US/kb/add-and-delete-collections-mdn-plus,en-US,Collections allow you to save MDN articles and share your MDN Plus library across desktop and the Android and iOS apps. This helps you find what you need quicker by appearing first in your search results for relevant topics.,"<p>Collections allow you to save MDN articles and share your MDN Plus library across desktop and the Android and iOS apps. We also automatically save the pages you visit most frequently to your collections. This helps you find what you need quicker by appearing first in your search results for relevant topics.
+</p><p>You can view your saved articles on the <strong>Collections</strong> page.
+</p>
+<div class=""note"">You can save up to five articles with MDN Core. MDN Plus 5 and MDN Supporter 10 allow an unlimited number of saved articles and notifications.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-collection""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a collection</span></a><ul><li class=""toclevel-2""><a href=""#w_desktop""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Desktop</span></a></li><li class=""toclevel-2""><a href=""#w_mobile""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Mobile</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_view-sort-and-filter-collections""><span class=""tocnumber"">2</span> <span class=""toctext"">View, sort and filter collections</span></a><ul><li class=""toclevel-2""><a href=""#w_desktop_2""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Desktop</span></a></li><li class=""toclevel-2""><a href=""#w_mobile_2""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Mobile</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_add-a-note-to-an-article""><span class=""tocnumber"">3</span> <span class=""toctext"">Add a note to an article</span></a><ul><li class=""toclevel-2""><a href=""#w_desktop_3""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Desktop</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_remove-a-saved-article""><span class=""tocnumber"">4</span> <span class=""toctext"">Remove a saved article</span></a><ul><li class=""toclevel-2""><a href=""#w_desktop_4""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Desktop</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_frequently-visited-pages""><span class=""tocnumber"">5</span> <span class=""toctext"">Frequently visited pages</span></a><ul><li class=""toclevel-2""><a href=""#w_desktop_5""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Desktop</span></a></li><li class=""toclevel-2""><a href=""#w_mobile_3""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Mobile</span></a></li></ul></li></ul></div>
+<h1 id=""w_create-a-collection"">Create a collection</h1>
+<p>To get started creating your collections, save an MDN page first.
+</p>
+<h2 id=""w_desktop"">Desktop</h2>
+<p>To save an article on desktop:
+</p>
+<ol><li>On an article page, click the <strong>Save</strong> icon at the top of the page.
+</li><li>Move your cursor over <strong>MDN Plus</strong> at the top of the page and select <strong>Collections</strong> to view the saved article.
+</li></ol>
+<h2 id=""w_mobile"">Mobile</h2>
+<p>To save an article on mobile:
+</p>
+<ol><li>On an article page, tap the <strong>Article Actions</strong> icon.
+</li><li>Tap the <strong>Save</strong> icon.
+</li><li>Tap MDN Plus and Collections to view the saved article.
+</li></ol>
+<h1 id=""w_view-sort-and-filter-collections"">View, sort and filter collections</h1>
+<h2 id=""w_desktop_2"">Desktop</h2>
+<p>To view your collections on desktop:
+</p>
+<ol><li>Move your cursor over <strong>MDN Plus</strong> at the top of the page.
+</li><li>Select <strong>Collections</strong> from the dropdown.
+</li></ol>
+<p>Saved pages can be filtered by <strong>References</strong> or <strong>Guides</strong>. To filter your collections on desktop, select which areas of MDN to filter by to the right of the <strong>Collections</strong> search.
+</p><p>Collections can be sorted by <strong>Date added</strong>, <strong>Title</strong> or <strong>Technology</strong>, located to the right of the Collections search.
+</p>
+<h2 id=""w_mobile_2"">Mobile</h2>
+<p>To view your collections on mobile:
+</p>
+<ol><li>Tap <strong>MDN Plus</strong>.
+</li><li>Tap <strong>Collections</strong>.
+</li></ol>
+<p>Saved pages can be filtered by <strong>References</strong> or <strong>Guides</strong>. To filter your collections on desktop, select which areas of MDN to filter by to the right of the <strong>Collections</strong> search.
+</p><p>Collections can be sorted by <strong>Date added</strong>, <strong>Title</strong> or <strong>Technology</strong>, located to the right of the <strong>Collections</strong> search.
+</p>
+<h1 id=""w_add-a-note-to-an-article"">Add a note to an article</h1>
+<h2 id=""w_desktop_3"">Desktop</h2>
+<p>To add a note from an article on desktop:
+</p>
+<ol><li>Click the <strong>Saved</strong> icon at the top of the page.
+</li><li>Type the note you’d like to add in the <strong>Note</strong> field.
+</li><li>Click <strong>Save</strong>.
+</li></ol>
+<p>To add a note from <strong>Collections</strong> on desktop:
+</p>
+<ol><li>Move your cursor over <strong>MDN Plus</strong> at the top of the page and select <strong>Collections</strong> from the dropdown.
+</li><li>Click the <strong>More</strong> icon to the right of the article and select <strong>Edit</strong>.
+</li><li>Type the note you’d like to add in the <strong>Note</strong> field.
+</li><li>Click <strong>Save</strong>.
+</li></ol>
+<h1 id=""w_remove-a-saved-article"">Remove a saved article</h1>
+<h2 id=""w_desktop_4"">Desktop</h2>
+<p>To remove a saved article from desktop:
+</p>
+<ol><li>Click the <strong>Saved</strong> icon at the top of the page.
+</li><li>Click <strong>Remove collection</strong>.
+</li></ol>
+<p>To delete a saved article from <strong>Collections</strong> on desktop:
+</p>
+<ol><li>Click <strong>MDN Plus</strong> at the top of the page and select <strong>Collections</strong> from the dropdown.
+</li><li>Click the <strong>More</strong> icon to the right of the saved article and select <strong>Delete</strong>.
+</li><li>Your saved article has now been removed. Select <strong>Undo</strong> in the notification at the bottom of the screen to revert this action.
+</li></ol>
+<h1 id=""w_frequently-visited-pages"">Frequently visited pages</h1>
+<p>Frequently visited pages are collections we automatically create for you, based on your MDN Plus activity when you’re logged in. As an MDN Plus user, you’re automatically opted into this feature and can’t opt out. You can manually remove saved pages from your Frequently Visited Pages collection.
+</p>
+<h2 id=""w_desktop_5"">Desktop</h2>
+<p>To remove a saved page from Frequently Visited Pages on desktop:
+</p>
+<ol><li>Click the <strong>Saved</strong> icon at the top of the page.
+</li><li>Click <strong>Remove collection</strong>.
+</li></ol>
+<h2 id=""w_mobile_3"">Mobile</h2>
+<p>To delete a saved article from the article page on mobile:
+</p>
+<ol><li>Tap the <strong>Article Actions</strong> icon.
+</li><li>Tap the <strong>Delete</strong> icon.
+</li><li>The article has now been removed. Tap <strong>Undo</strong> in the notification at the bottom of the screen to revert this action.
+</li></ol>",mdn-plus,download-and-save;save-content,"Collections allow you to save MDN articles and share your MDN Plus library across desktop and the Android and iOS apps. We also automatically save the pages you visit most frequently to your collections. This helps you find what you need quicker by appearing first in your search results for relevant topics.
+
+You can view your saved articles on the **Collections** page.
+
+You can save up to five articles with MDN Core. MDN Plus 5 and MDN Supporter 10 allow an unlimited number of saved articles and notifications.
+
+## Table of Contents
+
+- [1 Create a collection](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_create-a-collection)
+  - [1.1 Desktop](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_desktop)
+  - [1.2 Mobile](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_mobile)
+
+- [2 View, sort and filter collections](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_view-sort-and-filter-collections)
+  - [2.1 Desktop](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_desktop_2)
+  - [2.2 Mobile](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_mobile_2)
+
+- [3 Add a note to an article](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_add-a-note-to-an-article)
+  - [3.1 Desktop](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_desktop_3)
+
+- [4 Remove a saved article](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_remove-a-saved-article)
+  - [4.1 Desktop](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_desktop_4)
+
+- [5 Frequently visited pages](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_frequently-visited-pages)
+  - [5.1 Desktop](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_desktop_5)
+  - [5.2 Mobile](https://support.mozilla.org/kb/add-and-delete-collections-mdn-plus#w_mobile_3)
+
+# Create a collection
+
+To get started creating your collections, save an MDN page first.
+
+## Desktop
+
+To save an article on desktop:
+
+1. On an article page, click the **Save** icon at the top of the page.
+2. Move your cursor over **MDN Plus** at the top of the page and select **Collections** to view the saved article.
+
+## Mobile
+
+To save an article on mobile:
+
+1. On an article page, tap the **Article Actions** icon.
+2. Tap the **Save** icon.
+3. Tap MDN Plus and Collections to view the saved article.
+
+# View, sort and filter collections
+
+## Desktop
+
+To view your collections on desktop:
+
+1. Move your cursor over **MDN Plus** at the top of the page.
+2. Select **Collections** from the dropdown.
+
+Saved pages can be filtered by **References** or **Guides**. To filter your collections on desktop, select which areas of MDN to filter by to the right of the **Collections** search.
+
+Collections can be sorted by **Date added** , **Title** or **Technology** , located to the right of the Collections search.
+
+## Mobile
+
+To view your collections on mobile:
+
+1. Tap **MDN Plus**.
+2. Tap **Collections**.
+
+Saved pages can be filtered by **References** or **Guides**. To filter your collections on desktop, select which areas of MDN to filter by to the right of the **Collections** search.
+
+Collections can be sorted by **Date added** , **Title** or **Technology** , located to the right of the **Collections** search.
+
+# Add a note to an article
+
+## Desktop
+
+To add a note from an article on desktop:
+
+1. Click the **Saved** icon at the top of the page.
+2. Type the note you’d like to add in the **Note** field.
+3. Click **Save**.
+
+To add a note from **Collections** on desktop:
+
+1. Move your cursor over **MDN Plus** at the top of the page and select **Collections** from the dropdown.
+2. Click the **More** icon to the right of the article and select **Edit**.
+3. Type the note you’d like to add in the **Note** field.
+4. Click **Save**.
+
+# Remove a saved article
+
+## Desktop
+
+To remove a saved article from desktop:
+
+1. Click the **Saved** icon at the top of the page.
+2. Click **Remove collection**.
+
+To delete a saved article from **Collections** on desktop:
+
+1. Click **MDN Plus** at the top of the page and select **Collections** from the dropdown.
+2. Click the **More** icon to the right of the saved article and select **Delete**.
+3. Your saved article has now been removed. Select **Undo** in the notification at the bottom of the screen to revert this action.
+
+# Frequently visited pages
+
+Frequently visited pages are collections we automatically create for you, based on your MDN Plus activity when you’re logged in. As an MDN Plus user, you’re automatically opted into this feature and can’t opt out. You can manually remove saved pages from your Frequently Visited Pages collection.
+
+## Desktop
+
+To remove a saved page from Frequently Visited Pages on desktop:
+
+1. Click the **Saved** icon at the top of the page.
+2. Click **Remove collection**.
+
+## Mobile
+
+To delete a saved article from the article page on mobile:
+
+1. Tap the **Article Actions** icon.
+2. Tap the **Delete** icon.
+3. The article has now been removed. Tap **Undo** in the notification at the bottom of the screen to revert this action.
 
 "
 57585,Receive notifications in MDN Plus,receive-notifications-mdn-plus,https://support.mozilla.org/en-US/kb/receive-notifications-mdn-plus,en-US,"Get notifications for the latest developments on MDN and in our Android and iOS apps. You can watch MDN Plus content and get customizable notifications when documentation changes, CSS features launch and APIs ship.","<p>Get notifications for the latest developments on MDN and in our Android and iOS apps. You can watch MDN Plus content and get customizable notifications when documentation changes, CSS features launch and APIs ship.
@@ -114624,260 +114255,6 @@ The feature supports the following unit conversions:
 - [Remove websites from the address bar suggestions](\""https://support.mozilla.org/en-US/kb/remove-websites-address-bar-suggestions"")
 
 "
-67631,Pocket has shut down - What you need to know,future-of-pocket,https://support.mozilla.org/en-US/kb/future-of-pocket,en-US,More information about the end of support for Pocket.,"<p>We made the difficult decision to shut down Pocket on July 8, 2025. Thank you for being part of our journey over the years—we're proud of the impact Pocket had for our users and communities.
-</p><p>Read more about the decision in <a href=""https://blog.mozilla.org/en/mozilla/building-whats-next/"">this Mozilla blog post</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-happened-to-my-account-and-saved-articles""><span class=""tocnumber"">1</span> <span class=""toctext"">What happened to my account and saved articles?</span></a></li><li class=""toclevel-1""><a href=""#w_how-were-refunds-handled-for-pocket-premium-subscriptions""><span class=""tocnumber"">2</span> <span class=""toctext"">How were refunds handled for Pocket Premium Subscriptions?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happened-to-the-pocket-browser-extensions-and-app""><span class=""tocnumber"">3</span> <span class=""toctext"">What happened to the Pocket browser extensions and app?</span></a></li><li class=""toclevel-1""><a href=""#w_what-about-the-pocket-api""><span class=""tocnumber"">4</span> <span class=""toctext"">What about the Pocket API?</span></a></li><li class=""toclevel-1""><a href=""#w_what-about-the-pocket-apps""><span class=""tocnumber"">5</span> <span class=""toctext"">What about the Pocket apps?</span></a></li><li class=""toclevel-1""><a href=""#w_key-dates""><span class=""tocnumber"">6</span> <span class=""toctext"">Key dates</span></a></li><li class=""toclevel-1""><a href=""#w_need-help""><span class=""tocnumber"">7</span> <span class=""toctext"">Need help?</span></a></li></ul></div>
-<h1 id=""w_what-happened-to-my-account-and-saved-articles"">What happened to my account and saved articles?</h1>
-<p>As of November 12, 2025, user data export has been disabled, and all user data has been queued for permanent deletion.
-</p>
-<h1 id=""w_how-were-refunds-handled-for-pocket-premium-subscriptions"">How were refunds handled for Pocket Premium Subscriptions?</h1>
-<p>Pocket Premium refunds were completed on July 8, 2025. We arranged refunds to your original payment method based on your subscription type.
-</p>
-<h1 id=""w_what-happened-to-the-pocket-browser-extensions-and-app"">What happened to the Pocket browser extensions and app?</h1>
-<p>The Pocket app and extensions are no longer available. If you had either of these installed, you will need to delete them manually.
-</p>
-<h1 id=""w_what-about-the-pocket-api"">What about the Pocket API?</h1>
-<p>The Pocket API was disabled on November 12, 2025, concurrent with the end of the user export window and the beginning of data deletion.
-</p>
-<h1 id=""w_what-about-the-pocket-apps"">What about the Pocket apps?</h1>
-<p>The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocket’s servers, and users should delete the apps to prevent future confusion. Any continued use beyond July 8, 2025 is not supported by Pocket or Mozilla.
-</p>
-<h1 id=""w_key-dates"">Key dates</h1>
-<p>Thank you for your support, feedback and enthusiasm over the years. We’re grateful to have been part of your reading and discovery experience online.
-</p>
-<table>
-<tbody><tr>
-<th>Date
-</th><th>What happens
-</th></tr>
-<tr>
-<td>May 22, 2025
-</td><td>Pocket removed from app stores
-<p></p><br>
-Monthly subscription renewals disabled
-<p></p><p>New Pocket account sign-ups disabled
-</p>
-</td></tr>
-<tr>
-<td>July 8, 2025
-</td><td>Pocket shut down
-<p></p><br>
-Annual subscriber refunds occurred – prorated and automatic
-<p></p><p>Export-only mode on Pocket Web continues for 90 days
-</p>
-</td></tr>
-<tr>
-<td>November 12, 2025
-</td><td>Export mode on Pocket Web closed
-<p></p><br>
-All deletion of accounts and user data began
-<p></p>
-</td></tr></tbody></table>
-<h1 id=""w_need-help"">Need help?</h1>
-<p>Need help or have questions? Our <a href=""https://support.mozilla.org/questions/new/mozilla-account/form"">support team</a> is here for you.
-</p>",pocket,accounts,"We made the difficult decision to shut down Pocket on July 8, 2025. Thank you for being part of our journey over the years—we're proud of the impact Pocket had for our users and communities.
-
-Read more about the decision in [this Mozilla blog post](https://blog.mozilla.org/en/mozilla/building-whats-next/).
-
-## Table of Contents
-
-- [1 What happened to my account and saved articles?](https://support.mozilla.org/kb/future-of-pocket#w_what-happened-to-my-account-and-saved-articles)
-- [2 How were refunds handled for Pocket Premium Subscriptions?](https://support.mozilla.org/kb/future-of-pocket#w_how-were-refunds-handled-for-pocket-premium-subscriptions)
-- [3 What happened to the Pocket browser extensions and app?](https://support.mozilla.org/kb/future-of-pocket#w_what-happened-to-the-pocket-browser-extensions-and-app)
-- [4 What about the Pocket API?](https://support.mozilla.org/kb/future-of-pocket#w_what-about-the-pocket-api)
-- [5 What about the Pocket apps?](https://support.mozilla.org/kb/future-of-pocket#w_what-about-the-pocket-apps)
-- [6 Key dates](https://support.mozilla.org/kb/future-of-pocket#w_key-dates)
-- [7 Need help?](https://support.mozilla.org/kb/future-of-pocket#w_need-help)
-
-# What happened to my account and saved articles?
-
-As of November 12, 2025, user data export has been disabled, and all user data has been queued for permanent deletion.
-
-# How were refunds handled for Pocket Premium Subscriptions?
-
-Pocket Premium refunds were completed on July 8, 2025. We arranged refunds to your original payment method based on your subscription type.
-
-# What happened to the Pocket browser extensions and app?
-
-The Pocket app and extensions are no longer available. If you had either of these installed, you will need to delete them manually.
-
-# What about the Pocket API?
-
-The Pocket API was disabled on November 12, 2025, concurrent with the end of the user export window and the beginning of data deletion.
-
-# What about the Pocket apps?
-
-The web and mobile Pocket applications are no longer available. If you previously installed the Android or iOS apps on your device, they no longer can communicate with Pocket’s servers, and users should delete the apps to prevent future confusion. Any continued use beyond July 8, 2025 is not supported by Pocket or Mozilla.
-
-# Key dates
-
-Thank you for your support, feedback and enthusiasm over the years. We’re grateful to have been part of your reading and discovery experience online.
-
-| Date | What happens |
-| --- | --- |
-| May 22, 2025 | Pocket removed from app stores
-
-  
-Monthly subscription renewals disabled
-
-New Pocket account sign-ups disabled
-
- |
-| July 8, 2025 | Pocket shut down
-
-  
-Annual subscriber refunds occurred – prorated and automatic
-
-Export-only mode on Pocket Web continues for 90 days
-
- |
-| November 12, 2025 | Export mode on Pocket Web closed
-
-  
-All deletion of accounts and user data began
-
- |
-
-# Need help?
-
-Need help or have questions? Our [support team](https://support.mozilla.org/questions/new/mozilla-account/form) is here for you.
-
-"
-67647,Firefox for Enterprise 139 - Release notes,firefox-enterprise-139-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-139-release-notes,en-US,See what's coming out with Firefox for Enterprise 139.,"<p>Except where noted, everything here applies to both Firefox 139 and the Firefox 128.11 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_other-changes""><span class=""tocnumber"">1</span> <span class=""toctext"">Other Changes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-esr-140""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Firefox ESR 140</span></a></li></ul></li></ul></div>
-<h1 id=""w_other-changes"">Other Changes</h1>
-<ul><li>Extensions installed via policy can now enable or disable other extensions. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1966113"">bug 1966113</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://mozilla.github.io/policy-templates/#searchengines"">SearchEngines</a> policy is now available on all versions of Firefox (not just the ESR).
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<h2 id=""w_firefox-esr-140"">Firefox ESR 140</h2>
-<p>Firefox 140 is the next ESR and will be released on June 24, 2025. Going forward, we will only be backporting security fixes to the Firefox 128 ESR.
-</p><p>If you use the ESR, we strongly recommend that you start testing with Firefox Beta to see if there are any issues you have with the new ESR.
-</p><p>If you need to prevent upgrades for any reason, you can use the <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 139 and the Firefox 128.11 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
-
-## Table of Contents
-
-- [1 Other Changes](https://support.mozilla.org/kb/firefox-enterprise-139-release-notes#w_other-changes)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-139-release-notes#w_policies)
-- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-139-release-notes#w_special-notes)
-  - [3.1 Firefox ESR 140](https://support.mozilla.org/kb/firefox-enterprise-139-release-notes#w_firefox-esr-140)
-
-# Other Changes
-
-- Extensions installed via policy can now enable or disable other extensions. This was fixed in [bug 1966113](https://bugzilla.mozilla.org/show_bug.cgi?id=1966113).
-
-# Policies
-
-- The [SearchEngines](https://mozilla.github.io/policy-templates/#searchengines) policy is now available on all versions of Firefox (not just the ESR).
-
-# Special Notes
-
-## Firefox ESR 140
-
-Firefox 140 is the next ESR and will be released on June 24, 2025. Going forward, we will only be backporting security fixes to the Firefox 128 ESR.
-
-If you use the ESR, we strongly recommend that you start testing with Firefox Beta to see if there are any issues you have with the new ESR.
-
-If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
-
-"
-67650,Reset your Mozilla account password to protect your credentials,reset-mozilla-account-password-credentials,https://support.mozilla.org/en-US/kb/reset-mozilla-account-password-credentials,en-US,"If Mozilla asks you to reset your password, your credentials might have leaked onto the dark web","<p>The possibility of your Mozilla account getting hacked or compromised is high nowadays, considering the new ways of enacting cyberattacks. In this case, there is also a chance your credentials might end up on the Dark Web. To not only stop, but also prevent such events, Mozilla will send you an email notifying you that your current password has been reset. This article will explain to you how to get your account back and secure it with a new and stronger password.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_review-the-email-mozilla-sent-to-you""><span class=""tocnumber"">1</span> <span class=""toctext"">Review the email Mozilla sent to you</span></a></li><li class=""toclevel-1""><a href=""#w_reset-the-password-for-your-mozilla-account""><span class=""tocnumber"">2</span> <span class=""toctext"">Reset the password for your Mozilla account</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-it-important-to-reset-the-password-asap""><span class=""tocnumber"">3</span> <span class=""toctext"">Why is it important to reset the password ASAP</span></a></li><li class=""toclevel-1""><a href=""#w_sign-in-with-a-one-time-email-code""><span class=""tocnumber"">4</span> <span class=""toctext"">Sign in with a one-time email code</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_review-the-email-mozilla-sent-to-you"">Review the email Mozilla sent to you</h1>
-<p>Mozilla will send you an email from <em><a href=""mailto:accounts@firefox.com"">accounts@firefox.com</a></em> asking you to reset your password, if it detects your credentials have been leaked on the Dark Web.
-</p><p>It will also automatically disconnect all devices on your account to prevent further damage. You are then required to reset your password to enable this prevention.
-</p>
-<div class=""note""><strong>Note:</strong> While <a href=""/en-US/kb/review-mozilla-account-activity-and-protect-data"">reviewing your account activity</a> might be the logical next step, until you reset your password, you won’t have access to the <a href=""https://accounts.firefox.com/settings"">Mozilla account settings page</a>, nor your sync data (since it can't be unencrypted).</div>
-<h1 id=""w_reset-the-password-for-your-mozilla-account"">Reset the password for your Mozilla account</h1>
-<ol><li>You should receive an email from Mozilla, letting you know that your password has been reset. Please note that the email will contain no link or button to start the process.
-</li><li>You'll have to navigate on your device of choice and sign in to your Mozilla account from there.
-</li><li>Mozilla will notify you that your account has been locked for security reasons.
-</li><li>Click on the <strong>Forgot password?</strong> link, and reset your password.
-</li></ol>
-<dl><dt><img alt=""enterpasswordmozilla"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-13-36-47-f98142.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-<div class=""note""><strong>Note:</strong> This issue is unrelated to the <a href=""/en-US/kb/accounts-blocked"">My sign in was blocked for security reasons on Mozilla account</a> bug.</div>
-<h1 id=""w_why-is-it-important-to-reset-the-password-asap"">Why is it important to reset the password ASAP</h1>
-<p>As we mentioned earlier, Mozilla will only send you emails asking you to reset the password if your account has been flagged with <a href=""/en-US/kb/suspicious-activity-my-firefox-account"">suspicious activity</a>.
-</p><p>While this can mean someone else has tried to access your account, it can also mean your credentials have been compromised and leaked to the Dark Web.
-</p><p>In such a situation, time is your best friend. Resetting the password as soon as possible will stop your account from being accessed by foreign parties and remediate the damage that has already been done.
-</p>
-<div class=""note""><strong>Note:</strong> Pick a different password from what you were previously using. Your password should have more than 8 characters and should not contain any part of your email address. For more tips, read our comprehensive guide on <a href=""/en-US/kb/password-strength"">how to choose a strong password</a>.</div>
-<h1 id=""w_sign-in-with-a-one-time-email-code"">Sign in with a one-time email code</h1>
-<p>Mozilla account supports a <a href=""/en-US/kb/passwordless-login-mozilla-accounts"">passwordless sign-in option</a> for selected services. Instead of entering a password, you can use a one-time code sent to your email address.
-</p><p>When you enter your email on a supported service, Mozilla automatically determines the correct sign-in method. If your account is eligible for the passwordless flow, you’ll receive a one-time code by email. Enter that code on the verification screen to complete sign-in. If the code expires, you can request a new one.
-</p><p>You can use passwordless login when creating a new account for a supported service, or when your existing account lacks a password and is not linked to Google or Apple.
-</p>
-<div class=""note""><strong>Note</strong>: Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.</div>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a>
-</li><li><a href=""/en-US/kb/review-mozilla-account-activity-and-protect-data"">Review your Mozilla account activity and protect your data</a>
-</li><li><a href=""/en-US/kb/avoid-getting-locked-out-your-mozilla-account"">Avoid getting locked out of your Mozilla account</a>
-</li><li><a href=""/en-US/kb/accounts-blocked"">My sign in was blocked for security reasons on Mozilla account</a>
-</li></ul>",mozilla-account,passwords-and-sign-in;privacy-and-security;reset-passwords;security,"The possibility of your Mozilla account getting hacked or compromised is high nowadays, considering the new ways of enacting cyberattacks. In this case, there is also a chance your credentials might end up on the Dark Web. To not only stop, but also prevent such events, Mozilla will send you an email notifying you that your current password has been reset. This article will explain to you how to get your account back and secure it with a new and stronger password.
-
-## Table of Contents
-
-- [1 Review the email Mozilla sent to you](https://support.mozilla.org/kb/reset-mozilla-account-password-credentials#w_review-the-email-mozilla-sent-to-you)
-- [2 Reset the password for your Mozilla account](https://support.mozilla.org/kb/reset-mozilla-account-password-credentials#w_reset-the-password-for-your-mozilla-account)
-- [3 Why is it important to reset the password ASAP](https://support.mozilla.org/kb/reset-mozilla-account-password-credentials#w_why-is-it-important-to-reset-the-password-asap)
-- [4 Sign in with a one-time email code](https://support.mozilla.org/kb/reset-mozilla-account-password-credentials#w_sign-in-with-a-one-time-email-code)
-- [5 Related articles](https://support.mozilla.org/kb/reset-mozilla-account-password-credentials#w_related-articles)
-
-# Review the email Mozilla sent to you
-
-Mozilla will send you an email from _[accounts@firefox.com](mailto:accounts@firefox.com)_ asking you to reset your password, if it detects your credentials have been leaked on the Dark Web.
-
-It will also automatically disconnect all devices on your account to prevent further damage. You are then required to reset your password to enable this prevention.
-
-**Note:** While [reviewing your account activity](\""https://support.mozilla.org/en-US/kb/review-mozilla-account-activity-and-protect-data"") might be the logical next step, until you reset your password, you won’t have access to the [Mozilla account settings page](https://accounts.firefox.com/settings), nor your sync data (since it can't be unencrypted).
-
-# Reset the password for your Mozilla account
-
-1. You should receive an email from Mozilla, letting you know that your password has been reset. Please note that the email will contain no link or button to start the process.
-2. You'll have to navigate on your device of choice and sign in to your Mozilla account from there.
-3. Mozilla will notify you that your account has been locked for security reasons.
-4. Click on the **Forgot password?** link, and reset your password.
-
-<dl><dt>
-<img alt=""enterpasswordmozilla"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-23-13-36-47-f98142.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</dt></dl>
-**Note:** This issue is unrelated to the [My sign in was blocked for security reasons on Mozilla account](\""https://support.mozilla.org/en-US/kb/accounts-blocked"") bug.
-
-# Why is it important to reset the password ASAP
-
-As we mentioned earlier, Mozilla will only send you emails asking you to reset the password if your account has been flagged with [suspicious activity](\""https://support.mozilla.org/en-US/kb/suspicious-activity-my-firefox-account"").
-
-While this can mean someone else has tried to access your account, it can also mean your credentials have been compromised and leaked to the Dark Web.
-
-In such a situation, time is your best friend. Resetting the password as soon as possible will stop your account from being accessed by foreign parties and remediate the damage that has already been done.
-
-**Note:** Pick a different password from what you were previously using. Your password should have more than 8 characters and should not contain any part of your email address. For more tips, read our comprehensive guide on [how to choose a strong password](\""https://support.mozilla.org/en-US/kb/password-strength"").
-
-# Sign in with a one-time email code
-
-Mozilla account supports a [passwordless sign-in option](\""https://support.mozilla.org/en-US/kb/passwordless-login-mozilla-accounts"") for selected services. Instead of entering a password, you can use a one-time code sent to your email address.
-
-When you enter your email on a supported service, Mozilla automatically determines the correct sign-in method. If your account is eligible for the passwordless flow, you’ll receive a one-time code by email. Enter that code on the verification screen to complete sign-in. If the code expires, you can request a new one.
-
-You can use passwordless login when creating a new account for a supported service, or when your existing account lacks a password and is not linked to Google or Apple.
-
-**Note** : Passwordless login cannot be used for Firefox Sync. Sync requires a password because it uses end-to-end encryption to protect your data.
-
-# Related articles
-
-- [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"")
-- [Review your Mozilla account activity and protect your data](\""https://support.mozilla.org/en-US/kb/review-mozilla-account-activity-and-protect-data"")
-- [Avoid getting locked out of your Mozilla account](\""https://support.mozilla.org/en-US/kb/avoid-getting-locked-out-your-mozilla-account"")
-- [My sign in was blocked for security reasons on Mozilla account](\""https://support.mozilla.org/en-US/kb/accounts-blocked"")
-
-"
 67713,Set Firefox as your mail-to default on Windows,set-firefox-mail-default-windows,https://support.mozilla.org/en-US/kb/set-firefox-mail-default-windows,en-US,Learn how to set Firefox as your MAILTO default on Windows and configure it to handle mail links seamlessly.,"<p>You can configure how Firefox handles email links such as <a href=""mailto:user@example.com"">user@example.com</a> on a webpage by <a href=""/en-US/kb/change-program-used-open-email-links#w_setting-the-mail-client-used-by-firefox"">setting the email application or website used in Firefox</a>. When Firefox is set as your default browser on Windows, you can also set Firefox as your default mail handler. This guide explains how to set Firefox as the application that opens automatically when you click mail links.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_set-firefox-as-the-default-handler-for-mail-links-on-windows-10""><span class=""tocnumber"">1</span> <span class=""toctext"">Set Firefox as the default handler for mail links on Windows 10</span></a></li><li class=""toclevel-1""><a href=""#w_set-firefox-as-the-default-handler-for-mail-links-on-windows-11""><span class=""tocnumber"">2</span> <span class=""toctext"">Set Firefox as the default handler for mail links on Windows 11</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
@@ -125864,15 +125241,15 @@ Right now, no. Memories cannot be synced across devices.
 - [Private Browsing - Use Firefox without saving history](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"")
 
 "
-73331,Article Metadata and how to edit,article-metadata,https://support.mozilla.org/en-US/kb/article-metadata,en-US,This guide explains how fill out the description for a new article and how reviewers can edit the metadata after the article is approved,"<p>This guide explains how to complete the article description (also called <em>article metadata</em>) when you <a href=""/en-US/kb/create-new-knowledge-base-article"">create a new Knowledge Base article</a>, as well as how KB reviewers can update this information after your submission is approved.
+73331,Article Metadata and how to edit,article-metadata,https://support.mozilla.org/en-US/kb/article-metadata,en-US,This guide explains how fill out the description for a new KB article and how reviewers can edit the metadata after the article is approved,"<p>This guide explains how to complete the article description (also called <em>article metadata</em>) when you <a href=""/en-US/kb/create-new-knowledge-base-article"">create a new Knowledge Base article</a>, as well as how KB reviewers can update this information after your submission is approved.
 </p>
-<div class=""note""><strong>Note:</strong> All contributors can complete article metadata (such as title, slug, category, and relevant product) when creating a new Knowledge Base article. However, once the article is approved, this information can only be edited by reviewers.</div>
+<div class=""note""><strong>Note:</strong> All contributors can complete article metadata (such as title, slug, category and relevant product) when creating a new Knowledge Base article. However, once the article is approved, this information can only be edited by reviewers.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_article-metadata""><span class=""tocnumber"">1</span> <span class=""toctext"">Article metadata</span></a><ul><li class=""toclevel-2""><a href=""#w_title""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Title</span></a><ul><li class=""toclevel-3""><a href=""#w_title-requirements-by-article-type""><span class=""tocnumber"">1.1.1</span> <span class=""toctext"">Title requirements by article type</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_slug""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Slug</span></a></li><li class=""toclevel-2""><a href=""#w_category""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Category</span></a></li><li class=""toclevel-2""><a href=""#w_allow-translations""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Allow translations</span></a></li><li class=""toclevel-2""><a href=""#w_products""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Product(s)</span></a></li><li class=""toclevel-2""><a href=""#w_topics""><span class=""tocnumber"">1.6</span> <span class=""toctext"">Topics</span></a></li><li class=""toclevel-2""><a href=""#w_allow-discussion-on-this-article""><span class=""tocnumber"">1.7</span> <span class=""toctext"">Allow discussion on this article?</span></a></li><li class=""toclevel-2""><a href=""#w_related-documents""><span class=""tocnumber"">1.8</span> <span class=""toctext"">Related documents</span></a></li><li class=""toclevel-2""><a href=""#w_keywords""><span class=""tocnumber"">1.9</span> <span class=""toctext"">Keywords</span></a></li><li class=""toclevel-2""><a href=""#w_search-result-summary""><span class=""tocnumber"">1.10</span> <span class=""toctext"">Search result summary</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-edit-article-metadata-reviewers-only""><span class=""tocnumber"">2</span> <span class=""toctext"">How to edit article metadata (reviewers only)</span></a></li><li class=""toclevel-1""><a href=""#w_more-information""><span class=""tocnumber"">3</span> <span class=""toctext"">More information</span></a></li></ul></div>
 <h1 id=""w_article-metadata"">Article metadata</h1>
 <p>Article metadata is a set of information that helps categorize the article so readers can find it more easily.
 </p>
 <h2 id=""w_title"">Title</h2>
-<p>The title of an article should clearly describe what the article shows the reader. Avoid beginning the title with the word <em>How</em>. Since most articles provide procedural guidance, starting each title with <em>How</em> would make alphabetizing difficult and cluttered. For example, instead of <em>How to change your New Tab background,</em> use <em>Change your New Tab background</em>. More about how to choose an article title <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_title"">here</a>.
+<p>The title of an article should clearly describe what the article shows the reader. Avoid beginning the title with the word <strong>How</strong>. Since most articles provide procedural guidance, starting each title with <em>How</em> would make alphabetizing difficult and cluttered. For example, instead of <em>How to change your New Tab background</em>, use <em>Change your New Tab background</em>. More about how to choose an article title in <a href=""/en-US/kb/writing-guide-knowledge-base-articles#w_title"">this article section</a>.
 </p>
 <h3 id=""w_title-requirements-by-article-type"">Title requirements by article type</h3>
 <p>Different types of support articles have specific requirements to ensure titles are clear and helpful for users.
@@ -125882,7 +125259,7 @@ Right now, no. Memories cannot be synced across devices.
 </li><li><strong>Troubleshooting articles</strong>: Describe the issue and include an action-oriented solution.
 </li><li><strong>FAQ articles</strong>: Clearly state the topic or common question. Example: <em>Mozilla VPN - FAQ</em>.
 </li></ul>
-<dl><dt><img alt=""New article - title"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-38-54-d5d3db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<dl><dt><img alt=""New article - title"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-38-54-d5d3db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <p>For specific writing guidelines for each article type, please see:
 </p>
@@ -125892,29 +125269,29 @@ Right now, no. Memories cannot be synced across devices.
 </li><li><a href=""/en-US/kb/faq-article-type-best-practices"">""FAQ"" article type best practices</a>
 </li></ul>
 <h2 id=""w_slug"">Slug</h2>
-<p>The slug is the link to the article. Keep it short. The slug for “Joining a Conversation” might become “joining-conversation.”
+<p>The slug is the link to the article. Keep it short. The slug for “Joining a Conversation” might become “joining-conversation”.
 </p>
-<dl><dt><img alt=""New article - slug"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-39-07-2dbcba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<dl><dt><img alt=""New article - slug"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-39-07-2dbcba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <h2 id=""w_category"">Category</h2>
 <p>Choose a category based on what this article is meant to do. Does this article show readers how to do something with a Mozilla product? Choose <span class=""button"">How to</span>. Does it help with a troubleshooting problem? Choose <span class=""button"">Troubleshooting</span>.
 </p>
 <dl><dt><img alt=""ArticleMetadataCategory"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-30-05-00-37-1fa4e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-<div class=""note""><strong>Note:</strong> If the article is intended for KB editors and reviewers, choose <span class=""button"">How to contribute</span>.  If the article is intended for the <em>common responses</em> tool on the Support forum, choose <span class=""button"">Canned Responses</span>. </div> 
+<div class=""note""><strong>Note:</strong> If the article is intended for KB editors and reviewers, forum helpers or other contributors, choose <span class=""button"">How to contribute</span>. If the article is intended for the <em>common responses</em> tool on the Support forum, choose <span class=""button"">Canned Responses</span> and read <a href=""/en-US/kb/create-or-improve-common-forum-responses"">Create or improve common forum responses</a>.</div>
 <h2 id=""w_allow-translations"">Allow translations</h2>
 <p>Check this option to allow the article to be translated. This setting is enabled by default.
 </p>
 <h2 id=""w_products"">Product(s)</h2>
-<p>What is this article relevant to? Does it relate to Firefox, Firefox for Android, or Firefox for iOS? Select all that apply.
+<p>What is this article relevant to? Does it relate to Firefox, Firefox for Android or Firefox for iOS? Select all that apply.
 </p>
-<div class=""note""><strong>Note:</strong> If this is a <em>How to contribute</em> or <em>Canned Responses</em> article, select Contributors. You do not need to choose any other product. </div> 
+<div class=""note""><strong>Note:</strong> If this is a <em>How to contribute</em> or <em>Canned Responses</em> article, select <strong>Contributors</strong>. You do not need to choose any other product. </div>
 <p>Your product selection will determine the available topic options. For example, if you select Firefox, you won’t be able to choose topics that are specific to Thunderbird.
 </p>
 <dl><dt><img alt=""KB product selection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-23-01-37-55-51a453.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <h2 id=""w_topics"">Topics</h2>
-<p>Available topic options depend on your selected product. Choose the most specific topic that applies to the article. For example, if the article is about bookmarks, select <em>Bookmarks.</em> The parent topic (in this case, <em>Browse</em>) will be selected automatically.
+<p>Available topic options depend on your selected product. Choose the most specific topic that applies to the article. For example, if the article is about bookmarks, select <strong>Bookmarks</strong>. The parent topic (in this case, <em>Browse</em>) will be selected automatically.
 </p><p>You may select multiple topics if applicable.
 </p>
 <dl><dt><img alt=""topic selection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-23-01-38-23-429aa4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -125928,13 +125305,13 @@ Right now, no. Memories cannot be synced across devices.
 <h2 id=""w_keywords"">Keywords</h2>
 <p>Keywords can improve search results by adding terms that are not included in the article's Search result summary.
 </p>
-<dl><dt><img alt=""New article- keywords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-35-1f796f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<dl><dt><img alt=""New article- keywords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-35-1f796f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <div class=""note""><strong>Note:</strong> It is <strong>not</strong> in your best interest to overload your keyword field with as many relevant keywords as possible. Doing so will lower the amount of points awarded to your keyword, resulting in your article's search ranking diminishing. For more information, see <a href=""/en-US/kb/when-and-how-to-use-keywords"">this article</a>.</div>
 <h2 id=""w_search-result-summary"">Search result summary</h2>
-<p>The summary gives a glimpse of what the article is about to help the user decide if they’re in the right place. Provide a textual overview or definition of the concept and introduce the FAQ. Limit the summary to 140 characters, as search engines may cut off anything longer. 
+<p>The summary gives a glimpse of what the article is about to help the user decide if they’re in the right place. Provide a textual overview or definition of the concept and introduce the FAQ. Limit the summary to 140 characters, as search engines may cut off anything longer.
 </p>
-<dl><dt><img alt=""New article- search summary"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-19-2a8fb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<dl><dt><img alt=""New article- search summary"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-19-2a8fb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 <h1 id=""w_how-to-edit-article-metadata-reviewers-only"">How to edit article metadata (reviewers only)</h1>
 <p>After a Knowledge Base article submission is approved, only reviewers can update its metadata. If you have reviewer permissions, you can access this by clicking the <span class=""button"">Edit Article Metadata</span> button under <em>Editing Tools</em> to open the <em>Edit Article Metadata</em> page. Make sure you are signed in to Mozilla Support before proceeding.
@@ -125944,10 +125321,10 @@ Right now, no. Memories cannot be synced across devices.
 <p>This is where you can:
 </p>
 <ul><li>Change an article's title, slug, category, product and topics.
-</li><li>Archive or un-archive an article (Controlled by the <em>Obsolete:</em> checkbox).
-</li><li>Allow or disable article discussion (<em>Allow discussion on this article?</em> checkbox).
-</li><li>Add or remove a <em>Needs change:</em> entry or comment.
-</li><li>Change <em>Related documents:</em> entries.
+</li><li>Archive or un-archive an article (controlled by the <strong>Obsolete:</strong> checkbox).
+</li><li>Allow or disable article discussion (<strong>Allow discussion on this article?</strong> checkbox).
+</li><li>Add or remove a <strong>Needs change:</strong> entry or comment.
+</li><li>Change <em>Related documents:'</em> entries.
 </li></ul>
 <dl><dt><img alt=""KB-SaveMetadata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-10-07-43-48-49f9f6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
@@ -125956,13 +125333,13 @@ Right now, no. Memories cannot be synced across devices.
 <h1 id=""w_more-information"">More information</h1>
 <ul><li>For help writing articles, see <a href=""/en-US/kb/writing-guide-knowledge-base-articles"">Writing guide for Knowledge Base articles</a>.
 </li><li>To learn how to create a new article, see <a href=""/en-US/kb/create-new-knowledge-base-article"">Create a new Knowledge Base article</a>.
-</li><li>To submit a minor update, see <a href=""/en-US/kb/edit-knowledge-base-article"">Submit a minor update in a Knowledge Base article</a>. 
+</li><li>To submit a minor update, see <a href=""/en-US/kb/edit-knowledge-base-article"">Submit a minor update in a Knowledge Base article</a>.
 </li><li>For reviewer guidelines, see <a href=""/en-US/kb/article-review-guidelines"">Article review guidelines for KB reviewers</a>.
 </li></ul>
-<p>More guidelines on Knowledge Base contribution can be found <a href=""/products/contributor/kb"">here</a>.
+<p>Find <a href=""/products/contributor/kb"">more guidelines on Knowledge Base contribution</a>.
 </p>",contributor,create-and-edit-articles;kb,"This guide explains how to complete the article description (also called _article metadata_) when you [create a new Knowledge Base article](\""https://support.mozilla.org/en-US/kb/create-new-knowledge-base-article""), as well as how KB reviewers can update this information after your submission is approved.
 
-**Note:** All contributors can complete article metadata (such as title, slug, category, and relevant product) when creating a new Knowledge Base article. However, once the article is approved, this information can only be edited by reviewers.
+**Note:** All contributors can complete article metadata (such as title, slug, category and relevant product) when creating a new Knowledge Base article. However, once the article is approved, this information can only be edited by reviewers.
 
 ## Table of Contents
 
@@ -125989,7 +125366,7 @@ Article metadata is a set of information that helps categorize the article so re
 
 ## Title
 
-The title of an article should clearly describe what the article shows the reader. Avoid beginning the title with the word _How_. Since most articles provide procedural guidance, starting each title with _How_ would make alphabetizing difficult and cluttered. For example, instead of _How to change your New Tab background,_ use _Change your New Tab background_. More about how to choose an article title [here](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_title"").
+The title of an article should clearly describe what the article shows the reader. Avoid beginning the title with the word **How**. Since most articles provide procedural guidance, starting each title with _How_ would make alphabetizing difficult and cluttered. For example, instead of _How to change your New Tab background_, use _Change your New Tab background_. More about how to choose an article title in [this article section](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles#w_title"").
 
 ### Title requirements by article type
 
@@ -126001,7 +125378,7 @@ Different types of support articles have specific requirements to ensure titles 
 - **FAQ articles** : Clearly state the topic or common question. Example: _Mozilla VPN - FAQ_.
 
 <dl><dt>
-<img alt=""New article - title"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-38-54-d5d3db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<img alt=""New article - title"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-38-54-d5d3db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 
 For specific writing guidelines for each article type, please see:
@@ -126013,10 +125390,10 @@ For specific writing guidelines for each article type, please see:
 
 ## Slug
 
-The slug is the link to the article. Keep it short. The slug for “Joining a Conversation” might become “joining-conversation.”
+The slug is the link to the article. Keep it short. The slug for “Joining a Conversation” might become “joining-conversation”.
 
 <dl><dt>
-<img alt=""New article - slug"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-39-07-2dbcba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<img alt=""New article - slug"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-10-39-07-2dbcba.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 ## Category
 
@@ -126025,7 +125402,7 @@ Choose a category based on what this article is meant to do. Does this article s
 <dl><dt>
 <img alt=""ArticleMetadataCategory"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-30-05-00-37-1fa4e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-**Note:** If the article is intended for KB editors and reviewers, choose How to contribute. If the article is intended for the _common responses_ tool on the Support forum, choose Canned Responses. 
+**Note:** If the article is intended for KB editors and reviewers, forum helpers or other contributors, choose How to contribute. If the article is intended for the _common responses_ tool on the Support forum, choose Canned Responses and read [Create or improve common forum responses](\""https://support.mozilla.org/en-US/kb/create-or-improve-common-forum-responses"").
 
 ## Allow translations
 
@@ -126033,9 +125410,9 @@ Check this option to allow the article to be translated. This setting is enabled
 
 ## Product(s)
 
-What is this article relevant to? Does it relate to Firefox, Firefox for Android, or Firefox for iOS? Select all that apply.
+What is this article relevant to? Does it relate to Firefox, Firefox for Android or Firefox for iOS? Select all that apply.
 
-**Note:** If this is a _How to contribute_ or _Canned Responses_ article, select Contributors. You do not need to choose any other product. 
+**Note:** If this is a _How to contribute_ or _Canned Responses_ article, select **Contributors**. You do not need to choose any other product. 
 
 Your product selection will determine the available topic options. For example, if you select Firefox, you won’t be able to choose topics that are specific to Thunderbird.
 
@@ -126044,7 +125421,7 @@ Your product selection will determine the available topic options. For example, 
 </dt></dl>
 ## Topics
 
-Available topic options depend on your selected product. Choose the most specific topic that applies to the article. For example, if the article is about bookmarks, select _Bookmarks._ The parent topic (in this case, _Browse_) will be selected automatically.
+Available topic options depend on your selected product. Choose the most specific topic that applies to the article. For example, if the article is about bookmarks, select **Bookmarks**. The parent topic (in this case, _Browse_) will be selected automatically.
 
 You may select multiple topics if applicable.
 
@@ -126064,7 +125441,7 @@ Most articles are related to other articles. Type in the beginning of the name o
 Keywords can improve search results by adding terms that are not included in the article's Search result summary.
 
 <dl><dt>
-<img alt=""New article- keywords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-35-1f796f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<img alt=""New article- keywords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-35-1f796f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 **Note:** It is **not** in your best interest to overload your keyword field with as many relevant keywords as possible. Doing so will lower the amount of points awarded to your keyword, resulting in your article's search ranking diminishing. For more information, see [this article](\""https://support.mozilla.org/en-US/kb/when-and-how-to-use-keywords"").
 
@@ -126073,7 +125450,7 @@ Keywords can improve search results by adding terms that are not included in the
 The summary gives a glimpse of what the article is about to help the user decide if they’re in the right place. Provide a textual overview or definition of the concept and introduce the FAQ. Limit the summary to 140 characters, as search engines may cut off anything longer.
 
 <dl><dt>
-<img alt=""New article- search summary"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-19-2a8fb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+<img alt=""New article- search summary"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-23-11-06-19-2a8fb6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 # How to edit article metadata (reviewers only)
 
@@ -126086,10 +125463,10 @@ After a Knowledge Base article submission is approved, only reviewers can update
 This is where you can:
 
 - Change an article's title, slug, category, product and topics.
-- Archive or un-archive an article (Controlled by the _Obsolete:_ checkbox).
-- Allow or disable article discussion (_Allow discussion on this article?_ checkbox).
-- Add or remove a _Needs change:_ entry or comment.
-- Change _Related documents:_ entries.
+- Archive or un-archive an article (controlled by the **Obsolete:** checkbox).
+- Allow or disable article discussion ( **Allow discussion on this article?** checkbox).
+- Add or remove a **Needs change:** entry or comment.
+- Change _Related documents:'_ entries.
 
 <dl><dt>
 <img alt=""KB-SaveMetadata"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-10-07-43-48-49f9f6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -126101,10 +125478,10 @@ After making your changes, click Save; otherwise, your changes will not be saved
 
 - For help writing articles, see [Writing guide for Knowledge Base articles](\""https://support.mozilla.org/en-US/kb/writing-guide-knowledge-base-articles"").
 - To learn how to create a new article, see [Create a new Knowledge Base article](\""https://support.mozilla.org/en-US/kb/create-new-knowledge-base-article"").
-- To submit a minor update, see [Submit a minor update in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/edit-knowledge-base-article""). 
+- To submit a minor update, see [Submit a minor update in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/edit-knowledge-base-article"").
 - For reviewer guidelines, see [Article review guidelines for KB reviewers](\""https://support.mozilla.org/en-US/kb/article-review-guidelines"").
 
-More guidelines on Knowledge Base contribution can be found [here](\""https://support.mozilla.org/products/contributor/kb"").
+Find [more guidelines on Knowledge Base contribution](\""https://support.mozilla.org/products/contributor/kb"").
 
 "
 73357,Custom Models in Smart Window - Bring your own endpoint,smart-window-byom,https://support.mozilla.org/en-US/kb/smart-window-byom,en-US,Learn how to connect a custom AI model endpoint to Smart Window using remote or local providers.,"<div class=""note""><strong>Note:</strong> The <a href=""/en-US/kb/smart-window"">Smart Window</a> feature will be gradually made available to the Firefox user base, starting with users in the United States and Canada in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 150.</div>
