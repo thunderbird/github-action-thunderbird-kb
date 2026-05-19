@@ -18689,6 +18689,641 @@ You can set Firefox to automatically display all text at a minimum font size. If
 For more information, see [Change the fonts and colors websites use](\""https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use"").
 
 "
+861,Audio and video files in Firefox,audio-and-video-firefox,https://support.mozilla.org/en-US/kb/audio-and-video-firefox,en-US,Learn which audio and video formats are supported in Firefox across desktop and mobile platforms.,"<p>Firefox handles many types of audio and video content on web pages, and can also open links to MP3 files and some other types of media. This article explains which media formats you can play and how to control, save, and open them.
+</p><p>This article explains which media formats you can play and how to control, save, and open them. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_supported-audio-and-video-formats""><span class=""tocnumber"">1</span> <span class=""toctext"">Supported audio and video formats</span></a><ul><li class=""toclevel-2""><a href=""#w_audio-codecs""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Audio codecs</span></a></li><li class=""toclevel-2""><a href=""#w_video-codecs""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Video codecs</span></a></li><li class=""toclevel-2""><a href=""#w_important-things-to-know""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Important things to know</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_audio-and-video-controls""><span class=""tocnumber"">2</span> <span class=""toctext"">Audio and video controls</span></a><ul><li class=""toclevel-2""><a href=""#w_control-bar""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Control bar</span></a></li><li class=""toclevel-2""><a href=""#w_use-the-context-menu-controls""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Use the context menu controls</span></a></li><li class=""toclevel-2""><a href=""#w_keyboard-controls""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Keyboard controls</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_saving-media-files""><span class=""tocnumber"">3</span> <span class=""toctext"">Saving media files</span></a><ul><li class=""toclevel-2""><a href=""#w_save-an-audio-file-from-a-web-page-to-your-computer""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Save an audio file from a web page to your computer</span></a></li><li class=""toclevel-2""><a href=""#w_save-a-video-file-from-a-web-page-to-your-computer""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Save a video file from a web page to your computer</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_opening-saved-files""><span class=""tocnumber"">4</span> <span class=""toctext"">Opening saved files</span></a></li><li class=""toclevel-1""><a href=""#w_faq""><span class=""tocnumber"">5</span> <span class=""toctext"">FAQ</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_supported-audio-and-video-formats"">Supported audio and video formats</h1>
+<p>Firefox uses your operating system’s built-in media libraries and codecs to play supported formats. Below is a breakdown of popular formats and their availability across platforms. To learn more, see <a href=""https://developer.mozilla.org/docs/Web/Media/Guides/Formats/"">this guide to media types and formats</a> and <a href=""https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Containers"">this guide to container formats</a> at MDN Web Docs.
+</p>
+<h2 id=""w_audio-codecs"">Audio codecs</h2>
+<table>
+<tbody><tr>
+<th>Codec
+</th><th>File types
+</th><th>Firefox support
+</th><th>OS support
+</th><th>Free to use
+</th></tr>
+<tr>
+<td>MP3</td><td>.mp3</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br> 
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>AAC</td><td>.m4a<br> .mp4<br> .m4p<br> .m4b<br> .m4r<br> .m4v</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br>
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>Opus/Vorbis</td><td>.ogg<br> .opus<br> .oga<br> .ogv<br> .ogx<br> .spx</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br>
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>FLAC</td><td>.flac</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br>
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>WAV</td><td>.wav<br> .wave</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br>
+Android
+<p></p>
+</td><td>Yes
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h2 id=""w_video-codecs"">Video codecs</h2>
+<table>
+<tbody><tr>
+<th>Codec
+</th><th>File types
+</th><th>Firefox support
+</th><th>OS support
+</th><th>Free to use
+</th></tr>
+<tr>
+<td>AV1</td><td>.mp4<br> .webm</td><td> Firefox 67+<br>
+<p>Android 113+
+</p>
+</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br>
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>H.264 (AVC)
+</td><td>.mp4<br> .3gp</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br> 
+Android
+<p></p>
+</td><td>No
+</td></tr>
+<tr>
+<td>H.265 (HEVC)</td><td>.mp4</td><td>Firefox 120+ (limited)</td><td>Windows 10+<br>
+<p>macOS</p><br>
+Linux 
+<p></p>
+</td><td>No
+</td></tr>
+<tr>
+<td>VP8/VP9</td><td>.webm<br> .ogg<br> .3gp</td><td>All versions</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br> 
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>Theora</td><td>.ogg</td><td>Firefox 3.5–126</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br> 
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>MPEG-4 Visual (MP4V-ES)</td><td>.3gp<br> .mp4</td><td>All versions (3gp only)</td><td>Windows<br>
+<p>macOS</p><br>
+Linux<br> 
+Android
+<p></p>
+</td><td>Yes
+</td></tr>
+<tr>
+<td>MPEG-1 / MPEG-2</td><td>.mpeg<br> .mp4<br> .mov</td><td>Not supported</td><td>Not available</td><td>Some patents expired
+</td></tr>
+<tr>
+<td>H.263 / HEVC mkv / HEVC HDR 10-bit</td><td>.3gp<br> .mkv</td><td>Not supported or not rendered properly</td><td>Limited OS support</td><td>Yes
+</td></tr></tbody></table>
+<h2 id=""w_important-things-to-know"">Important things to know</h2>
+<ul><li>Some codecs, such as MP3 and WebM, are available for free, but those restricted by patents, like AAC or H.264, require a fee to be installed.
+</li><li>HEVC 10-bit HDR videos are supported, but currently Firefox won’t render them properly.
+</li><li>Firefox supports WebM/VP9 video on systems that don't support MP4/H.264. In order to test your system, some sample video files are available in the <a href=""https://tekeye.uk/html/html5-video-test-page"">HTML5 Video Test Page</a> at <a href=""https://tekeye.uk/"">tekeye.uk</a>.
+</li><li>Some Windows systems can play H.265 (HEVC) video in Firefox natively. Others need additional software from the Microsoft Store.
+<ul><li>Windows versions that automatically support H.265 (HEVC)
+<ul><li>Windows 10 versions: 1507, 1511, 1607, 1703, 1709
+</li><li>Windows 11: 22H2, 23H2, 24H2
+</li></ul>
+</li><li>Windows versions that don’t support H.265 (HEVC) by default
+<ul><li>Windows 10: 1803, 1809, 1903, 1909, 2004, 20H2, 21H1, 22H2
+</li><li>Windows 11: 21H2
+</li></ul>
+</li><li>You’ll need to install these codecs manually:
+<ul><li><a href=""https://apps.microsoft.com/detail/9n4wgh0z6vhq"">HEVC Video Extensions from Device Manufacturer</a> (Free)
+</li><li><a href=""https://apps.microsoft.com/detail/9nmzlz57r3t7"">HEVC Video Extensions</a> (Not available for free)
+</li></ul>
+</li></ul>
+</li></ul>
+<div class=""note""><strong>Note</strong>: You can use <a href=""https://test-videos.co.uk/bigbuckbunny/mp4-h265"">this site</a> to test your system.</div>
+<h1 id=""w_audio-and-video-controls"">Audio and video controls</h1>
+<h2 id=""w_control-bar"">Control bar</h2>
+<p>When you follow a link to open a supported audio or video file in Firefox or when you visit a website that includes supported media, you will see controls for managing playback. 
+</p><p>Controls for video will appear when you hold the mouse pointer over the media on the page.
+</p><p><img alt=""Fx124Win10VideoControls"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-32-25-ba8d04.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<table>
+<tbody><tr>
+<th>Icon</th><th>Name</th><th>Action
+</th></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoPlay"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-44-33-25fc2c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Play button</strong></td><td>Starts playback
+</td></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoPause"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-45-48-9e3bb9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Pause button</strong></td><td>Pauses playback
+</td></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoPositionSlider"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-49-33-680fe4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Position slider</strong></td><td>Indicates how much time has elapsed since the beginning of the file<br>Drag the slider left or right to go back or forward
+</td></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoSoundSlider"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-53-32-abbec8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Volume control</strong></td><td>Click the loudspeaker to mute or unmute.<br>Hover and drag the slider left or right to adjust the volume
+</td></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoFullscreen"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-06-57-46-89b6d2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Full-screen button</strong></td><td>Toggles full screen when in default size
+</td></tr>
+<tr>
+<td><img alt=""Fx124Win10VideoDefaultSize"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-03-28-07-06-30-c919a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></td><td><strong>Default size button</strong></td><td>Restores the default size when in fullscreen
+</td></tr></tbody></table>
+<h2 id=""w_use-the-context-menu-controls"">Use the context menu controls</h2>
+<p>The context menu (accessible via <span class=""for"" data-for=""win,linux"">right-click</span><span class=""for"" data-for=""mac"">Ctrl-click</span>) includes the above controls except the sliders, and also let you:
+</p>
+<ul><li> <strong>Accelerate or reduce the playback rate</strong>: Select <span class=""menu"">Speed</span> and then one of the available speeds.
+</li><li> <strong>Play video over and over</strong>: Select <span class=""menu"">Loop</span> so that the video will play over and over automatically.
+</li><li> <strong>Hide controls</strong>: Select <span class=""menu"">Hide Controls</span> so that the bottom control bar never show up. To show them, select <span class=""menu"">Show Controls</span>.
+</li></ul>
+<h2 id=""w_keyboard-controls"">Keyboard controls</h2>
+<p>After you click the media on a web page, to give it focus, you can control the playback with your keyboard.
+</p>
+<table>
+<tbody><tr>
+<th>Command
+</th><th>Shortcut
+</th></tr>
+<tr>
+<td>Toggle Play / Pause
+</td><td><span class=""key"">Space bar</span>
+</td></tr>
+<tr>
+<td>Decrease volume
+</td><td><span class=""key"">↓</span>
+</td></tr>
+<tr>
+<td>Increase volume
+</td><td><span class=""key"">↑</span>
+</td></tr>
+<tr>
+<td>Mute audio
+</td><td><span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">↓</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">↓</span></span>
+</td></tr>
+<tr>
+<td>Unmute audio
+</td><td><span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">↑</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">↑</span></span>
+</td></tr>
+<tr>
+<td>Seek back 5 seconds
+</td><td><span class=""key"">←</span>
+</td></tr>
+<tr>
+<td>Seek back 10%
+</td><td><span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">←</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">←</span></span>
+</td></tr>
+<tr>
+<td>Seek forward 5 seconds
+</td><td><span class=""key"">→</span>
+</td></tr>
+<tr>
+<td>Seek forward 10%
+</td><td><span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">→</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">→</span></span>
+</td></tr>
+<tr>
+<td>Seek to the beginning
+</td><td><span class=""key"">Home</span>
+</td></tr>
+<tr>
+<td>Seek to the end
+</td><td><span class=""key"">End</span>
+</td></tr></tbody></table>
+<h1 id=""w_saving-media-files"">Saving media files</h1>
+<h2 id=""w_save-an-audio-file-from-a-web-page-to-your-computer"">Save an audio file from a web page to your computer</h2>
+<ol><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the audio controls and select <span class=""menu"">Save Audio As…</span>
+</li><li> Select a location on your computer to save the file.
+</li></ol>
+<h2 id=""w_save-a-video-file-from-a-web-page-to-your-computer"">Save a video file from a web page to your computer</h2>
+<ol><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Right-click (or hold down the <span class=""key"">Control</span> key while you click)</span>
+ the video controls and select <span class=""menu"">Save Video As…</span>
+<ul><li> Select <span class=""menu"">Take Snapshot…</span> if you only want to save the video snapshot.
+</li></ul>
+</li><li> Select a location on your computer to save the file.
+</li></ol>
+<h1 id=""w_opening-saved-files"">Opening saved files</h1>
+<p>The media files you save from web pages may not play in your normal media player. To open these types of files:
+</p>
+<ol><li> Open Firefox.
+</li><li> Click <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">O</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">O</span></span>.
+</li><li> Navigate to the folder that contains the file you want to play, select the file, and click <span class=""button"">Open</span>.
+</li></ol>
+<h1 id=""w_faq"">FAQ</h1>
+<p><strong>Q: Why can't I hear audio in Firefox?</strong>
+</p><p>A: Make sure your system volume is not muted and that Firefox has permission to play sound. See <a href=""/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"">this guide</a> for more information.
+</p><p><strong>Q: How do I enable support for AAC audio?</strong>
+</p><p>A: AAC support depends on your operating system. If your system lacks the codec, install it manually. Firefox will detect it automatically.
+</p><p><strong>Q: What should I do if a video doesn't play?</strong>
+</p><p>A: Make sure you have installed the right codecs, or Firefox supports the format of the video. If that’s not the case, then the issue might be caused by something else. Check out <a href=""/en-US/kb/fix-common-audio-and-video-issues"">this guide</a> for more details.
+</p><p><strong>Q: Why can Firefox use OpenH264 for video calls but not to play videos?</strong>
+</p><p>A: Firefox uses the OpenH264 plugin to support WebRTC-based video calls, and the browser automatically installs it for this purpose. However, for general video playback (such as streaming videos on websites), Firefox does not use the OpenH264 plugin. Instead, it relies on the operating system's native H.264 codec support. The reasons have to do with technical and licensing aspects, since the OpenH264 plugin is developed by Cisco.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li> <a href=""/en-US/kb/fix-common-audio-and-video-issues"">Fix common audio and video issues</a>
+</li><li> <a href=""/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"">What to do if Firefox won't play any sounds</a>
+</li><li> <a href=""/en-US/kb/enable-drm"">Watch DRM content on Firefox</a>
+</li></ul>",firefox,audio-and-video;browse;settings,"Firefox handles many types of audio and video content on web pages, and can also open links to MP3 files and some other types of media. This article explains which media formats you can play and how to control, save, and open them.
+
+This article explains which media formats you can play and how to control, save, and open them.
+
+## Table of Contents
+
+- [1 Supported audio and video formats](https://support.mozilla.org/kb/audio-and-video-firefox#w_supported-audio-and-video-formats)
+  - [1.1 Audio codecs](https://support.mozilla.org/kb/audio-and-video-firefox#w_audio-codecs)
+  - [1.2 Video codecs](https://support.mozilla.org/kb/audio-and-video-firefox#w_video-codecs)
+  - [1.3 Important things to know](https://support.mozilla.org/kb/audio-and-video-firefox#w_important-things-to-know)
+
+- [2 Audio and video controls](https://support.mozilla.org/kb/audio-and-video-firefox#w_audio-and-video-controls)
+  - [2.1 Control bar](https://support.mozilla.org/kb/audio-and-video-firefox#w_control-bar)
+  - [2.2 Use the context menu controls](https://support.mozilla.org/kb/audio-and-video-firefox#w_use-the-context-menu-controls)
+  - [2.3 Keyboard controls](https://support.mozilla.org/kb/audio-and-video-firefox#w_keyboard-controls)
+
+- [3 Saving media files](https://support.mozilla.org/kb/audio-and-video-firefox#w_saving-media-files)
+  - [3.1 Save an audio file from a web page to your computer](https://support.mozilla.org/kb/audio-and-video-firefox#w_save-an-audio-file-from-a-web-page-to-your-computer)
+  - [3.2 Save a video file from a web page to your computer](https://support.mozilla.org/kb/audio-and-video-firefox#w_save-a-video-file-from-a-web-page-to-your-computer)
+
+- [4 Opening saved files](https://support.mozilla.org/kb/audio-and-video-firefox#w_opening-saved-files)
+- [5 FAQ](https://support.mozilla.org/kb/audio-and-video-firefox#w_faq)
+- [6 Related articles](https://support.mozilla.org/kb/audio-and-video-firefox#w_related-articles)
+
+# Supported audio and video formats
+
+Firefox uses your operating system’s built-in media libraries and codecs to play supported formats. Below is a breakdown of popular formats and their availability across platforms. To learn more, see [this guide to media types and formats](https://developer.mozilla.org/docs/Web/Media/Guides/Formats/) and [this guide to container formats](https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Containers) at MDN Web Docs.
+
+## Audio codecs
+
+| Codec | File types | Firefox support | OS support | Free to use |
+| --- | --- | --- | --- | --- |
+| MP3 | .mp3 | All versions | Windows  
+
+macOS
+
+  
+Linux  
+ Android
+
+ | Yes |
+| AAC | .m4a  
+ .mp4  
+ .m4p  
+ .m4b  
+ .m4r  
+ .m4v | All versions | Windows  
+
+macOS
+
+  
+Linux  
+Android
+
+ | Yes |
+| Opus/Vorbis | .ogg  
+ .opus  
+ .oga  
+ .ogv  
+ .ogx  
+ .spx | All versions | Windows  
+
+macOS
+
+  
+Linux  
+Android
+
+ | Yes |
+| FLAC | .flac | All versions | Windows  
+
+macOS
+
+  
+Linux  
+Android
+
+ | Yes |
+| WAV | .wav  
+ .wave | All versions | Windows  
+
+macOS
+
+  
+Linux  
+Android
+
+ | Yes |
+
+## Video codecs
+
+| Codec | File types | Firefox support | OS support | Free to use |
+| --- | --- | --- | --- | --- |
+| AV1 | .mp4  
+ .webm | Firefox 67+  
+
+Android 113+
+
+ | Windows  
+
+macOS
+
+  
+Linux  
+Android
+
+ | Yes |
+| H.264 (AVC) | .mp4  
+ .3gp | All versions | Windows  
+
+macOS
+
+  
+ Android
+
+ | No |
+| H.265 (HEVC) | .mp4 | Firefox 120+ (limited) | Windows 10+  
+
+macOS
+
+  
+Linux 
+
+ | No |
+| VP8/VP9 | .webm  
+ .ogg  
+ .3gp | All versions | Windows  
+
+macOS
+
+  
+Linux  
+ Android
+
+ | Yes |
+| Theora | .ogg | Firefox 3.5–126 | Windows  
+
+macOS
+
+  
+Linux  
+ Android
+
+ | Yes |
+| MPEG-4 Visual (MP4V-ES) | .3gp  
+ .mp4 | All versions (3gp only) | Windows  
+
+macOS
+
+  
+Linux  
+ Android
+
+ | Yes |
+| MPEG-1 / MPEG-2 | .mpeg  
+ .mp4  
+ .mov | Not supported | Not available | Some patents expired |
+| H.263 / HEVC mkv / HEVC HDR 10-bit | .3gp  
+ .mkv | Not supported or not rendered properly | Limited OS support | Yes |
+
+## Important things to know
+
+- Some codecs, such as MP3 and WebM, are available for free, but those restricted by patents, like AAC or H.264, require a fee to be installed.
+- HEVC 10-bit HDR videos are supported, but currently Firefox won’t render them properly.
+- Firefox supports WebM/VP9 video on systems that don't support MP4/H.264. In order to test your system, some sample video files are available in the [HTML5 Video Test Page](https://tekeye.uk/html/html5-video-test-page) at [tekeye.uk](https://tekeye.uk/).
+- Some Windows systems can play H.265 (HEVC) video in Firefox natively. Others need additional software from the Microsoft Store.
+  - Windows versions that automatically support H.265 (HEVC)
+    - Windows 10 versions: 1507, 1511, 1607, 1703, 1709
+    - Windows 11: 22H2, 23H2, 24H2
+
+  - Windows versions that don’t support H.265 (HEVC) by default
+    - Windows 10: 1803, 1809, 1903, 1909, 2004, 20H2, 21H1, 22H2
+    - Windows 11: 21H2
+
+  - You’ll need to install these codecs manually:
+    - [HEVC Video Extensions from Device Manufacturer](https://apps.microsoft.com/detail/9n4wgh0z6vhq) (Free)
+    - [HEVC Video Extensions](https://apps.microsoft.com/detail/9nmzlz57r3t7) (Not available for free)
+
+**Note** : You can use [this site](https://test-videos.co.uk/bigbuckbunny/mp4-h265) to test your system.
+
+# Audio and video controls
+
+## Control bar
+
+When you follow a link to open a supported audio or video file in Firefox or when you visit a website that includes supported media, you will see controls for managing playback.
+
+Controls for video will appear when you hold the mouse pointer over the media on the page.
+
+![Fx124Win10VideoControls](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+| Icon | Name | Action |
+| --- | --- | --- |
+| ![Fx124Win10VideoPlay](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Play button** | Starts playback |
+| ![Fx124Win10VideoPause](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Pause button** | Pauses playback |
+| ![Fx124Win10VideoPositionSlider](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Position slider** | Indicates how much time has elapsed since the beginning of the file  
+Drag the slider left or right to go back or forward |
+| ![Fx124Win10VideoSoundSlider](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Volume control** | Click the loudspeaker to mute or unmute.  
+Hover and drag the slider left or right to adjust the volume |
+| ![Fx124Win10VideoFullscreen](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Full-screen button** | Toggles full screen when in default size |
+| ![Fx124Win10VideoDefaultSize](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) | **Default size button** | Restores the default size when in fullscreen |
+
+## Use the context menu controls
+
+The context menu (accessible via right-clickCtrl-click) includes the above controls except the sliders, and also let you:
+
+- **Accelerate or reduce the playback rate** : Select Speed and then one of the available speeds.
+- **Play video over and over** : Select Loop so that the video will play over and over automatically.
+- **Hide controls** : Select Hide Controls so that the bottom control bar never show up. To show them, select Show Controls.
+
+## Keyboard controls
+
+After you click the media on a web page, to give it focus, you can control the playback with your keyboard.
+
+| Command | Shortcut |
+| --- | --- |
+| Toggle Play / Pause | Space bar |
+| Decrease volume | ↓ |
+| Increase volume | ↑ |
+| Mute audio | Ctrl + ↓Command + ↓ |
+| Unmute audio | Ctrl + ↑Command + ↑ |
+| Seek back 5 seconds | ← |
+| Seek back 10% | Ctrl + ←Command + ← |
+| Seek forward 5 seconds | → |
+| Seek forward 10% | Ctrl + →Command + → |
+| Seek to the beginning | Home |
+| Seek to the end | End |
+
+# Saving media files
+
+## Save an audio file from a web page to your computer
+
+1. Right-clickRight-click (or hold down the Control key while you click) the audio controls and select Save Audio As…
+2. Select a location on your computer to save the file.
+
+## Save a video file from a web page to your computer
+
+1. Right-clickRight-click (or hold down the Control key while you click) the video controls and select Save Video As…
+  - Select Take Snapshot… if you only want to save the video snapshot.
+
+2. Select a location on your computer to save the file.
+
+# Opening saved files
+
+The media files you save from web pages may not play in your normal media player. To open these types of files:
+
+1. Open Firefox.
+2. Click Ctrl + OCommand + O.
+3. Navigate to the folder that contains the file you want to play, select the file, and click Open.
+
+# FAQ
+
+**Q: Why can't I hear audio in Firefox?**
+
+A: Make sure your system volume is not muted and that Firefox has permission to play sound. See [this guide](\""https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"") for more information.
+
+**Q: How do I enable support for AAC audio?**
+
+A: AAC support depends on your operating system. If your system lacks the codec, install it manually. Firefox will detect it automatically.
+
+**Q: What should I do if a video doesn't play?**
+
+A: Make sure you have installed the right codecs, or Firefox supports the format of the video. If that’s not the case, then the issue might be caused by something else. Check out [this guide](\""https://support.mozilla.org/en-US/kb/fix-common-audio-and-video-issues"") for more details.
+
+**Q: Why can Firefox use OpenH264 for video calls but not to play videos?**
+
+A: Firefox uses the OpenH264 plugin to support WebRTC-based video calls, and the browser automatically installs it for this purpose. However, for general video playback (such as streaming videos on websites), Firefox does not use the OpenH264 plugin. Instead, it relies on the operating system's native H.264 codec support. The reasons have to do with technical and licensing aspects, since the OpenH264 plugin is developed by Cisco.
+
+# Related articles
+
+- [Fix common audio and video issues](\""https://support.mozilla.org/en-US/kb/fix-common-audio-and-video-issues"")
+- [What to do if Firefox won't play any sounds](\""https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"")
+- [Watch DRM content on Firefox](\""https://support.mozilla.org/en-US/kb/enable-drm"")
+
+"
+862,Tab preferences and settings,tab-preferences-and-settings,https://support.mozilla.org/en-US/kb/tab-preferences-and-settings,en-US,Learn how to customize tab settings in Firefox to enhance your browsing experience.,"<p>Tabs are an essential part of your browsing experience in Firefox, allowing you to keep multiple websites open in a single window. Firefox provides several options to customize how tabs work to suit your preferences. This article will guide you through these settings.
+</p>
+<h1 id=""w_review-and-change-tab-settings"">Review and change tab settings</h1>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">General</span> panel and go to the <strong>Tabs</strong> section.
+</li></ol>
+<dl><dt><span class=""for"" data-for=""fx142""><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx142""><span class=""for"" data-for=""fx129""><span class=""for"" data-for=""not win""><img alt=""Tab settings simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-33-57-72082f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx129TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-12-39-16-eb2f19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx129""><span class=""for"" data-for=""mac""><img alt=""Confirm_MactabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-22-07-3ecc05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Confirm_LinuxtabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-14-20-54-01d59f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx94settingsTabs-Win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-07-09-35-39-eb7cea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span></span>
+</dt></dl>
+<ul><li><strong>Ctrl+Tab cycles through tabs in recently used order:</strong> Select this setting if you want to use the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Tab</span></span> keyboard shortcut to switch through open tabs in the order you viewed them rather than in the order they appear in the Firefox window.<div class=""note""><strong>Note:</strong> If you want to use <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Tab</span></span> to switch to the tab next to the current tab and <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">Tab</span></span><span class=""for"" data-for=""mac""><span class=""key"">Control</span> + <span class=""key"">Shift</span> + <span class=""key"">Tab</span></span> to switch to the previous tab, deselect this setting (clear the checkbox).</div>
+</li><li><strong>Open links in tabs instead of new windows:</strong> This setting controls whether links from other applications or from web pages which request to open them in new windows are opened in a new window or a new tab in the most recent window.<div class=""note""><strong>Note:</strong> If you have chosen to open pages in new tabs, Firefox will ignore this <span class=""for"" data-for=""win"">option</span><span class=""for"" data-for=""mac,linux"">preference</span> and will open a new window from a link if the page author specified that the new window should have a specific size, because some pages can only be displayed correctly at a specific size.</div>
+</li><li><strong>When you open a link, image or media in a new tab, switch to it immediately:</strong> When you middle-click on a Web link (or hold down <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> while clicking with the left mouse button), the page will be opened in a new tab. That new tab will be in the background (the selected tab will not change). The same thing happens when opening a web link, image or video in a new tab using the context menu. Check this setting to load and display the page in a new foreground tab instead.
+</li><li><span class=""for"" data-for=""fx142""><strong>Ask before closing multiple tabs:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before closing multiple tabs:</strong></span>  Select this setting to enable a warning dialog to confirm your choice to close a window with multiple tabs (shown below) to prevent accidentally closing the entire window when you only intend to close the current tab. To learn more, see <a href=""/en-US/kb/how-configure-close-tab-warnings-firefox"">How to configure Close Tab warnings in Firefox</a>.
+</li></ul>
+<dl><dt><img alt=""fx89-warn-on-close"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-40-56-5c8a1b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""for"" data-for=""mac"">
+<ul><li><span class=""for"" data-for=""fx142""><strong>Ask before quitting with ⌘Q:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before quitting with ⌘Q:</strong></span> On macOS, you can also exit Firefox using the <span class=""key"">Command ⌘</span> + <span class=""key"">Q</span> keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck this setting.
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li><span class=""for"" data-for=""fx142""><strong>Ask before quitting with Ctrl+Q:</strong></span><span class=""for"" data-for=""not fx142""><strong>Confirm before quitting with Ctrl+Q:</strong></span> On Linux, you can also exit Firefox using the <span class=""key"">Ctrl</span> + <span class=""key"">Q</span> keyboard shortcut. Deselect this setting if you want to disable close multiple tabs warnings when you use this shortcut.
+</li></ul>
+</div>
+<ul><li><em>(If applicable)</em> <strong>Warn you when opening multiple tabs might slow down Firefox:</strong> This setting is only shown if you disabled the warning dialog Firefox displays to confirm your choice to open multiple tabs at once (shown below). Check this setting to re-enable the warning, to prevent accidentally slowing down Firefox while loading a large number of tabs.
+</li></ul>
+<dl><dt><img alt=""fx89-warn-on-open"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-29-14-53af4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<div class=""for"" data-for=""win"">
+<ul><li> <strong>Show tab previews in the Windows taskbar:</strong> When you move your pointer over the Firefox icon in the Windows taskbar, Windows will show you a preview of the Firefox window. With this option check marked, Windows will show you a separate preview for each tab.
+</li></ul>
+</div><div class=""for"" data-for=""fx129"">
+<ul><li><strong>Show an image preview when you hover on a tab:</strong> When you move your pointer over a tab, Firefox will show a thumbnail preview image. To disable the preview images, uncheck this setting.
+</li></ul>
+<dl><dt><img alt=""tab hover over preview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-49-52-ef69d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+</div><div class=""for"" data-for=""fx142"">
+<ul><li><strong>Use AI to suggest tabs and a name for tab groups:</strong> With the <a href=""/en-US/kb/how-use-ai-enhanced-tab-groups"">AI-enhanced tab groups</a> feature, AI will suggest names and tabs based on similar open tabs in a single window. This feature is part of a progressive rollout and may not be available to all users.
+</li></ul>
+</div>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/tabs-organize-websites-single-window"">Use tabs to organize lots of websites in a single window</a> 
+</li><li><a href=""/en-US/kb/tab-overview-menu"">Tab overview menu</a> 
+</li><li><a href=""/en-US/kb/tab-context-menu"">Tab context menu</a>
+</li></ul>
+<div class=""for"" data-for=""fx136"">
+<ul><li><a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Use the sidebar to access tools and vertical tabs</a>
+</li></ul>
+</div>",firefox,browse;settings;tabs,"Tabs are an essential part of your browsing experience in Firefox, allowing you to keep multiple websites open in a single window. Firefox provides several options to customize how tabs work to suit your preferences. This article will guide you through these settings.
+
+# Review and change tab settings
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the General panel and go to the **Tabs** section.
+
+<dl><dt>
+<span class=""for"" data-for=""fx142""><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx142""><span class=""for"" data-for=""fx129""><span class=""for"" data-for=""not win""><img alt=""Tab settings simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-33-57-72082f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx129TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-12-39-16-eb2f19.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span><span class=""for"" data-for=""not fx129""><span class=""for"" data-for=""mac""><img alt=""Confirm_MactabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-22-07-3ecc05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Confirm_LinuxtabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-14-20-54-01d59f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""win""><img alt=""Fx94settingsTabs-Win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-07-09-35-39-eb7cea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span></span>
+</dt></dl>
+- **Ctrl+Tab cycles through tabs in recently used order:** Select this setting if you want to use the Ctrl + TabControl + Tab keyboard shortcut to switch through open tabs in the order you viewed them rather than in the order they appear in the Firefox window.
+**Note:** If you want to use Ctrl + TabControl + Tab to switch to the tab next to the current tab and Ctrl + Shift + TabControl + Shift + Tab to switch to the previous tab, deselect this setting (clear the checkbox).
+- **Open links in tabs instead of new windows:** This setting controls whether links from other applications or from web pages which request to open them in new windows are opened in a new window or a new tab in the most recent window.
+**Note:** If you have chosen to open pages in new tabs, Firefox will ignore this optionpreference and will open a new window from a link if the page author specified that the new window should have a specific size, because some pages can only be displayed correctly at a specific size.
+- **When you open a link, image or media in a new tab, switch to it immediately:** When you middle-click on a Web link (or hold down CtrlCommand while clicking with the left mouse button), the page will be opened in a new tab. That new tab will be in the background (the selected tab will not change). The same thing happens when opening a web link, image or video in a new tab using the context menu. Check this setting to load and display the page in a new foreground tab instead.
+- **Ask before closing multiple tabs:**** Confirm before closing multiple tabs:** Select this setting to enable a warning dialog to confirm your choice to close a window with multiple tabs (shown below) to prevent accidentally closing the entire window when you only intend to close the current tab. To learn more, see [How to configure Close Tab warnings in Firefox](\""https://support.mozilla.org/en-US/kb/how-configure-close-tab-warnings-firefox"").
+
+<dl><dt>
+<img alt=""fx89-warn-on-close"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-40-56-5c8a1b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+- **Ask before quitting with ⌘Q:**** Confirm before quitting with ⌘Q:** On macOS, you can also exit Firefox using the Command ⌘ + Q keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck this setting.
+
+- **Ask before quitting with Ctrl+Q:**** Confirm before quitting with Ctrl+Q:** On Linux, you can also exit Firefox using the Ctrl + Q keyboard shortcut. Deselect this setting if you want to disable close multiple tabs warnings when you use this shortcut.
+
+- _(If applicable)_ **Warn you when opening multiple tabs might slow down Firefox:** This setting is only shown if you disabled the warning dialog Firefox displays to confirm your choice to open multiple tabs at once (shown below). Check this setting to re-enable the warning, to prevent accidentally slowing down Firefox while loading a large number of tabs.
+
+<dl><dt>
+<img alt=""fx89-warn-on-open"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-25-16-29-14-53af4e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+- **Show tab previews in the Windows taskbar:** When you move your pointer over the Firefox icon in the Windows taskbar, Windows will show you a preview of the Firefox window. With this option check marked, Windows will show you a separate preview for each tab.
+
+- **Show an image preview when you hover on a tab:** When you move your pointer over a tab, Firefox will show a thumbnail preview image. To disable the preview images, uncheck this setting.
+
+<dl><dt>
+<img alt=""tab hover over preview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-02-05-49-52-ef69d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+</dt></dl>
+
+- **Use AI to suggest tabs and a name for tab groups:** With the [AI-enhanced tab groups](\""https://support.mozilla.org/en-US/kb/how-use-ai-enhanced-tab-groups"") feature, AI will suggest names and tabs based on similar open tabs in a single window. This feature is part of a progressive rollout and may not be available to all users.
+
+# Related articles
+
+- [Use tabs to organize lots of websites in a single window](\""https://support.mozilla.org/en-US/kb/tabs-organize-websites-single-window"")
+- [Tab overview menu](\""https://support.mozilla.org/en-US/kb/tab-overview-menu"")
+- [Tab context menu](\""https://support.mozilla.org/en-US/kb/tab-context-menu"")
+
+- [Use the sidebar to access tools and vertical tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"")
+
+"
 863,Fix login issues on websites that require a username and password,fix-login-issues-on-websites-require-passwords,https://support.mozilla.org/en-US/kb/fix-login-issues-on-websites-require-passwords,en-US,"If you find that you can't log in to a website that requires a username and password, follow the steps described in this article.","<p>If you find that you can't log in to a website that requires a username and password, follow the steps described in this article.
 </p>
 <ul><li> If you can log in to a website manually, but <strong>can't save or use saved usernames and passwords</strong>, see <a href=""/en-US/kb/usernames-and-passwords-are-not-saved"">Usernames and passwords are not saved</a>.
@@ -63452,115 +64087,6 @@ We ask for your personal information so we can search for it on sites that sell 
 - See also [Firefox Password Manager - Alerts for breached websites](\""https://support.mozilla.org/en-US/kb/firefox-password-manager-alerts-breached-websites"") about alerts in Firefox for saved logins and passwords exposed in known data breaches.
 
 "
-41703,Install themes to change the look of Thunderbird,install-themes-change-look-thunderbird,https://support.mozilla.org/en-US/kb/install-themes-change-look-thunderbird,en-US,"A theme is a type of add-on which changes the visual appearance of Thunderbird. Learn how to find, install, and manage themes within Thunderbird.","<p>A theme is a type of Thunderbird add-on which changes the visual appearance of Thunderbird. This article describes how to find, install and manage themes in Thunderbird.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-are-themes""><span class=""tocnumber"">1</span> <span class=""toctext"">What are themes?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-install-themes""><span class=""tocnumber"">2</span> <span class=""toctext"">How to install themes</span></a></li><li class=""toclevel-1""><a href=""#w_managing-themes""><span class=""tocnumber"">3</span> <span class=""toctext"">Managing themes</span></a><ul><li class=""toclevel-2""><a href=""#w_how-to-switch-themes""><span class=""tocnumber"">3.1</span> <span class=""toctext"">How to switch themes</span></a></li><li class=""toclevel-2""><a href=""#w_how-to-remove-themes""><span class=""tocnumber"">3.2</span> <span class=""toctext"">How to remove themes</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_troubleshooting""><span class=""tocnumber"">4</span> <span class=""toctext"">Troubleshooting</span></a></li></ul></div>
-<h1 id=""w_what-are-themes"">What are themes?</h1>
-<p>A theme changes the appearance of Thunderbird, such as the color scheme and background image of the toolbars. Some types of themes can also change the buttons' appearance and can make Thunderbird look like a completely different program.
-</p>
-<div class=""note""><strong>Note:</strong> As of Thunderbird 68, complete themes are no longer supported.</div>
-<h1 id=""w_how-to-install-themes"">How to install themes</h1>
-<ol><li> Click the menu button <img alt=""Fx57Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-37-15-18c775.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Add-ons</span>. The Add-ons Manager tab will open.
-</li><li> In the Add-ons Manager tab, select the <span class=""menu"">Themes</span> panel.
-</li><li> Click on the link ""Choose from thousands of themes."" at the top of the tab.
-<dl><dt><img alt=""Choose from themes Thunderbird."" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-01-14-54-33-15ba56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-</li><li>In the tab that appears, you can scroll or search for the theme you want using the search box in the top right.
-<dl><dt><img alt=""install themes tb60"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-01-15-05-16-ce57c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-<ul><li>To see what a background theme will look like before installing it, simply hover over it.
-</li></ul>
-</li><li>If you see a theme you like, click the grey <span class=""button"">Add</span> button to install it.
-</li><li>Thunderbird will download the requested theme and may ask you to confirm that you want to install it.
-</li></ol>
-<h1 id=""w_managing-themes"">Managing themes</h1>
-<h2 id=""w_how-to-switch-themes"">How to switch themes</h2>
-<p>When several themes are installed:
-</p>
-<ol><li> Click the menu button <img alt=""Fx57Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-37-15-18c775.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Add-ons</span>. The Add-ons Manager tab will open.
-</li><li> In the Add-ons Manager tab, select the <span class=""menu"">Themes</span> panel.
-</li><li> Select a theme in the list.
-</li><li> Click the <span class=""button"">Enable</span> button.
-</li></ol>
-<h2 id=""w_how-to-remove-themes"">How to remove themes</h2>
-<p>When several themes are installed:
-</p>
-<ol><li> Click the menu button <img alt=""Fx57Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-37-15-18c775.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Add-ons</span>. The Add-ons Manager tab will open.
-</li><li> In the Add-ons Manager tab, select the <span class=""menu"">Themes</span> panel.
-</li><li> Select a theme in the list.
-</li><li> Click the <span class=""button"">Remove</span> button.
-</li></ol>
-<h1 id=""w_troubleshooting"">Troubleshooting</h1>
-<ul><li> If you have difficulties with links opening in an external browser instead of within Thunderbird, make sure you are using Thunderbird 60 or higher.
-</li></ul>",thunderbird,add-ons-extensions-and-themes;settings,"A theme is a type of Thunderbird add-on which changes the visual appearance of Thunderbird. This article describes how to find, install and manage themes in Thunderbird.
-
-## Table of Contents
-
-- [1 What are themes?](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_what-are-themes)
-- [2 How to install themes](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_how-to-install-themes)
-- [3 Managing themes](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_managing-themes)
-  - [3.1 How to switch themes](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_how-to-switch-themes)
-  - [3.2 How to remove themes](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_how-to-remove-themes)
-
-- [4 Troubleshooting](https://support.mozilla.org/kb/install-themes-change-look-thunderbird#w_troubleshooting)
-
-# What are themes?
-
-A theme changes the appearance of Thunderbird, such as the color scheme and background image of the toolbars. Some types of themes can also change the buttons' appearance and can make Thunderbird look like a completely different program.
-
-**Note:** As of Thunderbird 68, complete themes are no longer supported.
-
-# How to install themes
-
-1. Click the menu button ![Fx57Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Add-ons. The Add-ons Manager tab will open.
-2. In the Add-ons Manager tab, select the Themes panel.
-3. Click on the link ""Choose from thousands of themes."" at the top of the tab.<dl><dt>
-<img alt=""Choose from themes Thunderbird."" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-01-14-54-33-15ba56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-4. In the tab that appears, you can scroll or search for the theme you want using the search box in the top right.<dl><dt>
-<img alt=""install themes tb60"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-10-01-15-05-16-ce57c3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</dt></dl>
-  - To see what a background theme will look like before installing it, simply hover over it.
-
-5. If you see a theme you like, click the grey Add button to install it.
-6. Thunderbird will download the requested theme and may ask you to confirm that you want to install it.
-
-# Managing themes
-
-## How to switch themes
-
-When several themes are installed:
-
-1. Click the menu button ![Fx57Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Add-ons. The Add-ons Manager tab will open.
-2. In the Add-ons Manager tab, select the Themes panel.
-3. Select a theme in the list.
-4. Click the Enable button.
-
-## How to remove themes
-
-When several themes are installed:
-
-1. Click the menu button ![Fx57Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Add-ons. The Add-ons Manager tab will open.
-2. In the Add-ons Manager tab, select the Themes panel.
-3. Select a theme in the list.
-4. Click the Remove button.
-
-# Troubleshooting
-
-- If you have difficulties with links opening in an external browser instead of within Thunderbird, make sure you are using Thunderbird 60 or higher.
-
-"
-41716,Safe browsing in Firefox Focus,safe-browsing-firefox-focus,https://support.mozilla.org/en-US/kb/safe-browsing-firefox-focus,en-US,Learn about Safe Browsing and why it doesn't work in Firefox Focus version 7.,"<p>Safe browsing is a feature that warns you when you are about to visit a dangerous site known for malware, phishing and downloading unwanted software on your device. 
-</p>
-<h1 id=""w_how-does-safe-browsing-work"">How does safe browsing work?</h1>
-<p>Firefox Focus has been using the Google safe browsing API for Safe browsing. When you tap a link, we check the link against lists of reported phishing, unwanted software, and malware sites. If the site is identified as an attack site, Firefox Focus (versions 6 and older) will warn you against visiting it.
-</p>",focus-firefox,browse;privacy-and-security;security,"Safe browsing is a feature that warns you when you are about to visit a dangerous site known for malware, phishing and downloading unwanted software on your device.
-
-# How does safe browsing work?
-
-Firefox Focus has been using the Google safe browsing API for Safe browsing. When you tap a link, we check the link against lists of reported phishing, unwanted software, and malware sites. If the site is identified as an attack site, Firefox Focus (versions 6 and older) will warn you against visiting it.
-
-"
 41728,Debugging policy issues,debugging-policy-issues,https://support.mozilla.org/en-US/kb/debugging-policy-issues,en-US,This article will help you figure out problems with policies not applying.,"<p>If you are encountering problems with policies not applying, this article will help you figure out the problem. It involves turning on debug mode for the policies. Here are the steps:
 </p>
 <ol><li>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
@@ -63976,6 +64502,110 @@ Make sure to **turn on your push notifications** so Firefox can notify you if it
 When you sync or send a page from your device, a notification will appear on your phone asking you to grant Firefox permission to sync.
 
 The exact steps may vary according to your iOS version. For more information see [the notifications page on the Apple website](https://support.apple.com/HT201925#manage-alerts).
+"
+42311,Common Myths about Private Browsing,common-myths-about-private-browsing,https://support.mozilla.org/en-US/kb/common-myths-about-private-browsing,en-US,Learn more about common misconceptions about Private Browsing in Firefox.,"<p><a href=""/en-US/kb/private-browsing-use-firefox-without-history"">Private Browsing</a> in Firefox helps you control what’s saved during your browsing session, like history, cookies, and form data. It helps keep your online activity private from others who use Firefox on the same computer, but it won't make you invisible online.
+</p><p>This article clears up some common misconceptions about private browsing and explains what it actually does.
+</p>
+<h1 id=""w_what-private-browsing-does-and-doesnt-do"">What Private Browsing does and doesn't do</h1>
+<p>To help set expectations, here's a quick comparison of what Private Browsing in Firefox does and does not do:
+</p>
+<table>
+<tbody><tr>
+<th> <strong>Private browsing <em>does</em>...</strong>
+</th><th> <strong>Private browsing <em>doesn't</em>...</strong>
+</th></tr>
+<tr>
+<td> Prevent Firefox from saving browsing history
+</td><td> Hide your activity from your internet service provider (ISP)
+</td></tr>
+<tr>
+<td> Delete cookies and site data when you close the window
+</td><td> Mask your IP address or location
+</td></tr>
+<tr>
+<td> Keep downloads and bookmarks unless you remove them manually
+</td><td> Stop websites from identifying or tracking you
+</td></tr>
+<tr>
+<td> Sign you out of websites when you close the session
+</td><td> Prevent malware or phishing
+</td></tr></tbody></table>
+<h1 id=""w_myth-1-private-browsing-makes-you-anonymous-on-the-internet"">Myth 1: Private Browsing makes you anonymous on the Internet</h1>
+<p><strong>Reality:</strong> Private Browsing does not mask your identity or activity online. It prevents Firefox from saving your browsing activity locally, but it doesn’t make you anonymous to websites, your internet provider, your employer, or search engines. 
+</p><p><a href=""https://www.mozilla.org/products/vpn/more/what-is-an-ip-address/"">Internet service providers can still gather information</a> about your visit, even if you are not signed in. If you use your device at work, your company may be able to monitor the websites you visit. If you surf the Web at home, your cable company (or their partners) may have access to your browsing information. Only a <a href=""https://wikipedia.org/wiki/Virtual_private_network"">Virtual Private Network</a> (VPN) can mask your location and encrypt your online activity, keeping your identity and data safe from prying eyes. If you need to stay anonymous online and block your IP address, try <a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN</a>.
+</p>
+<h1 id=""w_myth-2-private-browsing-removes-all-traces-of-your-browsing-activity-from-your-computer"">Myth 2: Private Browsing removes all traces of your browsing activity from your computer</h1>
+<p><strong>Reality:</strong> Private Browsing works by letting you browse without saving passwords, cookies and browsing history in a Private Window. If you download a file from a website, it will remain on your computer, but it will not appear in the download manager in Firefox. If you bookmark a website while in a Private Window, it will remain in your bookmark list.
+</p>
+<h1 id=""w_myth-3-private-browsing-doesnt-display-any-browsing-history-and-bookmarks-and-downloads-disappear-after-your-session"">Myth 3: Private Browsing doesn’t display any browsing history, and bookmarks and downloads disappear after your session</h1>
+<p><strong>Reality:</strong> Private Browsing will, by default, <a href=""/en-US/kb/address-bar-autocomplete-firefox"">display visited sites and bookmarks as you type in the address bar</a>. Firefox saves these pages during normal browsing. If you don’t want to see these suggestions, you can deselect them by following the steps given in <a href=""/en-US/kb/search-suggestions-firefox#w_enabling-or-disabling-search-suggestions"">Search suggestions in Firefox</a>.
+</p><p>Additionally, files you download and bookmarks you save while in Private Browsing stay on your device. Firefox does not remove these when you close the window (see <a href=""#w_myth-2-private-browsing-removes-all-traces-of-your-browsing-activity-from-your-computer"">Myth 2</a>). Only temporary browsing data, like history and cookies, is deleted.
+</p>
+<h1 id=""w_myth-4-private-browsing-will-protect-you-from-malware"">Myth 4: Private Browsing will protect you from malware</h1>
+<p><strong>Reality:</strong> Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure <a href=""/en-US/kb/how-does-phishing-and-malware-protection-work"">Firefox security settings</a> are enabled. If you suspect you have malware, <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">take steps to remove it</a>.
+</p>
+<h1 id=""w_myth-5-private-browsing-blocks-ads-and-trackers"">Myth 5: Private Browsing blocks ads and trackers</h1>
+<p><strong>Reality:</strong> Private Browsing mode doesn’t automatically block all trackers. However, Firefox’s built-in <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a> is active even in regular browsing and offers protection against many types of tracking.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li> <a href=""/en-US/kb/delete-browsing-search-download-history-firefox"">Delete browsing, search and download history on Firefox</a>
+</li><li> <a href=""/en-US/kb/clear-cookies-and-site-data-firefox"">Clear cookies and site data in Firefox</a>
+</li><li> <a href=""/en-US/kb/third-party-cookies-firefox-tracking-protection"">Third-party cookies and Firefox tracking protection</a>
+</li></ul>",firefox,privacy-and-security,"[Private Browsing](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") in Firefox helps you control what’s saved during your browsing session, like history, cookies, and form data. It helps keep your online activity private from others who use Firefox on the same computer, but it won't make you invisible online.
+
+This article clears up some common misconceptions about private browsing and explains what it actually does.
+
+# What Private Browsing does and doesn't do
+
+To help set expectations, here's a quick comparison of what Private Browsing in Firefox does and does not do:
+
+| **Private browsing _does_...** | **Private browsing _doesn't_...** |
+| --- | --- |
+| Prevent Firefox from saving browsing history | Hide your activity from your internet service provider (ISP) |
+| Delete cookies and site data when you close the window | Mask your IP address or location |
+| Keep downloads and bookmarks unless you remove them manually | Stop websites from identifying or tracking you |
+| Sign you out of websites when you close the session | Prevent malware or phishing |
+
+# Myth 1: Private Browsing makes you anonymous on the Internet
+
+**Reality:** Private Browsing does not mask your identity or activity online. It prevents Firefox from saving your browsing activity locally, but it doesn’t make you anonymous to websites, your internet provider, your employer, or search engines.
+
+[Internet service providers can still gather information](https://www.mozilla.org/products/vpn/more/what-is-an-ip-address/) about your visit, even if you are not signed in. If you use your device at work, your company may be able to monitor the websites you visit. If you surf the Web at home, your cable company (or their partners) may have access to your browsing information. Only a [Virtual Private Network](https://wikipedia.org/wiki/Virtual_private_network) (VPN) can mask your location and encrypt your online activity, keeping your identity and data safe from prying eyes. If you need to stay anonymous online and block your IP address, try [Mozilla VPN](https://www.mozilla.org/products/vpn/).
+
+# Myth 2: Private Browsing removes all traces of your browsing activity from your computer
+
+**Reality:** Private Browsing works by letting you browse without saving passwords, cookies and browsing history in a Private Window. If you download a file from a website, it will remain on your computer, but it will not appear in the download manager in Firefox. If you bookmark a website while in a Private Window, it will remain in your bookmark list.
+
+# Myth 3: Private Browsing doesn’t display any browsing history, and bookmarks and downloads disappear after your session
+
+**Reality:** Private Browsing will, by default, [display visited sites and bookmarks as you type in the address bar](\""https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox""). Firefox saves these pages during normal browsing. If you don’t want to see these suggestions, you can deselect them by following the steps given in [Search suggestions in Firefox](\""https://support.mozilla.org/en-US/kb/search-suggestions-firefox#w_enabling-or-disabling-search-suggestions"").
+
+Additionally, files you download and bookmarks you save while in Private Browsing stay on your device. Firefox does not remove these when you close the window (see [Myth&nbsp;2](https://support.mozilla.org/kb/common-myths-about-private-browsing#w_myth-2-private-browsing-removes-all-traces-of-your-browsing-activity-from-your-computer)). Only temporary browsing data, like history and cookies, is deleted.
+
+# Myth 4: Private Browsing will protect you from malware
+
+**Reality:** Private Browsing does not protect you from malware installed on your computer. It’s designed to reduce traces of your activity on your own device. To stay safe from malicious sites, make sure [Firefox security settings](\""https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work"") are enabled. If you suspect you have malware, [take steps to remove it](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
+
+# Myth 5: Private Browsing blocks ads and trackers
+
+**Reality:** Private Browsing mode doesn’t automatically block all trackers. However, Firefox’s built-in [Enhanced Tracking Protection](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"") is active even in regular browsing and offers protection against many types of tracking.
+
+# Related articles
+
+- [Delete browsing, search and download history on Firefox](\""https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox"")
+- [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"")
+- [Third-party cookies and Firefox tracking protection](\""https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection"")
+
+"
+42320,Windows in S mode won't let me install Firefox,windows-s-mode-wont-let-me-install-firefox,https://support.mozilla.org/en-US/kb/windows-s-mode-wont-let-me-install-firefox,en-US,You cannot install Firefox from Mozilla or from the Microsoft Store on Windows in S mode. You must first switch out of S mode. Learn more.,"<p>Windows in S mode does not allow installation of apps from outside of the Microsoft Store, so you will not be able to install Firefox from Mozilla's website. Although Firefox is available from the Microsoft Store, it does not work on Windows in S mode and installation is currently disabled. 
+</p><p>To install Firefox, you must <a href=""https://support.microsoft.com/windows/switching-out-of-s-mode-in-windows-4f56d9be-99ec-6983-119f-031bfb28a307"">switch out of Windows S mode</a>. To learn more, see the <a href=""https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85"">Windows 10 and Windows 11 in S mode FAQ</a> at Microsoft Support.
+</p><p>Afterwards, visit Mozilla's <a href=""https://www.firefox.com?utm_medium=referral&amp;utm_source=support.mozilla.org"">Firefox download page</a> or the Microsoft Store to install Firefox. For more information, see <a href=""/en-US/kb/how-install-firefox-windows"">How to install Firefox on Windows</a> and <a href=""/en-US/kb/download-firefox-windows-microsoft-store"">Download Firefox on Windows from the Microsoft Store</a>.
+</p>",firefox,installation-and-updates,"Windows in S mode does not allow installation of apps from outside of the Microsoft Store, so you will not be able to install Firefox from Mozilla's website. Although Firefox is available from the Microsoft Store, it does not work on Windows in S mode and installation is currently disabled.
+
+To install Firefox, you must [switch out of Windows S mode](https://support.microsoft.com/windows/switching-out-of-s-mode-in-windows-4f56d9be-99ec-6983-119f-031bfb28a307). To learn more, see the [Windows 10 and Windows 11 in S mode FAQ](https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85) at Microsoft Support.
+
+Afterwards, visit Mozilla's [Firefox download page](https://www.firefox.com?utm_medium=referral&utm_source=support.mozilla.org) or the Microsoft Store to install Firefox. For more information, see [How to install Firefox on Windows](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"") and [Download Firefox on Windows from the Microsoft Store](\""https://support.mozilla.org/en-US/kb/download-firefox-windows-microsoft-store"").
+
 "
 42362,Add trusted websites to your allow list in Firefox Focus,add-trusted-websites-your-allow-list-firefox-focus,https://support.mozilla.org/en-US/kb/add-trusted-websites-your-allow-list-firefox-focus,en-US,Add frequently visited websites to your tracking protection allow list.,"<p>Tracking Protection in Firefox Focus protects you from trackers but may break some websites. Starting with version 8, you can keep Tracking Protection off for your trusted websites.
 </p>
@@ -81875,301 +82505,6 @@ You should not be logged into your personal Bitly account.
 6. Paste the shortened link in your answer.
 
 To learn more about linking support articles, see [A guide to linking to support articles](\""https://support.mozilla.org/en-US/kb/a-guide-to-linking-to-support-articles"").
-"
-54929,How to configure Close Tab warnings in Firefox,how-configure-close-tab-warnings-firefox,https://support.mozilla.org/en-US/kb/how-configure-close-tab-warnings-firefox,en-US,"Learn how to enable or disable the close tab warning that shows when you're about to close multiple tabs, in Firefox version 94 and above.","<p>This article explains how to configure your <a href=""/en-US/kb/tab-preferences-and-settings"">tab settings</a> so that Firefox warns you before you close a window or <span class=""for"" data-for=""mac,linux"">quit</span><span class=""for"" data-for=""win"">exit</span> the browser when multiple tabs are open<span class=""for"" data-for=""not fx94"">, in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 94 and above</span>. 
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_close-tab-warnings""><span class=""tocnumber"">1</span> <span class=""toctext"">Close tab warnings</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-enable-or-disable-close-tab-warnings""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I enable or disable Close tab warnings?</span></a></li><li class=""toclevel-1""><a href=""#w_i-lost-my-tabs-after-the-update-what-can-i-do""><span class=""tocnumber"">3</span> <span class=""toctext"">I lost my tabs after the update — What can I do?</span></a></li></ul></div>
-<h1 id=""w_close-tab-warnings"">Close tab warnings</h1>
-<p>Firefox can be set to warn you when you’re about to close a window or <span class=""for"" data-for=""mac,linux"">quit</span><span class=""for"" data-for=""win"">exit</span> Firefox, when multiple tabs are open. You will then have to click a <span class=""button"">Close tabs</span> button to confirm your action.
-</p><p><img alt=""MultipleTabsPrompt89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-08-35-33-8aba86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</p><p>There are a few different ways to close a Firefox window or <span class=""for"" data-for=""mac,linux"">quit</span><span class=""for"" data-for=""win"">exit</span> the browser. Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 94, Firefox no longer warns you by default when you <span class=""for"" data-for=""mac,linux"">quit</span><span class=""for"" data-for=""win"">exit</span> the browser or close a window using a menu, button, or three-key command. The close actions in these particular contexts were likely intentional and so the messages provided unnecessary and perhaps unwelcome interruption. 
-</p><p>The only instance in which a close warning is on by default is for two-key quit shortcuts on macOS and Linux. The risk of accidental closure is higher in this context since the quit shortcut (⌘+Q) is adjacent to the switch-application shortcut (⌘+Tab). 
-</p><p>Despite these changes to the default action, you will still have full control over the <span class=""for"" data-for=""mac,linux"">quit</span><span class=""for"" data-for=""win"">exit</span>/close modal behavior. All warnings can be managed within Firefox Settings
-.
-</p>
-<h1 id=""w_how-do-i-enable-or-disable-close-tab-warnings"">How do I enable or disable Close tab warnings?</h1>
-<div class=""for"" data-for=""win"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <em>Tabs</em> section of the <span class=""menu"">General</span> panel, check the box next to <em>Confirm before closing multiple tabs</em> to enable the warnings, and uncheck it to disable them.
-</li></ol>
-<p><img alt=""Confirm_WintabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-24-01-1ba12d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p></div><div class=""for"" data-for=""mac"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <em>Tabs</em> section of the <span class=""menu"">General</span> panel, check the box next to<em> Confirm before closing multiple tabs</em> to enable the warnings, and uncheck it to disable them.
-</li></ol>
-<p><img alt=""Confirm_MactabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-09-22-07-3ecc05.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<div class=""note"">Mac users can also exit the browser using the <span class=""key"">command ⌘</span>+<span class=""key"">Q</span> keyboard shortcut. If you want to disable Close multiple tabs warnings for when you use this shortcut, uncheck the box next to <em>Confirm before quitting with ⌘+Q</em>.</div>
-</div><div class=""for"" data-for=""linux"">
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>In the <em>Tabs</em> section of the <span class=""menu"">General</span> panel, check the box next to<em> Confirm before closing multiple tabs</em> to enable the warnings, and uncheck it to disable them.
-</li></ol>
-<p><img alt=""Confirm_LinuxtabModal"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-14-20-54-01d59f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<div class=""note"">Linux users can exit the browser using the <span class=""key"">Ctrl</span>+<span class=""key"">Q</span> keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck the box next to <em>Confirm before quitting with Ctrl+Q</em>.</div>
-</div>
-<h1 id=""w_i-lost-my-tabs-after-the-update-what-can-i-do"">I lost my tabs after the update — What can I do?</h1>
-<p>You may notice that after updating Firefox to version 94, the tabs from your previous session were closed.  To learn how to restore a previous session, visit <a href=""/en-US/kb/how-do-i-restore-my-tabs-last-time"">How do I restore my tabs from last time?</a> Alternatively, following the prompts in the <strong>Open previous tabs?</strong> one-time notification that will appear after the update will also allow you to restore the tabs from your previous session.
-</p><p><img alt=""InfobarRestore"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-01-15-24-38-e51263.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>",firefox,browse;settings;tabs,"This article explains how to configure your [tab settings](\""https://support.mozilla.org/en-US/kb/tab-preferences-and-settings"") so that Firefox warns you before you close a window or quitexit the browser when multiple tabs are open, in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 94 and above.
-
-## Table of Contents
-
-- [1 Close tab warnings](https://support.mozilla.org/kb/how-configure-close-tab-warnings-firefox#w_close-tab-warnings)
-- [2 How do I enable or disable Close tab warnings?](https://support.mozilla.org/kb/how-configure-close-tab-warnings-firefox#w_how-do-i-enable-or-disable-close-tab-warnings)
-- [3 I lost my tabs after the update — What can I do?](https://support.mozilla.org/kb/how-configure-close-tab-warnings-firefox#w_i-lost-my-tabs-after-the-update-what-can-i-do)
-
-# Close tab warnings
-
-Firefox can be set to warn you when you’re about to close a window or quitexit Firefox, when multiple tabs are open. You will then have to click a Close tabs button to confirm your action.
-
-![MultipleTabsPrompt89](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-There are a few different ways to close a Firefox window or quitexit the browser. Starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 94, Firefox no longer warns you by default when you quitexit the browser or close a window using a menu, button, or three-key command. The close actions in these particular contexts were likely intentional and so the messages provided unnecessary and perhaps unwelcome interruption.
-
-The only instance in which a close warning is on by default is for two-key quit shortcuts on macOS and Linux. The risk of accidental closure is higher in this context since the quit shortcut (⌘+Q) is adjacent to the switch-application shortcut (⌘+Tab).
-
-Despite these changes to the default action, you will still have full control over the quitexit/close modal behavior. All warnings can be managed within Firefox Settings .
-
-# How do I enable or disable Close tab warnings?
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the _Tabs_ section of the General panel, check the box next to _Confirm before closing multiple tabs_ to enable the warnings, and uncheck it to disable them.
-
-![Confirm_WintabModal](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the _Tabs_ section of the General panel, check the box next to _Confirm before closing multiple tabs_ to enable the warnings, and uncheck it to disable them.
-
-![Confirm_MactabModal](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Mac users can also exit the browser using the command ⌘+Q keyboard shortcut. If you want to disable Close multiple tabs warnings for when you use this shortcut, uncheck the box next to _Confirm before quitting with ⌘+Q_.
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the _Tabs_ section of the General panel, check the box next to _Confirm before closing multiple tabs_ to enable the warnings, and uncheck it to disable them.
-
-![Confirm_LinuxtabModal](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Linux users can exit the browser using the Ctrl+Q keyboard shortcut. If you want to disable close multiple tabs warnings for when you use this shortcut, uncheck the box next to _Confirm before quitting with Ctrl+Q_.
-
-# I lost my tabs after the update — What can I do?
-
-You may notice that after updating Firefox to version 94, the tabs from your previous session were closed. To learn how to restore a previous session, visit [How do I restore my tabs from last time?](\""https://support.mozilla.org/en-US/kb/how-do-i-restore-my-tabs-last-time"") Alternatively, following the prompts in the **Open previous tabs?** one-time notification that will appear after the update will also allow you to restore the tabs from your previous session.
-
-![InfobarRestore](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-"
-54931,Exclude applications from Mozilla VPN protection,split-tunneling-app-permissions,https://support.mozilla.org/en-US/kb/split-tunneling-app-permissions,en-US,Exclude applications from Mozilla VPN protection,"<p>Mozilla VPN allows you to choose which apps to connect directly to the internet and which ones to protect with the VPN. This way, you can protect your sensitive data with VPN encryption while accessing other services that may not be compatible or not have optimal performance when connected via VPN. For instance, you can use Mozilla VPN for your browser but bypass it for your online gaming, which may have a performance decrease when connecting through a VPN.
-In this article, you will learn how to use excluded apps. 
-</p><p><br>
-</p>
-<div class=""warning""><strong>Warning:</strong> This feature is currently available on Windows, Android and Linux devices.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-exclude-apps-from-mozilla-vpn-protection""><span class=""tocnumber"">1</span> <span class=""toctext"">How to exclude apps from Mozilla VPN protection</span></a></li><li class=""toclevel-1""><a href=""#w_common-questions""><span class=""tocnumber"">2</span> <span class=""toctext"">Common questions</span></a><ul><li class=""toclevel-2""><a href=""#w_why-cant-i-see-the-excluded-apps-menu-option-in-the-settings-on-linux""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Why can't I see the Excluded apps menu option in the settings on Linux?</span></a></li><li class=""toclevel-2""><a href=""#w_why-would-i-want-to-exclude-certain-applications""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Why would I want to exclude certain applications?</span></a></li><li class=""toclevel-2""><a href=""#w_why-cant-my-excluded-app-connect-to-the-internet""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Why can't my excluded app connect to the Internet?</span></a></li><li class=""toclevel-2""><a href=""#w_why-cant-i-add-microsoft-store-apps-to-the-list-of-excluded-apps""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Why can’t I add Microsoft Store apps to the list of excluded apps?</span></a></li><li class=""toclevel-2""><a href=""#w_trouble-with-app-exclusions""><span class=""tocnumber"">2.5</span> <span class=""toctext"">Trouble with App Exclusions?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_my-app-is-not-under-the-mozilla-vpn-excluded-app-list""><span class=""tocnumber"">3</span> <span class=""toctext"">My app is not under the Mozilla VPN excluded app list</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_how-to-exclude-apps-from-mozilla-vpn-protection"">How to exclude apps from Mozilla VPN protection</h1>
-<p>To exclude applications from Mozilla VPN protection, you need to change the app permissions settings:
-</p>
-<ol><li>Open Mozilla VPN and go to <strong>Settings</strong>.
-<dl><dt><img alt=""Settings vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-21-01-f4f707.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Select <span class=""menu"">Apps exclusion</span>.
-<dl><dt><img alt=""Apps exclusions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-16-45-f5b6d3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Under <em>Apps exclusions</em>, check the boxes next to the apps whose data you don't want to go through the Mozilla VPN tunnel.
-<dl><dt><img alt=""exclude app example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-17-54-18aced.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt><dt><div class=""note""><strong>Note:</strong> If you want to start over and deselect all your chosen apps, select the <strong>Clear all</strong> option.</div>
-</dt></dl>
-</li><li>Nice work! The selected apps are no longer routed through Mozilla VPN and will now connect directly to the Internet.
-<dl><dt><img alt=""checked app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-19-26-3793ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h1 id=""w_common-questions"">Common questions</h1>
-<h2 id=""w_why-cant-i-see-the-excluded-apps-menu-option-in-the-settings-on-linux"">Why can't I see the Excluded apps menu option in the settings on Linux?</h2>
-<p>On Linux, the <strong>Excluded apps</strong> feature is only available if these two conditions are met:
-</p>
-<ul><li>Control groups version 1 is mounted somewhere (should be the case for any Debian-based distro).
-</li><li>The user is running a desktop environment based on GTK. This should include GNOME, MATE, Unity and Cinnamon (notably missing are KDE and XFCE).
-</li></ul>
-<h2 id=""w_why-would-i-want-to-exclude-certain-applications"">Why would I want to exclude certain applications?</h2>
-<p>Using a VPN can impact the performance of certain online games and streaming apps, as the added routing can increase your connection latency. Additionally, some banking apps may not allow connections through a VPN for security reasons.
-</p>
-<h2 id=""w_why-cant-my-excluded-app-connect-to-the-internet"">Why can't my excluded app connect to the Internet?</h2>
-<p>Some excluded apps need to be restarted once Mozilla VPN is turned on.
-</p>
-<h2 id=""w_why-cant-i-add-microsoft-store-apps-to-the-list-of-excluded-apps"">Why can’t I add Microsoft Store apps to the list of excluded apps?</h2>
-<p>Microsoft store apps (non-win32 aka UWP apps) are not supported.
-</p>
-<h2 id=""w_trouble-with-app-exclusions"">Trouble with App Exclusions?</h2>
-<div class=""note""><strong>Note for Windows users:</strong> If you've recently updated to Mozilla VPN v2.33 and App Exclusions is not working as expected, first try restarting your computer.</div>
-<p><strong>Known Issues:</strong>
-</p><p>Some apps are known to interfere with App Exclusions on Windows.<br>
-Try disabling or completely uninstalling:
-</p>
-<ul><li>Intel Connectivity Performance Suite
-</li><li>Intel Killer Control Center (Killer Analytics Service and Killer Network Service)
-</li><li>Kaspersky
-</li><li>Proxifier
-</li></ul>
-<h1 id=""w_my-app-is-not-under-the-mozilla-vpn-excluded-app-list"">My app is not under the Mozilla VPN excluded app list</h1>
-<p>Windows users can add apps that don’t show up in the list by selecting the <span class=""button"">+ Add application</span> button at the end of the apps list. Once selected, you can navigate your list of files to find the executable corresponding to the application you want to exclude from Mozilla VPN protection.
-</p><p>On Linux you can make an app show up in the list of potential apps to exclude, by following these steps: 
-</p>
-<ol><li>Create a .desktop file, conformant to the XDG specification (<a href=""https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html"">https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html</a>). 
-<dl><dt><dl><dt>[Desktop Entry]
-</dt><dt>Name=Foobar
-</dt><dt>Version=1.5
-</dt><dt>Exec=/usr/local/bin/foobarui %u
-</dt><dt>Comment=An app that does many things.
-</dt><dt>Type=Application
-</dt><dt>Icon=foobar
-</dt><dt>Terminal=false
-</dt><dt>StartupNotify=true
-</dt><dt>Encoding=UTF-8
-</dt><dt>Categories=Network;Security;
-</dt><dt>MimeType=x-scheme-handler/foobar
-</dt></dl>
-</dt></dl>
-<dl><dt>The details should be filled in with the appropriate information about the application that you want to add to the Excluded Apps list in the Mozilla VPN client. Please pay particular attention to the Exec attribute in the format above, as it indicates the path to the binary that should be excluded from VPN protection.
-</dt></dl>
-</li><li>Save the file under /usr/local/applications, with a .desktop extension (e.g. foobar.desktop).
-</li><li>Restart the Mozilla VPN client.
-</li><li>Now the app should appear under the list of apps you can exclude from Mozilla VPN protection.
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"">How do I choose my server on Mozilla VPN?</a>
-</li><li><a href=""/en-US/kb/multi-hop-encrypt-your-data-twice-enhanced-security"">Multi-Hop - Encrypt your data twice for enhanced security while using Mozilla VPN</a>
-</li><li><a href=""/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"">How can I tell if Mozilla VPN is connected?</a>
-</li></ul>
-<p><strong>Learn more</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/connecting-unsecured-networks-using-mozilla-vpn?utm_source=-vpn-related"">Connecting to unsecured networks while using Mozilla VPN</a>
-</li></ul>",mozilla-vpn,privacy-and-security;settings,"Mozilla VPN allows you to choose which apps to connect directly to the internet and which ones to protect with the VPN. This way, you can protect your sensitive data with VPN encryption while accessing other services that may not be compatible or not have optimal performance when connected via VPN. For instance, you can use Mozilla VPN for your browser but bypass it for your online gaming, which may have a performance decrease when connecting through a VPN. In this article, you will learn how to use excluded apps.
-
-**Warning:** This feature is currently available on Windows, Android and Linux devices.
-
-## Table of Contents
-
-- [1 How to exclude apps from Mozilla VPN protection](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_how-to-exclude-apps-from-mozilla-vpn-protection)
-- [2 Common questions](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_common-questions)
-  - [2.1 Why can't I see the Excluded apps menu option in the settings on Linux?](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_why-cant-i-see-the-excluded-apps-menu-option-in-the-settings-on-linux)
-  - [2.2 Why would I want to exclude certain applications?](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_why-would-i-want-to-exclude-certain-applications)
-  - [2.3 Why can't my excluded app connect to the Internet?](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_why-cant-my-excluded-app-connect-to-the-internet)
-  - [2.4 Why can’t I add Microsoft Store apps to the list of excluded apps?](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_why-cant-i-add-microsoft-store-apps-to-the-list-of-excluded-apps)
-  - [2.5 Trouble with App Exclusions?](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_trouble-with-app-exclusions)
-
-- [3 My app is not under the Mozilla VPN excluded app list](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_my-app-is-not-under-the-mozilla-vpn-excluded-app-list)
-- [4 Related articles](https://support.mozilla.org/kb/split-tunneling-app-permissions#w_related-articles)
-
-# How to exclude apps from Mozilla VPN protection
-
-To exclude applications from Mozilla VPN protection, you need to change the app permissions settings:
-
-1. Open Mozilla VPN and go to **Settings**.<dl><dt>
-<img alt=""Settings vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-21-01-f4f707.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-2. Select Apps exclusion.<dl><dt>
-<img alt=""Apps exclusions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-16-45-f5b6d3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-3. Under _Apps exclusions_, check the boxes next to the apps whose data you don't want to go through the Mozilla VPN tunnel.<dl>
-<dt>
-<img alt=""exclude app example"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-17-54-18aced.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt>
-<dt>
-<div class=""note"">
-<strong>Note:</strong> If you want to start over and deselect all your chosen apps, select the <strong>Clear all</strong> option.</div>
-</dt>
-</dl>
-4. Nice work! The selected apps are no longer routed through Mozilla VPN and will now connect directly to the Internet.<dl><dt>
-<img alt=""checked app"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-06-13-19-26-3793ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-# Common questions
-
-## Why can't I see the Excluded apps menu option in the settings on Linux?
-
-On Linux, the **Excluded apps** feature is only available if these two conditions are met:
-
-- Control groups version 1 is mounted somewhere (should be the case for any Debian-based distro).
-- The user is running a desktop environment based on GTK. This should include GNOME, MATE, Unity and Cinnamon (notably missing are KDE and XFCE).
-
-## Why would I want to exclude certain applications?
-
-Using a VPN can impact the performance of certain online games and streaming apps, as the added routing can increase your connection latency. Additionally, some banking apps may not allow connections through a VPN for security reasons.
-
-## Why can't my excluded app connect to the Internet?
-
-Some excluded apps need to be restarted once Mozilla VPN is turned on.
-
-## Why can’t I add Microsoft Store apps to the list of excluded apps?
-
-Microsoft store apps (non-win32 aka UWP apps) are not supported.
-
-## Trouble with App Exclusions?
-
-**Note for Windows users:** If you've recently updated to Mozilla VPN v2.33 and App Exclusions is not working as expected, first try restarting your computer.
-
-**Known Issues:**
-
-Some apps are known to interfere with App Exclusions on Windows.  
-Try disabling or completely uninstalling:
-
-- Intel Connectivity Performance Suite
-- Intel Killer Control Center (Killer Analytics Service and Killer Network Service)
-- Kaspersky
-- Proxifier
-
-# My app is not under the Mozilla VPN excluded app list
-
-Windows users can add apps that don’t show up in the list by selecting the + Add application button at the end of the apps list. Once selected, you can navigate your list of files to find the executable corresponding to the application you want to exclude from Mozilla VPN protection.
-
-On Linux you can make an app show up in the list of potential apps to exclude, by following these steps:
-
-1. Create a .desktop file, conformant to the XDG specification ([https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)). <dl>
-<dt></dt>
-<dl>
-<dt>[Desktop Entry]
-</dt>
-<dt>Name=Foobar
-</dt>
-<dt>Version=1.5
-</dt>
-<dt>Exec=/usr/local/bin/foobarui %u
-</dt>
-<dt>Comment=An app that does many things.
-</dt>
-<dt>Type=Application
-</dt>
-<dt>Icon=foobar
-</dt>
-<dt>Terminal=false
-</dt>
-<dt>StartupNotify=true
-</dt>
-<dt>Encoding=UTF-8
-</dt>
-<dt>Categories=Network;Security;
-</dt>
-<dt>MimeType=x-scheme-handler/foobar
-</dt>
-</dl>
-</dl><dl><dt>The details should be filled in with the appropriate information about the application that you want to add to the Excluded Apps list in the Mozilla VPN client. Please pay particular attention to the Exec attribute in the format above, as it indicates the path to the binary that should be excluded from VPN protection.
-</dt></dl>
-2. Save the file under /usr/local/applications, with a .desktop extension (e.g. foobar.desktop).
-3. Restart the Mozilla VPN client.
-4. Now the app should appear under the list of apps you can exclude from Mozilla VPN protection.
-
-# Related articles
-
-- [How do I choose my server on Mozilla VPN?](\""https://support.mozilla.org/en-US/kb/how-do-i-choose-my-server-mozilla-vpn"")
-- [Multi-Hop - Encrypt your data twice for enhanced security while using Mozilla VPN](\""https://support.mozilla.org/en-US/kb/multi-hop-encrypt-your-data-twice-enhanced-security"")
-- [How can I tell if Mozilla VPN is connected?](\""https://support.mozilla.org/en-US/kb/how-can-i-tell-if-mozilla-vpn-connected"")
-
-**Learn more**
-
-- [Connecting to unsecured networks while using Mozilla VPN](https://support.mozilla.org/en-US/kb/connecting-unsecured-networks-using-mozilla-vpn?utm_source=-vpn-related)
-
 "
 54962,Support forum - Find support answers,support-forum-find-support-answers,https://support.mozilla.org/en-US/kb/support-forum-find-support-answers,en-US,Learn how to find answers to support questions,"<p>Before diving into troubleshooting on your own, consider using these suggestions. They might save you time and effort!
 </p>
@@ -109787,422 +110122,6 @@ To completely opt out of telemetry data collection in Firefox for mobile, see [H
 - [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"")
 
 "
-66772,Review your Mozilla account activity and protect your data,review-mozilla-account-activity-and-protect-data,https://support.mozilla.org/en-US/kb/review-mozilla-account-activity-and-protect-data,en-US,"Learn how to review your Mozilla account activity, change your password, enable two-step authentication, and check for data breaches.","<p>If you suspect your <a href=""/en-US/kb/firefox-accounts-managing-account-data"">Mozilla account</a> has been compromised or just want to perform a security check-up, it’s important to take the right steps. This guide explains how to review your Mozilla account activity, change your password, review account activity, and enable two-step authentication. You’ll also learn how to check for data breaches using Mozilla Monitor to enhance your overall security.
-</p>
-<h1 id=""w_where-can-i-see-my-recent-account-activity"">Where can I see my recent account activity?</h1>
-<p>There are a couple of ways you can check your account activity:
-</p>
-<ul><li>You received an email from <a href=""mailto:accounts@firefox.com"">accounts@firefox.com</a> detailing a recent sign-in event or product access.
-</li></ul>
-<dl><dt>You will receive this email whenever your account or a product is signed in for the first time on an unrecognized device.
-</dt></dl>
-<ul><li>You can view recent activity on your Mozilla account by visiting your <a href=""https://accounts.firefox.com/settings"">Mozilla account settings page</a> and selecting <strong>View recent account activity</strong>.
-</li></ul>
-<h1 id=""w_what-action-should-i-take"">What action should I take?</h1>
-<h2 id=""w_change-your-mozilla-account-password"">Change your Mozilla account password</h2>
-<p>Changing your password ensures no one can access your account with old credentials. It also signs you out from all devices and services to protect your data.
-</p>
-<ul><li>Sign in to your <a href=""https://accounts.firefox.com"">Mozilla account</a> and, next to <em>Password</em>, select <span class=""button"">Change</span> to update your password.
-</li></ul>
-<dl><dt><ul><li>For more information on changing your password, head over to <a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a>.
-</li></ul>
-</dt></dl>
-<div class=""note""><strong>Note:</strong> Mozilla will send you a request to reset your password if it detects that <a href=""/en-US/kb/reset-mozilla-account-password-credentials"">your account credentials have been leaked on the dark web</a>. In this case, you’ll be entirely disconnected from all devices and cannot log back in until you reset your password.</div>
-<h2 id=""w_monitor-connected-services-for-unauthorized-access"">Monitor connected services for unauthorized access</h2>
-<p>Regularly reviewing the devices and services connected to your Mozilla account helps identify and address unauthorized activity.
-</p>
-<ol><li><strong>Sign in</strong> to your <a href=""https://accounts.firefox.com"">Mozilla account</a> and scroll down to the <strong>Connected Services</strong> section to see all logged-in devices and services.<div class=""note""><strong>Tip:</strong> After resetting your password, this list should only show devices you’ve logged into since the reset.</div>
-<dl><dt><img alt=""MozillaAccount-ConnectedServices"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-24-04-25-05-31be6d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
-</dt></dl>
-</li><li><strong>Remove unrecognized devices</strong>. If you spot suspicious entries, click the <span class=""button"">Sign out</span> button next to that entry.
-</li></ol>
-<h2 id=""w_enable-two-step-authentication"">Enable two-step authentication</h2>
-<p>Adding two-step authentication to your account provides an additional security layer by requiring a second verification step, making unauthorized access much more difficult.
-</p>
-<dl><dt><img alt=""2fa disable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-23-09-05-43-1720a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ol><li><strong>Sign in</strong> to your <a href=""https://accounts.firefox.com"">Mozilla account</a> and enable two-step authentication in the security section to enable this feature.
-</li><li><strong>Set up an authentication app</strong>. Use a trusted app like Google Authenticator or Authy to generate codes for signing in.
-</li></ol>
-<dl><dt><ul><li>For more information on enabling two-step authentication, see the <a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Set up two-factor authentication on your Mozilla account</a> article.
-</li></ul>
-</dt></dl>
-<h2 id=""w_check-for-data-breaches-with-mozilla-monitor"">Check for data breaches with Mozilla Monitor</h2>
-<p><a href=""/en-US/kb/get-started-firefox-monitor"">Mozilla Monitor</a> helps you discover if your email address has been exposed in a known data breach. Taking action based on this information can help you secure your other accounts as well.
-</p>
-<ol><li>Visit <a href=""https://monitor.mozilla.org"">https://monitor.mozilla.org</a> and enter your email address to scan for known exposures. Exposures are events where login credentials from other websites may become publicly shared through a breach of security.
-</li><li><strong>Review breach details</strong>. If your credentials were exposed, update your passwords for affected services immediately.
-</li></ol>
-<div class=""note""><strong>Tip:</strong> Use a password manager to create and store strong, unique passwords for all your accounts.</div>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a>
-</li><li><a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Set up two-factor authentication on your Mozilla account</a>
-</li><li><a href=""/en-US/kb/suspicious-activity-my-firefox-account"">Suspicious activity on my Mozilla account</a>
-</li></ul>",mozilla-account,passwords-and-sign-in;reset-passwords;two-factor-authentication,"If you suspect your [Mozilla account](\""https://support.mozilla.org/en-US/kb/firefox-accounts-managing-account-data"") has been compromised or just want to perform a security check-up, it’s important to take the right steps. This guide explains how to review your Mozilla account activity, change your password, review account activity, and enable two-step authentication. You’ll also learn how to check for data breaches using Mozilla Monitor to enhance your overall security.
-
-# Where can I see my recent account activity?
-
-There are a couple of ways you can check your account activity:
-
-- You received an email from [accounts@firefox.com](mailto:accounts@firefox.com) detailing a recent sign-in event or product access.
-
-<dl><dt>You will receive this email whenever your account or a product is signed in for the first time on an unrecognized device.
-</dt></dl>
-- You can view recent activity on your Mozilla account by visiting your [Mozilla account settings page](https://accounts.firefox.com/settings) and selecting **View recent account activity**.
-
-# What action should I take?
-
-## Change your Mozilla account password
-
-Changing your password ensures no one can access your account with old credentials. It also signs you out from all devices and services to protect your data.
-
-- Sign in to your [Mozilla account](https://accounts.firefox.com) and, next to _Password_, select Change to update your password.
-
-<dl><dt>
-<ul><li>For more information on changing your password, head over to <a href='\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password""'>How to change or reset your Mozilla account password</a>.
-</li></ul>
-</dt></dl>
-**Note:** Mozilla will send you a request to reset your password if it detects that [your account credentials have been leaked on the dark web](\""https://support.mozilla.org/en-US/kb/reset-mozilla-account-password-credentials""). In this case, you’ll be entirely disconnected from all devices and cannot log back in until you reset your password.
-
-## Monitor connected services for unauthorized access
-
-Regularly reviewing the devices and services connected to your Mozilla account helps identify and address unauthorized activity.
-
-1. **Sign in** to your [Mozilla account](https://accounts.firefox.com) and scroll down to the **Connected Services** section to see all logged-in devices and services.
-**Tip:** After resetting your password, this list should only show devices you’ve logged into since the reset.
-<dl><dt>
-<img alt=""MozillaAccount-ConnectedServices"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-24-04-25-05-31be6d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""700"">
-</dt></dl>
-2. **Remove unrecognized devices**. If you spot suspicious entries, click the Sign out button next to that entry.
-
-## Enable two-step authentication
-
-Adding two-step authentication to your account provides an additional security layer by requiring a second verification step, making unauthorized access much more difficult.
-
-<dl><dt>
-<img alt=""2fa disable"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-23-09-05-43-1720a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-1. **Sign in** to your [Mozilla account](https://accounts.firefox.com) and enable two-step authentication in the security section to enable this feature.
-2. **Set up an authentication app**. Use a trusted app like Google Authenticator or Authy to generate codes for signing in.
-
-<dl><dt>
-<ul><li>For more information on enabling two-step authentication, see the <a href='\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication""'>Set up two-factor authentication on your Mozilla account</a> article.
-</li></ul>
-</dt></dl>
-## Check for data breaches with Mozilla Monitor
-
-[Mozilla Monitor](\""https://support.mozilla.org/en-US/kb/get-started-firefox-monitor"") helps you discover if your email address has been exposed in a known data breach. Taking action based on this information can help you secure your other accounts as well.
-
-1. Visit [https://monitor.mozilla.org](https://monitor.mozilla.org) and enter your email address to scan for known exposures. Exposures are events where login credentials from other websites may become publicly shared through a breach of security.
-2. **Review breach details**. If your credentials were exposed, update your passwords for affected services immediately.
-
-**Tip:** Use a password manager to create and store strong, unique passwords for all your accounts.
-
-# Related articles
-
-- [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"")
-- [Set up two-factor authentication on your Mozilla account](\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication"")
-- [Suspicious activity on my Mozilla account](\""https://support.mozilla.org/en-US/kb/suspicious-activity-my-firefox-account"")
-
-"
-66779,Secure your Mozilla account with Two-Step Authentication,secure-mozilla-account-two-step-authentication,https://support.mozilla.org/en-US/kb/secure-mozilla-account-two-step-authentication,en-US,Secure your Mozilla account with Two-Step Authentication. Learn more here.,"<p>Two-step authentication, also known as two-factor authentication (2FA), adds an extra layer of security to your Mozilla account. Even if someone gets hold of your password, they won’t be able to access your account without a second factor of authentication. This second factor ensures that your account stays protected, even in the case of compromised credentials. By enabling 2FA, you greatly reduce the risk of unauthorized access, helping keep your personal data and browsing history safe.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-set-up-two-step-authentication""><span class=""tocnumber"">1</span> <span class=""toctext"">How to set up two-step authentication</span></a></li><li class=""toclevel-1""><a href=""#w_recovery-options-for-two-step-authentication""><span class=""tocnumber"">2</span> <span class=""toctext"">Recovery options for two-step authentication</span></a><ul><li class=""toclevel-2""><a href=""#w_recovery-methods-during-2fa-setup""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Recovery methods during 2FA setup</span></a></li><li class=""toclevel-2""><a href=""#w_backup-authentication-codes""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Backup authentication codes</span></a></li><li class=""toclevel-2""><a href=""#w_recovery-phone""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Recovery phone</span></a><ul><li class=""toclevel-3""><a href=""#w_changing-or-adding-recovery-methods""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Changing or adding recovery methods</span></a></li><li class=""toclevel-3""><a href=""#w_comparing-recovery-methods-for-two-step-authentication""><span class=""tocnumber"">2.3.2</span> <span class=""toctext"">Comparing recovery methods for two-step authentication</span></a></li><li class=""toclevel-3""><a href=""#w_understanding-sim-swap-risk""><span class=""tocnumber"">2.3.3</span> <span class=""toctext"">Understanding SIM swap risk</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_best-practices-for-account-security""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Best practices for account security</span></a></li></ul></li></ul></div>
-<h1 id=""w_how-to-set-up-two-step-authentication"">How to set up two-step authentication</h1>
-<ol><li>Sign in to your <a href=""https://accounts.firefox.com"">Mozilla account</a> and enable two-step authentication in the security section to enable this feature.
-</li><li>Set up an authenticator app. Use a trusted app like Google Authenticator (<a href=""https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"">Android</a>, <a href=""https://apps.apple.com/us/app/google-authenticator/id388497605"">iOS &amp; macOS</a>) or Twilio Authy Authenticator (<a href=""https://play.google.com/store/apps/details?id=com.authy.authy"">Android</a>, <a href=""https://apps.apple.com/us/app/twilio-authy/id494168017"">iOS &amp; macOS</a>) to generate codes for signing in and be sure to download your backup authentication codes.
-<ul><li>For more information on enabling two-step authentication, head over to <a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Set up two-factor authentication on your Mozilla account</a>.
-</li></ul>
-</li></ol>
-<h1 id=""w_recovery-options-for-two-step-authentication"">Recovery options for two-step authentication</h1>
-<p>If you lose access to your authenticator app or device, recovery methods ensure you can regain access to your account.
-</p>
-<h2 id=""w_recovery-methods-during-2fa-setup"">Recovery methods during 2FA setup</h2>
-<p>To enable two-step authentication (2FA) on your Mozilla account, you must set up at least one recovery method – either backup authentication codes or a recovery phone. If you do not complete setup of a recovery method, 2FA will not be enabled, even if you complete other steps.
-</p><p>Some users may be prompted to choose between backup codes and a recovery phone number when initially setting up 2FA. If you choose to set up a recovery phone, you will not automatically receive backup codes. However, you can add or switch recovery methods at any time through your account settings once 2FA is enabled.
-</p>
-<h2 id=""w_backup-authentication-codes"">Backup authentication codes</h2>
-<p>When you set up 2FA and choose backup codes as your recovery method, you’ll receive a set of 10-character backup authentication codes to save in a secure location. Each code can be used once to sign in to your account if you lose access to your authenticator app.
-</p>
-<div class=""note""><strong>Note:</strong> These are not the same as <a href=""/en-US/kb/reset-your-firefox-account-password-recovery-keys#w_generate-and-store-your-account-recovery-key"">account recovery keys</a> (related to sync data recovery) or one-time codes sent by email or SMS.</div>
-<ul><li><strong>How to access:</strong> You can view and download your backup authentication codes when you set up two-step authentication. If you lose them, you can generate a new set from your <a href=""https://accounts.firefox.com/settings#two-step-authentication"">account settings</a>.
-</li><li><strong>Pro tip:</strong> Store these codes in a secure location like a password manager or a physical safe.
-</li></ul>
-<h2 id=""w_recovery-phone"">Recovery phone</h2>
-<p>This feature, initially available to users in the US and Canada, allows you to add a recovery phone number to your account. If you lose access to your authenticator app, you can request a one-time password (OTP) via SMS to regain access to your Mozilla account.</p><div class=""note""> 
-<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
-</p>
-</div>
-<p></p><p><strong>How to add a recovery phone</strong><br><br>You can add a recovery phone either during initial two-step authentication (2FA) setup or afterward in your Mozilla account settings.
-</p>
-<ul><li><strong>During initial 2FA setup</strong><br>If eligible, you will be prompted to choose between backup authentication codes and recovery phone during 2FA setup. Select <strong>Recovery phone</strong> and follow the steps to enter your phone number and verify it with a one-time password (OTP) sent by SMS.
-</li><li><strong>After 2FA setup</strong>
-<ol><li>Go to the <a href=""https://accounts.firefox.com/settings#security"">Security section</a> of your Mozilla account settings.
-</li><li>Under Two-step authentication, look for the Recovery phone option.
-</li><li>Add your phone number and verify it by entering the OTP sent to your phone.
-</li></ol>
-</li></ul>
-<div class=""note""><strong>Note</strong>: If you don’t see the option for a recovery phone, it means the feature is not currently available for your account.</div>
-<div class=""warning""><strong>Important:</strong> Your recovery phone number should belong to you and be kept up to date to ensure you can regain access to your account.</div>
-<h3 id=""w_changing-or-adding-recovery-methods"">Changing or adding recovery methods</h3>
-<p>After enabling 2FA, you can always add, remove, or switch between backup codes and recovery phone in your Mozilla account settings.
-</p>
-<h3 id=""w_comparing-recovery-methods-for-two-step-authentication"">Comparing recovery methods for two-step authentication</h3>
-<table>
-<caption>
-</caption><tbody><tr>
-<th>Feature</th><th>Backup authentication codes (Safest)</th><th>Recovery phone (Easiest)
-</th></tr>
-<tr>
-<td>Availability</td><td>Global</td><td>Canada and USA only
-</td></tr>
-<tr>
-<td>Usage</td><td>One-time use per code</td><td>One-time use per code, valid for 5 minutes
-</td></tr>
-<tr>
-<td>Ease of access</td><td>Requires access to pre-stored codes, risk of losing the codes</td><td>Convenient if phone available, but requires active network connection
-</td></tr>
-<tr>
-<td>Security</td><td>Risk if codes lost or stored in unsecured location</td><td>Vulnerable to SIM swap attack
-</td></tr></tbody></table>
-<h3 id=""w_understanding-sim-swap-risk"">Understanding SIM swap risk</h3>
-<p>SIM swap attacks occur when a malicious actor convinces your mobile carrier to transfer your phone number to their SIM card. Once they have control of your phone number, they can intercept messages, including one-time passwords (OTPs), used for account recovery. This makes phone-based recovery methods more vulnerable than offline options like backup authentication codes.
-</p><p>To mitigate SIM swap risks, ensure your mobile carrier account is secured with a strong password and, if available, its own two-step authentication (2FA).
-</p><p>Most major cellular providers publish steps you can take to protect your devices on their help centers. You can find a few below:
-</p>
-<ul><li><a href=""https://about.att.com/pages/cyberaware/ni/blog/sim_swap"">AT&amp;T: What You Need to Know About SIM Swap Scams – AT&amp;T Cyber Aware</a>
-</li><li><a href=""https://www.verizon.com/about/account-security/sim-swapping"">Verizon: What is a SIM Swapping Scam? Protect Your Device Against SIM Hackers</a>
-</li><li><a href=""https://www.t-mobile.com/support/plans-features/help-with-t-mobile-account-fraud"">T-Mobile: Protect your T-Mobile account from fraud</a>
-</li><li><a href=""https://www.rogers.com/support/cyber-security/fraud-scams/port-fraud-and-sim-swaps"">Rogers: Port fraud and SIM swaps</a>
-</li><li><a href=""https://www.telus.com/en/wise/resources/content/article/sim-swap-scam-what-you-should-know"">TELUS: SIM swap scam: what you should know</a>
-</li><li><a href=""https://support.bell.ca/billing-and-accounts/security_and_privacy/how-to-protect-yourself-from-telecom-fraud"">Bell: How to protect yourself from telecom fraud</a>
-</li></ul>
-<h2 id=""w_best-practices-for-account-security"">Best practices for account security</h2>
-<ul><li>Use a <a href=""/en-US/kb/password-strength"">strong, unique password</a> for your Mozilla account and associated email accounts.
-</li><li><a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Enable two-step authentication</a> and keep your recovery options updated.
-</li><li>Regularly review your account’s security settings; see <a href=""/en-US/kb/review-mozilla-account-activity-and-protect-data"">Review your Mozilla account activity and protect your data</a>.
-</li></ul>
-<p>By taking these steps, you’ll ensure your Mozilla account remains secure and protected from unauthorized access.
-</p>",mozilla-account,passwords-and-sign-in;two-factor-authentication,"Two-step authentication, also known as two-factor authentication (2FA), adds an extra layer of security to your Mozilla account. Even if someone gets hold of your password, they won’t be able to access your account without a second factor of authentication. This second factor ensures that your account stays protected, even in the case of compromised credentials. By enabling 2FA, you greatly reduce the risk of unauthorized access, helping keep your personal data and browsing history safe.
-
-## Table of Contents
-
-- [1 How to set up two-step authentication](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_how-to-set-up-two-step-authentication)
-- [2 Recovery options for two-step authentication](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_recovery-options-for-two-step-authentication)
-  - [2.1 Recovery methods during 2FA setup](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_recovery-methods-during-2fa-setup)
-  - [2.2 Backup authentication codes](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_backup-authentication-codes)
-  - [2.3 Recovery phone](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_recovery-phone)
-    - [2.3.1 Changing or adding recovery methods](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_changing-or-adding-recovery-methods)
-    - [2.3.2 Comparing recovery methods for two-step authentication](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_comparing-recovery-methods-for-two-step-authentication)
-    - [2.3.3 Understanding SIM swap risk](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_understanding-sim-swap-risk)
-
-  - [2.4 Best practices for account security](https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication#w_best-practices-for-account-security)
-
-# How to set up two-step authentication
-
-1. Sign in to your [Mozilla account](https://accounts.firefox.com) and enable two-step authentication in the security section to enable this feature.
-2. Set up an authenticator app. Use a trusted app like Google Authenticator ([Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), [iOS & macOS](https://apps.apple.com/us/app/google-authenticator/id388497605)) or Twilio Authy Authenticator ([Android](https://play.google.com/store/apps/details?id=com.authy.authy), [iOS & macOS](https://apps.apple.com/us/app/twilio-authy/id494168017)) to generate codes for signing in and be sure to download your backup authentication codes.
-  - For more information on enabling two-step authentication, head over to [Set up two-factor authentication on your Mozilla account](\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication"").
-
-# Recovery options for two-step authentication
-
-If you lose access to your authenticator app or device, recovery methods ensure you can regain access to your account.
-
-## Recovery methods during 2FA setup
-
-To enable two-step authentication (2FA) on your Mozilla account, you must set up at least one recovery method – either backup authentication codes or a recovery phone. If you do not complete setup of a recovery method, 2FA will not be enabled, even if you complete other steps.
-
-Some users may be prompted to choose between backup codes and a recovery phone number when initially setting up 2FA. If you choose to set up a recovery phone, you will not automatically receive backup codes. However, you can add or switch recovery methods at any time through your account settings once 2FA is enabled.
-
-## Backup authentication codes
-
-When you set up 2FA and choose backup codes as your recovery method, you’ll receive a set of 10-character backup authentication codes to save in a secure location. Each code can be used once to sign in to your account if you lose access to your authenticator app.
-
-**Note:** These are not the same as [account recovery keys](\""https://support.mozilla.org/en-US/kb/reset-your-firefox-account-password-recovery-keys#w_generate-and-store-your-account-recovery-key"") (related to sync data recovery) or one-time codes sent by email or SMS.
-
-- **How to access:** You can view and download your backup authentication codes when you set up two-step authentication. If you lose them, you can generate a new set from your [account settings](https://accounts.firefox.com/settings#two-step-authentication).
-- **Pro tip:** Store these codes in a secure location like a password manager or a physical safe.
-
-## Recovery phone
-
-This feature, initially available to users in the US and Canada, allows you to add a recovery phone number to your account. If you lose access to your authenticator app, you can request a one-time password (OTP) via SMS to regain access to your Mozilla account.
-
-![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users.
-
-**How to add a recovery phone**  
-  
-You can add a recovery phone either during initial two-step authentication (2FA) setup or afterward in your Mozilla account settings.
-
-- **During initial 2FA setup**  
-If eligible, you will be prompted to choose between backup authentication codes and recovery phone during 2FA setup. Select **Recovery phone** and follow the steps to enter your phone number and verify it with a one-time password (OTP) sent by SMS.
-- **After 2FA setup**
-  1. Go to the [Security section](https://accounts.firefox.com/settings#security) of your Mozilla account settings.
-  2. Under Two-step authentication, look for the Recovery phone option.
-  3. Add your phone number and verify it by entering the OTP sent to your phone.
-
-**Note** : If you don’t see the option for a recovery phone, it means the feature is not currently available for your account.
-
-**Important:** Your recovery phone number should belong to you and be kept up to date to ensure you can regain access to your account.
-
-### Changing or adding recovery methods
-
-After enabling 2FA, you can always add, remove, or switch between backup codes and recovery phone in your Mozilla account settings.
-
-### Comparing recovery methods for two-step authentication
-
-<caption>
-</caption>
-| Feature | Backup authentication codes (Safest) | Recovery phone (Easiest) |
-| --- | --- | --- |
-| Availability | Global | Canada and USA only |
-| Usage | One-time use per code | One-time use per code, valid for 5 minutes |
-| Ease of access | Requires access to pre-stored codes, risk of losing the codes | Convenient if phone available, but requires active network connection |
-| Security | Risk if codes lost or stored in unsecured location | Vulnerable to SIM swap attack |
-
-### Understanding SIM swap risk
-
-SIM swap attacks occur when a malicious actor convinces your mobile carrier to transfer your phone number to their SIM card. Once they have control of your phone number, they can intercept messages, including one-time passwords (OTPs), used for account recovery. This makes phone-based recovery methods more vulnerable than offline options like backup authentication codes.
-
-To mitigate SIM swap risks, ensure your mobile carrier account is secured with a strong password and, if available, its own two-step authentication (2FA).
-
-Most major cellular providers publish steps you can take to protect your devices on their help centers. You can find a few below:
-
-- [AT&T: What You Need to Know About SIM Swap Scams – AT&T Cyber Aware](https://about.att.com/pages/cyberaware/ni/blog/sim_swap)
-- [Verizon: What is a SIM Swapping Scam? Protect Your Device Against SIM Hackers](https://www.verizon.com/about/account-security/sim-swapping)
-- [T-Mobile: Protect your T-Mobile account from fraud](https://www.t-mobile.com/support/plans-features/help-with-t-mobile-account-fraud)
-- [Rogers: Port fraud and SIM swaps](https://www.rogers.com/support/cyber-security/fraud-scams/port-fraud-and-sim-swaps)
-- [TELUS: SIM swap scam: what you should know](https://www.telus.com/en/wise/resources/content/article/sim-swap-scam-what-you-should-know)
-- [Bell: How to protect yourself from telecom fraud](https://support.bell.ca/billing-and-accounts/security_and_privacy/how-to-protect-yourself-from-telecom-fraud)
-
-## Best practices for account security
-
-- Use a [strong, unique password](\""https://support.mozilla.org/en-US/kb/password-strength"") for your Mozilla account and associated email accounts.
-- [Enable two-step authentication](\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication"") and keep your recovery options updated.
-- Regularly review your account’s security settings; see [Review your Mozilla account activity and protect your data](\""https://support.mozilla.org/en-US/kb/review-mozilla-account-activity-and-protect-data"").
-
-By taking these steps, you’ll ensure your Mozilla account remains secure and protected from unauthorized access.
-
-"
-66848,Crash reports in Firefox for iOS,ios-crash-reports-pref,https://support.mozilla.org/en-US/kb/ios-crash-reports-pref,en-US,"Learn how Firefox for iOS handles crash reports, what data is collected, how it’s used, and how to manage the setting to automatically send crash reports.","<p></p><div class=""note""> 
-<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-Firefox handles data with transparency—learn more about what that means for you. <a href=""https://www.mozilla.org/privacy/firefox/"">Read the Firefox Privacy Notice</a>.
-</p>
-</div>
-When Firefox for iOS crashes, it can send a crash report to Mozilla and Apple’s App Store to help identify and fix bugs.
-<p></p><p>This article explains what’s included in a crash report, how Mozilla uses it, and how you can manage the setting to automatically send crash reports.
-</p>
-<h1 id=""w_whats-included-in-a-crash-report"">What’s included in a crash report?</h1>
-<p>Crash reports contain technical information to help Mozilla and Apple identify and fix problems. They include:
-</p>
-<ul><li><strong>App data:</strong>
-<ul><li>App version
-</li><li>Crash stack trace (technical details about the code running at the time of the crash)
-</li></ul>
-</li><li><strong>Device data:</strong>
-<ul><li>Device model (for example, iPhone 15 Pro Max)
-</li><li>iOS version and connection type (Wi-Fi or cellular)
-</li><li>Screen resolution, available storage and architecture (for example, arm64e)
-</li></ul>
-</li><li><strong>System context:</strong>
-<ul><li>UTC timestamps
-</li></ul>
-<dl><dt><div class=""note""><strong>Important:</strong> Crash reports sent from Firefox for iOS do not include information like your browsing history, search queries or saved passwords.</div>
-</dt></dl>
-</li></ul>
-<h1 id=""w_where-are-crash-reports-sent"">Where are crash reports sent?</h1>
-<p>Firefox for iOS sends crash reports to:
-</p>
-<ul><li><strong>Mozilla</strong> via <a href=""https://sentry.io/privacy/"">Sentry</a>: This helps Firefox engineers analyze and prioritize fixes.
-</li><li><strong>Apple’s App Store:</strong> As required by Apple, crash reports are submitted to Apple’s servers for <a href=""https://developer.apple.com/documentation/analytics-reports/app-crashes"">app diagnostics</a>.
-</li></ul>
-<h1 id=""w_how-does-mozilla-use-crash-reports"">How does Mozilla use crash reports?</h1>
-<p>Mozilla uses crash reports to fix bugs by understanding what caused the crash and prioritizing fixes, improve reliability by identifying trends to make Firefox more stable, and enhance user experience by ensuring future updates are less likely to crash. These reports are processed through <a href=""https://sentry.io/privacy/"">Sentry</a>, a third-party crash analytics service.
-</p>
-<h1 id=""w_how-to-manage-crash-report-settings"">How to manage crash report settings</h1>
-<h2 id=""w_disable-or-re-enable-automatic-crash-reports"">Disable or re-enable automatic crash reports</h2>
-<p>Crash reports are automatically sent by default in Firefox for iOS. You can turn them off or re-enable them at any time.
-</p>
-<ol><li>Open Firefox and tap the menu button ≡ at the bottom of the screen.
-</li><li>Select <span class=""menu"">Settings</span>.
-</li><li>Scroll down to the <em>Support</em> section.
-</li><li>Toggle the <strong>Automatically Send Crash Reports</strong> option on or off.
-<dl><dt><img alt=""crash report  iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-12-55-57-e85ae0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-<h2 id=""w_if-automatic-crash-reports-are-disabled"">If automatic crash reports are disabled</h2>
-<p>If you turn off automatic crash reporting on iOS, Firefox won’t prompt you after a crash, and no reports will be sent.
-</p>
-<h1 id=""w_related-content"">Related content</h1>
-<p>To learn more about how Mozilla handles your data, check out these resources:
-</p>
-<ul><li><a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>
-</li><li><a href=""/en-US/kb/manage-firefox-data-collection-privacy-settings"">Manage Firefox data collection and privacy settings</a>
-</li><li><a href=""/en-US/kb/usage-ping-settings"">Manage daily usage ping data collection settings in Firefox</a>
-</li></ul>",ios,performance-and-connectivity,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)Firefox handles data with transparency—learn more about what that means for you. [Read the Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-When Firefox for iOS crashes, it can send a crash report to Mozilla and Apple’s App Store to help identify and fix bugs.
-
-This article explains what’s included in a crash report, how Mozilla uses it, and how you can manage the setting to automatically send crash reports.
-
-# What’s included in a crash report?
-
-Crash reports contain technical information to help Mozilla and Apple identify and fix problems. They include:
-
-- **App data:**
-  - App version
-  - Crash stack trace (technical details about the code running at the time of the crash)
-
-- **Device data:**
-  - Device model (for example, iPhone 15 Pro Max)
-  - iOS version and connection type (Wi-Fi or cellular)
-  - Screen resolution, available storage and architecture (for example, arm64e)
-
-- **System context:**
-  - UTC timestamps
-
-<dl><dt>
-<div class=""note"">
-<strong>Important:</strong> Crash reports sent from Firefox for iOS do not include information like your browsing history, search queries or saved passwords.</div>
-</dt></dl>
-
-# Where are crash reports sent?
-
-Firefox for iOS sends crash reports to:
-
-- **Mozilla** via [Sentry](https://sentry.io/privacy/): This helps Firefox engineers analyze and prioritize fixes.
-- **Apple’s App Store:** As required by Apple, crash reports are submitted to Apple’s servers for [app diagnostics](https://developer.apple.com/documentation/analytics-reports/app-crashes).
-
-# How does Mozilla use crash reports?
-
-Mozilla uses crash reports to fix bugs by understanding what caused the crash and prioritizing fixes, improve reliability by identifying trends to make Firefox more stable, and enhance user experience by ensuring future updates are less likely to crash. These reports are processed through [Sentry](https://sentry.io/privacy/), a third-party crash analytics service.
-
-# How to manage crash report settings
-
-## Disable or re-enable automatic crash reports
-
-Crash reports are automatically sent by default in Firefox for iOS. You can turn them off or re-enable them at any time.
-
-1. Open Firefox and tap the menu button ≡ at the bottom of the screen.
-2. Select Settings.
-3. Scroll down to the _Support_ section.
-4. Toggle the **Automatically Send Crash Reports** option on or off.<dl><dt>
-<img alt=""crash report iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-12-55-57-e85ae0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-## If automatic crash reports are disabled
-
-If you turn off automatic crash reporting on iOS, Firefox won’t prompt you after a crash, and no reports will be sent.
-
-# Related content
-
-To learn more about how Mozilla handles your data, check out these resources:
-
-- [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/)
-- [Manage Firefox data collection and privacy settings](\""https://support.mozilla.org/en-US/kb/manage-firefox-data-collection-privacy-settings"")
-- [Manage daily usage ping data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/usage-ping-settings"")
-
-"
 66886,Firefox security features warning on Linux,linux-security-warning,https://support.mozilla.org/en-US/kb/linux-security-warning,en-US,Create an AppArmor profile for Firefox on Linux.,"<p>
 </p><p>You may see a warning that “some of Firefox’s security features may offer less protection on your current operating system” when you <a href=""/en-US/kb/install-firefox-linux"">install Firefox on Linux</a>.
 </p><p>The sandbox in Firefox makes use of unprivileged user namespaces when creating new processes for enforcing more security. This can be considered a security risk, therefore some Linux distributions have started to restrict its usage and only allow it to work where there is an AppArmor profile.
@@ -115894,7 +115813,7 @@ If you use the Mozilla VPN app, open the app and go to <strong>Help</strong> &gt
 You can also visit the <a href=""https://support.mozilla.org/en-US/products/mozilla-vpn"">Mozilla VPN support page</a>.
 </p>
 </div>
-<div class=""note""> 
+<div class=""note"">
 <p><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 </p>
@@ -115963,7 +115882,7 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 </li><li>VPN protection will be unavailable until your data resets
 </li></ul>
 <p>Your data resets at the <strong>start of the next calendar month</strong>.
-</p><p>If you need more data, you can subscribe to <a href=""https://www.mozilla.org/en-US/products/vpn/"">Mozilla VPN</a> for unlimited usage.
+</p><p>If you need more data, you can subscribe to <a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN</a> for unlimited usage.
 </p>
 <h1 id=""w_disable-vpn-in-firefox"">Disable VPN in Firefox</h1>
 <p>While you can activate/deactivate VPN for specific sites in Firefox, you can also completely disable it.
@@ -116138,7 +116057,7 @@ The built-in VPN includes a 50 GB monthly data limit.
 
 Your data resets at the **start of the next calendar month**.
 
-If you need more data, you can subscribe to [Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/) for unlimited usage.
+If you need more data, you can subscribe to [Mozilla VPN](https://www.mozilla.org/products/vpn/) for unlimited usage.
 
 # Disable VPN in Firefox
 
