@@ -11152,7 +11152,7 @@ If you need more help, you can always [get community support](\""https://support
 <p>
 </p>
 <ol><li> Go to the <a href=""https://www.firefox.com/browsers/desktop/linux/?utm_medium=referral&amp;utm_source=support.mozilla.org"">Firefox download page</a>, and click <span class=""button"">Download for Linux 64-bit</span> or <span class=""button"">Download for Linux ARM64</span>.
-<ul><li> You can also click the <a href=""https://www.firefox.com/en-US/download/all"">All Firefox Downloads</a> link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
+<ul><li> You can also click the <a href=""https://www.firefox.com/download/all"">All Firefox Downloads</a> link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
 </li></ul>
 </li><li> Open a terminal, and go to the folder where your download has been saved. For example:
 <dl><dt> <code><strong>cd ~/Downloads</strong></code>
@@ -11180,7 +11180,7 @@ If you need more help, you can always [get community support](\""https://support
 <h2 id=""w_local-firefox-installation-in-users-account"">Local Firefox installation in user's account</h2>
 <div class=""note"">If you don't have access to login as root or execute <code><strong>sudo</strong></code> commands, or just prefer to use a local Firefox in your account, you can make a local installation. You can also do this to have multiple Firefox installations for different builds.</div>
 <ol><li> Go to the <a href=""https://www.firefox.com/browsers/desktop/linux/?utm_medium=referral&amp;utm_source=support.mozilla.org"">Firefox download page</a>, and click <span class=""button"">Download for Linux 64-bit</span> or <span class=""button"">Download for Linux ARM64</span>.
-<ul><li> You can also click the <a href=""https://www.firefox.com/en-US/download/all"">All Firefox Downloads</a> link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
+<ul><li> You can also click the <a href=""https://www.firefox.com/download/all"">All Firefox Downloads</a> link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
 </li></ul>
 </li><li> Open a terminal, and go to the folder where your download has been saved. For example:
 <dl><dt> <code><strong>cd ~/Downloads</strong></code>
@@ -11559,7 +11559,7 @@ This installation will have priority over the Firefox version installed through 
 `/usr/bin/firefox`
 
 1. Go to the [Firefox download page](https://www.firefox.com/browsers/desktop/linux/?utm_medium=referral&utm_source=support.mozilla.org), and click Download for Linux 64-bit or Download for Linux ARM64.
-  - You can also click the [All Firefox Downloads](https://www.firefox.com/en-US/download/all) link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
+  - You can also click the [All Firefox Downloads](https://www.firefox.com/download/all) link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
 
 2. Open a terminal, and go to the folder where your download has been saved. For example:<dl><dt> <code><strong>cd ~/Downloads</strong></code>
 </dt></dl>
@@ -11587,7 +11587,7 @@ To verify that the installation was successful, you can open the [Troubleshootin
 If you don't have access to login as root or execute `sudo` commands, or just prefer to use a local Firefox in your account, you can make a local installation. You can also do this to have multiple Firefox installations for different builds.
 
 1. Go to the [Firefox download page](https://www.firefox.com/browsers/desktop/linux/?utm_medium=referral&utm_source=support.mozilla.org), and click Download for Linux 64-bit or Download for Linux ARM64.
-  - You can also click the [All Firefox Downloads](https://www.firefox.com/en-US/download/all) link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
+  - You can also click the [All Firefox Downloads](https://www.firefox.com/download/all) link to choose another release/edition: Nightly, Beta, Developer or Extended Support Release (ESR).
 
 2. Open a terminal, and go to the folder where your download has been saved. For example:<dl><dt> <code><strong>cd ~/Downloads</strong></code>
 </dt></dl>
@@ -42455,6 +42455,33 @@ We will continue to add additional BadgeKit features throughout 2014, including 
 You can apply for access to the private beta hosted version of BadgeKit at [http://www.badgekit.org](http://www.badgekit.org), or grab the code for each tool from [Github](https://github.com/mozilla/openbadges-badgekit).
 
 "
+19093,Who is BadgeKit for?,badgekit-who,https://support.mozilla.org/en-US/kb/badgekit-who,en-US,Who can use Mozilla BadgeKit?,"<p>Mozilla BadgeKit is currently in private beta and can be used by any issuing  organization that meets specific technical requirements. It is aimed at  organizations that  are building full badge systems and want to leverage their own sites and  systems on the front end, as well as have access to technology  resources. Tool providers might also be interested in leveraging BadgeKit to extend their own tools, or build additional customizations on top of BadgeKit.
+</p><p>You can apply for access to the private beta hosted version of BadgeKit at <a href=""http://www.badgekit.org"">http://www.badgekit.org</a>, or grab the code for each tool from <a href=""https://github.com/mozilla/openbadges-badgekit"">Github</a>.
+</p>",open-badges,badgekit,"Mozilla BadgeKit is currently in private beta and can be used by any issuing organization that meets specific technical requirements. It is aimed at organizations that are building full badge systems and want to leverage their own sites and systems on the front end, as well as have access to technology resources. Tool providers might also be interested in leveraging BadgeKit to extend their own tools, or build additional customizations on top of BadgeKit.
+
+You can apply for access to the private beta hosted version of BadgeKit at [http://www.badgekit.org](http://www.badgekit.org), or grab the code for each tool from [Github](https://github.com/mozilla/openbadges-badgekit).
+
+"
+19094,Where is technical documentation for BadgeKit?,technical-documentation-badgekit,https://support.mozilla.org/en-US/kb/technical-documentation-badgekit,en-US,Technical documentation for Mozilla BadgeKit.,"<p>Our code base and technical documentation can be found here: <a href=""https://github.com/mozilla/openbadges-badgekit"">https://github.com/mozilla/openbadges-badgekit</a>
+</p><p>The progress roadmap can be found here: <a href=""https://github.com/mozilla/openbadges-badgekit/wiki/Milestone-Roadmap-Q1-Q2-2014"">https://github.com/mozilla/openbadges.../Milestone-Roadmap-Q1-Q2-2014</a>
+</p><p>For an overview of the tools within BadgeKit, see this <a href=""https://github.com/mozilla/openbadges-badgekit/wiki/BadgeKit-Tutorial"">BadgeKit Tutorial</a>.
+</p>",open-badges,badgekit,"Our code base and technical documentation can be found here: [https://github.com/mozilla/openbadges-badgekit](https://github.com/mozilla/openbadges-badgekit)
+
+The progress roadmap can be found here: [https://github.com/mozilla/openbadges.../Milestone-Roadmap-Q1-Q2-2014](https://github.com/mozilla/openbadges-badgekit/wiki/Milestone-Roadmap-Q1-Q2-2014)
+
+For an overview of the tools within BadgeKit, see this [BadgeKit Tutorial](https://github.com/mozilla/openbadges-badgekit/wiki/BadgeKit-Tutorial).
+
+"
+19127,What is a Mozilla Backpack?,what-is-a-mozilla-backpack,https://support.mozilla.org/en-US/kb/what-is-a-mozilla-backpack,en-US,"Set up your Backpack to allow you to store, organize, and share your open badges.","<p><em>Earn badges from anywhere. Then take them everywhere.</em> 
+</p><p>Your <a href=""http://backpack.openbadges.org/"">Mozilla Backpack</a> makes it easy to earn badges from multiple sources, both  online and  offline, then sort them into categories and choose where  they’re shared, through a single interface. 
+</p><p>Badges stored in your Backpack are private by default, meaning they are visible only to you - unless you want to show them off! By managing your badges in your Mozilla Backpack, you can create meaningful collections and display your badges on social networking and job sites.
+</p>",open-badges,earn-badges,"_Earn badges from anywhere. Then take them everywhere._
+
+Your [Mozilla Backpack](http://backpack.openbadges.org/) makes it easy to earn badges from multiple sources, both online and offline, then sort them into categories and choose where they’re shared, through a single interface.
+
+Badges stored in your Backpack are private by default, meaning they are visible only to you - unless you want to show them off! By managing your badges in your Mozilla Backpack, you can create meaningful collections and display your badges on social networking and job sites.
+
+"
 19128,Where can I earn badges?,where-can-i-earn-badges,https://support.mozilla.org/en-US/kb/where-can-i-earn-badges,en-US,Details on where to go to earn open badges.,"<p><strong>Want to get started?</strong> 
 </p>
 <ul><li> Take the badges 101 quiz and earn a badge in the process: <a href=""http://openbadges.org/earn/"">http://openbadges.org/earn/</a>
@@ -57259,6 +57286,101 @@ Here you can choose between the Standard and Strict options of this capability, 
 - [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"")
 
 "
+37831,I can’t play audio on a Remote Desktop Connection,i-cant-play-audio-remote-desktop-connection,https://support.mozilla.org/en-US/kb/i-cant-play-audio-remote-desktop-connection,en-US,How to solve a known issue with audio playback when you use Firefox on a Remote Desktop Connection.,"<p>If you are on a Remote Desktop Connection (RDP) on Windows, audio playback will be disabled due to increased security restrictions. This is a known issue since Firefox version 56 that we are working hard to fix. 
+</p><p>In the meantime, you can reduce the sandbox security level by following these steps:
+</p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
+<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
+<p></p>
+<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+</li><li> Search for the <span class=""pref"">security.sandbox.content.level</span> preference.
+</li><li> Click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to the preference and set its value to <span class=""pref"">2</span>.
+</li><li> Click on the checkmark <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to save the change.
+</li><li> Restart Firefox on the remote device.
+</li></ol>",firefox,audio-and-video;browse,"If you are on a Remote Desktop Connection (RDP) on Windows, audio playback will be disabled due to increased security restrictions. This is a known issue since Firefox version 56 that we are working hard to fix.
+
+In the meantime, you can reduce the sandbox security level by following these steps:
+
+**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
+**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
+
+1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
+2. Search for the security.sandbox.content.level preference.
+3. Click the _Edit_ ![Fx71aboutconfig-EditButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to the preference and set its value to 2.
+4. Click on the checkmark ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to save the change.
+5. Restart Firefox on the remote device.
+
+"
+38010,Connection settings in Firefox,connection-settings-firefox,https://support.mozilla.org/en-US/kb/connection-settings-firefox,en-US,Your organization or Internet Service Provider may offer or require you to use a proxy to connect to the Internet. Learn more.,"<p>Your organization or Internet service provider may offer or require you to use a <a href=""https://wikipedia.org/wiki/Proxy_server"">proxy</a>. A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+</p><p>Connection settings to use a proxy can be set in Firefox Settings
+ as follows:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> In the <span class=""menu"">General</span> panel, go to the <span class=""for"" data-for=""not fx149""><em>Network Settings</em></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
+<dl><dt><span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<ul><li> <strong>No proxy</strong>:  Choose this if you don't want to use a proxy.
+</li><li> <strong>Auto-detect proxy settings for this network</strong>: Choose this if you want Firefox to automatically detect the proxy settings for your network.
+</li><li> <strong>Use system proxy settings</strong>:  Choose this if you want to use the proxy settings configured for your operating system.
+</li><li> <strong>Manual proxy configuration</strong>: Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+<ul><li> If the same proxy name and port number are used for all protocols, check <strong>Also use this proxy for HTTPS</strong>.
+</li></ul>
+</li><li> <strong>Automatic proxy configuration URL</strong>: Choose this if you have a <a href=""http://en.wikipedia.org/wiki/Proxy_auto-config"">proxy configuration</a> (<code>.pac</code>) file. Enter the URL and click okay to save changes and load the proxy configuration. <em>file:</em> and <em>data:</em> schemes can also be used here (for example, <strong><code>file:///c:/proxy.pac</code></strong> or <strong><code>data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}</code></strong>).
+<ul><li> <span class=""button"">Reload</span>: The reload button will load the currently available proxy configuration.
+</li></ul>
+</li><li> <strong>No Proxy For</strong>: List of hostnames or IP addresses that will not be proxied. Use <strong>&lt;local&gt;</strong> to bypass proxying for all hostnames which do not contain periods.
+</li></ul>
+<div class=""note""><strong>Note:</strong> The <em>Connection Settings</em> dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking <span class=""button"">Disable Extension</span>.</div>
+<h1 id=""w_related-content"">Related content</h1>
+<p>To configure <a href=""/en-US/kb/firefox-dns-over-https"">DNS over HTTPs (DoH)</a> connection settings, see <a href=""/en-US/kb/dns-over-https"">Configure DNS over HTTPS protection levels in Firefox</a>.
+</p>",firefox,performance-and-connectivity;settings,"Your organization or Internet service provider may offer or require you to use a [proxy](https://wikipedia.org/wiki/Proxy_server). A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+
+Connection settings to use a proxy can be set in Firefox Settings as follows:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panel, go to the _Network Settings_ **Proxy settings** section.
+3. Click Settings…Configure proxy. The _Connection Settings_ dialog will open.<dl><dt>
+<span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- **No proxy** : Choose this if you don't want to use a proxy.
+- **Auto-detect proxy settings for this network** : Choose this if you want Firefox to automatically detect the proxy settings for your network.
+- **Use system proxy settings** : Choose this if you want to use the proxy settings configured for your operating system.
+- **Manual proxy configuration** : Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+  - If the same proxy name and port number are used for all protocols, check **Also use this proxy for HTTPS**.
+
+- **Automatic proxy configuration URL** : Choose this if you have a [proxy configuration](http://en.wikipedia.org/wiki/Proxy_auto-config) (`.pac`) file. Enter the URL and click okay to save changes and load the proxy configuration. _file:_ and _data:_ schemes can also be used here (for example, **`file:///c:/proxy.pac`** or **`data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}`**).
+  - Reload: The reload button will load the currently available proxy configuration.
+
+- **No Proxy For** : List of hostnames or IP addresses that will not be proxied. Use **\<local\>** to bypass proxying for all hostnames which do not contain periods.
+
+**Note:** The _Connection Settings_ dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking Disable Extension.
+
+# Related content
+
+To configure [DNS over HTTPs (DoH)](\""https://support.mozilla.org/en-US/kb/firefox-dns-over-https"") connection settings, see [Configure DNS over HTTPS protection levels in Firefox](\""https://support.mozilla.org/en-US/kb/dns-over-https"").
+
+"
+38116,Add web page shortcuts to your Home screen,add-web-page-shortcuts-your-home-screen,https://support.mozilla.org/en-US/kb/add-web-page-shortcuts-your-home-screen,en-US,Firefox Focus lets you add shortcuts to your favorite home pages on your Android home screen.,"<p>Firefox Focus makes it easy to access your favorite web pages by adding them to the Home screen on your Android phone:
+</p>
+<ol><li>Go to the page you want to add to your Home screen.
+</li><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Add to Home screen</span>.
+</li></ol>",focus-firefox,browse;home-screen,"Firefox Focus makes it easy to access your favorite web pages by adding them to the Home screen on your Android phone:
+
+1. Go to the page you want to add to your Home screen.
+2. Tap the menu button next to the address bar:
+
+3. Tap Add to Home screen.
+
+"
 38171,Add the Search bar to your Firefox toolbar,add-search-bar-firefox-toolbar,https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar,en-US,You can search the Web from the address bar or from the New Tab page. You can also add a separate Search bar to Firefox.  Learn how.,"<p>You can use the Search bar on the <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a> or you can <a href=""/en-US/kb/search-firefox-address-bar"">search the Web from the address bar</a>. <span class=""for"" data-for=""not fx122"">You can also <a href=""/en-US/kb/change-your-default-search-settings-firefox"">change your search settings in Firefox</a> to add a separate Search bar next to the address bar.</span><span class=""for"" data-for=""fx122"">You can also customize Firefox to add a separate Search bar to your Firefox toolbar.</span>
 </p><p><img alt=""add search bar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-21-19-29-29-77093e.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </p><div class=""for"" data-for=""not fx122""><p>Follow these steps to add a Search bar to your Firefox toolbar:
@@ -62345,45 +62467,6 @@ To learn more about the privacy principles that guide Mozilla's mission, visit:
 </p>",klar,firefox-klar-android,"This version 7 upgrade brings you Firefox Klar powered by our new and improved ""GeckoView"" browser engine which allows us to bring you a faster and more secure browsing experience.
 
 Older versions of Firefox Klar were built on the native Android Webview browser engine, which allowed us to expedite its early development, but limited its growth. While this new GeckoView engine increases Firefox Klar's size from 4MB to 38MB, we are committed to keep it as streamlined as possible. GeckoView will allow faster updates so you can get new features powered by GeckoView soon.
-
-"
-41066,Search suggestions in Firefox Focus for Android,search-suggestions-firefox-focus-android,https://support.mozilla.org/en-US/kb/search-suggestions-firefox-focus-android,en-US,Search suggestions in Firefox Focus,"<p>
-</p><p>As you type into the address or search bar, Firefox Focus will recommend popular searches that match what you're typing.
-</p><p>When you type text into the address bar for the first time, Firefox Focus will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
-</p>
-<ol><li>Open Firefox and go to the Home screen.
-</li><li>Tap the three dots in the top right side of the screen.
-</li><li>Tap Settings.
-</li><li>Tap Search.
-</li><li> Tap the toggle next to ""Get search suggestions"".
-</li></ol>",focus-firefox,search;search-tag-and-share,"As you type into the address or search bar, Firefox Focus will recommend popular searches that match what you're typing.
-
-When you type text into the address bar for the first time, Firefox Focus will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
-
-1. Open Firefox and go to the Home screen.
-2. Tap the three dots in the top right side of the screen.
-3. Tap Settings.
-4. Tap Search.
-5. Tap the toggle next to ""Get search suggestions"".
-
-"
-41067,Search suggestions in Firefox Klar for Android,search-suggestions-firefox-klar-android,https://support.mozilla.org/en-US/kb/search-suggestions-firefox-klar-android,en-US,Search suggestions in Firefox Klar.,"<p>As you type into the address or search bar, Firefox Klar will recommend popular searches that match what you're typing.
-</p><p>When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
-</p>
-<ol><li>Open Firefox and go to the Home screen.
-</li><li>Tap the three dots in the top right side of the screen.
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Go to <span class=""menu"">Search</span>.
-</li><li> Tap the toggle next to ""Get search suggestions"".
-</li></ol>",klar,firefox-klar-android,"As you type into the address or search bar, Firefox Klar will recommend popular searches that match what you're typing.
-
-When you type text into the address bar for the first time, Firefox Klar will ask if you want to turn on search suggestions. Afterwards, you can change this setting at any time:
-
-1. Open Firefox and go to the Home screen.
-2. Tap the three dots in the top right side of the screen.
-3. Tap Settings.
-4. Go to Search.
-5. Tap the toggle next to ""Get search suggestions"".
 
 "
 41090,Recommendations from Firefox,recommendations-firefox,https://support.mozilla.org/en-US/kb/recommendations-firefox,en-US,"This article describes why and how extension recommendations are made, including how to turn off recommendations.","<p>While you're exploring the web with Firefox, the browser may present you with suggestions for features and extensions, tailored to enhance your online experience. These recommendations are carefully curated based on the categories of websites you visit, such as suggesting media-related tools if you often access media sites, without the need to track your visits to individual websites.
@@ -83422,6 +83505,277 @@ If you're sharing a link by email, Firefox will use your system's default email 
 </dt></dl>
 
 To learn more, visit [Manage saved passwords in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/manage-saved-passwords-firefox-ios"").
+
+"
+55150,How to restore a browsing session from backup,how-restore-browsing-session-backup,https://support.mozilla.org/en-US/kb/how-restore-browsing-session-backup,en-US,There are special situations where a Firefox browsing session may be lost. This article will show you how to recover your lost session.,"<p>This article explains how to recover a lost browsing session. See <a href=""/en-US/kb/restore-previous-session"">Restore previous session - Configure when Firefox shows your most recent tabs and windows</a> for additional information. 
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_check-aboutsessionrestore""><span class=""tocnumber"">1</span> <span class=""toctext"">Check about:sessionrestore</span></a></li><li class=""toclevel-1""><a href=""#w_restoring-from-a-backup-file""><span class=""tocnumber"">2</span> <span class=""toctext"">Restoring from a backup file</span></a></li><li class=""toclevel-1""><a href=""#w_conclusion""><span class=""tocnumber"">3</span> <span class=""toctext"">Conclusion</span></a></li></ul></div>
+<h1 id=""w_check-aboutsessionrestore"">Check about:sessionrestore</h1>
+<p>If a session is lost, hopefully the restore pages open automatically, but, if not, enter <strong>about:sessionrestore</strong> in the address bar and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>. Your page should look similar to this:
+</p>
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Fx97RestoreSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-25-15-42-48-a0f513.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-13-02-dae058.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>If this page is empty or the <span class=""button"">Restore Session</span> is disabled, continue reading.
+</p>
+<h1 id=""w_restoring-from-a-backup-file"">Restoring from a backup file</h1>
+<p>
+</p><div class=""for"" data-for=""win10,win11"">
+<ol><li> Open the <a href=""/en-US/kb/use-troubleshooting-information-page-fix-firefox"">Troubleshooting Information page</a> by entering <strong>about:support</strong> in the Firefox address bar.
+</li><li> In the <em>Application Basics</em> section, check the <em>Distribution ID</em> line.
+<ul><li> If it contains <em>mozilla-MSIX</em>, this means you are using the MSIX (Microsoft Store) Firefox version.<br><img alt=""Firefox_about:support_Profile folder name"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-33-28-dab626.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>In this case:
+<ol><li> Press the <em>Windows</em> key <span class=""for"" data-for=""win10""><span class=""key""><img alt=""windowskey-win10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-24-05-55-55-8be835.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""15""></span></span><span class=""for"" data-for=""win11""><span class=""key""><img alt=""Windows11Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-24-10-04-48-14f566.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""15""></span></span>+<span class=""key"">R</span> on the keyboard. A Run dialog will open.
+</li><li> Type in:<br><strong>%LOCALAPPDATA%\Packages\Mozilla.Firefox</strong><br>without pressing <span class=""key"">Enter</span>. A list of an only folder will appear.
+</li><li> Click on the suggested folder. Then add:<br><strong>\LocalCache\Roaming\Mozilla\Firefox\Profiles\</strong>
+</li><li> Click <span class=""button"">OK</span>. A window will open containing profile folders.
+</li><li> Open the folder which name matches the ending of the <em>Profile Folder</em> line of the <em>Application Basics</em> section.
+</li></ol>
+</li><li> Otherwise, click the <span class=""button"">Open Folder</span> button in the <em>Profile Folder</em> line of the <em>Application Basics</em> section.
+<dl><dt><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ul>
+</li><li> A file system view of your profile folder will show up.
+</li><li> In the profile folder (for example, <span class=""filepath"">xxxxxxxx.default-release</span>), if you scroll down a bit, you should see the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Make a copy of the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+</li><li> Move the file called <span class=""filepath"">sessionstore.jsonlz4</span> to another location (like your desktop). Moving rather than deleting is a precautionary step.
+<dl><dt><div class=""note""><strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+</li><li> Navigate to the <span class=""filepath"">sessionstore-backups</span> backup folder you made.
+</li><li> Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+</li><li> Copy your chosen file into the main profile folder. (Not the original <span class=""filepath"">sessionstore-backups</span> folder, but the one above it.)
+</li><li> Rename the file to <span class=""filepath"">sessionstore.jsonlz4</span>.
+</li><li> Start up Firefox.
+</li></ol>
+<div class=""warning""><strong>Warning:</strong> You may need to ensure that your file system viewer is <a href=""https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml"">not hiding</a> the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.</div>
+</div><div class=""for"" data-for=""winxp,win7,win8,not win"">
+<ol><li> Open the <a href=""/en-US/kb/use-troubleshooting-information-page-fix-firefox"">Troubleshooting Information page</a> by entering <strong>about:support</strong> in the Firefox address bar.
+</li><li>In the <em>Application Basics</em> section, click the <span class=""for"" data-for=""mac""><span class=""button"">Show in Finder</span></span><span class=""for"" data-for=""win""><span class=""button"">Open Folder</span></span><span class=""for"" data-for=""linux""><span class=""button"">Open Directory</span></span> button in the <span class=""for"" data-for=""win,mac""><em>Profile Folder</em></span><span class=""for"" data-for=""linux""><em>Profile Directory</em></span> line<span class=""for"" data-for=""not win""> (shown below on macOS)</span>.
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-29-17-f76d43.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> A file system view of your profile folder will show up.
+</li><li> In the profile folder (for example, <span class=""filepath"">xxxxxxxx.default-release</span>), if you scroll down a bit, you should see the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Make a copy of the <span class=""filepath"">sessionstore-backups</span> folder.
+</li><li> Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+</li><li> Move the file called <span class=""filepath"">sessionstore.jsonlz4</span> to another location (like your desktop). Moving rather than deleting is a precautionary step.
+<dl><dt><div class=""note""><strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+</li><li> Navigate to the <span class=""filepath"">sessionstore-backups</span> backup folder you made.
+</li><li> Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+</li><li> Copy your chosen file into the main profile folder. (Not the original <span class=""filepath"">sessionstore-backups</span> folder, but the one above it.)
+</li><li> Rename the file to <span class=""filepath"">sessionstore.jsonlz4</span>.
+</li><li> Start up Firefox.
+</li></ol>
+<div class=""warning""><strong>Warning:</strong> You may need to ensure that your file system viewer is <a href=""https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml"">not hiding</a> the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.</div>
+</div>
+<h1 id=""w_conclusion"">Conclusion</h1>
+<p>If you feel that you are more prone to losing your session – sessions with lots of tabs may fall into this category – or would just like insurance, the <a href=""/en-US/kb/recommended-extensions-program"">recommended</a> extension <a href=""https://addons.mozilla.org/firefox/addon/tab-session-manager/"">Tabs Session Manager</a> helps keep sessions safe.
+</p><p><br>
+</p><p>
+<strong>Based on information from <a href=""https://www.reddit.com/r/firefox/comments/56sevb/how_to_restore_a_browsing_session_from_backup/"">How to Restore a Browsing Session from Backup (reddit.com/r/firefox)</a></strong>
+</p>",firefox,settings,"This article explains how to recover a lost browsing session. See [Restore previous session - Configure when Firefox shows your most recent tabs and windows](\""https://support.mozilla.org/en-US/kb/restore-previous-session"") for additional information.
+
+## Table of Contents
+
+- [1 Check about:sessionrestore](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_check-aboutsessionrestore)
+- [2 Restoring from a backup file](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_restoring-from-a-backup-file)
+- [3 Conclusion](https://support.mozilla.org/kb/how-restore-browsing-session-backup#w_conclusion)
+
+# Check about:sessionrestore
+
+If a session is lost, hopefully the restore pages open automatically, but, if not, enter **about:sessionrestore** in the address bar and press EnterReturn. Your page should look similar to this:
+
+<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Fx97RestoreSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-25-15-42-48-a0f513.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-13-02-dae058.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+If this page is empty or the Restore Session is disabled, continue reading.
+
+# Restoring from a backup file
+
+1. Open the [Troubleshooting Information page](\""https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox"") by entering **about:support** in the Firefox address bar.
+2. In the _Application Basics_ section, check the _Distribution ID_ line.
+  - If it contains _mozilla-MSIX_, this means you are using the MSIX (Microsoft Store) Firefox version.  
+ ![Firefox_about:support_Profile folder name](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+In this case:
+    1. Press the _Windows_ key ![windowskey-win10](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Windows11Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)+R on the keyboard. A Run dialog will open.
+    2. Type in:  
+**%LOCALAPPDATA%\Packages\Mozilla.Firefox**  
+without pressing Enter. A list of an only folder will appear.
+    3. Click on the suggested folder. Then add:  
+**\LocalCache\Roaming\Mozilla\Firefox\Profiles\**
+    4. Click OK. A window will open containing profile folders.
+    5. Open the folder which name matches the ending of the _Profile Folder_ line of the _Application Basics_ section.
+
+  - Otherwise, click the Open Folder button in the _Profile Folder_ line of the _Application Basics_ section.<dl><dt>
+<img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+3. A file system view of your profile folder will show up.
+4. In the profile folder (for example, xxxxxxxx.default-release), if you scroll down a bit, you should see the sessionstore-backups folder.
+5. Make a copy of the sessionstore-backups folder.
+6. Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+7. Move the file called sessionstore.jsonlz4 to another location (like your desktop). Moving rather than deleting is a precautionary step.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+8. Navigate to the sessionstore-backups backup folder you made.
+9. Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+10. Copy your chosen file into the main profile folder. (Not the original sessionstore-backups folder, but the one above it.)
+11. Rename the file to sessionstore.jsonlz4.
+12. Start up Firefox.
+
+**Warning:** You may need to ensure that your file system viewer is [not hiding](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml) the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.
+
+1. Open the [Troubleshooting Information page](\""https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox"") by entering **about:support** in the Firefox address bar.
+2. In the _Application Basics_ section, click the Show in FinderOpen FolderOpen Directory button in the _Profile Folder__Profile Directory_ line (shown below on macOS).<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Firefox_about:support_Open profile folder"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-07-08-41-f28884.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not win""><img alt=""session2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-09-16-22-29-17-f76d43.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. A file system view of your profile folder will show up.
+4. In the profile folder (for example, xxxxxxxx.default-release), if you scroll down a bit, you should see the sessionstore-backups folder.
+5. Make a copy of the sessionstore-backups folder.
+6. Shut down Firefox. Generally, you want to avoid file system operations (move, copy, delete) in this folder while Firefox is running. The copy of the unaccessed backups folder was necessary and should be safe.
+7. Move the file called sessionstore.jsonlz4 to another location (like your desktop). Moving rather than deleting is a precautionary step.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> This file does not exist while Firefox is running.</div>
+</dt></dl>
+8. Navigate to the sessionstore-backups backup folder you made.
+9. Review the files in this folder by date modified (you can ignore their names, any file in this folder should be restorable). If the most recently modified file is particularly small compared to others, it may be mostly blank, and you'll want to use the bigger one.
+10. Copy your chosen file into the main profile folder. (Not the original sessionstore-backups folder, but the one above it.)
+11. Rename the file to sessionstore.jsonlz4.
+12. Start up Firefox.
+
+**Warning:** You may need to ensure that your file system viewer is [not hiding](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml) the file extensions of known types (like .js or .jsonlz4) in order to properly rename the backup files.
+
+# Conclusion
+
+If you feel that you are more prone to losing your session – sessions with lots of tabs may fall into this category – or would just like insurance, the [recommended](\""https://support.mozilla.org/en-US/kb/recommended-extensions-program"") extension [Tabs Session Manager](https://addons.mozilla.org/firefox/addon/tab-session-manager/) helps keep sessions safe.
+
+**Based on information from [How to Restore a Browsing Session from Backup (reddit.com/r/firefox)](https://www.reddit.com/r/firefox/comments/56sevb/how_to_restore_a_browsing_session_from_backup/)**
+
+"
+55175,How can I contact support if I can’t sign in to Mozilla VPN,how-can-i-contact-support-if-i-cant-log-mozilla-vp,https://support.mozilla.org/en-US/kb/how-can-i-contact-support-if-i-cant-log-mozilla-vp,en-US,This article explains how to contact support if you can't sign in to Mozilla VPN.,"<p><strong>If you are unable to sign in:</strong>
+</p>
+<ol><li>Open Mozilla VPN and click <span class=""menu"">Help</span> on the top right-hand side of the screen.
+<dl><dt><img alt=""mozillavpnhelp"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-20-53-675cc1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+</li><li>Click <span class=""menu"">Contact support</span>.
+<dl><dt><img alt=""mozillavpnsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-21-44-7485f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Complete the <strong>Contact support</strong> form, where you'll be asked to provide your email address and additional information about your problem.
+<dl><dt><img alt=""Contact support form"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-58-27-bfe41a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click <span class=""button"">Submit</span> to complete your request.
+<dl><dt><img alt=""Contact support form VPN 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-59-03-149550.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<p><br>
+
+<strong>Related articles</strong>
+</p>
+<ul><li><a href=""https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn?utm_source=-vpn-related"">I forgot my Mozilla account password and I can't sign in to Mozilla VPN</a>
+</li><li><a href=""https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related"">Help, I still have questions about Mozilla VPN</a>
+</li></ul>",mozilla-vpn,accounts," **If you are unable to sign in:**
+
+1. Open Mozilla VPN and click Help on the top right-hand side of the screen.<dl><dt>
+<img alt=""mozillavpnhelp"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-20-53-675cc1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+2. Click Contact support.<dl><dt>
+<img alt=""mozillavpnsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-02-20-07-21-44-7485f8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Complete the **Contact support** form, where you'll be asked to provide your email address and additional information about your problem.<dl><dt>
+<img alt=""Contact support form"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-58-27-bfe41a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Click Submit to complete your request.<dl><dt>
+<img alt=""Contact support form VPN 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-10-11-59-03-149550.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+**Related articles**
+
+- [I forgot my Mozilla account password and I can't sign in to Mozilla VPN](https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn?utm_source=-vpn-related)
+- [Help, I still have questions about Mozilla VPN](https://support.mozilla.org/en-US/kb/help-i-still-have-questions-about-mozilla-vpn?utm_source=-vpn-related)
+
+"
+55187,Contributors guide on Firefox advanced customization with CSS,contributors-guide-firefox-advanced-customization,https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization,en-US,What you need to know about Firefox customization with the userChrome.css file and how to help users get more help or revert their changes.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-does-userchrome-css-do""><span class=""tocnumber"">1</span> <span class=""toctext"">What does userChrome.css do?</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-userchrome-css-disabled-by-default""><span class=""tocnumber"">2</span> <span class=""toctext"">Why is userChrome.css disabled by default?</span></a></li><li class=""toclevel-1""><a href=""#w_what-do-users-need-to-know-before-they-use-userchrome-css-customization""><span class=""tocnumber"">3</span> <span class=""toctext"">What do users need to know before they use userChrome.css customization?</span></a></li><li class=""toclevel-1""><a href=""#w_where-can-users-get-help-with-custom-rules-and-userchrome-css""><span class=""tocnumber"">4</span> <span class=""toctext"">Where can users get help with custom rules and userChrome.css?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-revert-firefox-back-to-its-default-state""><span class=""tocnumber"">5</span> <span class=""toctext"">How to revert Firefox back to its default state?</span></a><ul><li class=""toclevel-2""><a href=""#w_reset-firefox-to-its-default-state""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Reset Firefox to its default state</span></a></li><li class=""toclevel-2""><a href=""#w_disable-and-remove-userchrome-css""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Disable and remove userChrome.css</span></a></li></ul></li></ul></div>
+<div class=""warning""><strong>Warning</strong>: CSS customization is intended for developers, not end users.</div>
+<p>In addition to the built-in customization feature (see <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox controls, buttons and toolbars</a>), Firefox themes (see <a href=""/en-US/kb/use-themes-change-look-of-firefox"">Use themes to change the look of Firefox</a> and other types of add-ons (see <a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Find and install add-ons to add features to Firefox</a>), advanced Firefox users can also make changes to their browser user interface (UI) by applying style rules with an optional file named <span class=""filepath"">userChrome.css</span>. 
+</p><p>As SUMO contributors, here's what you need to know about Firefox advanced customization using this CSS file: 
+</p>
+<h1 id=""w_what-does-userchrome-css-do"">What does userChrome.css do?</h1>
+<p>Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using <a href=""https://developer.mozilla.org/docs/Web/CSS"">CSS</a>. Users can set Firefox to look for a userChrome.css file at startup, so the rules in the file can restyle various elements of the user interface. For example, custom rules can change colors and sizes of many elements, hide them, or reposition them.
+</p>
+<h1 id=""w_why-is-userchrome-css-disabled-by-default"">Why is userChrome.css disabled by default?</h1>
+<p>Historically, the vast majority of users never created a <span class=""filepath"">userChrome.css</span> file. To speed up Firefox startup for most users, the behavior to look for and use a <span class=""filepath"">userChrome.css</span> was put behind the preference <span class=""pref"">toolkit.legacyUserProfileCustomizations.stylesheets</span>, defaulted to <span class=""pref"">false</span>, in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1541233"">bug 1541233</a>.
+</p>
+<h1 id=""w_what-do-users-need-to-know-before-they-use-userchrome-css-customization"">What do users need to know before they use userChrome.css customization?</h1>
+<p>Users should expect that some of their custom rules will stop working correctly in the future, and in extreme cases, this may cause serious issues with the user interface. Firefox is a work in progress and to allow for continuous innovation, Mozilla cannot guarantee that the styled elements will not change. When new features and new user interface designs are introduced, they often require different HTML and XUL tags, and the styling of these tags will evolve as well. For this reason, Mozilla does not officially support custom style rules.
+</p>
+<h1 id=""w_where-can-users-get-help-with-custom-rules-and-userchrome-css"">Where can users get help with custom rules and userChrome.css?</h1>
+<p>Mozilla's support forum provides peer-to-peer assistance in a very limited basis for these kind of customization. We encourage users with userChrome.css issues to seek assistance and information through other forums and websites instead, such as the <a href=""https://userchrome.org"">userchrome.org</a> site, the <a href=""https://www.reddit.com/r/FirefoxCSS/"">r/FirefoxCSS forum on Reddit</a> or the <a href=""https://chat.mozilla.org/#/room/#firefoxcss:mozilla.org"">community-driven #firefoxcss room</a> on <a href=""https://wiki.mozilla.org/Matrix"">Matrix</a>.
+</p>
+<h1 id=""w_how-to-revert-firefox-back-to-its-default-state"">How to revert Firefox back to its default state?</h1>
+<p>If Firefox user interface suddenly looks broken after an update, and the users have created a userChrome.css file in the past, they can use Firefox’s Troubleshoot Mode (see <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Use Troubleshoot Mode in Firefox</a>) to quickly disable their custom rules, and see whether that makes any difference. If they would like to undo their customization and restore Firefox to its default UI, Users can use one of the following methods.
+</p>
+<h2 id=""w_reset-firefox-to-its-default-state"">Reset Firefox to its default state</h2>
+<div class=""warning""><strong>Warning</strong>: A Firefox refresh removes add-ons and other customizations, such as <a href=""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install"">extensions</a>, extension data, and <a href=""/en-US/kb/about-config-editor-firefox"">preference configurations</a>. If you've made accessibility customizations to Firefox, you may need to add them back after refreshing.</div>
+<p>Users can reset Firefox to its default state by following the steps in the <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox - reset add-ons and settings</a> article.
+</p>
+<h2 id=""w_disable-and-remove-userchrome-css"">Disable and remove userChrome.css</h2>
+<p>Users can disable and remove their userChrome.css file so that it does not load on Firefox startup by following this steps:
+</p>
+<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+ 
+</li><li> Search for the <span class=""pref"">toolkit.legacyUserProfileCustomizations.stylesheets</span> preference and set it back to <span class=""pref"">false</span> by clicking on <em>Reset</em> <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li><li> Remove <span class=""filepath"">userChrome.css</span> inside the <span class=""filepath"">chrome</span> folder of the profile folder. To find the profile folder, see the <em>How do I find my profile?</em> section in <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Profiles - Where Firefox stores your bookmarks, passwords and other user data</a>.
+</li></ol>",contributor,forum,"## Table of Contents
+
+- [1 What does userChrome.css do?](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_what-does-userchrome-css-do)
+- [2 Why is userChrome.css disabled by default?](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_why-is-userchrome-css-disabled-by-default)
+- [3 What do users need to know before they use userChrome.css customization?](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_what-do-users-need-to-know-before-they-use-userchrome-css-customization)
+- [4 Where can users get help with custom rules and userChrome.css?](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_where-can-users-get-help-with-custom-rules-and-userchrome-css)
+- [5 How to revert Firefox back to its default state?](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_how-to-revert-firefox-back-to-its-default-state)
+  - [5.1 Reset Firefox to its default state](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_reset-firefox-to-its-default-state)
+  - [5.2 Disable and remove userChrome.css](https://support.mozilla.org/kb/contributors-guide-firefox-advanced-customization#w_disable-and-remove-userchrome-css)
+
+**Warning** : CSS customization is intended for developers, not end users.
+
+In addition to the built-in customization feature (see [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"")), Firefox themes (see [Use themes to change the look of Firefox](\""https://support.mozilla.org/en-US/kb/use-themes-change-look-of-firefox"") and other types of add-ons (see [Find and install add-ons to add features to Firefox](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"")), advanced Firefox users can also make changes to their browser user interface (UI) by applying style rules with an optional file named userChrome.css.
+
+As SUMO contributors, here's what you need to know about Firefox advanced customization using this CSS file:
+
+# What does userChrome.css do?
+
+Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using [CSS](https://developer.mozilla.org/docs/Web/CSS). Users can set Firefox to look for a userChrome.css file at startup, so the rules in the file can restyle various elements of the user interface. For example, custom rules can change colors and sizes of many elements, hide them, or reposition them.
+
+# Why is userChrome.css disabled by default?
+
+Historically, the vast majority of users never created a userChrome.css file. To speed up Firefox startup for most users, the behavior to look for and use a userChrome.css was put behind the preference toolkit.legacyUserProfileCustomizations.stylesheets, defaulted to false, in [bug 1541233](https://bugzilla.mozilla.org/show_bug.cgi?id=1541233).
+
+# What do users need to know before they use userChrome.css customization?
+
+Users should expect that some of their custom rules will stop working correctly in the future, and in extreme cases, this may cause serious issues with the user interface. Firefox is a work in progress and to allow for continuous innovation, Mozilla cannot guarantee that the styled elements will not change. When new features and new user interface designs are introduced, they often require different HTML and XUL tags, and the styling of these tags will evolve as well. For this reason, Mozilla does not officially support custom style rules.
+
+# Where can users get help with custom rules and userChrome.css?
+
+Mozilla's support forum provides peer-to-peer assistance in a very limited basis for these kind of customization. We encourage users with userChrome.css issues to seek assistance and information through other forums and websites instead, such as the [userchrome.org](https://userchrome.org) site, the [r/FirefoxCSS forum on Reddit](https://www.reddit.com/r/FirefoxCSS/) or the [community-driven #firefoxcss room](https://chat.mozilla.org/#/room/#firefoxcss:mozilla.org) on [Matrix](https://wiki.mozilla.org/Matrix).
+
+# How to revert Firefox back to its default state?
+
+If Firefox user interface suddenly looks broken after an update, and the users have created a userChrome.css file in the past, they can use Firefox’s Troubleshoot Mode (see [Use Troubleshoot Mode in Firefox](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"")) to quickly disable their custom rules, and see whether that makes any difference. If they would like to undo their customization and restore Firefox to its default UI, Users can use one of the following methods.
+
+## Reset Firefox to its default state
+
+**Warning** : A Firefox refresh removes add-ons and other customizations, such as [extensions](https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox#w_what-types-of-add-ons-can-i-install), extension data, and [preference configurations](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox""). If you've made accessibility customizations to Firefox, you may need to add them back after refreshing.
+
+Users can reset Firefox to its default state by following the steps in the [Refresh Firefox - reset add-ons and settings](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") article.
+
+## Disable and remove userChrome.css
+
+Users can disable and remove their userChrome.css file so that it does not load on Firefox startup by following this steps:
+
+1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page. 
+2. Search for the toolkit.legacyUserProfileCustomizations.stylesheets preference and set it back to false by clicking on _Reset_ ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+3. Remove userChrome.css inside the chrome folder of the profile folder. To find the profile folder, see the _How do I find my profile?_ section in [Profiles - Where Firefox stores your bookmarks, passwords and other user data](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"").
 
 "
 55205,Multi-Hop - Encrypt your data twice for enhanced security while using Mozilla VPN,multi-hop-encrypt-your-data-twice-enhanced-security,https://support.mozilla.org/en-US/kb/multi-hop-encrypt-your-data-twice-enhanced-security,en-US,Add an extra layer of protection to your data using multiple servers on Mozilla VPN.,"<p>When you browse the internet using Mozilla VPN on your device, your data is encrypted and routed through a secure web server, which prevents others from tracing your online activity back to your IP address. For added protection, configure Mozilla VPN to encrypt your traffic and route it through two locations instead of one, which we call “Multi-hop”.
@@ -110862,6 +111216,353 @@ Mozilla supports an open, secure and privacy-respecting internet, as outlined in
 
 - [RFC 9458: Oblivious HTTP](https://www.ietf.org/rfc/rfc9458.html)
 
+"
+66947,Mozilla account deletion due to inactivity,mozilla-account-deletion-inactivity,https://support.mozilla.org/en-US/kb/mozilla-account-deletion-inactivity,en-US,Mozilla accounts inactive for more than two years will be deleted. Learn how to keep your account active and prevent permanent deletion.,"<p>Mozilla periodically deletes inactive accounts by our retention policies. If you haven’t signed in or used your account after two years, your account could be scheduled for deletion. This helps reduce risks for inactive users and ensures compliance with our data retention policy.
+Before that happens, we’ll send three email reminders so you can take steps to keep your account.
+</p>
+<h1 id=""w_who-is-affected-by-this"">Who is affected by this?</h1>
+<p>Accounts that have remained inactive for two years and do not have an active paid subscription are subject to deletion.
+</p>
+<h1 id=""w_how-to-keep-your-mozilla-account-active"">How to keep your Mozilla account active</h1>
+<dl><dt><dl><dt><img alt=""Sign in to keep your account"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-17-07-26-43-d00e03.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</dt></dl>
+<ol><li>To avoid deletion due to inactivity, click the link within the notification email.
+</li><li>On the sign-in page, complete the sign-in process.
+</li><li>A confirmation message will pop up on your screen letting you know your account will remain active.
+</li></ol>
+<div class=""note""><strong>Note:</strong> You can also <a href=""http://accounts.firefox.com"">sign into your Mozilla account</a> normally, however you will not receive the same confirmation notification as if you had used the emailed link. This will still preserve your account.</div>
+<p>Signing into your account regularly or using Mozilla products such as Firefox web browser with sync are also great ways to keep your account active.
+</p>
+<h1 id=""w_common-questions"">Common questions</h1>
+<h2 id=""w_im-actively-using-firefoxmozilla-monitorfirefox-relaymdn-why-am-i-receiving-this-email"">I'm actively using Firefox/Mozilla Monitor/Firefox Relay/MDN. Why am I receiving this email?</h2>
+<p>This could happen if you have more than one Mozilla account. The email could be about an account you're not actively using, even if you use Mozilla products regularly
+</p><p>Check the email address that you're signed into and see if it matches up with the address you received the notice at. If not, then this could be the reason you received this notification.
+</p>
+<h2 id=""w_what-if-i-already-signed-in-before-receiving-the-email"">What if I already signed in before receiving the email?</h2>
+<p>You will still be able to click the <span class=""button"">Sign in to keep your account</span> button within the email. However, if you already signed in to your Mozilla account, no further actions are needed. Your account is safe.
+</p>
+<h2 id=""w_what-should-i-do-to-avoid-losing-my-account"">What should I do to avoid losing my account?</h2>
+<p>To prevent deletion, open the email and click the <span class=""button"">Sign in to keep your account</span> button. After signing in, a confirmation message will pop up on your screen letting you know that your account and data are safe.
+</p>
+<h2 id=""w_what-happens-if-my-account-is-deleted"">What happens if my account is deleted?</h2>
+<p>If your account is deleted due to inactivity, you will lose the following data from the cloud:
+</p>
+<ul><li>Access to all Mozilla services linked to your account.
+</li><li>Saved data, including bookmarks, passwords (if using Firefox Sync), and purchase history.
+</li></ul>
+<dl><dt><div class=""note""><strong>Note:</strong> The data saved on your devices (bookmarks, passwords, etc) will not be deleted and can be synced to a new account by signing into your Firefox web browser.</div>
+</dt></dl>
+<h2 id=""w_can-i-recover-a-deleted-account"">Can I recover a deleted account?</h2>
+<p>Once an account is deleted, it cannot be restored. Make sure to sign in or use the <strong>Sign in to keep your account</strong> link in the reminder emails before the deletion date.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/sumo-profile-inactive-deleted"">What happens when your SUMO profile is inactive or deleted</a>
+</li><li><a href=""/en-US/kb/secure-firefox-account-two-step-authentication"">Set up two-factor authentication on your Mozilla account</a>
+</li><li><a href=""/en-US/kb/access-mozilla-services-firefox-account"">Access Mozilla services with a Mozilla account</a>
+</li><li><a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a>
+</li></ul>",mozilla-account,account-management;accounts,"Mozilla periodically deletes inactive accounts by our retention policies. If you haven’t signed in or used your account after two years, your account could be scheduled for deletion. This helps reduce risks for inactive users and ensures compliance with our data retention policy. Before that happens, we’ll send three email reminders so you can take steps to keep your account.
+
+# Who is affected by this?
+
+Accounts that have remained inactive for two years and do not have an active paid subscription are subject to deletion.
+
+# How to keep your Mozilla account active
+<dl>
+<dt></dt>
+<dl><dt>
+<img alt=""Sign in to keep your account"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-17-07-26-43-d00e03.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</dl>
+1. To avoid deletion due to inactivity, click the link within the notification email.
+2. On the sign-in page, complete the sign-in process.
+3. A confirmation message will pop up on your screen letting you know your account will remain active.
+
+**Note:** You can also [sign into your Mozilla account](http://accounts.firefox.com) normally, however you will not receive the same confirmation notification as if you had used the emailed link. This will still preserve your account.
+
+Signing into your account regularly or using Mozilla products such as Firefox web browser with sync are also great ways to keep your account active.
+
+# Common questions
+
+## I'm actively using Firefox/Mozilla Monitor/Firefox Relay/MDN. Why am I receiving this email?
+
+This could happen if you have more than one Mozilla account. The email could be about an account you're not actively using, even if you use Mozilla products regularly
+
+Check the email address that you're signed into and see if it matches up with the address you received the notice at. If not, then this could be the reason you received this notification.
+
+## What if I already signed in before receiving the email?
+
+You will still be able to click the Sign in to keep your account button within the email. However, if you already signed in to your Mozilla account, no further actions are needed. Your account is safe.
+
+## What should I do to avoid losing my account?
+
+To prevent deletion, open the email and click the Sign in to keep your account button. After signing in, a confirmation message will pop up on your screen letting you know that your account and data are safe.
+
+## What happens if my account is deleted?
+
+If your account is deleted due to inactivity, you will lose the following data from the cloud:
+
+- Access to all Mozilla services linked to your account.
+- Saved data, including bookmarks, passwords (if using Firefox Sync), and purchase history.
+
+<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> The data saved on your devices (bookmarks, passwords, etc) will not be deleted and can be synced to a new account by signing into your Firefox web browser.</div>
+</dt></dl>
+## Can I recover a deleted account?
+
+Once an account is deleted, it cannot be restored. Make sure to sign in or use the **Sign in to keep your account** link in the reminder emails before the deletion date.
+
+# Related articles
+
+- [What happens when your SUMO profile is inactive or deleted](\""https://support.mozilla.org/en-US/kb/sumo-profile-inactive-deleted"")
+- [Set up two-factor authentication on your Mozilla account](\""https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication"")
+- [Access Mozilla services with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"")
+- [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"")
+
+"
+66983,Use the sidebar to access tools and vertical tabs,use-sidebar-access-tools-and-vertical-tabs,https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs,en-US,"How to use the updated sidebar introduced in Firefox version 136, to access multiple tools and to turn on vertical tabs.","<div class=""note""><strong>Note:</strong> This article describes the updated sidebar introduced in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 136.<span class=""for"" data-for=""not fx136""> For information about the original sidebar, see <a href=""/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"">Use the Firefox Sidebar to access bookmarks, history, passwords and synced tabs</a>.</span></div>
+<p>The Firefox sidebar lets you quickly access multiple tools in one click, without leaving your main view, including:
+</p>
+<ul><li> an <a href=""/en-US/kb/ai-chatbot"">AI chatbot</a> of your choice
+</li><li> bookmarks
+</li><li> history
+</li><li> tabs from devices you sync with your <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Mozilla account</a>
+</li></ul>
+<div class=""for"" data-for=""fx145"">
+<ul><li> passwords
+</li></ul>
+</div><p>Starting in Firefox 136, you can also try out a new feature in the sidebar: vertical tabs. If you turn on vertical tabs, your pinned and open tabs will appear in the sidebar instead of along the top of the browser. Early testers report feeling more organized after using vertical tabs for a few days.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_enable-the-updated-sidebar""><span class=""tocnumber"">1</span> <span class=""toctext"">Enable the updated sidebar</span></a></li><li class=""toclevel-1""><a href=""#w_turn-on-vertical-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn on vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_customize-sidebar-and-vertical-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Customize sidebar and vertical tabs</span></a></li><li class=""toclevel-1""><a href=""#w_set-up-sidebar-tools""><span class=""tocnumber"">4</span> <span class=""toctext"">Set up sidebar tools</span></a><ul><li class=""toclevel-2""><a href=""#w_set-up-your-preferred-chatbot-in-the-sidebar""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Set up your preferred chatbot in the sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_manage-tabs-from-devices-you-sync-with-your-mozilla-account""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Manage tabs from devices you sync with your Mozilla account</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-search-browsing-history""><span class=""tocnumber"">4.3</span> <span class=""toctext"">View and search browsing history</span></a></li><li class=""toclevel-2""><a href=""#w_view-and-manage-bookmarks""><span class=""tocnumber"">4.4</span> <span class=""toctext"">View and manage bookmarks</span></a></li><li class=""toclevel-2""><a href=""#w_manage-passwords-from-the-sidebar-in-firefox""><span class=""tocnumber"">4.5</span> <span class=""toctext"">Manage passwords from the sidebar in Firefox</span></a></li><li class=""toclevel-2""><a href=""#w_enable-passwords-in-the-firefox-sidebar""><span class=""tocnumber"">4.6</span> <span class=""toctext"">Enable passwords in the Firefox sidebar</span></a></li><li class=""toclevel-2""><a href=""#w_use-the-sidebar-password-manager""><span class=""tocnumber"">4.7</span> <span class=""toctext"">Use the sidebar password manager</span></a></li></ul></li></ul></div>
+<h1 id=""w_enable-the-updated-sidebar"">Enable the updated sidebar</h1>
+<ol><li>Click the menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button, and select the <span class=""menu"">Settings</span> option.
+</li><li>Firefox <em>Settings</em> tab will open. Scroll down to the <em>Browser Layout</em> section and select <strong>Show sidebar</strong>.
+</li></ol>
+<dl><dt><span class=""for"" data-for=""not fx139""><img alt=""Browser Layout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-13-26-34-a0cd36.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx139""><img alt=""Fx139SettingsBrowserLayout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-12-15-52-28-9bcb59.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+<p>After you enable the Firefox sidebar, a sidebar button <img alt=""Fx136SidebarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-32-47-3f167d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> is added to your toolbar. The sidebar with shortcuts to tools is shown on the left; you can move it to the right.
+</p><p>To hide and bring the sidebar back into view, click the sidebar button in the toolbar <img alt=""Fx136SidebarIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-32-47-3f167d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>. You can also adjust the width of the sidebar panels and vertical tabs by dragging the sidebar edge and setting a width that works for you.
+</p>
+<dl><dt><img alt=""Fx136SidebarIntro"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-18-46-446991.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+<p>You can customize the location of the sidebar button by clicking the Menu <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button, then clicking <span class=""menu"">More tools</span> and selecting <span class=""menu"">Customize Toolbar…</span> The toolbar panel will now become customizable, so you can adjust the location of the sidebar button by dragging and dropping it in your preferred location. To learn more about toolbar customization,  see <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Firefox controls, buttons and toolbars</a>. 
+</p>
+<h1 id=""w_turn-on-vertical-tabs"">Turn on vertical tabs</h1>
+<p>Right-click on either the toolbar or tab strip. Then, select <span class=""menu"">Turn on Vertical Tabs</span> from the menu.
+</p>
+<dl><dt><img alt=""Fx136SidebarTurnonverticaltabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-22-02-e0905e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""200"">
+</dt></dl>
+<div class=""note""><strong>Note:</strong> When vertical tabs are turned on, you can access the <a href=""/en-US/kb/tab-overview-menu"">Tab overview menu</a> from the <em>List all tabs</em> <img alt=""Fx138VerticalListAllTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-21-20-53-09-7cec8d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the toolbar.</div>
+<p>After you’ve turned on vertical tabs, you can turn them off from the same context menus or from the <em>Customize sidebar</em> settings.
+</p>
+<h1 id=""w_customize-sidebar-and-vertical-tabs"">Customize sidebar and vertical tabs</h1>
+<p>After you enable the sidebar or turn on vertical tabs, you can customize them anytime.
+</p><p>To display the <em>Customize sidebar</em> panel, click the gear icon <img alt=""Fx91GearIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-11-22-12-58-07-a6a699.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> at the bottom of the sidebar. Here’s what you can customize:
+</p>
+<ul><li> The location of the sidebar, which you can position on either the left or right of your screen.
+</li><li> The tools displayed in the sidebar. Uncheck a checkbox to remove a tool from the sidebar, and check a checkbox to add it.
+<dl><dt><img alt=""Fx136SidebarCustomise"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-23-46-5421f1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+</li><li> Turn vertical tabs on and off by checking the <strong>Vertical tabs</strong> checkbox. After you turn on vertical tabs, switch between a minimalistic collapsed view and expanded view, which shows the tab titles using the sidebar button in the toolbar or using the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Alt</span> + <span class=""key"">Z</span></span><span class=""for"" data-for=""mac""><span class=""key"">Ctrl</span> + <span class=""key"">Z</span></span> shortcut.
+</li><li> If you prefer to keep your tabs and sidebar hidden, select the <strong>Hide tabs and sidebar</strong> checkbox. This can provide more room on screen and more focus.
+</li></ul>
+<dl><dt><img alt=""Fx136SidebarCollapsedtabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-25-26-f70476.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt><dd><em>Collapsed vertical tabs view</em>
+</dd><dt><img alt=""Fx136SidebarExpandedtabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-26-41-fff1c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt><dd><em>Expanded vertical tabs view</em>
+</dd></dl>
+<h1 id=""w_set-up-sidebar-tools"">Set up sidebar tools</h1>
+<p>Some tools, like the AI chatbot and viewing tabs from other devices, require additional setup.
+</p>
+<h2 id=""w_set-up-your-preferred-chatbot-in-the-sidebar"">Set up your preferred chatbot in the sidebar</h2>
+<p>Select the sparkle icon <img alt=""Sparkle 15112024"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-13-17-26-10c0a0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> in the sidebar and choose a chatbot. <a href=""/en-US/kb/ai-chatbot"">Learn more about AI Chatbots in Firefox</a>.
+</p>
+<dl><dt><img alt=""Fx136SidebarChatbot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-28-06-19e6e6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+<h2 id=""w_manage-tabs-from-devices-you-sync-with-your-mozilla-account"">Manage tabs from devices you sync with your Mozilla account</h2>
+<p>To view and manage tabs from your synced devices, first sign in to your Mozilla account on those devices (phones, other computers, tablets).
+</p><p>Select the laptop and phone button <img alt=""IG synced tabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-01-08-12-07-bdb3dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the sidebar to view and manage tabs that are open on your synced devices.
+</p><p>To close tabs on a synced device, hover over a tab and select the <span class=""button"">✕</span> button to close it. This closes the tab on the synced device. To undo the closing, select the <span class=""button"">Undo</span> button that appears.
+</p>
+<h2 id=""w_view-and-search-browsing-history"">View and search browsing history</h2>
+<p>Select the clock button <img alt=""ClockIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-16-13-f4ea5f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the sidebar or use <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">Shift</span> + <span class=""key"">H</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">Shift</span> + <span class=""key"">H</span></span> shortcut to view your history in the sidebar.
+</p>
+<dl><dt><img alt=""Fx136SidebarHistory"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-29-01-5d001e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+<h2 id=""w_view-and-manage-bookmarks"">View and manage bookmarks</h2>
+<p>Select the star button <img alt=""61 bookmarks icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-08-14-09-05-56-fa4ce4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the sidebar or use <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span> + <span class=""key"">B</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span> + <span class=""key"">B</span></span> shortcut to view your bookmarks in the sidebar.
+</p><p>Bookmark any tab by dragging it from your tab strip (vertical or horizontal) to the open bookmarks panel.
+</p><div class=""for"" data-for=""fx145"">
+<h2 id=""w_manage-passwords-from-the-sidebar-in-firefox"">Manage passwords from the sidebar in Firefox</h2>
+<p>You can access your passwords from the Firefox sidebar, making it easier to manage your stored logins without opening the Firefox about: logins page.
+</p>
+<dl><dt><img alt=""contextualsimplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-19-06-e34141.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h2 id=""w_enable-passwords-in-the-firefox-sidebar"">Enable passwords in the Firefox sidebar</h2>
+<ol><li>Click on the Customize sidebar icon.
+</li><li>In the Firefox tools menu, enable <span class=""button"">Passwords</span> in the sidebar.
+</li></ol>
+<dl><dt><img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<h2 id=""w_use-the-sidebar-password-manager"">Use the sidebar password manager</h2>
+<p>Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+</p><p>You can now:
+</p>
+<ul><li>View and search saved passwords
+</li><li>Add new login credentials
+</li><li>Import passwords from another browser or a file
+</li><li>Export saved passwords
+</li><li>Remove all saved passwords
+</li></ul>
+<dl><dt><img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</div>",firefox,settings," **Note:** This article describes the updated sidebar introduced in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 136. For information about the original sidebar, see [Use the Firefox Sidebar to access bookmarks, history, passwords and synced tabs](\""https://support.mozilla.org/en-US/kb/use-firefox-sidebar-access-bookmarks-history-synced"").
+
+The Firefox sidebar lets you quickly access multiple tools in one click, without leaving your main view, including:
+
+- an [AI chatbot](\""https://support.mozilla.org/en-US/kb/ai-chatbot"") of your choice
+- bookmarks
+- history
+- tabs from devices you sync with your [Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"")
+
+- passwords
+
+Starting in Firefox 136, you can also try out a new feature in the sidebar: vertical tabs. If you turn on vertical tabs, your pinned and open tabs will appear in the sidebar instead of along the top of the browser. Early testers report feeling more organized after using vertical tabs for a few days.
+
+## Table of Contents
+
+- [1 Enable the updated sidebar](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_enable-the-updated-sidebar)
+- [2 Turn on vertical tabs](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_turn-on-vertical-tabs)
+- [3 Customize sidebar and vertical tabs](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_customize-sidebar-and-vertical-tabs)
+- [4 Set up sidebar tools](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_set-up-sidebar-tools)
+  - [4.1 Set up your preferred chatbot in the sidebar](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_set-up-your-preferred-chatbot-in-the-sidebar)
+  - [4.2 Manage tabs from devices you sync with your Mozilla account](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_manage-tabs-from-devices-you-sync-with-your-mozilla-account)
+  - [4.3 View and search browsing history](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_view-and-search-browsing-history)
+  - [4.4 View and manage bookmarks](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_view-and-manage-bookmarks)
+  - [4.5 Manage passwords from the sidebar in Firefox](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_manage-passwords-from-the-sidebar-in-firefox)
+  - [4.6 Enable passwords in the Firefox sidebar](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_enable-passwords-in-the-firefox-sidebar)
+  - [4.7 Use the sidebar password manager](https://support.mozilla.org/kb/use-sidebar-access-tools-and-vertical-tabs#w_use-the-sidebar-password-manager)
+
+# Enable the updated sidebar
+
+1. Click the menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button, and select the Settings option.
+2. Firefox _Settings_ tab will open. Scroll down to the _Browser Layout_ section and select **Show sidebar**.
+
+<dl><dt>
+<span class=""for"" data-for=""not fx139""><img alt=""Browser Layout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-25-13-26-34-a0cd36.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx139""><img alt=""Fx139SettingsBrowserLayout"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-12-15-52-28-9bcb59.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+After you enable the Firefox sidebar, a sidebar button ![Fx136SidebarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) is added to your toolbar. The sidebar with shortcuts to tools is shown on the left; you can move it to the right.
+
+To hide and bring the sidebar back into view, click the sidebar button in the toolbar ![Fx136SidebarIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). You can also adjust the width of the sidebar panels and vertical tabs by dragging the sidebar edge and setting a width that works for you.
+
+<dl><dt>
+<img alt=""Fx136SidebarIntro"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-18-46-446991.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+
+You can customize the location of the sidebar button by clicking the Menu ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button, then clicking More tools and selecting Customize Toolbar… The toolbar panel will now become customizable, so you can adjust the location of the sidebar button by dragging and dropping it in your preferred location. To learn more about toolbar customization, see [Customize Firefox controls, buttons and toolbars](\""https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars"").
+
+# Turn on vertical tabs
+
+Right-click on either the toolbar or tab strip. Then, select Turn on Vertical Tabs from the menu.
+
+<dl><dt>
+<img alt=""Fx136SidebarTurnonverticaltabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-22-02-e0905e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""200"">
+</dt></dl>
+**Note:** When vertical tabs are turned on, you can access the [Tab overview menu](\""https://support.mozilla.org/en-US/kb/tab-overview-menu"") from the _List all tabs_ ![Fx138VerticalListAllTabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the toolbar.
+
+After you’ve turned on vertical tabs, you can turn them off from the same context menus or from the _Customize sidebar_ settings.
+
+# Customize sidebar and vertical tabs
+
+After you enable the sidebar or turn on vertical tabs, you can customize them anytime.
+
+To display the _Customize sidebar_ panel, click the gear icon ![Fx91GearIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) at the bottom of the sidebar. Here’s what you can customize:
+
+- The location of the sidebar, which you can position on either the left or right of your screen.
+- The tools displayed in the sidebar. Uncheck a checkbox to remove a tool from the sidebar, and check a checkbox to add it.<dl><dt>
+<img alt=""Fx136SidebarCustomise"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-23-46-5421f1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+- Turn vertical tabs on and off by checking the **Vertical tabs** checkbox. After you turn on vertical tabs, switch between a minimalistic collapsed view and expanded view, which shows the tab titles using the sidebar button in the toolbar or using the Ctrl + Alt + ZCtrl + Z shortcut.
+- If you prefer to keep your tabs and sidebar hidden, select the **Hide tabs and sidebar** checkbox. This can provide more room on screen and more focus.
+
+<dl>
+<dt>
+<img alt=""Fx136SidebarCollapsedtabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-25-26-f70476.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt>
+<dd>
+<em>Collapsed vertical tabs view</em>
+</dd>
+<dt>
+<img alt=""Fx136SidebarExpandedtabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-26-41-fff1c9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt>
+<dd>
+<em>Expanded vertical tabs view</em>
+</dd>
+</dl>
+# Set up sidebar tools
+
+Some tools, like the AI chatbot and viewing tabs from other devices, require additional setup.
+
+## Set up your preferred chatbot in the sidebar
+
+Select the sparkle icon ![Sparkle 15112024](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the sidebar and choose a chatbot. [Learn more about AI Chatbots in Firefox](\""https://support.mozilla.org/en-US/kb/ai-chatbot"").
+
+<dl><dt>
+<img alt=""Fx136SidebarChatbot"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-28-06-19e6e6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+## Manage tabs from devices you sync with your Mozilla account
+
+To view and manage tabs from your synced devices, first sign in to your Mozilla account on those devices (phones, other computers, tablets).
+
+Select the laptop and phone button ![IG synced tabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the sidebar to view and manage tabs that are open on your synced devices.
+
+To close tabs on a synced device, hover over a tab and select the ✕ button to close it. This closes the tab on the synced device. To undo the closing, select the Undo button that appears.
+
+## View and search browsing history
+
+Select the clock button ![ClockIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the sidebar or use Ctrl + Shift + HCommand + Shift + H shortcut to view your history in the sidebar.
+
+<dl><dt>
+<img alt=""Fx136SidebarHistory"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-02-28-14-29-01-5d001e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""550"">
+</dt></dl>
+## View and manage bookmarks
+
+Select the star button ![61 bookmarks icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the sidebar or use Ctrl + BCommand + B shortcut to view your bookmarks in the sidebar.
+
+Bookmark any tab by dragging it from your tab strip (vertical or horizontal) to the open bookmarks panel.
+
+## Manage passwords from the sidebar in Firefox
+
+You can access your passwords from the Firefox sidebar, making it easier to manage your stored logins without opening the Firefox about: logins page.
+
+<dl><dt>
+<img alt=""contextualsimplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-19-06-e34141.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+## Enable passwords in the Firefox sidebar
+
+1. Click on the Customize sidebar icon.
+2. In the Firefox tools menu, enable Passwords in the sidebar.
+
+<dl><dt>
+<img alt=""sidebarpassword"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-10-05-58-26-502255.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+## Use the sidebar password manager
+
+Once enabled, a new Passwords icon appears in the sidebar. Click the icon to open the password manager.
+
+You can now:
+
+- View and search saved passwords
+- Add new login credentials
+- Import passwords from another browser or a file
+- Export saved passwords
+- Remove all saved passwords
+
+<dl><dt>
+<img alt=""passwordmanager"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-22-08-30-11-71a863.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
 "
 67001,Firefox for Enterprise 136 - Release notes,firefox-enterprise-136-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-136-release-notes,en-US,See what's coming out with Firefox for Enterprise 136.,"<p>Except where noted, everything here applies to both Firefox 136 and the Firefox 128.8 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
 </p>
