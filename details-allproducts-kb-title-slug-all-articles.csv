@@ -11759,7 +11759,7 @@ On some Linux distributions using AppArmor such like Debian-based, Ubuntu-based,
 <p>If your saved passwords are missing after an update or restart:
 </p>
 <ul><li><strong>Check Firefox Sync:</strong> Sign in with your Mozilla account and ensure <strong>Logins and Passwords</strong> is selected under <em>Sync</em> settings.
-</li><li><strong>Check your profile:</strong> Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See <a class=""new"" href=""/en-US/kb/new?title=Recover+lost+or+missing+Firefox+data"" title=""Page does not exist."">Recover lost or missing Firefox data</a>.
+</li><li><strong>Check your profile:</strong> Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See <a href=""/en-US/kb/recover-lost-or-missing-firefox-data"">Recover lost or missing Firefox data</a>.
 </li><li><strong>Backups:</strong> If you exported your passwords, import the .csv file.
 </li></ul>
 <div class=""note""><strong>Note:</strong> Lost credentials can be stressful. If you’ve tried the above and still can’t recover your logins, contact the website directly to reset your password.</div>
@@ -11945,7 +11945,7 @@ By default, Firefox offers to save logins. To turn this off:
 If your saved passwords are missing after an update or restart:
 
 - **Check Firefox Sync:** Sign in with your Mozilla account and ensure **Logins and Passwords** is selected under _Sync_ settings.
-- **Check your profile:** Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See [Recover lost or missing Firefox data](\""https://support.mozilla.org/en-US/kb/new?title=Recover+lost+or+missing+Firefox+data"" ""Page does not exist."").
+- **Check your profile:** Firefox stores passwords in your user profile. If you created a new profile accidentally, your old logins may be in the previous one. See [Recover lost or missing Firefox data](\""https://support.mozilla.org/en-US/kb/recover-lost-or-missing-firefox-data"").
 - **Backups:** If you exported your passwords, import the .csv file.
 
 **Note:** Lost credentials can be stressful. If you’ve tried the above and still can’t recover your logins, contact the website directly to reset your password.
@@ -45705,403 +45705,6 @@ Firefox Developer Edition will create a new [profile](\""https://support.mozilla
 # How do I learn more about Firefox Developer Edition?
 
 See [https://www.mozilla.org/firefox/developer/](https://www.mozilla.org/firefox/developer/)
-
-"
-23661,Manage my default search engines in Firefox for Android,manage-my-default-search-engines-firefox-android,https://support.mozilla.org/en-US/kb/manage-my-default-search-engines-firefox-android,en-US,"Firefox for Android lets you add, remove and change your default search engine. Learn to manage your search engines with just a few taps.","<p>Firefox for Android gives you the ability to add, remove, and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
-</p>
-<div class=""note""><strong>Note:</strong> Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_change-the-default-search-engine""><span class=""tocnumber"">1</span> <span class=""toctext"">Change the default search engine</span></a></li><li class=""toclevel-1""><a href=""#w_change-the-search-engine-for-a-single-search""><span class=""tocnumber"">2</span> <span class=""toctext"">Change the search engine for a single search</span></a></li><li class=""toclevel-1""><a href=""#w_edit-search-settings""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit search settings</span></a></li><li class=""toclevel-1""><a href=""#w_add-a-search-engine""><span class=""tocnumber"">4</span> <span class=""toctext"">Add a search engine</span></a></li><li class=""toclevel-1""><a href=""#w_manage-alternative-search-engines""><span class=""tocnumber"">5</span> <span class=""toctext"">Manage alternative search engines</span></a></li></ul></div>
-<h1 id=""w_change-the-default-search-engine"">Change the default search engine</h1>
-<ol><li>Tap the search engine icon in the address bar.
-<dl><dt><img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Search Settings</span>.
-<dl><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Default search engine</span>.
-<dl><dt><img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Select the search engine of your choice.
-<dl><dt><img alt=""Manage search engines Android 4 edit"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-30-09-31-46-73a02f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>
-<h1 id=""w_change-the-search-engine-for-a-single-search"">Change the search engine for a single search</h1>
-<ol><li>Tap the search engine icon in the address bar.
-<dl><dt><img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Select the search engine you want to use for this search.
-<dl><dt><img alt=""Manage search engines Android 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-06-21-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>
-<p>This will not change your default search engine.
-</p>
-<h1 id=""w_edit-search-settings"">Edit search settings</h1>
-<ol><li>Tap the search engine icon in the address bar.
-<dl><dt><img alt=""Manage search engines Android 7"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-08-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Search Settings</span>.
-<dl><dt><img alt=""Manage search engines Android 8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-29-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Under the <em>Suggestions from search engines</em> section, toggle any of the following settings:
-<dl><dt><ul><li> <strong>Show search suggestions</strong>: Display search suggestions from your default search engine when you enter URLs or keywords in the address bar.
-</li><li> <strong>Show in private sessions</strong>: Display search suggestions when searching from the address bar in private browsing sessions.<div class=""note""><strong>Note:</strong> The “Show in private sessions” option (checkbox) is only active if “Show search suggestions” is toggled on.</div>
-</li><li> <strong>Show recent searches</strong>: Display recent searches by user when searching from the address bar.
-</li></ul>
-</dt></dl>
-</li><li>Under the <em>Address bar – Firefox suggest</em> section, toggle any of the following settings:
-<dl><dt><ul><li> <strong>Search browsing history</strong>: Include your browsing history in searches from the address bar.
-</li><li> <strong>Search bookmarks</strong>: Include your bookmarks in searches from the address bar.
-</li><li> <strong>Search synced tabs</strong>: Search tabs that you have synchronized from another copy of Firefox using Firefox Sync.
-</li><li> <strong>Suggestions from Firefox</strong>: Get suggestions from the web related to your search.
-</li><li> <strong>Suggestions from sponsors</strong>: Support Firefox with occasional sponsored suggestions.
-</li><li> <strong>Learn more about Firefox Suggest</strong>: Tapping this will open a link to another Mozilla Support topic.
-</li></ul>
-</dt></dl>
-</li><li>Under the <em>Address bar preferences</em> section, toggle any of the following settings:
-<dl><dt><ul><li> <strong>Show clipboard suggestions</strong>: If the last thing you copied to the clipboard was a link, the option ""Fill link from clipboard"" shows up when you tap the address bar in a new tab.
-</li><li> <strong>Show voice search</strong>: Display the microphone icon to be able to perform a web search using voice.
-</li><li> <strong>Autocomplete URLs</strong>: Autocomplete website addresses entered into the address bar.
-</li></ul>
-</dt></dl>
-</li></ol>
-<dl><dt><img alt=""Manage search engines Android-14"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-19-17-06-20-4ed340.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-<h1 id=""w_add-a-search-engine"">Add a search engine</h1>
-<ol><li>Tap the search engine icon in the address bar.
-<dl><dt><img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Search Settings</span>.
-<dl><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Default search engine</span>.
-<dl><dt><img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Add search engine</span>.
-<dl><dt><img alt=""Manage search engines Android 10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-13-37-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Provide a name for the search engine in the designated Name text field. Then, input the URL for the search string in the Search string URL field. Optionally, include a URL for the Search Suggestion API, and tap <span class=""button"">Save</span>.
-<dl><dt><img alt=""Manage search engines Android 9"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-53-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>
-<div class=""note"">
-<ul><li>If the search string URL is flagged as invalid, an error message will display to help you provide a valid URL. Please be sure to replace the query string with “%s”, for example: <a href=""https://www.google.com/search?q=%s"">https://www.google.com/search?q=%s</a>
-</li><li>If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to <a href=""https://www.ecosia.org/"">ecosia.org</a> and search for <em>firefox</em>, the resulting URL in the address bar will be <a href=""https://www.ecosia.org/search?q=firefox"">https://www.ecosia.org/search?q=firefox</a>. Then the search string must be <a href=""https://www.ecosia.org/search?q=%s"">https://www.ecosia.org/search?q=%s</a>, replacing the query with “%s”.
-</li></ul>
-</div>
-<p>The search engine is added to the predefined list of search engines in alphabetical order.
-</p>
-<h1 id=""w_manage-alternative-search-engines"">Manage alternative search engines</h1>
-<ol><li>Tap the search engine icon in the address bar.
-<dl><dt><img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt><dt>Tap <span class=""menu"">Search Settings</span>.
-</dt><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Manage alternative search engines</span>.
-<dl><dt><img alt=""Manage search engines Android 12"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-22-53-06502c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Select the engines you want to have visible in the search menu.
-<dl><dt><img alt=""Manage search engines Android 13"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-23-21-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>",mobile,settings,"Firefox for Android gives you the ability to add, remove, and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
-
-**Note:** Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.
-
-## Table of Contents
-
-- [1 Change the default search engine](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_change-the-default-search-engine)
-- [2 Change the search engine for a single search](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_change-the-search-engine-for-a-single-search)
-- [3 Edit search settings](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_edit-search-settings)
-- [4 Add a search engine](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_add-a-search-engine)
-- [5 Manage alternative search engines](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_manage-alternative-search-engines)
-
-# Change the default search engine
-
-1. Tap the search engine icon in the address bar.<dl><dt>
-<img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-2. Tap Search Settings.<dl><dt>
-<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-3. Tap Default search engine.<dl><dt>
-<img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-4. Select the search engine of your choice.<dl><dt>
-<img alt=""Manage search engines Android 4 edit"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-30-09-31-46-73a02f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-# Change the search engine for a single search
-
-1. Tap the search engine icon in the address bar.<dl><dt>
-<img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-2. Select the search engine you want to use for this search.<dl><dt>
-<img alt=""Manage search engines Android 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-06-21-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-This will not change your default search engine.
-
-# Edit search settings
-
-1. Tap the search engine icon in the address bar.<dl><dt>
-<img alt=""Manage search engines Android 7"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-08-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-2. Tap Search Settings.<dl><dt>
-<img alt=""Manage search engines Android 8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-29-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-3. Under the _Suggestions from search engines_ section, toggle any of the following settings:<dl><dt>
-<ul>
-<li> <strong>Show search suggestions</strong>: Display search suggestions from your default search engine when you enter URLs or keywords in the address bar.
-</li>
-<li> <strong>Show in private sessions</strong>: Display search suggestions when searching from the address bar in private browsing sessions.<div class=""note"">
-<strong>Note:</strong> The “Show in private sessions” option (checkbox) is only active if “Show search suggestions” is toggled on.</div>
-</li>
-<li> <strong>Show recent searches</strong>: Display recent searches by user when searching from the address bar.
-</li>
-</ul>
-</dt></dl>
-4. Under the _Address bar – Firefox suggest_ section, toggle any of the following settings:<dl><dt>
-<ul>
-<li> <strong>Search browsing history</strong>: Include your browsing history in searches from the address bar.
-</li>
-<li> <strong>Search bookmarks</strong>: Include your bookmarks in searches from the address bar.
-</li>
-<li> <strong>Search synced tabs</strong>: Search tabs that you have synchronized from another copy of Firefox using Firefox Sync.
-</li>
-<li> <strong>Suggestions from Firefox</strong>: Get suggestions from the web related to your search.
-</li>
-<li> <strong>Suggestions from sponsors</strong>: Support Firefox with occasional sponsored suggestions.
-</li>
-<li> <strong>Learn more about Firefox Suggest</strong>: Tapping this will open a link to another Mozilla Support topic.
-</li>
-</ul>
-</dt></dl>
-5. Under the _Address bar preferences_ section, toggle any of the following settings:<dl><dt>
-<ul>
-<li> <strong>Show clipboard suggestions</strong>: If the last thing you copied to the clipboard was a link, the option ""Fill link from clipboard"" shows up when you tap the address bar in a new tab.
-</li>
-<li> <strong>Show voice search</strong>: Display the microphone icon to be able to perform a web search using voice.
-</li>
-<li> <strong>Autocomplete URLs</strong>: Autocomplete website addresses entered into the address bar.
-</li>
-</ul>
-</dt></dl>
-
-<dl><dt>
-<img alt=""Manage search engines Android-14"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-19-17-06-20-4ed340.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-# Add a search engine
-
-1. Tap the search engine icon in the address bar.<dl><dt>
-<img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-2. Tap Search Settings.<dl><dt>
-<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-3. Tap Default search engine.<dl><dt>
-<img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-4. Tap Add search engine.<dl><dt>
-<img alt=""Manage search engines Android 10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-13-37-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-5. Provide a name for the search engine in the designated Name text field. Then, input the URL for the search string in the Search string URL field. Optionally, include a URL for the Search Suggestion API, and tap Save.<dl><dt>
-<img alt=""Manage search engines Android 9"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-53-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-- If the search string URL is flagged as invalid, an error message will display to help you provide a valid URL. Please be sure to replace the query string with “%s”, for example: [https://www.google.com/search?q=%s](https://www.google.com/search?q=%s)
-- If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to [ecosia.org](https://www.ecosia.org/) and search for _firefox_, the resulting URL in the address bar will be [https://www.ecosia.org/search?q=firefox](https://www.ecosia.org/search?q=firefox). Then the search string must be [https://www.ecosia.org/search?q=%s](https://www.ecosia.org/search?q=%s), replacing the query with “%s”.
-
-The search engine is added to the predefined list of search engines in alphabetical order.
-
-# Manage alternative search engines
-
-1. Tap the search engine icon in the address bar.<dl>
-<dt>
-<img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt>
-<dt>Tap <span class=""menu"">Search Settings</span>.
-</dt>
-<dt>
-<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt>
-</dl>
-2. Tap Manage alternative search engines.<dl><dt>
-<img alt=""Manage search engines Android 12"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-22-53-06502c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-3. Select the engines you want to have visible in the search menu.<dl><dt>
-<img alt=""Manage search engines Android 13"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-23-21-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-"
-24066,How to create and use mailing lists on Thunderbird,how-create-and-use-mailing-lists-thunderbird,https://support.mozilla.org/en-US/kb/how-create-and-use-mailing-lists-thunderbird,en-US,A mailing list is used to send one email to a group of contacts. This article explains how to create and use mailing lists in Thunderbird.,"<p>A mailing list is a sub list of an address book. 
-An address book can have more than one mailing list. <br>
-Any contact in an address book which has a valid email address can be placed in a mailing list. <br>
-A mailing list is used to send one email to a group of contacts.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-mailing-list""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a mailing list</span></a></li><li class=""toclevel-1""><a href=""#w_create-email-using-a-mailing-list""><span class=""tocnumber"">2</span> <span class=""toctext"">Create email using a mailing list</span></a><ul><li class=""toclevel-2""><a href=""#w_via-the-address-book""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Via the Address Book</span></a></li><li class=""toclevel-2""><a href=""#w_via-a-new-write-message""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Via a new Write message</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-add-two-contacts-who-use-the-same-email-address""><span class=""tocnumber"">3</span> <span class=""toctext"">How to add two contacts who use the same email address</span></a></li></ul></div>
-<h1 id=""w_create-a-mailing-list"">Create a mailing list</h1>
-<ol><li>Open the Address Book.
-</li><li>Select <span class=""menu"">File</span> &gt; <span class=""menu"">New</span> &gt; <span class=""menu"">Mailing List</span>.
-</li><li>Enter a suitable name for the mailing list.
-</li><li>At this point you have two options:
-<ul><li><strong>Option 1:</strong>
-<ol><li>Manually enter the email addresses of your contacts. 
-</li><li>Type one email address per line. 
-<dl><dt>You cannot sort email addresses in this list in this window. They will appear in the order added.  
-</dt></dl>
-</li><li>Click <span class=""button"">OK</span> when finished.
-</li></ol>
-</li><li><strong>Option 2:</strong>
-<ol><li>Do not enter any email addresses via this window.
-</li><li>Close the window by clicking <span class=""button"">OK</span>.
-</li><li>Select the address book with contacts you wish to put into a mailing list.
-</li><li>Select to highlight contacts. 
-<ul><li>To select various contacts: Hold down the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> key and left click on the contacts.
-</li><li>To select a block: Select the first contact, hold down the <span class=""key"">Shift</span> key and select the last contact.<br>
-</li></ul>
-</li><li>Left click and hold down on the selected highlighted contacts to grab.
-</li><li>Drag the contacts to the left and hover over the mailing list.
-</li><li>Release the mouse button to drop contacts into the mailing list.
-</li></ol>
-</li></ul>
-</li></ol>
-<p>If the contacts were not already in the associated address book, they will also be entered into the associated address book. <br>
-The image below shows an example of a new mailing list called 'Test'. It is a mailing list in the Personal Address Book.
-</p><p><img alt=""Mailing List add contacts"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-12-04-10-13-37-1472aa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<h1 id=""w_create-email-using-a-mailing-list"">Create email using a mailing list</h1>
-<p>There are two methods producing different results.
-</p>
-<h2 id=""w_via-the-address-book""><strong>Via the Address Book</strong></h2>
-<p>On the Mail Toolbar, locate 'Address Book'.
-</p>
-<ol><li>Click <span class=""menu"">Address Book</span> to open it.
-</li><li>Select the mailing list.
-</li><li>Click the <span class=""menu"">Write</span> button.
-</li></ol>
-<p>This will open a new Write message window, and each contact in the mailing list will appear in a separate To field. This allows you to remove a name, if desired. <br>
-You may also need to manually select <span class=""button"">Bcc</span> for each email address, as your contacts may not want you to distribute their email address.<br>
-Enter the Subject; Compose the email and click <span class=""button"">Send</span>.
-</p>
-<h2 id=""w_via-a-new-write-message""><strong>Via a new Write message</strong></h2>
-<p>On the Mail Toolbar, locate the 'Write' button.
-</p>
-<ol><li>Click the <span class=""menu"">Write</span> button.
-<dl><dt>A new Write message window will open, and on the left side there should be the 'Contacts Sidebar'. <br>
-</dt></dl>
-<ul><li>If you cannot see the Contacts Sidebar, you need to enable it.<br>
-<ul><li>Click <span class=""menu"">View</span> &gt; <span class=""menu"">Contacts Sidebar</span> or use the <span class=""key"">F9</span> key to toggle the view.
-</li></ul>
-</li></ul>
-</li><li>Select the address book containing the mailing list.
-</li><li>Select the mailing list.
-</li><li>Click the <span class=""button"">Add to Bcc</span> button or another option.
-</li></ol>
-<p><img alt=""Mailing Lists"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-12-04-09-32-18-e94af0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>This will add the mailing list as the mailing list name. You cannot see individual contacts. This saves you from needing to change eg. To to Bcc, but you cannot edit any names from that email using this method.<br>
-Enter the Subject; Compose the email and click <span class=""button"">Send</span>.
-</p>
-<h1 id=""w_how-to-add-two-contacts-who-use-the-same-email-address"">How to add two contacts who use the same email address</h1>
-<p>As an example: <br>
-In your address book you have two people with the same email address. <br>
-a) Bob Smith has email address: thesmiths @ domain. <br>
-b) Jan Smith has email address: thesmiths @ domain. <br>
-</p><p>These two people are perfectly OK in an address book, but to get them into a mailing list will not work using the conventional method. So do the following to get them into the mailing list.
-</p><p>In the Address Book, select one of the people and edit their email address. In the example I put a letter A in the front. <br>
-Jan Smith has the email address Athesmiths @ domain.
-</p><p>Now move both people to the mailing list. As the email addresses are not the same, they will both move to the mailing list. Once in the mailing list, select the mailing list and double click Jan Smith to edit the email address by removing the 'A'. Click <span class=""button"">OK</span> when finished.
-</p><p>Now you should have two people sharing the same email address in the mailing list, and if you go back and check the address Book entries, you will find them correct.
-</p>",thunderbird,contacts;email-and-messaging;send-and-receive-email,"A mailing list is a sub list of an address book. An address book can have more than one mailing list.   
-Any contact in an address book which has a valid email address can be placed in a mailing list.   
-A mailing list is used to send one email to a group of contacts.
-
-## Table of Contents
-
-- [1 Create a mailing list](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_create-a-mailing-list)
-- [2 Create email using a mailing list](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_create-email-using-a-mailing-list)
-  - [2.1 Via the Address Book](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_via-the-address-book)
-  - [2.2 Via a new Write message](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_via-a-new-write-message)
-
-- [3 How to add two contacts who use the same email address](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_how-to-add-two-contacts-who-use-the-same-email-address)
-
-# Create a mailing list
-
-1. Open the Address Book.
-2. Select File \> New \> Mailing List.
-3. Enter a suitable name for the mailing list.
-4. At this point you have two options:
-  - **Option 1:**
-    1. Manually enter the email addresses of your contacts. 
-    2. Type one email address per line. <dl><dt>You cannot sort email addresses in this list in this window. They will appear in the order added.  
-</dt></dl>
-    3. Click OK when finished.
-
-  - **Option 2:**
-    1. Do not enter any email addresses via this window.
-    2. Close the window by clicking OK.
-    3. Select the address book with contacts you wish to put into a mailing list.
-    4. Select to highlight contacts. 
-      - To select various contacts: Hold down the CtrlCommand key and left click on the contacts.
-      - To select a block: Select the first contact, hold down the Shift key and select the last contact.  
-
-    5. Left click and hold down on the selected highlighted contacts to grab.
-    6. Drag the contacts to the left and hover over the mailing list.
-    7. Release the mouse button to drop contacts into the mailing list.
-
-If the contacts were not already in the associated address book, they will also be entered into the associated address book.   
-The image below shows an example of a new mailing list called 'Test'. It is a mailing list in the Personal Address Book.
-
-![Mailing List add contacts](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Create email using a mailing list
-
-There are two methods producing different results.
-
-## **Via the Address Book**
-
-On the Mail Toolbar, locate 'Address Book'.
-
-1. Click Address Book to open it.
-2. Select the mailing list.
-3. Click the Write button.
-
-This will open a new Write message window, and each contact in the mailing list will appear in a separate To field. This allows you to remove a name, if desired.   
-You may also need to manually select Bcc for each email address, as your contacts may not want you to distribute their email address.  
-Enter the Subject; Compose the email and click Send.
-
-## **Via a new Write message**
-
-On the Mail Toolbar, locate the 'Write' button.
-
-1. Click the Write button.<dl><dt>A new Write message window will open, and on the left side there should be the 'Contacts Sidebar'. <br>
-</dt></dl>
-  - If you cannot see the Contacts Sidebar, you need to enable it.  
-
-    - Click View \> Contacts Sidebar or use the F9 key to toggle the view.
-
-2. Select the address book containing the mailing list.
-3. Select the mailing list.
-4. Click the Add to Bcc button or another option.
-
-![Mailing Lists](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-This will add the mailing list as the mailing list name. You cannot see individual contacts. This saves you from needing to change eg. To to Bcc, but you cannot edit any names from that email using this method.  
-Enter the Subject; Compose the email and click Send.
-
-# How to add two contacts who use the same email address
-
-As an example:   
-In your address book you have two people with the same email address.   
-a) Bob Smith has email address: thesmiths @ domain.   
-b) Jan Smith has email address: thesmiths @ domain.
-
-These two people are perfectly OK in an address book, but to get them into a mailing list will not work using the conventional method. So do the following to get them into the mailing list.
-
-In the Address Book, select one of the people and edit their email address. In the example I put a letter A in the front.   
-Jan Smith has the email address Athesmiths @ domain.
-
-Now move both people to the mailing list. As the email addresses are not the same, they will both move to the mailing list. Once in the mailing list, select the mailing list and double click Jan Smith to edit the email address by removing the 'A'. Click OK when finished.
-
-Now you should have two people sharing the same email address in the mailing list, and if you go back and check the address Book entries, you will find them correct.
 
 "
 24137,Enhanced Tracking Protection in Firefox for Android,enhanced-tracking-protection-firefox-android,https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-android,en-US,Control who's watching you on the Internet. This article explains how to turn on Tracking Protection in Firefox for Android.,"<p>Firefox for Android uses a list provided by Disconnect to identify and block known trackers on the websites you visit. Tap the <span class=""for"" data-for=""m142""><em>Shield</em> <img alt=""Firefox_Android_144_Shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-10-02-57-b8700c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""></span><span class=""for"" data-for=""not m142""><em>Lock</em> <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> icon in the address bar to check if Firefox is actively blocking trackers on that page. Read <a href=""https://disconnect.me/trackerprotection"">Disconnect documentation about tracking and standards they use to create their list</a> or the <a href=""https://wiki.mozilla.org/Security/Tracking_protection#Lists"">Mozilla Wiki about the lists used by Firefox for <em>Enhanced Tracking Protection</em></a>.
@@ -91854,54 +91457,6 @@ There are some options to choose from:
 - [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"")
 
 "
-58980,How to upgrade your MDN Plus subscription,how-upgrade-your-mdn-plus-subscription,https://support.mozilla.org/en-US/kb/how-upgrade-your-mdn-plus-subscription,en-US,"If you are an MDN Core or MDN Plus 5 subscriber and wish to upgrade your subscription to a better plan, you can do it from the MDN Plus website.","<p>If you are an <em>MDN Core</em> or <em>MDN Plus 5</em> subscriber and wish to upgrade your subscription to a better plan, you can do it from the <a href=""https://developer.mozilla.org/plus"">MDN Plus website</a>.
-</p>
-<div class=""note""><strong>Note:</strong> Users can only upgrade to a higher plan. Downgrades are not available at this time.</div>
-<ol><li>Log in to the <a href=""https://developer.mozilla.org/plus"">MDN Plus site</a> with the credentials you used to subscribe to your current plan.
-</li><li>Scroll down to the bottom of the page to see the plans you can upgrade to.
-</li><li>Click the <strong>Upgrade</strong> button to select a plan from the available options.
-</li><li>You will be redirected to the checkout screen to complete your purchase.
-</li><li>The change in your plan will take effect immediately.
-</li></ol>
-<p>You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
-</p>",mdn-plus,manage-billing,"If you are an _MDN Core_ or _MDN Plus 5_ subscriber and wish to upgrade your subscription to a better plan, you can do it from the [MDN Plus website](https://developer.mozilla.org/plus).
-
-**Note:** Users can only upgrade to a higher plan. Downgrades are not available at this time.
-
-1. Log in to the [MDN Plus site](https://developer.mozilla.org/plus) with the credentials you used to subscribe to your current plan.
-2. Scroll down to the bottom of the page to see the plans you can upgrade to.
-3. Click the **Upgrade** button to select a plan from the available options.
-4. You will be redirected to the checkout screen to complete your purchase.
-5. The change in your plan will take effect immediately.
-
-You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
-
-"
-58999,I can't sign in to Mozilla VPN - What should I do?,i-cant-sign-mozilla-vpn-what-should-i-do,https://support.mozilla.org/en-US/kb/i-cant-sign-mozilla-vpn-what-should-i-do,en-US,"If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues.","<p>If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues. 
-</p>
-<ul><li>Ensure you are using the latest version of Mozilla VPN.
-</li><li>Make sure you are using the email and password combination associated with the Mozilla account used to purchase your subscription. 
-</li><li>Manually type in your credentials instead of pasting them or using a password management application.
-</li><li>Visit <a href=""http://accounts.firefox.com"">accounts.firefox.com</a> on your web browser and sign in. Then try to sign in to Mozilla VPN.
-</li></ul>
-<p>If you’re unable to even sign in to <a href=""http://accounts.firefox.com"">accounts.firefox.com</a>, then you may need to <a href=""/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn"">reset your Mozilla account</a>.
-</p>
-<h1 id=""w_im-still-unable-to-sign-in-to-mozilla-account"">I’m still unable to sign in to Mozilla account</h1>
-<p>If you’re unable to sign in or contact us through the <strong>Contact Us</strong> form in the VPN menu, <a href=""mailto:fxasupport@mozilla.com?subject=2FA Reset Request"">contact us through this link</a>.
-</p>",mozilla-vpn,accounts;passwords-and-sign-in,"If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues.
-
-- Ensure you are using the latest version of Mozilla VPN.
-- Make sure you are using the email and password combination associated with the Mozilla account used to purchase your subscription. 
-- Manually type in your credentials instead of pasting them or using a password management application.
-- Visit [accounts.firefox.com](http://accounts.firefox.com) on your web browser and sign in. Then try to sign in to Mozilla VPN.
-
-If you’re unable to even sign in to [accounts.firefox.com](http://accounts.firefox.com), then you may need to [reset your Mozilla account](\""https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn"").
-
-# I’m still unable to sign in to Mozilla account
-
-If you’re unable to sign in or contact us through the **Contact Us** form in the VPN menu, [contact us through this link](mailto:fxasupport@mozilla.com?subject=2FA Reset Request).
-
-"
 59036,What's new in Firefox for iOS (version 103),whats-new-firefox-ios-version-103,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-103,en-US,See what's new in the latest release of Firefox for iOS (version 103).,"<p>Welcome to a new version of Firefox for iOS (version 103). This release comes with the following improvements and features:
 </p>
 <h1 id=""w_bug-fixes-and-enhancements"">Bug fixes and enhancements</h1>
@@ -130362,6 +129917,62 @@ To download the Media Feature Pack for earlier Windows 10 versions and for infor
 **Windows 8** :
 
 - [Windows 8: N and KN editions](http://www.microsoft.com/download/details.aspx?id=30685) (Microsoft Support article [KB2703761](https://support.microsoft.com/en-us/kb/2703761))
+
+"
+637,Home page with pipe character opens extra tabs when Firefox starts,home-page-pipe-character-opens-extra-tabs-firefox,https://support.mozilla.org/en-US/kb/home-page-pipe-character-opens-extra-tabs-firefox,en-US,Set up Firefox to open multiple home pages replacing the pipe character (|) with %7C.,"<p>Firefox sets multiple <a href=""/en-US/kb/how-to-set-the-home-page"">home pages</a> when you separate each address with a pipe character (|) or vertical bar. This feature may lead to problems when an individual home page address contains a pipe character.
+</p><p>Here's how to fix it:
+</p><div class=""for"" data-for=""not fx61"">
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Select the <span class=""menu"">General</span> panel.
+</li><li> In the <strong>Home Page</strong> text box, replace all pipes (|) with <strong>%7C</strong>.
+</li><li> Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
+
+</li></ol>
+</div><div class=""for"" data-for=""fx61"">
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> Select the <span class=""menu"">Home</span> panel.
+</li><li> In the <strong>Homepage and new windows</strong> text box for <strong>Custom URLs…</strong>, replace all pipes (|) with <strong>%7C</strong>.
+</li><li> Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
+
+</li></ol>
+</div>
+<div class=""note""><strong>Tip:</strong> If removing the pipe character doesn't solve the problem, add-ons or malware might be causing this behavior. Try <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">refreshing Firefox</a> to remove add-ons without erasing your browsing information and bookmarks.</div>",firefox,browse;home-screen;performance-and-connectivity;tabs,"Firefox sets multiple [home pages](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"") when you separate each address with a pipe character (|) or vertical bar. This feature may lead to problems when an individual home page address contains a pipe character.
+
+Here's how to fix it:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the General panel.
+3. In the **Home Page** text box, replace all pipes (|) with **%7C**.
+4. Close the Settings page. Any changes you've made will automatically be saved.
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the Home panel.
+3. In the **Homepage and new windows** text box for **Custom URLs…** , replace all pipes (|) with **%7C**.
+4. Close the Settings page. Any changes you've made will automatically be saved.
+
+**Tip:** If removing the pipe character doesn't solve the problem, add-ons or malware might be causing this behavior. Try [refreshing Firefox](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") to remove add-ons without erasing your browsing information and bookmarks.
+"
+880,Zoom in and out of websites on Firefox for Android,zoom-and-out-websites-firefox-android,https://support.mozilla.org/en-US/kb/zoom-and-out-websites-firefox-android,en-US,You can easily zoom into a web page to get a closer look. This article covers the different methods and options for zooming.,"<p>You can zoom into a page by using pinch gestures.
+</p>
+<div class=""note"">Text will not be reformatted when you use pinch to zoom.</div>
+<h1 id=""w_zoom-in"">Zoom in</h1>
+<p>Just place two finger tips on the screen and move them away from each other.
+</p>
+<h1 id=""w_zoom-out"">Zoom out</h1>
+<p>Use a pinch gesture (move your finger tips closer together).
+</p>",mobile,browse,"You can zoom into a page by using pinch gestures.
+
+Text will not be reformatted when you use pinch to zoom.
+
+# Zoom in
+
+Just place two finger tips on the screen and move them away from each other.
+
+# Zoom out
+
+Use a pinch gesture (move your finger tips closer together).
 
 "
 12202,Set Firefox as your default browser on Android,make-firefox-default-browser-android,https://support.mozilla.org/en-US/kb/make-firefox-default-browser-android,en-US,This article explains how to set Firefox as your default browser on your Android device.,"<p>
