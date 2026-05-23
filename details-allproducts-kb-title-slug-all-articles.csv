@@ -25861,19 +25861,19 @@ Finally, check the _Extensions_ tab to see what (if any) extensions were running
 Crash reports contain a lot of very technical information. There are many more things that can be learned from them than what's presented in this article and sometimes, the steps presented here won't lead to concrete steps you can give a user to resolve the problem. **If you want help with reading crash reports, the best thing to do is ask for help in the [SUMO Matrix room](https://chat.mozilla.org/#/room/#SUMO:mozilla.org)** Just type: _Can someone help me read this crash report?_
 
 "
-8571,Article review guidelines for KB reviewers,article-review-guidelines,https://support.mozilla.org/en-US/kb/article-review-guidelines,en-US,"Guidelines for reviewing KB articles including revision levels, feedback for editors, and 'ready for localization' status","<p>Our <a href=""/groups/knowledge-base-reviewers"">Knowledge Base reviewers</a> are Mozilla contributors and staff with experience and skill in writing support documentation. Here are some guidelines for reviewing articles. 
+8571,Article review guidelines for KB reviewers,article-review-guidelines,https://support.mozilla.org/en-US/kb/article-review-guidelines,en-US,"Guidelines for reviewing KB articles including revision levels, feedback for editors and 'ready for localization' status","<p>Our <a href=""/groups/knowledge-base-reviewers"">Knowledge Base reviewers</a> are Mozilla contributors and staff with experience and skill in writing support documentation. Here are some guidelines for reviewing articles.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_purpose""><span class=""tocnumber"">1</span> <span class=""toctext"">Purpose</span></a><ul><li class=""toclevel-2""><a href=""#w_key-responsibilities""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Key responsibilities</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_review-guidelines""><span class=""tocnumber"">2</span> <span class=""toctext"">Review guidelines</span></a><ul><li class=""toclevel-2""><a href=""#w_review-policy-based-on-content-type""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Review policy based on content type</span></a></li><li class=""toclevel-2""><a href=""#w_where-to-find-unreviewed-articles""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Where to find unreviewed articles</span></a><ul><li class=""toclevel-3""><a href=""#w_prioritization""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Prioritization</span></a></li><li class=""toclevel-3""><a href=""#w_special-articles""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">Special articles</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_special-requirements-for-subscription-or-premium-products""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Special requirements for subscription or premium products</span></a><ul><li class=""toclevel-3""><a href=""#w_content-submission""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Content submission</span></a></li><li class=""toclevel-3""><a href=""#w_content-approval""><span class=""tocnumber"">2.3.2</span> <span class=""toctext"">Content approval</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_reviewing-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Reviewing articles</span></a><ul><li class=""toclevel-2""><a href=""#w_choosing-revision-levels""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Choosing revision levels</span></a></li><li class=""toclevel-2""><a href=""#w_leaving-feedback-for-editors""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Leaving feedback for editors</span></a></li><li class=""toclevel-2""><a href=""#w_deferring-a-revision""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Deferring a revision</span></a></li><li class=""toclevel-2""><a href=""#w_reviewing-multiple-revisions""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Reviewing multiple revisions</span></a></li><li class=""toclevel-2""><a href=""#w_needs-change""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Needs change</span></a></li><li class=""toclevel-2""><a href=""#w_giving-credit""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Giving credit</span></a></li><li class=""toclevel-2""><a href=""#w_handling-spam-and-mistaken-edits""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Handling spam and mistaken edits</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_ready-for-localization""><span class=""tocnumber"">4</span> <span class=""toctext"">Ready for localization</span></a><ul><li class=""toclevel-2""><a href=""#w_how-does-ready-for-localization-rfl-work""><span class=""tocnumber"">4.1</span> <span class=""toctext"">How does “Ready For Localization” (RFL) work?</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Marking an article RFL</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl-post-review""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Marking an article RFL post-review</span></a></li><li class=""toclevel-2""><a href=""#w_rfl-protocols""><span class=""tocnumber"">4.4</span> <span class=""toctext"">RFL protocols</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_release-readiness""><span class=""tocnumber"">5</span> <span class=""toctext"">Release readiness</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-release-calendar""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Firefox release calendar</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_discussion-channel-and-escalation""><span class=""tocnumber"">6</span> <span class=""toctext"">Discussion channel and escalation</span></a></li><li class=""toclevel-1""><a href=""#w_role-evaluation""><span class=""tocnumber"">7</span> <span class=""toctext"">Role evaluation</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_purpose""><span class=""tocnumber"">1</span> <span class=""toctext"">Purpose</span></a><ul><li class=""toclevel-2""><a href=""#w_key-responsibilities""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Key responsibilities</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_review-guidelines""><span class=""tocnumber"">2</span> <span class=""toctext"">Review guidelines</span></a><ul><li class=""toclevel-2""><a href=""#w_knowledge-base-review-policy""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Knowledge Base review policy</span></a><ul><li class=""toclevel-3""><a href=""#w_when-is-staff-review-required""><span class=""tocnumber"">2.1.1</span> <span class=""toctext"">When is staff review required?</span></a></li><li class=""toclevel-3""><a href=""#w_when-can-contributors-with-kb-review-permissions-review-revisions""><span class=""tocnumber"">2.1.2</span> <span class=""toctext"">When can contributors with KB review permissions review revisions?</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_where-to-find-unreviewed-articles""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Where to find unreviewed articles</span></a><ul><li class=""toclevel-3""><a href=""#w_prioritization""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Prioritization</span></a></li><li class=""toclevel-3""><a href=""#w_special-articles""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">Special articles</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_special-requirements-for-subscription-or-premium-products""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Special requirements for subscription or premium products</span></a><ul><li class=""toclevel-3""><a href=""#w_content-submission""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Content submission</span></a></li><li class=""toclevel-3""><a href=""#w_kb-revision-review-and-approval""><span class=""tocnumber"">2.3.2</span> <span class=""toctext"">KB revision review and approval</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_reviewing-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Reviewing articles</span></a><ul><li class=""toclevel-2""><a href=""#w_choosing-revision-levels""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Choosing revision levels</span></a></li><li class=""toclevel-2""><a href=""#w_leaving-feedback-for-editors""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Leaving feedback for editors</span></a></li><li class=""toclevel-2""><a href=""#w_deferring-a-revision""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Deferring a revision</span></a></li><li class=""toclevel-2""><a href=""#w_reviewing-multiple-revisions""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Reviewing multiple revisions</span></a></li><li class=""toclevel-2""><a href=""#w_needs-change""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Needs change</span></a></li><li class=""toclevel-2""><a href=""#w_giving-credit""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Giving credit</span></a></li><li class=""toclevel-2""><a href=""#w_handling-spam-and-mistaken-edits""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Handling spam and mistaken edits</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_ready-for-localization""><span class=""tocnumber"">4</span> <span class=""toctext"">Ready for localization</span></a><ul><li class=""toclevel-2""><a href=""#w_how-does-ready-for-localization-rfl-work""><span class=""tocnumber"">4.1</span> <span class=""toctext"">How does “Ready For Localization” (RFL) work?</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Marking an article RFL</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl-post-review""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Marking an article RFL post-review</span></a></li><li class=""toclevel-2""><a href=""#w_rfl-protocols""><span class=""tocnumber"">4.4</span> <span class=""toctext"">RFL protocols</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_release-readiness""><span class=""tocnumber"">5</span> <span class=""toctext"">Release readiness</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-release-calendar""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Firefox release calendar</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_discussion-channel-and-escalation""><span class=""tocnumber"">6</span> <span class=""toctext"">Discussion channel and escalation</span></a></li><li class=""toclevel-1""><a href=""#w_role-evaluation""><span class=""tocnumber"">7</span> <span class=""toctext"">Role evaluation</span></a></li></ul></div>
 <h1 id=""w_purpose"">Purpose</h1>
-<p>As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity, and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily. 
+<p>As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily.
 </p>
 <h2 id=""w_key-responsibilities"">Key responsibilities</h2>
-<p>As a KB reviewer, when you review a revision, always make sure that the revision: 
+<p>As a KB reviewer, when you review a revision, always make sure that the revision:
 </p>
 <ul><li> Is accurate and up-to-date
 </li><li> Uses clear, consistent language and tone
 </li><li> Is aligned with Mozilla’s editorial guidelines
-</li><li> Includes correct and functioning formatting, links, and markup
+</li><li> Includes correct and functioning formatting, links and markup
 </li><li> Follows accessibility and localization best practices
 </li><li> Meets the scope of the article and product version
 </li></ul>
@@ -25881,40 +25881,55 @@ Crash reports contain a lot of very technical information. There are many more t
 <div class=""note""><strong>Note:</strong> These approval guidelines only apply to reviewing en-US updates. They do not apply to translated, non-en-US updates. For more information on localizing content, check out <a href=""/en-US/kb/translating-an-article"">Translating an article</a>.</div>
 <p>Most revisions are made by people volunteering their time and talent. When dealing with the work that people have submitted, assume that everyone has the best intentions and be sure to thank them for their contribution. <strong>Remember, you may be the first and only contact that person has with someone from Mozilla. Please make it positive.</strong>
 </p>
-<h2 id=""w_review-policy-based-on-content-type"">Review policy based on content type</h2>
-<div class=""warning""><strong>Important: No self-approval by any contributor is allowed in any type of revisions.</strong></div>
-<p>Review requirements differ by <a href=""/en-US/kb/major-vs-minor"">content type</a>. It’s important to review the following policy below before approving any new revision. 
+<h2 id=""w_knowledge-base-review-policy"">Knowledge Base review policy</h2>
+<p>For major updates, it's important to distinguish between content approval and content review, as these are two separate processes.
 </p>
-<ul><li> <strong>New articles</strong>: All new articles must be reviewed by a CX staff member.
-</li><li> <strong>Major updates</strong>: Both CX staff and contributors with KB reviewer permission can review revision with major updates. There might be exceptions where certain content may require CX staff approval, particularly for sensitive or high-impact content. In these situations, the author should indicate in the revision notes “Staff review required.”
-</li><li> <strong>Minor updates</strong>: Minor updates may be reviewed by either CX staff or a contributor reviewer. 
+<ul><li> <strong>Content approval</strong> is performed by product stakeholders mainly to validate the technical accuracy of the content.
+</li><li> <strong>Content review</strong> is performed by KB reviewers to ensure editorial quality and article formatting.
 </li></ul>
-<div class=""warning""><strong>Note:</strong> All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted. Otherwise, you can defer the revision.</div>
-<h2 id=""w_where-to-find-unreviewed-articles"">Where to find unreviewed articles</h2>
-<p>There are multiple ways you can find unreviewed articles: 
+<p>See <a href=""/en-US/kb/contributor-assignments#w_content-approval-vs-content-review"">Contributor assignments for content requests</a> for more details about this distinction.
 </p>
-<ul><li> <strong>Knowledge Base Overview</strong>: This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
-</li><li> <strong>Unreviewed Changes</strong>: This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
-</li><li> <strong>Most Visited</strong>: This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
+<h3 id=""w_when-is-staff-review-required"">When is staff review required?</h3>
+<p>Staff review is required for:
+</p>
+<ul><li> New articles
+</li><li> Major updates explicitly marked with “Staff review required” in the revision notes
+</li></ul>
+<h3 id=""w_when-can-contributors-with-kb-review-permissions-review-revisions"">When can contributors with KB review permissions review revisions?</h3>
+<div class=""warning""><strong>Important: No self-approval by any contributor is allowed in any type of revisions.</strong></div>
+<p>Contributors with KB review permissions may review:
+</p>
+<ul><li> Revisions classified as minor changes
+</li><li> Major changes that do not require staff review
+</li></ul>
+<p>See <a href=""/en-US/kb/major-vs-minor"">Minor vs major changes</a> to learn more about how content updates are classified based on their scope and impact.
+</p>
+<div class=""note""><strong>Note:</strong> All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted.</div>
+<h2 id=""w_where-to-find-unreviewed-articles"">Where to find unreviewed articles</h2>
+<p>There are multiple ways you can find unreviewed articles:
+</p>
+<ul><li> <strong>Knowledge Base Overview:</strong> This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
+</li><li> <strong>Unreviewed Changes:</strong> This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
+</li><li> <strong>Most Visited:</strong> This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
 </li></ul>
 <h3 id=""w_prioritization"">Prioritization</h3>
 <p>When reviewing multiple articles, it’s important to prioritize your efforts strategically. Consider the following:
 </p>
-<ul><li> <strong>Article with high pageviews</strong>: Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
-</li><li> <strong>Article linked within the product</strong>: If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.
+<ul><li> <strong>Article with high pageviews:</strong> Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
+</li><li> <strong>Article linked within the product:</strong> If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.
 <dl><dt><img alt=""in-product KB indicator"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-09-55-35-befc54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
 </dt></dl>
 </li></ul>
 <h3 id=""w_special-articles"">Special articles</h3>
-<ul><li><strong>Templates</strong> include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed <a href=""/contributors/kb-overview?category=60"">here</a>. For guidelines on how to use templates within articles, please refer to <a href=""/en-US/kb/using-templates"">Using Templates</a>.
-</li><li><strong>Canned Responses</strong> are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available <a href=""/contributors/kb-overview?category=70"">here</a>. For additional guidelines on creating or improving common responses, see <a href=""/en-US/kb/create-or-improve-common-forum-responses"">Create or improve common forum responses</a>.
+<ul><li><strong>Templates</strong> include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed <a href=""/contributors/kb-overview?category=60"">in this board</a>. For guidelines on how to use templates within articles, please refer to <a href=""/en-US/kb/using-templates"">Using Templates</a>.
+</li><li><strong>Canned Responses</strong> are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available <a href=""/contributors/kb-overview?category=70"">in this other board</a>. For additional guidelines on creating or improving common responses, see <a href=""/en-US/kb/create-or-improve-common-forum-responses"">Create or improve common forum responses</a>.
 </li></ul>
 <h2 id=""w_special-requirements-for-subscription-or-premium-products"">Special requirements for subscription or premium products</h2>
 <h3 id=""w_content-submission"">Content submission</h3>
 <div class=""warning""><strong>Important: Contributors may not directly submit updates or create new Knowledge Base articles for Subscription or Premium products.</strong></div>
-<p>If you would like to suggest new content or propose changes, please  file <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&amp;component=Knowledge%20Base%20Content"">a Bugzilla ticket</a> or reach out to <a href=""/en-US/kb/meet-team"">a staff member</a>. You can contact us either on <a href=""https://chat.mozilla.org/#/room/#sumo:mozilla.org"">Matrix</a> or in the #sumo-team channel on Slack (for contributors with Slack access). 
+<p>If you would like to suggest new content or propose changes, please  file <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&amp;component=Knowledge%20Base%20Content"">a Bugzilla ticket</a> or reach out to <a href=""/en-US/kb/meet-team"">a staff member</a>. You can contact us either <a href=""https://chat.mozilla.org/#/room/#sumo:mozilla.org"">on Matrix</a> or in the <em>#sumo-team</em> channel on Slack (for contributors with Slack access). 
 </p>
-<h3 id=""w_content-approval"">Content approval</h3>
+<h3 id=""w_kb-revision-review-and-approval"">KB revision review and approval</h3>
 <p><strong>Staff approval is required for all revisions related to Subscription or Premium products</strong>. This includes Canned Responses and Templates associated with these products. 
 </p><p>For reference, current Subscription or Premium products include:
 </p>
@@ -25925,24 +25940,24 @@ Crash reports contain a lot of very technical information. There are many more t
 </li></ul>
 <h1 id=""w_reviewing-articles"">Reviewing articles</h1>
 <h2 id=""w_choosing-revision-levels"">Choosing revision levels</h2>
-<p>When you approve an article, you have three different revision levels to choose from. These levels will determine the need and prioritization for localization. 
+<p>When you approve an article, you have three different revision levels to choose from. These levels will determine the need and prioritization for localization.
 </p>
 <ul><li> <strong>Minor details that don't affect the instructions:</strong> These are changes that won't change instructions to users. Localizers won't be notified about these changes.
-</li><li> <strong>Content changes that don't require immediate translation:</strong> This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers. 
+</li><li> <strong>Content changes that don't require immediate translation:</strong> This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers.
 </li><li> <strong>Major content changes that will make older translations inaccurate:</strong> This can be used when the update will cause the previous content to be outdated. Marking an article with this will trigger a warning on localized articles that the content may be out of date and provide a link to the English version for the most updated information.
-<dl><dt><img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<dl><dt><img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 </li></ul>
 <h2 id=""w_leaving-feedback-for-editors"">Leaving feedback for editors</h2>
 <p>When approving an article, it's important to thank the editors for their contribution. It's also nice if you can give them feedback. Has their writing improved? Did they do an especially good job explaining something complex? Let them know!
 </p>
 <div class=""note""><strong>Note:</strong> If a revision is good but contains a minor mistake (typo, markup mistake, etc.), you can approve it and ask the editor to fix the issue. Otherwise, you can also submit a new revision to fix it and ask a fellow KB reviewer to review.</div>
-<dl><dt><img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<dl><dt><img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 <h2 id=""w_deferring-a-revision"">Deferring a revision</h2>
 <p>If a revision is not particularly helpful, you can defer the proposed revision. Rather than being a simple rejection, however, a deferral is your opportunity to work with the revision’s author to improve their revision. You can do so by leaving a message in the comment field to thank the author and then give specific, constructive feedback about what you feel needs to change in order for the revision to be acceptable. Be sure to also include links to any relevant documentations or guidelines.
 </p>
-<dl><dt><img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<dl><dt><img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 <h2 id=""w_reviewing-multiple-revisions"">Reviewing multiple revisions</h2>
 <p>When there are multiple revisions pending for approval, make sure to check all of the revisions starting from the oldest one before making a decision. It’s important to note that you can't review older revisions when a newer revision has been approved. You will see that they are still pending for approval, but it won't be possible to review them.
@@ -25950,14 +25965,14 @@ Crash reports contain a lot of very technical information. There are many more t
 <h2 id=""w_needs-change"">Needs change</h2>
 <p>When approving a revision, you have to decide what, if anything, still needs to be changed. If everything specified in the “Needs change” comment has been taken care of, you can uncheck it (clearing the comment) and approve the article. If there are still things that need to be done, make sure the checkbox is checked and update the comment. This way, we can <a href=""/contributors/need-changes"">easily keep track of what work needs to be done on articles</a>.
 </p>
-<dl><dt><img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<dl><dt><img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 <h2 id=""w_giving-credit"">Giving credit</h2>
 <p>Sometimes people that participate in a discussion about an article make significant contributions to a revision even if they weren't the one to actually edit the wiki. In cases like this, you can edit the list of contributors to an article (on the article history page) to include them. Bonus points for letting them know you did this!
 </p><p><strong>How to give credit to a contributor in the KB</strong>
 </p>
 <ul><li> To add a contributor, go to the <em>Show History</em> page of an article
-</li><li> Scroll down under the revisions and click the “Edit contributors” link
+</li><li> Scroll down under the revisions and click the <strong>Edit contributors</strong> link
 </li><li> Type the contributor name and then click <span class=""button"">Add Contributor</span>
 </li></ul>
 <div class=""note""><strong>Note:</strong> Everybody who submitted a revision will be given credit automatically unless their revision is deferred.</div>
@@ -25978,20 +25993,18 @@ Crash reports contain a lot of very technical information. There are many more t
 <h2 id=""w_marking-an-article-rfl"">Marking an article RFL</h2>
 <p>Marking an article revision as “Ready for localization” means that we’re telling localizers the English version is done and can be translated without fear that the article will change a few more times before they're done.
 </p>
-<dl><dt><img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<dl><dt><img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
-<p><br>
-</p>
-<div class=""note""><strong>Note:</strong> The “Ready for L10N” column on the KB dashboard will indicate NO for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the <a href=""/contributors/unready"">Changes Not Ready for Localization</a> page.</div>
+<div class=""note""><strong>Note:</strong> The “Ready for L10N” column on the KB dashboard will indicate “No” for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the <a href=""/contributors/unready"">Changes Not Ready for Localization</a> page.</div>
 <p>Localization is a lot of work and is often done by just one person. It’s not always easy, but try to make sure that all required changes are done before a Firefox release so that localizers can use that extra time for getting their work done.
 </p>
 <div class=""note""><strong>Note:</strong> Remember that if you mark a revision as a minor update, there is no option to mark the article as ready for localization because localizers don't get notified of changes with this revision level.</div>
 <h2 id=""w_marking-an-article-rfl-post-review"">Marking an article RFL post-review</h2>
-<p>If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an <strong>X</strong> symbol) under the <strong>R</strong> column of the article revision history and confirming.
+<p>If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an <strong>✕</strong> symbol) under the <strong>R</strong> column of the article revision history and confirming.
 </p>
 <dl><dt><img alt=""ReadyForLocalization3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-30-14-13-09-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
-<p>Revisions that have been marked RFL have a checkmark symbol.
+<p>Revisions that have been marked RFL have a checkmark symbol <strong>✓</strong>.
 </p>
 <h2 id=""w_rfl-protocols"">RFL protocols</h2>
 <p>All contributor reviewers must adhere to the following localization protocols:
@@ -25999,22 +26012,22 @@ Crash reports contain a lot of very technical information. There are many more t
 <ul><li> All Mozilla staff and contributor reviewers may mark a net-new article or an article update as ready for localization.
 </li><li> All net new articles and revisions that introduce new or changed information must be marked for localization, unless otherwise specified by Product teams based on regional availability.
 </li><li> If a revision does not alter instruction, accuracy, or user experience, the localization priority must be decreased accordingly.
-</li><li> In some cases, Mozilla staff may leave comment syntax or a revision comment in an article to indicate that a translation is already being submitted for internal localization in certain locales.  If the comment syntax indicates that an article or revision is already being submitted for internal localization, contributors must not localize it independently.
+</li><li> In some cases, Mozilla staff may leave comment syntax or a revision comment in an article to indicate that a translation is already being submitted for internal localization in certain locales. If the comment syntax indicates that an article or revision is already being submitted for internal localization, contributors must not localize it independently.
 </li></ul>
 <h1 id=""w_release-readiness"">Release readiness</h1>
-<p>To make sure that we are ready to support upcoming Firefox on-train releases, here are some guidelines regarding the timelines for release readiness. 
+<p>To make sure that we are ready to support upcoming Firefox on-train releases, here are some guidelines regarding the timelines for release readiness.
 Articles that are associated with the next release are either new articles or content updates that cover functionality introduced in the next release. The following guidelines apply to articles with release-related content.
 </p>
 <h2 id=""w_firefox-release-calendar"">Firefox release calendar</h2>
 <div class=""note""><strong>Note:</strong> You can find a <a href=""https://whattrainisitnow.com/calendar/"">release schedule for Firefox here</a>.</div>
 <p><strong>4 weeks before the next release</strong>
 </p>
-<ul><li> Begin planning and drafting content for the upcoming release; no work for localizers yet
+<ul><li> Begin planning and drafting content for the upcoming release; no work for localizers yet.
 </li><li> All existing articles remain open for editing and localization as usual.
 </li></ul>
 <p><strong>1-2 weeks before the next release</strong>
 </p>
-<ul><li> Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes. 
+<ul><li> Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes.
 </li><li> If the content requires localization prior to release, the product team must notify the CX staff so we can coordinate with the localization community to ensure deadlines are met.
 </li></ul>
 <p><strong>Release day</strong>
@@ -26025,14 +26038,14 @@ Articles that are associated with the next release are either new articles or co
 <p>Not all KB reviewers actively monitor <a href=""/kb/article-discussion-forums"">KB Discussions</a>. If you need to reach the entire group of KB reviewers, please email <a href=""mailto:kb-reviewers@mozilla.com"">kb-reviewers@mozilla.com</a>.
 </p>
 <h1 id=""w_role-evaluation"">Role evaluation</h1>
-<p>Creating content that is accurate, consistent, and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment. 
-</p><p>As a Knowledge Base reviewer, you play an important role in upholding those standards. To ensure our reviewer group stays active and aligned with current practices, the Community team conducts a light annual review based on participation and adherence to guidelines. 
-</p><p>To retain your KB reviewer permission, we ask that you: 
+<p>Creating content that is accurate, consistent and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment.
+</p><p>As a Knowledge Base reviewer, you play an important role in upholding those standards. To ensure our reviewer group stays active and aligned with current practices, the Community team conducts a light annual review based on participation and adherence to guidelines.
+</p><p>To retain your KB reviewer permission, we ask that you:
 </p>
 <ul><li> Stay aligned: Adhere to the Community Participation Guidelines and the KB reviewer guidelines outlined in this article.
-</li><li> Stay active: Review at least three (3) revisions within a six-month period. 
+</li><li> Stay active: Review at least three (3) revisions within a six-month period.
 </li></ul>
-<p>If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported, and aligned with current processes.
+<p>If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported and aligned with current processes.
 </p><p>If circumstances change and you need to step back, we completely understand. Since this is a volunteer role, your time and availability may naturally shift. Don’t hesitate to let the Community team know when that happens. We’re always happy to reconnect when you’re ready to re-engage.
 </p><p>—
 </p><p>By working together and involving others in the review and approval process, we can maintain the highest standards of quality and ensure that our content is top-notch. Thank you for your cooperation, and let's continue to create amazing revisions for our users!
@@ -26044,14 +26057,17 @@ Articles that are associated with the next release are either new articles or co
   - [1.1 Key responsibilities](https://support.mozilla.org/kb/article-review-guidelines#w_key-responsibilities)
 
 - [2 Review guidelines](https://support.mozilla.org/kb/article-review-guidelines#w_review-guidelines)
-  - [2.1 Review policy based on content type](https://support.mozilla.org/kb/article-review-guidelines#w_review-policy-based-on-content-type)
+  - [2.1 Knowledge Base review policy](https://support.mozilla.org/kb/article-review-guidelines#w_knowledge-base-review-policy)
+    - [2.1.1 When is staff review required?](https://support.mozilla.org/kb/article-review-guidelines#w_when-is-staff-review-required)
+    - [2.1.2 When can contributors with KB review permissions review revisions?](https://support.mozilla.org/kb/article-review-guidelines#w_when-can-contributors-with-kb-review-permissions-review-revisions)
+
   - [2.2 Where to find unreviewed articles](https://support.mozilla.org/kb/article-review-guidelines#w_where-to-find-unreviewed-articles)
     - [2.2.1 Prioritization](https://support.mozilla.org/kb/article-review-guidelines#w_prioritization)
     - [2.2.2 Special articles](https://support.mozilla.org/kb/article-review-guidelines#w_special-articles)
 
   - [2.3 Special requirements for subscription or premium products](https://support.mozilla.org/kb/article-review-guidelines#w_special-requirements-for-subscription-or-premium-products)
     - [2.3.1 Content submission](https://support.mozilla.org/kb/article-review-guidelines#w_content-submission)
-    - [2.3.2 Content approval](https://support.mozilla.org/kb/article-review-guidelines#w_content-approval)
+    - [2.3.2 KB revision review and approval](https://support.mozilla.org/kb/article-review-guidelines#w_kb-revision-review-and-approval)
 
 - [3 Reviewing articles](https://support.mozilla.org/kb/article-review-guidelines#w_reviewing-articles)
   - [3.1 Choosing revision levels](https://support.mozilla.org/kb/article-review-guidelines#w_choosing-revision-levels)
@@ -26076,7 +26092,7 @@ Articles that are associated with the next release are either new articles or co
 
 # Purpose
 
-As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity, and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily.
+As a Knowledge Base reviewer, your role is essential in maintaining the accuracy, clarity and consistency of support content in our Knowledge Base. Your review work ensures users can trust our articles and find help easily.
 
 ## Key responsibilities
 
@@ -26085,7 +26101,7 @@ As a KB reviewer, when you review a revision, always make sure that the revision
 - Is accurate and up-to-date
 - Uses clear, consistent language and tone
 - Is aligned with Mozilla’s editorial guidelines
-- Includes correct and functioning formatting, links, and markup
+- Includes correct and functioning formatting, links and markup
 - Follows accessibility and localization best practices
 - Meets the scope of the article and product version
 
@@ -26095,39 +26111,56 @@ As a KB reviewer, when you review a revision, always make sure that the revision
 
 Most revisions are made by people volunteering their time and talent. When dealing with the work that people have submitted, assume that everyone has the best intentions and be sure to thank them for their contribution. **Remember, you may be the first and only contact that person has with someone from Mozilla. Please make it positive.**
 
-## Review policy based on content type
+## Knowledge Base review policy
+
+For major updates, it's important to distinguish between content approval and content review, as these are two separate processes.
+
+- **Content approval** is performed by product stakeholders mainly to validate the technical accuracy of the content.
+- **Content review** is performed by KB reviewers to ensure editorial quality and article formatting.
+
+See [Contributor assignments for content requests](\""https://support.mozilla.org/en-US/kb/contributor-assignments#w_content-approval-vs-content-review"") for more details about this distinction.
+
+### When is staff review required?
+
+Staff review is required for:
+
+- New articles
+- Major updates explicitly marked with “Staff review required” in the revision notes
+
+### When can contributors with KB review permissions review revisions?
 
 **Important: No self-approval by any contributor is allowed in any type of revisions.**
 
-Review requirements differ by [content type](\""https://support.mozilla.org/en-US/kb/major-vs-minor""). It’s important to review the following policy below before approving any new revision.
+Contributors with KB review permissions may review:
 
-- **New articles** : All new articles must be reviewed by a CX staff member.
-- **Major updates** : Both CX staff and contributors with KB reviewer permission can review revision with major updates. There might be exceptions where certain content may require CX staff approval, particularly for sensitive or high-impact content. In these situations, the author should indicate in the revision notes “Staff review required.”
-- **Minor updates** : Minor updates may be reviewed by either CX staff or a contributor reviewer. 
+- Revisions classified as minor changes
+- Major changes that do not require staff review
 
-**Note:** All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted. Otherwise, you can defer the revision.
+See [Minor vs major changes](\""https://support.mozilla.org/en-US/kb/major-vs-minor"") to learn more about how content updates are classified based on their scope and impact.
+
+**Note:** All revisions with major updates have to be accompanied by a Bugzilla content request ticket. If you see a major update without a Bugzilla ticket, as a KB reviewer you may reach out to the revision author to request a Bugzilla ticket to be submitted.
 
 ## Where to find unreviewed articles
 
 There are multiple ways you can find unreviewed articles:
 
-- **Knowledge Base Overview** : This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
-- **Unreviewed Changes** : This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
-- **Most Visited** : This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
+- **Knowledge Base Overview:** This page provides you with a list of articles in order of pageview number in the past 30 days. The Status column will show which articles need review. You can also filter based on product and article type. 
+- **Unreviewed Changes:** This page provides an alternative way to see which articles need review, as well as how long each revision has been waiting to get reviewed. You can choose to sort based on pageview/most recent changes, and you can also filter based on product. 
+- **Most Visited:** This page provides you a list of Knowledge Base articles based on number of pageviews. In the Status column, you will be able to see which articles need review. 
 
 ### Prioritization
 
 When reviewing multiple articles, it’s important to prioritize your efforts strategically. Consider the following:
 
-- **Article with high pageviews** : Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
-- **Article linked within the product** : If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.<dl><dt>
+- **Article with high pageviews:** Articles with a high number of views must be prioritized to ensure users are accessing the most accurate and up-to-date information. You can easily identify these by sorting the Unreviewed Changes list by view count.
+- **Article linked within the product:** If you are part of one of the contribution groups (Forum, KB, L10n) or the “Staff” group, you may see an indicator showing that an article is linked within the product. These articles should generally take priority, as they have a direct impact on the user experience.<dl><dt>
 <img alt=""in-product KB indicator"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-09-55-35-befc54.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
 </dt></dl>
 
 ### Special articles
 
-- **Templates** include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed [here](\""https://support.mozilla.org/contributors/kb-overview?category=60""). For guidelines on how to use templates within articles, please refer to [Using Templates](\""https://support.mozilla.org/en-US/kb/using-templates"").
-- **Canned Responses** are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available [here](\""https://support.mozilla.org/contributors/kb-overview?category=70""). For additional guidelines on creating or improving common responses, see [Create or improve common forum responses](\""https://support.mozilla.org/en-US/kb/create-or-improve-common-forum-responses"").
+- **Templates** include content that is reused across multiple articles and should be considered as high priority due to their broader impact. All templates, including those that need review, are listed [in this board](\""https://support.mozilla.org/contributors/kb-overview?category=60""). For guidelines on how to use templates within articles, please refer to [Using Templates](\""https://support.mozilla.org/en-US/kb/using-templates"").
+- **Canned Responses** are standardized responses used in the Community Forums. Because they are reused frequently, any updates should be coordinated with the Community team. A list of all forum responses, including those that need review, is available [in this other board](\""https://support.mozilla.org/contributors/kb-overview?category=70""). For additional guidelines on creating or improving common responses, see [Create or improve common forum responses](\""https://support.mozilla.org/en-US/kb/create-or-improve-common-forum-responses"").
 
 ## Special requirements for subscription or premium products
 
@@ -26135,9 +26168,9 @@ When reviewing multiple articles, it’s important to prioritize your efforts st
 
 **Important: Contributors may not directly submit updates or create new Knowledge Base articles for Subscription or Premium products.**
 
-If you would like to suggest new content or propose changes, please file [a Bugzilla ticket](https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&component=Knowledge%20Base%20Content) or reach out to [a staff member](\""https://support.mozilla.org/en-US/kb/meet-team""). You can contact us either on [Matrix](https://chat.mozilla.org/#/room/#sumo:mozilla.org) or in the #sumo-team channel on Slack (for contributors with Slack access).
+If you would like to suggest new content or propose changes, please file [a Bugzilla ticket](https://bugzilla.mozilla.org/enter_bug.cgi?product=support.mozilla.org&component=Knowledge%20Base%20Content) or reach out to [a staff member](\""https://support.mozilla.org/en-US/kb/meet-team""). You can contact us either [on Matrix](https://chat.mozilla.org/#/room/#sumo:mozilla.org) or in the _#sumo-team_ channel on Slack (for contributors with Slack access).
 
-### Content approval
+### KB revision review and approval
 
 **Staff approval is required for all revisions related to Subscription or Premium products**. This includes Canned Responses and Templates associated with these products.
 
@@ -26155,9 +26188,9 @@ For reference, current Subscription or Premium products include:
 When you approve an article, you have three different revision levels to choose from. These levels will determine the need and prioritization for localization.
 
 - **Minor details that don't affect the instructions:** These are changes that won't change instructions to users. Localizers won't be notified about these changes.
-- **Content changes that don't require immediate translation:** This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers. 
+- **Content changes that don't require immediate translation:** This is the default choice. These are major changes (updates and big changes) that don't completely invalidate the previous version of the article. Localizers won’t be notified immediately about the changes, but the revision can be marked as Ready for Localization later and it will trigger notification for the localizers.
 - **Major content changes that will make older translations inaccurate:** This can be used when the update will cause the previous content to be outdated. Marking an article with this will trigger a warning on localized articles that the content may be out of date and provide a link to the English version for the most updated information.<dl><dt>
-<img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<img alt=""Revision level updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-04-10-c7c49f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 
 ## Leaving feedback for editors
@@ -26166,14 +26199,14 @@ When approving an article, it's important to thank the editors for their contrib
 
 **Note:** If a revision is good but contains a minor mistake (typo, markup mistake, etc.), you can approve it and ask the editor to fix the issue. Otherwise, you can also submit a new revision to fix it and ask a fellow KB reviewer to review.
 <dl><dt>
-<img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<img alt=""editor feedback"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-10-10-924692.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 ## Deferring a revision
 
 If a revision is not particularly helpful, you can defer the proposed revision. Rather than being a simple rejection, however, a deferral is your opportunity to work with the revision’s author to improve their revision. You can do so by leaving a message in the comment field to thank the author and then give specific, constructive feedback about what you feel needs to change in order for the revision to be acceptable. Be sure to also include links to any relevant documentations or guidelines.
 
 <dl><dt>
-<img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<img alt=""kb deferral"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-12-03-9361ff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 ## Reviewing multiple revisions
 
@@ -26184,7 +26217,7 @@ When there are multiple revisions pending for approval, make sure to check all o
 When approving a revision, you have to decide what, if anything, still needs to be changed. If everything specified in the “Needs change” comment has been taken care of, you can uncheck it (clearing the comment) and approve the article. If there are still things that need to be done, make sure the checkbox is checked and update the comment. This way, we can [easily keep track of what work needs to be done on articles](\""https://support.mozilla.org/contributors/need-changes"").
 
 <dl><dt>
-<img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<img alt=""Needs change"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-20-15-15-5eb31b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
 ## Giving credit
 
@@ -26193,7 +26226,7 @@ Sometimes people that participate in a discussion about an article make signific
 **How to give credit to a contributor in the KB**
 
 - To add a contributor, go to the _Show History_ page of an article
-- Scroll down under the revisions and click the “Edit contributors” link
+- Scroll down under the revisions and click the **Edit contributors** link
 - Type the contributor name and then click Add Contributor
 
 **Note:** Everybody who submitted a revision will be given credit automatically unless their revision is deferred.
@@ -26224,10 +26257,9 @@ After a new revision is approved, the article will not appear in localization da
 Marking an article revision as “Ready for localization” means that we’re telling localizers the English version is done and can be translated without fear that the article will change a few more times before they're done.
 
 <dl><dt>
-<img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500""> 
+<img alt=""RFL update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-16-10-20-01-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
 </dt></dl>
-
-**Note:** The “Ready for L10N” column on the KB dashboard will indicate NO for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the [Changes Not Ready for Localization](\""https://support.mozilla.org/contributors/unready"") page.
+**Note:** The “Ready for L10N” column on the KB dashboard will indicate “No” for articles with approved content changes that have not been marked ready for localization. These articles will also be listed on the [Changes Not Ready for Localization](\""https://support.mozilla.org/contributors/unready"") page.
 
 Localization is a lot of work and is often done by just one person. It’s not always easy, but try to make sure that all required changes are done before a Firefox release so that localizers can use that extra time for getting their work done.
 
@@ -26235,13 +26267,13 @@ Localization is a lot of work and is often done by just one person. It’s not a
 
 ## Marking an article RFL post-review
 
-If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an **X** symbol) under the **R** column of the article revision history and confirming.
+If you are not marking a revision as ready for localization when approving it (like in the case above), you can mark it ready at any time by clicking the “Not ready for localization” status entry (an **✕** symbol) under the **R** column of the article revision history and confirming.
 
 <dl><dt>
 <img alt=""ReadyForLocalization3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-04-30-14-13-09-c56da6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 
-Revisions that have been marked RFL have a checkmark symbol.
+Revisions that have been marked RFL have a checkmark symbol **✓**.
 
 ## RFL protocols
 
@@ -26262,12 +26294,12 @@ To make sure that we are ready to support upcoming Firefox on-train releases, he
 
 **4 weeks before the next release**
 
-- Begin planning and drafting content for the upcoming release; no work for localizers yet
+- Begin planning and drafting content for the upcoming release; no work for localizers yet.
 - All existing articles remain open for editing and localization as usual.
 
 **1-2 weeks before the next release**
 
-- Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes. 
+- Draft content for the upcoming release may be ready internally; however, publication typically waits until the official release date to account for any last-minute changes.
 - If the content requires localization prior to release, the product team must notify the CX staff so we can coordinate with the localization community to ensure deadlines are met.
 
 **Release day**
@@ -26280,16 +26312,16 @@ Not all KB reviewers actively monitor [KB Discussions](\""https://support.mozill
 
 # Role evaluation
 
-Creating content that is accurate, consistent, and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment.
+Creating content that is accurate, consistent and relevant is important, and maintaining that quality over time requires shared standard and ongoing alignment.
 
 As a Knowledge Base reviewer, you play an important role in upholding those standards. To ensure our reviewer group stays active and aligned with current practices, the Community team conducts a light annual review based on participation and adherence to guidelines.
 
 To retain your KB reviewer permission, we ask that you:
 
 - Stay aligned: Adhere to the Community Participation Guidelines and the KB reviewer guidelines outlined in this article.
-- Stay active: Review at least three (3) revisions within a six-month period. 
+- Stay active: Review at least three (3) revisions within a six-month period.
 
-If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported, and aligned with current processes.
+If you haven’t been active or if questions arise about guidelines adherence, the Community team may reach out to you to check in before taking any action. Our goal is not to remove permissions, but to ensure reviewers feel engaged, supported and aligned with current processes.
 
 If circumstances change and you need to step back, we completely understand. Since this is a volunteer role, your time and availability may naturally shift. Don’t hesitate to let the Community team know when that happens. We’re always happy to reconnect when you’re ready to re-engage.
 
@@ -41562,220 +41594,6 @@ To un-ignore a thread that has been marked ignored, select a message in the thre
 - [Message threading in Thunderbird - keep messages grouped by conversation](\""https://support.mozilla.org/en-US/kb/message-threading-thunderbird"")
 
 "
-18496,Localization Dashboards,localization-dashboard,https://support.mozilla.org/en-US/kb/localization-dashboard,en-US,Links to localization dashboards.,"<p>	</p><p></p><table>
-    <thead>
-        <tr><th> Dashboard</th>
-        <th> Language</th>
-    </tr></thead>
-    <tbody>
-		<tr><td><a href=""https://support.mozilla.org/af/localization"">af</a></td>			<td>Afrikaans</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/sq/localization"">sq</a></td>			<td>Albanian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ar/localization"">ar</a></td>			<td>Arabic</td></tr>		
-		<tr><td><a href=""https://support.mozilla.org/az/localization"">az</a></td>			<td>Azərbaycanca</td></tr> 
-		<tr><td><a href=""https://support.mozilla.org/bn-bd/localization"">bn-BD</a></td>		<td>Bengali-Bangladesh</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/bn-IN/localization"">bn-IN</a></td>		<td>Bengali-India</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/bs/localization"">bs</a></td>			<td>Bosnian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/bg/localization"">bg</a></td>			<td>Bulgarian</td></tr> 
-		<tr><td><a href=""https://support.mozilla.org/ca/localization"">ca</a></td>			<td>Catalan</td></tr> 
-		<tr><td><a href=""https://support.mozilla.org/zh-cn/localization"">zh-CN</a></td>		<td>Chinese (Simplified)</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/zh-tw/localization"">zh-TW</a></td>		<td>Chinese (Traditional)</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/hr/localization"">hr</a></td>			<td>Croatian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/cs/localization"">cs</a></td>			<td>Czech</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/da/localization"">da</a></td>			<td>Danish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/nl/localization"">nl</a></td>			<td>Dutch</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/en-us/localization"">en-US</a></td>		<td>English</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/et/localization"">et</a></td>			<td>Estonian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/fa/localization"">fa</a></td>			<td>Farsi</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/fi/localization"">fi</a></td>			<td>Finnish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/fr/localization"">fr</a></td>			<td>French</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/de/localization"">de</a></td>			<td>German</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/el/localization"">el</a></td>			<td>Greek</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/gu-IN/localization"">gu-IN</a></td>		<td>Gujarati</td></tr> 
-		<tr><td><a href=""https://support.mozilla.org/he/localization"">he</a></td>			<td>Hebrew</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/hi-in/localization"">hi-IN</a></td>		<td>Hindi</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/hu/localization"">hu</a></td>			<td>Hungarian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/id/localization"">id</a></td>			<td>Indonesian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/it/localization"">it</a></td>			<td>Italian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ja/localization"">ja</a></td>			<td>Japanese</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/kn/localization"">kn</a></td>			<td>Kannadiga</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ko/localization"">ko</a></td>			<td>Korean</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ln/localization"">ln</a></td>			<td>Lingala</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/lt/localization"">lt</a></td>			<td>Lithuanian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/dsb/localization"">dsb</a></td>			<td>Lower Sorbian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ml/localization"">ml</a></td>			<td>Malayalam</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/mk/localization"">mk</a></td>			<td>Marcedonian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/no/localization"">no</a></td>			<td>Norwegian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/pl/localization"">pl</a></td>			<td>Polish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/pt-br/localization"">pt-BR</a></td>		<td>Portuguese (Brazil)</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/pt-pt/localization"">pt-PT</a></td>		<td>Portuguese (European)</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ro/localization"">ro</a></td>			<td>Romanian</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/ru/localization"">ru</a></td>			<td>Russian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/sr-cryl/localization"">sr-Cyrl</a></td> <td>Serbian - Cyrillic</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/tn/localization"">tn</a></td> 			<td>Setswana</td></tr> 
-		<tr><td><a href=""https://support.mozilla.org/sk/localization"">sk</a></td>			<td>Slovak</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/sl/localization"">sl</a></td>			<td>Slovenian</td></tr>
-        <tr><td><a href=""https://support.mozilla.org/es/localization"">es</a></td>			<td>Spanish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/sw/localization"">sw</a></td>			<td>Swahili</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/sv/localization"">sv</a></td>			<td>Swedish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ta/localization"">ta</a></td>			<td>Tamil</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/ta-LK/localization"">ta-LK</a></td>		<td>Tamil (Sri Lanka)</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/te/localization"">te</a></td>			<td>Telegu</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/th/localization"">th</a></td>			<td>Thai</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/tr/localization"">tr</a></td>			<td>Turkish</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/uk/localization"">uk</a></td>			<td>Ukrainian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/hsb/localization"">hsb</a></td>			<td>Upper Sorbian</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/vi/localization"">vi</a></td>			<td>Vietnamese</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/wo/localization"">wo</a></td>			<td>Wolof</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/xh/localization"">xh</a></td>			<td>Xhosa</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/yo/localization"">yo</a></td>			<td>Yoruba</td></tr>
-		<tr><td><a href=""https://support.mozilla.org/zu/localization"">zu</a></td>			<td>Zulu</td></tr>
-</tbody>
-
-</table>",contributor,l10n,"| Dashboard | Language |
-| --- | --- |
-| [af](https://support.mozilla.org/af/localization) | Afrikaans |
-| [sq](https://support.mozilla.org/sq/localization) | Albanian |
-| [ar](https://support.mozilla.org/ar/localization) | Arabic |
-| [az](https://support.mozilla.org/az/localization) | Azərbaycanca |
-| [bn-BD](https://support.mozilla.org/bn-bd/localization) | Bengali-Bangladesh |
-| [bn-IN](https://support.mozilla.org/bn-IN/localization) | Bengali-India |
-| [bs](https://support.mozilla.org/bs/localization) | Bosnian |
-| [bg](https://support.mozilla.org/bg/localization) | Bulgarian |
-| [ca](https://support.mozilla.org/ca/localization) | Catalan |
-| [zh-CN](https://support.mozilla.org/zh-cn/localization) | Chinese (Simplified) |
-| [zh-TW](https://support.mozilla.org/zh-tw/localization) | Chinese (Traditional) |
-| [hr](https://support.mozilla.org/hr/localization) | Croatian |
-| [cs](https://support.mozilla.org/cs/localization) | Czech |
-| [da](https://support.mozilla.org/da/localization) | Danish |
-| [nl](https://support.mozilla.org/nl/localization) | Dutch |
-| [en-US](https://support.mozilla.org/en-us/localization) | English |
-| [et](https://support.mozilla.org/et/localization) | Estonian |
-| [fa](https://support.mozilla.org/fa/localization) | Farsi |
-| [fi](https://support.mozilla.org/fi/localization) | Finnish |
-| [fr](https://support.mozilla.org/fr/localization) | French |
-| [de](https://support.mozilla.org/de/localization) | German |
-| [el](https://support.mozilla.org/el/localization) | Greek |
-| [gu-IN](https://support.mozilla.org/gu-IN/localization) | Gujarati |
-| [he](https://support.mozilla.org/he/localization) | Hebrew |
-| [hi-IN](https://support.mozilla.org/hi-in/localization) | Hindi |
-| [hu](https://support.mozilla.org/hu/localization) | Hungarian |
-| [id](https://support.mozilla.org/id/localization) | Indonesian |
-| [it](https://support.mozilla.org/it/localization) | Italian |
-| [ja](https://support.mozilla.org/ja/localization) | Japanese |
-| [kn](https://support.mozilla.org/kn/localization) | Kannadiga |
-| [ko](https://support.mozilla.org/ko/localization) | Korean |
-| [ln](https://support.mozilla.org/ln/localization) | Lingala |
-| [lt](https://support.mozilla.org/lt/localization) | Lithuanian |
-| [dsb](https://support.mozilla.org/dsb/localization) | Lower Sorbian |
-| [ml](https://support.mozilla.org/ml/localization) | Malayalam |
-| [mk](https://support.mozilla.org/mk/localization) | Marcedonian |
-| [no](https://support.mozilla.org/no/localization) | Norwegian |
-| [pl](https://support.mozilla.org/pl/localization) | Polish |
-| [pt-BR](https://support.mozilla.org/pt-br/localization) | Portuguese (Brazil) |
-| [pt-PT](https://support.mozilla.org/pt-pt/localization) | Portuguese (European) |
-| [ro](https://support.mozilla.org/ro/localization) | Romanian |
-| [ru](https://support.mozilla.org/ru/localization) | Russian |
-| [sr-Cyrl](https://support.mozilla.org/sr-cryl/localization) | Serbian - Cyrillic |
-| [tn](https://support.mozilla.org/tn/localization) | Setswana |
-| [sk](https://support.mozilla.org/sk/localization) | Slovak |
-| [sl](https://support.mozilla.org/sl/localization) | Slovenian |
-| [es](https://support.mozilla.org/es/localization) | Spanish |
-| [sw](https://support.mozilla.org/sw/localization) | Swahili |
-| [sv](https://support.mozilla.org/sv/localization) | Swedish |
-| [ta](https://support.mozilla.org/ta/localization) | Tamil |
-| [ta-LK](https://support.mozilla.org/ta-LK/localization) | Tamil (Sri Lanka) |
-| [te](https://support.mozilla.org/te/localization) | Telegu |
-| [th](https://support.mozilla.org/th/localization) | Thai |
-| [tr](https://support.mozilla.org/tr/localization) | Turkish |
-| [uk](https://support.mozilla.org/uk/localization) | Ukrainian |
-| [hsb](https://support.mozilla.org/hsb/localization) | Upper Sorbian |
-| [vi](https://support.mozilla.org/vi/localization) | Vietnamese |
-| [wo](https://support.mozilla.org/wo/localization) | Wolof |
-| [xh](https://support.mozilla.org/xh/localization) | Xhosa |
-| [yo](https://support.mozilla.org/yo/localization) | Yoruba |
-| [zu](https://support.mozilla.org/zu/localization) | Zulu |
-
-"
-18577,New Tab page in Firefox,about-new-tab-page,https://support.mozilla.org/en-US/kb/about-new-tab-page,en-US,The New Tab page allows easy access to frequently and recently visited sites.,"<p>The customizable Firefox New Tab page can display shortcuts (sites you save or visit the most), popular articles and your recent activity (including recently visited pages or bookmarks). The New Tab page is the default Firefox start page, unless you have <a href=""/en-US/kb/how-to-set-the-home-page"">set a different home page</a>.
-</p><p><span class=""for"" data-for=""not fx141""><img alt=""Firefox new tab page"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-23-14-25-56-2d4970.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx151""><span class=""for"" data-for=""fx141""><span class=""for"" data-for=""not fx145""><img alt=""Fx141NewTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-29-13-25-09-2d2bff.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx145""><img alt=""newtabfirefox"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-11-18-06-54-36-978615.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span></span></span><span class=""for"" data-for=""fx151""><img alt=""firefoxhomenova"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-08-08-27-49-43cdb8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_shortcuts""><span class=""tocnumber"">1</span> <span class=""toctext"">Shortcuts</span></a></li><li class=""toclevel-1""><a href=""#w_weather-and-widgets""><span class=""tocnumber"">2</span> <span class=""toctext"">Weather and Widgets</span></a></li><li class=""toclevel-1""><a href=""#w_recommended-stories""><span class=""tocnumber"">3</span> <span class=""toctext"">Recommended stories</span></a></li><li class=""toclevel-1""><a href=""#w_recent-activity""><span class=""tocnumber"">4</span> <span class=""toctext"">Recent activity</span></a></li><li class=""toclevel-1""><a href=""#w_customize-your-new-tab-page-to-hide-or-display-content""><span class=""tocnumber"">5</span> <span class=""toctext"">Customize your New Tab page to hide or display content</span></a><ul><li class=""toclevel-2""><a href=""#w_learn-more""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Learn more</span></a></li></ul></li></ul></div>
-<h1 id=""w_shortcuts"">Shortcuts</h1>
-<p>The <strong>Shortcuts</strong> section displays sites you save or visit frequently on Firefox. You may also see <a href=""/en-US/kb/sponsor-privacy"">sponsored shortcuts</a>, if enabled in your settings. These sites will also appear when you click in the address bar to start a search.
-</p><p>When you first use Firefox, you’ll see links to top-ranking websites and popular search engines. Over time, these are replaced with links to sites you visit often and recently, based on your browsing history.
-</p><p>You can customize by adding multiple rows of Shortcuts, pinning specific sites, and other ways. See <a href=""/en-US/kb/customize-items-on-firefox-new-tab-page#w_shortcuts"">this page section</a> for more details.
-</p>
-<h1 id=""w_weather-and-widgets"">Weather and Widgets</h1>
-<p>Firefox Home can display <a href=""/en-US/kb/how-it-works-firefox-weather"">your local weather</a> in the upper right corner, so you can quickly check conditions while browsing. This feature is available worldwide.
-</p><p>You may also see additional widgets, such as Lists and a Timer, being released in various markets. In that case, the weather widget can also be configured to an expanded forecast.
-</p>
-<h1 id=""w_recommended-stories"">Recommended stories</h1>
-<p>The <a href=""/en-US/kb/recommendations-firefox-new-tab"">Recommended stories</a> section displays content curated by Firefox’s recommendations team and custom machine learning tools. These stories are not informed by your browsing data. You can view or bookmark stories, remove them, or open them in a new window.
-</p><p>Recommended stories on the Firefox New Tab page is a feature currently available in the U.S., Canada, the U.K., Ireland, Germany, Austria, Switzerland, Italy, France, Spain and India. We’re working to bring it to other countries.
-</p>
-<h1 id=""w_recent-activity"">Recent activity</h1>
-<p>The <strong>Recent activity</strong> section may include your recently visited pages, bookmarks and most recent downloads. In each tile, Firefox will show a download <img alt=""GreenDownloadIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-14-57-05b7ec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon, the bookmark <img alt=""BlueBookmarkIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-13-39-5936f5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> star or the recent visit clock <img alt=""ClockIcon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-12-16-13-f4ea5f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon.
-</p>
-<dl><dt><img alt=""Fx113NewTabRecentActivity"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-11-35-31-008279.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h1 id=""w_customize-your-new-tab-page-to-hide-or-display-content"">Customize your New Tab page to hide or display content</h1>
-<p>Click the <span class=""for"" data-for=""not fx141"">gear <img alt=""IG settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-16-12-49-24-1ce48d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx141"">pencil <img alt=""IG edit 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-05-04-57-30-203391.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> icon in the bottom right corner of the New Tab page. A panel will open, showing content you can customize. Click the toggle next to a section to switch it on <img alt=""Fx89Personalize-ToggleOn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-13-16-26-34-f2e349.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> or off <img alt=""Fx89Personalize-ToggleOff"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-13-16-24-56-95e8a6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, to show or hide that section. Other settings are available by clicking the <strong>Manage more settings</strong> link at the bottom of the panel.
-</p>
-<h2 id=""w_learn-more"">Learn more</h2>
-<ul><li>To learn how to customize your New Tab page with a selection of wallpapers, change the Weather display and more, see <a href=""/en-US/kb/customize-items-on-firefox-new-tab-page"">Customize items on your Firefox New Tab page</a>.
-</li><li>For information about sponsored content, see <a href=""/en-US/kb/sponsor-privacy"">Sponsors on the home page and New Tab page</a>.
-</li><li>To personalize your New Tab page, see <a href=""/en-US/kb/firefox-new-tab-personalization"">Control Firefox New Tab personalization</a>.
-</li></ul>",firefox,browse;home-screen,"The customizable Firefox New Tab page can display shortcuts (sites you save or visit the most), popular articles and your recent activity (including recently visited pages or bookmarks). The New Tab page is the default Firefox start page, unless you have [set a different home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page"").
-
-![Firefox new tab page](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Fx141NewTab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![newtabfirefox](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![firefoxhomenova](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Table of Contents
-
-- [1 Shortcuts](https://support.mozilla.org/kb/about-new-tab-page#w_shortcuts)
-- [2 Weather and Widgets](https://support.mozilla.org/kb/about-new-tab-page#w_weather-and-widgets)
-- [3 Recommended stories](https://support.mozilla.org/kb/about-new-tab-page#w_recommended-stories)
-- [4 Recent activity](https://support.mozilla.org/kb/about-new-tab-page#w_recent-activity)
-- [5 Customize your New Tab page to hide or display content](https://support.mozilla.org/kb/about-new-tab-page#w_customize-your-new-tab-page-to-hide-or-display-content)
-  - [5.1 Learn more](https://support.mozilla.org/kb/about-new-tab-page#w_learn-more)
-
-# Shortcuts
-
-The **Shortcuts** section displays sites you save or visit frequently on Firefox. You may also see [sponsored shortcuts](\""https://support.mozilla.org/en-US/kb/sponsor-privacy""), if enabled in your settings. These sites will also appear when you click in the address bar to start a search.
-
-When you first use Firefox, you’ll see links to top-ranking websites and popular search engines. Over time, these are replaced with links to sites you visit often and recently, based on your browsing history.
-
-You can customize by adding multiple rows of Shortcuts, pinning specific sites, and other ways. See [this page section](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page#w_shortcuts"") for more details.
-
-# Weather and Widgets
-
-Firefox Home can display [your local weather](\""https://support.mozilla.org/en-US/kb/how-it-works-firefox-weather"") in the upper right corner, so you can quickly check conditions while browsing. This feature is available worldwide.
-
-You may also see additional widgets, such as Lists and a Timer, being released in various markets. In that case, the weather widget can also be configured to an expanded forecast.
-
-# Recommended stories
-
-The [Recommended stories](\""https://support.mozilla.org/en-US/kb/recommendations-firefox-new-tab"") section displays content curated by Firefox’s recommendations team and custom machine learning tools. These stories are not informed by your browsing data. You can view or bookmark stories, remove them, or open them in a new window.
-
-Recommended stories on the Firefox New Tab page is a feature currently available in the U.S., Canada, the U.K., Ireland, Germany, Austria, Switzerland, Italy, France, Spain and India. We’re working to bring it to other countries.
-
-# Recent activity
-
-The **Recent activity** section may include your recently visited pages, bookmarks and most recent downloads. In each tile, Firefox will show a download ![GreenDownloadIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon, the bookmark ![BlueBookmarkIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) star or the recent visit clock ![ClockIcon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon.
-
-<dl><dt>
-<img alt=""Fx113NewTabRecentActivity"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-13-11-35-31-008279.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-# Customize your New Tab page to hide or display content
-
-Click the gear ![IG settings](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)pencil ![IG edit 2](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the bottom right corner of the New Tab page. A panel will open, showing content you can customize. Click the toggle next to a section to switch it on ![Fx89Personalize-ToggleOn](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) or off ![Fx89Personalize-ToggleOff](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), to show or hide that section. Other settings are available by clicking the **Manage more settings** link at the bottom of the panel.
-
-## Learn more
-
-- To learn how to customize your New Tab page with a selection of wallpapers, change the Weather display and more, see [Customize items on your Firefox New Tab page](\""https://support.mozilla.org/en-US/kb/customize-items-on-firefox-new-tab-page"").
-- For information about sponsored content, see [Sponsors on the home page and New Tab page](\""https://support.mozilla.org/en-US/kb/sponsor-privacy"").
-- To personalize your New Tab page, see [Control Firefox New Tab personalization](\""https://support.mozilla.org/en-US/kb/firefox-new-tab-personalization"").
-
-"
 18754,L10N guidelines for reviewing translated articles,l10n-guidelines-reviewing-translated-articles,https://support.mozilla.org/en-US/kb/l10n-guidelines-reviewing-translated-articles,en-US,This article covers who Reviewers are and the guidelines for reviewing localized or translated articles.,"<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_who-are-reviewers""><span class=""tocnumber"">1</span> <span class=""toctext"">Who are Reviewers?</span></a></li><li class=""toclevel-1""><a href=""#w_what-skills-can-you-practice-and-develop-as-a-reviewer""><span class=""tocnumber"">2</span> <span class=""toctext"">What skills can you practice and develop as a Reviewer?</span></a></li><li class=""toclevel-1""><a href=""#w_how-can-you-become-a-reviewer""><span class=""tocnumber"">3</span> <span class=""toctext"">How can you become a Reviewer?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-be-a-good-reviewer""><span class=""tocnumber"">4</span> <span class=""toctext"">How to be a good Reviewer?</span></a></li><li class=""toclevel-1""><a href=""#w_how-to-review""><span class=""tocnumber"">5</span> <span class=""toctext"">How to review?</span></a><ul><li class=""toclevel-2""><a href=""#w_needs-changes""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Needs changes</span></a></li><li class=""toclevel-2""><a href=""#w_spam-and-mistaken-edits""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Spam and mistaken edits</span></a></li><li class=""toclevel-2""><a href=""#w_delete-spam""><span class=""tocnumber"">5.3</span> <span class=""toctext"">Delete Spam</span></a></li></ul></li></ul></div>
 <h1 id=""w_who-are-reviewers"">Who are Reviewers?</h1>
 <p>Becoming a Reviewer is a major step forward from 'only' localizing the KB. You agree to take on a few new responsibilities, but it also brings new opportunities to contribute and cooperate with others on a bigger scale. You will be able to shape the future of SUMO's KB in your language.
@@ -45705,6 +45523,403 @@ Firefox Developer Edition will create a new [profile](\""https://support.mozilla
 # How do I learn more about Firefox Developer Edition?
 
 See [https://www.mozilla.org/firefox/developer/](https://www.mozilla.org/firefox/developer/)
+
+"
+23661,Manage my default search engines in Firefox for Android,manage-my-default-search-engines-firefox-android,https://support.mozilla.org/en-US/kb/manage-my-default-search-engines-firefox-android,en-US,"Firefox for Android lets you add, remove and change your default search engine. Learn to manage your search engines with just a few taps.","<p>Firefox for Android gives you the ability to add, remove, and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
+</p>
+<div class=""note""><strong>Note:</strong> Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_change-the-default-search-engine""><span class=""tocnumber"">1</span> <span class=""toctext"">Change the default search engine</span></a></li><li class=""toclevel-1""><a href=""#w_change-the-search-engine-for-a-single-search""><span class=""tocnumber"">2</span> <span class=""toctext"">Change the search engine for a single search</span></a></li><li class=""toclevel-1""><a href=""#w_edit-search-settings""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit search settings</span></a></li><li class=""toclevel-1""><a href=""#w_add-a-search-engine""><span class=""tocnumber"">4</span> <span class=""toctext"">Add a search engine</span></a></li><li class=""toclevel-1""><a href=""#w_manage-alternative-search-engines""><span class=""tocnumber"">5</span> <span class=""toctext"">Manage alternative search engines</span></a></li></ul></div>
+<h1 id=""w_change-the-default-search-engine"">Change the default search engine</h1>
+<ol><li>Tap the search engine icon in the address bar.
+<dl><dt><img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Search Settings</span>.
+<dl><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Default search engine</span>.
+<dl><dt><img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Select the search engine of your choice.
+<dl><dt><img alt=""Manage search engines Android 4 edit"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-30-09-31-46-73a02f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>
+<h1 id=""w_change-the-search-engine-for-a-single-search"">Change the search engine for a single search</h1>
+<ol><li>Tap the search engine icon in the address bar.
+<dl><dt><img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Select the search engine you want to use for this search.
+<dl><dt><img alt=""Manage search engines Android 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-06-21-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>
+<p>This will not change your default search engine.
+</p>
+<h1 id=""w_edit-search-settings"">Edit search settings</h1>
+<ol><li>Tap the search engine icon in the address bar.
+<dl><dt><img alt=""Manage search engines Android 7"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-08-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Search Settings</span>.
+<dl><dt><img alt=""Manage search engines Android 8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-29-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Under the <em>Suggestions from search engines</em> section, toggle any of the following settings:
+<dl><dt><ul><li> <strong>Show search suggestions</strong>: Display search suggestions from your default search engine when you enter URLs or keywords in the address bar.
+</li><li> <strong>Show in private sessions</strong>: Display search suggestions when searching from the address bar in private browsing sessions.<div class=""note""><strong>Note:</strong> The “Show in private sessions” option (checkbox) is only active if “Show search suggestions” is toggled on.</div>
+</li><li> <strong>Show recent searches</strong>: Display recent searches by user when searching from the address bar.
+</li></ul>
+</dt></dl>
+</li><li>Under the <em>Address bar – Firefox suggest</em> section, toggle any of the following settings:
+<dl><dt><ul><li> <strong>Search browsing history</strong>: Include your browsing history in searches from the address bar.
+</li><li> <strong>Search bookmarks</strong>: Include your bookmarks in searches from the address bar.
+</li><li> <strong>Search synced tabs</strong>: Search tabs that you have synchronized from another copy of Firefox using Firefox Sync.
+</li><li> <strong>Suggestions from Firefox</strong>: Get suggestions from the web related to your search.
+</li><li> <strong>Suggestions from sponsors</strong>: Support Firefox with occasional sponsored suggestions.
+</li><li> <strong>Learn more about Firefox Suggest</strong>: Tapping this will open a link to another Mozilla Support topic.
+</li></ul>
+</dt></dl>
+</li><li>Under the <em>Address bar preferences</em> section, toggle any of the following settings:
+<dl><dt><ul><li> <strong>Show clipboard suggestions</strong>: If the last thing you copied to the clipboard was a link, the option ""Fill link from clipboard"" shows up when you tap the address bar in a new tab.
+</li><li> <strong>Show voice search</strong>: Display the microphone icon to be able to perform a web search using voice.
+</li><li> <strong>Autocomplete URLs</strong>: Autocomplete website addresses entered into the address bar.
+</li></ul>
+</dt></dl>
+</li></ol>
+<dl><dt><img alt=""Manage search engines Android-14"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-19-17-06-20-4ed340.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<h1 id=""w_add-a-search-engine"">Add a search engine</h1>
+<ol><li>Tap the search engine icon in the address bar.
+<dl><dt><img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Search Settings</span>.
+<dl><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Default search engine</span>.
+<dl><dt><img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Add search engine</span>.
+<dl><dt><img alt=""Manage search engines Android 10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-13-37-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Provide a name for the search engine in the designated Name text field. Then, input the URL for the search string in the Search string URL field. Optionally, include a URL for the Search Suggestion API, and tap <span class=""button"">Save</span>.
+<dl><dt><img alt=""Manage search engines Android 9"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-53-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>
+<div class=""note"">
+<ul><li>If the search string URL is flagged as invalid, an error message will display to help you provide a valid URL. Please be sure to replace the query string with “%s”, for example: <a href=""https://www.google.com/search?q=%s"">https://www.google.com/search?q=%s</a>
+</li><li>If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to <a href=""https://www.ecosia.org/"">ecosia.org</a> and search for <em>firefox</em>, the resulting URL in the address bar will be <a href=""https://www.ecosia.org/search?q=firefox"">https://www.ecosia.org/search?q=firefox</a>. Then the search string must be <a href=""https://www.ecosia.org/search?q=%s"">https://www.ecosia.org/search?q=%s</a>, replacing the query with “%s”.
+</li></ul>
+</div>
+<p>The search engine is added to the predefined list of search engines in alphabetical order.
+</p>
+<h1 id=""w_manage-alternative-search-engines"">Manage alternative search engines</h1>
+<ol><li>Tap the search engine icon in the address bar.
+<dl><dt><img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt><dt>Tap <span class=""menu"">Search Settings</span>.
+</dt><dt><img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Manage alternative search engines</span>.
+<dl><dt><img alt=""Manage search engines Android 12"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-22-53-06502c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Select the engines you want to have visible in the search menu.
+<dl><dt><img alt=""Manage search engines Android 13"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-23-21-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>",mobile,settings,"Firefox for Android gives you the ability to add, remove, and change a default search engine. There are a variety of search engines available to choose from such as Google and Bing. You can also manually add other search engines and set one of them as your default.
+
+**Note:** Some of the search engines introduced here are regionally bound and may not be accessible from every location. To ensure a smooth experience, make sure the search engine you are interested in adding or using is compatible with your region.
+
+## Table of Contents
+
+- [1 Change the default search engine](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_change-the-default-search-engine)
+- [2 Change the search engine for a single search](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_change-the-search-engine-for-a-single-search)
+- [3 Edit search settings](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_edit-search-settings)
+- [4 Add a search engine](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_add-a-search-engine)
+- [5 Manage alternative search engines](https://support.mozilla.org/kb/manage-my-default-search-engines-firefox-android#w_manage-alternative-search-engines)
+
+# Change the default search engine
+
+1. Tap the search engine icon in the address bar.<dl><dt>
+<img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+2. Tap Search Settings.<dl><dt>
+<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+3. Tap Default search engine.<dl><dt>
+<img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+4. Select the search engine of your choice.<dl><dt>
+<img alt=""Manage search engines Android 4 edit"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-30-09-31-46-73a02f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+# Change the search engine for a single search
+
+1. Tap the search engine icon in the address bar.<dl><dt>
+<img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+2. Select the search engine you want to use for this search.<dl><dt>
+<img alt=""Manage search engines Android 6"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-06-21-0f8de2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+This will not change your default search engine.
+
+# Edit search settings
+
+1. Tap the search engine icon in the address bar.<dl><dt>
+<img alt=""Manage search engines Android 7"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-08-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+2. Tap Search Settings.<dl><dt>
+<img alt=""Manage search engines Android 8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-29-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+3. Under the _Suggestions from search engines_ section, toggle any of the following settings:<dl><dt>
+<ul>
+<li> <strong>Show search suggestions</strong>: Display search suggestions from your default search engine when you enter URLs or keywords in the address bar.
+</li>
+<li> <strong>Show in private sessions</strong>: Display search suggestions when searching from the address bar in private browsing sessions.<div class=""note"">
+<strong>Note:</strong> The “Show in private sessions” option (checkbox) is only active if “Show search suggestions” is toggled on.</div>
+</li>
+<li> <strong>Show recent searches</strong>: Display recent searches by user when searching from the address bar.
+</li>
+</ul>
+</dt></dl>
+4. Under the _Address bar – Firefox suggest_ section, toggle any of the following settings:<dl><dt>
+<ul>
+<li> <strong>Search browsing history</strong>: Include your browsing history in searches from the address bar.
+</li>
+<li> <strong>Search bookmarks</strong>: Include your bookmarks in searches from the address bar.
+</li>
+<li> <strong>Search synced tabs</strong>: Search tabs that you have synchronized from another copy of Firefox using Firefox Sync.
+</li>
+<li> <strong>Suggestions from Firefox</strong>: Get suggestions from the web related to your search.
+</li>
+<li> <strong>Suggestions from sponsors</strong>: Support Firefox with occasional sponsored suggestions.
+</li>
+<li> <strong>Learn more about Firefox Suggest</strong>: Tapping this will open a link to another Mozilla Support topic.
+</li>
+</ul>
+</dt></dl>
+5. Under the _Address bar preferences_ section, toggle any of the following settings:<dl><dt>
+<ul>
+<li> <strong>Show clipboard suggestions</strong>: If the last thing you copied to the clipboard was a link, the option ""Fill link from clipboard"" shows up when you tap the address bar in a new tab.
+</li>
+<li> <strong>Show voice search</strong>: Display the microphone icon to be able to perform a web search using voice.
+</li>
+<li> <strong>Autocomplete URLs</strong>: Autocomplete website addresses entered into the address bar.
+</li>
+</ul>
+</dt></dl>
+
+<dl><dt>
+<img alt=""Manage search engines Android-14"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-19-17-06-20-4ed340.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+# Add a search engine
+
+1. Tap the search engine icon in the address bar.<dl><dt>
+<img alt=""Manage search engines Android 1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-01-59-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+2. Tap Search Settings.<dl><dt>
+<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+3. Tap Default search engine.<dl><dt>
+<img alt=""Manage search engines Android 3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-59-5f01b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+4. Tap Add search engine.<dl><dt>
+<img alt=""Manage search engines Android 10"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-13-37-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+5. Provide a name for the search engine in the designated Name text field. Then, input the URL for the search string in the Search string URL field. Optionally, include a URL for the Search Suggestion API, and tap Save.<dl><dt>
+<img alt=""Manage search engines Android 9"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-09-53-943359.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+- If the search string URL is flagged as invalid, an error message will display to help you provide a valid URL. Please be sure to replace the query string with “%s”, for example: [https://www.google.com/search?q=%s](https://www.google.com/search?q=%s)
+- If you don't know which search string to use for a particular search engine, you can access its website in a new tab, do any search and use the resulting URL as a reference. For example, if you go to [ecosia.org](https://www.ecosia.org/) and search for _firefox_, the resulting URL in the address bar will be [https://www.ecosia.org/search?q=firefox](https://www.ecosia.org/search?q=firefox). Then the search string must be [https://www.ecosia.org/search?q=%s](https://www.ecosia.org/search?q=%s), replacing the query with “%s”.
+
+The search engine is added to the predefined list of search engines in alphabetical order.
+
+# Manage alternative search engines
+
+1. Tap the search engine icon in the address bar.<dl>
+<dt>
+<img alt=""Manage search engines Android 5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-05-47-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt>
+<dt>Tap <span class=""menu"">Search Settings</span>.
+</dt>
+<dt>
+<img alt=""Manage search engines Android 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-07-02-37-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt>
+</dl>
+2. Tap Manage alternative search engines.<dl><dt>
+<img alt=""Manage search engines Android 12"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-22-53-06502c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+3. Select the engines you want to have visible in the search menu.<dl><dt>
+<img alt=""Manage search engines Android 13"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-29-14-23-21-44e002.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+"
+24066,How to create and use mailing lists on Thunderbird,how-create-and-use-mailing-lists-thunderbird,https://support.mozilla.org/en-US/kb/how-create-and-use-mailing-lists-thunderbird,en-US,A mailing list is used to send one email to a group of contacts. This article explains how to create and use mailing lists in Thunderbird.,"<p>A mailing list is a sub list of an address book. 
+An address book can have more than one mailing list. <br>
+Any contact in an address book which has a valid email address can be placed in a mailing list. <br>
+A mailing list is used to send one email to a group of contacts.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_create-a-mailing-list""><span class=""tocnumber"">1</span> <span class=""toctext"">Create a mailing list</span></a></li><li class=""toclevel-1""><a href=""#w_create-email-using-a-mailing-list""><span class=""tocnumber"">2</span> <span class=""toctext"">Create email using a mailing list</span></a><ul><li class=""toclevel-2""><a href=""#w_via-the-address-book""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Via the Address Book</span></a></li><li class=""toclevel-2""><a href=""#w_via-a-new-write-message""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Via a new Write message</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-add-two-contacts-who-use-the-same-email-address""><span class=""tocnumber"">3</span> <span class=""toctext"">How to add two contacts who use the same email address</span></a></li></ul></div>
+<h1 id=""w_create-a-mailing-list"">Create a mailing list</h1>
+<ol><li>Open the Address Book.
+</li><li>Select <span class=""menu"">File</span> &gt; <span class=""menu"">New</span> &gt; <span class=""menu"">Mailing List</span>.
+</li><li>Enter a suitable name for the mailing list.
+</li><li>At this point you have two options:
+<ul><li><strong>Option 1:</strong>
+<ol><li>Manually enter the email addresses of your contacts. 
+</li><li>Type one email address per line. 
+<dl><dt>You cannot sort email addresses in this list in this window. They will appear in the order added.  
+</dt></dl>
+</li><li>Click <span class=""button"">OK</span> when finished.
+</li></ol>
+</li><li><strong>Option 2:</strong>
+<ol><li>Do not enter any email addresses via this window.
+</li><li>Close the window by clicking <span class=""button"">OK</span>.
+</li><li>Select the address book with contacts you wish to put into a mailing list.
+</li><li>Select to highlight contacts. 
+<ul><li>To select various contacts: Hold down the <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span> key and left click on the contacts.
+</li><li>To select a block: Select the first contact, hold down the <span class=""key"">Shift</span> key and select the last contact.<br>
+</li></ul>
+</li><li>Left click and hold down on the selected highlighted contacts to grab.
+</li><li>Drag the contacts to the left and hover over the mailing list.
+</li><li>Release the mouse button to drop contacts into the mailing list.
+</li></ol>
+</li></ul>
+</li></ol>
+<p>If the contacts were not already in the associated address book, they will also be entered into the associated address book. <br>
+The image below shows an example of a new mailing list called 'Test'. It is a mailing list in the Personal Address Book.
+</p><p><img alt=""Mailing List add contacts"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-12-04-10-13-37-1472aa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p>
+<h1 id=""w_create-email-using-a-mailing-list"">Create email using a mailing list</h1>
+<p>There are two methods producing different results.
+</p>
+<h2 id=""w_via-the-address-book""><strong>Via the Address Book</strong></h2>
+<p>On the Mail Toolbar, locate 'Address Book'.
+</p>
+<ol><li>Click <span class=""menu"">Address Book</span> to open it.
+</li><li>Select the mailing list.
+</li><li>Click the <span class=""menu"">Write</span> button.
+</li></ol>
+<p>This will open a new Write message window, and each contact in the mailing list will appear in a separate To field. This allows you to remove a name, if desired. <br>
+You may also need to manually select <span class=""button"">Bcc</span> for each email address, as your contacts may not want you to distribute their email address.<br>
+Enter the Subject; Compose the email and click <span class=""button"">Send</span>.
+</p>
+<h2 id=""w_via-a-new-write-message""><strong>Via a new Write message</strong></h2>
+<p>On the Mail Toolbar, locate the 'Write' button.
+</p>
+<ol><li>Click the <span class=""menu"">Write</span> button.
+<dl><dt>A new Write message window will open, and on the left side there should be the 'Contacts Sidebar'. <br>
+</dt></dl>
+<ul><li>If you cannot see the Contacts Sidebar, you need to enable it.<br>
+<ul><li>Click <span class=""menu"">View</span> &gt; <span class=""menu"">Contacts Sidebar</span> or use the <span class=""key"">F9</span> key to toggle the view.
+</li></ul>
+</li></ul>
+</li><li>Select the address book containing the mailing list.
+</li><li>Select the mailing list.
+</li><li>Click the <span class=""button"">Add to Bcc</span> button or another option.
+</li></ol>
+<p><img alt=""Mailing Lists"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-12-04-09-32-18-e94af0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</p><p>This will add the mailing list as the mailing list name. You cannot see individual contacts. This saves you from needing to change eg. To to Bcc, but you cannot edit any names from that email using this method.<br>
+Enter the Subject; Compose the email and click <span class=""button"">Send</span>.
+</p>
+<h1 id=""w_how-to-add-two-contacts-who-use-the-same-email-address"">How to add two contacts who use the same email address</h1>
+<p>As an example: <br>
+In your address book you have two people with the same email address. <br>
+a) Bob Smith has email address: thesmiths @ domain. <br>
+b) Jan Smith has email address: thesmiths @ domain. <br>
+</p><p>These two people are perfectly OK in an address book, but to get them into a mailing list will not work using the conventional method. So do the following to get them into the mailing list.
+</p><p>In the Address Book, select one of the people and edit their email address. In the example I put a letter A in the front. <br>
+Jan Smith has the email address Athesmiths @ domain.
+</p><p>Now move both people to the mailing list. As the email addresses are not the same, they will both move to the mailing list. Once in the mailing list, select the mailing list and double click Jan Smith to edit the email address by removing the 'A'. Click <span class=""button"">OK</span> when finished.
+</p><p>Now you should have two people sharing the same email address in the mailing list, and if you go back and check the address Book entries, you will find them correct.
+</p>",thunderbird,contacts;email-and-messaging;send-and-receive-email,"A mailing list is a sub list of an address book. An address book can have more than one mailing list.   
+Any contact in an address book which has a valid email address can be placed in a mailing list.   
+A mailing list is used to send one email to a group of contacts.
+
+## Table of Contents
+
+- [1 Create a mailing list](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_create-a-mailing-list)
+- [2 Create email using a mailing list](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_create-email-using-a-mailing-list)
+  - [2.1 Via the Address Book](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_via-the-address-book)
+  - [2.2 Via a new Write message](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_via-a-new-write-message)
+
+- [3 How to add two contacts who use the same email address](https://support.mozilla.org/kb/how-create-and-use-mailing-lists-thunderbird#w_how-to-add-two-contacts-who-use-the-same-email-address)
+
+# Create a mailing list
+
+1. Open the Address Book.
+2. Select File \> New \> Mailing List.
+3. Enter a suitable name for the mailing list.
+4. At this point you have two options:
+  - **Option 1:**
+    1. Manually enter the email addresses of your contacts. 
+    2. Type one email address per line. <dl><dt>You cannot sort email addresses in this list in this window. They will appear in the order added.  
+</dt></dl>
+    3. Click OK when finished.
+
+  - **Option 2:**
+    1. Do not enter any email addresses via this window.
+    2. Close the window by clicking OK.
+    3. Select the address book with contacts you wish to put into a mailing list.
+    4. Select to highlight contacts. 
+      - To select various contacts: Hold down the CtrlCommand key and left click on the contacts.
+      - To select a block: Select the first contact, hold down the Shift key and select the last contact.  
+
+    5. Left click and hold down on the selected highlighted contacts to grab.
+    6. Drag the contacts to the left and hover over the mailing list.
+    7. Release the mouse button to drop contacts into the mailing list.
+
+If the contacts were not already in the associated address book, they will also be entered into the associated address book.   
+The image below shows an example of a new mailing list called 'Test'. It is a mailing list in the Personal Address Book.
+
+![Mailing List add contacts](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Create email using a mailing list
+
+There are two methods producing different results.
+
+## **Via the Address Book**
+
+On the Mail Toolbar, locate 'Address Book'.
+
+1. Click Address Book to open it.
+2. Select the mailing list.
+3. Click the Write button.
+
+This will open a new Write message window, and each contact in the mailing list will appear in a separate To field. This allows you to remove a name, if desired.   
+You may also need to manually select Bcc for each email address, as your contacts may not want you to distribute their email address.  
+Enter the Subject; Compose the email and click Send.
+
+## **Via a new Write message**
+
+On the Mail Toolbar, locate the 'Write' button.
+
+1. Click the Write button.<dl><dt>A new Write message window will open, and on the left side there should be the 'Contacts Sidebar'. <br>
+</dt></dl>
+  - If you cannot see the Contacts Sidebar, you need to enable it.  
+
+    - Click View \> Contacts Sidebar or use the F9 key to toggle the view.
+
+2. Select the address book containing the mailing list.
+3. Select the mailing list.
+4. Click the Add to Bcc button or another option.
+
+![Mailing Lists](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+This will add the mailing list as the mailing list name. You cannot see individual contacts. This saves you from needing to change eg. To to Bcc, but you cannot edit any names from that email using this method.  
+Enter the Subject; Compose the email and click Send.
+
+# How to add two contacts who use the same email address
+
+As an example:   
+In your address book you have two people with the same email address.   
+a) Bob Smith has email address: thesmiths @ domain.   
+b) Jan Smith has email address: thesmiths @ domain.
+
+These two people are perfectly OK in an address book, but to get them into a mailing list will not work using the conventional method. So do the following to get them into the mailing list.
+
+In the Address Book, select one of the people and edit their email address. In the example I put a letter A in the front.   
+Jan Smith has the email address Athesmiths @ domain.
+
+Now move both people to the mailing list. As the email addresses are not the same, they will both move to the mailing list. Once in the mailing list, select the mailing list and double click Jan Smith to edit the email address by removing the 'A'. Click OK when finished.
+
+Now you should have two people sharing the same email address in the mailing list, and if you go back and check the address Book entries, you will find them correct.
 
 "
 24137,Enhanced Tracking Protection in Firefox for Android,enhanced-tracking-protection-firefox-android,https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-android,en-US,Control who's watching you on the Internet. This article explains how to turn on Tracking Protection in Firefox for Android.,"<p>Firefox for Android uses a list provided by Disconnect to identify and block known trackers on the websites you visit. Tap the <span class=""for"" data-for=""m142""><em>Shield</em> <img alt=""Firefox_Android_144_Shield"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-31-10-02-57-b8700c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""></span><span class=""for"" data-for=""not m142""><em>Lock</em> <img alt=""Fx89Padlock"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-06-04-33-33-7bdc86.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> icon in the address bar to check if Firefox is actively blocking trackers on that page. Read <a href=""https://disconnect.me/trackerprotection"">Disconnect documentation about tracking and standards they use to create their list</a> or the <a href=""https://wiki.mozilla.org/Security/Tracking_protection#Lists"">Mozilla Wiki about the lists used by Firefox for <em>Enhanced Tracking Protection</em></a>.
@@ -67690,143 +67905,6 @@ See [What if I'm locked out of Two-Step Authentication?](\""https://support.mozi
 # What if I can't sign in with a new or existing Mozilla account and want to ask for support?
 
 Mozilla accounts does not support very old versions of Firefox. Try using a different browser or device to sign in to Mozilla Support or see [Get community support - Additional resources](\""https://support.mozilla.org/en-US/kb/get-community-support#w_additional-resources"") for other support options.
-
-"
-44404,How to cast YouTube videos on Firefox for Fire TV,cast-youtube-videos-firefox-fire-tv,https://support.mozilla.org/en-US/kb/cast-youtube-videos-firefox-fire-tv,en-US,"Cast YouTube videos from your phone to Firefox for Fire TV, so you can watch them on a bigger screen. You can do this even when you don’t have Firefox open.","<p>Cast YouTube videos from your phone to Firefox for Fire TV, so you can watch them on a bigger screen. You can do this even when you don’t have Firefox open.
-</p>
-<h1 id=""w_requirements"">Requirements</h1>
-<p>Before you start, please make sure that:
-</p>
-<ul><li>Firefox for Fire TV is installed on your Fire TV.
-</li><li>The YouTube app is installed on your phone.
-</li></ul>
-<h1 id=""w_how-to-cast"">How to cast</h1>
-<p>From the YouTube app on your phone
-</p>
-<ol><li>Start playing the video you want to cast to see the controls.
-</li><li>Tap the cast button <img alt=""youtube cast icon fire tv"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-04-25-08-51-39-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> at the top of the screen.
-</li><li>Choose your Fire TV device from the menu options.
-</li><li>The video will start playing on Fire TV. 
-</li></ol>
-<p>When you’re finished, press the back button to return to the website you were viewing prior to the video.
-</p>",firefox-fire-tv;firefox-amazon-devices,browse,"Cast YouTube videos from your phone to Firefox for Fire TV, so you can watch them on a bigger screen. You can do this even when you don’t have Firefox open.
-
-# Requirements
-
-Before you start, please make sure that:
-
-- Firefox for Fire TV is installed on your Fire TV.
-- The YouTube app is installed on your phone.
-
-# How to cast
-
-From the YouTube app on your phone
-
-1. Start playing the video you want to cast to see the controls.
-2. Tap the cast button ![youtube cast icon fire tv](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) at the top of the screen.
-3. Choose your Fire TV device from the menu options.
-4. The video will start playing on Fire TV. 
-
-When you’re finished, press the back button to return to the website you were viewing prior to the video.
-
-"
-44469,Recommended Extensions program,recommended-extensions-program,https://support.mozilla.org/en-US/kb/recommended-extensions-program,en-US,Learn how extensions make the cut for the Recommended Extensions program and where they can be found.,"<p><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Extensions</a> allow you to add features to Firefox to customize your browsing experience. Extensions are software programs, most often developed by a third party, that modify the way Firefox works.
-</p><p>Recommended extensions differ from <a href=""/en-US/kb/add-on-badges"">other extensions that are regularly reviewed by Firefox staff</a> in that they are curated extensions that meet the highest standards of security, functionality and user experience. Firefox staff thoroughly evaluate each extension before it receives Recommended status.
-</p><p>Here are all the current <a href=""https://addons.mozilla.org/firefox/search/?promoted=recommended&amp;type=extension"">Recommended extensions</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-are-recommended-extensions-selected""><span class=""tocnumber"">1</span> <span class=""toctext"">How are Recommended extensions selected?</span></a></li><li class=""toclevel-1""><a href=""#w_where-do-i-find-recommended-extensions""><span class=""tocnumber"">2</span> <span class=""toctext"">Where do I find Recommended extensions?</span></a></li><li class=""toclevel-1""><a href=""#w_can-developers-pay-to-be-recommended""><span class=""tocnumber"">3</span> <span class=""toctext"">Can developers pay to be recommended?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-the-risks-of-installing-non-recommended-extensions""><span class=""tocnumber"">4</span> <span class=""toctext"">What are the risks of installing non-recommended extensions?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-recommended-themes""><span class=""tocnumber"">5</span> <span class=""toctext"">What are Recommended themes?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-suggest-extensions-to-become-recommended""><span class=""tocnumber"">6</span> <span class=""toctext"">Can I suggest extensions to become Recommended?</span></a></li></ul></div>
-<h1 id=""w_how-are-recommended-extensions-selected"">How are Recommended extensions selected?</h1>
-<p>Mozilla editorial staff identify feature worthy content. When evaluating extensions, curators are primarily concerned with:
-</p>
-<ul><li><strong>Does the extension function at an exemplary level?</strong> All Recommended extensions should not only function as they promise, but function at an extremely high level. For instance, there are many ad blockers out there, but not all ad blockers are equally effective.
-</li><li><strong>Is the extension safe?</strong> Firefox is committed to helping protect you against third-party software that may inadvertently compromise your data – or worse – breach your privacy with malicious intent. Before an extension receives Recommended status, it undergoes rigorous technical review by staff security experts.
-</li><li><strong>Does the extension offer an exceptional user experience?</strong> Recommended extensions should be delightful to use, so curators look for content that is easy to manage and well-designed.
-</li><li><strong>Is the extension relevant to a general, international audience?</strong> The tightly-curated nature of Recommended extensions means we may only feature up to a few hundred, or less, at a time. We try to select content that will be relevant to Firefox users around the globe.
-</li><li><strong>Is the extension actively developed?</strong> Developers of Recommended extensions must maintain their content to ensure it evolves with the needs of Firefox users.
-</li></ul>
-<h1 id=""w_where-do-i-find-recommended-extensions"">Where do I find Recommended extensions?</h1>
-<p>You can discover Recommended extensions on <a href=""https://addons.mozilla.org"">addons.mozilla.org</a> (AMO), a hosting platform where you can explore thousands of extensions and themes (custom skins for Firefox).
-</p><p>Recommended extensions are indicated by special badging:
-</p>
-<dl><dt><img alt=""recommended-badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-06-24-12-53-00-208c51.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>Recommended extensions may also be found <a href=""/en-US/kb/recommendations-firefox"">while browsing with Firefox</a> and <a href=""/en-US/kb/personalized-extension-recommendations"">through the Add-ons Manager</a>.
-</p>
-<h1 id=""w_can-developers-pay-to-be-recommended"">Can developers pay to be recommended?</h1>
-<p>No. All Recommended content is curated solely for the purpose of providing Firefox users with great browsing tools and experiences.
-</p>
-<h1 id=""w_what-are-the-risks-of-installing-non-recommended-extensions"">What are the risks of installing non-recommended extensions?</h1>
-<p>There are thousands of extensions, and the vast majority are built with honest intent to provide people with useful tools and features. But even extensions built with the best intentions may inadvertently expose or otherwise compromise sensitive data.
-</p><p>Also, unfortunately, there are a few bad actors out there intent on stealing user data. One method of mining information can be through tricking users into installing malicious extensions.
-</p><p>Due to the curated nature of Recommended extensions, each extension undergoes a thorough technical security review to ensure it adheres to Mozilla’s <a href=""https://extensionworkshop.com/documentation/develop/build-a-secure-extension/"">secure extension policy</a>.
-</p><p>To be clear, just because an extension is <strong>not</strong> Recommended, that doesn't mean it's unsafe. It simply means it's not vetted by Mozilla, and you should install at your own risk. Here are additional <a href=""/en-US/kb/tips-assessing-safety-extension"">tips for assessing the safety of an extension</a>.
-</p>
-<h1 id=""w_what-are-recommended-themes"">What are Recommended themes?</h1>
-<p><a href=""/en-US/kb/use-themes-change-look-of-firefox"">Themes</a> enable you to change the appearance of Firefox. A <a href=""https://wiki.mozilla.org/Add-ons/Contribute/Featured_Themes"">community-driven team</a> curates <a href=""https://addons.mozilla.org/firefox/search/?promoted=recommended&amp;type=statictheme"">Recommended themes</a> for high aesthetic quality, resolution and composition.
-</p>
-<div class=""note""><strong>Note:</strong> As themes do not pose any potential security risk, they do not undergo a security review. However, all themes distributed for use in Firefox must comply with Mozilla’s <a href=""https://extensionworkshop.com/documentation/publish/add-on-policies/"">add-on policies</a>, <a href=""https://www.mozilla.org/about/legal/acceptable-use/"">Conditions of Use</a> and <a href=""https://wiki.mozilla.org/Add-ons/Reviewers/Themes/Guidelines"">add-on content guidelines</a>.</div>
-<h1 id=""w_can-i-suggest-extensions-to-become-recommended"">Can I suggest extensions to become Recommended?</h1>
-<p>Yes. If there’s an extension you feel should be recommended, please email <strong>amo-featured [at] mozilla [dot] org</strong> with a link to its AMO listing page.
-</p>",firefox,add-ons-extensions-and-themes,"[Extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"") allow you to add features to Firefox to customize your browsing experience. Extensions are software programs, most often developed by a third party, that modify the way Firefox works.
-
-Recommended extensions differ from [other extensions that are regularly reviewed by Firefox staff](\""https://support.mozilla.org/en-US/kb/add-on-badges"") in that they are curated extensions that meet the highest standards of security, functionality and user experience. Firefox staff thoroughly evaluate each extension before it receives Recommended status.
-
-Here are all the current [Recommended extensions](https://addons.mozilla.org/firefox/search/?promoted=recommended&type=extension).
-
-## Table of Contents
-
-- [1 How are Recommended extensions selected?](https://support.mozilla.org/kb/recommended-extensions-program#w_how-are-recommended-extensions-selected)
-- [2 Where do I find Recommended extensions?](https://support.mozilla.org/kb/recommended-extensions-program#w_where-do-i-find-recommended-extensions)
-- [3 Can developers pay to be recommended?](https://support.mozilla.org/kb/recommended-extensions-program#w_can-developers-pay-to-be-recommended)
-- [4 What are the risks of installing non-recommended extensions?](https://support.mozilla.org/kb/recommended-extensions-program#w_what-are-the-risks-of-installing-non-recommended-extensions)
-- [5 What are Recommended themes?](https://support.mozilla.org/kb/recommended-extensions-program#w_what-are-recommended-themes)
-- [6 Can I suggest extensions to become Recommended?](https://support.mozilla.org/kb/recommended-extensions-program#w_can-i-suggest-extensions-to-become-recommended)
-
-# How are Recommended extensions selected?
-
-Mozilla editorial staff identify feature worthy content. When evaluating extensions, curators are primarily concerned with:
-
-- **Does the extension function at an exemplary level?** All Recommended extensions should not only function as they promise, but function at an extremely high level. For instance, there are many ad blockers out there, but not all ad blockers are equally effective.
-- **Is the extension safe?** Firefox is committed to helping protect you against third-party software that may inadvertently compromise your data – or worse – breach your privacy with malicious intent. Before an extension receives Recommended status, it undergoes rigorous technical review by staff security experts.
-- **Does the extension offer an exceptional user experience?** Recommended extensions should be delightful to use, so curators look for content that is easy to manage and well-designed.
-- **Is the extension relevant to a general, international audience?** The tightly-curated nature of Recommended extensions means we may only feature up to a few hundred, or less, at a time. We try to select content that will be relevant to Firefox users around the globe.
-- **Is the extension actively developed?** Developers of Recommended extensions must maintain their content to ensure it evolves with the needs of Firefox users.
-
-# Where do I find Recommended extensions?
-
-You can discover Recommended extensions on [addons.mozilla.org](https://addons.mozilla.org) (AMO), a hosting platform where you can explore thousands of extensions and themes (custom skins for Firefox).
-
-Recommended extensions are indicated by special badging:
-
-<dl><dt>
-<img alt=""recommended-badge"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-06-24-12-53-00-208c51.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-Recommended extensions may also be found [while browsing with Firefox](\""https://support.mozilla.org/en-US/kb/recommendations-firefox"") and [through the Add-ons Manager](\""https://support.mozilla.org/en-US/kb/personalized-extension-recommendations"").
-
-# Can developers pay to be recommended?
-
-No. All Recommended content is curated solely for the purpose of providing Firefox users with great browsing tools and experiences.
-
-# What are the risks of installing non-recommended extensions?
-
-There are thousands of extensions, and the vast majority are built with honest intent to provide people with useful tools and features. But even extensions built with the best intentions may inadvertently expose or otherwise compromise sensitive data.
-
-Also, unfortunately, there are a few bad actors out there intent on stealing user data. One method of mining information can be through tricking users into installing malicious extensions.
-
-Due to the curated nature of Recommended extensions, each extension undergoes a thorough technical security review to ensure it adheres to Mozilla’s [secure extension policy](https://extensionworkshop.com/documentation/develop/build-a-secure-extension/).
-
-To be clear, just because an extension is **not** Recommended, that doesn't mean it's unsafe. It simply means it's not vetted by Mozilla, and you should install at your own risk. Here are additional [tips for assessing the safety of an extension](\""https://support.mozilla.org/en-US/kb/tips-assessing-safety-extension"").
-
-# What are Recommended themes?
-
-[Themes](\""https://support.mozilla.org/en-US/kb/use-themes-change-look-of-firefox"") enable you to change the appearance of Firefox. A [community-driven team](https://wiki.mozilla.org/Add-ons/Contribute/Featured_Themes) curates [Recommended themes](https://addons.mozilla.org/firefox/search/?promoted=recommended&type=statictheme) for high aesthetic quality, resolution and composition.
-
-**Note:** As themes do not pose any potential security risk, they do not undergo a security review. However, all themes distributed for use in Firefox must comply with Mozilla’s [add-on policies](https://extensionworkshop.com/documentation/publish/add-on-policies/), [Conditions of Use](https://www.mozilla.org/about/legal/acceptable-use/) and [add-on content guidelines](https://wiki.mozilla.org/Add-ons/Reviewers/Themes/Guidelines).
-
-# Can I suggest extensions to become Recommended?
-
-Yes. If there’s an extension you feel should be recommended, please email **amo-featured [at] mozilla [dot] org** with a link to its AMO listing page.
 
 "
 44480,How to manage your camera and microphone permissions with Firefox,how-manage-your-camera-and-microphone-permissions,https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions,en-US,How to enable or block sites from accessing your camera and microphone on your desktop or mobile device.,"<p>From Firefox, you can enable or block sites from accessing any one of your device’s cameras and microphones. There are many different ways to enable or block camera and microphone permissions, depending upon the device that you’re using. This article outlines each method below.
@@ -91455,6 +91533,54 @@ There are some options to choose from:
 
 - [Firefox Translations](\""https://support.mozilla.org/en-US/kb/website-translation"")
 - [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"")
+
+"
+58980,How to upgrade your MDN Plus subscription,how-upgrade-your-mdn-plus-subscription,https://support.mozilla.org/en-US/kb/how-upgrade-your-mdn-plus-subscription,en-US,"If you are an MDN Core or MDN Plus 5 subscriber and wish to upgrade your subscription to a better plan, you can do it from the MDN Plus website.","<p>If you are an <em>MDN Core</em> or <em>MDN Plus 5</em> subscriber and wish to upgrade your subscription to a better plan, you can do it from the <a href=""https://developer.mozilla.org/plus"">MDN Plus website</a>.
+</p>
+<div class=""note""><strong>Note:</strong> Users can only upgrade to a higher plan. Downgrades are not available at this time.</div>
+<ol><li>Log in to the <a href=""https://developer.mozilla.org/plus"">MDN Plus site</a> with the credentials you used to subscribe to your current plan.
+</li><li>Scroll down to the bottom of the page to see the plans you can upgrade to.
+</li><li>Click the <strong>Upgrade</strong> button to select a plan from the available options.
+</li><li>You will be redirected to the checkout screen to complete your purchase.
+</li><li>The change in your plan will take effect immediately.
+</li></ol>
+<p>You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
+</p>",mdn-plus,manage-billing,"If you are an _MDN Core_ or _MDN Plus 5_ subscriber and wish to upgrade your subscription to a better plan, you can do it from the [MDN Plus website](https://developer.mozilla.org/plus).
+
+**Note:** Users can only upgrade to a higher plan. Downgrades are not available at this time.
+
+1. Log in to the [MDN Plus site](https://developer.mozilla.org/plus) with the credentials you used to subscribe to your current plan.
+2. Scroll down to the bottom of the page to see the plans you can upgrade to.
+3. Click the **Upgrade** button to select a plan from the available options.
+4. You will be redirected to the checkout screen to complete your purchase.
+5. The change in your plan will take effect immediately.
+
+You'll be charged at the time of purchase and the difference will be calculated based on the price of the updated subscription and the number of days remaining before your current subscription is due.
+
+"
+58999,I can't sign in to Mozilla VPN - What should I do?,i-cant-sign-mozilla-vpn-what-should-i-do,https://support.mozilla.org/en-US/kb/i-cant-sign-mozilla-vpn-what-should-i-do,en-US,"If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues.","<p>If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues. 
+</p>
+<ul><li>Ensure you are using the latest version of Mozilla VPN.
+</li><li>Make sure you are using the email and password combination associated with the Mozilla account used to purchase your subscription. 
+</li><li>Manually type in your credentials instead of pasting them or using a password management application.
+</li><li>Visit <a href=""http://accounts.firefox.com"">accounts.firefox.com</a> on your web browser and sign in. Then try to sign in to Mozilla VPN.
+</li></ul>
+<p>If you’re unable to even sign in to <a href=""http://accounts.firefox.com"">accounts.firefox.com</a>, then you may need to <a href=""/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn"">reset your Mozilla account</a>.
+</p>
+<h1 id=""w_im-still-unable-to-sign-in-to-mozilla-account"">I’m still unable to sign in to Mozilla account</h1>
+<p>If you’re unable to sign in or contact us through the <strong>Contact Us</strong> form in the VPN menu, <a href=""mailto:fxasupport@mozilla.com?subject=2FA Reset Request"">contact us through this link</a>.
+</p>",mozilla-vpn,accounts;passwords-and-sign-in,"If you are having trouble signing in to Mozilla VPN, you can try any of the steps in this article to resolve most issues.
+
+- Ensure you are using the latest version of Mozilla VPN.
+- Make sure you are using the email and password combination associated with the Mozilla account used to purchase your subscription. 
+- Manually type in your credentials instead of pasting them or using a password management application.
+- Visit [accounts.firefox.com](http://accounts.firefox.com) on your web browser and sign in. Then try to sign in to Mozilla VPN.
+
+If you’re unable to even sign in to [accounts.firefox.com](http://accounts.firefox.com), then you may need to [reset your Mozilla account](\""https://support.mozilla.org/en-US/kb/i-forgot-my-firefox-account-password-and-i-cant-log-in-to-mozilla-vpn"").
+
+# I’m still unable to sign in to Mozilla account
+
+If you’re unable to sign in or contact us through the **Contact Us** form in the VPN menu, [contact us through this link](mailto:fxasupport@mozilla.com?subject=2FA Reset Request).
 
 "
 59036,What's new in Firefox for iOS (version 103),whats-new-firefox-ios-version-103,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-103,en-US,See what's new in the latest release of Firefox for iOS (version 103).,"<p>Welcome to a new version of Firefox for iOS (version 103). This release comes with the following improvements and features:
@@ -127253,7 +127379,7 @@ You can connect either:
 <p>Smart Window lets you choose which AI model powers the built-in assistant. It offers 3 models to choose from and, for more advanced users, the option to bring your own model.
 </p><p>You can switch between models at any time to find the one that works best for you.
 </p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_available-models""><span class=""tocnumber"">1</span> <span class=""toctext"">Available models</span></a></li><li class=""toclevel-1""><a href=""#w_choose-or-change-a-model""><span class=""tocnumber"">2</span> <span class=""toctext"">Choose or change a model</span></a></li><li class=""toclevel-1""><a href=""#w_bring-your-own-model""><span class=""tocnumber"">3</span> <span class=""toctext"">Bring your own model</span></a></li><li class=""toclevel-1""><a href=""#w_how-models-are-chosen-by-the-firefox-team""><span class=""tocnumber"">4</span> <span class=""toctext"">How models are chosen by the Firefox team</span></a></li><li class=""toclevel-1""><a href=""#w_faq""><span class=""tocnumber"">5</span> <span class=""toctext"">FAQ</span></a><ul><li class=""toclevel-2""><a href=""#w_which-model-should-i-choose""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Which model should I choose?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-change-my-model-after-my-initial-selection-in-onboarding""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Can I change my model after my initial selection in onboarding?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-further-customize-my-chosen-model""><span class=""tocnumber"">5.3</span> <span class=""toctext"">How can I further customize my chosen model?</span></a></li><li class=""toclevel-2""><a href=""#w_does-my-conversation-history-go-to-the-model-providers""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Does my conversation history go to the model providers?</span></a></li><li class=""toclevel-2""><a href=""#w_do-different-models-handle-my-data-differently""><span class=""tocnumber"">5.5</span> <span class=""toctext"">Do different models handle my data differently?</span></a></li><li class=""toclevel-2""><a href=""#w_are-some-models-safer-or-more-secure-than-others""><span class=""tocnumber"">5.6</span> <span class=""toctext"">Are some models safer or more secure than others?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_available-models""><span class=""tocnumber"">1</span> <span class=""toctext"">Available models</span></a></li><li class=""toclevel-1""><a href=""#w_choose-or-change-a-model""><span class=""tocnumber"">2</span> <span class=""toctext"">Choose or change a model</span></a></li><li class=""toclevel-1""><a href=""#w_bring-your-own-model""><span class=""tocnumber"">3</span> <span class=""toctext"">Bring your own model</span></a></li><li class=""toclevel-1""><a href=""#w_how-models-are-chosen-by-the-firefox-team""><span class=""tocnumber"">4</span> <span class=""toctext"">How models are chosen by the Firefox team</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">5</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_which-model-should-i-choose""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Which model should I choose?</span></a></li><li class=""toclevel-2""><a href=""#w_can-i-change-my-model-after-my-initial-selection-in-onboarding""><span class=""tocnumber"">5.2</span> <span class=""toctext"">Can I change my model after my initial selection in onboarding?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-further-customize-my-chosen-model""><span class=""tocnumber"">5.3</span> <span class=""toctext"">How can I further customize my chosen model?</span></a></li><li class=""toclevel-2""><a href=""#w_does-my-conversation-history-go-to-the-model-providers""><span class=""tocnumber"">5.4</span> <span class=""toctext"">Does my conversation history go to the model providers?</span></a></li><li class=""toclevel-2""><a href=""#w_do-different-models-handle-my-data-differently""><span class=""tocnumber"">5.5</span> <span class=""toctext"">Do different models handle my data differently?</span></a></li><li class=""toclevel-2""><a href=""#w_are-some-models-safer-or-more-secure-than-others""><span class=""tocnumber"">5.6</span> <span class=""toctext"">Are some models safer or more secure than others?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_available-models"">Available models</h1>
 <p>Smart Window offers several models with different strengths. While all models can perform most tasks, they may respond differently depending on your needs. The best way to see what model is best for you is to give each a try. Use the table below to get a sense for what you can expect from each model.
 </p>
@@ -127276,7 +127402,7 @@ You can connect either:
 </td></tr></tbody></table>
 <div class=""note""><strong>Note:</strong> In the future, the list of available model choices may change. As newer, more capable models are released, Firefox will evaluate them and may choose to add them as options to Smart Window. Firefox may choose to remove models at any time.</div>
 <h1 id=""w_choose-or-change-a-model"">Choose or change a model</h1>
-<p>You’ll be asked to pick a model the first time you use Smart Window, but you can switch models anytime, as often as you like, in Settings. 
+<p>You’ll be asked to pick a model the first time you use Smart Window, but you can switch models anytime, as often as you like, in Settings.
 </p>
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
@@ -127295,7 +127421,7 @@ You can connect either:
 <ul><li>The language models offered in Smart Window are based on technical evaluations completed by the Firefox engineering team. While public benchmarks are available and are published by the model makers, the Firefox team takes the additional step of completing these internal evaluations to ensure that the models behave well in the context of Firefox and Smart Window use cases. For example: web page summarization, page Q&amp;A, and more specific use cases performed by web browser users, such as product comparisons.
 </li></ul>
 </li><li><strong>How they handle sensitive or harmful content</strong>
-<ul><li>Additional Trust and Safety evaluations are performed to evaluate model handling of certain sensitive and harmful content. You can learn more about that <a href=""/en-US/kb/smart-window-safety"">here</a>.
+<ul><li>Additional Trust and Safety evaluations are performed to evaluate model handling of certain sensitive and harmful content. You can learn more about that in <a href=""/en-US/kb/smart-window-safety"">this article</a>.
 </li></ul>
 </li><li><strong>How useful they are for real browsing scenarios</strong>
 <ul><li>Comparative evaluations are done to determine the promoted “characteristic” of the model. For example, gemini-2.5-flash-lite was seen to produce shorter results, with a higher token output rate, than the other models, hence why it has been labeled as the “Fast” model choice. This labeling is intended to help users who are unfamiliar with the individual models to make a choice for Smart Window.
@@ -127304,7 +127430,7 @@ You can connect either:
 <ul><li>The cost of the models to host and run is taken into consideration as well. Smart Window has a usage quota for each user to allow for generous but reasonable daily usage. When a user reaches their usage limit, they will be prevented for further use until the next day when the quota resets.
 </li></ul>
 </li></ul>
-<h1 id=""w_faq"">FAQ</h1>
+<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
 <h2 id=""w_which-model-should-i-choose"">Which model should I choose?</h2>
 <p>This depends on the experience you would like to have with Smart Window’s assistant. If you prefer fast responses with short answers, select the <strong>Fast</strong> option, which is gemini-2.5-flash-lite. While all models support personalization based on your browsing habits if <a href=""/en-US/kb/smart-window-memories"">Memories</a> are enabled, if you like to have your responses personalized more frequently, select the <strong>Personalized</strong> option, which is gpt-oss-120B. If you are not sure, or don’t have a preference, select the <strong>Flexible</strong> option, which is Qwen3-235B-A22B-Instruct-2507.
 </p>
@@ -127340,7 +127466,7 @@ You can switch between models at any time to find the one that works best for yo
 - [2 Choose or change a model](https://support.mozilla.org/kb/smart-window-models#w_choose-or-change-a-model)
 - [3 Bring your own model](https://support.mozilla.org/kb/smart-window-models#w_bring-your-own-model)
 - [4 How models are chosen by the Firefox team](https://support.mozilla.org/kb/smart-window-models#w_how-models-are-chosen-by-the-firefox-team)
-- [5 FAQ](https://support.mozilla.org/kb/smart-window-models#w_faq)
+- [5 Frequently asked questions](https://support.mozilla.org/kb/smart-window-models#w_frequently-asked-questions)
   - [5.1 Which model should I choose?](https://support.mozilla.org/kb/smart-window-models#w_which-model-should-i-choose)
   - [5.2 Can I change my model after my initial selection in onboarding?](https://support.mozilla.org/kb/smart-window-models#w_can-i-change-my-model-after-my-initial-selection-in-onboarding)
   - [5.3 How can I further customize my chosen model?](https://support.mozilla.org/kb/smart-window-models#w_how-can-i-further-customize-my-chosen-model)
@@ -127388,7 +127514,7 @@ Firefox evaluates models before making them available in Smart Window. These eva
   - The language models offered in Smart Window are based on technical evaluations completed by the Firefox engineering team. While public benchmarks are available and are published by the model makers, the Firefox team takes the additional step of completing these internal evaluations to ensure that the models behave well in the context of Firefox and Smart Window use cases. For example: web page summarization, page Q&A, and more specific use cases performed by web browser users, such as product comparisons.
 
 - **How they handle sensitive or harmful content**
-  - Additional Trust and Safety evaluations are performed to evaluate model handling of certain sensitive and harmful content. You can learn more about that [here](\""https://support.mozilla.org/en-US/kb/smart-window-safety"").
+  - Additional Trust and Safety evaluations are performed to evaluate model handling of certain sensitive and harmful content. You can learn more about that in [this article](\""https://support.mozilla.org/en-US/kb/smart-window-safety"").
 
 - **How useful they are for real browsing scenarios**
   - Comparative evaluations are done to determine the promoted “characteristic” of the model. For example, gemini-2.5-flash-lite was seen to produce shorter results, with a higher token output rate, than the other models, hence why it has been labeled as the “Fast” model choice. This labeling is intended to help users who are unfamiliar with the individual models to make a choice for Smart Window.
@@ -127396,7 +127522,7 @@ Firefox evaluates models before making them available in Smart Window. These eva
 - **The usage limit**
   - The cost of the models to host and run is taken into consideration as well. Smart Window has a usage quota for each user to allow for generous but reasonable daily usage. When a user reaches their usage limit, they will be prevented for further use until the next day when the quota resets.
 
-# FAQ
+# Frequently asked questions
 
 ## Which model should I choose?
 
