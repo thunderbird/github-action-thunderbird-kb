@@ -21895,7 +21895,11 @@ For more information about session restore, see [Restore previous session - Conf
 </dt></dl>
 <div class=""for"" data-for=""fx151"">
 <h1 id=""w_how-do-i-close-a-private-browsing-session"">How do I close a Private Browsing session?</h1>
-<p>Starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 151, Private Browsing mode now allows users to instantly clear all data from their current session without closing the entire browser. When you select the Clear Private Session button <img alt=""Fx151 End Private Session"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-22-13-42-18-20be1e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""25""> to the right of the address bar, Firefox will ask you to confirm to clear your session. Once confirmed, it will wipe all of your private browsing data and open a fresh new Private Window for you.
+<p>Starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 151, Private Browsing mode now allows users to instantly clear all data from their current session without closing the entire browser. When you click the <span class=""for"" data-for=""not fx152"">End</span><span class=""for"" data-for=""fx152"">Clear</span> Private Session button <img alt=""Fx151 End Private Session"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-22-13-42-18-20be1e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""25""> (the fire icon) to the right of the address bar, Firefox will ask you to confirm to clear your session.
+</p>
+<dl><dt><img alt=""Fx151PrivateBrowsing-ClearPrivateSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-24-05-16-14-f57f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>If you select <span class=""button"">Clear private session</span>, it will wipe all of your private browsing data and open a fresh new private session for you.
 </p></div>
 <h1 id=""w_what-does-private-browsing-not-save"">What does Private Browsing not save?</h1>
 <ul><li> <strong>Visited pages:</strong> Pages will not be added to the list of sites in the History menu, the Library window's history list, nor in the <a href=""/en-US/kb/address-bar-autocomplete-firefox"">address bar</a> drop-down list.
@@ -21976,7 +21980,13 @@ The Private Browsing home page will open in a new window.
 
 # How do I close a Private Browsing session?
 
-Starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 151, Private Browsing mode now allows users to instantly clear all data from their current session without closing the entire browser. When you select the Clear Private Session button ![Fx151 End Private Session](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to the right of the address bar, Firefox will ask you to confirm to clear your session. Once confirmed, it will wipe all of your private browsing data and open a fresh new Private Window for you.
+Starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 151, Private Browsing mode now allows users to instantly clear all data from their current session without closing the entire browser. When you click the EndClear Private Session button ![Fx151 End Private Session](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) (the fire icon) to the right of the address bar, Firefox will ask you to confirm to clear your session.
+
+<dl><dt>
+<img alt=""Fx151PrivateBrowsing-ClearPrivateSession"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-24-05-16-14-f57f48.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+If you select Clear private session, it will wipe all of your private browsing data and open a fresh new private session for you.
 
 # What does Private Browsing not save?
 
@@ -84424,77 +84434,6 @@ If you uninstall Mozilla VPN you will need to remove this setting by following t
 5. Swipe down to go back to your homepage.
 
 "
-55516,View recently saved bookmarks from your homepage on Firefox for iOS,view-recently-saved-bookmarks-firefox-ios-homepage,https://support.mozilla.org/en-US/kb/view-recently-saved-bookmarks-firefox-ios-homepage,en-US,View your recently saved bookmarks and reading list items on your homepage in Firefox for iOS.,"<p>Your personalized Firefox homepage on iOS makes it easy for you to pick up where you left off after your last browser session. You can access your recently saved bookmarks and recently saved reading list items from your homepage.
-</p>
-<dl><dt><img alt=""FX iOS homepage bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-08-07-49-59-9b0f68.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</dt></dl>
-<p>View your recently saved bookmarks or reading list items:
-</p>
-<ol><li> Scroll down to the <em>Bookmarks</em> section to see your most recent bookmarks and reading list items.
-</li><li> Tap a bookmark or reading list item to be redirected to the site.
-</li><li> Tap <span class=""menu"">Show All</span> in the <em>Bookmarks</em> section to view all bookmarks and reading list items.
-</li></ol>
-<h1 id=""w_related-articles"">Related Articles</h1>
-<p>To learn more about recently saved bookmarks and reading list items, see these articles:
-</p>
-<ul><li> <a href=""/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"">How to add, remove, edit and move bookmarks in Firefox for iOS</a>
-</li><li> <a href=""/en-US/kb/add-web-pages-your-reading-list-firefox-ios"">Add web pages to your Reading List on Firefox for iOS</a>
-</li></ul>",ios,bookmarks;settings,"Your personalized Firefox homepage on iOS makes it easy for you to pick up where you left off after your last browser session. You can access your recently saved bookmarks and recently saved reading list items from your homepage.
-
-<dl><dt>
-<img alt=""FX iOS homepage bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-08-07-49-59-9b0f68.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
-</dt></dl>
-
-View your recently saved bookmarks or reading list items:
-
-1. Scroll down to the _Bookmarks_ section to see your most recent bookmarks and reading list items.
-2. Tap a bookmark or reading list item to be redirected to the site.
-3. Tap Show All in the _Bookmarks_ section to view all bookmarks and reading list items.
-
-# Related Articles
-
-To learn more about recently saved bookmarks and reading list items, see these articles:
-
-- [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"")
-- [Add web pages to your Reading List on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/add-web-pages-your-reading-list-firefox-ios"")
-
-"
-55524,View bookmarks on your home screen,view-recent-bookmarks-and-searches-firefox-android-home,https://support.mozilla.org/en-US/kb/view-recent-bookmarks-and-searches-firefox-android-home,en-US,You can access your bookmarks and recent searches from your Firefox for Android home screen.,"<p>Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your bookmarks and recent searches from your home screen.
-</p><div class=""for"" data-for=""not m127"">
-<h1 id=""w_view-recently-saved-bookmarks"">View recently saved bookmarks</h1>
-<p>To view your recently saved bookmarks:
-</p>
-<ol><li>Scroll down to the <em>Recent bookmarks</em> section to see your most recent bookmarks.
-</li><li>Tap <span class=""menu"">Show all</span> in the <em>Recent bookmarks</em> section to view and <a href=""/en-US/kb/manage-bookmark-folders-firefox-android"">manage all bookmarks</a>.
-</li></ol>
-</div><div class=""for"" data-for=""m127"">
-<h1 id=""w_view-recently-saved-bookmarks_2"">View recently saved bookmarks</h1>
-<p>To view your bookmarks:
-</p>
-<ol><li>Scroll down to the <em>Bookmarks</em> section to see your most recent bookmarks, most recent at left.
-</li><li>Tap <span class=""menu"">Show all</span> in the <em>Bookmarks</em> section to view and <a href=""/en-US/kb/manage-bookmark-folders-firefox-android"">manage all bookmarks</a>.
-<dl><dt><img alt=""Fenix home screen bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-10-12-48-23-99fa23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li></ol>
-</div>",mobile,bookmarks;settings,"Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your bookmarks and recent searches from your home screen.
-
-# View recently saved bookmarks
-
-To view your recently saved bookmarks:
-
-1. Scroll down to the _Recent bookmarks_ section to see your most recent bookmarks.
-2. Tap Show all in the _Recent bookmarks_ section to view and [manage all bookmarks](\""https://support.mozilla.org/en-US/kb/manage-bookmark-folders-firefox-android"").
-
-# View recently saved bookmarks
-
-To view your bookmarks:
-
-1. Scroll down to the _Bookmarks_ section to see your most recent bookmarks, most recent at left.
-2. Tap Show all in the _Bookmarks_ section to view and [manage all bookmarks](\""https://support.mozilla.org/en-US/kb/manage-bookmark-folders-firefox-android"").<dl><dt>
-<img alt=""Fenix home screen bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-10-12-48-23-99fa23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-
-"
 55525,View recent tabs on your Firefox for Android homepage,view-recent-tabs-firefox-android-homepage,https://support.mozilla.org/en-US/kb/view-recent-tabs-firefox-android-homepage,en-US,View your recent open tabs on your Firefox for Android homepage.,"<p>Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your two most recent tabs in the <strong>Jump back in</strong> section. Tap <span class=""menu"">Show all</span> to view all open tabs, all open Private Browsing tabs and all open Synced Tabs.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_open-tabs""><span class=""tocnumber"">1</span> <span class=""toctext"">Open tabs</span></a></li><li class=""toclevel-1""><a href=""#w_private-browsing-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Private browsing tabs</span></a></li><li class=""toclevel-1""><a href=""#w_synced-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Synced tabs</span></a></li></ul></div>
@@ -116728,7 +116667,7 @@ You choose to apply the new settings to your current folders as follows:
 <div class=""note"">
 <p><strong>Looking for help with Mozilla VPN?</strong><br>
 This article covers Firefox’s built-in VPN feature, not the Mozilla VPN app.<br>
-If you use the Mozilla VPN app, open the app and go to <strong>Help</strong> &gt; <strong>Contact support</strong> for assistance.<br> 
+If you use the Mozilla VPN app, open the app and go to <strong>Help</strong> &gt; <strong>Contact support</strong> for assistance.<br>
 You can also visit the <a href=""https://support.mozilla.org/en-US/products/mozilla-vpn"">Mozilla VPN support page</a>.
 </p>
 </div>
@@ -116771,7 +116710,7 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 <p>Firefox will route your web traffic through the best available server.
 </p><div class=""for"" data-for=""fx151"">
 <h1 id=""w_choose-a-vpn-location"">Choose a VPN location</h1>
-<div class=""note""><strong>Note</strong>: Built-in VPN is only available in selected regions at this time.</div>
+<div class=""note""><strong>Note:</strong> Built-in VPN is only available in selected regions at this time.</div>
 <p>You can choose where your browsing traffic is routed from.
 </p><p>To change location:
 </p>
@@ -116797,9 +116736,9 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 <h1 id=""w_understand-the-50-gb-data-limit"">Understand the 50 GB data limit</h1>
 <p>The built-in VPN includes a 50 GB monthly data limit.
 </p>
-<ul><li>Firefox will notify you as you approach the limit
-</li><li>When you reach the limit, your VPN status will change to paused
-</li><li>VPN protection will be unavailable until your data resets
+<ul><li>Firefox will notify you as you approach the limit.
+</li><li>When you reach the limit, your VPN status will change to paused.
+</li><li>VPN protection will be unavailable until your data resets.
 </li></ul>
 <p>Your data resets at the <strong>start of the next calendar month</strong>.
 </p><p>If you need more data, you can subscribe to <a href=""https://www.mozilla.org/products/vpn/"">Mozilla VPN</a> for unlimited usage.
@@ -116863,7 +116802,7 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 <p>Right-click the VPN icon in the toolbar and choose <span class=""menu"">Remove from Toolbar</span>. You can re-enable it later from the <a href=""/en-US/kb/customize-firefox-controls-buttons-and-toolbars"">Customize Toolbar</a> menu.
 </p>
 <h2 id=""w_why-am-i-unable-to-see-the-built-in-vpn-in-firefox"">Why am I unable to see the built-in VPN in Firefox?</h2>
-<p>Please see <a href=""/en-US/kb/unable-find-built-vpn-firefox"">Unable to find the built-in VPN in Firefox</a>
+<p>Please see <a href=""/en-US/kb/unable-find-built-vpn-firefox"">Unable to find the built-in VPN in Firefox</a>.
 </p>
 <h2 id=""w_where-can-i-get-help-or-give-feedback"">Where can I get help or give feedback?</h2>
 <p>Visit <a href=""https://support.mozilla.org/questions/new/firefox/form"">Mozilla Support</a> to ask questions and get help. Feedback can be posted on <a href=""/en-US/kb/what-mozilla-connect"">Mozilla Connect</a>, in <a href=""https://connect.mozilla.org/t5/discussions/introducing-firefox-s-built-in-vpn-ip-protection-now-in-the/td-p/120550"">this discussion thread</a>.
@@ -116874,7 +116813,7 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 </li></ul>",firefox,privacy-and-security;security," **Looking for help with Mozilla VPN?**  
 This article covers Firefox’s built-in VPN feature, not the Mozilla VPN app.  
 If you use the Mozilla VPN app, open the app and go to **Help** \> **Contact support** for assistance.  
- You can also visit the [Mozilla VPN support page](https://support.mozilla.org/en-US/products/mozilla-vpn).
+You can also visit the [Mozilla VPN support page](https://support.mozilla.org/en-US/products/mozilla-vpn).
 
 ![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 
@@ -116945,7 +116884,7 @@ Firefox will route your web traffic through the best available server.
 
 # Choose a VPN location
 
-**Note** : Built-in VPN is only available in selected regions at this time.
+**Note:** Built-in VPN is only available in selected regions at this time.
 
 You can choose where your browsing traffic is routed from.
 
@@ -116977,9 +116916,9 @@ You can also select Recommended, which automatically chooses the best location f
 
 The built-in VPN includes a 50 GB monthly data limit.
 
-- Firefox will notify you as you approach the limit
-- When you reach the limit, your VPN status will change to paused
-- VPN protection will be unavailable until your data resets
+- Firefox will notify you as you approach the limit.
+- When you reach the limit, your VPN status will change to paused.
+- VPN protection will be unavailable until your data resets.
 
 Your data resets at the **start of the next calendar month**.
 
@@ -117055,7 +116994,7 @@ Right-click the VPN icon in the toolbar and choose Remove from Toolbar. You can 
 
 ## Why am I unable to see the built-in VPN in Firefox?
 
-Please see [Unable to find the built-in VPN in Firefox](\""https://support.mozilla.org/en-US/kb/unable-find-built-vpn-firefox"")
+Please see [Unable to find the built-in VPN in Firefox](\""https://support.mozilla.org/en-US/kb/unable-find-built-vpn-firefox"").
 
 ## Where can I get help or give feedback?
 
@@ -124083,57 +124022,57 @@ Congratulations, you have done successfully setup Thundermail with Thunderbird f
 - New to Thunderbird for Android? Then check out [Getting started with Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-android"").
 
 "
-72404,Getting Started with Thunderbird Pro,getting-started-thunderbird-pro,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro,en-US,"How to get started with Thunderbird Pro which currently includes: Thundermail, Send and Appointment.","<h1 id=""w_thunderbird-pro-brief-introduction"">Thunderbird Pro brief introduction</h1>
-<p>Thunderbird is a subscription based bundle of services that consists of:
+72404,Getting Started with Thunderbird Pro,getting-started-thunderbird-pro,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro,en-US,"How to get started with Thunderbird Pro, which currently includes Thundermail, Send, and Appointment.","<h1 id=""w_thunderbird-pro-brief-introduction"">Thunderbird Pro brief introduction</h1>
+<p>Thunderbird Pro is a subscription-based bundle of services that consists of:
 </p>
-<ul><li> Thundermail: an email service.
-</li><li> Appointment: a collaborative scheduling service.
-</li><li> Send: a secure way to send large files.
+<ul><li> Thundermail: An email service.
+</li><li> Appointment: A collaborative scheduling service.
+</li><li> Send: A secure way to send large files.
 </li></ul>
-<p>Check out our website: <a href=""https://tb.pro/tb.pro"">https://tb.pro/tb.pro</a> for all the details.
+<p>Check out our website for all the details: <a href=""https://tb.pro/"">https://tb.pro/</a> 
 </p>
-<div class=""note"">Please note: For the possible best experience, we recommend that you start with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari. Appointment, Send and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.</div>
+<div class=""note"">Please note: For the best possible experience, we recommend that you start with Thunderbird Desktop or a desktop browser like Firefox, Chrome, or Safari. Appointment, Send, and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.</div>
 <h1 id=""w_prepare-for-thunderbird-pro"">Prepare for Thunderbird Pro</h1>
 <ul><li> If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
 </li><li> If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to <a href=""/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop"">Install the Thunderbird Pro Add-on in Thunderbird Desktop</a>. 
-</li><li> Set up your Thunderbird Pro account. You must enter a payment choice, for example a credit card number.  If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please <a href=""https://support.tb.pro/hc/en-us/requests/new"">ask for support</a>. Currently, only credit cards are accepted. Apple Pay, Paypal and other 3rd party services are not yet supported. 
+</li><li> Set up your Thunderbird Pro account. You must enter a payment choice (for example, a credit card number). If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please <a href=""https://support.tb.pro/hc/en-us/requests/new"">ask for support</a>. Currently, only credit cards are accepted. Apple Pay, PayPal, and other 3rd party services are not yet supported. 
 </li></ul>
-<h1 id=""w_set-up-your-thunderbird-pro-apps-thundermail-send-and-appointment"">Set up your Thunderbird Pro apps: Thundermail, Send and Appointment</h1>
-<ul><li> For Thundermail on desktop - Configure Thunderbird for Desktop for Thundermail according to the article <a href=""/en-US/kb/thunderbird-desktop-and-thundermail"">Thunderbird for Desktop and Thundermail</a>.
-</li><li> For Thundermail on on mobile - Configure Thunderbird for Android for Thundermail according to the article: <a href=""/en-US/kb/thundermail-and-thunderbird-android"">Thundermail and Thunderbird for Android</a>.
+<h1 id=""w_set-up-your-thunderbird-pro-apps-thundermail-send-and-appointment"">Set up your Thunderbird Pro apps: Thundermail, Send, and Appointment</h1>
+<ul><li> For Thundermail Desktop - Configure the Thunderbird program for Thundermail according to this article: <a href=""/en-US/kb/thunderbird-desktop-and-thundermail"">Thunderbird for Desktop and Thundermail</a>.
+</li><li> For Thundermail on mobile - Configure the Thunderbird Android app for Thundermail according to the article: <a href=""/en-US/kb/thundermail-and-thunderbird-android"">Thundermail and Thunderbird for Android</a>.
 </li><li> For Appointment - Configure according to <a href=""https://support.tb.pro/hc/sections/43161318933907"">our Appointment articles</a>.
 </li><li> Configure Send as per <a href=""https://support.tb.pro/hc/sections/43937747865235"">our Send articles</a>.
 </li></ul>
 <h1 id=""w_lets-go"">Let's go!</h1>
-<p>Go forth! Set up some office hours with Appointment. Send some files with Send. Send and receive email with Thundermail using your Thundermail Address Book, <a href=""https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases"">Thundermail aliases</a> and <a href=""https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias"">Thundermail Catch-All addresses</a>. Use your Thundermail Calendar to setup events.
+<p>Go forth! Set up some office hours with Appointment. Transmit some files with Send. Deliver and receive email with Thundermail using your Thundermail Address Book, <a href=""https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases"">Thundermail aliases</a> and <a href=""https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias"">Thundermail catch-all addresses</a>. Use your Thundermail Calendar to setup events.
 </p>",thunderbird;thunderbird-android,accounts;email-and-messaging;installation-and-updates;settings,"# Thunderbird Pro brief introduction
 
-Thunderbird is a subscription based bundle of services that consists of:
+Thunderbird Pro is a subscription-based bundle of services that consists of:
 
-- Thundermail: an email service.
-- Appointment: a collaborative scheduling service.
-- Send: a secure way to send large files.
+- Thundermail: An email service.
+- Appointment: A collaborative scheduling service.
+- Send: A secure way to send large files.
 
-Check out our website: [https://tb.pro/tb.pro](https://tb.pro/tb.pro) for all the details.
+Check out our website for all the details: [https://tb.pro/](https://tb.pro/)
 
-Please note: For the possible best experience, we recommend that you start with Thunderbird Desktop or a Desktop browser like Firefox, Chrome, or Safari. Appointment, Send and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.
+Please note: For the best possible experience, we recommend that you start with Thunderbird Desktop or a desktop browser like Firefox, Chrome, or Safari. Appointment, Send, and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.
 
 # Prepare for Thunderbird Pro
 
 - If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
 - If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to [Install the Thunderbird Pro Add-on in Thunderbird Desktop](\""https://support.mozilla.org/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop""). 
-- Set up your Thunderbird Pro account. You must enter a payment choice, for example a credit card number. If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please [ask for support](https://support.tb.pro/hc/en-us/requests/new). Currently, only credit cards are accepted. Apple Pay, Paypal and other 3rd party services are not yet supported. 
+- Set up your Thunderbird Pro account. You must enter a payment choice (for example, a credit card number). If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please [ask for support](https://support.tb.pro/hc/en-us/requests/new). Currently, only credit cards are accepted. Apple Pay, PayPal, and other 3rd party services are not yet supported. 
 
-# Set up your Thunderbird Pro apps: Thundermail, Send and Appointment
+# Set up your Thunderbird Pro apps: Thundermail, Send, and Appointment
 
-- For Thundermail on desktop - Configure Thunderbird for Desktop for Thundermail according to the article [Thunderbird for Desktop and Thundermail](\""https://support.mozilla.org/en-US/kb/thunderbird-desktop-and-thundermail"").
-- For Thundermail on on mobile - Configure Thunderbird for Android for Thundermail according to the article: [Thundermail and Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android"").
+- For Thundermail Desktop - Configure the Thunderbird program for Thundermail according to this article: [Thunderbird for Desktop and Thundermail](\""https://support.mozilla.org/en-US/kb/thunderbird-desktop-and-thundermail"").
+- For Thundermail on mobile - Configure the Thunderbird Android app for Thundermail according to the article: [Thundermail and Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android"").
 - For Appointment - Configure according to [our Appointment articles](https://support.tb.pro/hc/sections/43161318933907).
 - Configure Send as per [our Send articles](https://support.tb.pro/hc/sections/43937747865235).
 
 # Let's go!
 
-Go forth! Set up some office hours with Appointment. Send some files with Send. Send and receive email with Thundermail using your Thundermail Address Book, [Thundermail aliases](https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases) and [Thundermail Catch-All addresses](https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias). Use your Thundermail Calendar to setup events.
+Go forth! Set up some office hours with Appointment. Transmit some files with Send. Deliver and receive email with Thundermail using your Thundermail Address Book, [Thundermail aliases](https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases) and [Thundermail catch-all addresses](https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias). Use your Thundermail Calendar to setup events.
 
 "
 72417,Harmful add-on protection,harmful-add-protection,https://support.mozilla.org/en-US/kb/harmful-add-protection,en-US,"If you have installed an add-on that triggers the opening of a known malicious website, Firefox will block it to protect you.","<p>When an add-on that you have installed triggers the opening of a website that has been reported as a deceptive site (sometimes called a “phishing” page) as a source of unwanted software or as an attack site designed to harm your computer, Firefox will clearly advise you that the site has been blocked for your safety.
@@ -125482,22 +125421,22 @@ If you disable sponsored content, no such information is recorded by Firefox or 
 </li><li>Tap <span class=""menu"">AI Controls</span>.
 <dl><dt><img alt=""aicontrolsios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-07-11-23-56-c1cbd3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
-</li><li>Turn off <span class=""menu"">AI features</span> or <span class=""menu"">Page Summaries</span>.
+</li><li>Turn on <span class=""menu"">Block AI Enhancements</span>.
 <dl><dt><img alt=""aicontrolsios2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-07-11-27-46-b6ad6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
 </li></ol>
-<p>When disabled:
+<p>When blocked:
 </p>
 <ol><li>AI features will not appear in Firefox.
 </li><li>You won’t see prompts or suggestions related to AI features.
 </li></ol>
 <h1 id=""w_turn-off-specific-ai-features"">Turn off specific AI features</h1>
-<p>You can control individual features instead of turning everything off.
+<p>You can control individual features instead of blocking everything.
 </p>
 <ol><li>Open <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">Page summaries</span> or <span class=""menu"">AI Controls</span>.
+</li><li>Tap <span class=""menu"">Page summaries</span>, <span class=""menu"">Translation</span> or <span class=""menu"">AI Controls</span>.
 </li><li>Turn specific features on or off:
-<ul><li><span class=""menu"">Translations</span>
+<ul><li><span class=""menu"">Translation</span>
 </li><li><span class=""menu"">Page Summaries</span>
 </li></ul>
 <dl><dt><img alt=""aicontrolsios3"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-07-11-31-52-87d3db.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
@@ -125580,23 +125519,23 @@ You can turn off AI-powered features from Settings.
 4. Tap AI Controls.<dl><dt>
 <img alt=""aicontrolsios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-07-11-23-56-c1cbd3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
-5. Turn off AI features or Page Summaries.<dl><dt>
+5. Turn on Block AI Enhancements.<dl><dt>
 <img alt=""aicontrolsios2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-07-11-27-46-b6ad6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
 
-When disabled:
+When blocked:
 
 1. AI features will not appear in Firefox.
 2. You won’t see prompts or suggestions related to AI features.
 
 # Turn off specific AI features
 
-You can control individual features instead of turning everything off.
+You can control individual features instead of blocking everything.
 
 1. Open Settings.
-2. Tap Page summaries or AI Controls.
+2. Tap Page summaries, Translation or AI Controls.
 3. Turn specific features on or off:
-  - Translations
+  - Translation
   - Page Summaries
 
 <dl><dt>
@@ -128930,7 +128869,7 @@ Try:
 </li><li>The lock screen
 </li><li>The iPhone Action Button (supported devices only)
 </li></ul>
-<div class=""note""><strong>Note</strong>: Your iPhone must be unlocked before VPN status can change.</div>
+<div class=""note""><strong>Note:</strong> Your iPhone must be unlocked before VPN status can change.</div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-mozilla-vpn-to-control-center""><span class=""tocnumber"">1</span> <span class=""toctext"">Add Mozilla VPN to Control Center</span></a></li><li class=""toclevel-1""><a href=""#w_add-mozilla-vpn-to-the-lock-screen""><span class=""tocnumber"">2</span> <span class=""toctext"">Add Mozilla VPN to the lock screen</span></a></li><li class=""toclevel-1""><a href=""#w_use-mozilla-vpn-with-the-action-button""><span class=""tocnumber"">3</span> <span class=""toctext"">Use Mozilla VPN with the Action Button</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
 <h1 id=""w_add-mozilla-vpn-to-control-center"">Add Mozilla VPN to Control Center</h1>
 <ol><li>Open <span class=""menu"">Settings</span> on your iPhone or iPad.
@@ -128942,7 +128881,7 @@ Try:
 <p>OR
 </p>
 <ol><li>Long-press an open spot on your iPhone/iPad.
-</li><li>The <strong>Control Center</strong> will open
+</li><li>The <strong>Control Center</strong> will open.
 </li><li>Add the <strong>Mozilla VPN</strong> control.
 </li><li>Tap the <strong>Mozilla VPN</strong> button to turn VPN on or off.
 </li></ol>
@@ -128955,7 +128894,7 @@ Try:
 </li><li>Select a control slot.
 </li><li>Choose <strong>Mozilla VPN</strong>.
 </li></ol>
-<div class=""note""><strong>Note</strong>: VPN can only be toggled after unlocking your iPhone. </div>
+<div class=""note""><strong>Note:</strong> VPN can only be toggled after unlocking your iPhone.</div>
 <dl><dt><img alt=""opencenter2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-19-13-43-21-31dc7d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
 <h1 id=""w_use-mozilla-vpn-with-the-action-button"">Use Mozilla VPN with the Action Button</h1>
@@ -128978,7 +128917,7 @@ You can use:
 - The lock screen
 - The iPhone Action Button (supported devices only)
 
-**Note** : Your iPhone must be unlocked before VPN status can change.
+**Note:** Your iPhone must be unlocked before VPN status can change.
 
 ## Table of Contents
 
@@ -128998,7 +128937,7 @@ You can use:
 OR
 
 1. Long-press an open spot on your iPhone/iPad.
-2. The **Control Center** will open
+2. The **Control Center** will open.
 3. Add the **Mozilla VPN** control.
 4. Tap the **Mozilla VPN** button to turn VPN on or off.
 
@@ -129013,7 +128952,7 @@ You can add Mozilla VPN as a lock screen control.
 2. Select a control slot.
 3. Choose **Mozilla VPN**.
 
-**Note** : VPN can only be toggled after unlocking your iPhone. 
+**Note:** VPN can only be toggled after unlocking your iPhone.
 <dl><dt>
 <img alt=""opencenter2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-05-19-13-43-21-31dc7d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </dt></dl>
@@ -129035,7 +128974,7 @@ You can then quickly turn VPN on or off using the Action Button.
 "
 73782,Unable to find the built-in VPN in Firefox,unable-find-built-vpn-firefox,https://support.mozilla.org/en-US/kb/unable-find-built-vpn-firefox,en-US,Some useful pointers if you are unable to access the built-in VPN in Firefox.,"<div class=""note"">
 <p><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+</p><p>The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 </p>
 </div>
 <p>If you are in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this is part of an experimental study being rolled out in stages. This means the experiment may not have reached you yet.
@@ -129046,8 +128985,10 @@ The built-in VPN is being introduced to the Firefox user base in stages, through
 </li><li> Signing out of your Mozilla account and signing back in may also help. Before signing out, make sure you know your password and that Sync is enabled so you don’t risk losing or overwriting browser data.
 </li></ul>
 <p>Finally, when the built-in VPN is available, you should see a <span class=""button"">VPN</span> in the top-right corner of the toolbar. Selecting it will open a prompt to turn on the VPN. If you don’t see the icon, try customizing your toolbar by right-clicking the toolbar and checking the overflow menu to add it back. 
-</p><p>For more information, see the <a href=""/en-US/kb/built-in-vpn"">Use built-in VPN in Firefox</a> article.
-</p>",firefox,privacy-and-security;security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+</p><p>For more information, see <a href=""/en-US/kb/built-in-vpn"">Use built-in VPN in Firefox</a>.
+</p>",firefox,privacy-and-security;security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
 
 If you are in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this is part of an experimental study being rolled out in stages. This means the experiment may not have reached you yet.
 
@@ -129059,7 +129000,7 @@ You can try the following steps to check what may be preventing you from getting
 
 Finally, when the built-in VPN is available, you should see a VPN in the top-right corner of the toolbar. Selecting it will open a prompt to turn on the VPN. If you don’t see the icon, try customizing your toolbar by right-clicking the toolbar and checking the overflow menu to add it back.
 
-For more information, see the [Use built-in VPN in Firefox](\""https://support.mozilla.org/en-US/kb/built-in-vpn"") article.
+For more information, see [Use built-in VPN in Firefox](\""https://support.mozilla.org/en-US/kb/built-in-vpn"").
 
 "
 719,What to do when searches take you to the wrong search website,searches-take-you-to-wrong-search-website,https://support.mozilla.org/en-US/kb/searches-take-you-to-wrong-search-website,en-US,"Firefox searches going to the wrong website can be caused by your Internet provider, an add-on, toolbar or malware. Learn how to fix this.","<p>This article describes what to do when searches from Firefox don't go to the expected site(s).  For example, Google searches may redirect to a page with a lot of advertising or using a different search engine.
