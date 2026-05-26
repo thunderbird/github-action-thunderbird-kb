@@ -47664,307 +47664,6 @@ The link will open in a new tab in Firefox for Android.
 7. Tap the Save button. The search engine is added to the predefined list of search engines in alphabetical order.
 
 "
-26720,Practice article for SUMO localizers (localize this),practice-article-localize-this,https://support.mozilla.org/en-US/kb/practice-article-localize-this,en-US,This article is meant for new localizers to practice how different elements of a KB page work during localization. (localize this),"<p>
-</p><p>
-</p><p>
-Welcome to the practice l10n article for SUMO! Here you can see how the elements in Knowledge Base articles in SUMO work together to allow for many combinations of content on one page. It can look quite complex at first, so pay attention - but it's also a very easy to use and powerful tool!
-</p><p>This article can be localized by anyone with a SUMO account, and the localized version should be deleted after the localizer feels confident with working in the KB, to make it possible for new contributors to practice.
-</p><p>To get started with the practice, please click the ""Translate article"" link on the side. Things will look a bit differently, but you will see instructions in the ""Content"" field, so don't worry!
-</p><p>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_lets-get-practicing""><span class=""tocnumber"">1</span> <span class=""toctext"">Let's get practicing!</span></a><ul><li class=""toclevel-2""><a href=""#w_first-lets-take-a-look-at-basic-formatting""><span class=""tocnumber"">1.1</span> <span class=""toctext"">First, let's take a look at basic formatting</span></a></li><li class=""toclevel-2""><a href=""#w_now-lets-practice-for-statements""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Now, let's practice for statements</span></a><ul><li class=""toclevel-3""><a href=""#w_where-do-i-find-more-help""><span class=""tocnumber"">1.2.1</span> <span class=""toctext"">Where do I find more help?</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_what-about-templates""><span class=""tocnumber"">1.3</span> <span class=""toctext"">What about Templates?</span></a><ul><li class=""toclevel-3""><a href=""#w_i-want-to-know-more-about-templates""><span class=""tocnumber"">1.3.1</span> <span class=""toctext"">I want to know more about Templates!</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_ok-i-get-all-the-formatting-what-to-do-next""><span class=""tocnumber"">2</span> <span class=""toctext"">OK, I get all the formatting, what to do next?</span></a></li></ul></div>
-<p>
-</p>
-<h1 id=""w_lets-get-practicing"">Let's get practicing!</h1>
-<p>
-</p>
-<h2 id=""w_first-lets-take-a-look-at-basic-formatting"">First, let's take a look at basic formatting</h2>
-<p>
-This text should be normal.<br>
-<strong>This text should be bold.</strong><br>
-<em>This text should be italicized.</em><br>
-<em><strong>This text should be bold AND italicized.</strong></em><br>
-
-</p>
-<ul><li> This should be a bullet point for the top list.
-<ul><li> This should be a sub-bullet point.
-<ul><li> This should be a sub-sub-bullet point.
-</li></ul>
-</li></ul>
-</li><li> This should be another bullet point for the top list.
-</li></ul>
-<ol><li> This should be a numbered list element for the top list.
-<ol><li> This should be a numbered list sub-element.
-</li><li> This should be the next numbered list sub-element.
-<ol><li> This should be a numbered list sub-sub-element.
-</li><li> This should be the next numbered list sub-sub-element.
-</li></ol>
-</li></ol>
-</li><li> This should be the next numbered list element for the top list.
-</li></ol>
-<p>
-</p>
-<div class=""note"">This should be a note. You should localize everything between the starting and ending element of this note, but not the starting/ending element!</div>
-<div class=""warning"">This should be a more visible note, that we like to call a ""warning"". You should localize everything between the starting and ending element of this warning, but not the starting/ending element!</div>
-<p>Very often, an article will contain references to the user interface of the software it describes. We use a bunch of different formatting options for that, too!<br>
-
-<span class=""button"">This is a button highlight</span>, and <span class=""menu"">This should be a menu option highlight</span>.
-</p>
-<h2 id=""w_now-lets-practice-for-statements"">Now, let's practice <em>for</em> statements</h2>
-<p>
-You can find all the information on how to use <em>for</em> statements (including very intricate combinations ;D) when you read <a href=""/en-US/kb/how-to-use-for"">How to use ""For"" tags</a>. 
-</p><p> 
-<span class=""for"" data-for=""not fx30"">This will not appear for Firefox version 30.</span>
-<span class=""for"" data-for=""fx38"">This will appear only for Firefox version 38.</span>
-</p><p><span class=""for"" data-for=""linux"">This will appear only for Linux.
-
-<img alt=""linux logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-02-07-11-56-15-e206a5.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</span></p><p><span class=""for"" data-for=""win"">This will appear only for Windows.
-
-<img alt=""Windows"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-10-29-10-20-44-0f4137.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p><span class=""for"" data-for=""mac"">This will appear only for Mac OS.
-
-<img alt=""macos logo"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-02-07-11-56-41-43b9d8.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</p><p>
-</p>
-<h3 id=""w_where-do-i-find-more-help"">Where do I find more help?</h3>
-<p>
-To learn how to upload and use images in the KB, read the information in <a href=""https://support.mozilla.org/kb/adding-screenshots"">this article</a>.
-</p>
-<h2 id=""w_what-about-templates"">What about Templates?</h2>
-<div class=""warning"">Warning, incoming template!</div>
-<p>
-Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</p>
-<h3 id=""w_i-want-to-know-more-about-templates"">I want to know more about Templates!</h3>
-<p>
-If you want to learn more about templates, please read <a href=""/en-US/kb/using-templates"">Using Templates</a>.
-</p>
-<h1 id=""w_ok-i-get-all-the-formatting-what-to-do-next"">OK, I get all the formatting, what to do next?</h1>
-<ol><li> Make sure you read the rest of the l10n documentation: <a href=""/en-US/kb/translating-an-article"">Translating an article</a>.
-</li><li> Get in touch with other localizers in your language! <a href=""https://support.mozilla.org/en-US/forums/l10n-forum/711081"">you can find the languages here</a>.
-</li><li> Ready to start localizing? Great! <a href=""https://support.mozilla.org/localization"">Head over to your dashboard</a> and get cracking :-)
-</li><li> Remember, that if you have problems or questions, you can  <a href=""/forums/l10n-forum/"">head over to our forums and ask there!</a>
-</li></ol>",contributor,l10n,"Welcome to the practice l10n article for SUMO! Here you can see how the elements in Knowledge Base articles in SUMO work together to allow for many combinations of content on one page. It can look quite complex at first, so pay attention - but it's also a very easy to use and powerful tool!
-
-This article can be localized by anyone with a SUMO account, and the localized version should be deleted after the localizer feels confident with working in the KB, to make it possible for new contributors to practice.
-
-To get started with the practice, please click the ""Translate article"" link on the side. Things will look a bit differently, but you will see instructions in the ""Content"" field, so don't worry!
-
-## Table of Contents
-
-- [1 Let's get practicing!](https://support.mozilla.org/kb/practice-article-localize-this#w_lets-get-practicing)
-  - [1.1 First, let's take a look at basic formatting](https://support.mozilla.org/kb/practice-article-localize-this#w_first-lets-take-a-look-at-basic-formatting)
-  - [1.2 Now, let's practice for statements](https://support.mozilla.org/kb/practice-article-localize-this#w_now-lets-practice-for-statements)
-    - [1.2.1 Where do I find more help?](https://support.mozilla.org/kb/practice-article-localize-this#w_where-do-i-find-more-help)
-
-  - [1.3 What about Templates?](https://support.mozilla.org/kb/practice-article-localize-this#w_what-about-templates)
-    - [1.3.1 I want to know more about Templates!](https://support.mozilla.org/kb/practice-article-localize-this#w_i-want-to-know-more-about-templates)
-
-- [2 OK, I get all the formatting, what to do next?](https://support.mozilla.org/kb/practice-article-localize-this#w_ok-i-get-all-the-formatting-what-to-do-next)
-
-# Let's get practicing!
-
-## First, let's take a look at basic formatting
-
-This text should be normal.  
-**This text should be bold.**  
-_This text should be italicized._  
-_ **This text should be bold AND italicized.** _
-
-- This should be a bullet point&nbsp;for the top list.
-  - This should be a sub-bullet point.
-    - This should be a sub-sub-bullet point.
-
-- This should be another bullet point for the top list.
-
-1. This should be a numbered list element for the top list.
-  1. This should be a numbered list sub-element.
-  2. This should be the next numbered list sub-element.
-    1. This should be a numbered list sub-sub-element.
-    2. This should be the next numbered list sub-sub-element.
-
-2. This should be the next numbered list element for the top list.
-
-This should be a note. You should localize everything between the starting and ending element of this note, but not the starting/ending element!
-
-This should be a more visible note, that we like to call a ""warning"". You should localize everything between the starting and ending element of this warning, but not the starting/ending element!
-
-Very often, an article will contain references to the user interface of the software it describes. We use a bunch of different formatting options for that, too!  
-This is a button highlight, and This should be a menu option highlight.
-
-## Now, let's practice _for_ statements
-
-You can find all the information on how to use _for_ statements (including very intricate combinations&nbsp;;D) when you read [How to use ""For"" tags](\""https://support.mozilla.org/en-US/kb/how-to-use-for"").
-
-This will not appear for Firefox version 30.This will appear only for Firefox version 38.
-
-This will appear only for Linux. ![linux logo](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-This will appear only for Windows. ![Windows](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-This will appear only for Mac OS. ![macos logo](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-### Where do I find more help?
-
-To learn how to upload and use images in the KB, read the information in [this article](https://support.mozilla.org/kb/adding-screenshots).
-
-## What about Templates?
-
-Warning, incoming template!
-
-Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-
-### I want to know more about Templates!
-
-If you want to learn more about templates, please read [Using Templates](\""https://support.mozilla.org/en-US/kb/using-templates"").
-
-# OK, I get all the formatting, what to do next?
-
-1. Make sure you read the rest of the l10n documentation: [Translating an article](\""https://support.mozilla.org/en-US/kb/translating-an-article"").
-2. Get in touch with other localizers in your language! [you can find the languages here](https://support.mozilla.org/en-US/forums/l10n-forum/711081).
-3. Ready to start localizing? Great! [Head over to your dashboard](https://support.mozilla.org/localization) and get cracking&nbsp;:-)
-4. Remember, that if you have problems or questions, you can [head over to our forums and ask there!](\""https://support.mozilla.org/forums/l10n-forum/"")
-
-"
-26742,Installing an Add-on in Thunderbird,installing-addon-thunderbird,https://support.mozilla.org/en-US/kb/installing-addon-thunderbird,en-US,Add-ons add functionality to Thunderbird or change its appearance. Learn how to install add-ons to Thunderbird.,"<p><a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions"">Add-ons</a> are little apps that add new functionality to Thunderbird (extensions) or change its appearance (themes). This article shows you how to install an add-on to your Thunderbird.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_the-ideal-case""><span class=""tocnumber"">1</span> <span class=""toctext"">The ideal case</span></a></li><li class=""toclevel-1""><a href=""#w_a-slightly-less-ideal-case-install-from-a-downloaded-xpi-file""><span class=""tocnumber"">2</span> <span class=""toctext"">A slightly less ideal case (Install from a downloaded XPI file)</span></a><ul><li class=""toclevel-2""><a href=""#w_download""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Download</span></a></li><li class=""toclevel-2""><a href=""#w_drag-and-drop""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Drag-and-drop</span></a></li></ul></li></ul></div>
-<h1 id=""w_the-ideal-case"">The ideal case</h1>
-<p>In an ideal world, all the add-ons you would want are officially vetted, approved, and can be found on the official website, <a href=""https://addons.thunderbird.net/"">addons.thunderbird.net</a>.
-</p><p>For add-ons that fall into this category, you can simply go to the Add-ons Manager tab in Thunderbird by clicking the menu button <img alt=""Fx57Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-37-15-18c775.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> followed by <span class=""menu"">Add-ons</span> and click on the <span class=""menu"">Extensions</span> panel on the left to display the search box in the top-right corner. Enter the add-on's name or enough of it to limit the search results returned to a manageable number and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span> or click the magnifying glass icon. 
-</p><p>Once you have done your first search, a new <span class=""menu"">Search</span> category appears in the panel on the left. You can keep refining your search until you find what you want.
-</p><p>Here is a search for add-ons that mention ""Contacts"":
-</p><p><img alt=""Addon tab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-02-14-23-12-38-72ba8c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Once you locate an add-on you like, click on <span class=""button"">Install</span>, wait for it to be downloaded, then click on <em>Restart now</em> if prompted.
-</p>
-<h1 id=""w_a-slightly-less-ideal-case-install-from-a-downloaded-xpi-file"">A slightly less ideal case (Install from a downloaded XPI file)</h1>
-<p>You may have been given an URL for the add-on, or the add-on you want isn't on the ""official"" page. Searching for it, as shown above, doesn't locate the add-on.
-</p><p>Visit the webpage in your browser, right-click the download link with your mouse, select <span class=""menu"">Save Link As…</span> and save the XPI file to a location on your computer that is easy to remember. As the download is temporary, it is suggested you use either your Downloads folder or your desktop.
-</p>
-<div class=""warning"">If you are using older versions of Firefox, a left-click on the download link will cause the browser to try and install the add-on into Firefox itself. This invariably results in an error about compatibility, as the add-on is designed for Thunderbird. 
-If you're using another browser, a left-click might result in your browser attempting to download and ""open"" the XPI file. This is basically a small program, so it is not meant to be opened. It has to be saved to disk.</div>
-<p>To install a downloaded XPI file into Thunderbird, you have two options.
-</p>
-<h2 id=""w_download"">Download</h2>
-<p>Right-click the link and select <span class=""menu"">Save As…</span> or <span class=""menu"">Save Link As…</span> as described earlier.
-</p><p>You will be invited to download and save the file. Most browsers have a default download location. Make a note of where it downloads to, and what it's called. Some add-on files may have silly names like ""latest-234.xpi"", which is not very helpful when you're trying to find it later on.
-</p><p>Open the Add-ons Manager tab in Thunderbird. There's a button to the left of the search box. <span class=""for"" data-for=""win""><img alt=""CogWheel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-02-15-14-11-10-fd9dfb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""CogWheelLinux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-02-15-14-15-31-a71011.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> Click this and select <span class=""menu"">Install Add-on From File…</span> from the subsequent menu.  
-</p><p><img alt=""MenuUnderCogWheel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-02-15-14-21-53-ebfa4b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>You will need to navigate to where you saved the XPI file using the file picker and select it to complete the install.
-</p>
-<h2 id=""w_drag-and-drop"">Drag-and-drop</h2>
-<ul><li> Open the add-ons manager (click the menu button <img alt=""Fx57Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-22-15-37-15-18c775.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then <span class=""menu"">Add-ons</span>).
-</li><li> Drag your downloaded XPI file to the Add-ons Manager tab and drop it.
-</li></ul>
-<div class=""for"" data-for=""win""><p>If you are using Windows, you can even skip the desktop bit. Open your browser and Thunderbird side by side, with Thunderbird's Add-ons Manager tab displayed. Drag the link directly from the browser onto Thunderbird's Add-ons Manager tab. The main advantage of this method is that you don't need to actually save a copy of the add-on to your hard disk before it is installed.
-</p></div>",thunderbird,add-ons-extensions-and-themes;install;installation-and-updates;settings,"[Add-ons](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions"") are little apps that add new functionality to Thunderbird (extensions) or change its appearance (themes). This article shows you how to install an add-on to your Thunderbird.
-
-## Table of Contents
-
-- [1 The ideal case](https://support.mozilla.org/kb/installing-addon-thunderbird#w_the-ideal-case)
-- [2 A slightly less ideal case (Install from a downloaded XPI file)](https://support.mozilla.org/kb/installing-addon-thunderbird#w_a-slightly-less-ideal-case-install-from-a-downloaded-xpi-file)
-  - [2.1 Download](https://support.mozilla.org/kb/installing-addon-thunderbird#w_download)
-  - [2.2 Drag-and-drop](https://support.mozilla.org/kb/installing-addon-thunderbird#w_drag-and-drop)
-
-# The ideal case
-
-In an ideal world, all the add-ons you would want are officially vetted, approved, and can be found on the official website, [addons.thunderbird.net](https://addons.thunderbird.net/).
-
-For add-ons that fall into this category, you can simply go to the Add-ons Manager tab in Thunderbird by clicking the menu button ![Fx57Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) followed by Add-ons and click on the Extensions panel on the left to display the search box in the top-right corner. Enter the add-on's name or enough of it to limit the search results returned to a manageable number and press EnterReturn or click the magnifying glass icon.
-
-Once you have done your first search, a new Search category appears in the panel on the left. You can keep refining your search until you find what you want.
-
-Here is a search for add-ons that mention ""Contacts"":
-
-![Addon tab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Once you locate an add-on you like, click on Install, wait for it to be downloaded, then click on _Restart now_ if prompted.
-
-# A slightly less ideal case (Install from a downloaded XPI file)
-
-You may have been given an URL for the add-on, or the add-on you want isn't on the ""official"" page. Searching for it, as shown above, doesn't locate the add-on.
-
-Visit the webpage in your browser, right-click the download link with your mouse, select Save Link As… and save the XPI file to a location on your computer that is easy to remember. As the download is temporary, it is suggested you use either your Downloads folder or your desktop.
-
-If you are using older versions of Firefox, a left-click on the download link will cause the browser to try and install the add-on into Firefox itself. This invariably results in an error about compatibility, as the add-on is designed for Thunderbird. If you're using another browser, a left-click might result in your browser attempting to download and ""open"" the XPI file. This is basically a small program, so it is not meant to be opened. It has to be saved to disk.
-
-To install a downloaded XPI file into Thunderbird, you have two options.
-
-## Download
-
-Right-click the link and select Save As… or Save Link As… as described earlier.
-
-You will be invited to download and save the file. Most browsers have a default download location. Make a note of where it downloads to, and what it's called. Some add-on files may have silly names like ""latest-234.xpi"", which is not very helpful when you're trying to find it later on.
-
-Open the Add-ons Manager tab in Thunderbird. There's a button to the left of the search box. ![CogWheel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![CogWheelLinux](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Click this and select Install Add-on From File… from the subsequent menu.
-
-![MenuUnderCogWheel](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-You will need to navigate to where you saved the XPI file using the file picker and select it to complete the install.
-
-## Drag-and-drop
-
-- Open the add-ons manager (click the menu button ![Fx57Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then Add-ons).
-- Drag your downloaded XPI file to the Add-ons Manager tab and drop it.
-
-If you are using Windows, you can even skip the desktop bit. Open your browser and Thunderbird side by side, with Thunderbird's Add-ons Manager tab displayed. Drag the link directly from the browser onto Thunderbird's Add-ons Manager tab. The main advantage of this method is that you don't need to actually save a copy of the add-on to your hard disk before it is installed.
-
-"
-27077,Maildir in Thunderbird,maildir-thunderbird,https://support.mozilla.org/en-US/kb/maildir-thunderbird,en-US,"Optional support for Maildir allows you to store email as individual files, unlike the default single file format. Learn about Maildir in Thunderbird.","<p>Optional support for <a href=""https://en.wikipedia.org/wiki/Maildir"">Maildir</a> allows a single unique file per email  (using the <a href=""https://www.loc.gov/preservation/digital/formats/fdd/fdd000388.shtml"">EML</a> data format), unlike the default monolithic single file format of one file per folder known as <a href=""https://en.wikipedia.org/wiki/Mbox"">mbox</a>. <strong>Note – this is NOT full Maildir in the sense that most users, particularly Linux or mail administrators, know Maildir. You cannot point Thunderbird accounts to a mail server directory, nor do you get message flags stored with emails.</strong> See the <a href=""https://wiki.mozilla.org/Thunderbird/Maildir"">wiki</a> for more details.
-</p><p>Maildir is disabled by default because there are <u><a href=""http://mzl.la/1HTGlUw"">still many bugs</a></u>. It is not 100% ready for users. 
-</p>
-<div class=""warning""><strong>Warning:</strong> We suggest you leave Maildir disabled unless you are an advanced user, willing to risk your data, and know how to back up your email before turning on Maildir and how to restore it if you run into problems.</div>
-<p>The remainder of this article explains the format change and how to test Maildir.
-</p><p>Maildir is a major change for Thunderbird because it changes the mail storage mechanism.  The single file per email storage format has significant benefits:
-</p>
-<ul><li> Backups are easier and shorter because the amount of data to be backed up is reduced to only emails that have changed since the last backup.
-</li><li> It is easier for anti-virus to scan emails in individual files, and infected mails can be removed without the loss of all the other mail in the folder, as often occurs today with anti-virus software which cannot handle multiple emails in one file.
-</li></ul>
-<h1 id=""w_how-to-turn-on-maildir"">How to turn on Maildir</h1>
-<div class=""warning""><strong>Warning:</strong> Again, this feature is experimental and we recommend that you know how to file bugs and how to back up and restore your email before turning on Maildir.</div>
-<p>To turn on Maildir:
-</p>
-<ol><li> Back up your email.
-</li><li> <span class=""for"" data-for=""mac"">In the menu bar, click the <span class=""menu"">Thunderbird</span> menu and select <span class=""menu"">Settings</span>.</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and choose <span class=""menu"">Settings</span>.</span>
-
-</li><li> In the <span class=""menu"">General</span> tab, next to <strong>Message Store Type for new accounts</strong>, select <span class=""button"">File per message (maildir)</span>.
-</li></ol>
-<p>Any email account created from now on will use Maildir. Existing accounts will continue to use mbox. If you want to use mbox again for new accounts, just reset the config variable.
-</p><p>To change an existing account to use maildir, see <a href=""https://www.wilderssecurity.com/threads/thunderbird-from-mbox-to-maildir.389599/"">this blog post</a>.
-</p><p><strong>Please <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird"">file a bug</a> if you encounter any Maildir issues.</strong>  See also <a href=""http://mzl.la/1HTGlUw"">already filed bug reports</a>.
-</p>",thunderbird,email-and-messaging;settings,"Optional support for [Maildir](https://en.wikipedia.org/wiki/Maildir) allows a single unique file per email (using the [EML](https://www.loc.gov/preservation/digital/formats/fdd/fdd000388.shtml) data format), unlike the default monolithic single file format of one file per folder known as [mbox](https://en.wikipedia.org/wiki/Mbox). **Note – this is NOT full Maildir in the sense that most users, particularly Linux or mail administrators, know Maildir. You cannot point Thunderbird accounts to a mail server directory, nor do you get message flags stored with emails.** See the [wiki](https://wiki.mozilla.org/Thunderbird/Maildir) for more details.
-
-Maildir is disabled by default because there are <u><a href=""http://mzl.la/1HTGlUw"">still many bugs</a></u>. It is not 100% ready for users.
-
-**Warning:** We suggest you leave Maildir disabled unless you are an advanced user, willing to risk your data, and know how to back up your email before turning on Maildir and how to restore it if you run into problems.
-
-The remainder of this article explains the format change and how to test Maildir.
-
-Maildir is a major change for Thunderbird because it changes the mail storage mechanism. The single file per email storage format has significant benefits:
-
-- Backups are easier and shorter because the amount of data to be backed up is reduced to only emails that have changed since the last backup.
-- It is easier for anti-virus to scan emails in individual files, and infected mails can be removed without the loss of all the other mail in the folder, as often occurs today with anti-virus software which cannot handle multiple emails in one file.
-
-# How to turn on Maildir
-
-**Warning:** Again, this feature is experimental and we recommend that you know how to file bugs and how to back up and restore your email before turning on Maildir.
-
-To turn on Maildir:
-
-1. Back up your email.
-2. In the menu bar, click the Thunderbird menu and select Settings.Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and choose Settings.
-3. In the General tab, next to **Message Store Type for new accounts** , select File per message (maildir).
-
-Any email account created from now on will use Maildir. Existing accounts will continue to use mbox. If you want to use mbox again for new accounts, just reset the config variable.
-
-To change an existing account to use maildir, see [this blog post](https://www.wilderssecurity.com/threads/thunderbird-from-mbox-to-maildir.389599/).
-
-**Please [file a bug](https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird) if you encounter any Maildir issues.** See also [already filed bug reports](http://mzl.la/1HTGlUw).
-
-"
 27154,Avoid and report Mozilla tech support scams,avoid-and-report-mozilla-tech-support-scams,https://support.mozilla.org/en-US/kb/avoid-and-report-mozilla-tech-support-scams,en-US,"Mozilla does not provide telephone support and does not charge for software downloads, upgrades or technical help. Learn more.","<p>Mozilla does not provide telephone support, does not charge for downloads, upgrades or technical support and does not endorse any company that does. Companies that ask for payment or personal information for installing, updating or providing support for Firefox or Thunderbird are not affiliated with Mozilla and should be avoided.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_common-technical-support-scams""><span class=""tocnumber"">1</span> <span class=""toctext"">Common technical support scams</span></a></li><li class=""toclevel-1""><a href=""#w_protect-yourself-from-scams""><span class=""tocnumber"">2</span> <span class=""toctext"">Protect yourself from scams</span></a></li><li class=""toclevel-1""><a href=""#w_report-trademark-violations""><span class=""tocnumber"">3</span> <span class=""toctext"">Report trademark violations</span></a></li></ul></div>
@@ -53166,9 +52865,11 @@ We hope you enjoy this new version. Thank you for using Firefox and supporting M
 
 "
 32020,Minor vs major changes,major-vs-minor,https://support.mozilla.org/en-US/kb/major-vs-minor,en-US,Learn the difference between minor vs major KB changes,"<p>Before making any edits, it's important to understand that we treat content workflow differently based on the significance of the changes. 
-</p><p>All new articles and major changes to support articles need to be accompanied by a content request via Bugzilla, while minor changes can be submitted directly in the article without content request. 
+</p><p>All new articles and major changes to support articles need to be accompanied by a content request via Bugzilla (see <a href=""/en-US/kb/submit-sumo-knowledge-base-content-request"">How to submit a SUMO Knowledge Base content request</a>), while minor changes can be submitted directly in the article without content request. 
 </p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-qualifies-as-minor-changes""><span class=""tocnumber"">1</span> <span class=""toctext"">What qualifies as minor changes</span></a></li><li class=""toclevel-1""><a href=""#w_what-qualifies-as-major-changes""><span class=""tocnumber"">2</span> <span class=""toctext"">What qualifies as major changes</span></a></li></ul></div>
 <h1 id=""w_what-qualifies-as-minor-changes"">What qualifies as minor changes</h1>
+<div class=""warning""><strong>Guiding principle:</strong> Minor updates are <strong>maintenance-level changes</strong> that do not substantially alter article guidance, troubleshooting direction, structure, or intent, and generally <strong>do not require product validation</strong> or broader coordination with product stakeholders.</div>
 <p>Here are what we consider to be minor changes: 
 </p>
 <ul><li> Fixing small typos
@@ -53177,38 +52878,50 @@ We hope you enjoy this new version. Thank you for using Firefox and supporting M
 </li><li> Fixing wiki markup formatting (headings, bullets, numbering, spacing, indentation)
 </li><li> Updating small factual details (for example: version numbers, button or menu labels) without rewriting sections
 </li><li> Updating sections and replacing them with existing templates without changing the original context
-</li><li> Removing content and markup related to Firefox versions that are no longer supported
-</li><li> Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility
+</li><li> Correcting outdated or unsupported content, including maintenance updates such as adding or removing version tags, without substantial change to the underlying guidance
+</li><li> Removing content and markup related to product versions that are no longer supported
+</li><li> Improving readability or clarity through small instructional refinements, simplified wording, or incorporating visual cues for accessibility (for example: adding icons and menu references) without substantially changing guidance or article structure
 </li><li> Updating broken links, links to renamed KB articles or links with the same target content
 </li><li> Adjusting tone to meet Mozilla’s support content standards
-</li><li> Replacing outdated UI screenshots with updated versions (2 or less)
+</li><li> Replacing outdated UI screenshots with updated versions (up to 3 screenshots maximum)
 </li><li> Updating keywords
 </li><li> Adding or updating a search summary
 </li></ul>
-<div class=""warning""><strong>Note:</strong> We expect small changes to be submitted together in a single revision instead of multiple revisions.</div>
+<div class=""note""><strong>Note:</strong> We expect small changes to be submitted together in a single revision instead of multiple revisions.</div>
 <h1 id=""w_what-qualifies-as-major-changes"">What qualifies as major changes</h1>
-<p>Major changes to Knowledge Base (KB) support articles require <a href=""/en-US/kb/submit-sumo-knowledge-base-content-request"">a Bugzilla request</a> to begin the work and to be considered for the review and approval process. This helps us ensure accuracy, track changes properly, and prioritize review workflows.
+<div class=""warning""><strong>Guiding principle:</strong> Major updates are <strong>changes that substantially affect user guidance</strong>, article structure, localization impact, or <strong>require cross-functional coordination</strong> with internal or external stakeholders.</div>
+<p>Major changes to Knowledge Base (KB) support articles require <a href=""/en-US/kb/submit-sumo-knowledge-base-content-request"">a Bugzilla request</a> to facilitate coordination with product stakeholders, ensure content accuracy, track progress, and support cross-functional collaboration.
 </p><p>Below are changes we consider major: 
 </p>
-<ul><li> Incorporating changes or updates for release readiness
-</li><li> Correcting inaccurate or outdated content
-</li><li> Removing an existing section
-</li><li> Extensive rewriting (entire paragraphs or sections)
-</li><li> Substantial content additions (new instructions, FAQs or troubleshooting steps)
-</li><li> Large-scale formatting or structural changes (moving multiple sections, changing article flow)
-</li><li> Adding visuals for accessibility
-</li><li> Rewriting or renaming section headings
-</li><li> Changing the scope or intent of the article
-</li><li> Replacing outdated screenshots or adding new screenshots (more than 2)
-</li><li> Updating, adding, or removing screencasts, GIFs or videos
+<ul><li> <strong>Creating new article</strong>
+</li><li> <strong>Changes that require validation from product stakeholders or close coordination with them</strong>, including:
+<ul><li> Updates related to release readiness
+</li><li> Substantial content additions (such as new instructions, FAQs, or troubleshooting steps)
+</li><li> Replacing outdated screenshots or adding new screenshots beyond 3 images
 </li></ul>
-<div class=""warning""><strong>Note:</strong> To make the review process more manageable, major changes should be submitted as separate revisions. If submitted as a single large revision, your revision may be deferred and you’ll be asked to break it up and resubmit in smaller parts.</div>
+</li><li> <strong>Substantial changes affecting user guidance or article structure that require review by the Content team</strong>, including:
+<ul><li> Removing an existing section
+</li><li> Extensive rewriting of paragraphs or sections
+</li><li> Large-scale formatting or structural changes (such as reorganizing multiple sections or changing article flow)
+</li><li> Changing the scope or intent of the article
+</li><li> Updating, adding, or removing screencasts, GIFs, or videos
+</li><li> Rewriting or renaming section headings that may affect anchor links or article navigation
+</li></ul>
+</li></ul>
+<div class=""note""><strong>Note:</strong> To make the review process more manageable, major changes should be submitted as separate revisions. If submitted as a single large revision, your revision may be deferred and you’ll be asked to break it up and resubmit in smaller parts.</div>
 <p>To learn more about Knowledge Base contribution, please check out <a href=""/en-US/kb/how-contribute-knowledge-base"">How to contribute to the Knowledge Base</a>.
 </p>",contributor,kb;kb-process-policies,"Before making any edits, it's important to understand that we treat content workflow differently based on the significance of the changes.
 
-All new articles and major changes to support articles need to be accompanied by a content request via Bugzilla, while minor changes can be submitted directly in the article without content request.
+All new articles and major changes to support articles need to be accompanied by a content request via Bugzilla (see [How to submit a SUMO Knowledge Base content request](\""https://support.mozilla.org/en-US/kb/submit-sumo-knowledge-base-content-request"")), while minor changes can be submitted directly in the article without content request.
+
+## Table of Contents
+
+- [1 What qualifies as minor changes](https://support.mozilla.org/kb/major-vs-minor#w_what-qualifies-as-minor-changes)
+- [2 What qualifies as major changes](https://support.mozilla.org/kb/major-vs-minor#w_what-qualifies-as-major-changes)
 
 # What qualifies as minor changes
+
+**Guiding principle:** Minor updates are **maintenance-level changes** that do not substantially alter article guidance, troubleshooting direction, structure, or intent, and generally **do not require product validation** or broader coordination with product stakeholders.
 
 Here are what we consider to be minor changes:
 
@@ -53218,11 +52931,12 @@ Here are what we consider to be minor changes:
 - Fixing wiki markup formatting (headings, bullets, numbering, spacing, indentation)
 - Updating small factual details (for example: version numbers, button or menu labels) without rewriting sections
 - Updating sections and replacing them with existing templates without changing the original context
-- Removing content and markup related to Firefox versions that are no longer supported
-- Enhancing clarity and overall user experience by simplifying instructions, improving readability, or incorporating visual cues (for example: icons and menu references) for accessibility
+- Correcting outdated or unsupported content, including maintenance updates such as adding or removing version tags, without substantial change to the underlying guidance
+- Removing content and markup related to product versions that are no longer supported
+- Improving readability or clarity through small instructional refinements, simplified wording, or incorporating visual cues for accessibility (for example: adding icons and menu references) without substantially changing guidance or article structure
 - Updating broken links, links to renamed KB articles or links with the same target content
 - Adjusting tone to meet Mozilla’s support content standards
-- Replacing outdated UI screenshots with updated versions (2 or less)
+- Replacing outdated UI screenshots with updated versions (up to 3 screenshots maximum)
 - Updating keywords
 - Adding or updating a search summary
 
@@ -53230,21 +52944,25 @@ Here are what we consider to be minor changes:
 
 # What qualifies as major changes
 
-Major changes to Knowledge Base (KB) support articles require [a Bugzilla request](\""https://support.mozilla.org/en-US/kb/submit-sumo-knowledge-base-content-request"") to begin the work and to be considered for the review and approval process. This helps us ensure accuracy, track changes properly, and prioritize review workflows.
+**Guiding principle:** Major updates are **changes that substantially affect user guidance** , article structure, localization impact, or **require cross-functional coordination** with internal or external stakeholders.
+
+Major changes to Knowledge Base (KB) support articles require [a Bugzilla request](\""https://support.mozilla.org/en-US/kb/submit-sumo-knowledge-base-content-request"") to facilitate coordination with product stakeholders, ensure content accuracy, track progress, and support cross-functional collaboration.
 
 Below are changes we consider major:
 
-- Incorporating changes or updates for release readiness
-- Correcting inaccurate or outdated content
-- Removing an existing section
-- Extensive rewriting (entire paragraphs or sections)
-- Substantial content additions (new instructions, FAQs or troubleshooting steps)
-- Large-scale formatting or structural changes (moving multiple sections, changing article flow)
-- Adding visuals for accessibility
-- Rewriting or renaming section headings
-- Changing the scope or intent of the article
-- Replacing outdated screenshots or adding new screenshots (more than 2)
-- Updating, adding, or removing screencasts, GIFs or videos
+- **Creating new article**
+- **Changes that require validation from product stakeholders or close coordination with them** , including:
+  - Updates related to release readiness
+  - Substantial content additions (such as new instructions, FAQs, or troubleshooting steps)
+  - Replacing outdated screenshots or adding new screenshots beyond 3 images
+
+- **Substantial changes affecting user guidance or article structure that require review by the Content team** , including:
+  - Removing an existing section
+  - Extensive rewriting of paragraphs or sections
+  - Large-scale formatting or structural changes (such as reorganizing multiple sections or changing article flow)
+  - Changing the scope or intent of the article
+  - Updating, adding, or removing screencasts, GIFs, or videos
+  - Rewriting or renaming section headings that may affect anchor links or article navigation
 
 **Note:** To make the review process more manageable, major changes should be submitted as separate revisions. If submitted as a single large revision, your revision may be deferred and you’ll be asked to break it up and resubmit in smaller parts.
 
@@ -74653,190 +74371,6 @@ To copy all of your Thunderbird data and settings to another Thunderbird install
 If you have important information from an old Thunderbird profile, such as bookmarks, passwords or user preferences, you can transfer that information to a new Thunderbird profile by copying the associated files. For instructions, see [Restore bookmarks, passwords and data from an old Firefox profile](\""https://support.mozilla.org/en-US/kb/restore-bookmarks-passwords-and-data-from-an-old-firefox-profile""). You can also switch to a previous profile to recover old profile data. See [Recover user data missing after Firefox update or reinstall](\""https://support.mozilla.org/en-US/kb/recover-user-data-missing-after-firefox-update"") for details.
 
 "
-48619,File a bug report or feature request for Mozilla products,file-bug-report-or-feature-request-mozilla,https://support.mozilla.org/en-US/kb/file-bug-report-or-feature-request-mozilla,en-US,"Learn where to report a bug or file a feature request for Firefox, Thunderbird and other Mozilla products.","<p>In Mozilla Support (SUpport.MOzilla.org, a.k.a. SUMO), you can ask a support question or get help with product troubleshooting. However, to report a bug or defect, you should go to either <a href=""https://bugzilla.mozilla.org/"">Bugzilla</a> or <a href=""https://github.com/"">GitHub</a>. Alternatively, if you would like to request a new feature, submit feedback or discuss ideas that will help shape future product releases, you should go to <a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>.
-</p>
-<h2 id=""w_where-to-file-a-bug-report-or-request-a-feature"">Where to file a bug report or request a feature?</h2>
-<p>To understand about where you can submit bugs or feedback for each product, please see the table below: 
-</p>
-<table>
-<tbody><tr>
-<td><strong>Product name</strong>
-</td><td><strong>Bug report</strong>
-</td><td><strong>Feature request</strong>
-</td><td>
-</td></tr>
-<tr>
-<td>Firefox
-</td><td><a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox"">Bugzilla</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Firefox for Android
-</td><td><a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Fenix&amp;bug_type=defect"">Bugzilla</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Firefox for iOS
-</td><td><a href=""https://github.com/mozilla-mobile/firefox-ios/issues/new?assignees=&amp;labels=Bug+%F0%9F%90%9E&amp;template=---bug-report.md"">GitHub</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Firefox Focus
-</td><td><a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Focus&amp;component=General&amp;bug_type=defect"">Bugzilla</a> (Focus for Android)<br><a href=""https://github.com/mozilla-mobile/firefox-ios/issues/new/choose"">GitHub</a> (Focus for iOS)
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td>MDN Plus
-</td><td><a href=""https://github.com/mdn/MDN-feedback"">GitHub</a>
-</td><td><a href=""https://github.com/mdn/MDN-feedback"">GitHub</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Hubs
-</td><td><a href=""https://github.com/mozilla/hubs/issues/new?assignees=&amp;labels=bug%2C+needs+triage&amp;template=bug_report.md&amp;title="">GitHub</a>
-</td><td><a href=""https://github.com/mozilla/hubs/issues/new?assignees=&amp;labels=enhancement&amp;template=feature_request.md&amp;title="">GitHub</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Thunderbird
-</td><td><a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird"">Bugzilla</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td>Thunderbird for Android
-</td><td><a href=""https://github.com/thundernest/k-9/issues/new/choose"">GitHub</a>
-</td><td><a href=""https://github.com/thundernest/k-9/issues/new/choose"">GitHub</a>
-</td><td>-
-</td></tr></tbody></table>
-<p><br>
-In addition to Mozilla's products, you can also submit bug or feature request for extensions that Mozilla created and maintains: 
-</p>
-<table>
-<tbody><tr>
-<td><strong>Extension name</strong>
-</td><td><strong>Bug report</strong>
-</td><td><strong>Feature request</strong>
-</td><td>
-</td></tr>
-<tr>
-<td> Multi-Account Containers
-</td><td> <a href=""https://github.com/mozilla/multi-account-containers/issues/new?assignees=&amp;labels=bug&amp;template=bug.yml"">GitHub</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr>
-<tr>
-<td> Facebook Container
-</td><td> <a href=""https://github.com/mozilla/contain-facebook/issues/new?assignees=&amp;labels=&amp;template=bug_report.md&amp;title="">GitHub</a>
-</td><td><a href=""https://connect.mozilla.org/?utm_source=sumo&amp;utm_medium=web&amp;utm_campaign=support"">Mozilla Connect</a>
-</td><td>
-</td></tr></tbody></table>
-<h2 id=""w_how-to-file-a-good-bug-report"">How to file a good bug report?</h2>
-<p>Read <a href=""https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html"">this bug writing guideline</a> to learn how to file a good bug report.
-</p>",contributor,general,"In Mozilla Support (SUpport.MOzilla.org, a.k.a. SUMO), you can ask a support question or get help with product troubleshooting. However, to report a bug or defect, you should go to either [Bugzilla](https://bugzilla.mozilla.org/) or [GitHub](https://github.com/). Alternatively, if you would like to request a new feature, submit feedback or discuss ideas that will help shape future product releases, you should go to [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support).
-
-## Where to file a bug report or request a feature?
-
-To understand about where you can submit bugs or feedback for each product, please see the table below:
-
-| **Product name** | **Bug report** | **Feature request** | |
-| Firefox | [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| Firefox for Android | [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Fenix&bug_type=defect) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| Firefox for iOS | [GitHub](https://github.com/mozilla-mobile/firefox-ios/issues/new?assignees=&labels=Bug+%F0%9F%90%9E&template=---bug-report.md) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| Firefox Focus | [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Focus&component=General&bug_type=defect) (Focus for Android)  
-[GitHub](https://github.com/mozilla-mobile/firefox-ios/issues/new/choose) (Focus for iOS) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| MDN Plus | [GitHub](https://github.com/mdn/MDN-feedback) | [GitHub](https://github.com/mdn/MDN-feedback) | |
-| Hubs | [GitHub](https://github.com/mozilla/hubs/issues/new?assignees=&labels=bug%2C+needs+triage&template=bug_report.md&title=) | [GitHub](https://github.com/mozilla/hubs/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=) | |
-| Thunderbird | [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Thunderbird) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| Thunderbird for Android | [GitHub](https://github.com/thundernest/k-9/issues/new/choose) | [GitHub](https://github.com/thundernest/k-9/issues/new/choose) | - |
-
-In addition to Mozilla's products, you can also submit bug or feature request for extensions that Mozilla created and maintains:
-
-| **Extension name** | **Bug report** | **Feature request** | |
-| Multi-Account Containers | [GitHub](https://github.com/mozilla/multi-account-containers/issues/new?assignees=&labels=bug&template=bug.yml) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-| Facebook Container | [GitHub](https://github.com/mozilla/contain-facebook/issues/new?assignees=&labels=&template=bug_report.md&title=) | [Mozilla Connect](https://connect.mozilla.org/?utm_source=sumo&utm_medium=web&utm_campaign=support) | |
-
-## How to file a good bug report?
-
-Read [this bug writing guideline](https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html) to learn how to file a good bug report.
-
-"
-48632,Secure Firefox passwords with device sign-in,firefox-password-authentification-prompt,https://support.mozilla.org/en-US/kb/firefox-password-authentification-prompt,en-US,Learn more about this Firefox anti-snooping feature designed to protect your logins and passwords from unauthorized access.,"<div class=""for"" data-for=""linux""><div class=""note""><strong>Note:</strong> This article applies to Firefox desktop on macOS and Windows.</div></div>
-<p><span class=""for"" data-for=""not fx127""><strong>To use this feature, <a href=""/en-US/kb/update-firefox-latest-release"">update Firefox</a> to version 127 or later.</strong></span>
-</p><p>Enabling device sign-in for managing passwords in Firefox enhances the security of your saved logins. When you or anyone attempts to use the edit, copy, or reveal (<img alt=""IG eye"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-34-8c3fa8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""15"">) button, you will be prompted to authenticate using voice, face camera, fingerprint login (when enabled), or operating system password. This prompt ensures that only authorized users can access or edit your logins.
-</p>
-<ul><li><strong>Example Windows prompt:</strong> This is an example of the prompt that is displayed on Windows. The dialog has options to authenticate using a password or other authentication methods such as PIN. The “More choices” link may need to be clicked on to reveal alternate authentication methods. The username used for authentication must match the currently signed in operating system user.
-</li></ul>
-<p><img alt=""Fx127OSauthenticationPrompt"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-06-21-24-14-eb349f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</p>
-<ul><li><strong>Example macOS prompt:</strong> This is an example of the prompt that is displayed on macOS. Authentication is available using Touch ID or a password.
-</li></ul>
-<p><img alt=""Password authentication macOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-06-06-07-21-5938b8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</p>
-<div class=""note"">OS authentication might be requested if you disable and then re-enable the <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Primary Password</a> while OS authentication is enabled.</div>
-<h1 id=""w_enable-or-disable-password-authentication"">Enable or disable password authentication</h1>
-<p>You can enable or disable OS authentication for passwords in Firefox settings, as follows:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> on the left.
-</li><li>Go down to the <em>Passwords</em> section, and check or uncheck the setting <strong>Require device sign in to fill and manage passwords</strong>.
-<dl><dt><img alt=""OS authentication setting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-58-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>When prompted, enter your operating system password or authenticate using voice, face camera, or fingerprint login (when enabled).
-<ul><li>After enabling this feature and entering your operating system password, the prompt will not be shown again until you reload the page or after five minutes pass. However, if you attempt to export passwords,  the prompt will reappear regardless of the time elapsed.
-</li></ul>
-</li></ol>
-<p>To disable this feature, simply uncheck the box next to <strong>Require device sign in to fill and manage passwords</strong>.
-</p>
-<h1 id=""w_what-if-i-dont-have-an-os-password"">What if I don't have an OS password?</h1>
-<ul><li><strong>Windows:</strong> If you aren't using a Windows password, you will not be prompted to enter it.
-</li><li><strong>macOS:</strong> If you don't have a password, click the OK button twice to continue. <strong>Note:</strong> This is a known issue and will be fixed in a future update.
-</li></ul>
-<div class=""note"">This feature is only supported on Windows and macOS 10.12+.</div>
-<div class=""warning"">Device sign-in authentication is not designed to protect against sophisticated attackers who have local access to your computer.</div>",firefox,passwords-and-sign-in," **Note:** This article applies to Firefox desktop on macOS and Windows.
-
-**To use this feature, [update Firefox](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"") to version 127 or later.**
-
-Enabling device sign-in for managing passwords in Firefox enhances the security of your saved logins. When you or anyone attempts to use the edit, copy, or reveal ( ![IG eye](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)) button, you will be prompted to authenticate using voice, face camera, fingerprint login (when enabled), or operating system password. This prompt ensures that only authorized users can access or edit your logins.
-
-- **Example Windows prompt:** This is an example of the prompt that is displayed on Windows. The dialog has options to authenticate using a password or other authentication methods such as PIN. The “More choices” link may need to be clicked on to reveal alternate authentication methods. The username used for authentication must match the currently signed in operating system user.
-
-![Fx127OSauthenticationPrompt](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Example macOS prompt:** This is an example of the prompt that is displayed on macOS. Authentication is available using Touch ID or a password.
-
-![Password authentication macOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-OS authentication might be requested if you disable and then re-enable the [Primary Password](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins"") while OS authentication is enabled.
-
-# Enable or disable password authentication
-
-You can enable or disable OS authentication for passwords in Firefox settings, as follows:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Click Privacy & Security on the left.
-3. Go down to the _Passwords_ section, and check or uncheck the setting **Require device sign in to fill and manage passwords**.<dl><dt>
-<img alt=""OS authentication setting"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-11-10-53-58-b5e7d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. When prompted, enter your operating system password or authenticate using voice, face camera, or fingerprint login (when enabled).
-  - After enabling this feature and entering your operating system password, the prompt will not be shown again until you reload the page or after five minutes pass. However, if you attempt to export passwords, the prompt will reappear regardless of the time elapsed.
-
-To disable this feature, simply uncheck the box next to **Require device sign in to fill and manage passwords**.
-
-# What if I don't have an OS password?
-
-- **Windows:** If you aren't using a Windows password, you will not be prompted to enter it.
-- **macOS:** If you don't have a password, click the OK button twice to continue. **Note:** This is a known issue and will be fixed in a future update.
-
-This feature is only supported on Windows and macOS 10.12+.
-
-Device sign-in authentication is not designed to protect against sophisticated attackers who have local access to your computer.
-"
 48715,Dedicated profile per Thunderbird installation,dedicated-profile-thunderbird-installation,https://support.mozilla.org/en-US/kb/dedicated-profile-thunderbird-installation,en-US,Different Thunderbird installations need separate profiles.  Learn more.,"<div class=""for"" data-for=""not tb68""><div class=""note"">This feature requires Thunderbird version 68 and above.</div></div>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-are-profiles""><span class=""tocnumber"">1</span> <span class=""toctext"">What are profiles?</span></a></li><li class=""toclevel-1""><a href=""#w_what-profile-changes-were-made-in-thunderbird-68""><span class=""tocnumber"">2</span> <span class=""toctext"">What profile changes were made in Thunderbird 68?</span></a></li><li class=""toclevel-1""><a href=""#w_what-are-my-options""><span class=""tocnumber"">3</span> <span class=""toctext"">What are my options?</span></a></li><li class=""toclevel-1""><a href=""#w_can-i-change-which-thunderbird-installation-uses-my-previously-shared-profile""><span class=""tocnumber"">4</span> <span class=""toctext"">Can I change which Thunderbird installation uses my previously shared profile?</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-to-my-profile-if-i-downgrade-to-a-previous-version-of-thunderbird""><span class=""tocnumber"">5</span> <span class=""toctext"">What happens to my profile if I downgrade to a previous version of Thunderbird?</span></a></li><li class=""toclevel-1""><a href=""#w_i-already-use-separate-profiles-for-my-different-thunderbird-installations""><span class=""tocnumber"">6</span> <span class=""toctext"">I already use separate profiles for my different Thunderbird installations</span></a></li></ul></div>
 <h1 id=""w_what-are-profiles"">What are profiles?</h1>
@@ -84432,6 +83966,77 @@ If you uninstall Mozilla VPN you will need to remove this setting by following t
 3. Tap the tab preview to access the open tab. 
 4. Tap ![picture-in-picture close control](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to close the tab. 
 5. Swipe down to go back to your homepage.
+
+"
+55516,View recently saved bookmarks from your homepage on Firefox for iOS,view-recently-saved-bookmarks-firefox-ios-homepage,https://support.mozilla.org/en-US/kb/view-recently-saved-bookmarks-firefox-ios-homepage,en-US,View your recently saved bookmarks and reading list items on your homepage in Firefox for iOS.,"<p>Your personalized Firefox homepage on iOS makes it easy for you to pick up where you left off after your last browser session. You can access your recently saved bookmarks and recently saved reading list items from your homepage.
+</p>
+<dl><dt><img alt=""FX iOS homepage bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-08-07-49-59-9b0f68.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+</dt></dl>
+<p>View your recently saved bookmarks or reading list items:
+</p>
+<ol><li> Scroll down to the <em>Bookmarks</em> section to see your most recent bookmarks and reading list items.
+</li><li> Tap a bookmark or reading list item to be redirected to the site.
+</li><li> Tap <span class=""menu"">Show All</span> in the <em>Bookmarks</em> section to view all bookmarks and reading list items.
+</li></ol>
+<h1 id=""w_related-articles"">Related Articles</h1>
+<p>To learn more about recently saved bookmarks and reading list items, see these articles:
+</p>
+<ul><li> <a href=""/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"">How to add, remove, edit and move bookmarks in Firefox for iOS</a>
+</li><li> <a href=""/en-US/kb/add-web-pages-your-reading-list-firefox-ios"">Add web pages to your Reading List on Firefox for iOS</a>
+</li></ul>",ios,bookmarks;settings,"Your personalized Firefox homepage on iOS makes it easy for you to pick up where you left off after your last browser session. You can access your recently saved bookmarks and recently saved reading list items from your homepage.
+
+<dl><dt>
+<img alt=""FX iOS homepage bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-08-07-49-59-9b0f68.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+</dt></dl>
+
+View your recently saved bookmarks or reading list items:
+
+1. Scroll down to the _Bookmarks_ section to see your most recent bookmarks and reading list items.
+2. Tap a bookmark or reading list item to be redirected to the site.
+3. Tap Show All in the _Bookmarks_ section to view all bookmarks and reading list items.
+
+# Related Articles
+
+To learn more about recently saved bookmarks and reading list items, see these articles:
+
+- [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"")
+- [Add web pages to your Reading List on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/add-web-pages-your-reading-list-firefox-ios"")
+
+"
+55524,View bookmarks on your home screen,view-recent-bookmarks-and-searches-firefox-android-home,https://support.mozilla.org/en-US/kb/view-recent-bookmarks-and-searches-firefox-android-home,en-US,You can access your bookmarks and recent searches from your Firefox for Android home screen.,"<p>Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your bookmarks and recent searches from your home screen.
+</p><div class=""for"" data-for=""not m127"">
+<h1 id=""w_view-recently-saved-bookmarks"">View recently saved bookmarks</h1>
+<p>To view your recently saved bookmarks:
+</p>
+<ol><li>Scroll down to the <em>Recent bookmarks</em> section to see your most recent bookmarks.
+</li><li>Tap <span class=""menu"">Show all</span> in the <em>Recent bookmarks</em> section to view and <a href=""/en-US/kb/manage-bookmark-folders-firefox-android"">manage all bookmarks</a>.
+</li></ol>
+</div><div class=""for"" data-for=""m127"">
+<h1 id=""w_view-recently-saved-bookmarks_2"">View recently saved bookmarks</h1>
+<p>To view your bookmarks:
+</p>
+<ol><li>Scroll down to the <em>Bookmarks</em> section to see your most recent bookmarks, most recent at left.
+</li><li>Tap <span class=""menu"">Show all</span> in the <em>Bookmarks</em> section to view and <a href=""/en-US/kb/manage-bookmark-folders-firefox-android"">manage all bookmarks</a>.
+<dl><dt><img alt=""Fenix home screen bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-10-12-48-23-99fa23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+</div>",mobile,bookmarks;settings,"Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your bookmarks and recent searches from your home screen.
+
+# View recently saved bookmarks
+
+To view your recently saved bookmarks:
+
+1. Scroll down to the _Recent bookmarks_ section to see your most recent bookmarks.
+2. Tap Show all in the _Recent bookmarks_ section to view and [manage all bookmarks](\""https://support.mozilla.org/en-US/kb/manage-bookmark-folders-firefox-android"").
+
+# View recently saved bookmarks
+
+To view your bookmarks:
+
+1. Scroll down to the _Bookmarks_ section to see your most recent bookmarks, most recent at left.
+2. Tap Show all in the _Bookmarks_ section to view and [manage all bookmarks](\""https://support.mozilla.org/en-US/kb/manage-bookmark-folders-firefox-android"").<dl><dt>
+<img alt=""Fenix home screen bookmarks"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-10-12-48-23-99fa23.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
 
 "
 55525,View recent tabs on your Firefox for Android homepage,view-recent-tabs-firefox-android-homepage,https://support.mozilla.org/en-US/kb/view-recent-tabs-firefox-android-homepage,en-US,View your recent open tabs on your Firefox for Android homepage.,"<p>Your personalized Firefox homepage on Android makes it easy for you to pick up where you left off after your last browser session. You can access your two most recent tabs in the <strong>Jump back in</strong> section. Tap <span class=""menu"">Show all</span> to view all open tabs, all open Private Browsing tabs and all open Synced Tabs.
@@ -104040,150 +103645,6 @@ The Hubs codebase is now being managed and maintained by the [Hubs Foundation](h
 Firefox 128 is the next ESR and will be released on July 9, 2024. Going forward, we will only be backporting security fixes to the Firefox 115 ESR.
 
 If you use the ESR, we strongly recommend that you start testing with Firefox Nightly to see if there are any issues you have with the new ESR.
-
-If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
-
-"
-65065,Update your contribution area,contribution-area,https://support.mozilla.org/en-US/kb/contribution-area,en-US,This article describes how you can update your contribution area by updating your profile,"<p>When you register to be a part of the support community from the <a href=""/contribute"">Mozilla Support Contribute page</a>, you will be assigned to a group based on which page you register from:
-</p>
-<ul><li> <a href=""/contribute/forum"">Answer questions in the support forum</a>
-</li><li> <a href=""/contribute/kb"">Write help articles</a>
-</li><li> <a href=""/contribute/l10n"">Localize support content</a>
-</li></ul>
-<p>If you wish to update your contribution area, please check out the following steps: 
-</p>
-<ol><li> Go to your profile by hovering on your profile picture at the top-right corner of the page when you're logged in, and click on <span class=""menu"">View Profile</span>.
-</li><li> From the sidebar of your profile, click on the <span class=""menu"">Edit Contribution Areas</span> option.
-</li><li> Check or uncheck a contribution area that you desire and click on the <span class=""button"">Update</span> button to save your selections.
-</li></ol>",contributor,general,"When you register to be a part of the support community from the [Mozilla Support Contribute page](\""https://support.mozilla.org/contribute""), you will be assigned to a group based on which page you register from:
-
-- [Answer questions in the support forum](\""https://support.mozilla.org/contribute/forum"")
-- [Write help articles](\""https://support.mozilla.org/contribute/kb"")
-- [Localize support content](\""https://support.mozilla.org/contribute/l10n"")
-
-If you wish to update your contribution area, please check out the following steps:
-
-1. Go to your profile by hovering on your profile picture at the top-right corner of the page when you're logged in, and click on View Profile.
-2. From the sidebar of your profile, click on the Edit Contribution Areas option.
-3. Check or uncheck a contribution area that you desire and click on the Update button to save your selections.
-
-"
-65072,Tab overview menu,tab-overview-menu,https://support.mozilla.org/en-US/kb/tab-overview-menu,en-US,Learn how to use the tab overview menu in Firefox to quickly manage and navigate your open tabs,"<p>Firefox’s tab overview menu is designed to help you manage and navigate your open tabs. Whether you have just a few tabs or many, this feature lets you quickly find, organize and switch tabs, providing a smooth browsing experience. This article will guide you on how to use the tab overview menu to maintain a tidy and organized browser environment, regardless of the number of tabs you have opened.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_access-the-tab-overview-menu""><span class=""tocnumber"">1</span> <span class=""toctext"">Access the tab overview menu</span></a></li><li class=""toclevel-1""><a href=""#w_manage-tabs""><span class=""tocnumber"">2</span> <span class=""toctext"">Manage tabs</span></a></li><li class=""toclevel-1""><a href=""#w_navigate-tabs""><span class=""tocnumber"">3</span> <span class=""toctext"">Navigate tabs</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_access-the-tab-overview-menu"">Access the tab overview menu</h1>
-<p>Click the <img alt=""tab icon 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-25-13-37-26-16c7e5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""16""> icon at the top-right corner of the Firefox window, next to the tabs bar. (If <a href=""/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"">Vertical Tabs</a> are enabled, click the <em>List all tabs</em> <img alt=""Fx138VerticalListAllTabs"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-21-20-53-09-7cec8d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon in the toolbar.) A drop-down menu will appear, with some menu options and a list of all your open tabs. Each listed tab shows the title and favicon of the webpage. The active tab will be shown in bold type.
-</p>
-<dl><dt><span class=""for"" data-for=""not fx129""><img alt=""Tab overview menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-25-14-33-33-a4ae11.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx129,=fx130,=fx131,=fx132""><img alt=""Tab overview menu V129"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-08-05-07-47-59-4771d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx133""><img alt=""tab overview menu fx133"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-06-30-01-daa7e9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> 
-</dt></dl>
-<h1 id=""w_manage-tabs"">Manage tabs</h1>
-<ul><li><strong>Search tabs:</strong> The <span class=""menu"">Search tabs</span> option at the top of the menu lets you use the address bar to find a specific tab, by typing in keywords related to its content.
-</li></ul>
-<div class=""for"" data-for=""fx133"">
-<ul><li><strong>Tabs from other devices:</strong> Use the <span class=""menu"">Tabs from other devices</span> option in the tab overview menu to access tabs that are open on your other devices <a href=""/en-US/kb/sync"">synced</a> with your Mozilla account. This feature helps you continue browsing seamlessly across devices. Simply click on the desired tab to open it on your current device.
-</li></ul>
-</div>
-<ul><li><strong>Close <span class=""for"" data-for=""fx129"">all</span> duplicate tabs:</strong> To quickly close <span class=""for"" data-for=""fx129"">all your</span><span class=""for"" data-for=""not fx129"">any</span> duplicate tabs, select the <span class=""for"" data-for=""fx129""><span class=""menu"">Close all duplicate tabs</span> option. A pop-up asking you to confirm this will open. Click <span class=""button"">Close tabs</span> to proceed</span><span class=""for"" data-for=""not fx129""><span class=""menu"">Close duplicate tabs</span> option</span>. This will automatically identify those tabs with the same URL and will only keep open the last active tab.
-</li><li><strong>Open a new container tab:</strong> The <span class=""menu"">New container tab</span> option, if available, will open a tab in a different container. This allows you to keep your browsing activities separated by context, such as work and personal. For more information about Firefox containers, see <a href=""/en-US/kb/how-use-firefox-containers"">How to use Firefox containers</a>.
-</li></ul>
-<h1 id=""w_navigate-tabs"">Navigate tabs</h1>
-<ul><li><strong>Switch tabs:</strong> Scroll through the tabs list and click the tab you want to switch to. This will immediately bring the selected tab into focus.
-</li><li><strong>Close a tab:</strong> To close a tab directly from the menu, click the <strong>✕</strong> icon after the tab's title.
-</li></ul>
-<p>For more information on managing tabs, check out the <a href=""/en-US/kb/tab-context-menu"">Tab context menu</a> article.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/tabs-organize-websites-single-window"">Use tabs to organize lots of websites in a single window</a>
-</li><li><a href=""/en-US/kb/search-open-tabs-firefox"">Search open tabs in Firefox</a>
-</li><li><a href=""/en-US/kb/tab-preferences-and-settings"">Tab preferences and settings</a>
-</li><li><a href=""/en-US/kb/about-new-tab-page"">New Tab page in Firefox</a>
-</li><li><a href=""/en-US/kb/pinned-tabs-keep-favorite-websites-open"">Pinned Tabs - keep favorite websites open and just a click away</a>
-</li></ul>
-<div class=""for"" data-for=""fx137"">
-<ul><li><a href=""/en-US/kb/tab-groups"">Tab groups in Firefox</a>
-</li></ul>
-</div>",firefox,browse;tabs,"Firefox’s tab overview menu is designed to help you manage and navigate your open tabs. Whether you have just a few tabs or many, this feature lets you quickly find, organize and switch tabs, providing a smooth browsing experience. This article will guide you on how to use the tab overview menu to maintain a tidy and organized browser environment, regardless of the number of tabs you have opened.
-
-## Table of Contents
-
-- [1 Access the tab overview menu](https://support.mozilla.org/kb/tab-overview-menu#w_access-the-tab-overview-menu)
-- [2 Manage tabs](https://support.mozilla.org/kb/tab-overview-menu#w_manage-tabs)
-- [3 Navigate tabs](https://support.mozilla.org/kb/tab-overview-menu#w_navigate-tabs)
-- [4 Related articles](https://support.mozilla.org/kb/tab-overview-menu#w_related-articles)
-
-# Access the tab overview menu
-
-Click the ![tab icon 2](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon at the top-right corner of the Firefox window, next to the tabs bar. (If [Vertical Tabs](\""https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"") are enabled, click the _List all tabs_ ![Fx138VerticalListAllTabs](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon in the toolbar.) A drop-down menu will appear, with some menu options and a list of all your open tabs. Each listed tab shows the title and favicon of the webpage. The active tab will be shown in bold type.
-
-<dl><dt>
-<span class=""for"" data-for=""not fx129""><img alt=""Tab overview menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-06-25-14-33-33-a4ae11.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx129,=fx130,=fx131,=fx132""><img alt=""Tab overview menu V129"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-08-05-07-47-59-4771d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx133""><img alt=""tab overview menu fx133"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-26-06-30-01-daa7e9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> 
-</dt></dl>
-# Manage tabs
-
-- **Search tabs:** The Search tabs option at the top of the menu lets you use the address bar to find a specific tab, by typing in keywords related to its content.
-
-- **Tabs from other devices:** Use the Tabs from other devices option in the tab overview menu to access tabs that are open on your other devices [synced](\""https://support.mozilla.org/en-US/kb/sync"") with your Mozilla account. This feature helps you continue browsing seamlessly across devices. Simply click on the desired tab to open it on your current device.
-
-- **Close all duplicate tabs:** To quickly close all yourany duplicate tabs, select the Close all duplicate tabs option. A pop-up asking you to confirm this will open. Click Close tabs to proceedClose duplicate tabs option. This will automatically identify those tabs with the same URL and will only keep open the last active tab.
-- **Open a new container tab:** The New container tab option, if available, will open a tab in a different container. This allows you to keep your browsing activities separated by context, such as work and personal. For more information about Firefox containers, see [How to use Firefox containers](\""https://support.mozilla.org/en-US/kb/how-use-firefox-containers"").
-
-# Navigate tabs
-
-- **Switch tabs:** Scroll through the tabs list and click the tab you want to switch to. This will immediately bring the selected tab into focus.
-- **Close a tab:** To close a tab directly from the menu, click the **✕** icon after the tab's title.
-
-For more information on managing tabs, check out the [Tab context menu](\""https://support.mozilla.org/en-US/kb/tab-context-menu"") article.
-
-# Related articles
-
-- [Use tabs to organize lots of websites in a single window](\""https://support.mozilla.org/en-US/kb/tabs-organize-websites-single-window"")
-- [Search open tabs in Firefox](\""https://support.mozilla.org/en-US/kb/search-open-tabs-firefox"")
-- [Tab preferences and settings](\""https://support.mozilla.org/en-US/kb/tab-preferences-and-settings"")
-- [New Tab page in Firefox](\""https://support.mozilla.org/en-US/kb/about-new-tab-page"")
-- [Pinned Tabs - keep favorite websites open and just a click away](\""https://support.mozilla.org/en-US/kb/pinned-tabs-keep-favorite-websites-open"")
-
-- [Tab groups in Firefox](\""https://support.mozilla.org/en-US/kb/tab-groups"")
-
-"
-65156,Firefox for Enterprise 128 - Release notes,firefox-enterprise-128-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-128-release-notes,en-US,See what's coming out with Firefox for Enterprise 128.,"<p>Except where noted, everything here applies only to Firefox 128. Firefox 128 is the next <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, no enterprise changes will be backported to Firefox 115 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_linux""><span class=""tocnumber"">3</span> <span class=""toctext"">Linux</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_bug-fixes"">Bug Fixes</h1>
-<ul><li>In some cases, SPNEGO authentication could fail. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1805666"">bug 1805666</a>.
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <em>Clear browsing data and cookies</em> dialog was redesigned, which also affected the ""Clear history when Firefox closes"" dialog. The result is that some of the options in the <a href=""https://mozilla.github.io/policy-templates/#sanitizeonshutdown"">SanitizeOnShutdown</a> policy have been combined.
-</li></ul>
-<h1 id=""w_linux"">Linux</h1>
-<p>Firefox ships with a new <a href=""/en-US/kb/install-firefox-linux#w_install-firefox-deb-package-for-debian-based-distributions"">.deb package</a> for Linux users on Ubuntu, Debian and Linux Mint. This is a major <a href=""https://www.mozilla.org/en-US/firefox/128.0esr/releasenotes/"">change between ESR 115 and ESR 128</a>.
-</p>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<p>There are two more planned releases of Firefox 115 ESR, and then it will go out of support on October 1, 2024. Users will then be automatically upgraded to Firefox 128 ESR.
-</p><p>If you need to prevent upgrades for any reason, you can use the <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies only to Firefox 128. Firefox 128 is the next [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"") so, going forward, no enterprise changes will be backported to Firefox 115 ESR.
-
-## Table of Contents
-
-- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-128-release-notes#w_bug-fixes)
-- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-128-release-notes#w_policies)
-- [3 Linux](https://support.mozilla.org/kb/firefox-enterprise-128-release-notes#w_linux)
-- [4 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-128-release-notes#w_special-notes)
-
-# Bug Fixes
-
-- In some cases, SPNEGO authentication could fail. This was fixed in [bug 1805666](https://bugzilla.mozilla.org/show_bug.cgi?id=1805666).
-
-# Policies
-
-- The _Clear browsing data and cookies_ dialog was redesigned, which also affected the ""Clear history when Firefox closes"" dialog. The result is that some of the options in the [SanitizeOnShutdown](https://mozilla.github.io/policy-templates/#sanitizeonshutdown) policy have been combined.
-
-# Linux
-
-Firefox ships with a new [.deb package](\""https://support.mozilla.org/en-US/kb/install-firefox-linux#w_install-firefox-deb-package-for-debian-based-distributions"") for Linux users on Ubuntu, Debian and Linux Mint. This is a major [change between ESR 115 and ESR 128](https://www.mozilla.org/en-US/firefox/128.0esr/releasenotes/).
-
-# Special Notes
-
-There are two more planned releases of Firefox 115 ESR, and then it will go out of support on October 1, 2024. Users will then be automatically upgraded to Firefox 128 ESR.
 
 If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
 
@@ -124737,9 +124198,9 @@ Here is what to expect when you are creating split views from tabs that belong t
 - [Tab overview menu](\""https://support.mozilla.org/en-US/kb/tab-overview-menu"")
 
 "
-72851,Summarize webpages in Firefox for Android,summarize-pages-android,https://support.mozilla.org/en-US/kb/summarize-pages-android,en-US,Learn how to summarize webpages in Firefox for Android and adjust settings for page summaries.,"<p>Firefox for Android lets you quickly summarize long webpages, such as articles, guides,  reviews, and recipes. This feature uses AI to highlight key points so you can get the main ideas faster.
+72851,Summarize webpages in Firefox for Android,summarize-pages-android,https://support.mozilla.org/en-US/kb/summarize-pages-android,en-US,Learn how to summarize webpages in Firefox for Android and adjust settings for page summaries.,"<p>Firefox for Android lets you quickly summarize long webpages, such as articles, guides, reviews and recipes. This feature uses AI to highlight key points so you can get the main ideas faster.
 </p><p><img alt=""summaryandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-22-11-06-32-1c9c67.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</p><p></p><div class=""note""> 
+</p><div class=""note""> 
 <p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 This feature is experimental and is being introduced to the Firefox user base through a progressive rollout. It may not yet be available to all users. 
 </p>
@@ -124750,14 +124211,14 @@ This feature is experimental and is being introduced to the Firefox user base th
 <p>Before you start, make sure your device and page are supported:
 </p>
 <ul><li><strong>Supported devices</strong>
-<ul><li>Page summaries are available on Firefox for Android. 
+<ul><li>Page summaries are available on Firefox for Android.
 </li></ul>
 </li><li><strong>Supported AI models</strong>
-<ul><li>Summaries will be created using Mistral Small 3.1, a Firefox AI cloud-based solution.
+<ul><li>Summaries will be created using Mistral Small 3.1, a Firefox AI cloud-based solution.
 </li></ul>
 </li></ul>
 <h1 id=""w_understand-what-content-can-be-summarized"">Understand what content can be summarized</h1>
-<p>You can summarize webpages that are readable in Reader View and within supported length limits of less than 5000 words. 
+<p>You can summarize webpages that are readable in Reader View and within supported length limits of less than 5000 words.
 Examples include:
 </p>
 <ul><li>News articles
@@ -124767,11 +124228,11 @@ Examples include:
 </li><li>Research articles
 </li><li>Opinion pieces
 </li></ul>
-<p>The feature is available worldwide but only for English-based webpages. 
+<p>The feature is available worldwide but only for English-based webpages.
 </p>
-<div class=""note""><strong>Note</strong>: Very long or unsupported pages may not show the summarize option.</div>
+<div class=""note""><strong>Note:</strong> Very long or unsupported pages may not show the summarize option.</div>
 <h1 id=""w_enable-and-disable-page-summaries"">Enable and disable page summaries</h1>
-<p>Page summaries are turned on by default, and Firefox will ask you to opt in if you shake your phone. However, you can turn it off and on whenever you want: 
+<p>Page summaries are turned on by default, and Firefox will ask you to opt in if you shake your phone. However, you can turn it off and on whenever you want:
 </p>
 <ol><li>Open Firefox for Android.
 </li><li>Tap the <strong>three-dot menu</strong>.
@@ -124784,7 +124245,7 @@ Examples include:
 </li></ol>
 <p><img alt=""pageasummariesandroid"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-22-11-10-58-c02686.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
 </p>
-<div class=""note""><strong>Note</strong>: Enabling Shake to summarize is optional. You can summarize pages using the toolbar button instead of shaking your device.</div> 
+<div class=""note""><strong>Note:</strong> Enabling Shake to summarize is optional. You can summarize pages using the toolbar button instead of shaking your device.</div>
 <h1 id=""w_summarize-a-webpage"">Summarize a webpage</h1>
 <p>You can summarize pages using the address bar or the page menu.
 </p>
@@ -124802,8 +124263,8 @@ Examples include:
 <ol><li>Open Firefox for Android.
 </li><li>Tap the <strong>three-dot menu</strong>.
 </li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""button"">Customize</span>.
-</li><li>Scroll down to gestures
+</li><li>Tap <span class=""menu"">Customize</span>.
+</li><li>Scroll down to gestures.
 <ul><li>Toggle <span class=""button"">Shake to summarize</span> on or off
 </li></ul>
 </li></ol>
@@ -124825,15 +124286,15 @@ Examples include:
 <h2 id=""w_who-can-see-what-im-summarizing"">Who can see what I’m summarizing?</h2>
 <p>Firefox uses a privacy-focused approach:
 </p>
-<ul><li>Page content may be processed using Mozilla-hosted services
-</li><li>The summary is sent directly back to your device
-</li><li>Data handling follows Mozilla’s privacy standards
+<ul><li>Page content may be processed using Mozilla-hosted services.
+</li><li>The summary is sent directly back to your device.
+</li><li>Data handling follows Mozilla’s privacy standards.
 </li></ul>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/toolbar-firefox-android"">Explore the toolbar in Firefox for Android</a>
 </li><li><a href=""/en-US/kb/view-articles-reader-view-firefox-android"">View articles in Reader View on Firefox for Android</a>
 </li><li><a href=""/en-US/kb/mobile-marketing-data"">Manage marketing data settings in Firefox for Android</a>
-</li></ul>",mobile,browse;search-tag-and-share,"Firefox for Android lets you quickly summarize long webpages, such as articles, guides, reviews, and recipes. This feature uses AI to highlight key points so you can get the main ideas faster.
+</li></ul>",mobile,browse;search-tag-and-share,"Firefox for Android lets you quickly summarize long webpages, such as articles, guides, reviews and recipes. This feature uses AI to highlight key points so you can get the main ideas faster.
 
 ![summaryandroid](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
@@ -124862,10 +124323,10 @@ Examples include:
 Before you start, make sure your device and page are supported:
 
 - **Supported devices**
-  - Page summaries are available on Firefox for Android. 
+  - Page summaries are available on Firefox for Android.
 
 - **Supported AI models**
-  - Summaries will be created using Mistral Small 3.1, a Firefox AI cloud-based solution.
+  - Summaries will be created using Mistral Small&nbsp;3.1, a Firefox AI cloud-based solution.
 
 # Understand what content can be summarized
 
@@ -124880,7 +124341,7 @@ You can summarize webpages that are readable in Reader View and within supported
 
 The feature is available worldwide but only for English-based webpages.
 
-**Note** : Very long or unsupported pages may not show the summarize option.
+**Note:** Very long or unsupported pages may not show the summarize option.
 
 # Enable and disable page summaries
 
@@ -124896,7 +124357,7 @@ Page summaries are turned on by default, and Firefox will ask you to opt in if y
 
 ![pageasummariesandroid](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
-**Note** : Enabling Shake to summarize is optional. You can summarize pages using the toolbar button instead of shaking your device.
+**Note:** Enabling Shake to summarize is optional. You can summarize pages using the toolbar button instead of shaking your device.
 
 # Summarize a webpage
 
@@ -124919,7 +124380,7 @@ You can turn summaries on or off in settings.
 2. Tap the **three-dot menu**.
 3. Tap Settings.
 4. Tap Customize.
-5. Scroll down to gestures
+5. Scroll down to gestures.
   - Toggle Shake to summarize on or off
 
 ![customizepagesummariesandroid](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
@@ -124946,9 +124407,9 @@ Summaries are currently only supported in English.
 
 Firefox uses a privacy-focused approach:
 
-- Page content may be processed using Mozilla-hosted services
-- The summary is sent directly back to your device
-- Data handling follows Mozilla’s privacy standards
+- Page content may be processed using Mozilla-hosted services.
+- The summary is sent directly back to your device.
+- Data handling follows Mozilla’s privacy standards.
 
 # Related articles
 
@@ -128974,28 +128435,28 @@ You can then quickly turn VPN on or off using the Action Button.
 "
 73782,Unable to find the built-in VPN in Firefox,unable-find-built-vpn-firefox,https://support.mozilla.org/en-US/kb/unable-find-built-vpn-firefox,en-US,Some useful pointers if you are unable to access the built-in VPN in Firefox.,"<div class=""note"">
 <p><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+</p><p>The built-in VPN is being introduced through a progressive rollout, starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 149, for users in the <span class=""for"" data-for=""not fx150"">US, UK, Germany and France</span><span class=""for"" data-for=""fx150"">US, UK, Germany, France and Canada</span>. It may not be available to you yet, even if you’re in one of these locations, as this is a staged rollout that takes time to reach everyone.
 </p>
 </div>
-<p>If you are in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this is part of an experimental study being rolled out in stages. This means the experiment may not have reached you yet.
-</p><p>You can try the following steps to check what may be preventing you from getting this feature:
+<p>If you're in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this feature is part of an experimental study being rolled out in stages and may not have reached you yet.
+</p><p>You can try the following to check what may be preventing you from getting this feature:
 </p>
-<ul><li> Enter <strong>about:studies</strong> in the Firefox address bar to check whether you’re part of the <em>VPN - MVP Beta Holdback</em> study. See <a href=""/en-US/kb/shield"">About Studies</a> to learn more about participating in studies.
-</li><li> The built-in VPN may also be unavailable if <a href=""/en-US/kb/enforcing-policies-firefox-enterprise"">Enterprise policies</a> are blocking it. You can check this by going to <em>about:policies</em> in Firefox.
+<ul><li> Enter <strong>about:studies</strong> in the Firefox address bar to check whether you’re part of the <em>VPN - MVP Beta Holdback</em> study that prevents you from seeing or using the built-in VPN. See <a href=""/en-US/kb/shield"">About Studies</a> to learn more about participating in studies.
+</li><li> The built-in VPN may also be unavailable if an <a href=""/en-US/kb/enforcing-policies-firefox-enterprise"">Enterprise policy</a> is blocking it. You can check this by entering  <strong>about:policies</strong> in the Firefox address bar to see if the  <em>IPProtectionAvailable</em> policy is active, which can prevent availability.
 </li><li> Signing out of your Mozilla account and signing back in may also help. Before signing out, make sure you know your password and that Sync is enabled so you don’t risk losing or overwriting browser data.
 </li></ul>
 <p>Finally, when the built-in VPN is available, you should see a <span class=""button"">VPN</span> in the top-right corner of the toolbar. Selecting it will open a prompt to turn on the VPN. If you don’t see the icon, try customizing your toolbar by right-clicking the toolbar and checking the overflow menu to add it back. 
 </p><p>For more information, see <a href=""/en-US/kb/built-in-vpn"">Use built-in VPN in Firefox</a>.
 </p>",firefox,privacy-and-security;security,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
-The built-in VPN is being introduced to the Firefox user base in stages, through a progressive rollout that currently includes users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as the staged rollout takes time to reach everyone.
+The built-in VPN is being introduced through a progressive rollout, starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 149, for users in the US, UK, Germany and FranceUS, UK, Germany, France and Canada. It may not be available to you yet, even if you’re in one of these locations, as this is a staged rollout that takes time to reach everyone.
 
-If you are in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this is part of an experimental study being rolled out in stages. This means the experiment may not have reached you yet.
+If you're in a country where the built-in VPN is being introduced but do not see the built-in VPN, please note that this feature is part of an experimental study being rolled out in stages and may not have reached you yet.
 
-You can try the following steps to check what may be preventing you from getting this feature:
+You can try the following to check what may be preventing you from getting this feature:
 
-- Enter **about:studies** in the Firefox address bar to check whether you’re part of the _VPN - MVP Beta Holdback_ study. See [About Studies](\""https://support.mozilla.org/en-US/kb/shield"") to learn more about participating in studies.
-- The built-in VPN may also be unavailable if [Enterprise policies](\""https://support.mozilla.org/en-US/kb/enforcing-policies-firefox-enterprise"") are blocking it. You can check this by going to _about:policies_ in Firefox.
+- Enter **about:studies** in the Firefox address bar to check whether you’re part of the _VPN - MVP Beta Holdback_ study that prevents you from seeing or using the built-in VPN. See [About Studies](\""https://support.mozilla.org/en-US/kb/shield"") to learn more about participating in studies.
+- The built-in VPN may also be unavailable if an [Enterprise policy](\""https://support.mozilla.org/en-US/kb/enforcing-policies-firefox-enterprise"") is blocking it. You can check this by entering **about:policies** in the Firefox address bar to see if the _IPProtectionAvailable_ policy is active, which can prevent availability.
 - Signing out of your Mozilla account and signing back in may also help. Before signing out, make sure you know your password and that Sync is enabled so you don’t risk losing or overwriting browser data.
 
 Finally, when the built-in VPN is available, you should see a VPN in the top-right corner of the toolbar. Selecting it will open a prompt to turn on the VPN. If you don’t see the icon, try customizing your toolbar by right-clicking the toolbar and checking the overflow menu to add it back.
@@ -130804,233 +130265,4 @@ What we are most proud about in our accessibility story on Android is the invisi
 As you type in your search, Firefox gives you improved instant suggestions by grouping similar searches together. You can use your virtual keyboard or click the microphone icon to enter search keywords.
 
 **Search suggestions:** Firefox Assistant gives you suggestions based on previous searches and popular related searches on the Web. To delete your history, see [Clear your browsing history and other personal data on Firefox for Android](\""https://support.mozilla.org/en-US/kb/clear-your-browsing-history-and-other-personal-data"").
-"
-21867,How to run Firefox when your profile is missing or inaccessible,how-run-firefox-when-profile-missing-inaccessible,https://support.mozilla.org/en-US/kb/how-run-firefox-when-profile-missing-inaccessible,en-US,How to fix the error ''Your Firefox profile cannot be loaded. It may be missing or inaccessible''  so that you can start and run Firefox.,"<p>If you see a ""Profile Missing"" error message that says, <em>Your Firefox profile cannot be loaded. It may be missing or inaccessible</em> it  usually means that Firefox can't find or access the profile folder. This article explains what to do if you see this error.
-</p>
-<dl><dt><img alt=""FXprofile-cannot-be-loaded"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-11-09-15-46-58-4ec2f0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<div class=""for"" data-for=""win7,win8""><p> 
-</p>
-<div class=""note""><strong>Note:</strong> If you see a ""Profile Missing"" error after clicking the ""Close Firefox"" button in the ""Firefox is already running but is not responding"" error dialog, click <span class=""button"">OK</span> in the ""Profile Missing"" window and wait a few seconds before trying to start Firefox.  Alternatively, either restart the computer or use the Windows Task Manager to end all Firefox processes, then try starting Firefox. For more information, see the article <a href=""/en-US/kb/firefox-already-running-not-responding"">""Firefox is already running but is not responding"" error - How to fix</a>.</div>
-</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_if-you-moved-renamed-or-deleted-your-firefox-profile-folder""><span class=""tocnumber"">1</span> <span class=""toctext"">If you moved, renamed, or deleted your Firefox profile folder</span></a><ul><li class=""toclevel-2""><a href=""#w_profile-was-moved-or-renamed""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Profile was moved or renamed</span></a></li><li class=""toclevel-2""><a href=""#w_profile-was-deleted""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Profile was deleted</span></a></li></ul></li></ul></div>
-<h1 id=""w_if-you-moved-renamed-or-deleted-your-firefox-profile-folder"">If you moved, renamed, or deleted your Firefox profile folder</h1>
-<p>Firefox stores your user data and settings in a special <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">profile</a> folder and pulls information from this folder every time you start Firefox.  The default profile folder location is under the <span class=""for"" data-for=""win""><span class=""filepath"">%APPDATA%\Mozilla\Firefox\Profiles</span> </span><span class=""for"" data-for=""linux""><span class=""filepath"">~/.mozilla/firefox</span></span><span class=""for"" data-for=""mac""> <span class=""filepath"">~/Library/Application Support/Firefox/Profiles</span></span> folder, which you can find using <a href=""/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"">these instructions</a>. 
-</p>
-<h2 id=""w_profile-was-moved-or-renamed"">Profile was moved or renamed</h2>
-<p>If you know where your profile is, try one of the following methods to help Firefox find it.
-</p>
-<ul><li>Move the profile folder back to its original location. 
-</li><li>Restore the profile's original name if you've changed it.
-</li><li><a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">Create a new profile using the Profile Manager</a> using the instructions to start the Profile Manager when Firefox is closed. Give it a descriptive name, click on the <span class=""button"">Choose Folder</span> button, and then select the profile folder you moved or renamed, before you finish the <em>Create a new profile</em> wizard.
-</li></ul>
-<h2 id=""w_profile-was-deleted"">Profile was deleted</h2>
-<p>If you deleted or lost your profile folder and have no way of restoring it, use one of these methods to create a new Firefox profile:
-</p>
-<div class=""note"">Your new profile will not contain settings or user data from your deleted or lost profile.</div>
-<ul><li> <strong>Method 1: Use the Profile Manager wizard</strong> 
-</li></ul>
-<p>Follow the steps in the <a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">Profile Manager - Create, remove or switch Firefox profiles</a> article to create a new profile.
-</p>
-<ul><li> <strong>Method 2: Manually delete the <em>profiles.ini</em> file</strong> 
-</li></ul>
-<p>If you have problems accessing the Profile Manager, you can create a new default Firefox profile by deleting the <span class=""filepath"">profiles.ini</span> file, using these steps:
-</p><div class=""for"" data-for=""win""><div class=""for"" data-for=""winxp"">
-<ol><li> Click on the Windows <span class=""button"">Start</span> button and click on <span class=""menu"">Run...</span>
-</li><li> Type <strong>%appdata%</strong> in the Run box and click OK. The hidden <span class=""filepath"">Application Data</span> folder will open. 
-</li><li> Double-click the <span class=""filepath"">Mozilla</span> folder.
-</li><li> Double-click the <span class=""filepath"">Firefox</span> folder.
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span> file.
-</li></ol>
-</div><div class=""for"" data-for=""win7"">
-<ol><li> Click the Windows Start button or press the Windows key <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> to open the Start Menu. 
-</li><li> Type <strong>%appdata%</strong> in the search box and press the <span class=""key"">Enter</span> key. The hidden <span class=""filepath"">AppData\Roaming</span> folder will open. 
-</li><li> Double-click the <span class=""filepath"">Mozilla</span> folder.
-</li><li> Double-click the <span class=""filepath"">Firefox</span> folder.
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span> file.
-</li></ol>
-</div><div class=""for"" data-for=""win8"">
-<ol><li> From the Windows Start Screen, click the <strong>Desktop</strong> tile. The Desktop view will open.
-</li><li> From the Desktop, hover in the lower right-hand corner to access the Charms.
-</li><li> Select the <span class=""menu"">Search</span> charm. The Search sidebar will open.
-</li><li> Type <strong>%appdata%</strong> in the search box and press the <span class=""key"">Enter</span> key. The hidden <span class=""filepath"">AppData\Roaming</span> folder will open.
-</li><li> Double-click the <span class=""filepath"">Mozilla</span> folder.
-</li><li> Double-click the <span class=""filepath"">Firefox</span> folder.
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span>  file.
-</li></ol>
-</div><div class=""for"" data-for=""win10,win11"">
-<ol><li> Click on the Windows Start button or press the Windows key <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> to open the Start Menu.
-</li><li> Type <strong>%appdata%</strong> (as you type, a Windows search will start) and press the <span class=""key"">Enter</span> key. The hidden <span class=""filepath"">AppData\Roaming</span> folder will open.
-</li><li> Double-click the <span class=""filepath"">Mozilla</span> folder.
-</li><li> Double-click the <span class=""filepath"">Firefox</span> folder.
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span>  file.
-</li></ol>
-</div>
-<div class=""note""><strong>Note:</strong> By default, Windows does not show the .ini file extension. The file should have an icon similar to a document with a gear on it, and a file type similar to  ""Configuration settings"" or ""Application settings"". You should not delete the Profiles folder, which should have a file folder icon and a file type of ""File folder"".</div>
-<div class=""note""><strong>Note:</strong> Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, right-click the Firefox folder and rename it FirefoxOLD.</div>
-<p>When you start Firefox, a new profile will be created.
-</p></div><div class=""for"" data-for=""linux"">
-<ol><li> <strong>(Ubuntu)</strong> Click the <span class=""menu"">Places</span> menu on the top right of the screen and select <span class=""menu"">Home Folder</span>. A File Browser window will appear.
-</li><li> Click the <span class=""menu"">View</span> menu and select <span class=""menu"">Show Hidden Files</span> if it isn't already checked.
-</li><li> Double click the folder marked <span class=""filepath"">.mozilla</span>.
-</li><li> Double click the folder marked <span class=""filepath"">firefox</span>. 
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span> file.
-</li></ol>
-<div class=""note""><strong>Note:</strong> Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, rename the firefox folder to firefoxOLD.</div>
-<p>When you start Firefox, a new profile will be created.
-</p></div><div class=""for"" data-for=""mac"">
-<ol><li> Navigate to your user  <em>~/Library</em> folder:
-<ul><li> <strong>(OS X 10.6)</strong> Click the <strong>Finder</strong> icon in the dock. Your home folder will be selected, (usually the name of your Mac user account). In the right side of the window, click the Library folder to open it. 
-</li><li> <strong>(OS X 10.7 and above)</strong> Click the <strong>Finder</strong> icon in the dock. On the menu bar, click the <span class=""menu"">Go</span> menu, hold down the <span class=""key"">option</span> or <span class=""key"">alt</span> key and select <span class=""menu"">Library</span>. A window will open containing your Library folder. 
-</li></ul>
-</li><li> Click on the <span class=""filepath"">Application Support</span> folder, then go to the <span class=""filepath"">Firefox</span> folder.
-</li><li> Delete (or rename, for example, to profiles.iniOLD) the <span class=""filepath"">profiles.ini</span> file.
-</li></ol>
-<div class=""note""><strong>Note:</strong> Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, rename the Firefox folder to FirefoxOLD.</div>
-<p>When you start Firefox, a new profile will be created.
-</p></div><p>
-</p><p><br> <br>
-<em><strong>Based on information from <a href=""http://kb.mozillazine.org/Profile_cannot_be_loaded"">Profile cannot be loaded (mozillaZine KB)</a></strong></em>
-</p>",firefox,accounts;performance-and-connectivity;profiles,"If you see a ""Profile Missing"" error message that says, _Your Firefox profile cannot be loaded. It may be missing or inaccessible_ it usually means that Firefox can't find or access the profile folder. This article explains what to do if you see this error.
-
-<dl><dt>
-<img alt=""FXprofile-cannot-be-loaded"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-11-09-15-46-58-4ec2f0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-**Note:** If you see a ""Profile Missing"" error after clicking the ""Close Firefox"" button in the ""Firefox is already running but is not responding"" error dialog, click OK in the ""Profile Missing"" window and wait a few seconds before trying to start Firefox. Alternatively, either restart the computer or use the Windows Task Manager to end all Firefox processes, then try starting Firefox. For more information, see the article [""Firefox is already running but is not responding"" error - How to fix](\""https://support.mozilla.org/en-US/kb/firefox-already-running-not-responding"").
-
-## Table of Contents
-
-- [1 If you moved, renamed, or deleted your Firefox profile folder](https://support.mozilla.org/kb/how-run-firefox-when-profile-missing-inaccessible#w_if-you-moved-renamed-or-deleted-your-firefox-profile-folder)
-  - [1.1 Profile was moved or renamed](https://support.mozilla.org/kb/how-run-firefox-when-profile-missing-inaccessible#w_profile-was-moved-or-renamed)
-  - [1.2 Profile was deleted](https://support.mozilla.org/kb/how-run-firefox-when-profile-missing-inaccessible#w_profile-was-deleted)
-
-# If you moved, renamed, or deleted your Firefox profile folder
-
-Firefox stores your user data and settings in a special [profile](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"") folder and pulls information from this folder every time you start Firefox. The default profile folder location is under the %APPDATA%\Mozilla\Firefox\Profiles ~/.mozilla/firefox ~/Library/Application Support/Firefox/Profiles folder, which you can find using [these instructions](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data#w_finding-your-profile-without-opening-firefox"").
-
-## Profile was moved or renamed
-
-If you know where your profile is, try one of the following methods to help Firefox find it.
-
-- Move the profile folder back to its original location. 
-- Restore the profile's original name if you've changed it.
-- [Create a new profile using the Profile Manager](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") using the instructions to start the Profile Manager when Firefox is closed. Give it a descriptive name, click on the Choose Folder button, and then select the profile folder you moved or renamed, before you finish the _Create a new profile_ wizard.
-
-## Profile was deleted
-
-If you deleted or lost your profile folder and have no way of restoring it, use one of these methods to create a new Firefox profile:
-
-Your new profile will not contain settings or user data from your deleted or lost profile.
-
-- **Method 1: Use the Profile Manager wizard**
-
-Follow the steps in the [Profile Manager - Create, remove or switch Firefox profiles](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") article to create a new profile.
-
-- **Method 2: Manually delete the _profiles.ini_ file**
-
-If you have problems accessing the Profile Manager, you can create a new default Firefox profile by deleting the profiles.ini file, using these steps:
-
-1. Click on the Windows Start button and click on Run...
-2. Type **%appdata%** in the Run box and click OK. The hidden Application Data folder will open. 
-3. Double-click the Mozilla folder.
-4. Double-click the Firefox folder.
-5. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-1. Click the Windows Start button or press the Windows key ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the Start Menu. 
-2. Type **%appdata%** in the search box and press the Enter key. The hidden AppData\Roaming folder will open. 
-3. Double-click the Mozilla folder.
-4. Double-click the Firefox folder.
-5. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-1. From the Windows Start Screen, click the **Desktop** tile. The Desktop view will open.
-2. From the Desktop, hover in the lower right-hand corner to access the Charms.
-3. Select the Search charm. The Search sidebar will open.
-4. Type **%appdata%** in the search box and press the Enter key. The hidden AppData\Roaming folder will open.
-5. Double-click the Mozilla folder.
-6. Double-click the Firefox folder.
-7. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-1. Click on the Windows Start button or press the Windows key ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the Start Menu.
-2. Type **%appdata%** (as you type, a Windows search will start) and press the Enter key. The hidden AppData\Roaming folder will open.
-3. Double-click the Mozilla folder.
-4. Double-click the Firefox folder.
-5. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-**Note:** By default, Windows does not show the .ini file extension. The file should have an icon similar to a document with a gear on it, and a file type similar to ""Configuration settings"" or ""Application settings"". You should not delete the Profiles folder, which should have a file folder icon and a file type of ""File folder"".
-
-**Note:** Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, right-click the Firefox folder and rename it FirefoxOLD.
-
-When you start Firefox, a new profile will be created.
-
-1. **(Ubuntu)** Click the Places menu on the top right of the screen and select Home Folder. A File Browser window will appear.
-2. Click the View menu and select Show Hidden Files if it isn't already checked.
-3. Double click the folder marked .mozilla.
-4. Double click the folder marked firefox. 
-5. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-**Note:** Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, rename the firefox folder to firefoxOLD.
-
-When you start Firefox, a new profile will be created.
-
-1. Navigate to your user _~/Library_ folder:
-  - **(OS X 10.6)** Click the **Finder** icon in the dock. Your home folder will be selected, (usually the name of your Mac user account). In the right side of the window, click the Library folder to open it. 
-  - **(OS X 10.7 and above)** Click the **Finder** icon in the dock. On the menu bar, click the Go menu, hold down the option or alt key and select Library. A window will open containing your Library folder. 
-
-2. Click on the Application Support folder, then go to the Firefox folder.
-3. Delete (or rename, for example, to profiles.iniOLD) the profiles.ini file.
-
-**Note:** Instead of deleting the profiles.ini file, you can delete (or rename) the folder that contains it. For example, rename the Firefox folder to FirefoxOLD.
-
-When you start Firefox, a new profile will be created.
-
-_**Based on information from [Profile cannot be loaded (mozillaZine KB)](http://kb.mozillazine.org/Profile_cannot_be_loaded)**_
-
-"
-24356,Add the Firefox Search widget to your home screen,add-firefox-search-widget-your-home-screen,https://support.mozilla.org/en-US/kb/add-firefox-search-widget-your-home-screen,en-US,Add the Firefox widget to your home screen to search with Firefox without first launching the browser.,"<p>
-</p><p>Firefox lets you <a href=""/en-US/kb/search-firefox-instantly-android-home-screen"">search with Firefox from your Android home screen</a> without first launching the browser.
-</p><p></p><div class=""youtube-embed"">
-  <iframe src=""//www.youtube.com/embed/RVuGKdfthy8?wmode=transparent&amp;rel=0"" frameborder=""0"" allowfullscreen></iframe>
-</div>
-<p></p>
-<h1 id=""w_add-the-search-widget"">Add the search widget</h1>
-<p>On some phones, lightly pressing down on the Firefox icon will cause a menu to appear; you can use it directly to add the search widget to your home screen. If this option is unavailable to you, follow these steps:
-</p>
-<ol><li>Press down on any empty spot on your home screen.
-</li><li>Tap <span class=""menu"">Widgets</span>.
-</li><li>Find Firefox on the list, tap and hold down on the widget, and drag it to your preferred spot of your home screen.
-</li></ol>
-<dl><dt><img alt=""FxA-WidgetSizes"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-18-11-45-31-a0792c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p>If you don't want the default size, resize the search widget by pressing down on it until the edges show (or the home screen change to edit mode), then drag the edges to your preferred size.
-</p><p>
-</p>
-<h1 id=""w_use-the-search-widget"">Use the search widget</h1>
-<p>To start a search, tap the icon or search box to open the Firefox search field.
-</p><p>You can also tap the microphone to use <a href=""/en-US/kb/how-search-firefox-android-beta#w_search-by-voice"">voice search</a>.<br>Note that the microphone will only be there if it fits in the widget and you have a voice library installed.
-</p>",mobile,browse,"Firefox lets you [search with Firefox from your Android home screen](\""https://support.mozilla.org/en-US/kb/search-firefox-instantly-android-home-screen"") without first launching the browser.
-
-//www.youtube.com/embed/RVuGKdfthy8?wmode=transparent&rel=0
-
-# Add the search widget
-
-On some phones, lightly pressing down on the Firefox icon will cause a menu to appear; you can use it directly to add the search widget to your home screen. If this option is unavailable to you, follow these steps:
-
-1. Press down on any empty spot on your home screen.
-2. Tap Widgets.
-3. Find Firefox on the list, tap and hold down on the widget, and drag it to your preferred spot of your home screen.
-
-<dl><dt>
-<img alt=""FxA-WidgetSizes"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2020-08-18-11-45-31-a0792c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-If you don't want the default size, resize the search widget by pressing down on it until the edges show (or the home screen change to edit mode), then drag the edges to your preferred size.
-
-# Use the search widget
-
-To start a search, tap the icon or search box to open the Firefox search field.
-
-You can also tap the microphone to use [voice search](\""https://support.mozilla.org/en-US/kb/how-search-firefox-android-beta#w_search-by-voice"").  
-Note that the microphone will only be there if it fits in the widget and you have a voice library installed.
-
 "
