@@ -19865,448 +19865,6 @@ If you can't log in to websites after removing the cookies associated with it, c
 _**Includes information from [Websites report cookies are disabled (mozillaZine KB)](http://kb.mozillazine.org/Websites_report_cookies_are_disabled)**_
 
 "
-864,How to search the contents of the current page for text or links,search-contents-current-page-text-or-links,https://support.mozilla.org/en-US/kb/search-contents-current-page-text-or-links,en-US,"When you are viewing a web page in Firefox, you can search for words, phrases or links on the page. This article explains how it works.","<p>When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-the-find-bar""><span class=""tocnumber"">1</span> <span class=""toctext"">Using the Find bar</span></a></li><li class=""toclevel-1""><a href=""#w_quick-find""><span class=""tocnumber"">2</span> <span class=""toctext"">Quick Find</span></a><ul><li class=""toclevel-2""><a href=""#w_search-links-only""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Search links only</span></a></li><li class=""toclevel-2""><a href=""#w_find-automatically-while-typing-on-a-page""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Find automatically while typing on a page</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_keyboard-shortcuts""><span class=""tocnumber"">3</span> <span class=""toctext"">Keyboard shortcuts</span></a></li></ul></div>
-<h1 id=""w_using-the-find-bar"">Using the Find bar</h1>
-<p>To search for text on a page:
-</p>
-<ol><li>Click the menu button <img alt=""IG main menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-08-05-37-01-6bf1c5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and then click <span class=""menu"">Find in page…</span>. Alternatively, <span class=""for"" data-for=""not mac""><a href=""/en-US/kb/restore-menu-bar-firefox"">when the Menu bar is enabled</a> </span>you can click <span class=""menu"">Edit</span> and then click <span class=""menu"">Find in Page…</span> in the Menu bar, or you can press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span> on the keyboard.
-<ul><li> A Find bar will appear at the bottom of the window.
-</li></ul>
-<dl><dt><img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Type a search into the <em>Find in page</em> field. Firefox will automatically highlight the first matching result on the page as you type.
-<ul><li>If the <strong>Highlight All</strong> option is selected, all other matching results will also be highlighted in a different color.
-</li><li>The current highlighted instance number and the total match count are shown in the Find bar. If no match was found, it shows <strong>Phrase not found</strong>.
-</li></ul>
-</li><li>Click Next and Previous arrows to jump to each match on the page.
-</li><li>Click <strong>✕</strong> or press <span class=""key"">Esc</span> to close the Find bar.
-</li></ol>
-<div class=""note"">
-<p>You can enable or disable any of the following options to change the search results:
-</p>
-<ul><li> <strong>Highlight All</strong>: Highlight all terms that match the search you've entered. Click again to turn it off.
-</li><li> <strong>Match case</strong>: Make searches case-sensitive. Normally if you search for “<em>search phrase</em>”, instances of “<em>Search Phrase</em>” on the page will also be found when you use the Find bar. If this option is selected, only instances of the phrase as you've typed it will be found.
-</li><li> <strong>Match <a href=""https://wikipedia.org/wiki/Diacritic"">Diacritics</a></strong>: When this option is selected the search will distinguish between accented letters and their base letters. For example, the search for “<em>résumé</em>” will not find a match for “<em>resume</em>”.
-</li><li> <strong>Whole Words</strong>: This highlights only entire words that match your search.
-</li></ul>
-</div>
-<h1 id=""w_quick-find"">Quick Find</h1>
-<p>The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
-</p><p>Press the <span class=""key"">/</span> key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
-</p><p>The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button (✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
-</p><p>To close the Quick Find bar, wait a few moments for it to disappear, or press the <span class=""key"">Esc</span> key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
-</p>
-<h2 id=""w_search-links-only"">Search links only</h2>
-<p>If you want to find only phrases that occur in links on the page you're viewing:
-</p>
-<ol><li> Type <span class=""key"">'</span> (single quote character) while not into a text field to bring up the Quick Find (links only) bar.
-</li><li> Type a search phrase into the Quick Find (links only) field. The first link that contains the phrase you've typed will be selected.
-</li></ol>
-<h2 id=""w_find-automatically-while-typing-on-a-page"">Find automatically while typing on a page</h2>
-<p>Firefox can start searching for phrases you enter without having to open a Find bar first. To enable this feature:
-</p>
-<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li> In the <span class=""menu"">General</span> panel, go down to the <em>Browsing</em> section.
-</li><li> Check mark <strong>Search for text when you start typing</strong>.
-</li><li> Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
-
-</li></ol>
-<p>After you enable this feature, the Quick Find bar will automatically show up when you type inside a website while not into a text field.
-</p>
-<h1 id=""w_keyboard-shortcuts"">Keyboard shortcuts</h1>
-<ul><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">F</span> to show the Find bar.
-</li><li>Press <span class=""key"">/</span> to show the Quick Find bar while not into a text field.
-</li><li>Press <span class=""key"">'</span> to show the Quick Find (links only) bar while not into a text field.
-</li><li>Press <span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">F3</span> to highlight the next instance of your search phrase or link, even if no Find bar is visible.
-</li><li>Press <span class=""key"">Shift</span>+<span class=""for"" data-for=""win,linux""><span class=""key"">Ctrl</span></span><span class=""for"" data-for=""mac""><span class=""key"">Command</span></span>+<span class=""key"">G</span> or <span class=""key"">Shift</span>+<span class=""key"">F3</span> to highlight the previous one.
-</li><li>Press <span class=""key"">Esc</span> to close the current visible Find bar while the focus is on it, and cancel highlighting.
-</li></ul>",firefox,browse;search;search-tag-and-share,"When you are viewing a web page in Firefox, you can search for words and phrases on the page. Firefox will show you where the search phrase you've typed appears next on the page and lets you highlight all of the places where it appears.
-
-## Table of Contents
-
-- [1 Using the Find bar](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_using-the-find-bar)
-- [2 Quick Find](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_quick-find)
-  - [2.1 Search links only](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_search-links-only)
-  - [2.2 Find automatically while typing on a page](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_find-automatically-while-typing-on-a-page)
-
-- [3 Keyboard shortcuts](https://support.mozilla.org/kb/search-contents-current-page-text-or-links#w_keyboard-shortcuts)
-
-# Using the Find bar
-
-To search for text on a page:
-
-1. Click the menu button ![IG main menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and then click Find in page…. Alternatively, [when the Menu bar is enabled](\""https://support.mozilla.org/en-US/kb/restore-menu-bar-firefox"") you can click Edit and then click Find in Page… in the Menu bar, or you can press CtrlCommand+F on the keyboard.
-  - A Find bar will appear at the bottom of the window.
-
-<dl><dt>
-<img alt=""Fx149FindBar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-03-05-53-08-a673dd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Type a search into the _Find in page_ field. Firefox will automatically highlight the first matching result on the page as you type.
-  - If the **Highlight All** option is selected, all other matching results will also be highlighted in a different color.
-  - The current highlighted instance number and the total match count are shown in the Find bar. If no match was found, it shows **Phrase not found**.
-
-3. Click Next and Previous arrows to jump to each match on the page.
-4. Click **✕** or press Esc to close the Find bar.
-
-You can enable or disable any of the following options to change the search results:
-
-- **Highlight All** : Highlight all terms that match the search you've entered. Click again to turn it off.
-- **Match case** : Make searches case-sensitive. Normally if you search for “_search phrase_”, instances of “_Search Phrase_” on the page will also be found when you use the Find bar. If this option is selected, only instances of the phrase as you've typed it will be found.
-- **Match [Diacritics](https://wikipedia.org/wiki/Diacritic)**: When this option is selected the search will distinguish between accented letters and their base letters. For example, the search for “_résumé_” will not find a match for “_resume_”.
-- **Whole Words** : This highlights only entire words that match your search.
-
-# Quick Find
-
-The Quick Find bar is useful for quick searches and is meant to disappear after a few moments.
-
-Press the / key (forward slash character) while not into a text field to open the Quick Find bar, then type what you would like to search for.
-
-The Quick Find bar does not have all the Find bar controls and options, just the find field and the close button&nbsp;(✕), but the search follows the options selected on the full Find bar. Selected options will be indicated next to the find field.
-
-To close the Quick Find bar, wait a few moments for it to disappear, or press the Esc key on the keyboard to close it immediately. You can also click somewhere in Firefox that is not part of the Quick Find bar to close it.
-
-## Search links only
-
-If you want to find only phrases that occur in links on the page you're viewing:
-
-1. Type ' (single quote character) while not into a text field to bring up the Quick Find (links only) bar.
-2. Type a search phrase into the Quick Find (links only) field. The first link that contains the phrase you've typed will be selected.
-
-## Find automatically while typing on a page
-
-Firefox can start searching for phrases you enter without having to open a Find bar first. To enable this feature:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. In the General panel, go down to the _Browsing_ section.
-3. Check mark **Search for text when you start typing**.
-4. Close the Settings page. Any changes you've made will automatically be saved.
-
-After you enable this feature, the Quick Find bar will automatically show up when you type inside a website while not into a text field.
-
-# Keyboard shortcuts
-
-- Press CtrlCommand+F to show the Find bar.
-- Press / to show the Quick Find bar while not into a text field.
-- Press ' to show the Quick Find (links only) bar while not into a text field.
-- Press CtrlCommand+G or F3 to highlight the next instance of your search phrase or link, even if no Find bar is visible.
-- Press Shift+CtrlCommand+G or Shift+F3 to highlight the previous one.
-- Press Esc to close the current visible Find bar while the focus is on it, and cancel highlighting.
-
-"
-867,Use the Troubleshooting Information page to help fix Firefox issues,use-troubleshooting-information-page-fix-firefox,https://support.mozilla.org/en-US/kb/use-troubleshooting-information-page-fix-firefox,en-US,"The Troubleshooting Information page has tools and details about your Firefox installation, that can help you solve problems with Firefox.","<p>Firefox includes a <em>Troubleshooting Information</em> page with some problem-solving tools, details about your Firefox installation and other technical data, such as any installed extensions, important modified preferences and graphics information. If you are <a href=""/en-US/kb/get-community-support"">getting help on the support forum</a>, content you provide from this page can help resolve your Firefox issue.
-</p><p><strong>To access the Troubleshooting Information page:</strong> Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""menu"">Help</span>, and select <span class=""menu"">More Troubleshooting Information</span>. You will be taken to a page with the address <em>about:support</em>. You can also access this page by entering <strong>about:support</strong> into the address bar.
-</p><p><img alt=""Fx110-aboutsupport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-10-15-36-24-a4fe2e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_give-firefox-a-tune-up""><span class=""tocnumber"">1</span> <span class=""toctext"">Give Firefox a tune up</span></a></li><li class=""toclevel-1""><a href=""#w_diagnose-issues""><span class=""tocnumber"">2</span> <span class=""toctext"">Diagnose issues</span></a></li><li class=""toclevel-1""><a href=""#w_try-clearing-the-startup-cache""><span class=""tocnumber"">3</span> <span class=""toctext"">Try clearing the startup cache</span></a></li><li class=""toclevel-1""><a href=""#w_copy-to-clipboard""><span class=""tocnumber"">4</span> <span class=""toctext"">Copy to clipboard</span></a></li><li class=""toclevel-1""><a href=""#w_application-basics""><span class=""tocnumber"">5</span> <span class=""toctext"">Application Basics</span></a></li><li class=""toclevel-1""><a href=""#w_crash-reports-for-the-last-3-days""><span class=""tocnumber"">6</span> <span class=""toctext"">Crash Reports for the Last 3 Days</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-features""><span class=""tocnumber"">7</span> <span class=""toctext"">Firefox Features</span></a></li><li class=""toclevel-1""><a href=""#w_add-ons""><span class=""tocnumber"">8</span> <span class=""toctext"">Add-ons</span></a></li><li class=""toclevel-1""><a href=""#w_security-software""><span class=""tocnumber"">9</span> <span class=""toctext"">Security Software</span></a></li><li class=""toclevel-1""><a href=""#w_graphics""><span class=""tocnumber"">10</span> <span class=""toctext"">Graphics</span></a></li><li class=""toclevel-1""><a href=""#w_media""><span class=""tocnumber"">11</span> <span class=""toctext"">Media</span></a></li><li class=""toclevel-1""><a href=""#w_environment-variables""><span class=""tocnumber"">12</span> <span class=""toctext"">Environment Variables</span></a></li><li class=""toclevel-1""><a href=""#w_experimental-features""><span class=""tocnumber"">13</span> <span class=""toctext"">Experimental Features</span></a></li><li class=""toclevel-1""><a href=""#w_important-modified-preferences""><span class=""tocnumber"">14</span> <span class=""toctext"">Important Modified Preferences</span></a></li><li class=""toclevel-1""><a href=""#w_important-locked-preferences""><span class=""tocnumber"">15</span> <span class=""toctext"">Important Locked Preferences</span></a></li><li class=""toclevel-1""><a href=""#w_places-database""><span class=""tocnumber"">16</span> <span class=""toctext"">Places Database</span></a></li><li class=""toclevel-1""><a href=""#w_accessibility""><span class=""tocnumber"">17</span> <span class=""toctext"">Accessibility</span></a></li><li class=""toclevel-1""><a href=""#w_library-versions""><span class=""tocnumber"">18</span> <span class=""toctext"">Library Versions</span></a></li><li class=""toclevel-1""><a href=""#w_sandbox""><span class=""tocnumber"">19</span> <span class=""toctext"">Sandbox</span></a></li><li class=""toclevel-1""><a href=""#w_internationalization-localization""><span class=""tocnumber"">20</span> <span class=""toctext"">Internationalization &amp; Localization</span></a></li><li class=""toclevel-1""><a href=""#w_printing""><span class=""tocnumber"">21</span> <span class=""toctext"">Printing</span></a></li><li class=""toclevel-1""><a href=""#w_modified-print-settings""><span class=""tocnumber"">22</span> <span class=""toctext"">Modified print settings</span></a></li></ul></div>
-<h1 id=""w_give-firefox-a-tune-up"">Give Firefox a tune up</h1>
-<p>The <a href=""/en-US/kb/refresh-firefox-reset-add-ons-and-settings"">Refresh Firefox feature</a> can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
-
-</p>
-<h1 id=""w_diagnose-issues"">Diagnose issues</h1>
-<p>You can restart Firefox in Troubleshoot Mode to temporarily turn off hardware acceleration, reset some settings, and disable add-ons (extensions and themes) that might be causing problems. See <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Use Troubleshoot Mode in Firefox</a> for more information.
-</p>
-<h1 id=""w_try-clearing-the-startup-cache"">Try clearing the startup cache</h1>
-<p>Firefox stores certain temporary data in a startup cache to improve startup speed. Clearing the startup cache and then restarting Firefox can sometimes fix various issues, such as mixed languages in the user interface after an update. This will not change your profile data or add-ons.
-</p>
-<h1 id=""w_copy-to-clipboard"">Copy to clipboard</h1>
-<p>You can copy the contents of this page to the <span class=""for"" data-for=""win"">Windows clipboard</span><span class=""for"" data-for=""mac"">Mac clipboard</span><span class=""for"" data-for=""linux"">clipboard</span>.
-Clicking the <span class=""button"">Copy raw data to clipboard</span> button will copy the source data in <em>Json format</em>. Clicking the <span class=""button"">Copy text to clipboard</span> button will copy a version of the same data in <em>report format</em> for further use. (For privacy reasons, the <a href=""#w_application-basics"">Application Basics</a> <span class=""for"" data-for=""win,mac""><strong>Profile Folder</strong></span><span class=""for"" data-for=""linux""><strong>Profile Directory</strong></span> line will not be copied.)
-</p><p>After copying, you can paste the information into another window for someone to see by clicking the <span class=""menu"">Edit</span> menu in the program you are using and then selecting <span class=""menu"">Paste</span> (or by holding down the <span class=""key""><span class=""for"" data-for=""win,linux"">Ctrl</span><span class=""for"" data-for=""mac"">Command</span></span> key and pressing <span class=""key"">V</span>).
-</p>
-<h1 id=""w_application-basics"">Application Basics</h1>
-<ul><li> <strong>Name</strong>: Tells you the name of the product you are using. In most cases, it should say “Firefox”.
-</li><li> <strong>Version</strong>: Tells you which version number of Firefox you are using.
-</li><li> <strong>Build ID</strong>: The code created automatically to identify the unique environment in which this Firefox installation was built.
-</li></ul>
-<div class=""for"" data-for=""mac,winxp,win7,win8"">
-<ul><li> <strong>Distribution ID</strong>: This field will appear blank to non-Linux users.
-</li></ul>
-</div><div class=""for"" data-for=""win10,win11"">
-<ul><li> <strong>Distribution ID</strong>: This field will contain <em>mozilla-MSIX</em> if you are using the MSIX (Microsoft Store) version of Firefox. Otherwise, this field will be blank.
-</li></ul>
-</div><div class=""for"" data-for=""linux"">
-<ul><li> <strong>Distribution ID</strong>: Tells you the name of the Linux distribution (such as Ubuntu, Arch or OpenSuse).
-</li><li> If Firefox was installed manually, instead of through your Linux distribution Package Manager, you will see the following update information:
-</li></ul>
-<dl><dt><ul><li> <strong>Update Directory</strong>: Shows the path to the directory containing the files <span class=""filepath"">update-config.json</span>, <span class=""filepath"">updates.xml</span>, <span class=""filepath"">active-update.xml</span> (if an update was downloaded but not yet applied) and the <span class=""filepath"">updates</span> subdirectory. Clicking <span class=""button"">Open Directory</span> will take you to the update directory.
-</li><li> <strong>Update History</strong>: Clicking <span class=""button"">Show Update History</span> will open a window showing a history of Firefox updates that have been installed.
-</li><li> <strong>Update Channel</strong>: The <a href=""https://wiki.mozilla.org/Software_Update:Channels"">Update Channel</a> is based on whether your <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">version of Firefox</a> is the standard release, an Extended Support Release (<a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>), or a pre-release such as Beta, Developer Edition or Nightly.
-</li></ul>
-</dt></dl>
-</div><div class=""for"" data-for=""win,mac"">
-<ul><li> <strong>Update Folder</strong>: Shows the path to the folder containing the files <span class=""filepath"">update-config.json</span>, <span class=""filepath"">updates.xml</span>, <span class=""filepath"">active-update.xml</span> (if an update was downloaded but not yet applied) and the <span class=""filepath"">updates</span> subfolder. Clicking <span class=""button"">Open Folder</span> will take you to the update folder.
-</li><li> <strong>Update History</strong>: Clicking <span class=""button"">Show Update History</span> will open a window showing a history of Firefox updates that have been installed.
-</li><li> <strong>Update Channel</strong>: The <a href=""https://wiki.mozilla.org/Software_Update:Channels"">Update Channel</a> is based on whether your <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">version of Firefox</a> is the standard release, an Extended Support Release (<a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>), or a pre-release such as Beta, Developer Edition or Nightly.
-</li></ul>
-</div>
-<ul><li> <strong>User Agent</strong>: In addition to your browser and its version number, the User Agent provides other details about your system, such as the operating system and version.
-</li><li> <strong>OS</strong>: Shows your operating system.
-</li><li> <strong>Application Binary</strong>: Shows where Firefox is installed.
-</li></ul>
-<div class=""for"" data-for=""linux"">
-<ul><li> <strong>Profile Directory</strong>: Your profile directory is a location on your computer where Firefox stores your personal information such as bookmarks, passwords, and user preferences. Clicking <span class=""button"">Open Directory</span> will take you to your profile directory, where you can manage your files. For more information, see <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Profiles - Where Firefox stores your bookmarks, passwords and other user data</a>.
-</li></ul>
-</div><div class=""for"" data-for=""win,mac"">
-<ul><li> <strong>Profile Folder</strong>: Your profile folder is a location on your computer where Firefox stores your personal information such as bookmarks, passwords and user preferences. Clicking <span class=""for"" data-for=""win""><span class=""button"">Open Folder</span></span><span class=""for"" data-for=""mac""><span class=""button"">Show in Finder</span></span> will take you to your profile folder, where you can manage your files.<span class=""for"" data-for=""win10,win11""> If you use the MSIX (Microsoft Store) version of Firefox, a <em>Location is not available</em> error may display instead.</span> For more information, see <a href=""/en-US/kb/profiles-where-firefox-stores-user-data"">Profiles - Where Firefox stores your bookmarks, passwords and other user data</a>.
-</li></ul>
-</div><div class=""for"" data-for=""not fx121"">
-<ul><li> <strong>Enabled Plugins</strong>: Clicking <em>about:plugins</em> will take you to a page that lists your installed plugins. For more information, see <a href=""/en-US/kb/enable-drm"">Watch DRM content on Firefox</a>.
-</li></ul>
-</div>
-<ul><li> <strong>Build Configuration</strong>: Clicking <em>about:buildconfig</em> will take you to a page that will help someone understand if you are using a standard version of Firefox or a custom version.
-</li><li> <strong>Memory Use</strong>: Clicking <em>about:memory</em> will take you to a page that shows memory usage. For more information, see <a href=""https://blog.mozilla.org/nnethercote/2013/04/26/recent-aboutmemory-improvements/"">this blog post</a>.
-</li><li> <strong>Performance</strong>: Clicking <em>about:processes</em> will take you to the <em>Process Manager</em> page. For more information, see <a href=""/en-US/kb/task-manager-tabs-or-extensions-are-slowing-firefox"">Task Manager - see whether tabs or extensions are slowing down Firefox</a>.
-</li><li> <strong>Registered Service Workers</strong>: Clicking <em>about:serviceworkers</em> will show you whether or not the <a href=""https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"">Service Workers</a> feature is enabled and if any current Worker URLs are registered. Service workers are used for web enhancements such as <a href=""/en-US/kb/push-notifications-firefox"">push notifications</a>.
-</li></ul>
-<div class=""for"" data-for=""win"">
-<ul><li><strong>Third-party Modules</strong>: Clicking <em>about:third-party</em> will take you to a page with information about any modules that have been injected into Firefox by third-party applications. To learn more, see <a href=""/en-US/kb/identify-problems-third-party-modules-firefox-windows"">this article</a>.
-</li><li> <strong>Launcher Process</strong>: This shows the status of the security-related <a href=""https://wiki.mozilla.org/Platform/Integration/InjectEject/Launcher_Process/"">Launcher Process</a> for Firefox on Windows (enabled by default). For more information, see <a href=""/en-US/kb/windows-administrator-launcher-process-error-fix"">this article</a>.
-</li></ul>
-</div>
-<ul><li> <strong>Multiprocess Windows</strong>: This shows you the number of <a href=""http://billmccloskey.wordpress.com/2013/12/05/multiprocess-firefox/"">Multiprocess Firefox</a> windows (if any) and the total number of windows that are open.
-</li><li> <strong>Fission Windows</strong>: This shows you the number of <a href=""https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture/"">Site Isolation (Fission)</a> windows (if any), the total number of windows that are open and the reason this feature is enabled or disabled. For example, when Firefox is in <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Troubleshoot Mode</a> and one window is open, the entry will show <em>0/1 Disabled by safe mode</em>.
-</li></ul>
-<p>
-</p>
-<ul><li> <strong>Enterprise Policies</strong>: This shows you if your browser is being managed by <a href=""/en-US/kb/customizing-firefox-using-group-policy-windows"">Windows Group Policy</a> or a <a href=""/en-US/kb/customizing-firefox-using-policiesjson"">policies.json file</a>. If enterprise policies are managing Firefox, clicking <em>Active</em> will show you a list of the policies that are currently active on Firefox.
-</li></ul>
-<p>
-
-
-</p>
-<ul><li> <strong>Safe Mode</strong>: This tells you whether or not Firefox is currently in <a href=""/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"">Troubleshoot Mode</a>.
-</li><li> <strong>Profiles</strong>: Clicking <em>about:profiles</em> will take you to the <a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">Profile Manager</a>.
-</li></ul>
-<h1 id=""w_crash-reports-for-the-last-3-days"">Crash Reports for the Last 3 Days</h1>
-<p>This section lists crash Report IDs, if any, submitted by the <a href=""/en-US/kb/mozillacrashreporter"">Mozilla Crash Reporter</a> during the last three days. Clicking one of the <em>Report ID</em> links will take you to a web page with details about that crash. Clicking the <em>All Crash Reports</em> link will take you to the <em>about:crashes</em> page listing all submitted crash reports. To get help with crashes, see <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Troubleshoot Firefox crashes (closing or quitting unexpectedly)</a>.
-</p>
-<h1 id=""w_firefox-features"">Firefox Features</h1>
-<p>Some features included in Firefox, such as <a href=""/en-US/kb/take-screenshots-firefox"">Screenshots</a>, are installed as extensions so that they can be updated separately from Firefox. These extensions (sometimes called <em>system add-ons</em>) are not listed in the Add-ons Manager.
-</p><p>
-</p><p>
-</p>
-<h1 id=""w_add-ons"">Add-ons</h1>
-<p><a href=""/en-US/kb/find-and-install-add-ons-add-features-to-firefox"">Extensions</a> are Firefox add-ons that provide additional functionality to Firefox. This section lists the name of each extension, its version, whether it is enabled and its ID string. For more information about troubleshooting extensions you have installed, see <a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>.
-</p><div class=""for"" data-for=""win11,win10,win8"">
-<h1 id=""w_security-software"">Security Software</h1>
-<p>This section displays information about the security software installed on your computer. This includes most antivirus and antispyware software, as well as your firewall. Not having security software installed on your system can leave your system vulnerable. For more information about troubleshooting issues that may be caused by malware, see <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a>.
-</p></div>
-<h1 id=""w_graphics"">Graphics</h1>
-<p>Firefox can use your computer's graphics processor to speed up the display of some pages with video and animation, which is called <a href=""https://en.wikipedia.org/wiki/Hardware_acceleration"">hardware acceleration</a>, and to display <a href=""http://en.wikipedia.org/wiki/WebGL"">WebGL</a> content. This section <span class=""for"" data-for=""win"">provides information about your computer's graphics device and driver, and</span> will tell you whether hardware acceleration and WebGL are enabled or not in Firefox. Note that graphics features may be disabled because of outdated graphics drivers. For help updating your graphics drivers, see <a href=""/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"">Upgrade your graphics drivers to use hardware acceleration and WebGL</a>.
-</p>
-<h1 id=""w_media"">Media</h1>
-<p>This section displays information about your system audio. The displayed information will include your operating system's preferred audio settings, as well as the audio input (such as microphones) and output (such as speakers or headphones) devices. From here, you can also see the state of each device and some information about the audio format settings. For more information on fixing audio issues in Firefox, see <a href=""/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"">What to do if Firefox won't play any sounds</a><span class=""for"" data-for=""fx121""> and <a href=""/en-US/kb/enable-drm"">Watch DRM content on Firefox</a></span>.
-</p>
-<h1 id=""w_environment-variables"">Environment Variables</h1>
-<p>In this section, you will see <a href=""https://wikipedia.org/wiki/Environment_variable"">environment variables</a> utilized by Firefox and their values, such as the <code>MOZ_CRASHREPORTER_DATA_DIRECTORY</code> variable that shows where crash report data is stored on your computer. Other environment variables, if set, can change how Firefox behaves. For example, Firefox downgrade protection can be bypassed by setting the environment variable <code>MOZ_ALLOW_DOWNGRADE</code>, as described in <a href=""/en-US/kb/understanding-depth-profile-installation"">this Firefox for Enterprise article</a>.
-</p>
-<h1 id=""w_experimental-features"">Experimental Features</h1>
-<p>This section shows whether features that are considered experimental are enabled or disabled. These features may be enabled in Firefox Beta, Developer Edition and Nightly but, in most cases, will be disabled by default in release versions.
-</p><p>
-</p>
-<h1 id=""w_important-modified-preferences"">Important Modified Preferences</h1>
-<p>In this section, you will see a list of settings that have been changed from their defaults. This information will help someone know how you have adjusted your installation of Firefox. For instructions on how to reset preferences to default, see <a href=""/en-US/kb/reset-preferences-fix-problems"">Reset Firefox preferences to troubleshoot and fix problems</a>.
-</p>
-<h1 id=""w_important-locked-preferences"">Important Locked Preferences</h1>
-<p>In Firefox, it's possible to lock certain preferences so that they cannot be changed by the end user. This is common in enterprise environments. For more information about locking preferences, see the <a href=""/en-US/kb/customizing-firefox-using-autoconfig"">Customize Firefox using AutoConfig</a> documentation.
-</p>
-<h1 id=""w_places-database"">Places Database</h1>
-<p>Firefox periodically performs maintenance tasks on your bookmarks and history database (also known as Places database). Use the <span class=""button"">Verify Integrity</span> button to perform those tasks on-demand. If you're having any problems with bookmarks and history, the Verify Integrity tool <em>might</em> help.
-</p>
-<h1 id=""w_accessibility"">Accessibility</h1>
-<p>This section shows if you have accessibility software enabled in Firefox.
-</p>
-<h1 id=""w_library-versions"">Library Versions</h1>
-<p>This section tells you which versions of some runtime libraries are used.
-</p>
-<h1 id=""w_sandbox"">Sandbox</h1>
-<p>For security and performance purposes, Mozilla created Project Electrolysis (often referred to as e10s) to implement a practice called sandboxing into Firefox. This ensures that web content is run in a separate process from the main Firefox program. This section of the troubleshooting information shows details about the sandbox security levels. See <a href=""https://wiki.mozilla.org/Security/Sandbox"">the Sandbox page on the Mozilla Wiki</a> for more information on sandboxing in Firefox.
-</p><p>
-</p>
-<h1 id=""w_internationalization-localization"">Internationalization &amp; Localization</h1>
-<p>This section shows information about the language and regional preferences in Firefox and your operating system. For information about using Firefox language packs, see <a href=""/en-US/kb/use-firefox-another-language"">Use Firefox in another language</a>.
-</p><p>
-</p>
-<h1 id=""w_printing"">Printing</h1>
-<p>The <span class=""button"">Clear saved print settings</span> button in this section allows you to reset all modified print preferences. This <em>might</em> help <a href=""/en-US/kb/fix-printing-problems-firefox"">fix printing problems in Firefox</a>.
-</p>
-<h1 id=""w_modified-print-settings"">Modified print settings</h1>
-<p>This section lists modified print preferences.
-</p>",firefox,performance-and-connectivity,"Firefox includes a _Troubleshooting Information_ page with some problem-solving tools, details about your Firefox installation and other technical data, such as any installed extensions, important modified preferences and graphics information. If you are [getting help on the support forum](\""https://support.mozilla.org/en-US/kb/get-community-support""), content you provide from this page can help resolve your Firefox issue.
-
-**To access the Troubleshooting Information page:** Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Help, and select More Troubleshooting Information. You will be taken to a page with the address _about:support_. You can also access this page by entering **about:support** into the address bar.
-
-![Fx110-aboutsupport](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Table of Contents
-
-- [1 Give Firefox a tune up](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_give-firefox-a-tune-up)
-- [2 Diagnose issues](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_diagnose-issues)
-- [3 Try clearing the startup cache](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_try-clearing-the-startup-cache)
-- [4 Copy to clipboard](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_copy-to-clipboard)
-- [5 Application Basics](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_application-basics)
-- [6 Crash Reports for the Last 3 Days](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_crash-reports-for-the-last-3-days)
-- [7 Firefox Features](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_firefox-features)
-- [8 Add-ons](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_add-ons)
-- [9 Security Software](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_security-software)
-- [10 Graphics](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_graphics)
-- [11 Media](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_media)
-- [12 Environment Variables](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_environment-variables)
-- [13 Experimental Features](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_experimental-features)
-- [14 Important Modified Preferences](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_important-modified-preferences)
-- [15 Important Locked Preferences](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_important-locked-preferences)
-- [16 Places Database](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_places-database)
-- [17 Accessibility](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_accessibility)
-- [18 Library Versions](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_library-versions)
-- [19 Sandbox](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_sandbox)
-- [20 Internationalization & Localization](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_internationalization-localization)
-- [21 Printing](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_printing)
-- [22 Modified print settings](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_modified-print-settings)
-
-# Give Firefox a tune up
-
-The [Refresh Firefox feature](\""https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings"") can fix many issues by restoring Firefox to its default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.
-
-# Diagnose issues
-
-You can restart Firefox in Troubleshoot Mode to temporarily turn off hardware acceleration, reset some settings, and disable add-ons (extensions and themes) that might be causing problems. See [Use Troubleshoot Mode in Firefox](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"") for more information.
-
-# Try clearing the startup cache
-
-Firefox stores certain temporary data in a startup cache to improve startup speed. Clearing the startup cache and then restarting Firefox can sometimes fix various issues, such as mixed languages in the user interface after an update. This will not change your profile data or add-ons.
-
-# Copy to clipboard
-
-You can copy the contents of this page to the Windows clipboardMac clipboardclipboard. Clicking the Copy raw data to clipboard button will copy the source data in _Json format_. Clicking the Copy text to clipboard button will copy a version of the same data in _report format_ for further use. (For privacy reasons, the [Application Basics](https://support.mozilla.org/kb/use-troubleshooting-information-page-fix-firefox#w_application-basics) **Profile Folder**** Profile Directory** line will not be copied.)
-
-After copying, you can paste the information into another window for someone to see by clicking the Edit menu in the program you are using and then selecting Paste (or by holding down the CtrlCommand key and pressing V).
-
-# Application Basics
-
-- **Name** : Tells you the name of the product you are using. In most cases, it should say “Firefox”.
-- **Version** : Tells you which version number of Firefox you are using.
-- **Build ID** : The code created automatically to identify the unique environment in which this Firefox installation was built.
-
-- **Distribution ID** : This field will appear blank to non-Linux users.
-
-- **Distribution ID** : This field will contain _mozilla-MSIX_ if you are using the MSIX (Microsoft Store) version of Firefox. Otherwise, this field will be blank.
-
-- **Distribution ID** : Tells you the name of the Linux distribution (such as Ubuntu, Arch or OpenSuse).
-- If Firefox was installed manually, instead of through your Linux distribution Package Manager, you will see the following update information:
-
-<dl><dt>
-<ul>
-<li> <strong>Update Directory</strong>: Shows the path to the directory containing the files <span class=""filepath"">update-config.json</span>, <span class=""filepath"">updates.xml</span>, <span class=""filepath"">active-update.xml</span> (if an update was downloaded but not yet applied) and the <span class=""filepath"">updates</span> subdirectory. Clicking <span class=""button"">Open Directory</span> will take you to the update directory.
-</li>
-<li> <strong>Update History</strong>: Clicking <span class=""button"">Show Update History</span> will open a window showing a history of Firefox updates that have been installed.
-</li>
-<li> <strong>Update Channel</strong>: The <a href=""https://wiki.mozilla.org/Software_Update:Channels"">Update Channel</a> is based on whether your <a href='\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using""'>version of Firefox</a> is the standard release, an Extended Support Release (<a href='\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle""'>ESR</a>), or a pre-release such as Beta, Developer Edition or Nightly.
-</li>
-</ul>
-</dt></dl>
-
-- **Update Folder** : Shows the path to the folder containing the files update-config.json, updates.xml, active-update.xml (if an update was downloaded but not yet applied) and the updates subfolder. Clicking Open Folder will take you to the update folder.
-- **Update History** : Clicking Show Update History will open a window showing a history of Firefox updates that have been installed.
-- **Update Channel** : The [Update Channel](https://wiki.mozilla.org/Software_Update:Channels) is based on whether your [version of Firefox](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") is the standard release, an Extended Support Release ([ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"")), or a pre-release such as Beta, Developer Edition or Nightly.
-
-- **User Agent** : In addition to your browser and its version number, the User Agent provides other details about your system, such as the operating system and version.
-- **OS** : Shows your operating system.
-- **Application Binary** : Shows where Firefox is installed.
-
-- **Profile Directory** : Your profile directory is a location on your computer where Firefox stores your personal information such as bookmarks, passwords, and user preferences. Clicking Open Directory will take you to your profile directory, where you can manage your files. For more information, see [Profiles - Where Firefox stores your bookmarks, passwords and other user data](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"").
-
-- **Profile Folder** : Your profile folder is a location on your computer where Firefox stores your personal information such as bookmarks, passwords and user preferences. Clicking Open FolderShow in Finder will take you to your profile folder, where you can manage your files. If you use the MSIX (Microsoft Store) version of Firefox, a _Location is not available_ error may display instead. For more information, see [Profiles - Where Firefox stores your bookmarks, passwords and other user data](\""https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data"").
-
-- **Enabled Plugins** : Clicking _about:plugins_ will take you to a page that lists your installed plugins. For more information, see [Watch DRM content on Firefox](\""https://support.mozilla.org/en-US/kb/enable-drm"").
-
-- **Build Configuration** : Clicking _about:buildconfig_ will take you to a page that will help someone understand if you are using a standard version of Firefox or a custom version.
-- **Memory Use** : Clicking _about:memory_ will take you to a page that shows memory usage. For more information, see [this blog post](https://blog.mozilla.org/nnethercote/2013/04/26/recent-aboutmemory-improvements/).
-- **Performance** : Clicking _about:processes_ will take you to the _Process Manager_ page. For more information, see [Task Manager - see whether tabs or extensions are slowing down Firefox](\""https://support.mozilla.org/en-US/kb/task-manager-tabs-or-extensions-are-slowing-firefox"").
-- **Registered Service Workers** : Clicking _about:serviceworkers_ will show you whether or not the [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) feature is enabled and if any current Worker URLs are registered. Service workers are used for web enhancements such as [push notifications](\""https://support.mozilla.org/en-US/kb/push-notifications-firefox"").
-
-- **Third-party Modules** : Clicking _about:third-party_ will take you to a page with information about any modules that have been injected into Firefox by third-party applications. To learn more, see [this article](\""https://support.mozilla.org/en-US/kb/identify-problems-third-party-modules-firefox-windows"").
-- **Launcher Process** : This shows the status of the security-related [Launcher Process](https://wiki.mozilla.org/Platform/Integration/InjectEject/Launcher_Process/) for Firefox on Windows (enabled by default). For more information, see [this article](\""https://support.mozilla.org/en-US/kb/windows-administrator-launcher-process-error-fix"").
-
-- **Multiprocess Windows** : This shows you the number of [Multiprocess Firefox](http://billmccloskey.wordpress.com/2013/12/05/multiprocess-firefox/) windows (if any) and the total number of windows that are open.
-- **Fission Windows** : This shows you the number of [Site Isolation (Fission)](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture/) windows (if any), the total number of windows that are open and the reason this feature is enabled or disabled. For example, when Firefox is in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"") and one window is open, the entry will show _0/1 Disabled by safe mode_.
-
-- **Enterprise Policies** : This shows you if your browser is being managed by [Windows Group Policy](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-group-policy-windows"") or a [policies.json file](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-policiesjson""). If enterprise policies are managing Firefox, clicking _Active_ will show you a list of the policies that are currently active on Firefox.
-
-- **Safe Mode** : This tells you whether or not Firefox is currently in [Troubleshoot Mode](\""https://support.mozilla.org/en-US/kb/diagnose-firefox-issues-using-troubleshoot-mode"").
-- **Profiles** : Clicking _about:profiles_ will take you to the [Profile Manager](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"").
-
-# Crash Reports for the Last 3 Days
-
-This section lists crash Report IDs, if any, submitted by the [Mozilla Crash Reporter](\""https://support.mozilla.org/en-US/kb/mozillacrashreporter"") during the last three days. Clicking one of the _Report ID_ links will take you to a web page with details about that crash. Clicking the _All Crash Reports_ link will take you to the _about:crashes_ page listing all submitted crash reports. To get help with crashes, see [Troubleshoot Firefox crashes (closing or quitting unexpectedly)](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"").
-
-# Firefox Features
-
-Some features included in Firefox, such as [Screenshots](\""https://support.mozilla.org/en-US/kb/take-screenshots-firefox""), are installed as extensions so that they can be updated separately from Firefox. These extensions (sometimes called _system add-ons_) are not listed in the Add-ons Manager.
-
-# Add-ons
-
-[Extensions](\""https://support.mozilla.org/en-US/kb/find-and-install-add-ons-add-features-to-firefox"") are Firefox add-ons that provide additional functionality to Firefox. This section lists the name of each extension, its version, whether it is enabled and its ID string. For more information about troubleshooting extensions you have installed, see [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"").
-
-# Security Software
-
-This section displays information about the security software installed on your computer. This includes most antivirus and antispyware software, as well as your firewall. Not having security software installed on your system can leave your system vulnerable. For more information about troubleshooting issues that may be caused by malware, see [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"").
-
-# Graphics
-
-Firefox can use your computer's graphics processor to speed up the display of some pages with video and animation, which is called [hardware acceleration](https://en.wikipedia.org/wiki/Hardware_acceleration), and to display [WebGL](http://en.wikipedia.org/wiki/WebGL) content. This section provides information about your computer's graphics device and driver, and will tell you whether hardware acceleration and WebGL are enabled or not in Firefox. Note that graphics features may be disabled because of outdated graphics drivers. For help updating your graphics drivers, see [Upgrade your graphics drivers to use hardware acceleration and WebGL](\""https://support.mozilla.org/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"").
-
-# Media
-
-This section displays information about your system audio. The displayed information will include your operating system's preferred audio settings, as well as the audio input (such as microphones) and output (such as speakers or headphones) devices. From here, you can also see the state of each device and some information about the audio format settings. For more information on fixing audio issues in Firefox, see [What to do if Firefox won't play any sounds](\""https://support.mozilla.org/en-US/kb/what-to-do-if-firefox-wont-play-any-sounds"") and [Watch DRM content on Firefox](\""https://support.mozilla.org/en-US/kb/enable-drm"").
-
-# Environment Variables
-
-In this section, you will see [environment variables](https://wikipedia.org/wiki/Environment_variable) utilized by Firefox and their values, such as the `MOZ_CRASHREPORTER_DATA_DIRECTORY` variable that shows where crash report data is stored on your computer. Other environment variables, if set, can change how Firefox behaves. For example, Firefox downgrade protection can be bypassed by setting the environment variable `MOZ_ALLOW_DOWNGRADE`, as described in [this Firefox for Enterprise article](\""https://support.mozilla.org/en-US/kb/understanding-depth-profile-installation"").
-
-# Experimental Features
-
-This section shows whether features that are considered experimental are enabled or disabled. These features may be enabled in Firefox Beta, Developer Edition and Nightly but, in most cases, will be disabled by default in release versions.
-
-# Important Modified Preferences
-
-In this section, you will see a list of settings that have been changed from their defaults. This information will help someone know how you have adjusted your installation of Firefox. For instructions on how to reset preferences to default, see [Reset Firefox preferences to troubleshoot and fix problems](\""https://support.mozilla.org/en-US/kb/reset-preferences-fix-problems"").
-
-# Important Locked Preferences
-
-In Firefox, it's possible to lock certain preferences so that they cannot be changed by the end user. This is common in enterprise environments. For more information about locking preferences, see the [Customize Firefox using AutoConfig](\""https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig"") documentation.
-
-# Places Database
-
-Firefox periodically performs maintenance tasks on your bookmarks and history database (also known as Places database). Use the Verify Integrity button to perform those tasks on-demand. If you're having any problems with bookmarks and history, the Verify Integrity tool _might_ help.
-
-# Accessibility
-
-This section shows if you have accessibility software enabled in Firefox.
-
-# Library Versions
-
-This section tells you which versions of some runtime libraries are used.
-
-# Sandbox
-
-For security and performance purposes, Mozilla created Project Electrolysis (often referred to as e10s) to implement a practice called sandboxing into Firefox. This ensures that web content is run in a separate process from the main Firefox program. This section of the troubleshooting information shows details about the sandbox security levels. See [the Sandbox page on the Mozilla Wiki](https://wiki.mozilla.org/Security/Sandbox) for more information on sandboxing in Firefox.
-
-# Internationalization & Localization
-
-This section shows information about the language and regional preferences in Firefox and your operating system. For information about using Firefox language packs, see [Use Firefox in another language](\""https://support.mozilla.org/en-US/kb/use-firefox-another-language"").
-
-# Printing
-
-The Clear saved print settings button in this section allows you to reset all modified print preferences. This _might_ help [fix printing problems in Firefox](\""https://support.mozilla.org/en-US/kb/fix-printing-problems-firefox"").
-
-# Modified print settings
-
-This section lists modified print preferences.
-
-"
 868,Keyboard shortcuts - Perform common Firefox tasks quickly,keyboard-shortcuts-perform-firefox-tasks-quickly,https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly,en-US,"This is a list of Firefox keyboard shortcuts for working with tabs, bookmarks, searching the web, playing media files and more.","<p>This article lists keyboard shortcuts in Mozilla Firefox.<span class=""for"" data-for=""linux""> The shortcuts only work if they are not used by the desktop environment or window manager.</span><span class=""for"" data-for=""linux""> If you have enabled Emacs-style text editing shortcuts in GNOME, they will also work in Firefox. When an Emacs text editing shortcut conflicts with the default shortcuts (as occurs with <span class=""key"">Ctrl</span>+<span class=""key"">K</span>), the Emacs shortcut will take precedence if focus is inside a text box (which would include the address bar and search bar). In such cases you should use the alternate keyboard shortcut if one is listed below.</span>
 </p>
 <ul><li>For mouse shortcuts, see <a href=""/en-US/kb/mouse-shortcuts-perform-common-tasks"">Use mouse shortcuts to perform common tasks in Firefox</a>.
@@ -56223,158 +55781,6 @@ You are using an early version of Firefox Klar (thanks for helping us improve it
 # Are the trackers blocked per site or throughout my session?
 
 The _Trackers blocked_ indicator in the Firefox Klar menu tells you how many are blocked on that particular website.
-
-"
-36725,Change the default search in Firefox Klar on iOS,change-the-default-search-in-firefox-klar-on-ios,https://support.mozilla.org/en-US/kb/change-the-default-search-in-firefox-klar-on-ios,en-US,Change your default search on Firefox Klar for iOS.,"<p>
-</p><p><a href=""/en-US/kb/what-firefox-klar-ios"">Firefox Klar for iOS</a> gives you the option to change your default search engine. Here's how to do it:
-</p>
-<ol><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Settings</span>
-</li><li>Under <span class=""menu"">Search</span>, tap <span class=""menu"">Search Engine</span>. 
-</li><li>Choose your desired search engine from the installed search engines list. Your search engine will save automatically. <div class=""note""><strong>Note:</strong> Your choices may differ depending on your region and version.</div> 
-</li><li>Tap <span class=""menu"">Back</span> at the top left to return to the home screen.
-</li></ol>",klar,firefox-klar-ios,"[Firefox Klar for iOS](\""https://support.mozilla.org/en-US/kb/what-firefox-klar-ios"") gives you the option to change your default search engine. Here's how to do it:
-
-1. Tap the menu button in the bottom right corner.
-2. Tap Settings
-3. Under Search, tap Search Engine. 
-4. Choose your desired search engine from the installed search engines list. Your search engine will save automatically. 
-**Note:** Your choices may differ depending on your region and version.
-5. Tap Back at the top left to return to the home screen.
-
-"
-36798,How do I delete my Mozilla account?,how-do-i-delete-my-firefox-account,https://support.mozilla.org/en-US/kb/how-do-i-delete-my-firefox-account,en-US,How to delete your Mozilla account.,"<h2 id=""w_delete-your-mozilla-account"">Delete your Mozilla account</h2>
-<ol><li>Visit <a href=""https://accounts.firefox.com"">https://accounts.firefox.com</a>.
-</li><li>Sign in to your account if you haven't already.
-</li><li>Scroll to the bottom and click the <span class=""button"">Delete Account</span> button.
-</li><li>Click the checkboxes to acknowledge you understand the effects of deleting your account, and click <span class=""button"">Continue</span>.
-</li><li>Enter your Mozilla account password.
-</li><li>Click the <span class=""button"">Delete Account</span> button. Once you do this, your account will be permanently deleted.
-</li></ol>
-<p>You will return to the sign up page displaying a message saying <em>Account deleted successfully</em>.
-</p>
-<div class=""note""><strong>Note:</strong> Any add-ons or themes you have developed will be deleted when you delete your Mozilla account unless another account holder shares ownership of them. Please see <a href=""/en-US/kb/access-your-add-ons-firefox-accounts"">Access your add-ons with a Mozilla account</a> for more information. 
-</div>
-<h2 id=""w_delete-sync-data"">Delete sync data</h2>
-<p>You can also <a href=""/en-US/kb/delete-sync-data-firefox-signing-out-firefox-account"">delete synced data</a> on a device you are signed into with your Mozilla account if you don't wish to delete your Mozilla account.
-</p>",firefox;mozilla-account,account-management;accounts,"## Delete your Mozilla account
-
-1. Visit [https://accounts.firefox.com](https://accounts.firefox.com).
-2. Sign in to your account if you haven't already.
-3. Scroll to the bottom and click the Delete Account button.
-4. Click the checkboxes to acknowledge you understand the effects of deleting your account, and click Continue.
-5. Enter your Mozilla account password.
-6. Click the Delete Account button. Once you do this, your account will be permanently deleted.
-
-You will return to the sign up page displaying a message saying _Account deleted successfully_.
-
-**Note:** Any add-ons or themes you have developed will be deleted when you delete your Mozilla account unless another account holder shares ownership of them. Please see [Access your add-ons with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-your-add-ons-firefox-accounts"") for more information. 
-
-## Delete sync data
-
-You can also [delete synced data](\""https://support.mozilla.org/en-US/kb/delete-sync-data-firefox-signing-out-firefox-account"") on a device you are signed into with your Mozilla account if you don't wish to delete your Mozilla account.
-
-"
-36811,Manage local site storage settings,storage,https://support.mozilla.org/en-US/kb/storage,en-US,"Learn about local storage, how to access storage settings, remove site data or set exceptions for websites to store data in Firefox.","<p>Some websites have the ability to store information, such as files, in your local storage, and these files can only be removed manually by you. This helps the website run faster and prevents information from being lost if you lose your connection. Firefox shows you how much space is being used and lets you manage these settings to free up space.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_access-site-storage-settings""><span class=""tocnumber"">1</span> <span class=""toctext"">Access site storage settings</span></a></li><li class=""toclevel-1""><a href=""#w_delete-site-storage-for-individual-websites""><span class=""tocnumber"">2</span> <span class=""toctext"">Delete site storage for individual websites</span></a></li><li class=""toclevel-1""><a href=""#w_clear-data-stored-by-all-sites""><span class=""tocnumber"">3</span> <span class=""toctext"">Clear data stored by all sites</span></a></li><li class=""toclevel-1""><a href=""#w_allow-or-block-websites-from-storing-information""><span class=""tocnumber"">4</span> <span class=""toctext"">Allow or block websites from storing information</span></a></li></ul></div>
-<h1 id=""w_access-site-storage-settings"">Access site storage settings</h1>
-<p>You can access site storage settings in your Firefox settings as follows:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>Select <span class=""menu"">Privacy &amp; Security</span> on the left and go to the <strong>Cookies and Site Data</strong> section.
-</li></ol>
-<dl><dt><span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx147,=fx146,=fx145""><img alt=""Fx145settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-23-06-43-57-877ffe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx145""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-<h1 id=""w_delete-site-storage-for-individual-websites"">Delete site storage for individual websites</h1>
-<ol><li>In the <strong>Cookies and Site Data</strong> section,  click <span class=""for"" data-for=""fx145""><span class=""menu"">Manage browsing data</span></span><span class=""for"" data-for=""not fx145"">the <span class=""button"">Manage Data…</span> button</span>. You'll see a list of sites and how much information each site is storing on your computer.
-<dl><dt><img alt=""Fx115CookiesAndSiteData-ManageData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-18-03-02-08-8ff602.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Click the site you want to remove and click <span class=""button"">Remove Selected</span> (or click <span class=""button"">Remove All</span> to remove all stored <a href=""/en-US/kb/cookies-information-websites-store-on-your-computer"">cookies</a> and site data).
-</li><li>Click <span class=""button"">Save Changes</span> to finish.
-</li></ol>
-<p>For more information about clearing cookies for individual (or all) websites, see <a href=""/en-US/kb/clear-cookies-and-site-data-firefox"">Clear cookies and site data in Firefox</a>.
-</p>
-<h1 id=""w_clear-data-stored-by-all-sites"">Clear data stored by all sites</h1>
-<ol><li>In the <strong>Cookies and Site Data</strong> section, click <span class=""for"" data-for=""fx145""><span class=""menu"">Clear browsing data</span></span><span class=""for"" data-for=""not fx145""><span class=""button"">Clear Data…</span></span>. The <em>Clear browsing data and cookies</em> dialog will appear.
-<dl><dt><img alt=""Fx136CookiesAndSiteData-ClearData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-19-11-28-55-b5a1a9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-</li><li>On the dropdown next to <strong>When:</strong>, select the timeframe for the data you want to clear.
-</li><li>Tick the checkbox next to the type of information you want to clear.
-</li><li>Click the <span class=""button"">Clear</span> button.
-</li></ol>
-<p>For more information on clearing cached web content in Firefox, see <a href=""/en-US/kb/how-clear-firefox-cache"">How to clear the Firefox cache</a>.
-</p>
-<h1 id=""w_allow-or-block-websites-from-storing-information"">Allow or block websites from storing information</h1>
-<p>You can set up Firefox to always allow or block specific sites from storing information. You can also allow a site to store only for a single session.
-</p>
-<ol><li>In the <strong>Cookies and Site Data</strong> section, click <span class=""for"" data-for=""fx145""><span class=""menu"">Manage exceptions</span></span><span class=""for"" data-for=""not fx145""><span class=""button"">Manage Exceptions…</span></span>. The <em>Exceptions - Cookies and Site Data</em> dialog will appear.
-<dl><dt><img alt=""Fx115CookiesAndSiteData-ManageExceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-18-03-31-41-d0224d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>Type in the exact address of the site you want to allow or block, or select the site if it's already on the list.
-</li><li>Click <span class=""button"">Block</span> , <span class=""button"">Allow for Session</span> or <span class=""button"">Allow</span>.
-</li><li>Click <span class=""button"">Save Changes</span> to finish.
-</li></ol>
-<p>See these articles for additional information:
-</p>
-<ul><li><a href=""/en-US/kb/block-websites-storing-cookies-site-data-firefox"">Block websites from storing cookies and site data in Firefox</a>
-</li><li><a href=""/en-US/kb/websites-say-cookies-are-blocked-unblock-them"">Websites say cookies are blocked - Unblock them</a>
-</li></ul>",firefox,settings,"Some websites have the ability to store information, such as files, in your local storage, and these files can only be removed manually by you. This helps the website run faster and prevents information from being lost if you lose your connection. Firefox shows you how much space is being used and lets you manage these settings to free up space.
-
-## Table of Contents
-
-- [1 Access site storage settings](https://support.mozilla.org/kb/storage#w_access-site-storage-settings)
-- [2 Delete site storage for individual websites](https://support.mozilla.org/kb/storage#w_delete-site-storage-for-individual-websites)
-- [3 Clear data stored by all sites](https://support.mozilla.org/kb/storage#w_clear-data-stored-by-all-sites)
-- [4 Allow or block websites from storing information](https://support.mozilla.org/kb/storage#w_allow-or-block-websites-from-storing-information)
-
-# Access site storage settings
-
-You can access site storage settings in your Firefox settings as follows:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select Privacy & Security on the left and go to the **Cookies and Site Data** section.
-
-<dl><dt>
-<span class=""for"" data-for=""fx148""><img alt=""Fx148settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-03-05-40-04-e8ab5c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""=fx147,=fx146,=fx145""><img alt=""Fx145settings-CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-03-23-06-43-57-877ffe.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""not fx145""><img alt=""Fx79CookiesAndSiteData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-04-05-16-05-52-24d89c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</dt></dl>
-# Delete site storage for individual websites
-
-1. In the **Cookies and Site Data** section, click Manage browsing datathe Manage Data… button. You'll see a list of sites and how much information each site is storing on your computer.<dl><dt>
-<img alt=""Fx115CookiesAndSiteData-ManageData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-18-03-02-08-8ff602.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Click the site you want to remove and click Remove Selected (or click Remove All to remove all stored [cookies](\""https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"") and site data).
-3. Click Save Changes to finish.
-
-For more information about clearing cookies for individual (or all) websites, see [Clear cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"").
-
-# Clear data stored by all sites
-
-1. In the **Cookies and Site Data** section, click Clear browsing dataClear Data…. The _Clear browsing data and cookies_ dialog will appear.<dl><dt>
-<img alt=""Fx136CookiesAndSiteData-ClearData"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-19-11-28-55-b5a1a9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""500"">
-</dt></dl>
-2. On the dropdown next to **When:** , select the timeframe for the data you want to clear.
-3. Tick the checkbox next to the type of information you want to clear.
-4. Click the Clear button.
-
-For more information on clearing cached web content in Firefox, see [How to clear the Firefox cache](\""https://support.mozilla.org/en-US/kb/how-clear-firefox-cache"").
-
-# Allow or block websites from storing information
-
-You can set up Firefox to always allow or block specific sites from storing information. You can also allow a site to store only for a single session.
-
-1. In the **Cookies and Site Data** section, click Manage exceptionsManage Exceptions…. The _Exceptions - Cookies and Site Data_ dialog will appear.<dl><dt>
-<img alt=""Fx115CookiesAndSiteData-ManageExceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-18-03-31-41-d0224d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-2. Type in the exact address of the site you want to allow or block, or select the site if it's already on the list.
-3. Click Block , Allow for Session or Allow.
-4. Click Save Changes to finish.
-
-See these articles for additional information:
-
-- [Block websites from storing cookies and site data in Firefox](\""https://support.mozilla.org/en-US/kb/block-websites-storing-cookies-site-data-firefox"")
-- [Websites say cookies are blocked - Unblock them](\""https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them"")
 
 "
 36845,"I can't find Firefox Focus in Germany, Austria or Switzerland",difference-between-firefox-focus-and-firefox-klar,https://support.mozilla.org/en-US/kb/difference-between-firefox-focus-and-firefox-klar,en-US,Klar by Firefox is the German-language version of Firefox Focus.,"<p>Klar by Firefox is the German-language version and only available in Germany, Austria, and Switzerland. It includes the same features as the English-language app Focus by Firefox.
@@ -94000,100 +93406,6 @@ You need to opt out of Usage and technical data in the settings:
 4. Tap the toggle next to Usage and technical data.
 
 "
-59940,Mozilla VPN message center,mozilla-vpn-message-center,https://support.mozilla.org/en-US/kb/mozilla-vpn-message-center,en-US,Check the message center in the navigation bar for notifications about new features and subscription updates.,"<p>Check the message center in the navigation bar for notifications about new features and subscription updates.
-</p>
-<div class=""note""><strong>Note:</strong> This feature is only available on versions 2.10 and above.</div>
-<h1 id=""w_access-your-notification-center"">Access your notification center</h1>
-<ol><li>Open Mozilla VPN.
-</li><li>Click (or tap) the envelope icon on the navigation bar (a red notification dot will show in the left corner of the icon If you have unread messages).
-<dl><dt><img alt=""notification vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-11-08-e350a9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-</li></ol>
-<h1 id=""w_what-types-of-messages-will-i-receive"">What types of messages will I receive?</h1>
-<h2 id=""w_available-updates"">Available updates</h2>
-<p>You’ll receive a message when an update is available. Open the message and click (or tap) the update button to install the update right from the app.
-</p>
-<h2 id=""w_subscription-status-notifications"">Subscription status notifications</h2>
-<p>Get notified when your subscription is about to end.
-</p>
-<h2 id=""w_latest-features"">Latest features</h2>
-<p>Check the latest features available and take the tour. Click (or tap) a feature to get a preview.
-</p>
-<h1 id=""w_how-to-manage-your-messages"">How to manage your messages</h1>
-<h2 id=""w_search-your-messages"">Search your messages</h2>
-<p>All notifications appear in the message center. Enter keywords in the search bar to look for older messages.
-</p>
-<h2 id=""w_delete-a-message"">Delete a message</h2>
-<p>Swipe to the left and click (or tap) the trash icon to delete a message.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<p>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/how-do-i-update-mozilla-vpn?utm_source=-vpn-related"">How do I update Mozilla VPN?</a>
-</li></ul>
-<p><strong>Learn more:</strong>
-</p>
-<ul><li><a href=""https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related"">Where can I see my Mozilla VPN subscription information?</a>
-</li></ul>",mozilla-vpn,settings,"Check the message center in the navigation bar for notifications about new features and subscription updates.
-
-**Note:** This feature is only available on versions 2.10 and above.
-
-# Access your notification center
-
-1. Open Mozilla VPN.
-2. Click (or tap) the envelope icon on the navigation bar (a red notification dot will show in the left corner of the icon If you have unread messages).<dl><dt>
-<img alt=""notification vpn"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-12-24-13-11-08-e350a9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350""> 
-</dt></dl>
-
-# What types of messages will I receive?
-
-## Available updates
-
-You’ll receive a message when an update is available. Open the message and click (or tap) the update button to install the update right from the app.
-
-## Subscription status notifications
-
-Get notified when your subscription is about to end.
-
-## Latest features
-
-Check the latest features available and take the tour. Click (or tap) a feature to get a preview.
-
-# How to manage your messages
-
-## Search your messages
-
-All notifications appear in the message center. Enter keywords in the search bar to look for older messages.
-
-## Delete a message
-
-Swipe to the left and click (or tap) the trash icon to delete a message.
-
-# Related articles
-
-- [How do I update Mozilla VPN?](https://support.mozilla.org/en-US/kb/how-do-i-update-mozilla-vpn?utm_source=-vpn-related)
-
-**Learn more:**
-
-- [Where can I see my Mozilla VPN subscription information?](https://support.mozilla.org/en-US/kb/where-can-i-see-my-mozilla-vpn-subscription-information?utm_source=-vpn-related)
-
-"
-59991,What's new in Firefox Klar for iOS (version 106),whats-new-firefox-klar-ios-version-106,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-106,en-US,Welcome to version 106 of Firefox Klar for iOS.,"<p>
-</p><p>Welcome to a new version of Firefox Klar for iOS (version 106). This release includes a new feature:
-</p>
-<h1 id=""w_add-a-search-widget-to-your-home-screen"">Add a search widget to your home screen</h1>
-<p>You can now add a Firefox Klar search widget to your iOS home screen to help you complete fast, one-off searches. Select Firefox Klar from the iOS widget gallery to add it to your home screen. Read the Apple support article to learn how to <a href=""https://support.apple.com/guide/iphone/add-widgets-to-the-home-screen-iphb8f1bf206/ios"">add widgets on iOS</a>.
-</p><p><img alt=""Focus iOS Search Widget selection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-10-16-19-14-51-aa51b3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-<img alt=""Firefox Focus for iOS Search Widget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-10-16-19-15-17-67169a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>",klar,firefox-klar-ios,"Welcome to a new version of Firefox Klar for iOS (version 106). This release includes a new feature:
-
-# Add a search widget to your home screen
-
-You can now add a Firefox Klar search widget to your iOS home screen to help you complete fast, one-off searches. Select Firefox Klar from the iOS widget gallery to add it to your home screen. Read the Apple support article to learn how to [add widgets on iOS](https://support.apple.com/guide/iphone/add-widgets-to-the-home-screen-iphb8f1bf206/ios).
-
-![Focus iOS Search Widget selection](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) ![Firefox Focus for iOS Search Widget](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-"
 60013,Firefox update notifications on Windows,firefox-update-notifications-windows,https://support.mozilla.org/en-US/kb/firefox-update-notifications-windows,en-US,"Learn about update notifications on Windows that let you know when a brand-new Firefox version is available, even if Firefox is closed.","<div class=""note""><strong>Note:</strong> Users on Windows 10 and above with an <a href=""/en-US/kb/enable-background-updates-firefox-windows"">automatic update installed while Firefox is not running</a> will see a <a href=""https://learn.microsoft.com/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts"">Windows app notification</a> (also known as a <em>toast</em> notification) if they haven’t opened Firefox in 28 days.</div>
 <p>Update notifications are part of a Firefox study that collects information to help Mozilla make more informed decisions about future updates. They are designed to let you know when a brand-new Firefox version is available, even when Firefox is closed.
 </p><p><img alt=""Firefox update notification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-10-25-12-56-49-3f3749.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
@@ -99094,6 +98406,125 @@ If you need to prevent upgrades for any reason, you can use the new [AppUpdatePi
 # macOS 10.12, 10.13 and 10.14 Support
 
 [We are ending support for macOS 10.12, 10.13 and 10.14.](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"") Users of Firefox on these versions of macOS will be moved over the Firefox 115 ESR and will be supported until September 26, 2024.
+
+"
+61557,How to reset your password without Account Recovery Keys and regain access to your data,how-reset-your-password-without-account-recovery-keys-access-data,https://support.mozilla.org/en-US/kb/how-reset-your-password-without-account-recovery-keys-access-data,en-US,"You can reset your Mozilla account password and restore the data stored on your computer, even if you don't have recovery keys. Learn how.","<p>
+</p>
+<div class=""warning""><strong>This article may include outdated content. Please see <a href=""/en-US/kb/how-change-or-reset-your-mozilla-account-password"">How to change or reset your Mozilla account password</a> for current information and instructions.</strong></div>
+<p>Recovery keys, if enabled, are unique codes generated by Firefox that help you regain access to your account and encrypted data when you forget your password or lose access to your device. Firefox stores a local profile with your data on your computer, which protects it during a password reset. With the local copy of your data, you can easily reset your password and restore your data, even if you don't have recovery keys. This article explains the steps you need to follow.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-the-difference-between-locally-stored-data-and-synced-data""><span class=""tocnumber"">1</span> <span class=""toctext"">What is the difference between locally stored data and synced data?</span></a><ul><li class=""toclevel-2""><a href=""#w_locally-stored-data""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Locally stored data</span></a></li><li class=""toclevel-2""><a href=""#w_synced-data""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Synced data</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_how-to-reset-your-password-without-recovery-keys""><span class=""tocnumber"">2</span> <span class=""toctext"">How to reset your password without recovery keys</span></a><ul><li class=""toclevel-2""><a href=""#w_to-reset-your-password""><span class=""tocnumber"">2.1</span> <span class=""toctext"">To reset your password</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-content""><span class=""tocnumber"">3</span> <span class=""toctext"">Related content</span></a></li></ul></div>
+<h1 id=""w_what-is-the-difference-between-locally-stored-data-and-synced-data"">What is the difference between locally stored data and synced data?</h1>
+<h2 id=""w_locally-stored-data"">Locally stored data</h2>
+<p>A local <a href=""/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"">profile</a> is like a personal storage space on your computer where Firefox saves your information. This includes browsing history, cookies, passwords, credit card details, settings, bookmarks, add-ons and open tabs. Regardless of having a Mozilla account or enabling Sync, as long as you're using the same computer/device and haven't wiped or formatted it, this data will be available to you.
+</p>
+<h2 id=""w_synced-data"">Synced data</h2>
+<p>When you sync your data with your Mozilla account, your data gets uploaded to Sync servers, based on your settings. This stored data is encrypted for security reasons and can be used to sync and populate other connected devices, allowing you to have the same information on both your mobile and desktop devices.
+</p>
+<h1 id=""w_how-to-reset-your-password-without-recovery-keys"">How to reset your password without recovery keys</h1>
+<div class=""warning"">
+<p><strong>Warning:</strong> To perform this password recovery without recovery keys, it is important to reset the Mozilla account from the same device where you last logged in to your Mozilla account and backed up your data. This allows Firefox to retrieve your data from your local profile on that device, which is necessary for the recovery process.
+</p><p>If you're resetting from a new device, you'll need access to the device where you logged in and synced your data the last time.
+</p>
+</div>
+<h2 id=""w_to-reset-your-password"">To reset your password</h2>
+<ol><li>Click the menu <img alt=""PhotonMenuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-09-28-11-58-03-e6a66b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and click <span class=""button"">Sign In</span> next to <em>Sync and save data</em>.
+</li><li>On the <em>Sign in</em> page, click <strong>Forgot password?</strong> link. Firefox will send you a reset email.
+</li><li>Follow the instructions in your reset email to change your password.
+</li><li>After signing in with your new password, remember to update your password on each of your synced devices.
+</li></ol>
+<p>Alternatively, you can click the <strong>Forgot password?</strong> link on any Mozilla account sign-in page and follow the prompts to reset your password. This will reset your Mozilla account.
+</p>
+<h1 id=""w_related-content"">Related content</h1>
+<ul><li><a href=""/en-US/kb/ive-lost-my-firefox-sync-account-information"">I've lost my Firefox Sync account information - What to do</a>
+</li></ul>",firefox;mozilla-account,passwords-and-sign-in;reset-passwords,"**This article may include outdated content. Please see [How to change or reset your Mozilla account password](\""https://support.mozilla.org/en-US/kb/how-change-or-reset-your-mozilla-account-password"") for current information and instructions.**
+
+Recovery keys, if enabled, are unique codes generated by Firefox that help you regain access to your account and encrypted data when you forget your password or lose access to your device. Firefox stores a local profile with your data on your computer, which protects it during a password reset. With the local copy of your data, you can easily reset your password and restore your data, even if you don't have recovery keys. This article explains the steps you need to follow.
+
+## Table of Contents
+
+- [1 What is the difference between locally stored data and synced data?](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_what-is-the-difference-between-locally-stored-data-and-synced-data)
+  - [1.1 Locally stored data](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_locally-stored-data)
+  - [1.2 Synced data](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_synced-data)
+
+- [2 How to reset your password without recovery keys](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_how-to-reset-your-password-without-recovery-keys)
+  - [2.1 To reset your password](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_to-reset-your-password)
+
+- [3 Related content](https://support.mozilla.org/kb/how-reset-your-password-without-account-recovery-keys-access-data#w_related-content)
+
+# What is the difference between locally stored data and synced data?
+
+## Locally stored data
+
+A local [profile](\""https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"") is like a personal storage space on your computer where Firefox saves your information. This includes browsing history, cookies, passwords, credit card details, settings, bookmarks, add-ons and open tabs. Regardless of having a Mozilla account or enabling Sync, as long as you're using the same computer/device and haven't wiped or formatted it, this data will be available to you.
+
+## Synced data
+
+When you sync your data with your Mozilla account, your data gets uploaded to Sync servers, based on your settings. This stored data is encrypted for security reasons and can be used to sync and populate other connected devices, allowing you to have the same information on both your mobile and desktop devices.
+
+# How to reset your password without recovery keys
+
+**Warning:** To perform this password recovery without recovery keys, it is important to reset the Mozilla account from the same device where you last logged in to your Mozilla account and backed up your data. This allows Firefox to retrieve your data from your local profile on that device, which is necessary for the recovery process.
+
+If you're resetting from a new device, you'll need access to the device where you logged in and synced your data the last time.
+
+## To reset your password
+
+1. Click the menu ![PhotonMenuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and click Sign In next to _Sync and save data_.
+2. On the _Sign in_ page, click **Forgot password?** link. Firefox will send you a reset email.
+3. Follow the instructions in your reset email to change your password.
+4. After signing in with your new password, remember to update your password on each of your synced devices.
+
+Alternatively, you can click the **Forgot password?** link on any Mozilla account sign-in page and follow the prompts to reset your password. This will reset your Mozilla account.
+
+# Related content
+
+- [I've lost my Firefox Sync account information - What to do](\""https://support.mozilla.org/en-US/kb/ive-lost-my-firefox-sync-account-information"")
+
+"
+61594,Add a website shortcut to your home screen on Android,add-website-shortcut-your-home-screen-android,https://support.mozilla.org/en-US/kb/add-website-shortcut-your-home-screen-android,en-US,"Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.","<p>Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.
+</p>
+<ol><li>Launch Firefox on your Android device.
+</li><li>Visit the website you want to create a shortcut for.
+</li><li>Once the website loads, tap the <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> menu button.
+<dl><dt><img alt=""step1_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-23-52-4f960a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""button"">Add to Home Screen</span>
+<dl><dt><img alt=""step2_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-58-54-5124d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>A dialog box will appear, displaying a suggested name for the shortcut. You can change the name of the shortcut from this panel. Tap <strong>Add</strong> in the bottom right corner.
+<dl><dt><img alt=""step3_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-00-29-c5866d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <strong>Add</strong> once more to finish.
+<dl><dt><img alt=""step4_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-01-06-cfce30.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li></ol>
+<p>The shortcut will now appear in your home screen.
+</p><p><strong> Example </strong><br>
+Shortcut now appearing on android home screen.<br>
+<img alt=""step5_andr"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-32-42-c3d714.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</p>",mobile,browse;home-screen,"Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for Android.
+
+1. Launch Firefox on your Android device.
+2. Visit the website you want to create a shortcut for.
+3. Once the website loads, tap the ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) menu button.<dl><dt>
+<img alt=""step1_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-23-52-4f960a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+4. Tap Add to Home Screen<dl><dt>
+<img alt=""step2_andr_update"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-20-58-54-5124d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+5. A dialog box will appear, displaying a suggested name for the shortcut. You can change the name of the shortcut from this panel. Tap **Add** in the bottom right corner.<dl><dt>
+<img alt=""step3_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-00-29-c5866d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+6. Tap **Add** once more to finish.<dl><dt>
+<img alt=""step4_andr_updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-13-21-01-06-cfce30.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+
+The shortcut will now appear in your home screen.
+
+**Example**   
+Shortcut now appearing on android home screen.  
+ ![step5_andr](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
 
 "
 61646,Get your local weather forecast from the Firefox address bar,get-your-local-weather-forecast-firefox-address-bar,https://support.mozilla.org/en-US/kb/get-your-local-weather-forecast-firefox-address-bar,en-US,Get real-time weather updates conveniently displayed within the Firefox address bar.,"<p>Get real-time weather updates conveniently displayed within the Firefox <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a>. This feature can help you stay up-to-date on the latest weather conditions without visiting a particular website or app. Simply type <strong>weather</strong> in the address bar, and you'll see weather suggestions for your location.
@@ -124204,209 +123635,6 @@ If Thunderbird failed to add the expected items or you need to adjust them, plea
 - Enjoy your Thundermail Calendar: [Create some events, invite people to invites, etc](https://support.mozilla.org/products/thunderbird/email-and-messaging/calendar).
 - Use your Thundermail Address Book for [composing email](\""https://support.mozilla.org/en-US/kb/addressing-email""), managing your contacts, etc.
 - New to Thunderbird? Check out [Get started with Thunderbird](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird"").
-
-"
-72402,Thundermail and Thunderbird for Android,thundermail-and-thunderbird-android,https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android,en-US,How to configure Thundermail in Thunderbird for Android including IMAP and SMTP Settings,"<p></p><div class=""warning"">NOTE: Thunderbird Pro is currently in its Early Bird release and available  by invitation only. To learn more and join the waitlist, visit <a href=""https://tb.pro/"">our website</a>. We’ll be opening Thunderbird
-Pro to the public once the Early Bird release concludes. </div>
-Here’s how to get started with Mozilla’s Thundermail service. 
-<p></p>
-<h1 id=""w_configure-thundermail-for-thunderbird-for-android"">Configure Thundermail for Thunderbird for Android</h1>
-<div class=""note""> <strong>NOTE</strong>: Thunderbird Pro requires Thunderbird for Android version 18 or newer (also K-9). We recommend using the latest monthly release version documented in <a href=""/en-US/kb/new-thunderbird-android"">New in Thunderbird for Android</a>.</div>
-<ol><li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> &gt; <span class=""menu"">Add account</span>.
-</li><li> Enter your Thundermail email address. For example <code>nemo@thundermail.com</code>.
-</li><li> Click <span class=""button"">Next</span>.
-</li><li> The next screen will prompt you to <strong>Please specify the special folders for your account</strong>, and offer some suggested settings for your Thunderbird special folders. For most people, the defaults are fine. Configure them to your needs and click <span class=""button"">Next</span>. 
-</li><li> On the next screen, configure your user name under <strong>Your name</strong> and optionally your signature and click <span class=""button"">Next</span>.
-</li><li> The next screen has sync and notification options. For most people, the defaults are fine. Configure them to your needs and click <span class=""button"">Next</span> .
-</li></ol>
-<h1 id=""w_manual-settings"">Manual settings</h1>
-<p>Thunderbird should automatically configure your Thundermail email settings to match your <a href=""https://accounts.tb.pro/mail"">TB Pro accounts page</a>. If it doesn’t, please  manually change the receiving email and sending email settings according to the sections below. If manual setup fails, please create a support ticket using our form at: <a href=""https://support.tb.pro/hc/en-us/requests/new"">https://support.tb.pro/hc/en-us/requests/new</a>.
-</p><section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_receiving-email"">Receiving Email</h2>
-<ol><li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</li><li> Under <strong>Accounts</strong>, tap on your Thundermail email account. For example: <code>nemo@thundermail.com</code>.
-</li><li> Tap <span class=""menu"">Fetching mail</span> &gt; <span class=""menu"">Incoming Server</span> and set the following values:
-</li></ol>
-<ul><li><strong>Server:</strong> <code>mail.thundermail.com</code> <strong>Security:</strong> SSL/TLS <strong>Port:</strong> 993
-</li><li><strong>Authentication:</strong> OAuth 2.0
-</li><li><strong>Username:</strong> your full Thundermail email address, for example <code>nemo@thundermail.com</code>.
-</li></ul>
-<h2 id=""w_sending-email"">Sending Email</h2>
-<ol><li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</li><li> Under <strong>Accounts</strong>, tap on your Thundermail email account. For example: <code>nemo@thundermail.com</code>.
-</li><li> Tap <span class=""menu"">Sending mail</span> &gt; <span class=""menu"">Outgoing server</span> and set the following values:
-</li></ol>
-<ul><li> <strong>Server Name:</strong> <code>mail.thundermail.com</code> <strong>Connection</strong> <strong>Security:</strong> SSL/TLS <strong>Port:</strong> 465
-</li><li> <strong>Authentication:</strong> OAuth 2.0
-</li><li> <strong>Username:</strong> your full Thundermail email address. For example: <code>nemo@thundermail.com</code>.
-</li></ul>
-<p></p></section>
-<p></p>
-<h1 id=""w_configure-catch-all-aliases-for-use-with-thunderbird"">Configure Catch-All aliases for use with Thunderbird</h1>
-<h2 id=""w_setup-a-thunderbird-identity-for-each-each-alias-you-want-to-reply-from"">Setup a Thunderbird identity for each each alias you want to reply from</h2>
-<p>If you have a <a href=""https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias"">Catch-All Alias configured in Thundermail for a custom domain</a>, you will have to setup an <strong>identity</strong> in Thunderbird for every alias in that domain that you need to reply from. 
-</p><p>For example, if your Catch-All is for <code>glamroc.com</code> and you would like to reply as  <code>alice@glamroc.com</code> and <code>slade@glamroc.com</code> in addition to the default alias for <code>glamroc.com</code>, you will have to setup identities for both <code>alice@glamroc.com</code> and <code>slade@glamroc.com</code>. 
-</p><p>Here's how:
-</p>
-<ol><li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>.
-</li><li> Tap on your account, e.g. <code>roc@glamcroc.com</code> &gt; <span class=""menu"">Sending mail</span>.
-</li><li> Tap <span class=""menu"">Manage identities</span> &gt; <span class=""menu"">⋮</span> (also known as the <em>kebab</em> menu because the three vertical dots evoke a kebab &gt; <span class=""menu"">New identity</span>.
-</li><li> Enter the desired alias in the <strong>Email address</strong> field e.g. <code>alice@glamroc.com</code>. All other fields are optional, but we recommend you enter a memorable shorter name in the <strong>Your name</strong> field.
-</li><li> Save the identity by tapping <span class=""button"">SAVE</span>. When replying, you can now change the <strong>From</strong> field to this identity by tapping on it.
-</li></ol>
-<h2 id=""w_send-email-with-the-identities-for-your-catch-all-alias"">Send email with the identities for your Catch-All alias</h2>
-<ol><li> When composing or replying an email, tap on the email address in the  <strong>From</strong> field.
-</li><li> Tap on the relevant identity.
-</li><li> Write and send the email as usual.
-</li></ol>
-<h1 id=""w_have-some-fun-now-that-email-setup-is-done"">Have some fun now that email setup is done!</h1>
-<p>Congratulations, you have done successfully setup Thundermail with Thunderbird for Android! Next:
-</p>
-<ul><li> Send and receive email with Thundermail.
-</li><li> New to Thunderbird for Android? Then check out <a href=""/en-US/kb/getting-started-thunderbird-android"">Getting started with Thunderbird for Android</a>.
-</li></ul>
-<p>
-</p>",thunderbird-android,email-and-messaging;send-and-receive-email;settings,"NOTE: Thunderbird Pro is currently in its Early Bird release and available by invitation only. To learn more and join the waitlist, visit [our website](https://tb.pro/). We’ll be opening Thunderbird Pro to the public once the Early Bird release concludes. 
-Here’s how to get started with Mozilla’s Thundermail service. 
-
-# Configure Thundermail for Thunderbird for Android
-
- **NOTE** : Thunderbird Pro requires Thunderbird for Android version 18 or newer (also K-9). We recommend using the latest monthly release version documented in [New in Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/new-thunderbird-android"").
-
-1. Thunderbird app menu ≡ \> Settings gear icon ![gear icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) \> Add account.
-2. Enter your Thundermail email address. For example `nemo@thundermail.com`.
-3. Click Next.
-4. The next screen will prompt you to **Please specify the special folders for your account** , and offer some suggested settings for your Thunderbird special folders. For most people, the defaults are fine. Configure them to your needs and click Next. 
-5. On the next screen, configure your user name under **Your name** and optionally your signature and click Next.
-6. The next screen has sync and notification options. For most people, the defaults are fine. Configure them to your needs and click Next .
-
-# Manual settings
-
-Thunderbird should automatically configure your Thundermail email settings to match your [TB Pro accounts page](https://accounts.tb.pro/mail). If it doesn’t, please manually change the receiving email and sending email settings according to the sections below. If manual setup fails, please create a support ticket using our form at: [https://support.tb.pro/hc/en-us/requests/new](https://support.tb.pro/hc/en-us/requests/new).
-
-<section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_receiving-email"">Receiving Email</h2>
-<ol>
-<li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</li>
-<li> Under <strong>Accounts</strong>, tap on your Thundermail email account. For example: <code>nemo@thundermail.com</code>.
-</li>
-<li> Tap <span class=""menu"">Fetching mail</span> &gt; <span class=""menu"">Incoming Server</span> and set the following values:
-</li>
-</ol>
-<ul>
-<li>
-<strong>Server:</strong> <code>mail.thundermail.com</code> <strong>Security:</strong> SSL/TLS <strong>Port:</strong> 993
-</li>
-<li>
-<strong>Authentication:</strong> OAuth 2.0
-</li>
-<li>
-<strong>Username:</strong> your full Thundermail email address, for example <code>nemo@thundermail.com</code>.
-</li>
-</ul>
-<h2 id=""w_sending-email"">Sending Email</h2>
-<ol>
-<li> Thunderbird app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
-</li>
-<li> Under <strong>Accounts</strong>, tap on your Thundermail email account. For example: <code>nemo@thundermail.com</code>.
-</li>
-<li> Tap <span class=""menu"">Sending mail</span> &gt; <span class=""menu"">Outgoing server</span> and set the following values:
-</li>
-</ol>
-<ul>
-<li> <strong>Server Name:</strong> <code>mail.thundermail.com</code> <strong>Connection</strong> <strong>Security:</strong> SSL/TLS <strong>Port:</strong> 465
-</li>
-<li> <strong>Authentication:</strong> OAuth 2.0
-</li>
-<li> <strong>Username:</strong> your full Thundermail email address. For example: <code>nemo@thundermail.com</code>.
-</li>
-</ul>
-<p></p></section>
-
-# Configure Catch-All aliases for use with Thunderbird
-
-## Setup a Thunderbird identity for each each alias you want to reply from
-
-If you have a [Catch-All Alias configured in Thundermail for a custom domain](https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias), you will have to setup an **identity** in Thunderbird for every alias in that domain that you need to reply from.
-
-For example, if your Catch-All is for `glamroc.com` and you would like to reply as `alice@glamroc.com` and `slade@glamroc.com` in addition to the default alias for `glamroc.com`, you will have to setup identities for both `alice@glamroc.com` and `slade@glamroc.com`.
-
-Here's how:
-
-1. Thunderbird app menu ≡ \> Settings gear icon ![gear icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-2. Tap on your account, e.g. `roc@glamcroc.com` \> Sending mail.
-3. Tap Manage identities \> ⋮ (also known as the _kebab_ menu because the three vertical dots evoke a kebab \> New identity.
-4. Enter the desired alias in the **Email address** field e.g. `alice@glamroc.com`. All other fields are optional, but we recommend you enter a memorable shorter name in the **Your name** field.
-5. Save the identity by tapping SAVE. When replying, you can now change the **From** field to this identity by tapping on it.
-
-## Send email with the identities for your Catch-All alias
-
-1. When composing or replying an email, tap on the email address in the **From** field.
-2. Tap on the relevant identity.
-3. Write and send the email as usual.
-
-# Have some fun now that email setup is done!
-
-Congratulations, you have done successfully setup Thundermail with Thunderbird for Android! Next:
-
-- Send and receive email with Thundermail.
-- New to Thunderbird for Android? Then check out [Getting started with Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/getting-started-thunderbird-android"").
-
-"
-72404,Getting Started with Thunderbird Pro,getting-started-thunderbird-pro,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-pro,en-US,"How to get started with Thunderbird Pro, which currently includes Thundermail, Send, and Appointment.","<h1 id=""w_thunderbird-pro-brief-introduction"">Thunderbird Pro brief introduction</h1>
-<p>Thunderbird Pro is a subscription-based bundle of services that consists of:
-</p>
-<ul><li> Thundermail: An email service.
-</li><li> Appointment: A collaborative scheduling service.
-</li><li> Send: A secure way to send large files.
-</li></ul>
-<p>Check out our website for all the details: <a href=""https://tb.pro/"">https://tb.pro/</a> 
-</p>
-<div class=""note"">Please note: For the best possible experience, we recommend that you start with Thunderbird Desktop or a desktop browser like Firefox, Chrome, or Safari. Appointment, Send, and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.</div>
-<h1 id=""w_prepare-for-thunderbird-pro"">Prepare for Thunderbird Pro</h1>
-<ul><li> If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
-</li><li> If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to <a href=""/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop"">Install the Thunderbird Pro Add-on in Thunderbird Desktop</a>. 
-</li><li> Set up your Thunderbird Pro account. You must enter a payment choice (for example, a credit card number). If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please <a href=""https://support.tb.pro/hc/en-us/requests/new"">ask for support</a>. Currently, only credit cards are accepted. Apple Pay, PayPal, and other 3rd party services are not yet supported. 
-</li></ul>
-<h1 id=""w_set-up-your-thunderbird-pro-apps-thundermail-send-and-appointment"">Set up your Thunderbird Pro apps: Thundermail, Send, and Appointment</h1>
-<ul><li> For Thundermail Desktop - Configure the Thunderbird program for Thundermail according to this article: <a href=""/en-US/kb/thunderbird-desktop-and-thundermail"">Thunderbird for Desktop and Thundermail</a>.
-</li><li> For Thundermail on mobile - Configure the Thunderbird Android app for Thundermail according to the article: <a href=""/en-US/kb/thundermail-and-thunderbird-android"">Thundermail and Thunderbird for Android</a>.
-</li><li> For Appointment - Configure according to <a href=""https://support.tb.pro/hc/sections/43161318933907"">our Appointment articles</a>.
-</li><li> Configure Send as per <a href=""https://support.tb.pro/hc/sections/43937747865235"">our Send articles</a>.
-</li></ul>
-<h1 id=""w_lets-go"">Let's go!</h1>
-<p>Go forth! Set up some office hours with Appointment. Transmit some files with Send. Deliver and receive email with Thundermail using your Thundermail Address Book, <a href=""https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases"">Thundermail aliases</a> and <a href=""https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias"">Thundermail catch-all addresses</a>. Use your Thundermail Calendar to setup events.
-</p>",thunderbird;thunderbird-android,accounts;email-and-messaging;installation-and-updates;settings,"# Thunderbird Pro brief introduction
-
-Thunderbird Pro is a subscription-based bundle of services that consists of:
-
-- Thundermail: An email service.
-- Appointment: A collaborative scheduling service.
-- Send: A secure way to send large files.
-
-Check out our website for all the details: [https://tb.pro/](https://tb.pro/)
-
-Please note: For the best possible experience, we recommend that you start with Thunderbird Desktop or a desktop browser like Firefox, Chrome, or Safari. Appointment, Send, and the Thunderbird Pro dashboard are optimized for desktop. The team is improving the mobile experience for Thunderbird Pro overall for mobile. For now, we have focused our mobile effort on Thundermail exclusively.
-
-# Prepare for Thunderbird Pro
-
-- If you are not a Thunderbird Desktop user, please register at the link in the email we sent you.
-- If you have Thunderbird Desktop installed, then install the Thunderbird Pro add-on according to [Install the Thunderbird Pro Add-on in Thunderbird Desktop](\""https://support.mozilla.org/en-US/kb/install-thunderbird-pro-add-thunderbird-desktop""). 
-- Set up your Thunderbird Pro account. You must enter a payment choice (for example, a credit card number). If you have a Thunderbird Pro coupon code, you must still add a payment option. If you have a problem with the code that you received, please [ask for support](https://support.tb.pro/hc/en-us/requests/new). Currently, only credit cards are accepted. Apple Pay, PayPal, and other 3rd party services are not yet supported. 
-
-# Set up your Thunderbird Pro apps: Thundermail, Send, and Appointment
-
-- For Thundermail Desktop - Configure the Thunderbird program for Thundermail according to this article: [Thunderbird for Desktop and Thundermail](\""https://support.mozilla.org/en-US/kb/thunderbird-desktop-and-thundermail"").
-- For Thundermail on mobile - Configure the Thunderbird Android app for Thundermail according to the article: [Thundermail and Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thundermail-and-thunderbird-android"").
-- For Appointment - Configure according to [our Appointment articles](https://support.tb.pro/hc/sections/43161318933907).
-- Configure Send as per [our Send articles](https://support.tb.pro/hc/sections/43937747865235).
-
-# Let's go!
-
-Go forth! Set up some office hours with Appointment. Transmit some files with Send. Deliver and receive email with Thundermail using your Thundermail Address Book, [Thundermail aliases](https://support.tb.pro/hc/articles/46804820453907-Setting-Up-Email-Aliases) and [Thundermail catch-all addresses](https://support.tb.pro/hc/articles/51338950680467-Setting-Up-a-Catch-All-Alias). Use your Thundermail Calendar to setup events.
 
 "
 72417,Harmful add-on protection,harmful-add-protection,https://support.mozilla.org/en-US/kb/harmful-add-protection,en-US,"If you have installed an add-on that triggers the opening of a known malicious website, Firefox will block it to protect you.","<p>When an add-on that you have installed triggers the opening of a website that has been reported as a deceptive site (sometimes called a “phishing” page) as a source of unwanted software or as an attack site designed to harm your computer, Firefox will clearly advise you that the site has been blocked for your safety.
