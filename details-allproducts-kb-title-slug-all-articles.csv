@@ -41037,6 +41037,371 @@ Because you selected the ""Match any of the following option"", all messages tha
 - [Global Search](\""https://support.mozilla.org/en-US/kb/global-search"")
 
 "
+17205,How to Subscribe to News Feeds and Blogs,how-subscribe-news-feeds-and-blogs,https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs,en-US,"An introduction to RSS feeds, and instructions on how to use them in Thunderbird.","<div class=""note""><strong>NOTE</strong>: This article applies to Thunderbird 52 and above.</div>
+<p>Websites may publish content for download by applications using one of either the RSS or Atom protocols. Such content is commonly called a ""news feed"" or ""RSS feed"" or ""syndication"". Feeds are often used by blogs, but more traditional websites can make any content available in this format. When you subscribe to a site's feed link, your feed reader (for example, Thunderbird) automatically checks the location and downloads the articles to local folders.
+</p><p>When you use Thunderbird to handle your feeds, you can use the same presentation and tools (archiving, filters, search, etc.) that you are familiar with from managing your email messages.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_step-1-create-a-feed-account""><span class=""tocnumber"">1</span> <span class=""toctext"">Step 1: Create a Feed Account</span></a></li><li class=""toclevel-1""><a href=""#w_step-2-subscribe-to-feeds""><span class=""tocnumber"">2</span> <span class=""toctext"">Step 2: Subscribe to Feeds</span></a></li><li class=""toclevel-1""><a href=""#w_step-3-read-your-feeds""><span class=""tocnumber"">3</span> <span class=""toctext"">Step 3: Read your Feeds</span></a></li><li class=""toclevel-1""><a href=""#w_step-4-organize-and-manage-your-feeds""><span class=""tocnumber"">4</span> <span class=""toctext"">Step 4: Organize and Manage your Feeds</span></a><ul><li class=""toclevel-2""><a href=""#w_folders-and-accounts""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Folders and Accounts</span></a></li><li class=""toclevel-2""><a href=""#w_the-feed-subscriptions-dialog""><span class=""tocnumber"">4.2</span> <span class=""toctext"">The Feed Subscriptions dialog</span></a></li><li class=""toclevel-2""><a href=""#w_updates""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Updates</span></a></li><li class=""toclevel-2""><a href=""#w_automatic-tagging""><span class=""tocnumber"">4.4</span> <span class=""toctext"">Automatic Tagging</span></a></li><li class=""toclevel-2""><a href=""#w_import-and-export-your-feeds""><span class=""tocnumber"">4.5</span> <span class=""toctext"">Import and Export your Feeds</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_tips""><span class=""tocnumber"">5</span> <span class=""toctext"">Tips</span></a></li><li class=""toclevel-1""><a href=""#w_tips-for-publishers""><span class=""tocnumber"">6</span> <span class=""toctext"">Tips for Publishers</span></a></li><li class=""toclevel-1""><a href=""#w_advanced-tips""><span class=""tocnumber"">7</span> <span class=""toctext"">Advanced Tips</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshooting-faq""><span class=""tocnumber"">8</span> <span class=""toctext"">Troubleshooting FAQ</span></a></li></ul></div>
+<h1 id=""w_step-1-create-a-feed-account"">Step 1: Create a Feed Account</h1>
+<p>First you must create an account in Thunderbird for your feeds.
+</p>
+<ol><li> In the Menu Bar, click <span class=""menu"">File &gt; New &gt; Feed Account</span>. The <strong>Feed Account Wizard</strong> window appears.
+</li><li> Type a name for your Feed account in the <strong>Account Name</strong> box, then click <span class=""button"">Next</span>.
+</li><li> Click <span class=""button"">Finish</span>. Your new account will now appear in Thunderbird's folder pane.
+</li></ol>
+<h1 id=""w_step-2-subscribe-to-feeds"">Step 2: Subscribe to Feeds</h1>
+<p>Next, choose the feeds you want to subscribe to.
+</p>
+<ol><li> Use your web browser to open a website that you want to subscribe to. Most media sites and blogs that are regularly updated have feeds.
+</li><li> Look for a familiar RSS icon or text link on the site. On most sites the link appears at the bottom or on the side of the home page.
+<dl><dt><img alt=""rss icon on website"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-00-56-56e1e0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Right-click on the RSS link and copy the link’s address. (If you use Mozilla Firefox, click <span class=""menu"">Copy Link Location</span> on the context menu. If you use Google Chrome, click <span class=""menu"">Copy link address</span>.)
+<dl><dt><img alt=""copying rss link from website"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-00-21-149854.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <div class=""note""><strong>NOTE</strong>: On some large websites, the home page’s rss or feeds hyperlink is not a feed itself, but a link to a set of feeds provided by the site. For example, a major media site may have different feeds for its news, sports and entertainment sections. Just click the RSS icon on the home page, then perform Step 3 on the page that hosts all the site’s feeds.</div>
+</dt></dl>
+</li><li> In Thunderbird, click your Feed Account name in the folder pane.
+</li><li> Click <strong>Manage subscriptions</strong> to open the Feed Subscriptions dialog.
+</li><li> In the <strong>Feed URL</strong> box, right-click and paste the link address from the website.
+</li><li> Click <span class=""button"">Add</span>. Thunderbird will validate the link, create a new folder, subscribe a valid link to the new folder, and download all current articles. The new folder appears under your Feed Account in the folder pane.
+<dl><dt><img alt=""rss subscriptions dialog"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-17-59-45-dc5cd3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> Feeds can also be quickly subscribed by drag and dropping links from a browser onto either the Feed Account folder or any other folder in a Feed Account, directly in the folder pane. If a new folder is created, the folder's name is derived from the feed's title.
+</li></ol>
+<div class=""note""><strong>NOTE</strong>: Thunderbird will validate new feed urls and let you check for correct protocol syntax in an existing feed. For already added feeds, click the <strong>Validate</strong> link in the Feed Subscriptions dialog. If a feed does not Validate in Thunderbird (for example, if it is a web page), it may, however, appear to be correct in the <a href=""http://validator.w3.org/feed/"">Validation Service</a>. This is because the Service will attempt to locate a valid link. Check that the Service's link is the same as the link you entered in Thunderbird. (A web page may have more than one feed url in it; the Service will use the first one it finds.)</div>
+<h1 id=""w_step-3-read-your-feeds"">Step 3: Read your Feeds</h1>
+<p>Reading your feeds is as easy as using your email in Thunderbird.
+</p>
+<ol><li> Click <span class=""button"">Get Messages</span> to download all the newest feed messages, along with your regular email messages. If you right click on a specific folder and select <span class=""menu"">Get Messages</span>, only messages for that folder's subscriptions (and all of its subfolders) will be retrieved.
+</li><li> In the folder pane, click on the folder whose content you want to read. A list of unread messages from the feed appears in the message list pane.
+</li><li> Click on a message in the message list.
+</li><li> Read the article in the message body. If you’d like to see the article on the website, click the link in the message header next to <strong>Website</strong> (this will open the link in your default browser).
+<dl><dt><img alt=""rss message view"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-01-21-206dd9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li> You may also select the view action to perform when double clicking or hitting &lt;enter&gt; on a feed message selected in the list. The options are found in <span class=""menu"">Message &gt; When Opening Feed Messages</span>. 
+</li></ol>
+<div class=""note""><strong>NOTE</strong>: You can set whether the message displays as an article summary or the article web page in two ways:
+<ul><li> In the Feed Subscriptions dialog, select the feed folder and check the <strong>Show the article summary instead of loading the web page</strong> box. This preference applies to all feeds in the folder.
+</li><li> Select a message from the message list, then click <span class=""menu"">View &gt; Feed Message Body As</span>, and select whether to use the <span class=""menu"">Default Format</span> (folder setting above), or override the default and show <span class=""menu"">Summary</span> or <span class=""menu"">Web Page</span> globally.
+</li></ul>
+In <span class=""menu"">Tools &gt; Account Settings</span>, select the name of your Feed Account and check the <strong>By default, show the article summary instead of loading the web page</strong> box. This selection is the default for all <strong>new</strong> feed subscriptions that create a folder in that Account.</div>
+<h1 id=""w_step-4-organize-and-manage-your-feeds"">Step 4: Organize and Manage your Feeds</h1>
+<h2 id=""w_folders-and-accounts"">Folders and Accounts</h2>
+<p>You can create email-style folders to group individual feeds:
+</p>
+<ol><li> In the folderpane, click on your Feeds Account name to select it.
+</li><li> Click <span class=""menu"">File &gt; New &gt; Folder</span>. The <strong>New Folder</strong> dialog box appears.
+</li><li> Type a name for your new folder, then click <span class=""button"">Create Folder</span>. To create subfolders of your folders, first select the folder you want as the parent folder, then click <span class=""menu"">File &gt; New &gt; Subfolder</span>.
+</li><li> Alternatively, you can organize your feeds by creating additional Feed Accounts. Just repeat step 1 for every account you want to create, giving each one a different name. Multiple accounts are less useful now that individual feed update intervals have been implemented.
+</li></ol>
+<div class=""note""><strong>NOTE</strong>: A Feed Account subfolder may contain zero, one, or many subscriptions. Only one unique feed url may be subscribed to per account.</div>
+<h2 id=""w_the-feed-subscriptions-dialog"">The Feed Subscriptions dialog</h2>
+<ol><li> From a folderpane folder it is easy to go directly to managing feeds by right clicking and selecting the <span class=""menu"">Subscribe…</span> menu item.
+</li><li> The dialog will open with the folder selected and opened, showing the folder's feed subscriptions.
+</li><li> Feeds may be drag-and-dropped and otherwise organized in folders however you like. For example, it is useful to have a blog feed and its comments feed both subscribed to the same folder. (Publishers may even construct their feeds so items thread together as in email!)
+</li></ol>
+<div class=""note""><strong>NOTE</strong>: Moving or removing a feed subscription from a folder will not affect already downloaded articles in any way. If you remove a feed url subscription, the currently active items list is also cleaned up. As a result, resubscribing the feed url will cause already downloaded messages to be stored again. Deleting a folder or moving it to trash automatically unsubscribes all feeds from the folder.</div>
+<h2 id=""w_updates"">Updates</h2>
+<p>Starting in Thunderbird 60, each feed's update interval may be individually set. If the checkbox <strong>Check for new articles</strong> is unchecked, the feed is 'paused'. If all feeds in a folder are paused, the folder is paused and will appear in lower opacity. A folder may also be paused/unpaused using the context menu -- the status will apply to all feeds in the folder. The entire account may also be paused (this does not change any individual feed's pause state).
+</p><p>You may still get updates immediately by clicking <span class=""button"">Get Messages</span> even if an account or folder is paused. 
+</p>
+<h2 id=""w_automatic-tagging"">Automatic Tagging</h2>
+<p>If the publisher adds &lt;category&gt; tags to feed items, you may choose to autotag feed articles with these values. A &lt;category&gt; value corresponds to one keyword tag in Thunderbird. A feed item may have numerous &lt;category&gt; tags.
+</p>
+<ol><li> In the Feed Subscriptions dialog, select the feed and check the <strong>Automatically create tags from feed &lt;category&gt; names</strong> box.
+</li><li> You may also add a custom prefix to better differentiate tags.
+</li></ol>
+<p>The tags are stored in the <strong>Keywords:</strong> header (RFC5322 compliant) for portability. They are also tagged by Thunderbird's internal system and stored in the <strong>X-Mozilla-Keys:</strong> header of the article. As a result, tags will appear in the message header and work with the Quick Filter and Message Filters and Searches tag rules. 
+</p>
+<h2 id=""w_import-and-export-your-feeds"">Import and Export your Feeds</h2>
+<ol><li> If you have a list of feed urls exported in the OPML format to a file, perhaps from another feed reader, you may Import them using <span class=""menu"">Tools &gt; Import &gt; Feed Subscriptions</span>. Choose either a new or existing Feed Account.
+</li><li> You may also Import using the Feed Subscriptions dialog, selecting the Feed Account folder, and clicking <span class=""button"">Import</span>.
+</li><li> To Export, select the Feed Account (top folder) in the Feed Subscriptions dialog and click <span class=""button"">Export</span>. The folder structure and preferences of your feeds will be saved to a .opml file. (To Export a simple list, press <span class=""key"">Ctrl</span> then click the button).
+</li></ol>
+<h1 id=""w_tips"">Tips</h1>
+<ul><li> To quickly mark a feed folder's messages as all read, so they no longer appear in bold type, press <span class=""key"">Shift</span> + <span class=""key"">C</span> while the folder is selected.
+</li><li> To set how often Thunderbird checks for new feed messages and other default feed properties for <strong>new subscriptions only</strong>, click on <span class=""menu"">Tools &gt; Account Settings</span> or <span class=""menu"">Edit &gt; Account Settings</span> to open the dialog, then click on the name of your Feed Account. Set the values in the <strong>Default Settings for New Feeds</strong> section.
+</li><li> Feed article retention is managed just like for email. Click on <span class=""menu"">Disc Space</span> below your Feed Account name in <span class=""menu"">Account Settings</span> for more options.
+</li><li> Use the <a href=""/en-US/kb/quick-filter-toolbar"">Quick Filter toolbar</a> to save time if you're getting a lot of messages from a feed.
+</li><li> If you wish to use Message Filters on feed messages and filter by website, create a Custom header named <em>Content-Base</em>. This header contains the feed message's website link.
+</li><li> Feed articles may be placed in 'the cloud' by setting up a filter to copy or move items to an IMAP account folder. This is not true syncing in any way, but may be useful in some cases. The filter bug to enable this feature has been fixed in Thunderbird 38.
+</li></ul>
+<h1 id=""w_tips-for-publishers"">Tips for Publishers</h1>
+<ul><li> The <a href=""https://tools.ietf.org/html/rfc4287"">Atom specification</a> is strongly recommended. If you use the <a href=""http://www.rssboard.org/rss-specification"">RSS2.0 spec</a>, a &lt;guid&gt; is recommended. Also, &lt;title&gt; and &lt;link&gt; are mandatory per spec and the feed will be rejected if they are not present. Another common error is representing unicode characters with octals. Ensure dates are represented according to the chosen specification; bad dates may cause items to be rejected. Please always <strong>follow the specs</strong> and <a href=""http://validator.w3.org/feed/"">validate</a> and everyone will win.
+</li><li> The <strong>Last-Modified</strong> header should be returned in your server's response. Thunderbird will send this value in <strong>If-Modified-Since</strong> in its next request to your server, which you can respond to with code 304 if appropriate. This saves unnecessary bandwidth usage and processing if there are no new items or changes to your file.
+</li><li> If you use Atom and its <a href=""http://www.ietf.org/rfc/rfc4685.txt"">threading extension</a>, Thunderbird will group related feed items (like comments to a post) into <strong>threads</strong> just like it does with related email messages.
+</li><li> Changes to feed urls can be detected by Thunderbird and updated automatically for users. See <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=304917"">Bug 304917</a> for two ways of doing this.
+</li><li> New in Thunderbird 60: A <strong>Publisher recommends:</strong> update frequency is shown to the user in the Feed Subscriptions dialog if the relevant tags are included in your feed. Follow the  <a href=""http://web.resource.org/rss/1.0/modules/syndication/"">Syndication specification</a> to advertise your desired update frequency.
+</li></ul>
+<h1 id=""w_advanced-tips"">Advanced Tips</h1>
+<ul><li> The feed update frequency in <strong>Check for new articles</strong> should be set to minimize unnecessary bandwidth usage and Thunderbird processing, if the publisher is not using <strong>Last-Modified</strong> above. If it is being used, an immediate <strong>There are no new articles for this feed</strong> message appears in the status bar when manually getting new messages for the folder twice quickly.
+</li><li> A feed url may be added without being online; <strong>adding in offline mode</strong> will bypass feed validation. If offline (to go offline, click the status bar icon), a dialog will appear asking to go online for new messages. Cancel the prompt and the feed will be added. The feed's Title will be the url and may be edited. Once back online, Thunderbird may fail the feed for invalid url or syntax, but it will exist in the database.
+</li><li> Display of a feed item summary or web page may be fine tuned by setting the following two prefs using the <a href=""/en-US/kb/config-editor"">Config Editor</a>.<br><div class=""note""><span class=""pref"">rss.show.content-base</span><br>Action on double click or enter in threadpane for a feed message:<br><code>0 - open web page in new window<br>1 - open summary in new window<br>2 - toggle load summary and web page in message pane<br>3 - load web page in browser<br></code></div><div class=""note""><span class=""pref"">rss.message.loadWebPageOnSelect</span><br>Additional action on feed message select:<br><code>0 - no action<br>1 - load web page in default browser<br></code></div>
+</li><li> New in Thunderbird 60: Users with very many feeds may choose to limit the number of feeds simultaneously being processed by setting the pref <span class=""pref"">rss.max_concurrent_feeds</span> in the <a href=""/en-US/kb/config-editor"">Config Editor</a>. The default is <span class=""pref"">25</span>.
+</li><li> New in Thunderbird 60: Feed folders that contain a subscription url that is in error (server not reachable, feed file not found, certificate error, etc.) will be indicated with an icon. Open the Feed Subscriptions dialog, select the feed and focus the Feed URL, and click the <span class=""button"">Verify</span> button to <strong>check for network type problems</strong>.
+</li><li> Thunderbird has extensive logging of feed activity, viewable in <span class=""menu"">Tools &gt; Developer Tools &gt; Error Console</span>. Change the preference <span class=""pref"">Feeds.logging.console</span> to <span class=""pref"">debug</span> or <span class=""pref"">trace</span> (and restart) to see details of feed processing.
+</li></ul>
+<h1 id=""w_troubleshooting-faq"">Troubleshooting FAQ</h1>
+<p><strong>Q: Why are feed messages sometimes duplicated?</strong>
+</p><p>A: Feed messages with identical content but different unique ids are not detected as duplicates. See <a href=""http://forums.mozillazine.org/viewtopic.php?p=13360829#p13360829"">this post</a> for many more details. 
+</p><p><strong>Q: When viewing a feed web page, why does a browser sometimes open or a random page sometimes load in the browser?</strong>
+</p><p>A: Since Thunderbird wasn't designed to be a web browser, it will send all link requests to your default browser. In this case, script on the feed web page is attempting to open a link. The best solution is to install the Adblock Plus extension. In addition to having extensive built in filters, Adblock Plus lets you configure custom urls or domains to be blocked. See also <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=524281"">Bug 524281</a>.
+</p><p><strong>Q: Why can't I see some images or video or documents or other embedded content when viewing a feed summary?</strong>
+</p><p>A: This is due to JavaScript being disabled for messages (emails, newsgroup posts, feed summaries). The request to implement a user configurable option to enable JavaScript, for feed summaries only, is <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=456481"">Bug 456481</a>.
+</p>
+
+",thunderbird,settings," **NOTE** : This article applies to Thunderbird 52 and above.
+
+Websites may publish content for download by applications using one of either the RSS or Atom protocols. Such content is commonly called a ""news feed"" or ""RSS feed"" or ""syndication"". Feeds are often used by blogs, but more traditional websites can make any content available in this format. When you subscribe to a site's feed link, your feed reader (for example, Thunderbird) automatically checks the location and downloads the articles to local folders.
+
+When you use Thunderbird to handle your feeds, you can use the same presentation and tools (archiving, filters, search, etc.) that you are familiar with from managing your email messages.
+
+## Table of Contents
+
+- [1 Step 1: Create a Feed Account](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_step-1-create-a-feed-account)
+- [2 Step 2: Subscribe to Feeds](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_step-2-subscribe-to-feeds)
+- [3 Step 3: Read your Feeds](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_step-3-read-your-feeds)
+- [4 Step 4: Organize and Manage your Feeds](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_step-4-organize-and-manage-your-feeds)
+  - [4.1 Folders and Accounts](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_folders-and-accounts)
+  - [4.2 The Feed Subscriptions dialog](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_the-feed-subscriptions-dialog)
+  - [4.3 Updates](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_updates)
+  - [4.4 Automatic Tagging](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_automatic-tagging)
+  - [4.5 Import and Export your Feeds](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_import-and-export-your-feeds)
+
+- [5 Tips](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_tips)
+- [6 Tips for Publishers](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_tips-for-publishers)
+- [7 Advanced Tips](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_advanced-tips)
+- [8 Troubleshooting FAQ](https://support.mozilla.org/kb/how-subscribe-news-feeds-and-blogs#w_troubleshooting-faq)
+
+# Step 1: Create a Feed Account
+
+First you must create an account in Thunderbird for your feeds.
+
+1. In the Menu Bar, click File \> New \> Feed Account. The **Feed Account Wizard** window appears.
+2. Type a name for your Feed account in the **Account Name** box, then click Next.
+3. Click Finish. Your new account will now appear in Thunderbird's folder pane.
+
+# Step 2: Subscribe to Feeds
+
+Next, choose the feeds you want to subscribe to.
+
+1. Use your web browser to open a website that you want to subscribe to. Most media sites and blogs that are regularly updated have feeds.
+2. Look for a familiar RSS icon or text link on the site. On most sites the link appears at the bottom or on the side of the home page.<dl><dt>
+<img alt=""rss icon on website"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-00-56-56e1e0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Right-click on the RSS link and copy the link’s address. (If you use Mozilla Firefox, click Copy Link Location on the context menu. If you use Google Chrome, click Copy link address.)<dl><dt>
+<img alt=""copying rss link from website"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-00-21-149854.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <div class=""note"">
+<strong>NOTE</strong>: On some large websites, the home page’s rss or feeds hyperlink is not a feed itself, but a link to a set of feeds provided by the site. For example, a major media site may have different feeds for its news, sports and entertainment sections. Just click the RSS icon on the home page, then perform Step 3 on the page that hosts all the site’s feeds.</div>
+</dt></dl>
+4. In Thunderbird, click your Feed Account name in the folder pane.
+5. Click **Manage subscriptions** to open the Feed Subscriptions dialog.
+6. In the **Feed URL** box, right-click and paste the link address from the website.
+7. Click Add. Thunderbird will validate the link, create a new folder, subscribe a valid link to the new folder, and download all current articles. The new folder appears under your Feed Account in the folder pane.<dl><dt>
+<img alt=""rss subscriptions dialog"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-17-59-45-dc5cd3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+8. Feeds can also be quickly subscribed by drag and dropping links from a browser onto either the Feed Account folder or any other folder in a Feed Account, directly in the folder pane. If a new folder is created, the folder's name is derived from the feed's title.
+
+**NOTE** : Thunderbird will validate new feed urls and let you check for correct protocol syntax in an existing feed. For already added feeds, click the **Validate** link in the Feed Subscriptions dialog. If a feed does not Validate in Thunderbird (for example, if it is a web page), it may, however, appear to be correct in the [Validation Service](http://validator.w3.org/feed/). This is because the Service will attempt to locate a valid link. Check that the Service's link is the same as the link you entered in Thunderbird. (A web page may have more than one feed url in it; the Service will use the first one it finds.)
+
+# Step 3: Read your Feeds
+
+Reading your feeds is as easy as using your email in Thunderbird.
+
+1. Click Get Messages to download all the newest feed messages, along with your regular email messages. If you right click on a specific folder and select Get Messages, only messages for that folder's subscriptions (and all of its subfolders) will be retrieved.
+2. In the folder pane, click on the folder whose content you want to read. A list of unread messages from the feed appears in the message list pane.
+3. Click on a message in the message list.
+4. Read the article in the message body. If you’d like to see the article on the website, click the link in the message header next to **Website** (this will open the link in your default browser).<dl><dt>
+<img alt=""rss message view"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-06-18-01-21-206dd9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+5. You may also select the view action to perform when double clicking or hitting \<enter\> on a feed message selected in the list. The options are found in Message \> When Opening Feed Messages. 
+
+**NOTE** : You can set whether the message displays as an article summary or the article web page in two ways:
+- In the Feed Subscriptions dialog, select the feed folder and check the **Show the article summary instead of loading the web page** box. This preference applies to all feeds in the folder.
+- Select a message from the message list, then click View \> Feed Message Body As, and select whether to use the Default Format (folder setting above), or override the default and show Summary or Web Page globally.
+
+In Tools \> Account Settings, select the name of your Feed Account and check the **By default, show the article summary instead of loading the web page** box. This selection is the default for all **new** feed subscriptions that create a folder in that Account.
+
+# Step 4: Organize and Manage your Feeds
+
+## Folders and Accounts
+
+You can create email-style folders to group individual feeds:
+
+1. In the folderpane, click on your Feeds Account name to select it.
+2. Click File \> New \> Folder. The **New Folder** dialog box appears.
+3. Type a name for your new folder, then click Create Folder. To create subfolders of your folders, first select the folder you want as the parent folder, then click File \> New \> Subfolder.
+4. Alternatively, you can organize your feeds by creating additional Feed Accounts. Just repeat step 1 for every account you want to create, giving each one a different name. Multiple accounts are less useful now that individual feed update intervals have been implemented.
+
+**NOTE** : A Feed Account subfolder may contain zero, one, or many subscriptions. Only one unique feed url may be subscribed to per account.
+
+## The Feed Subscriptions dialog
+
+1. From a folderpane folder it is easy to go directly to managing feeds by right clicking and selecting the Subscribe… menu item.
+2. The dialog will open with the folder selected and opened, showing the folder's feed subscriptions.
+3. Feeds may be drag-and-dropped and otherwise organized in folders however you like. For example, it is useful to have a blog feed and its comments feed both subscribed to the same folder. (Publishers may even construct their feeds so items thread together as in email!)
+
+**NOTE** : Moving or removing a feed subscription from a folder will not affect already downloaded articles in any way. If you remove a feed url subscription, the currently active items list is also cleaned up. As a result, resubscribing the feed url will cause already downloaded messages to be stored again. Deleting a folder or moving it to trash automatically unsubscribes all feeds from the folder.
+
+## Updates
+
+Starting in Thunderbird 60, each feed's update interval may be individually set. If the checkbox **Check for new articles** is unchecked, the feed is 'paused'. If all feeds in a folder are paused, the folder is paused and will appear in lower opacity. A folder may also be paused/unpaused using the context menu -- the status will apply to all feeds in the folder. The entire account may also be paused (this does not change any individual feed's pause state).
+
+You may still get updates immediately by clicking Get Messages even if an account or folder is paused.
+
+## Automatic Tagging
+
+If the publisher adds \<category\> tags to feed items, you may choose to autotag feed articles with these values. A \<category\> value corresponds to one keyword tag in Thunderbird. A feed item may have numerous \<category\> tags.
+
+1. In the Feed Subscriptions dialog, select the feed and check the **Automatically create tags from feed \<category\> names** box.
+2. You may also add a custom prefix to better differentiate tags.
+
+The tags are stored in the **Keywords:** header (RFC5322 compliant) for portability. They are also tagged by Thunderbird's internal system and stored in the **X-Mozilla-Keys:** header of the article. As a result, tags will appear in the message header and work with the Quick Filter and Message Filters and Searches tag rules.
+
+## Import and Export your Feeds
+
+1. If you have a list of feed urls exported in the OPML format to a file, perhaps from another feed reader, you may Import them using Tools \> Import \> Feed Subscriptions. Choose either a new or existing Feed Account.
+2. You may also Import using the Feed Subscriptions dialog, selecting the Feed Account folder, and clicking Import.
+3. To Export, select the Feed Account (top folder) in the Feed Subscriptions dialog and click Export. The folder structure and preferences of your feeds will be saved to a .opml file. (To Export a simple list, press Ctrl then click the button).
+
+# Tips
+
+- To quickly mark a feed folder's messages as all read, so they no longer appear in bold type, press Shift + C while the folder is selected.
+- To set how often Thunderbird checks for new feed messages and other default feed properties for **new subscriptions only** , click on Tools \> Account Settings or Edit \> Account Settings to open the dialog, then click on the name of your Feed Account. Set the values in the **Default Settings for New Feeds** section.
+- Feed article retention is managed just like for email. Click on Disc Space below your Feed Account name in Account Settings for more options.
+- Use the [Quick Filter toolbar](\""https://support.mozilla.org/en-US/kb/quick-filter-toolbar"") to save time if you're getting a lot of messages from a feed.
+- If you wish to use Message Filters on feed messages and filter by website, create a Custom header named _Content-Base_. This header contains the feed message's website link.
+- Feed articles may be placed in 'the cloud' by setting up a filter to copy or move items to an IMAP account folder. This is not true syncing in any way, but may be useful in some cases. The filter bug to enable this feature has been fixed in Thunderbird 38.
+
+# Tips for Publishers
+
+- The [Atom specification](https://tools.ietf.org/html/rfc4287) is strongly recommended. If you use the [RSS2.0 spec](http://www.rssboard.org/rss-specification), a \<guid\> is recommended. Also, \<title\> and \<link\> are mandatory per spec and the feed will be rejected if they are not present. Another common error is representing unicode characters with octals. Ensure dates are represented according to the chosen specification; bad dates may cause items to be rejected. Please always **follow the specs** and [validate](http://validator.w3.org/feed/) and everyone will win.
+- The **Last-Modified** header should be returned in your server's response. Thunderbird will send this value in **If-Modified-Since** in its next request to your server, which you can respond to with code 304 if appropriate. This saves unnecessary bandwidth usage and processing if there are no new items or changes to your file.
+- If you use Atom and its [threading extension](http://www.ietf.org/rfc/rfc4685.txt), Thunderbird will group related feed items (like comments to a post) into **threads** just like it does with related email messages.
+- Changes to feed urls can be detected by Thunderbird and updated automatically for users. See [Bug 304917](https://bugzilla.mozilla.org/show_bug.cgi?id=304917) for two ways of doing this.
+- New in Thunderbird 60: A **Publisher recommends:** update frequency is shown to the user in the Feed Subscriptions dialog if the relevant tags are included in your feed. Follow the [Syndication specification](http://web.resource.org/rss/1.0/modules/syndication/) to advertise your desired update frequency.
+
+# Advanced Tips
+
+- The feed update frequency in **Check for new articles** should be set to minimize unnecessary bandwidth usage and Thunderbird processing, if the publisher is not using **Last-Modified** above. If it is being used, an immediate **There are no new articles for this feed** message appears in the status bar when manually getting new messages for the folder twice quickly.
+- A feed url may be added without being online; **adding in offline mode** will bypass feed validation. If offline (to go offline, click the status bar icon), a dialog will appear asking to go online for new messages. Cancel the prompt and the feed will be added. The feed's Title will be the url and may be edited. Once back online, Thunderbird may fail the feed for invalid url or syntax, but it will exist in the database.
+- Display of a feed item summary or web page may be fine tuned by setting the following two prefs using the [Config Editor](\""https://support.mozilla.org/en-US/kb/config-editor"").  
+
+rss.show.content-base  
+Action on double click or enter in threadpane for a feed message:  
+`0 - open web page in new window1 - open summary in new window2 - toggle load summary and web page in message pane3 - load web page in browser`
+
+rss.message.loadWebPageOnSelect  
+Additional action on feed message select:  
+`0 - no action1 - load web page in default browser`
+- New in Thunderbird 60: Users with very many feeds may choose to limit the number of feeds simultaneously being processed by setting the pref rss.max\_concurrent\_feeds in the [Config Editor](\""https://support.mozilla.org/en-US/kb/config-editor""). The default is 25.
+- New in Thunderbird 60: Feed folders that contain a subscription url that is in error (server not reachable, feed file not found, certificate error, etc.) will be indicated with an icon. Open the Feed Subscriptions dialog, select the feed and focus the Feed URL, and click the Verify button to **check for network type problems**.
+- Thunderbird has extensive logging of feed activity, viewable in Tools \> Developer Tools \> Error Console. Change the preference Feeds.logging.console to debug or trace (and restart) to see details of feed processing.
+
+# Troubleshooting FAQ
+
+**Q: Why are feed messages sometimes duplicated?**
+
+A: Feed messages with identical content but different unique ids are not detected as duplicates. See [this post](http://forums.mozillazine.org/viewtopic.php?p=13360829#p13360829) for many more details.
+
+**Q: When viewing a feed web page, why does a browser sometimes open or a random page sometimes load in the browser?**
+
+A: Since Thunderbird wasn't designed to be a web browser, it will send all link requests to your default browser. In this case, script on the feed web page is attempting to open a link. The best solution is to install the Adblock Plus extension. In addition to having extensive built in filters, Adblock Plus lets you configure custom urls or domains to be blocked. See also [Bug 524281](https://bugzilla.mozilla.org/show_bug.cgi?id=524281).
+
+**Q: Why can't I see some images or video or documents or other embedded content when viewing a feed summary?**
+
+A: This is due to JavaScript being disabled for messages (emails, newsgroup posts, feed summaries). The request to implement a user configurable option to enable JavaScript, for feed summaries only, is [Bug 456481](https://bugzilla.mozilla.org/show_bug.cgi?id=456481).
+
+"
+17206,Switch from POP to IMAP account,switch-pop-imap-account,https://support.mozilla.org/en-US/kb/switch-pop-imap-account,en-US,This article explains how to switch from a POP to an IMAP account in Thunderbird.,"<p>The article about <a href=""/en-US/kb/imap-synchronization"">IMAP Synchronization</a> explains the benefits of IMAP, which is the most modern and widely-used email protocol. (POP is an earlier protocol with less functionality.) If you want to convert your existing POP account to an IMAP account in Thunderbird, follow these steps.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_check-that-your-mail-provider-supports-imap""><span class=""tocnumber"">1</span> <span class=""toctext"">Check that your mail provider supports IMAP</span></a></li><li class=""toclevel-1""><a href=""#w_disable-your-pop-account""><span class=""tocnumber"">2</span> <span class=""toctext"">Disable your POP account</span></a></li><li class=""toclevel-1""><a href=""#w_create-the-imap-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Create the IMAP account</span></a></li><li class=""toclevel-1""><a href=""#w_transfer-your-local-messages-to-the-server""><span class=""tocnumber"">4</span> <span class=""toctext"">Transfer your local messages to the server</span></a></li><li class=""toclevel-1""><a href=""#w_delete-your-pop-account""><span class=""tocnumber"">5</span> <span class=""toctext"">Delete your POP account</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See also</span></a></li></ul></div>
+<h1 id=""w_check-that-your-mail-provider-supports-imap"">Check that your mail provider supports IMAP</h1>
+<p>While most mail providers support IMAP, a few still don't. So first make sure that your mail provider supports IMAP. 
+</p><p>If your provider does not support IMAP and you still want to use an IMAP account, you must choose a new mail account provider (for instance, <a href=""/en-US/kb/new-email-address"">those sponsored in Thunderbird</a> support IMAP), create an account, and then move your messages from your old POP account to your new IMAP account, as explained below.
+</p>
+<h1 id=""w_disable-your-pop-account"">Disable your POP account</h1>
+<p>In order to avoid duplicating the checks for new messages, first go to your account settings by opening the <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span> &gt; Account Settings</span>
+ menu, then select <strong>Server settings</strong> and un-check both <strong>Check for new messages at startup</strong> and <strong>Check for new messages every XX minutes</strong>.
+</p>
+<h1 id=""w_create-the-imap-account"">Create the IMAP account</h1>
+<ol><li> Open the <span class=""menu"">File &gt; New &gt; Existing account</span> menu.
+</li><li> Set up your account with the help of <a href=""/en-US/kb/automatic-account-configuration"">the assistant</a>.
+</li><li> When it  asks if you want to use POP or IMAP, select <strong>IMAP (remote folders)</strong>.<br><img alt=""imap account selection"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-08-17-04-40-09-416372.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</li><li> Your new IMAP account will be created and appear at the bottom of your existing mail accounts.
+</li><li> Take the time to test if everything works. Check if your special folders are correctly recognized (i.e. the folder used to store the sent mail should have its own icon, and similarly for the <em>Trash</em>, <em>Junk</em> and <em>Draft</em> folders).
+</li></ol>
+<h1 id=""w_transfer-your-local-messages-to-the-server"">Transfer your local messages to the server</h1>
+<p>If you have messages or folders in your POP account that you would like to access via your IMAP account, simply select them and move them to your IMAP account by dragging and dropping.
+Depending on the number of messages that you move, it may take several minutes to be uploaded. Be patient; you are nearly finished.
+</p>
+<div class=""note""> Alternatively, you can also use the <strong>Local Folders</strong> account to store your old emails instead of moving them to the IMAP server, especially if the IMAP server has a limited storage capacity.</div>
+<h1 id=""w_delete-your-pop-account"">Delete your POP account</h1>
+<p>If you are converting your email account to IMAP from POP, you can delete the POP account when you are completely sure that you have moved all your important messages to the IMAP server (or into your Local Folders). You cannot easily undo this action, so make sure that you really don't need the messages stored in this account anymore.
+</p>
+<ol><li> Open your account settings by opening the menu <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span> &gt; Account Settings</span>
+, then select your POP account.
+</li><li> Click on the <span class=""button"">Account actions</span> button at the bottom and select <strong>Remove Account</strong>.
+</li></ol>
+<p>If you have created a new email account that uses IMAP, you cannot delete your old POP account without deleting your email address. Before deleting the POP account, you will probably want to inform people who send messages to your old account that they should switch to your new email address, and allow a period of time to pass before deleting the POP account to ensure that you don't miss any messages.
+</p>
+<h1 id=""w_see-also"">See also</h1>
+<ul><li> Learn more about <a href=""/en-US/kb/imap-synchronization"">IMAP Synchronization</a>
+</li><li> If you want to do the opposite of this action, see: <a href=""/en-US/kb/faq-changing-imap-pop"">FAQ Changing IMAP to POP</a>
+</li></ul>
+<p> 
+
+</p>",thunderbird,email-and-messaging;import-and-export-settings;send-and-receive-email;settings,"The article about [IMAP Synchronization](\""https://support.mozilla.org/en-US/kb/imap-synchronization"") explains the benefits of IMAP, which is the most modern and widely-used email protocol. (POP is an earlier protocol with less functionality.) If you want to convert your existing POP account to an IMAP account in Thunderbird, follow these steps.
+
+## Table of Contents
+
+- [1 Check that your mail provider supports IMAP](https://support.mozilla.org/kb/switch-pop-imap-account#w_check-that-your-mail-provider-supports-imap)
+- [2 Disable your POP account](https://support.mozilla.org/kb/switch-pop-imap-account#w_disable-your-pop-account)
+- [3 Create the IMAP account](https://support.mozilla.org/kb/switch-pop-imap-account#w_create-the-imap-account)
+- [4 Transfer your local messages to the server](https://support.mozilla.org/kb/switch-pop-imap-account#w_transfer-your-local-messages-to-the-server)
+- [5 Delete your POP account](https://support.mozilla.org/kb/switch-pop-imap-account#w_delete-your-pop-account)
+- [6 See also](https://support.mozilla.org/kb/switch-pop-imap-account#w_see-also)
+
+# Check that your mail provider supports IMAP
+
+While most mail providers support IMAP, a few still don't. So first make sure that your mail provider supports IMAP.
+
+If your provider does not support IMAP and you still want to use an IMAP account, you must choose a new mail account provider (for instance, [those sponsored in Thunderbird](\""https://support.mozilla.org/en-US/kb/new-email-address"") support IMAP), create an account, and then move your messages from your old POP account to your new IMAP account, as explained below.
+
+# Disable your POP account
+
+In order to avoid duplicating the checks for new messages, first go to your account settings by opening the ToolsEdit \> Account Settings menu, then select **Server settings** and un-check both **Check for new messages at startup** and **Check for new messages every XX minutes**.
+
+# Create the IMAP account
+
+1. Open the File \> New \> Existing account menu.
+2. Set up your account with the help of [the assistant](\""https://support.mozilla.org/en-US/kb/automatic-account-configuration"").
+3. When it asks if you want to use POP or IMAP, select **IMAP (remote folders)**.  
+ ![imap account selection](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+4. Your new IMAP account will be created and appear at the bottom of your existing mail accounts.
+5. Take the time to test if everything works. Check if your special folders are correctly recognized (i.e. the folder used to store the sent mail should have its own icon, and similarly for the _Trash_, _Junk_ and _Draft_ folders).
+
+# Transfer your local messages to the server
+
+If you have messages or folders in your POP account that you would like to access via your IMAP account, simply select them and move them to your IMAP account by dragging and dropping. Depending on the number of messages that you move, it may take several minutes to be uploaded. Be patient; you are nearly finished.
+
+ Alternatively, you can also use the **Local Folders** account to store your old emails instead of moving them to the IMAP server, especially if the IMAP server has a limited storage capacity.
+
+# Delete your POP account
+
+If you are converting your email account to IMAP from POP, you can delete the POP account when you are completely sure that you have moved all your important messages to the IMAP server (or into your Local Folders). You cannot easily undo this action, so make sure that you really don't need the messages stored in this account anymore.
+
+1. Open your account settings by opening the menu ToolsEdit \> Account Settings, then select your POP account.
+2. Click on the Account actions button at the bottom and select **Remove Account**.
+
+If you have created a new email account that uses IMAP, you cannot delete your old POP account without deleting your email address. Before deleting the POP account, you will probably want to inform people who send messages to your old account that they should switch to your new email address, and allow a period of time to pass before deleting the POP account to ensure that you don't miss any messages.
+
+# See also
+
+- Learn more about [IMAP Synchronization](\""https://support.mozilla.org/en-US/kb/imap-synchronization"")
+- If you want to do the opposite of this action, see: [FAQ Changing IMAP to POP](\""https://support.mozilla.org/en-US/kb/faq-changing-imap-pop"")
+
+&nbsp;
+
+"
 17208,Instant Messaging and Chat,instant-messaging-and-chat,https://support.mozilla.org/en-US/kb/instant-messaging-and-chat,en-US,"As of Thunderbird 52.x, Thunderbird supports instant messaging and chat using IRC, XMPP, Twitter, and Google Talk","<p>Thunderbird supports instant messaging and chat using IRC, XMPP, and Google Talk.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_configuring-chat""><span class=""tocnumber"">1</span> <span class=""toctext"">Configuring Chat</span></a><ul><li class=""toclevel-2""><a href=""#w_start-the-new-account-wizard""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Start the New Account Wizard</span></a></li><li class=""toclevel-2""><a href=""#w_enter-username""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Enter Username</span></a></li><li class=""toclevel-2""><a href=""#w_enter-password""><span class=""tocnumber"">1.3</span> <span class=""toctext"">Enter Password</span></a></li><li class=""toclevel-2""><a href=""#w_advanced-options""><span class=""tocnumber"">1.4</span> <span class=""toctext"">Advanced Options</span></a></li><li class=""toclevel-2""><a href=""#w_finish-the-wizard""><span class=""tocnumber"">1.5</span> <span class=""toctext"">Finish the Wizard</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-chat""><span class=""tocnumber"">2</span> <span class=""toctext"">Using Chat</span></a><ul><li class=""toclevel-2""><a href=""#w_connect-to-your-chat-account""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Connect to your Chat Account</span></a></li><li class=""toclevel-2""><a href=""#w_use-the-chat-tab-to-start-and-join-conversations""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Use the Chat Tab to start and join conversations</span></a></li><li class=""toclevel-2""><a href=""#w_chat-is-included-in-search""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Chat is included in Search</span></a></li></ul></li></ul></div>
@@ -77237,6 +77602,265 @@ With a free subscription, you can create up to 5 masks and reuse whenever you ne
 - The next ESR based on Firefox 68 (68.12) which will be released August 25, 2020 will be the last Firefox 68 based ESR unless there is a security issue before September 22, 2020. Users of Firefox 68 ESR will start to be automatically upgraded to the Firefox 78 ESR when Firefox ESR 78.3 is released on September 22, 2020.
 
 "
+50329,Downloads in Firefox for Android,downloads-firefox-android,https://support.mozilla.org/en-US/kb/downloads-firefox-android,en-US,Learn how to download and access files in Firefox for Android.,"<p>Learn how to download and access files in Firefox for Android.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-download-a-file""><span class=""tocnumber"">1</span> <span class=""toctext"">How to download a file</span></a><ul><li class=""toclevel-2""><a href=""#w_to-download-a-file""><span class=""tocnumber"">1.1</span> <span class=""toctext"">To download a file</span></a></li><li class=""toclevel-2""><a href=""#w_to-download-a-pdf-file""><span class=""tocnumber"">1.2</span> <span class=""toctext"">To download a PDF file</span></a></li><li class=""toclevel-2""><a href=""#w_to-download-an-image""><span class=""tocnumber"">1.3</span> <span class=""toctext"">To download an image</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_view-and-delete-download-files""><span class=""tocnumber"">2</span> <span class=""toctext"">View and delete download files</span></a></li><li class=""toclevel-1""><a href=""#w_filter-downloaded-files""><span class=""tocnumber"">3</span> <span class=""toctext"">Filter downloaded files</span></a></li><li class=""toclevel-1""><a href=""#w_share-downloads""><span class=""tocnumber"">4</span> <span class=""toctext"">Share downloads</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">5</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_how-to-download-a-file"">How to download a file</h1>
+<h2 id=""w_to-download-a-file"">To download a file</h2>
+<ol><li>Tap on a download link. 
+</li><li>A download confirmation appears, this shows the file name and size.<br>Tap the <span class=""button"">Download</span> button to confirm you want to download the file.
+<dl><dt><img alt=""DownloadNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-08-51-44-4e8ba0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>When the download is finished, the <em>Download completed</em> message appears.<br>Tap the <span class=""button"">Open</span> button to view the file with some app installed in your device.
+<dl><dt><img alt=""DownloadCompletedNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-08-47-55-08b0a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h2 id=""w_to-download-a-pdf-file"">To download a PDF file</h2>
+<ol><li>Click on the link of the PDF you want to download. The PDF will automatically open in Firefox.
+</li><li>Tap the three dots at the bottom right of the screen.
+</li><li>Tap <span class=""menu"">Open in app</span> to open the file in your default PDF viewer.
+<dl><dt><img alt=""AndroidOpenInAppMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-08-05-59-49-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""200"">
+</dt></dl>
+</li></ol>
+<p>Alternatively, you can navigate to your downloaded files by tapping the three dots on the bottom right side of the screen, then tap <span class=""menu"">Downloads</span> to see a list of your downloaded files.
+</p>
+<h2 id=""w_to-download-an-image"">To download an image</h2>
+<ol><li>Tap and hold on the image you want to download.
+</li><li>Select <span class=""menu"">Save image</span>.
+</li><li>When the download is finished, the <em>Download completed</em> message appears.<br>Tap the <span class=""button"">Open</span> button to view the image.
+<dl><dt><img alt=""ImageDownloadCompletedNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-09-08-48-33319f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_view-and-delete-download-files"">View and delete download files</h1>
+<p>You can view and delete your downloaded files from the <em>Downloads</em> page in Firefox. 
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <img alt=""Firefox_Android111_Downloads"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-20-07-28-41-d7e7a7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <span class=""menu"">Downloads</span>. A list of files that were downloaded on Firefox for Android appears.
+</li><li>Tap a file in the list to open it.
+</li></ol>
+<p><strong>Remove a download:</strong>
+</p>
+
+<ol><li>Tap the trash icon <img alt=""Firefox_Android111_Trash"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-17-10-56-53-207c8c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to the right of the file you want to remove from the download list. A confirmation notification appears briefly, with an option to <strong>UNDO</strong>.
+</li></ol>
+<p><strong>Remove all downloads:</strong>
+</p>
+<ol><li>Tap and hold on one of the files in the list to be able to select multiple items.
+</li><li>Tap the three-dot button to the right.
+</li><li>Tap <strong>Select all</strong> in the menu.
+</li><li>Tap again the three-dot button.
+</li><li>Select <strong>Remove</strong> in the menu.
+</li></ol>
+<p>A notification, with an option to <strong>UNDO</strong>, confirms briefly the deletion of the download list. The files are not removed from the device.
+</p>
+<h1 id=""w_filter-downloaded-files"">Filter downloaded files</h1>
+<p>You can filter your downloaded files from the <em>Downloads</em> page in Firefox. Follow these steps.
+</p>
+<ol><li>Tap the menu button.
+<dl><dt><img alt=""new preview menu updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-22-05-37-04-5794dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Select <span class=""button"">Downloads</span> to open all downloads you've done in Firefox.
+</li><li>Along the top of the screen you will see different file types. Select a category to see downloads relevant to that group or select <span class=""menu"">All</span> to see all file downloads available.
+<dl><dt><img alt=""Filters"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-07-10-19-37-f3f43e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li></ol>
+<h1 id=""w_share-downloads"">Share downloads</h1>
+<ol><li>Tap the menu button.
+<dl><dt><img alt=""new preview menu updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-22-05-37-04-5794dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Select <span class=""button"">Downloads</span> to open all downloads you've done in Firefox.
+</li><li>On the download you wish to share, select the three-dot menu <img alt=""Vertical dots menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-02-20-47-38-b60abf.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""15"">.
+</li><li>A small menu will open, tap  <span class=""menu"">Share URL</span> or <span class=""menu"">Share file</span>.
+<dl><dt><img alt=""Share URL"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-07-10-30-54-a9c507.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Select the app or platform you wish to share the download on.
+</li></ol>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/manage-bookmark-folders-firefox-android"">Manage bookmark folders in Firefox for Android</a>
+</li><li><a href=""/en-US/kb/add-delete-and-view-bookmarked-webpages-firefox-android"">Add, delete and view bookmarked webpages in Firefox for Android</a>
+</li></ul>",mobile,download-and-save;downloads,"Learn how to download and access files in Firefox for Android.
+
+## Table of Contents
+
+- [1 How to download a file](https://support.mozilla.org/kb/downloads-firefox-android#w_how-to-download-a-file)
+  - [1.1 To download a file](https://support.mozilla.org/kb/downloads-firefox-android#w_to-download-a-file)
+  - [1.2 To download a PDF file](https://support.mozilla.org/kb/downloads-firefox-android#w_to-download-a-pdf-file)
+  - [1.3 To download an image](https://support.mozilla.org/kb/downloads-firefox-android#w_to-download-an-image)
+
+- [2 View and delete download files](https://support.mozilla.org/kb/downloads-firefox-android#w_view-and-delete-download-files)
+- [3 Filter downloaded files](https://support.mozilla.org/kb/downloads-firefox-android#w_filter-downloaded-files)
+- [4 Share downloads](https://support.mozilla.org/kb/downloads-firefox-android#w_share-downloads)
+- [5 Related articles](https://support.mozilla.org/kb/downloads-firefox-android#w_related-articles)
+
+# How to download a file
+
+## To download a file
+
+1. Tap on a download link. 
+2. A download confirmation appears, this shows the file name and size.  
+Tap the Download button to confirm you want to download the file.<dl><dt>
+<img alt=""DownloadNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-08-51-44-4e8ba0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. When the download is finished, the _Download completed_ message appears.  
+Tap the Open button to view the file with some app installed in your device.<dl><dt>
+<img alt=""DownloadCompletedNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-08-47-55-08b0a5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+## To download a PDF file
+
+1. Click on the link of the PDF you want to download. The PDF will automatically open in Firefox.
+2. Tap the three dots at the bottom right of the screen.
+3. Tap Open in app to open the file in your default PDF viewer.<dl><dt>
+<img alt=""AndroidOpenInAppMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-04-08-05-59-49-c4ca42.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""200"">
+</dt></dl>
+
+Alternatively, you can navigate to your downloaded files by tapping the three dots on the bottom right side of the screen, then tap Downloads to see a list of your downloaded files.
+
+## To download an image
+
+1. Tap and hold on the image you want to download.
+2. Select Save image.
+3. When the download is finished, the _Download completed_ message appears.  
+Tap the Open button to view the image.<dl><dt>
+<img alt=""ImageDownloadCompletedNotification_FirefoxAndroid111"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-21-09-08-48-33319f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# View and delete download files
+
+You can view and delete your downloaded files from the _Downloads_ page in Firefox.
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap ![Firefox_Android111_Downloads](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) Downloads. A list of files that were downloaded on Firefox for Android appears.
+3. Tap a file in the list to open it.
+
+**Remove a download:**
+
+1. Tap the trash icon ![Firefox_Android111_Trash](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to the right of the file you want to remove from the download list. A confirmation notification appears briefly, with an option to **UNDO**.
+
+**Remove all downloads:**
+
+1. Tap and hold on one of the files in the list to be able to select multiple items.
+2. Tap the three-dot button to the right.
+3. Tap **Select all** in the menu.
+4. Tap again the three-dot button.
+5. Select **Remove** in the menu.
+
+A notification, with an option to **UNDO** , confirms briefly the deletion of the download list. The files are not removed from the device.
+
+# Filter downloaded files
+
+You can filter your downloaded files from the _Downloads_ page in Firefox. Follow these steps.
+
+1. Tap the menu button.<dl><dt>
+<img alt=""new preview menu updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-22-05-37-04-5794dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+2. Select Downloads to open all downloads you've done in Firefox.
+3. Along the top of the screen you will see different file types. Select a category to see downloads relevant to that group or select All to see all file downloads available.<dl><dt>
+<img alt=""Filters"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-07-10-19-37-f3f43e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+
+# Share downloads
+
+1. Tap the menu button.<dl><dt>
+<img alt=""new preview menu updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-22-05-37-04-5794dc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+2. Select Downloads to open all downloads you've done in Firefox.
+3. On the download you wish to share, select the three-dot menu ![Vertical dots menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+4. A small menu will open, tap Share URL or Share file.<dl><dt>
+<img alt=""Share URL"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-05-07-10-30-54-a9c507.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+5. Select the app or platform you wish to share the download on.
+
+# Related articles
+
+- [Manage bookmark folders in Firefox for Android](\""https://support.mozilla.org/en-US/kb/manage-bookmark-folders-firefox-android"")
+- [Add, delete and view bookmarked webpages in Firefox for Android](\""https://support.mozilla.org/en-US/kb/add-delete-and-view-bookmarked-webpages-firefox-android"")
+
+"
+50373,Add a Firefox widget to your Home screen,add-firefox-widget-your-home-screen,https://support.mozilla.org/en-US/kb/add-firefox-widget-your-home-screen,en-US,Learn more about how to add a Firefox widget to your Home screen.,"<p>Add Firefox widgets to the Home screen on your iOS device. Firefox widgets let you quickly start new searches and access your favorite websites all from your Home screen.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-add-a-firefox-widget""><span class=""tocnumber"">1</span> <span class=""toctext"">How to add a Firefox Widget</span></a></li><li class=""toclevel-1""><a href=""#w_types-of-widgets""><span class=""tocnumber"">2</span> <span class=""toctext"">Types of Widgets</span></a><ul><li class=""toclevel-2""><a href=""#w_quick-view-widget""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Quick View Widget</span></a></li><li class=""toclevel-2""><a href=""#w_website-shortcuts-widget""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Website Shortcuts Widget</span></a></li><li class=""toclevel-2""><a href=""#w_firefox-shortcuts-widget""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Firefox Shortcuts Widget</span></a></li><li class=""toclevel-2""><a href=""#w_quick-actions-widget""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Quick Actions Widget</span></a></li></ul></li></ul></div>
+<h1 id=""w_how-to-add-a-firefox-widget"">How to add a Firefox Widget</h1>
+<ol><li>Tap and hold any empty spot on the Home screen.
+</li><li>Press the plus icon <span class=""button"">+</span> at the top left of the Home screen.
+<dl><dt><img alt=""iOS search widget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-12-47-12-79e964.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+</dt></dl>
+</li><li>Scroll down and select the <span class=""menu"">Firefox</span> app from the list.
+</li><li>You can scroll through the available widgets by swiping left and right. When you find the one you’d like to add, tap the <span class=""button"">+ Add Widget</span> button.
+</li></ol>
+<h1 id=""w_types-of-widgets"">Types of Widgets</h1>
+<h2 id=""w_quick-view-widget"">Quick View Widget</h2>
+<dl><dt><img alt=""iOS15QuickViewWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-06-13-ea7f63.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<p>Available in two sizes. This widget brings your open tabs right to the Home screen and lets you quickly return to your open tabs.
+</p>
+<h2 id=""w_website-shortcuts-widget"">Website Shortcuts Widget</h2>
+<dl><dt><img alt=""iOS15WebShortcutsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-07-35-866140.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<p>Available in one size. This widget brings your list of frequently and recently visited sites to your Home screen for easy access. You can add any site to this list with the <strong>Add to Shortcuts</strong> option.
+</p>
+<h2 id=""w_firefox-shortcuts-widget"">Firefox Shortcuts Widget</h2>
+<dl><dt><img alt=""iOS15FirefoxShortcutsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-06-45-c212a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<p>Available in one size. This widget adds multiple shortcuts to your Home screen for common browser tasks. You can make a new search in Firefox, search in private tabs, close private tabs or visit copied links directly from the widget on your Home screen.
+</p>
+<h2 id=""w_quick-actions-widget"">Quick Actions Widget</h2>
+<dl><dt><img alt=""iOS15QuickActionsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-05-01-ec6d26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+<p>Available in one size. Add a single Firefox shortcut to your Home screen. Shortcuts include make a new search in Firefox, visit a copied link, make a new private search and clear private tabs. After adding the widget, touch and hold to edit it and select a different shortcut.
+</p>",ios,browse;customization;home-screen;settings,"Add Firefox widgets to the Home screen on your iOS device. Firefox widgets let you quickly start new searches and access your favorite websites all from your Home screen.
+
+## Table of Contents
+
+- [1 How to add a Firefox Widget](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_how-to-add-a-firefox-widget)
+- [2 Types of Widgets](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_types-of-widgets)
+  - [2.1 Quick View Widget](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_quick-view-widget)
+  - [2.2 Website Shortcuts Widget](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_website-shortcuts-widget)
+  - [2.3 Firefox Shortcuts Widget](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_firefox-shortcuts-widget)
+  - [2.4 Quick Actions Widget](https://support.mozilla.org/kb/add-firefox-widget-your-home-screen#w_quick-actions-widget)
+
+# How to add a Firefox Widget
+
+1. Tap and hold any empty spot on the Home screen.
+2. Press the plus icon + at the top left of the Home screen.<dl><dt>
+<img alt=""iOS search widget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-06-12-47-12-79e964.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400""> 
+</dt></dl>
+3. Scroll down and select the Firefox app from the list.
+4. You can scroll through the available widgets by swiping left and right. When you find the one you’d like to add, tap the + Add Widget button.
+
+# Types of Widgets
+
+## Quick View Widget
+<dl><dt>
+<img alt=""iOS15QuickViewWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-06-13-ea7f63.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Available in two sizes. This widget brings your open tabs right to the Home screen and lets you quickly return to your open tabs.
+
+## Website Shortcuts Widget
+<dl><dt>
+<img alt=""iOS15WebShortcutsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-07-35-866140.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Available in one size. This widget brings your list of frequently and recently visited sites to your Home screen for easy access. You can add any site to this list with the **Add to Shortcuts** option.
+
+## Firefox Shortcuts Widget
+<dl><dt>
+<img alt=""iOS15FirefoxShortcutsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-06-45-c212a1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Available in one size. This widget adds multiple shortcuts to your Home screen for common browser tasks. You can make a new search in Firefox, search in private tabs, close private tabs or visit copied links directly from the widget on your Home screen.
+
+## Quick Actions Widget
+<dl><dt>
+<img alt=""iOS15QuickActionsWidget"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-02-18-19-05-01-ec6d26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+</dt></dl>
+
+Available in one size. Add a single Firefox shortcut to your Home screen. Shortcuts include make a new search in Firefox, visit a copied link, make a new private search and clear private tabs. After adding the widget, touch and hold to edit it and select a different shortcut.
+
+"
 50374,Grant camera access to Firefox for Android,camera-permissions,https://support.mozilla.org/en-US/kb/camera-permissions,en-US,How to grant camera access so Firefox can scan a QR code.,"<p>Firefox's built-in QR code reader lets you <a href=""/en-US/kb/scan-qr-codes-firefox-android"">visit web pages scanned from a QR code when available</a>. Firefox will need access to your camera in order to scan codes. Here's how to change it in your settings:
 </p>
 <ol><li>Open your Android settings by tapping the <span class=""button"">Settings</span> app on your device.
@@ -88162,6 +88786,49 @@ You can manage your subscription through Apple's App Store by following these st
 
 1. Access your account at [https://accounts.firefox.com/signin](https://accounts.firefox.com/signin). 
 2. Click **Paid Subscriptions** on the left panel to open the subscriptions page.
+
+"
+57596,How do I request a refund for MDN Plus?,how-do-i-request-refund-mdn-plus,https://support.mozilla.org/en-US/kb/how-do-i-request-refund-mdn-plus,en-US,Learn how to request a refund for MDN Plus in this article.,"<p>To request a refund for MDN Plus:
+</p>
+<ol><li>Access your Mozilla account at <a href=""https://accounts.firefox.com/signin"">https://accounts.firefox.com/signin</a>. 
+</li><li>In the panel to the left, under <span class=""menu"">Settings</span>, select <strong>Paid subscriptions</strong>.
+</li><li>Find the <span class=""menu"">Active subscriptions</span> section.
+</li><li>Click <span class=""button"">Get Help</span>.
+</li><li>On the Mozilla Support page, select <span class=""button"">Contact Support</span>.
+<ul><li>Under <strong>What are you contacting us about?</strong>, select <strong>Other</strong>.
+</li><li>Enter <strong>Refund Request</strong> in the <strong>Subject (optional)</strong> field.
+</li><li>Explain why you are requesting a refund in the <strong>Description of the issue</strong> field.
+</li><li>Click the <strong>Send</strong> button.
+</li></ul>
+</li></ol>
+<div class=""note""><strong>Note</strong>: You must have an active subscription to access subscription support options.</div>",mdn-plus,manage-billing,"To request a refund for MDN Plus:
+
+1. Access your Mozilla account at [https://accounts.firefox.com/signin](https://accounts.firefox.com/signin). 
+2. In the panel to the left, under Settings, select **Paid subscriptions**.
+3. Find the Active subscriptions section.
+4. Click Get Help.
+5. On the Mozilla Support page, select Contact Support.
+  - Under **What are you contacting us about?** , select **Other**.
+  - Enter **Refund Request** in the **Subject (optional)** field.
+  - Explain why you are requesting a refund in the **Description of the issue** field.
+  - Click the **Send** button.
+
+**Note** : You must have an active subscription to access subscription support options.
+"
+57599,How do I change my MDN Plus subscription plan?,how-do-i-change-my-mdn-plus-subscription-plan,https://support.mozilla.org/en-US/kb/how-do-i-change-my-mdn-plus-subscription-plan,en-US,You can change your paid MDN Plus subscription plan through your Mozilla account subscriptions page. This article describes the steps to do it.,"<p>You can change your paid MDN Plus subscription plan through your Mozilla account subscriptions page.
+</p>
+<ol><li>Sign in to your Mozilla account at <a href=""https://accounts.firefox.com"">https://accounts.firefox.com</a>
+</li><li>In the panel to the left, under <span class=""menu"">Settings</span>, select <strong>Paid subscriptions</strong>.
+</li><li>Find the <span class=""menu"">Active subscriptions</span> section.
+</li><li>Click <span class=""button"">Cancel subscription</span>.
+</li><li>Your MDN Plus subscription will revert to a free account. You can then sign up for a different plan at <a href=""https://developer.mozilla.org/plus#subscribe"">https://developer.mozilla.org/plus#subscribe</a>.
+</li></ol>",mdn-plus;mozilla-account,manage-billing;manage-subscriptions,"You can change your paid MDN Plus subscription plan through your Mozilla account subscriptions page.
+
+1. Sign in to your Mozilla account at [https://accounts.firefox.com](https://accounts.firefox.com)
+2. In the panel to the left, under Settings, select **Paid subscriptions**.
+3. Find the Active subscriptions section.
+4. Click Cancel subscription.
+5. Your MDN Plus subscription will revert to a free account. You can then sign up for a different plan at [https://developer.mozilla.org/plus#subscribe](https://developer.mozilla.org/plus#subscribe).
 
 "
 57601,How can I help submit and resolve bugs in the MDN content repo?,how-can-i-help-submit-and-resolve-bugs-mdn-content,https://support.mozilla.org/en-US/kb/how-can-i-help-submit-and-resolve-bugs-mdn-content,en-US,Learn how to help submit and resolve bugs in the MDN content repo.,"<p>How can I help submit and resolve bugs in the MDN content repo?
