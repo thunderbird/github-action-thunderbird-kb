@@ -34754,403 +34754,6 @@ The add-on manager will show an Undo button at the top to restore the add-on (in
 You may find information on Thunderbird Add-on development and how to get advice at [developer.thunderbird.net](https://developer.thunderbird.net/add-ons/) (DTN).
 
 "
-17051,"OAuth2 Authentication for Yahoo, AOL and ATT",thunderbird-and-yahoo,https://support.mozilla.org/en-US/kb/thunderbird-and-yahoo,en-US,"How to set up Yahoo! services (including AOL, ATT and other services that use Yahoo servers) in Thunderbird.","<h1 id=""w_new-update-to-secure-pkce-authentication-settings-march-2026"">NEW! Update to secure PKCE authentication settings, March 2026</h1>
-<div class=""warning"">You may have been asked in Thunderbird to log in your Yahoo, ATT or AOL accounts, or seen a notice with the title <strong>Upcoming Account Change</strong>. This is the result of Thunderbird, as of version 148.0 on February 22, 2026, switching to a more secure authorization protocol known as OAuth2 with <a href=""https://www.rfc-editor.org/rfc/rfc7636"">PKCE</a>. Below are instructions to assist you in the log in process.<br><br>
-In addition to enhanced security, this update also allows you to access Yahoo, AOL, and ATT calendars and address books in Thunderbird, which is a major new benefit to users. If you need more information, see <a href=""#w_oauth2-authorization"">OAuth2 Authorization</a> below.</div>
-<h2 id=""w_you-have-only-one-account"">You have only one account</h2>
-<p>If you have only one account, then no change is needed in Thunderbird for PKCE to work. You just log in (""authenticate"") by providing your email account and account password (<strong>App passwords</strong> do not work with OAuth2), and then confirm that Thunderbird may access data on the provider's servers (AOL, ATT, Yahoo, etc). This is a normal and safe process. If you have difficulty, please see <a href=""#w_detailed-troubleshooting-steps"">Detailed Troubleshooting Steps</a> below.
-</p>
-<h2 id=""w_you-have-more-than-one-account"">You have more than one account</h2>
-<p></p><section class=""mzp-c-details"">
-If you have more than one account, such as one AOL account and one Yahoo account, to allow PKCE to work you must:
-<p></p>
-<h3 id=""w_configure-a-thunderbird-preference-to-make-multiple-accounts-work"">Configure a Thunderbird preference to make multiple accounts work</h3>
-<p>More details about preferences at: <a href=""/en-US/kb/config-editor"">Config Editor</a>.
-</p>
-<ol><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""button"">General</span>.
-</li><li> Scroll down to the bottom and click <span class=""button"">Config Editor…</span>.
-</li><li> Click <span class=""button"">Accept the risk and continue</span> if that appears.
-</li><li> Type <span class=""pref"">mailnews.oauth.usePrivateBrowser</span> into the search box.
-</li><li> Click on the <em>Toggle</em> <span class=""button""><img alt=""Config Editor Toggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-02-17-25-33-564c26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> button to change the value to <span class=""pref"">true</span>.
-</li><li> Quit Thunderbird Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Quit</span> and then restart it.
-</li><li> Retry logging in to your accounts (Yahoo, ATT, AOL).
-</li></ol>
-<p>If you have difficulties, please see <a href=""#w_detailed-troubleshooting-steps"">Detailed Troubleshooting Steps</a> below.
-</p></section>
-<p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_new-update-to-secure-pkce-authentication-settings-march-2026""><span class=""tocnumber"">1</span> <span class=""toctext"">NEW! Update to secure PKCE authentication settings, March 2026</span></a><ul><li class=""toclevel-2""><a href=""#w_you-have-only-one-account""><span class=""tocnumber"">1.1</span> <span class=""toctext"">You have only one account</span></a></li><li class=""toclevel-2""><a href=""#w_you-have-more-than-one-account""><span class=""tocnumber"">1.2</span> <span class=""toctext"">You have more than one account</span></a><ul><li class=""toclevel-3""><a href=""#w_configure-a-thunderbird-preference-to-make-multiple-accounts-work""><span class=""tocnumber"">1.2.1</span> <span class=""toctext"">Configure a Thunderbird preference to make multiple accounts work</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_oauth2-authorization""><span class=""tocnumber"">2</span> <span class=""toctext"">OAuth2 Authorization</span></a><ul><li class=""toclevel-2""><a href=""#w_oauth2-dialog-sequence""><span class=""tocnumber"">2.1</span> <span class=""toctext"">OAuth2 dialog sequence</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_mail-settings""><span class=""tocnumber"">3</span> <span class=""toctext"">Mail Settings</span></a><ul><li class=""toclevel-2""><a href=""#w_pop""><span class=""tocnumber"">3.1</span> <span class=""toctext"">POP</span></a></li><li class=""toclevel-2""><a href=""#w_imap""><span class=""tocnumber"">3.2</span> <span class=""toctext"">IMAP</span></a></li><li class=""toclevel-2""><a href=""#w_my-sign-in-attempt-was-prevented""><span class=""tocnumber"">3.3</span> <span class=""toctext"">My sign-in attempt was prevented</span></a></li><li class=""toclevel-2""><a href=""#w_important-changes-to-authentication-method-notice""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Important Changes to Authentication Method Notice</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_import-yahoos-contact-list-to-thunderbird""><span class=""tocnumber"">4</span> <span class=""toctext"">Import Yahoo's Contact List to Thunderbird</span></a></li><li class=""toclevel-1""><a href=""#w_calendar""><span class=""tocnumber"">5</span> <span class=""toctext"">Calendar</span></a></li><li class=""toclevel-1""><a href=""#w_detailed-troubleshooting-steps""><span class=""tocnumber"">6</span> <span class=""toctext"">Detailed Troubleshooting Steps</span></a><ul><li class=""toclevel-2""><a href=""#w_please-check-the-following-before-asking-for-support""><span class=""tocnumber"">6.1</span> <span class=""toctext"">Please check the following before asking for support</span></a></li><li class=""toclevel-2""><a href=""#w_how-to-ask-for-support""><span class=""tocnumber"">6.2</span> <span class=""toctext"">How to ask for support</span></a></li></ul></li></ul></div>
-<h1 id=""w_oauth2-authorization"">OAuth2 Authorization</h1>
-<p>OAuth2 is the default authentication method for accessing Yahoo provided services and partner providers like AOL and ATT. The  provider (not Thunderbird) presents to you several dialogs  that look like web pages, asking for account username and account password, asking for agreement to terms of service, and requesting authorization for the types of provider data you wish Thunderbird to be permitted to access, such as mail, calendar, and contacts.
-</p>
-<h2 id=""w_oauth2-dialog-sequence"">OAuth2 dialog sequence</h2>
-<p>You will be shown dialogs for some or all of the following as part of the authentication process:
-</p>
-<ol><li>Provide your username, email or mobile. Username is your email address.
-</li><li>Provide your Account Password (do not use an ""App Password"").
-</li><li>Optionally, agree to Terms of Service.
-</li><li>Optionally, choose a method to confirm ""Is it really you?"" by sending a code to your phone or backup email address and then enter the code sent into a followup dialog.
-</li><li>Grant permission to <strong>Thunderbird Mail</strong> to access some or all of the following data: mail, contacts, calendar.
-</li></ol>
-<p>At the end of the authentication process:
-</p>
-<ul><li>An access token is sent from your provider, which is then stored by Thunderbird in its list of passwords to allow future access to the server. A token is a string of characters to allow access from a specific client on a specific device - it is not a password. Tokens eventually expire, at a time determined by your provider, which requires you to again authenticate with your username and password. If you do not know your password, then you must use your provider's account pages in a web browser to create a new password, often called a ""password reset"".
-</li><li>Thunderbird sets the account's configuration according to the authentication settings you just provided.
-</li></ul>
-<p>Note: OAuth2 also requires javascript and cookies, which are enabled by default in Thunderbird.
-
-</p>
-<h1 id=""w_mail-settings"">Mail Settings</h1>
-<h2 id=""w_pop"">POP</h2>
-<p>Refer to Yahoo's help page for <a href=""https://help.yahoo.com/kb/SLN3217.html"">POP access settings and instructions for Yahoo Mail</a>.
-</p>
-<h2 id=""w_imap"">IMAP</h2>
-<p>Refer to Yahoo's help page for <a href=""https://help.yahoo.com/kb/SLN4075.html"">IMAP server settings for Yahoo Mail</a>.
-</p>
-<h2 id=""w_my-sign-in-attempt-was-prevented"">My sign-in attempt was prevented</h2>
-<p>If you get the <strong>Username or password invalid</strong> warning and the <strong>Sign-in attempt prevented</strong> email when you try to connect your Yahoo Mail with Thunderbird, Yahoo has blocked Thunderbird from connecting because it's a ""less secure"" non-Yahoo app.<br>
-Update: please read section <a href=""#w_important-changes-to-authentication-method-notice"">Important Changes to Authentication Method Notice</a> below.
-</p><p>In Thunderbird version 68.5 and up, you can change the POP server to <a href=""http://pop.mail.yahoo.com"">pop.mail.yahoo.com</a> (port 995). 
-</p>
-<h2 id=""w_important-changes-to-authentication-method-notice"">Important Changes to Authentication Method Notice</h2>
-<p>If you currently have a POP or IMAP mail account in Thunderbird and receive an email from Yahoo that says: <br>
-<em>""We’ve noticed that you’re using non-Yahoo applications (such as third-party email,calendar, or contact applications) that may use a less secure sign-in method. To protect you and your data, Yahoo will no longer support the current sign-in functionality in your application starting on 20 October 2020.""</em>
-</p><p><strong>Check Thunderbird has cookies enabled.</strong> <br>
-</p>
-<ol><li>Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Privacy &amp; Security</span>.
-</li><li>Tick <span class=""button"">✓ Accept cookies from sites</span>.
-</li><li>Click <span class=""button"">Exceptions…</span> next to <em>Accept cookies from sites</em> to make sure you are not blocking cookies from sites such as <em>yahoo.com</em>, <em>aol.com</em> or <em>att.com</em>.
-</li></ol>
-<p><strong>Update the 'Authentication Method' for the POP3 or IMAP mail account.</strong>
-</p>
-<ol><li>Click Thunderbird app menu <span class=""menu"">☰</span> &gt; <span class=""menu"">Account Settings</span>.
-</li><li>Click on the mail account name in the left sidebar for example <em><a href=""mailto:nemo@thunderbird.net"">nemo@thunderbird.net</a></em>.
-</li><li>Bottom right: click on <span class=""button"">Edit outgoing server…</span>.
-</li><li>Set <strong>Authentication Method</strong> to <span class=""menu"">OAuth2</span>.
-</li><li>Click <span class=""button"">OK</span>.
-</li><li>Click on <span class=""menu"">Server Settings</span> in the left sidebar for your mail account.
-</li><li>Set <strong>Authentication Method</strong> to <span class=""menu"">OAuth2</span>.
-</li><li>Click on <span class=""button"">OK</span>.
-</li><li> Quit Thunderbird: click <span class=""menu"">≡</span> &gt; <span class=""menu"">Quit</span>, wait a few moments for background processes to complete and then start Thunderbird.
-</li></ol>
-<p>There will be a prompt from your Yahoo ISP partner to log in. This is done with an OAuth 2.0 key exchange in Thunderbird which will authenticate the Thunderbird client in future logins.
-</p>
-<h1 id=""w_import-yahoos-contact-list-to-thunderbird"">Import Yahoo's Contact List to Thunderbird</h1>
-<ol><li> Open your Yahoo Mail account.
-</li><li> On the right side of the screen (left if you are using the ""classic mail""), select the <strong>Contacts</strong> icon. Your contact list will open.
-</li><li> At the top of the list, click the <strong>Actions</strong> menu.
-</li><li> In the menu, select <strong>Export...</strong>.
-</li><li> Select <strong>Netscape/Thunderbird</strong> and click <strong>Export Now</strong>.
-</li><li> Save the <span class=""filepath"">yahoo_contacts.ldif</span> file to your desktop or some other place where you can find it later.
-</li><li> Open Thunderbird.
-</li><li> Under <span class=""menu"">Tools</span>, select <span class=""menu"">Import</span> and then <span class=""menu"">Address Books</span>.
-</li><li> Select <strong>Text file (LDIF, .tab, .csv, .txt)</strong>, then click <span class=""button"">Next</span>.
-</li><li> Select the <span class=""filepath"">yahoo_contacts.ldif</span> file that you previously saved.
-</li><li> Your Yahoo! contacts will be imported as a separate <strong>yahoo_contacts</strong> address book.
-</li></ol>
-<h1 id=""w_calendar"">Calendar</h1>
-<p>To configure the Thunderbird calendar with your Yahoo Calendar, follow the instructions at the page <a href=""https://help.yahoo.com/kb/SLN4704.html"">Sync or access your calendar on multiple devices and applications</a> on the Yahoo support site.
-</p>
-<h1 id=""w_detailed-troubleshooting-steps"">Detailed Troubleshooting Steps</h1>
-<div class=""note"">Please note that the following are unlikely to help resolve your problems: deleting accounts and adding them back, clearing cache, creating a new profile, and restoring your profile from backup.</div>
-<h2 id=""w_please-check-the-following-before-asking-for-support"">Please check the following before asking for support</h2>
-<ol><li>With the password that failed when logging in when using Thunderbird, can you log in to your mail provider’s web interface (webmail)?  If you are unable to log in to webmail, then the password is either not an account password or is no longer valid.  The easiest way to solve this problem is to reset the account password using your provider’s website.
-</li><li>Cookies must be enabled in Thunderbird: <span class=""menu"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Privacy &amp; Security</span> &gt; <strong>Accept cookies from sites</strong> must be checked.
-</li><li>Can you see the entire OAuth2 dialog panel (no action buttons are missing)? And no OAuth2 dialogs are hidden behind what you currently see?
-</li><li>Are you in the country in which you normally use the account, and not using a VPN?
-</li><li>Is the authentication method in <span class=""menu"">≡</span> &gt; <span class=""menu"">Account Settings</span> &gt; <span class=""menu"">Server Settings</span> set to <strong>OAuth2</strong> for all AOL, ATT, and Yahoo accounts?
-</li></ol>
-<p>
-</p>
-<h2 id=""w_how-to-ask-for-support"">How to ask for support</h2>
-<p>If you are still having trouble, please post a support request at: <a href=""https://support.mozilla.org/questions/new/thunderbird"">https://support.mozilla.org/questions/new/thunderbird</a> with:
-</p>
-<ul><li> Thunderbird version number. For example 148.0, 140.8.0esr, 149.0b1.
-</li><li> List of all your mail providers. For example: ATT, AOL, Yahoo, etc.
-</li><li> List all the steps you tried to resolve the issue, and please confirm you have checked everything in the <a href=""#w_please-check-the-following-before-asking-for-support"">Please check the following before asking for support</a> section above.
-</li><li> Screenshots showing the failed attempts or the exact error message from your mail provider.
-</li></ul>",thunderbird,email-and-messaging;send-and-receive-email;settings,"# NEW! Update to secure PKCE authentication settings, March 2026
-
-You may have been asked in Thunderbird to log in your Yahoo, ATT or AOL accounts, or seen a notice with the title **Upcoming Account Change**. This is the result of Thunderbird, as of version 148.0 on February 22, 2026, switching to a more secure authorization protocol known as OAuth2 with [PKCE](https://www.rfc-editor.org/rfc/rfc7636). Below are instructions to assist you in the log in process.  
-  
-In addition to enhanced security, this update also allows you to access Yahoo, AOL, and ATT calendars and address books in Thunderbird, which is a major new benefit to users. If you need more information, see [OAuth2 Authorization](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_oauth2-authorization) below.
-
-## You have only one account
-
-If you have only one account, then no change is needed in Thunderbird for PKCE to work. You just log in (""authenticate"") by providing your email account and account password ( **App passwords** do not work with OAuth2), and then confirm that Thunderbird may access data on the provider's servers (AOL, ATT, Yahoo, etc). This is a normal and safe process. If you have difficulty, please see [Detailed Troubleshooting Steps](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_detailed-troubleshooting-steps) below.
-
-## You have more than one account
-
-<section class=""mzp-c-details"">
-If you have more than one account, such as one AOL account and one Yahoo account, to allow PKCE to work you must:
-<p></p>
-<h3 id=""w_configure-a-thunderbird-preference-to-make-multiple-accounts-work"">Configure a Thunderbird preference to make multiple accounts work</h3>
-<p>More details about preferences at: <a href='\""https://support.mozilla.org/en-US/kb/config-editor""'>Config Editor</a>.
-</p>
-<ol>
-<li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""button"">General</span>.
-</li>
-<li> Scroll down to the bottom and click <span class=""button"">Config Editor…</span>.
-</li>
-<li> Click <span class=""button"">Accept the risk and continue</span> if that appears.
-</li>
-<li> Type <span class=""pref"">mailnews.oauth.usePrivateBrowser</span> into the search box.
-</li>
-<li> Click on the <em>Toggle</em> <span class=""button""><img alt=""Config Editor Toggle"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-02-17-25-33-564c26.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> button to change the value to <span class=""pref"">true</span>.
-</li>
-<li> Quit Thunderbird Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Quit</span> and then restart it.
-</li>
-<li> Retry logging in to your accounts (Yahoo, ATT, AOL).
-</li>
-</ol>
-<p>If you have difficulties, please see <a href=""https://support.mozilla.org/kb/thunderbird-and-yahoo#w_detailed-troubleshooting-steps"">Detailed Troubleshooting Steps</a> below.
-</p></section>
-
-## Table of Contents
-
-- [1 NEW! Update to secure PKCE authentication settings, March 2026](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_new-update-to-secure-pkce-authentication-settings-march-2026)
-  - [1.1 You have only one account](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_you-have-only-one-account)
-  - [1.2 You have more than one account](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_you-have-more-than-one-account)
-    - [1.2.1 Configure a Thunderbird preference to make multiple accounts work](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_configure-a-thunderbird-preference-to-make-multiple-accounts-work)
-
-- [2 OAuth2 Authorization](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_oauth2-authorization)
-  - [2.1 OAuth2 dialog sequence](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_oauth2-dialog-sequence)
-
-- [3 Mail Settings](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_mail-settings)
-  - [3.1 POP](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_pop)
-  - [3.2 IMAP](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_imap)
-  - [3.3 My sign-in attempt was prevented](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_my-sign-in-attempt-was-prevented)
-  - [3.4 Important Changes to Authentication Method Notice](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_important-changes-to-authentication-method-notice)
-
-- [4 Import Yahoo's Contact List to Thunderbird](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_import-yahoos-contact-list-to-thunderbird)
-- [5 Calendar](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_calendar)
-- [6 Detailed Troubleshooting Steps](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_detailed-troubleshooting-steps)
-  - [6.1 Please check the following before asking for support](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_please-check-the-following-before-asking-for-support)
-  - [6.2 How to ask for support](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_how-to-ask-for-support)
-
-# OAuth2 Authorization
-
-OAuth2 is the default authentication method for accessing Yahoo provided services and partner providers like AOL and ATT. The provider (not Thunderbird) presents to you several dialogs that look like web pages, asking for account username and account password, asking for agreement to terms of service, and requesting authorization for the types of provider data you wish Thunderbird to be permitted to access, such as mail, calendar, and contacts.
-
-## OAuth2 dialog sequence
-
-You will be shown dialogs for some or all of the following as part of the authentication process:
-
-1. Provide your username, email or mobile. Username is your email address.
-2. Provide your Account Password (do not use an ""App Password"").
-3. Optionally, agree to Terms of Service.
-4. Optionally, choose a method to confirm ""Is it really you?"" by sending a code to your phone or backup email address and then enter the code sent into a followup dialog.
-5. Grant permission to **Thunderbird Mail** to access some or all of the following data: mail, contacts, calendar.
-
-At the end of the authentication process:
-
-- An access token is sent from your provider, which is then stored by Thunderbird in its list of passwords to allow future access to the server. A token is a string of characters to allow access from a specific client on a specific device - it is not a password. Tokens eventually expire, at a time determined by your provider, which requires you to again authenticate with your username and password. If you do not know your password, then you must use your provider's account pages in a web browser to create a new password, often called a ""password reset"".
-- Thunderbird sets the account's configuration according to the authentication settings you just provided.
-
-Note: OAuth2 also requires javascript and cookies, which are enabled by default in Thunderbird.
-
-# Mail Settings
-
-## POP
-
-Refer to Yahoo's help page for [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN3217.html).
-
-## IMAP
-
-Refer to Yahoo's help page for [IMAP server settings for Yahoo Mail](https://help.yahoo.com/kb/SLN4075.html).
-
-## My sign-in attempt was prevented
-
-If you get the **Username or password invalid** warning and the **Sign-in attempt prevented** email when you try to connect your Yahoo Mail with Thunderbird, Yahoo has blocked Thunderbird from connecting because it's a ""less secure"" non-Yahoo app.  
-Update: please read section [Important Changes to Authentication Method Notice](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_important-changes-to-authentication-method-notice) below.
-
-In Thunderbird version 68.5 and up, you can change the POP server to [pop.mail.yahoo.com](http://pop.mail.yahoo.com) (port 995).
-
-## Important Changes to Authentication Method Notice
-
-If you currently have a POP or IMAP mail account in Thunderbird and receive an email from Yahoo that says:   
-_""We’ve noticed that you’re using non-Yahoo applications (such as third-party email,calendar, or contact applications) that may use a less secure sign-in method. To protect you and your data, Yahoo will no longer support the current sign-in functionality in your application starting on 20 October 2020.""_
-
-**Check Thunderbird has cookies enabled.**
-
-1. Click Thunderbird app menu ☰ \> Settings \> Privacy & Security.
-2. Tick ✓ Accept cookies from sites.
-3. Click Exceptions… next to _Accept cookies from sites_ to make sure you are not blocking cookies from sites such as _yahoo.com_, _aol.com_ or _att.com_.
-
-**Update the 'Authentication Method' for the POP3 or IMAP mail account.**
-
-1. Click Thunderbird app menu ☰ \> Account Settings.
-2. Click on the mail account name in the left sidebar for example _[nemo@thunderbird.net](mailto:nemo@thunderbird.net)_.
-3. Bottom right: click on Edit outgoing server….
-4. Set **Authentication Method** to OAuth2.
-5. Click OK.
-6. Click on Server Settings in the left sidebar for your mail account.
-7. Set **Authentication Method** to OAuth2.
-8. Click on OK.
-9. Quit Thunderbird: click ≡ \> Quit, wait a few moments for background processes to complete and then start Thunderbird.
-
-There will be a prompt from your Yahoo ISP partner to log in. This is done with an OAuth 2.0 key exchange in Thunderbird which will authenticate the Thunderbird client in future logins.
-
-# Import Yahoo's Contact List to Thunderbird
-
-1. Open your Yahoo Mail account.
-2. On the right side of the screen (left if you are using the ""classic mail""), select the **Contacts** icon. Your contact list will open.
-3. At the top of the list, click the **Actions** menu.
-4. In the menu, select **Export...**.
-5. Select **Netscape/Thunderbird** and click **Export Now**.
-6. Save the yahoo\_contacts.ldif file to your desktop or some other place where you can find it later.
-7. Open Thunderbird.
-8. Under Tools, select Import and then Address Books.
-9. Select **Text file (LDIF, .tab, .csv, .txt)**, then click Next.
-10. Select the yahoo\_contacts.ldif file that you previously saved.
-11. Your Yahoo! contacts will be imported as a separate **yahoo\_contacts** address book.
-
-# Calendar
-
-To configure the Thunderbird calendar with your Yahoo Calendar, follow the instructions at the page [Sync or access your calendar on multiple devices and applications](https://help.yahoo.com/kb/SLN4704.html) on the Yahoo support site.
-
-# Detailed Troubleshooting Steps
-
-Please note that the following are unlikely to help resolve your problems: deleting accounts and adding them back, clearing cache, creating a new profile, and restoring your profile from backup.
-
-## Please check the following before asking for support
-
-1. With the password that failed when logging in when using Thunderbird, can you log in to your mail provider’s web interface (webmail)? If you are unable to log in to webmail, then the password is either not an account password or is no longer valid. The easiest way to solve this problem is to reset the account password using your provider’s website.
-2. Cookies must be enabled in Thunderbird: ≡ \> Settings \> Privacy & Security \> **Accept cookies from sites** must be checked.
-3. Can you see the entire OAuth2 dialog panel (no action buttons are missing)? And no OAuth2 dialogs are hidden behind what you currently see?
-4. Are you in the country in which you normally use the account, and not using a VPN?
-5. Is the authentication method in ≡ \> Account Settings \> Server Settings set to **OAuth2** for all AOL, ATT, and Yahoo accounts?
-
-## How to ask for support
-
-If you are still having trouble, please post a support request at: [https://support.mozilla.org/questions/new/thunderbird](https://support.mozilla.org/questions/new/thunderbird) with:
-
-- Thunderbird version number. For example 148.0, 140.8.0esr, 149.0b1.
-- List of all your mail providers. For example: ATT, AOL, Yahoo, etc.
-- List all the steps you tried to resolve the issue, and please confirm you have checked everything in the [Please check the following before asking for support](https://support.mozilla.org/kb/thunderbird-and-yahoo#w_please-check-the-following-before-asking-for-support) section above.
-- Screenshots showing the failed attempts or the exact error message from your mail provider.
-
-"
-17055,Cannot send messages,cannot-send-messages,https://support.mozilla.org/en-US/kb/cannot-send-messages,en-US,"If you cannot send messages with Thunderbird, this page provides a series of steps you can follow to check for common problems.","<p>If you cannot send messages, this page provides a series of steps you can follow to check for common problems. If you have problems receiving messages, see <a href=""/en-US/kb/cannot-receive-messages"">Cannot receive messages</a>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_the-problem-suddenly-started-after-updating-to-a-new-major-version-of-thunderbird""><span class=""tocnumber"">1</span> <span class=""toctext"">The problem suddenly started after updating to a new major version of Thunderbird?</span></a></li><li class=""toclevel-1""><a href=""#w_verify-your-smtp-outgoing-email-settings""><span class=""tocnumber"">2</span> <span class=""toctext"">Verify your SMTP outgoing email settings</span></a></li><li class=""toclevel-1""><a href=""#w_verify-the-correct-smtp-server-is-being-used""><span class=""tocnumber"">3</span> <span class=""toctext"">Verify the correct SMTP Server is being used</span></a></li><li class=""toclevel-1""><a href=""#w_verify-that-your-outgoing-email-is-not-being-blocked""><span class=""tocnumber"">4</span> <span class=""toctext"">Verify that your outgoing email is not being blocked</span></a></li><li class=""toclevel-1""><a href=""#w_verify-that-your-mail-server-supports-the-minimum-version-of-tls""><span class=""tocnumber"">5</span> <span class=""toctext"">Verify that your mail server supports the minimum version of TLS</span></a></li><li class=""toclevel-1""><a href=""#w_delete-smtp-password""><span class=""tocnumber"">6</span> <span class=""toctext"">Delete SMTP Password</span></a></li><li class=""toclevel-1""><a href=""#w_reset-smtp-password""><span class=""tocnumber"">7</span> <span class=""toctext"">Reset SMTP Password</span></a></li><li class=""toclevel-1""><a href=""#w_if-this-list-doesnt-help""><span class=""tocnumber"">8</span> <span class=""toctext"">If this list doesn't help</span></a></li><li class=""toclevel-1""><a href=""#w_more-resources""><span class=""tocnumber"">9</span> <span class=""toctext"">More resources</span></a></li></ul></div>
-<div class=""warning"">
-<h1 id=""w_the-problem-suddenly-started-after-updating-to-a-new-major-version-of-thunderbird"">The problem suddenly started after updating to a new major version of Thunderbird?</h1>
-<p>If your existing configuration suddenly stopped working after updating Thunderbird to a new major version, it might be your Antivirus or Firewall blocking the new version, or your email provider using outdated TLS security protocols. See these sections below:
-</p>
-<ul><li> <a href=""#w_verify-that-your-outgoing-email-is-not-being-blocked"">Verify that your outgoing email is not being blocked</a>
-</li><li> <a href=""#w_verify-that-your-mail-server-supports-the-minimum-version-of-tls"">Verify that your mail server supports the minimum version of TLS</a>
-</li></ul>
-</div>
-<h1 id=""w_verify-your-smtp-outgoing-email-settings"">Verify your SMTP outgoing email settings</h1>
-<ul><li> In the Thunderbird menu bar, click the <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span></span> menu and select <span class=""menu"">Account Settings</span>, or click the Application menu button <img alt=""New Fx Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""for"" data-for=""win""><span class=""menu"">Options</span></span><span class=""for"" data-for=""mac,linux""><span class=""menu"">Preferences</span></span> and <span class=""menu"">Account Settings</span> from the sub-menu, and select <strong>Outgoing Server (SMTP)</strong> from the bottom of the list in the left panel. Check that the settings are the same as documented in the article for your mail provider (<a href=""/en-US/kb/thunderbird-and-gmail"">Gmail</a>, <a href=""/en-US/kb/thunderbird-and-yahoo"">Yahoo</a>, <a href=""/en-US/kb/thunderbird-and-comcast"">Comcast</a>, <a href=""/en-US/kb/thunderbird-and-hotmail"">Hotmail</a>, <a href=""/en-US/kb/thunderbird-and-sympatico"">Sympatico</a>…) <strong>OR</strong>
-</li><li> Look for an SMTP mail settings article on the mail provider's site. This is usually in the support section of their website; searching for “mail settings” or “SMTP” will usually find it. Check that your Thunderbird settings match the documented settings.
-</li></ul>
-<p><img alt=""fbc7355532a508eb55186ebf7bbb1cd1-1277326689-659-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-42-6d0685.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_verify-the-correct-smtp-server-is-being-used"">Verify the correct SMTP Server is being used</h1>
-<ul><li> In the Thunderbird menu bar, click the <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span></span> menu and select <span class=""menu"">Account Settings</span>, or click the Application menu button <img alt=""New Fx Menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Account Settings</span>, and select the account name. Verify that you are using the right SMTP server for the email address. Most of the time, you cannot send messages from one account provider using another account provider's service. For example, you cannot send a mail from “<a href=""mailto:joe@gmail.com"">joe@gmail.com</a>” through Yahoo's SMTP server.
-</li></ul>
-<p><img alt=""fbc7355532a508eb55186ebf7bbb1cd1-1277326770-967-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-36-101def.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_verify-that-your-outgoing-email-is-not-being-blocked"">Verify that your outgoing email is not being blocked</h1>
-<p>Verify that your outgoing email is not being blocked by your firewall, VPN, proxy, antivirus software (which sometimes implements a proxy and intercepts email) or your Internet Service Provider:
-</p>
-<ul><li> Try briefly turning both antivirus, VPN, proxy and firewall software off, sending a test email, and turning them on and sending another test email.
-</li></ul>
-<div class=""note"">
-<p><strong>Note:</strong> Software blocking outgoing email is a common cause of not being able to send messages after updating Thunderbird, since it may be set to trust the previous version of Thunderbird but no longer recognize the updated version as trusted.
-</p>
-<ul><li> Remove Thunderbird from your program's list of trusted or recognized programs, then add it back manually or when prompted to resolve this.
-</li></ul>
-</div>
-<ul><li> Many ISPs block outgoing email on port 25. You may have to switch to another port (e.g. 587 or 465). Contact your ISP's support to see if they are blocking your outgoing email port.
-</li></ul>
-<h1 id=""w_verify-that-your-mail-server-supports-the-minimum-version-of-tls"">Verify that your mail server supports the minimum version of TLS</h1>
-<p>As of <a href=""/en-US/kb/find-what-version-thunderbird-you-are-using"">version</a> 78, Thunderbird expects higher security standards for the so-called TLS network encryption protocol. If your provider does not support the newer versions of the protocol, sending and receiving of messages may fail. You can temporarily lower the bar to check if this is the reason for your problem (which obviously reduces security, so it's not recommended). More details and instructions here:
-</p><p><a href=""/en-US/kb/thunderbird-78-faq#w_after-upgrading-to-thunderbird-78-i-cannot-get-or-send-email-messages"">Thunderbird 78 FAQ – After upgrading to Thunderbird 78, I cannot get or send email messages</a>
-</p>
-<h1 id=""w_delete-smtp-password"">Delete SMTP Password</h1>
-<p>Try <a href=""/en-US/kb/configuration-options-security#w_view-or-delete-passwords-for-email-accounts"">deleting your SMTP password</a>. However, don't do this as a first step, especially if you cannot send messages after updating Thunderbird while you previously could. In such case, usually there is nothing wrong with a stored SMTP password in Thunderbird (see above).
-</p>
-<h1 id=""w_reset-smtp-password"">Reset SMTP Password</h1>
-<p>Try changing your SMTP password. This is usually done via a “reset email password” form on your ISP's support website.
-</p>
-<h1 id=""w_if-this-list-doesnt-help"">If this list doesn't help</h1>
-<p>Please <a href=""https://support.mozilla.org/questions/new/thunderbird"">create a <em>new</em> support request</a> with a screenshot of your SMTP settings with your user ID obscured, and include the following information: your mail provider (for example, Gmail), ISP (for example, Comcast), firewall version (if any), antivirus software and version (if any), operating system and version (for example, Windows 11 or macOS 14 Sonoma), and <a href=""/en-US/kb/find-what-version-thunderbird-you-are-using"">Thunderbird version</a> (for example, Thunderbird 115.6.0). For information on how to create a screenshot, see <a href=""/en-US/kb/how-do-i-create-screenshot-my-problem"">How do I create a screenshot of my problem?</a>
-</p>
-<h1 id=""w_more-resources"">More resources</h1>
-<ul><li><a href=""http://kb.mozillazine.org/Cannot_send_mail"">MozillaZine's technical but very helpful knowledge base article on this topic</a>
-</li><li> <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues"">Thunderbird and antivirus related issues</a>
-</li></ul>",thunderbird,email-and-messaging;send-and-receive-email,"If you cannot send messages, this page provides a series of steps you can follow to check for common problems. If you have problems receiving messages, see [Cannot receive messages](\""https://support.mozilla.org/en-US/kb/cannot-receive-messages"").
-
-## Table of Contents
-
-- [1 The problem suddenly started after updating to a new major version of Thunderbird?](https://support.mozilla.org/kb/cannot-send-messages#w_the-problem-suddenly-started-after-updating-to-a-new-major-version-of-thunderbird)
-- [2 Verify your SMTP outgoing email settings](https://support.mozilla.org/kb/cannot-send-messages#w_verify-your-smtp-outgoing-email-settings)
-- [3 Verify the correct SMTP Server is being used](https://support.mozilla.org/kb/cannot-send-messages#w_verify-the-correct-smtp-server-is-being-used)
-- [4 Verify that your outgoing email is not being blocked](https://support.mozilla.org/kb/cannot-send-messages#w_verify-that-your-outgoing-email-is-not-being-blocked)
-- [5 Verify that your mail server supports the minimum version of TLS](https://support.mozilla.org/kb/cannot-send-messages#w_verify-that-your-mail-server-supports-the-minimum-version-of-tls)
-- [6 Delete SMTP Password](https://support.mozilla.org/kb/cannot-send-messages#w_delete-smtp-password)
-- [7 Reset SMTP Password](https://support.mozilla.org/kb/cannot-send-messages#w_reset-smtp-password)
-- [8 If this list doesn't help](https://support.mozilla.org/kb/cannot-send-messages#w_if-this-list-doesnt-help)
-- [9 More resources](https://support.mozilla.org/kb/cannot-send-messages#w_more-resources)
-
-# The problem suddenly started after updating to a new major version of Thunderbird?
-
-If your existing configuration suddenly stopped working after updating Thunderbird to a new major version, it might be your Antivirus or Firewall blocking the new version, or your email provider using outdated TLS security protocols. See these sections below:
-
-- [Verify that your outgoing email is not being blocked](https://support.mozilla.org/kb/cannot-send-messages#w_verify-that-your-outgoing-email-is-not-being-blocked)
-- [Verify that your mail server supports the minimum version of TLS](https://support.mozilla.org/kb/cannot-send-messages#w_verify-that-your-mail-server-supports-the-minimum-version-of-tls)
-
-# Verify your SMTP outgoing email settings
-
-- In the Thunderbird menu bar, click the ToolsEdit menu and select Account Settings, or click the Application menu button ![New Fx Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select OptionsPreferences and Account Settings from the sub-menu, and select **Outgoing Server (SMTP)** from the bottom of the list in the left panel. Check that the settings are the same as documented in the article for your mail provider ([Gmail](\""https://support.mozilla.org/en-US/kb/thunderbird-and-gmail""), [Yahoo](\""https://support.mozilla.org/en-US/kb/thunderbird-and-yahoo""), [Comcast](\""https://support.mozilla.org/en-US/kb/thunderbird-and-comcast""), [Hotmail](\""https://support.mozilla.org/en-US/kb/thunderbird-and-hotmail""), [Sympatico](\""https://support.mozilla.org/en-US/kb/thunderbird-and-sympatico"")…) **OR**
-- Look for an SMTP mail settings article on the mail provider's site. This is usually in the support section of their website; searching for “mail settings” or “SMTP” will usually find it. Check that your Thunderbird settings match the documented settings.
-
-![fbc7355532a508eb55186ebf7bbb1cd1-1277326689-659-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Verify the correct SMTP Server is being used
-
-- In the Thunderbird menu bar, click the ToolsEdit menu and select Account Settings, or click the Application menu button ![New Fx Menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Account Settings, and select the account name. Verify that you are using the right SMTP server for the email address. Most of the time, you cannot send messages from one account provider using another account provider's service. For example, you cannot send a mail from “[joe@gmail.com](mailto:joe@gmail.com)” through Yahoo's SMTP server.
-
-![fbc7355532a508eb55186ebf7bbb1cd1-1277326770-967-1.jpg](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Verify that your outgoing email is not being blocked
-
-Verify that your outgoing email is not being blocked by your firewall, VPN, proxy, antivirus software (which sometimes implements a proxy and intercepts email) or your Internet Service Provider:
-
-- Try briefly turning both antivirus, VPN, proxy and firewall software off, sending a test email, and turning them on and sending another test email.
-
-**Note:** Software blocking outgoing email is a common cause of not being able to send messages after updating Thunderbird, since it may be set to trust the previous version of Thunderbird but no longer recognize the updated version as trusted.
-
-- Remove Thunderbird from your program's list of trusted or recognized programs, then add it back manually or when prompted to resolve this.
-
-- Many ISPs block outgoing email on port 25. You may have to switch to another port (e.g. 587 or 465). Contact your ISP's support to see if they are blocking your outgoing email port.
-
-# Verify that your mail server supports the minimum version of TLS
-
-As of [version](\""https://support.mozilla.org/en-US/kb/find-what-version-thunderbird-you-are-using"") 78, Thunderbird expects higher security standards for the so-called TLS network encryption protocol. If your provider does not support the newer versions of the protocol, sending and receiving of messages may fail. You can temporarily lower the bar to check if this is the reason for your problem (which obviously reduces security, so it's not recommended). More details and instructions here:
-
-[Thunderbird 78 FAQ – After upgrading to Thunderbird 78, I cannot get or send email messages](\""https://support.mozilla.org/en-US/kb/thunderbird-78-faq#w_after-upgrading-to-thunderbird-78-i-cannot-get-or-send-email-messages"")
-
-# Delete SMTP Password
-
-Try [deleting your SMTP password](\""https://support.mozilla.org/en-US/kb/configuration-options-security#w_view-or-delete-passwords-for-email-accounts""). However, don't do this as a first step, especially if you cannot send messages after updating Thunderbird while you previously could. In such case, usually there is nothing wrong with a stored SMTP password in Thunderbird (see above).
-
-# Reset SMTP Password
-
-Try changing your SMTP password. This is usually done via a “reset email password” form on your ISP's support website.
-
-# If this list doesn't help
-
-Please [create a _new_ support request](https://support.mozilla.org/questions/new/thunderbird) with a screenshot of your SMTP settings with your user ID obscured, and include the following information: your mail provider (for example, Gmail), ISP (for example, Comcast), firewall version (if any), antivirus software and version (if any), operating system and version (for example, Windows 11 or macOS 14 Sonoma), and [Thunderbird version](\""https://support.mozilla.org/en-US/kb/find-what-version-thunderbird-you-are-using"") (for example, Thunderbird 115.6.0). For information on how to create a screenshot, see [How do I create a screenshot of my problem?](\""https://support.mozilla.org/en-US/kb/how-do-i-create-screenshot-my-problem"")
-
-# More resources
-
-- [MozillaZine's technical but very helpful knowledge base article on this topic](http://kb.mozillazine.org/Cannot_send_mail)
-- [Thunderbird and antivirus related issues](https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues)
-
-"
 17058,Switching to Thunderbird,switching-thunderbird,https://support.mozilla.org/en-US/kb/switching-thunderbird,en-US,"This article explains how you can switch to Thunderbird from your current mail application, such as Windows Mail, Outlook or also Mail on Mac OS and Evolution on Linux.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_switching-from-apple-mail-to-thunderbird""><span class=""tocnumber"">1</span> <span class=""toctext"">Switching from Apple Mail to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-apple-mail-messages""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Importing Apple Mail messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-the-os-x-address-book""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Importing the OS X address book</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-windows-mail-or-windows-live-mail-to-thunderbird""><span class=""tocnumber"">2</span> <span class=""toctext"">Switching from Windows Mail or Windows Live Mail to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-windows-mail-messages""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Importing Windows Mail Messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-windows-mail-contacts""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Importing Windows Mail Contacts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_importing-from-outlook-and-eudora""><span class=""tocnumber"">3</span> <span class=""toctext"">Importing from Outlook and Eudora</span></a><ul><li class=""toclevel-2""><a href=""#w_eudora-is-not-installed""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Eudora is not installed</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-evolution-to-thunderbird""><span class=""tocnumber"">4</span> <span class=""toctext"">Switching from Evolution to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-evolution-messages""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Importing Evolution Messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-evolution-contacts""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Importing Evolution Contacts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-web-based-email-applications-to-thunderbird""><span class=""tocnumber"">5</span> <span class=""toctext"">Switching from Web-based Email Applications to Thunderbird</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See Also</span></a></li></ul></div>
 <div class=""for"" data-for=""mac"">
 <h1 id=""w_switching-from-apple-mail-to-thunderbird"">Switching from Apple Mail to Thunderbird</h1>
@@ -53362,117 +52965,6 @@ Here's what you can do with your synced tabs:
 
 - [View synced tabs from other devices in Firefox for Android](\""https://support.mozilla.org/en-US/kb/how-do-i-view-synced-tabs-firefox-android"")
 - [View synced tabs from other devices in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/view-synced-tabs-ios"")
-
-"
-32318,Using the Knowledge Base Dashboard,using-knowledge-base-dashboard,https://support.mozilla.org/en-US/kb/using-knowledge-base-dashboard,en-US,Learn to use the Knowledge Base Dashboard to view a list of Mozilla Support articles.,"<h1 id=""w_what-is-the-knowledge-base-dashboard"">What is the Knowledge Base Dashboard?</h1>
-<p>The <a href=""https://support.mozilla.org/en-US/contributors"">Knowledge Base Dashboard</a> is a listing of the top Mozilla Support articles, based on the number of views in the last 30 days. You can filter the list by product and type. 
-</p><p><img alt=""KBdashboard-2021"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-08-21-04-44-44-6e3783.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<div class=""note""><strong>Note:</strong> To see a list of all Mozilla Support articles, click the <a href=""/contributors/kb-overview"">Complete overview...</a> link at the bottom. It's a great way to see what you can work on as a contributor.</div>
-<h1 id=""w_anatomy-of-the-knowledge-base-dashboard"">Anatomy of the Knowledge Base Dashboard</h1>
-<p>The Knowledge Base Dashboard includes these characteristics:
-</p>
-<ul><li> Article title and link
-</li><li> The number of visits to the article during the specified time period 
-</li><li> The status of the article on the Mozilla Support site (Live or Review Needed)
-</li><li> Whether the article needs an update
-</li><li> Whether or not it's ready for localization
-</li><li> Whether or not it's stale
-</li><li> Its expiry date
-</li><li> A Show translations link to see what languages an article is translated into
-</li></ul>
-<h1 id=""w_using-the-knowledge-base-dashboard"">Using the Knowledge Base Dashboard</h1>
-<p>You can use the Knowledge Base Dashboard to see which articles you can edit. Search all products or just one product such as Firefox for iOS, Firefox for Android, and more.
-</p><p><img alt=""Dashboard"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-26-10-09-29-ef8fc2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Click on an article title. That brings you to the article. On the article page press <span class=""button"">Discussion</span>. In the discussion page you can discuss the article's issues with other contributors. You can find out what needs changing and if you are capable of editing the article.
-</p><p><img alt=""Discussion"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2016-01-26-10-12-35-cc2b6b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>To learn more about editing articles, see <a href=""/en-US/kb/edit-knowledge-base-article"">Submit a minor update in a Knowledge Base article</a>.
-</p>",contributor,kb,"# What is the Knowledge Base Dashboard?
-
-The [Knowledge Base Dashboard](https://support.mozilla.org/en-US/contributors) is a listing of the top Mozilla Support articles, based on the number of views in the last 30 days. You can filter the list by product and type.
-
-![KBdashboard-2021](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-**Note:** To see a list of all Mozilla Support articles, click the [Complete overview...](\""https://support.mozilla.org/contributors/kb-overview"") link at the bottom. It's a great way to see what you can work on as a contributor.
-
-# Anatomy of the Knowledge Base Dashboard
-
-The Knowledge Base Dashboard includes these characteristics:
-
-- Article title and link
-- The number of visits to the article during the specified time period 
-- The status of the article on the Mozilla Support site (Live or Review Needed)
-- Whether the article needs an update
-- Whether or not it's ready for localization
-- Whether or not it's stale
-- Its expiry date
-- A Show translations link to see what languages an article is translated into
-
-# Using the Knowledge Base Dashboard
-
-You can use the Knowledge Base Dashboard to see which articles you can edit. Search all products or just one product such as Firefox for iOS, Firefox for Android, and more.
-
-![Dashboard](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Click on an article title. That brings you to the article. On the article page press Discussion. In the discussion page you can discuss the article's issues with other contributors. You can find out what needs changing and if you are capable of editing the article.
-
-![Discussion](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-To learn more about editing articles, see [Submit a minor update in a Knowledge Base article](\""https://support.mozilla.org/en-US/kb/edit-knowledge-base-article"").
-
-"
-32423,Set up a passcode and Face ID in Firefox for iOS,set-passcode-and-touch-id-firefox,https://support.mozilla.org/en-US/kb/set-passcode-and-touch-id-firefox,en-US,"For increased security, you can choose to activate either Face ID, Touch ID, or a passcode to access your stored passwords.","<p>For increased security, you can choose to activate either Face ID, Touch ID, or a passcode to access your stored passwords.
-</p>
-<h1 id=""w_enable-face-id-touch-id-or-passcode-for-logins"">Enable Face ID, Touch ID or Passcode for Logins</h1>
-<div class=""warning"">Apple Face ID and Touch ID are only available on certain iOS versions and devices.</div>
-<ol><li>Tap the menu button at the bottom of the screen (the menu will be at the top right if you're using an iPad):
-<dl><dt><img alt=""Firefox ios menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-03-01-5f9d3d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
-<dl><dt><img alt=""Firefox iOS settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-21-09-49-18-471b61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Scroll down to <em>Privacy</em> and tap <span class=""menu"">Passwords</span>.
-<dl><dt><img alt=""Firefox iOS Passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-13-07-53-2c1e65.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>If prompted, tap <span class=""button"">OK</span> to allow Firefox to use Face ID/Touch ID to access your saved logins.
-</li><li>Tap <span class=""button"">Continue</span>.
-<dl><dt><img alt=""Firefox iOS Passwords 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-13-10-06-5665e7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>You're all set! Going forward, your saved logins will be safeguarded by Face ID, Touch ID, or a passcode, depending on your iOS version and device type.
-<dl><dt><img alt=""Firefox iOS Passwords 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-14-52-33-237f29.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li></ol>
-<p><strong>Learn more</strong>
-</p>
-<ul><li><a href=""/en-US/kb/manage-saved-passwords-firefox-ios"">Manage saved passwords in Firefox for iOS</a>
-</li><li><a href=""/en-US/kb/how-manually-add-accounts-password-manager-firefox"">How to manually add accounts to the password manager in Firefox for iOS</a>
-</li></ul>",ios,privacy-and-security,"For increased security, you can choose to activate either Face ID, Touch ID, or a passcode to access your stored passwords.
-
-# Enable Face ID, Touch ID or Passcode for Logins
-
-Apple Face ID and Touch ID are only available on certain iOS versions and devices.
-
-1. Tap the menu button at the bottom of the screen (the menu will be at the top right if you're using an iPad):<dl><dt>
-<img alt=""Firefox ios menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-26-15-03-01-5f9d3d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-2. Tap Settings in the menu panel.<dl><dt>
-<img alt=""Firefox iOS settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-21-09-49-18-471b61.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-3. Scroll down to _Privacy_ and tap Passwords.<dl><dt>
-<img alt=""Firefox iOS Passwords"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-13-07-53-2c1e65.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-4. If prompted, tap OK to allow Firefox to use Face ID/Touch ID to access your saved logins.
-5. Tap Continue.<dl><dt>
-<img alt=""Firefox iOS Passwords 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-13-10-06-5665e7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-6. You're all set! Going forward, your saved logins will be safeguarded by Face ID, Touch ID, or a passcode, depending on your iOS version and device type.<dl><dt>
-<img alt=""Firefox iOS Passwords 4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-08-31-14-52-33-237f29.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-
-**Learn more**
-
-- [Manage saved passwords in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/manage-saved-passwords-firefox-ios"")
-- [How to manually add accounts to the password manager in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-manually-add-accounts-password-manager-firefox"")
 
 "
 32854,Change your Mozilla account password,change-your-firefox-accounts-password,https://support.mozilla.org/en-US/kb/change-your-firefox-accounts-password,en-US,How to change your Mozilla account password if you detect strange activity on your account.,"<p>Your Mozilla account syncs your browsing information, such as history, logins and bookmarks, across your other devices. We recommend changing your password periodically, especially if you notice strange activity, to prevent others from logging in to your account.
@@ -102659,48 +102151,6 @@ To turn on this preference:
 Global Privacy Control is enabled by default when you are using [private browsing](\""https://support.mozilla.org/en-US/kb/private-browsing-firefox-android"").
 
 "
-64365,Firefox version support policy for Knowledge Base content,firefox-version-support-policy,https://support.mozilla.org/en-US/kb/firefox-version-support-policy,en-US,"Learn about SUMO's version support policy for Firefox, focusing on the latest, previous and ESR versions to keep content relevant.","<p>As part of our commitment to providing up-to-date and relevant information to our users, we have established a version support policy for content within SUMO. This policy ensures that our contributors focus on versions of Firefox that are most pertinent to our user base, thereby maintaining a high level of usefulness and accuracy in our KB articles. Below, you will find details on which Firefox versions are to be prioritized for content creation and updates.
-</p>
-<h1 id=""w_the-three-versions-to-watch"">The three versions to watch</h1>
-<p>Within the SUMO community, our goal is to ensure our users are always moving forward. To achieve this, our KB content is specifically focused on three key Firefox versions:
-</p>
-<ul><li><strong>Latest Production version:</strong> This version introduces the newest features and updates to Firefox users. It's currently the most popular among our user base. By focusing our articles on this version, we ensure our community has access to the latest information and support.
-</li><li><strong>Previous Production version:</strong> We understand that not everyone updates to the newest version immediately, and that’s perfectly okay. To ensure users on the previous version still have access to important information, we continue to support the version just before the latest one. This ensures that users, regardless of when they choose to update, are not left without relevant resources and support.
-</li><li><strong>Latest Extended Support Release (<a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>):</strong> This version is the stronghold for users and organizations who value consistency and stability, opting for extended support over having the newest features. Each time a new ESR comes out, we support the previous one for 12 weeks before dropping support. Our commitment to supporting the latest ESR version means that we're here for those who depend on Firefox for its reliability over long periods.
-</li></ul>
-<p>Our goal is to ensure the Knowledge Base evolves with Firefox, offering content that's not only current but also engaging. By focusing on these specific versions, we're committed to delivering valuable information that meets the needs of a broad range of users, while keeping our Knowledge Base streamlined and up-to-date. To achieve this, we encourage contributors to follow these key practices:
-</p>
-<ul><li><strong>Understand version impact:</strong> Recognize the importance of the targeted Firefox versions. This will guide your use of <a href=""/en-US/kb/how-to-use-for"">for tags</a> to create version-specific content effectively.
-</li><li><strong>Stay updated:</strong> With Firefox versions updating regularly (see the <a href=""https://whattrainisitnow.com/calendar/"">Firefox Release Calendar</a> for details), it's crucial to keep our content fresh, ensuring users have the most current and accurate information.
-</li></ul>",contributor,kb;kb-process-policies,"As part of our commitment to providing up-to-date and relevant information to our users, we have established a version support policy for content within SUMO. This policy ensures that our contributors focus on versions of Firefox that are most pertinent to our user base, thereby maintaining a high level of usefulness and accuracy in our KB articles. Below, you will find details on which Firefox versions are to be prioritized for content creation and updates.
-
-# The three versions to watch
-
-Within the SUMO community, our goal is to ensure our users are always moving forward. To achieve this, our KB content is specifically focused on three key Firefox versions:
-
-- **Latest Production version:** This version introduces the newest features and updates to Firefox users. It's currently the most popular among our user base. By focusing our articles on this version, we ensure our community has access to the latest information and support.
-- **Previous Production version:** We understand that not everyone updates to the newest version immediately, and that’s perfectly okay. To ensure users on the previous version still have access to important information, we continue to support the version just before the latest one. This ensures that users, regardless of when they choose to update, are not left without relevant resources and support.
-- **Latest Extended Support Release ([ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"")):** This version is the stronghold for users and organizations who value consistency and stability, opting for extended support over having the newest features. Each time a new ESR comes out, we support the previous one for 12 weeks before dropping support. Our commitment to supporting the latest ESR version means that we're here for those who depend on Firefox for its reliability over long periods.
-
-Our goal is to ensure the Knowledge Base evolves with Firefox, offering content that's not only current but also engaging. By focusing on these specific versions, we're committed to delivering valuable information that meets the needs of a broad range of users, while keeping our Knowledge Base streamlined and up-to-date. To achieve this, we encourage contributors to follow these key practices:
-
-- **Understand version impact:** Recognize the importance of the targeted Firefox versions. This will guide your use of [for tags](\""https://support.mozilla.org/en-US/kb/how-to-use-for"") to create version-specific content effectively.
-- **Stay updated:** With Firefox versions updating regularly (see the [Firefox Release Calendar](https://whattrainisitnow.com/calendar/) for details), it's crucial to keep our content fresh, ensuring users have the most current and accurate information.
-
-"
-64474,Firefox for Enterprise 124 - Release notes,firefox-enterprise-124-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-124-release-notes,en-US,See what's coming out with Firefox for Enterprise 124.,"<p>Except where noted, everything here applies to both Firefox 124 and the Firefox 115.9 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
-</p>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://mozilla.github.io/policy-templates/#dnsoverhttps"">DNSOverHTTPS</a> policy has been updated to support setting a <code>Fallback</code> value to prevent falling back to your default DNS Provider. This does not apply to the ESR.
-</li><li>The <a href=""https://mozilla.github.io/policy-templates/#allowfileselectiondialogs"">AllowFileSelectionDialogs</a> policy has been added for controlling file selection dialogs. This policy is not available on the ESR.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 124 and the Firefox 115.9 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
-
-# Policies
-
-- The [DNSOverHTTPS](https://mozilla.github.io/policy-templates/#dnsoverhttps) policy has been updated to support setting a `Fallback` value to prevent falling back to your default DNS Provider. This does not apply to the ESR.
-- The [AllowFileSelectionDialogs](https://mozilla.github.io/policy-templates/#allowfileselectiondialogs) policy has been added for controlling file selection dialogs. This policy is not available on the ESR.
-
-"
 64562,Use the Eyedropper tool in Firefox to sample colors,use-eyedropper-tool-firefox,https://support.mozilla.org/en-US/kb/use-eyedropper-tool-firefox,en-US,Learn to use Firefox's Eyedropper tool to identify and copy web color Hex values quickly – enhance projects with precise color matching.,"<p>Firefox's built-in Eyedropper tool allows users to easily identify and copy the Hex (hexadecimal) values of colors found on web pages. This guide provides clear, step-by-step instructions for accessing and using this feature, making it simpler for creators to incorporate exact colors into their projects.
 <img alt=""Firefox Eyedropper 2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-04-04-12-34-16-d5a30f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </p>
@@ -109857,6 +109307,169 @@ Yes. DNS preferences configured in the Mozilla VPN client will still apply to th
 
 - [How do I change my DNS settings?](\""https://support.mozilla.org/en-US/kb/how-do-i-change-my-dns-settings"")
 - [How do I change my Privacy features?](\""https://support.mozilla.org/en-US/kb/how-do-i-change-my-privacy-features"")
+
+"
+66487,A program on your computer interferes with the Mozilla VPN extension,program-your-computer-interferes-mozilla-vpn-exten,https://support.mozilla.org/en-US/kb/program-your-computer-interferes-mozilla-vpn-exten,en-US,You got a message saying that “A program on your computer may be causing issues with the Mozilla VPN extension”. Here's how you can fix that.,"<p>The Mozilla VPN extension may display the message: <strong>A program on your computer may be causing issues with the Mozilla VPN extension.</strong>
+</p><p>This issue is often caused by the Killer Network Service (KNS), which monitors and prioritizes network traffic. Unfortunately, KNS can conflict with Mozilla VPN’s functionality, particularly App Exclusions and the Firefox browser extension. This guide shows how to disable the specific setting of KNS that causes this unwanted behavior and restores the smooth operation of Mozilla VPN.
+</p>
+<h1 id=""w_disable-killer-network-service-kns"">Disable Killer Network Service (KNS)</h1>
+<p>The Killer Network Service (KNS) is a software typically pre-installed on gaming laptops or high-performance PCs with Intel hardware. It helps prioritize network traffic for activities like online gaming or streaming.
+</p><p>While this feature is beneficial in some cases, it can interfere with Mozilla VPN's browser extension and the App Exclusions functionality. To resolve this issue, follow these steps:
+</p>
+<ol><li>Open the Windows menu, and use the search function to look for the <strong>Killer Intelligence Center</strong>.
+</li><li>Once open, locate the <strong>Quick Settings</strong> section on the right side of the application.
+<dl><dt><img alt=""KNS Quick settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-06-28-ddf16c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click the toggle next to <strong>Prioritization Engine</strong> to turn it off.
+<dl><dt><img alt=""Disable prioritization engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-07-34-bcfacc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+</li></ol>
+<p>You are done! This should resolve any conflict with the Mozilla VPN extension and/or the App Exclusions functionality.
+</p>
+<div class=""note""><strong>Note:</strong> The Firefox extension may continue to show this warning, but provided the Prioritization Engine is disabled, everything should work correctly. At that point, feel free to simply dismiss the notification in the Mozilla VPN extension.</div>
+<p>To re-enable KNS’s Prioritization Engine, simply follow the steps above and turn the toggle back on.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/how-will-dns-work-when-using-vpn-extension"">How will DNS work when using the VPN extension?</a>
+</li><li><a href=""/en-US/kb/disable-vpn-protection-specific-website"">Disable Mozilla VPN protection for a specific website</a>
+</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings,"The Mozilla VPN extension may display the message: **A program on your computer may be causing issues with the Mozilla VPN extension.**
+
+This issue is often caused by the Killer Network Service (KNS), which monitors and prioritizes network traffic. Unfortunately, KNS can conflict with Mozilla VPN’s functionality, particularly App Exclusions and the Firefox browser extension. This guide shows how to disable the specific setting of KNS that causes this unwanted behavior and restores the smooth operation of Mozilla VPN.
+
+# Disable Killer Network Service (KNS)
+
+The Killer Network Service (KNS) is a software typically pre-installed on gaming laptops or high-performance PCs with Intel hardware. It helps prioritize network traffic for activities like online gaming or streaming.
+
+While this feature is beneficial in some cases, it can interfere with Mozilla VPN's browser extension and the App Exclusions functionality. To resolve this issue, follow these steps:
+
+1. Open the Windows menu, and use the search function to look for the **Killer Intelligence Center**.
+2. Once open, locate the **Quick Settings** section on the right side of the application.<dl><dt>
+<img alt=""KNS Quick settings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-06-28-ddf16c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+3. Click the toggle next to **Prioritization Engine** to turn it off.<dl><dt>
+<img alt=""Disable prioritization engine"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-12-07-34-bcfacc.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250"">
+</dt></dl>
+
+You are done! This should resolve any conflict with the Mozilla VPN extension and/or the App Exclusions functionality.
+
+**Note:** The Firefox extension may continue to show this warning, but provided the Prioritization Engine is disabled, everything should work correctly. At that point, feel free to simply dismiss the notification in the Mozilla VPN extension.
+
+To re-enable KNS’s Prioritization Engine, simply follow the steps above and turn the toggle back on.
+
+# Related articles
+
+- [How will DNS work when using the VPN extension?](\""https://support.mozilla.org/en-US/kb/how-will-dns-work-when-using-vpn-extension"")
+- [Disable Mozilla VPN protection for a specific website](\""https://support.mozilla.org/en-US/kb/disable-vpn-protection-specific-website"")
+
+"
+66488,What to do if another extension interferes with the Mozilla VPN extension,if-another-extension-interferes-mozilla-vpn,https://support.mozilla.org/en-US/kb/if-another-extension-interferes-mozilla-vpn,en-US,"If you're using the Mozilla VPN extension and encounter a message about other extensions interfering, follow this steps to fix it.","<p>If you use the Mozilla VPN extension and encounter a message about other extensions interfering, don’t worry! This typically happens when other extensions in your browser modify proxy settings, which may prevent the Mozilla VPN extension from functioning correctly.
+</p><p>First, verify whether other extensions are indeed interfering with the Mozilla VPN extension. To check this, enable the Mozilla VPN extension and test if your location is masked by visiting a geolocation website such as <a href=""https://mylocation.org/"">MyLocation.org</a>. If your location is masked, you can try to exclude this website from VPN protection or change the country through which you access it, using the Mozilla VPN extension capabilities. If all tests confirm that the extension functions correctly, no further action is needed.
+</p><p>If you find that the extension is not working as expected, follow this guide to identify and resolve the issue.
+</p>
+<h1 id=""w_check-for-conflicting-extensions"">Check for conflicting extensions</h1>
+<ol><li>In the top right corner of your Firefox browser, click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
+</li><li><span class=""for"" data-for=""not fx140"">Select the <strong>Add-ons and themes</strong> option.</span><span class=""for"" data-for=""fx140"">Select the <strong>Extensions and themes</strong> option.</span>
+<dl><dt><span class=""for"" data-for=""not fx140""><img alt=""Adons"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-21-53-833b53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320""></span><span class=""for"" data-for=""fx140""><img alt=""extensionsthemes"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-16-07-32-13-2ac737.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320""></span>
+</dt></dl>
+</li><li>In the left-side menu, click <strong>Extensions</strong>.
+<dl><dt><img alt=""Select Extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-23-49-d10b71.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Review your installed extensions for tools that might interfere, such as:
+<ul><li>Proxy managers
+</li><li>Ad blockers
+</li><li>Privacy or security tools with network-related features
+</li></ul>
+</li><li>Turn the toggle next to the extension to disable it.
+</li></ol>
+<dl><dt><ul><li>Alternatively, you can also uninstall the extension: Click the three-dot menu next to the extension and select <strong>Remove</strong>.
+</li></ul>
+</dt></dl>
+<dl><dt><dl><dt><img alt=""Remove"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-25-11-1063e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""160"">
+</dt></dl>
+</dt></dl>
+<h2 id=""w_if-youre-unsure-which-extension-interferes"">If you’re unsure which extension interferes</h2>
+<p>For each potentially conflicting extension:
+</p>
+<ol><li>Disable the Mozilla VPN Firefox Extension using the process described above.
+</li><li>Disable the potentially conflicting extension.
+</li><li>Re-enable the Mozilla VPN Firefox Extension.
+</li><li>Check if the error message now disappears.
+</li></ol>
+<p>This way, you will be able to identify which extension causes the error and disable it.
+</p>
+<h1 id=""w_common-questions"">Common questions</h1>
+<h2 id=""w_why-does-this-happen"">Why does this happen?</h2>
+<p>The Mozilla VPN extension relies on being able to set specific proxy settings to create per-website exceptions while browsing. If other extensions modify these settings, they can conflict with the Mozilla VPN extension and cause it to not function appropriately.
+</p>
+<h2 id=""w_what-happens-to-my-mozilla-vpn-extension-if-theres-a-proxy-configuration-in-firefox"">What happens to my Mozilla VPN extension if there’s a proxy configuration in Firefox?</h2>
+<p>When a proxy is configured in Firefox, the Mozilla VPN extension will override the proxy configuration whenever VPN protection is enabled.
+</p>
+<h2 id=""w_what-happens-to-the-proxy-configuration-when-the-vpn-protection-is-off"">What happens to the proxy configuration when the VPN protection is off?</h2>
+<p>When the VPN protection is turned off, the browser will default back to the proxy configuration set in Firefox. This happens automatically, so no action is required.
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/connection-settings-firefox"">Connection settings in Firefox</a>
+</li><li><a href=""/en-US/kb/how-will-dns-work-when-using-vpn-extension"">How will DNS work when using the VPN extension?</a>
+</li></ul>",firefox;mozilla-vpn,add-ons-extensions-and-themes;settings,"If you use the Mozilla VPN extension and encounter a message about other extensions interfering, don’t worry! This typically happens when other extensions in your browser modify proxy settings, which may prevent the Mozilla VPN extension from functioning correctly.
+
+First, verify whether other extensions are indeed interfering with the Mozilla VPN extension. To check this, enable the Mozilla VPN extension and test if your location is masked by visiting a geolocation website such as [MyLocation.org](https://mylocation.org/). If your location is masked, you can try to exclude this website from VPN protection or change the country through which you access it, using the Mozilla VPN extension capabilities. If all tests confirm that the extension functions correctly, no further action is needed.
+
+If you find that the extension is not working as expected, follow this guide to identify and resolve the issue.
+
+# Check for conflicting extensions
+
+1. In the top right corner of your Firefox browser, click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
+2. Select the **Add-ons and themes** option.Select the **Extensions and themes** option.<dl><dt>
+<span class=""for"" data-for=""not fx140""><img alt=""Adons"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-21-53-833b53.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320""></span><span class=""for"" data-for=""fx140""><img alt=""extensionsthemes"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-16-07-32-13-2ac737.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""320""></span>
+</dt></dl>
+3. In the left-side menu, click **Extensions**.<dl><dt>
+<img alt=""Select Extensions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-23-49-d10b71.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Review your installed extensions for tools that might interfere, such as:
+  - Proxy managers
+  - Ad blockers
+  - Privacy or security tools with network-related features
+
+5. Turn the toggle next to the extension to disable it.
+
+<dl><dt>
+<ul><li>Alternatively, you can also uninstall the extension: Click the three-dot menu next to the extension and select <strong>Remove</strong>.
+</li></ul>
+</dt></dl><dl>
+<dt></dt>
+<dl><dt>
+<img alt=""Remove"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-09-11-25-11-1063e3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""160"">
+</dt></dl>
+</dl>
+## If you’re unsure which extension interferes
+
+For each potentially conflicting extension:
+
+1. Disable the Mozilla VPN Firefox Extension using the process described above.
+2. Disable the potentially conflicting extension.
+3. Re-enable the Mozilla VPN Firefox Extension.
+4. Check if the error message now disappears.
+
+This way, you will be able to identify which extension causes the error and disable it.
+
+# Common questions
+
+## Why does this happen?
+
+The Mozilla VPN extension relies on being able to set specific proxy settings to create per-website exceptions while browsing. If other extensions modify these settings, they can conflict with the Mozilla VPN extension and cause it to not function appropriately.
+
+## What happens to my Mozilla VPN extension if there’s a proxy configuration in Firefox?
+
+When a proxy is configured in Firefox, the Mozilla VPN extension will override the proxy configuration whenever VPN protection is enabled.
+
+## What happens to the proxy configuration when the VPN protection is off?
+
+When the VPN protection is turned off, the browser will default back to the proxy configuration set in Firefox. This happens automatically, so no action is required.
+
+# Related articles
+
+- [Connection settings in Firefox](\""https://support.mozilla.org/en-US/kb/connection-settings-firefox"")
+- [How will DNS work when using the VPN extension?](\""https://support.mozilla.org/en-US/kb/how-will-dns-work-when-using-vpn-extension"")
 
 "
 66490,Manage the Mozilla VPN extension preferences,manage-vpn-extension-preferences,https://support.mozilla.org/en-US/kb/manage-vpn-extension-preferences,en-US,"After configuring VPN preferences for different websites, you may want to review them to confirm they meet your expectations. Follow these steps to do so.","<p>After configuring the Mozilla VPN preferences for different websites, you may want to review them to confirm they meet your expectations. Follow these steps to do so:
@@ -118570,7 +118183,7 @@ Firefox takes a privacy-preserving approach to summarizing web pages. For iPhone
 <h1 id=""w_do-i-need-to-use-firefox-esr-to-stay-supported"">Do I need to use Firefox ESR to stay supported?</h1>
 <p><strong>No.</strong>
 </p><p>While Windows 7 and 8 users can only use Firefox ESR 115, <strong>Windows 10 users do not need to switch to ESR</strong>.
-</p><p>However, <strong>Firefox Extended Support Release (ESR) version 140 does support Windows 10</strong> and next year's <strong>ESR 152</strong> will also include support for Windows 10.
+</p><p>However, <strong>Firefox Extended Support Release (ESR) version 140 does support Windows 10</strong> and this year's <strong>ESR 153</strong> will also include support for Windows 10.
 </p><p>Firefox ESR receives monthly security updates, but it's enhanced with new features only once per year. This means you’ll have a stable browsing experience, without unexpected new features disrupting your workflow.
 </p><p>So the choice is yours: you’re welcome to use Firefox ESR on Windows 10, and you’ll have support for it in the years to come.
 </p>
@@ -118665,7 +118278,7 @@ If you’re using Firefox Release, no action is needed. The Firefox browser will
 
 While Windows 7 and 8 users can only use Firefox ESR 115, **Windows 10 users do not need to switch to ESR**.
 
-However, **Firefox Extended Support Release (ESR) version 140 does support Windows 10** and next year's **ESR 152** will also include support for Windows 10.
+However, **Firefox Extended Support Release (ESR) version 140 does support Windows 10** and this year's **ESR 153** will also include support for Windows 10.
 
 Firefox ESR receives monthly security updates, but it's enhanced with new features only once per year. This means you’ll have a stable browsing experience, without unexpected new features disrupting your workflow.
 
