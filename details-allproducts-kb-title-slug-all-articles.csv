@@ -75548,7 +75548,7 @@ Up until October 2021, we were updating affected users with critical security up
 If you want to keep your Firefox version up to date, you need to upgrade your operating system to macOS 10.15 or higher. Apple does not support older versions. They are unreliable and unsafe to use, which also makes it difficult to maintain Firefox on those versions. [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 115 was the last supported version for users of macOS 10.12 (Sierra), macOS 10.13 (High Sierra) and macOS 10.14 (Mojave), as explained in [this article](\""https://support.mozilla.org/en-US/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support"").
 
 "
-49217,Automatically fill in credit or debit card payment method data on Web forms,credit-card-autofill,https://support.mozilla.org/en-US/kb/credit-card-autofill,en-US,Manage credit card autofill settings in Firefox version 81 and above.,"<p>Firefox lets you automatically fill in saved credit and debit card information on web forms, making online checkouts faster and more convenient. Starting with Firefox version 135, this feature is available globally. Your <a href=""https://en.wikipedia.org/wiki/Card_security_code"">CVV number</a> is never saved, and you can require a password or biometric authentication before using autofill for extra security. 
+49217,Automatically fill in credit and debit card payment methods data on web forms,credit-card-autofill,https://support.mozilla.org/en-US/kb/credit-card-autofill,en-US,Manage credit card autofill settings in Firefox version 81 and above.,"<p>Firefox lets you automatically fill in saved credit and debit card information on web forms, making online checkouts faster and more convenient. Starting with Firefox version 135, this feature is available globally. Your <a href=""https://en.wikipedia.org/wiki/Card_security_code"">CVV number</a> is never saved, and you can require a password or biometric authentication before using autofill for extra security. 
 </p><p>Use the steps below to turn autofill on or off, edit saved cards, and set authentication preferences.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-payment-methods-autofill-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn payment methods autofill on or off</span></a></li><li class=""toclevel-1""><a href=""#w_require-authentication-for-autofill""><span class=""tocnumber"">2</span> <span class=""toctext"">Require authentication for autofill</span></a><ul><li class=""toclevel-2""><a href=""#w_if-you-dont-have-an-os-password""><span class=""tocnumber"">2.1</span> <span class=""toctext"">If you don't have an OS password</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_edit-your-saved-payment-methods""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit your saved payment methods</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">4</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
@@ -93020,6 +93020,130 @@ Once your subscription has been successfully canceled, return to the product’s
 - [Subscribe to Firefox Relay Premium](https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium)
 
 "
+59269,Automatically fill in your address on web forms in Firefox for Android,automatically-fill-your-address-web-forms-android,https://support.mozilla.org/en-US/kb/automatically-fill-your-address-web-forms-android,en-US,Manage your settings for automatically filling out your address on web forms in Firefox for Android,"<div class=""warning"">We are aware of an issue where addresses may not sync between devices.  Our developers and contributors are actively looking into this and we hope to be able to make the solution available in a future update. Ensure that you have access to the latest features and fixes by <a href=""/en-US/kb/update-latest-version-firefox-android"">updating to the most recent version</a>.</div>
+<p>You can now autofill your address on forms in Firefox for Android. This feature is enabled by default, but you can disable it any time in your Autofill settings. You can also add and manage your addresses in your settings. Learn more about managing your Autofill settings below.
+</p>
+<div class=""note"">The Autofill feature is currently only available for American English, Canadian English and Canadian French <a href=""/en-US/kb/change-default-language-firefox-android"">languages</a> (en-US, en-CA, fr-CA).</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-address-autofill-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn address autofill on or off</span></a></li><li class=""toclevel-1""><a href=""#w_add-an-address-for-the-first-time""><span class=""tocnumber"">2</span> <span class=""toctext"">Add an address for the first time</span></a></li><li class=""toclevel-1""><a href=""#w_edit-your-saved-addresses""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit your saved addresses</span></a></li></ul></div>
+<h1 id=""w_turn-address-autofill-on-or-off"">Turn address autofill on or off</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">Autofill</span>.
+</li><li>Switch the toggle next to <strong>Save and autofill addresses</strong> to the right to turn it on, or toggle it to the left to turn it off.
+</li></ol>
+<div class=""warning"">We recommend turning this feature off on non-private devices.</div>
+<h1 id=""w_add-an-address-for-the-first-time"">Add an address for the first time</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">Autofill</span>.
+</li><li>Tap <span class=""menu"">Add address</span>.
+</li><li>File the form and tap <span class=""button"">Save</span>.
+</li></ol>
+<h1 id=""w_edit-your-saved-addresses"">Edit your saved addresses</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">Autofill</span>.
+</li><li>Tap <span class=""menu"">Manage addresses</span>.
+</li><li>Tap <span class=""menu"">Add address</span> to add a new address.
+</li><li>Tap an existing address to edit the address.
+<ul><li>Tap the <em>Delete</em> <img alt=""Copnfig Editor Trash Icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-02-17-39-45-5e5ea2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon to remove the address.
+</li><li>Tap the <em>Save</em> <img alt=""checkmark_fx71aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-03-17-27-57-925133.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon to save any edits you make to the address.
+</li></ul>
+</li></ol>",mobile,settings,"We are aware of an issue where addresses may not sync between devices. Our developers and contributors are actively looking into this and we hope to be able to make the solution available in a future update. Ensure that you have access to the latest features and fixes by [updating to the most recent version](\""https://support.mozilla.org/en-US/kb/update-latest-version-firefox-android"").
+
+You can now autofill your address on forms in Firefox for Android. This feature is enabled by default, but you can disable it any time in your Autofill settings. You can also add and manage your addresses in your settings. Learn more about managing your Autofill settings below.
+
+The Autofill feature is currently only available for American English, Canadian English and Canadian French [languages](\""https://support.mozilla.org/en-US/kb/change-default-language-firefox-android"") (en-US, en-CA, fr-CA).
+
+## Table of Contents
+
+- [1 Turn address autofill on or off](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_turn-address-autofill-on-or-off)
+- [2 Add an address for the first time](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_add-an-address-for-the-first-time)
+- [3 Edit your saved addresses](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_edit-your-saved-addresses)
+
+# Turn address autofill on or off
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap Autofill.
+4. Switch the toggle next to **Save and autofill addresses** to the right to turn it on, or toggle it to the left to turn it off.
+
+We recommend turning this feature off on non-private devices.
+
+# Add an address for the first time
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap Autofill.
+4. Tap Add address.
+5. File the form and tap Save.
+
+# Edit your saved addresses
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap Autofill.
+4. Tap Manage addresses.
+5. Tap Add address to add a new address.
+6. Tap an existing address to edit the address.
+  - Tap the _Delete_ ![Copnfig Editor Trash Icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon to remove the address.
+  - Tap the _Save_ ![checkmark_fx71aboutconfig](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon to save any edits you make to the address.
+
+"
+59317,Firefox for Enterprise 104 - Release notes,firefox-enterprise-104-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-104-release-notes,en-US,See what's coming out with Firefox for Enterprise 104.,"<p>Except where noted, everything here applies to both Firefox 104 and the Firefox 102.2 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_other-changes""><span class=""tocnumber"">2</span> <span class=""toctext"">Other Changes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">3</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
+<h1 id=""w_bug-fixes"">Bug Fixes</h1>
+<ul><li>Windows SSO wasn't working in iframes. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1778325"">bug 1778325</a>.
+</li></ul>
+<h1 id=""w_other-changes"">Other Changes</h1>
+<ul><li><a href=""https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"">Total Cookie Protection</a> was turned on for all versions of Firefox in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1776760"">bug 1776760</a>. Total Cookie Protection is controlled by the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#cookies"">Cookies</a> policy.
+</li></ul>
+<ul><li>The <code>security.insecure_field_warning.contextual.enabled</code> was removed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1773047"">bug 1773047</a>. This change does not affect the Firefox 102 ESR. 
+</li></ul>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#appversionpin"">AppVersionPin</a> policy was added. This allows you to prevent Firefox from being updated beyond a specified version.
+</li></ul>
+<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#gotointranetsiteforsinglewordentryinaddressbar"">GoToIntranetSiteForSingleWordEntryInAddressBar </a> policy was added. This policy forces direct intranet site navigation instead of searching when typing single word entries in the address bar.
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<p>This is the last major release of the Firefox 91 ESR. Firefox 91 ESR goes out of support on September 20, 2022. At that time Firefox 91 ESR users will be upgraded to the Firefox 102 ESR.
+</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 104 and the Firefox 102.2 ESR.
+
+## Table of Contents
+
+- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_bug-fixes)
+- [2 Other Changes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_other-changes)
+- [3 Policies](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_policies)
+- [4 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_special-notes)
+
+# Bug Fixes
+
+- Windows SSO wasn't working in iframes. This was fixed in [bug 1778325](https://bugzilla.mozilla.org/show_bug.cgi?id=1778325).
+
+# Other Changes
+
+- [Total Cookie Protection](https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/) was turned on for all versions of Firefox in [bug 1776760](https://bugzilla.mozilla.org/show_bug.cgi?id=1776760). Total Cookie Protection is controlled by the [Cookies](https://github.com/mozilla/policy-templates/blob/master/README.md#cookies) policy.
+
+- The `security.insecure_field_warning.contextual.enabled` was removed in [bug 1773047](https://bugzilla.mozilla.org/show_bug.cgi?id=1773047). This change does not affect the Firefox 102 ESR. 
+
+# Policies
+
+- The [AppVersionPin](https://github.com/mozilla/policy-templates/blob/master/README.md#appversionpin) policy was added. This allows you to prevent Firefox from being updated beyond a specified version.
+
+- The [GoToIntranetSiteForSingleWordEntryInAddressBar](https://github.com/mozilla/policy-templates/blob/master/README.md#gotointranetsiteforsinglewordentryinaddressbar) policy was added. This policy forces direct intranet site navigation instead of searching when typing single word entries in the address bar.
+
+# Special Notes
+
+This is the last major release of the Firefox 91 ESR. Firefox 91 ESR goes out of support on September 20, 2022. At that time Firefox 91 ESR users will be upgraded to the Firefox 102 ESR.
+
+"
 59361,What's new in Firefox Klar for iOS (version 103),whats-new-firefox-klar-ios-version-103,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-103,en-US,Welcome to version 103 of Firefox Klar for iOS.,"<p>
 
 </p><p>Welcome to a new version of Firefox Klar for iOS (version 103). This release comes with the following improvements and features:
@@ -98289,240 +98413,6 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 ## Related content
 
 - [Why are some add-ons not allowed on sites restricted by Mozilla?](\""https://support.mozilla.org/en-US/kb/quarantined-domains"")
-
-"
-61460,Configure DNS over HTTPS protection levels in Firefox,dns-over-https,https://support.mozilla.org/en-US/kb/dns-over-https,en-US,DNS over HTTPS (DoH) is a recommended feature that enhances privacy. Learn more about the DoH protection levels you can configure in Firefox settings.,"<p><a href=""/en-US/kb/firefox-dns-over-https"">DNS over HTTPS (DoH)</a> is a recommended feature that enhances privacy for everyone. When you type a web address into your address bar, Firefox sends a secure DNS request to look up the IP address for that website over the Internet. DNS over HTTPS protection can be configured in four different ways.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_configure-doh-protection-settings""><span class=""tocnumber"">1</span> <span class=""toctext"">Configure DoH protection settings</span></a></li><li class=""toclevel-1""><a href=""#w_protection-levels-explained""><span class=""tocnumber"">2</span> <span class=""toctext"">Protection levels explained</span></a><ul><li class=""toclevel-2""><a href=""#w_default-protection""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Default Protection</span></a></li><li class=""toclevel-2""><a href=""#w_increased-protection""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Increased Protection</span></a></li><li class=""toclevel-2""><a href=""#w_max-protection""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Max Protection</span></a></li><li class=""toclevel-2""><a href=""#w_off""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Off</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_add-sites-to-the-exceptions-list""><span class=""tocnumber"">3</span> <span class=""toctext"">Add sites to the Exceptions list</span></a></li><li class=""toclevel-1""><a href=""#w_frequently-asked-questions""><span class=""tocnumber"">4</span> <span class=""toctext"">Frequently asked questions</span></a><ul><li class=""toclevel-2""><a href=""#w_what-is-a-local-provider""><span class=""tocnumber"">4.1</span> <span class=""toctext"">What is a local provider?</span></a></li><li class=""toclevel-2""><a href=""#w_why-would-a-network-tell-firefox-not-to-use-secure-dns""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Why would a network tell Firefox not to use secure DNS?</span></a></li><li class=""toclevel-2""><a href=""#w_what-does-my-doh-status-mean""><span class=""tocnumber"">4.3</span> <span class=""toctext"">What does my DoH status mean?</span></a></li><li class=""toclevel-2""><a href=""#w_why-is-the-secure-dns-status-not-showing-as-active""><span class=""tocnumber"">4.4</span> <span class=""toctext"">Why is the secure DNS status not showing as active?</span></a></li></ul></li></ul></div>
-<h1 id=""w_configure-doh-protection-settings"">Configure DoH protection settings</h1>
-<p>Default Protection is automatically enabled in Firefox when DNS over HTTPS (DoH) is activated. If you would like to modify the settings or select a different level of protection, please follow these steps:
-</p>
-<ol><li>Click the menu <img alt=""PhotonMenuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-09-28-11-58-03-e6a66b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button at the top right of the screen.
-</li><li>Click <span class=""menu"">Settings</span>.
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> on the left.
-</li><li>Scroll down to the <em>DNS over HTTPS</em> section.
-</li></ol>
-<dl><dt><img alt=""DNS over HTTPS panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-23-10-57-34-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<h1 id=""w_protection-levels-explained"">Protection levels explained</h1>
-<h2 id=""w_default-protection"">Default Protection</h2>
-<p>The Default Protection automatically enables secure DNS in available regions and falls back to the default resolvers if there are issues. Default protection allows you to use local providers when possible. It disables DoH when VPN, parental control or enterprise policies are active or when a network tells Firefox not to use secure DNS.
-</p>
-<h2 id=""w_increased-protection"">Increased Protection</h2>
-<p>When Increased Protection is on, DoH is constantly active with the provider you select. We will only switch to a backup option if there are any issues with your chosen provider.
-</p>
-<h2 id=""w_max-protection"">Max Protection</h2>
-<p>Max protection will always use secure DNS and a security warning will show if we can’t connect to the secure DNS resolver, or if the secure DNS resolver indicates there are no addresses for the domain you are trying to access. The warning page will give you an option of adding an exception for that domain if you want to use the system DNS resolver.
-</p>
-<h2 id=""w_off"">Off</h2>
-<p>When secure DNS is off, you’ll use your default DNS resolver.
-</p>
-<h1 id=""w_add-sites-to-the-exceptions-list"">Add sites to the Exceptions list</h1>
-<ol><li>Click the menu <img alt=""PhotonMenuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-09-28-11-58-03-e6a66b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button at the top right of the screen.
-</li><li>Click <span class=""menu"">Settings</span>.
-</li><li>Click <span class=""menu"">Privacy &amp; Security</span> on the left.
-</li><li>Scroll down to the <em>DNS over HTTPS</em> section.
-</li><li>Click the <span class=""button"">Manage Exceptions button</span>.
-</li></ol>
-<p><img alt=""doh_manage_exceptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-24-13-12-11-4370aa.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h1 id=""w_frequently-asked-questions"">Frequently asked questions</h1>
-<h2 id=""w_what-is-a-local-provider"">What is a local provider?</h2>
-<p>A local provider, typically hosted within a user's local network or by their ISP, secures DNS queries for safer internet access. To detect a local provider, specific heuristics are used, which examine network configuration and DNS response patterns. Note that local providers are only employed in the <em>Default Protection</em> mode of DNS settings. They are used only when all heuristics criteria are met, ensuring that the DNS resolver is local and suitable for secure, efficient query resolutions.
-</p>
-<h2 id=""w_why-would-a-network-tell-firefox-not-to-use-secure-dns"">Why would a network tell Firefox not to use secure DNS?</h2>
-<p>Some organizations restrict access to certain websites. If an organization has their own secure DNS, they will ask Firefox not to bypass it.
-</p><p>For additional information on DNS over HTTPS, you can refer to some of the <a href=""/en-US/kb/dns-over-https-doh-faqs"">commonly asked questions (FAQs)</a>.
-</p>
-<h2 id=""w_what-does-my-doh-status-mean"">What does my DoH status mean?</h2>
-<p>DoH status displays if Firefox is performing secure DNS queries. Based on the protection level you choose, the status indicator will reflect either Active, Not active or Off.
-<img alt=""DoH_status"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-05-24-12-58-53-3e32b7.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<ul><li><strong>Active:</strong> When status is active, Firefox is securely sending DNS queries to ensure your online activities are protected.
-</li><li><strong>Not active:</strong> Firefox detects errors or certain network conditions like VPN, parental controls, enterprise policies that tell Firefox not to use DoH.
-</li><li><strong>Off:</strong> DoH has been disabled.
-</li></ul>
-<h2 id=""w_why-is-the-secure-dns-status-not-showing-as-active"">Why is the secure DNS status not showing as active?</h2>
-<p>If you have enabled secure DNS and the status is Not Active, common reasons are as follows:
-</p>
-<ul><li>Firefox wasn't able to connect to the provider.
-</li><li>The connection to the provider took longer than expected.
-</li><li>You are not connected to the internet.
-</li><li>There was a problem with the provider.
-</li><li>The browser is configured to <em>Default protection</em> but the network has signaled to Firefox to not enable DNS over HTTPS (for details, see <a href=""/en-US/kb/dns-over-https-doh-faqs#w_what-are-doh-heuristics"">What are DoH heuristics?</a>)
-</li></ul>",firefox,privacy-and-security,"[DNS over HTTPS (DoH)](\""https://support.mozilla.org/en-US/kb/firefox-dns-over-https"") is a recommended feature that enhances privacy for everyone. When you type a web address into your address bar, Firefox sends a secure DNS request to look up the IP address for that website over the Internet. DNS over HTTPS protection can be configured in four different ways.
-
-## Table of Contents
-
-- [1 Configure DoH protection settings](https://support.mozilla.org/kb/dns-over-https#w_configure-doh-protection-settings)
-- [2 Protection levels explained](https://support.mozilla.org/kb/dns-over-https#w_protection-levels-explained)
-  - [2.1 Default Protection](https://support.mozilla.org/kb/dns-over-https#w_default-protection)
-  - [2.2 Increased Protection](https://support.mozilla.org/kb/dns-over-https#w_increased-protection)
-  - [2.3 Max Protection](https://support.mozilla.org/kb/dns-over-https#w_max-protection)
-  - [2.4 Off](https://support.mozilla.org/kb/dns-over-https#w_off)
-
-- [3 Add sites to the Exceptions list](https://support.mozilla.org/kb/dns-over-https#w_add-sites-to-the-exceptions-list)
-- [4 Frequently asked questions](https://support.mozilla.org/kb/dns-over-https#w_frequently-asked-questions)
-  - [4.1 What is a local provider?](https://support.mozilla.org/kb/dns-over-https#w_what-is-a-local-provider)
-  - [4.2 Why would a network tell Firefox not to use secure DNS?](https://support.mozilla.org/kb/dns-over-https#w_why-would-a-network-tell-firefox-not-to-use-secure-dns)
-  - [4.3 What does my DoH status mean?](https://support.mozilla.org/kb/dns-over-https#w_what-does-my-doh-status-mean)
-  - [4.4 Why is the secure DNS status not showing as active?](https://support.mozilla.org/kb/dns-over-https#w_why-is-the-secure-dns-status-not-showing-as-active)
-
-# Configure DoH protection settings
-
-Default Protection is automatically enabled in Firefox when DNS over HTTPS (DoH) is activated. If you would like to modify the settings or select a different level of protection, please follow these steps:
-
-1. Click the menu ![PhotonMenuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button at the top right of the screen.
-2. Click Settings.
-3. Click Privacy & Security on the left.
-4. Scroll down to the _DNS over HTTPS_ section.
-
-<dl><dt>
-<img alt=""DNS over HTTPS panel"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-23-10-57-34-3bfa56.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-# Protection levels explained
-
-## Default Protection
-
-The Default Protection automatically enables secure DNS in available regions and falls back to the default resolvers if there are issues. Default protection allows you to use local providers when possible. It disables DoH when VPN, parental control or enterprise policies are active or when a network tells Firefox not to use secure DNS.
-
-## Increased Protection
-
-When Increased Protection is on, DoH is constantly active with the provider you select. We will only switch to a backup option if there are any issues with your chosen provider.
-
-## Max Protection
-
-Max protection will always use secure DNS and a security warning will show if we can’t connect to the secure DNS resolver, or if the secure DNS resolver indicates there are no addresses for the domain you are trying to access. The warning page will give you an option of adding an exception for that domain if you want to use the system DNS resolver.
-
-## Off
-
-When secure DNS is off, you’ll use your default DNS resolver.
-
-# Add sites to the Exceptions list
-
-1. Click the menu ![PhotonMenuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button at the top right of the screen.
-2. Click Settings.
-3. Click Privacy & Security on the left.
-4. Scroll down to the _DNS over HTTPS_ section.
-5. Click the Manage Exceptions button.
-
-![doh_manage_exceptions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-# Frequently asked questions
-
-## What is a local provider?
-
-A local provider, typically hosted within a user's local network or by their ISP, secures DNS queries for safer internet access. To detect a local provider, specific heuristics are used, which examine network configuration and DNS response patterns. Note that local providers are only employed in the _Default Protection_ mode of DNS settings. They are used only when all heuristics criteria are met, ensuring that the DNS resolver is local and suitable for secure, efficient query resolutions.
-
-## Why would a network tell Firefox not to use secure DNS?
-
-Some organizations restrict access to certain websites. If an organization has their own secure DNS, they will ask Firefox not to bypass it.
-
-For additional information on DNS over HTTPS, you can refer to some of the [commonly asked questions (FAQs)](\""https://support.mozilla.org/en-US/kb/dns-over-https-doh-faqs"").
-
-## What does my DoH status mean?
-
-DoH status displays if Firefox is performing secure DNS queries. Based on the protection level you choose, the status indicator will reflect either Active, Not active or Off. ![DoH_status](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-- **Active:** When status is active, Firefox is securely sending DNS queries to ensure your online activities are protected.
-- **Not active:** Firefox detects errors or certain network conditions like VPN, parental controls, enterprise policies that tell Firefox not to use DoH.
-- **Off:** DoH has been disabled.
-
-## Why is the secure DNS status not showing as active?
-
-If you have enabled secure DNS and the status is Not Active, common reasons are as follows:
-
-- Firefox wasn't able to connect to the provider.
-- The connection to the provider took longer than expected.
-- You are not connected to the internet.
-- There was a problem with the provider.
-- The browser is configured to _Default protection_ but the network has signaled to Firefox to not enable DNS over HTTPS (for details, see [What are DoH heuristics?](\""https://support.mozilla.org/en-US/kb/dns-over-https-doh-faqs#w_what-are-doh-heuristics""))
-
-"
-61471,Why are some add-ons not allowed on sites restricted by Mozilla?,quarantined-domains,https://support.mozilla.org/en-US/kb/quarantined-domains,en-US,Learn why some Firefox add-ons might not work on certain websites and how to manage those extensions to enhance your browsing experience.,"<p>Mozilla maintains an open system for add-ons, which gives developers many choices in how they create, use, and deploy their work. This same openness also provides malicious actors more opportunities as well. While Mozilla can identify and block malicious add-ons discovered through tooling, reviews, or user reports, this is not always enough.
-</p><div class=""for"" data-for=""not fx116""><p><img alt=""Fx115ExtensionsPanelQuarantinedDomainWarning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-23-03-27-07-f2e417.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
-</p></div><div class=""for"" data-for=""fx116""><p><img alt=""Fx116ExtensionsPanelQuarantinedDomainWarning"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-23-04-12-59-4a004e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""450"">
-</p></div><p><a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 115 introduced Quarantined Domains to protect user privacy and security when we discover significant security issues presented by malicious actors. This feature allows us to prevent attacks by malicious actors targeting specific domains when we have reason to believe there may be malicious add-ons we have not yet discovered. A warning message that <em>Some extensions are not allowed</em> will notify you when this occurs, as shown above for an add-on listed in the <a href=""/en-US/kb/extensions-button"">extensions panel</a> opened from the Firefox toolbar.  
-</p><p>Users can also control this behavior for each extension in the Add-ons Manager (<em>about:addons</em>) starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 116. We will be further improving the UI for users in future releases.
-</p>
-<h1 id=""w_how-can-i-re-enable-the-add-ons-that-are-not-allowed-on-sites-restricted-by-mozilla"">How can I re-enable the add-ons that are not allowed on sites restricted by Mozilla?</h1>
-<div class=""for"" data-for=""not fx116""><p>We understand that installing add-ons is a user choice and, as with your security, we also take this matter very seriously. If you are aware of the associated risk and still wish to allow add-ons disallowed on a site by Mozilla, you can do so from the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em> page):
-</p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
-<p></p>
-<ol><li>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li>Search for the <span class=""pref"">extensions.quarantinedDomains.enabled</span> preference.
-<ul><li>If this preference does not yet exist, the options to add it will show up. Select the <strong>Boolean</strong> type and click the <span class=""button"">+</span> button to create it.
-</li></ul>
-</li><li>Click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to this preference to change its value to <span class=""pref"">false</span>.
-</li><li>Restart Firefox.
-</li></ol>
-</div><div class=""for"" data-for=""fx116""><p>We understand that installing add-ons is a user choice and, as with your security, we also take this matter very seriously. If you are aware of the associated risk and still wish to allow an add-on that has been disallowed on a site by Mozilla, you can do it from the Add-ons Manager settings:
-</p>
-<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>, click <span class=""for"" data-for=""not fx140""><span class=""menu"">Add-ons and themes</span></span><span class=""for"" data-for=""fx140""><span class=""menu"">Extensions and themes</span></span> and select <span class=""menu"">Extensions</span>.
-
-</li><li>Click the extension you want to enable on sites with restrictions.
-</li><li>Select the <strong>Allow</strong> option in the section <em>Run on sites with restrictions</em>.
-</li></ol>
-<p><img alt=""Add-on Manager - Run on sites with restrictions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-07-07-05-28-37-fe6d71.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p><p>Alternatively, you can disable the <em>entire</em> protection from the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em> page):
-</p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
-<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div> 
-<p></p>
-<ol><li>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
-
-</li><li>Search for the <span class=""pref"">extensions.quarantinedDomains.enabled</span> preference.
-<ul><li>If this preference does not yet exist, the options to add it will show up. Select the <strong>Boolean</strong> type and click the <span class=""button"">+</span> button to create it.
-</li></ul>
-</li><li>Click the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to this preference to change its value to <span class=""pref"">false</span>.
-</li><li>Restart Firefox.
-</li></ol>
-</div>",firefox,privacy-and-security,"Mozilla maintains an open system for add-ons, which gives developers many choices in how they create, use, and deploy their work. This same openness also provides malicious actors more opportunities as well. While Mozilla can identify and block malicious add-ons discovered through tooling, reviews, or user reports, this is not always enough.
-
-![Fx115ExtensionsPanelQuarantinedDomainWarning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-![Fx116ExtensionsPanelQuarantinedDomainWarning](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-[Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 115 introduced Quarantined Domains to protect user privacy and security when we discover significant security issues presented by malicious actors. This feature allows us to prevent attacks by malicious actors targeting specific domains when we have reason to believe there may be malicious add-ons we have not yet discovered. A warning message that _Some extensions are not allowed_ will notify you when this occurs, as shown above for an add-on listed in the [extensions panel](\""https://support.mozilla.org/en-US/kb/extensions-button"") opened from the Firefox toolbar.
-
-Users can also control this behavior for each extension in the Add-ons Manager (_about:addons_) starting with [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 116. We will be further improving the UI for users in future releases.
-
-# How can I re-enable the add-ons that are not allowed on sites restricted by Mozilla?
-
-We understand that installing add-ons is a user choice and, as with your security, we also take this matter very seriously. If you are aware of the associated risk and still wish to allow add-ons disallowed on a site by Mozilla, you can do so from the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_ page):
-
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. Search for the extensions.quarantinedDomains.enabled preference.
-  - If this preference does not yet exist, the options to add it will show up. Select the **Boolean** type and click the + button to create it.
-
-3. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to this preference to change its value to false.
-4. Restart Firefox.
-
-We understand that installing add-ons is a user choice and, as with your security, we also take this matter very seriously. If you are aware of the associated risk and still wish to allow an add-on that has been disallowed on a site by Mozilla, you can do it from the Add-ons Manager settings:
-
-1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif), click Add-ons and themesExtensions and themes and select Extensions.
-2. Click the extension you want to enable on sites with restrictions.
-3. Select the **Allow** option in the section _Run on sites with restrictions_.
-
-![Add-on Manager - Run on sites with restrictions](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Alternatively, you can disable the _entire_ protection from the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_ page):
-
-**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
-**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
-
-1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
-A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
-2. Search for the extensions.quarantinedDomains.enabled preference.
-  - If this preference does not yet exist, the options to add it will show up. Select the **Boolean** type and click the + button to create it.
-
-3. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to this preference to change its value to false.
-4. Restart Firefox.
 
 "
 61477,Add a website shortcut to your home screen on iOS,add-website-shortcut-your-home-screen-ios,https://support.mozilla.org/en-US/kb/add-website-shortcut-your-home-screen-ios,en-US,"Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for iOS.","<p>Adding website shortcuts to your device's homescreen can provide quick access to your favorite websites. In this article, we will walk you through the steps to add a website shortcut to your homescreen using Firefox for iOS.
