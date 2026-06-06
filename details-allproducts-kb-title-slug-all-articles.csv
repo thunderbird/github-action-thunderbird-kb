@@ -25687,7 +25687,7 @@ It's important that you change your Mozilla account password before changing you
 </li><li><strong>Open tabs:</strong> this allows you to view your open tabs from other devices. See the <a href=""/en-US/kb/view-synced-tabs-other-devices"">View synced tabs from other devices</a> article for details.
 </li><li><strong>Passwords:</strong> this synchronizes the usernames and passwords you use to log in to websites. If you use a <a href=""/en-US/kb/use-primary-password-protect-stored-logins"">Primary Password</a>, see <a href=""/en-US/kb/using-primary-password-sync"">Use a Primary Password with Sync</a> for important information on how Sync and the Primary Password interact.
 </li><li><strong>Addresses:</strong> this synchronizes the addresses you use to fill in web forms. See <a href=""/en-US/kb/automatically-fill-your-address-web-forms"">Automatically fill in your address on web forms</a>.
-</li><li><strong>Credit cards and payment methods:</strong> this synchronizes the credit card and payment method data you saved to Firefox. See <a href=""/en-US/kb/automatically-fill-credit-card-information-firefox"">Automatically fill in credit card information on Firefox for Android</a> and <a href=""/en-US/kb/credit-card-autofill"">Automatically fill in credit card and payment method data on Web forms</a>.
+</li><li><strong>Credit cards and payment methods:</strong> this synchronizes the credit card and payment method data you saved to Firefox. See <a href=""/en-US/kb/automatically-fill-credit-card-information-firefox"">Automatically fill in credit card information on Firefox for Android</a> and <a href=""/en-US/kb/credit-card-autofill"">Automatically fill in credit or debit card payment method data on Web forms</a>.
 </li><li><strong>Add-ons/extensions:</strong> select this checkbox if you want to synchronize your add-ons/extensions across your devices. Add-ons/extensions for the desktop version of Firefox cannot be synchronized with the mobile versions of Firefox.
 </li><li><strong>Settings
 :</strong> this synchronizes Firefox preference settings you've changed, such as your <a href=""/en-US/kb/how-to-set-the-home-page"">home page</a>, across desktop devices.
@@ -25750,7 +25750,7 @@ You can choose to sync the following information on your devices:
 - **Open tabs:** this allows you to view your open tabs from other devices. See the [View synced tabs from other devices](\""https://support.mozilla.org/en-US/kb/view-synced-tabs-other-devices"") article for details.
 - **Passwords:** this synchronizes the usernames and passwords you use to log in to websites. If you use a [Primary Password](\""https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins""), see [Use a Primary Password with Sync](\""https://support.mozilla.org/en-US/kb/using-primary-password-sync"") for important information on how Sync and the Primary Password interact.
 - **Addresses:** this synchronizes the addresses you use to fill in web forms. See [Automatically fill in your address on web forms](\""https://support.mozilla.org/en-US/kb/automatically-fill-your-address-web-forms"").
-- **Credit cards and payment methods:** this synchronizes the credit card and payment method data you saved to Firefox. See [Automatically fill in credit card information on Firefox for Android](\""https://support.mozilla.org/en-US/kb/automatically-fill-credit-card-information-firefox"") and [Automatically fill in credit card and payment method data on Web forms](\""https://support.mozilla.org/en-US/kb/credit-card-autofill"").
+- **Credit cards and payment methods:** this synchronizes the credit card and payment method data you saved to Firefox. See [Automatically fill in credit card information on Firefox for Android](\""https://support.mozilla.org/en-US/kb/automatically-fill-credit-card-information-firefox"") and [Automatically fill in credit or debit card payment method data on Web forms](\""https://support.mozilla.org/en-US/kb/credit-card-autofill"").
 - **Add-ons/extensions:** select this checkbox if you want to synchronize your add-ons/extensions across your devices. Add-ons/extensions for the desktop version of Firefox cannot be synchronized with the mobile versions of Firefox.
 - **Settings :** this synchronizes Firefox preference settings you've changed, such as your [home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page""), across desktop devices.
 
@@ -32821,6 +32821,377 @@ _Only active if focus is in Folder Pane or Message List Pane_ | Alt + HomeOption
 Some add-ons can add or change shortcut keys. For example [F9 Hides the Folder Pane](https://addons.thunderbird.net/thunderbird/addon/f9-hides-the-folder-pane/).
 
 Keyboard configuration for changing shortcut keys is in progress for a future release.
+
+"
+17025,Profiles - Where Thunderbird stores your messages and other user data,profiles-where-thunderbird-stores-user-data,https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data,en-US,"Thunderbird saves personal information such as messages, passwords and user preferences in a set of files called a ""profile"".","<p>All your data such as messages, passwords and user preferences, and changes made while you use Thunderbird, are stored in a special folder called a <em>profile</em>. Your profile folder is stored in a separate place from the Thunderbird program, so that if something ever goes wrong with the Thunderbird program your information will still be there. It also means that you can uninstall Thunderbird and reinstall without losing your settings and data. But storing it separately is NOT a backup. 
+</p>
+<div class=""warning""><strong>Frequent backups are recommended to protect your data.</strong> Without a backup you risk permanent loss of data from many possible causes. The following are NOT backups: data on mail servers, your Thunderbird profile on your local computer, a Thunderbird profile on a different computer, profiles run in cloud-based storage.</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-find-my-profile""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I find my profile?</span></a><ul><li class=""toclevel-2""><a href=""#w_finding-your-profile-without-opening-thunderbird""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Finding your profile without opening Thunderbird</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_backing-up-a-profile""><span class=""tocnumber"">2</span> <span class=""toctext"">Backing up a profile</span></a></li><li class=""toclevel-1""><a href=""#w_restoring-a-profile-backup""><span class=""tocnumber"">3</span> <span class=""toctext"">Restoring a profile backup</span></a><ul><li class=""toclevel-2""><a href=""#w_restoring-to-a-different-location""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Restoring to a different location</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_moving-a-profile""><span class=""tocnumber"">4</span> <span class=""toctext"">Moving a profile</span></a></li><li class=""toclevel-1""><a href=""#w_sharing-profile-data-between-computers""><span class=""tocnumber"">5</span> <span class=""toctext"">Sharing profile data between computers</span></a><ul><li class=""toclevel-2""><a href=""#w_cloud-storage""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Cloud storage</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See Also</span></a></li></ul></div>
+<h1 id=""w_how-do-i-find-my-profile"">How do I find my profile?</h1>
+<p></p><ul><li> Click <span class=""menu"">≡</span> &gt; <span class=""menu"">Help</span> and select <span class=""menu"">Troubleshooting Information</span>. The <strong>Troubleshooting Information</strong> tab will open.
+</li><li> Under the <strong>Application Basics</strong> section, find the <span class=""for"" data-for=""win,mac""><em>Profile Folder</em></span><span class=""for"" data-for=""linux""><em>Profile Directory</em></span> row, then click on <span class=""button""><span class=""for"" data-for=""win"">Open Folder</span><span class=""for"" data-for=""mac"">Show in Finder</span><span class=""for"" data-for=""linux"">Open Directory</span></span>. <span class=""for"" data-for=""mac"">A window will open that contains your profile folder.</span><span class=""for"" data-for=""win,linux"">Your profile folder will open.</span>
+</li></ul>
+<div class=""note""><strong>Note:</strong> If you are unable to open or use Thunderbird, follow the instructions in <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird"">Finding your profile without opening Thunderbird</a>.</div>
+<p></p>
+<h2 id=""w_finding-your-profile-without-opening-thunderbird"">Finding your profile without opening Thunderbird</h2>
+<p> 
+</p><span class=""for"" data-for=""win""><div class=""for"" data-for=""not winxp""><p>Thunderbird stores your profile folder in this location on your computer, by default:<br>
+<span class=""filepath"">""C:\Users\&lt;your Windows login username&gt;\AppData\Roaming\Thunderbird\Profiles\""</span><br>
+Windows hides the <span class=""filepath"">AppData</span> folder by default, but you can find your profile folder as follows:
+</p><div class=""for"" data-for=""win10"">
+<ol><li> Press <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>+<span class=""key"">R</span> on the keyboard. A Run dialog will open. 
+</li><li> Paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong>
+</li><li> Click <span class=""button"">OK</span>.  A window will open containing profile folders.  
+</li><li> Double-click the profile folder you wish to open. 
+</li></ol>
+</div><div class=""for"" data-for=""win8"">
+<ol><li> From the Start Screen, click the <strong>Desktop</strong> tile. The Desktop view will open.
+</li><li> From the Desktop, hover in the lower right-hand corner to access the Charms.
+</li><li> Select the <span class=""menu"">Search</span> charm. The Search sidebar will open.
+</li><li> In the search box, paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>without pressing Enter. A list of profile folders will appear.
+</li><li> Click on the profile folder you wish to open (it will open in a window). If you only have one profile, its folder would have ""default"" in the name.
+</li></ol>
+</div><div class=""for"" data-for=""win7"">
+<ol><li> Click the Windows <span class=""button"">Start</span> button. The Start menu will open.
+</li><li> In the Search box at the bottom of the Start menu, paste or type:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>without pressing Enter. A list of profiles will appear at the top of the Start menu.
+</li><li> Click on the profile folder you wish to open (it will open in a window). If you only have a single profile, its folder would have ""default"" in the name.
+</li></ol>
+</div>
+<ul><li>Alternatively, you can find your profile by pressing the <span class=""key""><img alt=""Windows Key"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-09-20-08-33-13-ff63c4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> key and then start typing: <strong>%APPDATA%\Thunderbird\Profiles\</strong> 
+</li></ul>
+<div class=""note""><strong>Note:</strong> To set Windows to show the <span class=""filepath"">AppData</span> folder and other hidden files and folders, see <a href=""https://support.microsoft.com/help/14201/windows-show-hidden-files"">Show hidden files - Windows Help</a>.</div>
+</div><div class=""for"" data-for=""winxp"">
+<ol><li> Click the Windows <span class=""button"">Start</span> button, and select <span class=""menu"">Run…</span>.<br> <br><img alt=""win-run.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/win-run.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>
+</li><li> Paste or type in:<br><strong>%APPDATA%\Thunderbird\Profiles\</strong> <br>then click <span class=""button"">OK</span>. <br>A window will open containing profile folders.<br><img alt=""win-rundialog.png"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/win-rundialog.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</li><li> Double-click the profile folder you wish to open.
+</li></ol>
+</div></span><div class=""for"" data-for=""mac"">
+<ol><li> Click the <strong>Finder</strong> icon in the dock. On the menu bar, click the <span class=""menu"">Go</span> menu, hold down the <span class=""key"">Option</span> or <span class=""key"">Alt</span> key and select <span class=""menu"">Library</span>.
+</li><li> Open the <span class=""filepath"">Thunderbird</span> folder, and then the <span class=""filepath"">Profiles</span> folder. 
+</li><li> Your profile folder is within this folder. 
+</li></ol>
+</div><div class=""for"" data-for=""linux"">
+<ol><li> <strong>(Ubuntu)</strong> Click the <span class=""menu"">Places</span> menu on the top right of the screen and select <span class=""menu"">Home Folder</span>. A File Browser window will appear.
+</li><li> Click the <span class=""menu"">View</span> menu and select <span class=""menu"">Show Hidden Files</span> if it isn't already checked.
+</li><li> Double click the folder marked <span class=""filepath"">.thunderbird</span>. Your profile folder is within this folder. 
+</li></ol>
+</div><p>If you only have one active profile, and you are using <a href=""/en-US/kb/thunderbird-esr"">Thunderbird <strong>ESR</strong></a> or <a href=""/en-US/kb/thunderbird-release"">Thunderbird <strong>release</strong></a> (two types of <a href=""/en-US/kb/choosing-thunderbird-release-channel"">update channels</a>), then ""default-release"" will be in the name by default (unless you have changed it) - both types of installs use the same profile name. Note: a folder name with just ""default"" without ""-release"" is normally an empty, unused dummy folder and can be ignored.
+</p><p>If you are using <a href=""/en-US/kb/thunderbird-beta"">Beta</a> or <a href=""/en-US/kb/thunderbird-daily"">Daily</a> then the profile name defaults to ""default-beta"" or ""default-daily"" respectively. You might also have created <a href=""/en-US/kb/using-multiple-profiles"">multiple profiles</a>. 
+</p>
+<h1 id=""w_backing-up-a-profile"">Backing up a profile</h1>
+<p>You can backup your data using <a href=""/en-US/kb/thunderbird-export"">Thunderbird's export tool</a>, or the steps below. 
+</p><p>To back up your profile, first close Thunderbird if it is open and then copy the profile folder to another location.
+</p>
+<ol><li> Locate your profile folder, as explained above.
+</li><li> Shut down Thunderbird.
+</li><li> Go to one level above your profile's folder, i.e. to <span class=""filepath""><span class=""for"" data-for=""win"">%APPDATA%\Thunderbird\Profiles\</span><span class=""for"" data-for=""mac"">~/Library/Thunderbird/Profiles/</span><span class=""for"" data-for=""linux"">~/.mozilla/Thunderbird/</span></span>
+</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">Ctrl</span> key while you click</span> on your profile folder (e.g. <span class=""filepath"">xxxxxxxx.default</span>), and select <span class=""menu"">Copy</span>.
+</li><li> <span class=""for"" data-for=""win,linux"">Right-click</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">Ctrl</span> key while you click</span> the backup location (e.g. a USB-stick or a blank CD-RW disc), and select <span class=""menu"">Paste<span class=""for"" data-for=""mac""> item</span></span>.
+</li></ol>
+<p>
+
+</p>
+<h1 id=""w_restoring-a-profile-backup"">Restoring a profile backup</h1>
+<p>You can restore your data using <a href=""/en-US/kb/thunderbird-import"">Thunderbird's import tool</a>, or the steps below. 
+</p>
+<ol><li> Shut down Thunderbird.
+</li><li> If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Thunderbird. <div class=""note""><strong>Important:</strong> The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.</div>
+</li></ol>
+<h2 id=""w_restoring-to-a-different-location"">Restoring to a different location</h2>
+<p>If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
+</p>
+<ol><li> Completely close Thunderbird, as explained above.
+</li><li><a href=""/en-US/kb/using-multiple-profiles"">Use the Thunderbird Profile Manager to create a new profile</a> in your desired location, then exit the Profile Manager. <div class=""note""><strong>Note:</strong> If you just installed Thunderbird on a new computer, you can use the default profile that is automatically created when you first run Thunderbird, instead of creating a new profile.</div>
+</li><li>Locate the backed up profile folder on your hard drive or backup medium (e.g., your USB-stick).
+</li><li>Open the profile folder backup (e.g., the <span class=""filepath"">xxxxxxxx.default</span> backup).
+</li><li>Copy the entire <em>contents</em> of the profile folder backup, such as the <span class=""filepath"">mimeTypes.rdf</span> file, <span class=""filepath"">prefs.js</span> file, etc.
+</li><li>Locate and open the new profile folder as explained above and then close Thunderbird (if open).
+</li><li>Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
+</li><li>Start Thunderbird.
+</li></ol>
+<h1 id=""w_moving-a-profile"">Moving a profile</h1>
+<p>Occasionally, you might want to move a profile or tell Thunderbird to use a profile stored in another location. 
+</p>
+<ol><li>Shut down Thunderbird.
+</li><li>Move the profile folder to the desired location.<span class=""for"" data-for=""winxp""> For example, on Windows XP, move the profile from <span class=""filepath"">C:\Documents and Settings\[username]\Application Data\Thunderbird\Profiles\xxxxxxxx.default</span> to <span class=""filepath"">D:\Stuff\MyMailProfile</span></span>. (If you are reverting to a  backed up profile, this step isn't necessary. Just note the current location of the profile you want to restore.)
+</li><li>Open up the profiles.ini file in a text editor. The file is located in the application data folder for Thunderbird:
+<ul><li> The path is <span class=""for"" data-for=""win""><span class=""filepath"">%AppData%\Thunderbird\</span> for Windows</span><span class=""for"" data-for=""linux""><span class=""filepath"">~/.thunderbird/</span> for Linux</span><span class=""for"" data-for=""mac""><span class=""filepath"">~/Library/Thunderbird/</span> for Mac OS X</span>.
+</li></ul>
+</li><li>In the <span class=""filepath"">profiles.ini</span> file, locate the entry for the profile you've just moved. Change the Path= line to the new location. 
+</li><li>If you switch from a relative path to a non-relative path, the direction of the slashes may need to change. For example, in Windows, non-relative paths use backslashes, whereas relative ones use forward slashes. Change IsRelative=1 to IsRelative=0.
+</li><li>Save <span class=""filepath"">profiles.ini</span> and restart Thunderbird.
+</li></ol>
+<h1 id=""w_sharing-profile-data-between-computers"">Sharing profile data between computers</h1>
+<p><strong>Simultaneous access to any part of the Thunderbird profile folder, via a file share, cloud storage or any other method, is NOT supported. Doing so risks corruption and permanent loss of data.</strong>
+</p>
+<h2 id=""w_cloud-storage"">Cloud storage</h2>
+<p>Thunderbird profile stored on cloud synced file storage should work on most cases, but simultaneous access from multiple running instances of Thunderbird, from multiple computers or within a single computer, is not supported. Your Thunderbird profile on cloud storage is not a backup.
+</p>
+<h1 id=""w_see-also"">See Also</h1>
+<ul><li><a href=""http://kb.mozillazine.org/Profile_Manager"">Profile Manager Article</a> on MozillaZine.
+</li><li><a href=""http://kb.mozillazine.org/Profile_backup"">Profile Backup Article</a> on MozillaZine.
+</li></ul>",thunderbird,accounts;email-and-messaging;import-and-export-email;installation-and-updates;profiles,"All your data such as messages, passwords and user preferences, and changes made while you use Thunderbird, are stored in a special folder called a _profile_. Your profile folder is stored in a separate place from the Thunderbird program, so that if something ever goes wrong with the Thunderbird program your information will still be there. It also means that you can uninstall Thunderbird and reinstall without losing your settings and data. But storing it separately is NOT a backup.
+
+**Frequent backups are recommended to protect your data.** Without a backup you risk permanent loss of data from many possible causes. The following are NOT backups: data on mail servers, your Thunderbird profile on your local computer, a Thunderbird profile on a different computer, profiles run in cloud-based storage.
+
+## Table of Contents
+
+- [1 How do I find my profile?](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_how-do-i-find-my-profile)
+  - [1.1 Finding your profile without opening Thunderbird](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird)
+
+- [2 Backing up a profile](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_backing-up-a-profile)
+- [3 Restoring a profile backup](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_restoring-a-profile-backup)
+  - [3.1 Restoring to a different location](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_restoring-to-a-different-location)
+
+- [4 Moving a profile](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_moving-a-profile)
+- [5 Sharing profile data between computers](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_sharing-profile-data-between-computers)
+  - [5.1 Cloud storage](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_cloud-storage)
+
+- [6 See Also](https://support.mozilla.org/kb/profiles-where-thunderbird-stores-user-data#w_see-also)
+
+# How do I find my profile?
+
+- Click ≡ \> Help and select Troubleshooting Information. The **Troubleshooting Information** tab will open.
+- Under the **Application Basics** section, find the _Profile Folder__Profile Directory_ row, then click on Open FolderShow in FinderOpen Directory. A window will open that contains your profile folder.Your profile folder will open.
+
+**Note:** If you are unable to open or use Thunderbird, follow the instructions in [Finding your profile without opening Thunderbird](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data#w_finding-your-profile-without-opening-thunderbird"").
+
+## Finding your profile without opening Thunderbird
+
+Thunderbird stores your profile folder in this location on your computer, by default:  
+""C:\Users\\<your Windows login username\>\AppData\Roaming\Thunderbird\Profiles\""  
+Windows hides the AppData folder by default, but you can find your profile folder as follows:
+
+1. Press ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)+R on the keyboard. A Run dialog will open. 
+2. Paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**
+3. Click OK. A window will open containing profile folders. 
+4. Double-click the profile folder you wish to open. 
+
+1. From the Start Screen, click the **Desktop** tile. The Desktop view will open.
+2. From the Desktop, hover in the lower right-hand corner to access the Charms.
+3. Select the Search charm. The Search sidebar will open.
+4. In the search box, paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**   
+without pressing Enter. A list of profile folders will appear.
+5. Click on the profile folder you wish to open (it will open in a window). If you only have one profile, its folder would have ""default"" in the name.
+
+1. Click the Windows Start button. The Start menu will open.
+2. In the Search box at the bottom of the Start menu, paste or type:  
+**%APPDATA%\Thunderbird\Profiles\**   
+without pressing Enter. A list of profiles will appear at the top of the Start menu.
+3. Click on the profile folder you wish to open (it will open in a window). If you only have a single profile, its folder would have ""default"" in the name.
+
+- Alternatively, you can find your profile by pressing the ![Windows Key](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) key and then start typing: **%APPDATA%\Thunderbird\Profiles\**
+
+**Note:** To set Windows to show the AppData folder and other hidden files and folders, see [Show hidden files - Windows Help](https://support.microsoft.com/help/14201/windows-show-hidden-files).
+
+1. Click the Windows Start button, and select Run….  
+   
+ ![win-run.png](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
+2. Paste or type in:  
+**%APPDATA%\Thunderbird\Profiles\**   
+then click OK.   
+A window will open containing profile folders.  
+ ![win-rundialog.png](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+3. Double-click the profile folder you wish to open.
+
+1. Click the **Finder** icon in the dock. On the menu bar, click the Go menu, hold down the Option or Alt key and select Library.
+2. Open the Thunderbird folder, and then the Profiles folder. 
+3. Your profile folder is within this folder. 
+
+1. **(Ubuntu)** Click the Places menu on the top right of the screen and select Home Folder. A File Browser window will appear.
+2. Click the View menu and select Show Hidden Files if it isn't already checked.
+3. Double click the folder marked .thunderbird. Your profile folder is within this folder. 
+
+If you only have one active profile, and you are using [Thunderbird **ESR**](\""https://support.mozilla.org/en-US/kb/thunderbird-esr"") or [Thunderbird **release**](\""https://support.mozilla.org/en-US/kb/thunderbird-release"") (two types of [update channels](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel"")), then ""default-release"" will be in the name by default (unless you have changed it) - both types of installs use the same profile name. Note: a folder name with just ""default"" without ""-release"" is normally an empty, unused dummy folder and can be ignored.
+
+If you are using [Beta](\""https://support.mozilla.org/en-US/kb/thunderbird-beta"") or [Daily](\""https://support.mozilla.org/en-US/kb/thunderbird-daily"") then the profile name defaults to ""default-beta"" or ""default-daily"" respectively. You might also have created [multiple profiles](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles"").
+
+# Backing up a profile
+
+You can backup your data using [Thunderbird's export tool](\""https://support.mozilla.org/en-US/kb/thunderbird-export""), or the steps below.
+
+To back up your profile, first close Thunderbird if it is open and then copy the profile folder to another location.
+
+1. Locate your profile folder, as explained above.
+2. Shut down Thunderbird.
+3. Go to one level above your profile's folder, i.e. to %APPDATA%\Thunderbird\Profiles\~/Library/Thunderbird/Profiles/~/.mozilla/Thunderbird/
+4. Right-clickHold down the Ctrl key while you click on your profile folder (e.g. xxxxxxxx.default), and select Copy.
+5. Right-clickHold down the Ctrl key while you click the backup location (e.g. a USB-stick or a blank CD-RW disc), and select Paste item.
+
+# Restoring a profile backup
+
+You can restore your data using [Thunderbird's import tool](\""https://support.mozilla.org/en-US/kb/thunderbird-import""), or the steps below.
+
+1. Shut down Thunderbird.
+2. If your existing profile folder and profile backup folder have the same name, simply replace the existing profile folder with the profile backup, then start Thunderbird. 
+**Important:** The profile folder names must match exactly for this to work, including the random string of 8 characters. If the names do not match or if you are restoring a backup to a different location, follow the steps below.
+
+## Restoring to a different location
+
+If the profile folder names do not match or if you want to move or restore a profile to a different location, do the following:
+
+1. Completely close Thunderbird, as explained above.
+2. [Use the Thunderbird Profile Manager to create a new profile](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles"") in your desired location, then exit the Profile Manager. 
+**Note:** If you just installed Thunderbird on a new computer, you can use the default profile that is automatically created when you first run Thunderbird, instead of creating a new profile.
+3. Locate the backed up profile folder on your hard drive or backup medium (e.g., your USB-stick).
+4. Open the profile folder backup (e.g., the xxxxxxxx.default backup).
+5. Copy the entire _contents_ of the profile folder backup, such as the mimeTypes.rdf file, prefs.js file, etc.
+6. Locate and open the new profile folder as explained above and then close Thunderbird (if open).
+7. Paste the contents of the backed up profile folder into the new profile folder, overwriting existing files of the same name.
+8. Start Thunderbird.
+
+# Moving a profile
+
+Occasionally, you might want to move a profile or tell Thunderbird to use a profile stored in another location.
+
+1. Shut down Thunderbird.
+2. Move the profile folder to the desired location. For example, on Windows XP, move the profile from C:\Documents and Settings\[username]\Application Data\Thunderbird\Profiles\xxxxxxxx.default to D:\Stuff\MyMailProfile. (If you are reverting to a backed up profile, this step isn't necessary. Just note the current location of the profile you want to restore.)
+3. Open up the profiles.ini file in a text editor. The file is located in the application data folder for Thunderbird:
+  - The path is %AppData%\Thunderbird\&nbsp;for Windows~/.thunderbird/&nbsp;for Linux~/Library/Thunderbird/&nbsp;for Mac OS X.
+
+4. In the profiles.ini file, locate the entry for the profile you've just moved. Change the Path= line to the new location. 
+5. If you switch from a relative path to a non-relative path, the direction of the slashes may need to change. For example, in Windows, non-relative paths use backslashes, whereas relative ones use forward slashes. Change IsRelative=1 to IsRelative=0.
+6. Save profiles.ini and restart Thunderbird.
+
+# Sharing profile data between computers
+
+**Simultaneous access to any part of the Thunderbird profile folder, via a file share, cloud storage or any other method, is NOT supported. Doing so risks corruption and permanent loss of data.**
+
+## Cloud storage
+
+Thunderbird profile stored on cloud synced file storage should work on most cases, but simultaneous access from multiple running instances of Thunderbird, from multiple computers or within a single computer, is not supported. Your Thunderbird profile on cloud storage is not a backup.
+
+# See Also
+
+- [Profile Manager Article](http://kb.mozillazine.org/Profile_Manager) on MozillaZine.
+- [Profile Backup Article](http://kb.mozillazine.org/Profile_backup) on MozillaZine.
+
+"
+17026,Troubleshoot Mode Thunderbird,troubleshoot-mode-thunderbird,https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird,en-US,"How to use Thunderbird's Troubleshoot Mode to find and fix problems, especially if they are caused by add-ons.","<p><strong>Troubleshoot Mode</strong> runs Thunderbird with some features and customizations disabled, so you can see whether the cause of your problem is one of the disabled items. The disabling is <strong>temporary</strong> unless you choose to make the changes permanent.  <a href=""#w_what-does-troubleshoot-mode-disable"">The list of disabled items</a> is detailed below.
+</p><p><strong>Troubleshoot Mode does not affect your data.</strong>
+</p><p><br>
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_start-thunderbird-in-troubleshoot-mode""><span class=""tocnumber"">1</span> <span class=""toctext"">Start Thunderbird in Troubleshoot Mode</span></a></li><li class=""toclevel-1""><a href=""#w_turn-troubleshoot-mode-off""><span class=""tocnumber"">2</span> <span class=""toctext"">Turn Troubleshoot Mode off</span></a></li><li class=""toclevel-1""><a href=""#w_diagnose-problems-in-troubleshoot-mode""><span class=""tocnumber"">3</span> <span class=""toctext"">Diagnose problems in Troubleshoot Mode</span></a><ul><li class=""toclevel-2""><a href=""#w_the-problem-still-happens-in-troubleshoot-mode""><span class=""tocnumber"">3.1</span> <span class=""toctext"">The problem still happens in Troubleshoot Mode</span></a></li><li class=""toclevel-2""><a href=""#w_the-problem-no-longer-happens-in-troubleshoot-mode""><span class=""tocnumber"">3.2</span> <span class=""toctext"">The problem no longer happens in Troubleshoot Mode</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-does-troubleshoot-mode-disable""><span class=""tocnumber"">4</span> <span class=""toctext"">What does Troubleshoot Mode disable?</span></a></li></ul></div>
+<h1 id=""w_start-thunderbird-in-troubleshoot-mode"">Start Thunderbird in Troubleshoot Mode</h1>
+<ol><li> Switch to Troubleshoot Mode:
+<ul><li> <strong>If Thunderbird is not running:</strong> <span class=""for"" data-for=""win"">Hold down the <span class=""key"">Shift</span> key while starting Thunderbird.</span><span class=""for"" data-for=""mac"">Hold down the <span class=""key"">option</span> key while starting Thunderbird.</span><span class=""for"" data-for=""linux"">From <strong>Terminal</strong>, run this command: <code>thunderbird -safe-mode</code><br>You may need to specify the Thunderbird installation path (e.g. <span class=""filepath"">/usr/lib/thunderbird</span> or <span class=""filepath"">~/Downloads/thunderbird/thunderbird</span>).</span>
+</li><li> <strong>If Thunderbird is already running:</strong> Click <span class=""button"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Troubleshoot Mode...</span> and in the <em>Restart in Troubleshoot Mode</em> prompt, choose <span class=""button"">Restart</span>.
+</li></ul>
+</li><li> In the <strong>Thunderbird Troubleshoot Mode</strong> dialog box, click <span class=""button"">Continue in Troubleshoot Mode</span> button.
+<dl><dt><img alt=""tb-115-trouble-shoot-mode-cropped"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-24-17-00-44-75733b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt><dt><div class=""note"">If you want Troubleshoot Mode changes to be temporary, do not check the checkboxes - temporary is the default. But you can choose to make the changes permanent.</div>
+</dt></dl>
+</li><li> Click <span class=""button"">≡</span>  &gt; <span class=""menu"">Help</span> and check if you see <span class=""menu"">Turn Troubleshoot Mode Off</span> in the menu, to confirm that Thunderbird is currently running in Troubleshoot Mode.
+</li></ol>
+<h1 id=""w_turn-troubleshoot-mode-off"">Turn Troubleshoot Mode off</h1>
+<p>Click <span class=""button"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Turn Troubleshoot Mode Off</span> to immediately close Thunderbird and restart it in normal mode.
+</p><p>Or you can exit Thunderbird and start as you normally would.
+</p>
+<h1 id=""w_diagnose-problems-in-troubleshoot-mode"">Diagnose problems in Troubleshoot Mode</h1>
+<p>After starting Thunderbird in <strong>Troubleshoot Mode</strong>, test its behavior to see if the problem goes away.
+</p>
+<h2 id=""w_the-problem-still-happens-in-troubleshoot-mode"">The problem still happens in Troubleshoot Mode</h2>
+<p>If the problem still happens in Troubleshoot Mode, then it is not caused by an extension or theme installed in Thunderbird. Possible causes and solutions include:
+</p><div class=""for"" data-for=""win"">
+<ul><li> Something wrong with your Windows operating system or operating environment. Please start <a href=""https://support.microsoft.com/en-us/help/12376/windows-10-start-your-pc-in-safe-mode"">Windows in safe mode</a>. If the problem is resolved in Windows safe mode, then the cause is likely a program loaded during Windows startup. Possibilities include: antivirus software (AV), virus/malware, background downloads such as Windows or other program updates to name a few. For AV information see <a href=""https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues"">https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues</a>.
+</li></ul>
+</div><div class=""for"" data-for=""linux"">
+<ul><li> Something is wrong with your Thunderbird installation: If you had installed Thunderbird using the Linux package manager, then try reinstalling it. Also investigate possible library conflicts, and consider using the Thunderbird package from <a href=""https://www.thunderbird.net/"">https://www.thunderbird.net/</a>.
+</li></ul>
+</div>
+<ul><li> A problem with your mail provider. For example, <a href=""/en-US/kb/cannot-receive-messages"">not being able to recieve</a> or <a href=""/en-US/kb/cannot-send-messages"">not being able to send messages</a>.
+</li><li> Changes made to Thunderbird preference settings not disabled in Troubleshoot Mode. You might <a href=""/en-US/kb/using-multiple-profiles"">try creating a new profile</a>. (But do not delete your current profile.)
+</li><li> A bug in Thunderbird. <a href=""https://support.mozilla.org/en-US/questions/new/thunderbird"">Ask for help to determine if it is a bug</a>. Please file a bug if you have determined with Thunderbird Help Support that the problem is with Thunderbird. 
+</li></ul>
+<p>
+
+</p><p>
+</p>
+<h2 id=""w_the-problem-no-longer-happens-in-troubleshoot-mode"">The problem no longer happens in Troubleshoot Mode</h2>
+<p>If the problem no longer happens in Troubleshoot Mode, the most likely cause is an extension, theme, or hardware acceleration. Possible solutions include switching back to normal mode, then doing the following: (You may need to restart Thunderbird after each step to see if it solves the problem.)
+</p>
+<ul><li> Progressively disable extensions in the add-ons manager: Click <span class=""button"">≡</span> &gt; <span class=""button"">Add-ons and Themes</span> &gt; <span class=""button"">Extensions</span>, then check to see if the problem remains after disabling each extension. When the problem goes away, the last disabled extension is most likely the cause. You can try updating, reinstalling, removing, or leaving the extension disabled. 
+</li><li> Set the default theme in the add-ons manager: Click <span class=""button"">≡</span> &gt; <span class=""button"">Add-ons and Themes</span> &gt; <span class=""button"">Themes</span>, then enable the default theme.
+</li><li> Turn off the hardware acceleration in Thunderbird's settings: Click <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">General</span>, then uncheck <span class=""menu"">Use hardware acceleration when available</span>.
+</li></ul>
+<p>
+
+</p><h1 id=""w_what-does-troubleshoot-mode-disable"">What does Troubleshoot Mode disable?</h1>
+<ul><li><a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions"">Add-ons (extensions and themes)</a>
+</li><li><a href=""/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"">Hardware acceleration</a>
+</li><li><a href=""/en-US/kb/changes-toolbars-and-window-sizes-are-not-saved"">Window and sidebar size and position settings</a> (described in terms of Firefox)
+</li><li>userChrome and userContent customizations ; see <a href=""/en-US/kb/userchromecss-js-usercontent-unsupported"">userChrome.css and .js and userContent are unsupported</a>
+</li><li><a href=""https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/"">JavaScript Just-in-time (JIT) compiler</a>
+</li></ul>",thunderbird,crashing-and-slow-performance;performance-and-connectivity," **Troubleshoot Mode** runs Thunderbird with some features and customizations disabled, so you can see whether the cause of your problem is one of the disabled items. The disabling is **temporary** unless you choose to make the changes permanent. [The list of disabled items](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_what-does-troubleshoot-mode-disable) is detailed below.
+
+**Troubleshoot Mode does not affect your data.**
+
+## Table of Contents
+
+- [1 Start Thunderbird in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_start-thunderbird-in-troubleshoot-mode)
+- [2 Turn Troubleshoot Mode off](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_turn-troubleshoot-mode-off)
+- [3 Diagnose problems in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_diagnose-problems-in-troubleshoot-mode)
+  - [3.1 The problem still happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_the-problem-still-happens-in-troubleshoot-mode)
+  - [3.2 The problem no longer happens in Troubleshoot Mode](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_the-problem-no-longer-happens-in-troubleshoot-mode)
+
+- [4 What does Troubleshoot Mode disable?](https://support.mozilla.org/kb/troubleshoot-mode-thunderbird#w_what-does-troubleshoot-mode-disable)
+
+# Start Thunderbird in Troubleshoot Mode
+
+1. Switch to Troubleshoot Mode:
+  - **If Thunderbird is not running:** Hold down the Shift key while starting Thunderbird.Hold down the option key while starting Thunderbird.From **Terminal** , run this command: `thunderbird -safe-mode`  
+You may need to specify the Thunderbird installation path (e.g. /usr/lib/thunderbird or ~/Downloads/thunderbird/thunderbird).
+  - **If Thunderbird is already running:** Click ≡ \> Help \> Troubleshoot Mode... and in the _Restart in Troubleshoot Mode_ prompt, choose Restart.
+
+2. In the **Thunderbird Troubleshoot Mode** dialog box, click Continue in Troubleshoot Mode button.<dl>
+<dt>
+<img alt=""tb-115-trouble-shoot-mode-cropped"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-24-17-00-44-75733b.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt>
+<dt>
+<div class=""note"">If you want Troubleshoot Mode changes to be temporary, do not check the checkboxes - temporary is the default. But you can choose to make the changes permanent.</div>
+</dt>
+</dl>
+3. Click ≡ \> Help and check if you see Turn Troubleshoot Mode Off in the menu, to confirm that Thunderbird is currently running in Troubleshoot Mode.
+
+# Turn Troubleshoot Mode off
+
+Click ≡ \> Help \> Turn Troubleshoot Mode Off to immediately close Thunderbird and restart it in normal mode.
+
+Or you can exit Thunderbird and start as you normally would.
+
+# Diagnose problems in Troubleshoot Mode
+
+After starting Thunderbird in **Troubleshoot Mode** , test its behavior to see if the problem goes away.
+
+## The problem still happens in Troubleshoot Mode
+
+If the problem still happens in Troubleshoot Mode, then it is not caused by an extension or theme installed in Thunderbird. Possible causes and solutions include:
+
+- Something wrong with your Windows operating system or operating environment. Please start [Windows in safe mode](https://support.microsoft.com/en-us/help/12376/windows-10-start-your-pc-in-safe-mode). If the problem is resolved in Windows safe mode, then the cause is likely a program loaded during Windows startup. Possibilities include: antivirus software (AV), virus/malware, background downloads such as Windows or other program updates to name a few. For AV information see [https://wiki.mozilla.org/Thunderbird:Testing:Antivirus\_Related\_Performance\_Issues](https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues).
+
+- Something is wrong with your Thunderbird installation: If you had installed Thunderbird using the Linux package manager, then try reinstalling it. Also investigate possible library conflicts, and consider using the Thunderbird package from [https://www.thunderbird.net/](https://www.thunderbird.net/).
+
+- A problem with your mail provider. For example, [not being able to recieve](\""https://support.mozilla.org/en-US/kb/cannot-receive-messages"") or [not being able to send messages](\""https://support.mozilla.org/en-US/kb/cannot-send-messages"").
+- Changes made to Thunderbird preference settings not disabled in Troubleshoot Mode. You might [try creating a new profile](\""https://support.mozilla.org/en-US/kb/using-multiple-profiles""). (But do not delete your current profile.)
+- A bug in Thunderbird. [Ask for help to determine if it is a bug](https://support.mozilla.org/en-US/questions/new/thunderbird). Please file a bug if you have determined with Thunderbird Help Support that the problem is with Thunderbird. 
+
+## The problem no longer happens in Troubleshoot Mode
+
+If the problem no longer happens in Troubleshoot Mode, the most likely cause is an extension, theme, or hardware acceleration. Possible solutions include switching back to normal mode, then doing the following: (You may need to restart Thunderbird after each step to see if it solves the problem.)
+
+- Progressively disable extensions in the add-ons manager: Click ≡ \> Add-ons and Themes \> Extensions, then check to see if the problem remains after disabling each extension. When the problem goes away, the last disabled extension is most likely the cause. You can try updating, reinstalling, removing, or leaving the extension disabled. 
+- Set the default theme in the add-ons manager: Click ≡ \> Add-ons and Themes \> Themes, then enable the default theme.
+- Turn off the hardware acceleration in Thunderbird's settings: Click ≡ \> Settings \> General, then uncheck Use hardware acceleration when available.
+
+# What does Troubleshoot Mode disable?
+
+- [Add-ons (extensions and themes)](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions"")
+- [Hardware acceleration](\""https://support.mozilla.org/en-US/kb/upgrade-graphics-drivers-use-hardware-acceleration"")
+- [Window and sidebar size and position settings](\""https://support.mozilla.org/en-US/kb/changes-toolbars-and-window-sizes-are-not-saved"") (described in terms of Firefox)
+- userChrome and userContent customizations&nbsp;; see [userChrome.css and .js and userContent are unsupported](\""https://support.mozilla.org/en-US/kb/userchromecss-js-usercontent-unsupported"")
+- [JavaScript Just-in-time (JIT) compiler](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/)
 
 "
 17028,Thunderbird and Gmail,thunderbird-and-gmail,https://support.mozilla.org/en-US/kb/thunderbird-and-gmail,en-US,Thunderbird can be set up to work seamlessly with Google's Gmail. Messages will be synchronized between your local version of Thunderbird and web-based Gmail.,"<p>Thunderbird can be configured to work seamlessly with Google's <a href=""https://www.google.com/gmail/about/"">Gmail</a> service. Messages are synchronized between your local version of Thunderbird and the web-based Gmail.
@@ -57114,6 +57485,89 @@ Here you can choose between the Standard and Strict options of this capability, 
 - [How to add, remove, edit and move bookmarks in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/how-add-remove-edit-and-move-bookmarks-firefox-ios"")
 
 "
+37831,I can’t play audio on a Remote Desktop Connection,i-cant-play-audio-remote-desktop-connection,https://support.mozilla.org/en-US/kb/i-cant-play-audio-remote-desktop-connection,en-US,How to solve a known issue with audio playback when you use Firefox on a Remote Desktop Connection.,"<p>If you are on a Remote Desktop Connection (RDP) on Windows, audio playback will be disabled due to increased security restrictions. This is a known issue since Firefox version 56 that we are working hard to fix. 
+</p><p>In the meantime, you can reduce the sandbox security level by following these steps:
+</p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
+<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
+<p></p>
+<ol><li> Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+</li><li> Search for the <span class=""pref"">security.sandbox.content.level</span> preference.
+</li><li> Click the <em>Edit</em> <img alt=""Fx71aboutconfig-EditButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-54-56-1f86ca.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button next to the preference and set its value to <span class=""pref"">2</span>.
+</li><li> Click on the checkmark <img alt=""Fx71aboutconfig-Checkmark"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-04-06-45-04-f67b18.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to save the change.
+</li><li> Restart Firefox on the remote device.
+</li></ol>",firefox,audio-and-video;browse,"If you are on a Remote Desktop Connection (RDP) on Windows, audio playback will be disabled due to increased security restrictions. This is a known issue since Firefox version 56 that we are working hard to fix.
+
+In the meantime, you can reduce the sandbox security level by following these steps:
+
+**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
+**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
+
+1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
+2. Search for the security.sandbox.content.level preference.
+3. Click the _Edit_ ![Fx71aboutconfig-EditButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to the preference and set its value to 2.
+4. Click on the checkmark ![Fx71aboutconfig-Checkmark](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to save the change.
+5. Restart Firefox on the remote device.
+
+"
+38010,Connection settings in Firefox,connection-settings-firefox,https://support.mozilla.org/en-US/kb/connection-settings-firefox,en-US,Your organization or Internet Service Provider may offer or require you to use a proxy to connect to the Internet. Learn more.,"<p>Your organization or Internet service provider may offer or require you to use a <a href=""https://wikipedia.org/wiki/Proxy_server"">proxy</a>. A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+</p><p>Connection settings to use a proxy can be set in Firefox Settings
+ as follows:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> <span class=""for"" data-for=""not fx152"">In the <span class=""menu"">General</span> panel</span><span class=""for"" data-for=""fx152"">Scroll down to <span class=""menu"">Privacy and security</span>, and</span> go to the <span class=""for"" data-for=""not fx149""><em>Network Settings</em></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
+<dl><dt><span class=""for"" data-for=""fx152""><img alt=""fx152proxysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-03-06-23-50-a5b1d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
+<dl><dt><span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<ul><li> <strong>No proxy</strong>:  Choose this if you don't want to use a proxy.
+</li><li> <strong>Auto-detect proxy settings for this network</strong>: Choose this if you want Firefox to automatically detect the proxy settings for your network.
+</li><li> <strong>Use system proxy settings</strong>:  Choose this if you want to use the proxy settings configured for your operating system.
+</li><li> <strong>Manual proxy configuration</strong>: Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+<ul><li> If the same proxy name and port number are used for all protocols, check <strong>Also use this proxy for HTTPS</strong>.
+</li></ul>
+</li><li> <strong>Automatic proxy configuration URL</strong>: Choose this if you have a <a href=""http://en.wikipedia.org/wiki/Proxy_auto-config"">proxy configuration</a> (<code>.pac</code>) file. Enter the URL and click okay to save changes and load the proxy configuration. <em>file:</em> and <em>data:</em> schemes can also be used here (for example, <strong><code>file:///c:/proxy.pac</code></strong> or <strong><code>data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}</code></strong>).
+<ul><li> <span class=""button"">Reload</span>: The reload button will load the currently available proxy configuration.
+</li></ul>
+</li><li> <strong>No Proxy For</strong>: List of hostnames or IP addresses that will not be proxied. Use <strong>&lt;local&gt;</strong> to bypass proxying for all hostnames which do not contain periods.
+</li></ul>
+<div class=""note""><strong>Note:</strong> The <em>Connection Settings</em> dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking <span class=""button"">Disable Extension</span>.</div>
+<h1 id=""w_related-content"">Related content</h1>
+<p>To configure <a href=""/en-US/kb/firefox-dns-over-https"">DNS over HTTPs (DoH)</a> connection settings, see <a href=""/en-US/kb/dns-over-https"">Configure DNS over HTTPS protection levels in Firefox</a>.
+</p>",firefox,performance-and-connectivity;settings,"Your organization or Internet service provider may offer or require you to use a [proxy](https://wikipedia.org/wiki/Proxy_server). A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+
+Connection settings to use a proxy can be set in Firefox Settings as follows:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panelScroll down to Privacy and security, and go to the _Network Settings_ **Proxy settings** section.<dl><dt>
+<span class=""for"" data-for=""fx152""><img alt=""fx152proxysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-03-06-23-50-a5b1d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. Click Settings…Configure proxy. The _Connection Settings_ dialog will open.<dl><dt>
+<span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- **No proxy** : Choose this if you don't want to use a proxy.
+- **Auto-detect proxy settings for this network** : Choose this if you want Firefox to automatically detect the proxy settings for your network.
+- **Use system proxy settings** : Choose this if you want to use the proxy settings configured for your operating system.
+- **Manual proxy configuration** : Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+  - If the same proxy name and port number are used for all protocols, check **Also use this proxy for HTTPS**.
+
+- **Automatic proxy configuration URL** : Choose this if you have a [proxy configuration](http://en.wikipedia.org/wiki/Proxy_auto-config) (`.pac`) file. Enter the URL and click okay to save changes and load the proxy configuration. _file:_ and _data:_ schemes can also be used here (for example, **`file:///c:/proxy.pac`** or **`data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}`**).
+  - Reload: The reload button will load the currently available proxy configuration.
+
+- **No Proxy For** : List of hostnames or IP addresses that will not be proxied. Use **\<local\>** to bypass proxying for all hostnames which do not contain periods.
+
+**Note:** The _Connection Settings_ dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking Disable Extension.
+
+# Related content
+
+To configure [DNS over HTTPs (DoH)](\""https://support.mozilla.org/en-US/kb/firefox-dns-over-https"") connection settings, see [Configure DNS over HTTPS protection levels in Firefox](\""https://support.mozilla.org/en-US/kb/dns-over-https"").
+
+"
 38116,Add web page shortcuts to your Home screen,add-web-page-shortcuts-your-home-screen,https://support.mozilla.org/en-US/kb/add-web-page-shortcuts-your-home-screen,en-US,Firefox Focus lets you add shortcuts to your favorite home pages on your Android home screen.,"<p>Firefox Focus makes it easy to access your favorite web pages by adding them to the Home screen on your Android phone:
 </p>
 <ol><li>Go to the page you want to add to your Home screen.
@@ -71614,7 +72068,7 @@ These are a set of checks that Firefox performs before enabling DoH by default f
 </p>
 <ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
-</li><li> Select the <span class=""for"" data-for=""not fx152""><span class=""menu"">Privacy &amp; Security</span></span><span class=""for"" data-for=""fx152""><span class=""menu"">Privacy and security</span></span> panel on the left.
+</li><li> Select the <span class=""for"" data-for=""not fx152""><span class=""menu"">Privacy &amp; Security</span></span><span class=""for"" data-for=""fx152""><span class=""menu"">Passwords and autofill</span></span> panel on the left.
 </li><li> Scroll down to the <span class=""for"" data-for=""not fx152""><span class=""menu"">Passwords</span></span><span class=""for"" data-for=""fx152""><span class=""menu"">Additional protections</span></span> page.
 <dl><dt><span class=""for"" data-for=""not fx152""><img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx152""><img alt=""fx152additionalprotection2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-05-06-25-13-836600.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </dt></dl>
@@ -71668,7 +72122,7 @@ Firefox will also check to see if you’ve reused any of these potentially vulne
 Disabling the feature also prevents Firefox from checking to see if you’ve reused these potentially vulnerable passwords on any of your other saved logins.
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. Select the Privacy & SecurityPrivacy and security panel on the left.
+2. Select the Privacy & SecurityPasswords and autofill panel on the left.
 3. Scroll down to the PasswordsAdditional protections page.<dl><dt>
 <span class=""for"" data-for=""not fx152""><img alt=""Passwords panel - not simplified"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-01-22-13-04-50-3a14d5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx152""><img alt=""fx152additionalprotection2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-05-06-25-13-836600.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
 </dt></dl>
@@ -88238,6 +88692,186 @@ We strongly encourage taking some time to test your internal applications to mak
 Similar to Chrome, we will be providing a preference (network.http.useragent.forceVersion) that can be set using the Preferences policy if for some reason you need to keep the version below 100.
 
 "
+57663,What's new in Firefox for iOS (version 99),whats-new-firefox-ios-version-99,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-99,en-US,See what's new in the latest release of Firefox for iOS (version 99).,"<p>Welcome to a new version of Firefox for iOS (version 99). This release comes with the following improvements and features:
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_view-and-close-inactive-tabs-experiment""><span class=""tocnumber"">1</span> <span class=""toctext"">View and close inactive tabs experiment</span></a></li><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">2</span> <span class=""toctext"">Bug fixes</span></a></li></ul></div>
+<h1 id=""w_view-and-close-inactive-tabs-experiment"">View and close inactive tabs experiment</h1>
+<div class=""note""><strong>Note:</strong> This feature is currently only available to select users as an experiment.</div> 
+<p>The Inactive Tabs group shows tabs you haven't viewed for 14 days. Tabs will stay inactive indefinitely and won't auto-close. The Inactive Tabs group will be collapsed anytime you open a tab tray. You can tap the group to expand it and close all.
+</p><p><img alt=""inactive tabs ios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-03-29-10-03-52-8c175d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300""> 
+</p>
+<h1 id=""w_bug-fixes"">Bug fixes</h1>
+<p>The following bug fixes were implemented:
+</p>
+<ul><li>Deleted items from website data will now be immediately cleared.
+</li><li>When you dismiss the Settings menu, the ""Pasted from [app]"" banner will no longer be repeatedly displayed. 
+</li><li>You can now properly correct a typo in the middle of a search word or phrase.
+</li></ul>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 99). This release comes with the following improvements and features:
+
+## Table of Contents
+
+- [1 View and close inactive tabs experiment](https://support.mozilla.org/kb/whats-new-firefox-ios-version-99#w_view-and-close-inactive-tabs-experiment)
+- [2 Bug fixes](https://support.mozilla.org/kb/whats-new-firefox-ios-version-99#w_bug-fixes)
+
+# View and close inactive tabs experiment
+
+**Note:** This feature is currently only available to select users as an experiment.
+
+The Inactive Tabs group shows tabs you haven't viewed for 14 days. Tabs will stay inactive indefinitely and won't auto-close. The Inactive Tabs group will be collapsed anytime you open a tab tray. You can tap the group to expand it and close all.
+
+![inactive tabs ios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Bug fixes
+
+The following bug fixes were implemented:
+
+- Deleted items from website data will now be immediately cleared.
+- When you dismiss the Settings menu, the ""Pasted from [app]"" banner will no longer be repeatedly displayed. 
+- You can now properly correct a typo in the middle of a search word or phrase.
+
+"
+57733,Automatic Conversion of Google mail accounts to OAuth 2.0 Authentication,automatic-conversion-google-mail-accounts-oauth20,https://support.mozilla.org/en-US/kb/automatic-conversion-google-mail-accounts-oauth20,en-US,"Thunderbird 91.8.0, released 5th April 2022, converts Gmail accounts to OAuth 2.0 in compliance with Google's schedule for requiring this login method.","<p>Starting from version 91.8.0, when updating from a version lower than 91.8.0, Thunderbird will convert the authentication method of Gmail accounts to OAuth 2.0 to help users comply with <a href=""https://support.google.com/accounts/answer/6010255"">Google's requirement of OAuth 2.0 for Gmail logins</a>. These changes are <strong>required</strong> by Google.
+</p>
+<div class=""note"">We recommend updating to the latest version of Thunderbird for the latest security fixes and many other bug fixes and improvements. However, if you want to continue using an old version of Thunderbird below 91.8.0 at your own risk, you will have to change the authentication method to <em>OAuth2</em> yourself. You can also use the following steps on any newer version of Thunderbird to double-check that your authentication method is actually set to <em>OAuth2</em>.</div>
+<h2 id=""w_ensure-that-your-thunderbird-gmail-account-is-set-to-oauth2"">Ensure that your Thunderbird Gmail account is set to OAuth2</h2>
+<h3 id=""w_outgoing-server-smtp"">Outgoing Server (SMTP)</h3>
+<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Account Settings</span>
+</li><li> Select your account (e.g. <span class=""menu""><a href=""mailto:Jane@example.com"">Jane@example.com</a></span>) from the account list on the left.
+</li><li> At the bottom of the settings pane, look for <span class=""menu"">Outgoing Server (SMTP)</span>.
+</li><li> Click on the <span class=""button"">Edit SMTP Server…</span> button on the right.
+</li><li> In the SMTP Server dialog, ensure that <span class=""menu"">Authentication method</span> is set to <em>OAuth2</em>.
+</li><li> Click on the <span class=""button"">OK</span> button to confirm your SMTP Server settings.
+</li></ol>
+<h3 id=""w_incoming-server"">Incoming Server</h3>
+<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Account Settings</span>
+</li><li> Select your account (e.g. <span class=""menu""><a href=""mailto:Jane@example.com"">Jane@example.com</a></span>) from the account list on the left.
+</li><li> Underneath your account entry, select the <span class=""menu"">Server Settings</span> subsection (if it is not visible, you may need to toggle the <span class=""button"">&gt;</span> button first).
+</li><li> Ensure that <span class=""menu"">Security Settings</span> &gt; <span class=""menu"">Authentication method</span> is set to <em>OAuth2</em>.
+</li></ol>
+<p><br>
+</p>
+<div class=""warning""><strong>Cookies and javascript must be enabled for the OAuth 2.0 setup process to work.</strong> If you have rejected cookies in Thunderbird, the OAuth setup process will fail because some cookies must be accepted to store data between page updates. <strong>You need to accept cookies at least temporarily using one of the methods described below.</strong></div>
+<h2 id=""w_how-to-avoid-or-correct-an-oauth-failure-caused-by-rejected-cookies"">How to avoid or correct an OAuth failure caused by rejected cookies</h2>
+<p>First, verify your general setting for cookies in Thunderbird:
+</p>
+<ul><li> Do <span class=""button"">≡</span> &gt; <span class=""for"" data-for=""not tb102""><span class=""menu"">Preferences</span></span><span class=""for"" data-for=""tb102""><span class=""menu"">Settings</span></span> &gt; <span class=""menu"">Privacy &amp; Security</span> &gt; <span class=""menu"">Web Content</span>.
+</li><li> Look at the checkbox <strong>Accept cookies from sites</strong>.
+</li></ul>
+<p>If <strong>Accept cookies from sites</strong> is <strong>not</strong> checked, do one of the following and then go through the OAuth login process again:
+</p>
+<ul><li> Create an exception to accept cookies from <em>Google</em>:
+<ul><li> Click the nearby <span class=""button"">Exceptions…</span> button to open the <em>Exceptions - Cookies</em> dialog.
+</li><li> In the <em>Address of website</em> input box, enter <strong><a href=""https://accounts.google"">https://accounts.google</a>.com</strong>.
+</li><li> Pick <span class=""button"">Allow</span>, then <span class=""button"">Save Changes</span>.
+</li></ul>
+</li><li> Alternatively, accept <em>all</em> cookies:
+<ul><li> Set the checkmark for <strong>Accept cookies from sites</strong>.
+</li></ul>
+</li></ul>
+<p>After you have gone through the OAuth process, if you prefer, you can again reject cookies, because receiving and sending mail will work with cookies rejected. But rejecting all cookies or removing the exception has the disadvantage that when the OAuth token for Gmail access expires at some date in the future, the OAuth dialog will show up and fail again until you accept the required cookies.
+</p><p>For greater detail about cookies, see the article <a href=""/en-US/kb/privacy-panel-settings-in-thunderbird"">Privacy panel - Remote content and cookie settings in Thunderbird</a>.
+</p>
+<h2 id=""w_how-to-avoid-or-correct-an-oauth-failure-caused-by-disabled-javascript"">How to avoid or correct an OAuth failure caused by disabled javascript</h2>
+<ol><li> Do <span class=""button"">≡</span> &gt; <span class=""for"" data-for=""not tb102""><span class=""menu"">Preferences</span></span><span class=""for"" data-for=""tb102""><span class=""menu"">Settings</span></span> &gt; <span class=""menu"">General</span>
+</li><li> From the bottom right corner of the <strong>General</strong> settings pane, click <span class=""button"">Config Editor</span>.
+</li><li> Copy or type this into the <em>Search preference name</em> searchbox: <strong>javascript.enabled</strong>
+</li><li> You should now see a single search result line for the setting <strong>javascript.enabled</strong>.
+<ul><li> If <strong>javascript.enabled</strong> is <strong>true</strong>, no change is needed.
+</li><li> If <strong>javascript.enabled</strong> is <strong>false</strong>, you need to change it to <strong>true</strong> by clicking the <em>Toggle</em> <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to the right.
+</li></ul>
+</li></ol>
+<h2 id=""w_check-if-the-proper-authentication-tokens-have-been-saved"">Check if the proper authentication tokens have been saved</h2>
+<ul><li> Do <span class=""button"">≡</span> &gt; <span class=""menu"">Settings</span> &gt; <span class=""menu"">Privacy &amp; Security</span> &gt; <span class=""menu"">Passwords</span>&gt; <span class=""menu"">Saved Passwords</span>.
+<ul><li> If account authentication was set to <strong>OAuth2</strong> and the OAuth login was successful, you should see entries for each username (gmail account) of the form
+</li></ul>
+</li></ul>
+<dl><dd> <strong>oauth://accounts.google<span>.</span>com (<a href=""https://mail.google"">https://mail.google</a><span>.</span>com/ …)</strong>
+</dd></dl>
+<dl><dt><div class=""note""><strong>Note:</strong> The <em>oauth</em> entry is an OAuth2 authentication token, and not a password.</div>
+</dt></dl>
+<dl><dt><ul><li> If account authentication was set to <strong>OAuth2</strong> and OAuth login was <strong>not</strong> successful, check your password entries for providers of the following form and delete them:
+</li></ul>
+</dt><dd> <strong>imap://imap.gmail<span>.</span>com (imap://imap.gmail<span>.</span>com)</strong>
+</dd><dd> <strong>smtp://smtp.gmail<span>.</span>com (smtp://smtp.gmail<span>.</span>com)</strong>
+</dd></dl>
+<p>If you're still having problems, you can <a href=""https://support.mozilla.org/questions/new/thunderbird/form"">ask a question in Thunderbird support</a>.
+</p>",thunderbird,installation-and-updates;privacy-and-security,"Starting from version 91.8.0, when updating from a version lower than 91.8.0, Thunderbird will convert the authentication method of Gmail accounts to OAuth 2.0 to help users comply with [Google's requirement of OAuth 2.0 for Gmail logins](https://support.google.com/accounts/answer/6010255). These changes are **required** by Google.
+
+We recommend updating to the latest version of Thunderbird for the latest security fixes and many other bug fixes and improvements. However, if you want to continue using an old version of Thunderbird below 91.8.0 at your own risk, you will have to change the authentication method to _OAuth2_ yourself. You can also use the following steps on any newer version of Thunderbird to double-check that your authentication method is actually set to _OAuth2_.
+
+## Ensure that your Thunderbird Gmail account is set to OAuth2
+
+### Outgoing Server (SMTP)
+
+1. Do ≡ \> Account Settings
+2. Select your account (e.g. [Jane@example.com](mailto:Jane@example.com)) from the account list on the left.
+3. At the bottom of the settings pane, look for Outgoing Server (SMTP).
+4. Click on the Edit SMTP Server… button on the right.
+5. In the SMTP Server dialog, ensure that Authentication method is set to _OAuth2_.
+6. Click on the OK button to confirm your SMTP Server settings.
+
+### Incoming Server
+
+1. Do ≡ \> Account Settings
+2. Select your account (e.g. [Jane@example.com](mailto:Jane@example.com)) from the account list on the left.
+3. Underneath your account entry, select the Server Settings subsection (if it is not visible, you may need to toggle the \> button first).
+4. Ensure that Security Settings \> Authentication method is set to _OAuth2_.
+
+**Cookies and javascript must be enabled for the OAuth 2.0 setup process to work.** If you have rejected cookies in Thunderbird, the OAuth setup process will fail because some cookies must be accepted to store data between page updates. **You need to accept cookies at least temporarily using one of the methods described below.**
+
+## How to avoid or correct an OAuth failure caused by rejected cookies
+
+First, verify your general setting for cookies in Thunderbird:
+
+- Do ≡ \> PreferencesSettings \> Privacy & Security \> Web Content.
+- Look at the checkbox **Accept cookies from sites**.
+
+If **Accept cookies from sites** is **not** checked, do one of the following and then go through the OAuth login process again:
+
+- Create an exception to accept cookies from _Google_:
+  - Click the nearby Exceptions… button to open the _Exceptions - Cookies_ dialog.
+  - In the _Address of website_ input box, enter **[https://accounts.google](https://accounts.google).com**.
+  - Pick Allow, then Save Changes.
+
+- Alternatively, accept _all_ cookies:
+  - Set the checkmark for **Accept cookies from sites**.
+
+After you have gone through the OAuth process, if you prefer, you can again reject cookies, because receiving and sending mail will work with cookies rejected. But rejecting all cookies or removing the exception has the disadvantage that when the OAuth token for Gmail access expires at some date in the future, the OAuth dialog will show up and fail again until you accept the required cookies.
+
+For greater detail about cookies, see the article [Privacy panel - Remote content and cookie settings in Thunderbird](\""https://support.mozilla.org/en-US/kb/privacy-panel-settings-in-thunderbird"").
+
+## How to avoid or correct an OAuth failure caused by disabled javascript
+
+1. Do ≡ \> PreferencesSettings \> General
+2. From the bottom right corner of the **General** settings pane, click Config Editor.
+3. Copy or type this into the _Search preference name_ searchbox: **javascript.enabled**
+4. You should now see a single search result line for the setting **javascript.enabled**.
+  - If **javascript.enabled** is **true** , no change is needed.
+  - If **javascript.enabled** is **false** , you need to change it to **true** by clicking the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to the right.
+
+## Check if the proper authentication tokens have been saved
+
+- Do ≡ \> Settings \> Privacy & Security \> Passwords\> Saved Passwords.
+  - If account authentication was set to **OAuth2** and the OAuth login was successful, you should see entries for each username (gmail account) of the form
+
+<dl><dd> <strong>oauth://accounts.google<span>.</span>com (<a href=""https://mail.google"">https://mail.google</a><span>.</span>com/ …)</strong>
+</dd></dl><dl><dt>
+<div class=""note"">
+<strong>Note:</strong> The <em>oauth</em> entry is an OAuth2 authentication token, and not a password.</div>
+</dt></dl><dl>
+<dt>
+<ul><li> If account authentication was set to <strong>OAuth2</strong> and OAuth login was <strong>not</strong> successful, check your password entries for providers of the following form and delete them:
+</li></ul>
+</dt>
+<dd> <strong>imap://imap.gmail<span>.</span>com (imap://imap.gmail<span>.</span>com)</strong>
+</dd>
+<dd> <strong>smtp://smtp.gmail<span>.</span>com (smtp://smtp.gmail<span>.</span>com)</strong>
+</dd>
+</dl>
+
+If you're still having problems, you can [ask a question in Thunderbird support](https://support.mozilla.org/questions/new/thunderbird/form).
+
+"
 57875,Import bookmarks to Firefox for Android,importing-bookmarks-firefox-android,https://support.mozilla.org/en-US/kb/importing-bookmarks-firefox-android,en-US,How to import your bookmarks and other data from another browser into Firefox for Android.,"<p>To import bookmarks and other data from another browser installed on your Android device:
 </p>
 <ol><li>Sign in to your account on a desktop computer that has a desktop version of that browser installed.
@@ -92384,130 +93018,6 @@ Once your subscription has been successfully canceled, return to the product’s
 
 - [How to sign up for Mozilla VPN](https://support.mozilla.org/en-US/kb/how-sign-mozilla-vpn)
 - [Subscribe to Firefox Relay Premium](https://support.mozilla.org/en-US/kb/subscribe-firefox-relay-premium)
-
-"
-59269,Automatically fill in your address on web forms in Firefox for Android,automatically-fill-your-address-web-forms-android,https://support.mozilla.org/en-US/kb/automatically-fill-your-address-web-forms-android,en-US,Manage your settings for automatically filling out your address on web forms in Firefox for Android,"<div class=""warning"">We are aware of an issue where addresses may not sync between devices.  Our developers and contributors are actively looking into this and we hope to be able to make the solution available in a future update. Ensure that you have access to the latest features and fixes by <a href=""/en-US/kb/update-latest-version-firefox-android"">updating to the most recent version</a>.</div>
-<p>You can now autofill your address on forms in Firefox for Android. This feature is enabled by default, but you can disable it any time in your Autofill settings. You can also add and manage your addresses in your settings. Learn more about managing your Autofill settings below.
-</p>
-<div class=""note"">The Autofill feature is currently only available for American English, Canadian English and Canadian French <a href=""/en-US/kb/change-default-language-firefox-android"">languages</a> (en-US, en-CA, fr-CA).</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-address-autofill-on-or-off""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn address autofill on or off</span></a></li><li class=""toclevel-1""><a href=""#w_add-an-address-for-the-first-time""><span class=""tocnumber"">2</span> <span class=""toctext"">Add an address for the first time</span></a></li><li class=""toclevel-1""><a href=""#w_edit-your-saved-addresses""><span class=""tocnumber"">3</span> <span class=""toctext"">Edit your saved addresses</span></a></li></ul></div>
-<h1 id=""w_turn-address-autofill-on-or-off"">Turn address autofill on or off</h1>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">Autofill</span>.
-</li><li>Switch the toggle next to <strong>Save and autofill addresses</strong> to the right to turn it on, or toggle it to the left to turn it off.
-</li></ol>
-<div class=""warning"">We recommend turning this feature off on non-private devices.</div>
-<h1 id=""w_add-an-address-for-the-first-time"">Add an address for the first time</h1>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">Autofill</span>.
-</li><li>Tap <span class=""menu"">Add address</span>.
-</li><li>File the form and tap <span class=""button"">Save</span>.
-</li></ol>
-<h1 id=""w_edit-your-saved-addresses"">Edit your saved addresses</h1>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Tap <span class=""menu"">Autofill</span>.
-</li><li>Tap <span class=""menu"">Manage addresses</span>.
-</li><li>Tap <span class=""menu"">Add address</span> to add a new address.
-</li><li>Tap an existing address to edit the address.
-<ul><li>Tap the <em>Delete</em> <img alt=""Copnfig Editor Trash Icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-02-17-39-45-5e5ea2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon to remove the address.
-</li><li>Tap the <em>Save</em> <img alt=""checkmark_fx71aboutconfig"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-11-03-17-27-57-925133.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon to save any edits you make to the address.
-</li></ul>
-</li></ol>",mobile,settings,"We are aware of an issue where addresses may not sync between devices. Our developers and contributors are actively looking into this and we hope to be able to make the solution available in a future update. Ensure that you have access to the latest features and fixes by [updating to the most recent version](\""https://support.mozilla.org/en-US/kb/update-latest-version-firefox-android"").
-
-You can now autofill your address on forms in Firefox for Android. This feature is enabled by default, but you can disable it any time in your Autofill settings. You can also add and manage your addresses in your settings. Learn more about managing your Autofill settings below.
-
-The Autofill feature is currently only available for American English, Canadian English and Canadian French [languages](\""https://support.mozilla.org/en-US/kb/change-default-language-firefox-android"") (en-US, en-CA, fr-CA).
-
-## Table of Contents
-
-- [1 Turn address autofill on or off](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_turn-address-autofill-on-or-off)
-- [2 Add an address for the first time](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_add-an-address-for-the-first-time)
-- [3 Edit your saved addresses](https://support.mozilla.org/kb/automatically-fill-your-address-web-forms-android#w_edit-your-saved-addresses)
-
-# Turn address autofill on or off
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Autofill.
-4. Switch the toggle next to **Save and autofill addresses** to the right to turn it on, or toggle it to the left to turn it off.
-
-We recommend turning this feature off on non-private devices.
-
-# Add an address for the first time
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Autofill.
-4. Tap Add address.
-5. File the form and tap Save.
-
-# Edit your saved addresses
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Tap Autofill.
-4. Tap Manage addresses.
-5. Tap Add address to add a new address.
-6. Tap an existing address to edit the address.
-  - Tap the _Delete_ ![Copnfig Editor Trash Icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon to remove the address.
-  - Tap the _Save_ ![checkmark_fx71aboutconfig](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon to save any edits you make to the address.
-
-"
-59317,Firefox for Enterprise 104 - Release notes,firefox-enterprise-104-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-104-release-notes,en-US,See what's coming out with Firefox for Enterprise 104.,"<p>Except where noted, everything here applies to both Firefox 104 and the Firefox 102.2 ESR.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_other-changes""><span class=""tocnumber"">2</span> <span class=""toctext"">Other Changes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">3</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">4</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
-<h1 id=""w_bug-fixes"">Bug Fixes</h1>
-<ul><li>Windows SSO wasn't working in iframes. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1778325"">bug 1778325</a>.
-</li></ul>
-<h1 id=""w_other-changes"">Other Changes</h1>
-<ul><li><a href=""https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"">Total Cookie Protection</a> was turned on for all versions of Firefox in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1776760"">bug 1776760</a>. Total Cookie Protection is controlled by the <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#cookies"">Cookies</a> policy.
-</li></ul>
-<ul><li>The <code>security.insecure_field_warning.contextual.enabled</code> was removed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1773047"">bug 1773047</a>. This change does not affect the Firefox 102 ESR. 
-</li></ul>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#appversionpin"">AppVersionPin</a> policy was added. This allows you to prevent Firefox from being updated beyond a specified version.
-</li></ul>
-<ul><li>The <a href=""https://github.com/mozilla/policy-templates/blob/master/README.md#gotointranetsiteforsinglewordentryinaddressbar"">GoToIntranetSiteForSingleWordEntryInAddressBar </a> policy was added. This policy forces direct intranet site navigation instead of searching when typing single word entries in the address bar.
-</li></ul>
-<h1 id=""w_special-notes"">Special Notes</h1>
-<p>This is the last major release of the Firefox 91 ESR. Firefox 91 ESR goes out of support on September 20, 2022. At that time Firefox 91 ESR users will be upgraded to the Firefox 102 ESR.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 104 and the Firefox 102.2 ESR.
-
-## Table of Contents
-
-- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_bug-fixes)
-- [2 Other Changes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_other-changes)
-- [3 Policies](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_policies)
-- [4 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-104-release-notes#w_special-notes)
-
-# Bug Fixes
-
-- Windows SSO wasn't working in iframes. This was fixed in [bug 1778325](https://bugzilla.mozilla.org/show_bug.cgi?id=1778325).
-
-# Other Changes
-
-- [Total Cookie Protection](https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/) was turned on for all versions of Firefox in [bug 1776760](https://bugzilla.mozilla.org/show_bug.cgi?id=1776760). Total Cookie Protection is controlled by the [Cookies](https://github.com/mozilla/policy-templates/blob/master/README.md#cookies) policy.
-
-- The `security.insecure_field_warning.contextual.enabled` was removed in [bug 1773047](https://bugzilla.mozilla.org/show_bug.cgi?id=1773047). This change does not affect the Firefox 102 ESR. 
-
-# Policies
-
-- The [AppVersionPin](https://github.com/mozilla/policy-templates/blob/master/README.md#appversionpin) policy was added. This allows you to prevent Firefox from being updated beyond a specified version.
-
-- The [GoToIntranetSiteForSingleWordEntryInAddressBar](https://github.com/mozilla/policy-templates/blob/master/README.md#gotointranetsiteforsinglewordentryinaddressbar) policy was added. This policy forces direct intranet site navigation instead of searching when typing single word entries in the address bar.
-
-# Special Notes
-
-This is the last major release of the Firefox 91 ESR. Firefox 91 ESR goes out of support on September 20, 2022. At that time Firefox 91 ESR users will be upgraded to the Firefox 102 ESR.
 
 "
 59361,What's new in Firefox Klar for iOS (version 103),whats-new-firefox-klar-ios-version-103,https://support.mozilla.org/en-US/kb/whats-new-firefox-klar-ios-version-103,en-US,Welcome to version 103 of Firefox Klar for iOS.,"<p>
@@ -115748,6 +116258,117 @@ A keyword is a shortcut you type in the address bar to trigger that custom searc
 - [Search with the Firefox address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"")
 
 "
+67877,Learn how to subscribe to MDN Plus,mdn-subscription-signup,https://support.mozilla.org/en-US/kb/mdn-subscription-signup,en-US,Learn how to subscribe to MDN Plus,"<p>You can enjoy an ad-free, enhanced web development experience with MDN Plus. An MDN Plus subscription includes varying access to Collections, Notifications, and MDN Offline. We currently offer three different customized plans for MDN Plus to accommodate your needs.
+</p>
+<div class=""note""><strong>Note:</strong> MDN Plus is currently available in the American Samoa, Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Guam, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Northern Mariana Islands, Portugal, Puerto Rico, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, U.S. Virgin Islands, United Kingdom, United States.</div>
+<p>To subscribe to MDN Plus:
+</p>
+<ol><li>Visit <a href=""https://developer.mozilla.org/plus"">https://developer.mozilla.org/plus</a>.
+</li><li>Scroll to the bottom of this page, where you will see our available plans. We currently offer plans for MDN Core, MDN Plus 5, and MDN Supporter 10.
+</li><li>Select the plan that best suits your needs and/or preferences.
+<dl><dt><div class=""note""><strong>Note:</strong> If your location can not be detected, you will be prompted to set your country and zip code first. Should this screen appear, select your country from the <strong>Country</strong> dropdown and enter your zip code in the <strong>Postal code</strong> field. Then, click the <strong>Continue to checkout</strong> button.</div>
+</dt></dl>
+</li><li>You will be taken to a checkout page. On this page, you can choose to:
+<ul><li>Sign in or create a Mozilla account
+</li><li>Log into your Google account
+</li><li>Log into your Apple account
+</li></ul>
+<dl><dt><img alt=""Subscription1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-17-07-39-53414f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt><dt>The account you choose will be used as your login credentials, in addition to the primary account for the checkout process.<br><br>Determine if you’d like to use your Google or Apple ID, or continue with your Mozilla account. Follow the on-screen prompts to continue signing in. Once you return to the checkout screen, click the blue <strong>Continue</strong> button.
+</dt></dl>
+</li><li>Click the checkbox to agree to the <a href=""https://www.mozilla.org/about/legal/terms/subscription-services/"">Mozilla Terms of Service</a> and/or <a href=""https://www.mozilla.org/privacy/subscription-services/"">Privacy Notice</a>. 
+</li><li>Enter your credit card details, or select another supported payment method such as <a href=""https://www.apple.com/apple-pay/"">Apple Pay</a>, <a href=""https://pay.google.com/about/"">Google Pay</a>, <a href=""https://link.com/"">Link</a>, or <a href=""https://www.paypal.com/"">PayPal</a> during checkout.<br><br>
+<dl><dt><div class=""note""><strong>Note:</strong> Upon selecting PayPal as your payment method, a new window may appear prompting you to sign into your PayPal account and accept a subscription agreement.</div>
+</dt></dl>
+</li><li>Review your information to confirm everything is correct. You can also edit your location on the right side of the screen if it still needs to be updated.
+</li><li>Once complete, click the <strong>Subscribe Now</strong> button.
+</li></ol>
+<p>Congrats! Now you are subscribed to MDN Plus. You will be emailed a confirmation with an invoice. 
+</p>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/where-can-i-view-my-mdn-plus-subscription-informat"">Where can I view my MDN Plus subscription information?</a>
+</li><li><a href=""/en-US/kb/how-upgrade-your-mdn-plus-subscription"">How to upgrade your MDN Plus subscription</a>
+</li><li><a href=""/en-US/kb/how-do-i-change-my-mdn-plus-subscription-plan"">How do I change my MDN Plus subscription plan?</a>
+</li></ul>",mdn-plus,billing-and-subscriptions,"You can enjoy an ad-free, enhanced web development experience with MDN Plus. An MDN Plus subscription includes varying access to Collections, Notifications, and MDN Offline. We currently offer three different customized plans for MDN Plus to accommodate your needs.
+
+**Note:** MDN Plus is currently available in the American Samoa, Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Guam, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Northern Mariana Islands, Portugal, Puerto Rico, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, U.S. Virgin Islands, United Kingdom, United States.
+
+To subscribe to MDN Plus:
+
+1. Visit [https://developer.mozilla.org/plus](https://developer.mozilla.org/plus).
+2. Scroll to the bottom of this page, where you will see our available plans. We currently offer plans for MDN Core, MDN Plus 5, and MDN Supporter 10.
+3. Select the plan that best suits your needs and/or preferences.<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> If your location can not be detected, you will be prompted to set your country and zip code first. Should this screen appear, select your country from the <strong>Country</strong> dropdown and enter your zip code in the <strong>Postal code</strong> field. Then, click the <strong>Continue to checkout</strong> button.</div>
+</dt></dl>
+4. You will be taken to a checkout page. On this page, you can choose to:
+  - Sign in or create a Mozilla account
+  - Log into your Google account
+  - Log into your Apple account
+
+<dl>
+<dt>
+<img alt=""Subscription1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-06-18-17-07-39-53414f.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt>
+<dt>The account you choose will be used as your login credentials, in addition to the primary account for the checkout process.<br><br>Determine if you’d like to use your Google or Apple ID, or continue with your Mozilla account. Follow the on-screen prompts to continue signing in. Once you return to the checkout screen, click the blue <strong>Continue</strong> button.
+</dt>
+</dl>
+5. Click the checkbox to agree to the [Mozilla Terms of Service](https://www.mozilla.org/about/legal/terms/subscription-services/) and/or [Privacy Notice](https://www.mozilla.org/privacy/subscription-services/). 
+6. Enter your credit card details, or select another supported payment method such as [Apple Pay](https://www.apple.com/apple-pay/), [Google Pay](https://pay.google.com/about/), [Link](https://link.com/), or [PayPal](https://www.paypal.com/) during checkout.  
+  
+<dl><dt>
+<div class=""note"">
+<strong>Note:</strong> Upon selecting PayPal as your payment method, a new window may appear prompting you to sign into your PayPal account and accept a subscription agreement.</div>
+</dt></dl>
+7. Review your information to confirm everything is correct. You can also edit your location on the right side of the screen if it still needs to be updated.
+8. Once complete, click the **Subscribe Now** button.
+
+Congrats! Now you are subscribed to MDN Plus. You will be emailed a confirmation with an invoice.
+
+# Related articles
+
+- [Where can I view my MDN Plus subscription information?](\""https://support.mozilla.org/en-US/kb/where-can-i-view-my-mdn-plus-subscription-informat"")
+- [How to upgrade your MDN Plus subscription](\""https://support.mozilla.org/en-US/kb/how-upgrade-your-mdn-plus-subscription"")
+- [How do I change my MDN Plus subscription plan?](\""https://support.mozilla.org/en-US/kb/how-do-i-change-my-mdn-plus-subscription-plan"")
+
+"
+67914,Firefox for Enterprise 140 - Release notes,firefox-enterprise-140-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-140-release-notes,en-US,See what's coming out with Firefox for Enterprise 140.,"<p>Except where noted, everything here applies only to Firefox 140. Firefox 140 is the next <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a> so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_bug-fixes""><span class=""tocnumber"">1</span> <span class=""toctext"">Bug Fixes</span></a></li><li class=""toclevel-1""><a href=""#w_policies""><span class=""tocnumber"">2</span> <span class=""toctext"">Policies</span></a></li><li class=""toclevel-1""><a href=""#w_special-notes""><span class=""tocnumber"">3</span> <span class=""toctext"">Special Notes</span></a></li></ul></div>
+<h1 id=""w_bug-fixes"">Bug Fixes</h1>
+<ul><li>Previously, access to about:debugging was completely removed if you didn't allow the installation of addons. Now we just disable the <span class=""button"">Load Temporary Add-on…</span> button. This was fixed in <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=1778559"">bug 1778559</a>.
+</li></ul>
+<h1 id=""w_policies"">Policies</h1>
+<ul><li>The <a href=""https://mozilla.github.io/policy-templates/#disablebuiltinpdfviewer"">DisableBuiltinPDFViewer </a> policy no longer completely disables PDF.js; it changes the handler to send PDF files to the operating system. Embedded PDF files are shown in the browser. If you need to completely disable PDF.js, you can use the <a href=""https://mozilla.github.io/policy-templates/#pdfjs"">PDFjs</a> policy.
+</li><li>With the <a href=""/en-US/kb/future-of-pocket"">shutdown of Pocket</a>, all Pocket related policies have been deprecated.
+</li></ul>
+<h1 id=""w_special-notes"">Special Notes</h1>
+<p>There are two more planned releases of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
+</p><p>If you need to prevent upgrades for any reason, you can use the <a href=""https://mozilla.github.io/policy-templates/#appupdatepin"">AppUpdatePin</a> policy.
+</p>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies only to Firefox 140. Firefox 140 is the next [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"") so, going forward, no enterprise changes will be backported to Firefox 128 ESR.
+
+## Table of Contents
+
+- [1 Bug Fixes](https://support.mozilla.org/kb/firefox-enterprise-140-release-notes#w_bug-fixes)
+- [2 Policies](https://support.mozilla.org/kb/firefox-enterprise-140-release-notes#w_policies)
+- [3 Special Notes](https://support.mozilla.org/kb/firefox-enterprise-140-release-notes#w_special-notes)
+
+# Bug Fixes
+
+- Previously, access to about:debugging was completely removed if you didn't allow the installation of addons. Now we just disable the Load Temporary Add-on… button. This was fixed in [bug 1778559](https://bugzilla.mozilla.org/show_bug.cgi?id=1778559).
+
+# Policies
+
+- The [DisableBuiltinPDFViewer](https://mozilla.github.io/policy-templates/#disablebuiltinpdfviewer) policy no longer completely disables PDF.js; it changes the handler to send PDF files to the operating system. Embedded PDF files are shown in the browser. If you need to completely disable PDF.js, you can use the [PDFjs](https://mozilla.github.io/policy-templates/#pdfjs) policy.
+- With the [shutdown of Pocket](\""https://support.mozilla.org/en-US/kb/future-of-pocket""), all Pocket related policies have been deprecated.
+
+# Special Notes
+
+There are two more planned releases of Firefox 128 ESR, and then it will go out of support on September 16, 2025. Users will then be automatically upgraded to Firefox 140 ESR.
+
+If you need to prevent upgrades for any reason, you can use the [AppUpdatePin](https://mozilla.github.io/policy-templates/#appupdatepin) policy.
+
+"
 67998,Choose your opening screen for Firefox for Android,set-opening-screen-firefox-android,https://support.mozilla.org/en-US/kb/set-opening-screen-firefox-android,en-US,Choose whether Firefox for Android opens on your homepage or your last tab.,"<p>Firefox for Android lets you choose an opening screen for when you return to the homepage. You can choose to open your homepage or the last tab you visited. This helps you stay organized and pick up right where you left off – or start fresh.
 </p>
 <div class=""note""><strong>Note:</strong> By default, when you open Firefox for Android after 4 or more hours of inactivity, the app will start on your homepage. If you open the app after less than 4 hours of inactivity, the app will open the last active tab.</div>
@@ -126489,7 +127110,7 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 </li><li>Compare information
 </li><li>Plan tasks using your open tabs
 </li></ul>
-<p>You can start a chat with the assistant right from the New Tab or in the sidebar while you’re viewing a page. Chats are saved automatically. Get back to your saved chats from the bottom of New Tab or choosing chats in the application menu. Delete chats anytime.
+<p>You can start a chat with the assistant right from the New Tab or in the sidebar while you’re viewing a page. Chats are saved automatically. Get back to your saved chats from the bottom of New Tab or by choosing chats in the application menu. Delete chats anytime.
 </p><p>Plus, you can choose which model powers the assistant based on what’s important to you. Learn more about <a href=""/en-US/kb/smart-window-models"">models</a>.
 </p>
 <h1 id=""w_memories"">Memories</h1>
@@ -126517,7 +127138,7 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 </li></ol>
 <div class=""note""><strong>Note:</strong> You can keep any combination of Classic, Smart and Private Windows open at the same time. You can switch between Smart and Classic Windows as much or as little as you’d like.</div>
 <h2 id=""w_use-smart-window-by-default"">Use Smart Window by default</h2>
-<p>Starting in Firefox version 151.2, you can set Smart Window as your default Firefox window type.
+<p>Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 151.2, you can set Smart Window as your default Firefox window type.
 </p><p>When enabled, Firefox automatically opens Smart Window for:
 </p>
 <ul><li>Browser launch
@@ -126529,7 +127150,8 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 </p>
 <div class=""note""><strong>Note</strong>: Smart Window is currently only available for en-US and en-CA users.</div>
 <h3 id=""w_set-smart-window-as-the-default-window-type"">Set Smart Window as the default window type</h3>
-<ol><li>Open Firefox Settings.
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
 </li><li>Select <span class=""menu"">AI Controls</span>.
 </li><li>Open <span class=""menu"">Smart Window settings</span>.
 </li><li>Turn on <span class=""button"">Use Smart Window by default</span>.
@@ -126569,25 +127191,25 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 </th></tr>
 <tr>
 <td>Content in different formats</td><td>Summarize the main points from this page<br>Summarize this page in two sentences<br>
-<p>List every person mentioned in this page
+<p>List every person mentioned on this page
 </p>
 </td></tr>
 <tr>
-<td>Help understanding new topics</td><td>Define &lt;insert term&gt;. Use examples and metaphors to help me understand.<br>Explain the concept of &lt;insert topic&gt; like I’m a true beginner.<br>
-<p>Quiz me on this page. Ask 5 multiple choice questions, one by one.
+<td>Help understanding new topics</td><td>Define &lt;insert term&gt;. Use examples and metaphors to help me understand.<br>Explain the concept of &lt;insert topic&gt; like I’m a true beginner<br>
+<p>Quiz me on this page. Ask 5 multiple-choice questions, one by one.
 </p>
 </td></tr>
 <tr>
 <td>To compare while shopping</td><td>Compare @Tab and @Tab. Let me know which you’d recommend based on &lt;insert your criteria here like price, ratings, quality, etc.&gt;<br>Compare the headphones I have open
 </td></tr>
 <tr>
-<td>Help modifying recipes</td><td>I want to halve this recipe. List each ingredient and how much of each I’ll need. <br>Help me find substitutions for &lt;ingredient name&gt;.<br>Suggest ways to make this recipe gluten free.
+<td>Help modifying recipes</td><td>I want to halve this recipe. List each ingredient and how much of each I’ll need. <br>Help me find substitutions for &lt;ingredient name&gt;.<br>Suggest ways to make this recipe gluten-free
 </td></tr>
 <tr>
 <td>Find pages in history</td><td>List all the &lt;criteria&gt; I looked at last week<br><em>For example: “List all links to Denver hotels I looked at last week.” “List the pasta recipes I looked at yesterday.”</em>
 </td></tr>
 <tr>
-<td>Recommendations</td><td>Recommend some new recipes for me to try<br>Recommend a &lt;morning, evening, etc.&gt; routine for my household.<br><em>For recommendations, the assistant may ask follow up questions or rely on memories to personalize the response</em>
+<td>Recommendations</td><td>Recommend some new recipes for me to try<br>Recommend a &lt;morning, evening, etc.&gt; routine for my household<br><em>For recommendations, the assistant may ask follow-up questions or rely on memories to personalize the response</em>
 </td></tr></tbody></table>
 <h2 id=""w_what-the-assistant-cant-do"">What the assistant can’t do</h2>
 <p>The assistant can’t take actions on your behalf. For example, it <strong>can’t</strong>:
@@ -126631,7 +127253,7 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 </li><li>No models used by Smart Window are trained on your data.
 </li></ul>
 <h2 id=""w_turn-off-smart-window"">Turn off Smart Window</h2>
-<p>If you tried Smart Window and later decide you do not want to use it, you can block it from Firefox settings.
+<p>If you try Smart Window and later decide you do not want to use it, you can block it from Firefox settings.
 </p>
 <ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
 
@@ -126643,7 +127265,7 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 <p>Please <a href=""https://connect.mozilla.org/t5/discussions/smart-window-beta-feedback/td-p/122365"">report any issues</a> you may have with Assistant responses in <a href=""/en-US/kb/what-mozilla-connect"">Mozilla Connect</a>.
 </p>
 <h2 id=""w_who-can-see-my-chats-and-memories"">Who can see my chats and memories?</h2>
-<p>Chats and memories are stored locally on your device, just like your browsing history. That means only you can see them. If you share your device with others, they may see your chats and memories too. Learn more in the Privacy and data in Smart Window section above.
+<p>Chats and memories are stored locally on your device, just like your browsing history. That means only you can see them. If you share your device with others, they may see your chats and memories too. Learn more in the <a href=""#w_privacy-and-data-in-smart-window"">Privacy and data in Smart Window</a> section above.
 </p>
 <h2 id=""w_are-chats-and-memories-synced-across-devices"">Are chats and memories synced across devices?</h2>
 <p>Right now, no. Chats and memories cannot be synced across devices.
@@ -126652,14 +127274,15 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 <p>Memories can be created from your chats, as well as anything stored in your browser history – including activity from both Classic and Smart Windows. Browsing in Private Windows is always separate, and your activity there is never remembered.
 </p>
 <h2 id=""w_i-dont-want-the-assistant-sidebar-to-open-on-each-tab-what-can-i-do"">I don’t want the assistant sidebar to open on each tab. What can I do?</h2>
-<p>You can update your settings so that the assistant sidebar is closed by default. Go to <span class=""menu"">Settings</span> &gt; <span class=""menu"">AI controls</span> &gt; <strong>Smart Window</strong> and under <em>Default</em> settings, uncheck <strong>Open assistant automatically</strong>. Then, to use the assistant on any tab, select <strong>Ask</strong>.
+<p>You can update your settings so that the assistant sidebar is closed by default. <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+ Select <span class=""menu"">AI controls</span>, go to <strong>Smart Window</strong> and under <em>Default</em> settings, uncheck <strong>Open assistant automatically</strong>. Then, to use the assistant on any tab, select <strong>Ask</strong>.
 </p>
 <h2 id=""w_i-dont-want-this-in-my-firefox-what-can-i-do"">I don’t want this in my Firefox. What can I do?</h2>
 <p>If you don’t want to see any access points to <strong>Smart Window</strong> in Firefox, go to <span class=""menu"">Settings</span> &gt; <span class=""menu"">AI controls</span> and choose <strong>Blocked</strong> next to <em>Smart Window</em>.
 </p><p>If you’ve already chosen <strong>Block AI enhancements</strong> at the top of <em>AI Controls</em>, it will already be blocked.
 </p>
 <h2 id=""w_how-is-the-built-in-assistant-different-than-the-ai-chatbot-in-the-sidebar"">How is the built-in assistant different than the AI chatbot in the sidebar?</h2>
-<p>In Classic and Private Windows, sidebar AI chatbots powered by ChatGPT, Gemini and Copilot, do not t have access to your browsing history and can’t see your open tabs.
+<p>In Classic and Private Windows, sidebar AI chatbots powered by ChatGPT, Gemini and Copilot do not have access to your browsing history and can’t see your open tabs.
 </p><p>In Smart Window, the built-in AI assistant does have access to your browsing history, can learn from your activity if you choose to create memories and personalize responses, and can see your recent and open tabs, to answer questions about the pages.
 </p>
 <h2 id=""w_are-there-any-hardware-requirements-to-use-smart-window"">Are there any hardware requirements to use Smart Window?</h2>
@@ -126673,7 +127296,7 @@ We are extending [Firefox 115 ESR support](https://whattrainisitnow.com/release/
 <p>For now, customization options for Smart Window are limited. We expect to make it more customizable over time, as we learn more about how people use it.
 </p>
 <h2 id=""w_why-doesnt-my-chosen-theme-work"">Why doesn’t my chosen theme work?</h2>
-<p>For now, Smart Window has its own built-in themes – one light and one dark that work based on your system settings. We expect to make Smart Window compatible with more themes over time.
+<p>For now, Smart Window has its own built-in themes – one light and one dark – that work based on your system settings. We expect to make Smart Window compatible with more themes over time.
 </p>
 <h1 id=""w_related-articles"">Related articles</h1>
 <ul><li><a href=""/en-US/kb/access-mozilla-services-firefox-account"">Access Mozilla services with a Mozilla account</a>
@@ -126733,7 +127356,7 @@ The built-in assistant helps you do more with your tabs. It can:
 - Compare information
 - Plan tasks using your open tabs
 
-You can start a chat with the assistant right from the New Tab or in the sidebar while you’re viewing a page. Chats are saved automatically. Get back to your saved chats from the bottom of New Tab or choosing chats in the application menu. Delete chats anytime.
+You can start a chat with the assistant right from the New Tab or in the sidebar while you’re viewing a page. Chats are saved automatically. Get back to your saved chats from the bottom of New Tab or by choosing chats in the application menu. Delete chats anytime.
 
 Plus, you can choose which model powers the assistant based on what’s important to you. Learn more about [models](\""https://support.mozilla.org/en-US/kb/smart-window-models"").
 
@@ -126769,7 +127392,7 @@ All your open tabs in the window stay intact, and the window type switches.
 
 ## Use Smart Window by default
 
-Starting in Firefox version 151.2, you can set Smart Window as your default Firefox window type.
+Starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 151.2, you can set Smart Window as your default Firefox window type.
 
 When enabled, Firefox automatically opens Smart Window for:
 
@@ -126785,7 +127408,7 @@ If Smart Window is not available, the setting will be hidden or disabled.
 
 ### Set Smart Window as the default window type
 
-1. Open Firefox Settings.
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
 2. Select AI Controls.
 3. Open Smart Window settings.
 4. Turn on Use Smart Window by default.<dl><dt>
@@ -126830,25 +127453,25 @@ How you use Smart Window’s built-in assistant is completely up to you. Here ar
 | Content in different formats | Summarize the main points from this page  
 Summarize this page in two sentences  
 
-List every person mentioned in this page
+List every person mentioned on this page
 
  |
 | Help understanding new topics | Define \<insert term\>. Use examples and metaphors to help me understand.  
-Explain the concept of \<insert topic\> like I’m a true beginner.  
+Explain the concept of \<insert topic\> like I’m a true beginner  
 
-Quiz me on this page. Ask 5 multiple choice questions, one by one.
+Quiz me on this page. Ask 5 multiple-choice questions, one by one.
 
  |
 | To compare while shopping | Compare @Tab and @Tab. Let me know which you’d recommend based on \<insert your criteria here like price, ratings, quality, etc.\>  
 Compare the headphones I have open |
 | Help modifying recipes | I want to halve this recipe. List each ingredient and how much of each I’ll need.   
 Help me find substitutions for \<ingredient name\>.  
-Suggest ways to make this recipe gluten free. |
+Suggest ways to make this recipe gluten-free |
 | Find pages in history | List all the \<criteria\> I looked at last week  
 _For example: “List all links to Denver hotels I looked at last week.” “List the pasta recipes I looked at yesterday.”_ |
 | Recommendations | Recommend some new recipes for me to try  
-Recommend a \<morning, evening, etc.\> routine for my household.  
-_For recommendations, the assistant may ask follow up questions or rely on memories to personalize the response_ |
+Recommend a \<morning, evening, etc.\> routine for my household  
+_For recommendations, the assistant may ask follow-up questions or rely on memories to personalize the response_ |
 
 ## What the assistant can’t do
 
@@ -126898,7 +127521,7 @@ How your data is handled:
 
 ## Turn off Smart Window
 
-If you tried Smart Window and later decide you do not want to use it, you can block it from Firefox settings.
+If you try Smart Window and later decide you do not want to use it, you can block it from Firefox settings.
 
 1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
 2. Select AI controls.
@@ -126912,7 +127535,7 @@ Please [report any issues](https://connect.mozilla.org/t5/discussions/smart-wind
 
 ## Who can see my chats and memories?
 
-Chats and memories are stored locally on your device, just like your browsing history. That means only you can see them. If you share your device with others, they may see your chats and memories too. Learn more in the Privacy and data in Smart Window section above.
+Chats and memories are stored locally on your device, just like your browsing history. That means only you can see them. If you share your device with others, they may see your chats and memories too. Learn more in the [Privacy and data in Smart Window](https://support.mozilla.org/kb/smart-window#w_privacy-and-data-in-smart-window) section above.
 
 ## Are chats and memories synced across devices?
 
@@ -126924,7 +127547,7 @@ Memories can be created from your chats, as well as anything stored in your brow
 
 ## I don’t want the assistant sidebar to open on each tab. What can I do?
 
-You can update your settings so that the assistant sidebar is closed by default. Go to Settings \> AI controls \> **Smart Window** and under _Default_ settings, uncheck **Open assistant automatically**. Then, to use the assistant on any tab, select **Ask**.
+You can update your settings so that the assistant sidebar is closed by default. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings. Select AI controls, go to **Smart Window** and under _Default_ settings, uncheck **Open assistant automatically**. Then, to use the assistant on any tab, select **Ask**.
 
 ## I don’t want this in my Firefox. What can I do?
 
@@ -126934,7 +127557,7 @@ If you’ve already chosen **Block AI enhancements** at the top of _AI Controls_
 
 ## How is the built-in assistant different than the AI chatbot in the sidebar?
 
-In Classic and Private Windows, sidebar AI chatbots powered by ChatGPT, Gemini and Copilot, do not t have access to your browsing history and can’t see your open tabs.
+In Classic and Private Windows, sidebar AI chatbots powered by ChatGPT, Gemini and Copilot do not have access to your browsing history and can’t see your open tabs.
 
 In Smart Window, the built-in AI assistant does have access to your browsing history, can learn from your activity if you choose to create memories and personalize responses, and can see your recent and open tabs, to answer questions about the pages.
 
@@ -126954,7 +127577,7 @@ For now, customization options for Smart Window are limited. We expect to make i
 
 ## Why doesn’t my chosen theme work?
 
-For now, Smart Window has its own built-in themes – one light and one dark that work based on your system settings. We expect to make Smart Window compatible with more themes over time.
+For now, Smart Window has its own built-in themes – one light and one dark – that work based on your system settings. We expect to make Smart Window compatible with more themes over time.
 
 # Related articles
 
