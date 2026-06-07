@@ -30888,6 +30888,257 @@ To view the problematic certificate, follow these steps:
 The bad certificate will now display.
 
 "
+16601,How to translate SUMO KB articles in Bengali,how-translate-sumo-kb-articles-bengali,https://support.mozilla.org/en-US/kb/how-translate-sumo-kb-articles-bengali,en-US,Translating SUMO KB articles in Bengali,"<div class=""note"">This article will help you to translate KB articles in Bengali. If you want to translate SUMO interface look at the article <a href=""/en-US/kb/localize-sumo-interface"">How to localize the SUMO interface</a>  . </div>
+<p>Steps to Translate Articles:
+</p>
+<ol><li> All Bengali Localizers are following Bengali Localization Style Guide which you can download <a href=""http://download.microsoft.com/download/3/a/c/3ac7e8b5-a15c-498e-a73e-c824a82b6347/ben-ind-StyleGuide.pdf"">here</a>.
+</li><li> Use <a href=""http://www.google.com/intl/bn/inputtools/windows/"">Bengali Input Tool</a> to type in Bengali.
+</li><li> For difficult words use <a href=""http://shabdkosh.com/"">Shabdkosh</a> to translate English words in Bengali.
+</li><li>You can also use <a href=""http://translate.google.com/?sl=en&amp;tl=bn"">Google Translator</a>, but most of the times you might not get the proper translations so use <a href=""http://www.lexilogos.com/keyboard/bengali.htm"">Bengali Online Editor</a> to correct the errors.
+</li></ol>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-to-choose-an-article-to-translate""><span class=""tocnumber"">1</span> <span class=""toctext"">How to Choose an Article to Translate</span></a></li><li class=""toclevel-1""><a href=""#w_what-strings-you-have-to-translate""><span class=""tocnumber"">2</span> <span class=""toctext"">What strings you have to translate.</span></a></li></ul></div>
+<h2 id=""w_how-to-choose-an-article-to-translate"">How to Choose an Article to Translate</h2>
+<ol><li> Go to <a href=""https://support.mozilla.org/bn-IN/localization"">Bengali Localization Dashboard</a> .
+</li><li> Look at most visited articles .
+</li><li> Symbols to look in localization dashboard and what they signifies :
+</li></ol>
+<ul><li> circle(green) - translated and approved.
+</li><li>  circle(yellow)  - update needed.
+</li><li> rectangle   - review needed.
+</li><li>  red triangle - translation needed.
+</li></ul>
+<ol><li> Choose one untranslated article by clicking 	অনুবাদ প্রয়োজন
+</li></ol>
+<h2 id=""w_what-strings-you-have-to-translate"">What strings you have to translate.</h2>
+<ol><li> Title.
+</li><li> Slug: It is auto-generated and it should be of maximum 50 character.
+</li><li> Search Result summary: it can be of maximum 120 character.
+</li><li> Main Body Part of the article:
+</li></ol>
+<ul><li>  Please do not translate the strings which are in the following brackets [    ],[ [    ] ], {    }, and &lt;   &gt;.
+</li></ul>
+<p><strong>Tips:</strong>
+</p>
+<ol><li> Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
+</li><li> If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
+</li></ol>",contributor,l10n,"This article will help you to translate KB articles in Bengali. If you want to translate SUMO interface look at the article [How to localize the SUMO interface](\""https://support.mozilla.org/en-US/kb/localize-sumo-interface"") . 
+
+Steps to Translate Articles:
+
+1. All Bengali Localizers are following Bengali Localization Style Guide which you can download [here](http://download.microsoft.com/download/3/a/c/3ac7e8b5-a15c-498e-a73e-c824a82b6347/ben-ind-StyleGuide.pdf).
+2. Use [Bengali Input Tool](http://www.google.com/intl/bn/inputtools/windows/) to type in Bengali.
+3. For difficult words use [Shabdkosh](http://shabdkosh.com/) to translate English words in Bengali.
+4. You can also use [Google Translator](http://translate.google.com/?sl=en&tl=bn), but most of the times you might not get the proper translations so use [Bengali Online Editor](http://www.lexilogos.com/keyboard/bengali.htm) to correct the errors.
+
+## Table of Contents
+
+- [1 How to Choose an Article to Translate](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-bengali#w_how-to-choose-an-article-to-translate)
+- [2 What strings you have to translate.](https://support.mozilla.org/kb/how-translate-sumo-kb-articles-bengali#w_what-strings-you-have-to-translate)
+
+## How to Choose an Article to Translate
+
+1. Go to [Bengali Localization Dashboard](https://support.mozilla.org/bn-IN/localization) .
+2. Look at most visited articles .
+3. Symbols to look in localization dashboard and what they signifies&nbsp;:
+
+- circle(green) - translated and approved.
+- circle(yellow) - update needed.
+- rectangle - review needed.
+- red triangle - translation needed.
+
+1. Choose one untranslated article by clicking অনুবাদ প্রয়োজন
+
+## What strings you have to translate.
+
+1. Title.
+2. Slug: It is auto-generated and it should be of maximum 50 character.
+3. Search Result summary: it can be of maximum 120 character.
+4. Main Body Part of the article:
+
+- Please do not translate the strings which are in the following brackets [],[[] ], { }, and \< \>.
+
+**Tips:**
+
+1. Ping your local leader or locale reviewer if your article is taking too long time to be reviewed.
+2. If the article is not completely translated and you want to submit, you can submit it leaving a comment ""work in progress"".
+
+"
+17008,Signatures,signatures,https://support.mozilla.org/en-US/kb/signatures,en-US,This article explains how to create and use custom signatures (text or images that are automatically appended to messages).,"<div class=""for"" data-for=""win""><p></p><div class=""youtube-embed"">
+  <iframe src=""//www.youtube.com/embed/Nz_9K9VnDEU?wmode=transparent&amp;rel=0"" frameborder=""0"" allowfullscreen></iframe>
+</div>
+<p></p></div><p>""Signatures"" are blocks of text that are automatically appended to every message that you send (including both new messages and replies to incoming messages). They are generally used to provide additional contact information, legal terms or some other boilerplate information that is relevant to every email. This article explains how to configure and use signatures in Thunderbird.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_about-signatures""><span class=""tocnumber"">1</span> <span class=""toctext"">About signatures</span></a></li><li class=""toclevel-1""><a href=""#w_plain-text-signatures""><span class=""tocnumber"">2</span> <span class=""toctext"">Plain-text signatures</span></a></li><li class=""toclevel-1""><a href=""#w_html-signatures""><span class=""tocnumber"">3</span> <span class=""toctext"">HTML signatures</span></a></li><li class=""toclevel-1""><a href=""#w_signatures-stored-in-files""><span class=""tocnumber"">4</span> <span class=""toctext"">Signatures stored in files</span></a><ul><li class=""toclevel-2""><a href=""#w_including-image-files-in-signatures""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Including image files in signatures</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_using-vcards""><span class=""tocnumber"">5</span> <span class=""toctext"">Using vCards</span></a></li><li class=""toclevel-1""><a href=""#w_signature-position""><span class=""tocnumber"">6</span> <span class=""toctext"">Signature position</span></a></li></ul></div>
+<h1 id=""w_about-signatures"">About signatures</h1>
+<p>There are two basic methods for creating signatures.
+Simple text signatures can be directly created in 'Account Settings' for the selected mail account as discussed in the sections below for 'Plain-text signatures' and 'HTML signatures.
+</p><p>Simple or more complicated signatures where you desire greater control over positioning of text and perhaps need to include an image can be created in Thunderbirds 'Write' composing window using all the formatting tools available. See the section below 'Sigatures stored in files'.
+</p><p>An simple text email signature might say something like:
+</p>
+<div class=""note"">John Doe
+<p>Minion
+</p>
+The Big Example Organization</div>
+<p>Simple text Signatures are created in Thunderbird's <strong>Account Settings</strong> interface. Click the menu button <img alt=""Fx57menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-21-10-54-51-be5aec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> (or on 'Menu Bar' use <strong><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span></strong>) &gt; <strong>Account Settings</strong>, and then, in the left panel, select the account for which you want to create a signature.
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1263782960-169-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-42-4bdd77.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>If you have multiple email accounts, you must configure signatures separately for each account.
+</p>
+<h1 id=""w_plain-text-signatures"">Plain-text signatures</h1>
+<p>To configure a plain-text signature, enter the text you want to append to each outgoing message in the <strong>Signature text</strong> field. Plain text signatures work with messages formatted both in HTML and in text.
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1270075431-260-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-41-ec11a4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>...results in...
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1270075532-990-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-42-d0a904.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_html-signatures"">HTML signatures</h1>
+<p>To use HTML formatting in your signature, check <strong>Use HTML</strong> and format the Signature text with the desired HTML mark-up. If you send messages in text (rather than HTML) format, text characters will be substituted for the HTML markup.
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1270075771-11-2.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-04-e206b1.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>...results in...
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1270075771-11-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-07-604582.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_signatures-stored-in-files"">Signatures stored in files</h1>
+<p>Alternatively, in Account Settings, you can upload a file that contains your signature. Check <strong>Attach the signature from a file instead</strong> and then click <span class=""button"">Choose...</span> to select the file. The file can contain either plain or HTML-formatted text. If you have an HTML-formatted signature, the message recipient must be able to view HTML-formatted messages in their email program. If they have disabled this ability, the signature will be rendered in text format and images will not be displayed.
+</p><p>You can create a signature file by using the Thunderbird composer. As an example, open a new HTML-formatted message window in Thunderbird (<span class=""menu"">File &gt; New &gt; Message</span>) or click on <span class=""menu"">Write</span> located on the'Mail Toolbar'. Make sure that the formatting toolbar is displayed. 
+</p>
+<dl><dt><img alt=""HtmlToolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-08-29-20-17-59-66560a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+<p>(If it is not displayed, you are composing a message formatted in text, not HTML. To change to HTML, select <span class=""menu"">Options &gt; Delivery Format &gt; Rich Text (HTML) Only</span>.)
+</p>
+<ol><li>Compose and format your signature as desired. Note that numerous formatting functions are available from the <span class=""menu"">Insert</span> and <span class=""menu"">Format</span> menus.
+<dl><dt><br><img alt=""18b145ed7d093472557cda5e6f9b1477-1270077639-894-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-08-9612b4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Click <span class=""menu"">File &gt; Save As &gt; File</span>. Choose where to save your HTML file. Make sure Save as Type : ""HTML files"" is selected, and then specify a file name and click <span class=""button"">Save</span>.
+</li><li>Close the message window and discard the message without saving.
+</li><li>Open the Account Settings and select the email account in the panel on the left.
+</li><li> Check <strong>Attach the signature from a file</strong>, click <span class=""button"">Choose</span> and navigate to the file you created.
+</li></ol>
+<h2 id=""w_including-image-files-in-signatures"">Including image files in signatures</h2>
+<p>To include an image file from your local computer in a signature, follow the steps above to create an HTML signature. When you are composing the signature contents, though, use the <span class=""menu"">Insert &gt; Image</span> menu option to specify the desired image. 
+</p>
+<dl><dt><img alt=""18b145ed7d093472557cda5e6f9b1477-1270078353-181-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-38-b906ae.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<p>In addition to selecting the image file, use this dialog to configure other aspects of the image, such as the size, a URL link, its position with regards to the text, etc.
+</p><p>You can also specify an image located on a web server as part of your attachment. Simply specify the image URL in the field where you would otherwise specify the file name. If you check ""<strong>Attach this image to the message</strong>"" the image will be included as an attachment. If you do not attach the image, message recipients must have an internet connection to view the image. Also, keep in mind that for security reasons many people configure their email programs to block remote content, which would prevent the image from displaying unless it was attached to the message.
+</p>
+<h1 id=""w_using-vcards"">Using vCards</h1>
+<p><a href=""http://en.wikipedia.org/wiki/VCard"">vCard</a> is a file format standard for electronic business cards. vCards can contain name and address information, phone numbers, e-mail addresses, URLs, logos, photographs, etc. If an incoming message has a vCard as an attachment, Thunderbird displays the vCard contents as a signature. Thunderbird can be configured to attach your vCard to outgoing messages (either automatically or on a per-message basis). See <a href=""/en-US/kb/how-use-virtual-card-vcard"">How to use a Virtual Card (vCard)</a> for instructions.
+</p>
+<h1 id=""w_signature-position"">Signature position</h1>
+<p>When you are replying to messages, by default your signature will appear beneath the quoted text at the end of the message. To change this behavior, select <span class=""menu""><span class=""for"" data-for=""win,mac"">Tools</span><span class=""for"" data-for=""linux"">Edit</span> &gt; Account Settings &gt; &lt;account name&gt; &gt; Composition &amp; Addressing</span>. Change the reply style to ""Start my reply above the quote"". Next, change the setting for ""and place my signature"" to ""below my reply (above the quote)"". 
+</p><p>This setting can be configured for each account and for each identity.
+</p>",thunderbird,send-and-receive-email;settings,"//www.youtube.com/embed/Nz_9K9VnDEU?wmode=transparent&rel=0
+
+""Signatures"" are blocks of text that are automatically appended to every message that you send (including both new messages and replies to incoming messages). They are generally used to provide additional contact information, legal terms or some other boilerplate information that is relevant to every email. This article explains how to configure and use signatures in Thunderbird.
+
+## Table of Contents
+
+- [1 About signatures](https://support.mozilla.org/kb/signatures#w_about-signatures)
+- [2 Plain-text signatures](https://support.mozilla.org/kb/signatures#w_plain-text-signatures)
+- [3 HTML signatures](https://support.mozilla.org/kb/signatures#w_html-signatures)
+- [4 Signatures stored in files](https://support.mozilla.org/kb/signatures#w_signatures-stored-in-files)
+  - [4.1 Including image files in signatures](https://support.mozilla.org/kb/signatures#w_including-image-files-in-signatures)
+
+- [5 Using vCards](https://support.mozilla.org/kb/signatures#w_using-vcards)
+- [6 Signature position](https://support.mozilla.org/kb/signatures#w_signature-position)
+
+# About signatures
+
+There are two basic methods for creating signatures. Simple text signatures can be directly created in 'Account Settings' for the selected mail account as discussed in the sections below for 'Plain-text signatures' and 'HTML signatures.
+
+Simple or more complicated signatures where you desire greater control over positioning of text and perhaps need to include an image can be created in Thunderbirds 'Write' composing window using all the formatting tools available. See the section below 'Sigatures stored in files'.
+
+An simple text email signature might say something like:
+
+John Doe
+
+Minion
+
+The Big Example Organization
+
+Simple text Signatures are created in Thunderbird's **Account Settings** interface. Click the menu button ![Fx57menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) (or on 'Menu Bar' use **ToolsEdit** ) \> **Account Settings** , and then, in the left panel, select the account for which you want to create a signature.
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1263782960-169-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-42-4bdd77.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+If you have multiple email accounts, you must configure signatures separately for each account.
+
+# Plain-text signatures
+
+To configure a plain-text signature, enter the text you want to append to each outgoing message in the **Signature text** field. Plain text signatures work with messages formatted both in HTML and in text.
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1270075431-260-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-41-ec11a4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+...results in...
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1270075532-990-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-05-42-d0a904.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# HTML signatures
+
+To use HTML formatting in your signature, check **Use HTML** and format the Signature text with the desired HTML mark-up. If you send messages in text (rather than HTML) format, text characters will be substituted for the HTML markup.
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1270075771-11-2.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-04-e206b1.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+...results in...
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1270075771-11-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-07-604582.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# Signatures stored in files
+
+Alternatively, in Account Settings, you can upload a file that contains your signature. Check **Attach the signature from a file instead** and then click Choose... to select the file. The file can contain either plain or HTML-formatted text. If you have an HTML-formatted signature, the message recipient must be able to view HTML-formatted messages in their email program. If they have disabled this ability, the signature will be rendered in text format and images will not be displayed.
+
+You can create a signature file by using the Thunderbird composer. As an example, open a new HTML-formatted message window in Thunderbird (File \> New \> Message) or click on Write located on the'Mail Toolbar'. Make sure that the formatting toolbar is displayed.
+
+<dl><dt>
+<img alt=""HtmlToolbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2013-08-29-20-17-59-66560a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
+</dt></dl>
+
+(If it is not displayed, you are composing a message formatted in text, not HTML. To change to HTML, select Options \> Delivery Format \> Rich Text (HTML) Only.)
+
+1. Compose and format your signature as desired. Note that numerous formatting functions are available from the Insert and Format menus.<dl><dt>
+<br><img alt=""18b145ed7d093472557cda5e6f9b1477-1270077639-894-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-08-08-9612b4.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+2. Click File \> Save As \> File. Choose where to save your HTML file. Make sure Save as Type&nbsp;: ""HTML files"" is selected, and then specify a file name and click Save.
+3. Close the message window and discard the message without saving.
+4. Open the Account Settings and select the email account in the panel on the left.
+5. Check **Attach the signature from a file** , click Choose and navigate to the file you created.
+
+## Including image files in signatures
+
+To include an image file from your local computer in a signature, follow the steps above to create an HTML signature. When you are composing the signature contents, though, use the Insert \> Image menu option to specify the desired image.
+
+<dl><dt>
+<img alt=""18b145ed7d093472557cda5e6f9b1477-1270078353-181-1.jpg"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-03-14-10-07-38-b906ae.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+In addition to selecting the image file, use this dialog to configure other aspects of the image, such as the size, a URL link, its position with regards to the text, etc.
+
+You can also specify an image located on a web server as part of your attachment. Simply specify the image URL in the field where you would otherwise specify the file name. If you check "" **Attach this image to the message**"" the image will be included as an attachment. If you do not attach the image, message recipients must have an internet connection to view the image. Also, keep in mind that for security reasons many people configure their email programs to block remote content, which would prevent the image from displaying unless it was attached to the message.
+
+# Using vCards
+
+[vCard](http://en.wikipedia.org/wiki/VCard) is a file format standard for electronic business cards. vCards can contain name and address information, phone numbers, e-mail addresses, URLs, logos, photographs, etc. If an incoming message has a vCard as an attachment, Thunderbird displays the vCard contents as a signature. Thunderbird can be configured to attach your vCard to outgoing messages (either automatically or on a per-message basis). See [How to use a Virtual Card (vCard)](\""https://support.mozilla.org/en-US/kb/how-use-virtual-card-vcard"") for instructions.
+
+# Signature position
+
+When you are replying to messages, by default your signature will appear beneath the quoted text at the end of the message. To change this behavior, select ToolsEdit \> Account Settings \> \<account name\> \> Composition & Addressing. Change the reply style to ""Start my reply above the quote"". Next, change the setting for ""and place my signature"" to ""below my reply (above the quote)"".
+
+This setting can be configured for each account and for each identity.
+
+"
 17010,Global Search,global-search,https://support.mozilla.org/en-US/kb/global-search,en-US,Thunderbird includes a message indexing system that improves search performance and displays faceted (categorized) search results.,"<p>Thunderbird includes a message indexing and search system called “Gloda”, which is short for “Global database”. It improves search performance, provides sophisticated full-text search capabilities and displays its results in faceted (categorized) form which allows you to include or exclude messages based on various criteria.
 </p><p>Global search queries all of your messages, regardless of the account the message is associated with or the folder where the message is stored. The <em>Quick Filter</em>, on the other hand, is used to search for messages in the current message list. (See the <a href=""/en-US/kb/quick-filter-toolbar"">Quick Filter Toolbar</a> article for information on using the Quick Filter.)
 </p>
@@ -34925,645 +35176,6 @@ Please [create a _new_ support request](https://support.mozilla.org/questions/ne
 
 - [MozillaZine's technical but very helpful knowledge base article on this topic](http://kb.mozillazine.org/Cannot_send_mail)
 - [Thunderbird and antivirus related issues](https://wiki.mozilla.org/Thunderbird:Testing:Antivirus_Related_Performance_Issues)
-
-"
-17058,Switching to Thunderbird,switching-thunderbird,https://support.mozilla.org/en-US/kb/switching-thunderbird,en-US,"This article explains how you can switch to Thunderbird from your current mail application, such as Windows Mail, Outlook or also Mail on Mac OS and Evolution on Linux.","<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_switching-from-apple-mail-to-thunderbird""><span class=""tocnumber"">1</span> <span class=""toctext"">Switching from Apple Mail to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-apple-mail-messages""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Importing Apple Mail messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-the-os-x-address-book""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Importing the OS X address book</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-windows-mail-or-windows-live-mail-to-thunderbird""><span class=""tocnumber"">2</span> <span class=""toctext"">Switching from Windows Mail or Windows Live Mail to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-windows-mail-messages""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Importing Windows Mail Messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-windows-mail-contacts""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Importing Windows Mail Contacts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_importing-from-outlook-and-eudora""><span class=""tocnumber"">3</span> <span class=""toctext"">Importing from Outlook and Eudora</span></a><ul><li class=""toclevel-2""><a href=""#w_eudora-is-not-installed""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Eudora is not installed</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-evolution-to-thunderbird""><span class=""tocnumber"">4</span> <span class=""toctext"">Switching from Evolution to Thunderbird</span></a><ul><li class=""toclevel-2""><a href=""#w_importing-evolution-messages""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Importing Evolution Messages</span></a></li><li class=""toclevel-2""><a href=""#w_importing-evolution-contacts""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Importing Evolution Contacts</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_switching-from-web-based-email-applications-to-thunderbird""><span class=""tocnumber"">5</span> <span class=""toctext"">Switching from Web-based Email Applications to Thunderbird</span></a></li><li class=""toclevel-1""><a href=""#w_see-also""><span class=""tocnumber"">6</span> <span class=""toctext"">See Also</span></a></li></ul></div>
-<div class=""for"" data-for=""mac"">
-<h1 id=""w_switching-from-apple-mail-to-thunderbird"">Switching from Apple Mail to Thunderbird</h1>
-<p>Thunderbird can import your messages and OS X address book, but it cannot import your account settings. (Currently, message and address book import is only functional with Apple Mail 5.0 or earlier.)
-</p>
-<h2 id=""w_importing-apple-mail-messages"">Importing Apple Mail messages</h2>
-<ol><li> On the menu bar, open the <span class=""menu"">Tools</span> menu and click on <span class=""menu"">Import</span>. The import wizard will open.<br><br><img alt=""mac-toolsimport"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-24-51-504165.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li> Select <strong>Mail</strong> then click <span class=""button"">Next</span>.<br><br><img alt=""mac-importwizard"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-27-49-771450.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li> Select <strong>Apple Mail</strong> then click <span class=""button"">Next</span>.<br><br><img alt=""mac-importmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-31-18-03bd0f.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> <br><br>
-</li><li> You will see a log of successfully imported folders, then click <span class=""button"">Finish</span> to close the import wizard.<br><br><img alt=""mac-mailimportedsuccess"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-26-54-14b493.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</li></ol>
-<p>Your imported messages will appear in the Local Folders account, in a folder called ""<em>Apple Mail Import</em>"".<br>
-<img alt=""mac-whereimportedmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-32-36-9abcf5.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p>
-<h2 id=""w_importing-the-os-x-address-book"">Importing the OS X address book</h2>
-<p>Thunderbird will read your OS X address book and display it in the Thunderbird address book window! From the menu bar, open the <span class=""menu"">Window</span> menu and click on <span class=""menu"">Address Book</span>. Your OS X address book will appear in the left pane.
-<br><img alt=""mac-OSXaddressbook"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2011-06-23-07-25-51-096fdc.jpg"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> 
-</p><p>If you want to import it to the Thunderbird address book, just drag and drop entries from the Mac OS X address book folder to the Personal Address Book. 
-</p>
-<div class=""note""><strong>Note:</strong> You can select all entries at once by holding down the <span class=""key"">command</span> key and pressing <span class=""key"">A</span>.</div>
-</div><div class=""for"" data-for=""win"">
-<h1 id=""w_switching-from-windows-mail-or-windows-live-mail-to-thunderbird"">Switching from Windows Mail or Windows Live Mail to Thunderbird</h1>
-<p>Windows Mail is the default mail client included with Windows Vista.
-Windows Live Mail is the email client bundled with Windows Live Essentials. 
-Both client programs store emails in the .eml file format. In order to export messages from Windows Mail or Windows Live Mail to Thunderbird, you must export messages from the Windows application and import them into Thunderbird. A similar method is needed to export contacts from Windows Mail or Windows Live Mail to Thunderbird.
-</p><p>To find the location of the email files in Windows Mail or Windows Live Mail, go to <span class=""menu"">Tools &gt; Options &gt; Advanced &gt; Maintenance &gt; Store Folder</span>. 
-</p><p>If you do not see <span class=""menu"">Tools</span>, try <span class=""menu"">File &gt; Options &gt; Mail… &gt; Advanced &gt; Maintenance…</span> instead.
-</p>
-<h2 id=""w_importing-windows-mail-messages"">Importing Windows Mail Messages</h2>
-<p>Importing Windows Mail (.eml files) into Thunderbird is enabled by the third-party add-on ImportExport Tools. <a href=""https://addons.mozilla.org/thunderbird/addon/importexporttools/"">Download</a> and install this add-on to transfer messages from Windows Live Mail to Thunderbird.
-</p>
-<ol><li>Export your messages from Windows Mail in .eml format.
-</li><li>In Thunderbird, create a folder in ""Local Folders"" to hold your imported mail and select it.
-</li><li> Right click the folder and select <span class=""menu""> ImportExportTools &gt; Import all messages from a directory &gt; also from its subdirectories</span>.
-</li><li>Navigate to the .eml files folder. The default location for Windows Live mail is <span class=""filepath"">C:\Users\&lt;username&gt;\AppData\Local\Microsoft\Windows Live Mail</span> (or \Windows Mail).
-</li><li>Click <span class=""button"">Open</span>. Your data will be imported.
-</li></ol>
-<div class=""note""><strong>Note:</strong> To be able to see the ""AppData"" folder, you must change the Folder Options to ""Show hidden files, folders, and drives"" first. See the Microsoft Support article <a href=""https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files"">Show hidden files</a> for more information.</div>
-<h2 id=""w_importing-windows-mail-contacts"">Importing Windows Mail Contacts</h2>
-<p>In order to import Windows contacts into Thunderbird, you must export the contacts to vCard files (.vcf format) and import the files into Thunderbird. 
-</p>
-<ol><li> In Windows Live Mail, open the Contacts and select all the contacts you wish to export. 
-</li><li> Click on <span class=""menu"">Export &gt; Business Card (.VCF)</span>.
-</li><li> Select an empty directory to save these to.
-</li></ol>
-<p>In Thunderbird, install the <a href=""https://freeshell.de/~kaosmos/morecols-en.html"">MoreFunctionsForAddressBook</a> add-on following <a href=""/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_how-do-i-install-an-add-on"">these instructions</a>.
-</p>
-<ol><li> Click on <span class=""button"">Address Book</span>.
-</li><li> Click on the address book you wish to import the contacts into.
-</li><li> Click <span class=""menu"">Tools &gt; MoreFunctionsForAddressBook &gt; Actions for Contacts &gt; Import vCard / VCF</span>.
-</li><li> Browse to the folder where you exported your contacts to.
-</li><li> Select all the contacts you wish to import.
-</li><li> Click <span class=""button"">Open</span> to import all selected contacts.
-</li></ol>
-<p>Alternatively, if this does not work or is not supported in your case, you can try this:
-</p><p>See the <a href=""https://support.office.com/en-us/article/export-contacts-from-outlook-10f09abd-643c-4495-bb80-543714eca73f"">Export contacts from Outlook</a> article at <a href=""http://Microsoft.com"">Microsoft.com</a> for instructions on how to export contacts in Windows.
-</p><p>After creating the required file, you can import your contacts using the import wizard:
-</p>
-<ol><li> In Thunderbird, go to <span class=""menu"">Tools &gt; Import…</span>.
-</li><li> Choose Address Books and click <span class=""button"">Next</span>.
-</li><li> Choose <em>Text file (LDIF, .tab, .csv, .txt)</em> and click <span class=""button"">Next</span>.
-</li><li> Choose <em>Comma Separated</em> (or <em>All files</em>) in the drop-down list at the bottom right, browse to the .csv file you just created, select it and click Open.
-</li><li> Wait for the import to finish and click <span class=""button"">Finish</span>.
-</li></ol>
-<p>In the Import Address Book window that appears, use the Move Up and Move Down buttons to match the address book fields on the left to the correct data for import on the right, and uncheck items you do not want to import. When you are done, click OK. Your contacts should now be imported and ready for use in Thunderbird.
-</p><p>Note that if you are having problems importing the fields properly (like when all record data to import shows up inside the first field row when inside the Import Address Book window), this is probably a result of an exported .csv file containing semicolons instead of commas, or the other way around. This usually happens because the separator in Windows Regional settings does not match the one for the Thunderbird locale, for instance when you exported a .csv file using an English Windows version and try to import it into a non-English version of Thunderbird. In this case, you should make the list separator match in your Regional settings before exporting the .csv file, or you could edit the already exported .csv file using a text editor and replace all semicolons by commas (or vice versa), and retry the import step.
-</p>
-<h1 id=""w_importing-from-outlook-and-eudora"">Importing from Outlook and Eudora</h1>
-<p>The normal Thunderbird import process requires that you have Eudora or Outlook installed on your computer. If you do not have them installed, there are alternatives as noted below.
-</p><p>To use Thunderbird's import wizard, you must use an older version of Thunderbird, because the wizard is disabled for Outlook and Eudora in Thunderbird version 38 and newer versions. Install <a href=""https://ftp.mozilla.org/pub/thunderbird/releases/31.8.0/win32/en-US/"">version 31.8</a>, import your data, then upgrade to the latest version of Thunderbird via the built-in <a href=""/en-US/kb/updating-thunderbird"">update mechanism</a>.  
-</p><p>For Eudora, if you have data problems or crashes, try an even <a href=""http://ftp.mozilla.org/pub/thunderbird/releases/17.0.9esr/win32/en-US/"">older version of Thunderbird</a> and a tool to clean the data. An example of a data cleaning tool for Mac OS is <a href=""http://andreasamann.com/MacOSX/Eudora_Mailbox_Cleaner"">Eudora Mailbox Cleaner</a>.
-</p><p>An alternative to Thunderbird's import wizard is to find a tool to transform your data to mbox format (.mbx), and then use <a href=""https://freeshell.de//~kaosmos/mboximport-en.html"">Import Export Tools</a> add-on in Thunderbird to import the mbox files. One such mbox conversion tool for Eudora is <a href=""http://qwerky.50webs.com/eudorarescue/"">Eudora Rescue</a>.
-</p>
-<h2 id=""w_eudora-is-not-installed"">Eudora is not installed</h2>
-<p>If Eudora is not installed and you want to use the Thunderbird import wizard, you can easily change the Windows registry to point to your Eudora files, then run the import wizard.  
-</p>
-<ul><li> Create a <a href=""https://support.microsoft.com/en-us/kb/310516"">.reg file</a> called eudora.reg containing the following lines. Replace H:\\SCRATCH\\Eudoradata with the location of your Eudora data. (note the double backslashes and the blank line)
-</li></ul>
-<p><code>
-</code></p><pre><code>=== Registry file, adjust file location as required ===
-Windows Registry Editor Version 5.00
-</code></pre><code>
-<pre>[HKEY_CURRENT_USER\Software\Qualcomm\Eudora\CommandLine]
-""Current""=""Anything H:\\SCRATCH\\Eudoradata Anything""
-===
-</pre>
-</code><p><code></code>
-</p>
-<ul><li> In a Windows command prompt, run ""regedit /s eudora.reg"".
-</li><li> Use the Thunderbird import wizard.
-</li></ul>
-<p>
-</p></div><div class=""for"" data-for=""linux"">
-<h1 id=""w_switching-from-evolution-to-thunderbird"">Switching from Evolution to Thunderbird</h1>
-<p>The following instructions describe how to import messages and contacts from Evolution.
-</p>
-<h2 id=""w_importing-evolution-messages"">Importing Evolution Messages</h2>
-<p>Thunderbird and Evolution use the same file format (called mbox) to store your mails, so its not difficult to import them manually.
-</p>
-<ol><li>Open Nautilus.
-</li><li>Open <span class=""filepath"">~/.local/share/evolution/mail/local</span> which is where Evolution store your mails.
-</li><li>Copy all the file without extension (such as <strong>Inbox</strong>, <strong>Outbox</strong>,..) into the emplacement used by Thunderbird to store its mail (something like <span class=""filepath"">~/.thunderbird/uk41lql0.default/Mail/Local Folders</span>,where you need to adapt <em>uk41lql0.default</em> to your own installation).
-</li><li>Launch Thunderbird to check that all your mail have been correctly imported.
-</li></ol>
-<h2 id=""w_importing-evolution-contacts"">Importing Evolution Contacts</h2>
-<ol><li>Open your address book in Evolution, right-click on it and choose: <strong>Save as vcard…</strong> to export it into vCard file format.
-</li><li>In Thunderbird, open the <span class=""menu"">Tools &gt; Import…</span> menu, select <strong>Address Books</strong> and then <strong>vCard file (.vcf)</strong> and select your contact file. 
-</li></ol>
-</div>
-<h1 id=""w_switching-from-web-based-email-applications-to-thunderbird"">Switching from Web-based Email Applications to Thunderbird</h1>
-<p>If you are using a web-based application provided by your Internet Service Provider (ISP) to access your email, you probably only need to configure your account information to switch to Thunderbird. See <a class=""new"" href=""/en-US/kb/new?title=Configure+an+Account"" title=""Page does not exist."">Configure an Account</a> for instructions.
-</p><p>Once you have configured your account in Thunderbird, you should be able to access all your messages (both incoming and sent). However, your address book (contacts), mail filters and other settings will not be automatically transferred to Thunderbird. 
-</p><p>Some web-base email applications allow you to export contacts in text or comma-separated formats. Check your ISP's documentation for more information. To import contacts into Thunderbird, select <span class=""menu"">Tools &gt; Import…</span> and follow the instructions on the screen.
-</p>
-<h1 id=""w_see-also"">See Also</h1>
-<ul><li> <a href=""http://en.flossmanuals.net/thunderbird/account-set-up/"">Account Setup chapter</a> in the Thunderbird FLOSS manual
-</li><li> <a href=""http://en.flossmanuals.net/thunderbird/migrating/"">Migrate to Thunderbird chapter</a> in the Thunderbird FLOSS manual
-</li></ul>",thunderbird,installation-and-updates,"## Table of Contents
-
-- [1 Switching from Apple Mail to Thunderbird](https://support.mozilla.org/kb/switching-thunderbird#w_switching-from-apple-mail-to-thunderbird)
-  - [1.1 Importing Apple Mail messages](https://support.mozilla.org/kb/switching-thunderbird#w_importing-apple-mail-messages)
-  - [1.2 Importing the OS X address book](https://support.mozilla.org/kb/switching-thunderbird#w_importing-the-os-x-address-book)
-
-- [2 Switching from Windows Mail or Windows Live Mail to Thunderbird](https://support.mozilla.org/kb/switching-thunderbird#w_switching-from-windows-mail-or-windows-live-mail-to-thunderbird)
-  - [2.1 Importing Windows Mail Messages](https://support.mozilla.org/kb/switching-thunderbird#w_importing-windows-mail-messages)
-  - [2.2 Importing Windows Mail Contacts](https://support.mozilla.org/kb/switching-thunderbird#w_importing-windows-mail-contacts)
-
-- [3 Importing from Outlook and Eudora](https://support.mozilla.org/kb/switching-thunderbird#w_importing-from-outlook-and-eudora)
-  - [3.1 Eudora is not installed](https://support.mozilla.org/kb/switching-thunderbird#w_eudora-is-not-installed)
-
-- [4 Switching from Evolution to Thunderbird](https://support.mozilla.org/kb/switching-thunderbird#w_switching-from-evolution-to-thunderbird)
-  - [4.1 Importing Evolution Messages](https://support.mozilla.org/kb/switching-thunderbird#w_importing-evolution-messages)
-  - [4.2 Importing Evolution Contacts](https://support.mozilla.org/kb/switching-thunderbird#w_importing-evolution-contacts)
-
-- [5 Switching from Web-based Email Applications to Thunderbird](https://support.mozilla.org/kb/switching-thunderbird#w_switching-from-web-based-email-applications-to-thunderbird)
-- [6 See Also](https://support.mozilla.org/kb/switching-thunderbird#w_see-also)
-
-# Switching from Apple Mail to Thunderbird
-
-Thunderbird can import your messages and OS X address book, but it cannot import your account settings. (Currently, message and address book import is only functional with Apple Mail 5.0 or earlier.)
-
-## Importing Apple Mail messages
-
-1. On the menu bar, open the Tools menu and click on Import. The import wizard will open.  
-  
- ![mac-toolsimport](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-2. Select **Mail** then click Next.  
-  
- ![mac-importwizard](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-3. Select **Apple Mail** then click Next.  
-  
- ![mac-importmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  
-4. You will see a log of successfully imported folders, then click Finish to close the import wizard.  
-  
- ![mac-mailimportedsuccess](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-Your imported messages will appear in the Local Folders account, in a folder called ""_Apple Mail Import_"".  
- ![mac-whereimportedmail](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Importing the OS X address book
-
-Thunderbird will read your OS X address book and display it in the Thunderbird address book window! From the menu bar, open the Window menu and click on Address Book. Your OS X address book will appear in the left pane.  
- ![mac-OSXaddressbook](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-If you want to import it to the Thunderbird address book, just drag and drop entries from the Mac OS X address book folder to the Personal Address Book.
-
-**Note:** You can select all entries at once by holding down the command key and pressing A.
-
-# Switching from Windows Mail or Windows Live Mail to Thunderbird
-
-Windows Mail is the default mail client included with Windows Vista. Windows Live Mail is the email client bundled with Windows Live Essentials. Both client programs store emails in the .eml file format. In order to export messages from Windows Mail or Windows Live Mail to Thunderbird, you must export messages from the Windows application and import them into Thunderbird. A similar method is needed to export contacts from Windows Mail or Windows Live Mail to Thunderbird.
-
-To find the location of the email files in Windows Mail or Windows Live Mail, go to Tools \> Options \> Advanced \> Maintenance \> Store Folder.
-
-If you do not see Tools, try File \> Options \> Mail… \> Advanced \> Maintenance… instead.
-
-## Importing Windows Mail Messages
-
-Importing Windows Mail (.eml files) into Thunderbird is enabled by the third-party add-on ImportExport Tools. [Download](https://addons.mozilla.org/thunderbird/addon/importexporttools/) and install this add-on to transfer messages from Windows Live Mail to Thunderbird.
-
-1. Export your messages from Windows Mail in .eml format.
-2. In Thunderbird, create a folder in ""Local Folders"" to hold your imported mail and select it.
-3. Right click the folder and select ImportExportTools \> Import all messages from a directory \> also from its subdirectories.
-4. Navigate to the .eml files folder. The default location for Windows Live mail is C:\Users\\<username\>\AppData\Local\Microsoft\Windows Live Mail (or \Windows Mail).
-5. Click Open. Your data will be imported.
-
-**Note:** To be able to see the ""AppData"" folder, you must change the Folder Options to ""Show hidden files, folders, and drives"" first. See the Microsoft Support article [Show hidden files](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) for more information.
-
-## Importing Windows Mail Contacts
-
-In order to import Windows contacts into Thunderbird, you must export the contacts to vCard files (.vcf format) and import the files into Thunderbird.
-
-1. In Windows Live Mail, open the Contacts and select all the contacts you wish to export. 
-2. Click on Export \> Business Card (.VCF).
-3. Select an empty directory to save these to.
-
-In Thunderbird, install the [MoreFunctionsForAddressBook](https://freeshell.de/~kaosmos/morecols-en.html) add-on following [these instructions](\""https://support.mozilla.org/en-US/kb/thunderbird-add-ons-frequently-asked-questions#w_how-do-i-install-an-add-on"").
-
-1. Click on Address Book.
-2. Click on the address book you wish to import the contacts into.
-3. Click Tools \> MoreFunctionsForAddressBook \> Actions for Contacts \> Import vCard / VCF.
-4. Browse to the folder where you exported your contacts to.
-5. Select all the contacts you wish to import.
-6. Click Open to import all selected contacts.
-
-Alternatively, if this does not work or is not supported in your case, you can try this:
-
-See the [Export contacts from Outlook](https://support.office.com/en-us/article/export-contacts-from-outlook-10f09abd-643c-4495-bb80-543714eca73f) article at [Microsoft.com](http://Microsoft.com) for instructions on how to export contacts in Windows.
-
-After creating the required file, you can import your contacts using the import wizard:
-
-1. In Thunderbird, go to Tools \> Import….
-2. Choose Address Books and click Next.
-3. Choose _Text file (LDIF, .tab, .csv, .txt)_ and click Next.
-4. Choose _Comma Separated_ (or _All files_) in the drop-down list at the bottom right, browse to the .csv file you just created, select it and click Open.
-5. Wait for the import to finish and click Finish.
-
-In the Import Address Book window that appears, use the Move Up and Move Down buttons to match the address book fields on the left to the correct data for import on the right, and uncheck items you do not want to import. When you are done, click OK. Your contacts should now be imported and ready for use in Thunderbird.
-
-Note that if you are having problems importing the fields properly (like when all record data to import shows up inside the first field row when inside the Import Address Book window), this is probably a result of an exported .csv file containing semicolons instead of commas, or the other way around. This usually happens because the separator in Windows Regional settings does not match the one for the Thunderbird locale, for instance when you exported a .csv file using an English Windows version and try to import it into a non-English version of Thunderbird. In this case, you should make the list separator match in your Regional settings before exporting the .csv file, or you could edit the already exported .csv file using a text editor and replace all semicolons by commas (or vice versa), and retry the import step.
-
-# Importing from Outlook and Eudora
-
-The normal Thunderbird import process requires that you have Eudora or Outlook installed on your computer. If you do not have them installed, there are alternatives as noted below.
-
-To use Thunderbird's import wizard, you must use an older version of Thunderbird, because the wizard is disabled for Outlook and Eudora in Thunderbird version 38 and newer versions. Install [version 31.8](https://ftp.mozilla.org/pub/thunderbird/releases/31.8.0/win32/en-US/), import your data, then upgrade to the latest version of Thunderbird via the built-in [update mechanism](\""https://support.mozilla.org/en-US/kb/updating-thunderbird"").
-
-For Eudora, if you have data problems or crashes, try an even [older version of Thunderbird](http://ftp.mozilla.org/pub/thunderbird/releases/17.0.9esr/win32/en-US/) and a tool to clean the data. An example of a data cleaning tool for Mac OS is [Eudora Mailbox Cleaner](http://andreasamann.com/MacOSX/Eudora_Mailbox_Cleaner).
-
-An alternative to Thunderbird's import wizard is to find a tool to transform your data to mbox format (.mbx), and then use [Import Export Tools](https://freeshell.de//~kaosmos/mboximport-en.html) add-on in Thunderbird to import the mbox files. One such mbox conversion tool for Eudora is [Eudora Rescue](http://qwerky.50webs.com/eudorarescue/).
-
-## Eudora is not installed
-
-If Eudora is not installed and you want to use the Thunderbird import wizard, you can easily change the Windows registry to point to your Eudora files, then run the import wizard.
-
-- Create a [.reg file](https://support.microsoft.com/en-us/kb/310516) called eudora.reg containing the following lines. Replace H:\\SCRATCH\\Eudoradata with the location of your Eudora data. (note the double backslashes and the blank line)
-
-`
-`
-
-    === Registry file, adjust file location as required ===
-    Windows Registry Editor Version 5.00
-
-`
-[HKEY_CURRENT_USER\Software\Qualcomm\Eudora\CommandLine]
-""Current""=""Anything H:\\SCRATCH\\Eudoradata Anything""
-===
-
-`
-
-``
-
-- In a Windows command prompt, run ""regedit /s eudora.reg"".
-- Use the Thunderbird import wizard.
-
-# Switching from Evolution to Thunderbird
-
-The following instructions describe how to import messages and contacts from Evolution.
-
-## Importing Evolution Messages
-
-Thunderbird and Evolution use the same file format (called mbox) to store your mails, so its not difficult to import them manually.
-
-1. Open Nautilus.
-2. Open ~/.local/share/evolution/mail/local which is where Evolution store your mails.
-3. Copy all the file without extension (such as **Inbox** , **Outbox** ,..) into the emplacement used by Thunderbird to store its mail (something like ~/.thunderbird/uk41lql0.default/Mail/Local Folders,where you need to adapt _uk41lql0.default_ to your own installation).
-4. Launch Thunderbird to check that all your mail have been correctly imported.
-
-## Importing Evolution Contacts
-
-1. Open your address book in Evolution, right-click on it and choose: **Save as vcard…** to export it into vCard file format.
-2. In Thunderbird, open the Tools \> Import… menu, select **Address Books** and then **vCard file (.vcf)** and select your contact file. 
-
-# Switching from Web-based Email Applications to Thunderbird
-
-If you are using a web-based application provided by your Internet Service Provider (ISP) to access your email, you probably only need to configure your account information to switch to Thunderbird. See [Configure an Account](\""https://support.mozilla.org/en-US/kb/new?title=Configure+an+Account"" ""Page does not exist."") for instructions.
-
-Once you have configured your account in Thunderbird, you should be able to access all your messages (both incoming and sent). However, your address book (contacts), mail filters and other settings will not be automatically transferred to Thunderbird.
-
-Some web-base email applications allow you to export contacts in text or comma-separated formats. Check your ISP's documentation for more information. To import contacts into Thunderbird, select Tools \> Import… and follow the instructions on the screen.
-
-# See Also
-
-- [Account Setup chapter](http://en.flossmanuals.net/thunderbird/account-set-up/) in the Thunderbird FLOSS manual
-- [Migrate to Thunderbird chapter](http://en.flossmanuals.net/thunderbird/migrating/) in the Thunderbird FLOSS manual
-
-"
-17059,Install Thunderbird on Linux,installing-thunderbird-linux,https://support.mozilla.org/en-US/kb/installing-thunderbird-linux,en-US,This article will show you how to install Thunderbird on Linux.,"<p>This article explains how to download and install Thunderbird on Linux. <span class=""for"" data-for=""mac,win"">This article only applies to Linux. <span class=""for"" data-for=""mac"">For instructions to install Thunderbird on Mac, see <a href=""/en-US/kb/installing-thunderbird-on-mac"">Install Thunderbird on Mac</a>. </span><span class=""for"" data-for=""win"">For instructions to install Thunderbird on Windows, see <a href=""/en-US/kb/installing-thunderbird-windows"">Install Thunderbird on Windows</a>.</span></span>
-</p>
-<div class=""note"">Note: if you have Thunderbird installed via multiple methods (<em>deb</em>, <em>rpm</em>, <em>flatpak</em>, <em>snap</em>, etc. ) you may have multiple application icons that are identical. To avoid this, we recommend installing using only one installation method at a time.</div>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_install-from-flatpak""><span class=""tocnumber"">1</span> <span class=""toctext"">Install from Flatpak</span></a><ul><li class=""toclevel-2""><a href=""#w_how-to-install-with-the-command-line-easier-and-much-cooler""><span class=""tocnumber"">1.1</span> <span class=""toctext"">How to install with the command line (easier and much cooler)</span></a></li><li class=""toclevel-2""><a href=""#w_how-to-install-with-the-graphical-user-interface""><span class=""tocnumber"">1.2</span> <span class=""toctext"">How to install with the Graphical User Interface</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_install-from-snap""><span class=""tocnumber"">2</span> <span class=""toctext"">Install from Snap</span></a></li><li class=""toclevel-1""><a href=""#w_installing-from-your-distribution-package-manager""><span class=""tocnumber"">3</span> <span class=""toctext"">Installing from your distribution package manager</span></a></li><li class=""toclevel-1""><a href=""#w_installing-thunderbird-manually-for-a-specific-release-channel-for-advanced-users""><span class=""tocnumber"">4</span> <span class=""toctext"">Installing Thunderbird manually for a specific release channel (for advanced users)</span></a><ul><li class=""toclevel-2""><a href=""#w_thunderbird-channels""><span class=""tocnumber"">4.1</span> <span class=""toctext"">Thunderbird channels</span></a></li><li class=""toclevel-2""><a href=""#w_changing-channels""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Changing channels</span></a></li><li class=""toclevel-2""><a href=""#w_running-multiple-channels""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Running multiple channels</span></a></li><li class=""toclevel-2""><a href=""#w_installation-location""><span class=""tocnumber"">4.4</span> <span class=""toctext"">Installation location</span></a></li><li class=""toclevel-2""><a href=""#w_installing-other-channels-from-flatpak""><span class=""tocnumber"">4.5</span> <span class=""toctext"">Installing other channels from flatpak</span></a><ul><li class=""toclevel-3""><a href=""#w_system-thunderbird-installation""><span class=""tocnumber"">4.5.1</span> <span class=""toctext"">System Thunderbird installation</span></a></li><li class=""toclevel-3""><a href=""#w_home-thunderbird-installation-local-in-a-users-account""><span class=""tocnumber"">4.5.2</span> <span class=""toctext"">Home Thunderbird installation - local in a user's account</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_set-thunderbird-as-the-default-mail-application""><span class=""tocnumber"">4.6</span> <span class=""toctext"">Set Thunderbird as the default mail application</span></a></li><li class=""toclevel-2""><a href=""#w_thunderbird-icon-is-displayed-as-a-generic-icon""><span class=""tocnumber"">4.7</span> <span class=""toctext"">Thunderbird icon is displayed as a generic icon</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_troubleshooting""><span class=""tocnumber"">5</span> <span class=""toctext"">Troubleshooting</span></a><ul><li class=""toclevel-2""><a href=""#w_snap-profile-issues""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Snap Profile Issues</span></a></li></ul></li></ul></div>
-<h1 id=""w_install-from-flatpak"">Install from Flatpak</h1>
-<p>The <a href=""https://flathub.org/apps/org.mozilla.thunderbird"">Thunderbird flatpak</a> package and tarballs are maintained directly by the Thunderbird staff. Therefore, these tend to be more quickly updated to newer stable versions than other sources.
-</p><p>To install Thunderbird from Flatpak, you will need to install flatpak and setup flathub, if not already on your system. Flathub is the central repository for flatpaks and contains well maintained <a href=""https://flathub.org/setup"">instructions on setting up flatpak installs for various distributions</a>. 
-</p><p>Once flatpak and flathub are all set up, you can either download and install it all from the command line, or separately download the <span class=""filepath"">flatpakref</span> file and head to the command line to install it.
-</p>
-<h2 id=""w_how-to-install-with-the-command-line-easier-and-much-cooler"">How to install with the command line (easier and much cooler)</h2>
-<p><code>
-flatpak install flathub org.mozilla.thunderbird
-</code>
-</p>
-<h2 id=""w_how-to-install-with-the-graphical-user-interface"">How to install with the Graphical User Interface</h2>
-<ol><li> Visit <a href=""https://flathub.org/apps/org.mozilla.thunderbird"">Thunderbird on Flathub</a>.
-</li><li> Click <span class=""button"">Install</span> and follow the instructions. You can find more options in the dropdown menu next to that button, if necessary.
-</li></ol>
-<h1 id=""w_install-from-snap"">Install from Snap</h1>
-<p>The <a href=""https://snapcraft.io/thunderbird"">Thunderbird snap</a> package is maintained by Canonical and Thunderbird. 
-</p><p>To install Thunderbird from Snap:
-</p>
-<ol><li> <a href=""https://snapcraft.io/docs/installing-snapd"">Install Snap</a> on your computer.
-</li><li> Visit <a href=""https://snapcraft.io/thunderbird"">Snapcraft's Store page</a>.
-</li><li> Click <span class=""button"">Install</span> and follow the instructions.
-</li></ol>
-<h1 id=""w_installing-from-your-distribution-package-manager"">Installing from your distribution package manager</h1>
-<p>Linux distributions normally create packages for installing Mozilla Thunderbird easily, using tools that are included with the Linux distribution. The package may contain modifications for better integration with the operating system. Maintainers of the Linux distribution control when new updates of their Thunderbird software are made available, so there may be a delay between when your distribution provides a newest available version or update compared to when an official new version or update is available at <a href=""https://www.thunderbird.net"">Thunderbird.net</a> or in the flatpak. Your distribution may also provide Thunderbird without the Thunderbird branding.
-</p><p>To install Thunderbird using your distribution package manager, please refer to your Linux distribution's documentation. This method has the benefit of ensuring that Thunderbird and all the required libraries are installed and configured optimally for your distribution. 
-</p>
-<h1 id=""w_installing-thunderbird-manually-for-a-specific-release-channel-for-advanced-users"">Installing Thunderbird manually for a specific release channel (for advanced users)</h1>
-<div class=""note""><strong>NOTE</strong>: This instruction set is for users that wish to install for troubleshooting purposes or to use a specific <a href=""#w_thunderbird-channels"">release channel</a>, for example beta or daily. Unless you know what you are doing and are familiar with using a command line, please install Thunderbird using one of the methods previously described.</div>
-<h2 id=""w_thunderbird-channels"">Thunderbird channels</h2>
-<p>Thunderbird offers four channels: <strong>Release</strong> (also known as Monthly, available March 2025), <strong>ESR</strong> (annual major releases), <strong>Beta</strong>, and <strong>Daily</strong>. These are compared at <a href=""/en-US/kb/choosing-thunderbird-release-channel"">How to select a Thunderbird release channel</a>, with further information and tips in the articles about <a href=""/en-US/kb/thunderbird-beta"">Thunderbird Beta</a>, <a href=""/en-US/kb/thunderbird-daily"">Thunderbird Daily</a>. Please make sure your computer has the required libraries installed. Missing libraries may cause Thunderbird to be inoperable or unreliable. The requirement list can vary by channel: <a href=""https://www.thunderbird.net/thunderbird/128.8.0esr/system-requirements/"">ESR requirements</a>, <a href=""https://www.thunderbird.net/thunderbird/136.0/system-requirements/"">Release, Beta, Daily requirements</a>.
-</p>
-<h2 id=""w_changing-channels"">Changing channels</h2>
-<p>It is possible to change channels and keep using your existing Thunderbird data, for example to go from ESR to Release. But if you want to use a different channel and not change your existing Thunderbird data to that channel, see <a href=""#w_running-multiple-channels"">Running multiple channels</a>. When changing channels you will want avoid complications and protect your profile data:
-</p>
-<ul><li> Backup your <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">Thunderbird profile data</a>.
-</li><li> Only move to a channel which offers a higher or equal version number. Therefore, the possible progressions are to go from ESR to Release, Release to Beta, and Beta to Daily. Once your profile data has been loaded with a newer version, you will not be able to load it with a lower version.
-</li><li> You must install the newer version in the <strong>exact same</strong> installation directory name as the older version. If using the <strong>system</strong> method below, do <code>rm -rf /opt/thunderbird</code> and then install the chosen download into <span class=""filepath"">/opt/thunderbird/</span>. If using the <strong>home</strong> method below, do <code>rm -rf $HOME/thunderbird</code> and then install the chosen download into <span class=""filepath"">$HOME/thunderbird/</span>.
-</li></ul>
-<h2 id=""w_running-multiple-channels"">Running multiple channels</h2>
-<p>It is possible to have multiple channels of Thunderbird installed, and even run them simultaneously. Each must be installed in a <strong>different</strong> installation directory, which will force <a href=""/en-US/kb/dedicated-profile-thunderbird-installation"">multiple Thunderbird data profiles to be used</a> in order to protect and keep your data separated.
-</p>
-<h2 id=""w_installation-location"">Installation location</h2>
-<p>When installing Thunderbird manually, you can choose to install it either in the <strong>system</strong> or <strong>home</strong> folder. Below you will find instructions for both.
-</p>
-<h2 id=""w_installing-other-channels-from-flatpak"">Installing other channels from flatpak</h2>
-<p><strong>Thunderbird Beta</strong> is available through flathub beta. Flathub maintains <a href=""https://docs.flathub.org/docs/for-users/installation"">instructions for adding and using the flathub beta repository</a>. Once configured, you can install Thunderbird Beta from the command line.
-</p><p><code>
-flatpak install flathub-beta org.mozilla.thunderbird
-</code>
-</p><p><strong>Thunderbird ESR</strong> is available through flathub stable, the same our our standard release channel. It can be installed using the command line as follows:
-</p><p><code>
-flatpak install flathub org.mozilla.thunderbird_esr
-</code>
-</p><p>Alternatively, if you'd like to use the graphical interface:
-</p>
-<ol><li> Visit <a href=""https://flathub.org/apps/org.mozilla.thunderbird_esr"">Thunderbird ESR on Flathub</a>.
-</li><li> Click <span class=""button"">Install</span> and follow the instructions. You can find more options in the dropdown menu next to that button, if necessary.
-</li></ol>
-<h3 id=""w_system-thunderbird-installation"">System Thunderbird installation</h3>
-<div class=""note"">
-<ul><li> To install Thunderbird with this method, you <strong>must be</strong> able to login as root or execute <code>sudo</code> commands.
-</li><li> This installation will have priority over the Thunderbird version installed through your package manager. To run the version installed with your package manager, you will need to execute the binary from a terminal. To do so in most distributions, open a terminal and type: <code>/usr/bin/thunderbird</code>.
-</li></ul>
-</div>
-<ol><li>Download your choice of installation channel from the <a href=""https://thunderbird.net/download/"">download page</a>. The file will be in the form of <span class=""filepath"">thunderbird-&lt;version&gt;.tar.xz</span>.
-</li><li>Open a terminal and go to the folder where your download has been saved. For example:<br><code>cd ~/Downloads</code>
-</li><li>Extract the downloaded file contents. This will create a folder named <span class=""filepath"">thunderbird</span>. After that, you can delete the archive:<br><code>sudo tar -xvf thunderbird-*.tar.xz -C /opt/<br>rm thunderbird-*.tar.xz</code>
-</li><li>Create a symlink to the Thunderbird executable:<br><code>sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird</code>
-</li><li>Download a copy of the desktop file:<br><code>wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications</code>
-</li></ol>
-<p>Alternatively, if <code>wget</code> is not installed on your computer, go to the URL mentioned above, right-click on the page to open the contextual menu and select <span class=""menu"">Save Page As</span>. After you downloaded the file, move it to <span class=""filepath"">/usr/local/share/applications</span>.
-</p><p>To confirm everything is installed correctly, open Thunderbird from the newly created desktop file, and go to <span class=""menu"">≡</span> &gt; <span class=""menu"">Help</span> &gt; <span class=""menu"">Troubleshooting Information</span>. In the <em>Application Basics</em> section of the <em>Troubleshooting Information</em> page, the value of <em>Application Binary</em> should be <code>/opt/thunderbird/thunderbird-bin</code>
-</p>
-<h3 id=""w_home-thunderbird-installation-local-in-a-users-account"">Home Thunderbird installation - local in a user's account</h3>
-<p>If you don't have access to login as root or execute <code>sudo</code> commands, or just prefer to use a local Thunderbird in your account, you can make a local installation. You can also do this to have multiple Thunderbird installations for different builds.
-</p>
-<ol><li>Download your choice of installation channel from the <a href=""https://thunderbird.net/download/"">download page</a>. The file will be in the form of <span class=""filepath"">thunderbird-&lt;version&gt;.tar.bz2</span>.
-</li><li>Open a terminal and go to the folder where your download has been saved. For example:<br><code>cd ~/Downloads</code>
-</li><li>Extract the downloaded file contents. This will create a folder named <span class=""filepath"">thunderbird</span>. After that, you can delete the archive:<br><code>tar xjf thunderbird-*.tar.bz2<br>rm thunderbird-*.tar.bz2</code>
-</li><li>If you have downloaded a specific build, you may want to rename the uncompressed folder accordingly. For example:<br><code>mv thunderbird thunderbird-beta</code>
-</li><li>You can leave the uncompressed folder in your <span class=""filepath"">download</span> folder, or move it to another place in your account. For example:<br><code>mv thunderbird $HOME/thunderbird</code>
-</li><li>Thunderbird is now ready to be used. You can run it directly from the terminal:<br><code>$HOME/thunderbird/thunderbird &amp;</code>
-</li><li>Create a desktop shortcut. Note this step may be different in your Linux distribution. (Some Linux distros will allow you to right-click on the desktop and choose <span class=""menu"">Create launcher</span> from the context menu):<br><code>wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P $HOME/.local/share/applications/</code>
-</li><li>Since the icon for the desktop shortcut will be found in <span class=""filepath"">$HOME/thunderbird/chrome/icons/default/</span> and the executable is in <span class=""filepath"">$HOME/thunderbird</span>, we need to change these lines in our desktop file that we just downloaded:<br><code>sed -i.bak -e ""s|Exec=thunderbird %u|Exec=$HOME/thunderbird/thunderbird %u|"" $HOME/.local/share/applications/thunderbird.desktop<br><br>sed -i.bak -e ""s|Icon=/opt/thunderbird/chrome/icons/default/default128.png|Icon=$HOME/thunderbird/chrome/icons/default/default128.png|"" $HOME/.local/share/applications/thunderbird.desktop</code>
-</li></ol>
-<p>Now, your Thunderbird application icon should be found among your other applications and you can launch Thunderbird as you expect.
-</p>
-<h2 id=""w_set-thunderbird-as-the-default-mail-application"">Set Thunderbird as the default mail application</h2>
-<p>This step adds the required <a href=""https://specifications.freedesktop.org/mime-apps-spec/latest-single/#associations"">MIME-type associations</a> that enable you to select Thunderbird as the default mail application in your desktop settings.
-</p>
-<ol><li> Open <span class=""filepath"">~/.config/mimeapps.list</span> with your text editor and scroll down to the section named <code>[Added Associations]</code>.
-</li><li> Find the MIME type <code>x-scheme-handler/mailto</code> and append <code>thunderbird.desktop</code> to it.
-</li></ol>
-<p>The <span class=""filepath"">.desktop</span> file you downloaded earlier defines some extra MIME types for Thunderbird, such as <code>application/x-xpinstall</code> (for handling Thunderbird extensions); so the example below will include it. There are a number of other types commonly defined by packagers (<a href=""https://hg-edge.mozilla.org/releases/comm-release/file/tip/taskcluster/docker/tb-flatpak/org.mozilla.Thunderbird.appdata.xml.in"">¹</a> <a href=""https://git.launchpad.net/~desktop-snappers/thunderbird/+git/snap/tree/snap/gui/thunderbird.desktop?h=stable-core24"">²</a> <a href=""https://gitlab.archlinux.org/archlinux/packaging/packages/thunderbird/-/blob/141.0-1/org.mozilla.Thunderbird.desktop?ref_type=tags"">³</a>); by adding <code>text/calendar</code>, for example, the GNOME desktop will list Thunderbird as an option for <em>Calendar</em>.
-</p><p><code>
-[Added Associations]
-<br>
-x-scheme-handler/mailto=thunderbird.desktop;
-<br>
-application/x-xpinstall=thunderbird.desktop;
-</code>
-</p><p>So far we've only defined what Thunderbird <em>can</em> handle, which is enough to get it listed as an option in your desktop settings. When you select a certain app as the default handler for a task, you're actually writing to the other section named <code>[Default Applications]</code>. This can be done with a GUI provided by your desktop; by manually editing <span class=""filepath"">~/.config/mimeapps.list</span>, as we've been doing; or on the command-line. The CLI usage is described below.
-</p><p><code>
-xdg-mime default thunderbird.desktop x-scheme-handler/mailto
-<br>
-xdg-mime default thunderbird.desktop application/x-xpinstall
-</code>
-</p><p>If you skip the type associations we've manually added to the section <code>[Added Associations]</code>, the default app selection will still work, but the Thunderbird option will be gone as soon as you decide to change the default handler to something else. By following these steps, Thunderbird will always be listed as a default app candidate.
-</p>
-<h2 id=""w_thunderbird-icon-is-displayed-as-a-generic-icon"">Thunderbird icon is displayed as a generic icon</h2>
-<p>If you are using GNOME and the Thunderbird icon is displayed as a generic icon (e.g., a gear icon), additional configuration of the <code>thunderbird.desktop</code> launcher is required. The following ensures the correct application icon is displayed for Thunderbird.
-</p><p>Identify the <code>wmclass</code> for Thunderbird:
-</p>
-<ol><li> Press <code>Alt+F2</code> while Thunderbird is running to launch the run command console.
-</li><li> Type <code>lg</code> and press Enter.
-</li><li> In the window that appears, click on <code>Windows</code> in the upper-right corner.
-</li><li> Locate Thunderbird's <code>wmclass</code> in the displayed list.
-</li></ol>
-<p>Modify the <code>thunderbird.desktop</code> launcher:
-</p>
-<ol><li> Open the <code>thunderbird.desktop</code> file in a text editor.
-</li><li> In the <code>[Desktop Entry]</code> section, add or update the <code>StartupWMClass</code> key to include the <code>wmclass</code> value you found earlier. For example: <code>StartupWMClass=thunderbird-esr</code>
-</li></ol>
-<h1 id=""w_troubleshooting"">Troubleshooting</h1>
-<h2 id=""w_snap-profile-issues"">Snap Profile Issues</h2>
-<p>If you <em>DO NOT</em> have an already existing Thunderbird profile in your home directory, then the snap will generate and use a profile located in the Thunderbird snap location: <span class=""filepath"">~/snap/thunderbird/common/.thunderbird</span>.
-</p><p>If you <em>DO</em> have an already existing Thunderbird profile in your home directory, then the snap will use it.
-</p><p>If for some reason you feel like your normal profile (whichever profile location you've been using) is not being used, here are some steps you can take to try and recover:
-</p>
-<ol><li> Remove the snap. When snapd removes a snap from your system, it automatically makes a backup of that snap and stores it in the <span class=""filepath"">/var/lib/snapd/snapshots/</span> directory. If your profile directory was inside the snap at <span class=""filepath"">~/snap/thunderbird/common/.thunderbird</span>, then the backup can take a while (because profile directories can be quite large). Be patient while the backup is generated. (Note that this is not the only way to create a backup. You can manually intiate a backup with <code>snap save thunderbird</code>)
-</li><li> Make sure there is no existing <span class=""filepath"">~/.thunderbird</span> profile directory:<br><code>$ mv ~/.thunderbird ~/.thunderbird-backup</code>
-</li><li> Re-install the Thunderbird snap:<br><code>$ sudo snap install thunderbird</code>
-</li><li> Restore from your snapshot. This will apply the thunderbird profile inside that snapshot to your fresh snap install. Look in the <span class=""filepath"">/var/lib/snapd/snapshots/</span> directory to locate the most recent snapshot or the one you want to use. The leading number corresponds to the snapshot number. For example if there is a <span class=""filepath"">/var/lib/snapd/snapshots/14_thunderbird_128.11.0esr-1_735.zip</span>, the restore command would be:<br><code>$ sudo snap restore 14</code>
-</li></ol>
-<p><a href=""https://snapcraft.io/docs/snapshots"">You can read more about snap snapshots here.</a>
-</p>",thunderbird,installation-and-updates,"This article explains how to download and install Thunderbird on Linux. This article only applies to Linux. For instructions to install Thunderbird on Mac, see [Install Thunderbird on Mac](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac""). For instructions to install Thunderbird on Windows, see [Install Thunderbird on Windows](\""https://support.mozilla.org/en-US/kb/installing-thunderbird-windows"").
-
-Note: if you have Thunderbird installed via multiple methods (_deb_, _rpm_, _flatpak_, _snap_, etc. ) you may have multiple application icons that are identical. To avoid this, we recommend installing using only one installation method at a time.
-
-## Table of Contents
-
-- [1 Install from Flatpak](https://support.mozilla.org/kb/installing-thunderbird-linux#w_install-from-flatpak)
-  - [1.1 How to install with the command line (easier and much cooler)](https://support.mozilla.org/kb/installing-thunderbird-linux#w_how-to-install-with-the-command-line-easier-and-much-cooler)
-  - [1.2 How to install with the Graphical User Interface](https://support.mozilla.org/kb/installing-thunderbird-linux#w_how-to-install-with-the-graphical-user-interface)
-
-- [2 Install from Snap](https://support.mozilla.org/kb/installing-thunderbird-linux#w_install-from-snap)
-- [3 Installing from your distribution package manager](https://support.mozilla.org/kb/installing-thunderbird-linux#w_installing-from-your-distribution-package-manager)
-- [4 Installing Thunderbird manually for a specific release channel (for advanced users)](https://support.mozilla.org/kb/installing-thunderbird-linux#w_installing-thunderbird-manually-for-a-specific-release-channel-for-advanced-users)
-  - [4.1 Thunderbird channels](https://support.mozilla.org/kb/installing-thunderbird-linux#w_thunderbird-channels)
-  - [4.2 Changing channels](https://support.mozilla.org/kb/installing-thunderbird-linux#w_changing-channels)
-  - [4.3 Running multiple channels](https://support.mozilla.org/kb/installing-thunderbird-linux#w_running-multiple-channels)
-  - [4.4 Installation location](https://support.mozilla.org/kb/installing-thunderbird-linux#w_installation-location)
-  - [4.5 Installing other channels from flatpak](https://support.mozilla.org/kb/installing-thunderbird-linux#w_installing-other-channels-from-flatpak)
-    - [4.5.1 System Thunderbird installation](https://support.mozilla.org/kb/installing-thunderbird-linux#w_system-thunderbird-installation)
-    - [4.5.2 Home Thunderbird installation - local in a user's account](https://support.mozilla.org/kb/installing-thunderbird-linux#w_home-thunderbird-installation-local-in-a-users-account)
-
-  - [4.6 Set Thunderbird as the default mail application](https://support.mozilla.org/kb/installing-thunderbird-linux#w_set-thunderbird-as-the-default-mail-application)
-  - [4.7 Thunderbird icon is displayed as a generic icon](https://support.mozilla.org/kb/installing-thunderbird-linux#w_thunderbird-icon-is-displayed-as-a-generic-icon)
-
-- [5 Troubleshooting](https://support.mozilla.org/kb/installing-thunderbird-linux#w_troubleshooting)
-  - [5.1 Snap Profile Issues](https://support.mozilla.org/kb/installing-thunderbird-linux#w_snap-profile-issues)
-
-# Install from Flatpak
-
-The [Thunderbird flatpak](https://flathub.org/apps/org.mozilla.thunderbird) package and tarballs are maintained directly by the Thunderbird staff. Therefore, these tend to be more quickly updated to newer stable versions than other sources.
-
-To install Thunderbird from Flatpak, you will need to install flatpak and setup flathub, if not already on your system. Flathub is the central repository for flatpaks and contains well maintained [instructions on setting up flatpak installs for various distributions](https://flathub.org/setup).
-
-Once flatpak and flathub are all set up, you can either download and install it all from the command line, or separately download the flatpakref file and head to the command line to install it.
-
-## How to install with the command line (easier and much cooler)
-
-`
-flatpak install flathub org.mozilla.thunderbird
-`
-
-## How to install with the Graphical User Interface
-
-1. Visit [Thunderbird on Flathub](https://flathub.org/apps/org.mozilla.thunderbird).
-2. Click Install and follow the instructions. You can find more options in the dropdown menu next to that button, if necessary.
-
-# Install from Snap
-
-The [Thunderbird snap](https://snapcraft.io/thunderbird) package is maintained by Canonical and Thunderbird.
-
-To install Thunderbird from Snap:
-
-1. [Install Snap](https://snapcraft.io/docs/installing-snapd) on your computer.
-2. Visit [Snapcraft's Store page](https://snapcraft.io/thunderbird).
-3. Click Install and follow the instructions.
-
-# Installing from your distribution package manager
-
-Linux distributions normally create packages for installing Mozilla Thunderbird easily, using tools that are included with the Linux distribution. The package may contain modifications for better integration with the operating system. Maintainers of the Linux distribution control when new updates of their Thunderbird software are made available, so there may be a delay between when your distribution provides a newest available version or update compared to when an official new version or update is available at [Thunderbird.net](https://www.thunderbird.net) or in the flatpak. Your distribution may also provide Thunderbird without the Thunderbird branding.
-
-To install Thunderbird using your distribution package manager, please refer to your Linux distribution's documentation. This method has the benefit of ensuring that Thunderbird and all the required libraries are installed and configured optimally for your distribution.
-
-# Installing Thunderbird manually for a specific release channel (for advanced users)
-
-**NOTE** : This instruction set is for users that wish to install for troubleshooting purposes or to use a specific [release channel](https://support.mozilla.org/kb/installing-thunderbird-linux#w_thunderbird-channels), for example beta or daily. Unless you know what you are doing and are familiar with using a command line, please install Thunderbird using one of the methods previously described.
-
-## Thunderbird channels
-
-Thunderbird offers four channels: **Release** (also known as Monthly, available March 2025), **ESR** (annual major releases), **Beta** , and **Daily**. These are compared at [How to select a Thunderbird release channel](\""https://support.mozilla.org/en-US/kb/choosing-thunderbird-release-channel""), with further information and tips in the articles about [Thunderbird Beta](\""https://support.mozilla.org/en-US/kb/thunderbird-beta""), [Thunderbird Daily](\""https://support.mozilla.org/en-US/kb/thunderbird-daily""). Please make sure your computer has the required libraries installed. Missing libraries may cause Thunderbird to be inoperable or unreliable. The requirement list can vary by channel: [ESR requirements](https://www.thunderbird.net/thunderbird/128.8.0esr/system-requirements/), [Release, Beta, Daily requirements](https://www.thunderbird.net/thunderbird/136.0/system-requirements/).
-
-## Changing channels
-
-It is possible to change channels and keep using your existing Thunderbird data, for example to go from ESR to Release. But if you want to use a different channel and not change your existing Thunderbird data to that channel, see [Running multiple channels](https://support.mozilla.org/kb/installing-thunderbird-linux#w_running-multiple-channels). When changing channels you will want avoid complications and protect your profile data:
-
-- Backup your [Thunderbird profile data](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data"").
-- Only move to a channel which offers a higher or equal version number. Therefore, the possible progressions are to go from ESR to Release, Release to Beta, and Beta to Daily. Once your profile data has been loaded with a newer version, you will not be able to load it with a lower version.
-- You must install the newer version in the **exact same** installation directory name as the older version. If using the **system** method below, do `rm -rf /opt/thunderbird` and then install the chosen download into /opt/thunderbird/. If using the **home** method below, do `rm -rf $HOME/thunderbird` and then install the chosen download into $HOME/thunderbird/.
-
-## Running multiple channels
-
-It is possible to have multiple channels of Thunderbird installed, and even run them simultaneously. Each must be installed in a **different** installation directory, which will force [multiple Thunderbird data profiles to be used](\""https://support.mozilla.org/en-US/kb/dedicated-profile-thunderbird-installation"") in order to protect and keep your data separated.
-
-## Installation location
-
-When installing Thunderbird manually, you can choose to install it either in the **system** or **home** folder. Below you will find instructions for both.
-
-## Installing other channels from flatpak
-
-**Thunderbird Beta** is available through flathub beta. Flathub maintains [instructions for adding and using the flathub beta repository](https://docs.flathub.org/docs/for-users/installation). Once configured, you can install Thunderbird Beta from the command line.
-
-`
-flatpak install flathub-beta org.mozilla.thunderbird
-`
-
-**Thunderbird ESR** is available through flathub stable, the same our our standard release channel. It can be installed using the command line as follows:
-
-`
-flatpak install flathub org.mozilla.thunderbird_esr
-`
-
-Alternatively, if you'd like to use the graphical interface:
-
-1. Visit [Thunderbird ESR on Flathub](https://flathub.org/apps/org.mozilla.thunderbird_esr).
-2. Click Install and follow the instructions. You can find more options in the dropdown menu next to that button, if necessary.
-
-### System Thunderbird installation
-
-- To install Thunderbird with this method, you **must be** able to login as root or execute `sudo` commands.
-- This installation will have priority over the Thunderbird version installed through your package manager. To run the version installed with your package manager, you will need to execute the binary from a terminal. To do so in most distributions, open a terminal and type: `/usr/bin/thunderbird`.
-
-1. Download your choice of installation channel from the [download page](https://thunderbird.net/download/). The file will be in the form of thunderbird-\<version\>.tar.xz.
-2. Open a terminal and go to the folder where your download has been saved. For example:  
-`cd ~/Downloads`
-3. Extract the downloaded file contents. This will create a folder named thunderbird. After that, you can delete the archive:  
-`sudo tar -xvf thunderbird-*.tar.xz -C /opt/rm thunderbird-*.tar.xz`
-4. Create a symlink to the Thunderbird executable:  
-`sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird`
-5. Download a copy of the desktop file:  
-`wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications`
-
-Alternatively, if `wget` is not installed on your computer, go to the URL mentioned above, right-click on the page to open the contextual menu and select Save Page As. After you downloaded the file, move it to /usr/local/share/applications.
-
-To confirm everything is installed correctly, open Thunderbird from the newly created desktop file, and go to ≡ \> Help \> Troubleshooting Information. In the _Application Basics_ section of the _Troubleshooting Information_ page, the value of _Application Binary_ should be `/opt/thunderbird/thunderbird-bin`
-
-### Home Thunderbird installation - local in a user's account
-
-If you don't have access to login as root or execute `sudo` commands, or just prefer to use a local Thunderbird in your account, you can make a local installation. You can also do this to have multiple Thunderbird installations for different builds.
-
-1. Download your choice of installation channel from the [download page](https://thunderbird.net/download/). The file will be in the form of thunderbird-\<version\>.tar.bz2.
-2. Open a terminal and go to the folder where your download has been saved. For example:  
-`cd ~/Downloads`
-3. Extract the downloaded file contents. This will create a folder named thunderbird. After that, you can delete the archive:  
-`tar xjf thunderbird-*.tar.bz2rm thunderbird-*.tar.bz2`
-4. If you have downloaded a specific build, you may want to rename the uncompressed folder accordingly. For example:  
-`mv thunderbird thunderbird-beta`
-5. You can leave the uncompressed folder in your download folder, or move it to another place in your account. For example:  
-`mv thunderbird $HOME/thunderbird`
-6. Thunderbird is now ready to be used. You can run it directly from the terminal:  
-`$HOME/thunderbird/thunderbird &`
-7. Create a desktop shortcut. Note this step may be different in your Linux distribution. (Some Linux distros will allow you to right-click on the desktop and choose Create launcher from the context menu):  
-`wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P $HOME/.local/share/applications/`
-8. Since the icon for the desktop shortcut will be found in $HOME/thunderbird/chrome/icons/default/ and the executable is in $HOME/thunderbird, we need to change these lines in our desktop file that we just downloaded:  
-`sed -i.bak -e ""s|Exec=thunderbird %u|Exec=$HOME/thunderbird/thunderbird %u|"" $HOME/.local/share/applications/thunderbird.desktopsed -i.bak -e ""s|Icon=/opt/thunderbird/chrome/icons/default/default128.png|Icon=$HOME/thunderbird/chrome/icons/default/default128.png|"" $HOME/.local/share/applications/thunderbird.desktop`
-
-Now, your Thunderbird application icon should be found among your other applications and you can launch Thunderbird as you expect.
-
-## Set Thunderbird as the default mail application
-
-This step adds the required [MIME-type associations](https://specifications.freedesktop.org/mime-apps-spec/latest-single/#associations) that enable you to select Thunderbird as the default mail application in your desktop settings.
-
-1. Open ~/.config/mimeapps.list with your text editor and scroll down to the section named `[Added Associations]`.
-2. Find the MIME type `x-scheme-handler/mailto` and append `thunderbird.desktop` to it.
-
-The .desktop file you downloaded earlier defines some extra MIME types for Thunderbird, such as `application/x-xpinstall` (for handling Thunderbird extensions); so the example below will include it. There are a number of other types commonly defined by packagers ([¹](https://hg-edge.mozilla.org/releases/comm-release/file/tip/taskcluster/docker/tb-flatpak/org.mozilla.Thunderbird.appdata.xml.in) [²](https://git.launchpad.net/~desktop-snappers/thunderbird/+git/snap/tree/snap/gui/thunderbird.desktop?h=stable-core24) [³](https://gitlab.archlinux.org/archlinux/packaging/packages/thunderbird/-/blob/141.0-1/org.mozilla.Thunderbird.desktop?ref_type=tags)); by adding `text/calendar`, for example, the GNOME desktop will list Thunderbird as an option for _Calendar_.
-
-`
-[Added Associations]
-
-x-scheme-handler/mailto=thunderbird.desktop;
-
-application/x-xpinstall=thunderbird.desktop;
-`
-
-So far we've only defined what Thunderbird _can_ handle, which is enough to get it listed as an option in your desktop settings. When you select a certain app as the default handler for a task, you're actually writing to the other section named `[Default Applications]`. This can be done with a GUI provided by your desktop; by manually editing ~/.config/mimeapps.list, as we've been doing; or on the command-line. The CLI usage is described below.
-
-`
-xdg-mime default thunderbird.desktop x-scheme-handler/mailto
-
-xdg-mime default thunderbird.desktop application/x-xpinstall
-`
-
-If you skip the type associations we've manually added to the section `[Added Associations]`, the default app selection will still work, but the Thunderbird option will be gone as soon as you decide to change the default handler to something else. By following these steps, Thunderbird will always be listed as a default app candidate.
-
-## Thunderbird icon is displayed as a generic icon
-
-If you are using GNOME and the Thunderbird icon is displayed as a generic icon (e.g., a gear icon), additional configuration of the `thunderbird.desktop` launcher is required. The following ensures the correct application icon is displayed for Thunderbird.
-
-Identify the `wmclass` for Thunderbird:
-
-1. Press `Alt+F2` while Thunderbird is running to launch the run command console.
-2. Type `lg` and press Enter.
-3. In the window that appears, click on `Windows` in the upper-right corner.
-4. Locate Thunderbird's `wmclass` in the displayed list.
-
-Modify the `thunderbird.desktop` launcher:
-
-1. Open the `thunderbird.desktop` file in a text editor.
-2. In the `[Desktop Entry]` section, add or update the `StartupWMClass` key to include the `wmclass` value you found earlier. For example: `StartupWMClass=thunderbird-esr`
-
-# Troubleshooting
-
-## Snap Profile Issues
-
-If you _DO NOT_ have an already existing Thunderbird profile in your home directory, then the snap will generate and use a profile located in the Thunderbird snap location: ~/snap/thunderbird/common/.thunderbird.
-
-If you _DO_ have an already existing Thunderbird profile in your home directory, then the snap will use it.
-
-If for some reason you feel like your normal profile (whichever profile location you've been using) is not being used, here are some steps you can take to try and recover:
-
-1. Remove the snap. When snapd removes a snap from your system, it automatically makes a backup of that snap and stores it in the /var/lib/snapd/snapshots/ directory. If your profile directory was inside the snap at ~/snap/thunderbird/common/.thunderbird, then the backup can take a while (because profile directories can be quite large). Be patient while the backup is generated. (Note that this is not the only way to create a backup. You can manually intiate a backup with `snap save thunderbird`)
-2. Make sure there is no existing ~/.thunderbird profile directory:  
-`$ mv ~/.thunderbird ~/.thunderbird-backup`
-3. Re-install the Thunderbird snap:  
-`$ sudo snap install thunderbird`
-4. Restore from your snapshot. This will apply the thunderbird profile inside that snapshot to your fresh snap install. Look in the /var/lib/snapd/snapshots/ directory to locate the most recent snapshot or the one you want to use. The leading number corresponds to the snapshot number. For example if there is a /var/lib/snapd/snapshots/14\_thunderbird\_128.11.0esr-1\_735.zip, the restore command would be:  
-`$ sudo snap restore 14`
-
-[You can read more about snap snapshots here.](https://snapcraft.io/docs/snapshots)
 
 "
 17060,Install Thunderbird on Mac,installing-thunderbird-on-mac,https://support.mozilla.org/en-US/kb/installing-thunderbird-on-mac,en-US,This article describes how to install Thunderbird on Mac OS.,"<p>This article describes how to install Thunderbird on Mac. For other operating systems, see <a href=""/en-US/kb/installing-thunderbird-windows"">Install Thunderbird on Windows</a> and <a href=""/en-US/kb/installing-thunderbird-linux"">Install Thunderbird on Linux</a>.
@@ -61542,134 +61154,6 @@ You can report an extension or theme directly in Firefox or on the [AMO product 
 Your abuse report is sent to the Firefox add-ons team for review. If they confirm that the extension or theme is abusing the Mozilla add-on policies or conditions of use, the extension or theme is removed from [addons.mozilla.org](https://addons.mozilla.org) until the developer fixes the issues. Depending on the history and severity of the abuse, the add-ons team may issue a block that prevents the extension or theme from loading in Firefox. For more information, see [Why does Mozilla disable some add-ons from running in Firefox?](\""https://support.mozilla.org/en-US/kb/add-ons-cause-issues-are-on-blocklist"")
 
 "
-40709,The difference between IMAP and POP3,difference-between-imap-and-pop3,https://support.mozilla.org/en-US/kb/difference-between-imap-and-pop3,en-US,Thunderbird gives users the choice between using IMAP or POP3. This documentation will explain the major differences between these protocols.,"<p>When adding an email account to Thunderbird, you can decide between <em>IMAP (remote folders)</em> and <em>POP3 (keep mail on your computer)</em>. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
-</p>
-<ul><li> <strong>IMAP:</strong> Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
-</li><li> <strong>POP3:</strong> New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the <a href=""/en-US/kb/configuration-options-accounts#w_server-settings-panel"">Thunderbird Server Settings panel</a> for your account. 
-</li></ul>
-<p><strong>We recommend using IMAP.</strong>
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-to-consider""><span class=""tocnumber"">1</span> <span class=""toctext"">What to consider</span></a></li><li class=""toclevel-1""><a href=""#w_what-is-imap-and-pop3""><span class=""tocnumber"">2</span> <span class=""toctext"">What is IMAP and POP3?</span></a><ul><li class=""toclevel-2""><a href=""#w_imap""><span class=""tocnumber"">2.1</span> <span class=""toctext"">IMAP</span></a></li><li class=""toclevel-2""><a href=""#w_pop3""><span class=""tocnumber"">2.2</span> <span class=""toctext"">POP3</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_changing-your-account""><span class=""tocnumber"">3</span> <span class=""toctext"">Changing your account</span></a></li></ul></div>
-<h1 id=""w_what-to-consider"">What to consider</h1>
-<p>To help you decide for yourself, here are some things to consider:
-</p>
-<ul><li> <strong>Do you want to access the account from more than one device?</strong> Choose IMAP.
-</li><li> <strong>Do you want to access the account from a web browser?</strong> Choose IMAP.
-</li><li> <strong>Does your email provider support IMAP or POP3?</strong> Most of them support both, but you should verify first.
-</li><li> <strong>What is the size limit of your mailbox?</strong> Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
-</li><li> <strong>Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?</strong> Choose POP3.
-</li></ul>
-<h1 id=""w_what-is-imap-and-pop3"">What is IMAP and POP3?</h1>
-<h2 id=""w_imap"">IMAP</h2>
-<p>IMAP stands for <strong>I</strong>nternet <strong>M</strong>ail <strong>A</strong>ccess <strong>P</strong>rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
-</p><p>Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
-</p><p>Changes made in Thunderbird are replicated to all imap connected devices.
-</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, even though your mail is stored on a remote server.
-</p>
-<h2 id=""w_pop3"">POP3</h2>
-<p>POP3 stands for <strong>P</strong>ost <strong>O</strong>ffice <strong>P</strong>rotocol (version <strong>3</strong>). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
-</p><p>To protect against dataloss, and perhaps also for legal reasons, you should frequently <a href=""/en-US/kb/profiles-where-thunderbird-stores-user-data"">back up your Thunderbird profile</a>, especially because your mail is <strong>not</strong> stored on a remote server.
-</p>
-<h1 id=""w_changing-your-account"">Changing your account</h1>
-<p>Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
-</p><p>See <a href=""/en-US/kb/automatic-account-configuration"">Automatic Account Configuration</a> to add a new mail account automatically or <a href=""/en-US/kb/manual-account-configuration"">Manual Account Configuration</a> to manually configure a new mail account.
-</p>",thunderbird,email-and-messaging;import-and-export-email;settings,"When adding an email account to Thunderbird, you can decide between _IMAP (remote folders)_ and _POP3 (keep mail on your computer)_. IMAP and POP3 are different methods (often referred to as protocols) of accessing your email.
-
-- **IMAP:** Messages and folders are kept on the server. Changes made in Thunderbird are mirrored on the server, and changes on the server are mirrored to Thunderbird.
-- **POP3:** New incoming messages are in a mailbox (Inbox) on the server, which Thunderbird downloads to store on your computer, and Thunderbird immediately removes from the server unless you choose otherwise from the [Thunderbird Server Settings panel](\""https://support.mozilla.org/en-US/kb/configuration-options-accounts#w_server-settings-panel"") for your account. 
-
-**We recommend using IMAP.**
-
-## Table of Contents
-
-- [1 What to consider](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-to-consider)
-- [2 What is IMAP and POP3?](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_what-is-imap-and-pop3)
-  - [2.1 IMAP](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_imap)
-  - [2.2 POP3](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_pop3)
-
-- [3 Changing your account](https://support.mozilla.org/kb/difference-between-imap-and-pop3#w_changing-your-account)
-
-# What to consider
-
-To help you decide for yourself, here are some things to consider:
-
-- **Do you want to access the account from more than one device?** Choose IMAP.
-- **Do you want to access the account from a web browser?** Choose IMAP.
-- **Does your email provider support IMAP or POP3?** Most of them support both, but you should verify first.
-- **What is the size limit of your mailbox?** Most mail providers provide more than enough space to keep everything on the server, but if you plan on storing more than 15GB, choose POP3.
-- **Are you typically on a high latency or extremely high cost connection (such as satellite), or rarely have an internet connection?** Choose POP3.
-
-# What is IMAP and POP3?
-
-## IMAP
-
-IMAP stands for **I** nternet **M** ail **A** ccess **P** rotocol, which is more modern than POP3. It is a two-way protocol that copies your email from a remote server to Thunderbird, while preserving the original copy of the mail on the remote server. Changes to these email messages, such as marking them as read, adding or removing labels or tags, or moving them to a different folder, will be replicated on the remote server.
-
-Emails that have been downloaded to Thunderbird from the remote server are available for use in Thunderbird when there is no internet connection. Changes made in Thunderbird while there is no internet connection will be synchronized with the remote server when Thunderbird reconnects to the internet.
-
-Changes made in Thunderbird are replicated to all imap connected devices.
-
-To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), even though your mail is stored on a remote server.
-
-## POP3
-
-POP3 stands for **P** ost **O** ffice **P** rotocol (version **3** ). It is a one-way protocol that downloads your email from a remote server to Thunderbird and deletes the email from the remote server (after 7 days by default in Thunderbird). Changes to these email messages in Thunderbird, such as marking them as read or moving them to a different folder, are not replicated on the remote server, and are only applied to your local computer running Thunderbird.
-
-To protect against dataloss, and perhaps also for legal reasons, you should frequently [back up your Thunderbird profile](\""https://support.mozilla.org/en-US/kb/profiles-where-thunderbird-stores-user-data""), especially because your mail is **not** stored on a remote server.
-
-# Changing your account
-
-Thunderbird does not currently offer a way to convert your existing IMAP account to POP3 or vice versa. In order to change your account to a different protocol, you will need to add the account onto Thunderbird again.
-
-See [Automatic Account Configuration](\""https://support.mozilla.org/en-US/kb/automatic-account-configuration"") to add a new mail account automatically or [Manual Account Configuration](\""https://support.mozilla.org/en-US/kb/manual-account-configuration"") to manually configure a new mail account.
-
-"
-40755,Change themes in Firefox for iOS,change-themes-firefox-ios,https://support.mozilla.org/en-US/kb/change-themes-firefox-ios,en-US,Learn how to switch between light and dark themes on Firefox for iOS.,"<p>Firefox for iOS has built in dark and light themes as well as Website Dark Mode, so you can customize its appearance. Learn more about changing your theme.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_set-theme-to-light-or-dark""><span class=""tocnumber"">1</span> <span class=""toctext"">Set theme to light or dark</span></a></li><li class=""toclevel-1""><a href=""#w_enable-website-dark-mode""><span class=""tocnumber"">2</span> <span class=""toctext"">Enable Website Dark Mode</span></a></li></ul></div>
-<h1 id=""w_set-theme-to-light-or-dark"">Set theme to light or dark</h1>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""button"">Website dark mode</span> in the menu panel.
-<dl><dt><img alt=""websitedarkmode"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-17-07-48-53-72d25d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li>You can also tap <span class=""button"">Settings</span> in the menu panel.
-</li><li>Tap <span class=""menu"">Theme</span> in the <em>General</em> section.
-</li><li>By default, <strong>Use System Light/Dark Mode</strong> will be enabled. Use the toggle to turn this off to choose your theme display mode.
-</li></ol>
-<ul><li> <strong>Automatically</strong>: Firefox can switch between light and dark themes automatically based on screen brightness by selecting <span class=""menu"">Automatically</span>, then select your display brightness threshold to adjust the levels used under <em>Threshold</em>.
-</li><li> <strong>Manually</strong>: To pick the theme you want, enable <span class=""menu"">Manually</span> and then choose either <span class=""menu"">Light</span> or <span class=""menu"">Dark</span> under <em>Theme Picker</em>.
-</li></ul>
-<h1 id=""w_enable-website-dark-mode"">Enable Website Dark Mode</h1>
-<p>Learn more about <a href=""/en-US/kb/night-mode-firefox-ios"">Website Dark Mode in Firefox for iOS</a>.
-</p>",ios,settings,"Firefox for iOS has built in dark and light themes as well as Website Dark Mode, so you can customize its appearance. Learn more about changing your theme.
-
-## Table of Contents
-
-- [1 Set theme to light or dark](https://support.mozilla.org/kb/change-themes-firefox-ios#w_set-theme-to-light-or-dark)
-- [2 Enable Website Dark Mode](https://support.mozilla.org/kb/change-themes-firefox-ios#w_enable-website-dark-mode)
-
-# Set theme to light or dark
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. Tap Website dark mode in the menu panel.<dl><dt>
-<img alt=""websitedarkmode"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-17-07-48-53-72d25d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-3. You can also tap Settings in the menu panel.
-4. Tap Theme in the _General_ section.
-5. By default, **Use System Light/Dark Mode** will be enabled. Use the toggle to turn this off to choose your theme display mode.
-
-- **Automatically** : Firefox can switch between light and dark themes automatically based on screen brightness by selecting Automatically, then select your display brightness threshold to adjust the levels used under _Threshold_.
-- **Manually** : To pick the theme you want, enable Manually and then choose either Light or Dark under _Theme Picker_.
-
-# Enable Website Dark Mode
-
-Learn more about [Website Dark Mode in Firefox for iOS](\""https://support.mozilla.org/en-US/kb/night-mode-firefox-ios"").
-
-"
 40882,Calendar updates issues with Thunderbird,calendar-updates-issues-thunderbird,https://support.mozilla.org/en-US/kb/calendar-updates-issues-thunderbird,en-US,Common calendar update issues for Thunderbird with the Lightning add-on and recommendations to deal with them.,"<p>If a Thunderbird update resulted in Lightning (calendar) not working, you might find your issue and a recommendation how to deal with it listed below. (Seamonkey users may use these instructions, but details might be slightly different.)
 </p><p>Some linux distributions like Redhat and Fedora package (bundle) Lightning with Thunderbird, and users should be able to use the instructions below. But Linux users of other distributions who installed Lightning by using the distro's package manager may need <a href=""#w_i-am-on-linux-and-lightning-disappeared-after-thunderbird-got-updated-release-and-beta-channel"">Linux package instructions</a>.
 </p><p>Background: Since version 38 the Lightning calendar extension is bundled with Thunderbird, meaning the Lightning extension comes with Thunderbird and you do not need to download the extension. For versions prior to Thunderbird 38 you will want to download the extension from <a href=""https://developer.mozilla.org/en-US/docs/Mozilla/Calendar/Calendar_Versions"">Calendar versions</a>.
@@ -68794,6 +68278,186 @@ To prevent CAs that have been added to the operating system from being automatic
 
 1. In the _about:config_ page, search for **enterprise** as explained above.
 2. Click the _Toggle_ ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button next to the preference security.enterprise\_roots.enabled to change its value from true to **false**.
+
+"
+44810,Sync logins in Firefox for iOS,sync-logins-firefox-ios,https://support.mozilla.org/en-US/kb/sync-logins-firefox-ios,en-US,How to enable logins sync on Firefox for iOS so that you can access your logins across other synced devices.,"<p>Enable logins sync on Firefox for iOS so that you can access your logins across other synced devices. This is also a necessary step when you're using Firefox as a system-wide password autofill.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_set-up-automatic-sync""><span class=""tocnumber"">1</span> <span class=""toctext"">Set up automatic sync</span></a></li><li class=""toclevel-1""><a href=""#w_manually-sync-your-logins""><span class=""tocnumber"">2</span> <span class=""toctext"">Manually sync your logins</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
+<h1 id=""w_set-up-automatic-sync"">Set up automatic sync</h1>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Settings</span> in the menu panel.
+
+</li><li>Tap your Mozilla account to open Manage Account &amp; Devices.(You might need to sign in first).
+</li><li>Tap the switch next to <em>Logins</em> to enable it (<img alt=""switchonios"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-01-22-03-04-3327d9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>)
+</li></ol>
+<h1 id=""w_manually-sync-your-logins"">Manually sync your logins</h1>
+<p>Firefox for iOS will sync automatically at regular intervals but you can also force  a manual sync.
+</p>
+<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+</p>
+<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+</li><li>Tap the Sync button (you might need to sign in first).
+</li></ol>
+<dl><dt><img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/where-are-my-synced-tabs-firefox-ios"">Where are my synced tabs in Firefox for iOS?</a>
+</li><li><a href=""/en-US/kb/firefox-sync-takes-too-long-sync-or-send-pages-ios"">Firefox Sync takes too long to sync or send pages from my iPhone or iPad</a>
+</li></ul>",ios,sync-data,"Enable logins sync on Firefox for iOS so that you can access your logins across other synced devices. This is also a necessary step when you're using Firefox as a system-wide password autofill.
+
+## Table of Contents
+
+- [1 Set up automatic sync](https://support.mozilla.org/kb/sync-logins-firefox-ios#w_set-up-automatic-sync)
+- [2 Manually sync your logins](https://support.mozilla.org/kb/sync-logins-firefox-ios#w_manually-sync-your-logins)
+- [3 Related articles](https://support.mozilla.org/kb/sync-logins-firefox-ios#w_related-articles)
+
+# Set up automatic sync
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap Settings in the menu panel.
+3. Tap your Mozilla account to open Manage Account & Devices.(You might need to sign in first).
+4. Tap the switch next to _Logins_ to enable it ( ![switchonios](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif))
+
+# Manually sync your logins
+
+Firefox for iOS will sync automatically at regular intervals but you can also force a manual sync.
+
+1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
+
+2. Tap the Sync button (you might need to sign in first).
+
+<dl><dt>
+<img alt=""syncnow"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-08-08-42-cff928.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
+</dt></dl>
+# Related articles
+
+- [Where are my synced tabs in Firefox for iOS?](\""https://support.mozilla.org/en-US/kb/where-are-my-synced-tabs-firefox-ios"")
+- [Firefox Sync takes too long to sync or send pages from my iPhone or iPad](\""https://support.mozilla.org/en-US/kb/firefox-sync-takes-too-long-sync-or-send-pages-ios"")
+
+"
+44842,How to set up Firefox Sync in Firefox for Android,how-set-firefox-sync-firefox-android,https://support.mozilla.org/en-US/kb/how-set-firefox-sync-firefox-android,en-US,"Learn how to enable sync on Firefox for Android to sync your bookmarks, payment methods, history, passwords and open tabs across your devices.","<p>Sign in to your Mozilla account on Firefox for Android to sync your bookmarks, credit cards, history, logins and open tabs across your devices.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_sign-in-to-your-mozilla-account""><span class=""tocnumber"">1</span> <span class=""toctext"">Sign in to your Mozilla account</span></a><ul><li class=""toclevel-2""><a href=""#w_option-1-pair-your-mobile-browser-with-firefox-desktop""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Option 1: Pair your mobile browser with Firefox desktop</span></a></li><li class=""toclevel-2""><a href=""#w_option-2-log-in-with-credentials""><span class=""tocnumber"">1.2</span> <span class=""toctext"">Option 2: Log in with credentials</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_choose-what-to-sync""><span class=""tocnumber"">2</span> <span class=""toctext"">Choose what to sync</span></a></li><li class=""toclevel-1""><a href=""#w_connect-to-a-self-hosted-mozilla-account-server""><span class=""tocnumber"">3</span> <span class=""toctext"">Connect to a self-hosted Mozilla account server</span></a></li></ul></div>
+<h1 id=""w_sign-in-to-your-mozilla-account"">Sign in to your Mozilla account</h1>
+<h2 id=""w_option-1-pair-your-mobile-browser-with-firefox-desktop"">Option 1: Pair your mobile browser with Firefox desktop</h2>
+<p>To sync your bookmarks, payment methods, history, passwords and open tabs with Firefox Sync using a Mozilla account and QR code:
+</p><p><strong>On your Firefox desktop:</strong>
+</p>
+<ol><li>Go to <a href=""https://firefox.com/pair"">firefox.com/pair</a>. You may need to sign in to your Mozilla account, if you haven't yet.
+<ul><li>If you do not have an existing Mozilla account, just enter your email address and click <span class=""button"">Sign up or sign in</span> to create one. For additional information, see <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Access Mozilla services with a Mozilla account</a>.
+</li></ul>
+</li><li>Choose the option <strong>I already have Firefox for mobile</strong> by clicking on it and select the <span class=""button"">Continue</span> button. Firefox will open the <strong>Sync Firefox on your phone or tablet</strong> dialog in your <em>about:preferences</em> window.
+</li></ol>
+<p><strong>On your Firefox for Android app:</strong>
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Sign in</span>.
+</li><li>Tap <span class=""button"">Ready to scan</span>.
+</li><li>Point your device's camera toward the QR code on your desktop.
+</li></ol>
+<h2 id=""w_option-2-log-in-with-credentials"">Option 2: Log in with credentials</h2>
+<p>To sync your bookmarks, payment methods, history, passwords and open tabs with Firefox Sync by simply signing in to your Mozilla account:
+</p>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Sign in</span>.
+</li><li>Tap <span class=""button"">Use email instead</span>.
+</li><li>Enter your Mozilla account credentials when prompted.
+<ul><li>If you do not have an existing Mozilla account, enter your email address when prompted and tap <span class=""button"">Sign up or sign in</span> to create one. For additional information, see <a href=""/en-US/kb/access-mozilla-services-firefox-account"">Access Mozilla services with a Mozilla account</a>.
+</li></ul>
+</li></ol>
+<h1 id=""w_choose-what-to-sync"">Choose what to sync</h1>
+<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
+
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap your email address.
+</li><li>Put a check mark next to the types of information you want to sync.
+</li></ol>
+<div class=""note""><strong>Note:</strong> Firefox Sync is <strong>not an online backup tool</strong> but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see <a href=""/en-US/kb/back-and-restore-information-firefox-profiles"">Manually back up and restore Firefox profile data</a>.</div>
+<h1 id=""w_connect-to-a-self-hosted-mozilla-account-server"">Connect to a self-hosted Mozilla account server</h1>
+<p>To customize your Mozilla account server settings:
+</p>
+<ol><li>Open the Firefox for Android menu.
+</li><li>Tap <span class=""menu"">Settings</span>.
+</li><li>Tap <span class=""menu"">About Firefox</span>.
+</li><li>Tap the Firefox icon 5 times.
+</li><li>Go back.
+</li><li>Tap <span class=""menu"">Sync Debug</span>.
+</li><li>Tap <span class=""menu"">Custom Mozilla account server</span> and enter your content server URL (for example: <code>https://www.fxa.example.local</code>).
+</li><li>Tap <span class=""menu"">Custom Sync server</span> and enter your sync server URL (for example: <code>https://token.fxa.example.local/token/1.0/sync/1.5</code>).
+</li><li>Tap <span class=""menu"">✕ Stop Firefox</span> that appeared in the menu. The server changes will take effect when you run Firefox again.
+</li></ol>",mobile;mozilla-account,backup-recovery-and-sync;privacy-and-security;settings;sync-data,"Sign in to your Mozilla account on Firefox for Android to sync your bookmarks, credit cards, history, logins and open tabs across your devices.
+
+## Table of Contents
+
+- [1 Sign in to your Mozilla account](https://support.mozilla.org/kb/how-set-firefox-sync-firefox-android#w_sign-in-to-your-mozilla-account)
+  - [1.1 Option 1: Pair your mobile browser with Firefox desktop](https://support.mozilla.org/kb/how-set-firefox-sync-firefox-android#w_option-1-pair-your-mobile-browser-with-firefox-desktop)
+  - [1.2 Option 2: Log in with credentials](https://support.mozilla.org/kb/how-set-firefox-sync-firefox-android#w_option-2-log-in-with-credentials)
+
+- [2 Choose what to sync](https://support.mozilla.org/kb/how-set-firefox-sync-firefox-android#w_choose-what-to-sync)
+- [3 Connect to a self-hosted Mozilla account server](https://support.mozilla.org/kb/how-set-firefox-sync-firefox-android#w_connect-to-a-self-hosted-mozilla-account-server)
+
+# Sign in to your Mozilla account
+
+## Option 1: Pair your mobile browser with Firefox desktop
+
+To sync your bookmarks, payment methods, history, passwords and open tabs with Firefox Sync using a Mozilla account and QR code:
+
+**On your Firefox desktop:**
+
+1. Go to [firefox.com/pair](https://firefox.com/pair). You may need to sign in to your Mozilla account, if you haven't yet.
+  - If you do not have an existing Mozilla account, just enter your email address and click Sign up or sign in to create one. For additional information, see [Access Mozilla services with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+
+2. Choose the option **I already have Firefox for mobile** by clicking on it and select the Continue button. Firefox will open the **Sync Firefox on your phone or tablet** dialog in your _about:preferences_ window.
+
+**On your Firefox for Android app:**
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Sign in.
+3. Tap Ready to scan.
+4. Point your device's camera toward the QR code on your desktop.
+
+## Option 2: Log in with credentials
+
+To sync your bookmarks, payment methods, history, passwords and open tabs with Firefox Sync by simply signing in to your Mozilla account:
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Sign in.
+3. Tap Use email instead.
+4. Enter your Mozilla account credentials when prompted.
+  - If you do not have an existing Mozilla account, enter your email address when prompted and tap Sign up or sign in to create one. For additional information, see [Access Mozilla services with a Mozilla account](\""https://support.mozilla.org/en-US/kb/access-mozilla-services-firefox-account"").
+
+# Choose what to sync
+
+1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
+  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+2. Tap Settings.
+3. Tap your email address.
+4. Put a check mark next to the types of information you want to sync.
+
+**Note:** Firefox Sync is **not an online backup tool** but is designed to enable you to sync browsing data between two or more Firefox installations. To save a backup of your data, see [Manually back up and restore Firefox profile data](\""https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles"").
+
+# Connect to a self-hosted Mozilla account server
+
+To customize your Mozilla account server settings:
+
+1. Open the Firefox for Android menu.
+2. Tap Settings.
+3. Tap About Firefox.
+4. Tap the Firefox icon 5 times.
+5. Go back.
+6. Tap Sync Debug.
+7. Tap Custom Mozilla account server and enter your content server URL (for example: `https://www.fxa.example.local`).
+8. Tap Custom Sync server and enter your sync server URL (for example: `https://token.fxa.example.local/token/1.0/sync/1.5`).
+9. Tap ✕ Stop Firefox that appeared in the menu. The server changes will take effect when you run Firefox again.
 
 "
 45053,Collections in Firefox,collections-firefox,https://support.mozilla.org/en-US/kb/collections-firefox,en-US,Learn how to use the Collections feature.,"<p>
@@ -112666,6 +112330,201 @@ These features can be disabled or customized by following these instructions:
 Firefox 140 is the next ESR and will be released on June 24, 2025.
 
 "
+67270,Orbit Frequently Asked Questions,orbit-frequently-asked-questions,https://support.mozilla.org/en-US/kb/orbit-frequently-asked-questions,en-US,This article addresses frequently asked questions about Orbit.,"<div class=""warning""><strong>Important:</strong> Orbit is no longer available as of June 26, 2025.</div>
+<p>Orbit is a free Firefox add on that allows you to quickly summarize emails, docs, articles, and video transcripts across the web without sacrificing your privacy. Orbit also lets you interact with the content, meaning you can pose specific questions and get quick responses based on the page’s information.
+</p><p>Orbit works directly on websites including Google Docs, Gmail, Wikipedia, NY Times, YouTube, and more, so you don’t have to copy and paste text into another tool or switch between tabs.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-does-orbit-work""><span class=""tocnumber"">1</span> <span class=""toctext"">How does Orbit work?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-install-orbit""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I install Orbit?</span></a></li><li class=""toclevel-1""><a href=""#w_what-languages-does-orbit-support""><span class=""tocnumber"">3</span> <span class=""toctext"">What languages does Orbit support?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-orbit-maintain-my-privacy""><span class=""tocnumber"">4</span> <span class=""toctext"">How does Orbit maintain my privacy?</span></a></li><li class=""toclevel-1""><a href=""#w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated""><span class=""tocnumber"">5</span> <span class=""toctext"">Does Orbit save the content of the pages I visit or content summaries generated?</span></a></li><li class=""toclevel-1""><a href=""#w_do-i-need-to-create-an-account-to-use-orbit""><span class=""tocnumber"">6</span> <span class=""toctext"">Do I need to create an account to use Orbit?</span></a></li><li class=""toclevel-1""><a href=""#w_is-my-personal-information-used-to-train-the-ai-models""><span class=""tocnumber"">7</span> <span class=""toctext"">Is my personal information used to train the AI models?</span></a></li><li class=""toclevel-1""><a href=""#w_if-you-dont-train-the-models-how-will-the-service-improve""><span class=""tocnumber"">8</span> <span class=""toctext"">If you don't train the models, how will the service improve?</span></a></li><li class=""toclevel-1""><a href=""#w_how-does-orbit-make-money""><span class=""tocnumber"">9</span> <span class=""toctext"">How does Orbit make money?</span></a></li><li class=""toclevel-1""><a href=""#w_why-is-mozilla-building-an-ai-content-summarizer""><span class=""tocnumber"">10</span> <span class=""toctext"">Why is Mozilla building an AI content summarizer?</span></a></li></ul></div>
+<h1 id=""w_how-does-orbit-work"">How does Orbit work?</h1>
+<p>Orbit uses AI to summarize and answer queries about web content, such as articles and video transcripts. When a user asks Orbit to summarize or query content, Orbit gathers the context (for example text, images, videos, etc.) of the page the user is viewing and provides a summary or answer.
+</p><p>The current version of Orbit uses a Mistral LLM (Mistral 7B) hosted within Mozilla’s GCP instance.
+</p>
+<h1 id=""w_how-do-i-install-orbit"">How do I install Orbit?</h1>
+<p>You can install Orbit from <a href=""https://addons.mozilla.org/firefox/addon/orbit-summarizer/"">the Firefox Add-on store</a> – it's free!
+</p>
+<h1 id=""w_what-languages-does-orbit-support"">What languages does Orbit support?</h1>
+<p>The beta version of Orbit currently only supports English, though we’re working on adding support for more languages.
+</p>
+<h1 id=""w_how-does-orbit-maintain-my-privacy"">How does Orbit maintain my privacy?</h1>
+<p>Orbit maintains your privacy in several ways:
+</p>
+<ul><li> It does not require account creation to use.
+</li><li> No personal information is tied to your sessions.
+</li><li> The context of the data we capture when you summarize a page is always encrypted.
+</li><li> The moment you move away from the page, that data is destroyed/purged.
+</li><li> Your data is not used to tune/train the AI models that power Orbit.
+</li><li> Even the feedback provided while using the extension is shared anonymously.
+</li></ul>
+<h1 id=""w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated"">Does Orbit save the content of the pages I visit or content summaries generated?</h1>
+<p>No, it does not.
+</p><p>When you use Orbit, we receive a payload back that contains the contents of your query; information about the model queried (such as the name and version number); information about technical problems with processing the query, if any; the number of tokens required to process the query; and the model outputs in response to the query. We do not store this data beyond temporarily caching it to process your query and return the outputs to you.
+</p><p>Orbit summaries are only available on the page that you are actually on. As soon as you navigate away from that page, Orbit erases the session.
+</p>
+<h1 id=""w_do-i-need-to-create-an-account-to-use-orbit"">Do I need to create an account to use Orbit?</h1>
+<p>No, you can use Orbit without creating an account.
+</p>
+<h1 id=""w_is-my-personal-information-used-to-train-the-ai-models"">Is my personal information used to train the AI models?</h1>
+<p>No, it is not. The Mistral 7B LLM used to support Orbit is hosted by Mozilla, and the queries are never shared with Mistral or any other services.
+</p>
+<h1 id=""w_if-you-dont-train-the-models-how-will-the-service-improve"">If you don't train the models, how will the service improve?</h1>
+<p>We have built Orbit to remain agnostic about which model we use, and we are constantly benchmarking the most recent open source models available. This allows us to easily swap out models as technology improves.
+</p>
+<h1 id=""w_how-does-orbit-make-money"">How does Orbit make money?</h1>
+<p>The beta version of Orbit does not currently drive revenue for Mozilla. We are presently focused on building, testing and improving the free product to make it as helpful as possible to users. In the future, we may provide a Premium version of Orbit in addition to the free version to recuperate our operating expenses.
+</p>
+<h1 id=""w_why-is-mozilla-building-an-ai-content-summarizer"">Why is Mozilla building an AI content summarizer?</h1>
+<p>The internet is an incredible resource, but it can also be overwhelming. Every day, we’re bombarded with long-winded articles, endless email threads, dense research papers and video transcripts that feel like they go on forever.
+</p><p>We built Orbit as a way to help filter the noise so that our users can focus on what is most important to them. There are very technical AI models and solutions available in the market today for a wide range of use cases.
+</p><p>Orbit’s focus is limited because we wanted to build an AI tool that was simple, safe, and most importantly, private.
+</p>",firefox,add-ons-extensions-and-themes;settings," **Important:** Orbit is no longer available as of June 26, 2025.
+
+Orbit is a free Firefox add on that allows you to quickly summarize emails, docs, articles, and video transcripts across the web without sacrificing your privacy. Orbit also lets you interact with the content, meaning you can pose specific questions and get quick responses based on the page’s information.
+
+Orbit works directly on websites including Google Docs, Gmail, Wikipedia, NY Times, YouTube, and more, so you don’t have to copy and paste text into another tool or switch between tabs.
+
+## Table of Contents
+
+- [1 How does Orbit work?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-work)
+- [2 How do I install Orbit?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-do-i-install-orbit)
+- [3 What languages does Orbit support?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_what-languages-does-orbit-support)
+- [4 How does Orbit maintain my privacy?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-maintain-my-privacy)
+- [5 Does Orbit save the content of the pages I visit or content summaries generated?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_does-orbit-save-the-content-of-the-pages-i-visit-or-content-summaries-generated)
+- [6 Do I need to create an account to use Orbit?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_do-i-need-to-create-an-account-to-use-orbit)
+- [7 Is my personal information used to train the AI models?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_is-my-personal-information-used-to-train-the-ai-models)
+- [8 If you don't train the models, how will the service improve?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_if-you-dont-train-the-models-how-will-the-service-improve)
+- [9 How does Orbit make money?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_how-does-orbit-make-money)
+- [10 Why is Mozilla building an AI content summarizer?](https://support.mozilla.org/kb/orbit-frequently-asked-questions#w_why-is-mozilla-building-an-ai-content-summarizer)
+
+# How does Orbit work?
+
+Orbit uses AI to summarize and answer queries about web content, such as articles and video transcripts. When a user asks Orbit to summarize or query content, Orbit gathers the context (for example text, images, videos, etc.) of the page the user is viewing and provides a summary or answer.
+
+The current version of Orbit uses a Mistral LLM (Mistral 7B) hosted within Mozilla’s GCP instance.
+
+# How do I install Orbit?
+
+You can install Orbit from [the Firefox Add-on store](https://addons.mozilla.org/firefox/addon/orbit-summarizer/) – it's free!
+
+# What languages does Orbit support?
+
+The beta version of Orbit currently only supports English, though we’re working on adding support for more languages.
+
+# How does Orbit maintain my privacy?
+
+Orbit maintains your privacy in several ways:
+
+- It does not require account creation to use.
+- No personal information is tied to your sessions.
+- The context of the data we capture when you summarize a page is always encrypted.
+- The moment you move away from the page, that data is destroyed/purged.
+- Your data is not used to tune/train the AI models that power Orbit.
+- Even the feedback provided while using the extension is shared anonymously.
+
+# Does Orbit save the content of the pages I visit or content summaries generated?
+
+No, it does not.
+
+When you use Orbit, we receive a payload back that contains the contents of your query; information about the model queried (such as the name and version number); information about technical problems with processing the query, if any; the number of tokens required to process the query; and the model outputs in response to the query. We do not store this data beyond temporarily caching it to process your query and return the outputs to you.
+
+Orbit summaries are only available on the page that you are actually on. As soon as you navigate away from that page, Orbit erases the session.
+
+# Do I need to create an account to use Orbit?
+
+No, you can use Orbit without creating an account.
+
+# Is my personal information used to train the AI models?
+
+No, it is not. The Mistral 7B LLM used to support Orbit is hosted by Mozilla, and the queries are never shared with Mistral or any other services.
+
+# If you don't train the models, how will the service improve?
+
+We have built Orbit to remain agnostic about which model we use, and we are constantly benchmarking the most recent open source models available. This allows us to easily swap out models as technology improves.
+
+# How does Orbit make money?
+
+The beta version of Orbit does not currently drive revenue for Mozilla. We are presently focused on building, testing and improving the free product to make it as helpful as possible to users. In the future, we may provide a Premium version of Orbit in addition to the free version to recuperate our operating expenses.
+
+# Why is Mozilla building an AI content summarizer?
+
+The internet is an incredible resource, but it can also be overwhelming. Every day, we’re bombarded with long-winded articles, endless email threads, dense research papers and video transcripts that feel like they go on forever.
+
+We built Orbit as a way to help filter the noise so that our users can focus on what is most important to them. There are very technical AI models and solutions available in the market today for a wide range of use cases.
+
+Orbit’s focus is limited because we wanted to build an AI tool that was simple, safe, and most importantly, private.
+
+"
+67315,How to use AI-enhanced tab groups,how-use-ai-enhanced-tab-groups,https://support.mozilla.org/en-US/kb/how-use-ai-enhanced-tab-groups,en-US,Firefox allows you to create tab groups,"<p></p><div class=""note"">
+<p><span class=""for"" data-for=""fx""><img alt=""progressive rollout banner"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-01-28-12-46-04-f31ad5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+This feature is only available in English locales worldwide.
+</p>
+</div>
+<p></p><p><img alt=""Smart tab groups updated"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-23-11-16-48-dd5b83.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</p>
+<h1 id=""w_finding-group-name-and-tab-suggestions"">Finding group name and tab suggestions</h1>
+<ol><li>To create a tab group:
+<ul><li>Drag and drop a tab on top of another, or
+</li><li>Right-click a tab and select <span class=""menu"">Add Tab to New Group</span>.
+</li></ul>
+</li><li>Open more tabs, similar to the group you just created.
+</li><li>Right-click the tab group name to open the <em>Manage tab group</em> panel.
+</li><li>If there are tabs that we can suggest for this group based on similarity, you’ll see a <span class=""button"">Suggest more of my tabs</span> button. Select it to view suggestions.
+<ul><li>If you’re using AI-enhanced tab groups for the first time, it may take a moment to find suggestions for a group name and tabs.
+</li><li>AI will suggest names and tabs based on similar open tabs in a single window.
+</li></ul>
+</li><li>You’ll see a suggested name and tabs that could be added to the group you just created. Keep the name or tabs that work best for your group.
+</li><li>You can turn suggested tabs on or off in settings.
+<ul><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">General</span> panel and go to the <strong>Tabs</strong> section.
+<dl><dt><span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li>Select or deselect the option <strong>Use AI to suggest tabs and a name for tab groups:</strong>
+</li></ul>
+</li></ol>
+<div class=""warning"">
+<h2 id=""w_things-to-keep-in-mind"">Things to keep in mind</h2>
+<ul><li>Firefox uses a local AI model to read your open tabs’ titles and descriptions to suggest more tabs and group names. Everything happens on your device.
+</li><li>Tab groups enhanced by AI operate entirely within your browser, keeping everything on your device. AI on your device respects your privacy and makes it quicker to provide suggested tab groups and names. Specific URLs you visit are not shared with Firefox.
+</li><li>AI can sometimes make mistakes, so it’s best to review the suggested group name and tabs.
+</li></ul>
+</div>
+<h1 id=""w_related-articles"">Related articles</h1>
+<ul><li><a href=""/en-US/kb/tab-groups"">Tab groups in Firefox</a>
+</li></ul>",firefox,artificial-intelligence;browse;tabs,"![progressive rollout banner](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)This feature is only available in English locales worldwide.
+
+![Smart tab groups updated](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Finding group name and tab suggestions
+
+1. To create a tab group:
+  - Drag and drop a tab on top of another, or
+  - Right-click a tab and select Add Tab to New Group.
+
+2. Open more tabs, similar to the group you just created.
+3. Right-click the tab group name to open the _Manage tab group_ panel.
+4. If there are tabs that we can suggest for this group based on similarity, you’ll see a Suggest more of my tabs button. Select it to view suggestions.
+  - If you’re using AI-enhanced tab groups for the first time, it may take a moment to find suggestions for a group name and tabs.
+  - AI will suggest names and tabs based on similar open tabs in a single window.
+
+5. You’ll see a suggested name and tabs that could be added to the group you just created. Keep the name or tabs that work best for your group.
+6. You can turn suggested tabs on or off in settings.
+  - In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+  - Select the General panel and go to the **Tabs** section.<dl><dt>
+<span class=""for"" data-for=""win""><img alt=""Fx142TabSettings-win"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-59-01-8ea51c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""mac""><img alt=""Fx142TabSettings-mac"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-03-05-42-55-14ff5d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""linux""><img alt=""Fx142TabSettings-linux"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-10-08-34-16-aff160.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+  - Select or deselect the option **Use AI to suggest tabs and a name for tab groups:**
+
+## Things to keep in mind
+
+- Firefox uses a local AI model to read your open tabs’ titles and descriptions to suggest more tabs and group names. Everything happens on your device.
+- Tab groups enhanced by AI operate entirely within your browser, keeping everything on your device. AI on your device respects your privacy and makes it quicker to provide suggested tab groups and names. Specific URLs you visit are not shared with Firefox.
+- AI can sometimes make mistakes, so it’s best to review the suggested group name and tabs.
+
+# Related articles
+
+- [Tab groups in Firefox](\""https://support.mozilla.org/en-US/kb/tab-groups"")
+
+"
 67328,Forum taxonomy guideline,forum-taxonomy-guideline,https://support.mozilla.org/en-US/kb/forum-taxonomy-guideline,en-US,This page provides instructions for forum moderators on how to apply topics and tags to questions in forums using the new moderation tool.,"<p>Unlike in the Knowledge Base system that offer dynamic selection when choosing topic for a KB article, Forum Moderators will see a full list of topics when moderating from the <a href=""/moderate"">new moderation tool</a>. 
 </p><p>This article outlines our new taxonomy structure and provides product-specific taxonomy maps to help Forum Moderators apply appropriate topics across products. As a moderator, you'll gain better understanding into how our taxonomy system functions within our community forums.
 </p>
@@ -118258,307 +118117,6 @@ Firefox takes a privacy-preserving approach to summarizing web pages. For iPhone
 - [Install Firefox on your iPad, iPhone or iPod](\""https://support.mozilla.org/en-US/kb/install-firefox-your-ipad-iphone-or-ipod"")
 - [Change the default language on Firefox for iOS](\""https://support.mozilla.org/en-US/kb/change-default-language-firefox-ios"")
 - [Set Firefox as the default browser for iOS](\""https://support.mozilla.org/en-US/kb/set-firefox-default-browser-ios"")
-
-"
-68412,What Windows 10 end of support means for Firefox users,firefox-support-windows-10-end-support,https://support.mozilla.org/en-US/kb/firefox-support-windows-10-end-support,en-US,"Learn how Firefox will continue supporting Windows 10 after Microsoft ends its updates, and discover the steps Mozilla recommends to keep your browsing experience secure.","<p>Windows 10 has reached EOS (end of support) on October 14, 2025. Microsoft no longer releases free security updates or bug fixes for the operating system.
-</p>
-<div class=""note""><strong>Note: </strong>Windows 10 Enterprise LTSC 2021 will reach its end of support on January 12, 2027, while Windows 10 IoT Enterprise LTSC 2021 will reach its end of support on January 12, 2032. </div>
-<div class=""warning""><strong>Important:</strong> You can get a free one-year Windows 10 security update extension if you back up system settings to OneDrive via Windows Backup. You must have a Microsoft account. For more details, see Microsoft’s <a href=""https://www.microsoft.com/windows/end-of-support"">End of Support page for Windows 10</a>.</div>
-<p>If you're a Firefox user on Windows 10, you may wonder what this means for your browser experience. You shouldn’t worry: <strong>Firefox will continue to support Windows 10 for the foreseeable future</strong>.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_will-firefox-continue-to-support-windows-10""><span class=""tocnumber"">1</span> <span class=""toctext"">Will Firefox continue to support Windows 10?</span></a></li><li class=""toclevel-1""><a href=""#w_do-i-need-to-use-firefox-esr-to-stay-supported""><span class=""tocnumber"">2</span> <span class=""toctext"">Do I need to use Firefox ESR to stay supported?</span></a></li><li class=""toclevel-1""><a href=""#w_mozilla-recommends-you-should-prepare-for-the-future""><span class=""tocnumber"">3</span> <span class=""toctext"">Mozilla recommends you should prepare for the future</span></a></li><li class=""toclevel-1""><a href=""#w_what-happens-if-i-upgrade-to-windows-11""><span class=""tocnumber"">4</span> <span class=""toctext"">What happens if I upgrade to Windows 11?</span></a></li><li class=""toclevel-1""><a href=""#w_plan-for-a-new-windows-11-pc""><span class=""tocnumber"">5</span> <span class=""toctext"">Plan for a new Windows 11 PC</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-desktop-shortcut-error-between-windows-arm-and-intel-devices""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Firefox desktop shortcut error between Windows ARM and Intel devices</span></a><ul><li class=""toclevel-3""><a href=""#w_why-this-happens""><span class=""tocnumber"">5.1.1</span> <span class=""toctext"">Why this happens</span></a></li><li class=""toclevel-3""><a href=""#w_what-mozilla-is-doing""><span class=""tocnumber"">5.1.2</span> <span class=""toctext"">What Mozilla is doing</span></a></li><li class=""toclevel-3""><a href=""#w_workaround""><span class=""tocnumber"">5.1.3</span> <span class=""toctext"">Workaround</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">6</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_will-firefox-continue-to-support-windows-10"">Will Firefox continue to support Windows 10?</h1>
-<p><strong>Yes.</strong>
-</p><p>Firefox on the <strong>Release channel</strong> will continue to support Windows 10 users. Mozilla has not announced any end-of-support date for Windows 10, but if one will be set, it’s <strong>still several years away</strong>.
-</p><p>If you’re using Firefox Release, no action is needed. The Firefox browser will keep receiving updates, security patches and performance improvements, and you should be able to run it without any crashes or issues.
-</p>
-<h1 id=""w_do-i-need-to-use-firefox-esr-to-stay-supported"">Do I need to use Firefox ESR to stay supported?</h1>
-<p><strong>No.</strong>
-</p><p>While Windows 7 and 8 users can only use Firefox ESR 115, <strong>Windows 10 users do not need to switch to ESR</strong>.
-</p><p>However, <strong>Firefox Extended Support Release (ESR) version 140 does support Windows 10</strong> and this year's <strong>ESR 153</strong> will also include support for Windows 10.
-</p><p>Firefox ESR receives monthly security updates, but it's enhanced with new features only once per year. This means you’ll have a stable browsing experience, without unexpected new features disrupting your workflow.
-</p><p>So the choice is yours: you’re welcome to use Firefox ESR on Windows 10, and you’ll have support for it in the years to come.
-</p>
-<h1 id=""w_mozilla-recommends-you-should-prepare-for-the-future"">Mozilla recommends you should prepare for the future</h1>
-<p>While Firefox will be supported on Windows 10 long after the operating system’s end of support, Mozilla encourages users to take additional steps to stay secure:
-</p>
-<ul><li><strong>Upgrade to Windows 11</strong> if your computer is eligible. See <a href=""https://www.microsoft.com/windows/get-windows-11"">this Microsoft article</a> for more information.
-</li><li>If you want to stay on Windows 10, consider <strong>Microsoft’s Extended Security Updates (ESU)</strong> to receive critical patches. <strong>Simply turning Windows Backup on will get you one year of free security updates for Windows 10</strong>. Learn more on Microsoft’s <a href=""https://support.microsoft.com/windows/windows-10-consumer-extended-security-updates-esu-program-33e17de9-36b3-43bb-874d-6c53d2e4bf42"">ESU Program page</a>.
-</li><li>Follow the steps listed under <a href=""#w_plan-for-a-new-windows-11-pc"">Plan for a new Windows PC</a> so you’re prepared in case you need to replace your device unexpectedly.
-</li><li>Or, if your current hardware doesn't support Windows 11, You can switch to a <strong>Linux-based</strong> operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
-</li><li>You can also switch to Windows 10 Enterprise LTSC 2021 or Windows 10 IoT Enterprise LTSC 2021, both of which have a longer lifecycle.
-</li></ul>
-<h1 id=""w_what-happens-if-i-upgrade-to-windows-11"">What happens if I upgrade to Windows 11?</h1>
-<p>If you upgrade from Windows 10 to Windows 11 <strong>on the same computer</strong>, Firefox will continue to work normally.
-</p><p>Your tabs, bookmarks, history, passwords and settings will remain intact, just like during a regular Windows update.
-</p>
-<div class=""note""><strong>Note:</strong> Microsoft will notify you if your device is eligible for Windows 11.</div>
-<h1 id=""w_plan-for-a-new-windows-11-pc"">Plan for a new Windows 11 PC</h1>
-<p>If you plan to buy a new Windows 11 computer, you can take steps now to make it easier to move Firefox and your data, while still using your Windows 10 device:
-</p>
-<ul><li><strong>Enable Windows Backup:</strong> This makes it easier to reinstall your apps (including Firefox) on your new PC.
-<dl><dt><div class=""note""><strong>Note:</strong> Mozilla recommends that you turn on Windows Backup and use sync on Firefox even if you don’t get a Windows 11 PC. This way, you’ll be protected against loss of data in case of device failure, and it will ensure that you continue to get Windows 10 security updates.</div>
-</dt></dl>
-</li><li><strong>Firefox Backup:</strong> Use <a href=""/en-US/kb/firefox-backup"">Firefox Backup</a> to capture browsing data, such as bookmarks, settings, or passwords, to help you easily move it to a new computer or anytime you need to reinstall a fresh copy of Firefox.
-</li><li><strong>Create a Mozilla account:</strong> A Mozilla account lets you sync your bookmarks, history, passwords, add-ons and settings across multiple devices. After signing in on your new computer, all your Firefox data will be restored automatically. <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Learn more about setting up sync on Firefox</a>.
-<ul><li>You can also use the <a href=""/en-US/kb/switching-devices"">Mozilla Account backup assistant</a> to manually sync your data and email yourself a link to download Firefox.
-</li></ul>
-</li><li><strong>Generate a recovery key:</strong> If you're already using Mozilla account, make sure you remember your account password and have access to your recovery key. This ensures you can securely restore your data on your new device. To be extra safe, you can <a href=""/en-US/kb/reset-your-firefox-account-password-recovery-keys#w_generate-and-store-your-account-recovery-key"">generate a new recovery key</a> and store it in a secure location so you won’t get locked out if you lose your password.
-</li></ul>
-<h2 id=""w_firefox-desktop-shortcut-error-between-windows-arm-and-intel-devices"">Firefox desktop shortcut error between Windows ARM and Intel devices</h2>
-<p>When a Firefox desktop shortcut created on a <strong>Windows 11 ARM</strong> device is synced to another computer using <strong>OneDrive</strong>, it won’t open on a <strong>Windows 11 Intel</strong> device. Instead, you will see an error message when you try to launch Firefox.
-</p>
-<h3 id=""w_why-this-happens"">Why this happens</h3>
-<p>This issue occurs because Windows doesn’t support <strong>reverse emulation</strong> between processor types.
-</p>
-<ul><li><strong>ARM-based Firefox</strong> can run on ARM computers and supports Intel (x86) apps through emulation.
-</li><li><strong>Intel-based Firefox</strong>, however, can’t run ARM binaries on Intel systems.
-</li></ul>
-<p>Currently, the Firefox launcher on ARM builds is compiled for ARM architecture, which prevents the synced shortcut from working on Intel devices.
-</p>
-<h3 id=""w_what-mozilla-is-doing"">What Mozilla is doing</h3>
-<p>Firefox engineers are working on a new <strong>x86 (32-bit) launcher</strong> that will be compatible with both ARM and Intel versions of Windows. This change will prevent future shortcut errors between different architectures.
-</p>
-<h3 id=""w_workaround"">Workaround</h3>
-<p>Until the fix is released:
-</p>
-<ol><li>Delete the broken Firefox shortcut on the Intel computer.
-</li><li>Download the installation file from <a href=""https://www.firefox.com"">firefox.com</a>.
-</li></ol>
-<p><br>
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/firefox-desktop-launcher"">How the Firefox desktop launcher works</a>
-</li><li><a href=""/en-US/kb/switching-devices"">Back up and transfer your Firefox data to a new device</a>
-</li><li><a href=""/en-US/kb/reset-your-firefox-account-password-recovery-keys"">Reset your Mozilla account password with Recovery Keys</a>
-</li><li><a href=""/en-US/kb/choosing-firefox-update-channel"">Choose a Firefox update channel</a>
-</li><li><a href=""/en-US/kb/update-firefox-latest-release"">Update Firefox to the latest release</a>
-</li><li><a href=""/en-US/kb/how-install-firefox-windows"">How to install Firefox on Windows</a>
-</li></ul>",firefox,browse;installation-and-updates,"Windows 10 has reached EOS (end of support) on October 14, 2025. Microsoft no longer releases free security updates or bug fixes for the operating system.
-
-**Note:** Windows 10 Enterprise LTSC 2021 will reach its end of support on January 12, 2027, while Windows 10 IoT Enterprise LTSC 2021 will reach its end of support on January 12, 2032. 
-
-**Important:** You can get a free one-year Windows 10 security update extension if you back up system settings to OneDrive via Windows Backup. You must have a Microsoft account. For more details, see Microsoft’s [End of Support page for Windows 10](https://www.microsoft.com/windows/end-of-support).
-
-If you're a Firefox user on Windows 10, you may wonder what this means for your browser experience. You shouldn’t worry: **Firefox will continue to support Windows 10 for the foreseeable future**.
-
-## Table of Contents
-
-- [1 Will Firefox continue to support Windows 10?](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_will-firefox-continue-to-support-windows-10)
-- [2 Do I need to use Firefox ESR to stay supported?](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_do-i-need-to-use-firefox-esr-to-stay-supported)
-- [3 Mozilla recommends you should prepare for the future](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_mozilla-recommends-you-should-prepare-for-the-future)
-- [4 What happens if I upgrade to Windows 11?](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_what-happens-if-i-upgrade-to-windows-11)
-- [5 Plan for a new Windows 11 PC](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_plan-for-a-new-windows-11-pc)
-  - [5.1 Firefox desktop shortcut error between Windows ARM and Intel devices](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_firefox-desktop-shortcut-error-between-windows-arm-and-intel-devices)
-    - [5.1.1 Why this happens](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_why-this-happens)
-    - [5.1.2 What Mozilla is doing](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_what-mozilla-is-doing)
-    - [5.1.3 Workaround](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_workaround)
-
-- [6 Related articles](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_related-articles)
-
-# Will Firefox continue to support Windows 10?
-
-**Yes.**
-
-Firefox on the **Release channel** will continue to support Windows 10 users. Mozilla has not announced any end-of-support date for Windows 10, but if one will be set, it’s **still several years away**.
-
-If you’re using Firefox Release, no action is needed. The Firefox browser will keep receiving updates, security patches and performance improvements, and you should be able to run it without any crashes or issues.
-
-# Do I need to use Firefox ESR to stay supported?
-
-**No.**
-
-While Windows 7 and 8 users can only use Firefox ESR 115, **Windows 10 users do not need to switch to ESR**.
-
-However, **Firefox Extended Support Release (ESR) version 140 does support Windows 10** and this year's **ESR 153** will also include support for Windows 10.
-
-Firefox ESR receives monthly security updates, but it's enhanced with new features only once per year. This means you’ll have a stable browsing experience, without unexpected new features disrupting your workflow.
-
-So the choice is yours: you’re welcome to use Firefox ESR on Windows 10, and you’ll have support for it in the years to come.
-
-# Mozilla recommends you should prepare for the future
-
-While Firefox will be supported on Windows 10 long after the operating system’s end of support, Mozilla encourages users to take additional steps to stay secure:
-
-- **Upgrade to Windows 11** if your computer is eligible. See [this Microsoft article](https://www.microsoft.com/windows/get-windows-11) for more information.
-- If you want to stay on Windows 10, consider **Microsoft’s Extended Security Updates (ESU)** to receive critical patches. **Simply turning Windows Backup on will get you one year of free security updates for Windows 10**. Learn more on Microsoft’s [ESU Program page](https://support.microsoft.com/windows/windows-10-consumer-extended-security-updates-esu-program-33e17de9-36b3-43bb-874d-6c53d2e4bf42).
-- Follow the steps listed under [Plan for a new Windows PC](https://support.mozilla.org/kb/firefox-support-windows-10-end-support#w_plan-for-a-new-windows-11-pc) so you’re prepared in case you need to replace your device unexpectedly.
-- Or, if your current hardware doesn't support Windows 11, You can switch to a **Linux-based** operating system. The vast majority of Linux distributions come with Firefox as the default browser. Please see the support websites for the version of Linux that you're interested in.
-- You can also switch to Windows 10 Enterprise LTSC 2021 or Windows 10 IoT Enterprise LTSC 2021, both of which have a longer lifecycle.
-
-# What happens if I upgrade to Windows 11?
-
-If you upgrade from Windows 10 to Windows 11 **on the same computer** , Firefox will continue to work normally.
-
-Your tabs, bookmarks, history, passwords and settings will remain intact, just like during a regular Windows update.
-
-**Note:** Microsoft will notify you if your device is eligible for Windows 11.
-
-# Plan for a new Windows 11 PC
-
-If you plan to buy a new Windows 11 computer, you can take steps now to make it easier to move Firefox and your data, while still using your Windows 10 device:
-
-- **Enable Windows Backup:** This makes it easier to reinstall your apps (including Firefox) on your new PC.<dl><dt>
-<div class=""note"">
-<strong>Note:</strong> Mozilla recommends that you turn on Windows Backup and use sync on Firefox even if you don’t get a Windows 11 PC. This way, you’ll be protected against loss of data in case of device failure, and it will ensure that you continue to get Windows 10 security updates.</div>
-</dt></dl>
-- **Firefox Backup:** Use [Firefox Backup](\""https://support.mozilla.org/en-US/kb/firefox-backup"") to capture browsing data, such as bookmarks, settings, or passwords, to help you easily move it to a new computer or anytime you need to reinstall a fresh copy of Firefox.
-- **Create a Mozilla account:** A Mozilla account lets you sync your bookmarks, history, passwords, add-ons and settings across multiple devices. After signing in on your new computer, all your Firefox data will be restored automatically. [Learn more about setting up sync on Firefox](\""https://support.mozilla.org/en-US/kb/how-do-i-set-sync-my-computer"").
-  - You can also use the [Mozilla Account backup assistant](\""https://support.mozilla.org/en-US/kb/switching-devices"") to manually sync your data and email yourself a link to download Firefox.
-
-- **Generate a recovery key:** If you're already using Mozilla account, make sure you remember your account password and have access to your recovery key. This ensures you can securely restore your data on your new device. To be extra safe, you can [generate a new recovery key](\""https://support.mozilla.org/en-US/kb/reset-your-firefox-account-password-recovery-keys#w_generate-and-store-your-account-recovery-key"") and store it in a secure location so you won’t get locked out if you lose your password.
-
-## Firefox desktop shortcut error between Windows ARM and Intel devices
-
-When a Firefox desktop shortcut created on a **Windows 11 ARM** device is synced to another computer using **OneDrive** , it won’t open on a **Windows 11 Intel** device. Instead, you will see an error message when you try to launch Firefox.
-
-### Why this happens
-
-This issue occurs because Windows doesn’t support **reverse emulation** between processor types.
-
-- **ARM-based Firefox** can run on ARM computers and supports Intel (x86) apps through emulation.
-- **Intel-based Firefox** , however, can’t run ARM binaries on Intel systems.
-
-Currently, the Firefox launcher on ARM builds is compiled for ARM architecture, which prevents the synced shortcut from working on Intel devices.
-
-### What Mozilla is doing
-
-Firefox engineers are working on a new **x86 (32-bit) launcher** that will be compatible with both ARM and Intel versions of Windows. This change will prevent future shortcut errors between different architectures.
-
-### Workaround
-
-Until the fix is released:
-
-1. Delete the broken Firefox shortcut on the Intel computer.
-2. Download the installation file from [firefox.com](https://www.firefox.com).
-
-# Related articles
-
-- [How the Firefox desktop launcher works](\""https://support.mozilla.org/en-US/kb/firefox-desktop-launcher"")
-- [Back up and transfer your Firefox data to a new device](\""https://support.mozilla.org/en-US/kb/switching-devices"")
-- [Reset your Mozilla account password with Recovery Keys](\""https://support.mozilla.org/en-US/kb/reset-your-firefox-account-password-recovery-keys"")
-- [Choose a Firefox update channel](\""https://support.mozilla.org/en-US/kb/choosing-firefox-update-channel"")
-- [Update Firefox to the latest release](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"")
-- [How to install Firefox on Windows](\""https://support.mozilla.org/en-US/kb/how-install-firefox-windows"")
-
-"
-68441,Manage Enhanced Tracking Protection exceptions,manage-enhanced-tracking-protection-exceptions,https://support.mozilla.org/en-US/kb/manage-enhanced-tracking-protection-exceptions,en-US,Learn how to manage Enhanced Tracking Protection exceptions.,"<p>Firefox blocks common trackers in <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">Private Browsing mode</a> and in <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_adjust-your-global-enhanced-tracking-protection-settings"">Enhanced Tracking Protection strict level</a> to protect users’ online privacy. Some site functionality could be affected if the site relies on the blocked tracking script. Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 142, to avoid site problems, Firefox has introduced WebCompat exceptions that unblock trackers under specific circumstances.
-</p>
-<h1 id=""w_web-compatibility-exception-tiers"">Web compatibility exception tiers</h1>
-<p>Firefox provides two tiers of web compatibility exceptions that balance privacy and site functionality at different levels.
-</p>
-<ul><li><strong>Major website breakage:</strong> The major breakage exceptions target resolving critical website breakages, such as a broken site that does not load or major site functionality that is impacted.
-</li><li><strong>Minor issues:</strong> Minor issues exceptions restore website functionalities that are not strictly necessary for the site's primary purpose. For example, restoring missing images or allowing blocked video elements to load.
-</li></ul>
-<h1 id=""w_where-does-firefox-apply-web-compatibility-exceptions"">Where does Firefox apply web compatibility exceptions?</h1>
-<p>Firefox manages the WebCompat exception tiers to automatically align with the user's selected Enhanced Tracking Protection level.
-</p>
-<ul><li><strong>ETP Standard Level:</strong> Both tiers of exceptions are enabled by default in private browsing windows for a consistent browsing experience.
-</li><li><strong>ETP Strict Level:</strong>
-<ul><li>Major website breakage web compatibility exceptions are enabled to maintain core website features.
-</li><li>The minor issues exception tier is disabled to improve privacy.
-</li></ul>
-</li></ul>
-<h1 id=""w_how-to-configure-web-compatibility-exceptions"">How to configure web compatibility exceptions</h1>
-<h2 id=""w_firefox-for-desktop"">Firefox for Desktop</h2>
-<p>To configure your settings for WebCompat exceptions:
-</p>
-<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
-
-</li><li>On the left-side menu, select the <span class=""menu"">Privacy &amp; Security</span> panel.
-</li><li>Go to the <strong>Enhanced Tracking Protection</strong> settings in the <em>Browser Privacy</em> section.
-<ul><li>Two checkboxes of Enhanced Tracking Protection exceptions would be displayed in ETP <em>Strict</em> and <em>Custom</em> levels.
-</li></ul>
-</li><li>Select or deselect the checkboxes to adjust Web compatibility exceptions.
-</li></ol>
-<dl><dt><img alt=""enhanced11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-18-25-803572.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt><dt><img alt=""enhanced22"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-19-44-ba7157.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt><dt><img alt=""enhanced33"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-20-26-d5b0b9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt></dl>
-<h2 id=""w_firefox-for-android"">Firefox for Android</h2>
-<p>To configure your settings for WebCompat exceptions:
-</p>
-<ol><li>Tap the icon <img alt=""threebutton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-07-18-13-43-00-bbf351.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""20""> and open <span class=""menu"">Settings</span>.
-</li><li>Scroll down to the <span class=""menu"">Enhanced Tracking Protection</span> and tap it.
-</li><li>Select <span class=""button"">Strict</span> or <span class=""button"">Custom</span>.
-</li><li>Select or deselect the checkboxes to adjust ETP Webcompat exceptions.
-</li></ol>
-<dl><dt><img alt=""fenix1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-09-12-18-58-8c3c8d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt><dt><img alt=""fenix2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-09-12-20-16-8390b5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-<h1 id=""w_find-the-active-etp-webcompat-exceptions"">Find the active ETP WebCompat exceptions</h1>
-<p>The ETP WebCompat exception list, detailing all deployed WebCompat exceptions and their corresponding Bugzilla bugs, is available at <a href=""https://etp-exceptions.mozilla.org/"">https://etp-exceptions.mozilla.org/</a>. This website allows you to monitor and understand the rationale behind WebCompat exceptions on specific websites.
-</p>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection in Firefox for desktop</a>
-</li><li><a href=""/en-US/kb/report-breakage-due-blocking"">How do I report a broken site in Firefox desktop?</a>
-</li></ul>",firefox;mobile,privacy-and-security,"Firefox blocks common trackers in [Private Browsing mode](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") and in [Enhanced Tracking Protection strict level](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_adjust-your-global-enhanced-tracking-protection-settings"") to protect users’ online privacy. Some site functionality could be affected if the site relies on the blocked tracking script. Starting in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 142, to avoid site problems, Firefox has introduced WebCompat exceptions that unblock trackers under specific circumstances.
-
-# Web compatibility exception tiers
-
-Firefox provides two tiers of web compatibility exceptions that balance privacy and site functionality at different levels.
-
-- **Major website breakage:** The major breakage exceptions target resolving critical website breakages, such as a broken site that does not load or major site functionality that is impacted.
-- **Minor issues:** Minor issues exceptions restore website functionalities that are not strictly necessary for the site's primary purpose. For example, restoring missing images or allowing blocked video elements to load.
-
-# Where does Firefox apply web compatibility exceptions?
-
-Firefox manages the WebCompat exception tiers to automatically align with the user's selected Enhanced Tracking Protection level.
-
-- **ETP Standard Level:** Both tiers of exceptions are enabled by default in private browsing windows for a consistent browsing experience.
-- **ETP Strict Level:**
-  - Major website breakage web compatibility exceptions are enabled to maintain core website features.
-  - The minor issues exception tier is disabled to improve privacy.
-
-# How to configure web compatibility exceptions
-
-## Firefox for Desktop
-
-To configure your settings for WebCompat exceptions:
-
-1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
-2. On the left-side menu, select the Privacy & Security panel.
-3. Go to the **Enhanced Tracking Protection** settings in the _Browser Privacy_ section.
-  - Two checkboxes of Enhanced Tracking Protection exceptions would be displayed in ETP _Strict_ and _Custom_ levels.
-
-4. Select or deselect the checkboxes to adjust Web compatibility exceptions.
-
-<dl>
-<dt>
-<img alt=""enhanced11"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-18-25-803572.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt>
-<dt>
-<img alt=""enhanced22"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-19-44-ba7157.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt>
-<dt>
-<img alt=""enhanced33"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-22-07-20-26-d5b0b9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
-</dt>
-</dl>
-## Firefox for Android
-
-To configure your settings for WebCompat exceptions:
-
-1. Tap the icon ![threebutton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and open Settings.
-2. Scroll down to the Enhanced Tracking Protection and tap it.
-3. Select Strict or Custom.
-4. Select or deselect the checkboxes to adjust ETP Webcompat exceptions.
-
-<dl>
-<dt>
-<img alt=""fenix1"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-09-12-18-58-8c3c8d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt>
-<dt>
-<img alt=""fenix2"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-09-09-12-20-16-8390b5.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt>
-</dl>
-# Find the active ETP WebCompat exceptions
-
-The ETP WebCompat exception list, detailing all deployed WebCompat exceptions and their corresponding Bugzilla bugs, is available at [https://etp-exceptions.mozilla.org/](https://etp-exceptions.mozilla.org/). This website allows you to monitor and understand the rationale behind WebCompat exceptions on specific websites.
-
-# Related articles
-
-- [Enhanced Tracking Protection in Firefox for desktop](\""https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop"")
-- [How do I report a broken site in Firefox desktop?](\""https://support.mozilla.org/en-US/kb/report-breakage-due-blocking"")
 
 "
 68473,Understand unexpected script warnings in Firefox,unexpected-script-load,https://support.mozilla.org/en-US/kb/unexpected-script-load,en-US,"Learn what unexpected script warnings in Firefox mean, why they happen, and what you should do if you see one.","<p>Starting in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 143, you may see a warning in Firefox that says an unexpected, privileged script has been detected. This alert includes an option to <span class=""button"">Allow</span>, <span class=""button"">Block</span>, or <span class=""button"">Report</span> the script. This article explains what the warning means, why it appears, and how you should respond.
