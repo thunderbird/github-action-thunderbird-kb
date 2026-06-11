@@ -22054,6 +22054,142 @@ If the above solutions didn't work, you may be able to resolve the problem with 
 - [View bookmarks on your home screen](\""https://support.mozilla.org/en-US/kb/view-recent-bookmarks-and-searches-firefox-android-home"")
 
 "
+896,JavaScript settings and preferences for interactive web pages,javascript-settings-for-interactive-web-pages,https://support.mozilla.org/en-US/kb/javascript-settings-for-interactive-web-pages,en-US,This article describes what JavaScript is and how to allow or block it on certain websites.,"<p>This article describes what JavaScript® is and how to allow or block it on certain websites.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_what-is-javascript""><span class=""tocnumber"">1</span> <span class=""toctext"">What is JavaScript?</span></a></li><li class=""toclevel-1""><a href=""#w_allow-and-block-javascript-on-certain-domains""><span class=""tocnumber"">2</span> <span class=""toctext"">Allow and block JavaScript on certain domains</span></a></li><li class=""toclevel-1""><a href=""#w_websites-ask-you-to-enable-javascript""><span class=""tocnumber"">3</span> <span class=""toctext"">Websites ask you to enable JavaScript</span></a><ul><li class=""toclevel-2""><a href=""#w_for-advanced-users""><span class=""tocnumber"">3.1</span> <span class=""toctext"">For advanced users</span></a></li></ul></li></ul></div>
+<h1 id=""w_what-is-javascript"">What is JavaScript?</h1>
+<p><a href=""http://wikipedia.org/wiki/JavaScript"">JavaScript</a> is a standard programming language that can be included in web pages to provide functionality such as menus, sounds, and other interactive features. By default, Firefox enables the use of JavaScript and requires no additional installation.
+</p>
+<h1 id=""w_allow-and-block-javascript-on-certain-domains"">Allow and block JavaScript on certain domains</h1>
+<p>JavaScript can be used to do things that some people don't like. For better control, you can find and install <a href=""https://addons.mozilla.org/en-US/search/?q=JavaScript"">JavaScript extensions</a> or <a href=""https://addons.mozilla.org/firefox/search/?tag=privacy"">privacy extensions</a> that let you disable JavaScript, such as these add-ons: 
+</p>
+<ul><li><a href=""https://addons.mozilla.org/firefox/addon/noscript"">NoScript</a>: allows JavaScript and other content to run only on websites of your choice.
+</li><li> <a href=""https://addons.mozilla.org/firefox/addon/ghostery"">Ghostery</a>: allows you to block scripts from companies that you don't trust.
+</li></ul>
+<div class=""for"" data-for=""win8"">
+<div class=""note""> Note: Some websites use JavaScript for functions such as ""on hover"" drop-down menus, which may not work in Firefox on touch-screen computers.  A solution is to disable the ""HID-compliant touch screen"" setting in Windows Device Manager (visit a Windows forum if you need more help); however, this solution will effectively change the touch screen into a plain screen while disabled.</div>
+</div>
+<h1 id=""w_websites-ask-you-to-enable-javascript"">Websites ask you to enable JavaScript</h1>
+<p>Websites may tell you that JavaScript is required or ask you to make sure that JavaScript is enabled, even though you don't want JavaScript to be blocked. Turn off any settings to disable JavaScript in your installed extensions or try <a href=""/en-US/kb/disable-or-remove-add-ons#w_disabling-extensions"">disabling your extensions</a> to see if you can find the problem. You should contact the developer or visit the website for the add-on, to get help with a specific extension.
+</p>
+<h2 id=""w_for-advanced-users"">For advanced users</h2>
+<p></p><div class=""warning""><strong>Warning:</strong> These instructions are for experienced Firefox users. Changing settings in the <a href=""/en-US/kb/about-config-editor-firefox"">Configuration Editor</a> (<em>about:config</em>) can have serious effects on your browser’s stability, security and performance.
+<br><strong>Only proceed if you are comfortable with advanced settings and understand the potential impacts</strong>.</div>
+JavaScript may be disabled for all websites in Advanced Preferences (<em>about:config</em> page). You can confirm that JavaScript is enabled or reset the preference as follows:
+<p></p>
+<ol><li>Type <strong>about:config</strong> in the <a href=""/en-US/kb/search-firefox-address-bar"">address bar</a> and press <span class=""for"" data-for=""win,linux""><span class=""key"">Enter</span></span><span class=""for"" data-for=""mac""><span class=""key"">Return</span></span>.<br>A warning page may appear. Click <span class=""button"">Accept the Risk and Continue</span> to go to the <em>about:config</em> page.
+
+</li><li>Find the <span class=""pref"">javascript.enabled</span> preference. It should be set to <span class=""pref"">true</span> by default.
+</li><li>If  <span class=""pref"">javascript.enabled</span> is set to <span class=""pref"">false</span>, click the Toggle <img alt=""Fx71aboutconfig-ToggleButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-56-36-b0ab10.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> or Reset <img alt=""Fx71aboutconfig-ResetButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2019-10-29-08-51-03-fee2fd.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> button to set it back to <span class=""pref"">true</span>.
+</li></ol>
+<p><sub>JavaScript is a trademark or registered trademark of <a href=""http://www.oracle.com"">Oracle Corporation</a> in the U.S. and other countries.</sub>
+</p>",firefox,add-ons-extensions-and-themes;settings,"This article describes what JavaScript® is and how to allow or block it on certain websites.
+
+## Table of Contents
+
+- [1 What is JavaScript?](https://support.mozilla.org/kb/javascript-settings-for-interactive-web-pages#w_what-is-javascript)
+- [2 Allow and block JavaScript on certain domains](https://support.mozilla.org/kb/javascript-settings-for-interactive-web-pages#w_allow-and-block-javascript-on-certain-domains)
+- [3 Websites ask you to enable JavaScript](https://support.mozilla.org/kb/javascript-settings-for-interactive-web-pages#w_websites-ask-you-to-enable-javascript)
+  - [3.1 For advanced users](https://support.mozilla.org/kb/javascript-settings-for-interactive-web-pages#w_for-advanced-users)
+
+# What is JavaScript?
+
+[JavaScript](http://wikipedia.org/wiki/JavaScript) is a standard programming language that can be included in web pages to provide functionality such as menus, sounds, and other interactive features. By default, Firefox enables the use of JavaScript and requires no additional installation.
+
+# Allow and block JavaScript on certain domains
+
+JavaScript can be used to do things that some people don't like. For better control, you can find and install [JavaScript extensions](https://addons.mozilla.org/en-US/search/?q=JavaScript) or [privacy extensions](https://addons.mozilla.org/firefox/search/?tag=privacy) that let you disable JavaScript, such as these add-ons:
+
+- [NoScript](https://addons.mozilla.org/firefox/addon/noscript): allows JavaScript and other content to run only on websites of your choice.
+- [Ghostery](https://addons.mozilla.org/firefox/addon/ghostery): allows you to block scripts from companies that you don't trust.
+
+ Note: Some websites use JavaScript for functions such as ""on hover"" drop-down menus, which may not work in Firefox on touch-screen computers. A solution is to disable the ""HID-compliant touch screen"" setting in Windows Device Manager (visit a Windows forum if you need more help); however, this solution will effectively change the touch screen into a plain screen while disabled.
+
+# Websites ask you to enable JavaScript
+
+Websites may tell you that JavaScript is required or ask you to make sure that JavaScript is enabled, even though you don't want JavaScript to be blocked. Turn off any settings to disable JavaScript in your installed extensions or try [disabling your extensions](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons#w_disabling-extensions"") to see if you can find the problem. You should contact the developer or visit the website for the add-on, to get help with a specific extension.
+
+## For advanced users
+
+**Warning:** These instructions are for experienced Firefox users. Changing settings in the [Configuration Editor](\""https://support.mozilla.org/en-US/kb/about-config-editor-firefox"") (_about:config_) can have serious effects on your browser’s stability, security and performance.  
+**Only proceed if you are comfortable with advanced settings and understand the potential impacts**.
+JavaScript may be disabled for all websites in Advanced Preferences (_about:config_ page). You can confirm that JavaScript is enabled or reset the preference as follows:
+
+1. Type **about:config** in the [address bar](\""https://support.mozilla.org/en-US/kb/search-firefox-address-bar"") and press EnterReturn.  
+A warning page may appear. Click Accept the Risk and Continue to go to the _about:config_ page.
+2. Find the javascript.enabled preference. It should be set to true by default.
+3. If javascript.enabled is set to false, click the Toggle ![Fx71aboutconfig-ToggleButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) or Reset ![Fx71aboutconfig-ResetButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) button to set it back to true.
+
+<sub>JavaScript is a trademark or registered trademark of <a href=""http://www.oracle.com"">Oracle Corporation</a> in the U.S. and other countries.</sub>
+
+"
+899,How do I restore my tabs from last time?,how-do-i-restore-my-tabs-last-time,https://support.mozilla.org/en-US/kb/how-do-i-restore-my-tabs-last-time,en-US,This article explains the different options you have for opening the tabs and windows you had open the last time you used Firefox.,"<p>Want to visit the pages you had open the last time you used Firefox? Here are some easy ways to do it.
+</p>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_access-recently-closed-tabs""><span class=""tocnumber"">1</span> <span class=""toctext"">Access recently closed tabs</span></a></li><li class=""toclevel-1""><a href=""#w_restore-the-previous-session-from-the-firefox-menu""><span class=""tocnumber"">2</span> <span class=""toctext"">Restore the previous session from the Firefox menu</span></a></li><li class=""toclevel-1""><a href=""#w_restore-the-previous-session-every-time-you-open-firefox""><span class=""tocnumber"">3</span> <span class=""toctext"">Restore the previous session every time you open Firefox</span></a></li></ul></div>
+<h1 id=""w_access-recently-closed-tabs"">Access recently closed tabs</h1>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li>Click <span class=""menu"">History</span>.
+</li><li>Click <span class=""menu"">Recently Closed Tabs</span>.
+</li></ol>
+<h1 id=""w_restore-the-previous-session-from-the-firefox-menu"">Restore the previous session from the Firefox menu</h1>
+<p>Here's how to get back your tabs and windows from a previous session using the Firefox menu:
+</p>
+<ol><li>Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> to open the menu panel.
+
+</li><li>Click <span class=""menu"">History</span>, then click <span class=""menu"">Restore Previous Session</span>.
+<dl><dt><img alt=""Sessionrestore89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-19-06-31-50-513d15.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li></ol>
+<h1 id=""w_restore-the-previous-session-every-time-you-open-firefox"">Restore the previous session every time you open Firefox</h1>
+<p>
+When Firefox starts, a single window is opened by default, displaying your <a href=""/en-US/kb/how-to-set-the-home-page"">specified home page</a>. You can set Firefox to show the windows and tabs from your previous session every time you start Firefox. To change your Firefox startup settings:
+</p>
+<ol><li><span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li>Select the <span class=""menu"">General</span> panel.
+</li><li>Under <em>Startup</em> check <strong>Open previous windows and tabs</strong>.
+<dl><dt><img alt=""Fx94settings-Startup"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-11-09-04-05-06-59fe1a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+</li><li>Close the <span class=""menu"">Settings</span> page. Any changes you've made will automatically be saved.
+
+</li></ol>
+<div class=""note"">For more information about session restore, see <a href=""/en-US/kb/restore-previous-session"">Restore previous session - Configure when Firefox shows your most recent tabs and windows</a>.</div>",firefox,settings,"Want to visit the pages you had open the last time you used Firefox? Here are some easy ways to do it.
+
+## Table of Contents
+
+- [1 Access recently closed tabs](https://support.mozilla.org/kb/how-do-i-restore-my-tabs-last-time#w_access-recently-closed-tabs)
+- [2 Restore the previous session from the Firefox menu](https://support.mozilla.org/kb/how-do-i-restore-my-tabs-last-time#w_restore-the-previous-session-from-the-firefox-menu)
+- [3 Restore the previous session every time you open Firefox](https://support.mozilla.org/kb/how-do-i-restore-my-tabs-last-time#w_restore-the-previous-session-every-time-you-open-firefox)
+
+# Access recently closed tabs
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History.
+3. Click Recently Closed Tabs.
+
+# Restore the previous session from the Firefox menu
+
+Here's how to get back your tabs and windows from a previous session using the Firefox menu:
+
+1. Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to open the menu panel.
+2. Click History, then click Restore Previous Session.<dl><dt>
+<img alt=""Sessionrestore89"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-19-06-31-50-513d15.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+
+# Restore the previous session every time you open Firefox
+
+When Firefox starts, a single window is opened by default, displaying your [specified home page](\""https://support.mozilla.org/en-US/kb/how-to-set-the-home-page""). You can set Firefox to show the windows and tabs from your previous session every time you start Firefox. To change your Firefox startup settings:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. Select the General panel.
+3. Under _Startup_ check **Open previous windows and tabs**.<dl><dt>
+<img alt=""Fx94settings-Startup"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-11-09-04-05-06-59fe1a.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+4. Close the Settings page. Any changes you've made will automatically be saved.
+
+For more information about session restore, see [Restore previous session - Configure when Firefox shows your most recent tabs and windows](\""https://support.mozilla.org/en-US/kb/restore-previous-session"").
+"
 901,Private Browsing - Use Firefox without saving history,private-browsing-use-firefox-without-history,https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history,en-US,"Firefox Private Browsing is great for viewing websites without saving things such as cookies, temp files and a history of the pages you visit.","<p>Private Browsing does not save your browsing information, such as history and cookies, and leaves no trace after you end the session. By default, when you browse in private windows, you're shielded from third-party cookies and content trackers. Our <a href=""https://wiki.mozilla.org/Security/Anti_tracking_policy"">anti-tracking policy</a> reflects our commitment to protecting your privacy and keeping you secure. Firefox also has <a href=""/en-US/kb/enhanced-tracking-protection-firefox-desktop"">Enhanced Tracking Protection</a>, which prevents hidden trackers from collecting your data across multiple sites and slowing down your browsing.
 </p>
 <div class=""note"">Want to learn more? See the <a href=""/en-US/kb/smartblock-enhanced-tracking-protection"">SmartBlock for Enhanced Tracking Protection</a> article.</div>
@@ -60488,96 +60624,6 @@ To concatenate the files and create the installer, run this command:
 The “/B” is very important! It tells copy that these are binary files, so it doesn’t add extra characters to the files.
 
 "
-40040,Block cookies in Firefox Focus for Android,block-cookies-firefox-focus-android,https://support.mozilla.org/en-US/kb/block-cookies-firefox-focus-android,en-US,Block cookies in Firefox Focus for Android.,"<p>
-</p><p>Cookies are small files websites leave on your phone, so they can remember your site preferences or track your browsing activity. Sometimes, a website will show content from a third-party website (for example, “Like” buttons from Facebook, ads or embedded videos) and those other websites might leave a cookie too.
-</p><p>Total cookie protection (blocking cross-site cookies) is enabled by default in Firefox Focus. 
-</p><p>To update your cookie settings:
-</p>
-<ol><li><p>Tap the menu button next to the address bar:
-</p>
-<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Go to <span class=""menu"">Privacy &amp; Security</span>.
-</li><li>Tap  <span class=""menu"">Block cookies</span>.
-</li><li>Choose the type of cookies you want to block.
-</li></ol>
-<div class=""note"">
-<h2 id=""w_note"">Note</h2>
-<p><strong>Blocking all cookies:</strong> This prevents trackers, but it will also keep websites from remembering anything you’ve told it (for example, you will be asked to click the “Submit” button over and over again).
-</p><p><strong>Blocking third-party cookies:</strong> This blocks third-party trackers, but some websites rely on features that load from other domains. Parts of the page (for example, embedded videos or commenting tools) might not work properly.
-</p><p><strong>Blocking third-party tracking cookies:</strong> This blocks third-party tracking cookies from known tracking domains, which avoids unexpected breakage from the more aggressive settings while still preventing the user from being followed across multiple websites.
-</p><p><strong>Blocking cross-site-cookies:</strong> This enables total cookie protection, which isolates cookies to the site where they were created. This setting covers not just cookies, but a variety of browser technologies that previously were able to be used for cross-site tracking. 
-</p>
-</div>",focus-firefox,privacy-and-security;settings;tracking-protection,"Cookies are small files websites leave on your phone, so they can remember your site preferences or track your browsing activity. Sometimes, a website will show content from a third-party website (for example, “Like” buttons from Facebook, ads or embedded videos) and those other websites might leave a cookie too.
-
-Total cookie protection (blocking cross-site cookies) is enabled by default in Firefox Focus.
-
-To update your cookie settings:
-
-1. Tap the menu button next to the address bar:
-
-2. Tap Settings.
-3. Go to Privacy & Security.
-4. Tap Block cookies.
-5. Choose the type of cookies you want to block.
-
-## Note
-
-**Blocking all cookies:** This prevents trackers, but it will also keep websites from remembering anything you’ve told it (for example, you will be asked to click the “Submit” button over and over again).
-
-**Blocking third-party cookies:** This blocks third-party trackers, but some websites rely on features that load from other domains. Parts of the page (for example, embedded videos or commenting tools) might not work properly.
-
-**Blocking third-party tracking cookies:** This blocks third-party tracking cookies from known tracking domains, which avoids unexpected breakage from the more aggressive settings while still preventing the user from being followed across multiple websites.
-
-**Blocking cross-site-cookies:** This enables total cookie protection, which isolates cookies to the site where they were created. This setting covers not just cookies, but a variety of browser technologies that previously were able to be used for cross-site tracking.
-
-"
-40043,Block cookies in Firefox Klar for Android,block-cookies-firefox-klar-android,https://support.mozilla.org/en-US/kb/block-cookies-firefox-klar-android,en-US,Block all or third-party cookies in Firefox Klar for Android.,"<p>
-</p><p>Cookies are small files websites leave on your phone, so they can remember your site preferences or track your browsing activity. Sometimes, a website will show content from a third-party website (for example, “Like” buttons from Facebook, ads or embedded videos) and those other websites might leave a cookie too.
-</p><p>Total cookie protection (blocking cross-site cookies) is enabled by default in Firefox Klar. 
-</p><p>To update your cookie settings:
-</p>
-<ol><li><p>Tap the menu button next to the address bar:
-</p>
-<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Go to <span class=""menu"">Privacy &amp; Security</span>.
-</li><li>Tap  <span class=""menu"">Block cookies</span>.
-</li><li>Choose the type of cookies you want to block.
-</li></ol>
-<div class=""note"">
-<h2 id=""w_note"">Note</h2>
-<p><strong>Blocking all cookies:</strong> This prevents trackers, but it will also keep websites from remembering anything you’ve told it (for example, you will be asked to click the “Submit” button over and over again).
-</p><p><strong>Blocking third-party cookies:</strong> This blocks third-party trackers, but some websites rely on features that load from other domains. Parts of the page (for example, embedded videos or commenting tools) might not work properly.
-</p><p><strong>Blocking third-party tracking cookies:</strong> This blocks third-party tracking cookies from known tracking domains, which avoids unexpected breakage from the more aggressive settings while still preventing the user from being followed across multiple websites.
-</p><p><strong>Blocking cross-site-cookies:</strong> This enables total cookie protection, which isolates cookies to the site where they were created. This setting covers not just cookies, but a variety of browser technologies that previously were able to be used for cross-site tracking.
-</p>
-</div>",klar,firefox-focus-android;firefox-klar-android,"Cookies are small files websites leave on your phone, so they can remember your site preferences or track your browsing activity. Sometimes, a website will show content from a third-party website (for example, “Like” buttons from Facebook, ads or embedded videos) and those other websites might leave a cookie too.
-
-Total cookie protection (blocking cross-site cookies) is enabled by default in Firefox Klar.
-
-To update your cookie settings:
-
-1. Tap the menu button next to the address bar:
-
-2. Tap Settings.
-3. Go to Privacy & Security.
-4. Tap Block cookies.
-5. Choose the type of cookies you want to block.
-
-## Note
-
-**Blocking all cookies:** This prevents trackers, but it will also keep websites from remembering anything you’ve told it (for example, you will be asked to click the “Submit” button over and over again).
-
-**Blocking third-party cookies:** This blocks third-party trackers, but some websites rely on features that load from other domains. Parts of the page (for example, embedded videos or commenting tools) might not work properly.
-
-**Blocking third-party tracking cookies:** This blocks third-party tracking cookies from known tracking domains, which avoids unexpected breakage from the more aggressive settings while still preventing the user from being followed across multiple websites.
-
-**Blocking cross-site-cookies:** This enables total cookie protection, which isolates cookies to the site where they were created. This setting covers not just cookies, but a variety of browser technologies that previously were able to be used for cross-site tracking.
-
-"
 40050,Choose a Firefox update channel,choosing-firefox-update-channel,https://support.mozilla.org/en-US/kb/choosing-firefox-update-channel,en-US,How to choose between rapid release and extended support release (ESR).,"<p>We currently offer two paths for Firefox updates: Rapid Release and Extended Support Release (ESR).
 </p>
 <ul><li><strong><a href=""https://www.mozilla.org/firefox/all/desktop-release/"">Rapid Release</a>:</strong> receives major updates every four weeks and minor updates such as crash fixes and security fixes as needed during those four weeks. 
@@ -60836,6 +60882,99 @@ In this example, we are setting the `BlockAboutConfig` policy to `true`, which m
 
 **NOTE:** The above method will not work if Firefox is already being managed using Group Policy.
 "
+40056,Deploy Firefox customizations on macOS,deploying-firefox-customizations-macos,https://support.mozilla.org/en-US/kb/deploying-firefox-customizations-macos,en-US,How to run customizations on Mac.,"<p></p><div class=""warning"">This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.</div>
+<p></p><p>To deploy Firefox customizations on macOS:
+</p>
+<h1 id=""w_step-1-install-firefox"">Step 1: Install Firefox</h1>
+<ol><li>Download Firefox and then open the disk image.
+</li><li>Drag the Firefox application onto your desktop or some other location so that you can modify it.
+</li></ol>
+<h1 id=""w_step-2-remove-quarantine-set-by-macos"">Step 2: Remove quarantine set by macOS</h1>
+<p>Before you modify any files in the Firefox application, you must remove the quarantine that macOS sets by default for applications downloaded from the Internet. To do this, run the following command from a Terminal:
+</p><pre>xattr -r -d com.apple.quarantine Firefox.app
+</pre>
+<p>If you see an error on startup that says:
+</p><p>Firefox is damaged and can’t be opened. You should move it to the Trash.
+</p><p>This means that you did not run this command.
+</p>
+<h1 id=""w_step-3-deploy-customizations"">Step 3: Deploy customizations</h1>
+<h2 id=""w_deploy-customizations-made-with-policies-json"">Deploy customizations made with policies.json</h2>
+<p>If you want to deploy customizations that were made with policies.json, create a directory called <em>distribution</em> in the Contents/Resources directory and place the <em>policies.json</em> file into that directory.
+</p>
+<h2 id=""w_deploy-customizations-made-with-autoconfig"">Deploy customizations made with Autoconfig</h2>
+<p>If you want to deploy customizations that were made with AutoConfig, place the <em>autoconfig.js</em> file into the Contents/Resources/defaults/pref directory and the <em>firefox.cfg</em> file into the Contents/Resources directory.
+</p><p>Once you have made the changes that you need, you can deploy the customized Firefox.app file.
+</p>",firefox-enterprise,installation-and-updates,"This article is intended for IT administrators who wish to set up Firefox on the computers within their organization.
+
+To deploy Firefox customizations on macOS:
+
+# Step 1: Install Firefox
+
+1. Download Firefox and then open the disk image.
+2. Drag the Firefox application onto your desktop or some other location so that you can modify it.
+
+# Step 2: Remove quarantine set by macOS
+
+Before you modify any files in the Firefox application, you must remove the quarantine that macOS sets by default for applications downloaded from the Internet. To do this, run the following command from a Terminal:
+
+    xattr -r -d com.apple.quarantine Firefox.app
+
+If you see an error on startup that says:
+
+Firefox is damaged and can’t be opened. You should move it to the Trash.
+
+This means that you did not run this command.
+
+# Step 3: Deploy customizations
+
+## Deploy customizations made with policies.json
+
+If you want to deploy customizations that were made with policies.json, create a directory called _distribution_ in the Contents/Resources directory and place the _policies.json_ file into that directory.
+
+## Deploy customizations made with Autoconfig
+
+If you want to deploy customizations that were made with AutoConfig, place the _autoconfig.js_ file into the Contents/Resources/defaults/pref directory and the _firefox.cfg_ file into the Contents/Resources directory.
+
+Once you have made the changes that you need, you can deploy the customized Firefox.app file.
+
+"
+40071,Access hidden tabs in Firefox,access-hidden-tabs-firefox,https://support.mozilla.org/en-US/kb/access-hidden-tabs-firefox,en-US,Firefox lets you know when there are tabs hidden in the background so you can access them easily.,"<div class=""for"" data-for=""not fx61""><div class=""warning"">Please <a href=""/en-US/kb/update-firefox-latest-release"">update your version of Firefox</a> for the latest features and security updates.</div></div>
+<p></p>
+<h1 id=""w_how-do-i-know-if-i-have-hidden-tabs"">How do I know if I have hidden tabs?</h1>
+<p>When you hide a tab for the first time using an extension, Firefox will alert you. From here, you can keep the tab hidden or unhide it and disable the extension.
+</p><p>Clicking <img alt=""hidden tabs icon 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-07-29-47-40a658.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> will also show you what tabs you have hidden.
+</p>
+<h1 id=""w_how-do-i-access-my-hidden-tabs"">How do I access my hidden tabs?</h1>
+<p>Access your hidden tabs by clicking the <img alt=""hidden tabs icon 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-07-29-47-40a658.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> icon on the toolbar. 
+</p>
+<dl><dt><img alt=""hidden tabs 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-52-50-7ec254.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+<h1 id=""w_how-do-i-find-a-hidden-tab-that-is-playing-audio"">How do I find a hidden tab that is playing audio?</h1>
+<p>When a hidden tab is playing sound, the speaker icon will show up on the hidden tab icon <img alt=""hidden tab audio 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-49-40-908077.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>. If you click on the icon, the audio indicator will also show which hidden tab from the list is playing audio.
+</p>
+<dl><dt><img alt=""hidden tab audio list 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-51-11-56ab49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>",firefox,settings,"Please [update your version of Firefox](\""https://support.mozilla.org/en-US/kb/update-firefox-latest-release"") for the latest features and security updates.
+
+# How do I know if I have hidden tabs?
+
+When you hide a tab for the first time using an extension, Firefox will alert you. From here, you can keep the tab hidden or unhide it and disable the extension.
+
+Clicking ![hidden tabs icon 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) will also show you what tabs you have hidden.
+
+# How do I access my hidden tabs?
+
+Access your hidden tabs by clicking the ![hidden tabs icon 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) icon on the toolbar.
+
+<dl><dt>
+<img alt=""hidden tabs 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-52-50-7ec254.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>
+# How do I find a hidden tab that is playing audio?
+
+When a hidden tab is playing sound, the speaker icon will show up on the hidden tab icon ![hidden tab audio 61](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif). If you click on the icon, the audio indicator will also show which hidden tab from the list is playing audio.
+
+<dl><dt>
+<img alt=""hidden tab audio list 61"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2018-06-06-12-51-11-56ab49.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
+</dt></dl>"
 40203,Download photos and files on Firefox for iOS,download-photos-and-files-firefox-ios,https://support.mozilla.org/en-US/kb/download-photos-and-files-firefox-ios,en-US,Save the photos and files you want from the web to your iOS device.,"<p>Firefox makes it easy to download photos and PDF files on your iPhone or iPad. The downloads panel on the Firefox home screen makes it easy to find the files you downloaded.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_download-files""><span class=""tocnumber"">1</span> <span class=""toctext"">Download files</span></a></li><li class=""toclevel-1""><a href=""#w_access-downloaded-files""><span class=""tocnumber"">2</span> <span class=""toctext"">Access downloaded files</span></a></li><li class=""toclevel-1""><a href=""#w_share-or-delete-a-downloaded-file""><span class=""tocnumber"">3</span> <span class=""toctext"">Share or delete a downloaded file</span></a></li></ul></div>
@@ -92221,6 +92360,124 @@ If you’re unable to even sign in to [accounts.firefox.com](http://accounts.fir
 If you’re unable to sign in or contact us through the **Contact Us** form in the VPN menu, [contact us through this link](mailto:fxasupport@mozilla.com?subject=2FA Reset Request).
 
 "
+59036,What's new in Firefox for iOS (version 103),whats-new-firefox-ios-version-103,https://support.mozilla.org/en-US/kb/whats-new-firefox-ios-version-103,en-US,See what's new in the latest release of Firefox for iOS (version 103).,"<p>Welcome to a new version of Firefox for iOS (version 103). This release comes with the following improvements and features:
+</p>
+<h1 id=""w_bug-fixes-and-enhancements"">Bug fixes and enhancements</h1>
+<ul><li>When you have multiple tabs open and swipe to close a tab, the correct tab will now close.
+</li><li>VoiceOver on the <em>Inactive Tabs</em> tab is working as expected. When the section is closed, VoiceOver will read “View inactive tabs”. When the section is opened, it will read “Hide inactive tabs”.
+</li><li>Search Term groups will now group as expected within <em>Recently Visited</em>, the tabs tray, <em>Jump Back In</em>, and <em>History</em>.
+</li></ul>",ios,installation-and-updates;update,"Welcome to a new version of Firefox for iOS (version 103). This release comes with the following improvements and features:
+
+# Bug fixes and enhancements
+
+- When you have multiple tabs open and swipe to close a tab, the correct tab will now close.
+- VoiceOver on the _Inactive Tabs_ tab is working as expected. When the section is closed, VoiceOver will read “View inactive tabs”. When the section is opened, it will read “Hide inactive tabs”.
+- Search Term groups will now group as expected within _Recently Visited_, the tabs tray, _Jump Back In_, and _History_.
+
+"
+59064,Copy text from images on Firefox for MacOS,text-recognition,https://support.mozilla.org/en-US/kb/text-recognition,en-US,Learn how to copy text from images in Firefox for MacOS.,"<p>Text Recognition allows you to extract text from a selected image on your current webpage. Whether it is a memorable caption in a meme or contact information in a screenshot event flyer, you can copy that text to share, store, or look up without needing to manually retype everything.
+</p><p>This feature is also compatible with VoiceOver, the built-in macOS screen reader. 
+</p>
+<div class=""note"">Note: 
+<ul><li>Text recognition is available in <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">Firefox version</a> 106 and above.
+</li><li>At this time, this feature is only supported on macOS 10.15 (Catalina) or higher. 
+</li><li>If you are using macOS 10.15 (Catalina), Text Recognition only supports English. However, if you are using macOS 11.0 (Big Sur) or higher, Text Recognition is available in the following languages at different recognition levels:
+</li></ul>
+<p><strong>More Accurate Recognition:</strong> English, Chinese, Portuguese, French, Italian, German, and Spanish 
+</p><p><strong>Faster Recognition: </strong>English, Portuguese, French, Italian, German, and Spanish
+</p>
+</div>
+<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_using-text-recognition""><span class=""tocnumber"">1</span> <span class=""toctext"">Using Text Recognition</span></a></li><li class=""toclevel-1""><a href=""#w_pop-up""><span class=""tocnumber"">2</span> <span class=""toctext"">Pop-up</span></a></li><li class=""toclevel-1""><a href=""#w_data-collection""><span class=""tocnumber"">3</span> <span class=""toctext"">Data collection</span></a></li><li class=""toclevel-1""><a href=""#w_screen-reader""><span class=""tocnumber"">4</span> <span class=""toctext"">Screen Reader</span></a></li><li class=""toclevel-1""><a href=""#w_troubleshooting""><span class=""tocnumber"">5</span> <span class=""toctext"">Troubleshooting</span></a></li></ul></div>
+<h1 id=""w_using-text-recognition"">Using Text Recognition</h1>
+<p>To copy text from an image, simply right-click on it and select <span class=""menu"">Copy Text from Image</span> from the menu that appears. 
+</p><p>Don't see the menu after right-clicking? Try holding <span class=""button"">Shift</span> while right-clicking, or double-right-clicking on the image to bring it up.
+</p>
+<div class=""note"">Note: With this feature, you can copy text from any .jpg, .png, and .webp image. Please note that the <span class=""menu"">Copy Text from Image</span> command will not work on images that were intentionally designed to disable text copying.</div>
+<p><img alt=""CopyTextImageMacOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-08-24-10-04-41-3603b0.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</p>
+<h1 id=""w_pop-up"">Pop-up</h1>
+<p>Once you prompt Text Recognition from the menu, you will see a modal popup with a loading animation as Firefox analyzes the image.<br>
+<img alt=""MacOStextfromimage"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-08-24-10-07-10-7775b4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</p><p>It might take a few more seconds for the feature to load if there’s longer, more complex text in the image you selected.
+</p><p><img alt=""TextfromImageScrollbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-08-24-10-06-05-245b03.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""600"">
+</p><p>The feature automatically copies all of the extracted text to your clipboard. However, if you’d like to copy only a portion of the text, you will be able to select, highlight, and copy your preferred excerpt with <span class=""key"">command</span> + <span class=""key"">C</span>.
+</p><p>To close the modal, you can either click on the <span class=""button"">Close</span> button or press <span class=""key"">esc</span>.
+</p>
+<h1 id=""w_data-collection"">Data collection</h1>
+<p>We won’t collect any of your personal data apart from the following:
+</p>
+<ol><li>Whether or not you prompt the feature via the context menu.
+</li><li>Whether or not you use a screen reader for the feature.
+</li></ol>
+<h1 id=""w_screen-reader"">Screen Reader</h1>
+<p>Text Recognition is compatible with VoiceOver. Once you prompt the feature, the modal will be read as usual by the screen reader. See <a href=""/en-US/kb/accessibility-features-firefox"">Accessibility features in Firefox</a>  for more information.
+<img alt=""ScreenreaderMacOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-08-24-10-05-27-0af490.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""800"">
+</p>
+<h1 id=""w_troubleshooting"">Troubleshooting</h1>
+<p>As Text Recognition is a work in progress, you may encounter some text errors if the image has more complex text. If Text Recognition does not work, you will see an error message in the pop-up.
+</p><p>If you encounter any errors with the feature, please <a href=""https://bugzilla.mozilla.org/"">file a bug on Bugzilla</a> and try the feature on another image. We hope to improve Text Recognition based on your feedback.
+</p>",firefox,browse;images-and-documents,"Text Recognition allows you to extract text from a selected image on your current webpage. Whether it is a memorable caption in a meme or contact information in a screenshot event flyer, you can copy that text to share, store, or look up without needing to manually retype everything.
+
+This feature is also compatible with VoiceOver, the built-in macOS screen reader.
+
+Note: 
+- Text recognition is available in [Firefox version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 106 and above.
+- At this time, this feature is only supported on macOS 10.15 (Catalina) or higher. 
+- If you are using macOS 10.15 (Catalina), Text Recognition only supports English. However, if you are using macOS 11.0 (Big Sur) or higher, Text Recognition is available in the following languages at different recognition levels:
+
+**More Accurate Recognition:** English, Chinese, Portuguese, French, Italian, German, and Spanish
+
+**Faster Recognition:** English, Portuguese, French, Italian, German, and Spanish
+
+## Table of Contents
+
+- [1 Using Text Recognition](https://support.mozilla.org/kb/text-recognition#w_using-text-recognition)
+- [2 Pop-up](https://support.mozilla.org/kb/text-recognition#w_pop-up)
+- [3 Data collection](https://support.mozilla.org/kb/text-recognition#w_data-collection)
+- [4 Screen Reader](https://support.mozilla.org/kb/text-recognition#w_screen-reader)
+- [5 Troubleshooting](https://support.mozilla.org/kb/text-recognition#w_troubleshooting)
+
+# Using Text Recognition
+
+To copy text from an image, simply right-click on it and select Copy Text from Image from the menu that appears.
+
+Don't see the menu after right-clicking? Try holding Shift while right-clicking, or double-right-clicking on the image to bring it up.
+
+Note: With this feature, you can copy text from any .jpg, .png, and .webp image. Please note that the Copy Text from Image command will not work on images that were intentionally designed to disable text copying.
+
+![CopyTextImageMacOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Pop-up
+
+Once you prompt Text Recognition from the menu, you will see a modal popup with a loading animation as Firefox analyzes the image.  
+ ![MacOStextfromimage](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+It might take a few more seconds for the feature to load if there’s longer, more complex text in the image you selected.
+
+![TextfromImageScrollbar](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+The feature automatically copies all of the extracted text to your clipboard. However, if you’d like to copy only a portion of the text, you will be able to select, highlight, and copy your preferred excerpt with command + C.
+
+To close the modal, you can either click on the Close button or press esc.
+
+# Data collection
+
+We won’t collect any of your personal data apart from the following:
+
+1. Whether or not you prompt the feature via the context menu.
+2. Whether or not you use a screen reader for the feature.
+
+# Screen Reader
+
+Text Recognition is compatible with VoiceOver. Once you prompt the feature, the modal will be read as usual by the screen reader. See [Accessibility features in Firefox](\""https://support.mozilla.org/en-US/kb/accessibility-features-firefox"") for more information. ![ScreenreaderMacOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
+
+# Troubleshooting
+
+As Text Recognition is a work in progress, you may encounter some text errors if the image has more complex text. If Text Recognition does not work, you will see an error message in the pop-up.
+
+If you encounter any errors with the feature, please [file a bug on Bugzilla](https://bugzilla.mozilla.org/) and try the feature on another image. We hope to improve Text Recognition based on your feedback.
+
+"
 59114,Firefox privacy and security features,firefox-privacy-and-security-features,https://support.mozilla.org/en-US/kb/firefox-privacy-and-security-features,en-US,"Check Firefox's most advanced features and settings for safe, private online browsing.","<p>When users look for a full-featured browser to navigate the web, privacy and security are the top concern. Firefox recognizes this and offers some of the most advanced and highly customizable privacy and security features in a web browser.
 </p><p>In this article, we go over some of the most notable features we have developed to help put you in control of the information you share and to protect you against online security risks. For more information on how Firefox protects you, visit our <a href=""https://support.mozilla.org/products/firefox/protect-your-privacy"">privacy and security articles</a>.
 </p>
@@ -101727,83 +101984,6 @@ If you would also like to check that you view the correct _SHA256SUMS_ file (for
 </dt></dl>"
 62383,Placeholder article 091802,faq-encrypted-client-hello-redirect-2,https://support.mozilla.org/en-US/kb/faq-encrypted-client-hello-redirect-2,en-US,"","<p>REDIRECT [[Encrypted Client Hello (ECH):Frequently asked questions]]
 </p>","","","REDIRECT [[Encrypted Client Hello (ECH):Frequently asked questions]]
-
-"
-62711,Firefox for Enterprise 120 - Release notes,firefox-enterprise-120-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-120-release-notes,en-US,See what's coming out with Firefox for Enterprise 120.,"<p>Except where noted, everything here applies to both Firefox 120 and the Firefox 115.5 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
-</p>
-<h1 id=""w_policies"">Policies</h1>
-<ul><li>The <a href=""https://mozilla.github.io/policy-templates/#printingenabled"">PrintingEnabled</a> policy has been added to allow  printing to be disabled.
-</li><li>The <a href=""https://mozilla.github.io/policy-templates/#preferences"">Preferences</a> policy has been updated to allow setting preferences beginning with the prefix <span class=""pref"">pref.</span>. These are primarily used for disabling buttons in the settings (i.e. about:preferences page) and must have the status <em>locked</em> to function correctly.
-</li></ul>",firefox-enterprise,whats-new-firefox-enterprise,"Except where noted, everything here applies to both Firefox 120 and the Firefox 115.5 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
-
-# Policies
-
-- The [PrintingEnabled](https://mozilla.github.io/policy-templates/#printingenabled) policy has been added to allow printing to be disabled.
-- The [Preferences](https://mozilla.github.io/policy-templates/#preferences) policy has been updated to allow setting preferences beginning with the prefix pref.. These are primarily used for disabling buttons in the settings (i.e. about:preferences page) and must have the status _locked_ to function correctly.
-
-"
-62712,Firefox for Enterprise 119 - Release notes,firefox-enterprise-119-release-notes,https://support.mozilla.org/en-US/kb/firefox-enterprise-119-release-notes,en-US,See what's coming out with Firefox for Enterprise 119.,"<p>Everything here applies to Firefox version 119. It is not available in Firefox 115.4 <a href=""/en-US/kb/firefox-esr-release-cycle"">ESR</a>.
-</p><p>Encrypted Client Hello (ECH) is now available to Firefox users, delivering a more private browsing experience. ECH extends the encryption used in TLS connections to cover more of the handshake and better protect sensitive fields. Read more about the launch of ECH on <a href=""https://blog.mozilla.org/en/products/firefox/encrypted-hello/"">Mozilla Distilled</a>. For further details on how ECH interacts with Enterprise policies, TLS middleboxes and other technology, see our <a href=""/en-US/kb/faq-encrypted-client-hello"">FAQ</a> and <a href=""https://wiki.mozilla.org/Security/Encrypted_Client_Hello"">MozillaWiki</a> for experts. This is only available in Firefox 119.
-</p>",firefox-enterprise,whats-new-firefox-enterprise,"Everything here applies to Firefox version 119. It is not available in Firefox 115.4 [ESR](\""https://support.mozilla.org/en-US/kb/firefox-esr-release-cycle"").
-
-Encrypted Client Hello (ECH) is now available to Firefox users, delivering a more private browsing experience. ECH extends the encryption used in TLS connections to cover more of the handshake and better protect sensitive fields. Read more about the launch of ECH on [Mozilla Distilled](https://blog.mozilla.org/en/products/firefox/encrypted-hello/). For further details on how ECH interacts with Enterprise policies, TLS middleboxes and other technology, see our [FAQ](\""https://support.mozilla.org/en-US/kb/faq-encrypted-client-hello"") and [MozillaWiki](https://wiki.mozilla.org/Security/Encrypted_Client_Hello) for experts. This is only available in Firefox 119.
-
-"
-62713,Automatically trust third-party root certificates,automatically-trust-third-party-certificates,https://support.mozilla.org/en-US/kb/automatically-trust-third-party-certificates,en-US,"Root certificates are the backbone of the security system that underpins HTTPS web traffic. Firefox, like most web browsers, includes a pre-installed set of trusted root certificates.","<p>Starting with <a href=""/en-US/kb/find-what-version-firefox-you-are-using"">version</a> 120, Firefox can now automatically trust third-party root certificates installed in your operating system's certificate store. This article explains what this means for you as a Firefox user, how it works, and how you can manage this feature according to your preferences.
-</p>
-<h1 id=""w_what-are-third-party-root-certificates"">What are third-party root certificates?</h1>
-<p>Root certificates are the backbone of the security system that underpins HTTPS web traffic. Firefox, like most web browsers, includes a pre-installed set of trusted root certificates. However, sometimes, users or organizations might need to trust additional certificates not included in this default set. These are known as third-party root certificates.
-</p>
-<h1 id=""w_why-is-this-feature-important"">Why is this feature important?</h1>
-<ul><li><strong>Seamless browsing experience:</strong> With this update, Firefox will use third-party root certificates added to your operating system, allowing you to seamlessly access more websites without extra configuration.
-</li><li><strong>Convenience for users and organizations:</strong> Particularly beneficial for enterprise environments or specialized web services that use their own certificates.
-</li></ul>
-<h1 id=""w_how-it-works"">How it works</h1>
-<p>When you navigate to a website, Firefox checks if the site's certificate is trusted. 
-Firefox will now also look for any third-party root certificates you or your organization have installed in the operating system's certificate store. 
-If a website uses such a certificate, Firefox will trust it automatically, provided the certificate is present in the OS store.
-</p>
-<h1 id=""w_security-implications"">Security implications</h1>
-<ul><li><strong>Trusted administrators:</strong> These third-party certificates are typically installed by you or your organization's trusted administrators, ensuring they are safe to use.
-</li><li><strong>No compromise on security:</strong> The feature doesn't lower Firefox's security standards; it merely extends trust to additional certificates deemed secure by you or your organization.
-</li></ul>
-<h1 id=""w_manage-the-feature"">Manage the feature</h1>
-<p>This feature is enabled by default. However, if you wish to turn it off, you can easily do so by following these steps:
-</p>
-<ul><li>Click the Menu  button on the right corner of your screen and select <span class=""menu"">Settings</span>.
-</li><li>On the left hand side, select <span class=""menu"">Privacy &amp; Security</span> and scroll down until you see the <em>Certificates</em> section.
-</li><li>Uncheck the <em>Allow Firefox to automatically trust third-party root certificates you install</em> option.
-<dl><dt><img alt=""Automatically trust third-party root certificates"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-21-13-03-56-06c953.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ul>",firefox,privacy-and-security,"Starting with [version](\""https://support.mozilla.org/en-US/kb/find-what-version-firefox-you-are-using"") 120, Firefox can now automatically trust third-party root certificates installed in your operating system's certificate store. This article explains what this means for you as a Firefox user, how it works, and how you can manage this feature according to your preferences.
-
-# What are third-party root certificates?
-
-Root certificates are the backbone of the security system that underpins HTTPS web traffic. Firefox, like most web browsers, includes a pre-installed set of trusted root certificates. However, sometimes, users or organizations might need to trust additional certificates not included in this default set. These are known as third-party root certificates.
-
-# Why is this feature important?
-
-- **Seamless browsing experience:** With this update, Firefox will use third-party root certificates added to your operating system, allowing you to seamlessly access more websites without extra configuration.
-- **Convenience for users and organizations:** Particularly beneficial for enterprise environments or specialized web services that use their own certificates.
-
-# How it works
-
-When you navigate to a website, Firefox checks if the site's certificate is trusted. Firefox will now also look for any third-party root certificates you or your organization have installed in the operating system's certificate store. If a website uses such a certificate, Firefox will trust it automatically, provided the certificate is present in the OS store.
-
-# Security implications
-
-- **Trusted administrators:** These third-party certificates are typically installed by you or your organization's trusted administrators, ensuring they are safe to use.
-- **No compromise on security:** The feature doesn't lower Firefox's security standards; it merely extends trust to additional certificates deemed secure by you or your organization.
-
-# Manage the feature
-
-This feature is enabled by default. However, if you wish to turn it off, you can easily do so by following these steps:
-
-- Click the Menu button on the right corner of your screen and select Settings.
-- On the left hand side, select Privacy & Security and scroll down until you see the _Certificates_ section.
-- Uncheck the _Allow Firefox to automatically trust third-party root certificates you install_ option.<dl><dt>
-<img alt=""Automatically trust third-party root certificates"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-11-21-13-03-56-06c953.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
 
 "
 62950,Avoid getting locked out of your Mozilla account,avoid-getting-locked-out-your-mozilla-account,https://support.mozilla.org/en-US/kb/avoid-getting-locked-out-your-mozilla-account,en-US,Tips and tricks to avoid getting locked out of your Mozilla account.,"<p>Your Mozilla account lets you <a href=""/en-US/kb/access-mozilla-services-firefox-account"">access Mozilla Services</a> on any device by simply signing in. With a Mozilla account and <a href=""/en-US/kb/how-do-i-set-sync-my-computer"">Firefox Sync</a>, you can get all your bookmarks, passwords, open tabs and more. Protect your account with recovery information and backups to help you sign in if:
