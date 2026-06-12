@@ -26188,192 +26188,6 @@ A long tap--touching and holding on the screen--will trigger the context menu fo
 - [Manage multiple tabs in Firefox for Android](\""https://support.mozilla.org/en-US/kb/manage-multiple-tabs-firefox-android"")
 
 "
-8447,How does Firefox for Android use the permissions it requests?,how-firefox-android-use-permissions-it-requests,https://support.mozilla.org/en-US/kb/how-firefox-android-use-permissions-it-requests,en-US,"When installing Firefox, Android asks you to grant a number of permissions. This article explains what these are and how they're used.","<p>When you install an application on an Android device, Android will display all the functions that the app is capable of, such as accessing your camera, contacts, or location. In order to access these resources, applications ask for specific permissions. Each permission is accompanied with a brief description to offer an understanding of what it may be used for.
-</p><p>To install an app, you must acknowledge that you're aware of what the software is capable of by giving Android your permission. For example, when you visit a website that requires a specific function, such as taking or uploading a picture or finding your location, Android will ask you for permission before it performs that function.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_firefox-functions-and-permissions""><span class=""tocnumber"">1</span> <span class=""toctext"">Firefox functions and permissions</span></a></li><li class=""toclevel-1""><a href=""#w_firefox-google-play-data-safety-disclosure""><span class=""tocnumber"">2</span> <span class=""toctext"">Firefox Google Play data safety disclosure</span></a><ul><li class=""toclevel-2""><a href=""#w_do-you-share-my-data-with-third-parties""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Do you share my data with third parties?</span></a></li><li class=""toclevel-2""><a href=""#w_how-can-i-request-my-data-to-be-removed""><span class=""tocnumber"">2.2</span> <span class=""toctext"">How can I request my data to be removed?</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_related-content""><span class=""tocnumber"">3</span> <span class=""toctext"">Related content</span></a></li></ul></div>
-<h1 id=""w_firefox-functions-and-permissions"">Firefox functions and permissions</h1>
-<p>Google has recently simplified the app permissions lists, so you might not see all the permissions displayed here. See the <a href=""https://support.google.com/googleplay/answer/6014972?p=app_permissions&amp;rd=1%29"">Google Support page</a> for more details. Firefox may request access to the following:
-</p>
-<ul><li><strong>Storage:</strong> Modify/delete SD card contents. This allows Firefox to save downloaded files to the SD card.
-</li><li><strong>Your location (GPS location):</strong> GPS location is used only when you choose to share your location with a website. Firefox never uses your location itself or shares it with a website without your permission.
-</li><li><strong>Take pictures and videos:</strong> When a web page requests an image file to upload, you may choose to take a picture with your device's built-in camera. If a site wishes to use your microphone for communication, you may choose to share that as well — such is the case with sites using <a href=""https://www.webrtc.org"">WebRTC</a>. Firefox will always display a message asking for permission each time a site asks to add a photo or record audio. It never records audio, takes pictures or records video unless you opt in each time it asks.
-</li><li><strong>Network communication (Full Internet access):</strong> This gives Firefox permission to download web pages, <span class=""for"" data-for=""not m126"">add-ons</span><span class=""for"" data-for=""m126"">extensions</span> and other content over the Internet.
-</li><li><strong>System Tools (Install shortcuts):</strong> This allows you to add website shortcuts to your device's home screen using Firefox.
-</li><li><strong>Wi-Fi connection information:</strong> Allows Firefox to view whether Wi-Fi is enabled and the names of devices that are connected to it. This information allows <a href=""https://location.services.mozilla.com"">Mozilla Location Services</a> to work.
-</li><li><strong>Download Manager:</strong> Allows Firefox to download files through the Download Manager.
-</li></ul>
-<h1 id=""w_firefox-google-play-data-safety-disclosure"">Firefox Google Play data safety disclosure</h1>
-<div class=""note""><strong>Note:</strong> Mozilla respects and protects your personal information. We only collect the data we need to improve our products and services. For more information, visit <a href=""https://www.mozilla.org/legal/privacy/firefox.html"">Firefox Privacy Policy</a>.</div>
-<p>Firefox transmits the following data to understand how users interact with Firefox:
-</p>
-<ul><li><strong>Location:</strong> User or device physical location. GPS location is used only when you choose to share your location with a website. Firefox never uses your location itself or shares it with a website without your permission.
-</li><li><strong>App Activity:</strong> Information about how you interact with the Firefox app. We do not collect your browsing history.
-</li><li><strong>App info and performance:</strong> This includes information about Firefox performance, such as crash logs and diagnostics, used to improve the application. Data is compiled, and no individual browsing history is collected or shared.
-</li><li><strong>Device or other identifiers:</strong> Information about a user's device, browser, or application. To learn more, visit <a href=""/en-US/kb/how-do-you-use-adjust-firefox"">How do you use Adjust in Firefox?</a>
-</li></ul>
-<h2 id=""w_do-you-share-my-data-with-third-parties"">Do you share my data with third parties?</h2>
-<p>Your privacy is important to us. Please read the article <a href=""/en-US/kb/mobile-marketing-data"">Manage marketing data settings in Firefox for Android</a> and the question <a href=""https://www.mozilla.org/privacy/firefox/#how-is-your-data-shared"">How is your data shared?</a> in the <a href=""https://www.mozilla.org/privacy/firefox/"">Firefox Privacy Notice</a>.
-</p>
-<h2 id=""w_how-can-i-request-my-data-to-be-removed"">How can I request my data to be removed?</h2>
-<p>You need to opt out of Usage and technical data in the settings:
-</p>
-<ol><li>Tap the menu button <img alt=""android menu icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-05-28-12-46-21-5e262d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""10""> <br> <img alt=""Menu button - Template:menupreview"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-10-01-13-54-46-4af522.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-
-</li><li>Tap <span class=""menu"">Settings</span>.
-</li><li>Scroll down to <em>Privacy and Security</em> section.
-</li><li>Tap <span class=""menu"">Data collection</span>.
-</li><li>Tap the toggle next to <strong>Usage and technical data</strong>.
-</li></ol>
-<h1 id=""w_related-content"">Related content</h1>
-<ul><li><a href=""/en-US/kb/mobile-manage-firefox-data-collection-and-privacy"">Mobile - Manage Firefox data collection and privacy settings</a>
-</li><li><a href=""/en-US/kb/technical-and-interaction-data"">Manage technical and interaction data collection settings in Firefox</a>
-</li></ul>",mobile,privacy-and-security,"When you install an application on an Android device, Android will display all the functions that the app is capable of, such as accessing your camera, contacts, or location. In order to access these resources, applications ask for specific permissions. Each permission is accompanied with a brief description to offer an understanding of what it may be used for.
-
-To install an app, you must acknowledge that you're aware of what the software is capable of by giving Android your permission. For example, when you visit a website that requires a specific function, such as taking or uploading a picture or finding your location, Android will ask you for permission before it performs that function.
-
-## Table of Contents
-
-- [1 Firefox functions and permissions](https://support.mozilla.org/kb/how-firefox-android-use-permissions-it-requests#w_firefox-functions-and-permissions)
-- [2 Firefox Google Play data safety disclosure](https://support.mozilla.org/kb/how-firefox-android-use-permissions-it-requests#w_firefox-google-play-data-safety-disclosure)
-  - [2.1 Do you share my data with third parties?](https://support.mozilla.org/kb/how-firefox-android-use-permissions-it-requests#w_do-you-share-my-data-with-third-parties)
-  - [2.2 How can I request my data to be removed?](https://support.mozilla.org/kb/how-firefox-android-use-permissions-it-requests#w_how-can-i-request-my-data-to-be-removed)
-
-- [3 Related content](https://support.mozilla.org/kb/how-firefox-android-use-permissions-it-requests#w_related-content)
-
-# Firefox functions and permissions
-
-Google has recently simplified the app permissions lists, so you might not see all the permissions displayed here. See the [Google Support page](https://support.google.com/googleplay/answer/6014972?p=app_permissions&rd=1%29) for more details. Firefox may request access to the following:
-
-- **Storage:** Modify/delete SD card contents. This allows Firefox to save downloaded files to the SD card.
-- **Your location (GPS location):** GPS location is used only when you choose to share your location with a website. Firefox never uses your location itself or shares it with a website without your permission.
-- **Take pictures and videos:** When a web page requests an image file to upload, you may choose to take a picture with your device's built-in camera. If a site wishes to use your microphone for communication, you may choose to share that as well — such is the case with sites using [WebRTC](https://www.webrtc.org). Firefox will always display a message asking for permission each time a site asks to add a photo or record audio. It never records audio, takes pictures or records video unless you opt in each time it asks.
-- **Network communication (Full Internet access):** This gives Firefox permission to download web pages, add-onsextensions and other content over the Internet.
-- **System Tools (Install shortcuts):** This allows you to add website shortcuts to your device's home screen using Firefox.
-- **Wi-Fi connection information:** Allows Firefox to view whether Wi-Fi is enabled and the names of devices that are connected to it. This information allows [Mozilla Location Services](https://location.services.mozilla.com) to work.
-- **Download Manager:** Allows Firefox to download files through the Download Manager.
-
-# Firefox Google Play data safety disclosure
-
-**Note:** Mozilla respects and protects your personal information. We only collect the data we need to improve our products and services. For more information, visit [Firefox Privacy Policy](https://www.mozilla.org/legal/privacy/firefox.html).
-
-Firefox transmits the following data to understand how users interact with Firefox:
-
-- **Location:** User or device physical location. GPS location is used only when you choose to share your location with a website. Firefox never uses your location itself or shares it with a website without your permission.
-- **App Activity:** Information about how you interact with the Firefox app. We do not collect your browsing history.
-- **App info and performance:** This includes information about Firefox performance, such as crash logs and diagnostics, used to improve the application. Data is compiled, and no individual browsing history is collected or shared.
-- **Device or other identifiers:** Information about a user's device, browser, or application. To learn more, visit [How do you use Adjust in Firefox?](\""https://support.mozilla.org/en-US/kb/how-do-you-use-adjust-firefox"")
-
-## Do you share my data with third parties?
-
-Your privacy is important to us. Please read the article [Manage marketing data settings in Firefox for Android](\""https://support.mozilla.org/en-US/kb/mobile-marketing-data"") and the question [How is your data shared?](https://www.mozilla.org/privacy/firefox/#how-is-your-data-shared) in the [Firefox Privacy Notice](https://www.mozilla.org/privacy/firefox/).
-
-## How can I request my data to be removed?
-
-You need to opt out of Usage and technical data in the settings:
-
-1. Tap the menu button ![android menu icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)   
-  ![Menu button - Template:menupreview](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-2. Tap Settings.
-3. Scroll down to _Privacy and Security_ section.
-4. Tap Data collection.
-5. Tap the toggle next to **Usage and technical data**.
-
-# Related content
-
-- [Mobile - Manage Firefox data collection and privacy settings](\""https://support.mozilla.org/en-US/kb/mobile-manage-firefox-data-collection-and-privacy"")
-- [Manage technical and interaction data collection settings in Firefox](\""https://support.mozilla.org/en-US/kb/technical-and-interaction-data"")
-
-"
-8543,Helping with crashes,helping-crashes,https://support.mozilla.org/en-US/kb/helping-crashes,en-US,"When Firefox crashes, the crash report provides useful information needed to find a solution. Learn about that troubleshooting process.","<p>When <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Firefox crashes</a> and a user asks for help, viewing a crash report will help you to better understand the cause of the crash (for example, extensions or third-party software) and provides useful information needed to find a solution, such as related bug reports. This article describes that troubleshooting process.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-do-i-look-up-someones-crash-report""><span class=""tocnumber"">1</span> <span class=""toctext"">How do I look up someone's crash report?</span></a></li><li class=""toclevel-1""><a href=""#w_how-do-i-read-a-crash-report""><span class=""tocnumber"">2</span> <span class=""toctext"">How do I read a crash report?</span></a><ul><li class=""toclevel-2""><a href=""#w_check-for-related-bugs""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Check for related bugs</span></a></li><li class=""toclevel-2""><a href=""#w_check-for-malware""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Check for malware</span></a></li><li class=""toclevel-2""><a href=""#w_check-for-problem-extensions""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Check for problem extensions</span></a></li><li class=""toclevel-2""><a href=""#w_other-helpful-parts-of-a-crash-report""><span class=""tocnumber"">2.4</span> <span class=""toctext"">Other helpful parts of a crash report</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_what-do-i-do-if-i-need-help-reading-crash-reports""><span class=""tocnumber"">3</span> <span class=""toctext"">What do I do if I need help reading crash reports?</span></a></li></ul></div>
-<h1 id=""w_how-do-i-look-up-someones-crash-report"">How do I look up someone's crash report?</h1>
-<p>When people visit the <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"">Troubleshoot Firefox crashes (closing or quitting unexpectedly)</a> article or work through the <a href=""https://support.mozilla.org/en-US/questions/new"">Ask a Question</a> flow, we ask them to copy their latest Crash IDs from <strong>about:crashes</strong> and to paste it into the question form. When someone posts a question on the Firefox support forum, we can also use the Post a Reply <em>Common responses</em> tool and select <a href=""/en-US/kb/forum-response-firefox-crashes"">Forum Response - Firefox crashes</a> to ask for crash reports.
-</p><p>When a complete Crash ID beginning with <em>bp-</em> is pasted into the support forum, the forum software will create a clickable link to the Crash Report. Note that the pasted text is not seen as a link until the post is made on the forum. The link will not show up in the person's Post Reply preview.    
-</p>
-<div class=""note""><strong>Note:</strong> Instructions for users to find their Crash ID are in the <a href=""/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash"">Troubleshoot Firefox crashes</a> article.</div>  
-<h1 id=""w_how-do-i-read-a-crash-report"">How do I read a crash report?</h1>
-<p>A crash report contains many useful pieces of information. The following explains what to look for. If you are a contributor looking to learn more, check out Mozilla's <a href=""https://firefox-source-docs.mozilla.org/contributing/debugging/understanding_crash_reports.html"">Understanding Crash Reports</a> article.
-</p>
-<h2 id=""w_check-for-related-bugs"">Check for related bugs</h2>
-<p>The report always begins on the <em>Details</em> tab. The <em>Bugzilla</em> tab will link you to bug reports, if any, that are related to this crash signature. <strong>Click through and read the bug report — especially all of the comments. What you are looking for is a workaround that you can give to the person you are trying to help.</strong><br><br><img alt=""MozillaCrashReport-BugzillaTab"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-01-04-02-53-36-f3ad58.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title><br>
-Also, if the status of the bug is FIXED, look at the <em>Target Milestone</em> and <em>Tracking Flags</em> fields.  They will tell you in which version of Firefox the issue has been fixed.
-</p>
-<h2 id=""w_check-for-malware"">Check for malware</h2>
-<p>If there were no related bugs, click on the <em>Modules</em> tab. Here you're looking for files with no version information. They are sometimes related to malware. Often googling the name of the file will help you corroborate this. In such cases, you can suggest that the user scan their system for malware and link to the <a href=""/en-US/kb/troubleshoot-firefox-issues-caused-malware"">Troubleshoot Firefox issues caused by malware</a> article for recommendations.<br><br><img alt=""crash4"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-01-11-10-08-35-586274.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_check-for-problem-extensions"">Check for problem extensions</h2>
-<p>Finally, check the <em>Extensions</em> tab to see what (if any) extensions were running. You'll probably have to google the Extension ID to figure out what some of them are but that should also pull up information about extensions that often cause problems. <strong>If you suspect a problem extension, recommend that they disable that extension and see if the problem is fixed (instructions are in <a href=""/en-US/kb/disable-or-remove-add-ons"">Disable or remove Add-ons</a>).</strong> You should also link them to <a href=""/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>  in case that doesn't work.<br><br><img alt=""crash5"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2012-01-11-10-14-11-31798c.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</p>
-<h2 id=""w_other-helpful-parts-of-a-crash-report"">Other helpful parts of a crash report</h2>
-<ul><li><strong>Details tab:</strong>
-<ul><li> <em>Signature</em> - Describes the kind of crash. There are links in this field that will let you view every crash report with the same crash signature over 1 - 4 weeks across all Firefox versions.
-</li><li> In addition to the crash signature, the top section contains details about the crash time, crash reason, Firefox version, OS, CPU, graphics settings, and the <a href=""http://en.wikipedia.org/wiki/Layered_Service_Provider"">LSP</a>.
-</li><li> <em>Crashing Thread</em> - Shows the last function calls before the crash. You can see if third party software is implied. The bug component is usually the component which the last called functions belongs to.
-</li></ul>
-</li><li><strong>Correlations tab:</strong> Tables of correlation data (modules, add-ons, CPU cores) for this crash signature and reason elaborated from all the crashes of the day in the current Firefox version. The higher the ratio is between the two percentages, the higher the correlation is. Correlations per module and per add-on must be checked to see if it's caused by third party software or add-ons.
-</li></ul>
-<h1 id=""w_what-do-i-do-if-i-need-help-reading-crash-reports"">What do I do if I need help reading crash reports?</h1>
-<p>Crash reports contain a lot of very technical information. There are many more things that can be learned from them than what's presented in this article and sometimes, the steps presented here won't lead to concrete steps you can give a user to resolve the problem. <strong>If you want help with reading crash reports, the best thing to do is ask for help in the <a href=""https://chat.mozilla.org/#/room/#SUMO:mozilla.org"">SUMO Matrix room</a></strong> Just type: <em>Can someone help me read this crash report?</em>
-</p>",contributor,general,"When [Firefox crashes](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"") and a user asks for help, viewing a crash report will help you to better understand the cause of the crash (for example, extensions or third-party software) and provides useful information needed to find a solution, such as related bug reports. This article describes that troubleshooting process.
-
-## Table of Contents
-
-- [1 How do I look up someone's crash report?](https://support.mozilla.org/kb/helping-crashes#w_how-do-i-look-up-someones-crash-report)
-- [2 How do I read a crash report?](https://support.mozilla.org/kb/helping-crashes#w_how-do-i-read-a-crash-report)
-  - [2.1 Check for related bugs](https://support.mozilla.org/kb/helping-crashes#w_check-for-related-bugs)
-  - [2.2 Check for malware](https://support.mozilla.org/kb/helping-crashes#w_check-for-malware)
-  - [2.3 Check for problem extensions](https://support.mozilla.org/kb/helping-crashes#w_check-for-problem-extensions)
-  - [2.4 Other helpful parts of a crash report](https://support.mozilla.org/kb/helping-crashes#w_other-helpful-parts-of-a-crash-report)
-
-- [3 What do I do if I need help reading crash reports?](https://support.mozilla.org/kb/helping-crashes#w_what-do-i-do-if-i-need-help-reading-crash-reports)
-
-# How do I look up someone's crash report?
-
-When people visit the [Troubleshoot Firefox crashes (closing or quitting unexpectedly)](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting"") article or work through the [Ask a Question](https://support.mozilla.org/en-US/questions/new) flow, we ask them to copy their latest Crash IDs from **about:crashes** and to paste it into the question form. When someone posts a question on the Firefox support forum, we can also use the Post a Reply _Common responses_ tool and select [Forum Response - Firefox crashes](\""https://support.mozilla.org/en-US/kb/forum-response-firefox-crashes"") to ask for crash reports.
-
-When a complete Crash ID beginning with _bp-_ is pasted into the support forum, the forum software will create a clickable link to the Crash Report. Note that the pasted text is not seen as a link until the post is made on the forum. The link will not show up in the person's Post Reply preview.
-
-**Note:** Instructions for users to find their Crash ID are in the [Troubleshoot Firefox crashes](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-crashes-closing-or-quitting#w_get-help-fixing-this-crash"") article.
-
-# How do I read a crash report?
-
-A crash report contains many useful pieces of information. The following explains what to look for. If you are a contributor looking to learn more, check out Mozilla's [Understanding Crash Reports](https://firefox-source-docs.mozilla.org/contributing/debugging/understanding_crash_reports.html) article.
-
-## Check for related bugs
-
-The report always begins on the _Details_ tab. The _Bugzilla_ tab will link you to bug reports, if any, that are related to this crash signature. **Click through and read the bug report — especially all of the comments. What you are looking for is a workaround that you can give to the person you are trying to help.**  
-  
- ![MozillaCrashReport-BugzillaTab](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)  
-Also, if the status of the bug is FIXED, look at the _Target Milestone_ and _Tracking Flags_ fields. They will tell you in which version of Firefox the issue has been fixed.
-
-## Check for malware
-
-If there were no related bugs, click on the _Modules_ tab. Here you're looking for files with no version information. They are sometimes related to malware. Often googling the name of the file will help you corroborate this. In such cases, you can suggest that the user scan their system for malware and link to the [Troubleshoot Firefox issues caused by malware](\""https://support.mozilla.org/en-US/kb/troubleshoot-firefox-issues-caused-malware"") article for recommendations.  
-  
- ![crash4](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Check for problem extensions
-
-Finally, check the _Extensions_ tab to see what (if any) extensions were running. You'll probably have to google the Extension ID to figure out what some of them are but that should also pull up information about extensions that often cause problems. **If you suspect a problem extension, recommend that they disable that extension and see if the problem is fixed (instructions are in [Disable or remove Add-ons](\""https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons"")).** You should also link them to [Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems](\""https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems"") in case that doesn't work.  
-  
- ![crash5](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Other helpful parts of a crash report
-
-- **Details tab:**
-  - _Signature_ - Describes the kind of crash. There are links in this field that will let you view every crash report with the same crash signature over 1 - 4 weeks across all Firefox versions.
-  - In addition to the crash signature, the top section contains details about the crash time, crash reason, Firefox version, OS, CPU, graphics settings, and the [LSP](http://en.wikipedia.org/wiki/Layered_Service_Provider).
-  - _Crashing Thread_ - Shows the last function calls before the crash. You can see if third party software is implied. The bug component is usually the component which the last called functions belongs to.
-
-- **Correlations tab:** Tables of correlation data (modules, add-ons, CPU cores) for this crash signature and reason elaborated from all the crashes of the day in the current Firefox version. The higher the ratio is between the two percentages, the higher the correlation is. Correlations per module and per add-on must be checked to see if it's caused by third party software or add-ons.
-
-# What do I do if I need help reading crash reports?
-
-Crash reports contain a lot of very technical information. There are many more things that can be learned from them than what's presented in this article and sometimes, the steps presented here won't lead to concrete steps you can give a user to resolve the problem. **If you want help with reading crash reports, the best thing to do is ask for help in the [SUMO Matrix room](https://chat.mozilla.org/#/room/#SUMO:mozilla.org)** Just type: _Can someone help me read this crash report?_
-
-"
 8571,Article review guidelines for KB reviewers,article-review-guidelines,https://support.mozilla.org/en-US/kb/article-review-guidelines,en-US,"Guidelines for reviewing KB articles including revision levels, feedback for editors and 'ready for localization' status","<p>Our <a href=""/groups/knowledge-base-reviewers"">Knowledge Base reviewers</a> are Mozilla contributors and staff with experience and skill in writing support documentation. Here are some guidelines for reviewing articles.
 </p>
 <div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_purpose""><span class=""tocnumber"">1</span> <span class=""toctext"">Purpose</span></a><ul><li class=""toclevel-2""><a href=""#w_key-responsibilities""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Key responsibilities</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_review-guidelines""><span class=""tocnumber"">2</span> <span class=""toctext"">Review guidelines</span></a><ul><li class=""toclevel-2""><a href=""#w_knowledge-base-review-policy""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Knowledge Base review policy</span></a><ul><li class=""toclevel-3""><a href=""#w_when-is-staff-review-required""><span class=""tocnumber"">2.1.1</span> <span class=""toctext"">When is staff review required?</span></a></li><li class=""toclevel-3""><a href=""#w_when-can-contributors-with-kb-review-permissions-review-revisions""><span class=""tocnumber"">2.1.2</span> <span class=""toctext"">When can contributors with KB review permissions review revisions?</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_where-to-find-unreviewed-articles""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Where to find unreviewed articles</span></a><ul><li class=""toclevel-3""><a href=""#w_prioritization""><span class=""tocnumber"">2.2.1</span> <span class=""toctext"">Prioritization</span></a></li><li class=""toclevel-3""><a href=""#w_special-articles""><span class=""tocnumber"">2.2.2</span> <span class=""toctext"">Special articles</span></a></li></ul></li><li class=""toclevel-2""><a href=""#w_special-requirements-for-subscription-or-premium-products""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Special requirements for subscription or premium products</span></a><ul><li class=""toclevel-3""><a href=""#w_content-submission""><span class=""tocnumber"">2.3.1</span> <span class=""toctext"">Content submission</span></a></li><li class=""toclevel-3""><a href=""#w_kb-revision-review-and-approval""><span class=""tocnumber"">2.3.2</span> <span class=""toctext"">KB revision review and approval</span></a></li></ul></li></ul></li><li class=""toclevel-1""><a href=""#w_reviewing-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Reviewing articles</span></a><ul><li class=""toclevel-2""><a href=""#w_choosing-revision-levels""><span class=""tocnumber"">3.1</span> <span class=""toctext"">Choosing revision levels</span></a></li><li class=""toclevel-2""><a href=""#w_leaving-feedback-for-editors""><span class=""tocnumber"">3.2</span> <span class=""toctext"">Leaving feedback for editors</span></a></li><li class=""toclevel-2""><a href=""#w_deferring-a-revision""><span class=""tocnumber"">3.3</span> <span class=""toctext"">Deferring a revision</span></a></li><li class=""toclevel-2""><a href=""#w_reviewing-multiple-revisions""><span class=""tocnumber"">3.4</span> <span class=""toctext"">Reviewing multiple revisions</span></a></li><li class=""toclevel-2""><a href=""#w_needs-change""><span class=""tocnumber"">3.5</span> <span class=""toctext"">Needs change</span></a></li><li class=""toclevel-2""><a href=""#w_giving-credit""><span class=""tocnumber"">3.6</span> <span class=""toctext"">Giving credit</span></a></li><li class=""toclevel-2""><a href=""#w_handling-spam-and-mistaken-edits""><span class=""tocnumber"">3.7</span> <span class=""toctext"">Handling spam and mistaken edits</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_ready-for-localization""><span class=""tocnumber"">4</span> <span class=""toctext"">Ready for localization</span></a><ul><li class=""toclevel-2""><a href=""#w_how-does-ready-for-localization-rfl-work""><span class=""tocnumber"">4.1</span> <span class=""toctext"">How does “Ready For Localization” (RFL) work?</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl""><span class=""tocnumber"">4.2</span> <span class=""toctext"">Marking an article RFL</span></a></li><li class=""toclevel-2""><a href=""#w_marking-an-article-rfl-post-review""><span class=""tocnumber"">4.3</span> <span class=""toctext"">Marking an article RFL post-review</span></a></li><li class=""toclevel-2""><a href=""#w_rfl-protocols""><span class=""tocnumber"">4.4</span> <span class=""toctext"">RFL protocols</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_release-readiness""><span class=""tocnumber"">5</span> <span class=""toctext"">Release readiness</span></a><ul><li class=""toclevel-2""><a href=""#w_firefox-release-calendar""><span class=""tocnumber"">5.1</span> <span class=""toctext"">Firefox release calendar</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_discussion-channel-and-escalation""><span class=""tocnumber"">6</span> <span class=""toctext"">Discussion channel and escalation</span></a></li><li class=""toclevel-1""><a href=""#w_role-evaluation""><span class=""tocnumber"">7</span> <span class=""toctext"">Role evaluation</span></a></li></ul></div>
@@ -49276,100 +49090,6 @@ Available search engines will appear at the bottom of the screen as you search:
 </dt></dl>
 Firefox will automatically use your [default search engine](\""https://support.mozilla.org/en-US/kb/change-your-default-search-engine-firefox-ios"") unless you choose one of the search engines at the bottom.
 "
-28212,View web pages in Reader View,view-web-pages-reader-view-firefox-ios,https://support.mozilla.org/en-US/kb/view-web-pages-reader-view-firefox-ios,en-US,"Reader View in Firefox for iOS strips off distracting elements, like images and advertisements, from web pages so you can focus on the content you care about.","<p>Reader View in Firefox for iOS strips away images, ads, videos and menus from a web page, so you can focus on reading. Reader View is available for articles, blog posts and other web pages that can be simplified. 
-</p><p>Here's how to use it:
-</p>
-<ol><li>Tap the Reader View icon <img alt=""reader mode icon 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-11-02-21-02-39-5dc1ef.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> in the address bar for the page you'd like to view. (If the button is not displaying, that page is not available in Reader View.) <div class=""note"">Starting in <a href=""/en-US/kb/what-version-firefox-do-i-have-ios"">Firefox for iOS version</a> 142, some users may see a thunderbolt <img alt=""summarize icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-10-02-01-50-54-365276.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> summarize icon instead. If you're on this version, press and hold the icon (instead of tapping) to enter Reader View. </div>
-</li><li>The icon will turn blue when the page is in Reader View.
-</li><li>Tap the Add to Reading List icon <img alt=""AddToReaderList iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-12-08-51-45-a470d8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""30""> to download the page for offline reading, and show it in your Reader List.
-</li><li>Tap the Text Options icon <img alt=""ReaderViewTextOptions iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-12-08-54-00-1e01d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""35""> to customize your view.
-</li><li>The Marker icon (<img alt=""ReaderViewMarkedOn iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-12-08-56-01-06542e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50""> or <img alt=""ReaderViewMarkedOff iOS"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-03-12-08-56-52-88c939.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""50"">) highlights your page in your Reader List.
-</li><li>To exit Reader View, tap the Reader View icon again, and the page will return to regular view.
-</li></ol>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li><a href=""/en-US/kb/summarize-pages-ios"">Use Firefox to summarize webpages</a>
-</li></ul>",ios,accessibility;browse;reader-view,"Reader View in Firefox for iOS strips away images, ads, videos and menus from a web page, so you can focus on reading. Reader View is available for articles, blog posts and other web pages that can be simplified.
-
-Here's how to use it:
-
-1. Tap the Reader View icon ![reader mode icon 57](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) in the address bar for the page you'd like to view. (If the button is not displaying, that page is not available in Reader View.) 
-Starting in [Firefox for iOS version](\""https://support.mozilla.org/en-US/kb/what-version-firefox-do-i-have-ios"") 142, some users may see a thunderbolt ![summarize icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) summarize icon instead. If you're on this version, press and hold the icon (instead of tapping) to enter Reader View. 
-2. The icon will turn blue when the page is in Reader View.
-3. Tap the Add to Reading List icon ![AddToReaderList iOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to download the page for offline reading, and show it in your Reader List.
-4. Tap the Text Options icon ![ReaderViewTextOptions iOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) to customize your view.
-5. The Marker icon ( ![ReaderViewMarkedOn iOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) or ![ReaderViewMarkedOff iOS](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)) highlights your page in your Reader List.
-6. To exit Reader View, tap the Reader View icon again, and the page will return to regular view.
-
-# Related articles
-
-- [Use Firefox to summarize webpages](\""https://support.mozilla.org/en-US/kb/summarize-pages-ios"")
-
-"
-28215,Add web pages to your Reading List on Firefox for iOS,add-web-pages-your-reading-list-firefox-ios,https://support.mozilla.org/en-US/kb/add-web-pages-your-reading-list-firefox-ios,en-US,"Firefox for iOS lets you save web pages to your Reading List so you can view them later in a clean, reader-friendly mode.","<p>Short on time? Save web pages to your Reading List and read them later on your iPhone, iPad or iPod, even if you're offline.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-a-page-to-your-reading-list""><span class=""tocnumber"">1</span> <span class=""toctext"">Add a page to your Reading List</span></a></li><li class=""toclevel-1""><a href=""#w_view-your-reading-list""><span class=""tocnumber"">2</span> <span class=""toctext"">View your Reading List</span></a><ul><li class=""toclevel-2""><a href=""#w_related-articles""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Related Articles</span></a></li></ul></li></ul></div>
-<h1 id=""w_add-a-page-to-your-reading-list"">Add a page to your Reading List</h1>
-<ol><li>Open the page you want to add.
-</li><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Add</span> next to <span class=""menu"">Reading list</span>.
-</li></ol>
-<h1 id=""w_view-your-reading-list"">View your Reading List</h1>
-<p>Ready for some reading? Follow these steps to view your Reading List:
-</p>
-<ol><li><p>At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-</p>
-<dl><dt><img alt=""firefoxiosnewmenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-04-01-07-47-28-9ccefb.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""400"">
-</dt></dl>
-</li><li>Tap <span class=""menu"">Reading List</span> <img alt=""reading list icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2015-08-21-16-47-43-1a7795.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</li><li>To see options for a page in your reading list, swipe left on the item on the list. You may <strong>Remove</strong> or <strong>Mark as Read</strong>.
-</li></ol>
-<p>Tap and hold a page in your reading list to see more options. You may <strong>Open in New Tab</strong>, <strong>Open in New Private Tab</strong> or <strong>Remove</strong>:
-</p><p><img alt=""Long tap readling list"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2022-05-17-18-02-45-a11db9.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""300"">
-</p>
-<h2 id=""w_related-articles"">Related Articles</h2>
-<p>To learn more about reading list items, see these articles:
-</p>
-<ul><li> <a href=""/en-US/kb/view-web-pages-reader-view-firefox-ios"">View web pages in Reader View</a>
-</li><li> <a href=""/en-US/kb/viewing-desktop-sites-firefox-ios"">Viewing Desktop Sites on Firefox iOS</a>
-</li></ul>",ios,browse;download-and-save;save-content,"Short on time? Save web pages to your Reading List and read them later on your iPhone, iPad or iPod, even if you're offline.
-
-## Table of Contents
-
-- [1 Add a page to your Reading List](https://support.mozilla.org/kb/add-web-pages-your-reading-list-firefox-ios#w_add-a-page-to-your-reading-list)
-- [2 View your Reading List](https://support.mozilla.org/kb/add-web-pages-your-reading-list-firefox-ios#w_view-your-reading-list)
-  - [2.1 Related Articles](https://support.mozilla.org/kb/add-web-pages-your-reading-list-firefox-ios#w_related-articles)
-
-# Add a page to your Reading List
-
-1. Open the page you want to add.
-2. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-3. Tap Add next to Reading list.
-
-# View your Reading List
-
-Ready for some reading? Follow these steps to view your Reading List:
-
-1. At the bottom of the screen, tap the menu button (the menu will be at the top right if you're using an iPad): 
-
-2. Tap Reading List ![reading list icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-3. To see options for a page in your reading list, swipe left on the item on the list. You may **Remove** or **Mark as Read**.
-
-Tap and hold a page in your reading list to see more options. You may **Open in New Tab** , **Open in New Private Tab** or **Remove** :
-
-![Long tap readling list](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif)
-
-## Related Articles
-
-To learn more about reading list items, see these articles:
-
-- [View web pages in Reader View](\""https://support.mozilla.org/en-US/kb/view-web-pages-reader-view-firefox-ios"")
-- [Viewing Desktop Sites on Firefox iOS](\""https://support.mozilla.org/en-US/kb/viewing-desktop-sites-firefox-ios"")
-
-"
 28218,"Install Firefox on your iPad, iPhone or iPod",install-firefox-your-ipad-iphone-or-ipod,https://support.mozilla.org/en-US/kb/install-firefox-your-ipad-iphone-or-ipod,en-US,"Learn how to install Firefox on your iPhone, iPad and iPod running iOS 15.0 and up.","<p>Empower your iOS browsing experience with Firefox. To get started:
 </p>
 <div class=""note"">Firefox is available for iOS 15.0 and above.</div>
@@ -57767,6 +57487,79 @@ A warning page may appear. Click Accept the Risk and Continue to go to the _abou
 5. Restart Firefox on the remote device.
 
 "
+38010,Connection settings in Firefox,connection-settings-firefox,https://support.mozilla.org/en-US/kb/connection-settings-firefox,en-US,Your organization or Internet Service Provider may offer or require you to use a proxy to connect to the Internet. Learn more.,"<p>Your organization or Internet service provider may offer or require you to use a <a href=""https://wikipedia.org/wiki/Proxy_server"">proxy</a>. A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+</p><p>Connection settings to use a proxy can be set in Firefox Settings
+ as follows:
+</p>
+<ol><li> <span class=""for"" data-for=""mac"">In the Menu bar at the top of the screen, click <span class=""menu"">Firefox</span> and select <span class=""menu"">Settings</span> (or <span class=""menu"">Preferences</span>, in some cases).</span><span class=""for"" data-for=""win,linux"">Click the menu button <img alt=""Fx89menuButton"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-05-15-11-18-38-e5b736.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title> and select <span class=""menu"">Settings</span>.</span>
+
+</li><li> <span class=""for"" data-for=""not fx152"">In the <span class=""menu"">General</span> panel</span><span class=""for"" data-for=""fx152"">Scroll down to <span class=""menu"">Privacy and security</span>, and</span> go to the <span class=""for"" data-for=""not fx149""><em>Network Settings</em></span><span class=""for"" data-for=""fx149""><strong>Proxy settings</strong></span> section.
+<dl><dt><span class=""for"" data-for=""fx152""><img alt=""fx152proxysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-03-06-23-50-a5b1d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li><li> Click <span class=""for"" data-for=""not fx149""><span class=""menu"">Settings…</span></span><span class=""for"" data-for=""fx149""><span class=""menu"">Configure proxy</span></span>. The <em>Connection Settings</em> dialog will open.
+<dl><dt><span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+</li></ol>
+<ul><li> <strong>No proxy</strong>:  Choose this if you don't want to use a proxy.
+</li><li> <strong>Auto-detect proxy settings for this network</strong>: Choose this if you want Firefox to automatically detect the proxy settings for your network.
+</li><li> <strong>Use system proxy settings</strong>:  Choose this if you want to use the proxy settings configured for your operating system.
+</li><li> <strong>Manual proxy configuration</strong>: Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+<ul><li> If the same proxy name and port number are used for all protocols, check <strong>Also use this proxy for HTTPS</strong>.
+</li></ul>
+</li><li> <strong>Automatic proxy configuration URL</strong>: Choose this if you have a <a href=""http://en.wikipedia.org/wiki/Proxy_auto-config"">proxy configuration</a> (<code>.pac</code>) file. Enter the URL and click okay to save changes and load the proxy configuration. <em>file:</em> and <em>data:</em> schemes can also be used here (for example, <strong><code>file:///c:/proxy.pac</code></strong> or <strong><code>data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}</code></strong>).
+<ul><li> <span class=""button"">Reload</span>: The reload button will load the currently available proxy configuration.
+</li></ul>
+</li><li> <strong>No Proxy For</strong>: List of hostnames or IP addresses that will not be proxied. Use <strong>&lt;local&gt;</strong> to bypass proxying for all hostnames which do not contain periods.
+</li></ul>
+<div class=""note""><strong>Note:</strong> The <em>Connection Settings</em> dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking <span class=""button"">Disable Extension</span>.</div>
+<h1 id=""w_related-content"">Related content</h1>
+<p>To configure <a href=""/en-US/kb/firefox-dns-over-https"">DNS over HTTPs (DoH)</a> connection settings, see <a href=""/en-US/kb/dns-over-https"">Configure DNS over HTTPS protection levels in Firefox</a>.
+</p>",firefox,performance-and-connectivity;settings,"Your organization or Internet service provider may offer or require you to use a [proxy](https://wikipedia.org/wiki/Proxy_server). A proxy acts as an intermediary between your computer and the Internet. It intercepts all requests to the Internet to see if it can fulfill the request using its cache. Proxies are used to improve performance, filter requests and hide your computer from the Internet to improve security. Proxies are often part of corporate firewalls.
+
+Connection settings to use a proxy can be set in Firefox Settings as follows:
+
+1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button ![Fx89menuButton](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) and select Settings.
+2. In the General panelScroll down to Privacy and security, and go to the _Network Settings_ **Proxy settings** section.<dl><dt>
+<span class=""for"" data-for=""fx152""><img alt=""fx152proxysettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2026-06-03-06-23-50-a5b1d6.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+3. Click Settings…Configure proxy. The _Connection Settings_ dialog will open.<dl><dt>
+<span class=""for"" data-for=""not fx128""><img alt=""Fx114NetworkSettings-ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-06-09-13-00-45-15514e.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span><span class=""for"" data-for=""fx128""><img alt=""Fx128ConnectionSettings"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-09-30-10-57-05-a191f2.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span>
+</dt></dl>
+
+- **No proxy** : Choose this if you don't want to use a proxy.
+- **Auto-detect proxy settings for this network** : Choose this if you want Firefox to automatically detect the proxy settings for your network.
+- **Use system proxy settings** : Choose this if you want to use the proxy settings configured for your operating system.
+- **Manual proxy configuration** : Choose this if you have a list of one or more proxy servers. Ask your system administrator for the configuration information. Each proxy requires a hostname and a port number.
+  - If the same proxy name and port number are used for all protocols, check **Also use this proxy for HTTPS**.
+
+- **Automatic proxy configuration URL** : Choose this if you have a [proxy configuration](http://en.wikipedia.org/wiki/Proxy_auto-config) (`.pac`) file. Enter the URL and click okay to save changes and load the proxy configuration. _file:_ and _data:_ schemes can also be used here (for example, **`file:///c:/proxy.pac`** or **`data:,function FindProxyForURL(){return ""HTTPS example.com:3443"";}`**).
+  - Reload: The reload button will load the currently available proxy configuration.
+
+- **No Proxy For** : List of hostnames or IP addresses that will not be proxied. Use **\<local\>** to bypass proxying for all hostnames which do not contain periods.
+
+**Note:** The _Connection Settings_ dialog will also show extensions that control how Firefox connects to the internet. You can disable these extensions by clicking Disable Extension.
+
+# Related content
+
+To configure [DNS over HTTPs (DoH)](\""https://support.mozilla.org/en-US/kb/firefox-dns-over-https"") connection settings, see [Configure DNS over HTTPS protection levels in Firefox](\""https://support.mozilla.org/en-US/kb/dns-over-https"").
+
+"
+38116,Add web page shortcuts to your Home screen,add-web-page-shortcuts-your-home-screen,https://support.mozilla.org/en-US/kb/add-web-page-shortcuts-your-home-screen,en-US,Firefox Focus lets you add shortcuts to your favorite home pages on your Android home screen.,"<p>Firefox Focus makes it easy to access your favorite web pages by adding them to the Home screen on your Android phone:
+</p>
+<ol><li>Go to the page you want to add to your Home screen.
+</li><li><p>Tap the menu button next to the address bar:
+</p>
+<dl><dt><img alt=""focusAddressbar"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2023-03-29-08-27-51-8c14f4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""350"">
+</dt></dl>
+</li><li>Tap <span class=""menu"">Add to Home screen</span>.
+</li></ol>",focus-firefox,browse;home-screen,"Firefox Focus makes it easy to access your favorite web pages by adding them to the Home screen on your Android phone:
+
+1. Go to the page you want to add to your Home screen.
+2. Tap the menu button next to the address bar:
+
+3. Tap Add to Home screen.
+
+"
 38171,Add the Search bar to your Firefox toolbar,add-search-bar-firefox-toolbar,https://support.mozilla.org/en-US/kb/add-search-bar-firefox-toolbar,en-US,You can search the Web from the address bar or from the New Tab page. You can also add a separate Search bar to Firefox.  Learn how.,"<p>You can use the Search bar on the <a href=""/en-US/kb/about-new-tab-page"">New Tab page</a> or you can <a href=""/en-US/kb/search-firefox-address-bar"">search the Web from the address bar</a>. <span class=""for"" data-for=""not fx122"">You can also <a href=""/en-US/kb/change-your-default-search-settings-firefox"">change your search settings in Firefox</a> to add a separate Search bar next to the address bar.</span><span class=""for"" data-for=""fx122"">You can also customize Firefox to add a separate Search bar to your Firefox toolbar.</span>
 </p><p><img alt=""add search bar 57"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2017-10-21-19-29-29-77093e.gif"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </p><div class=""for"" data-for=""not fx122""><p>Follow these steps to add a Search bar to your Firefox toolbar:
@@ -61282,58 +61075,6 @@ For a Mozilla account, we will make sure that your password meets the following 
 - [Change your Mozilla account password](\""https://support.mozilla.org/en-US/kb/change-your-firefox-accounts-password"")
 - [Reset your Mozilla account password to protect your credentials](\""https://support.mozilla.org/en-US/kb/reset-mozilla-account-password-credentials"")
 
-"
-40418,Find words on a page in Firefox Focus for iOS,find-words-page-firefox-focus-ios,https://support.mozilla.org/en-US/kb/find-words-page-firefox-focus-ios,en-US,Use the Find in Page feature to search for specific words on a web page.,"<p>Use the <em>Find in Page</em> feature to search for specific words on a web page in a few taps.
-</p>
-<ol><li>Open the page you want to search.
-</li><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Find in Page</span> in the menu that pops up.
-<dl><dt><img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
-</dt></dl>
-</li><li>Enter the word or phrase that you want to find.
-</li><li>Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
-</li><li>Use the up or down arrows to see each instance of that word or phrase on the page.
-</li><li>Tap the <strong>X</strong> to return to regular view.
-</li></ol>",focus-firefox,browse;search;search-tag-and-share,"Use the _Find in Page_ feature to search for specific words on a web page in a few taps.
-
-1. Open the page you want to search.
-2. Tap the menu button in the bottom right corner.
-3. Tap Find in Page in the menu that pops up.<dl><dt>
-<img alt=""FocusmenuOptions"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-10-04-07-57-17-20d652.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" width=""250""> 
-</dt></dl>
-4. Enter the word or phrase that you want to find.
-5. Firefox will highlight the word or phrase that you're searching for. The number next to the search field will also show you how many times that word appears on the page.
-6. Use the up or down arrows to see each instance of that word or phrase on the page.
-7. Tap the **X** to return to regular view.
-
-"
-40419,Change to desktop view on Firefox Focus for iOS,change-desktop-view-firefox-focus-ios,https://support.mozilla.org/en-US/kb/change-desktop-view-firefox-focus-ios,en-US,"If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps.","<p>
-</p><p>If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps:
-</p>
-<ol><li>Open the page you want to view.
-</li><li>Tap the menu button in the bottom right corner.
-</li><li>Tap <span class=""menu"">Request Desktop Site</span> in the menu that opens.
-</li></ol>",focus-firefox,browse,"If you're having trouble with the mobile version of a web page, switch to desktop view in just a few taps:
-
-1. Open the page you want to view.
-2. Tap the menu button in the bottom right corner.
-3. Tap Request Desktop Site in the menu that opens.
-
-"
-40422,Drag links to and from Firefox Focus,drag-links-and-firefox-focus,https://support.mozilla.org/en-US/kb/drag-links-and-firefox-focus,en-US,Open links from one app on Firefox Focus or vice versa on iPads (version 11+) by dragging and dropping links.,"<p>
-</p><p>Open links from one app on Firefox Focus or vice versa on iPads (version 11+) by dragging and dropping links.
-</p>
-<ol><li>Tap and hold on the link.
-</li><li>Drag that link to another app.
-</li><li>Release the link and the other app will open and load that link.
-</li></ol>
-<div class=""note"">For more information on Apple's drag and drop feature, see <a href=""https://developer.apple.com/ios/drag-and-drop/"">Drag and Drop on the Apple website</a>.</div>",focus-firefox,browse;links,"Open links from one app on Firefox Focus or vice versa on iPads (version 11+) by dragging and dropping links.
-
-1. Tap and hold on the link.
-2. Drag that link to another app.
-3. Release the link and the other app will open and load that link.
-
-For more information on Apple's drag and drop feature, see [Drag and Drop on the Apple website](https://developer.apple.com/ios/drag-and-drop/).
 "
 40423,Drag links to and from Firefox Klar,drag-links-and-firefox-klar,https://support.mozilla.org/en-US/kb/drag-links-and-firefox-klar,en-US,Open links from one app on Firefox Klar or vice versa on iPads (version 11+) by dragging and dropping links.,"<p>
 </p><p>Open links from one app on Firefox Klar or vice versa on iPads (version 11+) by dragging and dropping links.
@@ -80560,155 +80301,6 @@ If you'd like to remove the _Other Bookmarks_ folder from the Bookmarks toolbar,
 <img alt=""Fx85BookmarksToolbarContextMenu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2021-01-10-03-00-28-3109a8.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
 </dt></dl>
 2. Click on the Show Other Bookmarks menu item to remove the check mark.
-
-"
-52257,Mozilla Voice Server Proxy Retiring,mozilla-voice-server-proxy-retiring,https://support.mozilla.org/en-US/kb/mozilla-voice-server-proxy-retiring,en-US,Mozilla is ending official support for the Mozilla Voice Proxy Server and its related projects. Learn more about the retirement of server and extensions.,"<p>Mozilla is ending official support for the Mozilla Voice Proxy Server and its related projects on February 28, 2021. If you have installed the VoiceFill or Firefox Voice Beta extensions, an upcoming add-on update will notify you of this retirement timeline. These extensions will also uninstall themselves on February 19, 2021.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_history""><span class=""tocnumber"">1</span> <span class=""toctext"">History</span></a></li><li class=""toclevel-1""><a href=""#w_extension-uninstallation""><span class=""tocnumber"">2</span> <span class=""toctext"">Extension Uninstallation</span></a><ul><li class=""toclevel-2""><a href=""#w_uninstall-via-the-add-on-page""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Uninstall via the Add-on page</span></a></li><li class=""toclevel-2""><a href=""#w_uninstall-via-the-firefox-menu-button""><span class=""tocnumber"">2.2</span> <span class=""toctext"">Uninstall via the Firefox menu button</span></a></li><li class=""toclevel-2""><a href=""#w_uninstall-via-the-firefox-menu-bar""><span class=""tocnumber"">2.3</span> <span class=""toctext"">Uninstall via the Firefox menu bar</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_extension-source-code""><span class=""tocnumber"">3</span> <span class=""toctext"">Extension Source Code</span></a></li><li class=""toclevel-1""><a href=""#w_your-privacy""><span class=""tocnumber"">4</span> <span class=""toctext"">Your privacy</span></a></li></ul></div>
-<h1 id=""w_history"">History</h1>
-<p>The Mozilla Speech Proxy Server is being decommissioned on February 28, 2021. The server helped power the <a href=""https://addons.mozilla.org/firefox/addon/voice-fill/"">Voice Fill</a> and <a href=""https://addons.mozilla.org/firefox/addon/firefox-voice/"">Firefox Voice Beta</a> extensions, which enabled voice-based interactions with the browser, and the <a href=""https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"">WebSpeech API</a>, which allowed developers to add voice based interactions to their web content and services. These extensions are being retired as part of the server decommissioning.
-</p>
-<h1 id=""w_extension-uninstallation"">Extension Uninstallation</h1>
-<p>The VoiceFill and Firefox Voice Beta extensions will uninstall themselves on February 19, 2021. However, if you prefer to uninstall them sooner, you may do so manually using one of the following options:
-</p>
-<h2 id=""w_uninstall-via-the-add-on-page"">Uninstall via the Add-on page</h2>
-<ol><li>Visit the listing page for the <a href=""https://addons.mozilla.org/firefox/addon/voice-fill/"">Voice Fill</a> or <a href=""https://addons.mozilla.org/firefox/addon/firefox-voice/"">Firefox Voice Beta</a> extensions at <a href=""https://addons.mozilla.org"">addons.mozilla.org</a>.
-</li><li>Click <span class=""button"">Remove</span> near the top-right of the page. The extension will uninstall immediately.
-</li></ol>
-<h2 id=""w_uninstall-via-the-firefox-menu-button"">Uninstall via the Firefox menu button</h2>
-<ol><li>Click the menu button <img alt=""Fx57menu"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-07-21-10-54-51-be5aec.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>.
-</li><li>Click <span class=""menu"">Add-ons</span> to open the Add-ons Manager.
-</li><li>Find the <strong>VoiceFill</strong> or <strong>Firefox Voice Beta</strong> extension.
-</li><li>Click the <span class=""button"">…</span> icon next to the extension and then select <strong>Remove</strong>.
-</li></ol>
-<h2 id=""w_uninstall-via-the-firefox-menu-bar"">Uninstall via the Firefox menu bar</h2>
-<ol><li>Click <span class=""menu"">Tools</span> in the Firefox menu bar.
-</li><li>Click the <em>Add-ons</em> entry to open the Add-ons Manager (choose the <em>Extensions</em> panel, if not selected already).
-</li><li>Find <strong>VoiceFill</strong> or <strong>Firefox Voice Beta</strong> on the Add-ons Manager.
-</li><li>Click the <span class=""button"">…</span> icon next to the extension and then select <strong>Remove</strong>.
-</li></ol>
-<h1 id=""w_extension-source-code"">Extension Source Code</h1>
-<p>The source code for <a href=""https://github.com/mozilla/voicefill"">Voice Fill</a> and <a href=""https://github.com/mozilla-extensions/firefox-voice"">Firefox Voice Beta</a> is freely available and distributed under the <a href=""https://github.com/mozilla/price-tracker/blob/master/LICENSE"">Mozilla Public License v 2.0</a>.
-</p>
-<h1 id=""w_your-privacy"">Your privacy</h1>
-<p>If you opted in to allow us to collect your data to help with those experiments, we’ve already taken the steps necessary to permanently remove that data so it will not be retained by Mozilla (or anyone else).
-</p>",firefox,settings,"Mozilla is ending official support for the Mozilla Voice Proxy Server and its related projects on February 28, 2021. If you have installed the VoiceFill or Firefox Voice Beta extensions, an upcoming add-on update will notify you of this retirement timeline. These extensions will also uninstall themselves on February 19, 2021.
-
-## Table of Contents
-
-- [1 History](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_history)
-- [2 Extension Uninstallation](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_extension-uninstallation)
-  - [2.1 Uninstall via the Add-on page](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_uninstall-via-the-add-on-page)
-  - [2.2 Uninstall via the Firefox menu button](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_uninstall-via-the-firefox-menu-button)
-  - [2.3 Uninstall via the Firefox menu bar](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_uninstall-via-the-firefox-menu-bar)
-
-- [3 Extension Source Code](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_extension-source-code)
-- [4 Your privacy](https://support.mozilla.org/kb/mozilla-voice-server-proxy-retiring#w_your-privacy)
-
-# History
-
-The Mozilla Speech Proxy Server is being decommissioned on February 28, 2021. The server helped power the [Voice Fill](https://addons.mozilla.org/firefox/addon/voice-fill/) and [Firefox Voice Beta](https://addons.mozilla.org/firefox/addon/firefox-voice/) extensions, which enabled voice-based interactions with the browser, and the [WebSpeech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API), which allowed developers to add voice based interactions to their web content and services. These extensions are being retired as part of the server decommissioning.
-
-# Extension Uninstallation
-
-The VoiceFill and Firefox Voice Beta extensions will uninstall themselves on February 19, 2021. However, if you prefer to uninstall them sooner, you may do so manually using one of the following options:
-
-## Uninstall via the Add-on page
-
-1. Visit the listing page for the [Voice Fill](https://addons.mozilla.org/firefox/addon/voice-fill/) or [Firefox Voice Beta](https://addons.mozilla.org/firefox/addon/firefox-voice/) extensions at [addons.mozilla.org](https://addons.mozilla.org).
-2. Click Remove near the top-right of the page. The extension will uninstall immediately.
-
-## Uninstall via the Firefox menu button
-
-1. Click the menu button ![Fx57menu](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif).
-2. Click Add-ons to open the Add-ons Manager.
-3. Find the **VoiceFill** or **Firefox Voice Beta** extension.
-4. Click the … icon next to the extension and then select **Remove**.
-
-## Uninstall via the Firefox menu bar
-
-1. Click Tools in the Firefox menu bar.
-2. Click the _Add-ons_ entry to open the Add-ons Manager (choose the _Extensions_ panel, if not selected already).
-3. Find **VoiceFill** or **Firefox Voice Beta** on the Add-ons Manager.
-4. Click the … icon next to the extension and then select **Remove**.
-
-# Extension Source Code
-
-The source code for [Voice Fill](https://github.com/mozilla/voicefill) and [Firefox Voice Beta](https://github.com/mozilla-extensions/firefox-voice) is freely available and distributed under the [Mozilla Public License v 2.0](https://github.com/mozilla/price-tracker/blob/master/LICENSE).
-
-# Your privacy
-
-If you opted in to allow us to collect your data to help with those experiments, we’ve already taken the steps necessary to permanently remove that data so it will not be retained by Mozilla (or anyone else).
-
-"
-52328,Captive portal detection,captive-portal,https://support.mozilla.org/en-US/kb/captive-portal,en-US,Description of how Firefox detects captive portal networks.,"<p>When you connect to public Wi-Fi, like an airport, coffee shop, or a corporate guest network, you often see a web page asking you to sign in, accept terms, or enter a password before you can use the internet. This page is called a <strong>captive portal</strong>. Most captive portals ask you to agree to an Acceptable Use Policy (AUP). 
-</p><p>Firefox's <a href=""https://wikipedia.org/wiki/Captive_portal"">captive portal</a> detector tests whether the network connection requires you to sign in or accept the network's terms before permitting you to use it. Sometimes the page doesn’t appear on its own, and you’ll need to open it manually to get online.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_how-firefox-detects-captive-portals""><span class=""tocnumber"">1</span> <span class=""toctext"">How Firefox detects captive portals</span></a></li><li class=""toclevel-1""><a href=""#w_what-do-i-do-if-the-sign-in-page-doesnt-automatically-appear""><span class=""tocnumber"">2</span> <span class=""toctext"">What do I do if the sign-in page doesn’t automatically appear?</span></a></li><li class=""toclevel-1""><a href=""#w_related-articles""><span class=""tocnumber"">3</span> <span class=""toctext"">Related articles</span></a></li></ul></div>
-<h1 id=""w_how-firefox-detects-captive-portals"">How Firefox detects captive portals</h1>
-<p>When Firefox detects that you’re connected to a network but not yet online, it will:
-</p>
-<ul><li> Open the network’s sign-in page in a new tab.
-</li><li> If the network uses a captive portal, Firefox will show a message like, “You must log in to this network before you can access the internet.”
-</li></ul>
-<p>Once you complete the sign-in, Firefox will close the tab and your connection will work normally. If the page was left open by Firefox, you may simply close it. Occasionally, it will be kept around to display a message from the network's owners. <strong>If this happens frequently, please file a <a href=""https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&amp;component=Networking&amp;short_desc=Captive+portal+tab+was+left+open&amp;comment=Steps+to+reproduce&amp;blocked=1198508&amp;bug_type=defect"">Networking bug</a></strong> and describe your case (requires creating a Bugzilla account).
-</p><p>Firefox tests if the connection is a captive portal by regularly connecting to <code>http://detectportal.firefox.com/canonical.html</code>. Firefox will also make connections to this URL to check if your current network supports certain technologies such as IPv6.
-</p>
-<h1 id=""w_what-do-i-do-if-the-sign-in-page-doesnt-automatically-appear"">What do I do if the sign-in page doesn’t automatically appear?</h1>
-<p>If Firefox doesn’t show the page:
-</p>
-<ol><li> Try visiting any website, as most captive portals will redirect you to the sign-in page.
-</li><li> Disconnect and reconnect to the Wi-Fi network, then try again.
-</li></ol>
-<p>If you still can’t access the sign-in page after trying the above, you can try the following:
-</p>
-<ul><li> Restart your device to refresh the network connection and trigger the sign-in page.
-</li><li> Temporarily turn off any VPN or proxy until you’ve signed in.
-</li><li> Open a new <a href=""/en-US/kb/private-browsing-use-firefox-without-history"">private browsing window</a> to avoid cached sessions that might block the portal.
-</li></ul>
-<h1 id=""w_related-articles"">Related articles</h1>
-<ul><li> <a href=""/en-US/kb/no-internet-while-using-mozilla-vpn-public-wifi"">Joining public WiFi while on Mozilla VPN</a>
-</li><li> <a href=""/en-US/kb/how-stop-firefox-making-automatic-connections"">How to stop Firefox from making automatic connections</a>
-</li><li> <a href=""https://firefox-source-docs.mozilla.org/networking/captive_portals.html"">Captive Portal Detection</a> in Firefox Source Docs
-</li></ul>",firefox,advanced-and-experimental-features;performance-and-connectivity,"When you connect to public Wi-Fi, like an airport, coffee shop, or a corporate guest network, you often see a web page asking you to sign in, accept terms, or enter a password before you can use the internet. This page is called a **captive portal**. Most captive portals ask you to agree to an Acceptable Use Policy (AUP).
-
-Firefox's [captive portal](https://wikipedia.org/wiki/Captive_portal) detector tests whether the network connection requires you to sign in or accept the network's terms before permitting you to use it. Sometimes the page doesn’t appear on its own, and you’ll need to open it manually to get online.
-
-## Table of Contents
-
-- [1 How Firefox detects captive portals](https://support.mozilla.org/kb/captive-portal#w_how-firefox-detects-captive-portals)
-- [2 What do I do if the sign-in page doesn’t automatically appear?](https://support.mozilla.org/kb/captive-portal#w_what-do-i-do-if-the-sign-in-page-doesnt-automatically-appear)
-- [3 Related articles](https://support.mozilla.org/kb/captive-portal#w_related-articles)
-
-# How Firefox detects captive portals
-
-When Firefox detects that you’re connected to a network but not yet online, it will:
-
-- Open the network’s sign-in page in a new tab.
-- If the network uses a captive portal, Firefox will show a message like, “You must log in to this network before you can access the internet.”
-
-Once you complete the sign-in, Firefox will close the tab and your connection will work normally. If the page was left open by Firefox, you may simply close it. Occasionally, it will be kept around to display a message from the network's owners. **If this happens frequently, please file a [Networking bug](https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&component=Networking&short_desc=Captive+portal+tab+was+left+open&comment=Steps+to+reproduce&blocked=1198508&bug_type=defect)** and describe your case (requires creating a Bugzilla account).
-
-Firefox tests if the connection is a captive portal by regularly connecting to `http://detectportal.firefox.com/canonical.html`. Firefox will also make connections to this URL to check if your current network supports certain technologies such as IPv6.
-
-# What do I do if the sign-in page doesn’t automatically appear?
-
-If Firefox doesn’t show the page:
-
-1. Try visiting any website, as most captive portals will redirect you to the sign-in page.
-2. Disconnect and reconnect to the Wi-Fi network, then try again.
-
-If you still can’t access the sign-in page after trying the above, you can try the following:
-
-- Restart your device to refresh the network connection and trigger the sign-in page.
-- Temporarily turn off any VPN or proxy until you’ve signed in.
-- Open a new [private browsing window](\""https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history"") to avoid cached sessions that might block the portal.
-
-# Related articles
-
-- [Joining public WiFi while on Mozilla VPN](\""https://support.mozilla.org/en-US/kb/no-internet-while-using-mozilla-vpn-public-wifi"")
-- [How to stop Firefox from making automatic connections](\""https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections"")
-- [Captive Portal Detection](https://firefox-source-docs.mozilla.org/networking/captive_portals.html) in Firefox Source Docs
 
 "
 52400,How to install Mozilla VPN on a Linux computer,how-install-mozilla-vpn-linux-computer,https://support.mozilla.org/en-US/kb/how-install-mozilla-vpn-linux-computer,en-US,"Download and install Mozilla VPN to connect to the internet through one of our secure servers, keeping your location and online activity private.","<p>You can use Mozilla VPN on up to five devices simultaneously. Keep in mind that if you install Mozilla VPN on multiple user profiles on the same device, each profile counts as a separate device. Learn more here: <a href=""/en-US/kb/are-there-limits-my-mozilla-vpn-connection"">Are there limits to my Mozilla VPN connection?</a>
@@ -109316,224 +108908,6 @@ The session resume feature detects when Firefox is active during a macOS system 
 
 - This feature is enabled by default; no setup is needed.
 - For manual session management options, see [Restore previous session - Configure when Firefox shows your most recent tabs and windows](\""https://support.mozilla.org/en-US/kb/restore-previous-session"").
-
-"
-66230,Configure push email for Thunderbird for Android,configure-push-email-thunderbird-android,https://support.mozilla.org/en-US/kb/configure-push-email-thunderbird-android,en-US,How to set up push email notifications for selected folders for Thunderbird for Android,"<p>By default, push email is off for all folders. Thunderbird for Android allows you to configure a limited number of folders (IMAP only; POP is not supported.) for push email so that you can see incoming email messages immediately.
-</p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_turn-on-push-email-for-a-folder""><span class=""tocnumber"">1</span> <span class=""toctext"">Turn on push email for a folder</span></a><ul><li class=""toclevel-2""><a href=""#w_alarms-reminders-permission-for-android-13-and-above""><span class=""tocnumber"">1.1</span> <span class=""toctext"">Alarms &amp; reminders permission for Android 13 and above</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_the-push-email-service-notification""><span class=""tocnumber"">2</span> <span class=""toctext"">The push email service notification</span></a><ul><li class=""toclevel-2""><a href=""#w_hide-change-or-disable-the-push-email-service-notification-using-configure-notification""><span class=""tocnumber"">2.1</span> <span class=""toctext"">Hide, change or disable the push email service notification using “Configure notification”</span></a></li></ul></li><li class=""toclevel-1""><a href=""#w_turn-off-push-email-for-a-folder""><span class=""tocnumber"">3</span> <span class=""toctext"">Turn off push email for a folder</span></a></li><li class=""toclevel-1""><a href=""#w_new-email-notifications-are-completely-separate-from-the-push-email-service-notification""><span class=""tocnumber"">4</span> <span class=""toctext"">New Email notifications are completely separate from the push email service notification</span></a></li><li class=""toclevel-1""><a href=""#w_learn-more""><span class=""tocnumber"">5</span> <span class=""toctext"">Learn more</span></a></li></ul></div>
-<h1 id=""w_turn-on-push-email-for-a-folder"">Turn on push email for a folder</h1>
-<div class=""warning"">
-<p>WARNING:
-</p>
-<ul><li> If you kill the Thunderbird for Android app, for example by swiping up on the recent task window, push email will stop working. Thunderbird needs to be running, and it needs network access for push email to work.
-</li><li> The maximum number of push folders for an account is set in the app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> &gt; <strong>your email account</strong> &gt; <span class=""menu"">Fetching mail</span> &gt; <span class=""menu"">Advanced</span> &gt; <span class=""menu"">Max folders to check with push</span>. Thunderbird does not warn you when this limit is exceeded. Exceeding this limit will result in push email not working on some of the folders you configured for push.
-</li></ul>
-</div>
-<ol><li> Tap the app menu <span class=""menu"">≡</span> at the top left. If your email accounts are hidden, tap <span class=""button"">Show accounts</span> at the bottom of the screen.
-</li><li> Tap account, for example your Gmail account &gt; tap <span class=""button"">Manage folders</span>.
-</li><li> Tap your folder of choice. For example: tap <strong>Inbox</strong> to enable push email for your Inbox.
-<dl><dt><img alt=""enable-push-tb-android-8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-10-00-62ddea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Turn on push email for this folder by tapping until the slider is on the right for <strong>Enable Push</strong>.
-</li><li> Turn on notifications for this folder by tapping until the slider is on the right for <strong>Notifications</strong>.
-</li><li> Turn off sync for this folder by tapping until the slider is on the left for <strong>Enable sync</strong>.
-</li></ol>
-<div class=""note"">The <strong>Enable sync</strong> setting is for periodic syncs and should be disabled once push is enabled.</div>
-<p>Once push email is enabled for at least one folder, you should see a bell icon in the Android system bar. The bell icon indicates that push email is enabled.
-</p>
-<dl><dt><img alt=""bell-icon-android-system-bar-tb8-pushmail-notification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-15-19-df30c1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<p></p><section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_alarms-reminders-permission-for-android-13-and-above"">Alarms &amp; reminders permission for Android 13 and above</h2>
-<div class=""note"">This section is not applicable to you if your Android version is older than Android 13.</div>
-<ol><li> On Android 13 and above, a notification will let you know you need to grant the <em>Alarms &amp; reminders</em> permission. Proceed to the permissions screen by tapping the <span class=""button"">Missing permission to schedule alarms</span> notification.
-<dl><dt><img alt=""missing-permission-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-21-43-416308.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Add this permission by tapping until the slider is on the right for <strong>Allow setting alarms and reminders</strong>. If you do not grant this permission, then push email will not work.
-<dl><dt><img alt=""allow-setting-alarms-reminders-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-29-13-66fbe3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ol>
-<p></p></section>
-<p></p>
-<h1 id=""w_the-push-email-service-notification"">The push email service notification</h1>
-<ul><li> Once the permission is granted (or right after enabling push on older Android versions), Thunderbird for Android will display a push email service notification entitled <strong>Waiting for new emails</strong>:
-<dl><dt><img alt=""notification-waiting-for-new-emails"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-14-39-10-32ff52.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li><li> Tapping on the <span class=""button"">Waiting for new emails</span> notification will allow you to configure the notification itself (<span class=""button"">Configure notification</span>) or to disable push email altogether (<span class=""button"">Disable Push</span>):
-<dl><dt><img alt=""configure-notification-or-disable-push"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-13-50-14-2997ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li></ul>
-<p></p><section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_hide-change-or-disable-the-push-email-service-notification-using-configure-notification"">Hide, change or disable the push email service notification using “Configure notification”</h2>
-<p>You can change the display of this notification or hide it by tapping <span class=""button"">Configure notification</span>.
-</p>
-<dl><dt><img alt=""notification-settings-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-34-51-59f0a4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul><li><strong>Hide the push email service notification:</strong> Slide <strong>Show notifications</strong> to the left. Hiding the push email service notification does not turn off push email.
-</li><li><strong>Change the push email service notification:</strong> Minimizing the notification will hide the bell icon from the Android status bar, but still keep the notification in the notification shade. You will still be able to see the status of your push email service (for example, <strong>Waiting for new emails</strong> or <strong>Sleeping until network is available</strong>).
-</li><li><strong>Disable Push email from the push email service notification using “Disable Push”:</strong>Tap <span class=""button"">Disable Push</span> to disable push email altogether.
-</li></ul>
-<p></p></section>
-<p></p>
-<h1 id=""w_turn-off-push-email-for-a-folder"">Turn off push email for a folder</h1>
-<ol><li> Tap the app menu <span class=""menu"">≡</span> at the top left. If your email accounts are hidden, tap <span class=""button"">Show accounts</span> at the bottom of the screen.
-</li><li> Tap account, for example, your Gmail account &gt; tap <span class=""button"">Manage folders</span>.
-</li><li> Tap your folder of choice. For example, tap <strong>Inbox</strong> to disable push email for your Inbox.
-</li><li> Turn off push email for this folder by tapping until the slider is on the left for <strong>Enable Push</strong>.
-</li><li> Turn on sync for this folder by tapping until the slider is on the right for <strong>Enable sync</strong>.
-</li></ol>
-<h1 id=""w_new-email-notifications-are-completely-separate-from-the-push-email-service-notification"">New Email notifications are completely separate from the push email service notification</h1>
-<p>The notifications for new email messages are configured separately from the push email service notification. New email notifications are configured as follows:
-</p>
-<ul><li> Tap the app menu <span class=""menu"">≡</span> &gt; Settings gear icon <span class=""button""><img alt=""gear icon"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2014-06-13-01-42-16-c1469d.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title></span> &gt; <span class=""menu"">Notifications</span> &gt; <span class=""menu"">Messages</span> under <em>Notification categories</em>.
-</li></ul>
-<h1 id=""w_learn-more"">Learn more</h1>
-<ul><li> Wikipedia: <a href=""https://wikipedia.org/wiki/Push_email"">Push email</a>
-</li><li> Google: <a href=""https://support.google.com/android/answer/9079661"">Control notifications on Android</a>
-</li></ul>",thunderbird-android,email-and-messaging;settings,"By default, push email is off for all folders. Thunderbird for Android allows you to configure a limited number of folders (IMAP only; POP is not supported.) for push email so that you can see incoming email messages immediately.
-
-## Table of Contents
-
-- [1 Turn on push email for a folder](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_turn-on-push-email-for-a-folder)
-  - [1.1 Alarms & reminders permission for Android 13 and above](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_alarms-reminders-permission-for-android-13-and-above)
-
-- [2 The push email service notification](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_the-push-email-service-notification)
-  - [2.1 Hide, change or disable the push email service notification using “Configure notification”](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_hide-change-or-disable-the-push-email-service-notification-using-configure-notification)
-
-- [3 Turn off push email for a folder](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_turn-off-push-email-for-a-folder)
-- [4 New Email notifications are completely separate from the push email service notification](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_new-email-notifications-are-completely-separate-from-the-push-email-service-notification)
-- [5 Learn more](https://support.mozilla.org/kb/configure-push-email-thunderbird-android#w_learn-more)
-
-# Turn on push email for a folder
-
-WARNING:
-
-- If you kill the Thunderbird for Android app, for example by swiping up on the recent task window, push email will stop working. Thunderbird needs to be running, and it needs network access for push email to work.
-- The maximum number of push folders for an account is set in the app menu ≡ \> Settings gear icon ![gear icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) \> **your email account** \> Fetching mail \> Advanced \> Max folders to check with push. Thunderbird does not warn you when this limit is exceeded. Exceeding this limit will result in push email not working on some of the folders you configured for push.
-
-1. Tap the app menu ≡ at the top left. If your email accounts are hidden, tap Show accounts at the bottom of the screen.
-2. Tap account, for example your Gmail account \> tap Manage folders.
-3. Tap your folder of choice. For example: tap **Inbox** to enable push email for your Inbox.<dl><dt>
-<img alt=""enable-push-tb-android-8"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-10-00-62ddea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-4. Turn on push email for this folder by tapping until the slider is on the right for **Enable Push**.
-5. Turn on notifications for this folder by tapping until the slider is on the right for **Notifications**.
-6. Turn off sync for this folder by tapping until the slider is on the left for **Enable sync**.
-
-The **Enable sync** setting is for periodic syncs and should be disabled once push is enabled.
-
-Once push email is enabled for at least one folder, you should see a bell icon in the Android system bar. The bell icon indicates that push email is enabled.
-
-<dl><dt>
-<img alt=""bell-icon-android-system-bar-tb8-pushmail-notification"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-15-19-df30c1.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-<section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_alarms-reminders-permission-for-android-13-and-above"">Alarms &amp; reminders permission for Android 13 and above</h2>
-<div class=""note"">This section is not applicable to you if your Android version is older than Android 13.</div>
-<ol>
-<li> On Android 13 and above, a notification will let you know you need to grant the <em>Alarms &amp; reminders</em> permission. Proceed to the permissions screen by tapping the <span class=""button"">Missing permission to schedule alarms</span> notification.
-<dl><dt>
-<img alt=""missing-permission-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-21-43-416308.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li>
-<li> Add this permission by tapping until the slider is on the right for <strong>Allow setting alarms and reminders</strong>. If you do not grant this permission, then push email will not work.
-<dl><dt>
-<img alt=""allow-setting-alarms-reminders-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-29-13-66fbe3.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-</li>
-</ol>
-<p></p></section>
-
-# The push email service notification
-
-- Once the permission is granted (or right after enabling push on older Android versions), Thunderbird for Android will display a push email service notification entitled **Waiting for new emails** :<dl><dt>
-<img alt=""notification-waiting-for-new-emails"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-14-39-10-32ff52.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-- Tapping on the Waiting for new emails notification will allow you to configure the notification itself (Configure notification) or to disable push email altogether (Disable Push):<dl><dt>
-<img alt=""configure-notification-or-disable-push"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-15-13-50-14-2997ea.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-
-<section class=""mzp-c-details"">
-<p></p>
-<h2 id=""w_hide-change-or-disable-the-push-email-service-notification-using-configure-notification"">Hide, change or disable the push email service notification using “Configure notification”</h2>
-<p>You can change the display of this notification or hide it by tapping <span class=""button"">Configure notification</span>.
-</p>
-<dl><dt>
-<img alt=""notification-settings-tb8-android-pushmail"" class=""wiki-image frameless lazy"" data-original-src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2024-11-11-21-34-51-59f0a4.png"" src=""https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif"" title>
-</dt></dl>
-<ul>
-<li>
-<strong>Hide the push email service notification:</strong> Slide <strong>Show notifications</strong> to the left. Hiding the push email service notification does not turn off push email.
-</li>
-<li>
-<strong>Change the push email service notification:</strong> Minimizing the notification will hide the bell icon from the Android status bar, but still keep the notification in the notification shade. You will still be able to see the status of your push email service (for example, <strong>Waiting for new emails</strong> or <strong>Sleeping until network is available</strong>).
-</li>
-<li>
-<strong>Disable Push email from the push email service notification using “Disable Push”:</strong>Tap <span class=""button"">Disable Push</span> to disable push email altogether.
-</li>
-</ul>
-<p></p></section>
-
-# Turn off push email for a folder
-
-1. Tap the app menu ≡ at the top left. If your email accounts are hidden, tap Show accounts at the bottom of the screen.
-2. Tap account, for example, your Gmail account \> tap Manage folders.
-3. Tap your folder of choice. For example, tap **Inbox** to disable push email for your Inbox.
-4. Turn off push email for this folder by tapping until the slider is on the left for **Enable Push**.
-5. Turn on sync for this folder by tapping until the slider is on the right for **Enable sync**.
-
-# New Email notifications are completely separate from the push email service notification
-
-The notifications for new email messages are configured separately from the push email service notification. New email notifications are configured as follows:
-
-- Tap the app menu ≡ \> Settings gear icon ![gear icon](https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif) \> Notifications \> Messages under _Notification categories_.
-
-# Learn more
-
-- Wikipedia: [Push email](https://wikipedia.org/wiki/Push_email)
-- Google: [Control notifications on Android](https://support.google.com/android/answer/9079661)
-
-"
-66231,Getting started with Thunderbird for Android,getting-started-thunderbird-android,https://support.mozilla.org/en-US/kb/getting-started-thunderbird-android,en-US,How to start using Thunderbird for Android.,"<p></p><div class=""warning"">More for Thunderbird for Android: <strong>o</strong> Vote on &amp; suggest improvements at <a href=""https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android"">Connect</a> <strong>o</strong> <a href=""https://www.thunderbird.net/participate/"">Participate/Contribute</a> <strong>o</strong> <a href=""https://support.mozilla.org/questions/new/thunderbird-android/form"">Get Support</a></div>
-<p></p>
-<div id=""toc""><h2>Table of Contents</h2><ul><li class=""toclevel-1""><a href=""#w_add-your-email-accounts""><span class=""tocnumber"">1</span> <span class=""toctext"">Add your email accounts</span></a></li><li class=""toclevel-1""><a href=""#w_configure-push-mail""><span class=""tocnumber"">2</span> <span class=""toctext"">Configure push mail</span></a></li><li class=""toclevel-1""><a href=""#w_need-support-got-a-feature-request-want-to-contribute-to-thunderbird-or-mozilla""><span class=""tocnumber"">3</span> <span class=""toctext"">Need support? Got a Feature Request? Want to contribute to Thunderbird or Mozilla?</span></a></li></ul></div>
-<h1 id=""w_add-your-email-accounts"">Add your email accounts</h1>
-<ul><li> The easiest way to get started is to import your email accounts from Thunderbird Desktop or K-9 or even another version of Thunderbird for Android. For full details please see: <a href=""/en-US/kb/thunderbird-android-import"">Import settings and data into Thunderbird for Android</a>
-</li><li> If you are not an existing Thunderbird user, then like Thunderbird Desktop, your email settings should be automatically configured for most email providers.
-</li></ul>
-<h1 id=""w_configure-push-mail"">Configure push mail</h1>
-<p>Set up push mail if you have email folders that you need to be updated on a more real time basis. Full details: <a href=""/en-US/kb/configure-push-email-thunderbird-android"">Configure push email for Thunderbird for Android</a>
-</p>
-<h1 id=""w_need-support-got-a-feature-request-want-to-contribute-to-thunderbird-or-mozilla"">Need support? Got a Feature Request? Want to contribute to Thunderbird or Mozilla?</h1>
-<ul><li> If the <a href=""https://support.mozilla.org/products/thunderbird-android"">support articles for Thunderbird for Android on this site</a> don't solve your problem and you need support please <a href=""https://support.mozilla.org/questions/new/thunderbird-android"">ask a question on our Thunderbird for Android Forum</a>.
-</li><li> Please suggest feature requests and other improvements on <a href=""https://connect.mozilla.org/"">Mozilla Connect</a>.
-</li><li> Did you know that our community of Thunderbird volunteers in addition to contributing sofware patches,  answers support questions, localizes support articles and more? <a href=""https://www.thunderbird.net/participate/"">Join us</a>!
-</li></ul>",thunderbird-android,email-and-messaging;import-and-export-settings;installation-and-updates;privacy-and-security;settings,"More for Thunderbird for Android: **o** Vote on & suggest improvements at [Connect](https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android) **o** [Participate/Contribute](https://www.thunderbird.net/participate/) **o** [Get Support](https://support.mozilla.org/questions/new/thunderbird-android/form)
-
-## Table of Contents
-
-- [1 Add your email accounts](https://support.mozilla.org/kb/getting-started-thunderbird-android#w_add-your-email-accounts)
-- [2 Configure push mail](https://support.mozilla.org/kb/getting-started-thunderbird-android#w_configure-push-mail)
-- [3 Need support? Got a Feature Request? Want to contribute to Thunderbird or Mozilla?](https://support.mozilla.org/kb/getting-started-thunderbird-android#w_need-support-got-a-feature-request-want-to-contribute-to-thunderbird-or-mozilla)
-
-# Add your email accounts
-
-- The easiest way to get started is to import your email accounts from Thunderbird Desktop or K-9 or even another version of Thunderbird for Android. For full details please see: [Import settings and data into Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/thunderbird-android-import"")
-- If you are not an existing Thunderbird user, then like Thunderbird Desktop, your email settings should be automatically configured for most email providers.
-
-# Configure push mail
-
-Set up push mail if you have email folders that you need to be updated on a more real time basis. Full details: [Configure push email for Thunderbird for Android](\""https://support.mozilla.org/en-US/kb/configure-push-email-thunderbird-android"")
-
-# Need support? Got a Feature Request? Want to contribute to Thunderbird or Mozilla?
-
-- If the [support articles for Thunderbird for Android on this site](https://support.mozilla.org/products/thunderbird-android) don't solve your problem and you need support please [ask a question on our Thunderbird for Android Forum](https://support.mozilla.org/questions/new/thunderbird-android).
-- Please suggest feature requests and other improvements on [Mozilla Connect](https://connect.mozilla.org/).
-- Did you know that our community of Thunderbird volunteers in addition to contributing sofware patches, answers support questions, localizes support articles and more? [Join us](https://www.thunderbird.net/participate/)!
 
 "
 66294,OpenPGP in Thunderbird for Android - How To,openpgp-thunderbird-android-howto,https://support.mozilla.org/en-US/kb/openpgp-thunderbird-android-howto,en-US,"How to set up OpenPGP support in Thunderbird for Android, as implemented in End-To-End Encryption (e2ee).","<p>Thunderbird for Android does not have built-in encryption capabilities. Instead, it uses an external Android application called <a href=""https://www.openkeychain.org/"">OpenKeychain</a>.
